@@ -1,39 +1,4 @@
-----
-
-## Setting up your font
-
-* **New repositories.** Hit the green button above ("Use this template") to create your own repository. Please note that a Github Action job will be executed once you've created the repository which will populate the readme. This may take a few minutes. Please wait for this job to complete before pulling the repo to your local system.*
-
-* **Updating a repository.** To update your font repository to bring in the latest best-practices from
-our Unified Font Repository, run `make update-ufr` from the command line.
-
-
-* Replace the font sources in the `sources` directory with your own font sources. These sources may be either in Glyphs format or UFO/Designspace formats.\
-\
-Unlike many open source distributors, Google Fonts is **curated**. Fonts shipped to the platform have to match the [Google Fonts Specifications](https://github.com/googlefonts/gf-docs/tree/main/Spec). Please read them carefully.\
-\
-*(The sample font provided in this template is [Rubik](https://github.com/googlefonts/rubik/) by Philipp Hubert, Sebastian Fischer, and contributors.)*
-
-* Then reference the sources in the file `sources/config.yaml`, as well as making any other changes you would like to make based on the instructions in the [Google Fonts Builder documentation](https://github.com/googlefonts/gftools/blob/main/Lib/gftools/builder/__init__.py).
-
-
-* Add yourself to the `AUTHORS.txt` and `CONTRIBUTORS.txt` files.
-
-* Update the first line of the OFL.txt (year and project name). Update also the Copyright string in the sources, it has to be the same as the OFL.txt. The `.glyphs` file in this repo gives you required base charset and font info.
-
-* Finally, add and commit any files you have modified (i.e. `README.md`, `AUTHORS.txt`, `CONTRIBUTORS.txt`, the font sources, and `sources/config.yaml`) to git, then push to GitHub. Please be aware that Github Actions may take a few minutes to build your font family. It is worthwhile inspecting the progress in the "Actions" tab.
-
-* If Github Actions has successfully built the family, you will find the font binaries in the Actions tab. The official Github Actions documentation provides further [information](https://docs.github.com/en/actions/managing-workflow-runs/downloading-workflow-artifacts).
-
-* Once you are happy with your font, add promotional assets in the documentation directory. Make it different from the pic you use in this README. You can get inspired by existing tweet @googlefonts like: https://twitter.com/googlefonts/status/1415562928657416192.
-
-* Google Fonts uses Github Releases to manage font families. If you feel your font project has hit a milestone, you must create a new release for it. In order to do this, go to the releases page and hit the "Draft a new release button". You must provide a tag number and title which can only be a decimal number e.g 0.100, 1.000 etc. For the body text, mention what has changed since the last release. Once you are done, hit the "Publish release" button. Here is an example which fulfills the requirements, https://github.com/m4rc1e/test-ufr-family/releases/tag/2.019. For more info regarding Github release, please see the official Github Release [documentation](https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository). **Please note that Github Actions must be able to build the fonts before you can make a release. Once you have made a release, the fonts and tests assets will be attached to the release automatically. This may take a while since the fonts and tests will be built from scratch so please be patient.**
-
-* Remove this section from the readme. :-)
-----
-
-
-# My Font
+# Libre Dot Matrix
 
 [![][Fontbakery]](https://FriedOrange.github.io/Libre-Dot-Matrix/fontbakery/fontbakery-report.html)
 [![][Universal]](https://FriedOrange.github.io/Libre-Dot-Matrix/fontbakery/fontbakery-report.html)
@@ -47,44 +12,61 @@ Unlike many open source distributors, Google Fonts is **curated**. Fonts shipped
 [Shaping]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FFriedOrange%2FLibre-Dot-Matrix%2Fgh-pages%2Fbadges%2FShapingChecks.json
 [Universal]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FFriedOrange%2FLibre-Dot-Matrix%2Fgh-pages%2Fbadges%2FUniversal.json
 
-Description of your font goes here. We recommend to start with a very short presentation line (the kind you would use on twitter to present your project for example), and then add as much details as necesary :-) Origin of the project, idea of usage, concept of creation… but also number of masters, axes, character sets, etc.
+This is set of pixelated, retro-style fonts based on the classic 5&times;7 dot matrix capitals. It comes in four variants:
 
-Don't hesitate to create images!
+* **Regular** is like most &ldquo;pixel&rdquo; fonts that use connected, square dots, like the displays of 8-bit home computers and video game consoles from the 1980s.
+* **Print** is made up of separate circular dots, resembling the output of a dot-matrix printer or the expiry dates stamped on food products. It also mimics the electronic signs found on motorways, at airports, train stations, etc.
+* **Screen** is a similar effect to Print, but uses square dots instead. It matches the look of the &ldquo;character LCDs&rdquo; seen in many devices.
+* **Video** is essentially an interpolated version of Regular. It resembles the on-screen displays of VCRs, Teletext, camcorders and the like; harking back to the early days of computerisation in television and home video.
 
-![Sample Image](documentation/image1.png)
+![Sample Image](documentation/sample1.png)
 
-## About
+### Inspiration
 
-Description of you and/or organisation goes here.
+For much of my life, I have liked both alphabets and lettering, and 8-bit home computers and video games. The intersection of those interests is low-resolution dot matrix graphics and fonts, which remain perhaps the most iconic feature of the 8-bit systems. Fonts based on a 5&times;7 dot matrix are especially noteworthy, having been some of the most common dimensions for over half a century.
+
+In utilitarian applications, 5&times;7 dot matrix fonts may still be found all around us, for example: in calculators, microwave ovens, electronic road signs, train stations and airport terminals, dot-matrix printers (which have mostly fallen out of use, but the style is still commonly seen in the best before or use by dates printed on food packaging) and &ldquo;character LCD&rdquo; modules used in all manner of electronic devices:
+
+| ![Scientific calculator](documentation/inspiration/ScientificCalculator.jpg) | ![Microwave oven display](documentation/inspiration/MicrowaveOven.jpg) | ![Electronic roadwork sign](documentation/inspiration/RoadworkSign.jpg) |
+| --- | --- |
+| ![Train station display](documentation/inspiration/TrainStation.jpg) | ![Best before date](documentation/inspiration/BestBefore.jpg) | ![Character LCD](documentation/inspiration/CharacterLCD.jpg) |
+
+So-called &ldquo;pixel&rdquo; fonts are also a popular stylistic choice, seen in contexts that have nothing to do with electronics or games, even in the absence of technical limitations. With all of that in mind, I feel that the typographical world could be enriched through the creation of a high-quality, open-source font in this ubiquitous style. My idea is to incorporate the best features from historical fonts while avoiding some of the oddities and ugliness often found in them.
+
+Much of my interest in this topic was boosted by Damien Guard’s article, Typography in 8 bits: system fonts. In preparation for creating what I intend to become a large and soundly-designed project, I decided to conduct a more comprehensive study of classic dot-matrix fonts, with a focus on those using the iconic 5&times;7 dot matrix capitals. Conducting this research is important because I want the final product to generally reflect the existing practice, not just my personal taste for each glyph.
 
 ## Building
 
-Fonts are built automatically by GitHub Actions - take a look in the "Actions" tab for the latest build.
+Fonts are built automatically (from the intermediate UFO sources) by GitHub Actions - take a look in the "Actions" tab for the latest build.
 
-If you want to build fonts manually on your own computer:
+### Building manually, on your own computer
 
-* `make build` will produce font files.
-* `make test` will run [FontBakery](https://github.com/googlefonts/fontbakery)'s quality assurance tests.
-* `make proof` will generate HTML proof files.
+Ensure the following programs are installed and added to your PATH environment variable: [Python](https://www.python.org/downloads/), [gftools](https://github.com/googlefonts/gftools), [Fontbakery](https://github.com/googlefonts/fontbakery).
 
-The proof files and QA tests are also available automatically via GitHub Actions - look at https://FriedOrange.github.io/Libre-Dot-Matrix.
+To build the fonts manually on Windows:
+
+* Run `build.bat` in the `sources` folder. 
+
+To build the fonts manually on Linux/macOS:
+
+* Run `build.sh` in the `sources` folder (not tested).
+
+The master source file, `Libre-Dot-Matrix.sfd`, is in FontForge&rsquo;s SFD format. It is recommended to edit this file if you wish to modify the font. Then, re-generate the UFO sources by running `step2.bat`.
+
+To easily add or modify glyphs (requires [FontForge](https://fontforge.org/)):
+
+* Edit the image `glyphs.pbm`
+* Set the corresponding codepoints (or glyph names, for unencoded glyphs) in `glyphs.csv`
+* Run `step1.bat`, which generates a temporary font containing the new glyphs. 
+* Copy the new glyphs into the master source file, `Libre-Dot-Matrix.sfd`, for manual editing as required.
 
 ## Changelog
 
-When you update your font (new version or new release), please report all notable changes here, with a date.
-[Font Versioning](https://github.com/googlefonts/gf-docs/tree/main/Spec#font-versioning) is based on semver. 
-Changelog example:
-
-**26 May 2021. Version 2.13**
-- MAJOR Font turned to a variable font.
-- SIGNIFICANT New Stylistic sets added.
+The font is currently in early development. This changelog will be updated once releases are made.
+[Font Versioning](https://github.com/googlefonts/gf-docs/tree/main/Spec#font-versioning) is based on semver.
 
 ## License
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 This license is available with a FAQ at
 https://scripts.sil.org/OFL
-
-## Repository Layout
-
-This font repository structure is inspired by [Unified Font Repository v0.3](https://github.com/unified-font-repository/Unified-Font-Repository), modified for the Google Fonts workflow.
