@@ -15,7 +15,7 @@
 This is set of pixelated, retro-style fonts based on the classic 5&times;7 dot matrix capitals. It comes in four variants:
 
 * **Regular** is like most &ldquo;pixel&rdquo; fonts that use connected, square dots, like the displays of 8-bit home computers and video game consoles from the 1980s.
-* **Print** is made up of separate circular dots, resembling the output of a dot-matrix printer or the expiry dates stamped on food products. It also mimics the electronic signs found on motorways, at airports, train stations, etc.
+* **Print** is made up of separate circular dots, resembling the output of a dot-matrix printer or the expiry dates stamped on food products. It also mimics the electronic signs found on motorways, at airports and train stations, etc.
 * **Screen** is a similar effect to Print, but uses square dots instead. It matches the look of the &ldquo;character LCDs&rdquo; seen in many devices.
 * **Video** is essentially an interpolated version of Regular. It resembles the on-screen displays of VCRs, Teletext, camcorders and the like; harking back to the early days of computerisation in television and home video.
 
@@ -31,9 +31,13 @@ In utilitarian applications, 5&times;7 dot matrix fonts may still be found all a
 | --- | --- | --- |
 | ![Train station display](documentation/inspiration/TrainStation.jpg) | ![Best before date](documentation/inspiration/BestBefore.jpg) | ![Character LCD](documentation/inspiration/CharacterLCD.jpg) |
 
-So-called &ldquo;pixel&rdquo; fonts are also a popular stylistic choice, seen in contexts that have nothing to do with electronics or games, even in the absence of technical limitations. With all of that in mind, I feel that the typographical world could be enriched through the creation of a high-quality, open-source font in this ubiquitous style. My idea is to incorporate the best features from historical fonts while avoiding some of the oddities and ugliness often found in them.
+So-called &ldquo;pixel&rdquo; fonts are also a popular stylistic choice, often seen in contexts that have nothing to do with electronics or games, even in the absence of technical limitations. With all of that in mind, I felt that the typographical world could be enriched through the creation of a high-quality, open-source font in this ubiquitous style. My idea was to incorporate the best features from historical fonts while avoiding some of the oddities and ugliness often found in them.
 
-Much of my interest in this topic was boosted by Damien Guard’s article, Typography in 8 bits: system fonts. In preparation for creating what I intend to become a large and soundly-designed project, I decided to conduct a more comprehensive study of classic dot-matrix fonts, with a focus on those using the iconic 5&times;7 dot matrix capitals. Conducting this research is important because I want the final product to generally reflect the existing practice, not just my personal taste for each glyph.
+Much of my interest in this topic was boosted by Damien Guard’s article, [*Typography in 8 bits: system fonts*](https://damieng.com/blog/2011/02/20/typography-in-8-bits-system-fonts). In preparation for this project, I decided to conduct a more comprehensive study of classic dot-matrix fonts, with a focus on those using the iconic 5&times;7 dot matrix capitals.
+
+## Research
+
+**TODO**
 
 ## Building
 
@@ -51,7 +55,9 @@ To build the fonts manually on Linux/macOS:
 
 * Run `build.sh` in the `sources` folder (not tested).
 
-The master source file, `Libre-Dot-Matrix.sfd`, is in FontForge&rsquo;s SFD format. It is recommended to edit this file if you wish to modify the font. Then, re-generate the UFO sources by running `step2.bat`.
+### Modifying the fonts
+
+The master source file, `Libre-Dot-Matrix.sfd`, is in FontForge&rsquo;s SFD format. It is recommended to edit this file if you wish to modify the fonts. Then, re-generate the UFO sources by running `step2.bat`.
 
 To easily add or modify glyphs (requires [FontForge](https://fontforge.org/)):
 
