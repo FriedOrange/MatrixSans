@@ -28,7 +28,7 @@ For much of my life, I have liked both alphabets and lettering, and 8-bit home c
 In utilitarian applications, 5&times;7 dot matrix fonts may still be found all around us, for example: in calculators, microwave ovens, electronic road signs, train stations and airport terminals, dot-matrix printers (which have mostly fallen out of use, but the style is still commonly seen in the best before or use by dates printed on food packaging) and &ldquo;character LCD&rdquo; modules used in all manner of electronic devices:
 
 | ![Scientific calculator](documentation/inspiration/ScientificCalculator.jpg) | ![Microwave oven display](documentation/inspiration/MicrowaveOven.jpg) | ![Electronic roadwork sign](documentation/inspiration/RoadworkSign.jpg) |
-| --- | --- |
+| --- | --- | --- |
 | ![Train station display](documentation/inspiration/TrainStation.jpg) | ![Best before date](documentation/inspiration/BestBefore.jpg) | ![Character LCD](documentation/inspiration/CharacterLCD.jpg) |
 
 So-called &ldquo;pixel&rdquo; fonts are also a popular stylistic choice, seen in contexts that have nothing to do with electronics or games, even in the absence of technical limitations. With all of that in mind, I feel that the typographical world could be enriched through the creation of a high-quality, open-source font in this ubiquitous style. My idea is to incorporate the best features from historical fonts while avoiding some of the oddities and ugliness often found in them.
