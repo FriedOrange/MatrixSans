@@ -1,0 +1,50 @@
+languagesystem DFLT dflt;
+languagesystem latn dflt;
+
+@small = [a-z]
+@cap = [A-Z]
+@smallcap = [A.sc B.sc c D.sc E.sc F.sc G.sc H.sc I.sc J.sc K.sc L.sc M.sc N.sc o P.sc Q.sc R.sc s T.sc U.sc v w x Y.sc z]
+
+feature smcp {
+	sub @small by @smallcap
+} smcp;
+
+feature c2sc {
+	sub @cap by @smallcap
+}
+
+feature ss01 {
+	sub b by b.alt1;
+	sub d by d.alt1;
+	sub g by g.alt1;
+	sub h by h.alt;
+	sub n by n.alt;
+	sub p by p.alt1;
+	sub q by q.alt1;
+	sub u by u.alt;
+	sub y by y.alt1;
+} ss01;
+
+feature ss01 {
+	sub b by b.alt2;
+	sub d by d.alt2;
+	sub g by g.alt2;
+	sub h by h.alt;
+	sub n by n.alt;
+	sub p by p.alt2;
+	sub q by q.alt2;
+	sub u by u.alt;
+	sub y by y.alt1;
+} ss02;
+
+feature ss03 {
+	sub y by alt.alt2;
+} ss03;
+
+feature ss04 {
+	sub m by m.alt;
+} ss04;
+
+feature ss05 {
+	sub w by w.alt;
+} ss05;
