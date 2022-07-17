@@ -93,19 +93,5 @@ def main():
 	font.save(sys.argv[3])
 
 
-
-# glyph.user_decomp
-# glyph.build()
-
-# glyph.unlinkThisGlyph()
-
-# glyph.cluster()
-
-#font["A"].round(0.1)
-
-
-# run fron within FontForge:
-#fontforge.activeFont().round(0.1)
-
 if __name__ == "__main__":
 	main()

@@ -4,7 +4,7 @@ FullName: Untitled1
 FamilyName: Untitled1
 Weight: Regular
 Copyright: Copyright (c) 2022, neilb
-UComments: "2022-7-16: Created with FontForge (http://fontforge.org)"
+UComments: "2022-7-17: Created with FontForge (http://fontforge.org)"
 Version: 001.000
 ItalicAngle: 0
 UnderlinePosition: -100
@@ -15,12 +15,12 @@ InvalidEm: 0
 LayerCount: 2
 Layer: 0 0 "Back" 1
 Layer: 1 0 "Fore" 0
-XUID: [1021 655 -629464056 810]
+XUID: [1021 313 -527854406 24165]
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
-CreationTime: 1657964544
-ModificationTime: 1657964544
+CreationTime: 1658042031
+ModificationTime: 1658042031
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
