@@ -12,7 +12,6 @@ import sys
 import fontforge
 
 dot_size = 100
-filename = sys.argv[1][:-4]
 font = fontforge.open(sys.argv[1])
 
 # Regular style
@@ -22,14 +21,16 @@ font.selection.all()
 font.removeOverlap()
 font.simplify()
 font.round(0.1) # hack: the "dot" glyph is deliberately 1 unit too large so that simplify() produces nicer outlines; this reverses that
-font.generate(filename + "-Regular.ufo")
+font.generate("LibreDotMatrix-Regular.ufo")
 
 # Screen style
 font.revert()
 font.selection.select("dot")
 font.round(0.1)
 font["dot"].transform((0.8, 0.0, 0.0, 0.8, 10.0, 10.0))
-font.generate(filename + "Screen-Regular.ufo")
+font.fontname = "LibreDotMatrixScreen"
+font.familyname = "Libre Dot Matrix Screen"
+font.generate("LibreDotMatrixScreen-Regular.ufo")
 
 # Print style
 font["dot"].clear()
@@ -38,7 +39,9 @@ circle.draw(font["dot"].glyphPen()) # draws the circle into the glyph, replacing
 font["dot"].transform((45.0, 0.0, 0.0, 45.0, 50.0, 50.0))
 font["dot"].round()
 font["dot"].width = 100
-font.generate(filename + "Print-Regular.ufo")
+font.fontname = "LibreDotMatrixPrint"
+font.familyname = "Libre Dot Matrix Print"
+font.generate("LibreDotMatrixPrint-Regular.ufo")
 
 # glyph.user_decomp
 # glyph.build()
