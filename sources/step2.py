@@ -30,6 +30,7 @@ font.round(0.1)
 font["dot"].transform((0.8, 0.0, 0.0, 0.8, 10.0, 10.0))
 font.fontname = "LibreDotMatrixScreen"
 font.familyname = "Libre Dot Matrix Screen"
+font.fullname = "Libre Dot Matrix Screen"
 font.generate("LibreDotMatrixScreen-Regular.ufo")
 
 # Print style
@@ -41,6 +42,7 @@ font["dot"].round()
 font["dot"].width = 100
 font.fontname = "LibreDotMatrixPrint"
 font.familyname = "Libre Dot Matrix Print"
+font.fullname = "Libre Dot Matrix Print"
 font.generate("LibreDotMatrixPrint-Regular.ufo")
 
 # glyph.user_decomp
