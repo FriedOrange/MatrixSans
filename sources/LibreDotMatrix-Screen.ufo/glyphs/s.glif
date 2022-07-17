@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="s" format="2">
+  <advance width="601"/>
+  <unicode hex="0073"/>
+  <outline>
+    <component base="dot" xOffset="350"/>
+    <component base="dot" xOffset="250"/>
+    <component base="dot" xOffset="150"/>
+    <component base="dot" xOffset="50"/>
+    <component base="dot" xOffset="450" yOffset="100"/>
+    <component base="dot" xOffset="350" yOffset="200"/>
+    <component base="dot" xOffset="250" yOffset="200"/>
+    <component base="dot" xOffset="150" yOffset="200"/>
+    <component base="dot" xOffset="50" yOffset="300"/>
+    <component base="dot" xOffset="450" yOffset="400"/>
+    <component base="dot" xOffset="350" yOffset="400"/>
+    <component base="dot" xOffset="250" yOffset="400"/>
+    <component base="dot" xOffset="150" yOffset="400"/>
+  </outline>
+</glyph>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="exclam" format="2">
+  <advance width="201"/>
+  <unicode hex="0021"/>
+  <outline>
+    <component base="dot" xOffset="50"/>
+    <component base="dot" xOffset="50" yOffset="200"/>
+    <component base="dot" xOffset="50" yOffset="300"/>
+    <component base="dot" xOffset="50" yOffset="400"/>
+    <component base="dot" xOffset="50" yOffset="500"/>
+    <component base="dot" xOffset="50" yOffset="600"/>
+  </outline>
+</glyph>
