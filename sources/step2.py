@@ -19,7 +19,7 @@ font.selection.all()
 font.removeOverlap()
 font.simplify()
 font.round(0.1) # hack: the "dot" glyph is deliberately 1 unit too large so that simplify() produces nicer outlines; this reverses that
-font.generate("Libre-Dot-Matrix-Regular.ufo")
+font.generate("LibreDotMatrix-Regular.ufo")
 
 # glyph.user_decomp
 # glyph.build()

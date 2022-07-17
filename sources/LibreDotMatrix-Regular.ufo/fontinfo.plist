@@ -5,7 +5,7 @@
     <key>familyName</key>
     <string>Libre Dot Matrix</string>
     <key>styleName</key>
-    <string>Matrix</string>
+    <string>Regular</string>
     <key>styleMapFamilyName</key>
     <string>Libre Dot Matrix</string>
     <key>versionMajor</key>
@@ -62,7 +62,7 @@
     <key>openTypeOS2WinDescent</key>
     <integer>200</integer>
     <key>postscriptFontName</key>
-    <string>Libre-Dot-Matrix</string>
+    <string>LibreDotMatrix</string>
     <key>postscriptFullName</key>
     <string>Libre Dot Matrix</string>
     <key>postscriptWeightName</key>

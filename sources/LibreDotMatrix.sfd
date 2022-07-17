@@ -1,5 +1,5 @@
 SplineFontDB: 3.2
-FontName: Libre-Dot-Matrix
+FontName: LibreDotMatrix
 FullName: Libre Dot Matrix
 FamilyName: Libre Dot Matrix
 Weight: Regular
@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1657964544
-ModificationTime: 1658042359
+ModificationTime: 1658055706
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5

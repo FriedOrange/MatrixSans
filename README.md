@@ -55,7 +55,7 @@ To build the fonts manually on Windows:
 
 To build the fonts manually on Linux/macOS:
 
-* Run `build.sh` in the `sources` folder (not tested).
+* From the `sources` folder, run the command `gftools builder config.yaml` (not tested).
 
 ### Modifying the fonts
 
