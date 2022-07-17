@@ -1,16 +1,16 @@
 # Libre Dot Matrix
 
-[![][Fontbakery]](https://FriedOrange.github.io/Libre-Dot-Matrix/fontbakery/fontbakery-report.html)
-[![][Universal]](https://FriedOrange.github.io/Libre-Dot-Matrix/fontbakery/fontbakery-report.html)
-[![][GF Profile]](https://FriedOrange.github.io/Libre-Dot-Matrix/fontbakery/fontbakery-report.html)
-[![][Outline Correctness]](https://FriedOrange.github.io/Libre-Dot-Matrix/fontbakery/fontbakery-report.html)
-[![][Shaping]](https://FriedOrange.github.io/Libre-Dot-Matrix/fontbakery/fontbakery-report.html)
+[![][Fontbakery]](https://FriedOrange.github.io/LibreDotMatrix/fontbakery/fontbakery-report.html)
+[![][Universal]](https://FriedOrange.github.io/LibreDotMatrix/fontbakery/fontbakery-report.html)
+[![][GF Profile]](https://FriedOrange.github.io/LibreDotMatrix/fontbakery/fontbakery-report.html)
+[![][Outline Correctness]](https://FriedOrange.github.io/LibreDotMatrix/fontbakery/fontbakery-report.html)
+[![][Shaping]](https://FriedOrange.github.io/LibreDotMatrix/fontbakery/fontbakery-report.html)
 
-[Fontbakery]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FFriedOrange%2FLibre-Dot-Matrix%2Fgh-pages%2Fbadges%2Foverall.json
-[GF Profile]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FFriedOrange%2FLibre-Dot-Matrix%2Fgh-pages%2Fbadges%2FGoogleFonts.json
-[Outline Correctness]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FFriedOrange%2FLibre-Dot-Matrix%2Fgh-pages%2Fbadges%2FOutlineCorrectnessChecks.json
-[Shaping]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FFriedOrange%2FLibre-Dot-Matrix%2Fgh-pages%2Fbadges%2FShapingChecks.json
-[Universal]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FFriedOrange%2FLibre-Dot-Matrix%2Fgh-pages%2Fbadges%2FUniversal.json
+[Fontbakery]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FFriedOrange%2FLibreDotMatrix%2Fgh-pages%2Fbadges%2Foverall.json
+[GF Profile]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FFriedOrange%2FLibreDotMatrix%2Fgh-pages%2Fbadges%2FGoogleFonts.json
+[Outline Correctness]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FFriedOrange%2FLibreDotMatrix%2Fgh-pages%2Fbadges%2FOutlineCorrectnessChecks.json
+[Shaping]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FFriedOrange%2FLibreDotMatrix%2Fgh-pages%2Fbadges%2FShapingChecks.json
+[Universal]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FFriedOrange%2FLibreDotMatrix%2Fgh-pages%2Fbadges%2FUniversal.json
 
 This is set of pixelated, retro-style fonts based on the classic 5&times;7 dot matrix capitals. There are four variants:
 
@@ -47,7 +47,7 @@ Fonts are built automatically (from the intermediate UFO sources) by GitHub Acti
 
 ### Building manually
 
-Ensure the following programs are installed and added to your PATH environment variable: [Python](https://www.python.org/downloads/), [gftools](https://github.com/googlefonts/gftools), [Fontbakery](https://github.com/googlefonts/fontbakery).
+Ensure the following programs are installed and added to your PATH environment variable: [Python](https://www.python.org/downloads/), [gftools](https://github.com/googlefonts/gftools).
 
 To build the fonts manually on Windows:
 
@@ -59,18 +59,18 @@ To build the fonts manually on Linux/macOS:
 
 ### Modifying the fonts
 
-The master source file, `Libre-Dot-Matrix.sfd`, is in FontForge&rsquo;s SFD format. It is recommended to edit this file if you wish to modify the fonts. Then, re-generate the UFO sources by running `step2.bat`.
+The master source file, `LibreDotMatrix.sfd`, is in FontForge&rsquo;s SFD format. It is recommended to edit this file if you wish to modify the fonts. Then, re-generate the UFO sources by running `step2.bat`.
 
 To easily add or modify glyphs (requires [FontForge](https://fontforge.org/)):
 
 * Edit the image `glyphs.pbm`
 * Set the corresponding codepoints (or glyph names, for unencoded glyphs) in `glyphs.csv`
 * Run `step1.bat`, which generates a temporary font containing the new glyphs. 
-* Copy the new glyphs into the master source file, `Libre-Dot-Matrix.sfd`, for manual editing as required.
+* Copy the new glyphs into the master source file, `LibreDotMatrix.sfd`, for manual editing as required.
 
 ## Changelog
 
-The font is currently in early development. This changelog will be updated once releases are made.
+The fonts are currently in early development. This changelog will be updated once releases are made.
 
 [Font Versioning](https://github.com/googlefonts/gf-docs/tree/main/Spec#font-versioning) is based on semver.
 
