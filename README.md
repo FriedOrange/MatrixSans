@@ -12,14 +12,27 @@
 [Shaping]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FFriedOrange%2FLibreDotMatrix%2Fgh-pages%2Fbadges%2FShapingChecks.json
 [Universal]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FFriedOrange%2FLibreDotMatrix%2Fgh-pages%2Fbadges%2FUniversal.json
 
-This is set of pixelated, retro-style fonts based on the classic 5&times;7 dot matrix capitals. There are four variants:
+![Sample Image](documentation/sample1.png)
+
+This is set of pixelated, retro-style fonts based on the classic 5&times;7 dot matrix capitals. The design captures the spirit of this ubiquitous style, while avoiding the ugly features often seen in historical 5&times;7 fonts. There are four variants in this family:
 
 * **Regular** is like most &ldquo;pixel&rdquo; fonts that use connected, square dots, like the displays of 8-bit home computers and video game consoles from the 1980s.
 * **Print** is made up of separate circular dots, resembling the output of a dot-matrix printer or the expiry dates on food products. It also mimics the electronic signs found on motorways, at airports and train stations, etc.
 * **Screen** is a similar effect to Print, but uses square dots instead. It matches the look of the &ldquo;character LCDs&rdquo; seen in many devices, as well as some light-up LED displays.
 * **Video** is an interpolated version of Regular. It resembles the on-screen displays of VCRs, Teletext, camcorders and the like; harking back to the early days of computerisation in television and home video.
 
-![Sample Image](documentation/sample1.png)
+## Design
+
+When designing the dot-matrix patterns for these fonts, I attempted to strike a balance between the following principles:
+
+* authenticity
+* quirkiness
+* consistency
+* sound design
+
+*Authenticity* and *quirkiness* are often in conflict with *consistency* and *sound design*; the countless historical 5&times;7 fonts contain many unusual-looking (*quirky*) features, which by their nature are often poorly-designed. This is not to mention inconsistency: in most prior examples, for instance, the shapes of the letters *b*, *d*, *p* and *q* are frequently disharmonious in 5&times;7 fonts, despite being conventionally similar.
+
+In this project, I have attempted to avoid ugliness, rein in the oddities and choose the most coherent, well thought-out designs possible.
 
 ### Inspiration
 
@@ -37,9 +50,13 @@ With all of that in mind, I felt that the typographical world could be enriched 
 
 Much of my interest in this topic was boosted by Damien Guard’s article, [*Typography in 8 bits: system fonts*](https://damieng.com/blog/2011/02/20/typography-in-8-bits-system-fonts). In preparation for this project, I decided to conduct a more comprehensive study of classic dot-matrix fonts, with a focus on those using the iconic 5&times;7 dot matrix capitals.
 
-## Research
+### Research
 
 **TODO**
+
+### Proportional spacing
+
+Readers today expect visually consistent spacing around all characters, including narrow ones like *1 I i l* and punctuation marks. Trading some *authenticity* for *sound design*, this font family is proportionally spaced, unlike most prior 5&times;7 fonts. The proportionally-spaced typefaces [American Typewriter](https://www.fonts.com/font/itc/itc-american-typewriter) and [OCR A Tribute](https://www.fonts.com/font/linotype/ocr-a-tribute) are similarly inspired by classic monospaced designs, but take the further step of tweaking the proportions of the glyphs themselves, in the pursuit of a more conventional reading experience. This design doesn&rsquo;t go that far: all glyphs (and spaces between them) are still based strictly on a square grid. Where possible, glyphs have been kept to no more than 5 dots wide, which would allow for a monospaced version to be created with mostly the same glyphs.
 
 ## Building
 
