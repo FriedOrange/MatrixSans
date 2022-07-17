@@ -14,7 +14,7 @@
 
 ![Sample Image](documentation/sample1.png)
 
-This is set of pixelated, retro-style fonts based on the classic 5&times;7 dot matrix capitals. The design captures the spirit of this ubiquitous style, while avoiding the ugly features often seen in historical 5&times;7 fonts. There are four variants in this family:
+This is set of pixelated, retro-style fonts based on the classic 5&times;7 dot matrix capitals. The design captures the spirit of this ubiquitous style, incorporating the only best features of historical 5&times;7 fonts. There are four variants in this family:
 
 * **Regular** is like most &ldquo;pixel&rdquo; fonts that use connected, square dots, like the displays of 8-bit home computers and video game consoles from the 1980s.
 * **Print** is made up of separate circular dots, resembling the output of a dot-matrix printer or the expiry dates on food products. It also mimics the electronic signs found on motorways, at airports and train stations, etc.
@@ -30,15 +30,15 @@ When designing the dot-matrix patterns for these fonts, I attempted to strike a 
 * consistency
 * sound design
 
-*Authenticity* and *quirkiness* are often in conflict with *consistency* and *sound design*; the countless historical 5&times;7 fonts contain many unusual-looking (*quirky*) features, which by their nature are often poorly-designed. This is not to mention inconsistency: in most prior examples, for instance, the shapes of the letters *b*, *d*, *p* and *q* are frequently disharmonious in 5&times;7 fonts, despite being conventionally similar.
+*Authenticity* and *quirkiness* are often in conflict with *consistency* and *sound design*; the countless historical 5&times;7 fonts contain many unusual-looking (*quirky*) features, which by their nature are often poorly-designed. This is not to mention inconsistency: in most prior examples, for instance, the shapes of the letters *b*, *d*, *p* and *q* are frequently disharmonious, despite being similar by convention.
 
-In this project, I have attempted to avoid ugliness, rein in the oddities and choose the most coherent, well thought-out designs possible.
+In order to retain the essence and charm of existing 5&times;7 fonts, yet rein in their oddities and avoid ugliness, none of these principles can be *fully* embraced. Instead, they serve as a guide while trying to choose the most coherent, well thought-out designs possible for this project.
 
 ### Inspiration
 
 For much of my life, I have liked both alphabets and lettering, and 8-bit home computers and video games. The intersection of those interests is low-resolution dot matrix graphics and fonts, which remain perhaps the most iconic feature of the 8-bit systems. Fonts based on a 5&times;7 dot matrix are especially noteworthy, having been some of the most common dimensions for over half a century.
 
-In utilitarian applications, 5&times;7 dot matrix fonts may still be found all around us, for example: in calculators, microwave ovens, electronic road signs, train stations and airport terminals, dot-matrix printers (which have mostly fallen out of use, but the style is still commonly seen in the best before or use by dates printed on food packaging) and &ldquo;character LCD&rdquo; modules used in all manner of electronic devices:
+In utilitarian applications, 5&times;7 dot matrix fonts may still be found all around us, for example: in calculators, microwave ovens, electronic road signs, train stations and airport terminals, dot-matrix printers (which have mostly fallen out of use, but the style is still commonly seen in the expiry dates printed on food packaging) and &ldquo;character LCD&rdquo; modules used in all manner of electronic devices:
 
 | ![Scientific calculator](documentation/inspiration/ScientificCalculator.jpg) | ![Microwave oven display](documentation/inspiration/MicrowaveOven.jpg) | ![Electronic roadwork sign](documentation/inspiration/RoadworkSign.jpg) |
 | --- | --- | --- |
@@ -46,13 +46,11 @@ In utilitarian applications, 5&times;7 dot matrix fonts may still be found all a
 
 So-called &ldquo;pixel&rdquo; fonts are also a popular stylistic choice, often seen in contexts that have nothing to do with electronics or games, even in the absence of technical limitations. I have been disappointed by some existing computer fonts in this style, however; many contain unusual, ugly or unrealistic designs, and most have only a small character set.
 
-With all of that in mind, I felt that the typographical world could be enriched through the creation of high-quality, open-source fonts in this ubiquitous style. My idea was to incorporate the best features from historical fonts while avoiding some of the oddities and ugliness often found in them.
-
-Much of my interest in this topic was boosted by Damien Guard’s article, [*Typography in 8 bits: system fonts*](https://damieng.com/blog/2011/02/20/typography-in-8-bits-system-fonts). In preparation for this project, I decided to conduct a more comprehensive study of classic dot-matrix fonts, with a focus on those using the iconic 5&times;7 dot matrix capitals.
+With all of that in mind, I felt that the typographical world could be enriched through the creation of high-quality, open-source fonts in this style.
 
 ### Research
 
-**TODO**
+Much of my interest in this topic was boosted by Damien Guard’s article, [*Typography in 8 bits: system fonts*](https://damieng.com/blog/2011/02/20/typography-in-8-bits-system-fonts). In preparation for this project, I decided to conduct a more comprehensive study of classic dot-matrix fonts, with a focus on those using the iconic 5&times;7 dot matrix capitals.
 
 ### Proportional spacing
 
