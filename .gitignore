@@ -6,7 +6,7 @@ fonts
 node_modules
 package-lock.json
 package.json
-sources/test.bat
+test.bat
 
 # OS generated files #
 ######################
