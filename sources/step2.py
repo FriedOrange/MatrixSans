@@ -19,7 +19,9 @@ descent_dots = 2
 left_side_bearing = 50
 font = fontforge.open(sys.argv[1])
 
+#######################################
 # Regular style
+#######################################
 font["dot"].unlinkThisGlyph()
 font["dot"].clear()
 font.selection.all()
@@ -28,7 +30,9 @@ font.simplify()
 font.round(0.1) # hack: the "dot" glyph is deliberately 1 unit too large so that simplify() produces nicer outlines; this reverses that
 font.generate("LibreDotMatrix-Regular.ufo")
 
+#######################################
 # Screen style
+#######################################
 font.revert()
 font.selection.select("dot")
 font.round(0.1)
@@ -38,7 +42,9 @@ font.familyname = "Libre Dot Matrix Screen"
 font.fullname = "Libre Dot Matrix Screen"
 font.generate("LibreDotMatrixScreen-Regular.ufo")
 
+#######################################
 # Print style
+#######################################
 font["dot"].clear()
 circle = fontforge.unitShape(0) # creates a unit circle
 circle.draw(font["dot"].glyphPen()) # draws the circle into the glyph, replacing previous outlines
@@ -50,7 +56,9 @@ font.familyname = "Libre Dot Matrix Print"
 font.fullname = "Libre Dot Matrix Print"
 font.generate("LibreDotMatrixPrint-Regular.ufo")
 
+#######################################
 # Video style
+#######################################
 font.revert()
 
 font.createChar(-1, "halfdot")
@@ -62,8 +70,45 @@ pen.lineTo(dot_size // 2 + 1, 0)
 pen.closePath()
 pen = None
 
+patterns = [
+	[[15, 15, -1],
+	[0, 15, -1],
+	[0, 8, 15], 
+	(0.5, 1.0)], # x offset, y offset
+	[[0, 2, 15],
+	[0, 15, -1],
+	[15, 15, -1],
+	(0.5, 1.5)],
+	[[-1, 15, 15],
+	[-1, 15, 0],
+	[15, 4, 0],
+	(2.0, 1.0)],
+	[[15, 1, 0],
+	[-1, 15, 0],
+	[-1, 15, 15],
+	(2.0, 1.5)],
+	[[0, 0, 15],
+	[2, 15, 15],
+	[15, -1, -1],
+	(1.5, 0.5)],
+	[[15, -1, -1],
+	[8, 15, 15],
+	[0, 0, 15],
+	(1.5, 2.0)],
+	[[15, 0, 0],
+	[15, 15, 1],
+	[-1, -1, 15],
+	(1.0, 0.5)],
+	[[-1, -1, 15],
+	[15, 15, 4],
+	[15, 0, 0],
+	(1.0, 2.0)]]
+
 for glyph in font:
-	matrix = [[False]*glyph_height for _ in range(glyph_width)]
+
+	# determine where the dots are in each glyph
+	matrix = [[False]*glyph_height for _ in range(glyph_width)] # full dots
+	matrix2 = [[0]*glyph_height for _ in range(glyph_width)] # occupied quadrants
 	skip = False
 	for ref, trans in font[glyph].references:
 		if ref != "dot":
@@ -74,17 +119,44 @@ for glyph in font:
 		x //= dot_size
 		y = y // dot_size + descent_dots
 		matrix[x][y] = True
+		matrix2[x][y] = 15
 	if skip:
 		continue
+
+	# basic interpolation, Mullard SAA5050 style
 	for x in range(glyph_width - 1):
 		for y in range(glyph_height - 1):
 			if matrix[x][y] and matrix[x + 1][y + 1] and not (matrix[x + 1][y] or matrix[x][y + 1]):
 				font[glyph].addReference("halfdot", (1, 0, 0, 1, x * dot_size + dot_size // 2 + left_side_bearing, (y - descent_dots + 1) * dot_size))
 				font[glyph].addReference("halfdot", (1, 0, 0, 1, (x + 1) * dot_size + left_side_bearing, (y - descent_dots) * dot_size + dot_size // 2))
+				matrix2[x][y + 1] = 8 # bottom right quarter-dot
+				matrix2[x + 1][y] = 1 # top left
 			if matrix[x][y + 1] and matrix[x + 1][y] and not (matrix[x][y] or matrix[x + 1][y + 1]):
 				font[glyph].addReference("halfdot", (1, 0, 0, 1, x * dot_size + dot_size // 2 + left_side_bearing, (y - descent_dots) * dot_size + dot_size // 2))
 				font[glyph].addReference("halfdot", (1, 0, 0, 1, (x + 1) * dot_size + left_side_bearing, (y - descent_dots + 1) * dot_size))
+				matrix2[x][y] = 2 # top right
+				matrix2[x + 1][y + 1] = 4 # bottom right
 
+	continue # this extra step makes a lot of things look worse, so skip it for now
+	# more complicated interpolation, to fix ugly spots left by the basic method
+	for i in range(glyph_width - 2):
+		for j in range(glyph_height - 2):
+			for pattern in patterns:
+				skip = False
+				for a in range(3):
+					for b in range(3):
+						if pattern[b][a] >= 0 and pattern[b][a] != matrix2[i + a][j + b]:
+							skip = True
+							break
+					if skip:
+						break
+				if skip:
+					continue
+				# we found a matching pattern: need to add half-dot
+				x, y, = pattern[3]
+				font[glyph].addReference("halfdot", (1, 0, 0, 1, (i + x) * dot_size + left_side_bearing, (j + y - descent_dots) * dot_size))
+
+# interpolation done, now finish it off the same as Regular style
 font["dot"].unlinkThisGlyph()
 font["halfdot"].unlinkThisGlyph()
 font["dot"].clear()
@@ -98,5 +170,8 @@ font.fontname = "LibreDotMatrixVideo"
 font.familyname = "Libre Dot Matrix Video"
 font.fullname = "Libre Dot Matrix Video"
 font.generate("LibreDotMatrixVideo-Regular.ufo")
+
+
+
 # glyph.user_decomp
 # glyph.build()
