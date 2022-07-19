@@ -20,10 +20,10 @@
 <h3>IBM 029 Card Punch</h3>
 <img src="research/IBM029.png" alt="IBM 029 character set" width="672" height="60">
 <p><i>Reference: <a href="https://www.masswerk.at/misc/card-punch-typography/">Norbert Landsteiner &mdash; Punched Card Typography Explained</a></i></p>
+<p><i>Font replicating this design: <a href="http://scruss.com/blog/2017/03/21/keypunch029-for-all-your-punched-card-font-needs/">Keypunch029</a> by Stewart C. Russell</i></p>
 
 <p>The IBM 029, a machine for creating <a href="https://en.wikipedia.org/wiki/Punched_card">punched cards</a>, was introduced in 1964 to replace the 026 Printing Card Punch from 1949. I decided to show the 029 character set here because it could print a few more characters than the 026. They are the two oldest dot-matrix character sets I have found in my research. They are so old, in fact, that the patterns were stored on a metal &ldquo;code plate&rdquo; since electronic read-only memories &mdash; indeed, integrated circuits (or silicon chips) in general &mdash; were yet to be invented.</p>
 <p>Despite their advanced age, a majority of these glyphs have stood the test of time, appearing the same as newer 5&times;7 dot matrix fonts. There are only a couple of truly unusual designs, like the letter <i>S</i> which was probably chosen to differentiate it from the number <i>5</i>.</p>
-<p>Font replicating this design: <a href="http://scruss.com/blog/2017/03/21/keypunch029-for-all-your-punched-card-font-needs/">Keypunch029</a> by Stewart C. Russell</p>
 <div class="pmi">
 	<h4>P</h4>
 	<ul>
@@ -305,10 +305,10 @@
 <h3>Motorola MCM6674</h3>
 <img src="research/MCM6674.png" alt="Motorola MCM6674 character set" width="672" height="90">
 <p><i>Reference: <a href="https://datasheetspdf.com/pdf-file/555109/MotorolaSemiconductor/MCM6674/1">MCM6674 datasheet</a></i></p>
+<p><i>Font replicating this design: <a href="http://www.kreativekorp.com/software/fonts/trs80/">Another Mans Treasure</a> by Rebecca G. Bettencourt</i></p>
 
 <p>This character generator is notable for having being used in the Tandy/Radio Shack TRS-80 Model I computer. It was relatively advanced in that it contained glyphs for all 128 possible ASCII codes, including lower-case letters.</p>
 <p>Apart from <i>O</i> and <i>S</i>, the capitals are identical to those of the IBM 029.</p>
-<p>Font replicating this design: <a href="http://www.kreativekorp.com/software/fonts/trs80/">Another Mans Treasure</a> by Rebecca G. Bettencourt</p>
 <div class="pmi">
 	<h4>P</h4>
 	<ul>
@@ -404,9 +404,9 @@
 <h3>Mullard SAA5050</h3>
 <img src="research/SAA5050.png" alt="Mullard SAA5050 character set" width="672" height="90">
 <p><i>Reference: <a href="https://amigan.yatho.com/saa5050.pdf">SAA5050 datasheet</a></i></p>
+<p><i>Font replicating this design (with totally smooth diagonals): <a href="https://bjh21.me.uk/bedstead/">Bedstead</a> by Ben Harris</i></p>
 
 <p>This chip was designed for <a href="https://en.wikipedia.org/wiki/Teletext">Teletext</a> applications and also saw use in home computers such as the BBC Micro. A full nine dots of height are available here, allowing for descenders that properly match the ascenders. The SAA5050 was able to interpolate these glyphs, to produce a 10&times;18 matrix with less jagged diagonals.</p>
-<p>Font replicating this design (with totally smooth diagonals): <a href="https://bjh21.me.uk/bedstead/">Bedstead</a> by Ben Harris</p>
 <div class="pmi">
 	<h4>P</h4>
 	<ul>
@@ -462,10 +462,10 @@
 <h3>Apple IIe</h3>
 <img src="research/AppleII.png" alt="Apple II character set" width="672" height="90">
 <p><i>Reference: <a href="http://www.kreativekorp.com/software/fonts/apple2.shtml">KreativeKorp &mdash; Ultimate Apple II Font</a></i></p>
+<p><i>Font replicating this design: <a href="http://www.kreativekorp.com/software/fonts/apple2.shtml">Print Char 21</a> by Rebecca G. Bettencourt</i></p>
 
 <p>The first 64 glyphs (the first two rows here) are lifted from the Signetics 2513/CM2140 character generator, used in the earliest Apple computers.</p>
 <p>The latter 32 glyphs were added to the Apple III (1980) and subsequently the Apple IIe in 1983 (with the crosshatch at 0x7F replacing the Apple logo from the Apple III font). The larger character cells on these systems allowed for descenders on the small letters, if somewhat stunted at only one dot below the baseline.</p>
-<p>Font replicating this design: <a href="http://www.kreativekorp.com/software/fonts/apple2.shtml">Print Char 21</a> by Rebecca G. Bettencourt</p>
 <div class="pmi">
 	<h4>P</h4>
 	<ul>
@@ -492,9 +492,9 @@
 <h3>Motorola MC6847</h3>
 <img src="research/MC6847.png" alt="Motorola MC6847 character set" width="672" height="60">
 <p><i>Reference: <a href="https://en.wikipedia.org/wiki/File:Cocobvdg.png">Wikipedia</a></i></p>
+<p><i>Font replicating this design: <a href="http://www.kreativekorp.com/software/fonts/trs80/#coco">Hot CoCo</a> by Rebecca G. Bettencourt</i></p>
 
 <p>This video chip, with built-in character generator, was used in the Tandy/Radio Shack TRS-80 Color Computer. It contains a set of negative (or inverse, <i>i.e.</i> white on black) capitals, which there was no need to reproduce here, instead of small letters. Notice that this set is nearly identical to that of the IBM 029 Card Punch seen above.</p>
-<p>Font replicating this design: <a href="http://www.kreativekorp.com/software/fonts/trs80/#coco">Hot CoCo</a> by Rebecca G. Bettencourt</p>
 <div class="pmi">
 	<h4>P</h4>
 </div>
@@ -691,9 +691,9 @@
 <h3>MSX</h3>
 <img src="research/MSX.png" alt="MSX character set" width="672" height="90">
 <p><i>Reference: <a href="http://www.ateijelo.com/blog/2016/09/13/making-an-msx-font">La Nueva Escuela &mdash; Making an MSX font</a></i></p>
+<p><i>Font replicating this design: <a href="http://www.ateijelo.com/blog/2016/09/13/making-an-msx-font">MSX Screen 0</a> by Andy Teijelo</i></p>
 
 <p>Inspired by successful industry standards like VHS and disappointed in the Wild-West fractured home computer market, several (mostly Japanese) manufacturers adopted a common 8-bit computer standard, MSX. The full character set is similar to <a href="https://en.wikipedia.org/wiki/Code_page_437">that of the IBM PC</a>, with the glyphs redesigned to fit the TMS9918 video chip&rsquo;s text mode.</p>
-<p>Font replicating this design: <a href="http://www.ateijelo.com/blog/2016/09/13/making-an-msx-font">MSX Screen 0</a> by Andy Teijelo</p>
 <div class="pmi">
 	<h4>P</h4>
 </div>
