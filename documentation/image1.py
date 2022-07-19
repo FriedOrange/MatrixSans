@@ -107,7 +107,7 @@ def draw_main_text():
     fill(1)
     text("Regular", (BIG_TEXT_SIDE_MARGIN, BIG_TEXT_BOTTOM_MARGIN + HEIGHT // 2), align="center")
     font("fonts/otf/LibreDotMatrixPrint-Regular.otf")
-    fill(65/240)
+    fill(40/240)
     text("Print", (BIG_TEXT_SIDE_MARGIN + WIDTH // 2, BIG_TEXT_BOTTOM_MARGIN + HEIGHT // 2), align="center")
     font("fonts/otf/LibreDotMatrixScreen-Regular.otf")
     fill(0)
