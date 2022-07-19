@@ -19,7 +19,7 @@ This is set of pixelated, retro-style fonts based on the classic 5&times;7 dot m
 - **Screen** is a similar effect to Print, but uses square dots instead. It matches the look of the "character LCDs" seen in many devices, as well as some light-up LED displays.
 - **Video** is an interpolated version of Regular. It resembles the on-screen displays of VCRs, Teletext, camcorders and the like; harking back to the early days of computerisation in television and home video.
 
-![Sample Image](documentation/styles1.png)
+![Sample Image](documentation/4styles.png)
 
 ## Design philosophy
 
