@@ -36,7 +36,9 @@ In order to retain the essence and charm of existing 5&times;7 fonts, yet rein i
 
 ### Research
 
-Much of my interest in the topic was piqued by Damien Guard’s article, [*Typography in 8 bits: system fonts*](https://damieng.com/blog/2011/02/20/typography-in-8-bits-system-fonts). In preparation for this project, I decided to conduct an even more comprehensive study of classic dot-matrix fonts, with a focus on those using the iconic 5&times;7 dot matrix capitals. See [documentation/research.md](documentation/research.md) for detailed documentation of this study and the decision-making process for the design of this font.
+Much of my interest in the topic was piqued by Damien Guard’s article, [*Typography in 8 bits: system fonts*](https://damieng.com/blog/2011/02/20/typography-in-8-bits-system-fonts). In preparation for this project, I decided to conduct an even more comprehensive study of classic dot-matrix fonts, with a focus on those using the iconic 5&times;7 dot matrix capitals.
+
+See [documentation/research.md](documentation/research.md) for detailed documentation of this study and the decision-making process for the design of this font.
 
 ### Proportional spacing
 
