@@ -36,6 +36,8 @@
     <integer>-200</integer>
     <key>openTypeHheaLineGap</key>
     <integer>0</integer>
+    <key>openTypeNameLicenseURL</key>
+    <string>http://scripts.sil.org/OFL</string>
     <key>openTypeNameVersion</key>
     <string>Version 0.001</string>
     <key>openTypeOS2WidthClass</key>

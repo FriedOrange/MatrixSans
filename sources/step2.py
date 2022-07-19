@@ -36,7 +36,7 @@ font.generate("LibreDotMatrix-Regular.ufo")
 font.revert()
 font.selection.select("dot")
 font.round(0.1)
-font["dot"].transform((0.8, 0.0, 0.0, 0.8, 10.0, 10.0))
+font["dot"].transform((0.88, 0.0, 0.0, 0.88, 10.0, 10.0))
 font.fontname = "LibreDotMatrixScreen"
 font.familyname = "Libre Dot Matrix Screen"
 font.fullname = "Libre Dot Matrix Screen"
@@ -48,7 +48,7 @@ font.generate("LibreDotMatrixScreen-Regular.ufo")
 font["dot"].clear()
 circle = fontforge.unitShape(0) # creates a unit circle
 circle.draw(font["dot"].glyphPen()) # draws the circle into the glyph, replacing previous outlines
-font["dot"].transform((45.0, 0.0, 0.0, 45.0, 50.0, 50.0))
+font["dot"].transform((48.0, 0.0, 0.0, 48.0, 50.0, 50.0))
 font["dot"].round()
 font["dot"].width = 100
 font.fontname = "LibreDotMatrixPrint"
