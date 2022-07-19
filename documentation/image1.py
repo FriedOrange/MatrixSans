@@ -15,15 +15,15 @@ import sys
 import argparse
 
 # Constants, these are the main "settings" for the image
-WIDTH, HEIGHT, MARGIN, FRAMES = 2048, 2048, 128, 1
-FONT_PATH = "fonts/ttf/Rubik-Regular.ttf"
+WIDTH, HEIGHT, MARGIN, FRAMES = 1280, 720, 32, 1
+FONT_PATH = "fonts/otf/LibreDotMatrix-Regular.otf"
 FONT_LICENSE = "OFL v1.1"
 AUXILIARY_FONT = "Helvetica"
-AUXILIARY_FONT_SIZE = 48
+AUXILIARY_FONT_SIZE = 24
 BIG_TEXT = "Aa"
-BIG_TEXT_FONT_SIZE = 1024
-BIG_TEXT_SIDE_MARGIN = MARGIN * 3.1
-BIG_TEXT_BOTTOM_MARGIN = MARGIN * 5.5
+BIG_TEXT_FONT_SIZE = 144
+BIG_TEXT_SIDE_MARGIN = WIDTH / 4
+BIG_TEXT_BOTTOM_MARGIN = MARGIN * 4
 GRID_VIEW = False # Change this to "True" for a grid overlay
 
 # Handel the "--output" flag
@@ -74,8 +74,17 @@ def remap(value, inputMin, inputMax, outputMin, outputMax):
 # Draw the page/frame and a grid if "GRID_VIEW" is set to "True"
 def draw_background():
     newPage(WIDTH, HEIGHT)
+    # fill(0)
+    # rect(-2, -2, WIDTH + 2, HEIGHT + 2)
     fill(0)
-    rect(-2, -2, WIDTH + 2, HEIGHT + 2)
+    rect(0, HEIGHT // 2, WIDTH // 2, HEIGHT // 2)
+    fill(247/255, 239/255, 230/255)
+    rect(WIDTH // 2, HEIGHT // 2, WIDTH // 2, HEIGHT // 2)
+    fill(178/255, 206/255, 168/255)
+    rect(0, 0, WIDTH // 2, HEIGHT // 2)
+    fill(0, 0, 128/255)
+    rect(WIDTH // 2, 0, WIDTH // 2, HEIGHT // 2)
+
     if GRID_VIEW:
         grid()
     else:
@@ -84,7 +93,7 @@ def draw_background():
 
 # Draw main text
 def draw_main_text():
-    fill(1)
+    # fill(1)
     stroke(None)
     font(FONT_PATH)
     fontSize(BIG_TEXT_FONT_SIZE)
@@ -92,13 +101,26 @@ def draw_main_text():
     # TODO: This should be done automatically when drawbot-skia
     # has support for textBox() and FormattedString
     #text(BIG_TEXT, ((WIDTH / 2) - MARGIN * 4.75, (HEIGHT / 2) - MARGIN * 2.5))
-    text(BIG_TEXT, (BIG_TEXT_SIDE_MARGIN, BIG_TEXT_BOTTOM_MARGIN))
+    
+    # text(BIG_TEXT, (BIG_TEXT_SIDE_MARGIN, BIG_TEXT_BOTTOM_MARGIN))
+    font("fonts/otf/LibreDotMatrix-Regular.otf")
+    fill(1)
+    text("Regular", (BIG_TEXT_SIDE_MARGIN, BIG_TEXT_BOTTOM_MARGIN + HEIGHT // 2), align="center")
+    font("fonts/otf/LibreDotMatrixPrint-Regular.otf")
+    fill(65/240)
+    text("Print", (BIG_TEXT_SIDE_MARGIN + WIDTH // 2, BIG_TEXT_BOTTOM_MARGIN + HEIGHT // 2), align="center")
+    font("fonts/otf/LibreDotMatrixScreen-Regular.otf")
+    fill(0)
+    text("Screen", (BIG_TEXT_SIDE_MARGIN, BIG_TEXT_BOTTOM_MARGIN), align="center")
+    font("fonts/otf/LibreDotMatrixVideo-Regular.otf")
+    fill(216/255)
+    text("Video", (BIG_TEXT_SIDE_MARGIN + WIDTH // 2, BIG_TEXT_BOTTOM_MARGIN), align="center")
 
 
 # Divider lines
 def draw_divider_lines():
     stroke(1)
-    strokeWidth(4)
+    strokeWidth(2)
     lineCap("round")
     line((MARGIN, HEIGHT - MARGIN), (WIDTH - MARGIN, HEIGHT - MARGIN))
     line((MARGIN, MARGIN + (MARGIN / 2)), (WIDTH - MARGIN, MARGIN + (MARGIN / 2)))
@@ -127,8 +149,8 @@ def draw_auxiliary_text():
 if __name__ == "__main__":
     draw_background()
     draw_main_text()
-    draw_divider_lines()
-    draw_auxiliary_text()
+    # draw_divider_lines()
+    # draw_auxiliary_text()
     # Save output, using the "--output" flag location
     saveImage(args.output)
     # Print done in the terminal
