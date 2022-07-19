@@ -305,7 +305,7 @@
 <h3>Motorola MCM6674</h3>
 <img src="research/MCM6674.png" alt="Motorola MCM6674 character set" width="672" height="90">
 <p><i>Reference: <a href="https://datasheetspdf.com/pdf-file/555109/MotorolaSemiconductor/MCM6674/1">MCM6674 datasheet</a></i></p>
-<p><i>Font replicating this design: <a href="http://www.kreativekorp.com/software/fonts/trs80/">Another Mans Treasure</a> by Rebecca G. Bettencourt</i></p>
+<p><i>Font replicating this design: <a href="http://www.kreativekorp.com/software/fonts/trs80/">Another Man&rsquo;s Treasure</a> by Rebecca G. Bettencourt</i></p>
 
 <p>This character generator is notable for having being used in the Tandy/Radio Shack TRS-80 Model I computer. It was relatively advanced in that it contained glyphs for all 128 possible ASCII codes, including lower-case letters.</p>
 <p>Apart from <i>O</i> and <i>S</i>, the capitals are identical to those of the IBM 029.</p>
