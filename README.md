@@ -66,11 +66,11 @@ Ensure the following programs are installed and added to your PATH environment v
 
 To build the fonts manually on Windows:
 
-* Run `build.bat` in the `sources` folder. 
+- Run `build.bat` in the `sources` folder. 
 
 To build the fonts manually on Linux/macOS:
 
-* From the `sources` folder, run the command `gftools builder config.yaml` (not tested).
+- From the `sources` folder, run the command `gftools builder config.yaml` (not tested).
 
 ### Modifying the fonts
 
@@ -78,10 +78,10 @@ The master source file, `LibreDotMatrix.sfd`, is in FontForge's SFD format. It i
 
 To easily add or modify glyphs (requires [FontForge](https://fontforge.org/)):
 
-* Edit the image `glyphs.pbm`
-* Set the corresponding codepoints (or glyph names, for unencoded glyphs) in `glyphs.csv`
-* Run `step1.bat`, which generates a temporary font containing the new glyphs. 
-* Copy the new glyphs into the master source file, `LibreDotMatrix.sfd`, for manual editing as required.
+- Edit the image `glyphs.pbm`
+- Set the corresponding codepoints (or glyph names, for unencoded glyphs) in `glyphs.csv`
+- Run `step1.bat`, which generates a temporary font containing the new glyphs. 
+- Copy the new glyphs into the master source file, `LibreDotMatrix.sfd`, for manual editing as required.
 
 ## Changelog
 
