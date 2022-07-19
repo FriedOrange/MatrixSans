@@ -23,7 +23,7 @@ AUXILIARY_FONT_SIZE = 24
 BIG_TEXT = "Aa"
 BIG_TEXT_FONT_SIZE = 144
 BIG_TEXT_SIDE_MARGIN = WIDTH / 4
-BIG_TEXT_BOTTOM_MARGIN = MARGIN * 4
+BIG_TEXT_BOTTOM_MARGIN = HEIGHT * 0.185
 GRID_VIEW = False # Change this to "True" for a grid overlay
 
 # Handel the "--output" flag
