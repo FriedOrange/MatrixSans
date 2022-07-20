@@ -1,0 +1,38 @@
+FONTLOG for Libre Dot Matrix
+============================
+
+This file provides detailed information on the Libre Dot Matrix font software.
+This information should be distributed along with the fonts and any derivative works.
+
+Basic font information
+----------------------
+
+Libre Dot Matrix is a typeface family inspired by classic 5x7 dot matrix fonts.
+
+It comes in four variants:
+- Regular, with connected square dots
+- Print, with separate circular dots
+- Screen, with separate square dots 
+- Video, with interpolation on diagonal sections
+
+This release supports only the Basic Latin block (ASCII), to be expanded in future releases.
+
+Further documentation can be found at: https://github.com/FriedOrange/LibreDotMatrix
+
+Changelog
+---------
+
+20 July 2022 - Version 0.001
+- Initial release
+- Supports Basic Latin (ASCII)
+
+Acknowledgements
+----------------
+
+If you make modifications, be sure to add your name (N), email address (E), web address
+(if you have one) (W) and description (D). This list is in alphabetical order.
+
+N: Brad Neil
+E: brad@friedorange.xyz
+W: http://friedorange.xyz/
+D: Designer - original Latin glyphs
