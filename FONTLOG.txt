@@ -23,7 +23,7 @@ Changelog
 ---------
 
 20 July 2022 - Version 0.001
-- Initial release
+- Initial test release
 - Supports Basic Latin (ASCII)
 
 Acknowledgements
