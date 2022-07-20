@@ -21,9 +21,9 @@ This is set of pixelated, retro-style fonts based on the classic 5&times;7 dot m
 
 ![Four Styles](documentation/4styles.png)
 ![Sample 1](documentation/sample_0.png)
-![Sample 2](documentation/sample_1.png)
+<!-- ![Sample 2](documentation/sample_1.png)
 ![Sample 3](documentation/sample_2.png)
-![Sample 4](documentation/sample_3.png)
+![Sample 4](documentation/sample_3.png) -->
 
 ## Design philosophy
 
@@ -91,7 +91,11 @@ To easily add or modify glyphs (requires [FontForge](https://fontforge.org/)):
 
 ## Changelog
 
-The fonts are currently in early development. This changelog will be updated once releases are made.
+The fonts are currently in early development; significant changes may still occur before the release of Version 1.0.
+
+20 July 2022 - Version 0.001
+- Initial release
+- Supports Basic Latin (ASCII)
 
 [Font Versioning](https://github.com/googlefonts/gf-docs/tree/main/Spec#font-versioning) is based on semver.
 
