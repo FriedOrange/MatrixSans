@@ -94,7 +94,7 @@ To easily add or modify glyphs (requires [FontForge](https://fontforge.org/)):
 The fonts are currently in early development; significant changes may still occur before the release of Version 1.0.
 
 20 July 2022 - Version 0.001
-- Initial release
+- Initial test release
 - Supports Basic Latin (ASCII)
 
 [Font Versioning](https://github.com/googlefonts/gf-docs/tree/main/Spec#font-versioning) is based on semver.
