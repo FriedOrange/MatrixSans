@@ -58,9 +58,7 @@ In utilitarian applications, 5&times;7 dot matrix fonts may still be found all a
 | --- | --- | --- |
 | ![Train station display](documentation/inspiration/TrainStation.jpg) | ![Best before date](documentation/inspiration/BestBefore.jpg) | ![Character LCD](documentation/inspiration/CharacterLCD.jpg) |
 
-So-called "pixel" fonts are also a popular stylistic choice, often seen in contexts that have nothing to do with electronics or games, even in the absence of technical limitations. I have been disappointed by some existing computer fonts in this style, however; many contain unusual, ugly or unrealistic designs, and most have only a small character set.
-
-With all of that in mind, I felt that the typographical world could be enriched through the creation of high-quality, open-source fonts in this style.
+So-called "pixel" fonts are also a popular stylistic choice, often seen in contexts that have nothing to do with electronics or games, even in the absence of technical limitations. With all of that in mind, I felt that the typographical world could be enriched through the creation of high-quality, open-source fonts in this style.
 
 ## Building
 
