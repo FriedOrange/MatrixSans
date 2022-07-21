@@ -5,7 +5,7 @@ FamilyName: Libre Dot Matrix
 Weight: Regular
 Copyright: Copyright 2022 The Libre Dot Matrix Project Authors (https://github.com/FriedOrange/LibreDotMatrix)
 UComments: "2022-7-16: Created with FontForge (http://fontforge.org)"
-Version: 0.001
+Version: 0.002
 ItalicAngle: 0
 UnderlinePosition: -100
 UnderlineWidth: 50
@@ -22,12 +22,13 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1657964544
-ModificationTime: 1658375567
-PfmFamily: 17
+ModificationTime: 1658386485
+PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
 LineGap: 0
 VLineGap: 90
+Panose: 4 1 6 4 2 11 2 2 3 2
 OS2TypoAscent: 1000
 OS2TypoAOffset: 0
 OS2TypoDescent: -200
@@ -43,10 +44,11 @@ HheadDescent: -200
 HheadDOffset: 0
 OS2CapHeight: 700
 OS2XHeight: 500
+OS2FamilyClass: 2058
 OS2Vendor: 'PfEd'
 MarkAttachClasses: 1
 DEI: 91125
-LangName: 1033 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "http://scripts.sil.org/OFL"
+LangName: 1033 "" "" "" "" "" "" "" "" "" "Brad Neil" "" "" "http://friedorange.xyz/" "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" "https://scripts.sil.org/OFL"
 Encoding: ISO8859-1
 UnicodeInterp: none
 NameList: AGL For New Fonts
@@ -297,7 +299,7 @@ EndChar
 StartChar: hyphen
 Encoding: 45 45 14
 Width: 501
-Flags: HMWO
+Flags: HMW
 LayerCount: 2
 Fore
 Refer: 0 -1 S 1 0 0 1 350 300 2
