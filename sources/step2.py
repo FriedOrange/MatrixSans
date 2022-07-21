@@ -28,6 +28,7 @@ font.selection.all()
 font.removeOverlap()
 font.simplify()
 font.round(0.1) # hack: the "dot" glyph is deliberately 1 unit too large so that simplify() produces nicer outlines; this reverses that
+font.appendSFNTName("English (US)", 17, "Regular")
 font.generate("LibreDotMatrix-Regular.ufo")
 
 #######################################
@@ -40,6 +41,7 @@ font["dot"].transform((0.88, 0.0, 0.0, 0.88, 10.0, 10.0))
 font.fontname = "LibreDotMatrixScreen"
 font.familyname = "Libre Dot Matrix Screen"
 font.fullname = "Libre Dot Matrix Screen"
+font.appendSFNTName("English (US)", 17, "Screen")
 font.generate("LibreDotMatrixScreen-Regular.ufo")
 
 #######################################
@@ -54,6 +56,7 @@ font["dot"].width = 100
 font.fontname = "LibreDotMatrixPrint"
 font.familyname = "Libre Dot Matrix Print"
 font.fullname = "Libre Dot Matrix Print"
+font.appendSFNTName("English (US)", 17, "Print")
 font.generate("LibreDotMatrixPrint-Regular.ufo")
 
 #######################################
@@ -169,6 +172,7 @@ font.round(0.1)
 font.fontname = "LibreDotMatrixVideo"
 font.familyname = "Libre Dot Matrix Video"
 font.fullname = "Libre Dot Matrix Video"
+font.appendSFNTName("English (US)", 17, "Video")
 font.generate("LibreDotMatrixVideo-Regular.ufo")
 
 

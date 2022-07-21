@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1657964544
-ModificationTime: 1658386485
+ModificationTime: 1658387646
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -48,7 +48,7 @@ OS2FamilyClass: 2058
 OS2Vendor: 'PfEd'
 MarkAttachClasses: 1
 DEI: 91125
-LangName: 1033 "" "" "" "" "" "" "" "" "" "Brad Neil" "" "" "http://friedorange.xyz/" "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" "https://scripts.sil.org/OFL"
+LangName: 1033 "" "" "" "" "" "" "" "" "" "Brad Neil" "" "" "http://friedorange.xyz/" "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" "https://scripts.sil.org/OFL" "" "Libre Dot Matrix"
 Encoding: ISO8859-1
 UnicodeInterp: none
 NameList: AGL For New Fonts
