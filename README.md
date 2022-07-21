@@ -95,6 +95,7 @@ The fonts are currently in early development; significant changes may still occu
 - Improved Video style appearance
 - Lengthened hyphen by one dot
 - Fixed character widths
+- Fixed line height
 - Updated metadata: font names, PANOSE classification, etc.
 
 **20 July 2022 - Version 0.001**
