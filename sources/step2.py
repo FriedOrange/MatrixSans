@@ -137,24 +137,24 @@ for glyph in font:
 				matrix2[x][y] = 2 # top right
 				matrix2[x + 1][y + 1] = 4 # bottom right
 
-	continue # this extra step makes a lot of things look worse, so skip it for now
-	# more complicated interpolation, to fix ugly spots left by the basic method
-	for i in range(glyph_width - 2):
-		for j in range(glyph_height - 2):
-			for pattern in patterns:
-				skip = False
-				for a in range(3):
-					for b in range(3):
-						if pattern[b][a] >= 0 and pattern[b][a] != matrix2[i + a][j + b]:
-							skip = True
+	if str(glyph) in {"four", "N", "R", "b", "d", "g", "p", "q", "z"}:
+		# more complicated interpolation, to fix ugly spots left by the basic method
+		for i in range(glyph_width - 2):
+			for j in range(glyph_height - 2):
+				for pattern in patterns:
+					skip = False
+					for a in range(3):
+						for b in range(3):
+							if pattern[b][a] >= 0 and pattern[b][a] != matrix2[i + a][j + b]:
+								skip = True
+								break
+						if skip:
 							break
 					if skip:
-						break
-				if skip:
-					continue
-				# we found a matching pattern: need to add half-dot
-				x, y, = pattern[3]
-				font[glyph].addReference("halfdot", (1, 0, 0, 1, (i + x) * dot_size + left_side_bearing, (j + y - descent_dots) * dot_size))
+						continue
+					# we found a matching pattern: need to add half-dot
+					x, y, = pattern[3]
+					font[glyph].addReference("halfdot", (1, 0, 0, 1, (i + x) * dot_size + left_side_bearing, (j + y - descent_dots) * dot_size))
 
 # interpolation done, now finish it off the same as Regular style
 font["dot"].unlinkThisGlyph()

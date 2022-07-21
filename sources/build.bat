@@ -1,4 +1,5 @@
 python %USERPROFILE%\AppData\Local\Programs\Python\Python310\Scripts\gftools-builder.py config.yaml
-cd .. 
+@cd .. 
 python documentation\image1.py --output documentation\4styles.png
-cd sources
+python documentation\image2.py --output documentation\sample.png
+@cd sources

@@ -35,7 +35,9 @@
       <point x="300" y="150" type="line"/>
       <point x="300" y="200" type="line"/>
       <point x="250" y="200" type="line"/>
-      <point x="250" y="300" type="line"/>
+      <point x="250" y="250" type="line"/>
+      <point x="200" y="250" type="line"/>
+      <point x="200" y="300" type="line"/>
       <point x="150" y="300" type="line"/>
       <point x="150" y="0" type="line"/>
     </contour>
