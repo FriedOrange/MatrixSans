@@ -28,7 +28,7 @@ font.selection.all()
 font.removeOverlap()
 font.simplify()
 font.round(0.1) # hack: the "dot" glyph is deliberately 1 unit too large so that simplify() produces nicer outlines; this reverses that
-font.appendSFNTName("English (US)", 17, "Regular")
+# font.appendSFNTName("English (US)", 17, "Regular")
 font.generate("LibreDotMatrix-Regular.ufo")
 
 #######################################
