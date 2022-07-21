@@ -91,7 +91,7 @@ jobs:
           name: ${{ env.ZIP_NAME }}
           path: ${{ env.ZIP_NAME }}
       - name: Zip files
-        run: zip -r ${{ env.ZIP_NAME }}.zip ${{ env.ZIP_NAME }} OFL.txt FONTLOG.txt
+        run: zip -r ${{ env.ZIP_NAME }}.zip ${{ env.ZIP_NAME }}/* OFL.txt FONTLOG.txt
       - name: Upload binaries to release
         uses: svenstaro/upload-release-action@v2
         with:
