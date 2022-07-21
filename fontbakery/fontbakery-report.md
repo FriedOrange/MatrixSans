@@ -125,10 +125,6 @@ But got:  "LibreDotMatrixPrint" [code: bad-entry]
 
 
 * 🔥 **FAIL** TYPOGRAPHIC_SUBFAMILY_NAME entry for Win "Print" must be "Regular". Please note, since the font style is RIBBI, this record can be safely deleted. [code: bad-win-name]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/ttf/LibreDotMatrixPrint-Regular.ttf', 'fonts/ttf/LibreDotMatrixScreen-Regular.ttf', 'fonts/ttf/LibreDotMatrixVideo-Regular.ttf', 'fonts/ttf/LibreDotMatrix-Regular.ttf']. [code: missing-os2-fsselection-bit7]
 </div></details><details><summary>🔥 <b>FAIL:</b> Font contains glyphs for whitespace characters? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphs">com.google.fonts/check/whitespace_glyphs</a>)</summary><div>
 
 
@@ -855,6 +851,10 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 
 * 🍞 **PASS** OK
+</div></details><details><summary>🍞 <b>PASS:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
+
+
+* 🍞 **PASS** OK
 </div></details><details><summary>🍞 <b>PASS:</b> Ensure fonts do not contain any pre-production tables. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/no_debugging_tables">com.google.fonts/check/no_debugging_tables</a>)</summary><div>
 
 
@@ -1107,10 +1107,6 @@ But got:  "LibreDotMatrixScreen" [code: bad-entry]
 
 
 * 🔥 **FAIL** TYPOGRAPHIC_SUBFAMILY_NAME entry for Win "Screen" must be "Regular". Please note, since the font style is RIBBI, this record can be safely deleted. [code: bad-win-name]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/ttf/LibreDotMatrixPrint-Regular.ttf', 'fonts/ttf/LibreDotMatrixScreen-Regular.ttf', 'fonts/ttf/LibreDotMatrixVideo-Regular.ttf', 'fonts/ttf/LibreDotMatrix-Regular.ttf']. [code: missing-os2-fsselection-bit7]
 </div></details><details><summary>🔥 <b>FAIL:</b> Font contains glyphs for whitespace characters? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphs">com.google.fonts/check/whitespace_glyphs</a>)</summary><div>
 
 
@@ -1837,6 +1833,10 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 
 * 🍞 **PASS** OK
+</div></details><details><summary>🍞 <b>PASS:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
+
+
+* 🍞 **PASS** OK
 </div></details><details><summary>🍞 <b>PASS:</b> Ensure fonts do not contain any pre-production tables. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/no_debugging_tables">com.google.fonts/check/no_debugging_tables</a>)</summary><div>
 
 
@@ -2089,10 +2089,6 @@ But got:  "LibreDotMatrixVideo" [code: bad-entry]
 
 
 * 🔥 **FAIL** TYPOGRAPHIC_SUBFAMILY_NAME entry for Win "Video" must be "Regular". Please note, since the font style is RIBBI, this record can be safely deleted. [code: bad-win-name]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/ttf/LibreDotMatrixPrint-Regular.ttf', 'fonts/ttf/LibreDotMatrixScreen-Regular.ttf', 'fonts/ttf/LibreDotMatrixVideo-Regular.ttf', 'fonts/ttf/LibreDotMatrix-Regular.ttf']. [code: missing-os2-fsselection-bit7]
 </div></details><details><summary>🔥 <b>FAIL:</b> Font contains glyphs for whitespace characters? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphs">com.google.fonts/check/whitespace_glyphs</a>)</summary><div>
 
 
@@ -2799,6 +2795,10 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 
 * 🍞 **PASS** OK
+</div></details><details><summary>🍞 <b>PASS:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
+
+
+* 🍞 **PASS** OK
 </div></details><details><summary>🍞 <b>PASS:</b> Ensure fonts do not contain any pre-production tables. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/no_debugging_tables">com.google.fonts/check/no_debugging_tables</a>)</summary><div>
 
 
@@ -3043,10 +3043,6 @@ Use -F or --full-lists to disable shortening of long lists. [code: missing-codep
 * 🔥 **FAIL** [POSTSCRIPT_NAME(6):WINDOWS(3)]
 Expected: "LibreDotMatrix-Regular"
 But got:  "LibreDotMatrix" [code: bad-entry]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/ttf/LibreDotMatrixPrint-Regular.ttf', 'fonts/ttf/LibreDotMatrixScreen-Regular.ttf', 'fonts/ttf/LibreDotMatrixVideo-Regular.ttf', 'fonts/ttf/LibreDotMatrix-Regular.ttf']. [code: missing-os2-fsselection-bit7]
 </div></details><details><summary>🔥 <b>FAIL:</b> Font contains glyphs for whitespace characters? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphs">com.google.fonts/check/whitespace_glyphs</a>)</summary><div>
 
 
@@ -3777,6 +3773,10 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 
 * 🍞 **PASS** OK
+</div></details><details><summary>🍞 <b>PASS:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
+
+
+* 🍞 **PASS** OK
 </div></details><details><summary>🍞 <b>PASS:</b> Ensure fonts do not contain any pre-production tables. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/no_debugging_tables">com.google.fonts/check/no_debugging_tables</a>)</summary><div>
 
 
@@ -3978,8 +3978,8 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 26 | 22 | 470 | 25 | 352 | 0 |
-| 0% | 3% | 2% | 53% | 3% | 39% | 0% |
+| 0 | 22 | 22 | 470 | 25 | 356 | 0 |
+| 0% | 2% | 2% | 53% | 3% | 40% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **DEBUG**
