@@ -42,6 +42,8 @@ font.fontname = "LibreDotMatrixScreen"
 font.familyname = "Libre Dot Matrix Screen"
 font.fullname = "Libre Dot Matrix Screen"
 font.appendSFNTName("English (US)", 17, "Screen")
+font.appendSFNTName("English (US)", 21, "Libre Dot Matrix")
+font.appendSFNTName("English (US)", 22, "Screen")
 font.generate("LibreDotMatrixScreen-Regular.ufo")
 
 #######################################
@@ -57,6 +59,8 @@ font.fontname = "LibreDotMatrixPrint"
 font.familyname = "Libre Dot Matrix Print"
 font.fullname = "Libre Dot Matrix Print"
 font.appendSFNTName("English (US)", 17, "Print")
+font.appendSFNTName("English (US)", 21, "Libre Dot Matrix")
+font.appendSFNTName("English (US)", 22, "Print")
 font.generate("LibreDotMatrixPrint-Regular.ufo")
 
 #######################################
@@ -173,6 +177,8 @@ font.fontname = "LibreDotMatrixVideo"
 font.familyname = "Libre Dot Matrix Video"
 font.fullname = "Libre Dot Matrix Video"
 font.appendSFNTName("English (US)", 17, "Video")
+font.appendSFNTName("English (US)", 21, "Libre Dot Matrix")
+font.appendSFNTName("English (US)", 22, "Video")
 font.generate("LibreDotMatrixVideo-Regular.ufo")
 
 
