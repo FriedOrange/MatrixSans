@@ -8,7 +8,7 @@ UComments: "2022-7-16: Created with FontForge (http://fontforge.org)"
 Version: 0.002
 ItalicAngle: 0
 UnderlinePosition: -100
-UnderlineWidth: 50
+UnderlineWidth: 100
 Ascent: 800
 Descent: 200
 InvalidEm: 0
@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1657964544
-ModificationTime: 1658387646
+ModificationTime: 1658391037
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -42,6 +42,16 @@ HheadAscent: 1000
 HheadAOffset: 0
 HheadDescent: -200
 HheadDOffset: 0
+OS2SubXSize: 714
+OS2SubYSize: 714
+OS2SubXOff: 0
+OS2SubYOff: 100
+OS2SupXSize: 714
+OS2SupYSize: 714
+OS2SupXOff: 0
+OS2SupYOff: 300
+OS2StrikeYSize: 100
+OS2StrikeYPos: 300
 OS2CapHeight: 700
 OS2XHeight: 500
 OS2FamilyClass: 2058
@@ -58,6 +68,7 @@ FitToEm: 0
 WinInfo: 0 16 15
 BeginPrivate: 0
 EndPrivate
+TeXData: 1 0 0 629146 314573 209715 524288 1048576 0 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 BeginChars: 258 97
 
 StartChar: dot
