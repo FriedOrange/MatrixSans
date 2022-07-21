@@ -10,6 +10,7 @@
 
 import sys
 import fontforge
+import plistlib
 
 dot_size = 100
 glyph_width = 8
@@ -29,6 +30,12 @@ font.simplify()
 font.round(0.1) # hack: the "dot" glyph is deliberately 1 unit too large so that simplify() produces nicer outlines; this reverses that
 # font.appendSFNTName("English (US)", 17, "Regular")
 font.generate("LibreDotMatrix-Regular.ufo")
+# FontForge doesn't export the fsSelection field of the OS/2 table. We need to add it in ourselves
+with open("LibreDotMatrix-Regular.ufo/fontinfo.plist", "rb") as plist_file:
+	fontinfo = plistlib.load(plist_file)
+with open("LibreDotMatrix-Regular.ufo/fontinfo.plist", "wb") as plist_file:
+	fontinfo["openTypeOS2Selection"] = [6, 7, 8]
+	plistlib.dump(fontinfo, plist_file)
 
 #######################################
 # Screen style
@@ -44,6 +51,11 @@ font.appendSFNTName("English (US)", 17, "Screen")
 font.appendSFNTName("English (US)", 21, "Libre Dot Matrix")
 font.appendSFNTName("English (US)", 22, "Screen")
 font.generate("LibreDotMatrixScreen-Regular.ufo")
+with open("LibreDotMatrixScreen-Regular.ufo/fontinfo.plist", "rb") as plist_file:
+	fontinfo = plistlib.load(plist_file)
+with open("LibreDotMatrixScreen-Regular.ufo/fontinfo.plist", "wb") as plist_file:
+	fontinfo["openTypeOS2Selection"] = [7]
+	plistlib.dump(fontinfo, plist_file)
 
 #######################################
 # Print style
@@ -61,6 +73,11 @@ font.appendSFNTName("English (US)", 17, "Print")
 font.appendSFNTName("English (US)", 21, "Libre Dot Matrix")
 font.appendSFNTName("English (US)", 22, "Print")
 font.generate("LibreDotMatrixPrint-Regular.ufo")
+with open("LibreDotMatrixPrint-Regular.ufo/fontinfo.plist", "rb") as plist_file:
+	fontinfo = plistlib.load(plist_file)
+with open("LibreDotMatrixPrint-Regular.ufo/fontinfo.plist", "wb") as plist_file:
+	fontinfo["openTypeOS2Selection"] = [7]
+	plistlib.dump(fontinfo, plist_file)
 
 #######################################
 # Video style
@@ -179,7 +196,11 @@ font.appendSFNTName("English (US)", 17, "Video")
 font.appendSFNTName("English (US)", 21, "Libre Dot Matrix")
 font.appendSFNTName("English (US)", 22, "Video")
 font.generate("LibreDotMatrixVideo-Regular.ufo")
-
+with open("LibreDotMatrixVideo-Regular.ufo/fontinfo.plist", "rb") as plist_file:
+	fontinfo = plistlib.load(plist_file)
+with open("LibreDotMatrixVideo-Regular.ufo/fontinfo.plist", "wb") as plist_file:
+	fontinfo["openTypeOS2Selection"] = [7]
+	plistlib.dump(fontinfo, plist_file)
 
 
 # glyph.user_decomp
