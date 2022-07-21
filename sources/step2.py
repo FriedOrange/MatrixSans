@@ -9,7 +9,6 @@
 # without any warranty.
 
 import sys
-from turtle import dot
 import fontforge
 
 dot_size = 100

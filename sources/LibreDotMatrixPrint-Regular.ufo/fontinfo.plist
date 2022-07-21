@@ -48,6 +48,10 @@
     <string>Libre Dot Matrix</string>
     <key>openTypeNamePreferredSubfamilyName</key>
     <string>Print</string>
+    <key>openTypeWWSFamilyName</key>
+    <string>Libre Dot Matrix</string>
+    <key>openTypeWWSSubfamilyName</key>
+    <string>Print</string>
     <key>openTypeOS2Panose</key>
     <array>
       <integer>4</integer>
