@@ -149,7 +149,7 @@ if __name__ == "__main__":
 	FONT_PATH = "fonts/otf/LibreDotMatrixVideo-Regular.otf"
 	make_image()
 	# Save output, using the "--output" flag location
-	saveImage("documentation/sample.png")
+	saveImage(args.output)
 	# Print done in the terminal
 	print("DrawBot: Done")
 	
