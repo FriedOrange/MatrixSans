@@ -4,3 +4,4 @@ sources:
   - LibreDotMatrixPrint-Regular.ufo
   - LibreDotMatrixVideo-Regular.ufo
 familyName: Libre Dot Matrix
+buildVariable: false
