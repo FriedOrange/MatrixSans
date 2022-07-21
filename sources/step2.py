@@ -34,7 +34,7 @@ font.generate("LibreDotMatrix-Regular.ufo")
 with open("LibreDotMatrix-Regular.ufo/fontinfo.plist", "rb") as plist_file:
 	fontinfo = plistlib.load(plist_file)
 with open("LibreDotMatrix-Regular.ufo/fontinfo.plist", "wb") as plist_file:
-	fontinfo["openTypeOS2Selection"] = [6, 7, 8]
+	fontinfo["openTypeOS2Selection"] = [7, 8]
 	plistlib.dump(fontinfo, plist_file)
 
 #######################################
