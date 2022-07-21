@@ -91,7 +91,13 @@ To easily add or modify glyphs (requires [FontForge](https://fontforge.org/)):
 
 The fonts are currently in early development; significant changes may still occur before the release of Version 1.0.
 
-20 July 2022 - Version 0.001
+**21 July 2022 - Version 0.002**
+- Improved Video style appearance
+- Lengthened hyphen by one dot
+- Fixed character widths
+- Updated metadata: font names, PANOSE classification, etc.
+
+**20 July 2022 - Version 0.001**
 - Initial test release
 - Supports Basic Latin (ASCII)
 
