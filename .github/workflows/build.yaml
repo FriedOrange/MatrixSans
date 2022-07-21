@@ -55,8 +55,6 @@ jobs:
       continue-on-error: true
     - name: proof
       run: make proof
-    - name: images
-      run: make images
     - name: setup site
       run: cp scripts/index.html out/index.html
     - name: Deploy
