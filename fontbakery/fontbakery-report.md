@@ -107,20 +107,24 @@ Fontbakery version: 0.8.9
 	- And 227 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** Font lacks NameID 13 (LICENSE DESCRIPTION). A proper licensing entry must be set. [code: missing]
 </div></details><details><summary>🔥 <b>FAIL:</b> Version format is correct in 'name' table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/version_format">com.google.fonts/check/name/version_format</a>)</summary><div>
 
 
-* 🔥 **FAIL** The NameID.VERSION_STRING (nameID=5) value must follow the pattern "Version X.Y" with X.Y greater than or equal to 1.000. Current version string is: "Version 0.001; ttfautohint (v1.8.4.7-5d5b)" [code: bad-version-strings]
+* 🔥 **FAIL** The NameID.VERSION_STRING (nameID=5) value must follow the pattern "Version X.Y" with X.Y greater than or equal to 1.000. Current version string is: "Version 0.002; ttfautohint (v1.8.4.7-5d5b)" [code: bad-version-strings]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check name table: POSTSCRIPT_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/postscriptname">com.google.fonts/check/name/postscriptname</a>)</summary><div>
 
 
 * 🔥 **FAIL** [POSTSCRIPT_NAME(6):WINDOWS(3)]
 Expected: "LibreDotMatrixPrint-Regular"
 But got:  "LibreDotMatrixPrint" [code: bad-entry]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check name table: TYPOGRAPHIC_FAMILY_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/typographicfamilyname">com.google.fonts/check/name/typographicfamilyname</a>)</summary><div>
+
+
+* 🔥 **FAIL** Font style is "Regular" and, for that reason, it is not expected to have a [TYPOGRAPHIC_FAMILY_NAME(16):WINDOWS(3)] entry! [code: ribbi]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check name table: TYPOGRAPHIC_SUBFAMILY_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/typographicsubfamilyname">com.google.fonts/check/name/typographicsubfamilyname</a>)</summary><div>
+
+
+* 🔥 **FAIL** TYPOGRAPHIC_SUBFAMILY_NAME entry for Win "Print" must be "Regular". Please note, since the font style is RIBBI, this record can be safely deleted. [code: bad-win-name]
 </div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
 
 
@@ -134,6 +138,11 @@ But got:  "LibreDotMatrixPrint" [code: bad-entry]
 
 * ⚠ **WARN** OS/2 VendorID is 'PfEd', a font editor default. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
  [code: bad]
+</div></details><details><summary>⚠ <b>WARN:</b> Check name table: FULL_FONT_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/fullfontname">com.google.fonts/check/name/fullfontname</a>)</summary><div>
+
+
+* ⚠ **WARN** [FULL_FONT_NAME(4):WINDOWS(3)]
+Got "Libre Dot Matrix Print" which lacks "Regular", but it is probably OK in this case. [code: lacks-regular]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -244,10 +253,6 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * 💤 **SKIP** Unfulfilled Conditions: gfonts_repo_structure
-</div></details><details><summary>💤 <b>SKIP:</b> License URL matches License text on name table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license_url">com.google.fonts/check/name/license_url</a>)</summary><div>
-
-
-* 💤 **SKIP** Could not infer the font license. Please ensure NameID 13 (LICENSE DESCRIPTION) is properly set.
 </div></details><details><summary>💤 <b>SKIP:</b> Font has ttfautohint params? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/has_ttfautohint_params">com.google.fonts/check/has_ttfautohint_params</a>)</summary><div>
 
 
@@ -659,10 +664,10 @@ Use -F or --full-lists to disable shortening of long lists.
 
  |               | fonts/ttf/LibreDotMatrixPrint-Regular.ttf          |
  |:------------- | ---------------:|
- | Dehinted Size | 11.6kb |
- | Hinted Size   | 23.7kb   |
+ | Dehinted Size | 12.1kb |
+ | Hinted Size   | 24.1kb   |
  | Increase      | 12.0kb      |
- | Change        | 103.1 %  |
+ | Change        | 99.5 %  |
  [code: size-impact]
 </div></details><details><summary>ℹ <b>INFO:</b> EPAR table present in font? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/epar">com.google.fonts/check/epar</a>)</summary><div>
 
@@ -684,7 +689,7 @@ PPM <= 65535:
 </div></details><details><summary>ℹ <b>INFO:</b> Check for font-v versioning. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontv">com.google.fonts/check/fontv</a>)</summary><div>
 
 
-* ℹ **INFO** Version string is: "Version 0.001; ttfautohint (v1.8.4.7-5d5b)"
+* ℹ **INFO** Version string is: "Version 0.002; ttfautohint (v1.8.4.7-5d5b)"
 The version string must ideally include a git commit hash and either a "dev" or a "release" suffix such as in the example below:
 "Version 1.3; git-0d08353-release" [code: bad-format]
 </div></details><details><summary>ℹ <b>INFO:</b> Font contains all required tables? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/required_tables">com.google.fonts/check/required_tables</a>)</summary><div>
@@ -730,6 +735,14 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 
 * 🍞 **PASS** OFL license body text is correct
+</div></details><details><summary>🍞 <b>PASS:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
+
+
+* 🍞 **PASS** Licensing entry on name table is correctly set.
+</div></details><details><summary>🍞 <b>PASS:</b> License URL matches License text on name table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license_url">com.google.fonts/check/name/license_url</a>)</summary><div>
+
+
+* 🍞 **PASS** Font has a valid license URL in NAME table.
 </div></details><details><summary>🍞 <b>PASS:</b> Description strings in the name table must not exceed 200 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/description_max_length">com.google.fonts/check/name/description_max_length</a>)</summary><div>
 
 
@@ -786,18 +799,6 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 
 * 🍞 **PASS** FONT_SUBFAMILY_NAME entries are all good.
-</div></details><details><summary>🍞 <b>PASS:</b> Check name table: FULL_FONT_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/fullfontname">com.google.fonts/check/name/fullfontname</a>)</summary><div>
-
-
-* 🍞 **PASS** FULL_FONT_NAME entries are all good.
-</div></details><details><summary>🍞 <b>PASS:</b> Check name table: TYPOGRAPHIC_FAMILY_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/typographicfamilyname">com.google.fonts/check/name/typographicfamilyname</a>)</summary><div>
-
-
-* 🍞 **PASS** TYPOGRAPHIC_FAMILY_NAME entries are all good.
-</div></details><details><summary>🍞 <b>PASS:</b> Check name table: TYPOGRAPHIC_SUBFAMILY_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/typographicsubfamilyname">com.google.fonts/check/name/typographicsubfamilyname</a>)</summary><div>
-
-
-* 🍞 **PASS** TYPOGRAPHIC_SUBFAMILY_NAME entries are all good.
 </div></details><details><summary>🍞 <b>PASS:</b> Length of copyright notice must not exceed 500 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/copyright_length">com.google.fonts/check/name/copyright_length</a>)</summary><div>
 
 
@@ -1088,20 +1089,24 @@ The version string must ideally include a git commit hash and either a "dev" or 
 	- And 227 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** Font lacks NameID 13 (LICENSE DESCRIPTION). A proper licensing entry must be set. [code: missing]
 </div></details><details><summary>🔥 <b>FAIL:</b> Version format is correct in 'name' table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/version_format">com.google.fonts/check/name/version_format</a>)</summary><div>
 
 
-* 🔥 **FAIL** The NameID.VERSION_STRING (nameID=5) value must follow the pattern "Version X.Y" with X.Y greater than or equal to 1.000. Current version string is: "Version 0.001; ttfautohint (v1.8.4.7-5d5b)" [code: bad-version-strings]
+* 🔥 **FAIL** The NameID.VERSION_STRING (nameID=5) value must follow the pattern "Version X.Y" with X.Y greater than or equal to 1.000. Current version string is: "Version 0.002; ttfautohint (v1.8.4.7-5d5b)" [code: bad-version-strings]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check name table: POSTSCRIPT_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/postscriptname">com.google.fonts/check/name/postscriptname</a>)</summary><div>
 
 
 * 🔥 **FAIL** [POSTSCRIPT_NAME(6):WINDOWS(3)]
 Expected: "LibreDotMatrixScreen-Regular"
 But got:  "LibreDotMatrixScreen" [code: bad-entry]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check name table: TYPOGRAPHIC_FAMILY_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/typographicfamilyname">com.google.fonts/check/name/typographicfamilyname</a>)</summary><div>
+
+
+* 🔥 **FAIL** Font style is "Regular" and, for that reason, it is not expected to have a [TYPOGRAPHIC_FAMILY_NAME(16):WINDOWS(3)] entry! [code: ribbi]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check name table: TYPOGRAPHIC_SUBFAMILY_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/typographicsubfamilyname">com.google.fonts/check/name/typographicsubfamilyname</a>)</summary><div>
+
+
+* 🔥 **FAIL** TYPOGRAPHIC_SUBFAMILY_NAME entry for Win "Screen" must be "Regular". Please note, since the font style is RIBBI, this record can be safely deleted. [code: bad-win-name]
 </div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
 
 
@@ -1115,6 +1120,11 @@ But got:  "LibreDotMatrixScreen" [code: bad-entry]
 
 * ⚠ **WARN** OS/2 VendorID is 'PfEd', a font editor default. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
  [code: bad]
+</div></details><details><summary>⚠ <b>WARN:</b> Check name table: FULL_FONT_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/fullfontname">com.google.fonts/check/name/fullfontname</a>)</summary><div>
+
+
+* ⚠ **WARN** [FULL_FONT_NAME(4):WINDOWS(3)]
+Got "Libre Dot Matrix Screen" which lacks "Regular", but it is probably OK in this case. [code: lacks-regular]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -1225,10 +1235,6 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * 💤 **SKIP** Unfulfilled Conditions: gfonts_repo_structure
-</div></details><details><summary>💤 <b>SKIP:</b> License URL matches License text on name table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license_url">com.google.fonts/check/name/license_url</a>)</summary><div>
-
-
-* 💤 **SKIP** Could not infer the font license. Please ensure NameID 13 (LICENSE DESCRIPTION) is properly set.
 </div></details><details><summary>💤 <b>SKIP:</b> Font has ttfautohint params? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/has_ttfautohint_params">com.google.fonts/check/has_ttfautohint_params</a>)</summary><div>
 
 
@@ -1640,10 +1646,10 @@ Use -F or --full-lists to disable shortening of long lists.
 
  |               | fonts/ttf/LibreDotMatrixScreen-Regular.ttf          |
  |:------------- | ---------------:|
- | Dehinted Size | 11.6kb |
- | Hinted Size   | 23.6kb   |
+ | Dehinted Size | 12.1kb |
+ | Hinted Size   | 24.1kb   |
  | Increase      | 12.0kb      |
- | Change        | 103.3 %  |
+ | Change        | 99.6 %  |
  [code: size-impact]
 </div></details><details><summary>ℹ <b>INFO:</b> EPAR table present in font? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/epar">com.google.fonts/check/epar</a>)</summary><div>
 
@@ -1665,7 +1671,7 @@ PPM <= 65535:
 </div></details><details><summary>ℹ <b>INFO:</b> Check for font-v versioning. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontv">com.google.fonts/check/fontv</a>)</summary><div>
 
 
-* ℹ **INFO** Version string is: "Version 0.001; ttfautohint (v1.8.4.7-5d5b)"
+* ℹ **INFO** Version string is: "Version 0.002; ttfautohint (v1.8.4.7-5d5b)"
 The version string must ideally include a git commit hash and either a "dev" or a "release" suffix such as in the example below:
 "Version 1.3; git-0d08353-release" [code: bad-format]
 </div></details><details><summary>ℹ <b>INFO:</b> Font contains all required tables? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/required_tables">com.google.fonts/check/required_tables</a>)</summary><div>
@@ -1711,6 +1717,14 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 
 * 🍞 **PASS** OFL license body text is correct
+</div></details><details><summary>🍞 <b>PASS:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
+
+
+* 🍞 **PASS** Licensing entry on name table is correctly set.
+</div></details><details><summary>🍞 <b>PASS:</b> License URL matches License text on name table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license_url">com.google.fonts/check/name/license_url</a>)</summary><div>
+
+
+* 🍞 **PASS** Font has a valid license URL in NAME table.
 </div></details><details><summary>🍞 <b>PASS:</b> Description strings in the name table must not exceed 200 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/description_max_length">com.google.fonts/check/name/description_max_length</a>)</summary><div>
 
 
@@ -1767,18 +1781,6 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 
 * 🍞 **PASS** FONT_SUBFAMILY_NAME entries are all good.
-</div></details><details><summary>🍞 <b>PASS:</b> Check name table: FULL_FONT_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/fullfontname">com.google.fonts/check/name/fullfontname</a>)</summary><div>
-
-
-* 🍞 **PASS** FULL_FONT_NAME entries are all good.
-</div></details><details><summary>🍞 <b>PASS:</b> Check name table: TYPOGRAPHIC_FAMILY_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/typographicfamilyname">com.google.fonts/check/name/typographicfamilyname</a>)</summary><div>
-
-
-* 🍞 **PASS** TYPOGRAPHIC_FAMILY_NAME entries are all good.
-</div></details><details><summary>🍞 <b>PASS:</b> Check name table: TYPOGRAPHIC_SUBFAMILY_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/typographicsubfamilyname">com.google.fonts/check/name/typographicsubfamilyname</a>)</summary><div>
-
-
-* 🍞 **PASS** TYPOGRAPHIC_SUBFAMILY_NAME entries are all good.
 </div></details><details><summary>🍞 <b>PASS:</b> Length of copyright notice must not exceed 500 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/copyright_length">com.google.fonts/check/name/copyright_length</a>)</summary><div>
 
 
@@ -2069,20 +2071,24 @@ The version string must ideally include a git commit hash and either a "dev" or 
 	- And 227 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** Font lacks NameID 13 (LICENSE DESCRIPTION). A proper licensing entry must be set. [code: missing]
 </div></details><details><summary>🔥 <b>FAIL:</b> Version format is correct in 'name' table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/version_format">com.google.fonts/check/name/version_format</a>)</summary><div>
 
 
-* 🔥 **FAIL** The NameID.VERSION_STRING (nameID=5) value must follow the pattern "Version X.Y" with X.Y greater than or equal to 1.000. Current version string is: "Version 0.001; ttfautohint (v1.8.4.7-5d5b)" [code: bad-version-strings]
+* 🔥 **FAIL** The NameID.VERSION_STRING (nameID=5) value must follow the pattern "Version X.Y" with X.Y greater than or equal to 1.000. Current version string is: "Version 0.002; ttfautohint (v1.8.4.7-5d5b)" [code: bad-version-strings]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check name table: POSTSCRIPT_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/postscriptname">com.google.fonts/check/name/postscriptname</a>)</summary><div>
 
 
 * 🔥 **FAIL** [POSTSCRIPT_NAME(6):WINDOWS(3)]
 Expected: "LibreDotMatrixVideo-Regular"
 But got:  "LibreDotMatrixVideo" [code: bad-entry]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check name table: TYPOGRAPHIC_FAMILY_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/typographicfamilyname">com.google.fonts/check/name/typographicfamilyname</a>)</summary><div>
+
+
+* 🔥 **FAIL** Font style is "Regular" and, for that reason, it is not expected to have a [TYPOGRAPHIC_FAMILY_NAME(16):WINDOWS(3)] entry! [code: ribbi]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check name table: TYPOGRAPHIC_SUBFAMILY_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/typographicsubfamilyname">com.google.fonts/check/name/typographicsubfamilyname</a>)</summary><div>
+
+
+* 🔥 **FAIL** TYPOGRAPHIC_SUBFAMILY_NAME entry for Win "Video" must be "Regular". Please note, since the font style is RIBBI, this record can be safely deleted. [code: bad-win-name]
 </div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
 
 
@@ -2096,6 +2102,11 @@ But got:  "LibreDotMatrixVideo" [code: bad-entry]
 
 * ⚠ **WARN** OS/2 VendorID is 'PfEd', a font editor default. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
  [code: bad]
+</div></details><details><summary>⚠ <b>WARN:</b> Check name table: FULL_FONT_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/fullfontname">com.google.fonts/check/name/fullfontname</a>)</summary><div>
+
+
+* ⚠ **WARN** [FULL_FONT_NAME(4):WINDOWS(3)]
+Got "Libre Dot Matrix Video" which lacks "Regular", but it is probably OK in this case. [code: lacks-regular]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -2186,10 +2197,6 @@ The following glyphs do not have the recommended number of contours:
 
 
 * 💤 **SKIP** Unfulfilled Conditions: gfonts_repo_structure
-</div></details><details><summary>💤 <b>SKIP:</b> License URL matches License text on name table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license_url">com.google.fonts/check/name/license_url</a>)</summary><div>
-
-
-* 💤 **SKIP** Could not infer the font license. Please ensure NameID 13 (LICENSE DESCRIPTION) is properly set.
 </div></details><details><summary>💤 <b>SKIP:</b> Font has ttfautohint params? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/has_ttfautohint_params">com.google.fonts/check/has_ttfautohint_params</a>)</summary><div>
 
 
@@ -2601,10 +2608,10 @@ The following glyphs do not have the recommended number of contours:
 
  |               | fonts/ttf/LibreDotMatrixVideo-Regular.ttf          |
  |:------------- | ---------------:|
- | Dehinted Size | 9.1kb |
- | Hinted Size   | 27.4kb   |
+ | Dehinted Size | 9.5kb |
+ | Hinted Size   | 27.9kb   |
  | Increase      | 18.3kb      |
- | Change        | 201.2 %  |
+ | Change        | 192.0 %  |
  [code: size-impact]
 </div></details><details><summary>ℹ <b>INFO:</b> EPAR table present in font? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/epar">com.google.fonts/check/epar</a>)</summary><div>
 
@@ -2626,7 +2633,7 @@ PPM <= 65535:
 </div></details><details><summary>ℹ <b>INFO:</b> Check for font-v versioning. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontv">com.google.fonts/check/fontv</a>)</summary><div>
 
 
-* ℹ **INFO** Version string is: "Version 0.001; ttfautohint (v1.8.4.7-5d5b)"
+* ℹ **INFO** Version string is: "Version 0.002; ttfautohint (v1.8.4.7-5d5b)"
 The version string must ideally include a git commit hash and either a "dev" or a "release" suffix such as in the example below:
 "Version 1.3; git-0d08353-release" [code: bad-format]
 </div></details><details><summary>ℹ <b>INFO:</b> Font contains all required tables? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/required_tables">com.google.fonts/check/required_tables</a>)</summary><div>
@@ -2672,6 +2679,14 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 
 * 🍞 **PASS** OFL license body text is correct
+</div></details><details><summary>🍞 <b>PASS:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
+
+
+* 🍞 **PASS** Licensing entry on name table is correctly set.
+</div></details><details><summary>🍞 <b>PASS:</b> License URL matches License text on name table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license_url">com.google.fonts/check/name/license_url</a>)</summary><div>
+
+
+* 🍞 **PASS** Font has a valid license URL in NAME table.
 </div></details><details><summary>🍞 <b>PASS:</b> Description strings in the name table must not exceed 200 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/description_max_length">com.google.fonts/check/name/description_max_length</a>)</summary><div>
 
 
@@ -2728,18 +2743,6 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 
 * 🍞 **PASS** FONT_SUBFAMILY_NAME entries are all good.
-</div></details><details><summary>🍞 <b>PASS:</b> Check name table: FULL_FONT_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/fullfontname">com.google.fonts/check/name/fullfontname</a>)</summary><div>
-
-
-* 🍞 **PASS** FULL_FONT_NAME entries are all good.
-</div></details><details><summary>🍞 <b>PASS:</b> Check name table: TYPOGRAPHIC_FAMILY_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/typographicfamilyname">com.google.fonts/check/name/typographicfamilyname</a>)</summary><div>
-
-
-* 🍞 **PASS** TYPOGRAPHIC_FAMILY_NAME entries are all good.
-</div></details><details><summary>🍞 <b>PASS:</b> Check name table: TYPOGRAPHIC_SUBFAMILY_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/typographicsubfamilyname">com.google.fonts/check/name/typographicsubfamilyname</a>)</summary><div>
-
-
-* 🍞 **PASS** TYPOGRAPHIC_SUBFAMILY_NAME entries are all good.
 </div></details><details><summary>🍞 <b>PASS:</b> Length of copyright notice must not exceed 500 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/copyright_length">com.google.fonts/check/name/copyright_length</a>)</summary><div>
 
 
@@ -3030,14 +3033,10 @@ The version string must ideally include a git commit hash and either a "dev" or 
 	- And 227 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** Font lacks NameID 13 (LICENSE DESCRIPTION). A proper licensing entry must be set. [code: missing]
 </div></details><details><summary>🔥 <b>FAIL:</b> Version format is correct in 'name' table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/version_format">com.google.fonts/check/name/version_format</a>)</summary><div>
 
 
-* 🔥 **FAIL** The NameID.VERSION_STRING (nameID=5) value must follow the pattern "Version X.Y" with X.Y greater than or equal to 1.000. Current version string is: "Version 0.001; ttfautohint (v1.8.4.7-5d5b)" [code: bad-version-strings]
+* 🔥 **FAIL** The NameID.VERSION_STRING (nameID=5) value must follow the pattern "Version X.Y" with X.Y greater than or equal to 1.000. Current version string is: "Version 0.002; ttfautohint (v1.8.4.7-5d5b)" [code: bad-version-strings]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check name table: POSTSCRIPT_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/postscriptname">com.google.fonts/check/name/postscriptname</a>)</summary><div>
 
 
@@ -3160,10 +3159,6 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * 💤 **SKIP** Unfulfilled Conditions: gfonts_repo_structure
-</div></details><details><summary>💤 <b>SKIP:</b> License URL matches License text on name table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license_url">com.google.fonts/check/name/license_url</a>)</summary><div>
-
-
-* 💤 **SKIP** Could not infer the font license. Please ensure NameID 13 (LICENSE DESCRIPTION) is properly set.
 </div></details><details><summary>💤 <b>SKIP:</b> Font has ttfautohint params? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/has_ttfautohint_params">com.google.fonts/check/has_ttfautohint_params</a>)</summary><div>
 
 
@@ -3575,10 +3570,10 @@ Use -F or --full-lists to disable shortening of long lists.
 
  |               | fonts/ttf/LibreDotMatrix-Regular.ttf          |
  |:------------- | ---------------:|
- | Dehinted Size | 7.4kb |
- | Hinted Size   | 17.4kb   |
+ | Dehinted Size | 7.8kb |
+ | Hinted Size   | 17.8kb   |
  | Increase      | 10.0kb      |
- | Change        | 134.5 %  |
+ | Change        | 128.0 %  |
  [code: size-impact]
 </div></details><details><summary>ℹ <b>INFO:</b> EPAR table present in font? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/epar">com.google.fonts/check/epar</a>)</summary><div>
 
@@ -3600,7 +3595,7 @@ PPM <= 65535:
 </div></details><details><summary>ℹ <b>INFO:</b> Check for font-v versioning. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontv">com.google.fonts/check/fontv</a>)</summary><div>
 
 
-* ℹ **INFO** Version string is: "Version 0.001; ttfautohint (v1.8.4.7-5d5b)"
+* ℹ **INFO** Version string is: "Version 0.002; ttfautohint (v1.8.4.7-5d5b)"
 The version string must ideally include a git commit hash and either a "dev" or a "release" suffix such as in the example below:
 "Version 1.3; git-0d08353-release" [code: bad-format]
 </div></details><details><summary>ℹ <b>INFO:</b> Font contains all required tables? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/required_tables">com.google.fonts/check/required_tables</a>)</summary><div>
@@ -3646,6 +3641,14 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 
 * 🍞 **PASS** OFL license body text is correct
+</div></details><details><summary>🍞 <b>PASS:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
+
+
+* 🍞 **PASS** Licensing entry on name table is correctly set.
+</div></details><details><summary>🍞 <b>PASS:</b> License URL matches License text on name table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license_url">com.google.fonts/check/name/license_url</a>)</summary><div>
+
+
+* 🍞 **PASS** Font has a valid license URL in NAME table.
 </div></details><details><summary>🍞 <b>PASS:</b> Description strings in the name table must not exceed 200 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/description_max_length">com.google.fonts/check/name/description_max_length</a>)</summary><div>
 
 
@@ -3975,7 +3978,7 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 24 | 19 | 474 | 25 | 353 | 0 |
+| 0 | 26 | 22 | 470 | 25 | 352 | 0 |
 | 0% | 3% | 2% | 53% | 3% | 39% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
