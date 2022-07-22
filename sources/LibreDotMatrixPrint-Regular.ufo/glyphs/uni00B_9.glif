@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni00B9" format="2">
+  <advance width="400"/>
+  <unicode hex="00B9"/>
+  <outline>
+    <component base="dot" xOffset="250" yOffset="200"/>
+    <component base="dot" xOffset="150" yOffset="200"/>
+    <component base="dot" xOffset="50" yOffset="200"/>
+    <component base="dot" xOffset="150" yOffset="300"/>
+    <component base="dot" xOffset="150" yOffset="400"/>
+    <component base="dot" xOffset="150" yOffset="500"/>
+    <component base="dot" xOffset="50" yOffset="500"/>
+    <component base="dot" xOffset="150" yOffset="600"/>
+  </outline>
+</glyph>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="guilsinglleft" format="2">
+  <advance width="300"/>
+  <unicode hex="2039"/>
+  <outline>
+    <component base="dot" xOffset="150" yOffset="200"/>
+    <component base="dot" xOffset="50" yOffset="300"/>
+    <component base="dot" xOffset="150" yOffset="400"/>
+  </outline>
+</glyph>
