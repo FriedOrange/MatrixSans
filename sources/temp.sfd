@@ -15,12 +15,12 @@ InvalidEm: 0
 LayerCount: 2
 Layer: 0 0 "Back" 1
 Layer: 1 0 "Fore" 0
-XUID: [1021 51 1551205820 511]
+XUID: [1021 740 -1302409047 17832]
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
-CreationTime: 1658474595
-ModificationTime: 1658474595
+CreationTime: 1658474705
+ModificationTime: 1658474705
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -42,7 +42,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-BeginChars: 1114117 165
+BeginChars: 1114114 165
 
 StartChar: dot
 Encoding: 1114112 -1 0
@@ -2156,10 +2156,9 @@ Refer: 0 -1 N 1 0 0 1 200 600 2
 Refer: 0 -1 N 1 0 0 1 100 600 2
 EndChar
 
-StartChar: ordeminine
-Encoding: 1114114 -1 106
+StartChar: ordfeminine
+Encoding: 170 170 106
 Width: 800
-VWidth: 0
 Flags: HW
 LayerCount: 2
 Fore
@@ -2946,10 +2945,9 @@ Refer: 0 -1 N 1 0 0 1 200 400 2
 Refer: 0 -1 N 1 0 0 1 100 400 2
 EndChar
 
-StartChar: guilsingleft
-Encoding: 1114115 -1 148
+StartChar: guilsinglleft
+Encoding: 8249 8249 148
 Width: 800
-VWidth: 0
 Flags: HW
 LayerCount: 2
 Fore
@@ -2958,10 +2956,9 @@ Refer: 0 -1 N 1 0 0 1 100 300 2
 Refer: 0 -1 N 1 0 0 1 200 400 2
 EndChar
 
-StartChar: guilsingright
-Encoding: 1114116 -1 149
+StartChar: guilsinglright
+Encoding: 8250 8250 149
 Width: 800
-VWidth: 0
 Flags: HW
 LayerCount: 2
 Fore
