@@ -74,9 +74,6 @@ Fontbakery version: 0.8.9
 
 * 🔥 **FAIL** Missing required codepoints:
 
-	- 0x00A0 (NO-BREAK SPACE)
-
-
 	- 0x2026 (HORIZONTAL ELLIPSIS)
 
 
@@ -86,25 +83,28 @@ Fontbakery version: 0.8.9
 	- 0x201D (RIGHT DOUBLE QUOTATION MARK)
 
 
-	- 0x2018 (LEFT SINGLE QUOTATION MARK)
-
-
 	- 0x2019 (RIGHT SINGLE QUOTATION MARK)
 
 
-	- 0x00AB (LEFT-POINTING DOUBLE ANGLE QUOTATION MARK)
+	- 0x030B (COMBINING DOUBLE ACUTE ACCENT)
 
 
-	- 0x00BB (RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK)
+	- 0x0304 (COMBINING MACRON)
 
 
-	- 0x00D7 (MULTIPLICATION SIGN)
+	- 0x02D9 (DOT ABOVE)
 
 
-	- 0x00F7 (DIVISION SIGN)
+	- 0x0102 (LATIN CAPITAL LETTER A WITH BREVE)
+
+
+	- 0x01CD (LATIN CAPITAL LETTER A WITH CARON)
+
+
+	- 0x0100 (LATIN CAPITAL LETTER A WITH MACRON)
  
 
-	- And 227 more.
+	- And 118 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Version format is correct in 'name' table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/version_format">com.google.fonts/check/name/version_format</a>)</summary><div>
@@ -125,10 +125,10 @@ But got:  "LibreDotMatrixPrint" [code: bad-entry]
 
 
 * 🔥 **FAIL** TYPOGRAPHIC_SUBFAMILY_NAME entry for Win "Print" must be "Regular". Please note, since the font style is RIBBI, this record can be safely deleted. [code: bad-win-name]
-</div></details><details><summary>🔥 <b>FAIL:</b> Font contains glyphs for whitespace characters? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphs">com.google.fonts/check/whitespace_glyphs</a>)</summary><div>
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-* 🔥 **FAIL** Whitespace glyph missing for codepoint 0x00A0. [code: missing-whitespace-glyph-0x00A0]
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1000, but got 700 instead [code: ascent]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -153,6 +153,7 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
+* ⚠ **WARN** This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]
 * ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
 
 The following glyphs do not have the recommended number of contours:
@@ -177,10 +178,24 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: asterisk	Contours detected: 11	Expected: 1 or 4 
 
-	- And 174 more.
+	- And 433 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
+</div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
+
+
+* ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
+</div></details><details><summary>⚠ <b>WARN:</b> Check glyphs in mark glyph class are non-spacing. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_spacing_marks">com.google.fonts/check/gdef_spacing_marks</a>)</summary><div>
+
+
+* ⚠ **WARN** The following spacing glyphs may be in the GDEF mark glyph class by mistake:
+	 cedilla (U+00B8) [code: spacing-mark-glyphs]
+</div></details><details><summary>⚠ <b>WARN:</b> Check GDEF mark glyph class doesn't have characters that are not marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars">com.google.fonts/check/gdef_non_mark_chars</a>)</summary><div>
+
+
+* ⚠ **WARN** The following non-mark characters should not be in the GDEF mark glyph class:
+	 U+00B8 [code: non-mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
@@ -525,10 +540,6 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * 💤 **SKIP** Unfulfilled Conditions: family_metadata
-</div></details><details><summary>💤 <b>SKIP:</b> Font has **proper** whitespace glyph names? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphnames">com.google.fonts/check/whitespace_glyphnames</a>)</summary><div>
-
-
-* 💤 **SKIP** Unfulfilled Conditions: not missing_whitespace_chars
 </div></details><details><summary>💤 <b>SKIP:</b> Check correctness of STAT table strings  (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/STAT_strings">com.google.fonts/check/STAT_strings</a>)</summary><div>
 
 
@@ -545,10 +556,6 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * 💤 **SKIP** Unfulfilled Conditions: is_cjk_font
-</div></details><details><summary>💤 <b>SKIP:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 💤 **SKIP** Font has no nonspacing mark glyphs.
 </div></details><details><summary>💤 <b>SKIP:</b> Is the CFF subr/gsubr call depth > 10? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/cff.html#com.adobe.fonts/check/cff_call_depth">com.adobe.fonts/check/cff_call_depth</a>)</summary><div>
 
 
@@ -569,10 +576,6 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * 💤 **SKIP** Unfulfilled Conditions: is_cff
-</div></details><details><summary>💤 <b>SKIP:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/hmtx.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
-
-
-* 💤 **SKIP** Unfulfilled Conditions: not missing_whitespace_chars
 </div></details><details><summary>💤 <b>SKIP:</b> The variable font 'wght' (Weight) axis coordinate must be 400 on the 'Regular' instance. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/fvar.html#com.google.fonts/check/varfont/regular_wght_coord">com.google.fonts/check/varfont/regular_wght_coord</a>)</summary><div>
 
 
@@ -660,10 +663,10 @@ Use -F or --full-lists to disable shortening of long lists.
 
  |               | fonts/ttf/LibreDotMatrixPrint-Regular.ttf          |
  |:------------- | ---------------:|
- | Dehinted Size | 12.1kb |
- | Hinted Size   | 24.1kb   |
- | Increase      | 12.0kb      |
- | Change        | 99.5 %  |
+ | Dehinted Size | 29.4kb |
+ | Hinted Size   | 55.0kb   |
+ | Increase      | 25.5kb      |
+ | Change        | 86.8 %  |
  [code: size-impact]
 </div></details><details><summary>ℹ <b>INFO:</b> EPAR table present in font? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/epar">com.google.fonts/check/epar</a>)</summary><div>
 
@@ -699,7 +702,9 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 	- loca
 
-	- prep 
+	- prep
+
+	- GPOS 
 
 	- And gasp [code: optional-tables]
 * 🍞 **PASS** Font contains all required tables.
@@ -867,10 +872,6 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 
 * 🍞 **PASS** No trailing spaces on name table entries.
-</div></details><details><summary>🍞 <b>PASS:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
-
-
-* 🍞 **PASS** OS/2 usWinAscent & usWinDescent values look good!
 </div></details><details><summary>🍞 <b>PASS:</b> Checking OS/2 Metrics match hhea Metrics. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/os2_metrics_match_hhea">com.google.fonts/check/os2_metrics_match_hhea</a>)</summary><div>
 
 
@@ -887,6 +888,14 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 
 * 🍞 **PASS** OK
+</div></details><details><summary>🍞 <b>PASS:</b> Font contains glyphs for whitespace characters? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphs">com.google.fonts/check/whitespace_glyphs</a>)</summary><div>
+
+
+* 🍞 **PASS** Font contains glyphs for whitespace characters.
+</div></details><details><summary>🍞 <b>PASS:</b> Font has **proper** whitespace glyph names? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphnames">com.google.fonts/check/whitespace_glyphnames</a>)</summary><div>
+
+
+* 🍞 **PASS** Font has **AGL recommended** names for whitespace glyphs.
 </div></details><details><summary>🍞 <b>PASS:</b> Whitespace glyphs have ink? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_ink">com.google.fonts/check/whitespace_ink</a>)</summary><div>
 
 
@@ -991,18 +1000,14 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 
 * 🍞 **PASS** ok
-</div></details><details><summary>🍞 <b>PASS:</b> Check glyphs in mark glyph class are non-spacing. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_spacing_marks">com.google.fonts/check/gdef_spacing_marks</a>)</summary><div>
+</div></details><details><summary>🍞 <b>PASS:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/hmtx.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
 
 
-* 🍞 **PASS** Font does not has spacing glyphs in the GDEF mark glyph class.
+* 🍞 **PASS** Space and non-breaking space have the same width.
 </div></details><details><summary>🍞 <b>PASS:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
 
 
 * 🍞 **PASS** Font does not have mark characters not in the GDEF mark glyph class.
-</div></details><details><summary>🍞 <b>PASS:</b> Check GDEF mark glyph class doesn't have characters that are not marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars">com.google.fonts/check/gdef_non_mark_chars</a>)</summary><div>
-
-
-* 🍞 **PASS** Font does not have non-mark characters in the GDEF mark glyph class.
 </div></details><details><summary>🍞 <b>PASS:</b> Is there a usable "kern" table declared in the font? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/kern.html#com.google.fonts/check/kern_table">com.google.fonts/check/kern_table</a>)</summary><div>
 
 
@@ -1056,9 +1061,6 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 * 🔥 **FAIL** Missing required codepoints:
 
-	- 0x00A0 (NO-BREAK SPACE)
-
-
 	- 0x2026 (HORIZONTAL ELLIPSIS)
 
 
@@ -1068,25 +1070,28 @@ The version string must ideally include a git commit hash and either a "dev" or 
 	- 0x201D (RIGHT DOUBLE QUOTATION MARK)
 
 
-	- 0x2018 (LEFT SINGLE QUOTATION MARK)
-
-
 	- 0x2019 (RIGHT SINGLE QUOTATION MARK)
 
 
-	- 0x00AB (LEFT-POINTING DOUBLE ANGLE QUOTATION MARK)
+	- 0x030B (COMBINING DOUBLE ACUTE ACCENT)
 
 
-	- 0x00BB (RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK)
+	- 0x0304 (COMBINING MACRON)
 
 
-	- 0x00D7 (MULTIPLICATION SIGN)
+	- 0x02D9 (DOT ABOVE)
 
 
-	- 0x00F7 (DIVISION SIGN)
+	- 0x0102 (LATIN CAPITAL LETTER A WITH BREVE)
+
+
+	- 0x01CD (LATIN CAPITAL LETTER A WITH CARON)
+
+
+	- 0x0100 (LATIN CAPITAL LETTER A WITH MACRON)
  
 
-	- And 227 more.
+	- And 118 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Version format is correct in 'name' table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/version_format">com.google.fonts/check/name/version_format</a>)</summary><div>
@@ -1107,10 +1112,10 @@ But got:  "LibreDotMatrixScreen" [code: bad-entry]
 
 
 * 🔥 **FAIL** TYPOGRAPHIC_SUBFAMILY_NAME entry for Win "Screen" must be "Regular". Please note, since the font style is RIBBI, this record can be safely deleted. [code: bad-win-name]
-</div></details><details><summary>🔥 <b>FAIL:</b> Font contains glyphs for whitespace characters? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphs">com.google.fonts/check/whitespace_glyphs</a>)</summary><div>
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-* 🔥 **FAIL** Whitespace glyph missing for codepoint 0x00A0. [code: missing-whitespace-glyph-0x00A0]
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1000, but got 700 instead [code: ascent]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -1135,6 +1140,7 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
+* ⚠ **WARN** This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]
 * ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
 
 The following glyphs do not have the recommended number of contours:
@@ -1159,10 +1165,24 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: asterisk	Contours detected: 11	Expected: 1 or 4 
 
-	- And 174 more.
+	- And 433 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
+</div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
+
+
+* ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
+</div></details><details><summary>⚠ <b>WARN:</b> Check glyphs in mark glyph class are non-spacing. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_spacing_marks">com.google.fonts/check/gdef_spacing_marks</a>)</summary><div>
+
+
+* ⚠ **WARN** The following spacing glyphs may be in the GDEF mark glyph class by mistake:
+	 cedilla (U+00B8) [code: spacing-mark-glyphs]
+</div></details><details><summary>⚠ <b>WARN:</b> Check GDEF mark glyph class doesn't have characters that are not marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars">com.google.fonts/check/gdef_non_mark_chars</a>)</summary><div>
+
+
+* ⚠ **WARN** The following non-mark characters should not be in the GDEF mark glyph class:
+	 U+00B8 [code: non-mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
@@ -1507,10 +1527,6 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * 💤 **SKIP** Unfulfilled Conditions: family_metadata
-</div></details><details><summary>💤 <b>SKIP:</b> Font has **proper** whitespace glyph names? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphnames">com.google.fonts/check/whitespace_glyphnames</a>)</summary><div>
-
-
-* 💤 **SKIP** Unfulfilled Conditions: not missing_whitespace_chars
 </div></details><details><summary>💤 <b>SKIP:</b> Check correctness of STAT table strings  (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/STAT_strings">com.google.fonts/check/STAT_strings</a>)</summary><div>
 
 
@@ -1527,10 +1543,6 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * 💤 **SKIP** Unfulfilled Conditions: is_cjk_font
-</div></details><details><summary>💤 <b>SKIP:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 💤 **SKIP** Font has no nonspacing mark glyphs.
 </div></details><details><summary>💤 <b>SKIP:</b> Is the CFF subr/gsubr call depth > 10? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/cff.html#com.adobe.fonts/check/cff_call_depth">com.adobe.fonts/check/cff_call_depth</a>)</summary><div>
 
 
@@ -1551,10 +1563,6 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * 💤 **SKIP** Unfulfilled Conditions: is_cff
-</div></details><details><summary>💤 <b>SKIP:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/hmtx.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
-
-
-* 💤 **SKIP** Unfulfilled Conditions: not missing_whitespace_chars
 </div></details><details><summary>💤 <b>SKIP:</b> The variable font 'wght' (Weight) axis coordinate must be 400 on the 'Regular' instance. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/fvar.html#com.google.fonts/check/varfont/regular_wght_coord">com.google.fonts/check/varfont/regular_wght_coord</a>)</summary><div>
 
 
@@ -1642,10 +1650,10 @@ Use -F or --full-lists to disable shortening of long lists.
 
  |               | fonts/ttf/LibreDotMatrixScreen-Regular.ttf          |
  |:------------- | ---------------:|
- | Dehinted Size | 12.1kb |
- | Hinted Size   | 24.1kb   |
- | Increase      | 12.0kb      |
- | Change        | 99.6 %  |
+ | Dehinted Size | 29.4kb |
+ | Hinted Size   | 55.0kb   |
+ | Increase      | 25.6kb      |
+ | Change        | 86.9 %  |
  [code: size-impact]
 </div></details><details><summary>ℹ <b>INFO:</b> EPAR table present in font? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/epar">com.google.fonts/check/epar</a>)</summary><div>
 
@@ -1681,7 +1689,9 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 	- loca
 
-	- prep 
+	- prep
+
+	- GPOS 
 
 	- And gasp [code: optional-tables]
 * 🍞 **PASS** Font contains all required tables.
@@ -1849,10 +1859,6 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 
 * 🍞 **PASS** No trailing spaces on name table entries.
-</div></details><details><summary>🍞 <b>PASS:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
-
-
-* 🍞 **PASS** OS/2 usWinAscent & usWinDescent values look good!
 </div></details><details><summary>🍞 <b>PASS:</b> Checking OS/2 Metrics match hhea Metrics. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/os2_metrics_match_hhea">com.google.fonts/check/os2_metrics_match_hhea</a>)</summary><div>
 
 
@@ -1869,6 +1875,14 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 
 * 🍞 **PASS** OK
+</div></details><details><summary>🍞 <b>PASS:</b> Font contains glyphs for whitespace characters? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphs">com.google.fonts/check/whitespace_glyphs</a>)</summary><div>
+
+
+* 🍞 **PASS** Font contains glyphs for whitespace characters.
+</div></details><details><summary>🍞 <b>PASS:</b> Font has **proper** whitespace glyph names? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphnames">com.google.fonts/check/whitespace_glyphnames</a>)</summary><div>
+
+
+* 🍞 **PASS** Font has **AGL recommended** names for whitespace glyphs.
 </div></details><details><summary>🍞 <b>PASS:</b> Whitespace glyphs have ink? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_ink">com.google.fonts/check/whitespace_ink</a>)</summary><div>
 
 
@@ -1973,18 +1987,14 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 
 * 🍞 **PASS** ok
-</div></details><details><summary>🍞 <b>PASS:</b> Check glyphs in mark glyph class are non-spacing. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_spacing_marks">com.google.fonts/check/gdef_spacing_marks</a>)</summary><div>
+</div></details><details><summary>🍞 <b>PASS:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/hmtx.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
 
 
-* 🍞 **PASS** Font does not has spacing glyphs in the GDEF mark glyph class.
+* 🍞 **PASS** Space and non-breaking space have the same width.
 </div></details><details><summary>🍞 <b>PASS:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
 
 
 * 🍞 **PASS** Font does not have mark characters not in the GDEF mark glyph class.
-</div></details><details><summary>🍞 <b>PASS:</b> Check GDEF mark glyph class doesn't have characters that are not marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars">com.google.fonts/check/gdef_non_mark_chars</a>)</summary><div>
-
-
-* 🍞 **PASS** Font does not have non-mark characters in the GDEF mark glyph class.
 </div></details><details><summary>🍞 <b>PASS:</b> Is there a usable "kern" table declared in the font? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/kern.html#com.google.fonts/check/kern_table">com.google.fonts/check/kern_table</a>)</summary><div>
 
 
@@ -2038,9 +2048,6 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 * 🔥 **FAIL** Missing required codepoints:
 
-	- 0x00A0 (NO-BREAK SPACE)
-
-
 	- 0x2026 (HORIZONTAL ELLIPSIS)
 
 
@@ -2050,25 +2057,28 @@ The version string must ideally include a git commit hash and either a "dev" or 
 	- 0x201D (RIGHT DOUBLE QUOTATION MARK)
 
 
-	- 0x2018 (LEFT SINGLE QUOTATION MARK)
-
-
 	- 0x2019 (RIGHT SINGLE QUOTATION MARK)
 
 
-	- 0x00AB (LEFT-POINTING DOUBLE ANGLE QUOTATION MARK)
+	- 0x030B (COMBINING DOUBLE ACUTE ACCENT)
 
 
-	- 0x00BB (RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK)
+	- 0x0304 (COMBINING MACRON)
 
 
-	- 0x00D7 (MULTIPLICATION SIGN)
+	- 0x02D9 (DOT ABOVE)
 
 
-	- 0x00F7 (DIVISION SIGN)
+	- 0x0102 (LATIN CAPITAL LETTER A WITH BREVE)
+
+
+	- 0x01CD (LATIN CAPITAL LETTER A WITH CARON)
+
+
+	- 0x0100 (LATIN CAPITAL LETTER A WITH MACRON)
  
 
-	- And 227 more.
+	- And 118 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Version format is correct in 'name' table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/version_format">com.google.fonts/check/name/version_format</a>)</summary><div>
@@ -2089,10 +2099,10 @@ But got:  "LibreDotMatrixVideo" [code: bad-entry]
 
 
 * 🔥 **FAIL** TYPOGRAPHIC_SUBFAMILY_NAME entry for Win "Video" must be "Regular". Please note, since the font style is RIBBI, this record can be safely deleted. [code: bad-win-name]
-</div></details><details><summary>🔥 <b>FAIL:</b> Font contains glyphs for whitespace characters? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphs">com.google.fonts/check/whitespace_glyphs</a>)</summary><div>
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-* 🔥 **FAIL** Whitespace glyph missing for codepoint 0x00A0. [code: missing-whitespace-glyph-0x00A0]
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1000, but got 700 instead [code: ascent]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -2117,14 +2127,41 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
+* ⚠ **WARN** This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]
 * ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
 
 The following glyphs do not have the recommended number of contours:
 
+	- Glyph name: percent	Contours detected: 3	Expected: 5
+
+	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+
+	- Glyph name: onehalf	Contours detected: 2	Expected: 3
+
+	- Glyph name: aring	Contours detected: 3	Expected: 4
+
+	- Glyph name: aring	Contours detected: 3	Expected: 4
+
+	- Glyph name: onehalf	Contours detected: 2	Expected: 3
+
 	- Glyph name: percent	Contours detected: 3	Expected: 5 
 
-	- And Glyph name: percent	Contours detected: 3	Expected: 5
+	- And Glyph name: uni00AD	Contours detected: 1	Expected: 0
  [code: contour-count]
+</div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
+
+
+* ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
+</div></details><details><summary>⚠ <b>WARN:</b> Check glyphs in mark glyph class are non-spacing. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_spacing_marks">com.google.fonts/check/gdef_spacing_marks</a>)</summary><div>
+
+
+* ⚠ **WARN** The following spacing glyphs may be in the GDEF mark glyph class by mistake:
+	 cedilla (U+00B8) [code: spacing-mark-glyphs]
+</div></details><details><summary>⚠ <b>WARN:</b> Check GDEF mark glyph class doesn't have characters that are not marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars">com.google.fonts/check/gdef_non_mark_chars</a>)</summary><div>
+
+
+* ⚠ **WARN** The following non-mark characters should not be in the GDEF mark glyph class:
+	 U+00B8 [code: non-mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
@@ -2469,10 +2506,6 @@ The following glyphs do not have the recommended number of contours:
 
 
 * 💤 **SKIP** Unfulfilled Conditions: family_metadata
-</div></details><details><summary>💤 <b>SKIP:</b> Font has **proper** whitespace glyph names? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphnames">com.google.fonts/check/whitespace_glyphnames</a>)</summary><div>
-
-
-* 💤 **SKIP** Unfulfilled Conditions: not missing_whitespace_chars
 </div></details><details><summary>💤 <b>SKIP:</b> Check correctness of STAT table strings  (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/STAT_strings">com.google.fonts/check/STAT_strings</a>)</summary><div>
 
 
@@ -2489,10 +2522,6 @@ The following glyphs do not have the recommended number of contours:
 
 
 * 💤 **SKIP** Unfulfilled Conditions: is_cjk_font
-</div></details><details><summary>💤 <b>SKIP:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 💤 **SKIP** Font has no nonspacing mark glyphs.
 </div></details><details><summary>💤 <b>SKIP:</b> Is the CFF subr/gsubr call depth > 10? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/cff.html#com.adobe.fonts/check/cff_call_depth">com.adobe.fonts/check/cff_call_depth</a>)</summary><div>
 
 
@@ -2513,10 +2542,6 @@ The following glyphs do not have the recommended number of contours:
 
 
 * 💤 **SKIP** Unfulfilled Conditions: is_cff
-</div></details><details><summary>💤 <b>SKIP:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/hmtx.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
-
-
-* 💤 **SKIP** Unfulfilled Conditions: not missing_whitespace_chars
 </div></details><details><summary>💤 <b>SKIP:</b> The variable font 'wght' (Weight) axis coordinate must be 400 on the 'Regular' instance. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/fvar.html#com.google.fonts/check/varfont/regular_wght_coord">com.google.fonts/check/varfont/regular_wght_coord</a>)</summary><div>
 
 
@@ -2604,10 +2629,10 @@ The following glyphs do not have the recommended number of contours:
 
  |               | fonts/ttf/LibreDotMatrixVideo-Regular.ttf          |
  |:------------- | ---------------:|
- | Dehinted Size | 9.5kb |
- | Hinted Size   | 27.9kb   |
- | Increase      | 18.3kb      |
- | Change        | 192.0 %  |
+ | Dehinted Size | 18.5kb |
+ | Hinted Size   | 48.7kb   |
+ | Increase      | 30.2kb      |
+ | Change        | 163.5 %  |
  [code: size-impact]
 </div></details><details><summary>ℹ <b>INFO:</b> EPAR table present in font? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/epar">com.google.fonts/check/epar</a>)</summary><div>
 
@@ -2643,7 +2668,9 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 	- loca
 
-	- prep 
+	- prep
+
+	- GPOS 
 
 	- And gasp [code: optional-tables]
 * 🍞 **PASS** Font contains all required tables.
@@ -2811,10 +2838,6 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 
 * 🍞 **PASS** No trailing spaces on name table entries.
-</div></details><details><summary>🍞 <b>PASS:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
-
-
-* 🍞 **PASS** OS/2 usWinAscent & usWinDescent values look good!
 </div></details><details><summary>🍞 <b>PASS:</b> Checking OS/2 Metrics match hhea Metrics. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/os2_metrics_match_hhea">com.google.fonts/check/os2_metrics_match_hhea</a>)</summary><div>
 
 
@@ -2831,6 +2854,14 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 
 * 🍞 **PASS** OK
+</div></details><details><summary>🍞 <b>PASS:</b> Font contains glyphs for whitespace characters? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphs">com.google.fonts/check/whitespace_glyphs</a>)</summary><div>
+
+
+* 🍞 **PASS** Font contains glyphs for whitespace characters.
+</div></details><details><summary>🍞 <b>PASS:</b> Font has **proper** whitespace glyph names? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphnames">com.google.fonts/check/whitespace_glyphnames</a>)</summary><div>
+
+
+* 🍞 **PASS** Font has **AGL recommended** names for whitespace glyphs.
 </div></details><details><summary>🍞 <b>PASS:</b> Whitespace glyphs have ink? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_ink">com.google.fonts/check/whitespace_ink</a>)</summary><div>
 
 
@@ -2935,18 +2966,14 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 
 * 🍞 **PASS** ok
-</div></details><details><summary>🍞 <b>PASS:</b> Check glyphs in mark glyph class are non-spacing. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_spacing_marks">com.google.fonts/check/gdef_spacing_marks</a>)</summary><div>
+</div></details><details><summary>🍞 <b>PASS:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/hmtx.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
 
 
-* 🍞 **PASS** Font does not has spacing glyphs in the GDEF mark glyph class.
+* 🍞 **PASS** Space and non-breaking space have the same width.
 </div></details><details><summary>🍞 <b>PASS:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
 
 
 * 🍞 **PASS** Font does not have mark characters not in the GDEF mark glyph class.
-</div></details><details><summary>🍞 <b>PASS:</b> Check GDEF mark glyph class doesn't have characters that are not marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars">com.google.fonts/check/gdef_non_mark_chars</a>)</summary><div>
-
-
-* 🍞 **PASS** Font does not have non-mark characters in the GDEF mark glyph class.
 </div></details><details><summary>🍞 <b>PASS:</b> Is there a usable "kern" table declared in the font? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/kern.html#com.google.fonts/check/kern_table">com.google.fonts/check/kern_table</a>)</summary><div>
 
 
@@ -3000,9 +3027,6 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 * 🔥 **FAIL** Missing required codepoints:
 
-	- 0x00A0 (NO-BREAK SPACE)
-
-
 	- 0x2026 (HORIZONTAL ELLIPSIS)
 
 
@@ -3012,25 +3036,28 @@ The version string must ideally include a git commit hash and either a "dev" or 
 	- 0x201D (RIGHT DOUBLE QUOTATION MARK)
 
 
-	- 0x2018 (LEFT SINGLE QUOTATION MARK)
-
-
 	- 0x2019 (RIGHT SINGLE QUOTATION MARK)
 
 
-	- 0x00AB (LEFT-POINTING DOUBLE ANGLE QUOTATION MARK)
+	- 0x030B (COMBINING DOUBLE ACUTE ACCENT)
 
 
-	- 0x00BB (RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK)
+	- 0x0304 (COMBINING MACRON)
 
 
-	- 0x00D7 (MULTIPLICATION SIGN)
+	- 0x02D9 (DOT ABOVE)
 
 
-	- 0x00F7 (DIVISION SIGN)
+	- 0x0102 (LATIN CAPITAL LETTER A WITH BREVE)
+
+
+	- 0x01CD (LATIN CAPITAL LETTER A WITH CARON)
+
+
+	- 0x0100 (LATIN CAPITAL LETTER A WITH MACRON)
  
 
-	- And 227 more.
+	- And 118 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Version format is correct in 'name' table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/version_format">com.google.fonts/check/name/version_format</a>)</summary><div>
@@ -3043,10 +3070,10 @@ Use -F or --full-lists to disable shortening of long lists. [code: missing-codep
 * 🔥 **FAIL** [POSTSCRIPT_NAME(6):WINDOWS(3)]
 Expected: "LibreDotMatrix-Regular"
 But got:  "LibreDotMatrix" [code: bad-entry]
-</div></details><details><summary>🔥 <b>FAIL:</b> Font contains glyphs for whitespace characters? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphs">com.google.fonts/check/whitespace_glyphs</a>)</summary><div>
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-* 🔥 **FAIL** Whitespace glyph missing for codepoint 0x00A0. [code: missing-whitespace-glyph-0x00A0]
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1000, but got 700 instead [code: ascent]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -3059,6 +3086,7 @@ But got:  "LibreDotMatrix" [code: bad-entry]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
+* ⚠ **WARN** This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]
 * ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
 
 The following glyphs do not have the recommended number of contours:
@@ -3083,10 +3111,24 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: C	Contours detected: 2	Expected: 1 
 
-	- And 48 more.
+	- And 133 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
+</div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
+
+
+* ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
+</div></details><details><summary>⚠ <b>WARN:</b> Check glyphs in mark glyph class are non-spacing. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_spacing_marks">com.google.fonts/check/gdef_spacing_marks</a>)</summary><div>
+
+
+* ⚠ **WARN** The following spacing glyphs may be in the GDEF mark glyph class by mistake:
+	 cedilla (U+00B8) [code: spacing-mark-glyphs]
+</div></details><details><summary>⚠ <b>WARN:</b> Check GDEF mark glyph class doesn't have characters that are not marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars">com.google.fonts/check/gdef_non_mark_chars</a>)</summary><div>
+
+
+* ⚠ **WARN** The following non-mark characters should not be in the GDEF mark glyph class:
+	 U+00B8 [code: non-mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
@@ -3431,10 +3473,6 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * 💤 **SKIP** Unfulfilled Conditions: family_metadata
-</div></details><details><summary>💤 <b>SKIP:</b> Font has **proper** whitespace glyph names? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphnames">com.google.fonts/check/whitespace_glyphnames</a>)</summary><div>
-
-
-* 💤 **SKIP** Unfulfilled Conditions: not missing_whitespace_chars
 </div></details><details><summary>💤 <b>SKIP:</b> Check correctness of STAT table strings  (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/STAT_strings">com.google.fonts/check/STAT_strings</a>)</summary><div>
 
 
@@ -3451,10 +3489,6 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * 💤 **SKIP** Unfulfilled Conditions: is_cjk_font
-</div></details><details><summary>💤 <b>SKIP:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 💤 **SKIP** Font has no nonspacing mark glyphs.
 </div></details><details><summary>💤 <b>SKIP:</b> Is the CFF subr/gsubr call depth > 10? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/cff.html#com.adobe.fonts/check/cff_call_depth">com.adobe.fonts/check/cff_call_depth</a>)</summary><div>
 
 
@@ -3475,10 +3509,6 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * 💤 **SKIP** Unfulfilled Conditions: is_cff
-</div></details><details><summary>💤 <b>SKIP:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/hmtx.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
-
-
-* 💤 **SKIP** Unfulfilled Conditions: not missing_whitespace_chars
 </div></details><details><summary>💤 <b>SKIP:</b> The variable font 'wght' (Weight) axis coordinate must be 400 on the 'Regular' instance. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/fvar.html#com.google.fonts/check/varfont/regular_wght_coord">com.google.fonts/check/varfont/regular_wght_coord</a>)</summary><div>
 
 
@@ -3566,10 +3596,10 @@ Use -F or --full-lists to disable shortening of long lists.
 
  |               | fonts/ttf/LibreDotMatrix-Regular.ttf          |
  |:------------- | ---------------:|
- | Dehinted Size | 7.8kb |
- | Hinted Size   | 17.8kb   |
- | Increase      | 10.0kb      |
- | Change        | 128.0 %  |
+ | Dehinted Size | 15.6kb |
+ | Hinted Size   | 31.5kb   |
+ | Increase      | 15.9kb      |
+ | Change        | 102.0 %  |
  [code: size-impact]
 </div></details><details><summary>ℹ <b>INFO:</b> EPAR table present in font? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/epar">com.google.fonts/check/epar</a>)</summary><div>
 
@@ -3605,7 +3635,9 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 	- loca
 
-	- prep 
+	- prep
+
+	- GPOS 
 
 	- And gasp [code: optional-tables]
 * 🍞 **PASS** Font contains all required tables.
@@ -3789,10 +3821,6 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 
 * 🍞 **PASS** No trailing spaces on name table entries.
-</div></details><details><summary>🍞 <b>PASS:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
-
-
-* 🍞 **PASS** OS/2 usWinAscent & usWinDescent values look good!
 </div></details><details><summary>🍞 <b>PASS:</b> Checking OS/2 Metrics match hhea Metrics. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/os2_metrics_match_hhea">com.google.fonts/check/os2_metrics_match_hhea</a>)</summary><div>
 
 
@@ -3809,6 +3837,14 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 
 * 🍞 **PASS** OK
+</div></details><details><summary>🍞 <b>PASS:</b> Font contains glyphs for whitespace characters? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphs">com.google.fonts/check/whitespace_glyphs</a>)</summary><div>
+
+
+* 🍞 **PASS** Font contains glyphs for whitespace characters.
+</div></details><details><summary>🍞 <b>PASS:</b> Font has **proper** whitespace glyph names? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphnames">com.google.fonts/check/whitespace_glyphnames</a>)</summary><div>
+
+
+* 🍞 **PASS** Font has **AGL recommended** names for whitespace glyphs.
 </div></details><details><summary>🍞 <b>PASS:</b> Whitespace glyphs have ink? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_ink">com.google.fonts/check/whitespace_ink</a>)</summary><div>
 
 
@@ -3913,18 +3949,14 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 
 * 🍞 **PASS** ok
-</div></details><details><summary>🍞 <b>PASS:</b> Check glyphs in mark glyph class are non-spacing. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_spacing_marks">com.google.fonts/check/gdef_spacing_marks</a>)</summary><div>
+</div></details><details><summary>🍞 <b>PASS:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/hmtx.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
 
 
-* 🍞 **PASS** Font does not has spacing glyphs in the GDEF mark glyph class.
+* 🍞 **PASS** Space and non-breaking space have the same width.
 </div></details><details><summary>🍞 <b>PASS:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
 
 
 * 🍞 **PASS** Font does not have mark characters not in the GDEF mark glyph class.
-</div></details><details><summary>🍞 <b>PASS:</b> Check GDEF mark glyph class doesn't have characters that are not marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars">com.google.fonts/check/gdef_non_mark_chars</a>)</summary><div>
-
-
-* 🍞 **PASS** Font does not have non-mark characters in the GDEF mark glyph class.
 </div></details><details><summary>🍞 <b>PASS:</b> Is there a usable "kern" table declared in the font? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/kern.html#com.google.fonts/check/kern_table">com.google.fonts/check/kern_table</a>)</summary><div>
 
 
@@ -3978,8 +4010,8 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 22 | 22 | 470 | 25 | 356 | 0 |
-| 0% | 2% | 2% | 53% | 3% | 40% | 0% |
+| 0 | 22 | 34 | 458 | 25 | 356 | 0 |
+| 0% | 2% | 4% | 51% | 3% | 40% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **DEBUG**
