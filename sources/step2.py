@@ -20,7 +20,7 @@ LEFT_SIDE_BEARING = 50
 font = fontforge.open(sys.argv[1])
 
 unlink_list = ["Aring", "Ccedilla", "aring", "ccedilla"]
-video_fix = {"four", "N", "R", "b", "d", "g", "p", "q", "z", "thorn", "uni2074", "radical"}
+video_fix = {"four", "N", "R", "b", "d", "g", "p", "q", "z", "AE", "thorn", "uni2074", "radical"}
 
 #######################################
 # Regular style
