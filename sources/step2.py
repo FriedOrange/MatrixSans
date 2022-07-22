@@ -12,18 +12,22 @@ import sys
 import fontforge
 import plistlib
 
-dot_size = 100
-glyph_width = 8
-glyph_height = 12
-descent_dots = 2
-left_side_bearing = 50
+DOT_SIZE = 100
+GLYPH_WIDTH = 8
+GLYPH_HEIGHT = 12
+DESCENT_DOTS = 2
+LEFT_SIDE_BEARING = 50
 font = fontforge.open(sys.argv[1])
+
+unlink_list = ["Aring"]
+video_fix = {"four", "N", "R", "b", "d", "g", "p", "q", "z"}
 
 #######################################
 # Regular style
-#######################################
 font["dot"].unlinkThisGlyph()
 font["dot"].clear()
+for glyph in unlink_list:
+	font[glyph].unlinkRef() # prevent rendering issues with just-touching components
 font.selection.all()
 font.removeOverlap()
 font.simplify()
@@ -39,8 +43,8 @@ with open("LibreDotMatrix-Regular.ufo/fontinfo.plist", "wb") as plist_file:
 
 #######################################
 # Screen style
-#######################################
 font.revert()
+
 font.selection.select("dot")
 font.round(0.1)
 font["dot"].transform((0.88, 0.0, 0.0, 0.88, 10.0, 10.0))
@@ -59,7 +63,6 @@ with open("LibreDotMatrixScreen-Regular.ufo/fontinfo.plist", "wb") as plist_file
 
 #######################################
 # Print style
-#######################################
 font["dot"].clear()
 circle = fontforge.unitShape(0) # creates a unit circle
 circle.draw(font["dot"].glyphPen()) # draws the circle into the glyph, replacing previous outlines
@@ -81,15 +84,14 @@ with open("LibreDotMatrixPrint-Regular.ufo/fontinfo.plist", "wb") as plist_file:
 
 #######################################
 # Video style
-#######################################
 font.revert()
 
 font.createChar(-1, "halfdot")
 pen = font["halfdot"].glyphPen()
 pen.moveTo(0,0)
-pen.lineTo(0,dot_size // 2 + 1)
-pen.lineTo(dot_size // 2 + 1, dot_size // 2 + 1)
-pen.lineTo(dot_size // 2 + 1, 0)
+pen.lineTo(0,DOT_SIZE // 2 + 1)
+pen.lineTo(DOT_SIZE // 2 + 1, DOT_SIZE // 2 + 1)
+pen.lineTo(DOT_SIZE // 2 + 1, 0)
 pen.closePath()
 pen = None
 
@@ -130,8 +132,8 @@ patterns = [
 for glyph in font:
 
 	# determine where the dots are in each glyph
-	matrix = [[False]*glyph_height for _ in range(glyph_width)] # full dots
-	matrix2 = [[0]*glyph_height for _ in range(glyph_width)] # occupied quadrants
+	matrix = [[False]*GLYPH_HEIGHT for _ in range(GLYPH_WIDTH)] # full dots
+	matrix2 = [[0]*GLYPH_HEIGHT for _ in range(GLYPH_WIDTH)] # occupied quadrants
 	skip = False
 	for ref, trans in font[glyph].references:
 		if ref != "dot":
@@ -139,31 +141,31 @@ for glyph in font:
 			break # we are only interested in glyphs that directly reference the "dot" glyph
 		x = int(trans[4]) # coordinates of glyph reference
 		y = int(trans[5])
-		x //= dot_size
-		y = y // dot_size + descent_dots
+		x //= DOT_SIZE
+		y = y // DOT_SIZE + DESCENT_DOTS
 		matrix[x][y] = True
 		matrix2[x][y] = 15
 	if skip:
 		continue
 
 	# basic interpolation, Mullard SAA5050 style
-	for x in range(glyph_width - 1):
-		for y in range(glyph_height - 1):
+	for x in range(GLYPH_WIDTH - 1):
+		for y in range(GLYPH_HEIGHT - 1):
 			if matrix[x][y] and matrix[x + 1][y + 1] and not (matrix[x + 1][y] or matrix[x][y + 1]):
-				font[glyph].addReference("halfdot", (1, 0, 0, 1, x * dot_size + dot_size // 2 + left_side_bearing, (y - descent_dots + 1) * dot_size))
-				font[glyph].addReference("halfdot", (1, 0, 0, 1, (x + 1) * dot_size + left_side_bearing, (y - descent_dots) * dot_size + dot_size // 2))
+				font[glyph].addReference("halfdot", (1, 0, 0, 1, x * DOT_SIZE + DOT_SIZE // 2 + LEFT_SIDE_BEARING, (y - DESCENT_DOTS + 1) * DOT_SIZE))
+				font[glyph].addReference("halfdot", (1, 0, 0, 1, (x + 1) * DOT_SIZE + LEFT_SIDE_BEARING, (y - DESCENT_DOTS) * DOT_SIZE + DOT_SIZE // 2))
 				matrix2[x][y + 1] = 8 # bottom right quarter-dot
 				matrix2[x + 1][y] = 1 # top left
 			if matrix[x][y + 1] and matrix[x + 1][y] and not (matrix[x][y] or matrix[x + 1][y + 1]):
-				font[glyph].addReference("halfdot", (1, 0, 0, 1, x * dot_size + dot_size // 2 + left_side_bearing, (y - descent_dots) * dot_size + dot_size // 2))
-				font[glyph].addReference("halfdot", (1, 0, 0, 1, (x + 1) * dot_size + left_side_bearing, (y - descent_dots + 1) * dot_size))
+				font[glyph].addReference("halfdot", (1, 0, 0, 1, x * DOT_SIZE + DOT_SIZE // 2 + LEFT_SIDE_BEARING, (y - DESCENT_DOTS) * DOT_SIZE + DOT_SIZE // 2))
+				font[glyph].addReference("halfdot", (1, 0, 0, 1, (x + 1) * DOT_SIZE + LEFT_SIDE_BEARING, (y - DESCENT_DOTS + 1) * DOT_SIZE))
 				matrix2[x][y] = 2 # top right
 				matrix2[x + 1][y + 1] = 4 # bottom right
 
-	if str(glyph) in {"four", "N", "R", "b", "d", "g", "p", "q", "z"}:
+	if str(glyph) in video_fix:
 		# more complicated interpolation, to fix ugly spots left by the basic method
-		for i in range(glyph_width - 2):
-			for j in range(glyph_height - 2):
+		for i in range(GLYPH_WIDTH - 2):
+			for j in range(GLYPH_HEIGHT - 2):
 				for pattern in patterns:
 					skip = False
 					for a in range(3):
@@ -177,13 +179,15 @@ for glyph in font:
 						continue
 					# we found a matching pattern: need to add half-dot
 					x, y, = pattern[3]
-					font[glyph].addReference("halfdot", (1, 0, 0, 1, (i + x) * dot_size + left_side_bearing, (j + y - descent_dots) * dot_size))
+					font[glyph].addReference("halfdot", (1, 0, 0, 1, (i + x) * DOT_SIZE + LEFT_SIDE_BEARING, (j + y - DESCENT_DOTS) * DOT_SIZE))
 
 # interpolation done, now finish it off the same as Regular style
 font["dot"].unlinkThisGlyph()
 font["halfdot"].unlinkThisGlyph()
 font["dot"].clear()
 font["halfdot"].clear()
+for glyph in unlink_list:
+	font[glyph].unlinkRef() # prevent rendering issues with just-touching components
 font.selection.all()
 font.removeOverlap()
 font.simplify()
