@@ -20,7 +20,9 @@
       <point x="400" y="450" type="line"/>
       <point x="350" y="450" type="line"/>
       <point x="350" y="400" type="line"/>
-      <point x="250" y="400" type="line"/>
+      <point x="300" y="400" type="line"/>
+      <point x="300" y="350" type="line"/>
+      <point x="250" y="350" type="line"/>
       <point x="250" y="100" type="line"/>
       <point x="550" y="100" type="line"/>
       <point x="550" y="0" type="line"/>
