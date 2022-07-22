@@ -20,7 +20,7 @@ LEFT_SIDE_BEARING = 50
 font = fontforge.open(sys.argv[1])
 
 unlink_list = ["Aring", "Ccedilla", "aring", "ccedilla"]
-video_fix = {"four", "N", "R", "b", "d", "g", "p", "q", "z"}
+video_fix = {"four", "N", "R", "b", "d", "g", "p", "q", "z", "thorn", "uni2074", "radical"}
 
 #######################################
 # Regular style
@@ -186,6 +186,14 @@ font["dot"].unlinkThisGlyph()
 font["halfdot"].unlinkThisGlyph()
 font["dot"].clear()
 font["halfdot"].clear()
+
+# hack to preserve the open counter of the ring diacritic
+font["ring"].unlinkRef()
+font["ring"].removeOverlap()
+font["ring"].addReference("period", (1, 0, 0, 1, 100, 600))
+font["ring"].unlinkRef()
+font["ring"].correctDirection()
+
 for glyph in unlink_list:
 	font[glyph].unlinkRef() # prevent rendering issues with just-touching components
 font.selection.all()
