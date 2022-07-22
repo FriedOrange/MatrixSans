@@ -80,7 +80,7 @@ def main():
 						if source_image[j*glyph_height + y][i*glyph_width + x]:
 							font[name].addReference("dot", (1, 0, 0, 1, x * DOT_SIZE, (glyph_height - y - HEADROOM) * DOT_SIZE))
 
-			font[name].width = glyph_width * DOT_SIZE
+				font[name].width = glyph_width * DOT_SIZE
 
 	# finished step 1!
 	font.save(sys.argv[3])
