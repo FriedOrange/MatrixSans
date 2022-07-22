@@ -19,7 +19,7 @@ DESCENT_DOTS = 2
 LEFT_SIDE_BEARING = 50
 font = fontforge.open(sys.argv[1])
 
-unlink_list = ["Aring"]
+unlink_list = ["Aring", "Ccedilla", "aring", "ccedilla"]
 video_fix = {"four", "N", "R", "b", "d", "g", "p", "q", "z"}
 
 #######################################
