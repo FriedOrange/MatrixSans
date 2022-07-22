@@ -11,11 +11,11 @@
 import sys
 import fontforge
 
-em_size = 1000
-headroom = 3 # no. of dots above cap height in source image
-dot_size = 100
+EM_SIZE = 1000
+HEADROOM = 3 # no. of dots above cap height in source image
+DOT_SIZE = 100
 
-def get_pbm_int(pbm_file):
+def getPbmInt(pbm_file):
 	result = ""
 	while True:
 		c = pbm_file.read(1)
@@ -34,13 +34,13 @@ def main():
 	with open(sys.argv[1]) as pbm_file:
 		if pbm_file.read(2) != "P1":
 			raise Exception(f"Source image {sys.argv[0]} is incorrect format or corrupted")
-		image_width = get_pbm_int(pbm_file)
-		image_height = get_pbm_int(pbm_file)
+		image_width = getPbmInt(pbm_file)
+		image_height = getPbmInt(pbm_file)
 		source_image = []
 		for j in range(image_height):
 			source_image.append([])
 			for i in range(image_width):
-				source_image[-1].append(get_pbm_int(pbm_file))
+				source_image[-1].append(getPbmInt(pbm_file))
 	
 	# read glyph map (CSV)
 	with open(sys.argv[2]) as csv_file:
@@ -56,15 +56,15 @@ def main():
 	# initialise font
 	font = fontforge.font()
 	font.encoding = "UnicodeFull"
-	font.em = em_size
+	font.em = EM_SIZE
 
 	# make "dot" glyph
 	font.createChar(-1, "dot")
 	pen = font["dot"].glyphPen()
 	pen.moveTo(0,0)
-	pen.lineTo(0,dot_size + 1) # make the dots overlap by 1 unit so FontForge produces nicer outlines later
-	pen.lineTo(dot_size + 1, dot_size + 1)
-	pen.lineTo(dot_size + 1, 0)
+	pen.lineTo(0,DOT_SIZE + 1) # make the dots overlap by 1 unit so FontForge produces nicer outlines later
+	pen.lineTo(DOT_SIZE + 1, DOT_SIZE + 1)
+	pen.lineTo(DOT_SIZE + 1, 0)
 	pen.closePath()
 	pen = None
 
@@ -72,22 +72,15 @@ def main():
 	for j in range(len(glyph_map)):
 		for i in range(len(glyph_map[j])):
 			name = glyph_map[j][i]
-			if name.startswith("0x"):
-				codepoint = int(name, 16)
-				if codepoint == 0:
-					continue
-				else:
-					font.createChar(codepoint)
-					name = font[codepoint].glyphname
-			else:
-				font.createChar(-1, name)
-					
-			for y in range(glyph_height):
-				for x in range(glyph_width):
-					if source_image[j*glyph_height + y][i*glyph_width + x]:
-						font[name].addReference("dot", (1, 0, 0, 1, x * dot_size, (glyph_height - y - headroom) * dot_size))
+			if len(name) > 0:
+				font.createChar(fontforge.unicodeFromName(name), name)
+			
+				for y in range(glyph_height):
+					for x in range(glyph_width):
+						if source_image[j*glyph_height + y][i*glyph_width + x]:
+							font[name].addReference("dot", (1, 0, 0, 1, x * DOT_SIZE, (glyph_height - y - HEADROOM) * DOT_SIZE))
 
-			font[name].width = glyph_width * dot_size
+			font[name].width = glyph_width * DOT_SIZE
 
 	# finished step 1!
 	font.save(sys.argv[3])
