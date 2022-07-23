@@ -106,8 +106,6 @@ The fonts are currently in early development; significant changes may still occu
 - Initial test release
 - Supports Basic Latin (ASCII)
 
-[Font Versioning](https://github.com/googlefonts/gf-docs/tree/main/Spec#font-versioning) is based on semver.
-
 ## License
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
