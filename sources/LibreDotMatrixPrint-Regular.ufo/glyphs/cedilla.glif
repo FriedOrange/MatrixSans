@@ -2,7 +2,6 @@
 <glyph name="cedilla" format="2">
   <advance width="300"/>
   <unicode hex="00B8"/>
-  <anchor x="200" y="0" name="_below"/>
   <outline>
     <component base="dot" xOffset="150" yOffset="-200"/>
     <component base="dot" xOffset="50" yOffset="-200"/>

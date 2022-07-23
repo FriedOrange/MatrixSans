@@ -10,21 +10,26 @@
 	\braceleft \bar \braceright \asciitilde \exclamdown \cent \sterling \currency 
 	\yen \brokenbar \section \dieresis \copyright \ordfeminine \logicalnot 
 	\registered \macron \degree \uni00B2 \uni00B3 \acute \mu \paragraph 
-	\periodcentered \uni00B9 \ordmasculine \guillemotright \onequarter \onehalf 
-	\threequarters \questiondown \AE \Ccedilla \Egrave \Eacute \Ecircumflex 
-	\Edieresis \Igrave \Iacute \Icircumflex \Idieresis \Eth \Ntilde \Ograve \Oacute 
-	\Ocircumflex \Otilde \Odieresis \multiply \Oslash \Ugrave \Uacute \Ucircumflex 
-	\Udieresis \Yacute \Thorn \germandbls \agrave \aacute \acircumflex \atilde 
-	\adieresis \aring \ae \ccedilla \egrave \eacute \ecircumflex \edieresis \igrave 
-	\iacute \icircumflex \idieresis \eth \ntilde \ograve \oacute \ocircumflex 
-	\otilde \odieresis \divide \oslash \ugrave \uacute \ucircumflex \udieresis 
-	\yacute \thorn \ydieresis \dotlessi \Lslash \lslash \OE \oe \florin \circumflex 
-	\caron \breve \ring \ogonek \tilde \uni03A9 \pi \emdash \quoteleft \dagger 
-	\daggerdbl \bullet \guilsinglleft \guilsinglright \uni2074 \Euro \uni2113 
-	\trademark \partialdiff \Delta \product \summation \minus \radical \infinity 
-	\integral \notequal \lozenge \uniFB01 \uniFB02 \Omega \uni00A0 \guillemotleft 
-	\uni00AD \plusminus \Agrave \Aacute \Acircumflex \Atilde \Adieresis \Aring ];
-@GDEF_Mark = [\cedilla \gravecomb \acutecomb \uni0302 \tildecomb \uni0308 \uni030A ];
+	\periodcentered \cedilla \uni00B9 \ordmasculine \guillemotright \onequarter 
+	\onehalf \threequarters \questiondown \AE \Ccedilla \Egrave \Eacute 
+	\Ecircumflex \Edieresis \Igrave \Iacute \Icircumflex \Idieresis \Eth \Ntilde 
+	\Ograve \Oacute \Ocircumflex \Otilde \Odieresis \multiply \Oslash \Ugrave 
+	\Uacute \Ucircumflex \Udieresis \Yacute \Thorn \germandbls \agrave \aacute 
+	\acircumflex \atilde \adieresis \aring \ae \ccedilla \egrave \eacute 
+	\ecircumflex \edieresis \igrave \iacute \icircumflex \idieresis \eth \ntilde 
+	\ograve \oacute \ocircumflex \otilde \odieresis \divide \oslash \ugrave \uacute 
+	\ucircumflex \udieresis \yacute \thorn \ydieresis \dotlessi \Lslash \lslash \OE 
+	\oe \florin \circumflex \caron \breve \ring \ogonek \tilde \uni03A9 \pi \emdash 
+	\quoteleft \dagger \daggerdbl \bullet \guilsinglleft \guilsinglright \uni2074 
+	\Euro \uni2113 \trademark \partialdiff \Delta \product \summation \minus 
+	\radical \infinity \integral \notequal \lozenge \uniFB01 \uniFB02 \Omega 
+	\uni00A0 \guillemotleft \uni00AD \plusminus \Agrave \Aacute \Acircumflex 
+	\Atilde \Adieresis \Aring \Scaron \scaron \Zcaron \zcaron \uni02C9 \dotaccent 
+	\hungarumlaut \endash \quoteright \quotedblleft \quotedblright 
+	\quotesinglbase \quotedblbase \ellipsis \perthousand \fraction \estimated 
+	\uni2215 \uni2219 \approxequal \lessequal \greaterequal ];
+@GDEF_Mark = [\gravecomb \acutecomb \uni0302 \tildecomb \uni0308 \uni030A \uni030C 
+	\uni0327 ];
 
 table GDEF {
   GlyphClassDef @GDEF_Simple, , @GDEF_Mark, ;
