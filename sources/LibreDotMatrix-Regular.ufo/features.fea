@@ -27,7 +27,7 @@
 	\scaron \Zcaron \zcaron \uni02C9 \dotaccent \hungarumlaut \endash \quoteright 
 	\quotedblleft \quotedblright \quotesinglbase \quotedblbase \ellipsis 
 	\perthousand \fraction \estimated \uni2215 \uni2219 \approxequal \lessequal 
-	\greaterequal ];
+	\greaterequal \Ydieresis ];
 @GDEF_Mark = [\gravecomb \acutecomb \uni0302 \tildecomb \uni0308 \uni030A \uni030C 
 	\uni0327 ];
 

@@ -524,5 +524,7 @@
     <string>lessequal.glif</string>
     <key>greaterequal</key>
     <string>greaterequal.glif</string>
+    <key>Ydieresis</key>
+    <string>Y_dieresis.glif</string>
   </dict>
 </plist>
