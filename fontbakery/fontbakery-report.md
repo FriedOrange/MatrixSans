@@ -104,7 +104,7 @@ Fontbakery version: 0.8.9
 	- 0x010E (LATIN CAPITAL LETTER D WITH CARON)
  
 
-	- And 103 more.
+	- And 102 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Version format is correct in 'name' table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/version_format">com.google.fonts/check/name/version_format</a>)</summary><div>
@@ -178,7 +178,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: asterisk	Contours detected: 11	Expected: 1 or 4 
 
-	- And 473 more.
+	- And 475 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -659,9 +659,9 @@ Use -F or --full-lists to disable shortening of long lists.
 
  |               | fonts/ttf/LibreDotMatrixPrint-Regular.ttf          |
  |:------------- | ---------------:|
- | Dehinted Size | 31.5kb |
- | Hinted Size   | 58.3kb   |
- | Increase      | 26.9kb      |
+ | Dehinted Size | 31.6kb |
+ | Hinted Size   | 58.5kb   |
+ | Increase      | 27.0kb      |
  | Change        | 85.4 %  |
  [code: size-impact]
 </div></details><details><summary>ℹ <b>INFO:</b> EPAR table present in font? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/epar">com.google.fonts/check/epar</a>)</summary><div>
@@ -1091,7 +1091,7 @@ The version string must ideally include a git commit hash and either a "dev" or 
 	- 0x010E (LATIN CAPITAL LETTER D WITH CARON)
  
 
-	- And 103 more.
+	- And 102 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Version format is correct in 'name' table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/version_format">com.google.fonts/check/name/version_format</a>)</summary><div>
@@ -1165,7 +1165,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: asterisk	Contours detected: 11	Expected: 1 or 4 
 
-	- And 473 more.
+	- And 475 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -1646,9 +1646,9 @@ Use -F or --full-lists to disable shortening of long lists.
 
  |               | fonts/ttf/LibreDotMatrixScreen-Regular.ttf          |
  |:------------- | ---------------:|
- | Dehinted Size | 31.4kb |
- | Hinted Size   | 58.3kb   |
- | Increase      | 26.9kb      |
+ | Dehinted Size | 31.6kb |
+ | Hinted Size   | 58.5kb   |
+ | Increase      | 27.0kb      |
  | Change        | 85.5 %  |
  [code: size-impact]
 </div></details><details><summary>ℹ <b>INFO:</b> EPAR table present in font? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/epar">com.google.fonts/check/epar</a>)</summary><div>
@@ -2078,7 +2078,7 @@ The version string must ideally include a git commit hash and either a "dev" or 
 	- 0x010E (LATIN CAPITAL LETTER D WITH CARON)
  
 
-	- And 103 more.
+	- And 102 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Version format is correct in 'name' table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/version_format">com.google.fonts/check/name/version_format</a>)</summary><div>
@@ -2638,9 +2638,9 @@ The following glyphs do not have the recommended number of contours:
  |               | fonts/ttf/LibreDotMatrixVideo-Regular.ttf          |
  |:------------- | ---------------:|
  | Dehinted Size | 19.8kb |
- | Hinted Size   | 51.0kb   |
+ | Hinted Size   | 51.1kb   |
  | Increase      | 31.3kb      |
- | Change        | 158.2 %  |
+ | Change        | 157.9 %  |
  [code: size-impact]
 </div></details><details><summary>ℹ <b>INFO:</b> EPAR table present in font? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/epar">com.google.fonts/check/epar</a>)</summary><div>
 
@@ -3069,7 +3069,7 @@ The version string must ideally include a git commit hash and either a "dev" or 
 	- 0x010E (LATIN CAPITAL LETTER D WITH CARON)
  
 
-	- And 103 more.
+	- And 102 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Version format is correct in 'name' table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/version_format">com.google.fonts/check/name/version_format</a>)</summary><div>
@@ -3123,7 +3123,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: C	Contours detected: 2	Expected: 1 
 
-	- And 147 more.
+	- And 149 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -3613,9 +3613,9 @@ Use -F or --full-lists to disable shortening of long lists.
  |               | fonts/ttf/LibreDotMatrix-Regular.ttf          |
  |:------------- | ---------------:|
  | Dehinted Size | 16.8kb |
- | Hinted Size   | 33.2kb   |
+ | Hinted Size   | 33.3kb   |
  | Increase      | 16.5kb      |
- | Change        | 98.0 %  |
+ | Change        | 97.9 %  |
  [code: size-impact]
 </div></details><details><summary>ℹ <b>INFO:</b> EPAR table present in font? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/epar">com.google.fonts/check/epar</a>)</summary><div>
 
