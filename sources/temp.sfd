@@ -4,7 +4,7 @@ FullName: Untitled1
 FamilyName: Untitled1
 Weight: Regular
 Copyright: Copyright (c) 2022, neilb
-UComments: "2022-7-22: Created with FontForge (http://fontforge.org)"
+UComments: "2022-7-23: Created with FontForge (http://fontforge.org)"
 Version: 001.000
 ItalicAngle: 0
 UnderlinePosition: -100
@@ -15,12 +15,12 @@ InvalidEm: 0
 LayerCount: 2
 Layer: 0 0 "Back" 1
 Layer: 1 0 "Fore" 0
-XUID: [1021 365 -1269591206 29832]
+XUID: [1021 551 49519851 8573]
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
-CreationTime: 1658475905
-ModificationTime: 1658475905
+CreationTime: 1658557304
+ModificationTime: 1658557304
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -42,7 +42,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-BeginChars: 1114114 166
+BeginChars: 1114114 168
 
 StartChar: dot
 Encoding: 1114112 -1 0
@@ -2851,8 +2851,17 @@ Refer: 0 -1 N 1 0 0 1 400 700 2
 Refer: 0 -1 N 1 0 0 1 0 700 2
 EndChar
 
+StartChar: dotaccent
+Encoding: 729 729 142
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 200 600 2
+EndChar
+
 StartChar: ogonek
-Encoding: 731 731 142
+Encoding: 731 731 143
 Width: 800
 Flags: HW
 LayerCount: 2
@@ -2863,7 +2872,7 @@ Refer: 0 -1 N 1 0 0 1 300 -100 2
 EndChar
 
 StartChar: pi
-Encoding: 960 960 143
+Encoding: 960 960 144
 Width: 800
 Flags: HW
 LayerCount: 2
@@ -2884,7 +2893,7 @@ Refer: 0 -1 N 1 0 0 1 0 400 2
 EndChar
 
 StartChar: emdash
-Encoding: 8212 8212 144
+Encoding: 8212 8212 145
 Width: 800
 Flags: HW
 LayerCount: 2
@@ -2898,7 +2907,7 @@ Refer: 0 -1 N 1 0 0 1 0 300 2
 EndChar
 
 StartChar: quoteleft
-Encoding: 8216 8216 145
+Encoding: 8216 8216 146
 Width: 800
 Flags: HW
 LayerCount: 2
@@ -2909,7 +2918,7 @@ Refer: 0 -1 N 1 0 0 1 300 600 2
 EndChar
 
 StartChar: dagger
-Encoding: 8224 8224 146
+Encoding: 8224 8224 147
 Width: 800
 Flags: HW
 LayerCount: 2
@@ -2928,7 +2937,7 @@ Refer: 0 -1 N 1 0 0 1 200 600 2
 EndChar
 
 StartChar: daggerdbl
-Encoding: 8225 8225 147
+Encoding: 8225 8225 148
 Width: 800
 Flags: HW
 LayerCount: 2
@@ -2951,7 +2960,7 @@ Refer: 0 -1 N 1 0 0 1 200 600 2
 EndChar
 
 StartChar: bullet
-Encoding: 8226 8226 148
+Encoding: 8226 8226 149
 Width: 800
 Flags: HW
 LayerCount: 2
@@ -2963,7 +2972,7 @@ Refer: 0 -1 N 1 0 0 1 100 400 2
 EndChar
 
 StartChar: guilsinglleft
-Encoding: 8249 8249 149
+Encoding: 8249 8249 150
 Width: 800
 Flags: HW
 LayerCount: 2
@@ -2974,7 +2983,7 @@ Refer: 0 -1 N 1 0 0 1 200 400 2
 EndChar
 
 StartChar: guilsinglright
-Encoding: 8250 8250 150
+Encoding: 8250 8250 151
 Width: 800
 Flags: HW
 LayerCount: 2
@@ -2984,8 +2993,19 @@ Refer: 0 -1 N 1 0 0 1 300 300 2
 Refer: 0 -1 N 1 0 0 1 200 400 2
 EndChar
 
+StartChar: ellipsis
+Encoding: 8230 8230 152
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 400 0 2
+Refer: 0 -1 N 1 0 0 1 200 0 2
+Refer: 0 -1 N 1 0 0 1 0 0 2
+EndChar
+
 StartChar: Euro
-Encoding: 8364 8364 151
+Encoding: 8364 8364 153
 Width: 800
 Flags: HW
 LayerCount: 2
@@ -3008,7 +3028,7 @@ Refer: 0 -1 N 1 0 0 1 200 600 2
 EndChar
 
 StartChar: uni2113
-Encoding: 8467 8467 152
+Encoding: 8467 8467 154
 Width: 800
 Flags: HW
 LayerCount: 2
@@ -3029,7 +3049,7 @@ Refer: 0 -1 N 1 0 0 1 200 600 2
 EndChar
 
 StartChar: trademark
-Encoding: 8482 8482 153
+Encoding: 8482 8482 155
 Width: 800
 Flags: HW
 LayerCount: 2
@@ -3053,7 +3073,7 @@ Refer: 0 -1 N 1 0 0 1 0 600 2
 EndChar
 
 StartChar: uni03a9
-Encoding: 937 937 154
+Encoding: 937 937 156
 Width: 800
 Flags: HW
 LayerCount: 2
@@ -3078,7 +3098,7 @@ Refer: 0 -1 N 1 0 0 1 100 600 2
 EndChar
 
 StartChar: partialdiff
-Encoding: 8706 8706 155
+Encoding: 8706 8706 157
 Width: 800
 Flags: HW
 LayerCount: 2
@@ -3101,7 +3121,7 @@ Refer: 0 -1 N 1 0 0 1 100 600 2
 EndChar
 
 StartChar: uni2206
-Encoding: 8710 8710 156
+Encoding: 8710 8710 158
 Width: 800
 Flags: HW
 LayerCount: 2
@@ -3124,7 +3144,7 @@ Refer: 0 -1 N 1 0 0 1 200 600 2
 EndChar
 
 StartChar: product
-Encoding: 8719 8719 157
+Encoding: 8719 8719 159
 Width: 800
 Flags: HW
 LayerCount: 2
@@ -3153,7 +3173,7 @@ Refer: 0 -1 N 1 0 0 1 0 600 2
 EndChar
 
 StartChar: summation
-Encoding: 8721 8721 158
+Encoding: 8721 8721 160
 Width: 800
 Flags: HW
 LayerCount: 2
@@ -3178,7 +3198,7 @@ Refer: 0 -1 N 1 0 0 1 0 600 2
 EndChar
 
 StartChar: radical
-Encoding: 8730 8730 159
+Encoding: 8730 8730 161
 Width: 800
 Flags: HW
 LayerCount: 2
@@ -3197,7 +3217,7 @@ Refer: 0 -1 N 1 0 0 1 200 600 2
 EndChar
 
 StartChar: infinity
-Encoding: 8734 8734 160
+Encoding: 8734 8734 162
 Width: 800
 Flags: HW
 LayerCount: 2
@@ -3215,7 +3235,7 @@ Refer: 0 -1 N 1 0 0 1 100 400 2
 EndChar
 
 StartChar: integral
-Encoding: 8747 8747 161
+Encoding: 8747 8747 163
 Width: 800
 Flags: HW
 LayerCount: 2
@@ -3234,7 +3254,7 @@ Refer: 0 -1 N 1 0 0 1 300 700 2
 EndChar
 
 StartChar: notequal
-Encoding: 8800 8800 162
+Encoding: 8800 8800 164
 Width: 800
 Flags: HW
 LayerCount: 2
@@ -3257,7 +3277,7 @@ Refer: 0 -1 N 1 0 0 1 400 600 2
 EndChar
 
 StartChar: lozenge
-Encoding: 9674 9674 163
+Encoding: 9674 9674 165
 Width: 800
 Flags: HW
 LayerCount: 2
@@ -3277,7 +3297,7 @@ Refer: 0 -1 N 1 0 0 1 200 600 2
 EndChar
 
 StartChar: fi
-Encoding: 64257 64257 164
+Encoding: 64257 64257 166
 Width: 800
 Flags: HW
 LayerCount: 2
@@ -3301,7 +3321,7 @@ Refer: 0 -1 N 1 0 0 1 200 600 2
 EndChar
 
 StartChar: fl
-Encoding: 64258 64258 165
+Encoding: 64258 64258 167
 Width: 800
 Flags: HW
 LayerCount: 2

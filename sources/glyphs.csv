@@ -6,6 +6,6 @@ grave,a,b,c,d,e,f,g,h,i,j,k,l,m,n,o
 p,q,r,s,t,u,v,w,x,y,z,braceleft,bar,braceright,asciitilde,.notdef
 ,exclamdown,cent,sterling,currency,yen,brokenbar,section,dieresis,copyright,ordfeminine,,logicalnot,,registered,macron
 degree,,twosuperior,threesuperior,acute,mu,paragraph,,cedilla,onesuperior,ordmasculine,,,,,questiondown
-circumflex,tilde,ring,AE,Eth,Oslash,Thorn,germandbls,ae,dotlessi,eth,minus,oslash,thorn,uni2074,
-Lslash,lslash,OE,oe,caron,florin,breve,ogonek,pi,emdash,quoteleft,dagger,daggerdbl,bullet,guilsinglleft,guilsinglright
-Euro,uni2113,trademark,uni03a9,partialdiff,uni2206,product,summation,radical,infinity,integral,notequal,lozenge,fi,fl,
+circumflex,tilde,ring,AE,Eth,Oslash,Thorn,germandbls,ae,dotlessi,eth,minus,oslash,thorn,uni2074,Lslash
+lslash,OE,oe,caron,florin,breve,dotaccent,ogonek,pi,emdash,quoteleft,dagger,daggerdbl,bullet,guilsinglleft,guilsinglright
+ellipsis,Euro,uni2113,trademark,uni03a9,partialdiff,uni2206,product,summation,radical,infinity,integral,notequal,lozenge,fi,fl
