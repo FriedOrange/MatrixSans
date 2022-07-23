@@ -23,7 +23,7 @@ Changelog
 ---------
 
 **23 July 2022 - Version 0.100**
-- Now supports the [Adobe Latin 2](http://adobe-type-tools.github.io/adobe-latin-charsets/adobe-latin-2.html) character set
+- Now supports the Adobe Latin 2 character set
 - Fixed character widths
 
 **21 July 2022 - Version 0.002**
