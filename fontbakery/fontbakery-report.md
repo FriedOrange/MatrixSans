@@ -74,25 +74,10 @@ Fontbakery version: 0.8.9
 
 * 🔥 **FAIL** Missing required codepoints:
 
-	- 0x2026 (HORIZONTAL ELLIPSIS)
-
-
-	- 0x201C (LEFT DOUBLE QUOTATION MARK)
-
-
-	- 0x201D (RIGHT DOUBLE QUOTATION MARK)
-
-
-	- 0x2019 (RIGHT SINGLE QUOTATION MARK)
-
-
 	- 0x030B (COMBINING DOUBLE ACUTE ACCENT)
 
 
 	- 0x0304 (COMBINING MACRON)
-
-
-	- 0x02D9 (DOT ABOVE)
 
 
 	- 0x0102 (LATIN CAPITAL LETTER A WITH BREVE)
@@ -102,9 +87,24 @@ Fontbakery version: 0.8.9
 
 
 	- 0x0100 (LATIN CAPITAL LETTER A WITH MACRON)
+
+
+	- 0x0104 (LATIN CAPITAL LETTER A WITH OGONEK)
+
+
+	- 0x0106 (LATIN CAPITAL LETTER C WITH ACUTE)
+
+
+	- 0x010C (LATIN CAPITAL LETTER C WITH CARON)
+
+
+	- 0x010A (LATIN CAPITAL LETTER C WITH DOT ABOVE)
+
+
+	- 0x010E (LATIN CAPITAL LETTER D WITH CARON)
  
 
-	- And 118 more.
+	- And 103 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Version format is correct in 'name' table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/version_format">com.google.fonts/check/name/version_format</a>)</summary><div>
@@ -178,7 +178,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: asterisk	Contours detected: 11	Expected: 1 or 4 
 
-	- And 433 more.
+	- And 473 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -186,20 +186,16 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
-</div></details><details><summary>⚠ <b>WARN:</b> Check glyphs in mark glyph class are non-spacing. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_spacing_marks">com.google.fonts/check/gdef_spacing_marks</a>)</summary><div>
-
-
-* ⚠ **WARN** The following spacing glyphs may be in the GDEF mark glyph class by mistake:
-	 cedilla (U+00B8) [code: spacing-mark-glyphs]
-</div></details><details><summary>⚠ <b>WARN:</b> Check GDEF mark glyph class doesn't have characters that are not marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars">com.google.fonts/check/gdef_non_mark_chars</a>)</summary><div>
-
-
-* ⚠ **WARN** The following non-mark characters should not be in the GDEF mark glyph class:
-	 U+00B8 [code: non-mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
 * ⚠ **WARN** GPOS table lacks kerning information. [code: lacks-kern-info]
+</div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have segments which seem very short:
+
+	* estimated (U+212E) contains a short segment B<<199.0,340.0>-<188.0,340.0>-<188.0,329.0>> [code: found-short-segments]
 </div></details><details><summary>💤 <b>SKIP:</b> Does DESCRIPTION file contain broken links? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/broken_links">com.google.fonts/check/description/broken_links</a>)</summary><div>
 
 
@@ -663,10 +659,10 @@ Use -F or --full-lists to disable shortening of long lists.
 
  |               | fonts/ttf/LibreDotMatrixPrint-Regular.ttf          |
  |:------------- | ---------------:|
- | Dehinted Size | 29.4kb |
- | Hinted Size   | 55.0kb   |
- | Increase      | 25.5kb      |
- | Change        | 86.8 %  |
+ | Dehinted Size | 31.5kb |
+ | Hinted Size   | 58.3kb   |
+ | Increase      | 26.9kb      |
+ | Change        | 85.4 %  |
  [code: size-impact]
 </div></details><details><summary>ℹ <b>INFO:</b> EPAR table present in font? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/epar">com.google.fonts/check/epar</a>)</summary><div>
 
@@ -1004,10 +1000,18 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 
 * 🍞 **PASS** Space and non-breaking space have the same width.
+</div></details><details><summary>🍞 <b>PASS:</b> Check glyphs in mark glyph class are non-spacing. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_spacing_marks">com.google.fonts/check/gdef_spacing_marks</a>)</summary><div>
+
+
+* 🍞 **PASS** Font does not has spacing glyphs in the GDEF mark glyph class.
 </div></details><details><summary>🍞 <b>PASS:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
 
 
 * 🍞 **PASS** Font does not have mark characters not in the GDEF mark glyph class.
+</div></details><details><summary>🍞 <b>PASS:</b> Check GDEF mark glyph class doesn't have characters that are not marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars">com.google.fonts/check/gdef_non_mark_chars</a>)</summary><div>
+
+
+* 🍞 **PASS** Font does not have non-mark characters in the GDEF mark glyph class.
 </div></details><details><summary>🍞 <b>PASS:</b> Is there a usable "kern" table declared in the font? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/kern.html#com.google.fonts/check/kern_table">com.google.fonts/check/kern_table</a>)</summary><div>
 
 
@@ -1040,10 +1044,6 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 
 * 🍞 **PASS** So many Y-coordinates of points were close to boundaries that this was probably by design.
-</div></details><details><summary>🍞 <b>PASS:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
-
-
-* 🍞 **PASS** No short segments were found.
 </div></details><details><summary>🍞 <b>PASS:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -1061,25 +1061,10 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 * 🔥 **FAIL** Missing required codepoints:
 
-	- 0x2026 (HORIZONTAL ELLIPSIS)
-
-
-	- 0x201C (LEFT DOUBLE QUOTATION MARK)
-
-
-	- 0x201D (RIGHT DOUBLE QUOTATION MARK)
-
-
-	- 0x2019 (RIGHT SINGLE QUOTATION MARK)
-
-
 	- 0x030B (COMBINING DOUBLE ACUTE ACCENT)
 
 
 	- 0x0304 (COMBINING MACRON)
-
-
-	- 0x02D9 (DOT ABOVE)
 
 
 	- 0x0102 (LATIN CAPITAL LETTER A WITH BREVE)
@@ -1089,9 +1074,24 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 
 	- 0x0100 (LATIN CAPITAL LETTER A WITH MACRON)
+
+
+	- 0x0104 (LATIN CAPITAL LETTER A WITH OGONEK)
+
+
+	- 0x0106 (LATIN CAPITAL LETTER C WITH ACUTE)
+
+
+	- 0x010C (LATIN CAPITAL LETTER C WITH CARON)
+
+
+	- 0x010A (LATIN CAPITAL LETTER C WITH DOT ABOVE)
+
+
+	- 0x010E (LATIN CAPITAL LETTER D WITH CARON)
  
 
-	- And 118 more.
+	- And 103 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Version format is correct in 'name' table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/version_format">com.google.fonts/check/name/version_format</a>)</summary><div>
@@ -1165,7 +1165,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: asterisk	Contours detected: 11	Expected: 1 or 4 
 
-	- And 433 more.
+	- And 473 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -1173,20 +1173,16 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
-</div></details><details><summary>⚠ <b>WARN:</b> Check glyphs in mark glyph class are non-spacing. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_spacing_marks">com.google.fonts/check/gdef_spacing_marks</a>)</summary><div>
-
-
-* ⚠ **WARN** The following spacing glyphs may be in the GDEF mark glyph class by mistake:
-	 cedilla (U+00B8) [code: spacing-mark-glyphs]
-</div></details><details><summary>⚠ <b>WARN:</b> Check GDEF mark glyph class doesn't have characters that are not marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars">com.google.fonts/check/gdef_non_mark_chars</a>)</summary><div>
-
-
-* ⚠ **WARN** The following non-mark characters should not be in the GDEF mark glyph class:
-	 U+00B8 [code: non-mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
 * ⚠ **WARN** GPOS table lacks kerning information. [code: lacks-kern-info]
+</div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have segments which seem very short:
+
+	* estimated (U+212E) contains a short segment B<<199.0,340.0>-<188.0,340.0>-<188.0,329.0>> [code: found-short-segments]
 </div></details><details><summary>💤 <b>SKIP:</b> Does DESCRIPTION file contain broken links? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/broken_links">com.google.fonts/check/description/broken_links</a>)</summary><div>
 
 
@@ -1650,10 +1646,10 @@ Use -F or --full-lists to disable shortening of long lists.
 
  |               | fonts/ttf/LibreDotMatrixScreen-Regular.ttf          |
  |:------------- | ---------------:|
- | Dehinted Size | 29.4kb |
- | Hinted Size   | 55.0kb   |
- | Increase      | 25.6kb      |
- | Change        | 86.9 %  |
+ | Dehinted Size | 31.4kb |
+ | Hinted Size   | 58.3kb   |
+ | Increase      | 26.9kb      |
+ | Change        | 85.5 %  |
  [code: size-impact]
 </div></details><details><summary>ℹ <b>INFO:</b> EPAR table present in font? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/epar">com.google.fonts/check/epar</a>)</summary><div>
 
@@ -1991,10 +1987,18 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 
 * 🍞 **PASS** Space and non-breaking space have the same width.
+</div></details><details><summary>🍞 <b>PASS:</b> Check glyphs in mark glyph class are non-spacing. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_spacing_marks">com.google.fonts/check/gdef_spacing_marks</a>)</summary><div>
+
+
+* 🍞 **PASS** Font does not has spacing glyphs in the GDEF mark glyph class.
 </div></details><details><summary>🍞 <b>PASS:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
 
 
 * 🍞 **PASS** Font does not have mark characters not in the GDEF mark glyph class.
+</div></details><details><summary>🍞 <b>PASS:</b> Check GDEF mark glyph class doesn't have characters that are not marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars">com.google.fonts/check/gdef_non_mark_chars</a>)</summary><div>
+
+
+* 🍞 **PASS** Font does not have non-mark characters in the GDEF mark glyph class.
 </div></details><details><summary>🍞 <b>PASS:</b> Is there a usable "kern" table declared in the font? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/kern.html#com.google.fonts/check/kern_table">com.google.fonts/check/kern_table</a>)</summary><div>
 
 
@@ -2027,10 +2031,6 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 
 * 🍞 **PASS** So many Y-coordinates of points were close to boundaries that this was probably by design.
-</div></details><details><summary>🍞 <b>PASS:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
-
-
-* 🍞 **PASS** No short segments were found.
 </div></details><details><summary>🍞 <b>PASS:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -2048,25 +2048,10 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 * 🔥 **FAIL** Missing required codepoints:
 
-	- 0x2026 (HORIZONTAL ELLIPSIS)
-
-
-	- 0x201C (LEFT DOUBLE QUOTATION MARK)
-
-
-	- 0x201D (RIGHT DOUBLE QUOTATION MARK)
-
-
-	- 0x2019 (RIGHT SINGLE QUOTATION MARK)
-
-
 	- 0x030B (COMBINING DOUBLE ACUTE ACCENT)
 
 
 	- 0x0304 (COMBINING MACRON)
-
-
-	- 0x02D9 (DOT ABOVE)
 
 
 	- 0x0102 (LATIN CAPITAL LETTER A WITH BREVE)
@@ -2076,9 +2061,24 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 
 	- 0x0100 (LATIN CAPITAL LETTER A WITH MACRON)
+
+
+	- 0x0104 (LATIN CAPITAL LETTER A WITH OGONEK)
+
+
+	- 0x0106 (LATIN CAPITAL LETTER C WITH ACUTE)
+
+
+	- 0x010C (LATIN CAPITAL LETTER C WITH CARON)
+
+
+	- 0x010A (LATIN CAPITAL LETTER C WITH DOT ABOVE)
+
+
+	- 0x010E (LATIN CAPITAL LETTER D WITH CARON)
  
 
-	- And 118 more.
+	- And 103 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Version format is correct in 'name' table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/version_format">com.google.fonts/check/name/version_format</a>)</summary><div>
@@ -2140,11 +2140,15 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: aring	Contours detected: 3	Expected: 4
 
+	- Glyph name: perthousand	Contours detected: 4	Expected: 6 or 7
+
 	- Glyph name: aring	Contours detected: 3	Expected: 4
 
 	- Glyph name: onehalf	Contours detected: 2	Expected: 3
 
-	- Glyph name: percent	Contours detected: 3	Expected: 5 
+	- Glyph name: percent	Contours detected: 3	Expected: 5
+
+	- Glyph name: perthousand	Contours detected: 4	Expected: 6 or 7 
 
 	- And Glyph name: uni00AD	Contours detected: 1	Expected: 0
  [code: contour-count]
@@ -2152,20 +2156,24 @@ The following glyphs do not have the recommended number of contours:
 
 
 * ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
-</div></details><details><summary>⚠ <b>WARN:</b> Check glyphs in mark glyph class are non-spacing. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_spacing_marks">com.google.fonts/check/gdef_spacing_marks</a>)</summary><div>
-
-
-* ⚠ **WARN** The following spacing glyphs may be in the GDEF mark glyph class by mistake:
-	 cedilla (U+00B8) [code: spacing-mark-glyphs]
-</div></details><details><summary>⚠ <b>WARN:</b> Check GDEF mark glyph class doesn't have characters that are not marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars">com.google.fonts/check/gdef_non_mark_chars</a>)</summary><div>
-
-
-* ⚠ **WARN** The following non-mark characters should not be in the GDEF mark glyph class:
-	 U+00B8 [code: non-mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
 * ⚠ **WARN** GPOS table lacks kerning information. [code: lacks-kern-info]
+</div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have segments which seem very short:
+
+	* estimated (U+212E) contains a short segment B<<200.0,340.0>-<193.0,340.0>-<191.5,339.0>>
+
+	* estimated (U+212E) contains a short segment B<<191.5,339.0>-<190.0,338.0>-<190.0,330.0>>
+
+	* estimated (U+212E) contains a short segment B<<190.0,370.0>-<190.0,363.0>-<191.5,361.5>>
+
+	* estimated (U+212E) contains a short segment B<<191.5,361.5>-<193.0,360.0>-<200.0,360.0>> 
+
+	* And estimated (U+212E) contains a short segment B<<699.0,361.5>-<700.0,363.0>-<700.0,370.0>> [code: found-short-segments]
 </div></details><details><summary>💤 <b>SKIP:</b> Does DESCRIPTION file contain broken links? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/broken_links">com.google.fonts/check/description/broken_links</a>)</summary><div>
 
 
@@ -2629,10 +2637,10 @@ The following glyphs do not have the recommended number of contours:
 
  |               | fonts/ttf/LibreDotMatrixVideo-Regular.ttf          |
  |:------------- | ---------------:|
- | Dehinted Size | 18.5kb |
- | Hinted Size   | 48.7kb   |
- | Increase      | 30.2kb      |
- | Change        | 163.5 %  |
+ | Dehinted Size | 19.8kb |
+ | Hinted Size   | 51.0kb   |
+ | Increase      | 31.3kb      |
+ | Change        | 158.2 %  |
  [code: size-impact]
 </div></details><details><summary>ℹ <b>INFO:</b> EPAR table present in font? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/epar">com.google.fonts/check/epar</a>)</summary><div>
 
@@ -2970,10 +2978,18 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 
 * 🍞 **PASS** Space and non-breaking space have the same width.
+</div></details><details><summary>🍞 <b>PASS:</b> Check glyphs in mark glyph class are non-spacing. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_spacing_marks">com.google.fonts/check/gdef_spacing_marks</a>)</summary><div>
+
+
+* 🍞 **PASS** Font does not has spacing glyphs in the GDEF mark glyph class.
 </div></details><details><summary>🍞 <b>PASS:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
 
 
 * 🍞 **PASS** Font does not have mark characters not in the GDEF mark glyph class.
+</div></details><details><summary>🍞 <b>PASS:</b> Check GDEF mark glyph class doesn't have characters that are not marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars">com.google.fonts/check/gdef_non_mark_chars</a>)</summary><div>
+
+
+* 🍞 **PASS** Font does not have non-mark characters in the GDEF mark glyph class.
 </div></details><details><summary>🍞 <b>PASS:</b> Is there a usable "kern" table declared in the font? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/kern.html#com.google.fonts/check/kern_table">com.google.fonts/check/kern_table</a>)</summary><div>
 
 
@@ -3006,10 +3022,6 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 
 * 🍞 **PASS** Y-coordinates of points fell on appropriate boundaries.
-</div></details><details><summary>🍞 <b>PASS:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
-
-
-* 🍞 **PASS** No short segments were found.
 </div></details><details><summary>🍞 <b>PASS:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -3027,25 +3039,10 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 * 🔥 **FAIL** Missing required codepoints:
 
-	- 0x2026 (HORIZONTAL ELLIPSIS)
-
-
-	- 0x201C (LEFT DOUBLE QUOTATION MARK)
-
-
-	- 0x201D (RIGHT DOUBLE QUOTATION MARK)
-
-
-	- 0x2019 (RIGHT SINGLE QUOTATION MARK)
-
-
 	- 0x030B (COMBINING DOUBLE ACUTE ACCENT)
 
 
 	- 0x0304 (COMBINING MACRON)
-
-
-	- 0x02D9 (DOT ABOVE)
 
 
 	- 0x0102 (LATIN CAPITAL LETTER A WITH BREVE)
@@ -3055,9 +3052,24 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 
 	- 0x0100 (LATIN CAPITAL LETTER A WITH MACRON)
+
+
+	- 0x0104 (LATIN CAPITAL LETTER A WITH OGONEK)
+
+
+	- 0x0106 (LATIN CAPITAL LETTER C WITH ACUTE)
+
+
+	- 0x010C (LATIN CAPITAL LETTER C WITH CARON)
+
+
+	- 0x010A (LATIN CAPITAL LETTER C WITH DOT ABOVE)
+
+
+	- 0x010E (LATIN CAPITAL LETTER D WITH CARON)
  
 
-	- And 118 more.
+	- And 103 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Version format is correct in 'name' table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/version_format">com.google.fonts/check/name/version_format</a>)</summary><div>
@@ -3111,7 +3123,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: C	Contours detected: 2	Expected: 1 
 
-	- And 133 more.
+	- And 147 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -3119,20 +3131,24 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
-</div></details><details><summary>⚠ <b>WARN:</b> Check glyphs in mark glyph class are non-spacing. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_spacing_marks">com.google.fonts/check/gdef_spacing_marks</a>)</summary><div>
-
-
-* ⚠ **WARN** The following spacing glyphs may be in the GDEF mark glyph class by mistake:
-	 cedilla (U+00B8) [code: spacing-mark-glyphs]
-</div></details><details><summary>⚠ <b>WARN:</b> Check GDEF mark glyph class doesn't have characters that are not marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars">com.google.fonts/check/gdef_non_mark_chars</a>)</summary><div>
-
-
-* ⚠ **WARN** The following non-mark characters should not be in the GDEF mark glyph class:
-	 U+00B8 [code: non-mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
 * ⚠ **WARN** GPOS table lacks kerning information. [code: lacks-kern-info]
+</div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have segments which seem very short:
+
+	* estimated (U+212E) contains a short segment B<<200.0,340.0>-<193.0,340.0>-<191.5,339.0>>
+
+	* estimated (U+212E) contains a short segment B<<191.5,339.0>-<190.0,338.0>-<190.0,330.0>>
+
+	* estimated (U+212E) contains a short segment B<<190.0,370.0>-<190.0,363.0>-<191.5,361.5>>
+
+	* estimated (U+212E) contains a short segment B<<191.5,361.5>-<193.0,360.0>-<200.0,360.0>> 
+
+	* And estimated (U+212E) contains a short segment B<<699.0,361.5>-<700.0,363.0>-<700.0,370.0>> [code: found-short-segments]
 </div></details><details><summary>💤 <b>SKIP:</b> Does DESCRIPTION file contain broken links? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/broken_links">com.google.fonts/check/description/broken_links</a>)</summary><div>
 
 
@@ -3596,10 +3612,10 @@ Use -F or --full-lists to disable shortening of long lists.
 
  |               | fonts/ttf/LibreDotMatrix-Regular.ttf          |
  |:------------- | ---------------:|
- | Dehinted Size | 15.6kb |
- | Hinted Size   | 31.5kb   |
- | Increase      | 15.9kb      |
- | Change        | 102.0 %  |
+ | Dehinted Size | 16.8kb |
+ | Hinted Size   | 33.2kb   |
+ | Increase      | 16.5kb      |
+ | Change        | 98.0 %  |
  [code: size-impact]
 </div></details><details><summary>ℹ <b>INFO:</b> EPAR table present in font? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/epar">com.google.fonts/check/epar</a>)</summary><div>
 
@@ -3953,10 +3969,18 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 
 * 🍞 **PASS** Space and non-breaking space have the same width.
+</div></details><details><summary>🍞 <b>PASS:</b> Check glyphs in mark glyph class are non-spacing. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_spacing_marks">com.google.fonts/check/gdef_spacing_marks</a>)</summary><div>
+
+
+* 🍞 **PASS** Font does not has spacing glyphs in the GDEF mark glyph class.
 </div></details><details><summary>🍞 <b>PASS:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
 
 
 * 🍞 **PASS** Font does not have mark characters not in the GDEF mark glyph class.
+</div></details><details><summary>🍞 <b>PASS:</b> Check GDEF mark glyph class doesn't have characters that are not marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars">com.google.fonts/check/gdef_non_mark_chars</a>)</summary><div>
+
+
+* 🍞 **PASS** Font does not have non-mark characters in the GDEF mark glyph class.
 </div></details><details><summary>🍞 <b>PASS:</b> Is there a usable "kern" table declared in the font? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/kern.html#com.google.fonts/check/kern_table">com.google.fonts/check/kern_table</a>)</summary><div>
 
 
@@ -3989,10 +4013,6 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 
 * 🍞 **PASS** Y-coordinates of points fell on appropriate boundaries.
-</div></details><details><summary>🍞 <b>PASS:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
-
-
-* 🍞 **PASS** No short segments were found.
 </div></details><details><summary>🍞 <b>PASS:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -4010,8 +4030,8 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 22 | 34 | 458 | 25 | 356 | 0 |
-| 0% | 2% | 4% | 51% | 3% | 40% | 0% |
+| 0 | 22 | 30 | 458 | 25 | 360 | 0 |
+| 0% | 2% | 3% | 51% | 3% | 40% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **DEBUG**
