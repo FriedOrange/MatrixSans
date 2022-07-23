@@ -91,6 +91,10 @@ To easily add or modify glyphs (requires [FontForge](https://fontforge.org/)):
 
 The fonts are currently in early development; significant changes may still occur before the release of Version 1.0.
 
+**23 July 2022 - Version 0.100**
+- Now supports the [Adobe Latin 2](http://adobe-type-tools.github.io/adobe-latin-charsets/adobe-latin-2.html) character set
+- Fixed spacing of inverted exclamation mark `¡`
+
 **21 July 2022 - Version 0.002**
 - Improved Video style appearance
 - Lengthened hyphen by one dot
