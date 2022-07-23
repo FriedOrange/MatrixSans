@@ -19,7 +19,6 @@
       <point x="190" y="550" type="curve" smooth="yes"/>
       <point x="190" y="360" type="line"/>
       <point x="700" y="360" type="line"/>
-      <point x="700" y="430"/>
     </contour>
     <contour>
       <point x="190" y="340" type="line"/>
