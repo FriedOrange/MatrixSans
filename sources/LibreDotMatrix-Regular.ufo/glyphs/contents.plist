@@ -524,5 +524,7 @@
     <string>greaterequal.glif</string>
     <key>Ydieresis</key>
     <string>Y_dieresis.glif</string>
+    <key>uni25CC</key>
+    <string>uni25C_C_.glif</string>
   </dict>
 </plist>

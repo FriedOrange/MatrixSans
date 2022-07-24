@@ -35,7 +35,7 @@
 	<key>openTypeNamePreferredFamilyName</key>
 	<string>Libre Dot Matrix</string>
 	<key>openTypeNameVersion</key>
-	<string>Version 0.100</string>
+	<string>Version 0.101</string>
 	<key>openTypeOS2FamilyClass</key>
 	<array>
 		<integer>8</integer>
@@ -94,7 +94,7 @@
 	<key>openTypeOS2WidthClass</key>
 	<integer>5</integer>
 	<key>openTypeOS2WinAscent</key>
-	<integer>700</integer>
+	<integer>1100</integer>
 	<key>openTypeOS2WinDescent</key>
 	<integer>200</integer>
 	<key>postscriptFontName</key>
@@ -116,7 +116,7 @@
 	<key>versionMajor</key>
 	<integer>0</integer>
 	<key>versionMinor</key>
-	<integer>100</integer>
+	<integer>101</integer>
 	<key>xHeight</key>
 	<integer>500</integer>
 </dict>
