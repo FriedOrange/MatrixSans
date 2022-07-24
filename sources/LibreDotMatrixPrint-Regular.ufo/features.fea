@@ -27,9 +27,22 @@
 	\Atilde \Adieresis \Aring \Scaron \scaron \Zcaron \zcaron \uni02C9 \dotaccent 
 	\hungarumlaut \endash \quoteright \quotedblleft \quotedblright 
 	\quotesinglbase \quotedblbase \ellipsis \perthousand \fraction \estimated 
-	\uni2215 \uni2219 \approxequal \lessequal \greaterequal \Ydieresis \uni25CC ];
+	\uni2215 \uni2219 \approxequal \lessequal \greaterequal \Ydieresis \uni25CC 
+	\dcroat \Hbar \hbar \IJ \ij \Eng \eng \uni0237 \uni1E9E \uni20BA \uni20BD \Amacron 
+	\amacron \Abreve \abreve \Aogonek \aogonek \Cacute \cacute \Cdotaccent 
+	\cdotaccent \Ccaron \ccaron \Dcaron \dcaron \Dcroat \Emacron \emacron 
+	\Edotaccent \edotaccent \Eogonek \eogonek \Ecaron \ecaron \Gbreve \gbreve 
+	\Gdotaccent \gdotaccent \uni0122 \uni0123 \Imacron \imacron \Iogonek \iogonek 
+	\Idotaccent \uni0136 \uni0137 \Lacute \lacute \uni013B \uni013C \Lcaron \lcaron 
+	\Nacute \nacute \uni0145 \uni0146 \Ncaron \ncaron \Omacron \omacron 
+	\Ohungarumlaut \ohungarumlaut \Racute \racute \uni0156 \uni0157 \Rcaron \rcaron 
+	\Sacute \sacute \Scedilla \scedilla \uni0162 \uni0163 \Tcaron \tcaron \Umacron 
+	\umacron \Ubreve \ubreve \Uring \uring \Uhungarumlaut \uhungarumlaut \Uogonek 
+	\uogonek \Wcircumflex \wcircumflex \Ycircumflex \ycircumflex \Zacute \zacute 
+	\Zdotaccent \zdotaccent \uni01CD \uni01CE \uni0218 \uni0219 \uni021A \uni021B 
+	\Wgrave \wgrave \Wacute \wacute \Wdieresis \wdieresis \Ygrave \ygrave ];
 @GDEF_Mark = [\gravecomb \acutecomb \uni0302 \tildecomb \uni0308 \uni030A \uni030C 
-	\uni0327 ];
+	\uni0327 \uni0304 \uni0306 \uni0328 \uni0307 \uni0315 \uni0326 \uni0312 \uni030B ];
 
 table GDEF {
   GlyphClassDef @GDEF_Simple, , @GDEF_Mark, ;

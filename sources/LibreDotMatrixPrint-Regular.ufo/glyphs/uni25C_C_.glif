@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni25CC" format="2">
+  <advance width="600"/>
+  <unicode hex="25CC"/>
+  <anchor x="450" y="0" name="ogonek"/>
+  <anchor x="550" y="450" name="aboveright"/>
+  <anchor x="300" y="0" name="below"/>
+  <anchor x="300" y="600" name="above"/>
+  <outline>
+    <component base="dot" xOffset="250"/>
+    <component base="dot" xOffset="450" yOffset="100"/>
+    <component base="dot" xOffset="50" yOffset="100"/>
+    <component base="dot" xOffset="450" yOffset="300"/>
+    <component base="dot" xOffset="50" yOffset="300"/>
+    <component base="dot" xOffset="250" yOffset="400"/>
+  </outline>
+</glyph>

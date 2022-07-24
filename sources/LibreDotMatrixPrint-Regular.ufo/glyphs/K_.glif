@@ -2,6 +2,7 @@
 <glyph name="K" format="2">
   <advance width="600"/>
   <unicode hex="004B"/>
+  <anchor x="300" y="0" name="below"/>
   <outline>
     <component base="dot" xOffset="450"/>
     <component base="dot" xOffset="50"/>
