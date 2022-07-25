@@ -2,7 +2,7 @@
 <glyph name="U" format="2">
   <advance width="600"/>
   <unicode hex="0055"/>
-  <anchor x="350" y="0" name="ogonek"/>
+  <anchor x="300" y="0" name="ogonek"/>
   <anchor x="300" y="800" name="above"/>
   <outline>
     <contour>

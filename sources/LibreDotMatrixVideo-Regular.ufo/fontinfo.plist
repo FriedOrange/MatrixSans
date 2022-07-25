@@ -37,7 +37,7 @@
 	<key>openTypeNamePreferredSubfamilyName</key>
 	<string>Video</string>
 	<key>openTypeNameVersion</key>
-	<string>Version 0.101</string>
+	<string>Version 0.200</string>
 	<key>openTypeOS2FamilyClass</key>
 	<array>
 		<integer>8</integer>
@@ -121,7 +121,7 @@
 	<key>versionMajor</key>
 	<integer>0</integer>
 	<key>versionMinor</key>
-	<integer>101</integer>
+	<integer>200</integer>
 	<key>xHeight</key>
 	<integer>500</integer>
 </dict>
