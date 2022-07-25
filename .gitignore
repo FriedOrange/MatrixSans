@@ -6,9 +6,9 @@ fonts
 node_modules
 package-lock.json
 package.json
-test.bat
 glyph\ sets
 out
+test.log
 
 # OS generated files #
 ######################

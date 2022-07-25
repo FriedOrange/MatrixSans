@@ -93,8 +93,8 @@ The fonts are currently in early development; significant changes may still occu
 
 **25 July 2022 - Version 0.200**
 - Now supports [Google Fonts Latin Core](https://github.com/googlefonts/glyphsets/blob/main/GF_glyphsets/Latin/nam/GF_Latin_Core.nam) and [Adobe Latin 3](http://adobe-type-tools.github.io/adobe-latin-charsets/adobe-latin-3.html)
-- Added U+25CC DOTTED CIRCLE
-- Fixed U+00AD SOFT HYPHEN
+- Added dotted circle character
+- Fixed soft hyphen
 - Fixed WinAscent metric
 
 **23 July 2022 - Version 0.100**
