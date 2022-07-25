@@ -15,12 +15,12 @@ InvalidEm: 0
 LayerCount: 2
 Layer: 0 0 "Back" 1
 Layer: 1 0 "Fore" 0
-XUID: [1021 188 969893957 18992]
+XUID: [1021 888 1621943430 261]
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
-CreationTime: 1658673602
-ModificationTime: 1658673602
+CreationTime: 1658747278
+ModificationTime: 1658747278
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -3439,12 +3439,11 @@ Flags: HW
 LayerCount: 2
 Fore
 Refer: 0 -1 N 1 0 0 1 350 0 2
-Refer: 0 -1 N 1 0 0 1 50 0 2
+Refer: 0 -1 N 1 0 0 1 250 0 2
+Refer: 0 -1 N 1 0 0 1 150 0 2
 Refer: 0 -1 N 1 0 0 1 450 100 2
-Refer: 0 -1 N 1 0 0 1 250 100 2
 Refer: 0 -1 N 1 0 0 1 50 100 2
 Refer: 0 -1 N 1 0 0 1 450 200 2
-Refer: 0 -1 N 1 0 0 1 50 200 2
 Refer: 0 -1 N 1 0 0 1 450 300 2
 Refer: 0 -1 N 1 0 0 1 50 300 2
 Refer: 0 -1 N 1 0 0 1 450 400 2
@@ -3464,8 +3463,8 @@ Fore
 Refer: 0 -1 N 1 0 0 1 250 -200 2
 Refer: 0 -1 N 1 0 0 1 150 -200 2
 Refer: 0 -1 N 1 0 0 1 350 -100 2
+Refer: 0 -1 N 1 0 0 1 50 -100 2
 Refer: 0 -1 N 1 0 0 1 350 0 2
-Refer: 0 -1 N 1 0 0 1 50 0 2
 Refer: 0 -1 N 1 0 0 1 350 100 2
 Refer: 0 -1 N 1 0 0 1 50 100 2
 Refer: 0 -1 N 1 0 0 1 350 200 2

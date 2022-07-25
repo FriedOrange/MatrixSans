@@ -6,8 +6,8 @@
     <component base="dot" xOffset="250" yOffset="-200"/>
     <component base="dot" xOffset="150" yOffset="-200"/>
     <component base="dot" xOffset="350" yOffset="-100"/>
+    <component base="dot" xOffset="50" yOffset="-100"/>
     <component base="dot" xOffset="350"/>
-    <component base="dot" xOffset="50"/>
     <component base="dot" xOffset="350" yOffset="100"/>
     <component base="dot" xOffset="50" yOffset="100"/>
     <component base="dot" xOffset="350" yOffset="200"/>
