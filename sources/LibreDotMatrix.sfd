@@ -4,7 +4,7 @@ FullName: Libre Dot Matrix
 FamilyName: Libre Dot Matrix
 Weight: Regular
 Copyright: Copyright 2022 The Libre Dot Matrix Project Authors (https://github.com/FriedOrange/LibreDotMatrix)
-Version: 0.200
+Version: 0.201
 ItalicAngle: 0
 UnderlinePosition: -100
 UnderlineWidth: 100
@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1657964544
-ModificationTime: 1658747319
+ModificationTime: 1658751760
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -64,12 +64,12 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 144 16 14
+WinInfo: 1113904 16 14
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 629146 314573 209715 524288 1048576 0 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "aboveright"""  "ogonek"""  "below"""  "above""" 
-BeginChars: 1114114 380
+BeginChars: 1114118 384
 
 StartChar: dot
 Encoding: 1114112 -1 0
@@ -5711,6 +5711,45 @@ LayerCount: 2
 Fore
 Refer: 225 768 N 1 0 0 1 300 0 2
 Refer: 90 121 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: i.loclTRK
+Encoding: 1114114 -1 380
+Width: 400
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 74 105 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: periodcentered.loclCAT
+Encoding: 1114115 -1 381
+Width: 200
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 S 1 0 0 1 50 300 2
+EndChar
+
+StartChar: periodcentered.loclCAT.case
+Encoding: 1114116 -1 382
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 -250 300 2
+EndChar
+
+StartChar: uni030C.alt
+Encoding: 1114117 -1 383
+Width: 0
+Flags: HW
+AnchorPoint: "aboveright" 0 450 mark 0
+LayerCount: 2
+Fore
+Refer: 13 44 N 1 0 0 1 -50 500 2
 EndChar
 EndChars
 EndSplineFont

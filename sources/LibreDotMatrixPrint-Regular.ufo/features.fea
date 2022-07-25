@@ -40,9 +40,11 @@
 	\umacron \Ubreve \ubreve \Uring \uring \Uhungarumlaut \uhungarumlaut \Uogonek 
 	\uogonek \Wcircumflex \wcircumflex \Ycircumflex \ycircumflex \Zacute \zacute 
 	\Zdotaccent \zdotaccent \uni01CD \uni01CE \uni0218 \uni0219 \uni021A \uni021B 
-	\Wgrave \wgrave \Wacute \wacute \Wdieresis \wdieresis \Ygrave \ygrave ];
+	\Wgrave \wgrave \Wacute \wacute \Wdieresis \wdieresis \Ygrave \ygrave \i.loclTRK 
+	\periodcentered.loclCAT \periodcentered.loclCAT.case ];
 @GDEF_Mark = [\gravecomb \acutecomb \uni0302 \tildecomb \uni0308 \uni030A \uni030C 
-	\uni0327 \uni0304 \uni0306 \uni0328 \uni0307 \uni0315 \uni0326 \uni0312 \uni030B ];
+	\uni0327 \uni0304 \uni0306 \uni0328 \uni0307 \uni0315 \uni0326 \uni0312 \uni030B 
+	\uni030C.alt ];
 
 table GDEF {
   GlyphClassDef @GDEF_Simple, , @GDEF_Mark, ;
