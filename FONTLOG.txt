@@ -22,6 +22,12 @@ Further documentation can be found at: https://github.com/FriedOrange/LibreDotMa
 Changelog
 ---------
 
+**25 July 2022 - Version 0.200**
+- Now supports Google Fonts Latin Core and Adobe Latin 3
+- Added U+25CC DOTTED CIRCLE
+- Fixed U+00AD SOFT HYPHEN
+- Fixed WinAscent metric
+
 **23 July 2022 - Version 0.100**
 - Now supports the Adobe Latin 2 character set
 - Fixed character widths
