@@ -19,8 +19,11 @@ DESCENT_DOTS = 2
 LEFT_SIDE_BEARING = 50
 font = fontforge.open(sys.argv[1])
 
-unlink_list = ["Aring", "Ccedilla", "aring", "ccedilla"]
-video_fix = {"four", "N", "R", "b", "d", "g", "p", "q", "z", "AE", "thorn", "Lslash", "uni2074", "radical"}
+unlink_list = ["Aring", "Ccedilla", "aring", "ccedilla", "aogonek", "dcaron", 
+	"Eogonek", "eogonek", "uni0122", "Iogonek", "iogonek", "uni013B", "uni013C",
+	"lcaron", "Scedilla", "scedilla", "uni0162", "uni0163", "Uogonek", "uni0218",
+	"uni0219", "uni021A", "uni021B"]
+video_fix = {"four", "N", "R", "b", "d", "g", "p", "q", "z", "AE", "thorn", "Lslash", "uni2074", "radical", "Eng", "uni1E9E"}
 
 #######################################
 # Regular style

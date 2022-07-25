@@ -3,7 +3,41 @@
   <advance width="800"/>
   <unicode hex="010F"/>
   <outline>
-    <component base="uni0315" xOffset="550"/>
-    <component base="d"/>
+    <contour>
+      <point x="750" y="700" type="line"/>
+      <point x="750" y="500" type="line"/>
+      <point x="650" y="500" type="line"/>
+      <point x="650" y="400" type="line"/>
+      <point x="550" y="400" type="line"/>
+      <point x="550" y="0" type="line"/>
+      <point x="450" y="0" type="line"/>
+      <point x="450" y="100" type="line"/>
+      <point x="350" y="100" type="line"/>
+      <point x="350" y="0" type="line"/>
+      <point x="150" y="0" type="line"/>
+      <point x="150" y="100" type="line"/>
+      <point x="50" y="100" type="line"/>
+      <point x="50" y="400" type="line"/>
+      <point x="150" y="400" type="line"/>
+      <point x="150" y="500" type="line"/>
+      <point x="350" y="500" type="line"/>
+      <point x="350" y="400" type="line"/>
+      <point x="450" y="400" type="line"/>
+      <point x="450" y="700" type="line"/>
+      <point x="550" y="700" type="line"/>
+      <point x="550" y="500" type="line"/>
+      <point x="650" y="500" type="line"/>
+      <point x="650" y="700" type="line"/>
+    </contour>
+    <contour>
+      <point x="350" y="400" type="line"/>
+      <point x="150" y="400" type="line"/>
+      <point x="150" y="100" type="line"/>
+      <point x="350" y="100" type="line"/>
+      <point x="350" y="200" type="line"/>
+      <point x="450" y="200" type="line"/>
+      <point x="450" y="300" type="line"/>
+      <point x="350" y="300" type="line"/>
+    </contour>
   </outline>
 </glyph>

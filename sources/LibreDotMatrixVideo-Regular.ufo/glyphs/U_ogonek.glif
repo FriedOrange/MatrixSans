@@ -3,7 +3,33 @@
   <advance width="600"/>
   <unicode hex="0172"/>
   <outline>
-    <component base="uni0328" xOffset="350"/>
-    <component base="U"/>
+    <contour>
+      <point x="450" y="-200" type="line"/>
+      <point x="250" y="-200" type="line"/>
+      <point x="250" y="0" type="line"/>
+      <point x="150" y="0" type="line"/>
+      <point x="150" y="50" type="line"/>
+      <point x="100" y="50" type="line"/>
+      <point x="100" y="100" type="line"/>
+      <point x="50" y="100" type="line"/>
+      <point x="50" y="700" type="line"/>
+      <point x="150" y="700" type="line"/>
+      <point x="150" y="150" type="line"/>
+      <point x="200" y="150" type="line"/>
+      <point x="200" y="100" type="line"/>
+      <point x="400" y="100" type="line"/>
+      <point x="400" y="150" type="line"/>
+      <point x="450" y="150" type="line"/>
+      <point x="450" y="700" type="line"/>
+      <point x="550" y="700" type="line"/>
+      <point x="550" y="100" type="line"/>
+      <point x="500" y="100" type="line"/>
+      <point x="500" y="50" type="line"/>
+      <point x="450" y="50" type="line"/>
+      <point x="450" y="0" type="line"/>
+      <point x="350" y="0" type="line"/>
+      <point x="350" y="-100" type="line"/>
+      <point x="450" y="-100" type="line"/>
+    </contour>
   </outline>
 </glyph>
