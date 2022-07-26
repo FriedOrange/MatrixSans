@@ -113,7 +113,8 @@ def draw_auxiliary_text():
 	# Docs Link: https://fonttools.readthedocs.io/en/latest/ttLib/ttFont.html
 	ttFont = TTFont(FONT_PATH)
 	# FONT_NAME = ttFont["name"].getDebugName(4)
-	FONT_NAME = ttFont["name"].getBestFamilyName()
+	# FONT_NAME = ttFont["name"].getBestFamilyName()
+	FONT_NAME = ttFont["name"].getBestFullName()
 	FONT_VERSION = "v%s" % floatToFixedToStr(ttFont["head"].fontRevision, 16)
 	# Setup
 	fill(0.5)
