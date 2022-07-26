@@ -2,8 +2,10 @@ languagesystem DFLT dflt;
 languagesystem latn dflt;
 
 feature locl {
-	script latn;
-	language CAT;
-	substitute l periodcentered' l by periodcentered.loclCAT;
-	substitute L periodcentered' L by periodcentered.loclCAT.case;
+	lookup locl_pos {
+	    script latn;
+	    language CAT;
+	    position l periodcentered' l <-100 0 -200 0>;
+	    position L periodcentered' L <-300 0 -200 0>;
+	} locl_pos;
 } locl;
