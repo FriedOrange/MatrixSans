@@ -113,13 +113,15 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- uni030C.alt
+	- i.loclTRK
 
-	- periodcentered.loclCAT
+	- periodcentered.loclCAT.case
 
-	- i.loclTRK 
+	- one.tnum
 
-	- And periodcentered.loclCAT.case
+	- uni030C.alt 
+
+	- And periodcentered.loclCAT
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -620,10 +622,10 @@ Use -F or --full-lists to disable shortening of long lists.
 
  |               | fonts/ttf/LibreDotMatrixPrint-Regular.ttf          |
  |:------------- | ---------------:|
- | Dehinted Size | 49.2kb |
- | Hinted Size   | 89.5kb   |
- | Increase      | 40.3kb      |
- | Change        | 81.8 %  |
+ | Dehinted Size | 50.4kb |
+ | Hinted Size   | 90.9kb   |
+ | Increase      | 40.5kb      |
+ | Change        | 80.2 %  |
  [code: size-impact]
 </div></details><details><summary>ℹ <b>INFO:</b> EPAR table present in font? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/epar">com.google.fonts/check/epar</a>)</summary><div>
 
@@ -661,7 +663,9 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 	- prep
 
-	- GPOS 
+	- GPOS
+
+	- GSUB 
 
 	- And gasp [code: optional-tables]
 * 🍞 **PASS** Font contains all required tables.
@@ -1073,13 +1077,15 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- uni030C.alt
+	- i.loclTRK
 
-	- periodcentered.loclCAT
+	- periodcentered.loclCAT.case
 
-	- i.loclTRK 
+	- one.tnum
 
-	- And periodcentered.loclCAT.case
+	- uni030C.alt 
+
+	- And periodcentered.loclCAT
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -1580,10 +1586,10 @@ Use -F or --full-lists to disable shortening of long lists.
 
  |               | fonts/ttf/LibreDotMatrixScreen-Regular.ttf          |
  |:------------- | ---------------:|
- | Dehinted Size | 49.2kb |
- | Hinted Size   | 89.5kb   |
- | Increase      | 40.3kb      |
- | Change        | 81.9 %  |
+ | Dehinted Size | 50.4kb |
+ | Hinted Size   | 90.9kb   |
+ | Increase      | 40.5kb      |
+ | Change        | 80.3 %  |
  [code: size-impact]
 </div></details><details><summary>ℹ <b>INFO:</b> EPAR table present in font? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/epar">com.google.fonts/check/epar</a>)</summary><div>
 
@@ -1621,7 +1627,9 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 	- prep
 
-	- GPOS 
+	- GPOS
+
+	- GSUB 
 
 	- And gasp [code: optional-tables]
 * 🍞 **PASS** Font contains all required tables.
@@ -2033,13 +2041,15 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- uni030C.alt
+	- i.loclTRK
 
-	- periodcentered.loclCAT
+	- periodcentered.loclCAT.case
 
-	- i.loclTRK 
+	- one.tnum
 
-	- And periodcentered.loclCAT.case
+	- uni030C.alt 
+
+	- And periodcentered.loclCAT
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -2059,17 +2069,17 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0122	Contours detected: 1	Expected: 2
 
+	- Glyph name: IJ	Contours detected: 3	Expected: 1 or 2
+
 	- Glyph name: uni013B	Contours detected: 1	Expected: 2
 
 	- Glyph name: uni013C	Contours detected: 1	Expected: 2
 
 	- Glyph name: lcaron	Contours detected: 1	Expected: 2
 
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1 
 
-	- Glyph name: uni0218	Contours detected: 1	Expected: 2 
-
-	- And 20 more.
+	- And 22 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -2540,10 +2550,10 @@ Use -F or --full-lists to disable shortening of long lists.
 
  |               | fonts/ttf/LibreDotMatrixVideo-Regular.ttf          |
  |:------------- | ---------------:|
- | Dehinted Size | 26.8kb |
- | Hinted Size   | 65.3kb   |
- | Increase      | 38.4kb      |
- | Change        | 143.4 %  |
+ | Dehinted Size | 27.9kb |
+ | Hinted Size   | 66.3kb   |
+ | Increase      | 38.5kb      |
+ | Change        | 138.0 %  |
  [code: size-impact]
 </div></details><details><summary>ℹ <b>INFO:</b> EPAR table present in font? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/epar">com.google.fonts/check/epar</a>)</summary><div>
 
@@ -2581,7 +2591,9 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 	- prep
 
-	- GPOS 
+	- GPOS
+
+	- GSUB 
 
 	- And gasp [code: optional-tables]
 * 🍞 **PASS** Font contains all required tables.
@@ -2982,13 +2994,15 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- uni030C.alt
+	- i.loclTRK
 
-	- periodcentered.loclCAT
+	- periodcentered.loclCAT.case
 
-	- i.loclTRK 
+	- one.tnum
 
-	- And periodcentered.loclCAT.case
+	- uni030C.alt 
+
+	- And periodcentered.loclCAT
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -3018,7 +3032,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: C	Contours detected: 2	Expected: 1 
 
-	- And 257 more.
+	- And 255 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -3489,10 +3503,10 @@ Use -F or --full-lists to disable shortening of long lists.
 
  |               | fonts/ttf/LibreDotMatrix-Regular.ttf          |
  |:------------- | ---------------:|
- | Dehinted Size | 23.5kb |
- | Hinted Size   | 43.5kb   |
- | Increase      | 20.0kb      |
- | Change        | 85.3 %  |
+ | Dehinted Size | 24.5kb |
+ | Hinted Size   | 44.6kb   |
+ | Increase      | 20.1kb      |
+ | Change        | 82.1 %  |
  [code: size-impact]
 </div></details><details><summary>ℹ <b>INFO:</b> EPAR table present in font? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/epar">com.google.fonts/check/epar</a>)</summary><div>
 
@@ -3530,7 +3544,9 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 	- prep
 
-	- GPOS 
+	- GPOS
+
+	- GSUB 
 
 	- And gasp [code: optional-tables]
 * 🍞 **PASS** Font contains all required tables.
