@@ -3,27 +3,60 @@ languagesystem latn dflt;
 languagesystem latn CAT;
 
 # classes for small caps substitution
-@UC = [A-Z AE Eth Oslash Thorn Lslash OE uni03A9 uni2206 Hbar IJ Eng uni1E9E];
+@uc = [A-Z AE Eth Oslash Thorn Lslash OE uni03A9 uni2206 Hbar IJ Eng uni1E9E];
 
 # classes for mark positioning
-@TALL = [A-H K-Z AE Eth Oslash Thorn Lslash OE uni03A9 uni2206 Hbar IJ Eng uni1E9E b d f h k t germandbls eth thorn florin dcroat hbar];
-@NARROW = [I i l lslash];
-@LC_NORMAL = [a c e g m-s u-z ];
-markClass [gravecomb acutecomb uni0302 tildecomb uni0304 uni0306 uni0307 uni0308 uni030A uni030B uni030C uni0312] <anchor 0 600> @MARKS_ABOVE;
+@tall = [A-H K-Z AE Eth Oslash Thorn Lslash OE uni03A9 uni2206 Hbar IJ Eng uni1E9E b d f h k t germandbls eth dcroat hbar];
+@narrow = [I i l lslash];
+@short = [a c e m-o r s u-x z ae oslash oe uni25CC];
+@deep = [g p q y eng];
+markClass [gravecomb acutecomb uni0302 tildecomb uni0304 uni0306 uni0307 uni0308 uni030A uni030B uni030C uni0312] <anchor 0 600> @marks_above;
+markClass [uni0326 uni0327] <anchor 0 0> @marks_below;
+markClass [uni0328] <anchor 0 0> @ogonek;
+markClass [uni0315] <anchor 0 450> @marks_aboveright;
+
+feature ccmp {
+	substitute i' @marks_above by dotlessi;
+	substitute j' @marks_above by dotlessj;
+
+	substitute L uni030C by Lcaron;
+	substitute d uni030C by dcaron;
+	substitute l uni030C by lcaron;
+	substitute t uni030C by tcaron;
+} ccmp;
 
 feature mark {
-	position base @TALL <anchor 300 800> mark @MARKS_ABOVE;
+	position base @tall <anchor 300 800> mark @marks_above;
+	position base @narrow <anchor 200 800> mark @marks_above;
+	position base [@short @deep] <anchor 300 600> mark @marks_above;
+	position base dotlessi <anchor 200 600> mark @marks_above;
+	position base dotlessj <anchor 400 600> mark @marks_above;
+	position base [@tall @short] <anchor 300 0> mark @marks_below;
+	position base [A a E e u uni25CC] <anchor 400 0> mark @ogonek;
+	position base U <anchor 300 0> mark @ogonek;
+	position base @narrow <anchor 200 0> mark @ogonek;
+	position base L <anchor 250 450> mark @marks_aboveright;
+	position base [d uni25CC] <anchor 550 450> mark @marks_aboveright;
+	position base t <anchor 350 650> mark @marks_aboveright;
 } mark;
 
 feature locl {
 	script latn;
 	language CAT;
-	lookup locl01 {
+	lookup locl_CAT {
 	    position l periodcentered' <-100 0 -200 0> l;
 	    position L periodcentered' <-300 0 -200 0> L;
-	} locl01;
+	} locl_CAT;
 } locl;
 
+feature pnum {
+	substitute one.tnum by one;
+} pnum;
+
 feature tnum {
-	position one <100 0 200 0>;
+	substitute one by one.tnum;
 } tnum;
+
+feature zero {
+	substitute zero by zero.zero;
+} zero;
