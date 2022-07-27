@@ -49,12 +49,12 @@ feature locl {
 	} locl_CAT;
 } locl;
 
-feature pnum {
-	substitute one.tnum by one;
-} pnum;
+# feature pnum {
+# 	substitute one.tnum by one;
+# } pnum;
 
 feature tnum {
-	substitute one by one.tnum;
+	position one <100 0 200 0>;
 } tnum;
 
 feature zero {

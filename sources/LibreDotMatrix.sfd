@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1657964544
-ModificationTime: 1658912538
+ModificationTime: 1658912719
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -60,12 +60,12 @@ Lookup: 1 0 0 "Single Substitution lookup 1" { "Single Substitution lookup 1 sub
 Lookup: 1 0 0 "Single Substitution lookup 2" { "Single Substitution lookup 2 subtable"  } []
 Lookup: 4 0 0 "'ccmp' Glyph Composition/Decomposition in Latin lookup 3" { "'ccmp' Glyph Composition/Decomposition in Latin lookup 3 subtable"  } ['ccmp' ('latn' <'dflt' 'CAT ' > 'DFLT' <'dflt' > ) ]
 Lookup: 1 0 0 "'pnum' Proportional Numbers in Latin lookup 4" { "'pnum' Proportional Numbers in Latin lookup 4 subtable"  } ['pnum' ('latn' <'dflt' 'CAT ' > 'DFLT' <'dflt' > ) ]
-Lookup: 1 0 0 "'tnum' Tabular Numbers in Latin lookup 5" { "'tnum' Tabular Numbers in Latin lookup 5 subtable"  } ['tnum' ('latn' <'dflt' 'CAT ' > 'DFLT' <'dflt' > ) ]
-Lookup: 1 0 0 "'zero' Slashed Zero in Latin lookup 6" { "'zero' Slashed Zero in Latin lookup 6 subtable"  } ['zero' ('latn' <'dflt' 'CAT ' > 'DFLT' <'dflt' > ) ]
+Lookup: 1 0 0 "'zero' Slashed Zero in Latin lookup 5" { "'zero' Slashed Zero in Latin lookup 5 subtable"  } ['zero' ('latn' <'dflt' 'CAT ' > 'DFLT' <'dflt' > ) ]
 Lookup: 260 0 0 "'mark' Mark Positioning in Latin lookup 0" { "'mark' Mark Positioning in Latin lookup 0 subtable"  } ['mark' ('latn' <'dflt' 'CAT ' > 'DFLT' <'dflt' > ) ]
 Lookup: 264 0 0 "locl_CAT" { "locl_CAT contextual 0"  "locl_CAT contextual 1"  } ['locl' ('latn' <'CAT ' 'dflt' > ) ]
 Lookup: 257 0 0 "Single Positioning lookup 2" { "Single Positioning lookup 2 subtable"  } []
 Lookup: 257 0 0 "Single Positioning lookup 3" { "Single Positioning lookup 3 subtable"  } []
+Lookup: 257 0 0 "'tnum' Tabular Numbers in Latin lookup 4" { "'tnum' Tabular Numbers in Latin lookup 4 subtable"  } ['tnum' ('latn' <'dflt' 'CAT ' > 'DFLT' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
 ChainPos2: glyph "locl_CAT contextual 1" 0 0 0 1
@@ -404,7 +404,7 @@ Refer: 0 -1 N 1 0 0 1 50 500 2
 Refer: 0 -1 N 1 0 0 1 350 600 2
 Refer: 0 -1 N 1 0 0 1 250 600 2
 Refer: 0 -1 N 1 0 0 1 150 600 2
-Substitution2: "'zero' Slashed Zero in Latin lookup 6 subtable" zero.zero
+Substitution2: "'zero' Slashed Zero in Latin lookup 5 subtable" zero.zero
 EndChar
 
 StartChar: one
@@ -423,7 +423,7 @@ Refer: 0 -1 N 1 0 0 1 150 400 2
 Refer: 0 -1 N 1 0 0 1 150 500 2
 Refer: 0 -1 N 1 0 0 1 50 500 2
 Refer: 0 -1 N 1 0 0 1 150 600 2
-Substitution2: "'tnum' Tabular Numbers in Latin lookup 5 subtable" one.tnum
+Position2: "'tnum' Tabular Numbers in Latin lookup 4 subtable" dx=100 dy=0 dh=200 dv=0
 EndChar
 
 StartChar: two
