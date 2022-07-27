@@ -1,12 +1,13 @@
 languagesystem DFLT dflt;
 languagesystem latn dflt;
+languagesystem latn CAT;
 
 feature locl {
 	script latn;
 	language CAT;
 	lookup locl_pos {
-	    position l periodcentered' l <-100 0 -200 0>;
-	    position L periodcentered' L <-300 0 -200 0>;
+	    position l periodcentered' <-100 0 -200 0> l;
+	    position L periodcentered' <-300 0 -200 0> L;
 	} locl_pos;
 } locl;
 
