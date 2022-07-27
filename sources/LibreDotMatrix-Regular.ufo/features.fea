@@ -1,4 +1,155 @@
+languagesystem DFLT dflt;
+languagesystem latn CAT ;
+languagesystem latn dflt;
 
+
+# GSUB 
+
+
+lookup ccmpGlyphCompositionDecompositioninLatinlookup0 {
+  lookupflag 0;
+    sub [\i ]' [\gravecomb \acutecomb \uni0302 \tildecomb \uni0304 \uni0306 \uni0307 \uni0308 
+	\uni030A \uni030B \uni030C \uni0312 ]  by [\dotlessi ];
+    sub [\j ]' [\gravecomb \acutecomb \uni0302 \tildecomb \uni0304 \uni0306 \uni0307 \uni0308 
+	\uni030A \uni030B \uni030C \uni0312 ]  by [\uni0237 ];
+} ccmpGlyphCompositionDecompositioninLatinlookup0;
+
+lookup ccmpGlyphCompositionDecompositioninLatinlookup3 {
+  lookupflag 0;
+    sub \d \uni030C  by \dcaron;
+    sub \L \uni030C  by \Lcaron;
+    sub \l \uni030C  by \lcaron;
+    sub \t \uni030C  by \tcaron;
+} ccmpGlyphCompositionDecompositioninLatinlookup3;
+
+lookup pnumProportionalNumbersinLatinlookup4 {
+  lookupflag 0;
+    sub \one.tnum by \one ;
+} pnumProportionalNumbersinLatinlookup4;
+
+lookup zeroSlashedZeroinLatinlookup5 {
+  lookupflag 0;
+    sub \zero by \zero.zero ;
+} zeroSlashedZeroinLatinlookup5;
+
+feature ccmp {
+
+ script DFLT;
+     language dflt ;
+      lookup ccmpGlyphCompositionDecompositioninLatinlookup0;
+      lookup ccmpGlyphCompositionDecompositioninLatinlookup3;
+
+ script latn;
+     language dflt ;
+      lookup ccmpGlyphCompositionDecompositioninLatinlookup0;
+      lookup ccmpGlyphCompositionDecompositioninLatinlookup3;
+     language CAT  exclude_dflt;
+      lookup ccmpGlyphCompositionDecompositioninLatinlookup0;
+      lookup ccmpGlyphCompositionDecompositioninLatinlookup3;
+} ccmp;
+
+feature pnum {
+
+ script DFLT;
+     language dflt ;
+      lookup pnumProportionalNumbersinLatinlookup4;
+
+ script latn;
+     language dflt ;
+      lookup pnumProportionalNumbersinLatinlookup4;
+     language CAT  exclude_dflt;
+      lookup pnumProportionalNumbersinLatinlookup4;
+} pnum;
+
+feature zero {
+
+ script DFLT;
+     language dflt ;
+      lookup zeroSlashedZeroinLatinlookup5;
+
+ script latn;
+     language dflt ;
+      lookup zeroSlashedZeroinLatinlookup5;
+     language CAT  exclude_dflt;
+      lookup zeroSlashedZeroinLatinlookup5;
+} zero;
+
+# GPOS 
+
+
+lookup markMarkPositioninginLatinlookup0 {
+  lookupflag 0;
+  markClass [\gravecomb \acutecomb \uni0302 \tildecomb \uni0308 \uni030A \uni030C \uni0304 \uni0306 \uni0307 \uni0312 \uni030B ] <anchor 0 600> @marks_above;
+  markClass [\uni0327 \uni0326 ] <anchor 0 0> @marks_below;
+  markClass [\uni0328 ] <anchor 0 0> @ogonek;
+  markClass [\uni0315 ] <anchor 0 450> @marks_aboveright;
+  pos base [\A \B \C \D \E \F \G \H \K \M \N \O \P \Q \R \S \T \V \W \X \Y \Z \a \b \c \e \f \h \k \m \n \o \r \s \u \v \w \x \z \AE \Eth \Oslash \Thorn \germandbls \ae \eth \oslash \Lslash \OE \oe \uni03A9 \Delta \dcroat \Hbar \hbar \Eng \uni1E9E ] <anchor 400 0> mark @ogonek
+	<anchor 300 0> mark @marks_below
+	<anchor 300 800> mark @marks_above;
+  pos base [\I \i \l \lslash ] <anchor 200 0> mark @ogonek
+	<anchor 200 800> mark @marks_above;
+  pos base [\L ] <anchor 250 450> mark @marks_aboveright
+	<anchor 300 0> mark @marks_below
+	<anchor 300 800> mark @marks_above;
+  pos base [\U ] <anchor 300 0> mark @ogonek
+	<anchor 300 0> mark @marks_below
+	<anchor 300 800> mark @marks_above;
+  pos base [\d \uni25CC ] <anchor 550 450> mark @marks_aboveright
+	<anchor 300 0> mark @marks_below
+	<anchor 300 800> mark @marks_above;
+  pos base [\g \p \q \y \eng ] <anchor 300 600> mark @marks_above;
+  pos base [\t ] <anchor 350 650> mark @marks_aboveright
+	<anchor 300 0> mark @marks_below
+	<anchor 300 800> mark @marks_above;
+  pos base [\dotlessi ] <anchor 200 600> mark @marks_above;
+  pos base [\uni0237 ] <anchor 400 600> mark @marks_above;
+} markMarkPositioninginLatinlookup0;
+
+lookup locl_CAT {
+  lookupflag 0;
+    pos \l  \periodcentered'<-100 0 -200 0> \l  ;
+    pos \L  \periodcentered'<-300 0 -200 0> \L  ;
+} locl_CAT;
+
+lookup tnumTabularNumbersinLatinlookup4 {
+  lookupflag 0;
+    pos \one <100 0 200 0>;
+} tnumTabularNumbersinLatinlookup4;
+
+feature mark {
+
+ script DFLT;
+     language dflt ;
+      lookup markMarkPositioninginLatinlookup0;
+
+ script latn;
+     language dflt ;
+      lookup markMarkPositioninginLatinlookup0;
+     language CAT  exclude_dflt;
+      lookup markMarkPositioninginLatinlookup0;
+} mark;
+
+feature locl {
+
+ script latn;
+     language dflt ;
+      lookup locl_CAT;
+     language CAT  exclude_dflt;
+      lookup locl_CAT;
+} locl;
+
+feature tnum {
+
+ script DFLT;
+     language dflt ;
+      lookup tnumTabularNumbersinLatinlookup4;
+
+ script latn;
+     language dflt ;
+      lookup tnumTabularNumbersinLatinlookup4;
+     language CAT  exclude_dflt;
+      lookup tnumTabularNumbersinLatinlookup4;
+} tnum;
 #Mark attachment classes (defined in GDEF, used in lookupflags)
 
 @GDEF_Simple = [\space \exclam \quotedbl \numbersign \dollar \percent \ampersand 
@@ -29,25 +180,25 @@
 	\perthousand \fraction \estimated \uni2215 \uni2219 \approxequal \lessequal 
 	\greaterequal \Ydieresis \uni25CC \dcroat \Hbar \hbar \IJ \ij \Eng \eng \uni0237 
 	\uni1E9E \uni20BA \uni20BD \Amacron \amacron \Abreve \abreve \Aogonek \aogonek 
-	\Cacute \cacute \Cdotaccent \cdotaccent \Ccaron \ccaron \Dcaron \dcaron \Dcroat 
-	\Emacron \emacron \Edotaccent \edotaccent \Eogonek \eogonek \Ecaron \ecaron 
-	\Gbreve \gbreve \Gdotaccent \gdotaccent \uni0122 \uni0123 \Imacron \imacron 
-	\Iogonek \iogonek \Idotaccent \uni0136 \uni0137 \Lacute \lacute \uni013B 
-	\uni013C \Lcaron \lcaron \Nacute \nacute \uni0145 \uni0146 \Ncaron \ncaron 
-	\Omacron \omacron \Ohungarumlaut \ohungarumlaut \Racute \racute \uni0156 
-	\uni0157 \Rcaron \rcaron \Sacute \sacute \Scedilla \scedilla \uni0162 \uni0163 
-	\Tcaron \tcaron \Umacron \umacron \Ubreve \ubreve \Uring \uring \Uhungarumlaut 
-	\uhungarumlaut \Uogonek \uogonek \Wcircumflex \wcircumflex \Ycircumflex 
-	\ycircumflex \Zacute \zacute \Zdotaccent \zdotaccent \uni01CD \uni01CE \uni0218 
-	\uni0219 \uni021A \uni021B \Wgrave \wgrave \Wacute \wacute \Wdieresis \wdieresis 
-	\Ygrave \ygrave \i.loclTRK \periodcentered.loclCAT 
-	\periodcentered.loclCAT.case ];
+	\Cacute \cacute \Cdotaccent \cdotaccent \Ccaron \ccaron \Dcaron \Dcroat \Emacron 
+	\emacron \Edotaccent \edotaccent \Eogonek \eogonek \Ecaron \ecaron \Gbreve 
+	\gbreve \Gdotaccent \gdotaccent \uni0122 \uni0123 \Imacron \imacron \Iogonek 
+	\iogonek \Idotaccent \uni0136 \uni0137 \Lacute \lacute \uni013B \uni013C \Nacute 
+	\nacute \uni0145 \uni0146 \Ncaron \ncaron \Omacron \omacron \Ohungarumlaut 
+	\ohungarumlaut \Racute \racute \uni0156 \uni0157 \Rcaron \rcaron \Sacute \sacute 
+	\Scedilla \scedilla \uni0162 \uni0163 \Tcaron \Umacron \umacron \Ubreve \ubreve 
+	\Uring \uring \Uhungarumlaut \uhungarumlaut \Uogonek \uogonek \Wcircumflex 
+	\wcircumflex \Ycircumflex \ycircumflex \Zacute \zacute \Zdotaccent \zdotaccent 
+	\uni01CD \uni01CE \uni0218 \uni0219 \uni021A \uni021B \Wgrave \wgrave \Wacute 
+	\wacute \Wdieresis \wdieresis \Ygrave \ygrave \i.loclTRK 
+	\periodcentered.loclCAT \periodcentered.loclCAT.case \uni030C.alt \one.tnum 
+	\zero.zero ];
+@GDEF_Ligature = [\dcaron \Lcaron \lcaron \tcaron ];
 @GDEF_Mark = [\gravecomb \acutecomb \uni0302 \tildecomb \uni0308 \uni030A \uni030C 
-	\uni0327 \uni0304 \uni0306 \uni0328 \uni0307 \uni0315 \uni0326 \uni0312 \uni030B 
-	\uni030C.alt ];
+	\uni0327 \uni0304 \uni0306 \uni0328 \uni0307 \uni0315 \uni0326 \uni0312 \uni030B ];
 
 table GDEF {
-  GlyphClassDef @GDEF_Simple, , @GDEF_Mark, ;
+  GlyphClassDef @GDEF_Simple, @GDEF_Ligature, @GDEF_Mark, ;
 
 } GDEF;
 

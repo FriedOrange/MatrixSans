@@ -768,5 +768,9 @@
     <string>periodcentered.loclC_A_T_.case.glif</string>
     <key>uni030C.alt</key>
     <string>uni030C_.alt.glif</string>
+    <key>one.tnum</key>
+    <string>one.tnum.glif</string>
+    <key>zero.zero</key>
+    <string>zero.zero.glif</string>
   </dict>
 </plist>

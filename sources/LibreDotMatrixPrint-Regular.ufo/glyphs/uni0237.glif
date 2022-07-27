@@ -2,6 +2,7 @@
 <glyph name="uni0237" format="2">
   <advance width="500"/>
   <unicode hex="0237"/>
+  <anchor x="400" y="600" name="marks_above"/>
   <outline>
     <component base="dot" xOffset="250" yOffset="-200"/>
     <component base="dot" xOffset="150" yOffset="-200"/>

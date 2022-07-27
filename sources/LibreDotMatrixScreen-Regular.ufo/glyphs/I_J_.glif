@@ -3,19 +3,14 @@
   <advance width="600"/>
   <unicode hex="0132"/>
   <outline>
+    <component base="bar"/>
     <component base="dot" xOffset="350"/>
-    <component base="dot" xOffset="250"/>
-    <component base="dot" xOffset="150"/>
     <component base="dot" xOffset="450" yOffset="100"/>
-    <component base="dot" xOffset="50" yOffset="100"/>
+    <component base="dot" xOffset="250" yOffset="100"/>
     <component base="dot" xOffset="450" yOffset="200"/>
     <component base="dot" xOffset="450" yOffset="300"/>
-    <component base="dot" xOffset="50" yOffset="300"/>
     <component base="dot" xOffset="450" yOffset="400"/>
-    <component base="dot" xOffset="50" yOffset="400"/>
     <component base="dot" xOffset="450" yOffset="500"/>
-    <component base="dot" xOffset="50" yOffset="500"/>
     <component base="dot" xOffset="450" yOffset="600"/>
-    <component base="dot" xOffset="50" yOffset="600"/>
   </outline>
 </glyph>

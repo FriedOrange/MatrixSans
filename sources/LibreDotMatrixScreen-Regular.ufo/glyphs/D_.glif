@@ -2,7 +2,8 @@
 <glyph name="D" format="2">
   <advance width="600"/>
   <unicode hex="0044"/>
-  <anchor x="300" y="800" name="above"/>
+  <anchor x="300" y="0" name="marks_below"/>
+  <anchor x="300" y="800" name="marks_above"/>
   <outline>
     <component base="dot" xOffset="250"/>
     <component base="dot" xOffset="150"/>

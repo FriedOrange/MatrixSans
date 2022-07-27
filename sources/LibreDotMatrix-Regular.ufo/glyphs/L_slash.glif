@@ -2,6 +2,8 @@
 <glyph name="Lslash" format="2">
   <advance width="600"/>
   <unicode hex="0141"/>
+  <anchor x="300" y="0" name="marks_below"/>
+  <anchor x="300" y="800" name="marks_above"/>
   <outline>
     <contour>
       <point x="50" y="200" type="line"/>

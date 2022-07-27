@@ -2,7 +2,7 @@
 <glyph name="uni0326" format="2">
   <advance width="0"/>
   <unicode hex="0326"/>
-  <anchor x="0" y="0" name="_below"/>
+  <anchor x="0" y="0" name="_marks_below"/>
   <outline>
     <component base="acute" xOffset="-200" yOffset="-700"/>
   </outline>

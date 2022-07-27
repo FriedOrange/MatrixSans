@@ -2,9 +2,8 @@
 <glyph name="l" format="2">
   <advance width="400"/>
   <unicode hex="006C"/>
-  <anchor x="250" y="450" name="aboveright"/>
-  <anchor x="200" y="0" name="below"/>
-  <anchor x="200" y="800" name="above"/>
+  <anchor x="200" y="0" name="ogonek"/>
+  <anchor x="200" y="800" name="marks_above"/>
   <outline>
     <contour>
       <point x="50" y="0" type="line"/>

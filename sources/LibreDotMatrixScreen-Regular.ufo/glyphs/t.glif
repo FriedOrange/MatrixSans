@@ -2,8 +2,9 @@
 <glyph name="t" format="2">
   <advance width="600"/>
   <unicode hex="0074"/>
-  <anchor x="350" y="650" name="aboveright"/>
-  <anchor x="300" y="0" name="below"/>
+  <anchor x="350" y="650" name="marks_aboveright"/>
+  <anchor x="300" y="0" name="marks_below"/>
+  <anchor x="300" y="800" name="marks_above"/>
   <outline>
     <component base="dot" xOffset="350"/>
     <component base="dot" xOffset="250"/>
