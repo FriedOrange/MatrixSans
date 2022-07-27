@@ -2,13 +2,26 @@ languagesystem DFLT dflt;
 languagesystem latn dflt;
 languagesystem latn CAT;
 
+# classes for small caps substitution
+@UC = [A-Z AE Eth Oslash Thorn Lslash OE uni03A9 uni2206 Hbar IJ Eng uni1E9E];
+
+# classes for mark positioning
+@TALL = [A-H K-Z AE Eth Oslash Thorn Lslash OE uni03A9 uni2206 Hbar IJ Eng uni1E9E b d f h k t germandbls eth thorn florin dcroat hbar];
+@NARROW = [I i l lslash];
+@LC_NORMAL = [a c e g m-s u-z ];
+markClass [gravecomb acutecomb uni0302 tildecomb uni0304 uni0306 uni0307 uni0308 uni030A uni030B uni030C uni0312] <anchor 0 600> @MARKS_ABOVE;
+
+feature mark {
+	position base @TALL <anchor 300 800> mark @MARKS_ABOVE;
+} mark;
+
 feature locl {
 	script latn;
 	language CAT;
-	lookup locl_pos {
+	lookup locl01 {
 	    position l periodcentered' <-100 0 -200 0> l;
 	    position L periodcentered' <-300 0 -200 0> L;
-	} locl_pos;
+	} locl01;
 } locl;
 
 feature tnum {
