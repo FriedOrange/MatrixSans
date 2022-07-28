@@ -4,7 +4,7 @@ FullName: Libre Dot Matrix
 FamilyName: Libre Dot Matrix
 Weight: Regular
 Copyright: Copyright 2022 The Libre Dot Matrix Project Authors (https://github.com/FriedOrange/LibreDotMatrix)
-Version: 0.201
+Version: 0.210
 ItalicAngle: 0
 UnderlinePosition: -100
 UnderlineWidth: 100
@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1657964544
-ModificationTime: 1659015586
+ModificationTime: 1659015863
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -1100,7 +1100,7 @@ EndChar
 StartChar: J
 Encoding: 74 74 43
 Width: 600
-Flags: HMWO
+Flags: HMW
 AnchorPoint: "marks_above" 400 800 basechar 0
 LayerCount: 2
 Fore

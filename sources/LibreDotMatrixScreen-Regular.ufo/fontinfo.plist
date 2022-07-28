@@ -37,7 +37,7 @@
 	<key>openTypeNamePreferredSubfamilyName</key>
 	<string>Screen</string>
 	<key>openTypeNameVersion</key>
-	<string>Version 0.201</string>
+	<string>Version 0.210</string>
 	<key>openTypeOS2FamilyClass</key>
 	<array>
 		<integer>8</integer>
@@ -121,7 +121,7 @@
 	<key>versionMajor</key>
 	<integer>0</integer>
 	<key>versionMinor</key>
-	<integer>201</integer>
+	<integer>210</integer>
 	<key>xHeight</key>
 	<integer>500</integer>
 </dict>
