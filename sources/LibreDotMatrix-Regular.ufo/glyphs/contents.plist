@@ -768,9 +768,11 @@
     <string>periodcentered.loclC_A_T_.case.glif</string>
     <key>uni030C.alt</key>
     <string>uni030C_.alt.glif</string>
-    <key>one.tnum</key>
-    <string>one.tnum.glif</string>
+    <key>Eng.loclNSM</key>
+    <string>E_ng.loclN_S_M_.glif</string>
     <key>zero.zero</key>
     <string>zero.zero.glif</string>
+    <key>jacute</key>
+    <string>jacute.glif</string>
   </dict>
 </plist>

@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="i.loclTRK" format="2">
   <advance width="400"/>
+  <anchor x="200" y="0" name="ogonek"/>
+  <anchor x="200" y="0" name="marks_below"/>
+  <anchor x="200" y="800" name="marks_above"/>
   <outline>
     <component base="i"/>
   </outline>

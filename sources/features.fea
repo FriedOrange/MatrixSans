@@ -1,25 +1,33 @@
 languagesystem DFLT dflt;
 languagesystem latn dflt;
 languagesystem latn CAT;
+languagesystem latn TAT;
+languagesystem latn TRK;
+languagesystem latn KAZ;
+languagesystem latn AZE;
+languagesystem latn CRT;
+languagesystem latn MOL;
+languagesystem latn ROM;
+languagesystem latn NSM;
+languagesystem latn NLD;
 
 # classes for small caps substitution
 @uc = [A-Z AE Eth Oslash Thorn Lslash OE uni03A9 uni2206 Hbar IJ Eng uni1E9E];
 
 # classes for mark positioning
 @tall = [A-H K-Z AE Eth Oslash Thorn Lslash OE uni03A9 uni2206 Hbar IJ Eng uni1E9E b d f h k t germandbls eth dcroat hbar];
-@narrow = [I i l lslash];
+@narrow = [I i l lslash i.loclTRK];
 @short = [a c e m-o r s u-x z ae oslash oe uni25CC];
 @deep = [g p q y eng];
+
+# mark classes
 markClass [gravecomb acutecomb uni0302 tildecomb uni0304 uni0306 uni0307 uni0308 uni030A uni030B uni030C uni0312] <anchor 0 600> @marks_above;
 markClass [uni0326 uni0327] <anchor 0 0> @marks_below;
 markClass [uni0328] <anchor 0 0> @ogonek;
 markClass [uni0315] <anchor 0 450> @marks_aboveright;
 
 feature ccmp {
-	substitute i' @marks_above by dotlessi;
-	substitute j' @marks_above by dotlessj;
-
-	# fixing mistakes in Unicode....
+	substitute [i j]' @marks_above by [dotlessi dotlessj];
 	substitute L uni030C' by uni0315;
 	substitute d uni030C' by uni0315;
 	substitute l uni030C' by uni0315;
@@ -51,6 +59,7 @@ feature mark {
 	position base [d uni25CC] <anchor 550 450> mark @marks_aboveright;
 	position base l <anchor 250 450> mark @marks_aboveright;
 	position base t <anchor 350 650> mark @marks_aboveright;
+	position base J <anchor 400 800> mark @marks_above;
 } mark;
 
 feature locl {
@@ -60,11 +69,36 @@ feature locl {
 	    position l periodcentered' <-100 0 -200 0> l;
 	    position L periodcentered' <-300 0 -200 0> L;
 	} locl_CAT;
+	language TAT;
+	substitute i by i.loclTRK;
+	language TRK;
+	substitute i by i.loclTRK;
+	language KAZ;
+	substitute i by i.loclTRK;
+	language AZE;
+	substitute i by i.loclTRK;
+	language CRT;
+	substitute i by i.loclTRK;
+	language MOL;
+	substitute Scedilla by uni0218;
+	substitute scedilla by uni0219;
+	substitute Tcedilla by uni021a;
+	substitute tcedilla by uni021b;
+	language ROM;
+	substitute Scedilla by uni0218;
+	substitute scedilla by uni0219;
+	substitute Tcedilla by uni021a;
+	substitute tcedilla by uni021b;
+	language NSM;
+	substitute Eng by Eng.loclNSM;
+	language NLD;
+	substitute I [J j] by IJ;
+	substitute i j by ij;
+	substitute Iacute J' by J acutecomb;
+	substitute iacute j' by jacute;
+	substitute I acutecomb J' by J acutecomb;
+	substitute i acutecomb j' by jacute;
 } locl;
-
-# feature pnum {
-# 	substitute one.tnum by one;
-# } pnum;
 
 feature tnum {
 	position one <100 0 200 0>;

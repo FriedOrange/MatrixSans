@@ -1,6 +1,15 @@
 languagesystem DFLT dflt;
+languagesystem latn AZE ;
 languagesystem latn CAT ;
+languagesystem latn CRT ;
 languagesystem latn dflt;
+languagesystem latn KAZ ;
+languagesystem latn MOL ;
+languagesystem latn NLD ;
+languagesystem latn NSM ;
+languagesystem latn ROM ;
+languagesystem latn TAT ;
+languagesystem latn TRK ;
 
 
 # GSUB 
@@ -8,10 +17,8 @@ languagesystem latn dflt;
 
 lookup ccmpGlyphCompositionDecompositioninLatinlookup0 {
   lookupflag 0;
-    sub [\i ]' [\gravecomb \acutecomb \uni0302 \tildecomb \uni0304 \uni0306 \uni0307 \uni0308 
-	\uni030A \uni030B \uni030C \uni0312 ]  by [\dotlessi ];
-    sub [\j ]' [\gravecomb \acutecomb \uni0302 \tildecomb \uni0304 \uni0306 \uni0307 \uni0308 
-	\uni030A \uni030B \uni030C \uni0312 ]  by [\uni0237 ];
+    sub [\i \j ]' [\gravecomb \acutecomb \uni0302 \tildecomb \uni0304 \uni0306 \uni0307 \uni0308 
+	\uni030A \uni030B \uni030C \uni0312 ]  by [\dotlessi \uni0237 ];
     sub \L  \uni030C'   by \uni0315;
     sub \d  \uni030C'   by \uni0315;
     sub \l  \uni030C'   by \uni0315;
@@ -28,10 +35,81 @@ lookup ccmpGlyphCompositionDecompositioninLatinlookup0 {
     sub \r  \uni0327'   by \uni0326;
 } ccmpGlyphCompositionDecompositioninLatinlookup0;
 
-lookup zeroSlashedZeroinLatinlookup17 {
+lookup loclLocalizedFormsinLatinlookup16 {
+  lookupflag 0;
+    sub \i by \i.loclTRK ;
+} loclLocalizedFormsinLatinlookup16;
+
+lookup loclLocalizedFormsinLatinlookup17 {
+  lookupflag 0;
+    sub \i by \i.loclTRK ;
+} loclLocalizedFormsinLatinlookup17;
+
+lookup loclLocalizedFormsinLatinlookup18 {
+  lookupflag 0;
+    sub \i by \i.loclTRK ;
+} loclLocalizedFormsinLatinlookup18;
+
+lookup loclLocalizedFormsinLatinlookup19 {
+  lookupflag 0;
+    sub \i by \i.loclTRK ;
+} loclLocalizedFormsinLatinlookup19;
+
+lookup loclLocalizedFormsinLatinlookup20 {
+  lookupflag 0;
+    sub \i by \i.loclTRK ;
+} loclLocalizedFormsinLatinlookup20;
+
+lookup loclLocalizedFormsinLatinlookup21 {
+  lookupflag 0;
+    sub \Scedilla by \uni0218 ;
+    sub \scedilla by \uni0219 ;
+    sub \uni0162 by \uni021A ;
+    sub \uni0163 by \uni021B ;
+} loclLocalizedFormsinLatinlookup21;
+
+lookup loclLocalizedFormsinLatinlookup22 {
+  lookupflag 0;
+    sub \Scedilla by \uni0218 ;
+    sub \scedilla by \uni0219 ;
+    sub \uni0162 by \uni021A ;
+    sub \uni0163 by \uni021B ;
+} loclLocalizedFormsinLatinlookup22;
+
+lookup loclLocalizedFormsinLatinlookup23 {
+  lookupflag 0;
+    sub \Eng by \Eng.loclNSM ;
+} loclLocalizedFormsinLatinlookup23;
+
+lookup loclLocalizedFormsinLatinlookup24 {
+  lookupflag 0;
+    sub \I \j  by \IJ;
+    sub \I \J  by \IJ;
+    sub \i \j  by \ij;
+} loclLocalizedFormsinLatinlookup24;
+
+lookup MultipleSubstitutionlookup26 {
+  lookupflag 0;
+    sub \J by \J \acutecomb ;
+} MultipleSubstitutionlookup26;
+
+lookup MultipleSubstitutionlookup28 {
+  lookupflag 0;
+    sub \J by \J \acutecomb ;
+} MultipleSubstitutionlookup28;
+
+lookup loclLocalizedFormsinLatinlookup25 {
+  lookupflag 0;
+    sub \Iacute  \J'lookup MultipleSubstitutionlookup26   ;
+    sub \iacute  \j'   by \jacute;
+    sub \I \acutecomb  \J'lookup MultipleSubstitutionlookup28   ;
+    sub \i \acutecomb  \j'   by \jacute;
+} loclLocalizedFormsinLatinlookup25;
+
+lookup zeroSlashedZeroinLatinlookup30 {
   lookupflag 0;
     sub \zero by \zero.zero ;
-} zeroSlashedZeroinLatinlookup17;
+} zeroSlashedZeroinLatinlookup30;
 
 feature ccmp {
 
@@ -42,21 +120,92 @@ feature ccmp {
  script latn;
      language dflt ;
       lookup ccmpGlyphCompositionDecompositioninLatinlookup0;
+     language AZE  exclude_dflt;
+      lookup ccmpGlyphCompositionDecompositioninLatinlookup0;
      language CAT  exclude_dflt;
       lookup ccmpGlyphCompositionDecompositioninLatinlookup0;
+     language CRT  exclude_dflt;
+      lookup ccmpGlyphCompositionDecompositioninLatinlookup0;
+     language KAZ  exclude_dflt;
+      lookup ccmpGlyphCompositionDecompositioninLatinlookup0;
+     language MOL  exclude_dflt;
+      lookup ccmpGlyphCompositionDecompositioninLatinlookup0;
+     language NLD  exclude_dflt;
+      lookup ccmpGlyphCompositionDecompositioninLatinlookup0;
+     language NSM  exclude_dflt;
+      lookup ccmpGlyphCompositionDecompositioninLatinlookup0;
+     language ROM  exclude_dflt;
+      lookup ccmpGlyphCompositionDecompositioninLatinlookup0;
+     language TAT  exclude_dflt;
+      lookup ccmpGlyphCompositionDecompositioninLatinlookup0;
+     language TRK  exclude_dflt;
+      lookup ccmpGlyphCompositionDecompositioninLatinlookup0;
 } ccmp;
+
+feature locl {
+
+ script latn;
+     language dflt ;
+      lookup loclLocalizedFormsinLatinlookup16;
+      lookup loclLocalizedFormsinLatinlookup17;
+      lookup loclLocalizedFormsinLatinlookup18;
+      lookup loclLocalizedFormsinLatinlookup19;
+      lookup loclLocalizedFormsinLatinlookup20;
+      lookup loclLocalizedFormsinLatinlookup21;
+      lookup loclLocalizedFormsinLatinlookup22;
+      lookup loclLocalizedFormsinLatinlookup23;
+      lookup loclLocalizedFormsinLatinlookup24;
+      lookup loclLocalizedFormsinLatinlookup25;
+     language AZE  exclude_dflt;
+      lookup loclLocalizedFormsinLatinlookup19;
+     language CRT  exclude_dflt;
+      lookup loclLocalizedFormsinLatinlookup20;
+     language KAZ  exclude_dflt;
+      lookup loclLocalizedFormsinLatinlookup18;
+     language MOL  exclude_dflt;
+      lookup loclLocalizedFormsinLatinlookup21;
+     language NLD  exclude_dflt;
+      lookup loclLocalizedFormsinLatinlookup24;
+      lookup loclLocalizedFormsinLatinlookup25;
+     language NSM  exclude_dflt;
+      lookup loclLocalizedFormsinLatinlookup23;
+     language ROM  exclude_dflt;
+      lookup loclLocalizedFormsinLatinlookup22;
+     language TAT  exclude_dflt;
+      lookup loclLocalizedFormsinLatinlookup16;
+     language TRK  exclude_dflt;
+      lookup loclLocalizedFormsinLatinlookup17;
+} locl;
 
 feature zero {
 
  script DFLT;
      language dflt ;
-      lookup zeroSlashedZeroinLatinlookup17;
+      lookup zeroSlashedZeroinLatinlookup30;
 
  script latn;
      language dflt ;
-      lookup zeroSlashedZeroinLatinlookup17;
+      lookup zeroSlashedZeroinLatinlookup30;
+     language AZE  exclude_dflt;
+      lookup zeroSlashedZeroinLatinlookup30;
      language CAT  exclude_dflt;
-      lookup zeroSlashedZeroinLatinlookup17;
+      lookup zeroSlashedZeroinLatinlookup30;
+     language CRT  exclude_dflt;
+      lookup zeroSlashedZeroinLatinlookup30;
+     language KAZ  exclude_dflt;
+      lookup zeroSlashedZeroinLatinlookup30;
+     language MOL  exclude_dflt;
+      lookup zeroSlashedZeroinLatinlookup30;
+     language NLD  exclude_dflt;
+      lookup zeroSlashedZeroinLatinlookup30;
+     language NSM  exclude_dflt;
+      lookup zeroSlashedZeroinLatinlookup30;
+     language ROM  exclude_dflt;
+      lookup zeroSlashedZeroinLatinlookup30;
+     language TAT  exclude_dflt;
+      lookup zeroSlashedZeroinLatinlookup30;
+     language TRK  exclude_dflt;
+      lookup zeroSlashedZeroinLatinlookup30;
 } zero;
 
 # GPOS 
@@ -71,9 +220,10 @@ lookup markMarkPositioninginLatinlookup0 {
   pos base [\A \B \C \D \E \F \G \H \K \M \N \O \P \Q \R \S \T \V \W \X \Y \Z \a \b \c \e \f \h \k \m \n \o \r \s \u \v \w \x \z \AE \Eth \Oslash \Thorn \germandbls \ae \eth \oslash \Lslash \OE \oe \uni03A9 \Delta \dcroat \Hbar \hbar \IJ \Eng \uni1E9E ] <anchor 400 0> mark @ogonek
 	<anchor 300 0> mark @marks_below
 	<anchor 300 800> mark @marks_above;
-  pos base [\I \i \lslash ] <anchor 200 0> mark @marks_below
+  pos base [\I \i \lslash \i.loclTRK ] <anchor 200 0> mark @marks_below
 	<anchor 200 0> mark @ogonek
 	<anchor 200 800> mark @marks_above;
+  pos base [\J ] <anchor 400 800> mark @marks_above;
   pos base [\L \l ] <anchor 250 450> mark @marks_aboveright
 	<anchor 300 0> mark @marks_below
 	<anchor 300 800> mark @marks_above;
@@ -111,7 +261,25 @@ feature mark {
  script latn;
      language dflt ;
       lookup markMarkPositioninginLatinlookup0;
+     language AZE  exclude_dflt;
+      lookup markMarkPositioninginLatinlookup0;
      language CAT  exclude_dflt;
+      lookup markMarkPositioninginLatinlookup0;
+     language CRT  exclude_dflt;
+      lookup markMarkPositioninginLatinlookup0;
+     language KAZ  exclude_dflt;
+      lookup markMarkPositioninginLatinlookup0;
+     language MOL  exclude_dflt;
+      lookup markMarkPositioninginLatinlookup0;
+     language NLD  exclude_dflt;
+      lookup markMarkPositioninginLatinlookup0;
+     language NSM  exclude_dflt;
+      lookup markMarkPositioninginLatinlookup0;
+     language ROM  exclude_dflt;
+      lookup markMarkPositioninginLatinlookup0;
+     language TAT  exclude_dflt;
+      lookup markMarkPositioninginLatinlookup0;
+     language TRK  exclude_dflt;
       lookup markMarkPositioninginLatinlookup0;
 } mark;
 
@@ -133,7 +301,25 @@ feature tnum {
  script latn;
      language dflt ;
       lookup tnumTabularNumbersinLatinlookup4;
+     language AZE  exclude_dflt;
+      lookup tnumTabularNumbersinLatinlookup4;
      language CAT  exclude_dflt;
+      lookup tnumTabularNumbersinLatinlookup4;
+     language CRT  exclude_dflt;
+      lookup tnumTabularNumbersinLatinlookup4;
+     language KAZ  exclude_dflt;
+      lookup tnumTabularNumbersinLatinlookup4;
+     language MOL  exclude_dflt;
+      lookup tnumTabularNumbersinLatinlookup4;
+     language NLD  exclude_dflt;
+      lookup tnumTabularNumbersinLatinlookup4;
+     language NSM  exclude_dflt;
+      lookup tnumTabularNumbersinLatinlookup4;
+     language ROM  exclude_dflt;
+      lookup tnumTabularNumbersinLatinlookup4;
+     language TAT  exclude_dflt;
+      lookup tnumTabularNumbersinLatinlookup4;
+     language TRK  exclude_dflt;
       lookup tnumTabularNumbersinLatinlookup4;
 } tnum;
 #Mark attachment classes (defined in GDEF, used in lookupflags)
@@ -164,26 +350,27 @@ feature tnum {
 	\scaron \Zcaron \zcaron \uni02C9 \dotaccent \hungarumlaut \endash \quoteright 
 	\quotedblleft \quotedblright \quotesinglbase \quotedblbase \ellipsis 
 	\perthousand \fraction \estimated \uni2215 \uni2219 \approxequal \lessequal 
-	\greaterequal \Ydieresis \uni25CC \dcroat \Hbar \hbar \IJ \ij \Eng \eng \uni0237 
-	\uni1E9E \uni20BA \uni20BD \Amacron \amacron \Abreve \abreve \Aogonek \aogonek 
-	\Cacute \cacute \Cdotaccent \cdotaccent \Ccaron \ccaron \Dcaron \dcaron \Dcroat 
-	\Emacron \emacron \Edotaccent \edotaccent \Eogonek \eogonek \Ecaron \ecaron 
-	\Gbreve \gbreve \Gdotaccent \gdotaccent \uni0122 \uni0123 \Imacron \imacron 
-	\Iogonek \iogonek \Idotaccent \uni0136 \uni0137 \Lacute \lacute \uni013B 
-	\uni013C \Lcaron \lcaron \Nacute \nacute \uni0145 \uni0146 \Ncaron \ncaron 
-	\Omacron \omacron \Ohungarumlaut \ohungarumlaut \Racute \racute \uni0156 
-	\uni0157 \Rcaron \rcaron \Sacute \sacute \Scedilla \scedilla \uni0162 \uni0163 
-	\Tcaron \tcaron \Umacron \umacron \Ubreve \ubreve \Uring \uring \Uhungarumlaut 
-	\uhungarumlaut \Uogonek \uogonek \Wcircumflex \wcircumflex \Ycircumflex 
-	\ycircumflex \Zacute \zacute \Zdotaccent \zdotaccent \uni01CD \uni01CE \uni0218 
-	\uni0219 \uni021A \uni021B \Wgrave \wgrave \Wacute \wacute \Wdieresis \wdieresis 
-	\Ygrave \ygrave \i.loclTRK \periodcentered.loclCAT 
-	\periodcentered.loclCAT.case \uni030C.alt \one.tnum \zero.zero ];
+	\greaterequal \Ydieresis \uni25CC \dcroat \Hbar \hbar \Eng \eng \uni0237 \uni1E9E 
+	\uni20BA \uni20BD \Amacron \amacron \Abreve \abreve \Aogonek \aogonek \Cacute 
+	\cacute \Cdotaccent \cdotaccent \Ccaron \ccaron \Dcaron \dcaron \Dcroat \Emacron 
+	\emacron \Edotaccent \edotaccent \Eogonek \eogonek \Ecaron \ecaron \Gbreve 
+	\gbreve \Gdotaccent \gdotaccent \uni0122 \uni0123 \Imacron \imacron \Iogonek 
+	\iogonek \Idotaccent \uni0136 \uni0137 \Lacute \lacute \uni013B \uni013C \Lcaron 
+	\lcaron \Nacute \nacute \uni0145 \uni0146 \Ncaron \ncaron \Omacron \omacron 
+	\Ohungarumlaut \ohungarumlaut \Racute \racute \uni0156 \uni0157 \Rcaron \rcaron 
+	\Sacute \sacute \Scedilla \scedilla \uni0162 \uni0163 \Tcaron \tcaron \Umacron 
+	\umacron \Ubreve \ubreve \Uring \uring \Uhungarumlaut \uhungarumlaut \Uogonek 
+	\uogonek \Wcircumflex \wcircumflex \Ycircumflex \ycircumflex \Zacute \zacute 
+	\Zdotaccent \zdotaccent \uni01CD \uni01CE \uni0218 \uni0219 \uni021A \uni021B 
+	\Wgrave \wgrave \Wacute \wacute \Wdieresis \wdieresis \Ygrave \ygrave \i.loclTRK 
+	\periodcentered.loclCAT \periodcentered.loclCAT.case \uni030C.alt 
+	\Eng.loclNSM \zero.zero \jacute ];
+@GDEF_Ligature = [\IJ \ij ];
 @GDEF_Mark = [\gravecomb \acutecomb \uni0302 \tildecomb \uni0308 \uni030A \uni030C 
 	\uni0327 \uni0304 \uni0306 \uni0328 \uni0307 \uni0315 \uni0326 \uni0312 \uni030B ];
 
 table GDEF {
-  GlyphClassDef @GDEF_Simple, , @GDEF_Mark, ;
+  GlyphClassDef @GDEF_Simple, @GDEF_Ligature, @GDEF_Mark, ;
 
 } GDEF;
 
