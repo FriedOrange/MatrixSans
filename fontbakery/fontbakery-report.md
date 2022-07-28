@@ -113,15 +113,11 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- i.loclTRK
+	- periodcentered.loclCAT
 
-	- periodcentered.loclCAT.case
+	- periodcentered.loclCAT.case 
 
-	- one.tnum
-
-	- uni030C.alt 
-
-	- And periodcentered.loclCAT
+	- And uni030C.alt
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -622,10 +618,10 @@ Use -F or --full-lists to disable shortening of long lists.
 
  |               | fonts/ttf/LibreDotMatrixPrint-Regular.ttf          |
  |:------------- | ---------------:|
- | Dehinted Size | 50.4kb |
- | Hinted Size   | 90.9kb   |
- | Increase      | 40.5kb      |
- | Change        | 80.2 %  |
+ | Dehinted Size | 51.6kb |
+ | Hinted Size   | 92.2kb   |
+ | Increase      | 40.7kb      |
+ | Change        | 78.9 %  |
  [code: size-impact]
 </div></details><details><summary>ℹ <b>INFO:</b> EPAR table present in font? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/epar">com.google.fonts/check/epar</a>)</summary><div>
 
@@ -1077,15 +1073,11 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- i.loclTRK
+	- periodcentered.loclCAT
 
-	- periodcentered.loclCAT.case
+	- periodcentered.loclCAT.case 
 
-	- one.tnum
-
-	- uni030C.alt 
-
-	- And periodcentered.loclCAT
+	- And uni030C.alt
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -1586,10 +1578,10 @@ Use -F or --full-lists to disable shortening of long lists.
 
  |               | fonts/ttf/LibreDotMatrixScreen-Regular.ttf          |
  |:------------- | ---------------:|
- | Dehinted Size | 50.4kb |
- | Hinted Size   | 90.9kb   |
- | Increase      | 40.5kb      |
- | Change        | 80.3 %  |
+ | Dehinted Size | 51.5kb |
+ | Hinted Size   | 92.2kb   |
+ | Increase      | 40.7kb      |
+ | Change        | 78.9 %  |
  [code: size-impact]
 </div></details><details><summary>ℹ <b>INFO:</b> EPAR table present in font? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/epar">com.google.fonts/check/epar</a>)</summary><div>
 
@@ -2041,15 +2033,11 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- i.loclTRK
+	- periodcentered.loclCAT
 
-	- periodcentered.loclCAT.case
+	- periodcentered.loclCAT.case 
 
-	- one.tnum
-
-	- uni030C.alt 
-
-	- And periodcentered.loclCAT
+	- And uni030C.alt
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -2069,17 +2057,17 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0122	Contours detected: 1	Expected: 2
 
-	- Glyph name: IJ	Contours detected: 3	Expected: 1 or 2
-
 	- Glyph name: uni013B	Contours detected: 1	Expected: 2
 
 	- Glyph name: uni013C	Contours detected: 1	Expected: 2
 
 	- Glyph name: lcaron	Contours detected: 1	Expected: 2
 
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1 
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
 
-	- And 22 more.
+	- Glyph name: uni0218	Contours detected: 1	Expected: 2 
+
+	- And 20 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -2550,10 +2538,10 @@ Use -F or --full-lists to disable shortening of long lists.
 
  |               | fonts/ttf/LibreDotMatrixVideo-Regular.ttf          |
  |:------------- | ---------------:|
- | Dehinted Size | 27.9kb |
- | Hinted Size   | 66.3kb   |
- | Increase      | 38.5kb      |
- | Change        | 138.0 %  |
+ | Dehinted Size | 29.0kb |
+ | Hinted Size   | 68.0kb   |
+ | Increase      | 39.0kb      |
+ | Change        | 134.6 %  |
  [code: size-impact]
 </div></details><details><summary>ℹ <b>INFO:</b> EPAR table present in font? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/epar">com.google.fonts/check/epar</a>)</summary><div>
 
@@ -2994,15 +2982,11 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- i.loclTRK
+	- periodcentered.loclCAT
 
-	- periodcentered.loclCAT.case
+	- periodcentered.loclCAT.case 
 
-	- one.tnum
-
-	- uni030C.alt 
-
-	- And periodcentered.loclCAT
+	- And uni030C.alt
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -3503,10 +3487,10 @@ Use -F or --full-lists to disable shortening of long lists.
 
  |               | fonts/ttf/LibreDotMatrix-Regular.ttf          |
  |:------------- | ---------------:|
- | Dehinted Size | 24.5kb |
- | Hinted Size   | 44.6kb   |
- | Increase      | 20.1kb      |
- | Change        | 82.1 %  |
+ | Dehinted Size | 25.6kb |
+ | Hinted Size   | 45.9kb   |
+ | Increase      | 20.3kb      |
+ | Change        | 79.2 %  |
  [code: size-impact]
 </div></details><details><summary>ℹ <b>INFO:</b> EPAR table present in font? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/epar">com.google.fonts/check/epar</a>)</summary><div>
 
