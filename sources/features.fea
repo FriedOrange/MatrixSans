@@ -19,10 +19,21 @@ feature ccmp {
 	substitute i' @marks_above by dotlessi;
 	substitute j' @marks_above by dotlessj;
 
-	substitute L uni030C by Lcaron;
-	substitute d uni030C by dcaron;
-	substitute l uni030C by lcaron;
-	substitute t uni030C by tcaron;
+	# fixing mistakes in Unicode....
+	substitute L uni030C' by uni0315;
+	substitute d uni030C' by uni0315;
+	substitute l uni030C' by uni0315;
+	substitute t uni030C' by uni0315;
+	substitute G uni0327' by uni0326;
+	substitute g uni0327' by uni0312;
+	substitute K uni0327' by uni0326;
+	substitute k uni0327' by uni0326;
+	substitute L uni0327' by uni0326;
+	substitute l uni0327' by uni0326;
+	substitute N uni0327' by uni0326;
+	substitute n uni0327' by uni0326;
+	substitute R uni0327' by uni0326;
+	substitute r uni0327' by uni0326;
 } ccmp;
 
 feature mark {
@@ -32,11 +43,13 @@ feature mark {
 	position base dotlessi <anchor 200 600> mark @marks_above;
 	position base dotlessj <anchor 400 600> mark @marks_above;
 	position base [@tall @short] <anchor 300 0> mark @marks_below;
+	position base @narrow <anchor 200 0> mark @marks_below;
 	position base [A a E e u uni25CC] <anchor 400 0> mark @ogonek;
 	position base U <anchor 300 0> mark @ogonek;
 	position base @narrow <anchor 200 0> mark @ogonek;
 	position base L <anchor 250 450> mark @marks_aboveright;
 	position base [d uni25CC] <anchor 550 450> mark @marks_aboveright;
+	position base l <anchor 250 450> mark @marks_aboveright;
 	position base t <anchor 350 650> mark @marks_aboveright;
 } mark;
 

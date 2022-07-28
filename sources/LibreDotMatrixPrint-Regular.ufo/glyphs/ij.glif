@@ -3,7 +3,15 @@
   <advance width="600"/>
   <unicode hex="0133"/>
   <outline>
-    <component base="i"/>
+    <component base="dot" xOffset="150" yOffset="600"/>
+    <component base="dot" xOffset="50" yOffset="400"/>
+    <component base="dot" xOffset="150" yOffset="400"/>
+    <component base="dot" xOffset="150" yOffset="300"/>
+    <component base="dot" xOffset="150" yOffset="200"/>
+    <component base="dot" xOffset="150" yOffset="100"/>
+    <component base="dot" xOffset="50"/>
+    <component base="dot" xOffset="150"/>
+    <component base="dot" xOffset="250"/>
     <component base="dot" xOffset="350" yOffset="-200"/>
     <component base="dot" xOffset="250" yOffset="-200"/>
     <component base="dot" xOffset="450" yOffset="-100"/>

@@ -2,6 +2,8 @@
 <glyph name="IJ" format="2">
   <advance width="600"/>
   <unicode hex="0132"/>
+  <anchor x="300" y="0" name="marks_below"/>
+  <anchor x="300" y="800" name="marks_above"/>
   <outline>
     <contour>
       <point x="250" y="100" type="line"/>
@@ -17,6 +19,11 @@
       <point x="350" y="0" type="line"/>
       <point x="350" y="100" type="line"/>
     </contour>
-    <component base="bar"/>
+    <contour>
+      <point x="150" y="700" type="line"/>
+      <point x="150" y="0" type="line"/>
+      <point x="50" y="0" type="line"/>
+      <point x="50" y="700" type="line"/>
+    </contour>
   </outline>
 </glyph>
