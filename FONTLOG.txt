@@ -22,10 +22,16 @@ Further documentation can be found at: https://github.com/FriedOrange/LibreDotMa
 Changelog
 ---------
 
+**28 July 2022 - Version 0.210**
+- Modified Dutch ij ligature
+- Modified capital letter Eng; added localised form for Northern Sami
+- Added unencoded glyphs from Google Fonts Latin Core to avoid Font Bakery error (temporary)
+- Added OpenType features: ccmp, mark, locl, tnum, zero
+
 **25 July 2022 - Version 0.200**
 - Now supports Google Fonts Latin Core and Adobe Latin 3
-- Added U+25CC DOTTED CIRCLE
-- Fixed U+00AD SOFT HYPHEN
+- Added dotted circle (U+25CC)
+- Fixed soft hyphen
 - Fixed WinAscent metric
 
 **23 July 2022 - Version 0.100**

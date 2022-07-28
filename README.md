@@ -91,9 +91,15 @@ To easily add or modify glyphs (requires [FontForge](https://fontforge.org/)):
 
 The fonts are currently in early development; significant changes may still occur before the release of Version 1.0.
 
+**28 July 2022 - Version 0.210**
+- Modified Dutch ij ligature
+- Modified capital letter Eng; added localised form for Northern Sami
+- Added unencoded glyphs from Google Fonts Latin Core to avoid Font Bakery error (temporary)
+- Added OpenType features: ccmp, mark, locl, tnum, zero
+
 **25 July 2022 - Version 0.200**
 - Now supports [Google Fonts Latin Core](https://github.com/googlefonts/glyphsets/blob/main/GF_glyphsets/Latin/nam/GF_Latin_Core.nam) and [Adobe Latin 3](http://adobe-type-tools.github.io/adobe-latin-charsets/adobe-latin-3.html)
-- Added dotted circle character
+- Added dotted circle (U+25CC)
 - Fixed soft hyphen
 - Fixed WinAscent metric
 
