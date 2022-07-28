@@ -100,7 +100,7 @@
 	<key>postscriptFontName</key>
 	<string>LibreDotMatrix-Regular</string>
 	<key>postscriptFullName</key>
-	<string>Libre Dot Matrix Regular</string>
+	<string>Libre Dot Matrix</string>
 	<key>postscriptUnderlinePosition</key>
 	<integer>-100</integer>
 	<key>postscriptUnderlineThickness</key>
@@ -108,7 +108,7 @@
 	<key>postscriptWeightName</key>
 	<string>Regular</string>
 	<key>styleMapFamilyName</key>
-	<string>Libre Dot Matrix Regular</string>
+	<string>Libre Dot Matrix</string>
 	<key>styleName</key>
 	<string>Regular</string>
 	<key>unitsPerEm</key>
