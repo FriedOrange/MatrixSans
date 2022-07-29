@@ -143,11 +143,11 @@ def make_image():
 if __name__ == "__main__":
 	FONT_PATH = "fonts/otf/LibreDotMatrix-Regular.otf"
 	make_image()
-	FONT_PATH = "fonts/otf/LibreDotMatrixPrint-Regular.otf"
+	FONT_PATH = "fonts/otf/LibreDotMatrix-Print.otf"
 	make_image()
-	FONT_PATH = "fonts/otf/LibreDotMatrixScreen-Regular.otf"
+	FONT_PATH = "fonts/otf/LibreDotMatrix-Screen.otf"
 	make_image()
-	FONT_PATH = "fonts/otf/LibreDotMatrixVideo-Regular.otf"
+	FONT_PATH = "fonts/otf/LibreDotMatrix-Video.otf"
 	make_image()
 	# Save output, using the "--output" flag location
 	saveImage(args.output)

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="emdash" format="2">
+  <advance width="600"/>
+  <unicode hex="2014"/>
+  <outline>
+    <contour>
+      <point x="10" y="310" type="line"/>
+      <point x="10" y="398" type="line"/>
+      <point x="98" y="398" type="line"/>
+      <point x="98" y="310" type="line"/>
+    </contour>
+    <contour>
+      <point x="110" y="310" type="line"/>
+      <point x="110" y="398" type="line"/>
+      <point x="198" y="398" type="line"/>
+      <point x="198" y="310" type="line"/>
+    </contour>
+    <contour>
+      <point x="210" y="310" type="line"/>
+      <point x="210" y="398" type="line"/>
+      <point x="298" y="398" type="line"/>
+      <point x="298" y="310" type="line"/>
+    </contour>
+    <contour>
+      <point x="310" y="310" type="line"/>
+      <point x="310" y="398" type="line"/>
+      <point x="398" y="398" type="line"/>
+      <point x="398" y="310" type="line"/>
+    </contour>
+    <contour>
+      <point x="410" y="310" type="line"/>
+      <point x="410" y="398" type="line"/>
+      <point x="498" y="398" type="line"/>
+      <point x="498" y="310" type="line"/>
+    </contour>
+    <contour>
+      <point x="510" y="310" type="line"/>
+      <point x="510" y="398" type="line"/>
+      <point x="598" y="398" type="line"/>
+      <point x="598" y="310" type="line"/>
+    </contour>
+  </outline>
+</glyph>

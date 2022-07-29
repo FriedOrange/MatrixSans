@@ -41,7 +41,7 @@ font.generate("LibreDotMatrix-Regular.ufo")
 with open("LibreDotMatrix-Regular.ufo/fontinfo.plist", "rb") as plist_file:
 	fontinfo = plistlib.load(plist_file)
 with open("LibreDotMatrix-Regular.ufo/fontinfo.plist", "wb") as plist_file:
-	fontinfo["openTypeOS2Selection"] = [7, 8]
+	fontinfo["openTypeOS2Selection"] = [6, 7, 8]
 	plistlib.dump(fontinfo, plist_file)
 
 #######################################
@@ -51,37 +51,43 @@ font.revert()
 font.selection.select("dot")
 font.round(0.1)
 font["dot"].transform((0.88, 0.0, 0.0, 0.88, 10.0, 10.0))
+font["dot"].unlinkThisGlyph()
+font["dot"].clear()
 font.fontname = "LibreDotMatrixScreen"
 font.familyname = "Libre Dot Matrix Screen"
 font.fullname = "Libre Dot Matrix Screen"
 font.appendSFNTName("English (US)", 17, "Screen")
-font.appendSFNTName("English (US)", 21, "Libre Dot Matrix")
-font.appendSFNTName("English (US)", 22, "Screen")
-font.generate("LibreDotMatrixScreen-Regular.ufo")
-with open("LibreDotMatrixScreen-Regular.ufo/fontinfo.plist", "rb") as plist_file:
+font.appendSFNTName("English (US)", 21, "Libre Dot Matrix Screen")
+font.appendSFNTName("English (US)", 22, "Regular")
+font.generate("LibreDotMatrix-Screen.ufo")
+with open("LibreDotMatrix-Screen.ufo/fontinfo.plist", "rb") as plist_file:
 	fontinfo = plistlib.load(plist_file)
-with open("LibreDotMatrixScreen-Regular.ufo/fontinfo.plist", "wb") as plist_file:
+with open("LibreDotMatrix-Screen.ufo/fontinfo.plist", "wb") as plist_file:
 	fontinfo["openTypeOS2Selection"] = [7]
 	plistlib.dump(fontinfo, plist_file)
 
 #######################################
 # Print style
+font.revert()
+
 font["dot"].clear()
 circle = fontforge.unitShape(0) # creates a unit circle
 circle.draw(font["dot"].glyphPen()) # draws the circle into the glyph, replacing previous outlines
 font["dot"].transform((48.0, 0.0, 0.0, 48.0, 50.0, 50.0))
 font["dot"].round()
 font["dot"].width = 100
+font["dot"].unlinkThisGlyph()
+font["dot"].clear()
 font.fontname = "LibreDotMatrixPrint"
 font.familyname = "Libre Dot Matrix Print"
 font.fullname = "Libre Dot Matrix Print"
 font.appendSFNTName("English (US)", 17, "Print")
-font.appendSFNTName("English (US)", 21, "Libre Dot Matrix")
-font.appendSFNTName("English (US)", 22, "Print")
-font.generate("LibreDotMatrixPrint-Regular.ufo")
-with open("LibreDotMatrixPrint-Regular.ufo/fontinfo.plist", "rb") as plist_file:
+font.appendSFNTName("English (US)", 21, "Libre Dot Matrix Print")
+font.appendSFNTName("English (US)", 22, "Regular")
+font.generate("LibreDotMatrix-Print.ufo")
+with open("LibreDotMatrix-Print.ufo/fontinfo.plist", "rb") as plist_file:
 	fontinfo = plistlib.load(plist_file)
-with open("LibreDotMatrixPrint-Regular.ufo/fontinfo.plist", "wb") as plist_file:
+with open("LibreDotMatrix-Print.ufo/fontinfo.plist", "wb") as plist_file:
 	fontinfo["openTypeOS2Selection"] = [7]
 	plistlib.dump(fontinfo, plist_file)
 
@@ -208,12 +214,12 @@ font.fontname = "LibreDotMatrixVideo"
 font.familyname = "Libre Dot Matrix Video"
 font.fullname = "Libre Dot Matrix Video"
 font.appendSFNTName("English (US)", 17, "Video")
-font.appendSFNTName("English (US)", 21, "Libre Dot Matrix")
-font.appendSFNTName("English (US)", 22, "Video")
-font.generate("LibreDotMatrixVideo-Regular.ufo")
-with open("LibreDotMatrixVideo-Regular.ufo/fontinfo.plist", "rb") as plist_file:
+font.appendSFNTName("English (US)", 21, "Libre Dot Matrix Video")
+font.appendSFNTName("English (US)", 22, "Regular")
+font.generate("LibreDotMatrix-Video.ufo")
+with open("LibreDotMatrix-Video.ufo/fontinfo.plist", "rb") as plist_file:
 	fontinfo = plistlib.load(plist_file)
-with open("LibreDotMatrixVideo-Regular.ufo/fontinfo.plist", "wb") as plist_file:
+with open("LibreDotMatrix-Video.ufo/fontinfo.plist", "wb") as plist_file:
 	fontinfo["openTypeOS2Selection"] = [7]
 	plistlib.dump(fontinfo, plist_file)
 

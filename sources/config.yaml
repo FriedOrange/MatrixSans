@@ -1,7 +1,7 @@
 sources:
   - LibreDotMatrix-Regular.ufo
-  - LibreDotMatrixScreen-Regular.ufo
-  - LibreDotMatrixPrint-Regular.ufo
-  - LibreDotMatrixVideo-Regular.ufo
+  - LibreDotMatrix-Screen.ufo
+  - LibreDotMatrix-Print.ufo
+  - LibreDotMatrix-Video.ufo
 familyName: Libre Dot Matrix
 buildVariable: false

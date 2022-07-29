@@ -35,7 +35,7 @@
 	<key>openTypeNamePreferredFamilyName</key>
 	<string>Libre Dot Matrix</string>
 	<key>openTypeNameVersion</key>
-	<string>Version 0.210</string>
+	<string>Version 0.211</string>
 	<key>openTypeOS2FamilyClass</key>
 	<array>
 		<integer>8</integer>
@@ -56,6 +56,7 @@
 	</array>
 	<key>openTypeOS2Selection</key>
 	<array>
+		<integer>6</integer>
 		<integer>7</integer>
 		<integer>8</integer>
 	</array>
@@ -116,7 +117,7 @@
 	<key>versionMajor</key>
 	<integer>0</integer>
 	<key>versionMinor</key>
-	<integer>210</integer>
+	<integer>211</integer>
 	<key>xHeight</key>
 	<integer>500</integer>
 </dict>
