@@ -46,7 +46,7 @@ font.save("LibreDotMatrix-Regular.sfd")
 
 #######################################
 # Screen style
-font.revert()
+font = fontforge.open(sys.argv[1])
 
 font.selection.select("dot")
 font.round(0.1)
@@ -68,7 +68,7 @@ font.save("LibreDotMatrix-Screen.sfd")
 
 #######################################
 # Print style
-font.revert()
+font = fontforge.open(sys.argv[1])
 
 font["dot"].clear()
 circle = fontforge.unitShape(0) # creates a unit circle
@@ -93,7 +93,7 @@ font.save("LibreDotMatrix-Print.sfd")
 
 #######################################
 # Video style
-font.revert()
+font = fontforge.open(sys.argv[1])
 
 font.createChar(-1, "halfdot")
 pen = font["halfdot"].glyphPen()

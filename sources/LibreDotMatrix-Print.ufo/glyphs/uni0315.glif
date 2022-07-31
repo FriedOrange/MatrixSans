@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni0315" format="2">
-  <advance width="0"/>
-  <unicode hex="0315"/>
-  <anchor x="0" y="450" name="_marks_aboveright"/>
-  <outline>
-    <component base="comma" xOffset="-50" yOffset="500"/>
-  </outline>
-</glyph>

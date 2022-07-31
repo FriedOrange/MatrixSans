@@ -9,6 +9,7 @@ package.json
 glyph\ sets
 out
 test.log
+*.ufo
 
 # OS generated files #
 ######################

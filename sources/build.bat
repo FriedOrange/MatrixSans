@@ -1,3 +1,7 @@
+sfd2ufo LibreDotMatrix-Regular.sfd LibreDotMatrix-Regular.ufo
+sfd2ufo LibreDotMatrix-Print.sfd LibreDotMatrix-Print.ufo
+sfd2ufo LibreDotMatrix-Screen.sfd LibreDotMatrix-Screen.ufo
+sfd2ufo LibreDotMatrix-Video.sfd LibreDotMatrix-Video.ufo
 python %USERPROFILE%\AppData\Local\Programs\Python\Python310\Scripts\gftools-builder.py config.yaml
 @cd .. 
 python documentation\image1.py --output documentation\4styles.png
