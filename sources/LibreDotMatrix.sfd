@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1657964544
-ModificationTime: 1659093352
+ModificationTime: 1659253836
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -55,191 +55,8 @@ OS2CapHeight: 700
 OS2XHeight: 500
 OS2FamilyClass: 2058
 OS2Vendor: 'PfEd'
-Lookup: 6 0 0 "'ccmp' Glyph Composition/Decomposition in Latin lookup 0" { "'ccmp' Glyph Composition/Decomposition in Latin lookup 0 contextual 0"  "'ccmp' Glyph Composition/Decomposition in Latin lookup 0 contextual 1"  "'ccmp' Glyph Composition/Decomposition in Latin lookup 0 contextual 2"  "'ccmp' Glyph Composition/Decomposition in Latin lookup 0 contextual 3"  "'ccmp' Glyph Composition/Decomposition in Latin lookup 0 contextual 4"  "'ccmp' Glyph Composition/Decomposition in Latin lookup 0 contextual 5"  "'ccmp' Glyph Composition/Decomposition in Latin lookup 0 contextual 6"  "'ccmp' Glyph Composition/Decomposition in Latin lookup 0 contextual 7"  "'ccmp' Glyph Composition/Decomposition in Latin lookup 0 contextual 8"  "'ccmp' Glyph Composition/Decomposition in Latin lookup 0 contextual 9"  "'ccmp' Glyph Composition/Decomposition in Latin lookup 0 contextual 10"  "'ccmp' Glyph Composition/Decomposition in Latin lookup 0 contextual 11"  "'ccmp' Glyph Composition/Decomposition in Latin lookup 0 contextual 12"  "'ccmp' Glyph Composition/Decomposition in Latin lookup 0 contextual 13"  "'ccmp' Glyph Composition/Decomposition in Latin lookup 0 contextual 14"  } ['ccmp' ('latn' <'dflt' 'CAT ' 'TAT ' 'TRK ' 'KAZ ' 'AZE ' 'CRT ' 'MOL ' 'ROM ' 'NSM ' 'NLD ' > 'DFLT' <'dflt' > ) ]
-Lookup: 1 0 0 "Single Substitution lookup 1" { "Single Substitution lookup 1 subtable"  } []
-Lookup: 1 0 0 "Single Substitution lookup 2" { "Single Substitution lookup 2 subtable"  } []
-Lookup: 1 0 0 "Single Substitution lookup 3" { "Single Substitution lookup 3 subtable"  } []
-Lookup: 1 0 0 "Single Substitution lookup 4" { "Single Substitution lookup 4 subtable"  } []
-Lookup: 1 0 0 "Single Substitution lookup 5" { "Single Substitution lookup 5 subtable"  } []
-Lookup: 1 0 0 "Single Substitution lookup 6" { "Single Substitution lookup 6 subtable"  } []
-Lookup: 1 0 0 "Single Substitution lookup 7" { "Single Substitution lookup 7 subtable"  } []
-Lookup: 1 0 0 "Single Substitution lookup 8" { "Single Substitution lookup 8 subtable"  } []
-Lookup: 1 0 0 "Single Substitution lookup 9" { "Single Substitution lookup 9 subtable"  } []
-Lookup: 1 0 0 "Single Substitution lookup 10" { "Single Substitution lookup 10 subtable"  } []
-Lookup: 1 0 0 "Single Substitution lookup 11" { "Single Substitution lookup 11 subtable"  } []
-Lookup: 1 0 0 "Single Substitution lookup 12" { "Single Substitution lookup 12 subtable"  } []
-Lookup: 1 0 0 "Single Substitution lookup 13" { "Single Substitution lookup 13 subtable"  } []
-Lookup: 1 0 0 "Single Substitution lookup 14" { "Single Substitution lookup 14 subtable"  } []
-Lookup: 1 0 0 "Single Substitution lookup 15" { "Single Substitution lookup 15 subtable"  } []
-Lookup: 1 0 0 "'locl' Localized Forms in Latin lookup 16" { "'locl' Localized Forms in Latin lookup 16 subtable"  } ['locl' ('latn' <'TAT ' 'dflt' > ) ]
-Lookup: 1 0 0 "'locl' Localized Forms in Latin lookup 17" { "'locl' Localized Forms in Latin lookup 17 subtable"  } ['locl' ('latn' <'TRK ' 'dflt' > ) ]
-Lookup: 1 0 0 "'locl' Localized Forms in Latin lookup 18" { "'locl' Localized Forms in Latin lookup 18 subtable"  } ['locl' ('latn' <'KAZ ' 'dflt' > ) ]
-Lookup: 1 0 0 "'locl' Localized Forms in Latin lookup 19" { "'locl' Localized Forms in Latin lookup 19 subtable"  } ['locl' ('latn' <'AZE ' 'dflt' > ) ]
-Lookup: 1 0 0 "'locl' Localized Forms in Latin lookup 20" { "'locl' Localized Forms in Latin lookup 20 subtable"  } ['locl' ('latn' <'CRT ' 'dflt' > ) ]
-Lookup: 1 0 0 "'locl' Localized Forms in Latin lookup 21" { "'locl' Localized Forms in Latin lookup 21 subtable"  } ['locl' ('latn' <'MOL ' 'dflt' > ) ]
-Lookup: 1 0 0 "'locl' Localized Forms in Latin lookup 22" { "'locl' Localized Forms in Latin lookup 22 subtable"  } ['locl' ('latn' <'ROM ' 'dflt' > ) ]
-Lookup: 1 0 0 "'locl' Localized Forms in Latin lookup 23" { "'locl' Localized Forms in Latin lookup 23 subtable"  } ['locl' ('latn' <'NSM ' 'dflt' > ) ]
-Lookup: 4 0 0 "'locl' Localized Forms in Latin lookup 24" { "'locl' Localized Forms in Latin lookup 24 subtable"  } ['locl' ('latn' <'NLD ' 'dflt' > ) ]
-Lookup: 6 0 0 "'locl' Localized Forms in Latin lookup 25" { "'locl' Localized Forms in Latin lookup 25 contextual 0"  "'locl' Localized Forms in Latin lookup 25 contextual 1"  "'locl' Localized Forms in Latin lookup 25 contextual 2"  "'locl' Localized Forms in Latin lookup 25 contextual 3"  } ['locl' ('latn' <'NLD ' 'dflt' > ) ]
-Lookup: 2 0 0 "Multiple Substitution lookup 26" { "Multiple Substitution lookup 26 subtable"  } []
-Lookup: 1 0 0 "Single Substitution lookup 27" { "Single Substitution lookup 27 subtable"  } []
-Lookup: 2 0 0 "Multiple Substitution lookup 28" { "Multiple Substitution lookup 28 subtable"  } []
-Lookup: 1 0 0 "Single Substitution lookup 29" { "Single Substitution lookup 29 subtable"  } []
-Lookup: 1 0 0 "'zero' Slashed Zero in Latin lookup 30" { "'zero' Slashed Zero in Latin lookup 30 subtable"  } ['zero' ('latn' <'dflt' 'CAT ' 'TAT ' 'TRK ' 'KAZ ' 'AZE ' 'CRT ' 'MOL ' 'ROM ' 'NSM ' 'NLD ' > 'DFLT' <'dflt' > ) ]
-Lookup: 260 0 0 "'mark' Mark Positioning in Latin lookup 0" { "'mark' Mark Positioning in Latin lookup 0 subtable"  } ['mark' ('latn' <'dflt' 'CAT ' 'TAT ' 'TRK ' 'KAZ ' 'AZE ' 'CRT ' 'MOL ' 'ROM ' 'NSM ' 'NLD ' > 'DFLT' <'dflt' > ) ]
-Lookup: 264 0 0 "locl_CAT" { "locl_CAT contextual 0"  "locl_CAT contextual 1"  } ['locl' ('latn' <'CAT ' 'dflt' > ) ]
-Lookup: 257 0 0 "Single Positioning lookup 2" { "Single Positioning lookup 2 subtable"  } []
-Lookup: 257 0 0 "Single Positioning lookup 3" { "Single Positioning lookup 3 subtable"  } []
-Lookup: 257 0 0 "'tnum' Tabular Numbers in Latin lookup 4" { "'tnum' Tabular Numbers in Latin lookup 4 subtable"  } ['tnum' ('latn' <'dflt' 'CAT ' 'TAT ' 'TRK ' 'KAZ ' 'AZE ' 'CRT ' 'MOL ' 'ROM ' 'NSM ' 'NLD ' > 'DFLT' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
-ChainSub2: glyph "'locl' Localized Forms in Latin lookup 25 contextual 3" 0 0 0 1
- String: 1 j
- BString: 11 acutecomb i
- FString: 0 
- 1
-  SeqLookup: 0 "Single Substitution lookup 29"
-EndFPST
-ChainSub2: glyph "'locl' Localized Forms in Latin lookup 25 contextual 2" 0 0 0 1
- String: 1 J
- BString: 11 acutecomb I
- FString: 0 
- 1
-  SeqLookup: 0 "Multiple Substitution lookup 28"
-EndFPST
-ChainSub2: glyph "'locl' Localized Forms in Latin lookup 25 contextual 1" 0 0 0 1
- String: 1 j
- BString: 6 iacute
- FString: 0 
- 1
-  SeqLookup: 0 "Single Substitution lookup 27"
-EndFPST
-ChainSub2: glyph "'locl' Localized Forms in Latin lookup 25 contextual 0" 0 0 0 1
- String: 1 J
- BString: 6 Iacute
- FString: 0 
- 1
-  SeqLookup: 0 "Multiple Substitution lookup 26"
-EndFPST
-ChainPos2: glyph "locl_CAT contextual 1" 0 0 0 1
- String: 14 periodcentered
- BString: 1 L
- FString: 1 L
- 1
-  SeqLookup: 0 "Single Positioning lookup 3"
-EndFPST
-ChainPos2: glyph "locl_CAT contextual 0" 0 0 0 1
- String: 14 periodcentered
- BString: 1 l
- FString: 1 l
- 1
-  SeqLookup: 0 "Single Positioning lookup 2"
-EndFPST
-ChainSub2: glyph "'ccmp' Glyph Composition/Decomposition in Latin lookup 0 contextual 14" 0 0 0 1
- String: 7 uni0327
- BString: 1 r
- FString: 0 
- 1
-  SeqLookup: 0 "Single Substitution lookup 15"
-EndFPST
-ChainSub2: glyph "'ccmp' Glyph Composition/Decomposition in Latin lookup 0 contextual 13" 0 0 0 1
- String: 7 uni0327
- BString: 1 R
- FString: 0 
- 1
-  SeqLookup: 0 "Single Substitution lookup 14"
-EndFPST
-ChainSub2: glyph "'ccmp' Glyph Composition/Decomposition in Latin lookup 0 contextual 12" 0 0 0 1
- String: 7 uni0327
- BString: 1 n
- FString: 0 
- 1
-  SeqLookup: 0 "Single Substitution lookup 13"
-EndFPST
-ChainSub2: glyph "'ccmp' Glyph Composition/Decomposition in Latin lookup 0 contextual 11" 0 0 0 1
- String: 7 uni0327
- BString: 1 N
- FString: 0 
- 1
-  SeqLookup: 0 "Single Substitution lookup 12"
-EndFPST
-ChainSub2: glyph "'ccmp' Glyph Composition/Decomposition in Latin lookup 0 contextual 10" 0 0 0 1
- String: 7 uni0327
- BString: 1 l
- FString: 0 
- 1
-  SeqLookup: 0 "Single Substitution lookup 11"
-EndFPST
-ChainSub2: glyph "'ccmp' Glyph Composition/Decomposition in Latin lookup 0 contextual 9" 0 0 0 1
- String: 7 uni0327
- BString: 1 L
- FString: 0 
- 1
-  SeqLookup: 0 "Single Substitution lookup 10"
-EndFPST
-ChainSub2: glyph "'ccmp' Glyph Composition/Decomposition in Latin lookup 0 contextual 8" 0 0 0 1
- String: 7 uni0327
- BString: 1 k
- FString: 0 
- 1
-  SeqLookup: 0 "Single Substitution lookup 9"
-EndFPST
-ChainSub2: glyph "'ccmp' Glyph Composition/Decomposition in Latin lookup 0 contextual 7" 0 0 0 1
- String: 7 uni0327
- BString: 1 K
- FString: 0 
- 1
-  SeqLookup: 0 "Single Substitution lookup 8"
-EndFPST
-ChainSub2: glyph "'ccmp' Glyph Composition/Decomposition in Latin lookup 0 contextual 6" 0 0 0 1
- String: 7 uni0327
- BString: 1 g
- FString: 0 
- 1
-  SeqLookup: 0 "Single Substitution lookup 7"
-EndFPST
-ChainSub2: glyph "'ccmp' Glyph Composition/Decomposition in Latin lookup 0 contextual 5" 0 0 0 1
- String: 7 uni0327
- BString: 1 G
- FString: 0 
- 1
-  SeqLookup: 0 "Single Substitution lookup 6"
-EndFPST
-ChainSub2: glyph "'ccmp' Glyph Composition/Decomposition in Latin lookup 0 contextual 4" 0 0 0 1
- String: 7 uni030C
- BString: 1 t
- FString: 0 
- 1
-  SeqLookup: 0 "Single Substitution lookup 5"
-EndFPST
-ChainSub2: glyph "'ccmp' Glyph Composition/Decomposition in Latin lookup 0 contextual 3" 0 0 0 1
- String: 7 uni030C
- BString: 1 l
- FString: 0 
- 1
-  SeqLookup: 0 "Single Substitution lookup 4"
-EndFPST
-ChainSub2: glyph "'ccmp' Glyph Composition/Decomposition in Latin lookup 0 contextual 2" 0 0 0 1
- String: 7 uni030C
- BString: 1 d
- FString: 0 
- 1
-  SeqLookup: 0 "Single Substitution lookup 3"
-EndFPST
-ChainSub2: glyph "'ccmp' Glyph Composition/Decomposition in Latin lookup 0 contextual 1" 0 0 0 1
- String: 7 uni030C
- BString: 1 L
- FString: 0 
- 1
-  SeqLookup: 0 "Single Substitution lookup 2"
-EndFPST
-ChainSub2: coverage "'ccmp' Glyph Composition/Decomposition in Latin lookup 0 contextual 0" 0 0 0 1
- 1 0 1
-  Coverage: 3 i j
-  FCoverage: 101 gravecomb acutecomb uni0302 tildecomb uni0304 uni0306 uni0307 uni0308 uni030A uni030B uni030C uni0312
- 1
-  SeqLookup: 0 "Single Substitution lookup 1"
-EndFPST
 LangName: 1033 "" "" "" "" "" "" "" "" "" "Brad Neil" "" "" "http://friedorange.xyz/" "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" "https://scripts.sil.org/OFL" "" "Libre Dot Matrix"
 Encoding: UnicodeFull
 UnicodeInterp: none
@@ -251,7 +68,7 @@ WinInfo: 32 16 13
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 629146 314573 209715 524288 1048576 0 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-AnchorClass2: "marks_above" "'mark' Mark Positioning in Latin lookup 0 subtable" "marks_below" "'mark' Mark Positioning in Latin lookup 0 subtable" "ogonek" "'mark' Mark Positioning in Latin lookup 0 subtable" "marks_aboveright" "'mark' Mark Positioning in Latin lookup 0 subtable"
+AnchorClass2: "marks_above"""  "marks_below"""  "ogonek"""  "marks_aboveright""" 
 BeginChars: 1114121 387
 
 StartChar: dot
@@ -548,7 +365,6 @@ Refer: 0 -1 N 1 0 0 1 50 500 2
 Refer: 0 -1 N 1 0 0 1 350 600 2
 Refer: 0 -1 N 1 0 0 1 250 600 2
 Refer: 0 -1 N 1 0 0 1 150 600 2
-Substitution2: "'zero' Slashed Zero in Latin lookup 30 subtable" zero.zero
 EndChar
 
 StartChar: one
@@ -567,7 +383,6 @@ Refer: 0 -1 N 1 0 0 1 150 400 2
 Refer: 0 -1 N 1 0 0 1 150 500 2
 Refer: 0 -1 N 1 0 0 1 50 500 2
 Refer: 0 -1 N 1 0 0 1 150 600 2
-Position2: "'tnum' Tabular Numbers in Latin lookup 4 subtable" dx=100 dy=0 dh=200 dv=0
 EndChar
 
 StartChar: two
@@ -1115,8 +930,6 @@ Refer: 0 -1 N 1 0 0 1 350 500 2
 Refer: 0 -1 N 1 0 0 1 450 600 2
 Refer: 0 -1 N 1 0 0 1 350 600 2
 Refer: 0 -1 N 1 0 0 1 250 600 2
-MultipleSubs2: "Multiple Substitution lookup 28 subtable" J acutecomb
-MultipleSubs2: "Multiple Substitution lookup 26 subtable" J acutecomb
 EndChar
 
 StartChar: K
@@ -1819,12 +1632,6 @@ Refer: 0 -1 N 1 0 0 1 150 300 2
 Refer: 0 -1 N 1 0 0 1 150 400 2
 Refer: 0 -1 N 1 0 0 1 50 400 2
 Refer: 0 -1 N 1 0 0 1 150 600 2
-Substitution2: "'locl' Localized Forms in Latin lookup 20 subtable" i.loclTRK
-Substitution2: "'locl' Localized Forms in Latin lookup 19 subtable" i.loclTRK
-Substitution2: "'locl' Localized Forms in Latin lookup 18 subtable" i.loclTRK
-Substitution2: "'locl' Localized Forms in Latin lookup 17 subtable" i.loclTRK
-Substitution2: "'locl' Localized Forms in Latin lookup 16 subtable" i.loclTRK
-Substitution2: "Single Substitution lookup 1 subtable" dotlessi
 EndChar
 
 StartChar: j
@@ -1844,9 +1651,6 @@ Refer: 0 -1 N 1 0 0 1 350 300 2
 Refer: 0 -1 N 1 0 0 1 350 400 2
 Refer: 0 -1 N 1 0 0 1 250 400 2
 Refer: 0 -1 N 1 0 0 1 350 600 2
-Substitution2: "Single Substitution lookup 29 subtable" jacute
-Substitution2: "Single Substitution lookup 27 subtable" jacute
-Substitution2: "Single Substitution lookup 1 subtable" uni0237
 EndChar
 
 StartChar: k
@@ -2680,8 +2484,6 @@ Flags: HMW
 LayerCount: 2
 Fore
 Refer: 0 -1 N 1 0 0 1 50 300 2
-Position2: "Single Positioning lookup 3 subtable" dx=-300 dy=0 dh=-200 dv=0
-Position2: "Single Positioning lookup 2 subtable" dx=-100 dy=0 dh=-200 dv=0
 EndChar
 
 StartChar: cedilla
@@ -4403,10 +4205,6 @@ AnchorPoint: "marks_above" 0 600 mark 0
 LayerCount: 2
 Fore
 Refer: 190 711 N 1 0 0 1 -200 0 2
-Substitution2: "Single Substitution lookup 5 subtable" uni0315
-Substitution2: "Single Substitution lookup 4 subtable" uni0315
-Substitution2: "Single Substitution lookup 3 subtable" uni0315
-Substitution2: "Single Substitution lookup 2 subtable" uni0315
 EndChar
 
 StartChar: scaron
@@ -4513,16 +4311,6 @@ AnchorPoint: "marks_below" 0 0 mark 0
 LayerCount: 2
 Fore
 Refer: 117 184 N 1 0 0 1 -200 0 2
-Substitution2: "Single Substitution lookup 15 subtable" uni0326
-Substitution2: "Single Substitution lookup 14 subtable" uni0326
-Substitution2: "Single Substitution lookup 13 subtable" uni0326
-Substitution2: "Single Substitution lookup 12 subtable" uni0326
-Substitution2: "Single Substitution lookup 11 subtable" uni0326
-Substitution2: "Single Substitution lookup 10 subtable" uni0326
-Substitution2: "Single Substitution lookup 9 subtable" uni0326
-Substitution2: "Single Substitution lookup 8 subtable" uni0326
-Substitution2: "Single Substitution lookup 7 subtable" uni0312
-Substitution2: "Single Substitution lookup 6 subtable" uni0326
 EndChar
 
 StartChar: quotesinglbase
@@ -4802,8 +4590,6 @@ Refer: 0 -1 N 1 0 0 1 450 300 2
 Refer: 0 -1 N 1 0 0 1 450 400 2
 Refer: 0 -1 N 1 0 0 1 450 500 2
 Refer: 0 -1 N 1 0 0 1 450 600 2
-Ligature2: "'locl' Localized Forms in Latin lookup 24 subtable" I j
-Ligature2: "'locl' Localized Forms in Latin lookup 24 subtable" I J
 EndChar
 
 StartChar: ij
@@ -4831,7 +4617,6 @@ Refer: 0 -1 N 1 0 0 1 450 300 2
 Refer: 0 -1 N 1 0 0 1 450 400 2
 Refer: 0 -1 N 1 0 0 1 350 400 2
 Refer: 0 -1 N 1 0 0 1 450 600 2
-Ligature2: "'locl' Localized Forms in Latin lookup 24 subtable" i j
 EndChar
 
 StartChar: Eng
@@ -4861,7 +4646,6 @@ Refer: 0 -1 N 1 0 0 1 450 0 2
 Refer: 0 -1 N 1 0 0 1 450 -100 2
 Refer: 0 -1 N 1 0 0 1 250 -200 2
 Refer: 0 -1 N 1 0 0 1 350 -200 2
-Substitution2: "'locl' Localized Forms in Latin lookup 23 subtable" Eng.loclNSM
 EndChar
 
 StartChar: eng
@@ -5672,8 +5456,6 @@ LayerCount: 2
 Fore
 Refer: 249 807 N 1 0 0 1 300 0 2
 Refer: 52 83 N 1 0 0 1 0 0 3
-Substitution2: "'locl' Localized Forms in Latin lookup 22 subtable" uni0218
-Substitution2: "'locl' Localized Forms in Latin lookup 21 subtable" uni0218
 EndChar
 
 StartChar: scedilla
@@ -5684,8 +5466,6 @@ LayerCount: 2
 Fore
 Refer: 249 807 N 1 0 0 1 300 0 2
 Refer: 84 115 N 1 0 0 1 0 0 3
-Substitution2: "'locl' Localized Forms in Latin lookup 22 subtable" uni0219
-Substitution2: "'locl' Localized Forms in Latin lookup 21 subtable" uni0219
 EndChar
 
 StartChar: uni0162
@@ -5696,8 +5476,6 @@ LayerCount: 2
 Fore
 Refer: 249 807 S 1 0 0 1 300 0 2
 Refer: 53 84 N 1 0 0 1 0 0 3
-Substitution2: "'locl' Localized Forms in Latin lookup 22 subtable" uni021A
-Substitution2: "'locl' Localized Forms in Latin lookup 21 subtable" uni021A
 EndChar
 
 StartChar: uni0163
@@ -5708,8 +5486,6 @@ LayerCount: 2
 Fore
 Refer: 249 807 N 1 0 0 1 300 0 2
 Refer: 85 116 N 1 0 0 1 0 0 3
-Substitution2: "'locl' Localized Forms in Latin lookup 22 subtable" uni021B
-Substitution2: "'locl' Localized Forms in Latin lookup 21 subtable" uni021B
 EndChar
 
 StartChar: Tcaron

@@ -12,10 +12,10 @@ languagesystem latn NSM;
 languagesystem latn NLD;
 
 # classes for small caps substitution
-@uc = [A-Z AE Eth Oslash Thorn Lslash OE uni03A9 uni2206 Hbar IJ Eng uni1E9E];
+@uc = [A-Z AE Eth Oslash Thorn Lslash OE uni03A9 Delta Hbar IJ Eng uni1E9E];
 
 # classes for mark positioning
-@tall = [A-H K-Z AE Eth Oslash Thorn Lslash OE uni03A9 uni2206 Hbar IJ Eng uni1E9E b d f h k t germandbls eth dcroat hbar];
+@tall = [A-H K-Z AE Eth Oslash Thorn Lslash OE uni03A9 Delta Hbar IJ Eng uni1E9E b d f h k t germandbls eth dcroat hbar];
 @narrow = [I i l lslash i.loclTRK];
 @short = [a c e m-o r s u-x z ae oslash oe uni25CC];
 @deep = [g p q y eng];
@@ -27,7 +27,7 @@ markClass [uni0328] <anchor 0 0> @ogonek;
 markClass [uni0315] <anchor 0 450> @marks_aboveright;
 
 feature ccmp {
-	sub [i j]' @marks_above by [dotlessi dotlessj];
+	sub [i j]' @marks_above by [dotlessi uni0237];
 	sub L uni030C' by uni0315;
 	sub d uni030C' by uni0315;
 	sub l uni030C' by uni0315;
@@ -49,7 +49,7 @@ feature mark {
 	pos base @narrow <anchor 200 800> mark @marks_above;
 	pos base [@short @deep] <anchor 300 600> mark @marks_above;
 	pos base dotlessi <anchor 200 600> mark @marks_above;
-	pos base dotlessj <anchor 400 600> mark @marks_above;
+	pos base uni0237 <anchor 400 600> mark @marks_above;
 	pos base [@tall @short] <anchor 300 0> mark @marks_below;
 	pos base @narrow <anchor 200 0> mark @marks_below;
 	pos base [A a E e u uni25CC] <anchor 400 0> mark @ogonek;
@@ -82,13 +82,13 @@ feature locl {
 	language MOL;
 	sub Scedilla by uni0218;
 	sub scedilla by uni0219;
-	sub Tcedilla by uni021a;
-	sub tcedilla by uni021b;
+	sub uni0162 by uni021A;
+	sub uni0163 by uni021B;
 	language ROM;
 	sub Scedilla by uni0218;
 	sub scedilla by uni0219;
-	sub Tcedilla by uni021a;
-	sub tcedilla by uni021b;
+	sub uni0162 by uni021A;
+	sub uni0163 by uni021B;
 	language NSM;
 	sub Eng by Eng.loclNSM;
 	language NLD;
