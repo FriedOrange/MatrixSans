@@ -91,9 +91,13 @@ To easily add or modify glyphs (requires [FontForge](https://fontforge.org/)):
 
 The fonts are currently in early development; significant changes may still occur before the release of Version 1.0.
 
+**31 July 2022 - Version 0.211**
+- Changed build process to work around several bugs in FontForge
+- The Localised Forms (`locl`) OpenType feature now works correctly
+
 **28 July 2022 - Version 0.210**
 - Modified Dutch ij ligature
-- Modified capital letter Eng; added localised form for Northern Sami
+- Modified capital letter Ŋ; added localised form for Northern Sami
 - Added unencoded glyphs from Google Fonts Latin Core to avoid Font Bakery error (temporary)
 - Added OpenType features: ccmp, mark, locl, tnum, zero
 
