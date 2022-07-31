@@ -100,9 +100,9 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 	- periodcentered.loclCAT.case
 
-	- periodcentered.loclCAT 
+	- uni030C.alt 
 
-	- And uni030C.alt
+	- And periodcentered.loclCAT
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -136,6 +136,13 @@ The following glyphs do not have the recommended number of contours:
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
+</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
+
+
+* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
+	 acutecomb (U+0301), gravecomb (U+0300), tildecomb (U+0303), uni0302 (U+0302), uni0304 (U+0304), uni0306 (U+0306), uni0307 (U+0307), uni0308 (U+0308), uni030A (U+030A), uni030B (U+030B) and 6 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
@@ -528,6 +535,10 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * 💤 **SKIP** Unfulfilled Conditions: is_cjk_font
+</div></details><details><summary>💤 <b>SKIP:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
+
+
+* 💤 **SKIP** Font has no nonspacing mark glyphs.
 </div></details><details><summary>💤 <b>SKIP:</b> Is the CFF subr/gsubr call depth > 10? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/cff.html#com.adobe.fonts/check/cff_call_depth">com.adobe.fonts/check/cff_call_depth</a>)</summary><div>
 
 
@@ -635,10 +646,10 @@ Use -F or --full-lists to disable shortening of long lists.
 
  |               | fonts/ttf/LibreDotMatrix-Screen.ttf          |
  |:------------- | ---------------:|
- | Dehinted Size | 39.6kb |
- | Hinted Size   | 73.4kb   |
+ | Dehinted Size | 38.9kb |
+ | Hinted Size   | 72.7kb   |
  | Increase      | 33.8kb      |
- | Change        | 85.4 %  |
+ | Change        | 87.0 %  |
  [code: size-impact]
 </div></details><details><summary>ℹ <b>INFO:</b> EPAR table present in font? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/epar">com.google.fonts/check/epar</a>)</summary><div>
 
@@ -879,10 +890,6 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 
 * 🍞 **PASS** No glyphs had components with scaling or rotation
-</div></details><details><summary>🍞 <b>PASS:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🍞 **PASS** All marks were anchored to dotted circle
 </div></details><details><summary>🍞 <b>PASS:</b> Ensure no GPOS7 lookups are present. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/gpos7">com.google.fonts/check/gpos7</a>)</summary><div>
 
 
@@ -967,10 +974,6 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 
 * 🍞 **PASS** Font does not has spacing glyphs in the GDEF mark glyph class.
-</div></details><details><summary>🍞 <b>PASS:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
-
-
-* 🍞 **PASS** Font does not have mark characters not in the GDEF mark glyph class.
 </div></details><details><summary>🍞 <b>PASS:</b> Check GDEF mark glyph class doesn't have characters that are not marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars">com.google.fonts/check/gdef_non_mark_chars</a>)</summary><div>
 
 
@@ -1054,9 +1057,9 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 	- periodcentered.loclCAT.case
 
-	- periodcentered.loclCAT 
+	- uni030C.alt 
 
-	- And uni030C.alt
+	- And periodcentered.loclCAT
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -1090,6 +1093,13 @@ The following glyphs do not have the recommended number of contours:
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
+</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
+
+
+* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
+	 acutecomb (U+0301), gravecomb (U+0300), tildecomb (U+0303), uni0302 (U+0302), uni0304 (U+0304), uni0306 (U+0306), uni0307 (U+0307), uni0308 (U+0308), uni030A (U+030A), uni030B (U+030B) and 6 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
@@ -1482,6 +1492,10 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * 💤 **SKIP** Unfulfilled Conditions: is_cjk_font
+</div></details><details><summary>💤 <b>SKIP:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
+
+
+* 💤 **SKIP** Font has no nonspacing mark glyphs.
 </div></details><details><summary>💤 <b>SKIP:</b> Is the CFF subr/gsubr call depth > 10? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/cff.html#com.adobe.fonts/check/cff_call_depth">com.adobe.fonts/check/cff_call_depth</a>)</summary><div>
 
 
@@ -1589,10 +1603,10 @@ Use -F or --full-lists to disable shortening of long lists.
 
  |               | fonts/ttf/LibreDotMatrix-Video.ttf          |
  |:------------- | ---------------:|
- | Dehinted Size | 29.0kb |
- | Hinted Size   | 68.0kb   |
+ | Dehinted Size | 28.3kb |
+ | Hinted Size   | 67.3kb   |
  | Increase      | 39.0kb      |
- | Change        | 134.6 %  |
+ | Change        | 138.0 %  |
  [code: size-impact]
 </div></details><details><summary>ℹ <b>INFO:</b> EPAR table present in font? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/epar">com.google.fonts/check/epar</a>)</summary><div>
 
@@ -1833,10 +1847,6 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 
 * 🍞 **PASS** No glyphs had components with scaling or rotation
-</div></details><details><summary>🍞 <b>PASS:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🍞 **PASS** All marks were anchored to dotted circle
 </div></details><details><summary>🍞 <b>PASS:</b> Ensure no GPOS7 lookups are present. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/gpos7">com.google.fonts/check/gpos7</a>)</summary><div>
 
 
@@ -1921,10 +1931,6 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 
 * 🍞 **PASS** Font does not has spacing glyphs in the GDEF mark glyph class.
-</div></details><details><summary>🍞 <b>PASS:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
-
-
-* 🍞 **PASS** Font does not have mark characters not in the GDEF mark glyph class.
 </div></details><details><summary>🍞 <b>PASS:</b> Check GDEF mark glyph class doesn't have characters that are not marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars">com.google.fonts/check/gdef_non_mark_chars</a>)</summary><div>
 
 
@@ -2008,9 +2014,9 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 	- periodcentered.loclCAT.case
 
-	- periodcentered.loclCAT 
+	- uni030C.alt 
 
-	- And uni030C.alt
+	- And periodcentered.loclCAT
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -2044,6 +2050,13 @@ The following glyphs do not have the recommended number of contours:
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
+</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
+
+
+* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
+	 acutecomb (U+0301), gravecomb (U+0300), tildecomb (U+0303), uni0302 (U+0302), uni0304 (U+0304), uni0306 (U+0306), uni0307 (U+0307), uni0308 (U+0308), uni030A (U+030A), uni030B (U+030B) and 6 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
@@ -2436,6 +2449,10 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * 💤 **SKIP** Unfulfilled Conditions: is_cjk_font
+</div></details><details><summary>💤 <b>SKIP:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
+
+
+* 💤 **SKIP** Font has no nonspacing mark glyphs.
 </div></details><details><summary>💤 <b>SKIP:</b> Is the CFF subr/gsubr call depth > 10? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/cff.html#com.adobe.fonts/check/cff_call_depth">com.adobe.fonts/check/cff_call_depth</a>)</summary><div>
 
 
@@ -2543,10 +2560,10 @@ Use -F or --full-lists to disable shortening of long lists.
 
  |               | fonts/ttf/LibreDotMatrix-Print.ttf          |
  |:------------- | ---------------:|
- | Dehinted Size | 83.3kb |
- | Hinted Size   | 108.6kb   |
+ | Dehinted Size | 82.6kb |
+ | Hinted Size   | 107.9kb   |
  | Increase      | 25.3kb      |
- | Change        | 30.3 %  |
+ | Change        | 30.6 %  |
  [code: size-impact]
 </div></details><details><summary>ℹ <b>INFO:</b> EPAR table present in font? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/epar">com.google.fonts/check/epar</a>)</summary><div>
 
@@ -2787,10 +2804,6 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 
 * 🍞 **PASS** No glyphs had components with scaling or rotation
-</div></details><details><summary>🍞 <b>PASS:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🍞 **PASS** All marks were anchored to dotted circle
 </div></details><details><summary>🍞 <b>PASS:</b> Ensure no GPOS7 lookups are present. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/gpos7">com.google.fonts/check/gpos7</a>)</summary><div>
 
 
@@ -2875,10 +2888,6 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 
 * 🍞 **PASS** Font does not has spacing glyphs in the GDEF mark glyph class.
-</div></details><details><summary>🍞 <b>PASS:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
-
-
-* 🍞 **PASS** Font does not have mark characters not in the GDEF mark glyph class.
 </div></details><details><summary>🍞 <b>PASS:</b> Check GDEF mark glyph class doesn't have characters that are not marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars">com.google.fonts/check/gdef_non_mark_chars</a>)</summary><div>
 
 
@@ -2951,9 +2960,9 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 	- periodcentered.loclCAT.case
 
-	- periodcentered.loclCAT 
+	- uni030C.alt 
 
-	- And uni030C.alt
+	- And periodcentered.loclCAT
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -2987,6 +2996,13 @@ The following glyphs do not have the recommended number of contours:
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
+</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
+
+
+* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
+	 acutecomb (U+0301), gravecomb (U+0300), tildecomb (U+0303), uni0302 (U+0302), uni0304 (U+0304), uni0306 (U+0306), uni0307 (U+0307), uni0308 (U+0308), uni030A (U+030A), uni030B (U+030B) and 6 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
@@ -3347,6 +3363,10 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * 💤 **SKIP** Unfulfilled Conditions: is_cjk_font
+</div></details><details><summary>💤 <b>SKIP:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
+
+
+* 💤 **SKIP** Font has no nonspacing mark glyphs.
 </div></details><details><summary>💤 <b>SKIP:</b> Is the CFF subr/gsubr call depth > 10? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/cff.html#com.adobe.fonts/check/cff_call_depth">com.adobe.fonts/check/cff_call_depth</a>)</summary><div>
 
 
@@ -3454,10 +3474,10 @@ Use -F or --full-lists to disable shortening of long lists.
 
  |               | fonts/ttf/LibreDotMatrix-Regular.ttf          |
  |:------------- | ---------------:|
- | Dehinted Size | 25.5kb |
- | Hinted Size   | 45.8kb   |
+ | Dehinted Size | 24.7kb |
+ | Hinted Size   | 45.0kb   |
  | Increase      | 20.3kb      |
- | Change        | 79.4 %  |
+ | Change        | 82.0 %  |
  [code: size-impact]
 </div></details><details><summary>ℹ <b>INFO:</b> EPAR table present in font? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/epar">com.google.fonts/check/epar</a>)</summary><div>
 
@@ -3741,10 +3761,6 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 
 * 🍞 **PASS** No glyphs had components with scaling or rotation
-</div></details><details><summary>🍞 <b>PASS:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🍞 **PASS** All marks were anchored to dotted circle
 </div></details><details><summary>🍞 <b>PASS:</b> Ensure no GPOS7 lookups are present. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/gpos7">com.google.fonts/check/gpos7</a>)</summary><div>
 
 
@@ -3829,10 +3845,6 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 
 * 🍞 **PASS** Font does not has spacing glyphs in the GDEF mark glyph class.
-</div></details><details><summary>🍞 <b>PASS:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
-
-
-* 🍞 **PASS** Font does not have mark characters not in the GDEF mark glyph class.
 </div></details><details><summary>🍞 <b>PASS:</b> Check GDEF mark glyph class doesn't have characters that are not marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars">com.google.fonts/check/gdef_non_mark_chars</a>)</summary><div>
 
 
@@ -3890,8 +3902,8 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 7 | 23 | 482 | 25 | 358 | 0 |
-| 0% | 1% | 3% | 54% | 3% | 40% | 0% |
+| 0 | 7 | 27 | 486 | 25 | 350 | 0 |
+| 0% | 1% | 3% | 54% | 3% | 39% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **DEBUG**
