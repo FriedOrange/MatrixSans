@@ -107,7 +107,7 @@
     <key>postscriptSlantAngle</key>
     <real>0.0</real>
     <key>postscriptUnderlinePosition</key>
-    <real>-50.0</real>
+    <real>-100.0</real>
     <key>postscriptUnderlineThickness</key>
     <real>100.0</real>
     <key>postscriptWeightName</key>
