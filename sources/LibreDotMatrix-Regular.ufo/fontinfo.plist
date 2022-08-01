@@ -19,7 +19,7 @@
     <key>openTypeHheaAscender</key>
     <integer>1000</integer>
     <key>openTypeHheaDescender</key>
-    <integer>-200</integer>
+    <integer>-300</integer>
     <key>openTypeHheaLineGap</key>
     <integer>0</integer>
     <key>openTypeNameDesigner</key>
@@ -79,7 +79,7 @@
     <key>openTypeOS2TypoAscender</key>
     <integer>1000</integer>
     <key>openTypeOS2TypoDescender</key>
-    <integer>-200</integer>
+    <integer>-300</integer>
     <key>openTypeOS2TypoLineGap</key>
     <integer>0</integer>
     <key>openTypeOS2VendorID</key>
@@ -113,7 +113,7 @@
     <key>versionMajor</key>
     <integer>0</integer>
     <key>versionMinor</key>
-    <integer>211</integer>
+    <integer>212</integer>
     <key>xHeight</key>
     <integer>500</integer>
   </dict>

@@ -4,7 +4,7 @@ FullName: Libre Dot Matrix Print
 FamilyName: Libre Dot Matrix Print
 Weight: Regular
 Copyright: Copyright 2022 The Libre Dot Matrix Project Authors (https://github.com/FriedOrange/LibreDotMatrix)
-Version: 0.211
+Version: 0.212
 ItalicAngle: 0
 UnderlinePosition: -100
 UnderlineWidth: 100
@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1657964544
-ModificationTime: 1659257358
+ModificationTime: 1659320551
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -30,7 +30,7 @@ VLineGap: 90
 Panose: 4 1 6 4 2 11 2 2 3 2
 OS2TypoAscent: 1000
 OS2TypoAOffset: 0
-OS2TypoDescent: -200
+OS2TypoDescent: -300
 OS2TypoDOffset: 0
 OS2TypoLinegap: 0
 OS2WinAscent: 1100
@@ -39,7 +39,7 @@ OS2WinDescent: 200
 OS2WinDOffset: 0
 HheadAscent: 1000
 HheadAOffset: 0
-HheadDescent: -200
+HheadDescent: -300
 HheadDOffset: 0
 OS2SubXSize: 714
 OS2SubYSize: 714
@@ -64,7 +64,6 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 192 16 13
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 629146 314573 209715 524288 1048576 0 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
@@ -12621,36 +12620,36 @@ AnchorPoint: "marks_above" 300 600 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-252 450 m 0
- 252 476 274 498 300 498 c 0
- 326 498 348 476 348 450 c 0
- 348 424 326 402 300 402 c 0
- 274 402 252 424 252 450 c 0
-52 350 m 0
- 52 376 74 398 100 398 c 0
- 126 398 148 376 148 350 c 0
- 148 324 126 302 100 302 c 0
- 74 302 52 324 52 350 c 0
-452 350 m 0
- 452 376 474 398 500 398 c 0
- 526 398 548 376 548 350 c 0
- 548 324 526 302 500 302 c 0
- 474 302 452 324 452 350 c 0
-52 150 m 0
- 52 176 74 198 100 198 c 0
- 126 198 148 176 148 150 c 0
- 148 124 126 102 100 102 c 0
- 74 102 52 124 52 150 c 0
-452 150 m 0
- 452 176 474 198 500 198 c 0
- 526 198 548 176 548 150 c 0
- 548 124 526 102 500 102 c 0
- 474 102 452 124 452 150 c 0
-252 50 m 0
- 252 76 274 98 300 98 c 0
- 326 98 348 76 348 50 c 0
- 348 24 326 2 300 2 c 0
- 274 2 252 24 252 50 c 0
+352 50 m 0
+ 352 76 374 98 400 98 c 0
+ 426 98 448 76 448 50 c 0
+ 448 24 426 2 400 2 c 0
+ 374 2 352 24 352 50 c 0
+152 50 m 0
+ 152 76 174 98 200 98 c 0
+ 226 98 248 76 248 50 c 0
+ 248 24 226 2 200 2 c 0
+ 174 2 152 24 152 50 c 0
+452 250 m 0
+ 452 276 474 298 500 298 c 0
+ 526 298 548 276 548 250 c 0
+ 548 224 526 202 500 202 c 0
+ 474 202 452 224 452 250 c 0
+52 250 m 0
+ 52 276 74 298 100 298 c 0
+ 126 298 148 276 148 250 c 0
+ 148 224 126 202 100 202 c 0
+ 74 202 52 224 52 250 c 0
+352 450 m 0
+ 352 476 374 498 400 498 c 0
+ 426 498 448 476 448 450 c 0
+ 448 424 426 402 400 402 c 0
+ 374 402 352 424 352 450 c 0
+152 450 m 0
+ 152 476 174 498 200 498 c 0
+ 226 498 248 476 248 450 c 0
+ 248 424 226 402 200 402 c 0
+ 174 402 152 424 152 450 c 0
 EndSplineSet
 EndChar
 

@@ -4,7 +4,7 @@ FullName: Libre Dot Matrix Screen
 FamilyName: Libre Dot Matrix Screen
 Weight: Regular
 Copyright: Copyright 2022 The Libre Dot Matrix Project Authors (https://github.com/FriedOrange/LibreDotMatrix)
-Version: 0.211
+Version: 0.212
 ItalicAngle: 0
 UnderlinePosition: -100
 UnderlineWidth: 100
@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1657964544
-ModificationTime: 1659257358
+ModificationTime: 1659320551
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -30,7 +30,7 @@ VLineGap: 90
 Panose: 4 1 6 4 2 11 2 2 3 2
 OS2TypoAscent: 1000
 OS2TypoAOffset: 0
-OS2TypoDescent: -200
+OS2TypoDescent: -300
 OS2TypoDOffset: 0
 OS2TypoLinegap: 0
 OS2WinAscent: 1100
@@ -39,7 +39,7 @@ OS2WinDescent: 200
 OS2WinDOffset: 0
 HheadAscent: 1000
 HheadAOffset: 0
-HheadDescent: -200
+HheadDescent: -300
 HheadDOffset: 0
 OS2SubXSize: 714
 OS2SubYSize: 714
@@ -64,7 +64,6 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 192 16 13
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 629146 314573 209715 524288 1048576 0 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
@@ -12621,36 +12620,36 @@ AnchorPoint: "marks_above" 300 600 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-260 410 m 25
- 260 498 l 25
- 348 498 l 25
- 348 410 l 25
- 260 410 l 25
-60 310 m 25
- 60 398 l 25
- 148 398 l 25
- 148 310 l 25
- 60 310 l 25
-460 310 m 25
- 460 398 l 25
- 548 398 l 25
- 548 310 l 25
- 460 310 l 25
-60 110 m 25
- 60 198 l 25
- 148 198 l 25
- 148 110 l 25
- 60 110 l 25
-460 110 m 25
- 460 198 l 25
- 548 198 l 25
- 548 110 l 25
- 460 110 l 25
-260 10 m 25
- 260 98 l 25
- 348 98 l 25
- 348 10 l 25
- 260 10 l 25
+360 10 m 25
+ 360 98 l 25
+ 448 98 l 25
+ 448 10 l 25
+ 360 10 l 25
+160 10 m 25
+ 160 98 l 25
+ 248 98 l 25
+ 248 10 l 25
+ 160 10 l 25
+460 210 m 25
+ 460 298 l 25
+ 548 298 l 25
+ 548 210 l 25
+ 460 210 l 25
+60 210 m 25
+ 60 298 l 25
+ 148 298 l 25
+ 148 210 l 25
+ 60 210 l 25
+360 410 m 25
+ 360 498 l 25
+ 448 498 l 25
+ 448 410 l 25
+ 360 410 l 25
+160 410 m 25
+ 160 498 l 25
+ 248 498 l 25
+ 248 410 l 25
+ 160 410 l 25
 EndSplineSet
 EndChar
 

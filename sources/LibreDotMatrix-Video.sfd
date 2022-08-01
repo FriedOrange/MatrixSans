@@ -4,7 +4,7 @@ FullName: Libre Dot Matrix Video
 FamilyName: Libre Dot Matrix Video
 Weight: Regular
 Copyright: Copyright 2022 The Libre Dot Matrix Project Authors (https://github.com/FriedOrange/LibreDotMatrix)
-Version: 0.211
+Version: 0.212
 ItalicAngle: 0
 UnderlinePosition: -100
 UnderlineWidth: 100
@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1657964544
-ModificationTime: 1659257359
+ModificationTime: 1659320552
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -30,7 +30,7 @@ VLineGap: 90
 Panose: 4 1 6 4 2 11 2 2 3 2
 OS2TypoAscent: 1000
 OS2TypoAOffset: 0
-OS2TypoDescent: -200
+OS2TypoDescent: -300
 OS2TypoDOffset: 0
 OS2TypoLinegap: 0
 OS2WinAscent: 1100
@@ -39,7 +39,7 @@ OS2WinDescent: 200
 OS2WinDOffset: 0
 HheadAscent: 1000
 HheadAOffset: 0
-HheadDescent: -200
+HheadDescent: -300
 HheadDOffset: 0
 OS2SubXSize: 714
 OS2SubYSize: 714
@@ -64,7 +64,6 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 192 16 13
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 629146 314573 209715 524288 1048576 0 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
@@ -7913,36 +7912,36 @@ AnchorPoint: "marks_above" 300 600 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-250 0 m 1
- 250 100 l 1
- 350 100 l 1
- 350 0 l 1
- 250 0 l 1
-450 100 m 1
- 450 200 l 1
- 550 200 l 1
- 550 100 l 1
- 450 100 l 1
-50 100 m 1
- 50 200 l 1
- 150 200 l 1
- 150 100 l 1
- 50 100 l 1
-450 300 m 1
- 450 400 l 1
- 550 400 l 1
- 550 300 l 1
- 450 300 l 1
-50 300 m 1
- 50 400 l 1
- 150 400 l 1
- 150 300 l 1
- 50 300 l 1
-250 400 m 1
+150 400 m 1
+ 150 500 l 1
  250 500 l 1
- 350 500 l 1
- 350 400 l 1
  250 400 l 1
+ 150 400 l 1
+350 400 m 1
+ 350 500 l 1
+ 450 500 l 1
+ 450 400 l 1
+ 350 400 l 1
+50 200 m 1
+ 50 300 l 1
+ 150 300 l 1
+ 150 200 l 1
+ 50 200 l 1
+450 200 m 1
+ 450 300 l 1
+ 550 300 l 1
+ 550 200 l 1
+ 450 200 l 1
+150 0 m 1
+ 150 100 l 1
+ 250 100 l 1
+ 250 0 l 1
+ 150 0 l 1
+350 0 m 1
+ 350 100 l 1
+ 450 100 l 1
+ 450 0 l 1
+ 350 0 l 1
 EndSplineSet
 EndChar
 
