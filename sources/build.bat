@@ -10,4 +10,7 @@ python %USERPROFILE%\AppData\Local\Programs\Python\Python310\Scripts\gftools-bui
 @cd .. 
 python documentation\image1.py --output documentation\4styles.png
 python documentation\image2.py --output documentation\sample.png
-@cd sources
+@cd fonts\ttf
+set PYTHONUTF8=1
+python %USERPROFILE%\AppData\Local\Programs\Python\Python310\Scripts\gftools-gen-html.py proof -o ..\..\out\proof LibreDotMatrix-Print.ttf LibreDotMatrix-Regular.ttf LibreDotMatrix-Screen.ttf LibreDotMatrix-Video.ttf
+@cd ..\..\sources
