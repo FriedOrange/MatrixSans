@@ -2,10 +2,10 @@
 <glyph name="periodcentered.loclCAT.case" format="2">
   <outline>
     <contour>
-      <point x="-240.0" y="310.0" type="line"/>
-      <point x="-240.0" y="398.0" type="line"/>
-      <point x="-152.0" y="398.0" type="line"/>
-      <point x="-152.0" y="310.0" type="line"/>
+      <point x="-244.0" y="306.0" type="line"/>
+      <point x="-244.0" y="394.0" type="line"/>
+      <point x="-156.0" y="394.0" type="line"/>
+      <point x="-156.0" y="306.0" type="line"/>
     </contour>
   </outline>
 </glyph>

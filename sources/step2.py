@@ -50,7 +50,7 @@ font = fontforge.open(sys.argv[1])
 
 font.selection.select("dot")
 font.round(0.1)
-font["dot"].transform((0.88, 0.0, 0.0, 0.88, 10.0, 10.0))
+font["dot"].transform((0.88, 0.0, 0.0, 0.88, 6.0, 6.0))
 font["dot"].unlinkThisGlyph()
 font["dot"].clear()
 font.fontname = "LibreDotMatrixScreen"
