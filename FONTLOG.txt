@@ -22,7 +22,7 @@ Further documentation can be found at: https://github.com/FriedOrange/LibreDotMa
 Changelog
 ---------
 
-**3 August 2022 - Version 2.12**
+**3 August 2022 - Version 0.212**
 - Fixed accent placement on Ű and ű
 - Increased line height
 - Fixed underline position

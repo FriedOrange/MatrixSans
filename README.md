@@ -91,7 +91,7 @@ To easily add or modify glyphs (requires [FontForge](https://fontforge.org/)):
 
 The fonts are currently in early development; significant changes may still occur before the release of Version 1.0.
 
-**3 August 2022 - Version 2.12**
+**3 August 2022 - Version 0.212**
 - Fixed accent placement on Ű and ű
 - Increased line height
 - Fixed underline position
