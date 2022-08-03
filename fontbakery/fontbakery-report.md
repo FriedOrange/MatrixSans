@@ -98,11 +98,11 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- uni030C.alt
+	- periodcentered.loclCAT
 
-	- periodcentered.loclCAT.case 
+	- uni030C.alt 
 
-	- And periodcentered.loclCAT
+	- And periodcentered.loclCAT.case
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -1052,11 +1052,11 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- uni030C.alt
+	- periodcentered.loclCAT
 
-	- periodcentered.loclCAT.case 
+	- uni030C.alt 
 
-	- And periodcentered.loclCAT
+	- And periodcentered.loclCAT.case
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -2006,11 +2006,11 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- uni030C.alt
+	- periodcentered.loclCAT
 
-	- periodcentered.loclCAT.case 
+	- uni030C.alt 
 
-	- And periodcentered.loclCAT
+	- And periodcentered.loclCAT.case
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -2949,11 +2949,11 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- uni030C.alt
+	- periodcentered.loclCAT
 
-	- periodcentered.loclCAT.case 
+	- uni030C.alt 
 
-	- And periodcentered.loclCAT
+	- And periodcentered.loclCAT.case
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
