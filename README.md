@@ -91,6 +91,14 @@ To easily add or modify glyphs (requires [FontForge](https://fontforge.org/)):
 
 The fonts are currently in early development; significant changes may still occur before the release of Version 1.0.
 
+**3 August 2022 - Version 2.12**
+- Fixed accent placement on Ű and ű
+- Increased line height
+- Fixed underline position
+- Added mark glyph class to the GDEF table to fix Font Bakery warning
+- Fixed dot positioning in Screen style
+- Increased height of dagger and double dagger
+
 **31 July 2022 - Version 0.211**
 - Changed build process to work around several bugs in FontForge
 - The Localised Forms (`locl`) OpenType feature now works correctly
