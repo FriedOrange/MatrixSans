@@ -42,6 +42,9 @@ feature ccmp {
 	sub n uni0327' by uni0326;
 	sub R uni0327' by uni0326;
 	sub r uni0327' by uni0326;
+	# for Video style:
+	sub A uni0328 by Aogonek;
+	sub u uni0328 by uogonek;
 } ccmp;
 
 feature mark {
