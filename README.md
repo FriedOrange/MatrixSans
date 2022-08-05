@@ -91,6 +91,10 @@ To easily add or modify glyphs (requires [FontForge](https://fontforge.org/)):
 
 The fonts are currently in early development; significant changes may still occur before the release of Version 1.0.
 
+**5 August 2022 - Version 0.213**
+- Changed the working title from "Libre Dot Matrix" to "Matrix Sans"
+- Improved the appearance of some characters in the Video style
+
 **3 August 2022 - Version 0.212**
 - Fixed accent placement on Ű and ű
 - Increased line height
