@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1657964544
-ModificationTime: 1659660327
+ModificationTime: 1659682170
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -64,7 +64,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 8608 16 13
+WinInfo: 288 16 13
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 629146 314573 209715 524288 1048576 0 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
@@ -10058,7 +10058,7 @@ EndChar
 
 StartChar: florin
 Encoding: 402 402 187
-Width: 700
+Width: 600
 Flags: HMW
 LayerCount: 2
 Fore
@@ -10078,11 +10078,6 @@ SplineSet
  326 598 348 576 348 550 c 0
  348 524 326 502 300 502 c 0
  274 502 252 524 252 550 c 0
-552 550 m 0
- 552 576 574 598 600 598 c 0
- 626 598 648 576 648 550 c 0
- 648 524 626 502 600 502 c 0
- 574 502 552 524 552 550 c 0
 252 450 m 0
  252 476 274 498 300 498 c 0
  326 498 348 476 348 450 c 0

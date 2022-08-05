@@ -3,7 +3,48 @@
   <advance width="600"/>
   <unicode hex="0173"/>
   <outline>
-    <component base="u"/>
-    <component base="uni0328" xOffset="400.0"/>
+    <contour>
+      <point x="550.0" y="-200.0" type="line"/>
+      <point x="350.0" y="-200.0" type="line"/>
+      <point x="350.0" y="-0.0" type="line"/>
+      <point x="250.0" y="0.0" type="line" smooth="yes"/>
+      <point x="220.0" y="0.0"/>
+      <point x="180.0" y="0.0"/>
+      <point x="150.0" y="0.0" type="curve"/>
+      <point x="150.0" y="50.0" type="line"/>
+      <point x="100.0" y="50.0" type="line"/>
+      <point x="100.0" y="100.0" type="line"/>
+      <point x="50.0" y="100.0" type="line"/>
+      <point x="50.0" y="500.0" type="line"/>
+      <point x="150.0" y="500.0" type="line"/>
+      <point x="150.0" y="150.0" type="line"/>
+      <point x="200.0" y="150.0" type="line"/>
+      <point x="200.0" y="100.0" type="line"/>
+      <point x="300.0" y="100.0" type="line"/>
+      <point x="300.0" y="150.0" type="line"/>
+      <point x="350.0" y="150.0" type="line"/>
+      <point x="350.0" y="200.0" type="line"/>
+      <point x="450.0" y="200.0" type="line"/>
+      <point x="450.0" y="500.0" type="line"/>
+      <point x="550.0" y="500.0" type="line"/>
+      <point x="550.0" y="0.0" type="line"/>
+      <point x="500.0" y="0.0" type="line"/>
+      <point x="500.0" y="-50.0" type="line"/>
+      <point x="450.0" y="-50.0" type="line"/>
+      <point x="450.0" y="-100.0" type="line"/>
+      <point x="550.0" y="-100.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="400.0" y="0.0" type="line"/>
+      <point x="400.0" y="50.0" type="line"/>
+      <point x="350.0" y="50.0" type="line"/>
+      <point x="350.0" y="0.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="450.0" y="100.0" type="line"/>
+      <point x="400.0" y="100.0" type="line"/>
+      <point x="400.0" y="50.0" type="line"/>
+      <point x="450.0" y="50.0" type="line"/>
+    </contour>
   </outline>
 </glyph>

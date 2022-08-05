@@ -23,7 +23,6 @@ unlink_list = ["Aring", "Ccedilla", "aring", "ccedilla", "aogonek", "dcaron",
 	"Eogonek", "eogonek", "uni0122", "Iogonek", "iogonek", "uni013B", "uni013C",
 	"lcaron", "Scedilla", "scedilla", "uni0162", "uni0163", "Uogonek", "uni0218",
 	"uni0219", "uni021A", "uni021B"]
-video_fix = {"four", "N", "R", "b", "d", "g", "p", "q", "z", "AE", "thorn", "Lslash", "uni2074", "radical", "Eng", "uni1E9E"}
 
 def add_names(style):
 	font.fontname = font.fontname + style
@@ -76,6 +75,10 @@ font.save("MatrixSans-Print.sfd")
 
 #######################################
 # Video style
+
+video_fix = {"four", "N", "R", "b", "d", "g", "p", "q", "z", "AE", "thorn", "Lslash", "uni2074", "radical", "Eng.loclNSM", "uni1E9E"}
+unlink_list += ["Aogonek", "uogonek"]
+
 font = fontforge.open(sys.argv[1])
 
 font.createChar(-1, "halfdot")
@@ -172,6 +175,32 @@ for glyph in font:
 					# we found a matching pattern: need to add half-dot
 					x, y, = pattern[3]
 					font[glyph].addReference("halfdot", (1, 0, 0, 1, (i + x) * DOT_SIZE + LEFT_SIDE_BEARING, (j + y - DESCENT_DOTS) * DOT_SIZE))
+
+# hack for the counters in ae, oe
+refs = []
+for refname, trans in font["ae"].references:
+	if refname == "halfdot":
+		if trans[4] == 150 or trans[4] == 200 and trans[5] == 100 or trans[4] >= 350 and trans[5] == 350:
+			continue
+	refs.append((refname, trans))
+font["ae"].references = tuple(refs)
+
+refs = []
+for refname, trans in font["oe"].references:
+	if refname == "halfdot":
+		if trans[4] >= 350 and trans[5] == 350:
+			continue
+	refs.append((refname, trans))
+font["oe"].references = tuple(refs)
+
+font["Lslash"].addReference("halfdot", (1, 0, 0, 1, 100, 300))
+font["lslash"].addReference("halfdot", (1, 0, 0, 1, 100, 300))
+font["lslash"].addReference("halfdot", (1, 0, 0, 1, 250, 350))
+font["Aogonek"].addReference("halfdot", (1, 0, 0, 1, 400, 0))
+font["Aogonek"].addReference("halfdot", (1, 0, 0, 1, 450, -50))
+font["uogonek"].addReference("halfdot", (1, 0, 0, 1, 400, 0))
+font["uogonek"].addReference("halfdot", (1, 0, 0, 1, 450, -50))
+font["uni2113"].addReference("halfdot", (1, 0, 0, 1, 250, 250))
 
 # interpolation done, now finish it off the same as Regular style
 font["dot"].unlinkThisGlyph()
