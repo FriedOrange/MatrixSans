@@ -93,11 +93,11 @@ But got:  "MatrixSans" [code: bad-entry]
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- uni030C.alt
+	- periodcentered.loclCAT.case
 
 	- periodcentered.loclCAT 
 
-	- And periodcentered.loclCAT.case
+	- And uni030C.alt
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -599,9 +599,9 @@ Use -F or --full-lists to disable shortening of long lists.
  |               | fonts/ttf/MatrixSans-Regular.ttf          |
  |:------------- | ---------------:|
  | Dehinted Size | 24.8kb |
- | Hinted Size   | 45.0kb   |
+ | Hinted Size   | 45.1kb   |
  | Increase      | 20.3kb      |
- | Change        | 81.9 %  |
+ | Change        | 81.7 %  |
  [code: size-impact]
 </div></details><details><summary>ℹ <b>INFO:</b> EPAR table present in font? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/epar">com.google.fonts/check/epar</a>)</summary><div>
 
@@ -1047,11 +1047,11 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- uni030C.alt
+	- periodcentered.loclCAT.case
 
 	- periodcentered.loclCAT 
 
-	- And periodcentered.loclCAT.case
+	- And uni030C.alt
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -1585,9 +1585,9 @@ Use -F or --full-lists to disable shortening of long lists.
  |               | fonts/ttf/MatrixSans-Screen.ttf          |
  |:------------- | ---------------:|
  | Dehinted Size | 39.0kb |
- | Hinted Size   | 72.8kb   |
+ | Hinted Size   | 72.9kb   |
  | Increase      | 33.9kb      |
- | Change        | 87.0 %  |
+ | Change        | 86.9 %  |
  [code: size-impact]
 </div></details><details><summary>ℹ <b>INFO:</b> EPAR table present in font? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/epar">com.google.fonts/check/epar</a>)</summary><div>
 
@@ -1998,11 +1998,11 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- uni030C.alt
+	- periodcentered.loclCAT.case
 
 	- periodcentered.loclCAT 
 
-	- And periodcentered.loclCAT.case
+	- And uni030C.alt
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -2949,11 +2949,11 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- uni030C.alt
+	- periodcentered.loclCAT.case
 
 	- periodcentered.loclCAT 
 
-	- And periodcentered.loclCAT.case
+	- And uni030C.alt
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -2979,7 +2979,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: lcaron	Contours detected: 1	Expected: 2
 
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- Glyph name: uogonek	Contours detected: 3	Expected: 1
 
 	- Glyph name: uni0218	Contours detected: 1	Expected: 2 
 
@@ -3486,10 +3486,10 @@ Use -F or --full-lists to disable shortening of long lists.
 
  |               | fonts/ttf/MatrixSans-Video.ttf          |
  |:------------- | ---------------:|
- | Dehinted Size | 28.3kb |
- | Hinted Size   | 67.3kb   |
- | Increase      | 39.0kb      |
- | Change        | 137.8 %  |
+ | Dehinted Size | 28.5kb |
+ | Hinted Size   | 68.4kb   |
+ | Increase      | 39.9kb      |
+ | Change        | 139.7 %  |
  [code: size-impact]
 </div></details><details><summary>ℹ <b>INFO:</b> EPAR table present in font? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/epar">com.google.fonts/check/epar</a>)</summary><div>
 
