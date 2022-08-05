@@ -4,7 +4,7 @@ FullName: Matrix Sans Video
 FamilyName: Matrix Sans Video
 Weight: Regular
 Copyright: Copyright 2022 The Matrix Sans Project Authors (https://github.com/FriedOrange/MatrixSans)
-Version: 0.213
+Version: 0.214
 ItalicAngle: 0
 UnderlinePosition: -150
 UnderlineWidth: 100
@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1657964544
-ModificationTime: 1659682170
+ModificationTime: 1659705103
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5

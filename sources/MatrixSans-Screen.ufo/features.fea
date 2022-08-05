@@ -103,6 +103,18 @@ feature locl {
 	sub i acutecomb j' by jacute;
 } locl;
 
+feature kern {
+	pos [A D Eth] T -100;
+	pos C [f Eth] -100;
+	pos J [@short @deep] -100;
+	pos [C I K L X Y Z i l] [Eth f] -100;
+	pos [I K L i l] t -100;
+	pos L [V t v] -100;
+	pos L [T Y] -200;
+	pos [F J P T f r] j -200;
+	pos [B C D O S U V Thorn b c e o p r s t v w] j -100;
+} kern;
+
 feature tnum {
 	pos one <100 0 200 0>;
 } tnum;
