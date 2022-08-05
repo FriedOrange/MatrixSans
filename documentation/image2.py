@@ -16,7 +16,7 @@ import argparse
 
 # Constants, these are the main "settings" for the image
 WIDTH, HEIGHT, MARGIN, FRAMES = 960, 960, 64, 1
-FONT_PATH = "fonts/otf/LibreDotMatrix-Regular.otf"
+FONT_PATH = "fonts/otf/MatrixSans-Regular.otf"
 FONT_LICENSE = "OFL v1.1"
 AUXILIARY_FONT = "Open Sans"
 AUXILIARY_FONT_SIZE = 22
@@ -141,13 +141,13 @@ def make_image():
 
 # Build and save the image
 if __name__ == "__main__":
-	FONT_PATH = "fonts/otf/LibreDotMatrix-Regular.otf"
+	FONT_PATH = "fonts/otf/MatrixSans-Regular.otf"
 	make_image()
-	FONT_PATH = "fonts/otf/LibreDotMatrix-Print.otf"
+	FONT_PATH = "fonts/otf/MatrixSans-Print.otf"
 	make_image()
-	FONT_PATH = "fonts/otf/LibreDotMatrix-Screen.otf"
+	FONT_PATH = "fonts/otf/MatrixSans-Screen.otf"
 	make_image()
-	FONT_PATH = "fonts/otf/LibreDotMatrix-Video.otf"
+	FONT_PATH = "fonts/otf/MatrixSans-Video.otf"
 	make_image()
 	# Save output, using the "--output" flag location
 	saveImage(args.output)

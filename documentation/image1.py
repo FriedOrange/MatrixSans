@@ -16,7 +16,7 @@ import argparse
 
 # Constants, these are the main "settings" for the image
 WIDTH, HEIGHT, MARGIN, FRAMES = 1280, 720, 32, 1
-FONT_PATH = "fonts/otf/LibreDotMatrix-Regular.otf"
+FONT_PATH = "fonts/otf/MatrixSans-Regular.otf"
 FONT_LICENSE = "OFL v1.1"
 AUXILIARY_FONT = "Helvetica"
 AUXILIARY_FONT_SIZE = 24
@@ -103,16 +103,16 @@ def draw_main_text():
     #text(BIG_TEXT, ((WIDTH / 2) - MARGIN * 4.75, (HEIGHT / 2) - MARGIN * 2.5))
     
     # text(BIG_TEXT, (BIG_TEXT_SIDE_MARGIN, BIG_TEXT_BOTTOM_MARGIN))
-    font("fonts/otf/LibreDotMatrix-Regular.otf")
+    font("fonts/otf/MatrixSans-Regular.otf")
     fill(1)
     text("Regular", (BIG_TEXT_SIDE_MARGIN, BIG_TEXT_BOTTOM_MARGIN + HEIGHT // 2), align="center")
-    font("fonts/otf/LibreDotMatrix-Print.otf")
+    font("fonts/otf/MatrixSans-Print.otf")
     fill(56/255)
     text("Print", (BIG_TEXT_SIDE_MARGIN + WIDTH // 2, BIG_TEXT_BOTTOM_MARGIN + HEIGHT // 2), align="center")
-    font("fonts/otf/LibreDotMatrix-Screen.otf")
+    font("fonts/otf/MatrixSans-Screen.otf")
     fill(0)
     text("Screen", (BIG_TEXT_SIDE_MARGIN, BIG_TEXT_BOTTOM_MARGIN), align="center")
-    font("fonts/otf/LibreDotMatrix-Video.otf")
+    font("fonts/otf/MatrixSans-Video.otf")
     fill(216/255)
     text("Video", (BIG_TEXT_SIDE_MARGIN + WIDTH // 2, BIG_TEXT_BOTTOM_MARGIN), align="center")
 

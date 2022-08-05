@@ -1,0 +1,114 @@
+languagesystem DFLT dflt;
+languagesystem latn dflt;
+languagesystem latn CAT;
+languagesystem latn TAT;
+languagesystem latn TRK;
+languagesystem latn KAZ;
+languagesystem latn AZE;
+languagesystem latn CRT;
+languagesystem latn MOL;
+languagesystem latn ROM;
+languagesystem latn NSM;
+languagesystem latn NLD;
+
+# classes for small caps substitution
+@uc = [A-Z AE Eth Oslash Thorn Lslash OE uni03A9 Delta Hbar IJ Eng uni1E9E];
+
+# classes for mark positioning
+@tall = [A-H K-Z AE Eth Oslash Thorn Lslash OE uni03A9 Delta Hbar IJ Eng uni1E9E b d f h k t germandbls eth dcroat hbar];
+@narrow = [I i l lslash i.loclTRK];
+@short = [a c e m-o r s u-x z ae oslash oe uni25CC];
+@deep = [g p q y eng];
+
+# mark classes
+markClass [gravecomb acutecomb uni0302 tildecomb uni0304 uni0306 uni0307 uni0308 uni030A uni030B uni030C uni0312] <anchor 0 600> @marks_above;
+markClass [uni0326 uni0327] <anchor 0 0> @marks_below;
+markClass [uni0328] <anchor 0 0> @ogonek;
+markClass [uni0315] <anchor 0 450> @marks_aboveright;
+
+feature ccmp {
+	sub [i j]' @marks_above by [dotlessi uni0237];
+	sub L uni030C' by uni0315;
+	sub d uni030C' by uni0315;
+	sub l uni030C' by uni0315;
+	sub t uni030C' by uni0315;
+	sub G uni0327' by uni0326;
+	sub g uni0327' by uni0312;
+	sub K uni0327' by uni0326;
+	sub k uni0327' by uni0326;
+	sub L uni0327' by uni0326;
+	sub l uni0327' by uni0326;
+	sub N uni0327' by uni0326;
+	sub n uni0327' by uni0326;
+	sub R uni0327' by uni0326;
+	sub r uni0327' by uni0326;
+} ccmp;
+
+feature mark {
+	pos base @tall <anchor 300 800> mark @marks_above;
+	pos base @narrow <anchor 200 800> mark @marks_above;
+	pos base [@short @deep] <anchor 300 600> mark @marks_above;
+	pos base dotlessi <anchor 200 600> mark @marks_above;
+	pos base uni0237 <anchor 400 600> mark @marks_above;
+	pos base [@tall @short] <anchor 300 0> mark @marks_below;
+	pos base @narrow <anchor 200 0> mark @marks_below;
+	pos base [A a E e u uni25CC] <anchor 400 0> mark @ogonek;
+	pos base U <anchor 300 0> mark @ogonek;
+	pos base @narrow <anchor 200 0> mark @ogonek;
+	pos base L <anchor 250 450> mark @marks_aboveright;
+	pos base [d uni25CC] <anchor 550 450> mark @marks_aboveright;
+	pos base l <anchor 250 450> mark @marks_aboveright;
+	pos base t <anchor 350 650> mark @marks_aboveright;
+	pos base J <anchor 400 800> mark @marks_above;
+} mark;
+
+feature locl {
+	script latn;
+	language CAT;
+	lookup locl_CAT {
+	    pos l periodcentered' <-100 0 -200 0> l;
+	    pos L periodcentered' <-300 0 -200 0> L;
+	} locl_CAT;
+	language TAT;
+	sub i by i.loclTRK;
+	language TRK;
+	sub i by i.loclTRK;
+	language KAZ;
+	sub i by i.loclTRK;
+	language AZE;
+	sub i by i.loclTRK;
+	language CRT;
+	sub i by i.loclTRK;
+	language MOL;
+	sub Scedilla by uni0218;
+	sub scedilla by uni0219;
+	sub uni0162 by uni021A;
+	sub uni0163 by uni021B;
+	language ROM;
+	sub Scedilla by uni0218;
+	sub scedilla by uni0219;
+	sub uni0162 by uni021A;
+	sub uni0163 by uni021B;
+	language NSM;
+	sub Eng by Eng.loclNSM;
+	language NLD;
+	sub I [J j] by IJ;
+	sub i j by ij;
+	sub Iacute J' by J acutecomb;
+	sub iacute j' by jacute;
+	sub I acutecomb J' by J acutecomb;
+	sub i acutecomb j' by jacute;
+} locl;
+
+feature tnum {
+	pos one <100 0 200 0>;
+} tnum;
+
+feature zero {
+	sub zero by zero.zero;
+} zero;
+
+table GDEF {
+	# the marks class should be filled in automatically, why isn't it?
+	GlyphClassDef [@tall @narrow @short @deep dotlessi uni0237],,[@marks_above @marks_aboveright @ogonek @marks_below],;
+} GDEF;
