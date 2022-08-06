@@ -103,16 +103,25 @@ feature locl {
 	sub i acutecomb j' by jacute;
 } locl;
 
+# classes for kerning
+@curveBR = [B C D O S U V W Thorn b c e o p s t v w]; # curve at bottom right
+
 feature kern {
 	pos [A D Eth] T -100;
-	pos C [f Eth] -100;
-	pos J [@short @deep] -100;
-	pos [C I K L X Y Z i l] [Eth f] -100;
-	pos [I K L i l] t -100;
+	pos [C E F I K L X Y Z t] [Eth f] -100;
+	pos D I -100;
+	pos [D J P T V Y f r] j -200;
+	pos [F T] [A @short @deep d i t] -100;
+	pos [F P T Y] J -200;
+	pos F j -300;
+	pos [E I K L i l] t -100;
+	pos J [A J @short @deep d f i t] -100;
 	pos L [V t v] -100;
 	pos L [T Y] -200;
-	pos [F J P T f r] j -200;
-	pos [B C D O S U V Thorn b c e o p r s t v w] j -100;
+	pos Y [a d e g o s] -100;
+	pos f [a c d e f g o q s] -100;
+	pos t t -100;
+	pos @curveBR j -100;
 } kern;
 
 feature tnum {
