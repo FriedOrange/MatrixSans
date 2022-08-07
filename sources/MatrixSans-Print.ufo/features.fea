@@ -108,7 +108,7 @@ feature locl {
 
 feature kern {
 	pos [A Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde uni01CD D Dcaron Dcroat Eth] [T Tcaron uni021A] -100;
-	pos [C Cacute Ccaron Ccedilla Cdotaccent E Eacute Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eogonek F I Aacute Acircumflex Idieresis Idotaccent Igrave Imacron Iogonek K uni0136 L Lacute Lcaron Lslash uni013B T Tcaron uni021A X Y Yacute Ycircumflex Ydieresis Ygrave Z Zacute Zcaron Zdotaccent t tcaron uni021B] [Eth f] -100;
+	pos [C Cacute Ccaron Ccedilla Cdotaccent E Eacute Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eogonek F I Iacute Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek K uni0136 L Lacute Lcaron Lslash uni013B T Tcaron uni021A X Y Yacute Ycircumflex Ydieresis Ygrave Z Zacute Zcaron Zdotaccent t tcaron uni021B] [Eth f] -100;
 	# pos D I -100;
 	pos [D Dcaron Dcroat Eth J P Thorn T Tcaron uni0162 uni021A V Y Yacute Ycircumflex Ydieresis Ygrave f r racute rcaron] j -200;
 	pos [F J T Tcaron uni0162 uni021A] [A Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde uni01CD @short @deep d dcaron dcroat eth i iacute ij iogonek t tcaron uni0163 uni021B] -100;
