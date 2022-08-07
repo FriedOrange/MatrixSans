@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1657964544
-ModificationTime: 1659791181
+ModificationTime: 1659857711
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -64,7 +64,6 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 1113920 16 13
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 629146 314573 209715 524288 1048576 0 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
@@ -14973,8 +14972,17 @@ SplineSet
  44 494 l 25
  44 406 l 25
  -44 406 l 25
+56 606 m 25
+ 56 694 l 25
+ 144 694 l 25
+ 144 606 l 25
+ 56 606 l 25
+156 706 m 25
+ 156 794 l 25
+ 244 794 l 25
+ 244 706 l 25
+ 156 706 l 25
 EndSplineSet
-Refer: 226 769 N 1 0 0 1 100 0 2
 EndChar
 EndChars
 EndSplineFont

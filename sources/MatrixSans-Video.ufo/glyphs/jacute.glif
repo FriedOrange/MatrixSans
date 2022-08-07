@@ -3,6 +3,20 @@
   <advance width="300"/>
   <outline>
     <contour>
+      <point x="50.0" y="600.0" type="line"/>
+      <point x="50.0" y="700.0" type="line"/>
+      <point x="100.0" y="700.0" type="line"/>
+      <point x="100.0" y="750.0" type="line"/>
+      <point x="150.0" y="750.0" type="line"/>
+      <point x="150.0" y="800.0" type="line"/>
+      <point x="250.0" y="800.0" type="line"/>
+      <point x="250.0" y="700.0" type="line"/>
+      <point x="200.0" y="700.0" type="line"/>
+      <point x="200.0" y="650.0" type="line"/>
+      <point x="150.0" y="650.0" type="line"/>
+      <point x="150.0" y="600.0" type="line"/>
+    </contour>
+    <contour>
       <point x="-50.0" y="400.0" type="line"/>
       <point x="-50.0" y="500.0" type="line"/>
       <point x="150.0" y="500.0" type="line"/>
@@ -14,6 +28,5 @@
       <point x="50.0" y="-100.0" type="line"/>
       <point x="50.0" y="400.0" type="line"/>
     </contour>
-    <component base="acutecomb" xOffset="100.0"/>
   </outline>
 </glyph>

@@ -104,23 +104,22 @@ feature locl {
 } locl;
 
 # classes for kerning
-@curveBR = [B C D O S U V W Thorn b c e o p s t v w]; # curve at bottom right
+@curveBR = [B C Cacute Ccaron Ccedilla Cdotaccent D Dcaron Dcroat Eth O Oacute Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde S Sacute Scaron Scedilla uni0218 U Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring V W Thorn b c cacute ccaron ccedilla cdotaccent e eacute ecaon ecircumflex edieresis edotaccent egrave emacron o oacute ocircumflex odieresis ograve ohungarumlaut omacron oslash otilde p s sacute scaron scedilla t tcaron thorn v w]; # curve at bottom right
 
 feature kern {
-	pos [A D Eth] T -100;
-	pos [C E F I K L X Y Z t] [Eth f] -100;
-	pos D I -100;
-	pos [D J P T V Y f r] j -200;
-	pos [F T] [A @short @deep d i t] -100;
-	pos [F P T Y] J -200;
+	pos [A Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde uni01CD D Dcaron Dcroat Eth] [T Tcaron uni021A] -100;
+	pos [C Cacute Ccaron Ccedilla Cdotaccent E Eacute Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eogonek F I Aacute Acircumflex Idieresis Idotaccent Igrave Imacron Iogonek K uni0316 L Lacute Lcaron Lslash uni013B T Tcaron uni021A X Y Yacute Ycircumflex Ydieresis Ygrave Z Zacute Zcaron Zdotaccent t tcaron uni021B] [Eth f] -100;
+	# pos D I -100;
+	pos [D Dcaron Dcroat Eth J P Thorn T Tcaron uni0162 uni021A V Y Yacute Ycircumflex Ydieresis Ygrave f r racute rcaron] j -200;
+	pos [F J T Tcaron uni0162 uni021A] [A Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde uni01CD @short @deep d dcaron dcroat eth i iacute ij iogonek t tcaron uni0163 uni021B] -100;
+	pos [F P T Tcaron uni0162 uni021A Y Yacute Ycircumflex Ydieresis Ygrave] J -200;
 	pos F j -300;
-	pos [E I K L i l] t -100;
-	pos J [A J @short @deep d f i t] -100;
-	pos L [V t v] -100;
-	pos L [T Y] -200;
-	pos Y [a d e g o s] -100;
-	pos f [a c d e f g o q s] -100;
-	pos t t -100;
+	pos [E Eacute Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eogonek I Iacute Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek K uni0136 L Lcaron Lacute Lslash i igrave iogonek l lacute] [t tcaron uni0163 uni021B] -100;
+	pos [L Lacute uni013B Lcaron Lslash] [V t tcaron uni0163 uni021B v] -100;
+	pos [L Lacute uni013B Lcaron Lslash] [T Tcaron uni0162 uni021A Y Yacute Ycircumflex Ydieresis Ygrave] -200;
+	pos [Y Yacute Ycircumflex Ydieresis Ygrave] [a aacute acircumflex adieresis ae agrave amacron aogonek aring d dcaron dcroat eth e eacute ecaron ecircumflex edieresis edotaccent egrave emacron eogonek g gdotaccent uni0123 o oacute ocircumflex odieresis oe ograve ohungarumlaut omacron oslash s sacute scaron scedilla uni0129] -100;
+	pos f [a aacute acircumflex adieresis ae agrave amacron aogonek aring c cacute ccaron ccedilla cdotaccent d dcaron dcroat eth e eacute ecaron ecircumflex edieresis edotaccent egrave emacron eogonek f g gdotaccent uni0123 o oacute ocircumflex odieresis oe ograve ohungarumlaut omacron oslash q s sacute scaron scedilla uni0129] -100;
+	pos [t tcaron uni0163 uni021B] [t tcaron uni0163 uni021B] -100;
 	pos @curveBR j -100;
 } kern;
 
