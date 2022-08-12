@@ -194,11 +194,16 @@ feature kern {
 	pos @Y j -200;
 	# pos [F J] [@short @deep d dcaron dcroat eth i iacute ij iogonek] -100;
 	pos [F J] [@short_kern @deep_kern i iacute ij iogonek] -100;
-
+	pos [F J] @e -100;
+	pos [F J] @o -100;
+	pos [F J] @curveTL -100;
 	pos [F J] @A -100;
 	pos [F J] @t -100;
 	# pos @T [@short @deep d dcaron dcroat eth i iacute ij iogonek] -100;
 	pos @T [@short_kern @deep_kern i iacute ij iogonek] -100;
+	pos @T @e -100;
+	pos @T @o -100;
+	pos @T @curveTL -100;
 	pos @T @A -100;
 	pos @T @t -100;
 	pos @T J -200;
