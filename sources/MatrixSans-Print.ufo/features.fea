@@ -44,8 +44,7 @@ feature ccmp {
 # classes for mark positioning
 # @tall = [A-H K-Z AE Eth Oslash Thorn Lslash OE uni03A9 Delta Hbar IJ Eng uni1E9E b d f h k t germandbls eth dcroat hbar];
 # @narrow = [I i l lslash i.loclTRK];
-# @short = [a c e m-o r s u-x z ae oslash oe uni25CC];
-# @deep = [g p q y eng];
+
 
 @tall = [C D G K N O R S T W Y Z k]; # not including glyphs with ogonek or apostrophe-type caron
 @short = [c m-o r s v-x z];
@@ -67,7 +66,8 @@ feature mark {
 				<anchor 300 0> mark @ogonek;
 	pos base @tall <anchor 300 800> mark @marks_above
 					<anchor 300 0> mark @marks_below;
-	pos base d <anchor 550 450> mark @marks_aboveright;
+	pos base d <anchor 300 800> mark @marks_above
+				<anchor 550 450> mark @marks_aboveright;
 	pos base l <anchor 200 800> mark @marks_above
 				<anchor 200 0> mark @marks_below
 				<anchor 250 450> mark @marks_aboveright;
@@ -145,16 +145,23 @@ feature locl {
 } locl;
 
 # classes for kerning
-@curveBR = [B C Cacute Ccaron Ccedilla Cdotaccent D Dcaron Dcroat Eth O Oacute Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde S Sacute Scaron Scedilla uni0218 U Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring V W Thorn b c cacute ccaron ccedilla cdotaccent e eacute ecaron ecircumflex edieresis edotaccent egrave emacron o oacute ocircumflex odieresis ograve ohungarumlaut omacron oslash otilde p s sacute scaron scedilla t tcaron thorn v w]; # curve at bottom right
+@curveBR = [B O Oacute Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde S Sacute Scaron Scedilla uni0218 U Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring W b otilde p thorn w]; # curve at bottom right
+@curveTL = [a aacute acircumflex adieresis ae agrave amacron aogonek aring d dcaron dcroat eth eogonek g gdotaccent uni0123 oe q uni0219]; # curve at top left
+@short_kern = [m n r u x z];
+@deep_kern = [y eng];
 @A = [A Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde uni01CD];
 @C = [C Cacute Ccaron Ccedilla Cdotaccent];
-@D = [D Dcaron Dcroat]; # Eth should be here, but that would cause overlap between classes >:(
+@D = [D Dcaron Dcroat]; # Eth should be here?
 @E = [E Eacute Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eogonek];
 @I = [I Iacute Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek];
 @K = [K uni0136];
 @L = [L Lacute uni013B Lcaron Lslash];
 @T = [T Tcaron uni0162 uni021A];
 @Y = [Y Yacute Ycircumflex Ydieresis Ygrave];
+@c = [c cacute ccaron ccedilla cdotaccent];
+@e = [e eacute ecaron ecircumflex edieresis edotaccent egrave emacron]; # not including eogonek
+@o = [o oacute ocircumflex odieresis ograve ohungarumlaut omacron oslash]; # not including otilde
+@s = [s sacute scaron scedilla]; # not including scommaaccent/uni0219
 @t = [t tcaron uni0163 uni021B];
 
 feature kern {
@@ -172,7 +179,8 @@ feature kern {
 	pos @A @T -100;
 	pos @D @T -100;
 	pos Eth @T -100;
-	pos [@C X Z Zacute Zcaron Zdotaccent] [Eth Dcroat f] -100;
+	pos @C [Eth Dcroat f] -100;
+	pos [X Z Zacute Zcaron Zdotaccent] [Eth Dcroat f] -100;
 	pos @E [Eth Dcroat f] -100;
 	pos @I [Eth Dcroat f] -100;
 	pos @K [Eth Dcroat f] -100;
@@ -184,10 +192,13 @@ feature kern {
 	pos @D j -200;
 	pos @T j -200;
 	pos @Y j -200;
-	pos [F J] [@short @deep d dcaron dcroat eth i iacute ij iogonek] -100;
+	# pos [F J] [@short @deep d dcaron dcroat eth i iacute ij iogonek] -100;
+	pos [F J] [@short_kern @deep_kern i iacute ij iogonek] -100;
+
 	pos [F J] @A -100;
 	pos [F J] @t -100;
-	pos @T [@short @deep d dcaron dcroat eth i iacute ij iogonek] -100;
+	# pos @T [@short @deep d dcaron dcroat eth i iacute ij iogonek] -100;
+	pos @T [@short_kern @deep_kern i iacute ij iogonek] -100;
 	pos @T @A -100;
 	pos @T @t -100;
 	pos @T J -200;
@@ -197,14 +208,28 @@ feature kern {
 	pos @L @t -100;
 	pos @K @t -100;
 	pos @E @t -100;
-	pos @L [V v] -100;
+	pos @L V -100;
+	pos @L v -100;
 	pos @L @T -200;
 	pos @L @Y -200;
-	pos @Y [a aacute acircumflex adieresis ae agrave amacron aogonek aring c cacute ccaron ccedilla cdotaccent d dcaron dcroat eth e eacute ecaron ecircumflex edieresis edotaccent egrave emacron eogonek g gdotaccent uni0123 o oacute ocircumflex odieresis oe ograve ohungarumlaut omacron oslash q s sacute scaron scedilla uni0219] -100;
-	pos @Y f -100;
-	pos f [a aacute acircumflex adieresis ae agrave amacron aogonek aring c cacute ccaron ccedilla cdotaccent d dcaron dcroat eth e eacute ecaron ecircumflex edieresis edotaccent egrave emacron eogonek g gdotaccent uni0123 o oacute ocircumflex odieresis oe ograve ohungarumlaut omacron oslash q s sacute scaron scedilla uni0219] -100;
+	pos @Y @curveTL -100;
+	pos @Y @c -100;
+	pos @Y @e -100;
+	pos @Y @o -100;
+	pos @Y @s -100;
+	pos f @curveTL -100;
+	pos f @c -100;
+	pos f @e -100;
+	pos f @o -100;
+	pos f @s -100;
 	pos @t @t -100;
 	pos @curveBR j -100;
+	pos @c j -100;
+	pos @e j -100;
+	pos @o j -100;
+	pos @s j -100;
+	pos @C j -100;
+	pos @t j -100;
 } kern;
 
 feature tnum {
