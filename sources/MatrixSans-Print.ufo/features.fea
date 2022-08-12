@@ -14,12 +14,6 @@ languagesystem latn NLD;
 # classes for small caps substitution
 @uc = [A-Z AE Eth Oslash Thorn Lslash OE uni03A9 Delta Hbar IJ Eng uni1E9E];
 
-# classes for mark positioning
-@tall = [A-H K-Z AE Eth Oslash Thorn Lslash OE uni03A9 Delta Hbar IJ Eng uni1E9E b d f h k t germandbls eth dcroat hbar];
-@narrow = [I i l lslash i.loclTRK];
-@short = [a c e m-o r s u-x z ae oslash oe uni25CC];
-@deep = [g p q y eng];
-
 # mark classes
 markClass [gravecomb acutecomb uni0302 tildecomb uni0304 uni0306 uni0307 uni0308 uni030A uni030B uni030C uni0312] <anchor 0 600> @marks_above;
 markClass [uni0326 uni0327] <anchor 0 0> @marks_below;
@@ -47,22 +41,69 @@ feature ccmp {
 	sub u uni0328 by uogonek;
 } ccmp;
 
+# classes for mark positioning
+# @tall = [A-H K-Z AE Eth Oslash Thorn Lslash OE uni03A9 Delta Hbar IJ Eng uni1E9E b d f h k t germandbls eth dcroat hbar];
+# @narrow = [I i l lslash i.loclTRK];
+# @short = [a c e m-o r s u-x z ae oslash oe uni25CC];
+# @deep = [g p q y eng];
+
+@tall = [C D G K N O R S T W Y Z k]; # not including glyphs with ogonek or apostrophe-type caron
+@short = [c m-o r s v-x z];
+@deep = [g p q y];
+
 feature mark {
-	pos base @tall <anchor 300 800> mark @marks_above;
-	pos base @narrow <anchor 200 800> mark @marks_above;
-	pos base [@short @deep] <anchor 300 600> mark @marks_above;
-	pos base dotlessi <anchor 200 600> mark @marks_above;
-	pos base uni0237 <anchor 400 600> mark @marks_above;
-	pos base [@tall @short] <anchor 300 0> mark @marks_below;
-	pos base @narrow <anchor 200 0> mark @marks_below;
-	pos base [A a E e u uni25CC] <anchor 400 0> mark @ogonek;
-	pos base U <anchor 300 0> mark @ogonek;
-	pos base @narrow <anchor 200 0> mark @ogonek;
-	pos base L <anchor 250 450> mark @marks_aboveright;
-	pos base [d uni25CC] <anchor 550 450> mark @marks_aboveright;
-	pos base l <anchor 250 450> mark @marks_aboveright;
-	pos base t <anchor 350 650> mark @marks_aboveright;
+	pos base [A E] <anchor 300 800> mark @marks_above
+					<anchor 300 0> mark @marks_below
+					<anchor 400 0> mark @ogonek;				
+	pos base [I i i.loclTRK] <anchor 200 800> mark @marks_above
+							<anchor 200 0> mark @marks_below
+							<anchor 200 0> mark @ogonek;
 	pos base J <anchor 400 800> mark @marks_above;
+	pos base L <anchor 300 800> mark @marks_above
+				<anchor 300 0> mark @marks_below
+				<anchor 250 450> mark @marks_aboveright;
+	pos base U <anchor 300 800> mark @marks_above
+				<anchor 300 0> mark @marks_below
+				<anchor 300 0> mark @ogonek;
+	pos base @tall <anchor 300 800> mark @marks_above
+					<anchor 300 0> mark @marks_below;
+	pos base d <anchor 550 450> mark @marks_aboveright;
+	pos base l <anchor 200 800> mark @marks_above
+				<anchor 200 0> mark @marks_below
+				<anchor 250 450> mark @marks_aboveright;
+	pos base t <anchor 300 800> mark @marks_above
+				<anchor 300 0> mark @marks_below
+				<anchor 350 650> mark @marks_aboveright;
+	pos base [a e u] <anchor 300 600> mark @marks_above
+					<anchor 300 0> mark @marks_below
+					<anchor 400 0> mark @ogonek;
+	pos base @short <anchor 300 600> mark @marks_above
+					<anchor 300 0> mark @marks_below;
+	pos base @deep <anchor 300 600> mark @marks_above;
+	pos base dotlessi <anchor 200 600> mark @marks_above
+						<anchor 200 0> mark @marks_below
+						<anchor 200 0> mark @ogonek;
+	pos base uni0237 <anchor 400 600> mark @marks_above;
+	pos base uni25CC <anchor 300 600> mark @marks_above
+					<anchor 300 0> mark @marks_below
+					<anchor 400 0> mark @ogonek
+					<anchor 550 450> mark @marks_aboveright;
+
+	# pos base @tall <anchor 300 800> mark @marks_above;
+	# pos base @narrow <anchor 200 800> mark @marks_above;
+	# pos base [@short @deep] <anchor 300 600> mark @marks_above;
+	# pos base dotlessi <anchor 200 600> mark @marks_above;
+	# pos base uni0237 <anchor 400 600> mark @marks_above;
+	# pos base [@tall @short] <anchor 300 0> mark @marks_below;
+	# pos base @narrow <anchor 200 0> mark @marks_below;
+	# pos base [A a E e u uni25CC] <anchor 400 0> mark @ogonek;
+	# pos base U <anchor 300 0> mark @ogonek;
+	# pos base @narrow <anchor 200 0> mark @ogonek;
+	# pos base L <anchor 250 450> mark @marks_aboveright;
+	# pos base [d uni25CC] <anchor 550 450> mark @marks_aboveright;
+	# pos base l <anchor 250 450> mark @marks_aboveright;
+	# pos base t <anchor 350 650> mark @marks_aboveright;
+	# pos base J <anchor 400 800> mark @marks_above;
 } mark;
 
 feature locl {
@@ -176,5 +217,5 @@ feature zero {
 
 table GDEF {
 	# the marks class should be filled in automatically, why isn't it?
-	GlyphClassDef [@tall @narrow @short @deep dotlessi uni0237],,[@marks_above @marks_aboveright @ogonek @marks_below],;
+	GlyphClassDef [@tall @short @deep dotlessi uni0237],,[@marks_above @marks_aboveright @ogonek @marks_below],;
 } GDEF;
