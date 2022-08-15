@@ -22,6 +22,9 @@ Further documentation can be found at: https://github.com/FriedOrange/LibreDotMa
 Changelog
 ---------
 
+**15 August 2022 - Version 0.214**
+- Added kerning
+
 **5 August 2022 - Version 0.213**
 - Changed the working title from "Libre Dot Matrix" to "Matrix Sans"
 - Improved the appearance of some characters in the Video style
