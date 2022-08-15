@@ -207,6 +207,7 @@ feature kern {
 	pos @Y j -200;
 	pos @Y @strokeLM -100;
 	pos @Y @curveTL -100;
+	pos @Y @short_curveTL -100;
 	pos f @short_curveTL -100;
 	pos f @curveTL -100;
 	pos f @strokeLM -100;
