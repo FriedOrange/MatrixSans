@@ -144,97 +144,83 @@ feature locl {
 	sub i acutecomb j' by jacute;
 } locl;
 
-# classes for kerning
-@curveBR = [B O Oacute Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde S Sacute Scaron Scedilla uni0218 U Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring W b otilde p thorn w]; # curve at bottom right
-@curveTL = [a aacute acircumflex adieresis ae agrave amacron aogonek aring d dcaron dcroat eth eogonek g gdotaccent uni0123 oe q uni0219]; # curve at top left
-@short_kern = [m n r u x z];
-@deep_kern = [y eng];
+# Classes for kerning
+# Left side classes
 @A = [A Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde uni01CD];
 @C = [C Cacute Ccaron Ccedilla Cdotaccent];
-@D = [D Dcaron Dcroat]; # Eth should be here?
-@E = [E Eacute Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eogonek];
-@I = [I Iacute Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek];
-@K = [K uni0136];
-@L = [L Lacute uni013B Lcaron Lslash];
+@D = [D Eth Dcaron Dcroat];
+@L = [L Lacute uni013B];
+@curveBR = [B O Oacute Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde S Sacute Scaron Scedilla uni0218 U Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring W b c ccedilla cacute ccaron cdotaccent e eacute ecaron ecircumflex edieresis edotaccent egrave emacron eth o oacute ograve ocircumflex odieresis omacron otilde p s sacute scaron scedilla uni0219 thorn w wcircumflex]; # curve at bottom right
+@gapLM = [E Eacute Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eogonek I Iacute Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek K uni0136]; # gap at left middle
+
+# Right side classes
+@A2 = [A Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde uni01CD AE];
+@strokeLM = [Eth Dcroat f]; # stroke at left middle
+@short_curveTL = [a aogonek ae c ccedilla d dcaron e eogonek g o oslash oe q s scedilla uni0219]; # curve at top left
+@short_square = [dotlessi m n uni0146 eng p r uni0157 u uogonek v w x y z];
+@curveTL = [aacute acircumflex adieresis agrave amacron aring cacute ccaron cdotaccent eacute ecaron ecircumflex edieresis edotaccent egrave emacron dcroat eth gdotaccent uni0123 oacute ograve ocircumflex odieresis omacron sacute scaron]; # curve at top left, narrow diacritics
+@curveTL2 = [i iacute ij iogonek]; # "curve" at top left
+
+# Left and right side classes
 @T = [T Tcaron uni0162 uni021A];
 @Y = [Y Yacute Ycircumflex Ydieresis Ygrave];
-@c = [c cacute ccaron ccedilla cdotaccent];
-@e = [e eacute ecaron ecircumflex edieresis edotaccent egrave emacron]; # not including eogonek
-@o = [o oacute ocircumflex odieresis ograve ohungarumlaut omacron oslash]; # not including otilde
-@s = [s sacute scaron scedilla]; # not including scommaaccent/uni0219
-@t = [t tcaron uni0163 uni021B];
+@t = [ t tcaron uni0163 uni021B];
 
 feature kern {
-	# pos D I -100;
-	pos F j -300;
-	pos F f -100;
 	pos F J -200;
-	pos P J -200;
+	pos F j -300;
+	pos J J -100;
 	pos J j -200;
+	pos L V -100;
+	pos L v -100;
+	pos L t -100;
+	pos P J -200;
+	pos P a -100;
 	pos V j -200;
-	pos f j -200;
 	pos v j -200;
-	pos f f -100;
-	pos Eth j -200;
+	pos f j -200;
 	pos @A @T -100;
 	pos @D @T -100;
-	pos Eth @T -100;
-	pos @C [Eth Dcroat f] -100;
-	pos [X Z Zacute Zcaron Zdotaccent] [Eth Dcroat f] -100;
-	pos @E [Eth Dcroat f] -100;
-	pos @I [Eth Dcroat f] -100;
-	pos @K [Eth Dcroat f] -100;
-	pos @L [Eth Dcroat f] -100;
-	pos @T [Eth Dcroat f] -100;
-	pos @Y [Eth Dcroat f] -100;
-	pos @t [Eth Dcroat f] -100;
-	pos [P Thorn r racute rcaron] j -200;
 	pos @D j -200;
-	pos @T j -200;
-	pos @Y j -200;
-	# pos [F J] [@short @deep d dcaron dcroat eth i iacute ij iogonek] -100;
-	pos [F J] [@short_kern @deep_kern i iacute ij iogonek] -100;
-	pos [F J] @e -100;
-	pos [F J] @o -100;
+	pos [F J] @A2 -100;
+	pos [F J] @short_curveTL -100;
+	pos [F J] @short_square -100;
 	pos [F J] @curveTL -100;
-	pos [F J] @A -100;
+	pos [F J] @curveTL2 -100;
+	pos [F J] @strokeLM -100;
+	pos [F J] Lslash -100;
 	pos [F J] @t -100;
-	# pos @T [@short @deep d dcaron dcroat eth i iacute ij iogonek] -100;
-	pos @T [@short_kern @deep_kern i iacute ij iogonek] -100;
-	pos @T @e -100;
-	pos @T @o -100;
-	pos @T @curveTL -100;
-	pos @T @A -100;
-	pos @T @t -100;
-	pos @T J -200;
-	pos @Y J -200;
-	pos [i igrave iogonek l lacute] @t -100;
-	pos @I @t -100;
-	pos @L @t -100;
-	pos @K @t -100;
-	pos @E @t -100;
-	pos @L V -100;
-	pos @L v -100;
 	pos @L @T -200;
 	pos @L @Y -200;
+	pos @L V -100;
+	pos @L @strokeLM -100;
+	pos [P Thorn r racute rcaron] j -200;
+	pos @T @A2 -100;
+	pos @T J -200;
+	pos @T j -200;
+	pos @T @strokeLM -100;
+	pos @T @short_curveTL -200;
+	pos @T @short_square -200;
+	pos @T @curveTL -100;
+	pos @T @t -100;
+	pos @Y J -200;
+	pos @Y j -200;
+	pos @Y @strokeLM -100;
 	pos @Y @curveTL -100;
-	pos @Y @c -100;
-	pos @Y @e -100;
-	pos @Y @o -100;
-	pos @Y @s -100;
+	pos f @short_curveTL -100;
 	pos f @curveTL -100;
-	pos f @c -100;
-	pos f @e -100;
-	pos f @o -100;
-	pos f @s -100;
+	pos f @strokeLM -100;
+	pos [i igrave iogonek l lacute] @t -100;
+	pos [i igrave iogonek l lacute] @strokeLM -100;
 	pos @t @t -100;
+	pos @t j 100;
+	pos @t @strokeLM -100;
 	pos @curveBR j -100;
-	pos @c j -100;
-	pos @e j -100;
-	pos @o j -100;
-	pos @s j -100;
 	pos @C j -100;
-	pos @t j -100;
+	pos @C @strokeLM -100;
+	pos @gapLM @strokeLM -100;
+	pos @gapLM @t -100;
+	pos [X Z Zacute Zcaron Zdotaccent] [Eth Dcroat f] -100;
 } kern;
 
 feature tnum {
