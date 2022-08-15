@@ -93,11 +93,11 @@ But got:  "MatrixSans" [code: bad-entry]
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- periodcentered.loclCAT.case
+	- uni030C.alt
 
 	- periodcentered.loclCAT 
 
-	- And uni030C.alt
+	- And periodcentered.loclCAT.case
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -594,10 +594,10 @@ Use -F or --full-lists to disable shortening of long lists.
 
  |               | fonts/ttf/MatrixSans-Regular.ttf          |
  |:------------- | ---------------:|
- | Dehinted Size | 26.4kb |
- | Hinted Size   | 46.7kb   |
+ | Dehinted Size | 26.0kb |
+ | Hinted Size   | 46.2kb   |
  | Increase      | 20.2kb      |
- | Change        | 76.5 %  |
+ | Change        | 77.8 %  |
  [code: size-impact]
 </div></details><details><summary>ℹ <b>INFO:</b> EPAR table present in font? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/epar">com.google.fonts/check/epar</a>)</summary><div>
 
@@ -1047,11 +1047,11 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- periodcentered.loclCAT.case
+	- uni030C.alt
 
 	- periodcentered.loclCAT 
 
-	- And uni030C.alt
+	- And periodcentered.loclCAT.case
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -1580,10 +1580,10 @@ Use -F or --full-lists to disable shortening of long lists.
 
  |               | fonts/ttf/MatrixSans-Screen.ttf          |
  |:------------- | ---------------:|
- | Dehinted Size | 40.5kb |
- | Hinted Size   | 74.1kb   |
+ | Dehinted Size | 40.0kb |
+ | Hinted Size   | 73.7kb   |
  | Increase      | 33.6kb      |
- | Change        | 83.1 %  |
+ | Change        | 84.0 %  |
  [code: size-impact]
 </div></details><details><summary>ℹ <b>INFO:</b> EPAR table present in font? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/epar">com.google.fonts/check/epar</a>)</summary><div>
 
@@ -1998,11 +1998,11 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- periodcentered.loclCAT.case
+	- uni030C.alt
 
 	- periodcentered.loclCAT 
 
-	- And uni030C.alt
+	- And periodcentered.loclCAT.case
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -2531,10 +2531,10 @@ Use -F or --full-lists to disable shortening of long lists.
 
  |               | fonts/ttf/MatrixSans-Print.ttf          |
  |:------------- | ---------------:|
- | Dehinted Size | 83.9kb |
- | Hinted Size   | 109.1kb   |
+ | Dehinted Size | 83.5kb |
+ | Hinted Size   | 108.7kb   |
  | Increase      | 25.2kb      |
- | Change        | 30.0 %  |
+ | Change        | 30.1 %  |
  [code: size-impact]
 </div></details><details><summary>ℹ <b>INFO:</b> EPAR table present in font? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/epar">com.google.fonts/check/epar</a>)</summary><div>
 
@@ -2949,11 +2949,11 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- periodcentered.loclCAT.case
+	- uni030C.alt
 
 	- periodcentered.loclCAT 
 
-	- And uni030C.alt
+	- And periodcentered.loclCAT.case
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -3482,10 +3482,10 @@ Use -F or --full-lists to disable shortening of long lists.
 
  |               | fonts/ttf/MatrixSans-Video.ttf          |
  |:------------- | ---------------:|
- | Dehinted Size | 30.1kb |
- | Hinted Size   | 69.8kb   |
+ | Dehinted Size | 29.7kb |
+ | Hinted Size   | 69.4kb   |
  | Increase      | 39.7kb      |
- | Change        | 131.8 %  |
+ | Change        | 133.8 %  |
  [code: size-impact]
 </div></details><details><summary>ℹ <b>INFO:</b> EPAR table present in font? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/epar">com.google.fonts/check/epar</a>)</summary><div>
 
