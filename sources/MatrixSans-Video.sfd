@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1657964544
-ModificationTime: 1668928257
+ModificationTime: 1668928479
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -694,7 +694,9 @@ SplineSet
  150 500 l 1
  50 500 l 1
  50 600 l 1
- 150 600 l 1
+ 100 600 l 1
+ 100 650 l 1
+ 150 650 l 1
  150 700 l 1
  250 700 l 1
  250 100 l 1
@@ -4664,10 +4666,14 @@ SplineSet
  250 -200 l 1
  250 300 l 1
  150 300 l 1
- 150 400 l 1
+ 150 350 l 1
+ 100 350 l 1
+ 100 400 l 1
  50 400 l 1
  50 600 l 1
- 150 600 l 1
+ 100 600 l 1
+ 100 650 l 1
+ 150 650 l 1
  150 700 l 1
  550 700 l 1
  550 -200 l 1

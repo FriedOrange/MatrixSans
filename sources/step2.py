@@ -201,6 +201,9 @@ font["Aogonek"].addReference("halfdot", (1, 0, 0, 1, 450, -50))
 font["uogonek"].addReference("halfdot", (1, 0, 0, 1, 400, 0))
 font["uogonek"].addReference("halfdot", (1, 0, 0, 1, 450, -50))
 font["uni2113"].addReference("halfdot", (1, 0, 0, 1, 250, 250))
+font["paragraph"].addReference("halfdot", (1, 0, 0, 1, 100, 350))
+font["paragraph"].addReference("halfdot", (1, 0, 0, 1, 100, 600))
+font["one"].addReference("halfdot", (1, 0, 0, 1, 100, 600))
 
 # interpolation done, now finish it off the same as Regular style
 font["dot"].unlinkThisGlyph()
