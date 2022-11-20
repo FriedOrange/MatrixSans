@@ -159,7 +159,7 @@ feature kern {
 	pos V j -200;
 	pos v j -200;
 	pos f j -200;
-	pos iacute jacure -200;
+	pos iacute jacute -200;
 	pos @A @T -100;
 	pos @D @T -100;
 	pos @D j -200;

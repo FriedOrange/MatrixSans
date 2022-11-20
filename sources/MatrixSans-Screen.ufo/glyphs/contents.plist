@@ -368,6 +368,8 @@
     <string>exclamdown.glif</string>
     <key>f</key>
     <string>f.glif</string>
+    <key>figuredash</key>
+    <string>figuredash.glif</string>
     <key>five</key>
     <string>five.glif</string>
     <key>florin</key>
@@ -714,6 +716,38 @@
     <string>uni03A_9.glif</string>
     <key>uni1E9E</key>
     <string>uni1E_9E_.glif</string>
+    <key>uni2000</key>
+    <string>uni2000.glif</string>
+    <key>uni2001</key>
+    <string>uni2001.glif</string>
+    <key>uni2002</key>
+    <string>uni2002.glif</string>
+    <key>uni2003</key>
+    <string>uni2003.glif</string>
+    <key>uni2004</key>
+    <string>uni2004.glif</string>
+    <key>uni2005</key>
+    <string>uni2005.glif</string>
+    <key>uni2006</key>
+    <string>uni2006.glif</string>
+    <key>uni2007</key>
+    <string>uni2007.glif</string>
+    <key>uni2008</key>
+    <string>uni2008.glif</string>
+    <key>uni2009</key>
+    <string>uni2009.glif</string>
+    <key>uni200A</key>
+    <string>uni200A_.glif</string>
+    <key>uni200B</key>
+    <string>uni200B_.glif</string>
+    <key>uni200C</key>
+    <string>uni200C_.glif</string>
+    <key>uni200D</key>
+    <string>uni200D_.glif</string>
+    <key>uni2010</key>
+    <string>uni2010.glif</string>
+    <key>uni2011</key>
+    <string>uni2011.glif</string>
     <key>uni2074</key>
     <string>uni2074.glif</string>
     <key>uni20BA</key>

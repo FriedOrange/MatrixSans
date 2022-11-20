@@ -30,6 +30,8 @@
     <string>This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL</string>
     <key>openTypeNameLicenseURL</key>
     <string>https://scripts.sil.org/OFL</string>
+    <key>openTypeNamePreferredFamilyName</key>
+    <string>Matrix Sans</string>
     <key>openTypeOS2FamilyClass</key>
     <array>
       <integer>8</integer>
@@ -111,7 +113,7 @@
     <key>versionMajor</key>
     <integer>0</integer>
     <key>versionMinor</key>
-    <integer>214</integer>
+    <integer>215</integer>
     <key>xHeight</key>
     <integer>500</integer>
   </dict>

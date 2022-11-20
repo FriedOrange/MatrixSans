@@ -42,10 +42,6 @@ feature ccmp {
 } ccmp;
 
 # classes for mark positioning
-# @tall = [A-H K-Z AE Eth Oslash Thorn Lslash OE uni03A9 Delta Hbar IJ Eng uni1E9E b d f h k t germandbls eth dcroat hbar];
-# @narrow = [I i l lslash i.loclTRK];
-
-
 @tall = [C D G K N O R S T W Y Z k]; # not including glyphs with ogonek or apostrophe-type caron
 @short = [c m-o r s v-x z];
 @deep = [g p q y];
@@ -88,22 +84,6 @@ feature mark {
 					<anchor 300 0> mark @marks_below
 					<anchor 400 0> mark @ogonek
 					<anchor 550 450> mark @marks_aboveright;
-
-	# pos base @tall <anchor 300 800> mark @marks_above;
-	# pos base @narrow <anchor 200 800> mark @marks_above;
-	# pos base [@short @deep] <anchor 300 600> mark @marks_above;
-	# pos base dotlessi <anchor 200 600> mark @marks_above;
-	# pos base uni0237 <anchor 400 600> mark @marks_above;
-	# pos base [@tall @short] <anchor 300 0> mark @marks_below;
-	# pos base @narrow <anchor 200 0> mark @marks_below;
-	# pos base [A a E e u uni25CC] <anchor 400 0> mark @ogonek;
-	# pos base U <anchor 300 0> mark @ogonek;
-	# pos base @narrow <anchor 200 0> mark @ogonek;
-	# pos base L <anchor 250 450> mark @marks_aboveright;
-	# pos base [d uni25CC] <anchor 550 450> mark @marks_aboveright;
-	# pos base l <anchor 250 450> mark @marks_aboveright;
-	# pos base t <anchor 350 650> mark @marks_aboveright;
-	# pos base J <anchor 400 800> mark @marks_above;
 } mark;
 
 feature locl {
@@ -159,7 +139,7 @@ feature locl {
 @short_curveTL = [a aogonek ae c ccedilla d dcaron e eogonek g o oslash oe q s scedilla uni0219]; # curve at top left
 @short_square = [dotlessi m n uni0146 eng p r uni0157 u uogonek v w x y z];
 @curveTL = [aacute acircumflex adieresis agrave amacron aring cacute ccaron cdotaccent eacute ecaron ecircumflex edieresis edotaccent egrave emacron dcroat eth gdotaccent uni0123 oacute ograve ocircumflex odieresis omacron sacute scaron]; # curve at top left, narrow diacritics
-@i = [i iacute ij iogonek]; # "curve" at top left
+@i = [i iacute ij iogonek];
 
 # Left and right side classes
 @T = [T Tcaron uni0162 uni021A];
@@ -179,6 +159,7 @@ feature kern {
 	pos V j -200;
 	pos v j -200;
 	pos f j -200;
+	pos iacute jacute -200;
 	pos @A @T -100;
 	pos @D @T -100;
 	pos @D j -200;

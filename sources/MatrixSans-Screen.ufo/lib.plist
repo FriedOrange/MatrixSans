@@ -341,6 +341,23 @@
       <string>uni1E9E</string>
       <string>Ygrave</string>
       <string>ygrave</string>
+      <string>uni2000</string>
+      <string>uni2001</string>
+      <string>uni2002</string>
+      <string>uni2003</string>
+      <string>uni2004</string>
+      <string>uni2005</string>
+      <string>uni2006</string>
+      <string>uni2007</string>
+      <string>uni2008</string>
+      <string>uni2009</string>
+      <string>uni200A</string>
+      <string>uni200B</string>
+      <string>uni200C</string>
+      <string>uni200D</string>
+      <string>uni2010</string>
+      <string>uni2011</string>
+      <string>figuredash</string>
       <string>endash</string>
       <string>emdash</string>
       <string>quoteleft</string>
@@ -757,6 +774,8 @@
       <string>base</string>
       <key>f</key>
       <string>base</string>
+      <key>figuredash</key>
+      <string>base</string>
       <key>five</key>
       <string>base</string>
       <key>florin</key>
@@ -1102,6 +1121,38 @@
       <key>uni03A9</key>
       <string>base</string>
       <key>uni1E9E</key>
+      <string>base</string>
+      <key>uni2000</key>
+      <string>base</string>
+      <key>uni2001</key>
+      <string>base</string>
+      <key>uni2002</key>
+      <string>base</string>
+      <key>uni2003</key>
+      <string>base</string>
+      <key>uni2004</key>
+      <string>base</string>
+      <key>uni2005</key>
+      <string>base</string>
+      <key>uni2006</key>
+      <string>base</string>
+      <key>uni2007</key>
+      <string>base</string>
+      <key>uni2008</key>
+      <string>base</string>
+      <key>uni2009</key>
+      <string>base</string>
+      <key>uni200A</key>
+      <string>base</string>
+      <key>uni200B</key>
+      <string>base</string>
+      <key>uni200C</key>
+      <string>base</string>
+      <key>uni200D</key>
+      <string>base</string>
+      <key>uni2010</key>
+      <string>base</string>
+      <key>uni2011</key>
       <string>base</string>
       <key>uni2074</key>
       <string>base</string>
