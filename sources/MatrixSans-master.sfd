@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1657964544
-ModificationTime: 1668928703
+ModificationTime: 1668928943
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -64,12 +64,12 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 16 13
+WinInfo: 8160 16 13
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 629146 314573 209715 524288 1048576 0 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "marks_above"""  "marks_below"""  "ogonek"""  "marks_aboveright""" 
-BeginChars: 1114121 401
+BeginChars: 1114121 404
 
 StartChar: dot
 Encoding: 1114112 -1 0
@@ -6030,6 +6030,27 @@ Flags: HW
 LayerCount: 2
 Fore
 Refer: 245 8211 S 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni200B
+Encoding: 8203 8203 401
+Width: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni200C
+Encoding: 8204 8204 402
+Width: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni200D
+Encoding: 8205 8205 403
+Width: 0
+Flags: HW
+LayerCount: 2
 EndChar
 EndChars
 EndSplineFont
