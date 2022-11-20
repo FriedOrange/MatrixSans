@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1657964544
-ModificationTime: 1668928479
+ModificationTime: 1668930898
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -64,12 +64,12 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 1113920 16 13
+WinInfo: 48 16 13
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 629146 314573 209715 524288 1048576 0 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "marks_above"""  "marks_below"""  "ogonek"""  "marks_aboveright""" 
-BeginChars: 1114121 397
+BeginChars: 1114121 403
 
 StartChar: space
 Encoding: 32 32 0
@@ -3341,38 +3341,60 @@ EndChar
 
 StartChar: copyright
 Encoding: 169 169 104
-Width: 700
+Width: 900
 Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
-550 0 m 1
+650 -100 m 1
+ 250 -100 l 1
+ 250 -0 l 1
  150 0 l 1
  150 100 l 1
  50 100 l 1
- 50 600 l 1
+ 50 500 l 1
+ 150 500 l 1
  150 600 l 1
- 150 700 l 1
- 550 700 l 1
- 550 600 l 1
+ 250 600 l 1
+ 250 700 l 1
+ 650 700 l 1
  650 600 l 1
+ 750 600 l 1
+ 750 500 l 1
+ 850 500 l 1
+ 850 100 l 1
+ 750 100 l 1
+ 750 0 l 1
+ 650 0 l 1
+ 650 -100 l 1
+550 0 m 1
+ 650 0 l 1
  650 100 l 1
- 550 100 l 1
- 550 0 l 1
-150 100 m 1
- 550 100 l 1
- 550 600 l 1
- 150 600 l 1
- 150 100 l 1
-450 200 m 1
- 250 200 l 1
+ 750 100 l 1
+ 750 500 l 1
+ 650 500 l 1
+ 650 600 l 1
+ 250 600 l 1
  250 500 l 1
- 450 500 l 1
- 450 400 l 1
+ 150 500 l 1
+ 150 100 l 1
+ 250 100 l 1
+ 250 0 l 1
+ 350 0 l 1
+ 550 0 l 1
+550 100 m 1
+ 350 100 l 1
+ 350 200 l 1
+ 250 200 l 1
+ 250 400 l 1
  350 400 l 1
- 350 300 l 1
- 450 300 l 1
- 450 200 l 1
+ 350 500 l 1
+ 550 500 l 1
+ 550 400 l 1
+ 350 400 l 1
+ 350 200 l 1
+ 550 200 l 1
+ 550 100 l 1
 EndSplineSet
 EndChar
 
@@ -3424,36 +3446,68 @@ EndChar
 
 StartChar: registered
 Encoding: 174 174 107
-Width: 700
+Width: 900
 Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
-550 0 m 1
+650 -100 m 1
+ 250 -100 l 1
+ 250 -0 l 1
  150 0 l 1
  150 100 l 1
  50 100 l 1
- 50 600 l 1
+ 50 500 l 1
+ 150 500 l 1
  150 600 l 1
- 150 700 l 1
- 550 700 l 1
- 550 600 l 1
+ 250 600 l 1
+ 250 700 l 1
+ 650 700 l 1
  650 600 l 1
+ 750 600 l 1
+ 750 500 l 1
+ 850 500 l 1
+ 850 100 l 1
+ 750 100 l 1
+ 750 0 l 1
+ 650 0 l 1
+ 650 -100 l 1
+550 0 m 1
+ 650 0 l 1
  650 100 l 1
  550 100 l 1
- 550 0 l 1
-150 100 m 1
- 550 100 l 1
- 550 600 l 1
- 150 600 l 1
- 150 100 l 1
-250 200 m 1
- 250 500 l 1
- 450 500 l 1
- 450 400 l 1
- 350 400 l 1
+ 550 200 l 1
  350 200 l 1
- 250 200 l 1
+ 350 100 l 1
+ 250 100 l 1
+ 250 0 l 1
+ 350 0 l 1
+ 550 0 l 1
+750 100 m 1
+ 750 500 l 1
+ 650 500 l 1
+ 650 600 l 1
+ 250 600 l 1
+ 250 500 l 1
+ 550 500 l 1
+ 550 400 l 1
+ 650 400 l 1
+ 650 300 l 1
+ 550 300 l 1
+ 550 200 l 1
+ 650 200 l 1
+ 650 100 l 1
+ 750 100 l 1
+250 100 m 1
+ 250 500 l 1
+ 150 500 l 1
+ 150 100 l 1
+ 250 100 l 1
+350 300 m 1
+ 550 300 l 1
+ 550 400 l 1
+ 350 400 l 1
+ 350 300 l 1
 EndSplineSet
 EndChar
 
@@ -5868,9 +5922,11 @@ EndChar
 
 StartChar: uni00AD
 Encoding: 173 173 222
-Width: 0
+Width: 500
 Flags: HMW
 LayerCount: 2
+Fore
+Refer: 13 45 S 1 0 0 1 0 0 3
 EndChar
 
 StartChar: plusminus
@@ -6122,8 +6178,8 @@ Width: 600
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 112 180 N 1 0 0 1 300 0 2
-Refer: 112 180 N 1 0 0 1 0 0 2
+Refer: 112 180 N 1 0 0 1 300 100 2
+Refer: 112 180 N 1 0 0 1 0 100 2
 EndChar
 
 StartChar: endash
@@ -7611,7 +7667,7 @@ Flags: HMW
 AnchorPoint: "marks_above" 0 600 mark 0
 LayerCount: 2
 Fore
-Refer: 243 733 N 1 0 0 1 -300 100 2
+Refer: 243 733 N 1 0 0 1 -300 0 2
 EndChar
 
 StartChar: Ohungarumlaut
@@ -8518,6 +8574,54 @@ EndChar
 StartChar: uni200A
 Encoding: 8202 8202 396
 Width: 100
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni2011
+Encoding: 8209 8209 397
+Width: 500
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 13 45 S 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni2010
+Encoding: 8208 8208 398
+Width: 500
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 13 45 S 1 0 0 1 0 0 3
+EndChar
+
+StartChar: figuredash
+Encoding: 8210 8210 399
+Width: 600
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 244 8211 S 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni200B
+Encoding: 8203 8203 400
+Width: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni200C
+Encoding: 8204 8204 401
+Width: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni200D
+Encoding: 8205 8205 402
+Width: 0
 Flags: HW
 LayerCount: 2
 EndChar

@@ -193,6 +193,14 @@ for refname, trans in font["oe"].references:
 	refs.append((refname, trans))
 font["oe"].references = tuple(refs)
 
+refs = []
+for refname, trans in font["registered"].references:
+	if refname == "halfdot":
+		if (trans[4] == 200 or trans[4] == 250 or trans[4] == 600 or trans[4] == 650) and (trans[5] >= 50 and trans[5] <= 500):
+			continue
+	refs.append((refname, trans))
+font["registered"].references = tuple(refs)
+
 font["Lslash"].addReference("halfdot", (1, 0, 0, 1, 100, 300))
 font["lslash"].addReference("halfdot", (1, 0, 0, 1, 100, 300))
 font["lslash"].addReference("halfdot", (1, 0, 0, 1, 250, 350))
