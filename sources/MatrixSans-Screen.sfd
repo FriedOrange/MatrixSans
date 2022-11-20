@@ -4,7 +4,7 @@ FullName: Matrix Sans Screen
 FamilyName: Matrix Sans Screen
 Weight: Regular
 Copyright: Copyright 2022 The Matrix Sans Project Authors (https://github.com/FriedOrange/MatrixSans)
-Version: 0.214
+Version: 0.215
 ItalicAngle: 0
 UnderlinePosition: -150
 UnderlineWidth: 100
@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1657964544
-ModificationTime: 1660564332
+ModificationTime: 1668928256
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -64,11 +64,12 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
+WinInfo: 1113920 16 13
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 629146 314573 209715 524288 1048576 0 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "marks_above"""  "marks_below"""  "ogonek"""  "marks_aboveright""" 
-BeginChars: 1114121 386
+BeginChars: 1114121 397
 
 StartChar: space
 Encoding: 32 32 0
@@ -14922,67 +14923,144 @@ EndChar
 
 StartChar: jacute
 Encoding: 1114120 -1 385
-Width: 300
+Width: 500
 Flags: HW
 LayerCount: 2
 Fore
 SplineSet
--44 -194 m 25
- -44 -106 l 25
- 44 -106 l 25
- 44 -194 l 25
- -44 -194 l 25
--144 -194 m 25
- -144 -106 l 25
- -56 -106 l 25
- -56 -194 l 25
- -144 -194 l 25
-56 -94 m 25
- 56 -6 l 25
- 144 -6 l 25
- 144 -94 l 25
- 56 -94 l 25
-56 6 m 25
- 56 94 l 25
- 144 94 l 25
- 144 6 l 25
- 56 6 l 25
-56 106 m 25
- 56 194 l 25
- 144 194 l 25
- 144 106 l 25
- 56 106 l 25
-56 206 m 25
- 56 294 l 25
- 144 294 l 25
- 144 206 l 25
- 56 206 l 25
-56 306 m 25
- 56 394 l 25
- 144 394 l 25
- 144 306 l 25
- 56 306 l 25
-56 406 m 25
- 56 494 l 25
- 144 494 l 25
- 144 406 l 25
- 56 406 l 25
--44 406 m 25
- -44 494 l 25
- 44 494 l 25
- 44 406 l 25
- -44 406 l 25
-56 606 m 25
- 56 694 l 25
- 144 694 l 25
- 144 606 l 25
- 56 606 l 25
-156 706 m 25
- 156 794 l 25
- 244 794 l 25
- 244 706 l 25
- 156 706 l 25
+156 -194 m 25
+ 156 -106 l 25
+ 244 -106 l 25
+ 244 -194 l 25
+ 156 -194 l 25
+56 -194 m 25
+ 56 -106 l 25
+ 144 -106 l 25
+ 144 -194 l 25
+ 56 -194 l 25
+256 -94 m 25
+ 256 -6 l 25
+ 344 -6 l 25
+ 344 -94 l 25
+ 256 -94 l 25
+256 6 m 25
+ 256 94 l 25
+ 344 94 l 25
+ 344 6 l 25
+ 256 6 l 25
+256 106 m 25
+ 256 194 l 25
+ 344 194 l 25
+ 344 106 l 25
+ 256 106 l 25
+256 206 m 25
+ 256 294 l 25
+ 344 294 l 25
+ 344 206 l 25
+ 256 206 l 25
+256 306 m 25
+ 256 394 l 25
+ 344 394 l 25
+ 344 306 l 25
+ 256 306 l 25
+256 406 m 25
+ 256 494 l 25
+ 344 494 l 25
+ 344 406 l 25
+ 256 406 l 25
+156 406 m 25
+ 156 494 l 25
+ 244 494 l 25
+ 244 406 l 25
+ 156 406 l 25
+256 606 m 25
+ 256 694 l 25
+ 344 694 l 25
+ 344 606 l 25
+ 256 606 l 25
+356 706 m 25
+ 356 794 l 25
+ 444 794 l 25
+ 444 706 l 25
+ 356 706 l 25
 EndSplineSet
+EndChar
+
+StartChar: uni2000
+Encoding: 8192 8192 386
+Width: 500
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni2001
+Encoding: 8193 8193 387
+Width: 1000
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni2002
+Encoding: 8194 8194 388
+Width: 500
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni2003
+Encoding: 8195 8195 389
+Width: 1000
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni2004
+Encoding: 8196 8196 390
+Width: 333
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni2005
+Encoding: 8197 8197 391
+Width: 250
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni2006
+Encoding: 8198 8198 392
+Width: 167
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni2007
+Encoding: 8199 8199 393
+Width: 600
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni2008
+Encoding: 8200 8200 394
+Width: 200
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni2009
+Encoding: 8201 8201 395
+Width: 200
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni200A
+Encoding: 8202 8202 396
+Width: 100
+Flags: HW
+LayerCount: 2
 EndChar
 EndChars
 EndSplineFont

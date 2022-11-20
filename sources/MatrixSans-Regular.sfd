@@ -4,7 +4,7 @@ FullName: Matrix Sans
 FamilyName: Matrix Sans
 Weight: Regular
 Copyright: Copyright 2022 The Matrix Sans Project Authors (https://github.com/FriedOrange/MatrixSans)
-Version: 0.214
+Version: 0.215
 ItalicAngle: 0
 UnderlinePosition: -150
 UnderlineWidth: 100
@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1657964544
-ModificationTime: 1660564332
+ModificationTime: 1668928256
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -57,18 +57,19 @@ OS2FamilyClass: 2058
 OS2Vendor: 'PfEd'
 MarkAttachClasses: 1
 DEI: 91125
-LangName: 1033 "" "" "" "" "" "" "" "" "" "Brad Neil" "" "" "http://friedorange.xyz/" "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" "https://scripts.sil.org/OFL"
+LangName: 1033 "" "" "" "" "" "" "" "" "" "Brad Neil" "" "" "http://friedorange.xyz/" "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" "https://scripts.sil.org/OFL" "" "Matrix Sans"
 Encoding: UnicodeFull
 UnicodeInterp: none
 NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
+WinInfo: 1113920 16 13
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 629146 314573 209715 524288 1048576 0 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "marks_above"""  "marks_below"""  "ogonek"""  "marks_aboveright""" 
-BeginChars: 1114121 386
+BeginChars: 1114121 397
 
 StartChar: space
 Encoding: 32 32 0
@@ -8416,32 +8417,109 @@ EndChar
 
 StartChar: jacute
 Encoding: 1114120 -1 385
-Width: 300
+Width: 500
 Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-50 600 m 1
- 50 700 l 1
- 150 700 l 1
- 150 800 l 1
- 250 800 l 1
+250 600 m 1
  250 700 l 1
- 150 700 l 1
- 150 600 l 1
- 50 600 l 1
--50 400 m 1
- -50 500 l 1
+ 350 700 l 1
+ 350 800 l 1
+ 450 800 l 1
+ 450 700 l 1
+ 350 700 l 1
+ 350 600 l 1
+ 250 600 l 1
+150 400 m 1
  150 500 l 1
- 150 -100 l 1
- 50 -100 l 1
+ 350 500 l 1
+ 350 -100 l 1
+ 250 -100 l 1
+ 250 -200 l 1
  50 -200 l 1
- -150 -200 l 1
- -150 -100 l 1
  50 -100 l 1
- 50 400 l 1
- -50 400 l 1
+ 250 -100 l 1
+ 250 400 l 1
+ 150 400 l 1
 EndSplineSet
+EndChar
+
+StartChar: uni2000
+Encoding: 8192 8192 386
+Width: 500
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni2001
+Encoding: 8193 8193 387
+Width: 1000
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni2002
+Encoding: 8194 8194 388
+Width: 500
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni2003
+Encoding: 8195 8195 389
+Width: 1000
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni2004
+Encoding: 8196 8196 390
+Width: 333
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni2005
+Encoding: 8197 8197 391
+Width: 250
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni2006
+Encoding: 8198 8198 392
+Width: 167
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni2007
+Encoding: 8199 8199 393
+Width: 600
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni2008
+Encoding: 8200 8200 394
+Width: 200
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni2009
+Encoding: 8201 8201 395
+Width: 200
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni200A
+Encoding: 8202 8202 396
+Width: 100
+Flags: HW
+LayerCount: 2
 EndChar
 EndChars
 EndSplineFont
