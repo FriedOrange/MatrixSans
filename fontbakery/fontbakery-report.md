@@ -1,6 +1,6 @@
 ## Fontbakery report
 
-Fontbakery version: 0.8.9
+Fontbakery version: 0.8.10
 
 <details><summary><b>[15] Family checks</b></summary><div><details><summary>ℹ <b>INFO:</b> Check axis ordering on the STAT table.  (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/STAT/axis_order">com.google.fonts/check/STAT/axis_order</a>)</summary><div>
 
@@ -69,11 +69,7 @@ Fontbakery version: 0.8.9
 
 
 * 💤 **SKIP** Unfulfilled Conditions: readme_contents, readme_directory
-</div></details><br></div></details><details><summary><b>[220] MatrixSans-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Version format is correct in 'name' table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/version_format">com.google.fonts/check/name/version_format</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[212] MatrixSans-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Version format is correct in 'name' table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/version_format">com.google.fonts/check/name/version_format</a>)</summary><div>
 
 
 * 🔥 **FAIL** The NameID.VERSION_STRING (nameID=5) value must follow the pattern "Version X.Y" with X.Y greater than or equal to 1.000. Current version string is: "Version 0.215; ttfautohint (v1.8.4.7-5d5b)" [code: bad-version-strings]
@@ -135,10 +131,6 @@ Use -F or --full-lists to disable shortening of long lists.
 
 * 💤 **SKIP** Unfulfilled Conditions: description
 </div></details><details><summary>💤 <b>SKIP:</b> DESCRIPTION.en_us.html must have more than 200 bytes. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/min_length">com.google.fonts/check/description/min_length</a>)</summary><div>
-
-
-* 💤 **SKIP** Unfulfilled Conditions: description
-</div></details><details><summary>💤 <b>SKIP:</b> DESCRIPTION.en_us.html must have less than 2000 bytes. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/max_length">com.google.fonts/check/description/max_length</a>)</summary><div>
 
 
 * 💤 **SKIP** Unfulfilled Conditions: description
@@ -342,15 +334,15 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * 💤 **SKIP** Unfulfilled Conditions: is_variable_font
+</div></details><details><summary>💤 <b>SKIP:</b> Check a font's STAT table contains compulsory Axis Values. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/STAT">com.google.fonts/check/STAT</a>)</summary><div>
+
+
+* 💤 **SKIP** Unfulfilled Conditions: is_variable_font
+</div></details><details><summary>💤 <b>SKIP:</b> Check variable font instances (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fvar_instances">com.google.fonts/check/fvar_instances</a>)</summary><div>
+
+
+* 💤 **SKIP** Unfulfilled Conditions: is_variable_font
 </div></details><details><summary>💤 <b>SKIP:</b> All name entries referenced by fvar instances exist on the name table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fvar_name_entries">com.google.fonts/check/fvar_name_entries</a>)</summary><div>
-
-
-* 💤 **SKIP** Unfulfilled Conditions: is_variable_font
-</div></details><details><summary>💤 <b>SKIP:</b> A variable font must have named instances. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/varfont_has_instances">com.google.fonts/check/varfont_has_instances</a>)</summary><div>
-
-
-* 💤 **SKIP** Unfulfilled Conditions: is_variable_font
-</div></details><details><summary>💤 <b>SKIP:</b> Variable font weight coordinates must be multiples of 100. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/varfont_weight_instances">com.google.fonts/check/varfont_weight_instances</a>)</summary><div>
 
 
 * 💤 **SKIP** Unfulfilled Conditions: is_variable_font
@@ -390,14 +382,6 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * 💤 **SKIP** Unfulfilled Conditions: is_cjk_font
-</div></details><details><summary>💤 <b>SKIP:</b> Check variable font instances have correct coordinate values (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/varfont_instance_coordinates">com.google.fonts/check/varfont_instance_coordinates</a>)</summary><div>
-
-
-* 💤 **SKIP** Unfulfilled Conditions: is_variable_font
-</div></details><details><summary>💤 <b>SKIP:</b> Check variable font instances have correct names (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/varfont_instance_names">com.google.fonts/check/varfont_instance_names</a>)</summary><div>
-
-
-* 💤 **SKIP** Unfulfilled Conditions: is_variable_font
 </div></details><details><summary>💤 <b>SKIP:</b> Check variable font instances don't have duplicate names (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/varfont_duplicate_instance_names">com.google.fonts/check/varfont_duplicate_instance_names</a>)</summary><div>
 
 
@@ -410,19 +394,19 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * 💤 **SKIP** Unfulfilled Conditions: is_variable_font
-</div></details><details><summary>💤 <b>SKIP:</b> Validate METADATA.pb axes values are within gf-axisregistry bounds.  (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/gf-axisregistry_bounds">com.google.fonts/check/metadata/gf-axisregistry_bounds</a>)</summary><div>
+</div></details><details><summary>💤 <b>SKIP:</b> Validate METADATA.pb axes values are within gf_axisregistry bounds.  (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/gf_axisregistry_bounds">com.google.fonts/check/metadata/gf_axisregistry_bounds</a>)</summary><div>
 
 
 * 💤 **SKIP** Unfulfilled Conditions: is_variable_font, family_metadata
-</div></details><details><summary>💤 <b>SKIP:</b> Validate METADATA.pb axes tags are defined in gf-axisregistry.  (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/gf-axisregistry_valid_tags">com.google.fonts/check/metadata/gf-axisregistry_valid_tags</a>)</summary><div>
+</div></details><details><summary>💤 <b>SKIP:</b> Validate METADATA.pb axes tags are defined in gf_axisregistry.  (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/gf_axisregistry_valid_tags">com.google.fonts/check/metadata/gf_axisregistry_valid_tags</a>)</summary><div>
 
 
 * 💤 **SKIP** Unfulfilled Conditions: is_variable_font, family_metadata
-</div></details><details><summary>💤 <b>SKIP:</b> Validate defaults on fvar table match registered fallback names in GFAxisRegistry.  (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/gf-axisregistry/fvar_axis_defaults">com.google.fonts/check/gf-axisregistry/fvar_axis_defaults</a>)</summary><div>
+</div></details><details><summary>💤 <b>SKIP:</b> Validate defaults on fvar table match registered fallback names in GFAxisRegistry.  (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/gf_axisregistry/fvar_axis_defaults">com.google.fonts/check/gf_axisregistry/fvar_axis_defaults</a>)</summary><div>
 
 
 * 💤 **SKIP** Unfulfilled Conditions: is_variable_font
-</div></details><details><summary>💤 <b>SKIP:</b> Validate STAT particle names and values match the fallback names in GFAxisRegistry.  (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/STAT/gf-axisregistry">com.google.fonts/check/STAT/gf-axisregistry</a>)</summary><div>
+</div></details><details><summary>💤 <b>SKIP:</b> Validate STAT particle names and values match the fallback names in GFAxisRegistry.  (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/STAT/gf_axisregistry">com.google.fonts/check/STAT/gf_axisregistry</a>)</summary><div>
 
 
 * 💤 **SKIP** Unfulfilled Conditions: is_variable_font
@@ -542,7 +526,7 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * 💤 **SKIP** Unfulfilled Conditions: is_variable_font
-</div></details><details><summary>💤 <b>SKIP:</b> Validates that when an instance record is included for the default instance, its subfamilyNameID value is set to either 2 or 17, and its postScriptNameID value is set to 6. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/fvar.html#com.adobe.fonts/check/varfont/valid_default_instance_nameids">com.adobe.fonts/check/varfont/valid_default_instance_nameids</a>)</summary><div>
+</div></details><details><summary>💤 <b>SKIP:</b> Validates that when an instance record is included for the default instance, its subfamilyNameID value is set to either 2 or 17 (or something with the same value as 2), and its postScriptNameID value is set to 6 (or something with the same value as 6). (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/fvar.html#com.adobe.fonts/check/varfont/valid_default_instance_nameids">com.adobe.fonts/check/varfont/valid_default_instance_nameids</a>)</summary><div>
 
 
 * 💤 **SKIP** Unfulfilled Conditions: is_variable_font
@@ -635,11 +619,15 @@ The version string must ideally include a git commit hash and either a "dev" or 
 </div></details><details><summary>🍞 <b>PASS:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
-* 🍞 **PASS** fonts/ttf/MatrixSans-Regular.ttf is named canonically.
+* 🍞 **PASS** Font filename is correct, "MatrixSans-Regular.ttf".
 </div></details><details><summary>🍞 <b>PASS:</b> Checking OS/2 fsType does not impose restrictions. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fstype">com.google.fonts/check/fstype</a>)</summary><div>
 
 
 * 🍞 **PASS** OS/2 fsType is properly set to zero.
+</div></details><details><summary>🍞 <b>PASS:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+
+
+* 🍞 **PASS** OK
 </div></details><details><summary>🍞 <b>PASS:</b> Substitute copyright, registered and trademark symbols in name table entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/unwanted_chars">com.google.fonts/check/name/unwanted_chars</a>)</summary><div>
 
 
@@ -708,34 +696,21 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 * 🍞 **PASS** head macStyle ITALIC bit is properly set.
 * 🍞 **PASS** head macStyle BOLD bit is properly set.
+</div></details><details><summary>🍞 <b>PASS:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
+
+
+* 🍞 **PASS** Font names are good:
+
+| nameID | current | expected |
+| :--- | :--- | :--- |
+| Family Name | Matrix Sans | Matrix Sans |
+| Subfamily Name | Regular | Regular |
+| Full Name | Matrix Sans Regular | Matrix Sans Regular |
+| Poscript Name | MatrixSans-Regular | MatrixSans-Regular |
 </div></details><details><summary>🍞 <b>PASS:</b> Font has all mandatory 'name' table entries? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/mandatory_entries">com.google.fonts/check/name/mandatory_entries</a>)</summary><div>
 
 
 * 🍞 **PASS** Font contains values for all mandatory name table entries.
-</div></details><details><summary>🍞 <b>PASS:</b> Check name table: FONT_FAMILY_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/familyname">com.google.fonts/check/name/familyname</a>)</summary><div>
-
-
-* 🍞 **PASS** FONT_FAMILY_NAME entries are all good. [code: ok]
-</div></details><details><summary>🍞 <b>PASS:</b> Check name table: FONT_SUBFAMILY_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/subfamilyname">com.google.fonts/check/name/subfamilyname</a>)</summary><div>
-
-
-* 🍞 **PASS** FONT_SUBFAMILY_NAME entries are all good.
-</div></details><details><summary>🍞 <b>PASS:</b> Check name table: FULL_FONT_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/fullfontname">com.google.fonts/check/name/fullfontname</a>)</summary><div>
-
-
-* 🍞 **PASS** FULL_FONT_NAME entries are all good.
-</div></details><details><summary>🍞 <b>PASS:</b> Check name table: POSTSCRIPT_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/postscriptname">com.google.fonts/check/name/postscriptname</a>)</summary><div>
-
-
-* 🍞 **PASS** POSTCRIPT_NAME entries are all good.
-</div></details><details><summary>🍞 <b>PASS:</b> Check name table: TYPOGRAPHIC_FAMILY_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/typographicfamilyname">com.google.fonts/check/name/typographicfamilyname</a>)</summary><div>
-
-
-* 🍞 **PASS** TYPOGRAPHIC_FAMILY_NAME entries are all good.
-</div></details><details><summary>🍞 <b>PASS:</b> Check name table: TYPOGRAPHIC_SUBFAMILY_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/typographicsubfamilyname">com.google.fonts/check/name/typographicsubfamilyname</a>)</summary><div>
-
-
-* 🍞 **PASS** TYPOGRAPHIC_SUBFAMILY_NAME entries are all good.
 </div></details><details><summary>🍞 <b>PASS:</b> Length of copyright notice must not exceed 500 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/copyright_length">com.google.fonts/check/name/copyright_length</a>)</summary><div>
 
 
@@ -856,7 +831,7 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 
 * 🍞 **PASS** Font contains unique glyph names.
-</div></details><details><summary>🍞 <b>PASS:</b> Checking with fontTools.ttx (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/ttx-roundtrip">com.google.fonts/check/ttx-roundtrip</a>)</summary><div>
+</div></details><details><summary>🍞 <b>PASS:</b> Checking with fontTools.ttx (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/ttx_roundtrip">com.google.fonts/check/ttx_roundtrip</a>)</summary><div>
 
 
 * 🍞 **PASS** Hey! It all looks good!
@@ -876,7 +851,7 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 
 * 🍞 **PASS** Font has no GPOS7 lookups
-</div></details><details><summary>🍞 <b>PASS:</b> Ensure that the font can be rasterized by FreeType. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.adobe.fonts/check/freetype_rasterizer">com.adobe.fonts/check/freetype_rasterizer</a>)</summary><div>
+</div></details><details><summary>🍞 <b>PASS:</b> Ensure that the font can be rasterized by FreeType. (derived from com.adobe.fonts/check/freetype_rasterizer) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.adobe.fonts/check/freetype_rasterizer">com.adobe.fonts/check/freetype_rasterizer</a>)</summary><div>
 
 
 * 🍞 **PASS** Font can be rasterized by FreeType.
@@ -884,6 +859,10 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 
 * 🍞 **PASS** Font has the correct sfntVersion value.
+</div></details><details><summary>🍞 <b>PASS:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
+
+
+* 🍞 **PASS** Space and non-breaking space have the same width.
 </div></details><details><summary>🍞 <b>PASS:</b> Check all glyphs have codepoints assigned. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/cmap.html#com.google.fonts/check/all_glyphs_have_codepoints">com.google.fonts/check/all_glyphs_have_codepoints</a>)</summary><div>
 
 
@@ -948,10 +927,6 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 
 * 🍞 **PASS** ok
-</div></details><details><summary>🍞 <b>PASS:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/hmtx.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
-
-
-* 🍞 **PASS** Space and non-breaking space have the same width.
 </div></details><details><summary>🍞 <b>PASS:</b> Check glyphs in mark glyph class are non-spacing. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_spacing_marks">com.google.fonts/check/gdef_spacing_marks</a>)</summary><div>
 
 
@@ -1016,18 +991,28 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 
 * 🍞 **PASS** No semi-horizontal/semi-vertical lines found.
-</div></details><br></div></details><details><summary><b>[220] MatrixSans-Print.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[212] MatrixSans-Print.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
-* 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
-
-
-* 🔥 **FAIL** Style name used in "fonts/ttf/MatrixSans-Print.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
+* 🔥 **FAIL** Expected "MatrixSansPrint-Regular.ttf. Got MatrixSans-Print.ttf. [code: bad-filename]
 </div></details><details><summary>🔥 <b>FAIL:</b> Version format is correct in 'name' table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/version_format">com.google.fonts/check/name/version_format</a>)</summary><div>
 
 
 * 🔥 **FAIL** The NameID.VERSION_STRING (nameID=5) value must follow the pattern "Version X.Y" with X.Y greater than or equal to 1.000. Current version string is: "Version 0.215; ttfautohint (v1.8.4.7-5d5b)" [code: bad-version-strings]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
+
+
+* 🔥 **FAIL** Font names are incorrect:
+
+| nameID | current | expected |
+| :--- | :--- | :--- |
+| Family Name | Matrix Sans Print | Matrix Sans Print |
+| Subfamily Name | Regular | Regular |
+| Full Name | Matrix Sans Print | Matrix Sans Print Regular |
+| Poscript Name | MatrixSansPrint-Regular | MatrixSansPrint-Regular |
+| Typographic Family Name | Matrix Sans | N/A |
+| Typographic Subfamily Name | Print | N/A | [code: bad-names]
+* ⚠ **WARN** Regular missing from full name [code: lacks-regular]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -1086,10 +1071,6 @@ Use -F or --full-lists to disable shortening of long lists.
 
 * 💤 **SKIP** Unfulfilled Conditions: description
 </div></details><details><summary>💤 <b>SKIP:</b> DESCRIPTION.en_us.html must have more than 200 bytes. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/min_length">com.google.fonts/check/description/min_length</a>)</summary><div>
-
-
-* 💤 **SKIP** Unfulfilled Conditions: description
-</div></details><details><summary>💤 <b>SKIP:</b> DESCRIPTION.en_us.html must have less than 2000 bytes. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/max_length">com.google.fonts/check/description/max_length</a>)</summary><div>
 
 
 * 💤 **SKIP** Unfulfilled Conditions: description
@@ -1301,22 +1282,6 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * 💤 **SKIP** Unfulfilled Conditions: style
-</div></details><details><summary>💤 <b>SKIP:</b> Check name table: FONT_FAMILY_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/familyname">com.google.fonts/check/name/familyname</a>)</summary><div>
-
-
-* 💤 **SKIP** Unfulfilled Conditions: style
-</div></details><details><summary>💤 <b>SKIP:</b> Check name table: FULL_FONT_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/fullfontname">com.google.fonts/check/name/fullfontname</a>)</summary><div>
-
-
-* 💤 **SKIP** Unfulfilled Conditions: style_with_spaces
-</div></details><details><summary>💤 <b>SKIP:</b> Check name table: POSTSCRIPT_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/postscriptname">com.google.fonts/check/name/postscriptname</a>)</summary><div>
-
-
-* 💤 **SKIP** Unfulfilled Conditions: style
-</div></details><details><summary>💤 <b>SKIP:</b> Check name table: TYPOGRAPHIC_FAMILY_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/typographicfamilyname">com.google.fonts/check/name/typographicfamilyname</a>)</summary><div>
-
-
-* 💤 **SKIP** Unfulfilled Conditions: style
 </div></details><details><summary>💤 <b>SKIP:</b> Check a static ttf can be generated from a variable font. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/varfont/generate_static">com.google.fonts/check/varfont/generate_static</a>)</summary><div>
 
 
@@ -1325,15 +1290,15 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * 💤 **SKIP** Unfulfilled Conditions: is_variable_font
+</div></details><details><summary>💤 <b>SKIP:</b> Check a font's STAT table contains compulsory Axis Values. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/STAT">com.google.fonts/check/STAT</a>)</summary><div>
+
+
+* 💤 **SKIP** Unfulfilled Conditions: is_variable_font
+</div></details><details><summary>💤 <b>SKIP:</b> Check variable font instances (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fvar_instances">com.google.fonts/check/fvar_instances</a>)</summary><div>
+
+
+* 💤 **SKIP** Unfulfilled Conditions: is_variable_font
 </div></details><details><summary>💤 <b>SKIP:</b> All name entries referenced by fvar instances exist on the name table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fvar_name_entries">com.google.fonts/check/fvar_name_entries</a>)</summary><div>
-
-
-* 💤 **SKIP** Unfulfilled Conditions: is_variable_font
-</div></details><details><summary>💤 <b>SKIP:</b> A variable font must have named instances. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/varfont_has_instances">com.google.fonts/check/varfont_has_instances</a>)</summary><div>
-
-
-* 💤 **SKIP** Unfulfilled Conditions: is_variable_font
-</div></details><details><summary>💤 <b>SKIP:</b> Variable font weight coordinates must be multiples of 100. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/varfont_weight_instances">com.google.fonts/check/varfont_weight_instances</a>)</summary><div>
 
 
 * 💤 **SKIP** Unfulfilled Conditions: is_variable_font
@@ -1373,14 +1338,6 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * 💤 **SKIP** Unfulfilled Conditions: is_cjk_font
-</div></details><details><summary>💤 <b>SKIP:</b> Check variable font instances have correct coordinate values (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/varfont_instance_coordinates">com.google.fonts/check/varfont_instance_coordinates</a>)</summary><div>
-
-
-* 💤 **SKIP** Unfulfilled Conditions: is_variable_font
-</div></details><details><summary>💤 <b>SKIP:</b> Check variable font instances have correct names (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/varfont_instance_names">com.google.fonts/check/varfont_instance_names</a>)</summary><div>
-
-
-* 💤 **SKIP** Unfulfilled Conditions: is_variable_font
 </div></details><details><summary>💤 <b>SKIP:</b> Check variable font instances don't have duplicate names (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/varfont_duplicate_instance_names">com.google.fonts/check/varfont_duplicate_instance_names</a>)</summary><div>
 
 
@@ -1393,19 +1350,19 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * 💤 **SKIP** Unfulfilled Conditions: is_variable_font
-</div></details><details><summary>💤 <b>SKIP:</b> Validate METADATA.pb axes values are within gf-axisregistry bounds.  (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/gf-axisregistry_bounds">com.google.fonts/check/metadata/gf-axisregistry_bounds</a>)</summary><div>
+</div></details><details><summary>💤 <b>SKIP:</b> Validate METADATA.pb axes values are within gf_axisregistry bounds.  (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/gf_axisregistry_bounds">com.google.fonts/check/metadata/gf_axisregistry_bounds</a>)</summary><div>
 
 
 * 💤 **SKIP** Unfulfilled Conditions: is_variable_font, family_metadata
-</div></details><details><summary>💤 <b>SKIP:</b> Validate METADATA.pb axes tags are defined in gf-axisregistry.  (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/gf-axisregistry_valid_tags">com.google.fonts/check/metadata/gf-axisregistry_valid_tags</a>)</summary><div>
+</div></details><details><summary>💤 <b>SKIP:</b> Validate METADATA.pb axes tags are defined in gf_axisregistry.  (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/gf_axisregistry_valid_tags">com.google.fonts/check/metadata/gf_axisregistry_valid_tags</a>)</summary><div>
 
 
 * 💤 **SKIP** Unfulfilled Conditions: is_variable_font, family_metadata
-</div></details><details><summary>💤 <b>SKIP:</b> Validate defaults on fvar table match registered fallback names in GFAxisRegistry.  (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/gf-axisregistry/fvar_axis_defaults">com.google.fonts/check/gf-axisregistry/fvar_axis_defaults</a>)</summary><div>
+</div></details><details><summary>💤 <b>SKIP:</b> Validate defaults on fvar table match registered fallback names in GFAxisRegistry.  (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/gf_axisregistry/fvar_axis_defaults">com.google.fonts/check/gf_axisregistry/fvar_axis_defaults</a>)</summary><div>
 
 
 * 💤 **SKIP** Unfulfilled Conditions: is_variable_font
-</div></details><details><summary>💤 <b>SKIP:</b> Validate STAT particle names and values match the fallback names in GFAxisRegistry.  (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/STAT/gf-axisregistry">com.google.fonts/check/STAT/gf-axisregistry</a>)</summary><div>
+</div></details><details><summary>💤 <b>SKIP:</b> Validate STAT particle names and values match the fallback names in GFAxisRegistry.  (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/STAT/gf_axisregistry">com.google.fonts/check/STAT/gf_axisregistry</a>)</summary><div>
 
 
 * 💤 **SKIP** Unfulfilled Conditions: is_variable_font
@@ -1525,7 +1482,7 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * 💤 **SKIP** Unfulfilled Conditions: is_variable_font
-</div></details><details><summary>💤 <b>SKIP:</b> Validates that when an instance record is included for the default instance, its subfamilyNameID value is set to either 2 or 17, and its postScriptNameID value is set to 6. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/fvar.html#com.adobe.fonts/check/varfont/valid_default_instance_nameids">com.adobe.fonts/check/varfont/valid_default_instance_nameids</a>)</summary><div>
+</div></details><details><summary>💤 <b>SKIP:</b> Validates that when an instance record is included for the default instance, its subfamilyNameID value is set to either 2 or 17 (or something with the same value as 2), and its postScriptNameID value is set to 6 (or something with the same value as 6). (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/fvar.html#com.adobe.fonts/check/varfont/valid_default_instance_nameids">com.adobe.fonts/check/varfont/valid_default_instance_nameids</a>)</summary><div>
 
 
 * 💤 **SKIP** Unfulfilled Conditions: is_variable_font
@@ -1619,6 +1576,10 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 
 * 🍞 **PASS** OS/2 fsType is properly set to zero.
+</div></details><details><summary>🍞 <b>PASS:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+
+
+* 🍞 **PASS** OK
 </div></details><details><summary>🍞 <b>PASS:</b> Substitute copyright, registered and trademark symbols in name table entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/unwanted_chars">com.google.fonts/check/name/unwanted_chars</a>)</summary><div>
 
 
@@ -1672,14 +1633,6 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 
 * 🍞 **PASS** Font em size is good (unitsPerEm = 1000).
-</div></details><details><summary>🍞 <b>PASS:</b> Check name table: FONT_SUBFAMILY_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/subfamilyname">com.google.fonts/check/name/subfamilyname</a>)</summary><div>
-
-
-* 🍞 **PASS** FONT_SUBFAMILY_NAME entries are all good.
-</div></details><details><summary>🍞 <b>PASS:</b> Check name table: TYPOGRAPHIC_SUBFAMILY_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/typographicsubfamilyname">com.google.fonts/check/name/typographicsubfamilyname</a>)</summary><div>
-
-
-* 🍞 **PASS** TYPOGRAPHIC_SUBFAMILY_NAME entries are all good.
 </div></details><details><summary>🍞 <b>PASS:</b> Length of copyright notice must not exceed 500 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/copyright_length">com.google.fonts/check/name/copyright_length</a>)</summary><div>
 
 
@@ -1800,7 +1753,7 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 
 * 🍞 **PASS** Font contains unique glyph names.
-</div></details><details><summary>🍞 <b>PASS:</b> Checking with fontTools.ttx (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/ttx-roundtrip">com.google.fonts/check/ttx-roundtrip</a>)</summary><div>
+</div></details><details><summary>🍞 <b>PASS:</b> Checking with fontTools.ttx (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/ttx_roundtrip">com.google.fonts/check/ttx_roundtrip</a>)</summary><div>
 
 
 * 🍞 **PASS** Hey! It all looks good!
@@ -1820,7 +1773,7 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 
 * 🍞 **PASS** Font has no GPOS7 lookups
-</div></details><details><summary>🍞 <b>PASS:</b> Ensure that the font can be rasterized by FreeType. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.adobe.fonts/check/freetype_rasterizer">com.adobe.fonts/check/freetype_rasterizer</a>)</summary><div>
+</div></details><details><summary>🍞 <b>PASS:</b> Ensure that the font can be rasterized by FreeType. (derived from com.adobe.fonts/check/freetype_rasterizer) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.adobe.fonts/check/freetype_rasterizer">com.adobe.fonts/check/freetype_rasterizer</a>)</summary><div>
 
 
 * 🍞 **PASS** Font can be rasterized by FreeType.
@@ -1828,6 +1781,10 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 
 * 🍞 **PASS** Font has the correct sfntVersion value.
+</div></details><details><summary>🍞 <b>PASS:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
+
+
+* 🍞 **PASS** Space and non-breaking space have the same width.
 </div></details><details><summary>🍞 <b>PASS:</b> Check all glyphs have codepoints assigned. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/cmap.html#com.google.fonts/check/all_glyphs_have_codepoints">com.google.fonts/check/all_glyphs_have_codepoints</a>)</summary><div>
 
 
@@ -1892,10 +1849,6 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 
 * 🍞 **PASS** ok
-</div></details><details><summary>🍞 <b>PASS:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/hmtx.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
-
-
-* 🍞 **PASS** Space and non-breaking space have the same width.
 </div></details><details><summary>🍞 <b>PASS:</b> Check glyphs in mark glyph class are non-spacing. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_spacing_marks">com.google.fonts/check/gdef_spacing_marks</a>)</summary><div>
 
 
@@ -1960,18 +1913,28 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 
 * 🍞 **PASS** No semi-horizontal/semi-vertical lines found.
-</div></details><br></div></details><details><summary><b>[220] MatrixSans-Video.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[212] MatrixSans-Video.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
-* 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
-
-
-* 🔥 **FAIL** Style name used in "fonts/ttf/MatrixSans-Video.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
+* 🔥 **FAIL** Expected "MatrixSansVideo-Regular.ttf. Got MatrixSans-Video.ttf. [code: bad-filename]
 </div></details><details><summary>🔥 <b>FAIL:</b> Version format is correct in 'name' table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/version_format">com.google.fonts/check/name/version_format</a>)</summary><div>
 
 
 * 🔥 **FAIL** The NameID.VERSION_STRING (nameID=5) value must follow the pattern "Version X.Y" with X.Y greater than or equal to 1.000. Current version string is: "Version 0.215; ttfautohint (v1.8.4.7-5d5b)" [code: bad-version-strings]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
+
+
+* 🔥 **FAIL** Font names are incorrect:
+
+| nameID | current | expected |
+| :--- | :--- | :--- |
+| Family Name | Matrix Sans Video | Matrix Sans Video |
+| Subfamily Name | Regular | Regular |
+| Full Name | Matrix Sans Video | Matrix Sans Video Regular |
+| Poscript Name | MatrixSansVideo-Regular | MatrixSansVideo-Regular |
+| Typographic Family Name | Matrix Sans | N/A |
+| Typographic Subfamily Name | Video | N/A | [code: bad-names]
+* ⚠ **WARN** Regular missing from full name [code: lacks-regular]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -2030,10 +1993,6 @@ Use -F or --full-lists to disable shortening of long lists.
 
 * 💤 **SKIP** Unfulfilled Conditions: description
 </div></details><details><summary>💤 <b>SKIP:</b> DESCRIPTION.en_us.html must have more than 200 bytes. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/min_length">com.google.fonts/check/description/min_length</a>)</summary><div>
-
-
-* 💤 **SKIP** Unfulfilled Conditions: description
-</div></details><details><summary>💤 <b>SKIP:</b> DESCRIPTION.en_us.html must have less than 2000 bytes. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/max_length">com.google.fonts/check/description/max_length</a>)</summary><div>
 
 
 * 💤 **SKIP** Unfulfilled Conditions: description
@@ -2245,22 +2204,6 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * 💤 **SKIP** Unfulfilled Conditions: style
-</div></details><details><summary>💤 <b>SKIP:</b> Check name table: FONT_FAMILY_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/familyname">com.google.fonts/check/name/familyname</a>)</summary><div>
-
-
-* 💤 **SKIP** Unfulfilled Conditions: style
-</div></details><details><summary>💤 <b>SKIP:</b> Check name table: FULL_FONT_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/fullfontname">com.google.fonts/check/name/fullfontname</a>)</summary><div>
-
-
-* 💤 **SKIP** Unfulfilled Conditions: style_with_spaces
-</div></details><details><summary>💤 <b>SKIP:</b> Check name table: POSTSCRIPT_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/postscriptname">com.google.fonts/check/name/postscriptname</a>)</summary><div>
-
-
-* 💤 **SKIP** Unfulfilled Conditions: style
-</div></details><details><summary>💤 <b>SKIP:</b> Check name table: TYPOGRAPHIC_FAMILY_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/typographicfamilyname">com.google.fonts/check/name/typographicfamilyname</a>)</summary><div>
-
-
-* 💤 **SKIP** Unfulfilled Conditions: style
 </div></details><details><summary>💤 <b>SKIP:</b> Check a static ttf can be generated from a variable font. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/varfont/generate_static">com.google.fonts/check/varfont/generate_static</a>)</summary><div>
 
 
@@ -2269,15 +2212,15 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * 💤 **SKIP** Unfulfilled Conditions: is_variable_font
+</div></details><details><summary>💤 <b>SKIP:</b> Check a font's STAT table contains compulsory Axis Values. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/STAT">com.google.fonts/check/STAT</a>)</summary><div>
+
+
+* 💤 **SKIP** Unfulfilled Conditions: is_variable_font
+</div></details><details><summary>💤 <b>SKIP:</b> Check variable font instances (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fvar_instances">com.google.fonts/check/fvar_instances</a>)</summary><div>
+
+
+* 💤 **SKIP** Unfulfilled Conditions: is_variable_font
 </div></details><details><summary>💤 <b>SKIP:</b> All name entries referenced by fvar instances exist on the name table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fvar_name_entries">com.google.fonts/check/fvar_name_entries</a>)</summary><div>
-
-
-* 💤 **SKIP** Unfulfilled Conditions: is_variable_font
-</div></details><details><summary>💤 <b>SKIP:</b> A variable font must have named instances. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/varfont_has_instances">com.google.fonts/check/varfont_has_instances</a>)</summary><div>
-
-
-* 💤 **SKIP** Unfulfilled Conditions: is_variable_font
-</div></details><details><summary>💤 <b>SKIP:</b> Variable font weight coordinates must be multiples of 100. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/varfont_weight_instances">com.google.fonts/check/varfont_weight_instances</a>)</summary><div>
 
 
 * 💤 **SKIP** Unfulfilled Conditions: is_variable_font
@@ -2317,14 +2260,6 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * 💤 **SKIP** Unfulfilled Conditions: is_cjk_font
-</div></details><details><summary>💤 <b>SKIP:</b> Check variable font instances have correct coordinate values (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/varfont_instance_coordinates">com.google.fonts/check/varfont_instance_coordinates</a>)</summary><div>
-
-
-* 💤 **SKIP** Unfulfilled Conditions: is_variable_font
-</div></details><details><summary>💤 <b>SKIP:</b> Check variable font instances have correct names (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/varfont_instance_names">com.google.fonts/check/varfont_instance_names</a>)</summary><div>
-
-
-* 💤 **SKIP** Unfulfilled Conditions: is_variable_font
 </div></details><details><summary>💤 <b>SKIP:</b> Check variable font instances don't have duplicate names (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/varfont_duplicate_instance_names">com.google.fonts/check/varfont_duplicate_instance_names</a>)</summary><div>
 
 
@@ -2337,19 +2272,19 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * 💤 **SKIP** Unfulfilled Conditions: is_variable_font
-</div></details><details><summary>💤 <b>SKIP:</b> Validate METADATA.pb axes values are within gf-axisregistry bounds.  (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/gf-axisregistry_bounds">com.google.fonts/check/metadata/gf-axisregistry_bounds</a>)</summary><div>
+</div></details><details><summary>💤 <b>SKIP:</b> Validate METADATA.pb axes values are within gf_axisregistry bounds.  (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/gf_axisregistry_bounds">com.google.fonts/check/metadata/gf_axisregistry_bounds</a>)</summary><div>
 
 
 * 💤 **SKIP** Unfulfilled Conditions: is_variable_font, family_metadata
-</div></details><details><summary>💤 <b>SKIP:</b> Validate METADATA.pb axes tags are defined in gf-axisregistry.  (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/gf-axisregistry_valid_tags">com.google.fonts/check/metadata/gf-axisregistry_valid_tags</a>)</summary><div>
+</div></details><details><summary>💤 <b>SKIP:</b> Validate METADATA.pb axes tags are defined in gf_axisregistry.  (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/gf_axisregistry_valid_tags">com.google.fonts/check/metadata/gf_axisregistry_valid_tags</a>)</summary><div>
 
 
 * 💤 **SKIP** Unfulfilled Conditions: is_variable_font, family_metadata
-</div></details><details><summary>💤 <b>SKIP:</b> Validate defaults on fvar table match registered fallback names in GFAxisRegistry.  (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/gf-axisregistry/fvar_axis_defaults">com.google.fonts/check/gf-axisregistry/fvar_axis_defaults</a>)</summary><div>
+</div></details><details><summary>💤 <b>SKIP:</b> Validate defaults on fvar table match registered fallback names in GFAxisRegistry.  (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/gf_axisregistry/fvar_axis_defaults">com.google.fonts/check/gf_axisregistry/fvar_axis_defaults</a>)</summary><div>
 
 
 * 💤 **SKIP** Unfulfilled Conditions: is_variable_font
-</div></details><details><summary>💤 <b>SKIP:</b> Validate STAT particle names and values match the fallback names in GFAxisRegistry.  (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/STAT/gf-axisregistry">com.google.fonts/check/STAT/gf-axisregistry</a>)</summary><div>
+</div></details><details><summary>💤 <b>SKIP:</b> Validate STAT particle names and values match the fallback names in GFAxisRegistry.  (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/STAT/gf_axisregistry">com.google.fonts/check/STAT/gf_axisregistry</a>)</summary><div>
 
 
 * 💤 **SKIP** Unfulfilled Conditions: is_variable_font
@@ -2469,7 +2404,7 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * 💤 **SKIP** Unfulfilled Conditions: is_variable_font
-</div></details><details><summary>💤 <b>SKIP:</b> Validates that when an instance record is included for the default instance, its subfamilyNameID value is set to either 2 or 17, and its postScriptNameID value is set to 6. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/fvar.html#com.adobe.fonts/check/varfont/valid_default_instance_nameids">com.adobe.fonts/check/varfont/valid_default_instance_nameids</a>)</summary><div>
+</div></details><details><summary>💤 <b>SKIP:</b> Validates that when an instance record is included for the default instance, its subfamilyNameID value is set to either 2 or 17 (or something with the same value as 2), and its postScriptNameID value is set to 6 (or something with the same value as 6). (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/fvar.html#com.adobe.fonts/check/varfont/valid_default_instance_nameids">com.adobe.fonts/check/varfont/valid_default_instance_nameids</a>)</summary><div>
 
 
 * 💤 **SKIP** Unfulfilled Conditions: is_variable_font
@@ -2563,6 +2498,10 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 
 * 🍞 **PASS** OS/2 fsType is properly set to zero.
+</div></details><details><summary>🍞 <b>PASS:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+
+
+* 🍞 **PASS** OK
 </div></details><details><summary>🍞 <b>PASS:</b> Substitute copyright, registered and trademark symbols in name table entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/unwanted_chars">com.google.fonts/check/name/unwanted_chars</a>)</summary><div>
 
 
@@ -2616,14 +2555,6 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 
 * 🍞 **PASS** Font em size is good (unitsPerEm = 1000).
-</div></details><details><summary>🍞 <b>PASS:</b> Check name table: FONT_SUBFAMILY_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/subfamilyname">com.google.fonts/check/name/subfamilyname</a>)</summary><div>
-
-
-* 🍞 **PASS** FONT_SUBFAMILY_NAME entries are all good.
-</div></details><details><summary>🍞 <b>PASS:</b> Check name table: TYPOGRAPHIC_SUBFAMILY_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/typographicsubfamilyname">com.google.fonts/check/name/typographicsubfamilyname</a>)</summary><div>
-
-
-* 🍞 **PASS** TYPOGRAPHIC_SUBFAMILY_NAME entries are all good.
 </div></details><details><summary>🍞 <b>PASS:</b> Length of copyright notice must not exceed 500 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/copyright_length">com.google.fonts/check/name/copyright_length</a>)</summary><div>
 
 
@@ -2744,7 +2675,7 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 
 * 🍞 **PASS** Font contains unique glyph names.
-</div></details><details><summary>🍞 <b>PASS:</b> Checking with fontTools.ttx (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/ttx-roundtrip">com.google.fonts/check/ttx-roundtrip</a>)</summary><div>
+</div></details><details><summary>🍞 <b>PASS:</b> Checking with fontTools.ttx (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/ttx_roundtrip">com.google.fonts/check/ttx_roundtrip</a>)</summary><div>
 
 
 * 🍞 **PASS** Hey! It all looks good!
@@ -2764,7 +2695,7 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 
 * 🍞 **PASS** Font has no GPOS7 lookups
-</div></details><details><summary>🍞 <b>PASS:</b> Ensure that the font can be rasterized by FreeType. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.adobe.fonts/check/freetype_rasterizer">com.adobe.fonts/check/freetype_rasterizer</a>)</summary><div>
+</div></details><details><summary>🍞 <b>PASS:</b> Ensure that the font can be rasterized by FreeType. (derived from com.adobe.fonts/check/freetype_rasterizer) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.adobe.fonts/check/freetype_rasterizer">com.adobe.fonts/check/freetype_rasterizer</a>)</summary><div>
 
 
 * 🍞 **PASS** Font can be rasterized by FreeType.
@@ -2772,6 +2703,10 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 
 * 🍞 **PASS** Font has the correct sfntVersion value.
+</div></details><details><summary>🍞 <b>PASS:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
+
+
+* 🍞 **PASS** Space and non-breaking space have the same width.
 </div></details><details><summary>🍞 <b>PASS:</b> Check all glyphs have codepoints assigned. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/cmap.html#com.google.fonts/check/all_glyphs_have_codepoints">com.google.fonts/check/all_glyphs_have_codepoints</a>)</summary><div>
 
 
@@ -2836,10 +2771,6 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 
 * 🍞 **PASS** ok
-</div></details><details><summary>🍞 <b>PASS:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/hmtx.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
-
-
-* 🍞 **PASS** Space and non-breaking space have the same width.
 </div></details><details><summary>🍞 <b>PASS:</b> Check glyphs in mark glyph class are non-spacing. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_spacing_marks">com.google.fonts/check/gdef_spacing_marks</a>)</summary><div>
 
 
@@ -2904,18 +2835,28 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 
 * 🍞 **PASS** No semi-horizontal/semi-vertical lines found.
-</div></details><br></div></details><details><summary><b>[220] MatrixSans-Screen.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[212] MatrixSans-Screen.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
-* 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
-
-
-* 🔥 **FAIL** Style name used in "fonts/ttf/MatrixSans-Screen.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
+* 🔥 **FAIL** Expected "MatrixSansScreen-Regular.ttf. Got MatrixSans-Screen.ttf. [code: bad-filename]
 </div></details><details><summary>🔥 <b>FAIL:</b> Version format is correct in 'name' table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/version_format">com.google.fonts/check/name/version_format</a>)</summary><div>
 
 
 * 🔥 **FAIL** The NameID.VERSION_STRING (nameID=5) value must follow the pattern "Version X.Y" with X.Y greater than or equal to 1.000. Current version string is: "Version 0.215; ttfautohint (v1.8.4.7-5d5b)" [code: bad-version-strings]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
+
+
+* 🔥 **FAIL** Font names are incorrect:
+
+| nameID | current | expected |
+| :--- | :--- | :--- |
+| Family Name | Matrix Sans Screen | Matrix Sans Screen |
+| Subfamily Name | Regular | Regular |
+| Full Name | Matrix Sans Screen | Matrix Sans Screen Regular |
+| Poscript Name | MatrixSansScreen-Regular | MatrixSansScreen-Regular |
+| Typographic Family Name | Matrix Sans | N/A |
+| Typographic Subfamily Name | Screen | N/A | [code: bad-names]
+* ⚠ **WARN** Regular missing from full name [code: lacks-regular]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -2974,10 +2915,6 @@ Use -F or --full-lists to disable shortening of long lists.
 
 * 💤 **SKIP** Unfulfilled Conditions: description
 </div></details><details><summary>💤 <b>SKIP:</b> DESCRIPTION.en_us.html must have more than 200 bytes. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/min_length">com.google.fonts/check/description/min_length</a>)</summary><div>
-
-
-* 💤 **SKIP** Unfulfilled Conditions: description
-</div></details><details><summary>💤 <b>SKIP:</b> DESCRIPTION.en_us.html must have less than 2000 bytes. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/max_length">com.google.fonts/check/description/max_length</a>)</summary><div>
 
 
 * 💤 **SKIP** Unfulfilled Conditions: description
@@ -3189,22 +3126,6 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * 💤 **SKIP** Unfulfilled Conditions: style
-</div></details><details><summary>💤 <b>SKIP:</b> Check name table: FONT_FAMILY_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/familyname">com.google.fonts/check/name/familyname</a>)</summary><div>
-
-
-* 💤 **SKIP** Unfulfilled Conditions: style
-</div></details><details><summary>💤 <b>SKIP:</b> Check name table: FULL_FONT_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/fullfontname">com.google.fonts/check/name/fullfontname</a>)</summary><div>
-
-
-* 💤 **SKIP** Unfulfilled Conditions: style_with_spaces
-</div></details><details><summary>💤 <b>SKIP:</b> Check name table: POSTSCRIPT_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/postscriptname">com.google.fonts/check/name/postscriptname</a>)</summary><div>
-
-
-* 💤 **SKIP** Unfulfilled Conditions: style
-</div></details><details><summary>💤 <b>SKIP:</b> Check name table: TYPOGRAPHIC_FAMILY_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/typographicfamilyname">com.google.fonts/check/name/typographicfamilyname</a>)</summary><div>
-
-
-* 💤 **SKIP** Unfulfilled Conditions: style
 </div></details><details><summary>💤 <b>SKIP:</b> Check a static ttf can be generated from a variable font. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/varfont/generate_static">com.google.fonts/check/varfont/generate_static</a>)</summary><div>
 
 
@@ -3213,15 +3134,15 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * 💤 **SKIP** Unfulfilled Conditions: is_variable_font
+</div></details><details><summary>💤 <b>SKIP:</b> Check a font's STAT table contains compulsory Axis Values. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/STAT">com.google.fonts/check/STAT</a>)</summary><div>
+
+
+* 💤 **SKIP** Unfulfilled Conditions: is_variable_font
+</div></details><details><summary>💤 <b>SKIP:</b> Check variable font instances (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fvar_instances">com.google.fonts/check/fvar_instances</a>)</summary><div>
+
+
+* 💤 **SKIP** Unfulfilled Conditions: is_variable_font
 </div></details><details><summary>💤 <b>SKIP:</b> All name entries referenced by fvar instances exist on the name table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fvar_name_entries">com.google.fonts/check/fvar_name_entries</a>)</summary><div>
-
-
-* 💤 **SKIP** Unfulfilled Conditions: is_variable_font
-</div></details><details><summary>💤 <b>SKIP:</b> A variable font must have named instances. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/varfont_has_instances">com.google.fonts/check/varfont_has_instances</a>)</summary><div>
-
-
-* 💤 **SKIP** Unfulfilled Conditions: is_variable_font
-</div></details><details><summary>💤 <b>SKIP:</b> Variable font weight coordinates must be multiples of 100. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/varfont_weight_instances">com.google.fonts/check/varfont_weight_instances</a>)</summary><div>
 
 
 * 💤 **SKIP** Unfulfilled Conditions: is_variable_font
@@ -3261,14 +3182,6 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * 💤 **SKIP** Unfulfilled Conditions: is_cjk_font
-</div></details><details><summary>💤 <b>SKIP:</b> Check variable font instances have correct coordinate values (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/varfont_instance_coordinates">com.google.fonts/check/varfont_instance_coordinates</a>)</summary><div>
-
-
-* 💤 **SKIP** Unfulfilled Conditions: is_variable_font
-</div></details><details><summary>💤 <b>SKIP:</b> Check variable font instances have correct names (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/varfont_instance_names">com.google.fonts/check/varfont_instance_names</a>)</summary><div>
-
-
-* 💤 **SKIP** Unfulfilled Conditions: is_variable_font
 </div></details><details><summary>💤 <b>SKIP:</b> Check variable font instances don't have duplicate names (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/varfont_duplicate_instance_names">com.google.fonts/check/varfont_duplicate_instance_names</a>)</summary><div>
 
 
@@ -3281,19 +3194,19 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * 💤 **SKIP** Unfulfilled Conditions: is_variable_font
-</div></details><details><summary>💤 <b>SKIP:</b> Validate METADATA.pb axes values are within gf-axisregistry bounds.  (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/gf-axisregistry_bounds">com.google.fonts/check/metadata/gf-axisregistry_bounds</a>)</summary><div>
+</div></details><details><summary>💤 <b>SKIP:</b> Validate METADATA.pb axes values are within gf_axisregistry bounds.  (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/gf_axisregistry_bounds">com.google.fonts/check/metadata/gf_axisregistry_bounds</a>)</summary><div>
 
 
 * 💤 **SKIP** Unfulfilled Conditions: is_variable_font, family_metadata
-</div></details><details><summary>💤 <b>SKIP:</b> Validate METADATA.pb axes tags are defined in gf-axisregistry.  (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/gf-axisregistry_valid_tags">com.google.fonts/check/metadata/gf-axisregistry_valid_tags</a>)</summary><div>
+</div></details><details><summary>💤 <b>SKIP:</b> Validate METADATA.pb axes tags are defined in gf_axisregistry.  (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/gf_axisregistry_valid_tags">com.google.fonts/check/metadata/gf_axisregistry_valid_tags</a>)</summary><div>
 
 
 * 💤 **SKIP** Unfulfilled Conditions: is_variable_font, family_metadata
-</div></details><details><summary>💤 <b>SKIP:</b> Validate defaults on fvar table match registered fallback names in GFAxisRegistry.  (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/gf-axisregistry/fvar_axis_defaults">com.google.fonts/check/gf-axisregistry/fvar_axis_defaults</a>)</summary><div>
+</div></details><details><summary>💤 <b>SKIP:</b> Validate defaults on fvar table match registered fallback names in GFAxisRegistry.  (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/gf_axisregistry/fvar_axis_defaults">com.google.fonts/check/gf_axisregistry/fvar_axis_defaults</a>)</summary><div>
 
 
 * 💤 **SKIP** Unfulfilled Conditions: is_variable_font
-</div></details><details><summary>💤 <b>SKIP:</b> Validate STAT particle names and values match the fallback names in GFAxisRegistry.  (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/STAT/gf-axisregistry">com.google.fonts/check/STAT/gf-axisregistry</a>)</summary><div>
+</div></details><details><summary>💤 <b>SKIP:</b> Validate STAT particle names and values match the fallback names in GFAxisRegistry.  (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/STAT/gf_axisregistry">com.google.fonts/check/STAT/gf_axisregistry</a>)</summary><div>
 
 
 * 💤 **SKIP** Unfulfilled Conditions: is_variable_font
@@ -3413,7 +3326,7 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * 💤 **SKIP** Unfulfilled Conditions: is_variable_font
-</div></details><details><summary>💤 <b>SKIP:</b> Validates that when an instance record is included for the default instance, its subfamilyNameID value is set to either 2 or 17, and its postScriptNameID value is set to 6. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/fvar.html#com.adobe.fonts/check/varfont/valid_default_instance_nameids">com.adobe.fonts/check/varfont/valid_default_instance_nameids</a>)</summary><div>
+</div></details><details><summary>💤 <b>SKIP:</b> Validates that when an instance record is included for the default instance, its subfamilyNameID value is set to either 2 or 17 (or something with the same value as 2), and its postScriptNameID value is set to 6 (or something with the same value as 6). (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/fvar.html#com.adobe.fonts/check/varfont/valid_default_instance_nameids">com.adobe.fonts/check/varfont/valid_default_instance_nameids</a>)</summary><div>
 
 
 * 💤 **SKIP** Unfulfilled Conditions: is_variable_font
@@ -3507,6 +3420,10 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 
 * 🍞 **PASS** OS/2 fsType is properly set to zero.
+</div></details><details><summary>🍞 <b>PASS:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+
+
+* 🍞 **PASS** OK
 </div></details><details><summary>🍞 <b>PASS:</b> Substitute copyright, registered and trademark symbols in name table entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/unwanted_chars">com.google.fonts/check/name/unwanted_chars</a>)</summary><div>
 
 
@@ -3560,14 +3477,6 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 
 * 🍞 **PASS** Font em size is good (unitsPerEm = 1000).
-</div></details><details><summary>🍞 <b>PASS:</b> Check name table: FONT_SUBFAMILY_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/subfamilyname">com.google.fonts/check/name/subfamilyname</a>)</summary><div>
-
-
-* 🍞 **PASS** FONT_SUBFAMILY_NAME entries are all good.
-</div></details><details><summary>🍞 <b>PASS:</b> Check name table: TYPOGRAPHIC_SUBFAMILY_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/typographicsubfamilyname">com.google.fonts/check/name/typographicsubfamilyname</a>)</summary><div>
-
-
-* 🍞 **PASS** TYPOGRAPHIC_SUBFAMILY_NAME entries are all good.
 </div></details><details><summary>🍞 <b>PASS:</b> Length of copyright notice must not exceed 500 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/copyright_length">com.google.fonts/check/name/copyright_length</a>)</summary><div>
 
 
@@ -3688,7 +3597,7 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 
 * 🍞 **PASS** Font contains unique glyph names.
-</div></details><details><summary>🍞 <b>PASS:</b> Checking with fontTools.ttx (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/ttx-roundtrip">com.google.fonts/check/ttx-roundtrip</a>)</summary><div>
+</div></details><details><summary>🍞 <b>PASS:</b> Checking with fontTools.ttx (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/ttx_roundtrip">com.google.fonts/check/ttx_roundtrip</a>)</summary><div>
 
 
 * 🍞 **PASS** Hey! It all looks good!
@@ -3708,7 +3617,7 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 
 * 🍞 **PASS** Font has no GPOS7 lookups
-</div></details><details><summary>🍞 <b>PASS:</b> Ensure that the font can be rasterized by FreeType. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.adobe.fonts/check/freetype_rasterizer">com.adobe.fonts/check/freetype_rasterizer</a>)</summary><div>
+</div></details><details><summary>🍞 <b>PASS:</b> Ensure that the font can be rasterized by FreeType. (derived from com.adobe.fonts/check/freetype_rasterizer) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.adobe.fonts/check/freetype_rasterizer">com.adobe.fonts/check/freetype_rasterizer</a>)</summary><div>
 
 
 * 🍞 **PASS** Font can be rasterized by FreeType.
@@ -3716,6 +3625,10 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 
 * 🍞 **PASS** Font has the correct sfntVersion value.
+</div></details><details><summary>🍞 <b>PASS:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
+
+
+* 🍞 **PASS** Space and non-breaking space have the same width.
 </div></details><details><summary>🍞 <b>PASS:</b> Check all glyphs have codepoints assigned. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/cmap.html#com.google.fonts/check/all_glyphs_have_codepoints">com.google.fonts/check/all_glyphs_have_codepoints</a>)</summary><div>
 
 
@@ -3780,10 +3693,6 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 
 * 🍞 **PASS** ok
-</div></details><details><summary>🍞 <b>PASS:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/hmtx.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
-
-
-* 🍞 **PASS** Space and non-breaking space have the same width.
 </div></details><details><summary>🍞 <b>PASS:</b> Check glyphs in mark glyph class are non-spacing. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_spacing_marks">com.google.fonts/check/gdef_spacing_marks</a>)</summary><div>
 
 
@@ -3853,8 +3762,8 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 4 | 7 | 12 | 482 | 25 | 365 | 0 |
-| 0% | 1% | 1% | 54% | 3% | 41% | 0% |
+| 0 | 10 | 12 | 458 | 25 | 358 | 0 |
+| 0% | 1% | 1% | 53% | 3% | 41% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **DEBUG**
