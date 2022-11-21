@@ -101,7 +101,7 @@
     <key>openTypeVheaVertTypoLineGap</key>
     <integer>90</integer>
     <key>postscriptFontName</key>
-    <string>MatrixSansPrint</string>
+    <string>MatrixSansPrint-Regular</string>
     <key>postscriptFullName</key>
     <string>Matrix Sans Print</string>
     <key>postscriptSlantAngle</key>

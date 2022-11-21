@@ -526,10 +526,6 @@
     <string>period.glif</string>
     <key>periodcentered</key>
     <string>periodcentered.glif</string>
-    <key>periodcentered.loclCAT</key>
-    <string>periodcentered.loclC_A_T_.glif</string>
-    <key>periodcentered.loclCAT.case</key>
-    <string>periodcentered.loclC_A_T_.case.glif</string>
     <key>perthousand</key>
     <string>perthousand.glif</string>
     <key>pi</key>
@@ -700,8 +696,6 @@
     <string>uni030B_.glif</string>
     <key>uni030C</key>
     <string>uni030C_.glif</string>
-    <key>uni030C.alt</key>
-    <string>uni030C_.alt.glif</string>
     <key>uni0312</key>
     <string>uni0312.glif</string>
     <key>uni0315</key>

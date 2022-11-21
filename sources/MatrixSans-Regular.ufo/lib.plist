@@ -401,9 +401,6 @@
       <string>uniFB01</string>
       <string>uniFB02</string>
       <string>i.loclTRK</string>
-      <string>periodcentered.loclCAT</string>
-      <string>periodcentered.loclCAT.case</string>
-      <string>uni030C.alt</string>
       <string>Eng.loclNSM</string>
       <string>zero.zero</string>
       <string>jacute</string>
@@ -932,10 +929,6 @@
       <string>base</string>
       <key>periodcentered</key>
       <string>base</string>
-      <key>periodcentered.loclCAT</key>
-      <string>base</string>
-      <key>periodcentered.loclCAT.case</key>
-      <string>base</string>
       <key>perthousand</key>
       <string>base</string>
       <key>pi</key>
@@ -1105,8 +1098,6 @@
       <key>uni030B</key>
       <string>base</string>
       <key>uni030C</key>
-      <string>base</string>
-      <key>uni030C.alt</key>
       <string>base</string>
       <key>uni0312</key>
       <string>base</string>

@@ -1,5 +1,5 @@
 SplineFontDB: 3.2
-FontName: MatrixSans
+FontName: MatrixSans-Regular
 FullName: Matrix Sans
 FamilyName: Matrix Sans
 Weight: Regular
@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1657964544
-ModificationTime: 1668930898
+ModificationTime: 1668998246
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -64,12 +64,11 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 48 16 13
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 629146 314573 209715 524288 1048576 0 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "marks_above"""  "marks_below"""  "ogonek"""  "marks_aboveright""" 
-BeginChars: 1114121 403
+BeginChars: 1114121 400
 
 StartChar: space
 Encoding: 32 32 0
@@ -8385,49 +8384,8 @@ Fore
 Refer: 73 105 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: periodcentered.loclCAT
-Encoding: 1114115 -1 380
-Width: 0
-VWidth: 0
-Flags: HMW
-LayerCount: 2
-Fore
-SplineSet
--50 300 m 1
- -50 400 l 1
- 50 400 l 1
- 50 300 l 1
- -50 300 l 1
-EndSplineSet
-EndChar
-
-StartChar: periodcentered.loclCAT.case
-Encoding: 1114116 -1 381
-Width: 0
-VWidth: 0
-Flags: HMW
-LayerCount: 2
-Fore
-SplineSet
--250 300 m 1
- -250 400 l 1
- -150 400 l 1
- -150 300 l 1
- -250 300 l 1
-EndSplineSet
-EndChar
-
-StartChar: uni030C.alt
-Encoding: 1114117 -1 382
-Width: 0
-Flags: HMW
-LayerCount: 2
-Fore
-Refer: 12 44 N 1 0 0 1 -50 500 2
-EndChar
-
 StartChar: Eng.loclNSM
-Encoding: 1114118 -1 383
+Encoding: 1114118 -1 380
 Width: 600
 VWidth: 0
 Flags: HMW
@@ -8463,7 +8421,7 @@ EndSplineSet
 EndChar
 
 StartChar: zero.zero
-Encoding: 1114119 -1 384
+Encoding: 1114119 -1 381
 Width: 600
 Flags: HW
 LayerCount: 2
@@ -8472,7 +8430,7 @@ Refer: 47 79 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: jacute
-Encoding: 1114120 -1 385
+Encoding: 1114120 -1 382
 Width: 500
 Flags: HW
 LayerCount: 2
@@ -8502,84 +8460,84 @@ EndSplineSet
 EndChar
 
 StartChar: uni2000
-Encoding: 8192 8192 386
+Encoding: 8192 8192 383
 Width: 500
 Flags: HW
 LayerCount: 2
 EndChar
 
 StartChar: uni2001
-Encoding: 8193 8193 387
+Encoding: 8193 8193 384
 Width: 1000
 Flags: HW
 LayerCount: 2
 EndChar
 
 StartChar: uni2002
-Encoding: 8194 8194 388
+Encoding: 8194 8194 385
 Width: 500
 Flags: HW
 LayerCount: 2
 EndChar
 
 StartChar: uni2003
-Encoding: 8195 8195 389
+Encoding: 8195 8195 386
 Width: 1000
 Flags: HW
 LayerCount: 2
 EndChar
 
 StartChar: uni2004
-Encoding: 8196 8196 390
+Encoding: 8196 8196 387
 Width: 333
 Flags: HW
 LayerCount: 2
 EndChar
 
 StartChar: uni2005
-Encoding: 8197 8197 391
+Encoding: 8197 8197 388
 Width: 250
 Flags: HW
 LayerCount: 2
 EndChar
 
 StartChar: uni2006
-Encoding: 8198 8198 392
+Encoding: 8198 8198 389
 Width: 167
 Flags: HW
 LayerCount: 2
 EndChar
 
 StartChar: uni2007
-Encoding: 8199 8199 393
+Encoding: 8199 8199 390
 Width: 600
 Flags: HW
 LayerCount: 2
 EndChar
 
 StartChar: uni2008
-Encoding: 8200 8200 394
+Encoding: 8200 8200 391
 Width: 200
 Flags: HW
 LayerCount: 2
 EndChar
 
 StartChar: uni2009
-Encoding: 8201 8201 395
+Encoding: 8201 8201 392
 Width: 200
 Flags: HW
 LayerCount: 2
 EndChar
 
 StartChar: uni200A
-Encoding: 8202 8202 396
+Encoding: 8202 8202 393
 Width: 100
 Flags: HW
 LayerCount: 2
 EndChar
 
 StartChar: uni2011
-Encoding: 8209 8209 397
+Encoding: 8209 8209 394
 Width: 500
 Flags: HW
 LayerCount: 2
@@ -8588,7 +8546,7 @@ Refer: 13 45 S 1 0 0 1 0 0 3
 EndChar
 
 StartChar: uni2010
-Encoding: 8208 8208 398
+Encoding: 8208 8208 395
 Width: 500
 Flags: HW
 LayerCount: 2
@@ -8597,7 +8555,7 @@ Refer: 13 45 S 1 0 0 1 0 0 3
 EndChar
 
 StartChar: figuredash
-Encoding: 8210 8210 399
+Encoding: 8210 8210 396
 Width: 600
 Flags: HW
 LayerCount: 2
@@ -8606,21 +8564,21 @@ Refer: 244 8211 S 1 0 0 1 0 0 3
 EndChar
 
 StartChar: uni200B
-Encoding: 8203 8203 400
+Encoding: 8203 8203 397
 Width: 0
 Flags: HW
 LayerCount: 2
 EndChar
 
 StartChar: uni200C
-Encoding: 8204 8204 401
+Encoding: 8204 8204 398
 Width: 0
 Flags: HW
 LayerCount: 2
 EndChar
 
 StartChar: uni200D
-Encoding: 8205 8205 402
+Encoding: 8205 8205 399
 Width: 0
 Flags: HW
 LayerCount: 2

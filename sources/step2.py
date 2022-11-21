@@ -25,7 +25,7 @@ unlink_list = ["Aring", "Ccedilla", "aring", "ccedilla", "aogonek", "dcaron",
 	"uni0219", "uni021A", "uni021B"]
 
 def add_names(style):
-	font.fontname = font.fontname + style
+	font.fontname = font.fontname + style + "-Regular"
 	font.appendSFNTName("English (US)", 16, font.familyname)
 	font.familyname = font.familyname + " " + style
 	font.fullname = font.familyname
@@ -44,6 +44,7 @@ font.selection.all()
 font.removeOverlap()
 font.simplify()
 font.round(0.1) # hack: the "dot" glyph is deliberately 1 unit too large so that simplify() produces nicer outlines; this reverses that
+font.fontname = font.fontname + "-Regular"
 font.save("MatrixSans-Regular.sfd")
 
 #######################################
