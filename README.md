@@ -106,7 +106,7 @@ The fonts are currently in early development; significant changes may still occu
 - Changed the working title from "Libre Dot Matrix" to "Matrix Sans"
 - Improved the appearance of some characters in the Video style
 
-#### * August 2022 - Version 0.212
+#### August 2022 - Version 0.212
 - Fixed accent placement on Ű and ű
 - Increased line height
 - Fixed underline position
@@ -130,7 +130,7 @@ The fonts are currently in early development; significant changes may still occu
 - Fixed soft hyphen
 - Fixed WinAscent metric
 
-#### 23 July 2022 - Version 0.100**
+#### 23 July 2022 - Version 0.100
 - Now supports the [Adobe Latin 2](http://adobe-type-tools.github.io/adobe-latin-charsets/adobe-latin-2.html) character set
 - Fixed character widths
 
