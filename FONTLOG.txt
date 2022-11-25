@@ -1,13 +1,13 @@
-FONTLOG for Libre Dot Matrix
-============================
+FONTLOG for Matrix Sans
+=======================
 
-This file provides detailed information on the Libre Dot Matrix font software.
+This file provides detailed information on the Matrix Sans font software.
 This information should be distributed along with the fonts and any derivative works.
 
 Basic font information
 ----------------------
 
-Libre Dot Matrix is a typeface family inspired by classic 5x7 dot matrix fonts.
+Matrix Sans is a typeface family inspired by classic 5x7 dot matrix fonts.
 
 It comes in four variants:
 - Regular, with connected square dots
@@ -15,9 +15,7 @@ It comes in four variants:
 - Screen, with separate square dots 
 - Video, with interpolation on diagonal sections
 
-This release supports only the Basic Latin block (ASCII), to be expanded in future releases.
-
-Further documentation can be found at: https://github.com/FriedOrange/LibreDotMatrix
+Further documentation can be found at: https://github.com/FriedOrange/MatrixSans
 
 Changelog
 ---------
