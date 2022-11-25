@@ -81,7 +81,7 @@ To easily add or modify glyphs (requires [FontForge](https://fontforge.org/)):
 - Edit the image `glyphs.pbm`
 - Set the corresponding glyph names in `glyphs.csv`
 - Run `step1.bat` to generate a temporary font `temp.sfd` containing the new glyphs
-- Using FontForge, copy the new glyphs into the master source file, `MatrixSans.sfd`, for manual editing as required
+- Using FontForge, copy the new glyphs into the master source file, `MatrixSans.sfd`
 - Run `step2.bat` to generate the intermediate UFO sources in the various styles
 	- Custom behaviour is implemented for certain glyphs in the Video style; edit `step2.py` to change this
 
