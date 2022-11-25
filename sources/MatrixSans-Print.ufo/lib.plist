@@ -330,7 +330,9 @@
       <string>uni0326</string>
       <string>uni0327</string>
       <string>uni0328</string>
+      <string>uni0394</string>
       <string>uni03A9</string>
+      <string>uni03BC</string>
       <string>pi</string>
       <string>Wgrave</string>
       <string>wgrave</string>
@@ -1109,7 +1111,11 @@
       <string>base</string>
       <key>uni0328</key>
       <string>base</string>
+      <key>uni0394</key>
+      <string>base</string>
       <key>uni03A9</key>
+      <string>base</string>
+      <key>uni03BC</key>
       <string>base</string>
       <key>uni1E9E</key>
       <string>base</string>

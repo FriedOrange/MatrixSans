@@ -89,14 +89,24 @@ To easily add or modify glyphs (requires [FontForge](https://fontforge.org/)):
 
 The fonts are currently in early development; significant changes may still occur before the release of Version 1.0.
 
-**15 August 2022 - Version 0.214**
+#### 25 November 2022 - Version 0.215
+- Improved Video style appearance
+- Added additional whitespace and hyphen characters
+- Fixed alignment of double acute accents
+- Changed copyright and registered signs
+- Updated font names
+- Removed unreachable glyphs (which only existed to placate an older version of Font Bakery)
+- Added Greek Delta and mu as references to existing glyphs
+- Changed @ sign
+
+#### 15 August 2022 - Version 0.214
 - Added kerning
 
-**5 August 2022 - Version 0.213**
+#### 5 August 2022 - Version 0.213
 - Changed the working title from "Libre Dot Matrix" to "Matrix Sans"
 - Improved the appearance of some characters in the Video style
 
-**3 August 2022 - Version 0.212**
+#### * August 2022 - Version 0.212
 - Fixed accent placement on Ű and ű
 - Increased line height
 - Fixed underline position
@@ -104,34 +114,34 @@ The fonts are currently in early development; significant changes may still occu
 - Fixed dot positioning in Screen style
 - Increased height of dagger and double dagger
 
-**31 July 2022 - Version 0.211**
+#### 31 July 2022 - Version 0.211
 - Changed build process to work around several bugs in FontForge
 - The Localised Forms (`locl`) OpenType feature now works correctly
 
-**28 July 2022 - Version 0.210**
+#### 28 July 2022 - Version 0.210
 - Modified Dutch ij ligature
 - Modified capital letter Ŋ; added localised form for Northern Sami
 - Added unencoded glyphs from Google Fonts Latin Core to avoid Font Bakery error (temporary)
 - Added OpenType features: `ccmp`, `mark`, `locl`, `tnum`, `zero`
 
-**25 July 2022 - Version 0.200**
+#### 25 July 2022 - Version 0.200
 - Now supports [Google Fonts Latin Core](https://github.com/googlefonts/glyphsets/blob/main/GF_glyphsets/Latin/nam/GF_Latin_Core.nam) and [Adobe Latin 3](http://adobe-type-tools.github.io/adobe-latin-charsets/adobe-latin-3.html)
 - Added dotted circle (U+25CC)
 - Fixed soft hyphen
 - Fixed WinAscent metric
 
-**23 July 2022 - Version 0.100**
+#### 23 July 2022 - Version 0.100**
 - Now supports the [Adobe Latin 2](http://adobe-type-tools.github.io/adobe-latin-charsets/adobe-latin-2.html) character set
 - Fixed character widths
 
-**21 July 2022 - Version 0.002**
+#### 21 July 2022 - Version 0.002
 - Improved Video style appearance
 - Lengthened hyphen by one dot
 - Fixed character widths
 - Fixed line height
 - Updated metadata: font names, PANOSE classification, etc.
 
-**20 July 2022 - Version 0.001**
+#### 20 July 2022 - Version 0.001
 - Initial test release
 - Supports Basic Latin (ASCII)
 

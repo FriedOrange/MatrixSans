@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1657964544
-ModificationTime: 1668998246
+ModificationTime: 1669344132
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -64,11 +64,12 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
+WinInfo: 32 16 14
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 629146 314573 209715 524288 1048576 0 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "marks_above"""  "marks_below"""  "ogonek"""  "marks_aboveright""" 
-BeginChars: 1114121 400
+BeginChars: 1114121 402
 
 StartChar: space
 Encoding: 32 32 0
@@ -1964,16 +1965,31 @@ SplineSet
  544 594 l 25
  544 506 l 25
  456 506 l 25
+56 406 m 25
+ 56 494 l 25
+ 144 494 l 25
+ 144 406 l 25
+ 56 406 l 25
+256 406 m 25
+ 256 494 l 25
+ 344 494 l 25
+ 344 406 l 25
+ 256 406 l 25
+356 406 m 25
+ 356 494 l 25
+ 444 494 l 25
+ 444 406 l 25
+ 356 406 l 25
 456 406 m 25
  456 494 l 25
  544 494 l 25
  544 406 l 25
  456 406 l 25
-156 306 m 25
- 156 394 l 25
- 244 394 l 25
- 244 306 l 25
- 156 306 l 25
+56 306 m 25
+ 56 394 l 25
+ 144 394 l 25
+ 144 306 l 25
+ 56 306 l 25
 256 306 m 25
  256 394 l 25
  344 394 l 25
@@ -1994,6 +2010,11 @@ SplineSet
  344 294 l 25
  344 206 l 25
  256 206 l 25
+356 206 m 25
+ 356 294 l 25
+ 444 294 l 25
+ 444 206 l 25
+ 356 206 l 25
 456 206 m 25
  456 294 l 25
  544 294 l 25
@@ -2004,16 +2025,6 @@ SplineSet
  144 194 l 25
  144 106 l 25
  56 106 l 25
-256 106 m 25
- 256 194 l 25
- 344 194 l 25
- 344 106 l 25
- 256 106 l 25
-456 106 m 25
- 456 194 l 25
- 544 194 l 25
- 544 106 l 25
- 456 106 l 25
 156 6 m 25
  156 94 l 25
  244 94 l 25
@@ -15004,77 +15015,77 @@ EndChar
 StartChar: uni2000
 Encoding: 8192 8192 383
 Width: 500
-Flags: HW
+Flags: W
 LayerCount: 2
 EndChar
 
 StartChar: uni2001
 Encoding: 8193 8193 384
 Width: 1000
-Flags: HW
+Flags: W
 LayerCount: 2
 EndChar
 
 StartChar: uni2002
 Encoding: 8194 8194 385
 Width: 500
-Flags: HW
+Flags: W
 LayerCount: 2
 EndChar
 
 StartChar: uni2003
 Encoding: 8195 8195 386
 Width: 1000
-Flags: HW
+Flags: W
 LayerCount: 2
 EndChar
 
 StartChar: uni2004
 Encoding: 8196 8196 387
 Width: 333
-Flags: HW
+Flags: W
 LayerCount: 2
 EndChar
 
 StartChar: uni2005
 Encoding: 8197 8197 388
 Width: 250
-Flags: HW
+Flags: W
 LayerCount: 2
 EndChar
 
 StartChar: uni2006
 Encoding: 8198 8198 389
 Width: 167
-Flags: HW
+Flags: W
 LayerCount: 2
 EndChar
 
 StartChar: uni2007
 Encoding: 8199 8199 390
 Width: 600
-Flags: HW
+Flags: W
 LayerCount: 2
 EndChar
 
 StartChar: uni2008
 Encoding: 8200 8200 391
 Width: 200
-Flags: HW
+Flags: W
 LayerCount: 2
 EndChar
 
 StartChar: uni2009
 Encoding: 8201 8201 392
 Width: 200
-Flags: HW
+Flags: W
 LayerCount: 2
 EndChar
 
 StartChar: uni200A
 Encoding: 8202 8202 393
 Width: 100
-Flags: HW
+Flags: W
 LayerCount: 2
 EndChar
 
@@ -15108,22 +15119,40 @@ EndChar
 StartChar: uni200B
 Encoding: 8203 8203 397
 Width: 0
-Flags: HW
+Flags: W
 LayerCount: 2
 EndChar
 
 StartChar: uni200C
 Encoding: 8204 8204 398
 Width: 0
-Flags: HW
+Flags: W
 LayerCount: 2
 EndChar
 
 StartChar: uni200D
 Encoding: 8205 8205 399
 Width: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: uni03BC
+Encoding: 956 956 400
+Width: 600
 Flags: HW
 LayerCount: 2
+Fore
+Refer: 113 181 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni0394
+Encoding: 916 916 401
+Width: 600
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 208 8710 N 1 0 0 1 0 0 3
 EndChar
 EndChars
 EndSplineFont

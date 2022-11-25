@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1657964544
-ModificationTime: 1668998246
+ModificationTime: 1669344132
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -64,11 +64,12 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
+WinInfo: 32 16 14
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 629146 314573 209715 524288 1048576 0 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "marks_above"""  "marks_below"""  "ogonek"""  "marks_aboveright""" 
-BeginChars: 1114121 400
+BeginChars: 1114121 402
 
 StartChar: space
 Encoding: 32 32 0
@@ -1964,16 +1965,31 @@ SplineSet
  526 598 548 576 548 550 c 0
  548 524 526 502 500 502 c 0
  474 502 452 524 452 550 c 0
+52 450 m 0
+ 52 476 74 498 100 498 c 0
+ 126 498 148 476 148 450 c 0
+ 148 424 126 402 100 402 c 0
+ 74 402 52 424 52 450 c 0
+252 450 m 0
+ 252 476 274 498 300 498 c 0
+ 326 498 348 476 348 450 c 0
+ 348 424 326 402 300 402 c 0
+ 274 402 252 424 252 450 c 0
+352 450 m 0
+ 352 476 374 498 400 498 c 0
+ 426 498 448 476 448 450 c 0
+ 448 424 426 402 400 402 c 0
+ 374 402 352 424 352 450 c 0
 452 450 m 0
  452 476 474 498 500 498 c 0
  526 498 548 476 548 450 c 0
  548 424 526 402 500 402 c 0
  474 402 452 424 452 450 c 0
-152 350 m 0
- 152 376 174 398 200 398 c 0
- 226 398 248 376 248 350 c 0
- 248 324 226 302 200 302 c 0
- 174 302 152 324 152 350 c 0
+52 350 m 0
+ 52 376 74 398 100 398 c 0
+ 126 398 148 376 148 350 c 0
+ 148 324 126 302 100 302 c 0
+ 74 302 52 324 52 350 c 0
 252 350 m 0
  252 376 274 398 300 398 c 0
  326 398 348 376 348 350 c 0
@@ -1994,6 +2010,11 @@ SplineSet
  326 298 348 276 348 250 c 0
  348 224 326 202 300 202 c 0
  274 202 252 224 252 250 c 0
+352 250 m 0
+ 352 276 374 298 400 298 c 0
+ 426 298 448 276 448 250 c 0
+ 448 224 426 202 400 202 c 0
+ 374 202 352 224 352 250 c 0
 452 250 m 0
  452 276 474 298 500 298 c 0
  526 298 548 276 548 250 c 0
@@ -2004,16 +2025,6 @@ SplineSet
  126 198 148 176 148 150 c 0
  148 124 126 102 100 102 c 0
  74 102 52 124 52 150 c 0
-252 150 m 0
- 252 176 274 198 300 198 c 0
- 326 198 348 176 348 150 c 0
- 348 124 326 102 300 102 c 0
- 274 102 252 124 252 150 c 0
-452 150 m 0
- 452 176 474 198 500 198 c 0
- 526 198 548 176 548 150 c 0
- 548 124 526 102 500 102 c 0
- 474 102 452 124 452 150 c 0
 152 50 m 0
  152 76 174 98 200 98 c 0
  226 98 248 76 248 50 c 0
@@ -15004,77 +15015,77 @@ EndChar
 StartChar: uni2000
 Encoding: 8192 8192 383
 Width: 500
-Flags: HW
+Flags: W
 LayerCount: 2
 EndChar
 
 StartChar: uni2001
 Encoding: 8193 8193 384
 Width: 1000
-Flags: HW
+Flags: W
 LayerCount: 2
 EndChar
 
 StartChar: uni2002
 Encoding: 8194 8194 385
 Width: 500
-Flags: HW
+Flags: W
 LayerCount: 2
 EndChar
 
 StartChar: uni2003
 Encoding: 8195 8195 386
 Width: 1000
-Flags: HW
+Flags: W
 LayerCount: 2
 EndChar
 
 StartChar: uni2004
 Encoding: 8196 8196 387
 Width: 333
-Flags: HW
+Flags: W
 LayerCount: 2
 EndChar
 
 StartChar: uni2005
 Encoding: 8197 8197 388
 Width: 250
-Flags: HW
+Flags: W
 LayerCount: 2
 EndChar
 
 StartChar: uni2006
 Encoding: 8198 8198 389
 Width: 167
-Flags: HW
+Flags: W
 LayerCount: 2
 EndChar
 
 StartChar: uni2007
 Encoding: 8199 8199 390
 Width: 600
-Flags: HW
+Flags: W
 LayerCount: 2
 EndChar
 
 StartChar: uni2008
 Encoding: 8200 8200 391
 Width: 200
-Flags: HW
+Flags: W
 LayerCount: 2
 EndChar
 
 StartChar: uni2009
 Encoding: 8201 8201 392
 Width: 200
-Flags: HW
+Flags: W
 LayerCount: 2
 EndChar
 
 StartChar: uni200A
 Encoding: 8202 8202 393
 Width: 100
-Flags: HW
+Flags: W
 LayerCount: 2
 EndChar
 
@@ -15108,22 +15119,40 @@ EndChar
 StartChar: uni200B
 Encoding: 8203 8203 397
 Width: 0
-Flags: HW
+Flags: W
 LayerCount: 2
 EndChar
 
 StartChar: uni200C
 Encoding: 8204 8204 398
 Width: 0
-Flags: HW
+Flags: W
 LayerCount: 2
 EndChar
 
 StartChar: uni200D
 Encoding: 8205 8205 399
 Width: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: uni03BC
+Encoding: 956 956 400
+Width: 600
 Flags: HW
 LayerCount: 2
+Fore
+Refer: 113 181 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni0394
+Encoding: 916 916 401
+Width: 600
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 208 8710 N 1 0 0 1 0 0 3
 EndChar
 EndChars
 EndSplineFont
