@@ -104,13 +104,13 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: eight	Contours detected: 1	Expected: 3
 
-	- Glyph name: at	Contours detected: 3	Expected: 2
-
 	- Glyph name: B	Contours detected: 1	Expected: 2 or 3
 
-	- Glyph name: C	Contours detected: 2	Expected: 1 
+	- Glyph name: C	Contours detected: 2	Expected: 1
 
-	- And 257 more.
+	- Glyph name: D	Contours detected: 1	Expected: 2 
+
+	- And 255 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -565,10 +565,10 @@ Use -F or --full-lists to disable shortening of long lists.
 
  |               | fonts/ttf/MatrixSans-Regular.ttf          |
  |:------------- | ---------------:|
- | Dehinted Size | 26.3kb |
+ | Dehinted Size | 26.4kb |
  | Hinted Size   | 46.6kb   |
- | Increase      | 20.3kb      |
- | Change        | 77.0 %  |
+ | Increase      | 20.2kb      |
+ | Change        | 76.8 %  |
  [code: size-impact]
 </div></details><details><summary>ℹ <b>INFO:</b> EPAR table present in font? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/epar">com.google.fonts/check/epar</a>)</summary><div>
 
@@ -1521,10 +1521,10 @@ Use -F or --full-lists to disable shortening of long lists.
 
  |               | fonts/ttf/MatrixSans-Video.ttf          |
  |:------------- | ---------------:|
- | Dehinted Size | 30.1kb |
+ | Dehinted Size | 30.2kb |
  | Hinted Size   | 70.2kb   |
- | Increase      | 40.1kb      |
- | Change        | 133.2 %  |
+ | Increase      | 40.0kb      |
+ | Change        | 132.8 %  |
  [code: size-impact]
 </div></details><details><summary>ℹ <b>INFO:</b> EPAR table present in font? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/epar">com.google.fonts/check/epar</a>)</summary><div>
 
@@ -1972,7 +1972,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: asterisk	Contours detected: 11	Expected: 1 or 4 
 
-	- And 711 more.
+	- And 715 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -2443,10 +2443,10 @@ Use -F or --full-lists to disable shortening of long lists.
 
  |               | fonts/ttf/MatrixSans-Screen.ttf          |
  |:------------- | ---------------:|
- | Dehinted Size | 40.4kb |
- | Hinted Size   | 74.0kb   |
- | Increase      | 33.6kb      |
- | Change        | 83.2 %  |
+ | Dehinted Size | 40.5kb |
+ | Hinted Size   | 73.8kb   |
+ | Increase      | 33.3kb      |
+ | Change        | 82.4 %  |
  [code: size-impact]
 </div></details><details><summary>ℹ <b>INFO:</b> EPAR table present in font? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/epar">com.google.fonts/check/epar</a>)</summary><div>
 
@@ -2894,7 +2894,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: asterisk	Contours detected: 11	Expected: 1 or 4 
 
-	- And 711 more.
+	- And 715 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -3365,8 +3365,8 @@ Use -F or --full-lists to disable shortening of long lists.
 
  |               | fonts/ttf/MatrixSans-Print.ttf          |
  |:------------- | ---------------:|
- | Dehinted Size | 84.0kb |
- | Hinted Size   | 109.2kb   |
+ | Dehinted Size | 84.2kb |
+ | Hinted Size   | 109.3kb   |
  | Increase      | 25.1kb      |
  | Change        | 29.9 %  |
  [code: size-impact]
