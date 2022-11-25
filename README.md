@@ -72,20 +72,18 @@ To build the fonts manually on Windows:
 
 - Run `build.bat` in the `sources` folder. 
 
-To build the fonts manually on Linux/macOS:
-
-- From the `sources` folder, run the command `gftools builder config.yaml` (not tested).
-
 ### Modifying the fonts
 
-The master source file, `MatrixSans.sfd`, is in FontForge's SFD format. It is recommended to edit this file if you wish to modify the fonts. Then, re-generate the intermediate UFO sources by running `step2.bat`.
+The master source file, `MatrixSans-master.sfd`, is in FontForge's SFD format. It is recommended to edit this file if you wish to modify the fonts. Then, re-generate the intermediate UFO sources by running `step2.bat`.
 
 To easily add or modify glyphs (requires [FontForge](https://fontforge.org/)):
 
 - Edit the image `glyphs.pbm`
-- Set the corresponding codepoints (or glyph names, for unencoded glyphs) in `glyphs.csv`
-- Run `step1.bat`, which generates a temporary font containing the new glyphs. 
-- Copy the new glyphs into the master source file, `MatrixSans.sfd`, for manual editing as required.
+- Set the corresponding glyph names in `glyphs.csv`
+- Run `step1.bat` to generate a temporary font `temp.sfd` containing the new glyphs
+- Using FontForge, copy the new glyphs into the master source file, `MatrixSans.sfd`, for manual editing as required
+- Run `step2.bat` to generate the intermediate UFO sources in the various styles
+	- Custom behaviour is implemented for certain glyphs in the Video style; edit `step2.py` to change this
 
 ## Changelog
 
