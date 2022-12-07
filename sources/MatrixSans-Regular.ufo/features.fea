@@ -18,7 +18,7 @@ languagesystem latn NLD;
 markClass [gravecomb acutecomb uni0302 tildecomb uni0304 uni0306 uni0307 uni0308 uni030A uni030B uni030C uni0312] <anchor 0 600> @marks_above;
 markClass [uni0326 uni0327] <anchor 0 0> @marks_below;
 markClass [uni0328] <anchor 0 0> @ogonek;
-markClass [uni0315] <anchor 0 450> @marks_aboveright;
+markClass [uni0315] <anchor 0 500> @marks_aboveright;
 
 feature ccmp {
 	sub [i j]' @marks_above by [dotlessi uni0237];
@@ -49,27 +49,27 @@ feature ccmp {
 feature mark {
 	pos base [A E] <anchor 300 800> mark @marks_above
 					<anchor 300 0> mark @marks_below
-					<anchor 400 0> mark @ogonek;				
+					<anchor 400 0> mark @ogonek;
 	pos base [I i i.loclTRK] <anchor 200 800> mark @marks_above
 							<anchor 200 0> mark @marks_below
 							<anchor 200 0> mark @ogonek;
 	pos base J <anchor 400 800> mark @marks_above;
 	pos base L <anchor 300 800> mark @marks_above
 				<anchor 300 0> mark @marks_below
-				<anchor 250 450> mark @marks_aboveright;
+				<anchor 250 500> mark @marks_aboveright;
 	pos base U <anchor 300 800> mark @marks_above
 				<anchor 300 0> mark @marks_below
 				<anchor 300 0> mark @ogonek;
 	pos base @tall <anchor 300 800> mark @marks_above
 					<anchor 300 0> mark @marks_below;
 	pos base d <anchor 300 800> mark @marks_above
-				<anchor 550 450> mark @marks_aboveright;
+				<anchor 650 500> mark @marks_aboveright;
 	pos base l <anchor 200 800> mark @marks_above
 				<anchor 200 0> mark @marks_below
-				<anchor 250 450> mark @marks_aboveright;
+				<anchor 350 500> mark @marks_aboveright;
 	pos base t <anchor 300 800> mark @marks_above
 				<anchor 300 0> mark @marks_below
-				<anchor 350 650> mark @marks_aboveright;
+				<anchor 350 600> mark @marks_aboveright;
 	pos base [a e u] <anchor 300 600> mark @marks_above
 					<anchor 300 0> mark @marks_below
 					<anchor 400 0> mark @ogonek;
@@ -83,7 +83,7 @@ feature mark {
 	pos base uni25CC <anchor 300 600> mark @marks_above
 					<anchor 300 0> mark @marks_below
 					<anchor 400 0> mark @ogonek
-					<anchor 550 450> mark @marks_aboveright;
+					<anchor 550 400> mark @marks_aboveright;
 } mark;
 
 feature locl {
@@ -130,16 +130,19 @@ feature locl {
 @C = [C Cacute Ccaron Ccedilla Cdotaccent];
 @D = [D Eth Dcaron Dcroat];
 @L = [L Lacute uni013B];
-@curveBR = [B O Oacute Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde S Sacute Scaron Scedilla uni0218 U Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring W b c ccedilla cacute ccaron cdotaccent e eacute ecaron ecircumflex edieresis edotaccent egrave emacron eth o oacute ograve ocircumflex odieresis omacron otilde p s sacute scaron scedilla uni0219 thorn w wcircumflex]; # curve at bottom right
+@curveBR = [B O Oacute Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde S Sacute Scaron Scedilla uni0218 U Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring W b c ccedilla cacute ccaron cdotaccent e eacute ecaron ecircumflex edieresis edotaccent egrave emacron eth o oacute ograve ocircumflex odieresis omacron otilde p s sacute scaron scedilla uni0219 germandbls thorn w wcircumflex]; # curve at bottom right
 @gapLM = [E Eacute Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eogonek I Iacute Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek K uni0136]; # gap at left middle
+@r = [r racute rcaron];
 
 # Right side classes
 @A2 = [A Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde uni01CD AE];
 @strokeLM = [Eth Dcroat f]; # stroke at left middle
-@short_curveTL = [a aogonek ae c ccedilla d dcaron e eogonek g o oslash oe q s scedilla uni0219]; # curve at top left
+@short_curveTL = [ae c ccedilla d dcaron e eogonek g o oslash oe q s scedilla uni0219]; # curve at top left
 @short_square = [dotlessi m n uni0146 eng p r uni0157 u uogonek v w x y z];
-@curveTL = [aacute acircumflex adieresis agrave amacron aring cacute ccaron cdotaccent eacute ecaron ecircumflex edieresis edotaccent egrave emacron dcroat eth gdotaccent uni0123 oacute ograve ocircumflex odieresis omacron sacute scaron]; # curve at top left, narrow diacritics
-@i = [i iacute ij iogonek];
+@curveTL = [cacute ccaron cdotaccent eacute ecaron ecircumflex edieresis edotaccent egrave emacron dcroat eth gdotaccent uni0123 oacute ograve ocircumflex odieresis omacron sacute scaron]; # curve at top left, narrow diacritics
+@i = [i iacute ij iogonek i.loclTRK];
+@a_short = [a aogonek]; # previously in @short_curveTL
+@a_tall = [aacute acircumflex adieresis agrave amacron aring]; # previously in @curveTL
 
 # Left and right side classes
 @T = [T Tcaron uni0162 uni021A];
@@ -159,51 +162,82 @@ feature kern {
 	pos V j -200;
 	pos v j -200;
 	pos f j -200;
+	pos F Lslash -100;
 	pos iacute jacute -200;
+	pos J Lslash -100;
+	pos F aacute -200;
+	pos r atilde -100;
+	pos r abreve -100;
+	pos f abreve -100;
+	enum pos @i v -100;
 	pos @A @T -100;
 	pos @D @T -100;
 	pos @D j -200;
-	pos [F J] @A2 -100;
-	pos [F J] @short_curveTL -100;
-	pos [F J] @short_square -100;
-	pos [F J] @curveTL -100;
-	pos [F J] @i -100;
-	pos [F J] @strokeLM -100;
-	pos [F J] Lslash -100;
-	pos [F J] @t -100;
+	pos F @A2 -100;
+	pos F @short_curveTL -100;
+	pos F @a_short -200;
+	pos F @short_square -100;
+	pos F @curveTL -100;
+	pos F @a_tall -100;
+	pos F @i -100;
+	pos F @strokeLM -100;
+	pos F @t -100;
+	pos J @A2 -100;
+	pos J @short_curveTL -100;
+	pos J @a_short -100;
+	pos J @short_square -100;
+	pos J @curveTL -100;
+	pos J @a_tall -100;
+	pos J @i -100;
+	pos J @strokeLM -100;
+	pos J @t -100;
 	pos @L @T -200;
 	pos @L @Y -200;
 	pos @L V -100;
 	pos @L @strokeLM -100;
-	pos [P Thorn r racute rcaron] j -200;
+	pos [P Thorn] j -200;
+	pos @r j -200;
+	pos @r @a_short -100;
+	pos @r @a_tall -100;
 	pos @T @A2 -100;
 	pos @T J -200;
 	pos @T j -200;
 	pos @T @strokeLM -100;
-	pos @T @short_curveTL -200;
-	pos @T @short_square -200;
+	pos @T @short_curveTL -100;
+	pos @T @a_short -200;
+	pos @T @short_square -100;
 	pos @T @curveTL -100;
+	pos @T @a_tall -100;
 	pos @T @i -100;
 	pos @T @t -100;
 	pos @Y J -200;
 	pos @Y j -200;
 	pos @Y @strokeLM -100;
 	pos @Y @curveTL -100;
+	pos @Y @a_tall -100;
 	pos @Y @short_curveTL -100;
+	pos @Y @a_short -100;
 	pos f @short_curveTL -100;
+	pos f @a_short -100;
 	pos f @curveTL -100;
+	pos f @a_tall -100;
 	pos f @strokeLM -100;
 	pos [i igrave iogonek l lacute] @t -100;
 	pos [i igrave iogonek l lacute] @strokeLM -100;
+	pos @r l -100;
 	pos @t @t -100;
-	pos @t j 100;
+	pos @t j -100;
 	pos @t @strokeLM -100;
 	pos @curveBR j -100;
 	pos @C j -100;
 	pos @C @strokeLM -100;
 	pos @gapLM @strokeLM -100;
-	pos @gapLM @t -100;
+	# pos @gapLM @t -100;
 	pos [X Z Zacute Zcaron Zdotaccent] [Eth Dcroat f] -100;
+	pos dcaron @short_curveTL -100;
+	pos dcaron @curveTL -100;
+	pos dcaron @a_short -100;
+	pos dcaron @a_tall -100;
 } kern;
 
 feature tnum {

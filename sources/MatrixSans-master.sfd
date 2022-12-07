@@ -4,7 +4,7 @@ FullName: Matrix Sans
 FamilyName: Matrix Sans
 Weight: Regular
 Copyright: Copyright 2022 The Matrix Sans Project Authors (https://github.com/FriedOrange/MatrixSans)
-Version: 0.215
+Version: 0.216
 ItalicAngle: 0
 UnderlinePosition: -150
 UnderlineWidth: 100
@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1657964544
-ModificationTime: 1669337404
+ModificationTime: 1670410986
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -64,7 +64,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 32 16 14
+WinInfo: 16 16 14
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 629146 314573 209715 524288 1048576 0 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
@@ -962,7 +962,7 @@ StartChar: L
 Encoding: 76 76 45
 Width: 600
 Flags: HMW
-AnchorPoint: "marks_aboveright" 250 450 basechar 0
+AnchorPoint: "marks_aboveright" 250 500 basechar 0
 AnchorPoint: "marks_below" 300 0 basechar 0
 AnchorPoint: "marks_above" 300 800 basechar 0
 LayerCount: 2
@@ -1495,7 +1495,7 @@ StartChar: d
 Encoding: 100 100 69
 Width: 600
 Flags: HMW
-AnchorPoint: "marks_aboveright" 550 450 basechar 0
+AnchorPoint: "marks_aboveright" 650 500 basechar 0
 AnchorPoint: "marks_below" 300 0 basechar 0
 AnchorPoint: "marks_above" 300 800 basechar 0
 LayerCount: 2
@@ -1682,7 +1682,7 @@ StartChar: l
 Encoding: 108 108 77
 Width: 400
 Flags: HMW
-AnchorPoint: "marks_aboveright" 250 450 basechar 0
+AnchorPoint: "marks_aboveright" 350 500 basechar 0
 AnchorPoint: "marks_below" 200 0 basechar 0
 AnchorPoint: "ogonek" 200 0 basechar 0
 AnchorPoint: "marks_above" 200 800 basechar 0
@@ -1864,7 +1864,7 @@ StartChar: t
 Encoding: 116 116 85
 Width: 600
 Flags: HMW
-AnchorPoint: "marks_aboveright" 350 650 basechar 0
+AnchorPoint: "marks_aboveright" 350 600 basechar 0
 AnchorPoint: "marks_below" 300 0 basechar 0
 AnchorPoint: "marks_above" 300 800 basechar 0
 LayerCount: 2
@@ -4489,7 +4489,7 @@ StartChar: uni25CC
 Encoding: 9676 9676 262
 Width: 600
 Flags: HMW
-AnchorPoint: "marks_aboveright" 550 450 basechar 0
+AnchorPoint: "marks_aboveright" 550 400 basechar 0
 AnchorPoint: "ogonek" 400 0 basechar 0
 AnchorPoint: "marks_below" 300 0 basechar 0
 AnchorPoint: "marks_above" 300 600 basechar 0
@@ -4956,10 +4956,11 @@ StartChar: uni0315
 Encoding: 789 789 291
 Width: 0
 Flags: HMW
-AnchorPoint: "marks_aboveright" 0 450 mark 0
+AnchorPoint: "marks_aboveright" 0 500 mark 0
 LayerCount: 2
 Fore
-Refer: 13 44 N 1 0 0 1 -50 500 2
+Refer: 0 -1 N 1 0 0 1 0 500 2
+Refer: 0 -1 N 1 0 0 1 0 600 2
 EndChar
 
 StartChar: dcaron
@@ -4968,7 +4969,7 @@ Width: 800
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 291 789 N 1 0 0 1 550 0 2
+Refer: 291 789 S 1 0 0 1 650 0 2
 Refer: 69 100 N 1 0 0 1 0 0 2
 EndChar
 
@@ -5268,7 +5269,7 @@ Width: 500
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 291 789 N 1 0 0 1 250 0 2
+Refer: 291 789 N 1 0 0 1 350 0 2
 Refer: 77 108 N 1 0 0 1 0 0 2
 LCarets2: 1 0
 EndChar
@@ -5519,7 +5520,7 @@ Width: 600
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 291 789 N 1 0 0 1 350 200 2
+Refer: 291 789 N 1 0 0 1 350 100 2
 Refer: 85 116 N 1 0 0 1 0 0 2
 EndChar
 

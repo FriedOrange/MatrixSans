@@ -2,6 +2,11 @@
 <glyph name="uni0315" format="2">
   <unicode hex="0315"/>
   <outline>
-    <component base="comma" xOffset="-50.0" yOffset="500.0"/>
+    <contour>
+      <point x="0.0" y="500.0" type="line"/>
+      <point x="0.0" y="700.0" type="line"/>
+      <point x="100.0" y="700.0" type="line"/>
+      <point x="100.0" y="500.0" type="line"/>
+    </contour>
   </outline>
 </glyph>
