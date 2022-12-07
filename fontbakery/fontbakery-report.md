@@ -72,7 +72,7 @@ Fontbakery version: 0.8.10
 </div></details><br></div></details><details><summary><b>[212] MatrixSans-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Version format is correct in 'name' table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/version_format">com.google.fonts/check/name/version_format</a>)</summary><div>
 
 
-* 🔥 **FAIL** The NameID.VERSION_STRING (nameID=5) value must follow the pattern "Version X.Y" with X.Y greater than or equal to 1.000. Current version string is: "Version 0.215; ttfautohint (v1.8.4.7-5d5b)" [code: bad-version-strings]
+* 🔥 **FAIL** The NameID.VERSION_STRING (nameID=5) value must follow the pattern "Version X.Y" with X.Y greater than or equal to 1.000. Current version string is: "Version 0.216; ttfautohint (v1.8.4.7-5d5b)" [code: bad-version-strings]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -565,10 +565,10 @@ Use -F or --full-lists to disable shortening of long lists.
 
  |               | fonts/ttf/MatrixSans-Regular.ttf          |
  |:------------- | ---------------:|
- | Dehinted Size | 26.4kb |
- | Hinted Size   | 46.6kb   |
- | Increase      | 20.2kb      |
- | Change        | 76.8 %  |
+ | Dehinted Size | 26.6kb |
+ | Hinted Size   | 46.9kb   |
+ | Increase      | 20.3kb      |
+ | Change        | 76.2 %  |
  [code: size-impact]
 </div></details><details><summary>ℹ <b>INFO:</b> EPAR table present in font? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/epar">com.google.fonts/check/epar</a>)</summary><div>
 
@@ -590,7 +590,7 @@ PPM <= 65535:
 </div></details><details><summary>ℹ <b>INFO:</b> Check for font-v versioning. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontv">com.google.fonts/check/fontv</a>)</summary><div>
 
 
-* ℹ **INFO** Version string is: "Version 0.215; ttfautohint (v1.8.4.7-5d5b)"
+* ℹ **INFO** Version string is: "Version 0.216; ttfautohint (v1.8.4.7-5d5b)"
 The version string must ideally include a git commit hash and either a "dev" or a "release" suffix such as in the example below:
 "Version 1.3; git-0d08353-release" [code: bad-format]
 </div></details><details><summary>ℹ <b>INFO:</b> Font contains all required tables? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/required_tables">com.google.fonts/check/required_tables</a>)</summary><div>
@@ -998,7 +998,7 @@ The version string must ideally include a git commit hash and either a "dev" or 
 </div></details><details><summary>🔥 <b>FAIL:</b> Version format is correct in 'name' table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/version_format">com.google.fonts/check/name/version_format</a>)</summary><div>
 
 
-* 🔥 **FAIL** The NameID.VERSION_STRING (nameID=5) value must follow the pattern "Version X.Y" with X.Y greater than or equal to 1.000. Current version string is: "Version 0.215; ttfautohint (v1.8.4.7-5d5b)" [code: bad-version-strings]
+* 🔥 **FAIL** The NameID.VERSION_STRING (nameID=5) value must follow the pattern "Version X.Y" with X.Y greater than or equal to 1.000. Current version string is: "Version 0.216; ttfautohint (v1.8.4.7-5d5b)" [code: bad-version-strings]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
 
 
@@ -1038,19 +1038,19 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: aring	Contours detected: 3	Expected: 4
 
-	- Glyph name: dcaron	Contours detected: 2	Expected: 3
-
 	- Glyph name: uni0122	Contours detected: 1	Expected: 2
 
 	- Glyph name: uni013B	Contours detected: 1	Expected: 2
 
 	- Glyph name: uni013C	Contours detected: 1	Expected: 2
 
-	- Glyph name: lcaron	Contours detected: 1	Expected: 2
+	- Glyph name: uogonek	Contours detected: 3	Expected: 1
 
-	- Glyph name: uogonek	Contours detected: 3	Expected: 1 
+	- Glyph name: uni0218	Contours detected: 1	Expected: 2
 
-	- And 22 more.
+	- Glyph name: uni0219	Contours detected: 1	Expected: 2 
+
+	- And 18 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -1521,10 +1521,10 @@ Use -F or --full-lists to disable shortening of long lists.
 
  |               | fonts/ttf/MatrixSans-Video.ttf          |
  |:------------- | ---------------:|
- | Dehinted Size | 30.2kb |
- | Hinted Size   | 70.2kb   |
- | Increase      | 40.0kb      |
- | Change        | 132.8 %  |
+ | Dehinted Size | 30.4kb |
+ | Hinted Size   | 70.3kb   |
+ | Increase      | 39.9kb      |
+ | Change        | 131.5 %  |
  [code: size-impact]
 </div></details><details><summary>ℹ <b>INFO:</b> EPAR table present in font? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/epar">com.google.fonts/check/epar</a>)</summary><div>
 
@@ -1546,7 +1546,7 @@ PPM <= 65535:
 </div></details><details><summary>ℹ <b>INFO:</b> Check for font-v versioning. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontv">com.google.fonts/check/fontv</a>)</summary><div>
 
 
-* ℹ **INFO** Version string is: "Version 0.215; ttfautohint (v1.8.4.7-5d5b)"
+* ℹ **INFO** Version string is: "Version 0.216; ttfautohint (v1.8.4.7-5d5b)"
 The version string must ideally include a git commit hash and either a "dev" or a "release" suffix such as in the example below:
 "Version 1.3; git-0d08353-release" [code: bad-format]
 </div></details><details><summary>ℹ <b>INFO:</b> Font contains all required tables? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/required_tables">com.google.fonts/check/required_tables</a>)</summary><div>
@@ -1920,7 +1920,7 @@ The version string must ideally include a git commit hash and either a "dev" or 
 </div></details><details><summary>🔥 <b>FAIL:</b> Version format is correct in 'name' table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/version_format">com.google.fonts/check/name/version_format</a>)</summary><div>
 
 
-* 🔥 **FAIL** The NameID.VERSION_STRING (nameID=5) value must follow the pattern "Version X.Y" with X.Y greater than or equal to 1.000. Current version string is: "Version 0.215; ttfautohint (v1.8.4.7-5d5b)" [code: bad-version-strings]
+* 🔥 **FAIL** The NameID.VERSION_STRING (nameID=5) value must follow the pattern "Version X.Y" with X.Y greater than or equal to 1.000. Current version string is: "Version 0.216; ttfautohint (v1.8.4.7-5d5b)" [code: bad-version-strings]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
 
 
@@ -2443,10 +2443,10 @@ Use -F or --full-lists to disable shortening of long lists.
 
  |               | fonts/ttf/MatrixSans-Screen.ttf          |
  |:------------- | ---------------:|
- | Dehinted Size | 40.5kb |
- | Hinted Size   | 73.8kb   |
+ | Dehinted Size | 40.7kb |
+ | Hinted Size   | 74.1kb   |
  | Increase      | 33.3kb      |
- | Change        | 82.4 %  |
+ | Change        | 81.9 %  |
  [code: size-impact]
 </div></details><details><summary>ℹ <b>INFO:</b> EPAR table present in font? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/epar">com.google.fonts/check/epar</a>)</summary><div>
 
@@ -2468,7 +2468,7 @@ PPM <= 65535:
 </div></details><details><summary>ℹ <b>INFO:</b> Check for font-v versioning. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontv">com.google.fonts/check/fontv</a>)</summary><div>
 
 
-* ℹ **INFO** Version string is: "Version 0.215; ttfautohint (v1.8.4.7-5d5b)"
+* ℹ **INFO** Version string is: "Version 0.216; ttfautohint (v1.8.4.7-5d5b)"
 The version string must ideally include a git commit hash and either a "dev" or a "release" suffix such as in the example below:
 "Version 1.3; git-0d08353-release" [code: bad-format]
 </div></details><details><summary>ℹ <b>INFO:</b> Font contains all required tables? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/required_tables">com.google.fonts/check/required_tables</a>)</summary><div>
@@ -2842,7 +2842,7 @@ The version string must ideally include a git commit hash and either a "dev" or 
 </div></details><details><summary>🔥 <b>FAIL:</b> Version format is correct in 'name' table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/version_format">com.google.fonts/check/name/version_format</a>)</summary><div>
 
 
-* 🔥 **FAIL** The NameID.VERSION_STRING (nameID=5) value must follow the pattern "Version X.Y" with X.Y greater than or equal to 1.000. Current version string is: "Version 0.215; ttfautohint (v1.8.4.7-5d5b)" [code: bad-version-strings]
+* 🔥 **FAIL** The NameID.VERSION_STRING (nameID=5) value must follow the pattern "Version X.Y" with X.Y greater than or equal to 1.000. Current version string is: "Version 0.216; ttfautohint (v1.8.4.7-5d5b)" [code: bad-version-strings]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
 
 
@@ -3365,10 +3365,10 @@ Use -F or --full-lists to disable shortening of long lists.
 
  |               | fonts/ttf/MatrixSans-Print.ttf          |
  |:------------- | ---------------:|
- | Dehinted Size | 84.2kb |
- | Hinted Size   | 109.3kb   |
+ | Dehinted Size | 84.5kb |
+ | Hinted Size   | 109.6kb   |
  | Increase      | 25.1kb      |
- | Change        | 29.9 %  |
+ | Change        | 29.8 %  |
  [code: size-impact]
 </div></details><details><summary>ℹ <b>INFO:</b> EPAR table present in font? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/epar">com.google.fonts/check/epar</a>)</summary><div>
 
@@ -3390,7 +3390,7 @@ PPM <= 65535:
 </div></details><details><summary>ℹ <b>INFO:</b> Check for font-v versioning. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontv">com.google.fonts/check/fontv</a>)</summary><div>
 
 
-* ℹ **INFO** Version string is: "Version 0.215; ttfautohint (v1.8.4.7-5d5b)"
+* ℹ **INFO** Version string is: "Version 0.216; ttfautohint (v1.8.4.7-5d5b)"
 The version string must ideally include a git commit hash and either a "dev" or a "release" suffix such as in the example below:
 "Version 1.3; git-0d08353-release" [code: bad-format]
 </div></details><details><summary>ℹ <b>INFO:</b> Font contains all required tables? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/required_tables">com.google.fonts/check/required_tables</a>)</summary><div>
