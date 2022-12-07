@@ -20,6 +20,10 @@ Further documentation can be found at: https://github.com/FriedOrange/MatrixSans
 Changelog
 ---------
 
+7 December 2022 - Version 0.216
+- Improved kerning
+- Changed appearance of alternative caron diacritic
+
 25 November 2022 - Version 0.215
 - Improved Video style appearance
 - Added additional whitespace and hyphen characters

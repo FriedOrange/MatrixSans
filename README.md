@@ -89,6 +89,10 @@ To easily add or modify glyphs (requires [FontForge](https://fontforge.org/)):
 
 The fonts are currently in early development; significant changes may still occur before the release of Version 1.0.
 
+#### 7 December 2022 - Version 0.216
+- Improved kerning
+- Changed appearance of alternative caron diacritic
+
 #### 25 November 2022 - Version 0.215
 - Improved Video style appearance
 - Added additional whitespace and hyphen characters
