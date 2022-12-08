@@ -12,7 +12,7 @@
 [Shaping]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FFriedOrange%2FMatrixSans%2Fgh-pages%2Fbadges%2FShapingChecks.json
 [Universal]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FFriedOrange%2FMatrixSans%2Fgh-pages%2Fbadges%2FUniversal.json
 
-This is set of pixelated, retro-style fonts based on the classic 5&times;7 dot matrix capitals. The design captures the look of this ubiquitous format, incorporating the best features from historical examples. There are four variants in this family:
+This is set of pixelated, retro-style fonts based on the classic 5&times;7 dot matrix capitals. The design captures the look of this ubiquitous format, incorporating the best features from historical examples. There are five variants in this family:
 
 - **Regular** is like most "pixel" fonts that use connected, square dots, like the displays of 8-bit home computers and video game consoles from the 1980s.
 - **Print** is made up of separate circular dots, resembling the output of a dot-matrix printer or the expiry dates on food products. It also mimics the electronic signs found on motorways, at airports and train stations, etc.
@@ -89,6 +89,9 @@ To easily add or modify glyphs (requires [FontForge](https://fontforge.org/)):
 ## Changelog
 
 The fonts are currently in early development; significant changes may still occur before the release of Version 1.0.
+
+#### 9 December 2022 - Version 0.300
+- Added Raster style
 
 #### 7 December 2022 - Version 0.216
 - Improved kerning
