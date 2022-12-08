@@ -115,7 +115,8 @@ def draw_auxiliary_text():
 	# FONT_NAME = ttFont["name"].getDebugName(4)
 	# FONT_NAME = ttFont["name"].getBestFamilyName()
 	FONT_NAME = ttFont["name"].getBestFullName()
-	FONT_VERSION = "v%s" % floatToFixedToStr(ttFont["head"].fontRevision, 16)
+	# FONT_VERSION = "v%s" % floatToFixedToStr(ttFont["head"].fontRevision, 16)
+	FONT_VERSION = str(ttFont["name"].getName(5, 3, 1))
 	# Setup
 	fill(0.5)
 	font(AUXILIARY_FONT)
