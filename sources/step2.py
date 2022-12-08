@@ -237,6 +237,62 @@ font.round(0.1)
 add_names("Video")
 font.save("MatrixSans-Video.sfd")
 
+#######################################
+# Raster style
+font = fontforge.open(sys.argv[1])
+
+font["dot"].clear()
+pen = font["dot"].glyphPen()
+pen.moveTo((-10, 50))
+pen.curveTo((-10, 72), (8, 90), (30, 90))
+pen.lineTo((70, 90))
+pen.curveTo((92, 90), (110, 72), (110, 50))
+pen.curveTo((110, 28), (92, 10), (70, 10))
+pen.lineTo(30, 10)
+pen.curveTo((8, 10), (-10, 28), (-10, 50))
+pen.closePath()
+font["dot"].width = 100
+
+font.createChar(-1, "dot2") # overlaps with dot to the right
+pen = font["dot2"].glyphPen()
+pen.moveTo((69, 90))
+pen.lineTo((151, 90))
+pen.lineTo((151, 10))
+pen.lineTo((69, 10))
+pen.closePath()
+font["dot2"].width = 100
+
+for glyph in font:
+	# determine where the dots are in each glyph
+	matrix = [[False]*GLYPH_HEIGHT for _ in range(GLYPH_WIDTH)]
+	skip = False
+	for ref, trans in font[glyph].references:
+		if ref != "dot":
+			skip = True
+			break # we are only interested in glyphs that directly reference the "dot" glyph
+		x = int(trans[4]) # coordinates of glyph reference
+		y = int(trans[5])
+		x //= DOT_SIZE
+		y = y // DOT_SIZE + DESCENT_DOTS
+		matrix[x][y] = True
+	if skip:
+		continue
+
+	for j in range(GLYPH_HEIGHT):
+		for i in range(GLYPH_WIDTH - 1):
+			if matrix[i][j] and matrix[i + 1][j]:
+				font[glyph].addReference("dot2", (1, 0, 0, 1, i * DOT_SIZE + LEFT_SIDE_BEARING, (j - DESCENT_DOTS) * DOT_SIZE))
+
+font["dot"].unlinkThisGlyph()
+font["dot"].clear()
+font["dot2"].unlinkThisGlyph()
+font["dot2"].clear()
+font.selection.all()
+font.removeOverlap()
+font.simplify()
+add_names("Raster")
+font.save("MatrixSans-Raster.sfd")
+
 
 # glyph.user_decomp
 # glyph.build()

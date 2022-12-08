@@ -3,5 +3,6 @@ sources:
   - MatrixSans-Screen.ufo
   - MatrixSans-Print.ufo
   - MatrixSans-Video.ufo
+  - MatrixSans-Raster.ufo
 familyName: Matrix Sans
 buildVariable: false

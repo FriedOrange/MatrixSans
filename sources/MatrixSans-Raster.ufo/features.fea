@@ -1,0 +1,254 @@
+languagesystem DFLT dflt;
+languagesystem latn dflt;
+languagesystem latn CAT;
+languagesystem latn TAT;
+languagesystem latn TRK;
+languagesystem latn KAZ;
+languagesystem latn AZE;
+languagesystem latn CRT;
+languagesystem latn MOL;
+languagesystem latn ROM;
+languagesystem latn NSM;
+languagesystem latn NLD;
+
+# classes for small caps substitution
+@uc = [A-Z AE Eth Oslash Thorn Lslash OE uni03A9 Delta Hbar IJ Eng uni1E9E];
+
+# mark classes
+markClass [gravecomb acutecomb uni0302 tildecomb uni0304 uni0306 uni0307 uni0308 uni030A uni030B uni030C uni0312] <anchor 0 600> @marks_above;
+markClass [uni0326 uni0327] <anchor 0 0> @marks_below;
+markClass [uni0328] <anchor 0 0> @ogonek;
+markClass [uni0315] <anchor 0 500> @marks_aboveright;
+
+feature ccmp {
+	sub [i j]' @marks_above by [dotlessi uni0237];
+	sub L uni030C' by uni0315;
+	sub d uni030C' by uni0315;
+	sub l uni030C' by uni0315;
+	sub t uni030C' by uni0315;
+	sub G uni0327' by uni0326;
+	sub g uni0327' by uni0312;
+	sub K uni0327' by uni0326;
+	sub k uni0327' by uni0326;
+	sub L uni0327' by uni0326;
+	sub l uni0327' by uni0326;
+	sub N uni0327' by uni0326;
+	sub n uni0327' by uni0326;
+	sub R uni0327' by uni0326;
+	sub r uni0327' by uni0326;
+	# for Video style:
+	sub A uni0328 by Aogonek;
+	sub u uni0328 by uogonek;
+} ccmp;
+
+# classes for mark positioning
+@tall = [C D G K N O R S T W Y Z k]; # not including glyphs with ogonek or apostrophe-type caron
+@short = [c m-o r s v-x z];
+@deep = [g p q y];
+
+feature mark {
+	pos base [A E] <anchor 300 800> mark @marks_above
+					<anchor 300 0> mark @marks_below
+					<anchor 400 0> mark @ogonek;
+	pos base [I i i.loclTRK] <anchor 200 800> mark @marks_above
+							<anchor 200 0> mark @marks_below
+							<anchor 200 0> mark @ogonek;
+	pos base J <anchor 400 800> mark @marks_above;
+	pos base L <anchor 300 800> mark @marks_above
+				<anchor 300 0> mark @marks_below
+				<anchor 250 500> mark @marks_aboveright;
+	pos base U <anchor 300 800> mark @marks_above
+				<anchor 300 0> mark @marks_below
+				<anchor 300 0> mark @ogonek;
+	pos base @tall <anchor 300 800> mark @marks_above
+					<anchor 300 0> mark @marks_below;
+	pos base d <anchor 300 800> mark @marks_above
+				<anchor 650 500> mark @marks_aboveright;
+	pos base l <anchor 200 800> mark @marks_above
+				<anchor 200 0> mark @marks_below
+				<anchor 350 500> mark @marks_aboveright;
+	pos base t <anchor 300 800> mark @marks_above
+				<anchor 300 0> mark @marks_below
+				<anchor 350 600> mark @marks_aboveright;
+	pos base [a e u] <anchor 300 600> mark @marks_above
+					<anchor 300 0> mark @marks_below
+					<anchor 400 0> mark @ogonek;
+	pos base @short <anchor 300 600> mark @marks_above
+					<anchor 300 0> mark @marks_below;
+	pos base @deep <anchor 300 600> mark @marks_above;
+	pos base dotlessi <anchor 200 600> mark @marks_above
+						<anchor 200 0> mark @marks_below
+						<anchor 200 0> mark @ogonek;
+	pos base uni0237 <anchor 400 600> mark @marks_above;
+	pos base uni25CC <anchor 300 600> mark @marks_above
+					<anchor 300 0> mark @marks_below
+					<anchor 400 0> mark @ogonek
+					<anchor 550 400> mark @marks_aboveright;
+} mark;
+
+feature locl {
+	script latn;
+	language CAT;
+	lookup locl_CAT {
+	    pos l periodcentered' <-100 0 -200 0> l;
+	    pos L periodcentered' <-300 0 -200 0> L;
+	} locl_CAT;
+	language TAT;
+	sub i by i.loclTRK;
+	language TRK;
+	sub i by i.loclTRK;
+	language KAZ;
+	sub i by i.loclTRK;
+	language AZE;
+	sub i by i.loclTRK;
+	language CRT;
+	sub i by i.loclTRK;
+	language MOL;
+	sub Scedilla by uni0218;
+	sub scedilla by uni0219;
+	sub uni0162 by uni021A;
+	sub uni0163 by uni021B;
+	language ROM;
+	sub Scedilla by uni0218;
+	sub scedilla by uni0219;
+	sub uni0162 by uni021A;
+	sub uni0163 by uni021B;
+	language NSM;
+	sub Eng by Eng.loclNSM;
+	language NLD;
+	sub I [J j] by IJ;
+	sub i j by ij;
+	sub Iacute J' by J acutecomb;
+	sub iacute j' by jacute;
+	sub I acutecomb J' by J acutecomb;
+	sub i acutecomb j' by jacute;
+} locl;
+
+# Classes for kerning
+# Left side classes
+@A = [A Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde uni01CD];
+@C = [C Cacute Ccaron Ccedilla Cdotaccent];
+@D = [D Eth Dcaron Dcroat];
+@L = [L Lacute uni013B];
+@curveBR = [B O Oacute Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde S Sacute Scaron Scedilla uni0218 U Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring W b c ccedilla cacute ccaron cdotaccent e eacute ecaron ecircumflex edieresis edotaccent egrave emacron eth o oacute ograve ocircumflex odieresis omacron otilde p s sacute scaron scedilla uni0219 germandbls thorn w wcircumflex]; # curve at bottom right
+@gapLM = [E Eacute Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eogonek I Iacute Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek K uni0136]; # gap at left middle
+@r = [r racute rcaron];
+
+# Right side classes
+@A2 = [A Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde uni01CD AE];
+@strokeLM = [Eth Dcroat f]; # stroke at left middle
+@short_curveTL = [ae c ccedilla d dcaron e eogonek g o oslash oe q s scedilla uni0219]; # curve at top left
+@short_square = [dotlessi m n uni0146 eng p r uni0157 u uogonek v w x y z];
+@curveTL = [cacute ccaron cdotaccent eacute ecaron ecircumflex edieresis edotaccent egrave emacron dcroat eth gdotaccent uni0123 oacute ograve ocircumflex odieresis omacron sacute scaron]; # curve at top left, narrow diacritics
+@i = [i iacute ij iogonek i.loclTRK];
+@a_short = [a aogonek]; # previously in @short_curveTL
+@a_tall = [aacute acircumflex adieresis agrave amacron aring]; # previously in @curveTL
+
+# Left and right side classes
+@T = [T Tcaron uni0162 uni021A];
+@Y = [Y Yacute Ycircumflex Ydieresis Ygrave];
+@t = [ t tcaron uni0163 uni021B];
+
+feature kern {
+	pos F J -200;
+	pos F j -300;
+	pos J J -100;
+	pos J j -200;
+	pos L V -100;
+	pos L v -100;
+	pos L t -100;
+	pos P J -200;
+	pos P a -100;
+	pos V j -200;
+	pos v j -200;
+	pos f j -200;
+	pos F Lslash -100;
+	pos iacute jacute -200;
+	pos J Lslash -100;
+	pos F aacute -200;
+	pos r atilde -100;
+	pos r abreve -100;
+	pos f abreve -100;
+	enum pos @i v -100;
+	pos @A @T -100;
+	pos @D @T -100;
+	pos @D j -200;
+	pos F @A2 -100;
+	pos F @short_curveTL -100;
+	pos F @a_short -200;
+	pos F @short_square -100;
+	pos F @curveTL -100;
+	pos F @a_tall -100;
+	pos F @i -100;
+	pos F @strokeLM -100;
+	pos F @t -100;
+	pos J @A2 -100;
+	pos J @short_curveTL -100;
+	pos J @a_short -100;
+	pos J @short_square -100;
+	pos J @curveTL -100;
+	pos J @a_tall -100;
+	pos J @i -100;
+	pos J @strokeLM -100;
+	pos J @t -100;
+	pos @L @T -200;
+	pos @L @Y -200;
+	pos @L V -100;
+	pos @L @strokeLM -100;
+	pos [P Thorn] j -200;
+	pos @r j -200;
+	pos @r @a_short -100;
+	pos @r @a_tall -100;
+	pos @T @A2 -100;
+	pos @T J -200;
+	pos @T j -200;
+	pos @T @strokeLM -100;
+	pos @T @short_curveTL -100;
+	pos @T @a_short -200;
+	pos @T @short_square -100;
+	pos @T @curveTL -100;
+	pos @T @a_tall -100;
+	pos @T @i -100;
+	pos @T @t -100;
+	pos @Y J -200;
+	pos @Y j -200;
+	pos @Y @strokeLM -100;
+	pos @Y @curveTL -100;
+	pos @Y @a_tall -100;
+	pos @Y @short_curveTL -100;
+	pos @Y @a_short -100;
+	pos f @short_curveTL -100;
+	pos f @a_short -100;
+	pos f @curveTL -100;
+	pos f @a_tall -100;
+	pos f @strokeLM -100;
+	pos [i igrave iogonek l lacute] @t -100;
+	pos [i igrave iogonek l lacute] @strokeLM -100;
+	pos @r l -100;
+	pos @t @t -100;
+	pos @t j -100;
+	pos @t @strokeLM -100;
+	pos @curveBR j -100;
+	pos @C j -100;
+	pos @C @strokeLM -100;
+	pos @gapLM @strokeLM -100;
+	# pos @gapLM @t -100;
+	pos [X Z Zacute Zcaron Zdotaccent] [Eth Dcroat f] -100;
+	pos dcaron @short_curveTL -100;
+	pos dcaron @curveTL -100;
+	pos dcaron @a_short -100;
+	pos dcaron @a_tall -100;
+} kern;
+
+feature tnum {
+	pos one <100 0 200 0>;
+} tnum;
+
+feature zero {
+	sub zero by zero.zero;
+} zero;
+
+table GDEF {
+	# the marks class should be filled in automatically, why isn't it?
+	GlyphClassDef [@tall @short @deep dotlessi uni0237],,[@marks_above @marks_aboveright @ogonek @marks_below],;
+} GDEF;
