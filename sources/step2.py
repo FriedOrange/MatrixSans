@@ -243,22 +243,24 @@ font = fontforge.open(sys.argv[1])
 
 font["dot"].clear()
 pen = font["dot"].glyphPen()
-pen.moveTo((-10, 50))
-pen.curveTo((-10, 72), (8, 90), (30, 90))
-pen.lineTo((70, 90))
-pen.curveTo((92, 90), (110, 72), (110, 50))
-pen.curveTo((110, 28), (92, 10), (70, 10))
-pen.lineTo(30, 10)
-pen.curveTo((8, 10), (-10, 28), (-10, 50))
+pen.moveTo((-15, 50))
+pen.curveTo((-15, 72), (3, 90), (25, 90))
+
+pen.lineTo((75, 90))
+pen.curveTo((97, 90), (115, 72), (115, 50))
+pen.curveTo((115, 28), (97, 10), (75, 10))
+
+pen.lineTo(25, 10)
+pen.curveTo((3, 10), (-15, 28), (-15, 50))
 pen.closePath()
 font["dot"].width = 100
 
 font.createChar(-1, "dot2") # overlaps with dot to the right
 pen = font["dot2"].glyphPen()
-pen.moveTo((69, 90))
-pen.lineTo((151, 90))
-pen.lineTo((151, 10))
-pen.lineTo((69, 10))
+pen.moveTo((74, 90))
+pen.lineTo((126, 90))
+pen.lineTo((126, 10))
+pen.lineTo((74, 10))
 pen.closePath()
 font["dot2"].width = 100
 
