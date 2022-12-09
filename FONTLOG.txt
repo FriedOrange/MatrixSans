@@ -9,9 +9,10 @@ Basic font information
 
 Matrix Sans is a typeface family inspired by classic 5x7 dot matrix fonts.
 
-It comes in four variants:
+It comes in five variants:
 - Regular, with connected square dots
 - Print, with separate circular dots
+- Raster, with rounded horizontal lines
 - Screen, with separate square dots 
 - Video, with interpolation on diagonal sections
 
