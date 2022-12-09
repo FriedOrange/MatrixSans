@@ -2,23 +2,6 @@
 <glyph name="uni0328" format="2">
   <unicode hex="0328"/>
   <outline>
-    <contour>
-      <point x="56.0" y="-194.0" type="line"/>
-      <point x="56.0" y="-106.0" type="line"/>
-      <point x="144.0" y="-106.0" type="line"/>
-      <point x="144.0" y="-194.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="-44.0" y="-194.0" type="line"/>
-      <point x="-44.0" y="-106.0" type="line"/>
-      <point x="44.0" y="-106.0" type="line"/>
-      <point x="44.0" y="-194.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="-44.0" y="-94.0" type="line"/>
-      <point x="-44.0" y="-6.0" type="line"/>
-      <point x="44.0" y="-6.0" type="line"/>
-      <point x="44.0" y="-94.0" type="line"/>
-    </contour>
+    <component base="ogonek" xOffset="-100.0"/>
   </outline>
 </glyph>

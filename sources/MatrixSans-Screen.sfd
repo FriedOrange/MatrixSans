@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1657964544
-ModificationTime: 1670513987
+ModificationTime: 1670546337
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -64,7 +64,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 16 16 14
+WinInfo: 672 16 14
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 629146 314573 209715 524288 1048576 0 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
@@ -13799,23 +13799,7 @@ Flags: HMW
 AnchorPoint: "ogonek" 0 0 mark 0
 LayerCount: 2
 Fore
-SplineSet
-56 -194 m 25
- 56 -106 l 25
- 144 -106 l 25
- 144 -194 l 25
- 56 -194 l 25
--44 -194 m 25
- -44 -106 l 25
- 44 -106 l 25
- 44 -194 l 25
- -44 -194 l 25
--44 -94 m 25
- -44 -6 l 25
- 44 -6 l 25
- 44 -94 l 25
- -44 -94 l 25
-EndSplineSet
+Refer: 192 731 N 1 0 0 1 -100 0 2
 EndChar
 
 StartChar: Aogonek
