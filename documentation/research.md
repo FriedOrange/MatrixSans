@@ -1313,7 +1313,7 @@
 </tr>
 <tr>
 	<td><img src="research/options/at.png"></td>
-	<td>Option 1 is the more common design, and looks better in context.</td>
+	<td>I like Option 2, but Option 1 is the more common design and looks better in the context of email addresses, etc.</td>
 </tr>
 <tr>
 	<td><img src="research/options/A.png"></td>
