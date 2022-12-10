@@ -1313,7 +1313,7 @@
 </tr>
 <tr>
 	<td><img src="research/options/at.png"></td>
-	<td>Option 1 visibly contains an <i>a</i>, as at signs probably should.</td>
+	<td>Option 1 is the more common design, and looks better in context.</td>
 </tr>
 <tr>
 	<td><img src="research/options/A.png"></td>
