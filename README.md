@@ -67,7 +67,12 @@ Fonts are built automatically by GitHub Actions - see the "Actions" tab for the 
 
 ### Building manually
 
-Ensure the following programs are installed and added to your PATH environment variable: [Python](https://www.python.org/downloads/), [gftools](https://github.com/googlefonts/gftools).
+Ensure the following programs are installed: 
+- [Python](https://www.python.org/downloads/), for running the following three items
+- [gftools](https://github.com/googlefonts/gftools), for building the fonts from the intermediate UFO sources
+- [Font Bakery](https://github.com/googlefonts/fontbakery/), for testing the fonts (run `test.bat`)
+- [sfdLib](https://github.com/MFEK/sfdLib.py), for generating the UFO sources (see below)
+After installing Python, the following three may be acquired automatically by running `pip install -r requirements.txt` at the command line.
 
 To build the fonts manually on Windows:
 
