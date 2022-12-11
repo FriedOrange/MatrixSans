@@ -74,6 +74,10 @@ Fontbakery version: 0.8.10
 
 
 * 🔥 **FAIL** The NameID.VERSION_STRING (nameID=5) value must follow the pattern "Version X.Y" with X.Y greater than or equal to 1.000. Current version string is: "Version 0.301; ttfautohint (v1.8.4.7-5d5b)" [code: bad-version-strings]
+</div></details><details><summary>🔥 <b>FAIL:</b> Ensure that the font can be rasterized by FreeType. (derived from com.adobe.fonts/check/freetype_rasterizer) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.adobe.fonts/check/freetype_rasterizer">com.adobe.fonts/check/freetype_rasterizer</a>)</summary><div>
+
+
+* 🔥 **FAIL** FreeType is not available; to install it, invoke the 'freetype' extra when installing Font Bakery. [code: freetype-not-installed]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -87,30 +91,42 @@ Fontbakery version: 0.8.10
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
-
 	- Glyph name: percent	Contours detected: 3	Expected: 5
 
-	- Glyph name: asterisk	Contours detected: 2	Expected: 1 or 4
+	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
 
-	- Glyph name: zero	Contours detected: 1	Expected: 2 or 3
+	- Glyph name: registered	Contours detected: 5	Expected: 3 or 4
 
-	- Glyph name: three	Contours detected: 2	Expected: 1
+	- Glyph name: onehalf	Contours detected: 2	Expected: 3
 
-	- Glyph name: five	Contours detected: 2	Expected: 1
+	- Glyph name: aring	Contours detected: 3	Expected: 4
 
-	- Glyph name: eight	Contours detected: 1	Expected: 3
+	- Glyph name: uni0122	Contours detected: 1	Expected: 2
 
-	- Glyph name: B	Contours detected: 1	Expected: 2 or 3
+	- Glyph name: uni013B	Contours detected: 1	Expected: 2
 
-	- Glyph name: C	Contours detected: 2	Expected: 1
+	- Glyph name: uni013C	Contours detected: 1	Expected: 2
 
-	- Glyph name: D	Contours detected: 1	Expected: 2 
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
 
-	- And 255 more.
+	- Glyph name: uni0218	Contours detected: 1	Expected: 2 
+
+	- And 20 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
+</div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have colinear vectors:
+
+	* copyright (U+00A9): L<<550.0,0.0>--<350.0,0.0>> -> L<<350.0,0.0>--<250.0,0.0>>
+
+	* copyright (U+00A9): L<<650.0,0.0>--<550.0,0.0>> -> L<<550.0,0.0>--<350.0,0.0>>
+
+	* registered (U+00AE): L<<550.0,0.0>--<350.0,0.0>> -> L<<350.0,0.0>--<250.0,0.0>> 
+
+	* And registered (U+00AE): L<<650.0,0.0>--<550.0,0.0>> -> L<<550.0,0.0>--<350.0,0.0>> [code: found-colinear-vectors]
 </div></details><details><summary>💤 <b>SKIP:</b> Does DESCRIPTION file contain broken links? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/broken_links">com.google.fonts/check/description/broken_links</a>)</summary><div>
 
 
@@ -562,10 +578,10 @@ Use -F or --full-lists to disable shortening of long lists.
 
  |               | fonts/ttf/MatrixSans-Regular.ttf          |
  |:------------- | ---------------:|
- | Dehinted Size | 26.7kb |
- | Hinted Size   | 46.9kb   |
- | Increase      | 20.2kb      |
- | Change        | 75.8 %  |
+ | Dehinted Size | 26.6kb |
+ | Hinted Size   | 46.0kb   |
+ | Increase      | 19.4kb      |
+ | Change        | 73.1 %  |
  [code: size-impact]
 </div></details><details><summary>ℹ <b>INFO:</b> EPAR table present in font? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/epar">com.google.fonts/check/epar</a>)</summary><div>
 
@@ -853,10 +869,6 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 
 * 🍞 **PASS** Font has no GPOS7 lookups
-</div></details><details><summary>🍞 <b>PASS:</b> Ensure that the font can be rasterized by FreeType. (derived from com.adobe.fonts/check/freetype_rasterizer) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.adobe.fonts/check/freetype_rasterizer">com.adobe.fonts/check/freetype_rasterizer</a>)</summary><div>
-
-
-* 🍞 **PASS** Font can be rasterized by FreeType.
 </div></details><details><summary>🍞 <b>PASS:</b> Font has the proper sfntVersion value? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.adobe.fonts/check/sfnt_version">com.adobe.fonts/check/sfnt_version</a>)</summary><div>
 
 
@@ -981,10 +993,6 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 
 * 🍞 **PASS** No short segments were found.
-</div></details><details><summary>🍞 <b>PASS:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
-
-
-* 🍞 **PASS** No colinear vectors found.
 </div></details><details><summary>🍞 <b>PASS:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
@@ -1015,6 +1023,10 @@ The version string must ideally include a git commit hash and either a "dev" or 
 | Typographic Family Name | Matrix Sans | N/A |
 | Typographic Subfamily Name | Video | N/A | [code: bad-names]
 * ⚠ **WARN** Regular missing from full name [code: lacks-regular]
+</div></details><details><summary>🔥 <b>FAIL:</b> Ensure that the font can be rasterized by FreeType. (derived from com.adobe.fonts/check/freetype_rasterizer) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.adobe.fonts/check/freetype_rasterizer">com.adobe.fonts/check/freetype_rasterizer</a>)</summary><div>
+
+
+* 🔥 **FAIL** FreeType is not available; to install it, invoke the 'freetype' extra when installing Font Bakery. [code: freetype-not-installed]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -1032,6 +1044,8 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
 
+	- Glyph name: registered	Contours detected: 5	Expected: 3 or 4
+
 	- Glyph name: onehalf	Contours detected: 2	Expected: 3
 
 	- Glyph name: aring	Contours detected: 3	Expected: 4
@@ -1044,11 +1058,9 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uogonek	Contours detected: 3	Expected: 1
 
-	- Glyph name: uni0218	Contours detected: 1	Expected: 2
+	- Glyph name: uni0218	Contours detected: 1	Expected: 2 
 
-	- Glyph name: uni0219	Contours detected: 1	Expected: 2 
-
-	- And 18 more.
+	- And 20 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -1520,9 +1532,9 @@ Use -F or --full-lists to disable shortening of long lists.
  |               | fonts/ttf/MatrixSans-Video.ttf          |
  |:------------- | ---------------:|
  | Dehinted Size | 30.4kb |
- | Hinted Size   | 70.3kb   |
- | Increase      | 39.9kb      |
- | Change        | 131.1 %  |
+ | Hinted Size   | 69.6kb   |
+ | Increase      | 39.2kb      |
+ | Change        | 128.9 %  |
  [code: size-impact]
 </div></details><details><summary>ℹ <b>INFO:</b> EPAR table present in font? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/epar">com.google.fonts/check/epar</a>)</summary><div>
 
@@ -1776,10 +1788,6 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 
 * 🍞 **PASS** Font has no GPOS7 lookups
-</div></details><details><summary>🍞 <b>PASS:</b> Ensure that the font can be rasterized by FreeType. (derived from com.adobe.fonts/check/freetype_rasterizer) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.adobe.fonts/check/freetype_rasterizer">com.adobe.fonts/check/freetype_rasterizer</a>)</summary><div>
-
-
-* 🍞 **PASS** Font can be rasterized by FreeType.
 </div></details><details><summary>🍞 <b>PASS:</b> Font has the proper sfntVersion value? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.adobe.fonts/check/sfnt_version">com.adobe.fonts/check/sfnt_version</a>)</summary><div>
 
 
@@ -1938,6 +1946,10 @@ The version string must ideally include a git commit hash and either a "dev" or 
 | Typographic Family Name | Matrix Sans | N/A |
 | Typographic Subfamily Name | Screen | N/A | [code: bad-names]
 * ⚠ **WARN** Regular missing from full name [code: lacks-regular]
+</div></details><details><summary>🔥 <b>FAIL:</b> Ensure that the font can be rasterized by FreeType. (derived from com.adobe.fonts/check/freetype_rasterizer) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.adobe.fonts/check/freetype_rasterizer">com.adobe.fonts/check/freetype_rasterizer</a>)</summary><div>
+
+
+* 🔥 **FAIL** FreeType is not available; to install it, invoke the 'freetype' extra when installing Font Bakery. [code: freetype-not-installed]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -2442,10 +2454,10 @@ Use -F or --full-lists to disable shortening of long lists.
 
  |               | fonts/ttf/MatrixSans-Screen.ttf          |
  |:------------- | ---------------:|
- | Dehinted Size | 40.8kb |
- | Hinted Size   | 74.1kb   |
- | Increase      | 33.3kb      |
- | Change        | 81.7 %  |
+ | Dehinted Size | 41.6kb |
+ | Hinted Size   | 67.4kb   |
+ | Increase      | 25.8kb      |
+ | Change        | 61.9 %  |
  [code: size-impact]
 </div></details><details><summary>ℹ <b>INFO:</b> EPAR table present in font? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/epar">com.google.fonts/check/epar</a>)</summary><div>
 
@@ -2699,10 +2711,6 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 
 * 🍞 **PASS** Font has no GPOS7 lookups
-</div></details><details><summary>🍞 <b>PASS:</b> Ensure that the font can be rasterized by FreeType. (derived from com.adobe.fonts/check/freetype_rasterizer) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.adobe.fonts/check/freetype_rasterizer">com.adobe.fonts/check/freetype_rasterizer</a>)</summary><div>
-
-
-* 🍞 **PASS** Font can be rasterized by FreeType.
 </div></details><details><summary>🍞 <b>PASS:</b> Font has the proper sfntVersion value? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.adobe.fonts/check/sfnt_version">com.adobe.fonts/check/sfnt_version</a>)</summary><div>
 
 
@@ -2861,6 +2869,10 @@ The version string must ideally include a git commit hash and either a "dev" or 
 | Typographic Family Name | Matrix Sans | N/A |
 | Typographic Subfamily Name | Print | N/A | [code: bad-names]
 * ⚠ **WARN** Regular missing from full name [code: lacks-regular]
+</div></details><details><summary>🔥 <b>FAIL:</b> Ensure that the font can be rasterized by FreeType. (derived from com.adobe.fonts/check/freetype_rasterizer) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.adobe.fonts/check/freetype_rasterizer">com.adobe.fonts/check/freetype_rasterizer</a>)</summary><div>
+
+
+* 🔥 **FAIL** FreeType is not available; to install it, invoke the 'freetype' extra when installing Font Bakery. [code: freetype-not-installed]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -3366,9 +3378,9 @@ Use -F or --full-lists to disable shortening of long lists.
  |               | fonts/ttf/MatrixSans-Print.ttf          |
  |:------------- | ---------------:|
  | Dehinted Size | 84.4kb |
- | Hinted Size   | 109.5kb   |
+ | Hinted Size   | 109.6kb   |
  | Increase      | 25.1kb      |
- | Change        | 29.7 %  |
+ | Change        | 29.8 %  |
  [code: size-impact]
 </div></details><details><summary>ℹ <b>INFO:</b> EPAR table present in font? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/epar">com.google.fonts/check/epar</a>)</summary><div>
 
@@ -3622,10 +3634,6 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 
 * 🍞 **PASS** Font has no GPOS7 lookups
-</div></details><details><summary>🍞 <b>PASS:</b> Ensure that the font can be rasterized by FreeType. (derived from com.adobe.fonts/check/freetype_rasterizer) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.adobe.fonts/check/freetype_rasterizer">com.adobe.fonts/check/freetype_rasterizer</a>)</summary><div>
-
-
-* 🍞 **PASS** Font can be rasterized by FreeType.
 </div></details><details><summary>🍞 <b>PASS:</b> Font has the proper sfntVersion value? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.adobe.fonts/check/sfnt_version">com.adobe.fonts/check/sfnt_version</a>)</summary><div>
 
 
@@ -3784,6 +3792,10 @@ The version string must ideally include a git commit hash and either a "dev" or 
 | Typographic Family Name | Matrix Sans | N/A |
 | Typographic Subfamily Name | Raster | N/A | [code: bad-names]
 * ⚠ **WARN** Regular missing from full name [code: lacks-regular]
+</div></details><details><summary>🔥 <b>FAIL:</b> Ensure that the font can be rasterized by FreeType. (derived from com.adobe.fonts/check/freetype_rasterizer) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.adobe.fonts/check/freetype_rasterizer">com.adobe.fonts/check/freetype_rasterizer</a>)</summary><div>
+
+
+* 🔥 **FAIL** FreeType is not available; to install it, invoke the 'freetype' extra when installing Font Bakery. [code: freetype-not-installed]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -4288,10 +4300,10 @@ Use -F or --full-lists to disable shortening of long lists.
 
  |               | fonts/ttf/MatrixSans-Raster.ttf          |
  |:------------- | ---------------:|
- | Dehinted Size | 71.3kb |
- | Hinted Size   | 93.1kb   |
- | Increase      | 21.8kb      |
- | Change        | 30.6 %  |
+ | Dehinted Size | 71.1kb |
+ | Hinted Size   | 93.0kb   |
+ | Increase      | 21.9kb      |
+ | Change        | 30.8 %  |
  [code: size-impact]
 </div></details><details><summary>ℹ <b>INFO:</b> EPAR table present in font? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/epar">com.google.fonts/check/epar</a>)</summary><div>
 
@@ -4545,10 +4557,6 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 
 * 🍞 **PASS** Font has no GPOS7 lookups
-</div></details><details><summary>🍞 <b>PASS:</b> Ensure that the font can be rasterized by FreeType. (derived from com.adobe.fonts/check/freetype_rasterizer) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.adobe.fonts/check/freetype_rasterizer">com.adobe.fonts/check/freetype_rasterizer</a>)</summary><div>
-
-
-* 🍞 **PASS** Font can be rasterized by FreeType.
 </div></details><details><summary>🍞 <b>PASS:</b> Font has the proper sfntVersion value? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.adobe.fonts/check/sfnt_version">com.adobe.fonts/check/sfnt_version</a>)</summary><div>
 
 
@@ -4690,8 +4698,8 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 13 | 10 | 573 | 36 | 443 | 0 |
-| 0% | 1% | 1% | 53% | 3% | 41% | 0% |
+| 0 | 18 | 11 | 573 | 36 | 437 | 0 |
+| 0% | 2% | 1% | 53% | 3% | 41% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **DEBUG**
