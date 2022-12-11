@@ -6,3 +6,4 @@ sources:
   - MatrixSans-Raster.ufo
 familyName: Matrix Sans
 buildVariable: false
+removeOutlineOverlaps: false
