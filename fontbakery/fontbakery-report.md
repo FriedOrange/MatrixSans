@@ -115,18 +115,6 @@ The following glyphs do not have the recommended number of contours:
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have colinear vectors:
-
-	* copyright (U+00A9): L<<550.0,0.0>--<350.0,0.0>> -> L<<350.0,0.0>--<250.0,0.0>>
-
-	* copyright (U+00A9): L<<650.0,0.0>--<550.0,0.0>> -> L<<550.0,0.0>--<350.0,0.0>>
-
-	* registered (U+00AE): L<<550.0,0.0>--<350.0,0.0>> -> L<<350.0,0.0>--<250.0,0.0>> 
-
-	* And registered (U+00AE): L<<650.0,0.0>--<550.0,0.0>> -> L<<550.0,0.0>--<350.0,0.0>> [code: found-colinear-vectors]
 </div></details><details><summary>💤 <b>SKIP:</b> Does DESCRIPTION file contain broken links? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/broken_links">com.google.fonts/check/description/broken_links</a>)</summary><div>
 
 
@@ -578,8 +566,8 @@ Use -F or --full-lists to disable shortening of long lists.
 
  |               | fonts/ttf/MatrixSans-Regular.ttf          |
  |:------------- | ---------------:|
- | Dehinted Size | 26.6kb |
- | Hinted Size   | 46.0kb   |
+ | Dehinted Size | 26.5kb |
+ | Hinted Size   | 45.9kb   |
  | Increase      | 19.4kb      |
  | Change        | 73.1 %  |
  [code: size-impact]
@@ -993,6 +981,10 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 
 * 🍞 **PASS** No short segments were found.
+</div></details><details><summary>🍞 <b>PASS:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
+
+
+* 🍞 **PASS** No colinear vectors found.
 </div></details><details><summary>🍞 <b>PASS:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
@@ -1534,7 +1526,7 @@ Use -F or --full-lists to disable shortening of long lists.
  | Dehinted Size | 30.4kb |
  | Hinted Size   | 69.6kb   |
  | Increase      | 39.2kb      |
- | Change        | 128.9 %  |
+ | Change        | 129.1 %  |
  [code: size-impact]
 </div></details><details><summary>ℹ <b>INFO:</b> EPAR table present in font? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/epar">com.google.fonts/check/epar</a>)</summary><div>
 
@@ -4698,7 +4690,7 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 18 | 11 | 573 | 36 | 437 | 0 |
+| 0 | 18 | 10 | 573 | 36 | 438 | 0 |
 | 0% | 2% | 1% | 53% | 3% | 41% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
