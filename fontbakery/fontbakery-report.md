@@ -73,16 +73,12 @@ Fontbakery version: 0.8.10
 </div></details><br></div></details><details><summary><b>[212] MatrixSans-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Version format is correct in 'name' table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/version_format">com.google.fonts/check/name/version_format</a>)</summary><div>
 
 
-* 🔥 **FAIL** The NameID.VERSION_STRING (nameID=5) value must follow the pattern "Version X.Y" with X.Y greater than or equal to 1.000. Current version string is: "Version 0.300; ttfautohint (v1.8.4.7-5d5b)" [code: bad-version-strings]
+* 🔥 **FAIL** The NameID.VERSION_STRING (nameID=5) value must follow the pattern "Version X.Y" with X.Y greater than or equal to 1.000. Current version string is: "Version 0.301; ttfautohint (v1.8.4.7-5d5b)" [code: bad-version-strings]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
 * ⚠ **WARN** OS/2 VendorID is 'PfEd', a font editor default. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
  [code: bad]
-</div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
-
-
-* ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
@@ -566,10 +562,10 @@ Use -F or --full-lists to disable shortening of long lists.
 
  |               | fonts/ttf/MatrixSans-Regular.ttf          |
  |:------------- | ---------------:|
- | Dehinted Size | 26.6kb |
+ | Dehinted Size | 26.7kb |
  | Hinted Size   | 46.9kb   |
- | Increase      | 20.3kb      |
- | Change        | 76.2 %  |
+ | Increase      | 20.2kb      |
+ | Change        | 75.8 %  |
  [code: size-impact]
 </div></details><details><summary>ℹ <b>INFO:</b> EPAR table present in font? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/epar">com.google.fonts/check/epar</a>)</summary><div>
 
@@ -591,9 +587,14 @@ PPM <= 65535:
 </div></details><details><summary>ℹ <b>INFO:</b> Check for font-v versioning. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontv">com.google.fonts/check/fontv</a>)</summary><div>
 
 
-* ℹ **INFO** Version string is: "Version 0.300; ttfautohint (v1.8.4.7-5d5b)"
+* ℹ **INFO** Version string is: "Version 0.301; ttfautohint (v1.8.4.7-5d5b)"
 The version string must ideally include a git commit hash and either a "dev" or a "release" suffix such as in the example below:
 "Version 1.3; git-0d08353-release" [code: bad-format]
+</div></details><details><summary>ℹ <b>INFO:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
+
+
+* ℹ **INFO** Latn [code: dlng-tag]
+* ℹ **INFO** Latn [code: slng-tag]
 </div></details><details><summary>ℹ <b>INFO:</b> Font contains all required tables? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/required_tables">com.google.fonts/check/required_tables</a>)</summary><div>
 
 
@@ -999,7 +1000,7 @@ The version string must ideally include a git commit hash and either a "dev" or 
 </div></details><details><summary>🔥 <b>FAIL:</b> Version format is correct in 'name' table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/version_format">com.google.fonts/check/name/version_format</a>)</summary><div>
 
 
-* 🔥 **FAIL** The NameID.VERSION_STRING (nameID=5) value must follow the pattern "Version X.Y" with X.Y greater than or equal to 1.000. Current version string is: "Version 0.300; ttfautohint (v1.8.4.7-5d5b)" [code: bad-version-strings]
+* 🔥 **FAIL** The NameID.VERSION_STRING (nameID=5) value must follow the pattern "Version X.Y" with X.Y greater than or equal to 1.000. Current version string is: "Version 0.301; ttfautohint (v1.8.4.7-5d5b)" [code: bad-version-strings]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
 
 
@@ -1019,10 +1020,6 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 * ⚠ **WARN** OS/2 VendorID is 'PfEd', a font editor default. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
  [code: bad]
-</div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
-
-
-* ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
@@ -1525,7 +1522,7 @@ Use -F or --full-lists to disable shortening of long lists.
  | Dehinted Size | 30.4kb |
  | Hinted Size   | 70.3kb   |
  | Increase      | 39.9kb      |
- | Change        | 131.5 %  |
+ | Change        | 131.1 %  |
  [code: size-impact]
 </div></details><details><summary>ℹ <b>INFO:</b> EPAR table present in font? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/epar">com.google.fonts/check/epar</a>)</summary><div>
 
@@ -1547,9 +1544,14 @@ PPM <= 65535:
 </div></details><details><summary>ℹ <b>INFO:</b> Check for font-v versioning. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontv">com.google.fonts/check/fontv</a>)</summary><div>
 
 
-* ℹ **INFO** Version string is: "Version 0.300; ttfautohint (v1.8.4.7-5d5b)"
+* ℹ **INFO** Version string is: "Version 0.301; ttfautohint (v1.8.4.7-5d5b)"
 The version string must ideally include a git commit hash and either a "dev" or a "release" suffix such as in the example below:
 "Version 1.3; git-0d08353-release" [code: bad-format]
+</div></details><details><summary>ℹ <b>INFO:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
+
+
+* ℹ **INFO** Latn [code: dlng-tag]
+* ℹ **INFO** Latn [code: slng-tag]
 </div></details><details><summary>ℹ <b>INFO:</b> Font contains all required tables? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/required_tables">com.google.fonts/check/required_tables</a>)</summary><div>
 
 
@@ -1921,7 +1923,7 @@ The version string must ideally include a git commit hash and either a "dev" or 
 </div></details><details><summary>🔥 <b>FAIL:</b> Version format is correct in 'name' table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/version_format">com.google.fonts/check/name/version_format</a>)</summary><div>
 
 
-* 🔥 **FAIL** The NameID.VERSION_STRING (nameID=5) value must follow the pattern "Version X.Y" with X.Y greater than or equal to 1.000. Current version string is: "Version 0.300; ttfautohint (v1.8.4.7-5d5b)" [code: bad-version-strings]
+* 🔥 **FAIL** The NameID.VERSION_STRING (nameID=5) value must follow the pattern "Version X.Y" with X.Y greater than or equal to 1.000. Current version string is: "Version 0.301; ttfautohint (v1.8.4.7-5d5b)" [code: bad-version-strings]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
 
 
@@ -1941,10 +1943,6 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 * ⚠ **WARN** OS/2 VendorID is 'PfEd', a font editor default. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
  [code: bad]
-</div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
-
-
-* ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
@@ -2444,10 +2442,10 @@ Use -F or --full-lists to disable shortening of long lists.
 
  |               | fonts/ttf/MatrixSans-Screen.ttf          |
  |:------------- | ---------------:|
- | Dehinted Size | 40.7kb |
+ | Dehinted Size | 40.8kb |
  | Hinted Size   | 74.1kb   |
  | Increase      | 33.3kb      |
- | Change        | 81.9 %  |
+ | Change        | 81.7 %  |
  [code: size-impact]
 </div></details><details><summary>ℹ <b>INFO:</b> EPAR table present in font? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/epar">com.google.fonts/check/epar</a>)</summary><div>
 
@@ -2469,9 +2467,14 @@ PPM <= 65535:
 </div></details><details><summary>ℹ <b>INFO:</b> Check for font-v versioning. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontv">com.google.fonts/check/fontv</a>)</summary><div>
 
 
-* ℹ **INFO** Version string is: "Version 0.300; ttfautohint (v1.8.4.7-5d5b)"
+* ℹ **INFO** Version string is: "Version 0.301; ttfautohint (v1.8.4.7-5d5b)"
 The version string must ideally include a git commit hash and either a "dev" or a "release" suffix such as in the example below:
 "Version 1.3; git-0d08353-release" [code: bad-format]
+</div></details><details><summary>ℹ <b>INFO:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
+
+
+* ℹ **INFO** Latn [code: dlng-tag]
+* ℹ **INFO** Latn [code: slng-tag]
 </div></details><details><summary>ℹ <b>INFO:</b> Font contains all required tables? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/required_tables">com.google.fonts/check/required_tables</a>)</summary><div>
 
 
@@ -2843,7 +2846,7 @@ The version string must ideally include a git commit hash and either a "dev" or 
 </div></details><details><summary>🔥 <b>FAIL:</b> Version format is correct in 'name' table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/version_format">com.google.fonts/check/name/version_format</a>)</summary><div>
 
 
-* 🔥 **FAIL** The NameID.VERSION_STRING (nameID=5) value must follow the pattern "Version X.Y" with X.Y greater than or equal to 1.000. Current version string is: "Version 0.300; ttfautohint (v1.8.4.7-5d5b)" [code: bad-version-strings]
+* 🔥 **FAIL** The NameID.VERSION_STRING (nameID=5) value must follow the pattern "Version X.Y" with X.Y greater than or equal to 1.000. Current version string is: "Version 0.301; ttfautohint (v1.8.4.7-5d5b)" [code: bad-version-strings]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
 
 
@@ -2863,10 +2866,6 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 * ⚠ **WARN** OS/2 VendorID is 'PfEd', a font editor default. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
  [code: bad]
-</div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
-
-
-* ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
@@ -3366,10 +3365,10 @@ Use -F or --full-lists to disable shortening of long lists.
 
  |               | fonts/ttf/MatrixSans-Print.ttf          |
  |:------------- | ---------------:|
- | Dehinted Size | 84.5kb |
- | Hinted Size   | 109.6kb   |
+ | Dehinted Size | 84.4kb |
+ | Hinted Size   | 109.5kb   |
  | Increase      | 25.1kb      |
- | Change        | 29.8 %  |
+ | Change        | 29.7 %  |
  [code: size-impact]
 </div></details><details><summary>ℹ <b>INFO:</b> EPAR table present in font? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/epar">com.google.fonts/check/epar</a>)</summary><div>
 
@@ -3391,9 +3390,14 @@ PPM <= 65535:
 </div></details><details><summary>ℹ <b>INFO:</b> Check for font-v versioning. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontv">com.google.fonts/check/fontv</a>)</summary><div>
 
 
-* ℹ **INFO** Version string is: "Version 0.300; ttfautohint (v1.8.4.7-5d5b)"
+* ℹ **INFO** Version string is: "Version 0.301; ttfautohint (v1.8.4.7-5d5b)"
 The version string must ideally include a git commit hash and either a "dev" or a "release" suffix such as in the example below:
 "Version 1.3; git-0d08353-release" [code: bad-format]
+</div></details><details><summary>ℹ <b>INFO:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
+
+
+* ℹ **INFO** Latn [code: dlng-tag]
+* ℹ **INFO** Latn [code: slng-tag]
 </div></details><details><summary>ℹ <b>INFO:</b> Font contains all required tables? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/required_tables">com.google.fonts/check/required_tables</a>)</summary><div>
 
 
@@ -3765,7 +3769,7 @@ The version string must ideally include a git commit hash and either a "dev" or 
 </div></details><details><summary>🔥 <b>FAIL:</b> Version format is correct in 'name' table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/version_format">com.google.fonts/check/name/version_format</a>)</summary><div>
 
 
-* 🔥 **FAIL** The NameID.VERSION_STRING (nameID=5) value must follow the pattern "Version X.Y" with X.Y greater than or equal to 1.000. Current version string is: "Version 0.300; ttfautohint (v1.8.4.7-5d5b)" [code: bad-version-strings]
+* 🔥 **FAIL** The NameID.VERSION_STRING (nameID=5) value must follow the pattern "Version X.Y" with X.Y greater than or equal to 1.000. Current version string is: "Version 0.301; ttfautohint (v1.8.4.7-5d5b)" [code: bad-version-strings]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
 
 
@@ -3785,10 +3789,6 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 * ⚠ **WARN** OS/2 VendorID is 'PfEd', a font editor default. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
  [code: bad]
-</div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
-
-
-* ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
@@ -3821,62 +3821,6 @@ The following glyphs do not have the recommended number of contours:
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have segments which seem very short:
-
-	* underscore (U+005F) contains a short segment L<<175.0,-10.0>--<176.0,-10.0>>
-
-	* underscore (U+005F) contains a short segment L<<275.0,-10.0>--<276.0,-10.0>>
-
-	* underscore (U+005F) contains a short segment L<<375.0,-10.0>--<376.0,-10.0>>
-
-	* underscore (U+005F) contains a short segment L<<475.0,-10.0>--<476.0,-10.0>>
-
-	* underscore (U+005F) contains a short segment L<<575.0,-10.0>--<576.0,-10.0>>
-
-	* underscore (U+005F) contains a short segment L<<525.0,-90.0>--<524.0,-90.0>>
-
-	* underscore (U+005F) contains a short segment L<<425.0,-90.0>--<424.0,-90.0>>
-
-	* underscore (U+005F) contains a short segment L<<325.0,-90.0>--<324.0,-90.0>>
-
-	* underscore (U+005F) contains a short segment L<<225.0,-90.0>--<224.0,-90.0>>
-
-	* underscore (U+005F) contains a short segment L<<125.0,-90.0>--<124.0,-90.0>> 
-
-	* And 10 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
-</div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have colinear vectors:
-
-	* emdash (U+2014): L<<124.0,390.0>--<175.0,390.0>> -> L<<175.0,390.0>--<176.0,390.0>>
-
-	* emdash (U+2014): L<<176.0,310.0>--<125.0,310.0>> -> L<<125.0,310.0>--<124.0,310.0>>
-
-	* emdash (U+2014): L<<224.0,390.0>--<275.0,390.0>> -> L<<275.0,390.0>--<276.0,390.0>>
-
-	* emdash (U+2014): L<<276.0,310.0>--<225.0,310.0>> -> L<<225.0,310.0>--<224.0,310.0>>
-
-	* emdash (U+2014): L<<324.0,390.0>--<375.0,390.0>> -> L<<375.0,390.0>--<376.0,390.0>>
-
-	* emdash (U+2014): L<<376.0,310.0>--<325.0,310.0>> -> L<<325.0,310.0>--<324.0,310.0>>
-
-	* emdash (U+2014): L<<424.0,390.0>--<475.0,390.0>> -> L<<475.0,390.0>--<476.0,390.0>>
-
-	* emdash (U+2014): L<<476.0,310.0>--<425.0,310.0>> -> L<<425.0,310.0>--<424.0,310.0>>
-
-	* emdash (U+2014): L<<524.0,390.0>--<575.0,390.0>> -> L<<575.0,390.0>--<576.0,390.0>>
-
-	* emdash (U+2014): L<<576.0,310.0>--<525.0,310.0>> -> L<<525.0,310.0>--<524.0,310.0>> 
-
-	* And 10 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: found-colinear-vectors]
 </div></details><details><summary>💤 <b>SKIP:</b> Does DESCRIPTION file contain broken links? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/broken_links">com.google.fonts/check/description/broken_links</a>)</summary><div>
 
 
@@ -4344,10 +4288,10 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
  |               | fonts/ttf/MatrixSans-Raster.ttf          |
  |:------------- | ---------------:|
- | Dehinted Size | 71.6kb |
- | Hinted Size   | 93.7kb   |
- | Increase      | 22.0kb      |
- | Change        | 30.7 %  |
+ | Dehinted Size | 71.3kb |
+ | Hinted Size   | 93.1kb   |
+ | Increase      | 21.8kb      |
+ | Change        | 30.6 %  |
  [code: size-impact]
 </div></details><details><summary>ℹ <b>INFO:</b> EPAR table present in font? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/epar">com.google.fonts/check/epar</a>)</summary><div>
 
@@ -4369,9 +4313,14 @@ PPM <= 65535:
 </div></details><details><summary>ℹ <b>INFO:</b> Check for font-v versioning. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontv">com.google.fonts/check/fontv</a>)</summary><div>
 
 
-* ℹ **INFO** Version string is: "Version 0.300; ttfautohint (v1.8.4.7-5d5b)"
+* ℹ **INFO** Version string is: "Version 0.301; ttfautohint (v1.8.4.7-5d5b)"
 The version string must ideally include a git commit hash and either a "dev" or a "release" suffix such as in the example below:
 "Version 1.3; git-0d08353-release" [code: bad-format]
+</div></details><details><summary>ℹ <b>INFO:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
+
+
+* ℹ **INFO** Latn [code: dlng-tag]
+* ℹ **INFO** Latn [code: slng-tag]
 </div></details><details><summary>ℹ <b>INFO:</b> Font contains all required tables? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/required_tables">com.google.fonts/check/required_tables</a>)</summary><div>
 
 
@@ -4720,6 +4669,14 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 
 * 🍞 **PASS** Y-coordinates of points fell on appropriate boundaries.
+</div></details><details><summary>🍞 <b>PASS:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
+
+
+* 🍞 **PASS** No short segments were found.
+</div></details><details><summary>🍞 <b>PASS:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
+
+
+* 🍞 **PASS** No colinear vectors found.
 </div></details><details><summary>🍞 <b>PASS:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
@@ -4733,8 +4690,8 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 13 | 17 | 573 | 31 | 441 | 0 |
-| 0% | 1% | 2% | 53% | 3% | 41% | 0% |
+| 0 | 13 | 10 | 573 | 36 | 443 | 0 |
+| 0% | 1% | 1% | 53% | 3% | 41% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **DEBUG**
