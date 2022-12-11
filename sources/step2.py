@@ -42,6 +42,7 @@ for glyph in unlink_list:
 	font[glyph].unlinkRef() # prevent rendering issues with just-touching components
 font.selection.all()
 font.removeOverlap()
+font.round()
 font.simplify()
 font.round(0.1) # hack: the "dot" glyph is deliberately 1 unit too large so that simplify() produces nicer outlines; this reverses that
 font.fontname = font.fontname + "-Regular"
@@ -231,6 +232,7 @@ for glyph in unlink_list:
 	font[glyph].unlinkRef() # prevent rendering issues with just-touching components
 font.selection.all()
 font.removeOverlap()
+font.round()
 font.simplify()
 font.round(0.1)
 
