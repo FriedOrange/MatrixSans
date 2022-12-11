@@ -4,7 +4,7 @@ FullName: Matrix Sans Screen
 FamilyName: Matrix Sans Screen
 Weight: Regular
 Copyright: Copyright 2022 The Matrix Sans Project Authors (https://github.com/FriedOrange/MatrixSans)
-Version: 0.300
+Version: 0.301
 ItalicAngle: 0
 UnderlinePosition: -150
 UnderlineWidth: 100
@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1657964544
-ModificationTime: 1670546337
+ModificationTime: 1670735726
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -64,7 +64,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 672 16 14
+WinInfo: 8640 16 14
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 629146 314573 209715 524288 1048576 0 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
@@ -12649,8 +12649,32 @@ SplineSet
  144 94 l 25
  144 6 l 25
  56 6 l 25
+256 606 m 25
+ 256 694 l 25
+ 344 694 l 25
+ 344 606 l 25
+ 256 606 l 25
+156 506 m 25
+ 156 594 l 25
+ 244 594 l 25
+ 244 506 l 25
+ 156 506 l 25
+56 406 m 25
+ 56 494 l 25
+ 144 494 l 25
+ 144 406 l 25
+ 56 406 l 25
+156 306 m 25
+ 156 394 l 25
+ 244 394 l 25
+ 244 306 l 25
+ 156 306 l 25
+256 206 m 25
+ 256 294 l 25
+ 344 294 l 25
+ 344 206 l 25
+ 256 206 l 25
 EndSplineSet
-Refer: 28 60 N 1 0 0 1 0 100 2
 EndChar
 
 StartChar: greaterequal
@@ -12675,8 +12699,32 @@ SplineSet
  144 94 l 25
  144 6 l 25
  56 6 l 25
+56 606 m 25
+ 56 694 l 25
+ 144 694 l 25
+ 144 606 l 25
+ 56 606 l 25
+156 506 m 25
+ 156 594 l 25
+ 244 594 l 25
+ 244 506 l 25
+ 156 506 l 25
+256 406 m 25
+ 256 494 l 25
+ 344 494 l 25
+ 344 406 l 25
+ 256 406 l 25
+156 306 m 25
+ 156 394 l 25
+ 244 394 l 25
+ 244 306 l 25
+ 156 306 l 25
+56 206 m 25
+ 56 294 l 25
+ 144 294 l 25
+ 144 206 l 25
+ 56 206 l 25
 EndSplineSet
-Refer: 30 62 N 1 0 0 1 0 100 2
 EndChar
 
 StartChar: Ydieresis

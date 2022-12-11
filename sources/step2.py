@@ -283,7 +283,10 @@ for glyph in font:
 	for j in range(GLYPH_HEIGHT):
 		for i in range(GLYPH_WIDTH - 1):
 			if matrix[i][j] and matrix[i + 1][j]:
-				font[glyph].addReference("dot2", (1, 0, 0, 1, i * DOT_SIZE + LEFT_SIDE_BEARING, (j - DESCENT_DOTS) * DOT_SIZE))
+				if glyph == "underscore" or glyph == "emdash":
+					font[glyph].addReference("dot2", (1, 0, 0, 1, i * DOT_SIZE, (j - DESCENT_DOTS) * DOT_SIZE))
+				else:
+					font[glyph].addReference("dot2", (1, 0, 0, 1, i * DOT_SIZE + LEFT_SIDE_BEARING, (j - DESCENT_DOTS) * DOT_SIZE))
 
 font["dot"].unlinkThisGlyph()
 font["dot"].clear()

@@ -21,6 +21,35 @@
       <point x="144.0" y="94.0" type="line"/>
       <point x="144.0" y="6.0" type="line"/>
     </contour>
-    <component base="less" yOffset="100.0"/>
+    <contour>
+      <point x="256.0" y="606.0" type="line"/>
+      <point x="256.0" y="694.0" type="line"/>
+      <point x="344.0" y="694.0" type="line"/>
+      <point x="344.0" y="606.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="156.0" y="506.0" type="line"/>
+      <point x="156.0" y="594.0" type="line"/>
+      <point x="244.0" y="594.0" type="line"/>
+      <point x="244.0" y="506.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="56.0" y="406.0" type="line"/>
+      <point x="56.0" y="494.0" type="line"/>
+      <point x="144.0" y="494.0" type="line"/>
+      <point x="144.0" y="406.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="156.0" y="306.0" type="line"/>
+      <point x="156.0" y="394.0" type="line"/>
+      <point x="244.0" y="394.0" type="line"/>
+      <point x="244.0" y="306.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="256.0" y="206.0" type="line"/>
+      <point x="256.0" y="294.0" type="line"/>
+      <point x="344.0" y="294.0" type="line"/>
+      <point x="344.0" y="206.0" type="line"/>
+    </contour>
   </outline>
 </glyph>

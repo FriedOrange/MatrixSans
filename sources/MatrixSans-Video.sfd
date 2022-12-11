@@ -4,7 +4,7 @@ FullName: Matrix Sans Video
 FamilyName: Matrix Sans Video
 Weight: Regular
 Copyright: Copyright 2022 The Matrix Sans Project Authors (https://github.com/FriedOrange/MatrixSans)
-Version: 0.300
+Version: 0.301
 ItalicAngle: 0
 UnderlinePosition: -150
 UnderlineWidth: 100
@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1657964544
-ModificationTime: 1670546337
+ModificationTime: 1670735726
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -64,7 +64,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 672 16 14
+WinInfo: 8640 16 14
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 629146 314573 209715 524288 1048576 0 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
@@ -7956,13 +7956,45 @@ Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
+50 400 m 1
+ 50 500 l 1
+ 100 500 l 1
+ 100 550 l 1
+ 150 550 l 1
+ 150 600 l 1
+ 200 600 l 1
+ 200 650 l 1
+ 250 650 l 1
+ 250 700 l 1
+ 350 700 l 1
+ 350 600 l 1
+ 300 600 l 1
+ 300 550 l 1
+ 250 550 l 1
+ 250 500 l 1
+ 200 500 l 1
+ 200 400 l 1
+ 250 400 l 1
+ 250 350 l 1
+ 300 350 l 1
+ 300 300 l 1
+ 350 300 l 1
+ 350 200 l 1
+ 250 200 l 1
+ 250 250 l 1
+ 200 250 l 1
+ 200 300 l 1
+ 150 300 l 1
+ 150 350 l 1
+ 100 350 l 1
+ 100 400 l 1
+ 50 400 l 1
 50 0 m 1
  50 100 l 1
  350 100 l 1
  350 0 l 1
  50 0 l 1
 EndSplineSet
-Refer: 28 60 N 1 0 0 1 0 100 2
 EndChar
 
 StartChar: greaterequal
@@ -7972,13 +8004,45 @@ Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
+50 200 m 1
+ 50 300 l 1
+ 100 300 l 1
+ 100 350 l 1
+ 150 350 l 1
+ 150 400 l 1
+ 200 400 l 1
+ 200 500 l 1
+ 150 500 l 1
+ 150 550 l 1
+ 100 550 l 1
+ 100 600 l 1
+ 50 600 l 1
+ 50 700 l 1
+ 150 700 l 1
+ 150 650 l 1
+ 200 650 l 1
+ 200 600 l 1
+ 250 600 l 1
+ 250 550 l 1
+ 300 550 l 1
+ 300 500 l 1
+ 350 500 l 1
+ 350 400 l 1
+ 300 400 l 1
+ 300 350 l 1
+ 250 350 l 1
+ 250 300 l 1
+ 200 300 l 1
+ 200 250 l 1
+ 150 250 l 1
+ 150 200 l 1
+ 50 200 l 1
 50 0 m 1
  50 100 l 1
  350 100 l 1
  350 0 l 1
  50 0 l 1
 EndSplineSet
-Refer: 30 62 N 1 0 0 1 0 100 2
 EndChar
 
 StartChar: Ydieresis
