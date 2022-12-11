@@ -10,6 +10,11 @@ copy features.fea MatrixSans-Video.ufo\features.fea
 copy features.fea MatrixSans-Raster.ufo\features.fea
 python %USERPROFILE%\AppData\Local\Programs\Python\Python310\Scripts\gftools-builder.py config.yaml
 @cd .. 
+ttx -o fonts\ttf\MatrixSans-Regular.ttf -m fonts\ttf\MatrixSans-Regular.ttf sources\meta.ttx
+ttx -o fonts\ttf\MatrixSans-Print.ttf -m fonts\ttf\MatrixSans-Print.ttf sources\meta.ttx
+ttx -o fonts\ttf\MatrixSans-Raster.ttf -m fonts\ttf\MatrixSans-Raster.ttf sources\meta.ttx
+ttx -o fonts\ttf\MatrixSans-Screen.ttf -m fonts\ttf\MatrixSans-Screen.ttf sources\meta.ttx
+ttx -o fonts\ttf\MatrixSans-Video.ttf -m fonts\ttf\MatrixSans-Video.ttf sources\meta.ttx
 python documentation\image1.py --output documentation\4styles.png
 python documentation\image2.py --output documentation\sample.png
 @cd fonts\ttf
