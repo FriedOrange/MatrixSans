@@ -20,6 +20,7 @@ venv: venv/touchfile
 
 build.stamp: venv .init.stamp sources/config.yaml $(SOURCES)
 	. venv/bin/activate; rm -rf fonts/; gftools builder sources/config.yaml && touch build.stamp
+	find fonts/ -type f -exec ttx {} -m {} sources/meta.ttx \;
 
 .init.stamp: venv
 	. venv/bin/activate; python3 scripts/first-run.py
