@@ -1,23 +1,25 @@
-sfd2ufo MatrixSans-Regular.sfd MatrixSans-Regular.ufo
-sfd2ufo MatrixSans-Print.sfd MatrixSans-Print.ufo
-sfd2ufo MatrixSans-Screen.sfd MatrixSans-Screen.ufo
-sfd2ufo MatrixSans-Video.sfd MatrixSans-Video.ufo
-sfd2ufo MatrixSans-Raster.sfd MatrixSans-Raster.ufo
-copy features.fea MatrixSans-Regular.ufo\features.fea
-copy features.fea MatrixSans-Print.ufo\features.fea
-copy features.fea MatrixSans-Screen.ufo\features.fea
-copy features.fea MatrixSans-Video.ufo\features.fea
-copy features.fea MatrixSans-Raster.ufo\features.fea
+@echo off
+
+rem Generate intermediate UFO sources
+for %%f in (MatrixSans-*.sfd) do (
+	sfd2ufo %%f %%~nf.ufo
+	copy features.fea %%~nf.ufo\features.fea
+)
+
+rem Build OpenType fonts
 python %USERPROFILE%\AppData\Local\Programs\Python\Python310\Scripts\gftools-builder.py config.yaml
-@cd .. 
-ttx -o fonts\ttf\MatrixSans-Regular.ttf -m fonts\ttf\MatrixSans-Regular.ttf sources\meta.ttx
-ttx -o fonts\ttf\MatrixSans-Print.ttf -m fonts\ttf\MatrixSans-Print.ttf sources\meta.ttx
-ttx -o fonts\ttf\MatrixSans-Raster.ttf -m fonts\ttf\MatrixSans-Raster.ttf sources\meta.ttx
-ttx -o fonts\ttf\MatrixSans-Screen.ttf -m fonts\ttf\MatrixSans-Screen.ttf sources\meta.ttx
-ttx -o fonts\ttf\MatrixSans-Video.ttf -m fonts\ttf\MatrixSans-Video.ttf sources\meta.ttx
+
+rem Patch in META table to fonts
+@cd ..
+for /r fonts %%f in (*) do ttx -o %%f -m %%f sources\meta.ttx
+
+rem Generate sample images
 python documentation\image1.py --output documentation\4styles.png
 python documentation\image2.py --output documentation\sample.png
+
+rem Generate proof HTML documents
 @cd fonts\ttf
 set PYTHONUTF8=1
 python %USERPROFILE%\AppData\Local\Programs\Python\Python310\Scripts\gftools-gen-html.py proof -o ..\..\out\proof MatrixSans-Print.ttf MatrixSans-Regular.ttf MatrixSans-Screen.ttf MatrixSans-Video.ttf MatrixSans-Raster.ttf
+
 @cd ..\..\sources
