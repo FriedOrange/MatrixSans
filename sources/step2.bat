@@ -1,1 +1,1 @@
-fontforge -script step2.py "MatrixSans-master.sfd"
+fontforge -script step2.py "MatrixSans_MASTER.sfd"
