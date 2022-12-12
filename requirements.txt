@@ -1,3 +1,4 @@
+drawbot-skia>=0.4.8
 fontbakery>=0.8.10
 freetype-py>=2.3.0
 gftools>=0.9.21
