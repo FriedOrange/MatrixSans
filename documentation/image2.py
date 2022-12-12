@@ -125,7 +125,8 @@ def draw_auxiliary_text():
 	POS_TOP_RIGHT = (WIDTH - MARGIN, HEIGHT - MARGIN * 1.5)
 	POS_BOTTOM_LEFT = (MARGIN, MARGIN)
 	POS_BOTTOM_RIGHT = (WIDTH - MARGIN * 0.95, MARGIN)
-	URL_AND_HASH = MY_URL + "at commit " + MY_HASH
+	# URL_AND_HASH = MY_URL + "at commit " + MY_HASH
+	URL_AND_HASH = MY_URL
 	URL_AND_HASH = URL_AND_HASH.replace("\n", " ")
 	# Draw Text
 	text(FONT_NAME, POS_TOP_LEFT, align="left")
