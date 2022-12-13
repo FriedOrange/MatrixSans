@@ -86,7 +86,7 @@ To build the fonts on Linux or macOS:
 
 ### Modifying the fonts
 
-The master source file, `MatrixSans_MASTER_.sfd`, is in FontForge's SFD format. It is recommended to edit this file if you wish to modify the fonts. Then, re-generate the intermediate UFO sources by running `step2.bat`.
+The master source file, `MatrixSans_MASTER.sfd`, is in FontForge's SFD format. It is recommended to edit this file if you wish to modify the fonts. Then, re-generate the intermediate UFO sources by running `step2.bat`.
 
 To easily add or modify glyphs (requires [FontForge](https://fontforge.org/)):
 
