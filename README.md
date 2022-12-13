@@ -74,7 +74,7 @@ Ensure the following programs are installed:
 - [Font Bakery](https://github.com/googlefonts/fontbakery/), for testing the fonts (run `test.bat`) (optional)
 - [sfdLib](https://github.com/MFEK/sfdLib.py), for generating the UFO sources (see below)
 
-After installing Python, the others may be acquired automatically by running `pip install -r requirements.txt` at the command line.
+After installing Python (and ensuring it is added to the PATH environment variable), the others may be acquired automatically by running `pip install -r requirements.txt` at the command line.
 
 To build the fonts on Windows:
 
@@ -95,7 +95,7 @@ To easily add or modify glyphs (requires [FontForge](https://fontforge.org/)):
 - Run `step1.bat` to generate a temporary font `temp.sfd` containing the new glyphs
 - Using FontForge, copy the new glyphs into the master source file, `MatrixSans_MASTER.sfd`
 - Run `step2.bat` to generate the intermediate UFO sources in the various styles
-	- Custom behaviour is implemented for certain glyphs in the Video style; edit `step2.py` to change this
+	- Custom behaviour is implemented for certain glyphs in the Video and Raster styles; edit `step2.py` to change this
 
 ## Changelog
 
