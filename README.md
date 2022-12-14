@@ -20,12 +20,6 @@ This is set of pixelated, retro-style fonts based on the classic 5&times;7 dot m
 - **Screen** is similar to Print, but uses square dots instead of round ones. It matches the look of the "character LCDs" seen in many devices, as well as some light-up LED displays.
 - **Video** is an interpolated version of Regular. It resembles the on-screen displays of VCRs, Teletext, camcorders and the like; harking back to the early days of computerisation in television and home video.
 
-### Research
-
-Much of my interest in the topic was piqued by Damien Guard’s article, [*Typography in 8 bits: system fonts*](https://damieng.com/blog/2011/02/20/typography-in-8-bits-system-fonts). In preparation for this project, I decided to conduct an even more comprehensive study of classic dot-matrix fonts, with a focus on those using the iconic 5&times;7 dot matrix capitals.
-
-See [documentation/research.md](documentation/research.md) for detailed documentation of this study and the decision-making process for the design of this font.
-
 ![Four Styles](documentation/4styles.png)
 ![Sample 1](documentation/sample_0.png)
 <!-- ![Sample 2](documentation/sample_1.png)
@@ -43,6 +37,12 @@ In utilitarian applications, 5&times;7 dot matrix fonts may still be found all a
 | ![Train station display](documentation/inspiration/TrainStation.jpg) | ![Best before date](documentation/inspiration/BestBefore.jpg) | ![Character LCD](documentation/inspiration/CharacterLCD.jpg) |
 
 So-called "pixel" fonts are also a popular stylistic choice, often seen in contexts that have nothing to do with electronics or games, even in the absence of technical limitations. With all of that in mind, I felt that the typographical world could be enriched through the creation of high-quality, open-source fonts in this style.
+
+### Research
+
+Much of my interest in the topic was piqued by Damien Guard’s article, [*Typography in 8 bits: system fonts*](https://damieng.com/blog/2011/02/20/typography-in-8-bits-system-fonts). In preparation for this project, I decided to conduct an even more comprehensive study of classic dot-matrix fonts, with a focus on those using the iconic 5&times;7 dot matrix capitals.
+
+See [documentation/research.md](documentation/research.md) for detailed documentation of this study and the decision-making process for the design of this font.
 
 ## Design philosophy
 
