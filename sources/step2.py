@@ -26,12 +26,12 @@ unlink_list = ["Aring", "Ccedilla", "aring", "ccedilla", "aogonek", "dcaron",
 
 def add_names(style):
 	font.fontname = font.fontname + style + "-Regular"
-	font.appendSFNTName("English (US)", 16, font.familyname)
+	# font.appendSFNTName("English (US)", 16, font.familyname)
 	font.familyname = font.familyname + " " + style
 	font.fullname = font.familyname
-	font.appendSFNTName("English (US)", 17, style)
-	font.appendSFNTName("English (US)", 21, font.familyname)
-	font.appendSFNTName("English (US)", 22, "Regular")
+	# font.appendSFNTName("English (US)", 17, style)
+	# font.appendSFNTName("English (US)", 21, font.familyname)
+	# font.appendSFNTName("English (US)", 22, "Regular")
 
 
 #######################################

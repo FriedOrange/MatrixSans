@@ -30,14 +30,6 @@
     <string>This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL</string>
     <key>openTypeNameLicenseURL</key>
     <string>https://scripts.sil.org/OFL</string>
-    <key>openTypeNamePreferredFamilyName</key>
-    <string>Matrix Sans</string>
-    <key>openTypeNamePreferredSubfamilyName</key>
-    <string>Video</string>
-    <key>openTypeNameWWSFamilyName</key>
-    <string>Matrix Sans Video</string>
-    <key>openTypeNameWWSSubfamilyName</key>
-    <string>Regular</string>
     <key>openTypeOS2FamilyClass</key>
     <array>
       <integer>8</integer>
@@ -58,6 +50,7 @@
     </array>
     <key>openTypeOS2Selection</key>
     <array>
+      <integer>8</integer>
       <integer>7</integer>
     </array>
     <key>openTypeOS2StrikeoutPosition</key>
