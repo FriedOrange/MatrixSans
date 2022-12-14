@@ -101,6 +101,13 @@ To easily add or modify glyphs (requires [FontForge](https://fontforge.org/), an
 
 The fonts are currently in early development; significant changes may still occur before the release of Version 1.0.
 
+#### 14 December 2022 - Version 0.301
+- Improved appearance of em dash, underscore, cedilla and ogonek in Raster style
+- Added `meta` table to exported fonts, specifying designed/supported script
+- Reduced number of contours in Regular style, by disabling Fontmake's overlap removal
+- Removed ttfautohint from the build process
+- Changed font names to meet Google Fonts requirements
+
 #### 9 December 2022 - Version 0.300
 - Added Raster style
 

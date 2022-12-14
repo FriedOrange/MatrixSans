@@ -21,6 +21,13 @@ Further documentation can be found at: https://github.com/FriedOrange/MatrixSans
 Changelog
 ---------
 
+14 December 2022 - Version 0.301
+- Improved appearance of em dash, underscore, cedilla and ogonek in Raster style
+- Added `meta` table to exported fonts, specifying designed/supported script
+- Reduced number of contours in Regular style, by disabling Fontmake's overlap removal
+- Removed ttfautohint from the build process
+- Changed font names to meet Google Fonts requirements
+
 9 December 2022 - Version 0.300
 - Added Raster style
 
