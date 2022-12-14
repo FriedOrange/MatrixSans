@@ -1,9 +1,9 @@
 sources:
   - MatrixSans-Regular.ufo
-  - MatrixSans-Screen.ufo
-  - MatrixSans-Print.ufo
-  - MatrixSans-Video.ufo
-  - MatrixSans-Raster.ufo
+  - MatrixSansScreen-Regular.ufo
+  - MatrixSansPrint-Regular.ufo
+  - MatrixSansVideo-Regular.ufo
+  - MatrixSansRaster-Regular.ufo
 familyName: Matrix Sans
 buildVariable: false
 removeOutlineOverlaps: false

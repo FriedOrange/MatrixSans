@@ -58,7 +58,7 @@ font["dot"].transform((0.88, 0.0, 0.0, 0.88, 6.0, 6.0))
 font["dot"].unlinkThisGlyph()
 font["dot"].clear()
 add_names("Screen")
-font.save("MatrixSans-Screen.sfd")
+font.save("MatrixSansScreen-Regular.sfd")
 
 #######################################
 # Print style
@@ -73,7 +73,7 @@ font["dot"].width = 100
 font["dot"].unlinkThisGlyph()
 font["dot"].clear()
 add_names("Print")
-font.save("MatrixSans-Print.sfd")
+font.save("MatrixSansPrint-Regular.sfd")
 
 #######################################
 # Video style
@@ -237,7 +237,7 @@ font.simplify()
 font.round(0.1)
 
 add_names("Video")
-font.save("MatrixSans-Video.sfd")
+font.save("MatrixSansVideo-Regular.sfd")
 
 #######################################
 # Raster style
@@ -298,7 +298,7 @@ font.selection.all()
 font.removeOverlap()
 font.simplify()
 add_names("Raster")
-font.save("MatrixSans-Raster.sfd")
+font.save("MatrixSansRaster-Regular.sfd")
 
 
 # glyph.user_decomp

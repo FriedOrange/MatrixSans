@@ -1,7 +1,7 @@
 @echo off
 
 rem Generate intermediate UFO sources
-for %%f in (MatrixSans-*.sfd) do (
+for %%f in (MatrixSans*-Regular.sfd) do (
 	sfd2ufo %%f %%~nf.ufo
 	copy features.fea %%~nf.ufo\features.fea
 )
@@ -20,6 +20,6 @@ python documentation\image2.py --output documentation\sample.png
 rem Generate proof HTML documents
 @cd fonts\ttf
 set PYTHONUTF8=1
-python %USERPROFILE%\AppData\Local\Programs\Python\Python310\Scripts\gftools-gen-html.py proof -o ..\..\out\proof MatrixSans-Print.ttf MatrixSans-Regular.ttf MatrixSans-Screen.ttf MatrixSans-Video.ttf MatrixSans-Raster.ttf
+python %USERPROFILE%\AppData\Local\Programs\Python\Python310\Scripts\gftools-gen-html.py proof -o ..\..\out\proof MatrixSansPrint-Regular.ttf MatrixSans-Regular.ttf MatrixSansScreen-Regular.ttf MatrixSansVideo-Regular.ttf MatrixSansRaster-Regular.ttf
 
 @cd ..\..\sources
