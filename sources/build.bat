@@ -15,7 +15,7 @@ for /r fonts %%f in (*) do ttx -o %%f -m %%f sources\meta.ttx
 
 rem Generate sample images
 python documentation\image1.py --output documentation\4styles.png
-python documentation\image2.py --output documentation\sample.png
+python documentation\image3.py --output documentation\sample.png
 
 rem Generate proof HTML documents
 @cd fonts\ttf
