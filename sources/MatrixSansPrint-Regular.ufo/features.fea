@@ -191,8 +191,8 @@ feature kern {
 	pos J @i -100;
 	pos J @strokeLM -100;
 	pos J @t -100;
-	pos @L @T -200;
-	pos @L @Y -200;
+	pos @L @T -100;
+	pos @L @Y -100;
 	pos @L V -100;
 	pos @L @strokeLM -100;
 	pos [P Thorn] j -200;
@@ -204,7 +204,7 @@ feature kern {
 	pos @T j -200;
 	pos @T @strokeLM -100;
 	pos @T @short_curveTL -100;
-	pos @T @a_short -200;
+	pos @T @a_short -100;
 	pos @T @short_square -100;
 	pos @T @curveTL -100;
 	pos @T @a_tall -100;

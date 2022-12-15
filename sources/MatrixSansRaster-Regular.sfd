@@ -4,7 +4,7 @@ FullName: Matrix Sans Raster
 FamilyName: Matrix Sans Raster
 Weight: Regular
 Copyright: Copyright 2022 The Matrix Sans Project Authors (https://github.com/FriedOrange/MatrixSans)
-Version: 0.301
+Version: 0.302
 ItalicAngle: 0
 UnderlinePosition: -150
 UnderlineWidth: 100
@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 1
 OS2_UseTypoMetrics: 1
 CreationTime: 1657964544
-ModificationTime: 1671014070
+ModificationTime: 1671093654
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -73,7 +73,7 @@ BeginChars: 1114122 402
 
 StartChar: space
 Encoding: 32 32 0
-Width: 600
+Width: 500
 Flags: HMW
 LayerCount: 2
 EndChar
