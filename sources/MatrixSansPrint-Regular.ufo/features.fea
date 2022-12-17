@@ -154,8 +154,7 @@ feature kern {
 	pos F j -300;
 	pos J J -100;
 	pos J j -200;
-	pos L V -100;
-	pos L v -100;
+	# pos L v -100;
 	pos L t -100;
 	pos P J -200;
 	pos P a -100;
@@ -193,7 +192,7 @@ feature kern {
 	pos J @t -100;
 	pos @L @T -100;
 	pos @L @Y -100;
-	# pos @L V -100;
+	pos @L V -100;
 	pos @L @strokeLM -100;
 	pos [P Thorn] j -200;
 	pos @r j -200;
@@ -222,8 +221,8 @@ feature kern {
 	pos f @curveTL -100;
 	pos f @a_tall -100;
 	pos f @strokeLM -100;
-	pos [i igrave iogonek l lacute] @t -100;
-	pos [i igrave iogonek l lacute] @strokeLM -100;
+	# pos [i igrave iogonek l lacute] @t -100; # 'it' kerning looks bad at small sizes, good at large sizes. 'lt' bad at all sizes
+	# pos [i igrave iogonek l lacute] @strokeLM -100;
 	pos @r l -100;
 	pos @t @t -100;
 	pos @t j -100;
