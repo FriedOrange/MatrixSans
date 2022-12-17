@@ -169,7 +169,7 @@ feature kern {
 	pos r atilde -100;
 	pos r abreve -100;
 	pos f abreve -100;
-	enum pos @i v -100;
+	# enum pos @i v -100;
 	pos @A @T -100;
 	pos @D @T -100;
 	pos @D j -200;

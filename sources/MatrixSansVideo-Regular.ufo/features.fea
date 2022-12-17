@@ -169,7 +169,7 @@ feature kern {
 	pos r atilde -100;
 	pos r abreve -100;
 	pos f abreve -100;
-	enum pos @i v -100;
+	# enum pos @i v -100;
 	pos @A @T -100;
 	pos @D @T -100;
 	pos @D j -200;
@@ -193,7 +193,7 @@ feature kern {
 	pos J @t -100;
 	pos @L @T -100;
 	pos @L @Y -100;
-	pos @L V -100;
+	# pos @L V -100;
 	pos @L @strokeLM -100;
 	pos [P Thorn] j -200;
 	pos @r j -200;
@@ -234,10 +234,10 @@ feature kern {
 	pos @gapLM @strokeLM -100;
 	# pos @gapLM @t -100;
 	pos [X Z Zacute Zcaron Zdotaccent] [Eth Dcroat f] -100;
-	pos dcaron @short_curveTL -100;
-	pos dcaron @curveTL -100;
-	pos dcaron @a_short -100;
-	pos dcaron @a_tall -100;
+	pos [dcaron dcroat] @short_curveTL -100;
+	pos [dcaron dcroat] @curveTL -100;
+	pos [dcaron dcroat] @a_short -100;
+	pos [dcaron dcroat] @a_tall -100;
 } kern;
 
 feature tnum {
