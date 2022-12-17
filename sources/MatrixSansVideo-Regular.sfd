@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 1
 OS2_UseTypoMetrics: 1
 CreationTime: 1657964544
-ModificationTime: 1671263477
+ModificationTime: 1671273663
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -7425,9 +7425,11 @@ EndChar
 
 StartChar: uni00A0
 Encoding: 160 160 220
-Width: 600
+Width: 500
 Flags: HMW
 LayerCount: 2
+Fore
+Refer: 0 32 S 1 0 0 1 0 0 3
 EndChar
 
 StartChar: guillemotleft
