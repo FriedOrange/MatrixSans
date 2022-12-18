@@ -18,10 +18,10 @@ XUID: [1021 655 -629464056 810]
 StyleMap: 0x0000
 FSType: 0
 OS2Version: 0
-OS2_WeightWidthSlopeOnly: 1
+OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1657964544
-ModificationTime: 1671361845
+ModificationTime: 1671362573
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5

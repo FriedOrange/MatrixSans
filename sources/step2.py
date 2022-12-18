@@ -18,6 +18,7 @@ GLYPH_HEIGHT = 12
 DESCENT_DOTS = 2
 LEFT_SIDE_BEARING = 50
 SCREEN_DOT_FACTOR = 0.88
+PRINT_DOT_RADIUS = 48.0
 font = fontforge.open(sys.argv[1])
 
 unlink_list = ["Aring", "Ccedilla", "aring", "ccedilla", "aogonek", "dcaron", 
@@ -60,8 +61,8 @@ font["dot"].unlinkThisGlyph()
 font["dot"].clear()
 add_names("Screen")
 font.uwidth = int(SCREEN_DOT_FACTOR * DOT_SIZE)
-font.os2_strikeypos += int((DOT_SIZE - DOT_SIZE * SCREEN_DOT_FACTOR) / 2)
 font.os2_strikeysize = int(SCREEN_DOT_FACTOR * DOT_SIZE)
+font.os2_strikeypos += int((DOT_SIZE - font.os2_strikeysize) / 2)
 font.save("MatrixSansScreen-Regular.sfd")
 
 #######################################
@@ -71,12 +72,15 @@ font = fontforge.open(sys.argv[1])
 font["dot"].clear()
 circle = fontforge.unitShape(0) # creates a unit circle
 circle.draw(font["dot"].glyphPen()) # draws the circle into the glyph, replacing previous outlines
-font["dot"].transform((48.0, 0.0, 0.0, 48.0, 50.0, 50.0))
+font["dot"].transform((PRINT_DOT_RADIUS, 0.0, 0.0, PRINT_DOT_RADIUS, DOT_SIZE / 2, DOT_SIZE / 2))
 font["dot"].round()
 font["dot"].width = 100
 font["dot"].unlinkThisGlyph()
 font["dot"].clear()
 add_names("Print")
+font.uwidth = int(PRINT_DOT_RADIUS * 10/6)
+font.os2_strikeysize = int(PRINT_DOT_RADIUS * 10/6)
+font.os2_strikeypos += int((DOT_SIZE - font.os2_strikeysize) / 2)
 font.save("MatrixSansPrint-Regular.sfd")
 
 #######################################
