@@ -143,13 +143,13 @@ feature locl {
 @curveTL = [cacute ccaron cdotaccent eacute ecaron ecircumflex edieresis edotaccent egrave emacron dcroat eth gdotaccent uni0123 oacute ograve ocircumflex odieresis omacron sacute scaron]; # curve at top left, narrow diacritics
 @a_short = [a aogonek]; # previously in @short_curveTL
 @a_tall = [aacute acircumflex adieresis agrave amacron aring]; # previously in @curveTL
+@l = [l  uni013C lcaron];
 
 # Left and right side classes
 @T = [T Tcaron uni0162 uni021A];
 @Y = [Y Yacute Ycircumflex Ydieresis Ygrave];
 @t = [ t tcaron uni0163 uni021B];
 @i = [i iacute ij iogonek i.loclTRK];
-@l = [l  uni013C lcaron];
 
 feature kern {
 	pos F J -200;
@@ -227,7 +227,7 @@ feature kern {
 	pos f @strokeLM -100;
 	# pos [i igrave iogonek l lacute] @t -100; # 'it' kerning looks bad at small sizes, good at large sizes. 'lt' bad at all sizes
 	# pos [i igrave iogonek l lacute] @strokeLM -100;
-	pos @r l -100;
+	pos @r @l -100;
 	pos @t @t -100;
 	pos @t j -100;
 	pos @t @strokeLM -100;
