@@ -164,7 +164,7 @@ feature kern {
 	pos v j -200;
 	pos f j -200;
 	pos F Lslash -100;
-	pos iacute jacute -200;
+	pos iacute jacute -100;
 	pos J Lslash -100;
 	pos F aacute -200;
 	pos r atilde -100;
