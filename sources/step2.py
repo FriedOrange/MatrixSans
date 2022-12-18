@@ -17,6 +17,7 @@ GLYPH_WIDTH = 8
 GLYPH_HEIGHT = 12
 DESCENT_DOTS = 2
 LEFT_SIDE_BEARING = 50
+SCREEN_DOT_FACTOR = 0.88
 font = fontforge.open(sys.argv[1])
 
 unlink_list = ["Aring", "Ccedilla", "aring", "ccedilla", "aogonek", "dcaron", 
@@ -54,10 +55,13 @@ font = fontforge.open(sys.argv[1])
 
 font.selection.select("dot")
 font.round(0.1)
-font["dot"].transform((0.88, 0.0, 0.0, 0.88, 6.0, 6.0))
+font["dot"].transform((SCREEN_DOT_FACTOR, 0.0, 0.0, SCREEN_DOT_FACTOR, (DOT_SIZE - SCREEN_DOT_FACTOR) / 2, (DOT_SIZE - SCREEN_DOT_FACTOR) / 2))
 font["dot"].unlinkThisGlyph()
 font["dot"].clear()
 add_names("Screen")
+font.uwidth = int(SCREEN_DOT_FACTOR * DOT_SIZE)
+font.os2_strikeypos += int((DOT_SIZE - DOT_SIZE * SCREEN_DOT_FACTOR) / 2)
+font.os2_strikeysize = int(SCREEN_DOT_FACTOR * DOT_SIZE)
 font.save("MatrixSansScreen-Regular.sfd")
 
 #######################################
