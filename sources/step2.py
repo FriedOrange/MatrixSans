@@ -56,7 +56,7 @@ font = fontforge.open(sys.argv[1])
 
 font.selection.select("dot")
 font.round(0.1)
-font["dot"].transform((SCREEN_DOT_FACTOR, 0.0, 0.0, SCREEN_DOT_FACTOR, (DOT_SIZE - SCREEN_DOT_FACTOR) / 2, (DOT_SIZE - SCREEN_DOT_FACTOR) / 2))
+font["dot"].transform((SCREEN_DOT_FACTOR, 0.0, 0.0, SCREEN_DOT_FACTOR, (DOT_SIZE - DOT_SIZE * SCREEN_DOT_FACTOR) / 2, (DOT_SIZE - DOT_SIZE * SCREEN_DOT_FACTOR) / 2))
 font["dot"].unlinkThisGlyph()
 font["dot"].clear()
 add_names("Screen")
