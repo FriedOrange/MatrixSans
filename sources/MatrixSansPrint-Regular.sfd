@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1657964544
-ModificationTime: 1671362573
+ModificationTime: 1671362988
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -44,7 +44,7 @@ HheadDOffset: 0
 OS2SubXSize: 714
 OS2SubYSize: 714
 OS2SubXOff: 0
-OS2SubYOff: 100
+OS2SubYOff: 200
 OS2SupXSize: 714
 OS2SupYSize: 714
 OS2SupXOff: 0

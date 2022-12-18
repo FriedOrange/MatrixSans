@@ -306,6 +306,9 @@ font.selection.all()
 font.removeOverlap()
 font.simplify()
 add_names("Raster")
+font.uwidth = 80
+font.os2_strikeysize = 80
+font.os2_strikeypos += int((DOT_SIZE - font.os2_strikeysize) / 2)
 font.save("MatrixSansRaster-Regular.sfd")
 
 
