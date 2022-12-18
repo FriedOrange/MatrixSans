@@ -60,7 +60,7 @@ font["dot"].transform((SCREEN_DOT_FACTOR, 0.0, 0.0, SCREEN_DOT_FACTOR, (DOT_SIZE
 font["dot"].unlinkThisGlyph()
 font["dot"].clear()
 add_names("Screen")
-font.uwidth = int(SCREEN_DOT_FACTOR * DOT_SIZE)
+# font.uwidth = int(SCREEN_DOT_FACTOR * DOT_SIZE)
 font.os2_strikeysize = int(SCREEN_DOT_FACTOR * DOT_SIZE)
 font.os2_strikeypos += int((DOT_SIZE - font.os2_strikeysize) / 2)
 font.save("MatrixSansScreen-Regular.sfd")
@@ -78,7 +78,7 @@ font["dot"].width = 100
 font["dot"].unlinkThisGlyph()
 font["dot"].clear()
 add_names("Print")
-font.uwidth = int(PRINT_DOT_RADIUS * 10/6)
+# font.uwidth = int(PRINT_DOT_RADIUS * 10/6)
 font.os2_strikeysize = int(PRINT_DOT_RADIUS * 10/6)
 font.os2_strikeypos += int((DOT_SIZE - font.os2_strikeysize) / 2)
 font.save("MatrixSansPrint-Regular.sfd")
@@ -306,7 +306,7 @@ font.selection.all()
 font.removeOverlap()
 font.simplify()
 add_names("Raster")
-font.uwidth = 80
+# font.uwidth = 80
 font.os2_strikeysize = 80
 font.os2_strikeypos += int((DOT_SIZE - font.os2_strikeysize) / 2)
 font.save("MatrixSansRaster-Regular.sfd")
