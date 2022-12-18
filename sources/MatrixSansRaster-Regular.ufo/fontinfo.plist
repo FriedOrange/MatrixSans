@@ -53,15 +53,15 @@
       <integer>7</integer>
     </array>
     <key>openTypeOS2StrikeoutPosition</key>
-    <integer>300</integer>
+    <integer>310</integer>
     <key>openTypeOS2StrikeoutSize</key>
-    <integer>100</integer>
+    <integer>80</integer>
     <key>openTypeOS2SubscriptXOffset</key>
     <integer>0</integer>
     <key>openTypeOS2SubscriptXSize</key>
     <integer>714</integer>
     <key>openTypeOS2SubscriptYOffset</key>
-    <integer>100</integer>
+    <integer>200</integer>
     <key>openTypeOS2SubscriptYSize</key>
     <integer>714</integer>
     <key>openTypeOS2SuperscriptXOffset</key>
@@ -99,9 +99,9 @@
     <key>postscriptSlantAngle</key>
     <real>0.0</real>
     <key>postscriptUnderlinePosition</key>
-    <real>-100.0</real>
+    <real>-110.0</real>
     <key>postscriptUnderlineThickness</key>
-    <real>100.0</real>
+    <real>80.0</real>
     <key>postscriptWeightName</key>
     <string>Regular</string>
     <key>styleName</key>
