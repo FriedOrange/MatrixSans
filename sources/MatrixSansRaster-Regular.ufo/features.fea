@@ -131,16 +131,16 @@ feature locl {
 @D = [D Eth Dcaron Dcroat];
 @L = [L Lacute uni013B];
 @curveBR = [B O Oacute Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde S Sacute Scaron Scedilla uni0218 U Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring W b c ccedilla cacute ccaron cdotaccent e eacute ecaron ecircumflex edieresis edotaccent egrave emacron eth o oacute ograve ocircumflex odieresis omacron otilde p s sacute scaron scedilla uni0219 germandbls thorn w wcircumflex]; # curve at bottom right
-@gapLM = [E Eacute Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eogonek I Iacute Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek K uni0136]; # gap at left middle
+@gapRM = [E Eacute Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eogonek K uni0136]; # gap at right middle
+# I Iacute Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek removed from @gapRM
 @r = [r racute rcaron];
 
 # Right side classes
 @A2 = [A Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde uni01CD AE];
 @strokeLM = [Eth Dcroat f]; # stroke at left middle
-@short_curveTL = [ae c ccedilla d dcaron e eogonek g o oslash oe q s scedilla uni0219]; # curve at top left
+@short_curveTL = [ c ccedilla d dcaron e eogonek g o oslash oe q s scedilla uni0219]; # curve at top left
 @short_square = [dotlessi m n uni0146 eng p r uni0157 u uogonek v w x y z];
 @curveTL = [cacute ccaron cdotaccent eacute ecaron ecircumflex edieresis edotaccent egrave emacron dcroat eth gdotaccent uni0123 oacute ograve ocircumflex odieresis omacron sacute scaron]; # curve at top left, narrow diacritics
-@i = [i iacute ij iogonek i.loclTRK];
 @a_short = [a aogonek]; # previously in @short_curveTL
 @a_tall = [aacute acircumflex adieresis agrave amacron aring]; # previously in @curveTL
 
@@ -148,6 +148,8 @@ feature locl {
 @T = [T Tcaron uni0162 uni021A];
 @Y = [Y Yacute Ycircumflex Ydieresis Ygrave];
 @t = [ t tcaron uni0163 uni021B];
+@i = [i iacute ij iogonek i.loclTRK];
+@l = [l  uni013C lcaron];
 
 feature kern {
 	pos F J -200;
@@ -168,6 +170,10 @@ feature kern {
 	pos r atilde -100;
 	pos r abreve -100;
 	pos f abreve -100;
+	pos hyphen atilde -100;
+	pos hyphen abreve -100;
+	pos f hyphen -100;
+	pos hyphen j -100;
 	# enum pos @i v -100;
 	pos @A @T -100;
 	pos @D @T -100;
@@ -230,13 +236,19 @@ feature kern {
 	pos @curveBR j -100;
 	pos @C j -100;
 	pos @C @strokeLM -100;
-	pos @gapLM @strokeLM -100;
-	# pos @gapLM @t -100;
+	pos @gapRM @strokeLM -100;
+	# pos @gapRM @t -100;
 	pos [X Z Zacute Zcaron Zdotaccent] [Eth Dcroat f] -100;
 	pos [dcaron dcroat] @short_curveTL -100;
 	pos [dcaron dcroat] @curveTL -100;
 	pos [dcaron dcroat] @a_short -100;
 	pos [dcaron dcroat] @a_tall -100;
+	pos hyphen @a_short -100;
+	pos hyphen @a_tall -100;
+	pos @i hyphen -100;
+	pos hyphen @l -100;
+	pos @l hyphen -100;
+	pos @t hyphen -100;
 } kern;
 
 feature tnum {
