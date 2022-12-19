@@ -164,7 +164,7 @@ feature kern {
 	pos v j -200;
 	pos f j -200;
 	pos F Lslash -100;
-	pos iacute jacute -100;
+	pos iacute jacute -200;
 	pos J Lslash -100;
 	pos F aacute -200;
 	pos r atilde -100;
@@ -252,7 +252,7 @@ feature zero {
 	sub zero by zero.zero;
 } zero;
 
-table GDEF {
-	# the marks class should be filled in automatically, why isn't it?
-	GlyphClassDef [@tall @short @deep dotlessi uni0237],,[@marks_above @marks_aboveright @ogonek @marks_below],;
-} GDEF;
+# table GDEF {
+# 	# the marks class should be filled in automatically, why isn't it?
+# 	GlyphClassDef [@tall @short @deep dotlessi uni0237],,[@marks_above @marks_aboveright @ogonek @marks_below],;
+# } GDEF;
