@@ -21,6 +21,13 @@ Further documentation can be found at: https://github.com/FriedOrange/MatrixSans
 Changelog
 ---------
 
+19 December 2022 - Version 1.000
+- Updated kerning
+- Reduced space width
+- Removed unnecessary space characters
+- Updated strikeout width and position in Print, Raster and Screen styles
+- Reduced dot size in Screen style
+
 14 December 2022 - Version 0.301
 - Improved appearance of em dash, underscore, cedilla and ogonek in Raster style
 - Added `meta` table to exported fonts, specifying designed/supported script
