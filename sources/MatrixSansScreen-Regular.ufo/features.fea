@@ -86,6 +86,11 @@ feature mark {
 					<anchor 550 400> mark @marks_aboveright;
 } mark;
 
+table GDEF {
+	# Because gftools builder doesn't create this table automatically....
+	GlyphClassDef [A E I i i.loclTRK J L U @tall d l t a e u uni0237 uni25CC],,[@marks_above @marks_aboveright @ogonek @marks_below],;
+} GDEF;
+
 feature locl {
 	script latn;
 	language CAT;
@@ -251,8 +256,3 @@ feature tnum {
 feature zero {
 	sub zero by zero.zero;
 } zero;
-
-# table GDEF {
-# 	# the marks class should be filled in automatically, why isn't it?
-# 	GlyphClassDef [@tall @short @deep dotlessi uni0237],,[@marks_above @marks_aboveright @ogonek @marks_below],;
-# } GDEF;
