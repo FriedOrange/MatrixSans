@@ -8,11 +8,11 @@ This is set of pixelated, retro-style fonts based on the classic 5&times;7 dot m
 - **Screen** is similar to Print, but uses square dots instead of round ones. It matches the look of the "character LCDs" seen in many devices, as well as some light-up LED displays.
 - **Video** is an interpolated version of Regular. It resembles the on-screen displays of VCRs, Teletext, camcorders and the like; harking back to the early days of computerisation in television and home video.
 
-![Four Styles](documentation/4styles.png)
 ![Sample 1](documentation/sample_0.png)
-<!-- ![Sample 2](documentation/sample_1.png)
+![Sample 2](documentation/sample_1.png)
 ![Sample 3](documentation/sample_2.png)
-![Sample 4](documentation/sample_3.png) -->
+![Sample 4](documentation/sample_3.png)
+![Sample 5](documentation/sample_4.png)
 
 ## Background
 

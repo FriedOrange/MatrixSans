@@ -15,16 +15,16 @@ import sys
 import argparse
 
 # Constants, these are the main "settings" for the image
-WIDTH, HEIGHT, MARGIN, FRAMES = 1280, 720, 32, 1
+WIDTH, HEIGHT, MARGIN, FRAMES = 1380, 520, 30, 1
 FONT_PATH = "fonts/otf/MatrixSans-Regular.otf"
 FONT_LICENSE = "OFL v1.1"
 AUXILIARY_FONT = "Open Sans"
 AUXILIARY_FONT_SIZE = 22
 BIG_TEXT = "Aa"
-BIG_TEXT_FONT_SIZE = 80
+BIG_TEXT_FONT_SIZE = 100
 BIG_TEXT_SIDE_MARGIN = WIDTH // 2
 BIG_TEXT_BOTTOM_MARGIN = MARGIN
-BIG_TEXT_INTERLINE = BIG_TEXT_FONT_SIZE * 1.35
+BIG_TEXT_INTERLINE = BIG_TEXT_FONT_SIZE * 1.3
 GRID_VIEW = False # Change this to "True" for a grid overlay
 
 # Handel the "--output" flag
@@ -69,9 +69,9 @@ def remap(value, inputMin, inputMax, outputMin, outputMax):
 
 
 # Draw the page/frame and a grid if "GRID_VIEW" is set to "True"
-def draw_background():
+def draw_background(colour):
 	newPage(WIDTH, HEIGHT)
-	fill(1)
+	fill(colour[0], colour[1], colour[2])
 	rect(-2, -2, WIDTH + 2, HEIGHT + 2)
 	if GRID_VIEW:
 		grid()
@@ -80,8 +80,8 @@ def draw_background():
 
 
 # Draw main text
-def draw_main_text(text_list):
-	fill(0)
+def draw_main_text(text_list, colour):
+	fill(colour[0], colour[1], colour[2])
 	stroke(None)
 	font(FONT_PATH)
 	fontSize(BIG_TEXT_FONT_SIZE)
@@ -89,10 +89,10 @@ def draw_main_text(text_list):
 	# TODO: This should be done automatically when drawbot-skia
 	# has support for textBox() and FormattedString
 	#text(BIG_TEXT, ((WIDTH / 2) - MARGIN * 4.75, (HEIGHT / 2) - MARGIN * 2.5))
-	text(text_list[0], (BIG_TEXT_SIDE_MARGIN, BIG_TEXT_BOTTOM_MARGIN + BIG_TEXT_INTERLINE*4.5), "center")
-	text(text_list[1], (BIG_TEXT_SIDE_MARGIN, BIG_TEXT_BOTTOM_MARGIN + BIG_TEXT_INTERLINE*3.5), "center")
-	text(text_list[2], (BIG_TEXT_SIDE_MARGIN, BIG_TEXT_BOTTOM_MARGIN + BIG_TEXT_INTERLINE*2.5), "center")
-	text(text_list[3], (BIG_TEXT_SIDE_MARGIN, BIG_TEXT_BOTTOM_MARGIN + BIG_TEXT_INTERLINE*1.5), "center")
+	text(text_list[0], (BIG_TEXT_SIDE_MARGIN, BIG_TEXT_BOTTOM_MARGIN + BIG_TEXT_INTERLINE*3), "center")
+	text(text_list[1], (BIG_TEXT_SIDE_MARGIN, BIG_TEXT_BOTTOM_MARGIN + BIG_TEXT_INTERLINE*2), "center")
+	text(text_list[2], (BIG_TEXT_SIDE_MARGIN, BIG_TEXT_BOTTOM_MARGIN + BIG_TEXT_INTERLINE*1), "center")
+	text(text_list[3], (BIG_TEXT_SIDE_MARGIN, BIG_TEXT_BOTTOM_MARGIN + BIG_TEXT_INTERLINE*0), "center")
 
 
 # Divider lines
@@ -136,24 +136,24 @@ def draw_auxiliary_text():
 	text(FONT_LICENSE, POS_BOTTOM_RIGHT, align="right")
 
 
-def make_image(text_list):
-	draw_background()
-	draw_main_text(text_list)
-	draw_divider_lines()
-	draw_auxiliary_text()
+def make_image(text_list, text_colour, bg_colour):
+	draw_background(bg_colour)
+	draw_main_text(text_list, text_colour)
+	# draw_divider_lines()
+	# draw_auxiliary_text()
 
 # Build and save the image
 if __name__ == "__main__":
 	FONT_PATH = "fonts/otf/MatrixSans-Regular.otf"
-	make_image(["MATRIX SANS REGULAR","The quick brown fox","jumps over the lazy dog.","§27 ¶14; { 35°29'10\" }"])
+	make_image(["MATRIX SANS REGULAR","The quick brown fox","jumps over the lazy dog.","§27 ¶14; { 35°29'10\" }"], [0, 0, 0], [1, 1, 1])
 	FONT_PATH = "fonts/otf/MatrixSansPrint-Regular.otf"
-	make_image(["MATRIX SANS PRINT","Quick & wafting zephyrs","#vex bold @Jim :-)","$18.99 €38,76 £1.50 75%"])
+	make_image(["MATRIX SANS PRINT","Quick & wafting zephyrs","#vex bold @Jim :-)","$18.99 €38,76 £1.50 75%"], [48/255, 48/255, 48/255], [1, 1, 1])
 	FONT_PATH = "fonts/otf/MatrixSansRaster-Regular.otf"
-	make_image(["MATRIX SANS RASTER","Pack my box with five","dozen liquor jugs*","150 IF X>32 THEN N=0"])
+	make_image(["MATRIX SANS RASTER","Pack my box with five","dozen liquor jugs*","150 IF X>32 THEN N=0"], [0, 1, 0.5], [0, 0, 0])
 	FONT_PATH = "fonts/otf/MatrixSansScreen-Regular.otf"
-	make_image(["MATRIX SANS SCREEN","Jackdaws love my big","sphinx of quartz?","3×(5+1)²-6/2=105"])
+	make_image(["MATRIX SANS SCREEN","Jackdaws love my big","sphinx of quartz?","3×(5+1)²-6/2=105"], [0, 0, 0], [202/255, 228/255, 175/255])
 	FONT_PATH = "fonts/otf/MatrixSansVideo-Regular.otf"
-	make_image(["MATRIX SANS VIDEO","How quickly [daft]","jumping zebras vex!","23/04/1987 12:56 PM"])
+	make_image(["MATRIX SANS VIDEO","How quickly [daft]","jumping zebras vex!","23/04/1987 12:56 PM"], [216/255, 216/255, 216/255], [0, 0, 160/255])
 	# Save output, using the "--output" flag location
 	saveImage(args.output)
 	# Print done in the terminal
