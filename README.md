@@ -99,8 +99,6 @@ To easily add or modify glyphs (requires [FontForge](https://fontforge.org/), an
 
 ## Changelog
 
-The fonts are currently in early development; significant changes may still occur before the release of Version 1.0.
-
 #### 19 December 2022 - Version 1.000
 - Updated kerning
 - Reduced space width
