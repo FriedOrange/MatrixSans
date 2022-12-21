@@ -151,7 +151,7 @@ if __name__ == "__main__":
 	FONT_PATH = "fonts/otf/MatrixSansRaster-Regular.otf"
 	make_image(["MATRIX SANS RASTER","Pack my box with five","dozen liquor jugs*","150 IF X>32 THEN N=0"], [0, 1, 0.5], [0, 0, 0])
 	FONT_PATH = "fonts/otf/MatrixSansScreen-Regular.otf"
-	make_image(["MATRIX SANS SCREEN","Jackdaws love my big","sphinx of quartz?","3×(5+1)²-6/2=105"], [0, 0, 0], [202/255, 228/255, 175/255])
+	make_image(["MATRIX SANS SCREEN","Jackdaws love my big","sphinx of quartz?","3×(5+1)²−6/2=105"], [0, 0, 0], [202/255, 228/255, 175/255])
 	FONT_PATH = "fonts/otf/MatrixSansVideo-Regular.otf"
 	make_image(["MATRIX SANS VIDEO","How quickly [daft]","jumping zebras vex!","23/04/1987 12:56 PM"], [216/255, 216/255, 216/255], [0, 0, 160/255])
 	# Save output, using the "--output" flag location
