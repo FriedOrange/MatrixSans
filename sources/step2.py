@@ -86,7 +86,7 @@ font.save("MatrixSansPrint-Regular.sfd")
 #######################################
 # Video style
 
-video_fix = {"four", "N", "R", "b", "d", "g", "p", "q", "z", "AE", "thorn", "Lslash", "uni2074", "radical", "Eng.loclNSM", "uni1E9E"}
+video_fix = {"four", "M", "N", "R", "b", "d", "g", "p", "q", "z", "AE", "thorn", "Lslash", "uni2074", "radical", "Eng.loclNSM", "uni1E9E"}
 unlink_list += ["Aogonek", "uogonek"]
 
 font = fontforge.open(sys.argv[1])
@@ -165,7 +165,7 @@ for glyph in font:
 				font[glyph].addReference("halfdot", (1, 0, 0, 1, x * DOT_SIZE + DOT_SIZE // 2 + LEFT_SIDE_BEARING, (y - DESCENT_DOTS) * DOT_SIZE + DOT_SIZE // 2))
 				font[glyph].addReference("halfdot", (1, 0, 0, 1, (x + 1) * DOT_SIZE + LEFT_SIDE_BEARING, (y - DESCENT_DOTS + 1) * DOT_SIZE))
 				matrix2[x][y] = 2 # top right
-				matrix2[x + 1][y + 1] = 4 # bottom right
+				matrix2[x + 1][y + 1] = 4 # bottom left
 
 	if str(glyph) in video_fix:
 		# more complicated interpolation, to fix ugly spots left by the basic method
@@ -222,6 +222,7 @@ font["uni2113"].addReference("halfdot", (1, 0, 0, 1, 250, 250))
 font["paragraph"].addReference("halfdot", (1, 0, 0, 1, 100, 350))
 font["paragraph"].addReference("halfdot", (1, 0, 0, 1, 100, 600))
 font["one"].addReference("halfdot", (1, 0, 0, 1, 100, 600))
+font["M"].addReference("halfdot", (1, 0, 0, 1, 150, 600))
 
 # interpolation done, now finish it off the same as Regular style
 font["dot"].unlinkThisGlyph()
