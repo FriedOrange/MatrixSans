@@ -440,8 +440,14 @@
     <string>g.sc.glif</string>
     <key>gbreve</key>
     <string>gbreve.glif</string>
+    <key>gbreve.sc</key>
+    <string>gbreve.sc.glif</string>
+    <key>gcedilla.sc</key>
+    <string>gcedilla.sc.glif</string>
     <key>gdotaccent</key>
     <string>gdotaccent.glif</string>
+    <key>gdotaccent.sc</key>
+    <string>gdotaccent.sc.glif</string>
     <key>germandbls</key>
     <string>germandbls.glif</string>
     <key>germandbls.sc</key>
@@ -482,24 +488,38 @@
     <string>i.sc.glif</string>
     <key>iacute</key>
     <string>iacute.glif</string>
+    <key>iacute.sc</key>
+    <string>iacute.sc.glif</string>
     <key>icircumflex</key>
     <string>icircumflex.glif</string>
+    <key>icircumflex.sc</key>
+    <string>icircumflex.sc.glif</string>
     <key>idieresis</key>
     <string>idieresis.glif</string>
+    <key>idieresis.sc</key>
+    <string>idieresis.sc.glif</string>
+    <key>idotaccent.sc</key>
+    <string>idotaccent.sc.glif</string>
     <key>igrave</key>
     <string>igrave.glif</string>
+    <key>igrave.sc</key>
+    <string>igrave.sc.glif</string>
     <key>ij</key>
     <string>ij.glif</string>
     <key>ij.sc</key>
     <string>ij.sc.glif</string>
     <key>imacron</key>
     <string>imacron.glif</string>
+    <key>imacron.sc</key>
+    <string>imacron.sc.glif</string>
     <key>infinity</key>
     <string>infinity.glif</string>
     <key>integral</key>
     <string>integral.glif</string>
     <key>iogonek</key>
     <string>iogonek.glif</string>
+    <key>iogonek.sc</key>
+    <string>iogonek.sc.glif</string>
     <key>j</key>
     <string>j.glif</string>
     <key>j.sc</key>
@@ -508,6 +528,8 @@
     <string>jacute.glif</string>
     <key>k</key>
     <string>k.glif</string>
+    <key>kcommaaccent.sc</key>
+    <string>kcommaaccent.sc.glif</string>
     <key>kgreenlandic</key>
     <string>kgreenlandic.glif</string>
     <key>l</key>
@@ -516,8 +538,14 @@
     <string>l.sc.glif</string>
     <key>lacute</key>
     <string>lacute.glif</string>
+    <key>lacute.sc</key>
+    <string>lacute.sc.glif</string>
     <key>lcaron</key>
     <string>lcaron.glif</string>
+    <key>lcaron.sc</key>
+    <string>lcaron.sc.glif</string>
+    <key>lcommaaccent.sc</key>
+    <string>lcommaaccent.sc.glif</string>
     <key>less</key>
     <string>less.glif</string>
     <key>lessequal</key>
@@ -548,14 +576,22 @@
     <string>n.sc.glif</string>
     <key>nacute</key>
     <string>nacute.glif</string>
+    <key>nacute.sc</key>
+    <string>nacute.sc.glif</string>
     <key>ncaron</key>
     <string>ncaron.glif</string>
+    <key>ncaron.sc</key>
+    <string>ncaron.sc.glif</string>
+    <key>ncommaaccent.sc</key>
+    <string>ncommaaccent.sc.glif</string>
     <key>nine</key>
     <string>nine.glif</string>
     <key>notequal</key>
     <string>notequal.glif</string>
     <key>ntilde</key>
     <string>ntilde.glif</string>
+    <key>ntilde.sc</key>
+    <string>ntilde.sc.glif</string>
     <key>numbersign</key>
     <string>numbersign.glif</string>
     <key>o</key>
@@ -622,6 +658,8 @@
     <string>product.glif</string>
     <key>q</key>
     <string>q.glif</string>
+    <key>q.sc</key>
+    <string>q.sc.glif</string>
     <key>question</key>
     <string>question.glif</string>
     <key>questiondown</key>
@@ -648,10 +686,16 @@
     <string>r.sc.glif</string>
     <key>racute</key>
     <string>racute.glif</string>
+    <key>racute.sc</key>
+    <string>racute.sc.glif</string>
     <key>radical</key>
     <string>radical.glif</string>
     <key>rcaron</key>
     <string>rcaron.glif</string>
+    <key>rcaron.sc</key>
+    <string>rcaron.sc.glif</string>
+    <key>rcommaaccent.sc</key>
+    <string>rcommaaccent.sc.glif</string>
     <key>registered</key>
     <string>registered.glif</string>
     <key>ring</key>
@@ -686,6 +730,8 @@
     <string>t.sc.glif</string>
     <key>tcaron</key>
     <string>tcaron.glif</string>
+    <key>tcaron.sc</key>
+    <string>tcaron.sc.glif</string>
     <key>thorn</key>
     <string>thorn.glif</string>
     <key>thorn.sc</key>
@@ -708,18 +754,32 @@
     <string>u.sc.glif</string>
     <key>uacute</key>
     <string>uacute.glif</string>
+    <key>uacute.sc</key>
+    <string>uacute.sc.glif</string>
     <key>ubreve</key>
     <string>ubreve.glif</string>
+    <key>ubreve.sc</key>
+    <string>ubreve.sc.glif</string>
     <key>ucircumflex</key>
     <string>ucircumflex.glif</string>
+    <key>ucircumflex.sc</key>
+    <string>ucircumflex.sc.glif</string>
     <key>udieresis</key>
     <string>udieresis.glif</string>
+    <key>udieresis.sc</key>
+    <string>udieresis.sc.glif</string>
     <key>ugrave</key>
     <string>ugrave.glif</string>
+    <key>ugrave.sc</key>
+    <string>ugrave.sc.glif</string>
     <key>uhungarumlaut</key>
     <string>uhungarumlaut.glif</string>
+    <key>uhungarumlaut.sc</key>
+    <string>uhungarumlaut.sc.glif</string>
     <key>umacron</key>
     <string>umacron.glif</string>
+    <key>umacron.sc</key>
+    <string>umacron.sc.glif</string>
     <key>underscore</key>
     <string>underscore.glif</string>
     <key>uni00A0</key>
@@ -756,6 +816,8 @@
     <string>uni0162.glif</string>
     <key>uni0163</key>
     <string>uni0163.glif</string>
+    <key>uni0163.sc</key>
+    <string>uni0163.sc.glif</string>
     <key>uni01CD</key>
     <string>uni01C_D_.glif</string>
     <key>uni01CE</key>
@@ -768,6 +830,8 @@
     <string>uni021A_.glif</string>
     <key>uni021B</key>
     <string>uni021B_.glif</string>
+    <key>uni021B.sc</key>
+    <string>uni021B_.sc.glif</string>
     <key>uni0237</key>
     <string>uni0237.glif</string>
     <key>uni02C9</key>
@@ -832,8 +896,12 @@
     <string>uniF_B_02.glif</string>
     <key>uogonek</key>
     <string>uogonek.glif</string>
+    <key>uogonek.sc</key>
+    <string>uogonek.sc.glif</string>
     <key>uring</key>
     <string>uring.glif</string>
+    <key>uring.sc</key>
+    <string>uring.sc.glif</string>
     <key>v</key>
     <string>v.glif</string>
     <key>w</key>
@@ -854,14 +922,22 @@
     <string>y.sc.glif</string>
     <key>yacute</key>
     <string>yacute.glif</string>
+    <key>yacute.sc</key>
+    <string>yacute.sc.glif</string>
     <key>ycircumflex</key>
     <string>ycircumflex.glif</string>
+    <key>ycircumflex.sc</key>
+    <string>ycircumflex.sc.glif</string>
     <key>ydieresis</key>
     <string>ydieresis.glif</string>
+    <key>ydieresis.sc</key>
+    <string>ydieresis.sc.glif</string>
     <key>yen</key>
     <string>yen.glif</string>
     <key>ygrave</key>
     <string>ygrave.glif</string>
+    <key>ygrave.sc</key>
+    <string>ygrave.sc.glif</string>
     <key>z</key>
     <string>z.glif</string>
     <key>zacute</key>

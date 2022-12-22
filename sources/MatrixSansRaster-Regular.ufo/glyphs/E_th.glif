@@ -88,13 +88,13 @@
       <point x="35.0" y="372.0"/>
       <point x="53.0" y="390.0"/>
       <point x="75.0" y="390.0" type="curve" smooth="yes"/>
-      <point x="425.0" y="390.0" type="line" smooth="yes"/>
-      <point x="447.0" y="390.0"/>
-      <point x="465.0" y="372.0"/>
-      <point x="465.0" y="350.0" type="curve" smooth="yes"/>
-      <point x="465.0" y="328.0"/>
-      <point x="447.0" y="310.0"/>
-      <point x="425.0" y="310.0" type="curve" smooth="yes"/>
+      <point x="325.0" y="390.0" type="line" smooth="yes"/>
+      <point x="347.0" y="390.0"/>
+      <point x="365.0" y="372.0"/>
+      <point x="365.0" y="350.0" type="curve" smooth="yes"/>
+      <point x="365.0" y="328.0"/>
+      <point x="347.0" y="310.0"/>
+      <point x="325.0" y="310.0" type="curve" smooth="yes"/>
       <point x="75.0" y="310.0" type="line" smooth="yes"/>
       <point x="53.0" y="310.0"/>
       <point x="35.0" y="328.0"/>

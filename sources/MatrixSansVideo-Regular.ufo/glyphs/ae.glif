@@ -4,16 +4,6 @@
   <unicode hex="00E6"/>
   <outline>
     <contour>
-      <point x="50.0" y="100.0" type="line"/>
-      <point x="50.0" y="200.0" type="line"/>
-      <point x="100.0" y="200.0" type="line"/>
-      <point x="100.0" y="250.0" type="line"/>
-      <point x="150.0" y="250.0" type="line"/>
-      <point x="150.0" y="300.0" type="line"/>
-      <point x="350.0" y="300.0" type="line"/>
-      <point x="350.0" y="350.0" type="line"/>
-      <point x="300.0" y="350.0" type="line"/>
-      <point x="300.0" y="400.0" type="line"/>
       <point x="150.0" y="400.0" type="line"/>
       <point x="150.0" y="500.0" type="line"/>
       <point x="350.0" y="500.0" type="line"/>
@@ -40,20 +30,34 @@
       <point x="150.0" y="50.0" type="line"/>
       <point x="100.0" y="50.0" type="line"/>
       <point x="100.0" y="100.0" type="line"/>
+      <point x="50.0" y="100.0" type="line"/>
+      <point x="50.0" y="200.0" type="line"/>
+      <point x="100.0" y="200.0" type="line"/>
+      <point x="100.0" y="250.0" type="line"/>
+      <point x="150.0" y="250.0" type="line"/>
+      <point x="150.0" y="300.0" type="line"/>
+      <point x="350.0" y="300.0" type="line"/>
+      <point x="350.0" y="350.0" type="line"/>
+      <point x="300.0" y="350.0" type="line"/>
+      <point x="300.0" y="400.0" type="line"/>
     </contour>
     <contour>
-      <point x="150.0" y="100.0" type="line"/>
+      <point x="600.0" y="400.0" type="line"/>
+      <point x="500.0" y="400.0" type="line"/>
+      <point x="500.0" y="350.0" type="line"/>
+      <point x="450.0" y="350.0" type="line"/>
+      <point x="450.0" y="300.0" type="line"/>
+      <point x="650.0" y="300.0" type="line"/>
+      <point x="650.0" y="350.0" type="line"/>
+      <point x="600.0" y="350.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="350.0" y="200.0" type="line"/>
+      <point x="200.0" y="200.0" type="line"/>
+      <point x="200.0" y="100.0" type="line"/>
       <point x="300.0" y="100.0" type="line"/>
       <point x="300.0" y="150.0" type="line"/>
       <point x="350.0" y="150.0" type="line"/>
-      <point x="350.0" y="200.0" type="line"/>
-      <point x="150.0" y="200.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="450.0" y="300.0" type="line"/>
-      <point x="650.0" y="300.0" type="line"/>
-      <point x="650.0" y="400.0" type="line"/>
-      <point x="450.0" y="400.0" type="line"/>
     </contour>
   </outline>
 </glyph>

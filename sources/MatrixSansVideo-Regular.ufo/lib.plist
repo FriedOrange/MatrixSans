@@ -440,6 +440,44 @@
       <string>edotaccent.sc</string>
       <string>eogonek.sc</string>
       <string>ecaron.sc</string>
+      <string>gbreve.sc</string>
+      <string>gcedilla.sc</string>
+      <string>gdotaccent.sc</string>
+      <string>iacute.sc</string>
+      <string>icircumflex.sc</string>
+      <string>idieresis.sc</string>
+      <string>idotaccent.sc</string>
+      <string>igrave.sc</string>
+      <string>imacron.sc</string>
+      <string>iogonek.sc</string>
+      <string>kcommaaccent.sc</string>
+      <string>lacute.sc</string>
+      <string>lcaron.sc</string>
+      <string>lcommaaccent.sc</string>
+      <string>nacute.sc</string>
+      <string>ncaron.sc</string>
+      <string>ncommaaccent.sc</string>
+      <string>ntilde.sc</string>
+      <string>racute.sc</string>
+      <string>rcaron.sc</string>
+      <string>rcommaaccent.sc</string>
+      <string>tcaron.sc</string>
+      <string>uni0163.sc</string>
+      <string>uni021B.sc</string>
+      <string>uacute.sc</string>
+      <string>ubreve.sc</string>
+      <string>ucircumflex.sc</string>
+      <string>udieresis.sc</string>
+      <string>uhungarumlaut.sc</string>
+      <string>ugrave.sc</string>
+      <string>umacron.sc</string>
+      <string>uogonek.sc</string>
+      <string>uring.sc</string>
+      <string>yacute.sc</string>
+      <string>ycircumflex.sc</string>
+      <string>ygrave.sc</string>
+      <string>q.sc</string>
+      <string>ydieresis.sc</string>
     </array>
     <key>public.openTypeCategories</key>
     <dict>
@@ -879,7 +917,13 @@
       <string>base</string>
       <key>gbreve</key>
       <string>base</string>
+      <key>gbreve.sc</key>
+      <string>base</string>
+      <key>gcedilla.sc</key>
+      <string>base</string>
       <key>gdotaccent</key>
+      <string>base</string>
+      <key>gdotaccent.sc</key>
       <string>base</string>
       <key>germandbls</key>
       <string>base</string>
@@ -921,11 +965,21 @@
       <string>base</string>
       <key>iacute</key>
       <string>base</string>
+      <key>iacute.sc</key>
+      <string>base</string>
       <key>icircumflex</key>
+      <string>base</string>
+      <key>icircumflex.sc</key>
       <string>base</string>
       <key>idieresis</key>
       <string>base</string>
+      <key>idieresis.sc</key>
+      <string>base</string>
+      <key>idotaccent.sc</key>
+      <string>base</string>
       <key>igrave</key>
+      <string>base</string>
+      <key>igrave.sc</key>
       <string>base</string>
       <key>ij</key>
       <string>base</string>
@@ -933,11 +987,15 @@
       <string>base</string>
       <key>imacron</key>
       <string>base</string>
+      <key>imacron.sc</key>
+      <string>base</string>
       <key>infinity</key>
       <string>base</string>
       <key>integral</key>
       <string>base</string>
       <key>iogonek</key>
+      <string>base</string>
+      <key>iogonek.sc</key>
       <string>base</string>
       <key>j</key>
       <string>base</string>
@@ -947,6 +1005,8 @@
       <string>base</string>
       <key>k</key>
       <string>base</string>
+      <key>kcommaaccent.sc</key>
+      <string>base</string>
       <key>kgreenlandic</key>
       <string>base</string>
       <key>l</key>
@@ -955,7 +1015,13 @@
       <string>base</string>
       <key>lacute</key>
       <string>base</string>
+      <key>lacute.sc</key>
+      <string>base</string>
       <key>lcaron</key>
+      <string>base</string>
+      <key>lcaron.sc</key>
+      <string>base</string>
+      <key>lcommaaccent.sc</key>
       <string>base</string>
       <key>less</key>
       <string>base</string>
@@ -987,13 +1053,21 @@
       <string>base</string>
       <key>nacute</key>
       <string>base</string>
+      <key>nacute.sc</key>
+      <string>base</string>
       <key>ncaron</key>
+      <string>base</string>
+      <key>ncaron.sc</key>
+      <string>base</string>
+      <key>ncommaaccent.sc</key>
       <string>base</string>
       <key>nine</key>
       <string>base</string>
       <key>notequal</key>
       <string>base</string>
       <key>ntilde</key>
+      <string>base</string>
+      <key>ntilde.sc</key>
       <string>base</string>
       <key>numbersign</key>
       <string>base</string>
@@ -1061,6 +1135,8 @@
       <string>base</string>
       <key>q</key>
       <string>base</string>
+      <key>q.sc</key>
+      <string>base</string>
       <key>question</key>
       <string>base</string>
       <key>questiondown</key>
@@ -1087,9 +1163,15 @@
       <string>base</string>
       <key>racute</key>
       <string>base</string>
+      <key>racute.sc</key>
+      <string>base</string>
       <key>radical</key>
       <string>base</string>
       <key>rcaron</key>
+      <string>base</string>
+      <key>rcaron.sc</key>
+      <string>base</string>
+      <key>rcommaaccent.sc</key>
       <string>base</string>
       <key>registered</key>
       <string>base</string>
@@ -1125,6 +1207,8 @@
       <string>base</string>
       <key>tcaron</key>
       <string>base</string>
+      <key>tcaron.sc</key>
+      <string>base</string>
       <key>thorn</key>
       <string>base</string>
       <key>thorn.sc</key>
@@ -1147,17 +1231,31 @@
       <string>base</string>
       <key>uacute</key>
       <string>base</string>
+      <key>uacute.sc</key>
+      <string>base</string>
       <key>ubreve</key>
+      <string>base</string>
+      <key>ubreve.sc</key>
       <string>base</string>
       <key>ucircumflex</key>
       <string>base</string>
+      <key>ucircumflex.sc</key>
+      <string>base</string>
       <key>udieresis</key>
+      <string>base</string>
+      <key>udieresis.sc</key>
       <string>base</string>
       <key>ugrave</key>
       <string>base</string>
+      <key>ugrave.sc</key>
+      <string>base</string>
       <key>uhungarumlaut</key>
       <string>base</string>
+      <key>uhungarumlaut.sc</key>
+      <string>base</string>
       <key>umacron</key>
+      <string>base</string>
+      <key>umacron.sc</key>
       <string>base</string>
       <key>underscore</key>
       <string>base</string>
@@ -1195,6 +1293,8 @@
       <string>base</string>
       <key>uni0163</key>
       <string>base</string>
+      <key>uni0163.sc</key>
+      <string>base</string>
       <key>uni01CD</key>
       <string>base</string>
       <key>uni01CE</key>
@@ -1206,6 +1306,8 @@
       <key>uni021A</key>
       <string>base</string>
       <key>uni021B</key>
+      <string>base</string>
+      <key>uni021B.sc</key>
       <string>base</string>
       <key>uni0237</key>
       <string>base</string>
@@ -1271,7 +1373,11 @@
       <string>base</string>
       <key>uogonek</key>
       <string>base</string>
+      <key>uogonek.sc</key>
+      <string>base</string>
       <key>uring</key>
+      <string>base</string>
+      <key>uring.sc</key>
       <string>base</string>
       <key>v</key>
       <string>base</string>
@@ -1293,13 +1399,21 @@
       <string>base</string>
       <key>yacute</key>
       <string>base</string>
+      <key>yacute.sc</key>
+      <string>base</string>
       <key>ycircumflex</key>
       <string>base</string>
+      <key>ycircumflex.sc</key>
+      <string>base</string>
       <key>ydieresis</key>
+      <string>base</string>
+      <key>ydieresis.sc</key>
       <string>base</string>
       <key>yen</key>
       <string>base</string>
       <key>ygrave</key>
+      <string>base</string>
+      <key>ygrave.sc</key>
       <string>base</string>
       <key>z</key>
       <string>base</string>
