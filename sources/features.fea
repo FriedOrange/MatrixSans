@@ -17,7 +17,7 @@ languagesystem latn NLD;
 
 feature c2sc {
 	sub @uc by @c2sc;
-}
+} c2sc;
 
 # mark classes
 markClass [gravecomb acutecomb uni0302 tildecomb uni0304 uni0306 uni0307 uni0308 uni030A uni030B uni030C uni0312] <anchor 0 600> @marks_above;
