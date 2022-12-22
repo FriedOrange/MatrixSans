@@ -187,21 +187,21 @@ for glyph in font:
 					font[glyph].addReference("halfdot", (1, 0, 0, 1, (i + x) * DOT_SIZE + LEFT_SIDE_BEARING, (j + y - DESCENT_DOTS) * DOT_SIZE))
 
 # hack for the counters in ae, oe
-refs = []
-for refname, trans in font["ae"].references:
-	if refname == "halfdot":
-		if trans[4] == 150 or trans[4] == 200 and trans[5] == 100 or trans[4] >= 350 and trans[5] == 350:
-			continue
-	refs.append((refname, trans))
-font["ae"].references = tuple(refs)
+# refs = []
+# for refname, trans in font["ae"].references:
+# 	if refname == "halfdot":
+# 		if trans[4] == 150 or trans[4] == 200 and trans[5] == 100 or trans[4] >= 350 and trans[5] == 350:
+# 			continue
+# 	refs.append((refname, trans))
+# font["ae"].references = tuple(refs)
 
-refs = []
-for refname, trans in font["oe"].references:
-	if refname == "halfdot":
-		if trans[4] >= 350 and trans[5] == 350:
-			continue
-	refs.append((refname, trans))
-font["oe"].references = tuple(refs)
+# refs = []
+# for refname, trans in font["oe"].references:
+# 	if refname == "halfdot":
+# 		if trans[4] >= 350 and trans[5] == 350:
+# 			continue
+# 	refs.append((refname, trans))
+# font["oe"].references = tuple(refs)
 
 refs = []
 for refname, trans in font["registered"].references:
