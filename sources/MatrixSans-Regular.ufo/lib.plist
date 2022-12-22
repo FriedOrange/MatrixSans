@@ -238,6 +238,7 @@
       <string>ij</string>
       <string>uni0136</string>
       <string>uni0137</string>
+      <string>kgreenlandic</string>
       <string>Lacute</string>
       <string>lacute</string>
       <string>uni013B</string>
@@ -393,6 +394,52 @@
       <string>Eng.loclNSM</string>
       <string>zero.zero</string>
       <string>jacute</string>
+      <string>a.sc</string>
+      <string>b.sc</string>
+      <string>d.sc</string>
+      <string>e.sc</string>
+      <string>f.sc</string>
+      <string>g.sc</string>
+      <string>h.sc</string>
+      <string>i.sc</string>
+      <string>j.sc</string>
+      <string>l.sc</string>
+      <string>m.sc</string>
+      <string>n.sc</string>
+      <string>p.sc</string>
+      <string>r.sc</string>
+      <string>t.sc</string>
+      <string>u.sc</string>
+      <string>y.sc</string>
+      <string>ae.sc</string>
+      <string>eth.sc</string>
+      <string>thorn.sc</string>
+      <string>germandbls.sc</string>
+      <string>lslash.sc</string>
+      <string>oe.sc</string>
+      <string>florin.sc</string>
+      <string>hbar.sc</string>
+      <string>ij.sc</string>
+      <string>eng.sc.loclNSM</string>
+      <string>agrave.sc</string>
+      <string>aacute.sc</string>
+      <string>acircumflex.sc</string>
+      <string>atilde.sc</string>
+      <string>adieresis.sc</string>
+      <string>aring.sc</string>
+      <string>amacron.sc</string>
+      <string>abreve.sc</string>
+      <string>aogonek.sc</string>
+      <string>acaron.sc</string>
+      <string>dcaron.sc</string>
+      <string>egrave.sc</string>
+      <string>eacute.sc</string>
+      <string>ecircumflex.sc</string>
+      <string>edieresis.sc</string>
+      <string>emacron.sc</string>
+      <string>edotaccent.sc</string>
+      <string>eogonek.sc</string>
+      <string>ecaron.sc</string>
     </array>
     <key>public.openTypeCategories</key>
     <dict>
@@ -616,11 +663,21 @@
       <string>base</string>
       <key>a</key>
       <string>base</string>
+      <key>a.sc</key>
+      <string>base</string>
       <key>aacute</key>
+      <string>base</string>
+      <key>aacute.sc</key>
       <string>base</string>
       <key>abreve</key>
       <string>base</string>
+      <key>abreve.sc</key>
+      <string>base</string>
+      <key>acaron.sc</key>
+      <string>base</string>
       <key>acircumflex</key>
+      <string>base</string>
+      <key>acircumflex.sc</key>
       <string>base</string>
       <key>acute</key>
       <string>base</string>
@@ -628,19 +685,31 @@
       <string>base</string>
       <key>adieresis</key>
       <string>base</string>
+      <key>adieresis.sc</key>
+      <string>base</string>
       <key>ae</key>
+      <string>base</string>
+      <key>ae.sc</key>
       <string>base</string>
       <key>agrave</key>
       <string>base</string>
+      <key>agrave.sc</key>
+      <string>base</string>
       <key>amacron</key>
+      <string>base</string>
+      <key>amacron.sc</key>
       <string>base</string>
       <key>ampersand</key>
       <string>base</string>
       <key>aogonek</key>
       <string>base</string>
+      <key>aogonek.sc</key>
+      <string>base</string>
       <key>approxequal</key>
       <string>base</string>
       <key>aring</key>
+      <string>base</string>
+      <key>aring.sc</key>
       <string>base</string>
       <key>asciicircum</key>
       <string>base</string>
@@ -652,7 +721,11 @@
       <string>base</string>
       <key>atilde</key>
       <string>base</string>
+      <key>atilde.sc</key>
+      <string>base</string>
       <key>b</key>
+      <string>base</string>
+      <key>b.sc</key>
       <string>base</string>
       <key>backslash</key>
       <string>base</string>
@@ -700,11 +773,15 @@
       <string>base</string>
       <key>d</key>
       <string>base</string>
+      <key>d.sc</key>
+      <string>base</string>
       <key>dagger</key>
       <string>base</string>
       <key>daggerdbl</key>
       <string>base</string>
       <key>dcaron</key>
+      <string>base</string>
+      <key>dcaron.sc</key>
       <string>base</string>
       <key>dcroat</key>
       <string>base</string>
@@ -722,17 +799,31 @@
       <string>base</string>
       <key>e</key>
       <string>base</string>
+      <key>e.sc</key>
+      <string>base</string>
       <key>eacute</key>
+      <string>base</string>
+      <key>eacute.sc</key>
       <string>base</string>
       <key>ecaron</key>
       <string>base</string>
+      <key>ecaron.sc</key>
+      <string>base</string>
       <key>ecircumflex</key>
+      <string>base</string>
+      <key>ecircumflex.sc</key>
       <string>base</string>
       <key>edieresis</key>
       <string>base</string>
+      <key>edieresis.sc</key>
+      <string>base</string>
       <key>edotaccent</key>
       <string>base</string>
+      <key>edotaccent.sc</key>
+      <string>base</string>
       <key>egrave</key>
+      <string>base</string>
+      <key>egrave.sc</key>
       <string>base</string>
       <key>eight</key>
       <string>base</string>
@@ -740,13 +831,19 @@
       <string>base</string>
       <key>emacron</key>
       <string>base</string>
+      <key>emacron.sc</key>
+      <string>base</string>
       <key>emdash</key>
       <string>base</string>
       <key>endash</key>
       <string>base</string>
       <key>eng</key>
       <string>base</string>
+      <key>eng.sc.loclNSM</key>
+      <string>base</string>
       <key>eogonek</key>
+      <string>base</string>
+      <key>eogonek.sc</key>
       <string>base</string>
       <key>equal</key>
       <string>base</string>
@@ -754,11 +851,15 @@
       <string>base</string>
       <key>eth</key>
       <string>base</string>
+      <key>eth.sc</key>
+      <string>base</string>
       <key>exclam</key>
       <string>base</string>
       <key>exclamdown</key>
       <string>base</string>
       <key>f</key>
+      <string>base</string>
+      <key>f.sc</key>
       <string>base</string>
       <key>figuredash</key>
       <string>base</string>
@@ -766,17 +867,23 @@
       <string>base</string>
       <key>florin</key>
       <string>base</string>
+      <key>florin.sc</key>
+      <string>base</string>
       <key>four</key>
       <string>base</string>
       <key>fraction</key>
       <string>base</string>
       <key>g</key>
       <string>base</string>
+      <key>g.sc</key>
+      <string>base</string>
       <key>gbreve</key>
       <string>base</string>
       <key>gdotaccent</key>
       <string>base</string>
       <key>germandbls</key>
+      <string>base</string>
+      <key>germandbls.sc</key>
       <string>base</string>
       <key>grave</key>
       <string>base</string>
@@ -796,7 +903,11 @@
       <string>base</string>
       <key>h</key>
       <string>base</string>
+      <key>h.sc</key>
+      <string>base</string>
       <key>hbar</key>
+      <string>base</string>
+      <key>hbar.sc</key>
       <string>base</string>
       <key>hungarumlaut</key>
       <string>base</string>
@@ -805,6 +916,8 @@
       <key>i</key>
       <string>base</string>
       <key>i.loclTRK</key>
+      <string>base</string>
+      <key>i.sc</key>
       <string>base</string>
       <key>iacute</key>
       <string>base</string>
@@ -816,6 +929,8 @@
       <string>base</string>
       <key>ij</key>
       <string>base</string>
+      <key>ij.sc</key>
+      <string>base</string>
       <key>imacron</key>
       <string>base</string>
       <key>infinity</key>
@@ -826,11 +941,17 @@
       <string>base</string>
       <key>j</key>
       <string>base</string>
+      <key>j.sc</key>
+      <string>base</string>
       <key>jacute</key>
       <string>base</string>
       <key>k</key>
       <string>base</string>
+      <key>kgreenlandic</key>
+      <string>base</string>
       <key>l</key>
+      <string>base</string>
+      <key>l.sc</key>
       <string>base</string>
       <key>lacute</key>
       <string>base</string>
@@ -846,7 +967,11 @@
       <string>base</string>
       <key>lslash</key>
       <string>base</string>
+      <key>lslash.sc</key>
+      <string>base</string>
       <key>m</key>
+      <string>base</string>
+      <key>m.sc</key>
       <string>base</string>
       <key>macron</key>
       <string>base</string>
@@ -857,6 +982,8 @@
       <key>multiply</key>
       <string>base</string>
       <key>n</key>
+      <string>base</string>
+      <key>n.sc</key>
       <string>base</string>
       <key>nacute</key>
       <string>base</string>
@@ -879,6 +1006,8 @@
       <key>odieresis</key>
       <string>base</string>
       <key>oe</key>
+      <string>base</string>
+      <key>oe.sc</key>
       <string>base</string>
       <key>ogonek</key>
       <string>base</string>
@@ -903,6 +1032,8 @@
       <key>otilde</key>
       <string>base</string>
       <key>p</key>
+      <string>base</string>
+      <key>p.sc</key>
       <string>base</string>
       <key>paragraph</key>
       <string>base</string>
@@ -952,6 +1083,8 @@
       <string>base</string>
       <key>r</key>
       <string>base</string>
+      <key>r.sc</key>
+      <string>base</string>
       <key>racute</key>
       <string>base</string>
       <key>radical</key>
@@ -988,9 +1121,13 @@
       <string>base</string>
       <key>t</key>
       <string>base</string>
+      <key>t.sc</key>
+      <string>base</string>
       <key>tcaron</key>
       <string>base</string>
       <key>thorn</key>
+      <string>base</string>
+      <key>thorn.sc</key>
       <string>base</string>
       <key>three</key>
       <string>base</string>
@@ -1005,6 +1142,8 @@
       <key>two</key>
       <string>base</string>
       <key>u</key>
+      <string>base</string>
+      <key>u.sc</key>
       <string>base</string>
       <key>uacute</key>
       <string>base</string>
@@ -1149,6 +1288,8 @@
       <key>x</key>
       <string>base</string>
       <key>y</key>
+      <string>base</string>
+      <key>y.sc</key>
       <string>base</string>
       <key>yacute</key>
       <string>base</string>

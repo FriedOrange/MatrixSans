@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1657964544
-ModificationTime: 1671627492
+ModificationTime: 1671673732
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -64,7 +64,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 1113952 16 14
+WinInfo: 176 16 14
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 629146 314573 209715 524288 1048576 0 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
@@ -2606,32 +2606,36 @@ EndChar
 
 StartChar: AE
 Encoding: 198 198 125
-Width: 600
+Width: 800
 Flags: HMW
-AnchorPoint: "marks_below" 300 0 basechar 0
-AnchorPoint: "marks_above" 300 800 basechar 0
+AnchorPoint: "marks_below" 400 0 basechar 0
+AnchorPoint: "marks_above" 400 800 basechar 0
 LayerCount: 2
 Fore
-Refer: 0 -1 N 1 0 0 1 450 0 2
-Refer: 0 -1 N 1 0 0 1 350 0 2
-Refer: 0 -1 N 1 0 0 1 250 0 2
-Refer: 0 -1 N 1 0 0 1 50 0 2
-Refer: 0 -1 N 1 0 0 1 250 100 2
-Refer: 0 -1 N 1 0 0 1 50 100 2
-Refer: 0 -1 N 1 0 0 1 250 200 2
-Refer: 0 -1 N 1 0 0 1 150 200 2
-Refer: 0 -1 N 1 0 0 1 50 200 2
-Refer: 0 -1 N 1 0 0 1 450 300 2
-Refer: 0 -1 N 1 0 0 1 350 300 2
-Refer: 0 -1 N 1 0 0 1 250 300 2
-Refer: 0 -1 N 1 0 0 1 50 300 2
-Refer: 0 -1 N 1 0 0 1 250 400 2
-Refer: 0 -1 N 1 0 0 1 50 400 2
-Refer: 0 -1 N 1 0 0 1 250 500 2
-Refer: 0 -1 N 1 0 0 1 150 500 2
-Refer: 0 -1 N 1 0 0 1 450 600 2
-Refer: 0 -1 N 1 0 0 1 350 600 2
 Refer: 0 -1 N 1 0 0 1 250 600 2
+Refer: 0 -1 N 1 0 0 1 350 600 2
+Refer: 0 -1 N 1 0 0 1 450 600 2
+Refer: 0 -1 N 1 0 0 1 550 600 2
+Refer: 0 -1 N 1 0 0 1 650 600 2
+Refer: 0 -1 N 1 0 0 1 150 500 2
+Refer: 0 -1 N 1 0 0 1 350 500 2
+Refer: 0 -1 N 1 0 0 1 50 400 2
+Refer: 0 -1 N 1 0 0 1 350 400 2
+Refer: 0 -1 N 1 0 0 1 50 300 2
+Refer: 0 -1 N 1 0 0 1 350 300 2
+Refer: 0 -1 N 1 0 0 1 450 300 2
+Refer: 0 -1 N 1 0 0 1 550 300 2
+Refer: 0 -1 N 1 0 0 1 50 200 2
+Refer: 0 -1 N 1 0 0 1 150 200 2
+Refer: 0 -1 N 1 0 0 1 250 200 2
+Refer: 0 -1 N 1 0 0 1 350 200 2
+Refer: 0 -1 N 1 0 0 1 50 100 2
+Refer: 0 -1 N 1 0 0 1 350 100 2
+Refer: 0 -1 N 1 0 0 1 50 0 2
+Refer: 0 -1 N 1 0 0 1 350 0 2
+Refer: 0 -1 N 1 0 0 1 450 0 2
+Refer: 0 -1 N 1 0 0 1 550 0 2
+Refer: 0 -1 N 1 0 0 1 650 0 2
 EndChar
 
 StartChar: Ccedilla
@@ -2726,28 +2730,31 @@ EndChar
 
 StartChar: Eth
 Encoding: 208 208 135
-Width: 600
+Width: 700
 Flags: HMW
-AnchorPoint: "marks_below" 300 0 basechar 0
-AnchorPoint: "marks_above" 300 800 basechar 0
+AnchorPoint: "marks_below" 400 0 basechar 0
+AnchorPoint: "marks_above" 400 800 basechar 0
 LayerCount: 2
 Fore
-Refer: 0 -1 N 1 0 0 1 250 0 2
-Refer: 0 -1 N 1 0 0 1 150 0 2
-Refer: 0 -1 N 1 0 0 1 350 100 2
-Refer: 0 -1 N 1 0 0 1 150 100 2
-Refer: 0 -1 N 1 0 0 1 450 200 2
-Refer: 0 -1 N 1 0 0 1 150 200 2
-Refer: 0 -1 N 1 0 0 1 450 300 2
-Refer: 0 -1 N 1 0 0 1 250 300 2
-Refer: 0 -1 N 1 0 0 1 150 300 2
-Refer: 0 -1 N 1 0 0 1 50 300 2
-Refer: 0 -1 N 1 0 0 1 450 400 2
-Refer: 0 -1 N 1 0 0 1 150 400 2
-Refer: 0 -1 N 1 0 0 1 350 500 2
-Refer: 0 -1 N 1 0 0 1 150 500 2
-Refer: 0 -1 N 1 0 0 1 250 600 2
+Refer: 0 -1 N 1 0 0 1 350 300 2
 Refer: 0 -1 N 1 0 0 1 150 600 2
+Refer: 0 -1 N 1 0 0 1 250 600 2
+Refer: 0 -1 N 1 0 0 1 350 600 2
+Refer: 0 -1 N 1 0 0 1 150 500 2
+Refer: 0 -1 N 1 0 0 1 450 500 2
+Refer: 0 -1 N 1 0 0 1 150 400 2
+Refer: 0 -1 N 1 0 0 1 550 400 2
+Refer: 0 -1 N 1 0 0 1 50 300 2
+Refer: 0 -1 N 1 0 0 1 150 300 2
+Refer: 0 -1 N 1 0 0 1 250 300 2
+Refer: 0 -1 N 1 0 0 1 550 300 2
+Refer: 0 -1 N 1 0 0 1 150 200 2
+Refer: 0 -1 N 1 0 0 1 550 200 2
+Refer: 0 -1 N 1 0 0 1 150 100 2
+Refer: 0 -1 N 1 0 0 1 450 100 2
+Refer: 0 -1 N 1 0 0 1 150 0 2
+Refer: 0 -1 N 1 0 0 1 250 0 2
+Refer: 0 -1 N 1 0 0 1 350 0 2
 EndChar
 
 StartChar: Ntilde
@@ -3010,26 +3017,30 @@ EndChar
 
 StartChar: ae
 Encoding: 230 230 157
-Width: 600
+Width: 800
 Flags: HMW
-AnchorPoint: "marks_below" 300 0 basechar 0
-AnchorPoint: "marks_above" 300 600 basechar 0
+AnchorPoint: "marks_below" 400 0 basechar 0
+AnchorPoint: "marks_above" 400 600 basechar 0
 LayerCount: 2
 Fore
-Refer: 0 -1 N 1 0 0 1 450 0 2
-Refer: 0 -1 N 1 0 0 1 350 0 2
-Refer: 0 -1 N 1 0 0 1 150 0 2
-Refer: 0 -1 N 1 0 0 1 250 100 2
-Refer: 0 -1 N 1 0 0 1 50 100 2
-Refer: 0 -1 N 1 0 0 1 450 200 2
-Refer: 0 -1 N 1 0 0 1 350 200 2
-Refer: 0 -1 N 1 0 0 1 250 200 2
-Refer: 0 -1 N 1 0 0 1 150 200 2
-Refer: 0 -1 N 1 0 0 1 450 300 2
-Refer: 0 -1 N 1 0 0 1 250 300 2
-Refer: 0 -1 N 1 0 0 1 350 400 2
 Refer: 0 -1 N 1 0 0 1 150 400 2
-Refer: 0 -1 N 1 0 0 1 50 400 2
+Refer: 0 -1 N 1 0 0 1 250 400 2
+Refer: 0 -1 N 1 0 0 1 450 400 2
+Refer: 0 -1 N 1 0 0 1 550 400 2
+Refer: 0 -1 N 1 0 0 1 350 300 2
+Refer: 0 -1 N 1 0 0 1 650 300 2
+Refer: 0 -1 N 1 0 0 1 150 200 2
+Refer: 0 -1 N 1 0 0 1 250 200 2
+Refer: 0 -1 N 1 0 0 1 350 200 2
+Refer: 0 -1 N 1 0 0 1 450 200 2
+Refer: 0 -1 N 1 0 0 1 550 200 2
+Refer: 0 -1 N 1 0 0 1 650 200 2
+Refer: 0 -1 N 1 0 0 1 50 100 2
+Refer: 0 -1 N 1 0 0 1 350 100 2
+Refer: 0 -1 N 1 0 0 1 150 0 2
+Refer: 0 -1 N 1 0 0 1 250 0 2
+Refer: 0 -1 N 1 0 0 1 450 0 2
+Refer: 0 -1 N 1 0 0 1 550 0 2
 EndChar
 
 StartChar: ccedilla
@@ -3393,56 +3404,64 @@ EndChar
 
 StartChar: OE
 Encoding: 338 338 186
-Width: 600
+Width: 800
 Flags: HMW
-AnchorPoint: "marks_below" 300 0 basechar 0
-AnchorPoint: "marks_above" 300 800 basechar 0
+AnchorPoint: "marks_below" 400 0 basechar 0
+AnchorPoint: "marks_above" 400 800 basechar 0
 LayerCount: 2
 Fore
-Refer: 0 -1 N 1 0 0 1 450 0 2
-Refer: 0 -1 N 1 0 0 1 350 0 2
-Refer: 0 -1 N 1 0 0 1 250 0 2
-Refer: 0 -1 N 1 0 0 1 150 0 2
-Refer: 0 -1 N 1 0 0 1 250 100 2
-Refer: 0 -1 N 1 0 0 1 50 100 2
-Refer: 0 -1 N 1 0 0 1 250 200 2
-Refer: 0 -1 N 1 0 0 1 50 200 2
-Refer: 0 -1 N 1 0 0 1 450 300 2
-Refer: 0 -1 N 1 0 0 1 350 300 2
-Refer: 0 -1 N 1 0 0 1 250 300 2
-Refer: 0 -1 N 1 0 0 1 50 300 2
-Refer: 0 -1 N 1 0 0 1 250 400 2
-Refer: 0 -1 N 1 0 0 1 50 400 2
-Refer: 0 -1 N 1 0 0 1 250 500 2
-Refer: 0 -1 N 1 0 0 1 50 500 2
-Refer: 0 -1 N 1 0 0 1 450 600 2
-Refer: 0 -1 N 1 0 0 1 350 600 2
-Refer: 0 -1 N 1 0 0 1 250 600 2
 Refer: 0 -1 N 1 0 0 1 150 600 2
+Refer: 0 -1 N 1 0 0 1 250 600 2
+Refer: 0 -1 N 1 0 0 1 350 600 2
+Refer: 0 -1 N 1 0 0 1 450 600 2
+Refer: 0 -1 N 1 0 0 1 550 600 2
+Refer: 0 -1 N 1 0 0 1 650 600 2
+Refer: 0 -1 N 1 0 0 1 50 500 2
+Refer: 0 -1 N 1 0 0 1 350 500 2
+Refer: 0 -1 N 1 0 0 1 50 400 2
+Refer: 0 -1 N 1 0 0 1 350 400 2
+Refer: 0 -1 N 1 0 0 1 50 300 2
+Refer: 0 -1 N 1 0 0 1 350 300 2
+Refer: 0 -1 N 1 0 0 1 450 300 2
+Refer: 0 -1 N 1 0 0 1 550 300 2
+Refer: 0 -1 N 1 0 0 1 50 200 2
+Refer: 0 -1 N 1 0 0 1 350 200 2
+Refer: 0 -1 N 1 0 0 1 50 100 2
+Refer: 0 -1 N 1 0 0 1 350 100 2
+Refer: 0 -1 N 1 0 0 1 150 0 2
+Refer: 0 -1 N 1 0 0 1 250 0 2
+Refer: 0 -1 N 1 0 0 1 350 0 2
+Refer: 0 -1 N 1 0 0 1 450 0 2
+Refer: 0 -1 N 1 0 0 1 550 0 2
+Refer: 0 -1 N 1 0 0 1 650 0 2
 EndChar
 
 StartChar: oe
 Encoding: 339 339 187
-Width: 600
+Width: 800
 Flags: HMW
-AnchorPoint: "marks_below" 300 0 basechar 0
-AnchorPoint: "marks_above" 300 600 basechar 0
+AnchorPoint: "marks_below" 400 0 basechar 0
+AnchorPoint: "marks_above" 400 600 basechar 0
 LayerCount: 2
 Fore
-Refer: 0 -1 N 1 0 0 1 450 0 2
-Refer: 0 -1 N 1 0 0 1 350 0 2
-Refer: 0 -1 N 1 0 0 1 150 0 2
-Refer: 0 -1 N 1 0 0 1 250 100 2
-Refer: 0 -1 N 1 0 0 1 50 100 2
-Refer: 0 -1 N 1 0 0 1 450 200 2
-Refer: 0 -1 N 1 0 0 1 350 200 2
-Refer: 0 -1 N 1 0 0 1 250 200 2
-Refer: 0 -1 N 1 0 0 1 50 200 2
-Refer: 0 -1 N 1 0 0 1 450 300 2
-Refer: 0 -1 N 1 0 0 1 250 300 2
-Refer: 0 -1 N 1 0 0 1 50 300 2
-Refer: 0 -1 N 1 0 0 1 350 400 2
 Refer: 0 -1 N 1 0 0 1 150 400 2
+Refer: 0 -1 N 1 0 0 1 250 400 2
+Refer: 0 -1 N 1 0 0 1 450 400 2
+Refer: 0 -1 N 1 0 0 1 550 400 2
+Refer: 0 -1 N 1 0 0 1 50 300 2
+Refer: 0 -1 N 1 0 0 1 350 300 2
+Refer: 0 -1 N 1 0 0 1 650 300 2
+Refer: 0 -1 N 1 0 0 1 50 200 2
+Refer: 0 -1 N 1 0 0 1 350 200 2
+Refer: 0 -1 N 1 0 0 1 450 200 2
+Refer: 0 -1 N 1 0 0 1 550 200 2
+Refer: 0 -1 N 1 0 0 1 650 200 2
+Refer: 0 -1 N 1 0 0 1 50 100 2
+Refer: 0 -1 N 1 0 0 1 350 100 2
+Refer: 0 -1 N 1 0 0 1 150 0 2
+Refer: 0 -1 N 1 0 0 1 250 0 2
+Refer: 0 -1 N 1 0 0 1 450 0 2
+Refer: 0 -1 N 1 0 0 1 550 0 2
 EndChar
 
 StartChar: florin
@@ -4515,27 +4534,30 @@ EndChar
 
 StartChar: dcroat
 Encoding: 273 273 263
-Width: 600
-Flags: MW
+Width: 700
+Flags: HMW
 AnchorPoint: "marks_below" 300 0 basechar 0
 AnchorPoint: "marks_above" 300 800 basechar 0
 LayerCount: 2
 Fore
-Refer: 0 -1 N 1 0 0 1 350 0 2
-Refer: 0 -1 N 1 0 0 1 250 0 2
-Refer: 0 -1 N 1 0 0 1 150 0 2
-Refer: 0 -1 N 1 0 0 1 350 100 2
-Refer: 0 -1 N 1 0 0 1 50 100 2
-Refer: 0 -1 N 1 0 0 1 350 200 2
-Refer: 0 -1 N 1 0 0 1 50 200 2
-Refer: 0 -1 N 1 0 0 1 350 300 2
-Refer: 0 -1 N 1 0 0 1 250 300 2
-Refer: 0 -1 N 1 0 0 1 150 300 2
-Refer: 0 -1 N 1 0 0 1 350 400 2
-Refer: 0 -1 N 1 0 0 1 450 500 2
-Refer: 0 -1 N 1 0 0 1 350 500 2
 Refer: 0 -1 N 1 0 0 1 250 500 2
-Refer: 0 -1 N 1 0 0 1 350 600 2
+Refer: 0 -1 N 1 0 0 1 450 600 2
+Refer: 0 -1 N 1 0 0 1 350 500 2
+Refer: 0 -1 N 1 0 0 1 450 500 2
+Refer: 0 -1 N 1 0 0 1 550 500 2
+Refer: 0 -1 N 1 0 0 1 450 400 2
+Refer: 0 -1 N 1 0 0 1 150 300 2
+Refer: 0 -1 N 1 0 0 1 250 300 2
+Refer: 0 -1 N 1 0 0 1 450 300 2
+Refer: 0 -1 N 1 0 0 1 50 200 2
+Refer: 0 -1 N 1 0 0 1 350 200 2
+Refer: 0 -1 N 1 0 0 1 450 200 2
+Refer: 0 -1 N 1 0 0 1 50 100 2
+Refer: 0 -1 N 1 0 0 1 350 100 2
+Refer: 0 -1 N 1 0 0 1 450 100 2
+Refer: 0 -1 N 1 0 0 1 150 0 2
+Refer: 0 -1 N 1 0 0 1 250 0 2
+Refer: 0 -1 N 1 0 0 1 450 0 2
 EndChar
 
 StartChar: Hbar
@@ -4570,26 +4592,28 @@ EndChar
 
 StartChar: hbar
 Encoding: 295 295 265
-Width: 600
-Flags: MW
-AnchorPoint: "marks_below" 300 0 basechar 0
-AnchorPoint: "marks_above" 300 800 basechar 0
+Width: 700
+Flags: HMW
+AnchorPoint: "marks_below" 400 0 basechar 0
+AnchorPoint: "marks_above" 400 800 basechar 0
 LayerCount: 2
 Fore
-Refer: 0 -1 N 1 0 0 1 450 0 2
-Refer: 0 -1 N 1 0 0 1 150 0 2
-Refer: 0 -1 N 1 0 0 1 450 100 2
-Refer: 0 -1 N 1 0 0 1 150 100 2
-Refer: 0 -1 N 1 0 0 1 450 200 2
-Refer: 0 -1 N 1 0 0 1 150 200 2
-Refer: 0 -1 N 1 0 0 1 350 300 2
-Refer: 0 -1 N 1 0 0 1 250 300 2
-Refer: 0 -1 N 1 0 0 1 150 300 2
-Refer: 0 -1 N 1 0 0 1 150 400 2
-Refer: 0 -1 N 1 0 0 1 250 500 2
-Refer: 0 -1 N 1 0 0 1 150 500 2
-Refer: 0 -1 N 1 0 0 1 50 500 2
+Refer: 0 -1 S 1 0 0 1 350 500 2
 Refer: 0 -1 N 1 0 0 1 150 600 2
+Refer: 0 -1 N 1 0 0 1 50 500 2
+Refer: 0 -1 N 1 0 0 1 150 500 2
+Refer: 0 -1 N 1 0 0 1 250 500 2
+Refer: 0 -1 N 1 0 0 1 150 400 2
+Refer: 0 -1 N 1 0 0 1 150 300 2
+Refer: 0 -1 N 1 0 0 1 350 300 2
+Refer: 0 -1 N 1 0 0 1 450 300 2
+Refer: 0 -1 N 1 0 0 1 150 200 2
+Refer: 0 -1 N 1 0 0 1 250 200 2
+Refer: 0 -1 N 1 0 0 1 550 200 2
+Refer: 0 -1 N 1 0 0 1 150 100 2
+Refer: 0 -1 N 1 0 0 1 550 100 2
+Refer: 0 -1 N 1 0 0 1 150 0 2
+Refer: 0 -1 N 1 0 0 1 550 0 2
 EndChar
 
 StartChar: IJ
@@ -4983,7 +5007,7 @@ EndChar
 
 StartChar: Dcroat
 Encoding: 272 272 293
-Width: 600
+Width: 700
 Flags: HMW
 LayerCount: 2
 Fore

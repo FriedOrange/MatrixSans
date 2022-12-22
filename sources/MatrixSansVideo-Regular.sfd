@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1657964544
-ModificationTime: 1671630744
+ModificationTime: 1671673747
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -64,7 +64,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 1113952 16 14
+WinInfo: 176 16 14
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 629146 314573 209715 524288 1048576 0 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
@@ -4960,16 +4960,26 @@ EndChar
 
 StartChar: AE
 Encoding: 198 198 124
-Width: 600
+Width: 800
 Flags: HMW
-AnchorPoint: "marks_below" 300 0 basechar 0
-AnchorPoint: "marks_above" 300 800 basechar 0
+AnchorPoint: "marks_below" 400 0 basechar 0
+AnchorPoint: "marks_above" 400 800 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-550 0 m 1
- 250 0 l 1
- 250 200 l 1
+250 700 m 1
+ 750 700 l 1
+ 750 600 l 1
+ 450 600 l 1
+ 450 400 l 1
+ 650 400 l 1
+ 650 300 l 1
+ 450 300 l 1
+ 450 100 l 1
+ 750 100 l 1
+ 750 0 l 1
+ 350 0 l 1
+ 350 200 l 1
  150 200 l 1
  150 0 l 1
  50 0 l 1
@@ -4982,23 +4992,17 @@ SplineSet
  200 650 l 1
  250 650 l 1
  250 700 l 1
- 550 700 l 1
- 550 600 l 1
- 350 600 l 1
- 350 400 l 1
- 550 400 l 1
- 550 300 l 1
- 350 300 l 1
- 350 100 l 1
- 550 100 l 1
- 550 0 l 1
-250 300 m 1
+350 600 m 1
+ 300 600 l 1
+ 300 550 l 1
+ 250 550 l 1
  250 500 l 1
  200 500 l 1
  200 450 l 1
  150 450 l 1
  150 300 l 1
- 250 300 l 1
+ 350 300 l 1
+ 350 600 l 1
 EndSplineSet
 EndChar
 
@@ -5137,10 +5141,10 @@ EndChar
 
 StartChar: Eth
 Encoding: 208 208 134
-Width: 600
+Width: 700
 Flags: HMW
-AnchorPoint: "marks_below" 300 0 basechar 0
-AnchorPoint: "marks_above" 300 800 basechar 0
+AnchorPoint: "marks_below" 400 0 basechar 0
+AnchorPoint: "marks_above" 400 800 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -5148,48 +5152,48 @@ SplineSet
  50 400 l 1
  150 400 l 1
  150 700 l 1
- 350 700 l 1
- 350 650 l 1
- 400 650 l 1
- 400 600 l 1
- 450 600 l 1
- 450 550 l 1
- 500 550 l 1
- 500 500 l 1
- 550 500 l 1
- 550 200 l 1
- 500 200 l 1
- 500 150 l 1
- 450 150 l 1
- 450 100 l 1
- 400 100 l 1
- 400 50 l 1
- 350 50 l 1
- 350 0 l 1
+ 450 700 l 1
+ 450 650 l 1
+ 500 650 l 1
+ 500 600 l 1
+ 550 600 l 1
+ 550 550 l 1
+ 600 550 l 1
+ 600 500 l 1
+ 650 500 l 1
+ 650 200 l 1
+ 600 200 l 1
+ 600 150 l 1
+ 550 150 l 1
+ 550 100 l 1
+ 500 100 l 1
+ 500 50 l 1
+ 450 50 l 1
+ 450 0 l 1
  150 0 l 1
  150 300 l 1
  50 300 l 1
-250 100 m 1
- 300 100 l 1
- 300 150 l 1
- 350 150 l 1
- 350 200 l 1
- 400 200 l 1
- 400 250 l 1
- 450 250 l 1
- 450 450 l 1
- 400 450 l 1
- 400 500 l 1
- 350 500 l 1
- 350 550 l 1
- 300 550 l 1
- 300 600 l 1
+400 600 m 1
  250 600 l 1
  250 400 l 1
- 350 400 l 1
- 350 300 l 1
+ 450 400 l 1
+ 450 300 l 1
  250 300 l 1
  250 100 l 1
+ 400 100 l 1
+ 400 150 l 1
+ 450 150 l 1
+ 450 200 l 1
+ 500 200 l 1
+ 500 250 l 1
+ 550 250 l 1
+ 550 450 l 1
+ 500 450 l 1
+ 500 500 l 1
+ 450 500 l 1
+ 450 550 l 1
+ 400 550 l 1
+ 400 600 l 1
 EndSplineSet
 EndChar
 
@@ -5583,60 +5587,62 @@ EndChar
 
 StartChar: ae
 Encoding: 230 230 156
-Width: 600
+Width: 800
 Flags: HMW
-AnchorPoint: "marks_below" 300 0 basechar 0
-AnchorPoint: "marks_above" 300 600 basechar 0
+AnchorPoint: "marks_below" 400 0 basechar 0
+AnchorPoint: "marks_above" 400 600 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-50 400 m 1
- 50 500 l 1
- 250 500 l 1
- 250 450 l 1
- 350 450 l 1
- 350 500 l 1
- 450 500 l 1
- 450 450 l 1
- 500 450 l 1
- 500 400 l 1
- 550 400 l 1
- 550 200 l 1
- 350 200 l 1
- 350 150 l 1
- 400 150 l 1
- 400 100 l 1
- 550 100 l 1
- 550 0 l 1
- 350 0 l 1
- 350 50 l 1
- 250 50 l 1
- 250 0 l 1
- 150 0 l 1
- 150 50 l 1
- 100 50 l 1
- 100 100 l 1
- 50 100 l 1
+50 100 m 1
  50 200 l 1
  100 200 l 1
  100 250 l 1
  150 250 l 1
  150 300 l 1
- 250 300 l 1
- 250 350 l 1
- 200 350 l 1
- 200 400 l 1
- 50 400 l 1
-350 300 m 1
- 450 300 l 1
- 450 400 l 1
- 350 400 l 1
  350 300 l 1
-250 200 m 1
+ 350 350 l 1
+ 300 350 l 1
+ 300 400 l 1
+ 150 400 l 1
+ 150 500 l 1
+ 350 500 l 1
+ 350 450 l 1
+ 450 450 l 1
+ 450 500 l 1
+ 650 500 l 1
+ 650 450 l 1
+ 700 450 l 1
+ 700 400 l 1
+ 750 400 l 1
+ 750 200 l 1
+ 450 200 l 1
+ 450 150 l 1
+ 500 150 l 1
+ 500 100 l 1
+ 650 100 l 1
+ 650 0 l 1
+ 450 0 l 1
+ 450 50 l 1
+ 350 50 l 1
+ 350 0 l 1
+ 150 0 l 1
+ 150 50 l 1
+ 100 50 l 1
+ 100 100 l 1
+ 50 100 l 1
+150 100 m 1
+ 300 100 l 1
+ 300 150 l 1
+ 350 150 l 1
+ 350 200 l 1
  150 200 l 1
  150 100 l 1
- 250 100 l 1
- 250 200 l 1
+450 300 m 1
+ 650 300 l 1
+ 650 400 l 1
+ 450 400 l 1
+ 450 300 l 1
 EndSplineSet
 EndChar
 
@@ -6168,14 +6174,33 @@ EndChar
 
 StartChar: OE
 Encoding: 338 338 185
-Width: 600
+Width: 800
 Flags: HMW
-AnchorPoint: "marks_below" 300 0 basechar 0
-AnchorPoint: "marks_above" 300 800 basechar 0
+AnchorPoint: "marks_below" 400 0 basechar 0
+AnchorPoint: "marks_above" 400 800 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-550 0 m 1
+350 600 m 1
+ 200 600 l 1
+ 200 550 l 1
+ 150 550 l 1
+ 150 150 l 1
+ 200 150 l 1
+ 200 100 l 1
+ 350 100 l 1
+ 350 600 l 1
+150 700 m 1
+ 750 700 l 1
+ 750 600 l 1
+ 450 600 l 1
+ 450 400 l 1
+ 650 400 l 1
+ 650 300 l 1
+ 450 300 l 1
+ 450 100 l 1
+ 750 100 l 1
+ 750 0 l 1
  150 0 l 1
  150 50 l 1
  100 50 l 1
@@ -6186,78 +6211,67 @@ SplineSet
  100 650 l 1
  150 650 l 1
  150 700 l 1
- 550 700 l 1
- 550 600 l 1
- 350 600 l 1
- 350 400 l 1
- 550 400 l 1
- 550 300 l 1
- 350 300 l 1
- 350 100 l 1
- 550 100 l 1
- 550 0 l 1
-250 100 m 1
- 250 600 l 1
- 200 600 l 1
- 200 550 l 1
- 150 550 l 1
- 150 150 l 1
- 200 150 l 1
- 200 100 l 1
- 250 100 l 1
 EndSplineSet
 EndChar
 
 StartChar: oe
 Encoding: 339 339 186
-Width: 600
+Width: 800
 Flags: HMW
-AnchorPoint: "marks_below" 300 0 basechar 0
-AnchorPoint: "marks_above" 300 600 basechar 0
+AnchorPoint: "marks_below" 400 0 basechar 0
+AnchorPoint: "marks_above" 400 600 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-150 350 m 1
- 150 150 l 1
- 250 150 l 1
- 250 350 l 1
- 150 350 l 1
-50 100 m 1
- 50 400 l 1
- 100 400 l 1
- 100 450 l 1
- 150 450 l 1
- 150 500 l 1
- 250 500 l 1
- 250 450 l 1
- 350 450 l 1
- 350 500 l 1
- 450 500 l 1
- 450 450 l 1
- 500 450 l 1
- 500 400 l 1
- 550 400 l 1
- 550 200 l 1
- 350 200 l 1
- 350 150 l 1
- 400 150 l 1
- 400 100 l 1
- 550 100 l 1
- 550 0 l 1
- 350 0 l 1
+650 0 m 1
+ 450 0 l 1
+ 450 50 l 1
  350 50 l 1
- 250 50 l 1
- 250 0 l 1
+ 350 0 l 1
  150 0 l 1
  150 50 l 1
  100 50 l 1
  100 100 l 1
  50 100 l 1
-350 300 m 1
- 450 300 l 1
+ 50 400 l 1
+ 100 400 l 1
+ 100 450 l 1
+ 150 450 l 1
+ 150 500 l 1
+ 350 500 l 1
+ 350 450 l 1
+ 450 450 l 1
+ 450 500 l 1
+ 650 500 l 1
+ 650 450 l 1
+ 700 450 l 1
+ 700 400 l 1
+ 750 400 l 1
+ 750 200 l 1
+ 450 200 l 1
+ 450 150 l 1
+ 500 150 l 1
+ 500 100 l 1
+ 650 100 l 1
+ 650 0 l 1
+200 100 m 1
+ 300 100 l 1
+ 300 150 l 1
+ 350 150 l 1
+ 350 350 l 1
+ 300 350 l 1
+ 300 400 l 1
+ 200 400 l 1
+ 200 350 l 1
+ 150 350 l 1
+ 150 150 l 1
+ 200 150 l 1
+ 200 100 l 1
+450 300 m 1
+ 650 300 l 1
+ 650 400 l 1
  450 400 l 1
- 350 400 l 1
- 350 300 l 1
+ 450 300 l 1
 EndSplineSet
 EndChar
 
@@ -8105,7 +8119,7 @@ EndChar
 
 StartChar: dcroat
 Encoding: 273 273 262
-Width: 600
+Width: 700
 Flags: HMW
 AnchorPoint: "marks_below" 300 0 basechar 0
 AnchorPoint: "marks_above" 300 800 basechar 0
@@ -8114,14 +8128,20 @@ Fore
 SplineSet
 250 500 m 1
  250 600 l 1
- 350 600 l 1
- 350 700 l 1
- 450 700 l 1
  450 600 l 1
+ 450 700 l 1
+ 550 700 l 1
  550 600 l 1
+ 650 600 l 1
+ 650 500 l 1
  550 500 l 1
- 450 500 l 1
+ 550 0 l 1
  450 0 l 1
+ 450 100 l 1
+ 400 100 l 1
+ 400 50 l 1
+ 350 50 l 1
+ 350 0 l 1
  150 0 l 1
  150 50 l 1
  100 50 l 1
@@ -8133,17 +8153,25 @@ SplineSet
  150 350 l 1
  150 400 l 1
  350 400 l 1
- 350 500 l 1
+ 350 350 l 1
+ 400 350 l 1
+ 400 300 l 1
+ 450 300 l 1
+ 450 500 l 1
  250 500 l 1
-200 100 m 1
- 350 100 l 1
- 350 300 l 1
+300 300 m 1
  200 300 l 1
  200 250 l 1
  150 250 l 1
  150 150 l 1
  200 150 l 1
  200 100 l 1
+ 300 100 l 1
+ 300 150 l 1
+ 350 150 l 1
+ 350 250 l 1
+ 300 250 l 1
+ 300 300 l 1
 EndSplineSet
 EndChar
 
@@ -8179,10 +8207,10 @@ EndChar
 
 StartChar: hbar
 Encoding: 295 295 264
-Width: 600
+Width: 700
 Flags: HMW
-AnchorPoint: "marks_below" 300 0 basechar 0
-AnchorPoint: "marks_above" 300 800 basechar 0
+AnchorPoint: "marks_below" 400 0 basechar 0
+AnchorPoint: "marks_above" 400 800 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -8192,21 +8220,29 @@ SplineSet
  150 700 l 1
  250 700 l 1
  250 600 l 1
- 350 600 l 1
- 350 500 l 1
+ 450 600 l 1
+ 450 500 l 1
  250 500 l 1
- 250 400 l 1
- 450 400 l 1
- 450 350 l 1
- 500 350 l 1
- 500 300 l 1
- 550 300 l 1
- 550 0 l 1
- 450 0 l 1
- 450 250 l 1
- 400 250 l 1
- 400 300 l 1
  250 300 l 1
+ 300 300 l 1
+ 300 350 l 1
+ 350 350 l 1
+ 350 400 l 1
+ 550 400 l 1
+ 550 350 l 1
+ 600 350 l 1
+ 600 300 l 1
+ 650 300 l 1
+ 650 0 l 1
+ 550 0 l 1
+ 550 250 l 1
+ 500 250 l 1
+ 500 300 l 1
+ 400 300 l 1
+ 400 250 l 1
+ 350 250 l 1
+ 350 200 l 1
+ 250 200 l 1
  250 0 l 1
  150 0 l 1
  150 500 l 1
@@ -8888,7 +8924,7 @@ EndChar
 
 StartChar: Dcroat
 Encoding: 272 272 292
-Width: 600
+Width: 700
 Flags: HMW
 LayerCount: 2
 Fore

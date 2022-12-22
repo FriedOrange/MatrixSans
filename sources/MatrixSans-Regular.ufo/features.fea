@@ -88,7 +88,9 @@ feature mark {
 
 table GDEF {
 	# Because gftools builder doesn't create this table automatically....
-	GlyphClassDef [A E I i i.loclTRK J L U @tall d l t a e u uni0237 uni25CC],,[@marks_above @marks_aboveright @ogonek @marks_below],;
+	GlyphClassDef [A E I i i.loclTRK J L U @tall d l t a e u uni0237 uni25CC],[IJ ij],[@marks_above @marks_aboveright @ogonek @marks_below],;
+	LigatureCaretByPos IJ 200;
+	LigatureCaretByPos ij 350;
 } GDEF;
 
 feature locl {
