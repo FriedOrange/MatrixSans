@@ -12,7 +12,12 @@ languagesystem latn NSM;
 languagesystem latn NLD;
 
 # classes for small caps substitution
-@uc = [A-Z AE Eth Oslash Thorn Lslash OE uni03A9 Delta Hbar IJ Eng uni1E9E];
+@uc = [A-Z Aacute Abreve Acaron Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde AE Cacute Ccaron Ccedilla Cdotaccent Dcaron Dcroat Eacute Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eogonek Eng Eng.loclNSM Eth Gbreve Gcedilla Gdotaccent Hbar Iacute Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek uni0136 Lacute Lcaron uni013B Lslash Nacute Ncaron uni0145 Ntilde Oacute Ocircumflex Odieresis Ohungarumlaut Ograve Omacron Oslash Otilde Racute Rcaron uni0156 Sacute Scaron Scedilla Scommaaccent uni1E9E Tcaron uni0162 Tcommaaccent Thorn Uacute Ubreve Ucircumflex Udieresis Uhungarumlaut Ugrave Umacron Uogonek Uring Wacute Wcircumflex Wdieresis Wgrave Yacute Ycircumflex Ydieresis Ygrave Zacute Zcaron Zdotaccent IJ OE];
+@c2sc = [a.sc b.sc c d.sc e.sc f.sc g.sc h.sc i.sc j.sc kgreenlandic l.sc m.sc n.sc o p.sc r.sc s t.sc u.sc v w x y.sc z aacute.sc abreve.sc acaron.sc acircumflex.sc adieresis.sc agrave.sc amacron.sc aogonek.sc aring.sc atilde.sc ae.sc cacute ccaron ccedilla cdotaccent dcaron.sc eth.sc eacute.sc ecaron.sc ecircumflex.sc edieresis.sc edotaccent.sc egrave.sc emacron.sc eogonek.sc eng eng.sc.loclnsm eth.sc gbreve.sc gcedilla.sc gdotaccent.sc hbar.sc iacute.sc icircumflex.sc idieresis.sc idotaccent.sc igrave.sc imacron.sc iogonek.sc kcommaaccent.sc lacute.sc lcaron.sc lcommaaccent.sc lslash.sc nacute.sc ncaron.sc ncommaaccent.sc ntilde.sc oacute ocircumflex odieresis ohungarumlaut ograve omacron oslash otilde racute.sc rcaron.sc rcommaaccent.sc sacute scaron scedilla scommaaccent germandbls.sc tcaron.sc uni0163.sc tcommaaccent.sc thorn.sc uacute.sc ubreve.sc ucircumflex.sc udieresis.sc uhungarumlaut.sc ugrave.sc umacron.sc uogonek.sc uring.sc wdieresis wgrave yacute.sc ycircumflex.sc ydieresis.sc ygrave.sc zacute zcaron zdotaccent ij.sc oe.sc]
+
+feature c2sc {
+	sub @uc by @c2sc;
+}
 
 # mark classes
 markClass [gravecomb acutecomb uni0302 tildecomb uni0304 uni0306 uni0307 uni0308 uni030A uni030B uni030C uni0312] <anchor 0 600> @marks_above;
