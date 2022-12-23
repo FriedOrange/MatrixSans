@@ -54,47 +54,68 @@ feature ccmp {
 
 # classes for mark positioning
 @tall = [C D G K N O R S T W Y Z k]; # not including glyphs with ogonek or apostrophe-type caron
-@short = [c m-o r s v-x z];
+@short = [c m-o r s v-x z b.sc d.sc f.sc g.sc h.sc kgreenlandic m.sc n.sc p.sc q.sc r.sc t.sc y.sc];
 @deep = [g p q y];
 
 feature mark {
-	pos base [A E] <anchor 300 800> mark @marks_above
-					<anchor 300 0> mark @marks_below
-					<anchor 400 0> mark @ogonek;
-	pos base [I i i.loclTRK] <anchor 200 800> mark @marks_above
-							<anchor 200 0> mark @marks_below
-							<anchor 200 0> mark @ogonek;
-	pos base J <anchor 400 800> mark @marks_above;
-	pos base L <anchor 300 800> mark @marks_above
-				<anchor 300 0> mark @marks_below
-				<anchor 250 500> mark @marks_aboveright;
-	pos base U <anchor 300 800> mark @marks_above
-				<anchor 300 0> mark @marks_below
-				<anchor 300 0> mark @ogonek;
-	pos base @tall <anchor 300 800> mark @marks_above
-					<anchor 300 0> mark @marks_below;
-	pos base d <anchor 300 800> mark @marks_above
-				<anchor 650 500> mark @marks_aboveright;
-	pos base l <anchor 200 800> mark @marks_above
-				<anchor 200 0> mark @marks_below
-				<anchor 350 500> mark @marks_aboveright;
-	pos base t <anchor 300 800> mark @marks_above
-				<anchor 300 0> mark @marks_below
-				<anchor 350 600> mark @marks_aboveright;
-	pos base [a e u] <anchor 300 600> mark @marks_above
-					<anchor 300 0> mark @marks_below
-					<anchor 400 0> mark @ogonek;
-	pos base @short <anchor 300 600> mark @marks_above
-					<anchor 300 0> mark @marks_below;
-	pos base @deep <anchor 300 600> mark @marks_above;
-	pos base dotlessi <anchor 200 600> mark @marks_above
-						<anchor 200 0> mark @marks_below
-						<anchor 200 0> mark @ogonek;
-	pos base uni0237 <anchor 400 600> mark @marks_above;
-	pos base uni25CC <anchor 300 600> mark @marks_above
-					<anchor 300 0> mark @marks_below
-					<anchor 400 0> mark @ogonek
-					<anchor 550 400> mark @marks_aboveright;
+	pos base [A E] 
+		<anchor 300 800> mark @marks_above
+		<anchor 300 0> mark @marks_below
+		<anchor 400 0> mark @ogonek;
+	pos base [I i i.loclTRK] 
+		<anchor 200 800> mark @marks_above
+		<anchor 200 0> mark @marks_below
+		<anchor 200 0> mark @ogonek;
+	pos base J 
+		<anchor 400 800> mark @marks_above;
+	pos base L 
+		<anchor 300 800> mark @marks_above
+		<anchor 300 0> mark @marks_below
+		<anchor 250 500> mark @marks_aboveright;
+	pos base U
+		<anchor 300 800> mark @marks_above
+		<anchor 300 0> mark @marks_below
+		<anchor 300 0> mark @ogonek;
+	pos base @tall 
+		<anchor 300 800> mark @marks_above
+		<anchor 300 0> mark @marks_below;
+	pos base d 
+		<anchor 300 800> mark @marks_above
+		<anchor 650 500> mark @marks_aboveright;
+	pos base l 
+		<anchor 200 800> mark @marks_above
+		<anchor 200 0> mark @marks_below
+		<anchor 350 500> mark @marks_aboveright;
+	pos base t 
+		<anchor 300 800> mark @marks_above
+		<anchor 300 0> mark @marks_below
+		<anchor 350 600> mark @marks_aboveright;
+	pos base [a e u a.sc e.sc u.sc] 
+		<anchor 300 600> mark @marks_above
+		<anchor 300 0> mark @marks_below
+		<anchor 400 0> mark @ogonek;
+	pos base @short 
+		<anchor 300 600> mark @marks_above
+		<anchor 300 0> mark @marks_below;
+	pos base @deep 
+		<anchor 300 600> mark @marks_above;
+	pos base [dotlessi i.sc]
+		<anchor 200 600> mark @marks_above
+		<anchor 200 0> mark @marks_below
+		<anchor 200 0> mark @ogonek;
+	pos base uni0237 
+		<anchor 400 600> mark @marks_above;
+	pos base uni25CC 
+		<anchor 300 600> mark @marks_above
+		<anchor 300 0> mark @marks_below
+		<anchor 400 0> mark @ogonek
+		<anchor 550 400> mark @marks_aboveright;
+	pos base j.sc
+		<anchor 400 600> mark @marks_above;
+	pos base l.sc
+		<anchor 300 600> mark @marks_above
+		<anchor 300 0> mark @marks_below
+		<anchor 250 300> mark @ogonek;
 } mark;
 
 table GDEF {
