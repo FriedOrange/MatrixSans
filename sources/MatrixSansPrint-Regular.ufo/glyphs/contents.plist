@@ -72,6 +72,8 @@
     <string>E_th.glif</string>
     <key>Euro</key>
     <string>E_uro.glif</string>
+    <key>Euro.sc</key>
+    <string>E_uro.sc.glif</string>
     <key>F</key>
     <string>F_.glif</string>
     <key>G</key>
@@ -424,8 +426,6 @@
     <string>eth.glif</string>
     <key>eth.sc</key>
     <string>eth.sc.glif</string>
-    <key>euro.sc</key>
-    <string>euro.sc.glif</string>
     <key>exclam</key>
     <string>exclam.glif</string>
     <key>exclam.sc</key>

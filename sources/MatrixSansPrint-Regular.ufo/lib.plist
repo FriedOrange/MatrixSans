@@ -494,7 +494,7 @@
       <string>ampersand.sc</string>
       <string>dollar.sc</string>
       <string>sterling.sc</string>
-      <string>euro.sc</string>
+      <string>Euro.sc</string>
       <string>uni20BA.sc</string>
       <string>uni20BD.sc</string>
       <string>exclam.sc</string>
@@ -571,6 +571,8 @@
       <key>Eth</key>
       <string>base</string>
       <key>Euro</key>
+      <string>base</string>
+      <key>Euro.sc</key>
       <string>base</string>
       <key>F</key>
       <string>base</string>
@@ -923,8 +925,6 @@
       <key>eth</key>
       <string>base</string>
       <key>eth.sc</key>
-      <string>base</string>
-      <key>euro.sc</key>
       <string>base</string>
       <key>exclam</key>
       <string>base</string>
