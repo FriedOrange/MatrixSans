@@ -121,7 +121,7 @@ feature mark {
 	pos base l.sc
 		<anchor 300 600> mark @marks_above
 		<anchor 300 0> mark @marks_below
-		<anchor 250 300> mark @ogonek;
+		<anchor 250 300> mark @marks_aboveright;
 	pos base u.sc
 		<anchor 300 600> mark @marks_above
 		<anchor 300 0> mark @marks_below
