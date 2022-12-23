@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1657964544
-ModificationTime: 1671772376
+ModificationTime: 1671790160
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -9449,8 +9449,47 @@ Width: 600
 Flags: HM
 LayerCount: 2
 Fore
-Refer: 234 778 N 1 0 0 1 300 0 2
-Refer: 389 -1 N 1 0 0 1 0 0 3
+SplineSet
+150 600 m 1
+ 150 700 l 1
+ 250 700 l 1
+ 250 800 l 1
+ 350 800 l 1
+ 350 700 l 1
+ 450 700 l 1
+ 450 600 l 1
+ 350 600 l 1
+ 350 400 l 1
+ 450 400 l 1
+ 450 300 l 1
+ 550 300 l 1
+ 550 0 l 1
+ 450 0 l 1
+ 450 100 l 1
+ 150 100 l 1
+ 150 0 l 1
+ 50 0 l 1
+ 50 300 l 1
+ 150 300 l 1
+ 150 400 l 1
+ 250 400 l 1
+ 250 600 l 1
+ 150 600 l 1
+250 700 m 1
+ 250 600 l 1
+ 350 600 l 1
+ 350 700 l 1
+ 250 700 l 1
+250 400 m 1
+ 250 300 l 1
+ 150 300 l 1
+ 150 200 l 1
+ 450 200 l 1
+ 450 300 l 1
+ 350 300 l 1
+ 350 400 l 1
+ 250 400 l 1
+EndSplineSet
 EndChar
 
 StartChar: amacron.sc
@@ -9569,8 +9608,27 @@ Width: 600
 Flags: HM
 LayerCount: 2
 Fore
-Refer: 279 808 N 1 0 0 1 400 0 2
-Refer: 392 -1 N 1 0 0 1 0 0 3
+SplineSet
+350 -200 m 1
+ 350 0 l 1
+ 50 0 l 1
+ 50 500 l 1
+ 550 500 l 1
+ 550 400 l 1
+ 150 400 l 1
+ 150 300 l 1
+ 450 300 l 1
+ 450 200 l 1
+ 150 200 l 1
+ 150 100 l 1
+ 550 100 l 1
+ 550 0 l 1
+ 450 0 l 1
+ 450 -100 l 1
+ 550 -100 l 1
+ 550 -200 l 1
+ 350 -200 l 1
+EndSplineSet
 EndChar
 
 StartChar: ecaron.sc
@@ -9600,8 +9658,33 @@ Width: 600
 Flags: H
 LayerCount: 2
 Fore
-Refer: 305 806 N 1 0 0 1 300 0 2
-Refer: 394 -1 N 1 0 0 1 0 0 3
+SplineSet
+150 -200 m 1
+ 150 -100 l 1
+ 250 -100 l 1
+ 250 0 l 1
+ 150 0 l 1
+ 150 100 l 1
+ 50 100 l 1
+ 50 400 l 1
+ 150 400 l 1
+ 150 500 l 1
+ 550 500 l 1
+ 550 400 l 1
+ 150 400 l 1
+ 150 100 l 1
+ 450 100 l 1
+ 450 200 l 1
+ 350 200 l 1
+ 350 300 l 1
+ 550 300 l 1
+ 550 0 l 1
+ 350 0 l 1
+ 350 -100 l 1
+ 250 -100 l 1
+ 250 -200 l 1
+ 150 -200 l 1
+EndSplineSet
 EndChar
 
 StartChar: gdotaccent.sc
@@ -9681,8 +9764,27 @@ Width: 400
 Flags: H
 LayerCount: 2
 Fore
-Refer: 279 808 N 1 0 0 1 200 0 2
-Refer: 396 -1 N 1 0 0 1 0 0 3
+SplineSet
+50 400 m 1
+ 50 500 l 1
+ 350 500 l 1
+ 350 400 l 1
+ 250 400 l 1
+ 250 100 l 1
+ 350 100 l 1
+ 350 0 l 1
+ 250 0 l 1
+ 250 -100 l 1
+ 350 -100 l 1
+ 350 -200 l 1
+ 150 -200 l 1
+ 150 0 l 1
+ 50 0 l 1
+ 50 100 l 1
+ 150 100 l 1
+ 150 400 l 1
+ 50 400 l 1
+EndSplineSet
 EndChar
 
 StartChar: kcommaaccent.sc
@@ -9722,8 +9824,23 @@ Width: 600
 Flags: H
 LayerCount: 2
 Fore
-Refer: 305 806 N 1 0 0 1 300 0 2
-Refer: 398 -1 N 1 0 0 1 0 0 3
+SplineSet
+150 -200 m 1
+ 150 -100 l 1
+ 250 -100 l 1
+ 250 0 l 1
+ 50 0 l 1
+ 50 500 l 1
+ 150 500 l 1
+ 150 100 l 1
+ 550 100 l 1
+ 550 0 l 1
+ 350 0 l 1
+ 350 -100 l 1
+ 250 -100 l 1
+ 250 -200 l 1
+ 150 -200 l 1
+EndSplineSet
 EndChar
 
 StartChar: nacute.sc
@@ -9812,8 +9929,19 @@ Width: 600
 Flags: H
 LayerCount: 2
 Fore
-Refer: 248 807 N 1 0 0 1 300 0 2
-Refer: 403 -1 N 1 0 0 1 0 0 3
+SplineSet
+150 -200 m 1
+ 150 -100 l 1
+ 250 -100 l 1
+ 250 400 l 1
+ 50 400 l 1
+ 50 500 l 1
+ 550 500 l 1
+ 550 400 l 1
+ 350 400 l 1
+ 350 -200 l 1
+ 150 -200 l 1
+EndSplineSet
 EndChar
 
 StartChar: uni021B.sc
@@ -9822,8 +9950,21 @@ Width: 600
 Flags: H
 LayerCount: 2
 Fore
-Refer: 305 806 N 1 0 0 1 300 0 2
-Refer: 403 -1 N 1 0 0 1 0 0 3
+SplineSet
+150 -200 m 1
+ 150 -100 l 1
+ 250 -100 l 1
+ 250 400 l 1
+ 50 400 l 1
+ 50 500 l 1
+ 550 500 l 1
+ 550 400 l 1
+ 350 400 l 1
+ 350 -100 l 1
+ 250 -100 l 1
+ 250 -200 l 1
+ 150 -200 l 1
+EndSplineSet
 EndChar
 
 StartChar: uacute.sc
@@ -9902,8 +10043,27 @@ Width: 600
 Flags: H
 LayerCount: 2
 Fore
-Refer: 279 808 N 1 0 0 1 300 0 2
-Refer: 404 -1 N 1 0 0 1 0 0 3
+SplineSet
+250 -200 m 1
+ 250 0 l 1
+ 150 0 l 1
+ 150 100 l 1
+ 50 100 l 1
+ 50 500 l 1
+ 150 500 l 1
+ 150 100 l 1
+ 450 100 l 1
+ 450 500 l 1
+ 550 500 l 1
+ 550 100 l 1
+ 450 100 l 1
+ 450 0 l 1
+ 350 0 l 1
+ 350 -100 l 1
+ 450 -100 l 1
+ 450 -200 l 1
+ 250 -200 l 1
+EndSplineSet
 EndChar
 
 StartChar: uring.sc

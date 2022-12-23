@@ -24,7 +24,8 @@ font = fontforge.open(sys.argv[1])
 unlink_list = ["Aring", "Ccedilla", "aring", "ccedilla", "aogonek", "dcaron", 
 	"Eogonek", "eogonek", "uni0122", "Iogonek", "iogonek", "uni013B", "uni013C",
 	"lcaron", "Scedilla", "scedilla", "uni0162", "uni0163", "Uogonek", "uni0218",
-	"uni0219", "uni021A", "uni021B"]
+	"uni0219", "uni021A", "uni021B", "aring.sc", "eogonek.sc", "gcommaaccent.sc",
+	"iogonek.sc", "lcommaaccent.sc", "tcedilla.sc", "uni021B.sc", "uogonek.sc"]
 
 def add_names(style):
 	font.fontname = font.fontname + style + "-Regular"
@@ -86,8 +87,10 @@ font.save("MatrixSansPrint-Regular.sfd")
 #######################################
 # Video style
 
-video_fix = {"four", "M", "N", "R", "b", "d", "g", "p", "q", "z", "AE", "thorn", "Lslash", "uni2074", "radical", "Eng.loclNSM", "uni1E9E"}
-unlink_list += ["Aogonek", "uogonek"]
+video_fix = {"four", "M", "N", "R", "b", "d", "g", "p", "q", "z", "AE", "thorn", 
+	"Lslash", "uni2074", "radical", "Eng.loclNSM", "uni1E9E", "eng.sc.loclNSM", 
+	"m.sc", "n.sc", "r.sc"}
+unlink_list += ["Aogonek", "uogonek", "aogonek.sc"]
 
 font = fontforge.open(sys.argv[1])
 
@@ -223,6 +226,13 @@ font["paragraph"].addReference("halfdot", (1, 0, 0, 1, 100, 350))
 font["paragraph"].addReference("halfdot", (1, 0, 0, 1, 100, 600))
 font["one"].addReference("halfdot", (1, 0, 0, 1, 100, 600))
 font["M"].addReference("halfdot", (1, 0, 0, 1, 150, 600))
+font["m.sc"].addReference("halfdot", (1, 0, 0, 1, 150, 400))
+font["lslash.sc"].addReference("halfdot", (1, 0, 0, 1, 100, 200))
+font["lslash.sc"].addReference("halfdot", (1, 0, 0, 1, 250, 250))
+font["aogonek.sc"].addReference("halfdot", (1, 0, 0, 1, 400, 0))
+font["aogonek.sc"].addReference("halfdot", (1, 0, 0, 1, 450, -50))
+font["germandbls.sc"].addReference("halfdot", (1, 0, 0, 1, 450, 350))
+font["germandbls.sc"].addReference("halfdot", (1, 0, 0, 1, 300, 300))
 
 # interpolation done, now finish it off the same as Regular style
 font["dot"].unlinkThisGlyph()

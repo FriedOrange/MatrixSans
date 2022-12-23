@@ -2,7 +2,25 @@
 <glyph name="iogonek.sc" format="2">
   <advance width="400"/>
   <outline>
-    <component base="i.sc"/>
-    <component base="uni0328" xOffset="200.0"/>
+    <contour>
+      <point x="50.0" y="400.0" type="line"/>
+      <point x="50.0" y="500.0" type="line"/>
+      <point x="350.0" y="500.0" type="line"/>
+      <point x="350.0" y="400.0" type="line"/>
+      <point x="250.0" y="400.0" type="line"/>
+      <point x="250.0" y="100.0" type="line"/>
+      <point x="350.0" y="100.0" type="line"/>
+      <point x="350.0" y="0.0" type="line"/>
+      <point x="250.0" y="0.0" type="line"/>
+      <point x="250.0" y="-100.0" type="line"/>
+      <point x="350.0" y="-100.0" type="line"/>
+      <point x="350.0" y="-200.0" type="line"/>
+      <point x="150.0" y="-200.0" type="line"/>
+      <point x="150.0" y="0.0" type="line"/>
+      <point x="50.0" y="0.0" type="line"/>
+      <point x="50.0" y="100.0" type="line"/>
+      <point x="150.0" y="100.0" type="line"/>
+      <point x="150.0" y="400.0" type="line"/>
+    </contour>
   </outline>
 </glyph>
