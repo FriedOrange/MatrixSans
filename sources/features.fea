@@ -155,12 +155,13 @@ feature locl {
 	language NSM;
 	sub Eng by Eng.loclNSM;
 	language NLD;
-	sub I [J j] by IJ;
+	sub I [J j j.sc] by IJ;
 	sub i j by ij;
 	sub Iacute J' by J acutecomb;
 	sub iacute j' by jacute;
 	sub I acutecomb J' by J acutecomb;
 	sub i acutecomb j' by jacute;
+	sub i.sc j.sc by ij.sc;
 } locl;
 
 # Classes for kerning
