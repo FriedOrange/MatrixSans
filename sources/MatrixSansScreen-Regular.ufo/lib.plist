@@ -441,7 +441,7 @@
       <string>eogonek.sc</string>
       <string>ecaron.sc</string>
       <string>gbreve.sc</string>
-      <string>gcedilla.sc</string>
+      <string>gcommaaccent.sc</string>
       <string>gdotaccent.sc</string>
       <string>iacute.sc</string>
       <string>icircumflex.sc</string>
@@ -462,7 +462,7 @@
       <string>rcaron.sc</string>
       <string>rcommaaccent.sc</string>
       <string>tcaron.sc</string>
-      <string>uni0163.sc</string>
+      <string>tcedilla.sc</string>
       <string>uni021B.sc</string>
       <string>uacute.sc</string>
       <string>ubreve.sc</string>
@@ -919,7 +919,7 @@
       <string>base</string>
       <key>gbreve.sc</key>
       <string>base</string>
-      <key>gcedilla.sc</key>
+      <key>gcommaaccent.sc</key>
       <string>base</string>
       <key>gdotaccent</key>
       <string>base</string>
@@ -1209,6 +1209,8 @@
       <string>base</string>
       <key>tcaron.sc</key>
       <string>base</string>
+      <key>tcedilla.sc</key>
+      <string>base</string>
       <key>thorn</key>
       <string>base</string>
       <key>thorn.sc</key>
@@ -1292,8 +1294,6 @@
       <key>uni0162</key>
       <string>base</string>
       <key>uni0163</key>
-      <string>base</string>
-      <key>uni0163.sc</key>
       <string>base</string>
       <key>uni01CD</key>
       <string>base</string>

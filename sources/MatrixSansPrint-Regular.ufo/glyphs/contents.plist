@@ -442,8 +442,8 @@
     <string>gbreve.glif</string>
     <key>gbreve.sc</key>
     <string>gbreve.sc.glif</string>
-    <key>gcedilla.sc</key>
-    <string>gcedilla.sc.glif</string>
+    <key>gcommaaccent.sc</key>
+    <string>gcommaaccent.sc.glif</string>
     <key>gdotaccent</key>
     <string>gdotaccent.glif</string>
     <key>gdotaccent.sc</key>
@@ -732,6 +732,8 @@
     <string>tcaron.glif</string>
     <key>tcaron.sc</key>
     <string>tcaron.sc.glif</string>
+    <key>tcedilla.sc</key>
+    <string>tcedilla.sc.glif</string>
     <key>thorn</key>
     <string>thorn.glif</string>
     <key>thorn.sc</key>
@@ -816,8 +818,6 @@
     <string>uni0162.glif</string>
     <key>uni0163</key>
     <string>uni0163.glif</string>
-    <key>uni0163.sc</key>
-    <string>uni0163.sc.glif</string>
     <key>uni01CD</key>
     <string>uni01C_D_.glif</string>
     <key>uni01CE</key>

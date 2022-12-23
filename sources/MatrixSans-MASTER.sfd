@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1657964544
-ModificationTime: 1671714399
+ModificationTime: 1671772342
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -6842,7 +6842,7 @@ Refer: 277 774 N 1 0 0 1 300 0 2
 Refer: 395 -1 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: gcedilla.sc
+StartChar: gcommaaccent.sc
 Encoding: 1114175 -1 438
 Width: 600
 Flags: H
@@ -7054,7 +7054,7 @@ Refer: 238 780 N 1 0 0 1 300 0 2
 Refer: 404 -1 S 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni0163.sc
+StartChar: tcedilla.sc
 Encoding: 1114196 -1 459
 Width: 600
 Flags: H
