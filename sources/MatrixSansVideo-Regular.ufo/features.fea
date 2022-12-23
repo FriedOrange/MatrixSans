@@ -47,6 +47,12 @@ feature ccmp {
 	sub n uni0327' by uni0326;
 	sub R uni0327' by uni0326;
 	sub r uni0327' by uni0326;
+	sub l.sc uni030C' by uni0315;
+	sub g.sc uni0327' by uni0326;
+	sub kgreenlandic uni0327' by uni0326;
+	sub l.sc uni0327' by uni0326;
+	sub n.sc uni0327' by uni0326;
+	sub r.sc uni0327' by uni0326;
 	# for Video style:
 	sub A uni0328 by Aogonek;
 	sub u uni0328 by uogonek;
@@ -90,7 +96,7 @@ feature mark {
 		<anchor 300 800> mark @marks_above
 		<anchor 300 0> mark @marks_below
 		<anchor 350 600> mark @marks_aboveright;
-	pos base [a e u a.sc e.sc u.sc] 
+	pos base [a e u a.sc e.sc] 
 		<anchor 300 600> mark @marks_above
 		<anchor 300 0> mark @marks_below
 		<anchor 400 0> mark @ogonek;
@@ -116,13 +122,18 @@ feature mark {
 		<anchor 300 600> mark @marks_above
 		<anchor 300 0> mark @marks_below
 		<anchor 250 300> mark @ogonek;
+	pos base u.sc
+		<anchor 300 600> mark @marks_above
+		<anchor 300 0> mark @marks_below
+		<anchor 300 0> mark @ogonek;
 } mark;
 
 table GDEF {
 	# Because gftools builder doesn't create this table automatically....
-	GlyphClassDef [A E I i i.loclTRK J L U @tall d l t a e u uni0237 uni25CC],[IJ ij],[@marks_above @marks_aboveright @ogonek @marks_below],;
+	GlyphClassDef [A E I i i.loclTRK J L U @tall d l t a e u @short @deep dotlessi i.sc uni0237 uni25CC j.sc l.sc],[IJ ij ij.sc],[@marks_above @marks_aboveright @ogonek @marks_below],;
 	LigatureCaretByPos IJ 200;
 	LigatureCaretByPos ij 350;
+	LigatureCaretByPos ij.sc 200;
 } GDEF;
 
 feature locl {
@@ -155,12 +166,13 @@ feature locl {
 	language NSM;
 	sub Eng by Eng.loclNSM;
 	language NLD;
-	sub I [J j] by IJ;
+	sub I [J j j.sc] by IJ;
 	sub i j by ij;
 	sub Iacute J' by J acutecomb;
 	sub iacute j' by jacute;
 	sub I acutecomb J' by J acutecomb;
 	sub i acutecomb j' by jacute;
+	sub i.sc j.sc by ij.sc;
 } locl;
 
 # Classes for kerning

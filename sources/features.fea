@@ -52,7 +52,7 @@ feature ccmp {
 	sub kgreenlandic uni0327' by uni0326;
 	sub l.sc uni0327' by uni0326;
 	sub n.sc uni0327' by uni0326;
-	sub r.sc uni0327 by uni0326;
+	sub r.sc uni0327' by uni0326;
 	# for Video style:
 	sub A uni0328 by Aogonek;
 	sub u uni0328 by uogonek;
@@ -96,7 +96,7 @@ feature mark {
 		<anchor 300 800> mark @marks_above
 		<anchor 300 0> mark @marks_below
 		<anchor 350 600> mark @marks_aboveright;
-	pos base [a e u a.sc e.sc u.sc] 
+	pos base [a e u a.sc e.sc] 
 		<anchor 300 600> mark @marks_above
 		<anchor 300 0> mark @marks_below
 		<anchor 400 0> mark @ogonek;
@@ -122,6 +122,10 @@ feature mark {
 		<anchor 300 600> mark @marks_above
 		<anchor 300 0> mark @marks_below
 		<anchor 250 300> mark @ogonek;
+	pos base u.sc
+		<anchor 300 600> mark @marks_above
+		<anchor 300 0> mark @marks_below
+		<anchor 300 0> mark @ogonek;
 } mark;
 
 table GDEF {
