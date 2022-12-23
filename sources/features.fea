@@ -47,6 +47,12 @@ feature ccmp {
 	sub n uni0327' by uni0326;
 	sub R uni0327' by uni0326;
 	sub r uni0327' by uni0326;
+	sub l.sc uni030C' by uni0315;
+	sub g.sc uni0327' by uni0326;
+	sub kgreenlandic uni0327' by uni0326;
+	sub l.sc uni0327' by uni0326;
+	sub n.sc uni0327' by uni0326;
+	sub r.sc uni0327 by uni0326;
 	# for Video style:
 	sub A uni0328 by Aogonek;
 	sub u uni0328 by uogonek;
