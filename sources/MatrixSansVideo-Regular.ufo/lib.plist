@@ -478,6 +478,29 @@
       <string>ygrave.sc</string>
       <string>q.sc</string>
       <string>ydieresis.sc</string>
+      <string>zero.sc</string>
+      <string>one.sc</string>
+      <string>two.sc</string>
+      <string>three.sc</string>
+      <string>four.sc</string>
+      <string>five.sc</string>
+      <string>six.sc</string>
+      <string>seven.sc</string>
+      <string>eight.sc</string>
+      <string>nine.sc</string>
+      <string>slash.sc</string>
+      <string>backslash.sc</string>
+      <string>at.sc</string>
+      <string>ampersand.sc</string>
+      <string>dollar.sc</string>
+      <string>sterling.sc</string>
+      <string>euro.sc</string>
+      <string>uni20BA.sc</string>
+      <string>uni20BD.sc</string>
+      <string>exclam.sc</string>
+      <string>question.sc</string>
+      <string>exclamdown.sc</string>
+      <string>questiondown.sc</string>
     </array>
     <key>public.openTypeCategories</key>
     <dict>
@@ -739,6 +762,8 @@
       <string>base</string>
       <key>ampersand</key>
       <string>base</string>
+      <key>ampersand.sc</key>
+      <string>base</string>
       <key>aogonek</key>
       <string>base</string>
       <key>aogonek.sc</key>
@@ -757,6 +782,8 @@
       <string>base</string>
       <key>at</key>
       <string>base</string>
+      <key>at.sc</key>
+      <string>base</string>
       <key>atilde</key>
       <string>base</string>
       <key>atilde.sc</key>
@@ -766,6 +793,8 @@
       <key>b.sc</key>
       <string>base</string>
       <key>backslash</key>
+      <string>base</string>
+      <key>backslash.sc</key>
       <string>base</string>
       <key>bar</key>
       <string>base</string>
@@ -831,6 +860,8 @@
       <string>base</string>
       <key>dollar</key>
       <string>base</string>
+      <key>dollar.sc</key>
+      <string>base</string>
       <key>dotaccent</key>
       <string>base</string>
       <key>dotlessi</key>
@@ -865,6 +896,8 @@
       <string>base</string>
       <key>eight</key>
       <string>base</string>
+      <key>eight.sc</key>
+      <string>base</string>
       <key>ellipsis</key>
       <string>base</string>
       <key>emacron</key>
@@ -891,9 +924,15 @@
       <string>base</string>
       <key>eth.sc</key>
       <string>base</string>
+      <key>euro.sc</key>
+      <string>base</string>
       <key>exclam</key>
       <string>base</string>
+      <key>exclam.sc</key>
+      <string>base</string>
       <key>exclamdown</key>
+      <string>base</string>
+      <key>exclamdown.sc</key>
       <string>base</string>
       <key>f</key>
       <string>base</string>
@@ -903,11 +942,15 @@
       <string>base</string>
       <key>five</key>
       <string>base</string>
+      <key>five.sc</key>
+      <string>base</string>
       <key>florin</key>
       <string>base</string>
       <key>florin.sc</key>
       <string>base</string>
       <key>four</key>
+      <string>base</string>
+      <key>four.sc</key>
       <string>base</string>
       <key>fraction</key>
       <string>base</string>
@@ -1063,6 +1106,8 @@
       <string>base</string>
       <key>nine</key>
       <string>base</string>
+      <key>nine.sc</key>
+      <string>base</string>
       <key>notequal</key>
       <string>base</string>
       <key>ntilde</key>
@@ -1092,6 +1137,8 @@
       <key>omacron</key>
       <string>base</string>
       <key>one</key>
+      <string>base</string>
+      <key>one.sc</key>
       <string>base</string>
       <key>onehalf</key>
       <string>base</string>
@@ -1139,7 +1186,11 @@
       <string>base</string>
       <key>question</key>
       <string>base</string>
+      <key>question.sc</key>
+      <string>base</string>
       <key>questiondown</key>
+      <string>base</string>
+      <key>questiondown.sc</key>
       <string>base</string>
       <key>quotedbl</key>
       <string>base</string>
@@ -1191,13 +1242,21 @@
       <string>base</string>
       <key>seven</key>
       <string>base</string>
+      <key>seven.sc</key>
+      <string>base</string>
       <key>six</key>
       <string>base</string>
+      <key>six.sc</key>
+      <string>base</string>
       <key>slash</key>
+      <string>base</string>
+      <key>slash.sc</key>
       <string>base</string>
       <key>space</key>
       <string>base</string>
       <key>sterling</key>
+      <string>base</string>
+      <key>sterling.sc</key>
       <string>base</string>
       <key>summation</key>
       <string>base</string>
@@ -1217,6 +1276,8 @@
       <string>base</string>
       <key>three</key>
       <string>base</string>
+      <key>three.sc</key>
+      <string>base</string>
       <key>threequarters</key>
       <string>base</string>
       <key>tilde</key>
@@ -1226,6 +1287,8 @@
       <key>trademark</key>
       <string>base</string>
       <key>two</key>
+      <string>base</string>
+      <key>two.sc</key>
       <string>base</string>
       <key>u</key>
       <string>base</string>
@@ -1357,7 +1420,11 @@
       <string>base</string>
       <key>uni20BA</key>
       <string>base</string>
+      <key>uni20BA.sc</key>
+      <string>base</string>
       <key>uni20BD</key>
+      <string>base</string>
+      <key>uni20BD.sc</key>
       <string>base</string>
       <key>uni2113</key>
       <string>base</string>
@@ -1424,6 +1491,8 @@
       <key>zdotaccent</key>
       <string>base</string>
       <key>zero</key>
+      <string>base</string>
+      <key>zero.sc</key>
       <string>base</string>
       <key>zero.zero</key>
       <string>base</string>

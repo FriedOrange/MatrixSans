@@ -262,6 +262,8 @@
     <string>amacron.sc.glif</string>
     <key>ampersand</key>
     <string>ampersand.glif</string>
+    <key>ampersand.sc</key>
+    <string>ampersand.sc.glif</string>
     <key>aogonek</key>
     <string>aogonek.glif</string>
     <key>aogonek.sc</key>
@@ -280,6 +282,8 @@
     <string>asterisk.glif</string>
     <key>at</key>
     <string>at.glif</string>
+    <key>at.sc</key>
+    <string>at.sc.glif</string>
     <key>atilde</key>
     <string>atilde.glif</string>
     <key>atilde.sc</key>
@@ -290,6 +294,8 @@
     <string>b.sc.glif</string>
     <key>backslash</key>
     <string>backslash.glif</string>
+    <key>backslash.sc</key>
+    <string>backslash.sc.glif</string>
     <key>bar</key>
     <string>bar.glif</string>
     <key>braceleft</key>
@@ -354,6 +360,8 @@
     <string>divide.glif</string>
     <key>dollar</key>
     <string>dollar.glif</string>
+    <key>dollar.sc</key>
+    <string>dollar.sc.glif</string>
     <key>dotaccent</key>
     <string>dotaccent.glif</string>
     <key>dotlessi</key>
@@ -388,6 +396,8 @@
     <string>egrave.sc.glif</string>
     <key>eight</key>
     <string>eight.glif</string>
+    <key>eight.sc</key>
+    <string>eight.sc.glif</string>
     <key>ellipsis</key>
     <string>ellipsis.glif</string>
     <key>emacron</key>
@@ -414,10 +424,16 @@
     <string>eth.glif</string>
     <key>eth.sc</key>
     <string>eth.sc.glif</string>
+    <key>euro.sc</key>
+    <string>euro.sc.glif</string>
     <key>exclam</key>
     <string>exclam.glif</string>
+    <key>exclam.sc</key>
+    <string>exclam.sc.glif</string>
     <key>exclamdown</key>
     <string>exclamdown.glif</string>
+    <key>exclamdown.sc</key>
+    <string>exclamdown.sc.glif</string>
     <key>f</key>
     <string>f.glif</string>
     <key>f.sc</key>
@@ -426,12 +442,16 @@
     <string>figuredash.glif</string>
     <key>five</key>
     <string>five.glif</string>
+    <key>five.sc</key>
+    <string>five.sc.glif</string>
     <key>florin</key>
     <string>florin.glif</string>
     <key>florin.sc</key>
     <string>florin.sc.glif</string>
     <key>four</key>
     <string>four.glif</string>
+    <key>four.sc</key>
+    <string>four.sc.glif</string>
     <key>fraction</key>
     <string>fraction.glif</string>
     <key>g</key>
@@ -586,6 +606,8 @@
     <string>ncommaaccent.sc.glif</string>
     <key>nine</key>
     <string>nine.glif</string>
+    <key>nine.sc</key>
+    <string>nine.sc.glif</string>
     <key>notequal</key>
     <string>notequal.glif</string>
     <key>ntilde</key>
@@ -616,6 +638,8 @@
     <string>omacron.glif</string>
     <key>one</key>
     <string>one.glif</string>
+    <key>one.sc</key>
+    <string>one.sc.glif</string>
     <key>onehalf</key>
     <string>onehalf.glif</string>
     <key>onequarter</key>
@@ -662,8 +686,12 @@
     <string>q.sc.glif</string>
     <key>question</key>
     <string>question.glif</string>
+    <key>question.sc</key>
+    <string>question.sc.glif</string>
     <key>questiondown</key>
     <string>questiondown.glif</string>
+    <key>questiondown.sc</key>
+    <string>questiondown.sc.glif</string>
     <key>quotedbl</key>
     <string>quotedbl.glif</string>
     <key>quotedblbase</key>
@@ -714,14 +742,22 @@
     <string>semicolon.glif</string>
     <key>seven</key>
     <string>seven.glif</string>
+    <key>seven.sc</key>
+    <string>seven.sc.glif</string>
     <key>six</key>
     <string>six.glif</string>
+    <key>six.sc</key>
+    <string>six.sc.glif</string>
     <key>slash</key>
     <string>slash.glif</string>
+    <key>slash.sc</key>
+    <string>slash.sc.glif</string>
     <key>space</key>
     <string>space.glif</string>
     <key>sterling</key>
     <string>sterling.glif</string>
+    <key>sterling.sc</key>
+    <string>sterling.sc.glif</string>
     <key>summation</key>
     <string>summation.glif</string>
     <key>t</key>
@@ -740,6 +776,8 @@
     <string>thorn.sc.glif</string>
     <key>three</key>
     <string>three.glif</string>
+    <key>three.sc</key>
+    <string>three.sc.glif</string>
     <key>threequarters</key>
     <string>threequarters.glif</string>
     <key>tilde</key>
@@ -750,6 +788,8 @@
     <string>trademark.glif</string>
     <key>two</key>
     <string>two.glif</string>
+    <key>two.sc</key>
+    <string>two.sc.glif</string>
     <key>u</key>
     <string>u.glif</string>
     <key>u.sc</key>
@@ -880,8 +920,12 @@
     <string>uni2074.glif</string>
     <key>uni20BA</key>
     <string>uni20B_A_.glif</string>
+    <key>uni20BA.sc</key>
+    <string>uni20B_A_.sc.glif</string>
     <key>uni20BD</key>
     <string>uni20B_D_.glif</string>
+    <key>uni20BD.sc</key>
+    <string>uni20B_D_.sc.glif</string>
     <key>uni2113</key>
     <string>uni2113.glif</string>
     <key>uni2215</key>
@@ -948,6 +992,8 @@
     <string>zdotaccent.glif</string>
     <key>zero</key>
     <string>zero.glif</string>
+    <key>zero.sc</key>
+    <string>zero.sc.glif</string>
     <key>zero.zero</key>
     <string>zero.zero.glif</string>
   </dict>

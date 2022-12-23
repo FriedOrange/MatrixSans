@@ -4,7 +4,7 @@ FullName: Untitled1
 FamilyName: Untitled1
 Weight: Regular
 Copyright: Copyright (c) 2022, neilb
-UComments: "2022-12-22: Created with FontForge (http://fontforge.org)"
+UComments: "2022-12-23: Created with FontForge (http://fontforge.org)"
 Version: 001.000
 ItalicAngle: 0
 UnderlinePosition: -100
@@ -15,12 +15,12 @@ InvalidEm: 0
 LayerCount: 2
 Layer: 0 0 "Back" 1
 Layer: 1 0 "Fore" 0
-XUID: [1021 477 -571883108 17055]
+XUID: [1021 586 -1185423961 11059]
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
-CreationTime: 1671713473
-ModificationTime: 1671713474
+CreationTime: 1671796567
+ModificationTime: 1671796567
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -42,7 +42,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-BeginChars: 1114152 218
+BeginChars: 1114175 241
 
 StartChar: dot
 Encoding: 1114112 -1 0
@@ -3654,6 +3654,7 @@ Refer: 0 -1 N 1 0 0 1 150 200 2
 Refer: 0 -1 N 1 0 0 1 350 300 2
 Refer: 0 -1 N 1 0 0 1 250 300 2
 Refer: 0 -1 N 1 0 0 1 150 300 2
+Refer: 0 -1 N 1 0 0 1 50 300 2
 Refer: 0 -1 N 1 0 0 1 450 400 2
 Refer: 0 -1 N 1 0 0 1 150 400 2
 Refer: 0 -1 N 1 0 0 1 450 500 2
@@ -4494,6 +4495,458 @@ Refer: 0 -1 N 1 0 0 1 150 300 2
 Refer: 0 -1 N 1 0 0 1 50 300 2
 Refer: 0 -1 N 1 0 0 1 450 400 2
 Refer: 0 -1 N 1 0 0 1 50 400 2
+EndChar
+
+StartChar: zero.sc
+Encoding: 1114152 -1 218
+Width: 600
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 350 0 2
+Refer: 0 -1 N 1 0 0 1 250 0 2
+Refer: 0 -1 N 1 0 0 1 150 0 2
+Refer: 0 -1 N 1 0 0 1 450 100 2
+Refer: 0 -1 N 1 0 0 1 50 100 2
+Refer: 0 -1 N 1 0 0 1 450 200 2
+Refer: 0 -1 N 1 0 0 1 250 200 2
+Refer: 0 -1 N 1 0 0 1 50 200 2
+Refer: 0 -1 N 1 0 0 1 450 300 2
+Refer: 0 -1 N 1 0 0 1 50 300 2
+Refer: 0 -1 N 1 0 0 1 350 400 2
+Refer: 0 -1 N 1 0 0 1 250 400 2
+Refer: 0 -1 N 1 0 0 1 150 400 2
+EndChar
+
+StartChar: one.sc
+Encoding: 1114153 -1 219
+Width: 400
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 250 0 2
+Refer: 0 -1 N 1 0 0 1 150 0 2
+Refer: 0 -1 N 1 0 0 1 50 0 2
+Refer: 0 -1 N 1 0 0 1 150 100 2
+Refer: 0 -1 N 1 0 0 1 150 200 2
+Refer: 0 -1 N 1 0 0 1 150 300 2
+Refer: 0 -1 N 1 0 0 1 50 300 2
+Refer: 0 -1 N 1 0 0 1 150 400 2
+EndChar
+
+StartChar: two.sc
+Encoding: 1114154 -1 220
+Width: 600
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 450 0 2
+Refer: 0 -1 N 1 0 0 1 350 0 2
+Refer: 0 -1 N 1 0 0 1 250 0 2
+Refer: 0 -1 N 1 0 0 1 150 0 2
+Refer: 0 -1 N 1 0 0 1 50 0 2
+Refer: 0 -1 N 1 0 0 1 50 100 2
+Refer: 0 -1 N 1 0 0 1 350 200 2
+Refer: 0 -1 N 1 0 0 1 250 200 2
+Refer: 0 -1 N 1 0 0 1 150 200 2
+Refer: 0 -1 N 1 0 0 1 450 300 2
+Refer: 0 -1 N 1 0 0 1 350 400 2
+Refer: 0 -1 N 1 0 0 1 250 400 2
+Refer: 0 -1 N 1 0 0 1 150 400 2
+Refer: 0 -1 N 1 0 0 1 50 400 2
+EndChar
+
+StartChar: three.sc
+Encoding: 1114155 -1 221
+Width: 600
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 350 0 2
+Refer: 0 -1 N 1 0 0 1 250 0 2
+Refer: 0 -1 N 1 0 0 1 150 0 2
+Refer: 0 -1 N 1 0 0 1 50 0 2
+Refer: 0 -1 N 1 0 0 1 450 100 2
+Refer: 0 -1 N 1 0 0 1 350 200 2
+Refer: 0 -1 N 1 0 0 1 250 200 2
+Refer: 0 -1 N 1 0 0 1 150 200 2
+Refer: 0 -1 N 1 0 0 1 450 300 2
+Refer: 0 -1 N 1 0 0 1 350 400 2
+Refer: 0 -1 N 1 0 0 1 250 400 2
+Refer: 0 -1 N 1 0 0 1 150 400 2
+Refer: 0 -1 N 1 0 0 1 50 400 2
+EndChar
+
+StartChar: four.sc
+Encoding: 1114156 -1 222
+Width: 600
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 350 0 2
+Refer: 0 -1 N 1 0 0 1 450 100 2
+Refer: 0 -1 N 1 0 0 1 350 100 2
+Refer: 0 -1 N 1 0 0 1 250 100 2
+Refer: 0 -1 N 1 0 0 1 150 100 2
+Refer: 0 -1 N 1 0 0 1 50 100 2
+Refer: 0 -1 N 1 0 0 1 350 200 2
+Refer: 0 -1 N 1 0 0 1 50 200 2
+Refer: 0 -1 N 1 0 0 1 350 300 2
+Refer: 0 -1 N 1 0 0 1 150 300 2
+Refer: 0 -1 N 1 0 0 1 350 400 2
+Refer: 0 -1 N 1 0 0 1 250 400 2
+EndChar
+
+StartChar: five.sc
+Encoding: 1114157 -1 223
+Width: 600
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 350 0 2
+Refer: 0 -1 N 1 0 0 1 250 0 2
+Refer: 0 -1 N 1 0 0 1 150 0 2
+Refer: 0 -1 N 1 0 0 1 50 0 2
+Refer: 0 -1 N 1 0 0 1 450 100 2
+Refer: 0 -1 N 1 0 0 1 350 200 2
+Refer: 0 -1 N 1 0 0 1 250 200 2
+Refer: 0 -1 N 1 0 0 1 150 200 2
+Refer: 0 -1 N 1 0 0 1 50 200 2
+Refer: 0 -1 N 1 0 0 1 50 300 2
+Refer: 0 -1 N 1 0 0 1 450 400 2
+Refer: 0 -1 N 1 0 0 1 350 400 2
+Refer: 0 -1 N 1 0 0 1 250 400 2
+Refer: 0 -1 N 1 0 0 1 150 400 2
+Refer: 0 -1 N 1 0 0 1 50 400 2
+EndChar
+
+StartChar: six.sc
+Encoding: 1114158 -1 224
+Width: 600
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 350 0 2
+Refer: 0 -1 N 1 0 0 1 250 0 2
+Refer: 0 -1 N 1 0 0 1 150 0 2
+Refer: 0 -1 N 1 0 0 1 450 100 2
+Refer: 0 -1 N 1 0 0 1 50 100 2
+Refer: 0 -1 N 1 0 0 1 350 200 2
+Refer: 0 -1 N 1 0 0 1 250 200 2
+Refer: 0 -1 N 1 0 0 1 150 200 2
+Refer: 0 -1 N 1 0 0 1 50 200 2
+Refer: 0 -1 N 1 0 0 1 50 300 2
+Refer: 0 -1 N 1 0 0 1 350 400 2
+Refer: 0 -1 N 1 0 0 1 250 400 2
+Refer: 0 -1 N 1 0 0 1 150 400 2
+EndChar
+
+StartChar: seven.sc
+Encoding: 1114159 -1 225
+Width: 600
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 250 0 2
+Refer: 0 -1 N 1 0 0 1 250 100 2
+Refer: 0 -1 N 1 0 0 1 350 200 2
+Refer: 0 -1 N 1 0 0 1 450 300 2
+Refer: 0 -1 N 1 0 0 1 450 400 2
+Refer: 0 -1 N 1 0 0 1 350 400 2
+Refer: 0 -1 N 1 0 0 1 250 400 2
+Refer: 0 -1 N 1 0 0 1 150 400 2
+Refer: 0 -1 N 1 0 0 1 50 400 2
+EndChar
+
+StartChar: eight.sc
+Encoding: 1114160 -1 226
+Width: 600
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 350 0 2
+Refer: 0 -1 N 1 0 0 1 250 0 2
+Refer: 0 -1 N 1 0 0 1 150 0 2
+Refer: 0 -1 N 1 0 0 1 450 100 2
+Refer: 0 -1 N 1 0 0 1 50 100 2
+Refer: 0 -1 N 1 0 0 1 350 200 2
+Refer: 0 -1 N 1 0 0 1 250 200 2
+Refer: 0 -1 N 1 0 0 1 150 200 2
+Refer: 0 -1 N 1 0 0 1 450 300 2
+Refer: 0 -1 N 1 0 0 1 50 300 2
+Refer: 0 -1 N 1 0 0 1 350 400 2
+Refer: 0 -1 N 1 0 0 1 250 400 2
+Refer: 0 -1 N 1 0 0 1 150 400 2
+EndChar
+
+StartChar: nine.sc
+Encoding: 1114161 -1 227
+Width: 600
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 350 0 2
+Refer: 0 -1 N 1 0 0 1 250 0 2
+Refer: 0 -1 N 1 0 0 1 150 0 2
+Refer: 0 -1 N 1 0 0 1 450 100 2
+Refer: 0 -1 N 1 0 0 1 450 200 2
+Refer: 0 -1 N 1 0 0 1 350 200 2
+Refer: 0 -1 N 1 0 0 1 250 200 2
+Refer: 0 -1 N 1 0 0 1 150 200 2
+Refer: 0 -1 N 1 0 0 1 450 300 2
+Refer: 0 -1 N 1 0 0 1 50 300 2
+Refer: 0 -1 N 1 0 0 1 350 400 2
+Refer: 0 -1 N 1 0 0 1 250 400 2
+Refer: 0 -1 N 1 0 0 1 150 400 2
+EndChar
+
+StartChar: slash.sc
+Encoding: 1114162 -1 228
+Width: 600
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 50 0 2
+Refer: 0 -1 N 1 0 0 1 150 100 2
+Refer: 0 -1 N 1 0 0 1 250 200 2
+Refer: 0 -1 N 1 0 0 1 350 300 2
+Refer: 0 -1 N 1 0 0 1 450 400 2
+EndChar
+
+StartChar: backslash.sc
+Encoding: 1114163 -1 229
+Width: 600
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 450 0 2
+Refer: 0 -1 N 1 0 0 1 350 100 2
+Refer: 0 -1 N 1 0 0 1 250 200 2
+Refer: 0 -1 N 1 0 0 1 150 300 2
+Refer: 0 -1 N 1 0 0 1 50 400 2
+EndChar
+
+StartChar: at.sc
+Encoding: 1114164 -1 230
+Width: 600
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 350 0 2
+Refer: 0 -1 N 1 0 0 1 250 0 2
+Refer: 0 -1 N 1 0 0 1 150 0 2
+Refer: 0 -1 N 1 0 0 1 450 100 2
+Refer: 0 -1 N 1 0 0 1 250 100 2
+Refer: 0 -1 N 1 0 0 1 50 100 2
+Refer: 0 -1 N 1 0 0 1 450 200 2
+Refer: 0 -1 N 1 0 0 1 250 200 2
+Refer: 0 -1 N 1 0 0 1 150 200 2
+Refer: 0 -1 N 1 0 0 1 450 300 2
+Refer: 0 -1 N 1 0 0 1 350 400 2
+Refer: 0 -1 N 1 0 0 1 250 400 2
+Refer: 0 -1 N 1 0 0 1 150 400 2
+EndChar
+
+StartChar: ampersand.sc
+Encoding: 1114165 -1 231
+Width: 600
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 450 0 2
+Refer: 0 -1 N 1 0 0 1 250 0 2
+Refer: 0 -1 N 1 0 0 1 150 0 2
+Refer: 0 -1 N 1 0 0 1 350 100 2
+Refer: 0 -1 N 1 0 0 1 50 100 2
+Refer: 0 -1 N 1 0 0 1 450 200 2
+Refer: 0 -1 N 1 0 0 1 250 200 2
+Refer: 0 -1 N 1 0 0 1 150 200 2
+Refer: 0 -1 N 1 0 0 1 250 300 2
+Refer: 0 -1 N 1 0 0 1 50 300 2
+Refer: 0 -1 N 1 0 0 1 150 400 2
+EndChar
+
+StartChar: dollar.sc
+Encoding: 1114166 -1 232
+Width: 600
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 250 -100 2
+Refer: 0 -1 N 1 0 0 1 350 0 2
+Refer: 0 -1 N 1 0 0 1 250 0 2
+Refer: 0 -1 N 1 0 0 1 150 0 2
+Refer: 0 -1 N 1 0 0 1 50 0 2
+Refer: 0 -1 N 1 0 0 1 450 100 2
+Refer: 0 -1 N 1 0 0 1 250 100 2
+Refer: 0 -1 N 1 0 0 1 350 200 2
+Refer: 0 -1 N 1 0 0 1 250 200 2
+Refer: 0 -1 N 1 0 0 1 150 200 2
+Refer: 0 -1 N 1 0 0 1 250 300 2
+Refer: 0 -1 N 1 0 0 1 50 300 2
+Refer: 0 -1 N 1 0 0 1 450 400 2
+Refer: 0 -1 N 1 0 0 1 350 400 2
+Refer: 0 -1 N 1 0 0 1 250 400 2
+Refer: 0 -1 N 1 0 0 1 150 400 2
+Refer: 0 -1 N 1 0 0 1 250 500 2
+EndChar
+
+StartChar: sterling.sc
+Encoding: 1114167 -1 233
+Width: 600
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 450 0 2
+Refer: 0 -1 N 1 0 0 1 350 0 2
+Refer: 0 -1 N 1 0 0 1 250 0 2
+Refer: 0 -1 N 1 0 0 1 150 0 2
+Refer: 0 -1 N 1 0 0 1 50 0 2
+Refer: 0 -1 N 1 0 0 1 150 100 2
+Refer: 0 -1 N 1 0 0 1 250 200 2
+Refer: 0 -1 N 1 0 0 1 150 200 2
+Refer: 0 -1 N 1 0 0 1 50 200 2
+Refer: 0 -1 N 1 0 0 1 450 300 2
+Refer: 0 -1 N 1 0 0 1 150 300 2
+Refer: 0 -1 N 1 0 0 1 350 400 2
+Refer: 0 -1 N 1 0 0 1 250 400 2
+EndChar
+
+StartChar: euro.sc
+Encoding: 1114168 -1 234
+Width: 600
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 350 0 2
+Refer: 0 -1 N 1 0 0 1 250 0 2
+Refer: 0 -1 N 1 0 0 1 450 100 2
+Refer: 0 -1 N 1 0 0 1 150 100 2
+Refer: 0 -1 N 1 0 0 1 250 200 2
+Refer: 0 -1 N 1 0 0 1 150 200 2
+Refer: 0 -1 N 1 0 0 1 50 200 2
+Refer: 0 -1 N 1 0 0 1 450 300 2
+Refer: 0 -1 N 1 0 0 1 150 300 2
+Refer: 0 -1 N 1 0 0 1 350 400 2
+Refer: 0 -1 N 1 0 0 1 250 400 2
+EndChar
+
+StartChar: uni20BA.sc
+Encoding: 1114169 -1 235
+Width: 600
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 350 0 2
+Refer: 0 -1 N 1 0 0 1 250 0 2
+Refer: 0 -1 N 1 0 0 1 150 0 2
+Refer: 0 -1 N 1 0 0 1 450 100 2
+Refer: 0 -1 N 1 0 0 1 150 100 2
+Refer: 0 -1 N 1 0 0 1 450 200 2
+Refer: 0 -1 N 1 0 0 1 250 200 2
+Refer: 0 -1 N 1 0 0 1 150 200 2
+Refer: 0 -1 N 1 0 0 1 50 200 2
+Refer: 0 -1 N 1 0 0 1 150 300 2
+Refer: 0 -1 N 1 0 0 1 150 400 2
+EndChar
+
+StartChar: uni20BD.sc
+Encoding: 1114170 -1 236
+Width: 600
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 450 0 2
+Refer: 0 -1 N 1 0 0 1 150 0 2
+Refer: 0 -1 N 1 0 0 1 150 100 2
+Refer: 0 -1 N 1 0 0 1 350 200 2
+Refer: 0 -1 N 1 0 0 1 250 200 2
+Refer: 0 -1 N 1 0 0 1 150 200 2
+Refer: 0 -1 N 1 0 0 1 50 200 2
+Refer: 0 -1 N 1 0 0 1 450 300 2
+Refer: 0 -1 N 1 0 0 1 150 300 2
+Refer: 0 -1 N 1 0 0 1 350 400 2
+Refer: 0 -1 N 1 0 0 1 250 400 2
+Refer: 0 -1 N 1 0 0 1 150 400 2
+EndChar
+
+StartChar: exclam.sc
+Encoding: 1114171 -1 237
+Width: 200
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 50 0 2
+Refer: 0 -1 N 1 0 0 1 50 200 2
+Refer: 0 -1 N 1 0 0 1 50 300 2
+Refer: 0 -1 N 1 0 0 1 50 400 2
+EndChar
+
+StartChar: question.sc
+Encoding: 1114172 -1 238
+Width: 600
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 250 0 2
+Refer: 0 -1 N 1 0 0 1 350 200 2
+Refer: 0 -1 N 1 0 0 1 250 200 2
+Refer: 0 -1 N 1 0 0 1 450 300 2
+Refer: 0 -1 N 1 0 0 1 350 400 2
+Refer: 0 -1 N 1 0 0 1 250 400 2
+Refer: 0 -1 N 1 0 0 1 150 400 2
+Refer: 0 -1 N 1 0 0 1 50 400 2
+EndChar
+
+StartChar: exclamdown.sc
+Encoding: 1114173 -1 239
+Width: 200
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 50 0 2
+Refer: 0 -1 N 1 0 0 1 50 100 2
+Refer: 0 -1 N 1 0 0 1 50 200 2
+Refer: 0 -1 N 1 0 0 1 50 400 2
+EndChar
+
+StartChar: questiondown.sc
+Encoding: 1114174 -1 240
+Width: 600
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 450 0 2
+Refer: 0 -1 N 1 0 0 1 350 0 2
+Refer: 0 -1 N 1 0 0 1 250 0 2
+Refer: 0 -1 N 1 0 0 1 150 0 2
+Refer: 0 -1 N 1 0 0 1 50 100 2
+Refer: 0 -1 N 1 0 0 1 250 200 2
+Refer: 0 -1 N 1 0 0 1 150 200 2
+Refer: 0 -1 N 1 0 0 1 250 400 2
 EndChar
 EndChars
 EndSplineFont
