@@ -180,7 +180,7 @@ feature locl {
 @A = [A Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde uni01CD];
 @C = [C Cacute Ccaron Ccedilla Cdotaccent];
 @D = [D Eth Dcaron Dcroat];
-@L = [L Lacute uni013B];
+@L = [L Lacute uni013B Lslash];
 @curveBR = [B O Oacute Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde S Sacute Scaron Scedilla uni0218 U Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring W b c ccedilla cacute ccaron cdotaccent e eacute ecaron ecircumflex edieresis edotaccent egrave emacron eth o oacute ograve ocircumflex odieresis omacron otilde p s sacute scaron scedilla uni0219 germandbls thorn w wcircumflex]; # curve at bottom right
 @gapRM = [E Eacute Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eogonek K uni0136]; # gap at right middle
 # I Iacute Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek removed from @gapRM
