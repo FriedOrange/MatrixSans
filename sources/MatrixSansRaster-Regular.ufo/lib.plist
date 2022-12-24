@@ -488,15 +488,7 @@
       <string>seven.sc</string>
       <string>eight.sc</string>
       <string>nine.sc</string>
-      <string>slash.sc</string>
-      <string>backslash.sc</string>
-      <string>at.sc</string>
       <string>ampersand.sc</string>
-      <string>dollar.sc</string>
-      <string>sterling.sc</string>
-      <string>Euro.sc</string>
-      <string>uni20BA.sc</string>
-      <string>uni20BD.sc</string>
       <string>exclam.sc</string>
       <string>question.sc</string>
       <string>exclamdown.sc</string>
@@ -571,8 +563,6 @@
       <key>Eth</key>
       <string>base</string>
       <key>Euro</key>
-      <string>base</string>
-      <key>Euro.sc</key>
       <string>base</string>
       <key>F</key>
       <string>base</string>
@@ -784,8 +774,6 @@
       <string>base</string>
       <key>at</key>
       <string>base</string>
-      <key>at.sc</key>
-      <string>base</string>
       <key>atilde</key>
       <string>base</string>
       <key>atilde.sc</key>
@@ -795,8 +783,6 @@
       <key>b.sc</key>
       <string>base</string>
       <key>backslash</key>
-      <string>base</string>
-      <key>backslash.sc</key>
       <string>base</string>
       <key>bar</key>
       <string>base</string>
@@ -861,8 +847,6 @@
       <key>divide</key>
       <string>base</string>
       <key>dollar</key>
-      <string>base</string>
-      <key>dollar.sc</key>
       <string>base</string>
       <key>dotaccent</key>
       <string>base</string>
@@ -1250,13 +1234,9 @@
       <string>base</string>
       <key>slash</key>
       <string>base</string>
-      <key>slash.sc</key>
-      <string>base</string>
       <key>space</key>
       <string>base</string>
       <key>sterling</key>
-      <string>base</string>
-      <key>sterling.sc</key>
       <string>base</string>
       <key>summation</key>
       <string>base</string>
@@ -1420,11 +1400,7 @@
       <string>base</string>
       <key>uni20BA</key>
       <string>base</string>
-      <key>uni20BA.sc</key>
-      <string>base</string>
       <key>uni20BD</key>
-      <string>base</string>
-      <key>uni20BD.sc</key>
       <string>base</string>
       <key>uni2113</key>
       <string>base</string>

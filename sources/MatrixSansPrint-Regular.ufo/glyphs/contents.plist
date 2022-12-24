@@ -72,8 +72,6 @@
     <string>E_th.glif</string>
     <key>Euro</key>
     <string>E_uro.glif</string>
-    <key>Euro.sc</key>
-    <string>E_uro.sc.glif</string>
     <key>F</key>
     <string>F_.glif</string>
     <key>G</key>
@@ -284,8 +282,6 @@
     <string>asterisk.glif</string>
     <key>at</key>
     <string>at.glif</string>
-    <key>at.sc</key>
-    <string>at.sc.glif</string>
     <key>atilde</key>
     <string>atilde.glif</string>
     <key>atilde.sc</key>
@@ -296,8 +292,6 @@
     <string>b.sc.glif</string>
     <key>backslash</key>
     <string>backslash.glif</string>
-    <key>backslash.sc</key>
-    <string>backslash.sc.glif</string>
     <key>bar</key>
     <string>bar.glif</string>
     <key>braceleft</key>
@@ -362,8 +356,6 @@
     <string>divide.glif</string>
     <key>dollar</key>
     <string>dollar.glif</string>
-    <key>dollar.sc</key>
-    <string>dollar.sc.glif</string>
     <key>dotaccent</key>
     <string>dotaccent.glif</string>
     <key>dotlessi</key>
@@ -750,14 +742,10 @@
     <string>six.sc.glif</string>
     <key>slash</key>
     <string>slash.glif</string>
-    <key>slash.sc</key>
-    <string>slash.sc.glif</string>
     <key>space</key>
     <string>space.glif</string>
     <key>sterling</key>
     <string>sterling.glif</string>
-    <key>sterling.sc</key>
-    <string>sterling.sc.glif</string>
     <key>summation</key>
     <string>summation.glif</string>
     <key>t</key>
@@ -920,12 +908,8 @@
     <string>uni2074.glif</string>
     <key>uni20BA</key>
     <string>uni20B_A_.glif</string>
-    <key>uni20BA.sc</key>
-    <string>uni20B_A_.sc.glif</string>
     <key>uni20BD</key>
     <string>uni20B_D_.glif</string>
-    <key>uni20BD.sc</key>
-    <string>uni20B_D_.sc.glif</string>
     <key>uni2113</key>
     <string>uni2113.glif</string>
     <key>uni2215</key>

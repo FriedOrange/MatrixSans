@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1657964544
-ModificationTime: 1671862880
+ModificationTime: 1671883007
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -69,7 +69,7 @@ BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 629146 314573 209715 524288 1048576 0 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "marks_above"""  "marks_below"""  "ogonek"""  "marks_aboveright""" 
-BeginChars: 1114235 497
+BeginChars: 1114235 489
 
 StartChar: space
 Encoding: 32 32 0
@@ -10476,61 +10476,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: slash.sc
-Encoding: 1114222 -1 484
-Width: 600
-Flags: HW
-LayerCount: 2
-Fore
-Refer: 15 47 S 1 0 0 1 0 -100 3
-EndChar
-
-StartChar: backslash.sc
-Encoding: 1114223 -1 485
-Width: 600
-Flags: HW
-LayerCount: 2
-Fore
-Refer: 60 92 N 1 0 0 1 0 -100 3
-EndChar
-
-StartChar: at.sc
-Encoding: 1114224 -1 486
-Width: 600
-VWidth: 0
-Flags: HW
-LayerCount: 2
-Fore
-SplineSet
-50 100 m 1
- 50 200 l 1
- 150 200 l 1
- 150 300 l 1
- 350 300 l 1
- 350 100 l 1
- 450 100 l 1
- 450 400 l 1
- 150 400 l 1
- 150 500 l 1
- 450 500 l 1
- 450 400 l 1
- 550 400 l 1
- 550 100 l 1
- 450 100 l 1
- 450 0 l 1
- 150 0 l 1
- 150 100 l 1
- 50 100 l 1
-250 100 m 1
- 250 200 l 1
- 150 200 l 1
- 150 100 l 1
- 250 100 l 1
-EndSplineSet
-EndChar
-
 StartChar: ampersand.sc
-Encoding: 1114225 -1 487
+Encoding: 1114225 -1 484
 Width: 600
 VWidth: 0
 Flags: HW
@@ -10577,159 +10524,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: dollar.sc
-Encoding: 1114226 -1 488
-Width: 600
-Flags: HW
-LayerCount: 2
-Fore
-Refer: 4 36 N 1 0 0 1 0 -100 3
-EndChar
-
-StartChar: sterling.sc
-Encoding: 1114227 -1 489
-Width: 600
-VWidth: 0
-Flags: HW
-LayerCount: 2
-Fore
-SplineSet
-50 0 m 1
- 50 100 l 1
- 150 100 l 1
- 150 200 l 1
- 50 200 l 1
- 50 300 l 1
- 150 300 l 1
- 150 400 l 1
- 250 400 l 1
- 250 500 l 1
- 450 500 l 1
- 450 400 l 1
- 550 400 l 1
- 550 300 l 1
- 450 300 l 1
- 450 400 l 1
- 250 400 l 1
- 250 300 l 1
- 350 300 l 1
- 350 200 l 1
- 250 200 l 1
- 250 100 l 1
- 550 100 l 1
- 550 0 l 1
- 50 0 l 1
-EndSplineSet
-EndChar
-
-StartChar: Euro.sc
-Encoding: 1114228 -1 490
-Width: 600
-VWidth: 0
-Flags: HW
-LayerCount: 2
-Fore
-SplineSet
-50 200 m 1
- 50 300 l 1
- 150 300 l 1
- 150 400 l 1
- 250 400 l 1
- 250 500 l 1
- 450 500 l 1
- 450 400 l 1
- 550 400 l 1
- 550 300 l 1
- 450 300 l 1
- 450 400 l 1
- 250 400 l 1
- 250 300 l 1
- 350 300 l 1
- 350 200 l 1
- 250 200 l 1
- 250 100 l 1
- 450 100 l 1
- 450 200 l 1
- 550 200 l 1
- 550 100 l 1
- 450 100 l 1
- 450 0 l 1
- 250 0 l 1
- 250 100 l 1
- 150 100 l 1
- 150 200 l 1
- 50 200 l 1
-EndSplineSet
-EndChar
-
-StartChar: uni20BA.sc
-Encoding: 1114229 -1 491
-Width: 600
-VWidth: 0
-Flags: HW
-LayerCount: 2
-Fore
-SplineSet
-50 200 m 1
- 50 300 l 1
- 150 300 l 1
- 150 500 l 1
- 250 500 l 1
- 250 300 l 1
- 350 300 l 1
- 350 200 l 1
- 250 200 l 1
- 250 100 l 1
- 450 100 l 1
- 450 300 l 1
- 550 300 l 1
- 550 100 l 1
- 450 100 l 1
- 450 0 l 1
- 150 0 l 1
- 150 200 l 1
- 50 200 l 1
-EndSplineSet
-EndChar
-
-StartChar: uni20BD.sc
-Encoding: 1114230 -1 492
-Width: 600
-VWidth: 0
-Flags: HW
-LayerCount: 2
-Fore
-SplineSet
-450 0 m 1
- 450 100 l 1
- 550 100 l 1
- 550 0 l 1
- 450 0 l 1
-50 200 m 1
- 50 300 l 1
- 150 300 l 1
- 150 500 l 1
- 450 500 l 1
- 450 400 l 1
- 550 400 l 1
- 550 300 l 1
- 450 300 l 1
- 450 200 l 1
- 250 200 l 1
- 250 0 l 1
- 150 0 l 1
- 150 200 l 1
- 50 200 l 1
-250 300 m 1
- 450 300 l 1
- 450 400 l 1
- 250 400 l 1
- 250 300 l 1
-EndSplineSet
-EndChar
-
 StartChar: exclam.sc
-Encoding: 1114231 -1 493
+Encoding: 1114231 -1 485
 Width: 200
 VWidth: 0
 Flags: HW
@@ -10750,7 +10546,7 @@ EndSplineSet
 EndChar
 
 StartChar: question.sc
-Encoding: 1114232 -1 494
+Encoding: 1114232 -1 486
 Width: 600
 VWidth: 0
 Flags: HW
@@ -10779,7 +10575,7 @@ EndSplineSet
 EndChar
 
 StartChar: exclamdown.sc
-Encoding: 1114233 -1 495
+Encoding: 1114233 -1 487
 Width: 200
 VWidth: 0
 Flags: HW
@@ -10800,7 +10596,7 @@ EndSplineSet
 EndChar
 
 StartChar: questiondown.sc
-Encoding: 1114234 -1 496
+Encoding: 1114234 -1 488
 Width: 600
 VWidth: 0
 Flags: HW
