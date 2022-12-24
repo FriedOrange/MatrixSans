@@ -139,40 +139,40 @@ table GDEF {
 feature locl {
 	script latn;
 	language CAT;
-	lookup locl_CAT {
-	    pos l periodcentered' <-100 0 -200 0> l;
-	    pos L periodcentered' <-300 0 -200 0> L;
-	} locl_CAT;
+		lookup locl_CAT {
+			pos l periodcentered' <-100 0 -200 0> l;
+			pos L periodcentered' <-300 0 -200 0> L;
+		} locl_CAT;
 	language TAT;
-	sub i by i.loclTRK;
+		sub i by i.loclTRK;
 	language TRK;
-	sub i by i.loclTRK;
+		sub i by i.loclTRK;
 	language KAZ;
-	sub i by i.loclTRK;
+		sub i by i.loclTRK;
 	language AZE;
-	sub i by i.loclTRK;
+		sub i by i.loclTRK;
 	language CRT;
-	sub i by i.loclTRK;
+		sub i by i.loclTRK;
 	language MOL;
-	sub Scedilla by uni0218;
-	sub scedilla by uni0219;
-	sub uni0162 by uni021A;
-	sub uni0163 by uni021B;
+		sub Scedilla by uni0218;
+		sub scedilla by uni0219;
+		sub uni0162 by uni021A;
+		sub uni0163 by uni021B;
 	language ROM;
-	sub Scedilla by uni0218;
-	sub scedilla by uni0219;
-	sub uni0162 by uni021A;
-	sub uni0163 by uni021B;
+		sub Scedilla by uni0218;
+		sub scedilla by uni0219;
+		sub uni0162 by uni021A;
+		sub uni0163 by uni021B;
 	language NSM;
-	sub Eng by Eng.loclNSM;
+		sub Eng by Eng.loclNSM;
 	language NLD;
-	sub I [J j j.sc] by IJ;
-	sub i j by ij;
-	sub Iacute J' by J acutecomb;
-	sub iacute j' by jacute;
-	sub I acutecomb J' by J acutecomb;
-	sub i acutecomb j' by jacute;
-	sub i.sc j.sc by ij.sc;
+		sub I [J j j.sc] by IJ;
+		sub i j by ij;
+		sub Iacute J' by J acutecomb;
+		sub iacute j' by jacute;
+		sub I acutecomb J' by J acutecomb;
+		sub i acutecomb j' by jacute;
+		sub i.sc j.sc by ij.sc;
 } locl;
 
 # Classes for kerning
@@ -185,16 +185,20 @@ feature locl {
 @gapRM = [E Eacute Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eogonek K uni0136]; # gap at right middle
 # I Iacute Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek removed from @gapRM
 @r = [r racute rcaron];
+@sc_overhangR = [f.sc j.sc t.sc y.sc tcaron.sc tcedilla.sc uni021B.sc yacute.sc ycircumflex.sc ydieresis.sc ygrave.sc];
+@sc_underhangR = [a.sc agrave.sc aacute.sc acircumflex.sc adieresis.sc aring.sc amacron.sc aogonek.sc acaron.sc l.sc lacute.sc lcaron.sc lcommaaccent.sc lslash.sc];
 
 # Right side classes
 @A2 = [A Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde uni01CD AE];
 @strokeLM = [Eth Dcroat f]; # stroke at left middle
-@short_curveTL = [ c ccedilla d dcaron e eogonek g o oslash oe q s scedilla uni0219]; # curve at top left
-@short_square = [dotlessi m n uni0146 eng p r uni0157 u uogonek v w x y z];
-@curveTL = [cacute ccaron cdotaccent eacute ecaron ecircumflex edieresis edotaccent egrave emacron dcroat eth gdotaccent uni0123 oacute ograve ocircumflex odieresis omacron sacute scaron]; # curve at top left, narrow diacritics
+@short_curveTL = [ c ccedilla d dcaron e eogonek g o oslash oe q s scedilla uni0219 g.sc q.sc germandbls.sc oe.sc]; # curve at top left
+@short_square = [dotlessi m n uni0146 eng p r uni0157 u uogonek v w x y z b.sc d.sc e.sc f.sc h.sc i.sc kgreenlandic l.sc m.sc n.sc p.sc r.sc u.sc hbar.sc thorn.sc];
+@curveTL = [cacute ccaron cdotaccent eacute ecaron ecircumflex edieresis edotaccent egrave emacron dcroat eth gdotaccent uni0123 oacute ograve ocircumflex odieresis omacron sacute scaron gcommaaccent.sc gdotaccent.sc]; # curve at top left, narrow diacritics
 @a_short = [a aogonek]; # previously in @short_curveTL
 @a_tall = [aacute acircumflex adieresis agrave amacron aring]; # previously in @curveTL
 @l = [l  uni013C lcaron];
+@sc_underhangL = [a.sc ae.sc j.sc eth.sc lslash.sc agrave.sc aacute.sc acircumflex.sc adieresis.sc aring.sc amacron.sc aogonek.sc acaron.sc];
+@sc_overhangL = [t.sc tcaron.sc tcedilla.sc uni021B.sc y.sc yacute.sc ycircumflex.sc ydieresis.sc ygrave.sc];
 
 # Left and right side classes
 @T = [T Tcaron uni0162 uni021A];
@@ -236,6 +240,8 @@ feature kern {
 	pos F @i -100;
 	pos F @strokeLM -100;
 	pos F @t -100;
+	pos F @sc_underhangL -100;
+	pos F @sc_overhangL -100;
 	pos J @A2 -100;
 	pos J @short_curveTL -100;
 	pos J @a_short -100;
@@ -245,6 +251,8 @@ feature kern {
 	pos J @i -100;
 	pos J @strokeLM -100;
 	pos J @t -100;
+	pos J @sc_underhangL -100;
+	pos J @sc_overhangL -100;
 	pos @L @T -100;
 	pos @L @Y -100;
 	pos @L V -100;
@@ -264,6 +272,8 @@ feature kern {
 	pos @T @a_tall -100;
 	pos @T @i -100;
 	pos @T @t -100;
+	pos @T @sc_underhangL -100;
+	pos @T @sc_overhangL -100;
 	pos @Y J -200;
 	pos @Y j -200;
 	pos @Y @strokeLM -100;
@@ -271,6 +281,8 @@ feature kern {
 	pos @Y @a_tall -100;
 	pos @Y @short_curveTL -100;
 	pos @Y @a_short -100;
+	pos @Y @sc_underhangL -100;
+	pos @Y @sc_overhangL -100;
 	pos f @short_curveTL -100;
 	pos f @a_short -100;
 	pos f @curveTL -100;
@@ -293,6 +305,8 @@ feature kern {
 	pos [dcaron dcroat] @a_short -100;
 	pos [dcaron dcroat] @a_tall -100;
 	pos @t hyphen -100;
+	pos @sc_overhangR @sc_underhangL -100;
+	pos @sc_underhangR @sc_overhangL -100;
 } kern;
 
 feature tnum {
