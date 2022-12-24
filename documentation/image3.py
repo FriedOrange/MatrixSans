@@ -69,10 +69,10 @@ def remap(value, inputMin, inputMax, outputMin, outputMax):
 
 
 # Draw the page/frame and a grid if "GRID_VIEW" is set to "True"
-def draw_background(colour):
-	newPage(WIDTH, HEIGHT)
+def draw_background(colour, height):
+	newPage(WIDTH, height)
 	fill(colour[0], colour[1], colour[2])
-	rect(-2, -2, WIDTH + 2, HEIGHT + 2)
+	rect(-2, -2, WIDTH + 2, height + 2)
 	if GRID_VIEW:
 		grid()
 	else:
@@ -137,7 +137,8 @@ def draw_auxiliary_text():
 
 
 def make_image(text_list, text_colour, bg_colour):
-	draw_background(bg_colour)
+	height = BIG_TEXT_INTERLINE * len(text_list)
+	draw_background(bg_colour, height)
 	draw_main_text(text_list, text_colour)
 	# draw_divider_lines()
 	# draw_auxiliary_text()
