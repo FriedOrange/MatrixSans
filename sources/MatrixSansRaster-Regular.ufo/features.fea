@@ -191,11 +191,9 @@ feature locl {
 # Right side classes
 @A2 = [A Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde uni01CD AE];
 @strokeLM = [Eth Dcroat f]; # stroke at left middle
-@short_curveTL = [ c ccedilla d dcaron e eogonek g o oslash oe q s scedilla uni0219 g.sc q.sc germandbls.sc oe.sc]; # curve at top left
-@short_square = [dotlessi m n uni0146 eng p r uni0157 u uogonek v w x y z b.sc d.sc e.sc f.sc h.sc i.sc kgreenlandic l.sc m.sc n.sc p.sc r.sc u.sc hbar.sc thorn.sc];
-@curveTL = [cacute ccaron cdotaccent eacute ecaron ecircumflex edieresis edotaccent egrave emacron dcroat eth gdotaccent uni0123 oacute ograve ocircumflex odieresis omacron sacute scaron gcommaaccent.sc gdotaccent.sc]; # curve at top left, narrow diacritics
-@a_short = [a aogonek]; # previously in @short_curveTL
-@a_tall = [aacute acircumflex adieresis agrave amacron aring]; # previously in @curveTL
+@squareTL = [dotlessi m n uni0146 eng p r uni0157 u uogonek v w x y z ugrave uacute ucircumflex udieresis yacute nacute ncaron racute rcaron umacron uring wcircumflex ycircumflex ydieresis zacute zdotaccent zcaron wgrave wacute wdieresis ygrave b.sc d.sc e.sc f.sc h.sc i.sc kgreenlandic l.sc m.sc n.sc p.sc r.sc u.sc hbar.sc thorn.sc];
+@curveTL = [c ccedilla d dcaron e eogonek g o oslash oe q s scedilla uni0219 g.sc q.sc germandbls.sc oe.sc cacute ccaron cdotaccent eacute ecaron ecircumflex edieresis edotaccent egrave emacron dcroat eth gdotaccent uni0123 oacute ograve ocircumflex odieresis omacron sacute scaron gcommaaccent.sc gdotaccent.sc]; # curve at top left, narrow diacritics
+@a = [a aogonek ae aacute acircumflex adieresis agrave amacron aring uni01CE]; # previously in @short_curveTL
 @l = [l  uni013C lcaron];
 @sc_underhangL = [a.sc ae.sc j.sc eth.sc lslash.sc agrave.sc aacute.sc acircumflex.sc adieresis.sc aring.sc amacron.sc aogonek.sc acaron.sc];
 @sc_overhangL = [t.sc tcaron.sc tcedilla.sc uni021B.sc y.sc yacute.sc ycircumflex.sc ydieresis.sc ygrave.sc];
@@ -232,22 +230,18 @@ feature kern {
 	pos @D @T -100;
 	pos @D j -200;
 	pos F @A2 -100;
-	pos F @short_curveTL -100;
-	pos F @a_short -200;
-	pos F @short_square -100;
+	pos F @a -200;
+	pos F @squareTL -100;
 	pos F @curveTL -100;
-	pos F @a_tall -100;
 	pos F @i -100;
 	pos F @strokeLM -100;
 	pos F @t -100;
 	pos F @sc_underhangL -100;
 	pos F @sc_overhangL -100;
 	pos J @A2 -100;
-	pos J @short_curveTL -100;
-	pos J @a_short -100;
-	pos J @short_square -100;
+	pos J @a -100;
+	pos J @squareTL -100;
 	pos J @curveTL -100;
-	pos J @a_tall -100;
 	pos J @i -100;
 	pos J @strokeLM -100;
 	pos J @t -100;
@@ -259,17 +253,14 @@ feature kern {
 	pos @L @strokeLM -100;
 	pos [P Thorn] j -200;
 	pos @r j -200;
-	pos @r @a_short -100;
-	pos @r @a_tall -100;
+	pos @r @a -100;
 	pos @T @A2 -100;
 	pos @T J -200;
 	pos @T j -200;
 	pos @T @strokeLM -100;
-	pos @T @short_curveTL -100;
-	pos @T @a_short -100;
-	pos @T @short_square -100;
+	pos @T @a -100;
+	pos @T @squareTL -100;
 	pos @T @curveTL -100;
-	pos @T @a_tall -100;
 	pos @T @i -100;
 	pos @T @t -100;
 	pos @T @sc_underhangL -100;
@@ -278,15 +269,11 @@ feature kern {
 	pos @Y j -200;
 	pos @Y @strokeLM -100;
 	pos @Y @curveTL -100;
-	pos @Y @a_tall -100;
-	pos @Y @short_curveTL -100;
-	pos @Y @a_short -100;
+	pos @Y @a -100;
 	pos @Y @sc_underhangL -100;
 	pos @Y @sc_overhangL -100;
-	pos f @short_curveTL -100;
-	pos f @a_short -100;
+	pos f @a -100;
 	pos f @curveTL -100;
-	pos f @a_tall -100;
 	pos f @strokeLM -100;
 	# pos [i igrave iogonek l lacute] @t -100; # 'it' kerning looks bad at small sizes, good at large sizes. 'lt' bad at all sizes
 	# pos [i igrave iogonek l lacute] @strokeLM -100;
@@ -300,10 +287,8 @@ feature kern {
 	pos @gapRM @strokeLM -100;
 	# pos @gapRM @t -100;
 	pos [X Z Zacute Zcaron Zdotaccent] [Eth Dcroat f] -100;
-	pos [dcaron dcroat] @short_curveTL -100;
 	pos [dcaron dcroat] @curveTL -100;
-	pos [dcaron dcroat] @a_short -100;
-	pos [dcaron dcroat] @a_tall -100;
+	pos [dcaron dcroat] @a -100;
 	pos @t hyphen -100;
 	pos @sc_overhangR @sc_underhangL -100;
 	pos @sc_underhangR @sc_overhangL -100;
