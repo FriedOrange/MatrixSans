@@ -190,8 +190,8 @@ feature locl {
 
 # Right side classes
 @A2 = [A Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde uni01CD AE];
-@strokeLM = [Eth Dcroat f]; # stroke at left middle
-@squareTL = [dotlessi m n uni0146 eng p r uni0157 u uogonek v w x y z ugrave uacute ucircumflex udieresis yacute nacute ncaron racute rcaron umacron uring wcircumflex ycircumflex ydieresis zacute zdotaccent zcaron wgrave wacute wdieresis ygrave b.sc d.sc e.sc f.sc h.sc i.sc kgreenlandic l.sc m.sc n.sc p.sc r.sc u.sc hbar.sc thorn.sc];
+@strokeLM = [Eth Dcroat f uniFB01 uniFB02]; # stroke at left middle
+@squareTL = [dotlessi m n uni0146 eng p r uni0157 u uogonek v w x y z ugrave uacute ucircumflex udieresis yacute nacute ncaron racute rcaron umacron uring wcircumflex ycircumflex ydieresis zacute zdotaccent zcaron wgrave wacute wdieresis ygrave b.sc d.sc e.sc f.sc h.sc i.sc kgreenlandic l.sc m.sc n.sc p.sc r.sc u.sc hbar.sc thorn.sc dcaron.sc eacute.sc ecaron.sc ecircumflex.sc edieresis.sc edotaccent.sc egrave.sc emacron.sc eogonek.sc iacute.sc iogonek.sc kcommaaccent.sc lcaron.sc nacute.sc ncaron.sc ncommaaccent.sc racute.sc rcaron.sc rcommaaccent.sc uacute.sc ucircumflex.sc udieresis.sc ugrave.sc umacron.sc uogonek.sc uring.sc ij.sc];
 @curveTL = [c ccedilla d dcaron e eogonek g o oslash oe q s scedilla uni0219 g.sc q.sc germandbls.sc oe.sc cacute ccaron cdotaccent eacute ecaron ecircumflex edieresis edotaccent egrave emacron dcroat eth gdotaccent uni0123 oacute ograve ocircumflex odieresis omacron sacute scaron gcommaaccent.sc gdotaccent.sc]; # curve at top left, narrow diacritics
 @a = [a aogonek ae aacute acircumflex adieresis agrave amacron aring uni01CE]; # previously in @short_curveTL
 @l = [l  uni013C lcaron];
