@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1657964544
-ModificationTime: 1671883007
+ModificationTime: 1672031337
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -64,7 +64,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 1114016 16 14
+WinInfo: 48 16 14
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 629146 314573 209715 524288 1048576 0 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
@@ -2333,24 +2333,8 @@ AnchorPoint: "ogonek" 200 0 basechar 0
 AnchorPoint: "marks_above" 200 800 basechar 0
 LayerCount: 2
 Fore
-SplineSet
-50 0 m 1
- 50 100 l 1
- 150 100 l 1
- 150 400 l 1
- 50 400 l 1
- 50 500 l 1
- 250 500 l 1
- 250 100 l 1
- 350 100 l 1
- 350 0 l 1
- 50 0 l 1
-150 600 m 1
- 150 700 l 1
- 250 700 l 1
- 250 600 l 1
- 150 600 l 1
-EndSplineSet
+Refer: 284 775 N 1 0 0 1 200 0 2
+Refer: 182 305 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: j
@@ -2359,28 +2343,8 @@ Width: 500
 Flags: HMW
 LayerCount: 2
 Fore
-SplineSet
-50 -100 m 1
- 50 0 l 1
- 150 0 l 1
- 150 -100 l 1
- 350 -100 l 1
- 350 400 l 1
- 250 400 l 1
- 250 500 l 1
- 450 500 l 1
- 450 -100 l 1
- 350 -100 l 1
- 350 -200 l 1
- 150 -200 l 1
- 150 -100 l 1
- 50 -100 l 1
-350 600 m 1
- 350 700 l 1
- 450 700 l 1
- 450 600 l 1
- 350 600 l 1
-EndSplineSet
+Refer: 284 775 N 1 0 0 1 400 0 2
+Refer: 269 567 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: k
@@ -7453,11 +7417,6 @@ Flags: HM
 LayerCount: 2
 Fore
 SplineSet
-150 600 m 1
- 150 700 l 1
- 250 700 l 1
- 250 600 l 1
- 150 600 l 1
 50 400 m 1
  50 500 l 1
  250 500 l 1
@@ -7475,6 +7434,11 @@ SplineSet
  150 100 l 1
  150 400 l 1
  50 400 l 1
+150 600 m 1
+ 150 700 l 1
+ 250 700 l 1
+ 250 600 l 1
+ 150 600 l 1
 EndSplineSet
 EndChar
 

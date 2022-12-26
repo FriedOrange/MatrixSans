@@ -3,71 +3,7 @@
   <advance width="500"/>
   <unicode hex="006A"/>
   <outline>
-    <contour>
-      <point x="357.0" y="607.0" type="line"/>
-      <point x="357.0" y="693.0" type="line"/>
-      <point x="443.0" y="693.0" type="line"/>
-      <point x="443.0" y="607.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="257.0" y="407.0" type="line"/>
-      <point x="257.0" y="493.0" type="line"/>
-      <point x="343.0" y="493.0" type="line"/>
-      <point x="343.0" y="407.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="357.0" y="407.0" type="line"/>
-      <point x="357.0" y="493.0" type="line"/>
-      <point x="443.0" y="493.0" type="line"/>
-      <point x="443.0" y="407.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="357.0" y="307.0" type="line"/>
-      <point x="357.0" y="393.0" type="line"/>
-      <point x="443.0" y="393.0" type="line"/>
-      <point x="443.0" y="307.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="357.0" y="207.0" type="line"/>
-      <point x="357.0" y="293.0" type="line"/>
-      <point x="443.0" y="293.0" type="line"/>
-      <point x="443.0" y="207.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="357.0" y="107.0" type="line"/>
-      <point x="357.0" y="193.0" type="line"/>
-      <point x="443.0" y="193.0" type="line"/>
-      <point x="443.0" y="107.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="357.0" y="7.0" type="line"/>
-      <point x="357.0" y="93.0" type="line"/>
-      <point x="443.0" y="93.0" type="line"/>
-      <point x="443.0" y="7.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="57.0" y="-93.0" type="line"/>
-      <point x="57.0" y="-7.0" type="line"/>
-      <point x="143.0" y="-7.0" type="line"/>
-      <point x="143.0" y="-93.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="357.0" y="-93.0" type="line"/>
-      <point x="357.0" y="-7.0" type="line"/>
-      <point x="443.0" y="-7.0" type="line"/>
-      <point x="443.0" y="-93.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="157.0" y="-193.0" type="line"/>
-      <point x="157.0" y="-107.0" type="line"/>
-      <point x="243.0" y="-107.0" type="line"/>
-      <point x="243.0" y="-193.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="257.0" y="-193.0" type="line"/>
-      <point x="257.0" y="-107.0" type="line"/>
-      <point x="343.0" y="-107.0" type="line"/>
-      <point x="343.0" y="-193.0" type="line"/>
-    </contour>
+    <component base="uni0237"/>
+    <component base="uni0307" xOffset="400.0"/>
   </outline>
 </glyph>
