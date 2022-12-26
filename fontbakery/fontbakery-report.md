@@ -109,7 +109,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: asterisk	Contours detected: 11	Expected: 1 or 4 
 
-	- And 715 more.
+	- And 717 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -146,7 +146,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: asterisk	Contours detected: 11	Expected: 1 or 4 
 
-	- And 715 more.
+	- And 717 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -183,7 +183,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: asterisk	Contours detected: 9	Expected: 1 or 4 
 
-	- And 689 more.
+	- And 691 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
