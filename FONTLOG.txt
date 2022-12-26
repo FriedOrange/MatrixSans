@@ -21,6 +21,12 @@ Further documentation can be found at: https://github.com/FriedOrange/MatrixSans
 Changelog
 ---------
 
+26 December 2022 - Version 1.100
+- Added small capitals, accessible through the `smcp` and `c2sc` Opentype features
+- Changed the design of Æ, æ, Œ, œ, Ð, đ, ħ, ƒ, and ₽ 
+- Improved appearance of "M" in Video style
+- Improved kerning
+
 19 December 2022 - Version 1.000
 - Updated kerning
 - Reduced space width

@@ -8,11 +8,11 @@ This is set of pixelated, retro-style fonts based on the classic 5&times;7 dot m
 - **Screen** is similar to Print, but uses square dots instead of round ones. It matches the look of the "character LCDs" seen in many devices, as well as some light-up LED displays.
 - **Video** is an interpolated version of Regular. It resembles the on-screen displays of VCRs, Teletext, camcorders and the like; harking back to the early days of computerisation in television and home video.
 
-![Sample 1](documentation/sample_0.png)
-![Sample 2](documentation/sample_1.png)
-![Sample 3](documentation/sample_2.png)
-![Sample 4](documentation/sample_3.png)
-![Sample 5](documentation/sample_4.png)
+![Matrix Sans Sample](documentation/sample_0.png)
+![Matrix Sans Print Sample](documentation/sample_1.png)
+![Matrix Sans Raster Sample](documentation/sample_2.png)
+![Matrix Sans Screen Sample](documentation/sample_3.png)
+![Matrix Sans Video Sample](documentation/sample_4.png)
 
 ## Background
 
@@ -98,6 +98,15 @@ To easily add or modify glyphs (requires [FontForge](https://fontforge.org/), an
 	- Custom behaviour is implemented for certain glyphs in the Video and Raster styles; edit `step2.py` to change this
 
 ## Changelog
+
+#### 26 December 2022 - Version 1.100
+
+![Small capitals sample](documentation/smcp.png)
+
+- Added small capitals, accessible through the `smcp` and `c2sc` Opentype features
+- Changed the design of Æ, æ, Œ, œ, Ð, đ, ħ, ƒ, and ₽ 
+- Improved appearance of "M" in Video style
+- Improved kerning
 
 #### 19 December 2022 - Version 1.000
 - Updated kerning
