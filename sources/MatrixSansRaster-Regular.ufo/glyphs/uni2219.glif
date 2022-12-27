@@ -3,21 +3,6 @@
   <advance width="200"/>
   <unicode hex="2219"/>
   <outline>
-    <contour>
-      <point x="35.0" y="350.0" type="curve" smooth="yes"/>
-      <point x="35.0" y="372.0"/>
-      <point x="53.0" y="390.0"/>
-      <point x="75.0" y="390.0" type="curve" smooth="yes"/>
-      <point x="125.0" y="390.0" type="line" smooth="yes"/>
-      <point x="147.0" y="390.0"/>
-      <point x="165.0" y="372.0"/>
-      <point x="165.0" y="350.0" type="curve" smooth="yes"/>
-      <point x="165.0" y="328.0"/>
-      <point x="147.0" y="310.0"/>
-      <point x="125.0" y="310.0" type="curve" smooth="yes"/>
-      <point x="75.0" y="310.0" type="line" smooth="yes"/>
-      <point x="53.0" y="310.0"/>
-      <point x="35.0" y="328.0"/>
-    </contour>
+    <component base="periodcentered"/>
   </outline>
 </glyph>

@@ -59,7 +59,7 @@ feature ccmp {
 } ccmp;
 
 # classes for mark positioning
-@tall = [C D G K N O R S T W Y Z k]; # not including glyphs with ogonek or apostrophe-type caron
+@tall = [C D G H K N O R S T W Y Z h k]; # not including glyphs with ogonek or apostrophe-type caron
 @short = [c m-o r s v-x z b.sc d.sc f.sc g.sc h.sc kgreenlandic m.sc n.sc p.sc q.sc r.sc t.sc y.sc];
 @deep = [g p q y];
 
@@ -109,8 +109,8 @@ feature mark {
 		<anchor 200 600> mark @marks_above
 		<anchor 200 0> mark @marks_below
 		<anchor 200 0> mark @ogonek;
-	pos base uni0237 
-		<anchor 400 600> mark @marks_above;
+	pos base uni0237
+		<anchor 400 600> mark @marks_above; #dotlessj
 	pos base uni25CC 
 		<anchor 300 600> mark @marks_above
 		<anchor 300 0> mark @marks_below
@@ -225,6 +225,8 @@ feature kern {
 	pos f abreve -100;
 	pos hyphen j -100;
 	pos f hyphen -100;
+	pos I tildecomb <100 0 200 0>;
+	pos dotlessi tildecomb <100 0 200 0>; 
 	# enum pos @i v -100;
 	pos @A @T -100;
 	pos @D @T -100;

@@ -28,8 +28,8 @@ feature smcp {
 # mark classes
 markClass [gravecomb acutecomb uni0302 tildecomb uni0304 uni0306 uni0307 uni0308 uni030A uni030B uni030C uni0312] <anchor 0 600> @marks_above;
 markClass [uni0326 uni0327] <anchor 0 0> @marks_below;
-markClass [uni0328] <anchor 0 0> @ogonek;
-markClass [uni0315] <anchor 0 500> @marks_aboveright;
+markClass [uni0328] <anchor 0 0> @marks_belowright;
+markClass [uni0315 uni031B] <anchor 0 500> @marks_aboveright;
 
 feature ccmp {
 	sub [i j]' @marks_above by [dotlessi uni0237];
@@ -59,29 +59,34 @@ feature ccmp {
 } ccmp;
 
 # classes for mark positioning
-@tall = [C D G K N O R S T W Y Z k]; # not including glyphs with ogonek or apostrophe-type caron
-@short = [c m-o r s v-x z b.sc d.sc f.sc g.sc h.sc kgreenlandic m.sc n.sc p.sc q.sc r.sc t.sc y.sc];
+@tall = [C D G H K N R S T W Y Z h k]; # not including glyphs with ogonek or apostrophe-type caron
+@short = [c m n r s v-x z b.sc d.sc f.sc g.sc h.sc kgreenlandic m.sc n.sc p.sc q.sc r.sc t.sc y.sc];
 @deep = [g p q y];
 
 feature mark {
 	pos base [A E] 
 		<anchor 300 800> mark @marks_above
 		<anchor 300 0> mark @marks_below
-		<anchor 400 0> mark @ogonek;
+		<anchor 400 0> mark @marks_belowright;
 	pos base [I i i.loclTRK] 
 		<anchor 200 800> mark @marks_above
 		<anchor 200 0> mark @marks_below
-		<anchor 200 0> mark @ogonek;
+		<anchor 200 0> mark @marks_belowright;
 	pos base J 
 		<anchor 400 800> mark @marks_above;
 	pos base L 
 		<anchor 100 800> mark @marks_above
 		<anchor 300 0> mark @marks_below
 		<anchor 250 500> mark @marks_aboveright;
+	pos base O
+		<anchor 300 800> mark @marks_above
+		<anchor 300 0> mark @marks_below
+		<anchor 550 500> mark @marks_aboveright;
 	pos base U
 		<anchor 300 800> mark @marks_above
 		<anchor 300 0> mark @marks_below
-		<anchor 300 0> mark @ogonek;
+		<anchor 300 0> mark @marks_belowright
+		<anchor 550 500> mark @marks_aboveright;
 	pos base @tall 
 		<anchor 300 800> mark @marks_above
 		<anchor 300 0> mark @marks_below;
@@ -99,7 +104,12 @@ feature mark {
 	pos base [a e u a.sc e.sc] 
 		<anchor 300 600> mark @marks_above
 		<anchor 300 0> mark @marks_below
-		<anchor 400 0> mark @ogonek;
+		<anchor 400 0> mark @marks_belowright
+		<anchor 550 300> mark @marks_aboveright;
+	pos base o
+		<anchor 300 600> mark @marks_above
+		<anchor 300 0> mark @marks_below
+		<anchor 550 300> mark @marks_aboveright;
 	pos base @short 
 		<anchor 300 600> mark @marks_above
 		<anchor 300 0> mark @marks_below;
@@ -108,13 +118,13 @@ feature mark {
 	pos base [dotlessi i.sc]
 		<anchor 200 600> mark @marks_above
 		<anchor 200 0> mark @marks_below
-		<anchor 200 0> mark @ogonek;
-	pos base uni0237 
-		<anchor 400 600> mark @marks_above;
+		<anchor 200 0> mark @marks_belowright;
+	pos base uni0237
+		<anchor 400 600> mark @marks_above; #dotlessj
 	pos base uni25CC 
 		<anchor 300 600> mark @marks_above
 		<anchor 300 0> mark @marks_below
-		<anchor 400 0> mark @ogonek
+		<anchor 400 0> mark @marks_belowright
 		<anchor 550 400> mark @marks_aboveright;
 	pos base j.sc
 		<anchor 400 600> mark @marks_above;
@@ -125,12 +135,13 @@ feature mark {
 	pos base u.sc
 		<anchor 300 600> mark @marks_above
 		<anchor 300 0> mark @marks_below
-		<anchor 300 0> mark @ogonek;
+		<anchor 300 0> mark @marks_belowright
+		<anchor 550 300> mark @marks_aboveright;
 } mark;
 
 table GDEF {
 	# Because gftools builder doesn't create this table automatically....
-	GlyphClassDef [A E I i i.loclTRK J L U @tall d l t a e u @short @deep dotlessi i.sc uni0237 uni25CC j.sc l.sc],[IJ ij ij.sc],[@marks_above @marks_aboveright @ogonek @marks_below],;
+	GlyphClassDef [A E I i i.loclTRK J L U @tall d l t a e u @short @deep dotlessi i.sc uni0237 uni25CC j.sc l.sc],[IJ ij ij.sc],[@marks_above @marks_aboveright @marks_belowright @marks_below],;
 	LigatureCaretByPos IJ 200;
 	LigatureCaretByPos ij 350;
 	LigatureCaretByPos ij.sc 200;
@@ -225,6 +236,14 @@ feature kern {
 	pos f abreve -100;
 	pos hyphen j -100;
 	pos f hyphen -100;
+	pos I tildecomb <100 0 200 0>;
+	pos dotlessi tildecomb <100 0 200 0>;
+	pos i.sc tildecomb <100 0 200 0>;
+	pos O uni031B <0 0 200 0>;
+	pos o uni031B <0 0 200 0>;
+	pos U uni031B <0 0 200 0>;
+	pos u uni031B <0 0 200 0>;
+	pos u.sc uni031B <0 0 200 0>;
 	# enum pos @i v -100;
 	pos @A @T -100;
 	pos @D @T -100;

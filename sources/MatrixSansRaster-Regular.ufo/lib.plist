@@ -328,6 +328,7 @@
       <string>uni030C</string>
       <string>uni0312</string>
       <string>uni0315</string>
+      <string>uni031B</string>
       <string>uni0326</string>
       <string>uni0327</string>
       <string>uni0328</string>
@@ -1375,6 +1376,8 @@
       <key>uni0312</key>
       <string>base</string>
       <key>uni0315</key>
+      <string>base</string>
+      <key>uni031B</key>
       <string>base</string>
       <key>uni0326</key>
       <string>base</string>
