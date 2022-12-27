@@ -1,11 +1,5 @@
 @echo off
 
-rem Generate intermediate UFO sources
-for %%f in (MatrixSans*-Regular.sfd) do (
-	sfd2ufo %%f %%~nf.ufo
-	copy features.fea %%~nf.ufo\features.fea
-)
-
 rem Build OpenType fonts
 python %USERPROFILE%\AppData\Local\Programs\Python\Python310\Scripts\gftools-builder.py config.yaml
 

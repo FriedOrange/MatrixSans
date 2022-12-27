@@ -49,7 +49,7 @@ font.round()
 font.simplify()
 font.round(0.1) # hack: the "dot" glyph is deliberately 1 unit too large so that simplify() produces nicer outlines; this reverses that
 font.fontname = font.fontname + "-Regular"
-font.save("MatrixSans-Regular.sfd")
+font.save("temp\\MatrixSans-Regular.sfd")
 
 #######################################
 # Screen style
@@ -64,7 +64,7 @@ add_names("Screen")
 # font.uwidth = int(SCREEN_DOT_FACTOR * DOT_SIZE)
 font.os2_strikeysize = int(SCREEN_DOT_FACTOR * DOT_SIZE)
 font.os2_strikeypos += int((DOT_SIZE - font.os2_strikeysize) / 2)
-font.save("MatrixSansScreen-Regular.sfd")
+font.save("temp\\MatrixSansScreen-Regular.sfd")
 
 #######################################
 # Print style
@@ -82,7 +82,7 @@ add_names("Print")
 # font.uwidth = int(PRINT_DOT_RADIUS * 10/6)
 font.os2_strikeysize = int(PRINT_DOT_RADIUS * 10/6)
 font.os2_strikeypos += int((DOT_SIZE - font.os2_strikeysize) / 2)
-font.save("MatrixSansPrint-Regular.sfd")
+font.save("temp\\MatrixSansPrint-Regular.sfd")
 
 #######################################
 # Video style
@@ -256,7 +256,7 @@ font.simplify()
 font.round(0.1)
 
 add_names("Video")
-font.save("MatrixSansVideo-Regular.sfd")
+font.save("temp\\MatrixSansVideo-Regular.sfd")
 
 #######################################
 # Raster style
@@ -320,7 +320,7 @@ add_names("Raster")
 # font.uwidth = 80
 font.os2_strikeysize = 80
 font.os2_strikeypos += int((DOT_SIZE - font.os2_strikeysize) / 2)
-font.save("MatrixSansRaster-Regular.sfd")
+font.save("temp\\MatrixSansRaster-Regular.sfd")
 
 
 # glyph.user_decomp
