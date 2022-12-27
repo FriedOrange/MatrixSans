@@ -80,21 +80,21 @@ To build the fonts on Windows:
 
 - Run `build.bat` in the `sources` folder. 
 
-To build the fonts on Linux or macOS:
+To build the fonts on Linux, macOS etc:
 
 - Run `make build` at the command line, in the `MatrixSans` folder.
 
 ### Modifying the fonts
 
-The master source file, `MatrixSans_MASTER.sfd`, is in FontForge's SFD format. It is recommended to edit this file if you wish to modify the fonts. Then, re-generate the intermediate UFO sources by running `step2.bat`.
+The master source file, `MatrixSans_MASTER.sfd`, is in FontForge's SFD format. It is recommended to edit this file if you wish to modify the fonts. Then, re-generate the intermediate UFO sources by running `step2.bat`. Note that the batch files (`.bat`) are designed to run in the Windows Command Prompt; they may need to be rewritten to work on Linux, macOS etc.
 
-To easily add or modify glyphs (requires [FontForge](https://fontforge.org/), and its Python module to be accessible to your Python interpreter):
+To easily add or modify glyphs (requires [FontForge](https://fontforge.org/) and its Python module to be accessible to your Python interpreter&#x2014;this may require you to manually copy `fontforge.pyd` from within FontForge's installation folder to your Python interpreter's `site-packages` folder):
 
 - Edit the image `glyphs.pbm`
 - Set the corresponding glyph names in `glyphs.csv`
 - Run `step1.bat` to generate a temporary font `temp.sfd` containing the new glyphs
 - Using FontForge, copy the new glyphs into the master source file, `MatrixSans_MASTER.sfd`
-- Run `step2.bat` and then `build.bat` to generate the intermediate UFO sources (and finished fonts) in the various styles
+- Run `step2.bat` and to generate the intermediate UFO sources in the various styles
 	- Custom behaviour is implemented for certain glyphs in the Video and Raster styles; edit `step2.py` to change this
 
 ## Changelog
