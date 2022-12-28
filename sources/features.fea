@@ -30,6 +30,10 @@ markClass [gravecomb acutecomb uni0302 tildecomb uni0304 uni0306 uni0307 uni0308
 markClass [uni0326 uni0327] <anchor 0 0> @marks_below;
 markClass [uni0328] <anchor 0 0> @marks_belowright;
 markClass [uni0315 uni031B] <anchor 0 500> @marks_aboveright;
+# markClass [gravecomb acutecomb uni0302 tildecomb uni0306 uni030A uni030B uni030C uni0312] <anchor 0 600> @tall_marks_above;
+# markClass [uni0304 uni0307 uni0308] <anchor 0 600> @short_marks_above;
+# markClass [gravecomb acutecomb uni0307 uni030A uni030C uni0312] <anchor 0 600> @narrow_marks_above;
+# markClass [uni0302 tildecomb uni0304 uni0306 uni0308 uni030B] <anchor 0 600> @wide_marks_above;
 
 feature ccmp {
 	sub [i j]' @marks_above by [dotlessi uni0237];
@@ -58,8 +62,15 @@ feature ccmp {
 	sub u uni0328 by uogonek;
 } ccmp;
 
+feature mkmk {
+	pos mark [gravecomb acutecomb uni0302 tildecomb uni0306 uni030A uni030B uni030C uni0312]
+		<anchor 0 900> mark @marks_above;
+	pos mark [uni0304 uni0307 uni0308]
+		<anchor 0 800> mark @marks_above;
+} mkmk;
+
 # classes for mark positioning
-@tall = [C D G H K N R S T W Y Z h k]; # not including glyphs with ogonek or apostrophe-type caron
+@tall = [C D G H K N R S T W Y Z d h k]; # not including glyphs with ogonek or apostrophe-type caron
 @short = [c m n r s v-x z b.sc d.sc f.sc g.sc h.sc kgreenlandic m.sc n.sc p.sc q.sc r.sc t.sc y.sc];
 @deep = [g p q y];
 
@@ -305,7 +316,7 @@ feature kern {
 	pos @C @strokeLM -100;
 	pos @gapRM @strokeLM -100;
 	# pos @gapRM @t -100;
-	pos [X Z Zacute Zcaron Zdotaccent] [Eth Dcroat f] -100;
+	pos [X Z Zacute Zcaron Zdotaccent] @strokeLM -100;
 	pos [dcaron dcroat] @curveTL -100;
 	pos [dcaron dcroat] @a -100;
 	pos @t hyphen -100;
