@@ -358,6 +358,8 @@
     <string>dollar.glif</string>
     <key>dotaccent</key>
     <string>dotaccent.glif</string>
+    <key>dotbelowcomb</key>
+    <string>dotbelowcomb.glif</string>
     <key>dotlessi</key>
     <string>dotlessi.glif</string>
     <key>e</key>
@@ -892,6 +894,8 @@
     <string>uni0327.glif</string>
     <key>uni0328</key>
     <string>uni0328.glif</string>
+    <key>uni0331</key>
+    <string>uni0331.glif</string>
     <key>uni0394</key>
     <string>uni0394.glif</string>
     <key>uni03A9</key>

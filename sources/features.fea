@@ -27,7 +27,7 @@ feature smcp {
 
 # mark classes
 markClass [gravecomb acutecomb uni0302 tildecomb uni0304 uni0306 uni0307 uni0308 uni030A uni030B uni030C uni0312] <anchor 0 600> @marks_above;
-markClass [uni0326 uni0327] <anchor 0 0> @marks_below;
+markClass [uni0326 uni0327 uni0323 uni0331] <anchor 0 0> @marks_below;
 markClass [uni0328] <anchor 0 0> @marks_belowright;
 markClass [uni0315 uni031B] <anchor 0 500> @marks_aboveright;
 # markClass [gravecomb acutecomb uni0302 tildecomb uni0306 uni030A uni030B uni030C uni0312] <anchor 0 600> @tall_marks_above;

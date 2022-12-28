@@ -329,9 +329,11 @@
       <string>uni0312</string>
       <string>uni0315</string>
       <string>uni031B</string>
+      <string>dotbelowcomb</string>
       <string>uni0326</string>
       <string>uni0327</string>
       <string>uni0328</string>
+      <string>uni0331</string>
       <string>uni0394</string>
       <string>uni03A9</string>
       <string>uni03BC</string>
@@ -850,6 +852,8 @@
       <key>dollar</key>
       <string>base</string>
       <key>dotaccent</key>
+      <string>base</string>
+      <key>dotbelowcomb</key>
       <string>base</string>
       <key>dotlessi</key>
       <string>base</string>
@@ -1384,6 +1388,8 @@
       <key>uni0327</key>
       <string>base</string>
       <key>uni0328</key>
+      <string>base</string>
+      <key>uni0331</key>
       <string>base</string>
       <key>uni0394</key>
       <string>base</string>
