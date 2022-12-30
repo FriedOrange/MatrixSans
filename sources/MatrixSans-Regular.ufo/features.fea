@@ -86,7 +86,7 @@ feature mark {
 	pos base J 
 		<anchor 400 800> mark @marks_above;
 	pos base L 
-		<anchor 100 800> mark @marks_above
+		<anchor 300 800> mark @marks_above
 		<anchor 300 0> mark @marks_below
 		<anchor 250 500> mark @marks_aboveright;
 	pos base O
