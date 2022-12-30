@@ -89,7 +89,7 @@
     <key>openTypeOS2WinAscent</key>
     <integer>1000</integer>
     <key>openTypeOS2WinDescent</key>
-    <integer>300</integer>
+    <integer>200</integer>
     <key>openTypeVheaVertTypoLineGap</key>
     <integer>90</integer>
     <key>postscriptFontName</key>
