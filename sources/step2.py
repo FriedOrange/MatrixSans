@@ -64,6 +64,10 @@ add_names("Screen")
 # font.uwidth = int(SCREEN_DOT_FACTOR * DOT_SIZE)
 font.os2_strikeysize = int(SCREEN_DOT_FACTOR * DOT_SIZE)
 font.os2_strikeypos += int((DOT_SIZE - font.os2_strikeysize) / 2)
+new_panose = list(font.os2_panose)
+new_panose[-2] = 4
+new_panose = tuple(new_panose)
+font.os2_panose = new_panose
 font.save("temp\\MatrixSansScreen-Regular.sfd")
 
 #######################################
@@ -82,6 +86,7 @@ add_names("Print")
 # font.uwidth = int(PRINT_DOT_RADIUS * 10/6)
 font.os2_strikeysize = int(PRINT_DOT_RADIUS * 10/6)
 font.os2_strikeypos += int((DOT_SIZE - font.os2_strikeysize) / 2)
+font.os2_panose = new_panose
 font.save("temp\\MatrixSansPrint-Regular.sfd")
 
 #######################################
@@ -320,6 +325,7 @@ add_names("Raster")
 # font.uwidth = 80
 font.os2_strikeysize = 80
 font.os2_strikeypos += int((DOT_SIZE - font.os2_strikeysize) / 2)
+font.os2_panose = new_panose
 font.save("temp\\MatrixSansRaster-Regular.sfd")
 
 
