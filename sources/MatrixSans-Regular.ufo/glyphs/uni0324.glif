@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni0324" format="2">
+  <unicode hex="0324"/>
+  <outline>
+    <component base="dieresis" xOffset="-200.0" yOffset="-800.0"/>
+  </outline>
+</glyph>
