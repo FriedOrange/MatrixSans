@@ -772,7 +772,6 @@
       <string>question.sc</string>
       <string>exclamdown.sc</string>
       <string>questiondown.sc</string>
-      <string>U.short</string>
       <string>uni0302_acutecomb</string>
       <string>uni0302_gravecomb</string>
       <string>uni0302_hookabovecomb</string>
@@ -976,8 +975,6 @@
       <key>Thorn</key>
       <string>base</string>
       <key>U</key>
-      <string>base</string>
-      <key>U.short</key>
       <string>base</string>
       <key>Uacute</key>
       <string>base</string>
