@@ -9,7 +9,7 @@ degree,,twosuperior,threesuperior,acute,mu,paragraph,,cedilla,onesuperior,ordmas
 circumflex,tilde,ring,AE,Eth,Oslash,Thorn,germandbls,ae,dotlessi,eth,minus,oslash,thorn,uni2074,Lslash
 lslash,OE,oe,caron,florin,breve,dotaccent,ogonek,pi,emdash,quoteleft,dagger,daggerdbl,bullet,guilsinglleft,guilsinglright
 ellipsis,Euro,uni2113,trademark,Omega,partialdiff,Delta,product,summation,radical,infinity,integral,notequal,lozenge,fi,fl
-uni25CC,dcroat,Hbar,hbar,IJ,ij,Eng,eng,dotlessj,uni1E9E,uni20BA,uni20BD,Eng.loclNSM,,,
+uni25CC,dcroat,Hbar,hbar,IJ,ij,Eng,eng,dotlessj,uni1E9E,uni20BA,uni20BD,Eng.loclNSM,estimated,,
 a.sc,b.sc,c.sc,d.sc,e.sc,f.sc,g.sc,h.sc,i.sc,j.sc,k.sc,l.sc,m.sc,n.sc,o.sc,p.sc
 r.sc,s.sc,t.sc,u.sc,v.sc,w.sc,x.sc,y.sc,z.sc,ae.sc,eth.sc,oslash.sc,thorn.sc,germandbls.sc,lslash.sc,oe.sc
 florin.sc,hbar.sc,ij.sc,q.sc,eng.sc.loclNSM,zero.sc,one.sc,two.sc,three.sc,four.sc,five.sc,six.sc,seven.sc,eight.sc,nine.sc,slash.sc
