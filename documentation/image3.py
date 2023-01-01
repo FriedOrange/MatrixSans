@@ -148,7 +148,7 @@ if __name__ == "__main__":
 	FONT_PATH = "fonts/otf/MatrixSans-Regular.otf"
 	make_image(["MATRIX SANS REGULAR","The quick brown fox","jumps over the lazy dog.","§27 ¶14; { 35°29′10″ }"], [0, 0, 0], [1, 1, 1])
 	FONT_PATH = "fonts/otf/MatrixSansPrint-Regular.otf"
-	make_image(["MATRIX SANS PRINT","Quick & wafting zephyrs","#vex bold @Jim :-)","$18.99 €38,76 £1.50 75%"], [48/255, 48/255, 48/255], [1, 1, 1])
+	make_image(["MATRIX SANS PRINT","Quick & wafting zephyrs","#vex “bold” @Jim :-)","$18.99 €38,76 £1.50 75%"], [48/255, 48/255, 48/255], [1, 1, 1])
 	FONT_PATH = "fonts/otf/MatrixSansRaster-Regular.otf"
 	make_image(["MATRIX SANS RASTER","Pack my box with five","dozen liquor jugs*","150 IF X>32 THEN N=0"], [0, 1, 0.5], [0, 0, 0])
 	FONT_PATH = "fonts/otf/MatrixSansScreen-Regular.otf"
