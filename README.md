@@ -88,7 +88,7 @@ To build the fonts on Linux, macOS etc:
 
 The master source file, `MatrixSans_MASTER.sfd`, is in FontForge's SFD format. It is recommended to edit this file if you wish to modify the fonts. Then, re-generate the intermediate UFO sources by running `step2.bat`. Note that the batch files (`.bat`) are designed to run in the Windows Command Prompt; they may need to be rewritten to work on Linux, macOS etc.
 
-To easily add or modify glyphs (requires [FontForge](https://fontforge.org/) and its Python module to be accessible to your Python interpreter&#x2014;this may require you to manually copy `fontforge.pyd` from within FontForge's installation folder to your Python interpreter's `site-packages` folder):
+To easily add or modify glyphs (requires [FontForge](https://fontforge.org/):
 
 - Edit the image `glyphs.pbm`
 - Set the corresponding glyph names in `glyphs.csv`
