@@ -1,6 +1,7 @@
 @echo off
 
 rem Build OpenType fonts
+@cd sources
 python %USERPROFILE%\AppData\Local\Programs\Python\Python310\Scripts\gftools-builder.py config.yaml
 
 rem Patch in META table to fonts
@@ -15,4 +16,4 @@ rem Generate proof HTML documents
 set PYTHONUTF8=1
 python %USERPROFILE%\AppData\Local\Programs\Python\Python310\Scripts\gftools-gen-html.py proof -o ..\..\out\proof MatrixSansPrint-Regular.ttf MatrixSans-Regular.ttf MatrixSansScreen-Regular.ttf MatrixSansVideo-Regular.ttf MatrixSansRaster-Regular.ttf
 
-@cd ..\..\sources
+@cd ..\..
