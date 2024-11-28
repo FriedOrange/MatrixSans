@@ -26,11 +26,11 @@ In utilitarian applications, 5&times;7 dot matrix fonts may still be found all a
 
 So-called "pixel" fonts are also a popular stylistic choice, often seen in contexts that have nothing to do with electronics or games, even in the absence of technical limitations. With all of that in mind, I felt that the typographical world could be enriched through the creation of high-quality, open-source fonts in this style.
 
-### Research
+## [Research](documentation/research.md)
 
 Much of my interest in the topic was piqued by Damien Guard’s article, [*Typography in 8 bits: system fonts*](https://damieng.com/blog/2011/02/20/typography-in-8-bits-system-fonts). In preparation for this project, I decided to conduct an even more comprehensive study of classic dot-matrix fonts, with a focus on those using the iconic 5&times;7 dot matrix capitals.
 
-See [documentation/research.md](documentation/research.md) for detailed documentation of this study and the decision-making process for the design of this font.
+Almost 40 existing 5&times;7 font designs were studied. See [documentation/research.md](documentation/research.md) for detailed documentation of this study and the decision-making process for the design of this font.
 
 ## Design philosophy
 
