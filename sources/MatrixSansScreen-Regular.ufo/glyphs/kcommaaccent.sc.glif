@@ -3,6 +3,6 @@
   <advance width="600"/>
   <outline>
     <component base="kgreenlandic"/>
-    <component base="uni0326" xOffset="300.0"/>
+    <component base="commaaccentcomb" xOffset="300.0"/>
   </outline>
 </glyph>

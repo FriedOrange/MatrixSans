@@ -3,6 +3,6 @@
   <advance width="600"/>
   <unicode hex="0394"/>
   <outline>
-    <component base="Delta"/>
+    <component base="increment"/>
   </outline>
 </glyph>

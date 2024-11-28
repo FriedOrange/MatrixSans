@@ -22,10 +22,10 @@ PRINT_DOT_RADIUS = 48.0
 font = fontforge.open(sys.argv[1])
 
 unlink_list = ["Aring", "Ccedilla", "aring", "ccedilla", "aogonek", "dcaron", 
-	"Eogonek", "eogonek", "uni0122", "Iogonek", "iogonek", "uni013B", "uni013C",
-	"lcaron", "Scedilla", "scedilla", "uni0162", "uni0163", "Uogonek", "uni0218",
-	"uni0219", "uni021A", "uni021B", "aring.sc", "eogonek.sc", "gcommaaccent.sc",
-	"iogonek.sc", "lcommaaccent.sc", "tcedilla.sc", "uni021B.sc", "uogonek.sc"]
+	"Eogonek", "eogonek", "Gcommaaccent", "Iogonek", "iogonek", "Lcommaaccent", "lcommaaccent",
+	"lcaron", "Scedilla", "scedilla", "uni0162", "uni0163", "Uogonek", "Scommaaccent",
+	"scommaaccent", "Tcommaaccent", "tcommaaccent", "aring.sc", "eogonek.sc", "gcommaaccent.sc",
+	"iogonek.sc", "lcommaaccent.sc", "tcedilla.sc", "tcommaaccent.sc", "uogonek.sc"]
 
 def add_names(style):
 	font.fontname = font.fontname + style + "-Regular"
@@ -226,7 +226,7 @@ font["Aogonek"].addReference("halfdot", (1, 0, 0, 1, 400, 0))
 font["Aogonek"].addReference("halfdot", (1, 0, 0, 1, 450, -50))
 font["uogonek"].addReference("halfdot", (1, 0, 0, 1, 400, 0))
 font["uogonek"].addReference("halfdot", (1, 0, 0, 1, 450, -50))
-font["uni2113"].addReference("halfdot", (1, 0, 0, 1, 250, 250))
+font["literSign"].addReference("halfdot", (1, 0, 0, 1, 250, 250))
 font["paragraph"].addReference("halfdot", (1, 0, 0, 1, 100, 350))
 font["paragraph"].addReference("halfdot", (1, 0, 0, 1, 100, 600))
 font["one"].addReference("halfdot", (1, 0, 0, 1, 100, 600))

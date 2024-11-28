@@ -3,6 +3,6 @@
   <advance width="600"/>
   <unicode hex="03A9"/>
   <outline>
-    <component base="Omega"/>
+    <component base="Ohm"/>
   </outline>
 </glyph>

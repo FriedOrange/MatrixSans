@@ -185,7 +185,7 @@
       <point x="74.0" y="402.0"/>
       <point x="52.0" y="424.0"/>
     </contour>
-    <component base="uni0304" xOffset="300.0" yOffset="300.0"/>
-    <component base="uni0308" xOffset="300.0" yOffset="100.0"/>
+    <component base="macroncomb" xOffset="300.0" yOffset="300.0"/>
+    <component base="dieresiscomb" xOffset="300.0" yOffset="100.0"/>
   </outline>
 </glyph>

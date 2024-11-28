@@ -12,10 +12,10 @@ languagesystem latn NSM;
 languagesystem latn NLD;
 
 # classes for small caps substitution
-@uc = [A-Z Aacute Abreve uni01CD Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde AE Cacute Ccaron Ccedilla Cdotaccent Dcaron Dcroat Eacute Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eogonek Eng Eng.loclNSM Eth Gbreve uni0122 Gdotaccent Hbar Iacute Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek uni0136 Lacute Lcaron uni013B Lslash Nacute Ncaron uni0145 Ntilde Oacute Ocircumflex Odieresis Ohungarumlaut Ograve Omacron Oslash Otilde Racute Rcaron uni0156 Sacute Scaron Scedilla uni0218 uni1E9E Tcaron uni0162 uni021A Thorn Uacute Ubreve Ucircumflex Udieresis Uhungarumlaut Ugrave Umacron Uogonek Uring Wacute Wcircumflex Wdieresis Wgrave Yacute Ycircumflex Ydieresis Ygrave Zacute Zcaron Zdotaccent IJ OE zero zero.zero one two three four five six seven eight nine ampersand exclam question exclamdown questiondown];
-@c2sc = [a.sc b.sc c d.sc e.sc f.sc g.sc h.sc i.sc j.sc kgreenlandic l.sc m.sc n.sc o p.sc q.sc r.sc s t.sc u.sc v w x y.sc z aacute.sc abreve.sc acaron.sc acircumflex.sc adieresis.sc agrave.sc amacron.sc aogonek.sc aring.sc atilde.sc ae.sc cacute ccaron ccedilla cdotaccent dcaron.sc eth.sc eacute.sc ecaron.sc ecircumflex.sc edieresis.sc edotaccent.sc egrave.sc emacron.sc eogonek.sc eng eng.sc.loclNSM eth.sc gbreve.sc gcommaaccent.sc gdotaccent.sc hbar.sc iacute.sc icircumflex.sc idieresis.sc idotaccent.sc igrave.sc imacron.sc iogonek.sc kcommaaccent.sc lacute.sc lcaron.sc lcommaaccent.sc lslash.sc nacute.sc ncaron.sc ncommaaccent.sc ntilde.sc oacute ocircumflex odieresis ohungarumlaut ograve omacron oslash otilde racute.sc rcaron.sc rcommaaccent.sc sacute scaron scedilla uni0219 germandbls.sc tcaron.sc tcedilla.sc uni021B.sc thorn.sc uacute.sc ubreve.sc ucircumflex.sc udieresis.sc uhungarumlaut.sc ugrave.sc umacron.sc uogonek.sc uring.sc wacute wcircumflex wdieresis wgrave yacute.sc ycircumflex.sc ydieresis.sc ygrave.sc zacute zcaron zdotaccent ij.sc oe.sc zero.sc o one.sc two.sc three.sc four.sc five.sc six.sc seven.sc eight.sc nine.sc ampersand.sc exclam.sc question.sc exclamdown.sc questiondown.sc];
-@lc = [a b d e f g h i j k l m n p q r t u y aacute abreve uni01CE acircumflex adieresis agrave amacron aogonek aring atilde ae dcaron dcroat dotlessi uni0237 eacute ecaron ecircumflex edieresis edotaccent egrave emacron eogonek eth florin gbreve uni0123 gdotaccent hbar iacute icircumflex idieresis igrave imacron iogonek uni0137 lacute lcaron uni013C lslash nacute ncaron uni0146 ntilde racute rcaron uni0157 germandbls tcaron uni0163 uni021B thorn uacute ubreve ucircumflex udieresis uhungarumlaut ugrave umacron uogonek uring yacute ycircumflex ydieresis ygrave ij oe i.loclTRK];
-@smcp = [a.sc b.sc d.sc e.sc f.sc g.sc h.sc i.sc j.sc kgreenlandic l.sc m.sc n.sc p.sc q.sc r.sc t.sc u.sc y.sc aacute.sc abreve.sc acaron.sc acircumflex.sc adieresis.sc agrave.sc amacron.sc aogonek.sc aring.sc atilde.sc ae.sc dcaron.sc eth.sc i.sc j.sc eacute.sc ecaron.sc ecircumflex.sc edieresis.sc edotaccent.sc egrave.sc emacron.sc eogonek.sc eth.sc florin.sc gbreve.sc gcommaaccent.sc gdotaccent.sc hbar.sc iacute.sc icircumflex.sc idieresis.sc igrave.sc imacron.sc iogonek.sc kcommaaccent.sc lacute.sc lcaron.sc lcommaaccent.sc lslash.sc nacute.sc ncaron.sc ncommaaccent.sc ntilde.sc racute.sc rcaron.sc rcommaaccent.sc germandbls.sc tcaron.sc tcedilla.sc uni021B.sc thorn.sc uacute.sc ubreve.sc ucircumflex.sc udieresis.sc uhungarumlaut.sc ugrave.sc umacron.sc uogonek.sc uring.sc yacute.sc ycircumflex.sc ydieresis.sc ygrave.sc ij.sc oe.sc idotaccent.sc];
+@uc = [A-Z Aacute Abreve uni01CD Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde AE Cacute Ccaron Ccedilla Cdotaccent Dcaron Dcroat Eacute Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eogonek Eng Eng.loclNSM Eth Gbreve Gcommaaccent Gdotaccent Hbar Iacute Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek Kcommaaccent Lacute Lcaron Lcommaaccent Lslash Nacute Ncaron Ncommaaccent Ntilde Oacute Ocircumflex Odieresis Ohungarumlaut Ograve Omacron Oslash Otilde Racute Rcaron Rcommaaccent Sacute Scaron Scedilla Scommaaccent Germandbls Tcaron uni0162 Tcommaaccent Thorn Uacute Ubreve Ucircumflex Udieresis Uhungarumlaut Ugrave Umacron Uogonek Uring Wacute Wcircumflex Wdieresis Wgrave Yacute Ycircumflex Ydieresis Ygrave Zacute Zcaron Zdotaccent IJ OE zero zero.zero one two three four five six seven eight nine ampersand exclam question exclamdown questiondown];
+@c2sc = [a.sc b.sc c d.sc e.sc f.sc g.sc h.sc i.sc j.sc kgreenlandic l.sc m.sc n.sc o p.sc q.sc r.sc s t.sc u.sc v w x y.sc z aacute.sc abreve.sc acaron.sc acircumflex.sc adieresis.sc agrave.sc amacron.sc aogonek.sc aring.sc atilde.sc ae.sc cacute ccaron ccedilla cdotaccent dcaron.sc eth.sc eacute.sc ecaron.sc ecircumflex.sc edieresis.sc edotaccent.sc egrave.sc emacron.sc eogonek.sc eng eng.sc.loclNSM eth.sc gbreve.sc gcommaaccent.sc gdotaccent.sc hbar.sc iacute.sc icircumflex.sc idieresis.sc idotaccent.sc igrave.sc imacron.sc iogonek.sc kcommaaccent.sc lacute.sc lcaron.sc lcommaaccent.sc lslash.sc nacute.sc ncaron.sc ncommaaccent.sc ntilde.sc oacute ocircumflex odieresis ohungarumlaut ograve omacron oslash otilde racute.sc rcaron.sc rcommaaccent.sc sacute scaron scedilla scommaaccent germandbls.sc tcaron.sc tcedilla.sc tcommaaccent.sc thorn.sc uacute.sc ubreve.sc ucircumflex.sc udieresis.sc uhungarumlaut.sc ugrave.sc umacron.sc uogonek.sc uring.sc wacute wcircumflex wdieresis wgrave yacute.sc ycircumflex.sc ydieresis.sc ygrave.sc zacute zcaron zdotaccent ij.sc oe.sc zero.sc o one.sc two.sc three.sc four.sc five.sc six.sc seven.sc eight.sc nine.sc ampersand.sc exclam.sc question.sc exclamdown.sc questiondown.sc];
+@lc = [a b d e f g h i j k l m n p q r t u y aacute abreve uni01CE acircumflex adieresis agrave amacron aogonek aring atilde ae dcaron dcroat dotlessi jdotless eacute ecaron ecircumflex edieresis edotaccent egrave emacron eogonek eth florin gbreve gcommaaccent gdotaccent hbar iacute icircumflex idieresis igrave imacron iogonek kcommaaccent lacute lcaron lcommaaccent lslash nacute ncaron ncommaaccent ntilde racute rcaron rcommaaccent germandbls tcaron uni0163 tcommaaccent thorn uacute ubreve ucircumflex udieresis uhungarumlaut ugrave umacron uogonek uring yacute ycircumflex ydieresis ygrave ij oe i.loclTRK];
+@smcp = [a.sc b.sc d.sc e.sc f.sc g.sc h.sc i.sc j.sc kgreenlandic l.sc m.sc n.sc p.sc q.sc r.sc t.sc u.sc y.sc aacute.sc abreve.sc acaron.sc acircumflex.sc adieresis.sc agrave.sc amacron.sc aogonek.sc aring.sc atilde.sc ae.sc dcaron.sc eth.sc i.sc j.sc eacute.sc ecaron.sc ecircumflex.sc edieresis.sc edotaccent.sc egrave.sc emacron.sc eogonek.sc eth.sc florin.sc gbreve.sc gcommaaccent.sc gdotaccent.sc hbar.sc iacute.sc icircumflex.sc idieresis.sc igrave.sc imacron.sc iogonek.sc kcommaaccent.sc lacute.sc lcaron.sc lcommaaccent.sc lslash.sc nacute.sc ncaron.sc ncommaaccent.sc ntilde.sc racute.sc rcaron.sc rcommaaccent.sc germandbls.sc tcaron.sc tcedilla.sc tcommaaccent.sc thorn.sc uacute.sc ubreve.sc ucircumflex.sc udieresis.sc uhungarumlaut.sc ugrave.sc umacron.sc uogonek.sc uring.sc yacute.sc ycircumflex.sc ydieresis.sc ygrave.sc ij.sc oe.sc idotaccent.sc];
 
 feature c2sc {
 	sub @uc by @c2sc;
@@ -26,51 +26,51 @@ feature smcp {
 } smcp;
 
 # mark classes
-markClass [gravecomb acutecomb uni0302 tildecomb uni0304 uni0306 uni0307 uni0308 uni030A uni030B uni030C uni0312] <anchor 0 600> @marks_above;
-markClass [uni0326 uni0327 dotbelowcomb uni0331] <anchor 0 0> @marks_below;
-markClass [uni0328] <anchor 0 0> @marks_belowright;
-markClass [uni0315 uni031B] <anchor 0 500> @marks_aboveright;
-# markClass [gravecomb acutecomb uni0302 tildecomb uni0306 uni030A uni030B uni030C uni0312] <anchor 0 600> @tall_marks_above;
-# markClass [uni0304 uni0307 uni0308] <anchor 0 600> @short_marks_above;
-# markClass [gravecomb acutecomb uni0307 uni030A uni030C uni0312] <anchor 0 600> @narrow_marks_above;
-# markClass [uni0302 tildecomb uni0304 uni0306 uni0308 uni030B] <anchor 0 600> @wide_marks_above;
+markClass [gravecomb acutecomb circumflexcomb tildecomb macroncomb brevecomb dotaccentcomb dieresiscomb ringcomb hungarumlautcomb caroncomb commaturnedabovecomb] <anchor 0 600> @marks_above;
+markClass [commaaccentcomb cedillacomb dotbelowcomb uni0331] <anchor 0 0> @marks_below;
+markClass [ogonekcomb] <anchor 0 0> @marks_belowright;
+markClass [uni0315 horncomb] <anchor 0 500> @marks_aboveright;
+# markClass [gravecomb acutecomb circumflexcomb tildecomb brevecomb ringcomb hungarumlautcomb caroncomb commaturnedabovecomb] <anchor 0 600> @tall_marks_above;
+# markClass [macroncomb dotaccentcomb dieresiscomb] <anchor 0 600> @short_marks_above;
+# markClass [gravecomb acutecomb dotaccentcomb ringcomb caroncomb commaturnedabovecomb] <anchor 0 600> @narrow_marks_above;
+# markClass [circumflexcomb tildecomb macroncomb brevecomb dieresiscomb hungarumlautcomb] <anchor 0 600> @wide_marks_above;
 
 feature ccmp {
-	sub [i j]' @marks_above by [dotlessi uni0237];
-	sub L uni030C' by uni0315;
-	sub d uni030C' by uni0315;
-	sub l uni030C' by uni0315;
-	sub t uni030C' by uni0315;
-	sub G uni0327' by uni0326;
-	sub g uni0327' by uni0312;
-	sub K uni0327' by uni0326;
-	sub k uni0327' by uni0326;
-	sub L uni0327' by uni0326;
-	sub l uni0327' by uni0326;
-	sub N uni0327' by uni0326;
-	sub n uni0327' by uni0326;
-	sub R uni0327' by uni0326;
-	sub r uni0327' by uni0326;
-	sub l.sc uni030C' by uni0315;
-	sub g.sc uni0327' by uni0326;
-	sub kgreenlandic uni0327' by uni0326;
-	sub l.sc uni0327' by uni0326;
-	sub n.sc uni0327' by uni0326;
-	sub r.sc uni0327' by uni0326;
+	sub [i j]' @marks_above by [dotlessi jdotless];
+	sub L caroncomb' by uni0315;
+	sub d caroncomb' by uni0315;
+	sub l caroncomb' by uni0315;
+	sub t caroncomb' by uni0315;
+	sub G cedillacomb' by commaaccentcomb;
+	sub g cedillacomb' by commaturnedabovecomb;
+	sub K cedillacomb' by commaaccentcomb;
+	sub k cedillacomb' by commaaccentcomb;
+	sub L cedillacomb' by commaaccentcomb;
+	sub l cedillacomb' by commaaccentcomb;
+	sub N cedillacomb' by commaaccentcomb;
+	sub n cedillacomb' by commaaccentcomb;
+	sub R cedillacomb' by commaaccentcomb;
+	sub r cedillacomb' by commaaccentcomb;
+	sub l.sc caroncomb' by uni0315;
+	sub g.sc cedillacomb' by commaaccentcomb;
+	sub kgreenlandic cedillacomb' by commaaccentcomb;
+	sub l.sc cedillacomb' by commaaccentcomb;
+	sub n.sc cedillacomb' by commaaccentcomb;
+	sub r.sc cedillacomb' by commaaccentcomb;
 	# for Video style:
-	sub A uni0328 by Aogonek;
-	sub u uni0328 by uogonek;
+	sub A ogonekcomb by Aogonek;
+	sub u ogonekcomb by uogonek;
 } ccmp;
 
 feature mkmk {
-	pos mark [gravecomb acutecomb uni0302 tildecomb uni0306 uni030A uni030B uni030C uni0312]
+	pos mark [gravecomb acutecomb circumflexcomb tildecomb brevecomb ringcomb hungarumlautcomb caroncomb commaturnedabovecomb]
 		<anchor 0 900> mark @marks_above;
-	pos mark [uni0304 uni0307 uni0308]
+	pos mark [macroncomb dotaccentcomb dieresiscomb]
 		<anchor 0 800> mark @marks_above;
 } mkmk;
 
 # classes for mark positioning
-@tall = [C D G H K M N R S T W Y Z d h k]; # not including glyphs with ogonek or apostrophe-type caron
+@tall = [C D G H K M N R S T W Y Z h k]; # not including glyphs with ogonek or apostrophe-type caron
 @short = [c m n r s v-x z b.sc d.sc f.sc g.sc h.sc kgreenlandic m.sc n.sc p.sc q.sc r.sc t.sc y.sc];
 @deep = [g p q y];
 
@@ -130,7 +130,7 @@ feature mark {
 		<anchor 200 600> mark @marks_above
 		<anchor 200 0> mark @marks_below
 		<anchor 200 0> mark @marks_belowright;
-	pos base uni0237
+	pos base jdotless
 		<anchor 400 600> mark @marks_above; #dotlessj
 	pos base uni25CC 
 		<anchor 300 600> mark @marks_above
@@ -152,7 +152,7 @@ feature mark {
 
 table GDEF {
 	# Because gftools builder doesn't create this table automatically....
-	GlyphClassDef [A E I i i.loclTRK J L U @tall d l t a e u @short @deep dotlessi i.sc uni0237 uni25CC j.sc l.sc],[IJ ij ij.sc],[@marks_above @marks_aboveright @marks_belowright @marks_below],;
+	GlyphClassDef [A E I i i.loclTRK J L U @tall d l t a e u @short @deep dotlessi i.sc jdotless uni25CC j.sc l.sc],[IJ ij ij.sc],[@marks_above @marks_aboveright @marks_belowright @marks_below],;
 	LigatureCaretByPos IJ 200;
 	LigatureCaretByPos ij 350;
 	LigatureCaretByPos ij.sc 200;
@@ -176,15 +176,15 @@ feature locl {
 	language CRT;
 		sub i by i.loclTRK;
 	language MOL;
-		sub Scedilla by uni0218;
-		sub scedilla by uni0219;
-		sub uni0162 by uni021A;
-		sub uni0163 by uni021B;
+		sub Scedilla by Scommaaccent;
+		sub scedilla by scommaaccent;
+		sub uni0162 by Tcommaaccent;
+		sub uni0163 by tcommaaccent;
 	language ROM;
-		sub Scedilla by uni0218;
-		sub scedilla by uni0219;
-		sub uni0162 by uni021A;
-		sub uni0163 by uni021B;
+		sub Scedilla by Scommaaccent;
+		sub scedilla by scommaaccent;
+		sub uni0162 by Tcommaaccent;
+		sub uni0163 by tcommaaccent;
 	language NSM;
 		sub Eng by Eng.loclNSM;
 	language NLD;
@@ -202,28 +202,28 @@ feature locl {
 @A = [A Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde uni01CD];
 @C = [C Cacute Ccaron Ccedilla Cdotaccent];
 @D = [D Eth Dcaron Dcroat];
-@L = [L Lacute uni013B Lslash];
-@curveBR = [B O Oacute Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde S Sacute Scaron Scedilla uni0218 U Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring W b c ccedilla cacute ccaron cdotaccent e eacute ecaron ecircumflex edieresis edotaccent egrave emacron eth o oacute ograve ocircumflex odieresis omacron otilde p s sacute scaron scedilla uni0219 germandbls thorn w wcircumflex]; # curve at bottom right
-@gapRM = [E Eacute Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eogonek K uni0136]; # gap at right middle
+@L = [L Lacute Lcommaaccent Lslash];
+@curveBR = [B O Oacute Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde S Sacute Scaron Scedilla Scommaaccent U Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring W b c ccedilla cacute ccaron cdotaccent e eacute ecaron ecircumflex edieresis edotaccent egrave emacron eth o oacute ograve ocircumflex odieresis omacron otilde p s sacute scaron scedilla scommaaccent germandbls thorn w wcircumflex]; # curve at bottom right
+@gapRM = [E Eacute Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eogonek K Kcommaaccent]; # gap at right middle
 # I Iacute Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek removed from @gapRM
 @r = [r racute rcaron];
-@sc_overhangR = [f.sc j.sc t.sc y.sc tcaron.sc tcedilla.sc uni021B.sc yacute.sc ycircumflex.sc ydieresis.sc ygrave.sc];
+@sc_overhangR = [f.sc j.sc t.sc y.sc tcaron.sc tcedilla.sc tcommaaccent.sc yacute.sc ycircumflex.sc ydieresis.sc ygrave.sc];
 @sc_underhangR = [a.sc agrave.sc aacute.sc acircumflex.sc adieresis.sc aring.sc amacron.sc aogonek.sc acaron.sc l.sc lacute.sc lcaron.sc lcommaaccent.sc lslash.sc];
 
 # Right side classes
 @A2 = [A Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde uni01CD AE];
 @strokeLM = [Eth Dcroat f uniFB01 uniFB02]; # stroke at left middle
-@squareTL = [dotlessi m n uni0146 eng p r uni0157 u uogonek v w x y z ugrave uacute ucircumflex udieresis yacute nacute ncaron racute rcaron umacron uring wcircumflex ycircumflex ydieresis zacute zdotaccent zcaron wgrave wacute wdieresis ygrave b.sc d.sc e.sc f.sc h.sc i.sc kgreenlandic l.sc m.sc n.sc p.sc r.sc u.sc hbar.sc thorn.sc dcaron.sc eacute.sc ecaron.sc ecircumflex.sc edieresis.sc edotaccent.sc egrave.sc emacron.sc eogonek.sc iacute.sc iogonek.sc kcommaaccent.sc lcaron.sc nacute.sc ncaron.sc ncommaaccent.sc racute.sc rcaron.sc rcommaaccent.sc uacute.sc ucircumflex.sc udieresis.sc ugrave.sc umacron.sc uogonek.sc uring.sc ij.sc];
-@curveTL = [c ccedilla d dcaron e eogonek g o oslash oe q s scedilla uni0219 g.sc q.sc germandbls.sc oe.sc cacute ccaron cdotaccent eacute ecaron ecircumflex edieresis edotaccent egrave emacron dcroat eth gdotaccent uni0123 oacute ograve ocircumflex odieresis omacron sacute scaron gcommaaccent.sc gdotaccent.sc]; # curve at top left, narrow diacritics
+@squareTL = [dotlessi m n ncommaaccent eng p r rcommaaccent u uogonek v w x y z ugrave uacute ucircumflex udieresis yacute nacute ncaron racute rcaron umacron uring wcircumflex ycircumflex ydieresis zacute zdotaccent zcaron wgrave wacute wdieresis ygrave b.sc d.sc e.sc f.sc h.sc i.sc kgreenlandic l.sc m.sc n.sc p.sc r.sc u.sc hbar.sc thorn.sc dcaron.sc eacute.sc ecaron.sc ecircumflex.sc edieresis.sc edotaccent.sc egrave.sc emacron.sc eogonek.sc iacute.sc iogonek.sc kcommaaccent.sc lcaron.sc nacute.sc ncaron.sc ncommaaccent.sc racute.sc rcaron.sc rcommaaccent.sc uacute.sc ucircumflex.sc udieresis.sc ugrave.sc umacron.sc uogonek.sc uring.sc ij.sc];
+@curveTL = [c ccedilla d dcaron e eogonek g o oslash oe q s scedilla scommaaccent g.sc q.sc germandbls.sc oe.sc cacute ccaron cdotaccent eacute ecaron ecircumflex edieresis edotaccent egrave emacron dcroat eth gdotaccent gcommaaccent oacute ograve ocircumflex odieresis omacron sacute scaron gcommaaccent.sc gdotaccent.sc]; # curve at top left, narrow diacritics
 @a = [a aogonek ae aacute acircumflex adieresis agrave amacron aring uni01CE]; # previously in @short_curveTL
-@l = [l  uni013C lcaron];
+@l = [l  lcommaaccent lcaron];
 @sc_underhangL = [a.sc ae.sc j.sc eth.sc lslash.sc agrave.sc aacute.sc acircumflex.sc adieresis.sc aring.sc amacron.sc aogonek.sc acaron.sc];
-@sc_overhangL = [t.sc tcaron.sc tcedilla.sc uni021B.sc y.sc yacute.sc ycircumflex.sc ydieresis.sc ygrave.sc];
+@sc_overhangL = [t.sc tcaron.sc tcedilla.sc tcommaaccent.sc y.sc yacute.sc ycircumflex.sc ydieresis.sc ygrave.sc];
 
 # Left and right side classes
-@T = [T Tcaron uni0162 uni021A];
+@T = [T Tcaron uni0162 Tcommaaccent];
 @Y = [Y Yacute Ycircumflex Ydieresis Ygrave];
-@t = [ t tcaron uni0163 uni021B];
+@t = [ t tcaron uni0163 tcommaaccent];
 @i = [i iacute ij iogonek i.loclTRK];
 
 feature kern {
@@ -250,11 +250,11 @@ feature kern {
 	pos I tildecomb <100 0 200 0>;
 	pos dotlessi tildecomb <100 0 200 0>;
 	pos i.sc tildecomb <100 0 200 0>;
-	pos O uni031B <0 0 200 0>;
-	pos o uni031B <0 0 200 0>;
-	pos U uni031B <0 0 200 0>;
-	pos u uni031B <0 0 200 0>;
-	pos u.sc uni031B <0 0 200 0>;
+	pos O horncomb <0 0 200 0>;
+	pos o horncomb <0 0 200 0>;
+	pos U horncomb <0 0 200 0>;
+	pos u horncomb <0 0 200 0>;
+	pos u.sc horncomb <0 0 200 0>;
 	# enum pos @i v -100;
 	pos @A @T -100;
 	pos @D @T -100;
