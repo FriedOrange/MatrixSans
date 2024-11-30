@@ -1671,7 +1671,7 @@
 </table>
 
 <footer>
-<p>Text is copyright &copy; 2022, Brad Neil. All images on this page are made available under the <a href="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero license</a>.
+<p>Text is copyright &copy; 2022-2024, Brad Neil. All images on this page are made available under the <a href="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero license</a>.
 </footer>
 
 </body>
