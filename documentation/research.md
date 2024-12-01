@@ -17,6 +17,17 @@
 
 <p>I have arranged my comments on the fonts in PMI format: <b>Plus</b> (pros), <b>Minus</b> (cons) and <b>Interesting</b>. The earlier examples tend to attract more comments not necessarily because they are more idiosyncratic, but because each particular quirk is mentioned here only once. Much more could be written about each font if they were critiqued individually.</p>
 
+<h3>On this page</h3>
+<ul>
+	<li><a href="#prior-designs">Prior designs</a></li>
+	<li><a href="#beyond-ascii">Beyond ASCII</a></li>
+	<li><a href="#my-past-designs">My past designs</a></li>
+	<li><a href="#honourable-mentions">Honourable mentions</a></li>
+	<li><a href="#results">Results</a></li>
+</ul>
+
+<h2 id="prior-designs">Prior designs</h2>
+
 <h3>IBM 029 Card Punch</h3>
 <img src="research/IBM029.png" alt="IBM 029 character set">
 <p><i>Reference: <a href="https://www.masswerk.at/misc/card-punch-typography/">Norbert Landsteiner &mdash; Punched Card Typography Explained</a></i></p>
@@ -1226,7 +1237,7 @@
 </table>
 
 
-<h2>Beyond ASCII</h2>
+<h2 id="beyond-ascii">Beyond ASCII</h2>
 
 <p>There has long been more to computer fonts than the 95 printable ASCII characters. Some of the fonts examined above contained accented letters and other special characters, which we will now explore further. Where necessary, I have rearranged the glyphs to match the order of <a href="https://en.wikipedia.org/wiki/ISO/IEC_8859-1">ISO&#x2011;8859&#x2011;1</a> (and thereby Unicode's <a href="https://www.unicode.org/charts/PDF/U0080.pdf">Latin&#x2011;1 Supplement</a> block) to make comparison easier.</strong></p>
 <p>See how the diacritical marks are very large, compared to conventional typefaces, owing to the number of dots required to define them.</p>
@@ -1461,7 +1472,7 @@
 </table>
 
 
-<h2>My past designs</h2>
+<h2 id="my-past-designs">My past designs</h2>
 
 <p>I created my first dot-matrix font in 2013, using pencil and graph paper. I then scanned and digitised it with the help of Microsoft Paint. Ever since then, tinkering with such designs has been an occasional pastime for me. Initially, I did this with relatively little outside inspiration, but over time my work lost some originality in favour of more conventional (and usually better) design choices. Most were not based on 5&times;7 dot matrices, but below are four selected designs that were.</p>
 <p>There is little to say about these designs that hasn&rsquo;t already been mentioned above, but I will note some of the more interesting features:</p>
@@ -1487,7 +1498,7 @@
 <p><a href="http://friedorange.xyz/quikscript/myfonts.html">Version 2</a> of this font was made after beginning the study documented here. As a result, I decided to alter some glyphs to make the font appear a little more generic.</p>
 
 
-<h2>Honourable mentions</h2>
+<h2 id="honourable-mentions">Honourable mentions</h2>
 
 <p>I only discovered the following examples <em>after</em> this study was complete and all key glyphs for Matrix Sans were already designed. Nevertheless, in the interests of completeness, here are all of the remaining 5&times;7 dot matrix fonts that I have found (excluding most modern designs that can be found on websites such as FontStruct, as they are high in quantity and low in  quality). Most of them still have many unique and unusual features:</p>
 
@@ -1527,7 +1538,7 @@
 <p>An early-2000s commercial typeface.</p>
 
 
-<h2>Results</h2>
+<h2 id="results">Results</h2>
 
 <p>As discussed in the README for this repository, I attempted strike a balance between these four principles when designing my own 5&times;7 font:</p>
 <ul>
