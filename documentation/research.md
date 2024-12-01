@@ -5,11 +5,6 @@
 <meta charset="UTF-8">
 <meta name="author" content="Brad Neil">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<style>
-	.pmi th {
-		width: 33%;
-	}
-</style>
 </head>
 
 <body>
@@ -20,7 +15,7 @@
 
 <p>Many of the fonts depicted below contained a full set of 128 or 256 characters, including special glyphs for <a href="https://en.wikipedia.org/wiki/Semigraphics">pseudo-graphics</a> applications, other scripts, etc. So as to compare the glyph designs themselves rather than the character sets, only the standard <a href="https://en.wikipedia.org/wiki/ASCII">ASCII</a> ranges of each font are reproduced here (equivalent to Unicode's <a href="https://www.unicode.org/charts/PDF/U0000.pdf">Basic Latin</a> block). The original systems employed character cells of various sizes, resulting in different spacing between characters and lines. For clarity and consistency, the fonts have been presented here with 7&times;10 dot character cells.</p>
 
-<p>I have arranged my comments on the fonts in PMI format: <i>Plus</i> (pros), <i>Minus</i> (cons) and <i>Interesting</i>. The earlier examples tend to attract more comments not necessarily because they are more idiosyncratic, but because each particular quirk is mentioned here only once. Much more could be written about each font if they were critiqued individually.</p>
+<p>I have arranged my comments on the fonts in PMI format: <b>Plus</b> (pros), <b>Minus</b> (cons) and <b>Interesting</b>. The earlier examples tend to attract more comments not necessarily because they are more idiosyncratic, but because each particular quirk is mentioned here only once. Much more could be written about each font if they were critiqued individually.</p>
 
 <h3>IBM 029 Card Punch</h3>
 <img src="research/IBM029.png" alt="IBM 029 character set">
@@ -28,7 +23,7 @@
 <p><i>Font replicating this design: <a href="http://scruss.com/blog/2017/03/21/keypunch029-for-all-your-punched-card-font-needs/">Keypunch029</a> by Stewart C. Russell</i></p>
 
 <p>The IBM 029, a machine for creating <a href="https://en.wikipedia.org/wiki/Punched_card">punched cards</a>, was introduced in 1964 to replace the 026 Printing Card Punch from 1949. I decided to show the 029 character set here because it could print a few more characters than the 026. They are the two oldest dot-matrix character sets I have found in my research. They are so old, in fact, that the patterns were stored on a metal &ldquo;code plate&rdquo; since electronic read-only memories &mdash; indeed, integrated circuits (or silicon chips) in general &mdash; were yet to be invented.</p>
-<p>Despite their advanced age, a majority of these glyphs have stood the test of time, appearing the same as newer 5&times;7 dot matrix fonts. There are only a couple of truly unusual designs, like the letter <i>S</i> which was probably chosen to differentiate it from the number <i>5</i>.</p>
+<p>Despite their advanced age, a majority of these glyphs have stood the test of time, appearing the same as newer 5&times;7 dot matrix fonts. There are only a couple of truly unusual designs, like the letter <b>S</b> which was probably chosen to differentiate it from the number <b>5</b>.</p>
 <table class="pmi">
 <tr>
 	<th>P 😍</th>
@@ -38,45 +33,45 @@
 <tr>
 <td>
 	<ul>
-		<li>Clear, open dollar sign <i>$</i> with small <i>s</i> to allow the strokes to protrude above and below</li>
-		<li>Heavy punctuation marks <i>' , . : ; </i> are distinguishable in adverse conditions</li>
-		<li>Clear, exaggerated curves of brackets/parentheses <i>( )</i></li>
-		<li>Serifs differentiate number <i>1</i> and letter <i>I</i></li>
-		<li>High-waisted <i>5</i> is well-differentiated</li>
-		<li>Squarish <i>G</i> has good legibility</li>
+		<li>Clear, open dollar sign <b>$</b> with small <b>s</b> to allow the strokes to protrude above and below</li>
+		<li>Heavy punctuation marks <b>' , . : ; </b> are distinguishable in adverse conditions</li>
+		<li>Clear, exaggerated curves of brackets/parentheses <b>( )</b></li>
+		<li>Serifs differentiate number <b>1</b> and letter <b>I</b></li>
+		<li>High-waisted <b>5</b> is well-differentiated</li>
+		<li>Squarish <b>G</b> has good legibility</li>
 	</ul>
 </td>
 <td>
 	<ul>
-		<li>Wavy diagonals in per cent sign <i>%</i> and <i>X</i></li>
-		<li>Heavy apostrophe <i>'</i> is ugly</li>
-		<li>Crowded dots in asterisk <i>*</i></li>
-		<li>Slightly low hyphen/minus sign <i>-</i></li>
-		<li>Semicolon <i>;</i> not aligned with colon <i>:</i></li>
-		<li>Narrow question mark <i>?</i></li>
-		<li>Serifs on <i>B D</i> help to differentiate from <i>8 O</i>, but inconsistent with the other letters</li>
-		<li>Short crossbars on <i>E F</i></li>
-		<li>Upper terminal of <i>G</i> does not match <i>C</i></li>
-		<li>Serifless <i>J</i> does not match <i>I</i></li>
-		<li>High diagonal of <i>N</i></li>
-		<li>Diagonal centre of <i>S</i></li>
-		<li>Stumpy central peak of <i>W</i></li>
+		<li>Wavy diagonals in per cent sign <b>%</b> and <b>X</b></li>
+		<li>Heavy apostrophe <b>'</b> is ugly</li>
+		<li>Crowded dots in asterisk <b>*</b></li>
+		<li>Slightly low hyphen/minus sign <b>-</b></li>
+		<li>Semicolon <b>;</b> not aligned with colon <b>:</b></li>
+		<li>Narrow question mark <b>?</b></li>
+		<li>Serifs on <b>B D</b> help to differentiate from <b>8 O</b>, but inconsistent with the other letters</li>
+		<li>Short crossbars on <b>E F</b></li>
+		<li>Upper terminal of <b>G</b> does not match <b>C</b></li>
+		<li>Serifless <b>J</b> does not match <b>I</b></li>
+		<li>High diagonal of <b>N</b></li>
+		<li>Diagonal centre of <b>S</b></li>
+		<li>Stumpy central peak of <b>W</b></li>
 	</ul>
 </td>
 <td>
 	<ul>
-		<li>Unusual, decorative number sign <i>#</i></li>
-		<li>Dots in <i>%</i>; no room for circles</li>
-		<li>Floating diagonal in slash <i>/</i> looks odd today, but a nearly universal choice in 5&times;7 fonts</li>
-		<li>Narrow zero <i>0</i> to differentiate from <i>O</i></li>
-		<li>Exaggerated lower curve on <i>2</i></li>
-		<li>Somewhat awkward diagonal on <i>7</i></li>
-		<li>Large less- and greater-than signs <i>&lt; &gt;</i></li>
-		<li>At sign <i>@</i> visibly based on <i>a</i>, but loop does not extend all the way around</li>
-		<li>Angular <i>A</i></li>
-		<li>Somewhat awkward shape of <i>M</i></li>
-		<li>Rectangular <i>O</i> to differentiate from zero <i>0</i></li>
-		<li>Sharp <i>V</i> is effective but does not match <i>A</i></li>
+		<li>Unusual, decorative number sign <b>#</b></li>
+		<li>Dots in <b>%</b>; no room for circles</li>
+		<li>Floating diagonal in slash <b>/</b> looks odd today, but a nearly universal choice in 5&times;7 fonts</li>
+		<li>Narrow zero <b>0</b> to differentiate from <b>O</b></li>
+		<li>Exaggerated lower curve on <b>2</b></li>
+		<li>Somewhat awkward diagonal on <b>7</b></li>
+		<li>Large less- and greater-than signs <b>&lt; &gt;</b></li>
+		<li>At sign <b>@</b> visibly based on <b>a</b>, but loop does not extend all the way around</li>
+		<li>Angular <b>A</b></li>
+		<li>Somewhat awkward shape of <b>M</b></li>
+		<li>Rectangular <b>O</b> to differentiate from zero <b>0</b></li>
+		<li>Sharp <b>V</b> is effective but does not match <b>A</b></li>
 	</ul>
 </td>
 </tr>
@@ -97,55 +92,55 @@
 <tr>
 <td>
 	<ul>
-		<li>Full-height stroke in dollar sign <i>$</i></li>
-		<li>Effective six-pointed asterisk <i>*</i></li>
-		<li>Semicolon <i>;</i> and colon <i>:</i> properly aligned</li>
-		<li>5&times;5 less- and greater-than signs <i>&lt; &gt;</i> (albeit with wavy diagonals)</li>
-		<li>Exaggerated curve of <i>D</i> differentiates from <i>O</i></li>
-		<li>Serifs on <i>J</i> harmonise well with <i>I</i></li>
-		<li>Conventional design of <i>S</i></li>
-		<li>Effective, if oversized, grave accent <i>`</i></li>
-		<li>Attractive <i>f</i> uses full width, but low crossbar</li>
-		<li>Highly exaggerated curly brackets/braces <i>{ }</i> very effective and well-differentiated</li>
+		<li>Full-height stroke in dollar sign <b>$</b></li>
+		<li>Effective six-pointed asterisk <b>*</b></li>
+		<li>Semicolon <b>;</b> and colon <b>:</b> properly aligned</li>
+		<li>5&times;5 less- and greater-than signs <b>&lt; &gt;</b> (albeit with wavy diagonals)</li>
+		<li>Exaggerated curve of <b>D</b> differentiates from <b>O</b></li>
+		<li>Serifs on <b>J</b> harmonise well with <b>I</b></li>
+		<li>Conventional design of <b>S</b></li>
+		<li>Effective, if oversized, grave accent <b>`</b></li>
+		<li>Attractive <b>f</b> uses full width, but low crossbar</li>
+		<li>Highly exaggerated curly brackets/braces <b>{ }</b> very effective and well-differentiated</li>
 	</ul>
 </td>
 <td>
 	<ul>
-		<li>Asymmetrical slash in per cent sign <i>%</i></li>
-		<li>Apostrophe <i>'</i> resembles prime mark; would not work as opening quotation mark</li>
-		<li>Full-height slashes <i>/ \</i> leading to lumpy diagonals</li>
-		<li>Poorly-executed slashed zero <i>0</i></li>
-		<li>Elongated central terminal of <i>3</i></li>
-		<li>Top-heavy <i>5</i></li>
-		<li>Tails of <i>6</i> and <i>9</i> too long</li>
-		<li>Poorly-executed question mark <i>?</i></li>
-		<li>Uneven at sign <i>@</i></li>
-		<li>Pointy <i>A v</i></li>
-		<li>Uneven weight in diagonals of <i>M N</i></li>
-		<li>Reduced <a href="https://en.wikipedia.org/wiki/X-height">x-height</a> of <i>b d</i></li>
-		<li>Bowl of <i>g</i> does not match <i>b d p q</i></li>
-		<li>Dot of <i>i</i> higher than that of <i>j</i></li>
-		<li>Serifless <i>l</i> (small <i>L</i>) hard to differentiate</li>
-		<li>Rounded <i>m</i> inconsistent with <i>n</i></li>
-		<li>Imbalanced <i>y</i></li>
+		<li>Asymmetrical slash in per cent sign <b>%</b></li>
+		<li>Apostrophe <b>'</b> resembles prime mark; would not work as opening quotation mark</li>
+		<li>Full-height slashes <b>/ \</b> leading to lumpy diagonals</li>
+		<li>Poorly-executed slashed zero <b>0</b></li>
+		<li>Elongated central terminal of <b>3</b></li>
+		<li>Top-heavy <b>5</b></li>
+		<li>Tails of <b>6</b> and <b>9</b> too long</li>
+		<li>Poorly-executed question mark <b>?</b></li>
+		<li>Uneven at sign <b>@</b></li>
+		<li>Pointy <b>A v</b></li>
+		<li>Uneven weight in diagonals of <b>M N</b></li>
+		<li>Reduced <a href="https://en.wikipedia.org/wiki/X-height">x-height</a> of <b>b d</b></li>
+		<li>Bowl of <b>g</b> does not match <b>b d p q</b></li>
+		<li>Dot of <b>i</b> higher than that of <b>j</b></li>
+		<li>Serifless <b>l</b> (small <b>L</b>) hard to differentiate</li>
+		<li>Rounded <b>m</b> inconsistent with <b>n</b></li>
+		<li>Imbalanced <b>y</b></li>
 	</ul>
 </td>
 <td>
 	<ul>
-		<li>Small number sign <i>#</i></li>
-		<li>Large, uneven upper part of ampersand <i>&amp;</i></li>
-		<li>Straight lower terminal of <i>5</i></li>
-		<li>Straight diagonal of <i>7</i></li>
-		<li>Aggressively-rounded <i>C</i> only matches <i>D</i></li>
-		<li>Prominent crossbar of <i>G</i></li>
-		<li>Very sharp <i>V</i> leads to narrow crotch</li>
-		<li>Excellent angular shape of <i>W w</i> but risks looking like a shaded pattern, losing legibility</li>
-		<li>Low caret <i>^</i></li>
-		<li>Asymmetrical <i>c</i></li>
-		<li>Floating <i>g p q</i> with single-dot descenders</li>
-		<li>Unusual but effective design of <i>k</i></li>
-		<li>Tails of <i>n q r u</i></li>
-		<li>Gap in vertical bar <i>|</i></li>
+		<li>Small number sign <b>#</b></li>
+		<li>Large, uneven upper part of ampersand <b>&amp;</b></li>
+		<li>Straight lower terminal of <b>5</b></li>
+		<li>Straight diagonal of <b>7</b></li>
+		<li>Aggressively-rounded <b>C</b> only matches <b>D</b></li>
+		<li>Prominent crossbar of <b>G</b></li>
+		<li>Very sharp <b>V</b> leads to narrow crotch</li>
+		<li>Excellent angular shape of <b>W w</b> but risks looking like a shaded pattern, losing legibility</li>
+		<li>Low caret <b>^</b></li>
+		<li>Asymmetrical <b>c</b></li>
+		<li>Floating <b>g p q</b> with single-dot descenders</li>
+		<li>Unusual but effective design of <b>k</b></li>
+		<li>Tails of <b>n q r u</b></li>
+		<li>Gap in vertical bar <b>|</b></li>
 	</ul>
 </td>
 </tr>
@@ -155,7 +150,7 @@
 <img src="research/TMS4100.png" alt="Texas Instruments TMS 4100 character set">
 <p><i>Reference: <a href="http://vtda.org/docs/computing/Centronics/101_101A_101AL_102A_306_SpecificationsInterfaceInformation.pdf">Centronics 101 brochure</a></i></p>
 
-<p>The TMS4103 was an early <a href="https://www.tinaja.com/glib/rad_elec/mos_character_gens_6_74.pdf">MOS character generator</a>: that is, a special ROM chip containing character bitmaps. These devices were standard parts stocked by their manufacturers, without the need for a custom order as with ROMs in general. The TMS4103 dates back to at least 1970, when it was used in the first dot-matrix printers, the Centronics 101 and DEC LA30 DECwriter (well, I <i>assume</i> it was also used in the 101, since its character set is identical to <a href="https://manx-docs.org/mirror/vt100.net/docs/dec-00-la30-dc.pdf">that of the LA30</a>).</p>
+<p>The TMS4103 was an early <a href="https://www.tinaja.com/glib/rad_elec/mos_character_gens_6_74.pdf">MOS character generator</a>: that is, a special ROM chip containing character bitmaps. These devices were standard parts stocked by their manufacturers, without the need for a custom order as with ROMs in general. The TMS4103 dates back to at least 1970, when it was used in the first dot-matrix printers, the Centronics 101 and DEC LA30 DECwriter (well, I <b>assume</b> it was also used in the 101, since its character set is identical to <a href="https://manx-docs.org/mirror/vt100.net/docs/dec-00-la30-dc.pdf">that of the LA30</a>).</p>
 <table class="pmi">
 <tr>
 	<th>P 😍</th>
@@ -165,33 +160,33 @@
 <tr>
 <td>
 	<ul>
-		<li>Consistent slashes in <i>% / \</i> (but still ugly)</li>
-		<li>Large, clear comma <i>,</i></li>
-		<li>Single-dot punctuation marks <i>. : ;</i> look better in running text</li>
-		<li>Slashed zero <i>0</i></li>
-		<li>Colon <i>:</i> on baseline</li>
-		<li>More usual question mark <i>?</i> shape</li>
+		<li>Consistent slashes in <b>% / \</b> (but still ugly)</li>
+		<li>Large, clear comma <b>,</b></li>
+		<li>Single-dot punctuation marks <b>. : ;</b> look better in running text</li>
+		<li>Slashed zero <b>0</b></li>
+		<li>Colon <b>:</b> on baseline</li>
+		<li>More usual question mark <b>?</b> shape</li>
 	</ul>
 </td>
 <td>
 	<ul>
-		<li><i>&amp;</i> has flair but slightly uneven weight</li>
-		<li>Awkward <i>2</i></li>
-		<li>Very awkward <i>3</i></li>
-		<li>Narrow semicolon <i>;</i> spacing</li>
-		<li>Oddly rounded circumflex <i>^</i></li>
+		<li><b>&amp;</b> has flair but slightly uneven weight</li>
+		<li>Awkward <b>2</b></li>
+		<li>Very awkward <b>3</b></li>
+		<li>Narrow semicolon <b>;</b> spacing</li>
+		<li>Oddly rounded circumflex <b>^</b></li>
 	</ul>
 </td>
 <td>
 	<ul>
-		<li>Wide gap in exclamation mark <i>!</i></li>
-		<li>Prominent uptick and serifs on <i>1</i></li>
-		<li>Extra-large less- and greater-than signs <i>&lt; &gt;</i></li>
-		<li>At sign <i>@</i> mostly encircled, but no <i>a</i> visible</li>
-		<li>Round-topped <i>A</i></li>
-		<li>Horizontal terminals on <i>S</i></li>
-		<li><i>W</i> like upside-down <i>M</i> is highly legible</li>
-		<li>Rounded <i>Y</i> with centred junction</li>
+		<li>Wide gap in exclamation mark <b>!</b></li>
+		<li>Prominent uptick and serifs on <b>1</b></li>
+		<li>Extra-large less- and greater-than signs <b>&lt; &gt;</b></li>
+		<li>At sign <b>@</b> mostly encircled, but no <b>a</b> visible</li>
+		<li>Round-topped <b>A</b></li>
+		<li>Horizontal terminals on <b>S</b></li>
+		<li><b>W</b> like upside-down <b>M</b> is highly legible</li>
+		<li>Rounded <b>Y</b> with centred junction</li>
 	</ul>
 </td>
 </tr>
@@ -211,24 +206,24 @@
 <tr>
 <td>
 	<ul>
-		<li>Sharp and legible <i>2</i></li>
-		<li>Centred diagonal of <i>N</i> looks a bit odd, but is the best design yet in my opinion</li>
+		<li>Sharp and legible <b>2</b></li>
+		<li>Centred diagonal of <b>N</b> looks a bit odd, but is the best design yet in my opinion</li>
 	</ul>
 </td>
 <td>
 	<ul>
-		<li>Flat-topped <i>3</i> aids differentiation from <i>8</i>, but looks to be missing dots in the centre</li>
-		<li>Wide colon <i>:</i> spacing</li>
-		<li>Mismatched colon <i>:</i> and semicolon <i>;</i></li>
+		<li>Flat-topped <b>3</b> aids differentiation from <b>8</b>, but looks to be missing dots in the centre</li>
+		<li>Wide colon <b>:</b> spacing</li>
+		<li>Mismatched colon <b>:</b> and semicolon <b>;</b></li>
 	</ul>
 </td>
 <td>
 	<ul>
-		<li>Tight upper curve of question mark <i>?</i></li>
-		<li>Similar at sign <i>@</i> fully encircled</li>
-		<li>Straight-sided <i>V</i> (a common choice)</li>
-		<li>Round-bottomed <i>W</i> (also popular)</li>
-		<li>Lower crotch of <i>Y</i>, shape echoes <i>V</i></li>
+		<li>Tight upper curve of question mark <b>?</b></li>
+		<li>Similar at sign <b>@</b> fully encircled</li>
+		<li>Straight-sided <b>V</b> (a common choice)</li>
+		<li>Round-bottomed <b>W</b> (also popular)</li>
+		<li>Lower crotch of <b>Y</b>, shape echoes <b>V</b></li>
 	</ul>
 </td>
 </tr>
@@ -238,7 +233,7 @@
 <img src="research/RO-2-2240S.png" alt="General Instrument RO-5-2240S character set">
 <p><i>Reference: <a href="https://archive.org/details/bitsavers_gidataBook_42027291/page/276/mode/2up">RO-5-2240S datasheet</a></i></p>
 
-<p>Yet another character generator. The glyph patterns are similar to those of the Fairchild 3258 above, with only a few differences</p>
+<p>Yet another character generator. The glyph patterns are similar to those of the Fairchild 3258 above, with only a few differences.</p>
 <table class="pmi">
 <tr>
 	<th>P 😍</th>
@@ -248,13 +243,13 @@
 <tr>
 <td>
 	<ul>
-		<li>Effective design of tilde <i>~</i> (in place of backslash <i>\</i>)</li>
-		<li>More subtle curly brackets <i>{ }</i></li>
+		<li>Effective design of tilde <b>~</b> (in place of backslash <b>\</b>)</li>
+		<li>More subtle curly brackets <b>{ }</b></li>
 	</ul>
 </td>
 <td>
 	<ul>
-		<li>Aggressively-rounded at sign <i>@</i>; circle touches &ldquo;a&rdquo;</li>
+		<li>Aggressively-rounded at sign <b>@</b>; circle touches &ldquo;a&rdquo;</li>
 	</ul>
 </td>
 <td>
@@ -276,27 +271,27 @@
 <tr>
 <td>
 	<ul>
-		<li>Attractively curved <i>2</i>, a popular style</li>
-		<li>Small less- and greater-than signs <i>&lt; &gt;</i> uncommon but very effective</li>
-		<li>Round <i>G</i> consistent with other letters</li>
+		<li>Attractively curved <b>2</b>, a popular style</li>
+		<li>Small less- and greater-than signs <b>&lt; &gt;</b> uncommon but very effective</li>
+		<li>Round <b>G</b> consistent with other letters</li>
 	</ul>
 </td>
 <td>
 	<ul>
-		<li>Comma-like design of apostrophe <i>'</i> would not work as an opening quotation mark</li>
-		<li>Two-dot commas <i>, ;</i> possibly too subtle</li>
-		<li>Upper diagonal of <i>3</i> better, but still ugly</li>
-		<li>Top-heavy <i>7</i></li>
-		<li>Very abstract at sign <i>@</i></li>
-		<li>Diagonals of <i>V</i> look like tapered curves</li>
+		<li>Comma-like design of apostrophe <b>'</b> would not work as an opening quotation mark</li>
+		<li>Two-dot commas <b>, ;</b> possibly too subtle</li>
+		<li>Upper diagonal of <b>3</b> better, but still ugly</li>
+		<li>Top-heavy <b>7</b></li>
+		<li>Very abstract at sign <b>@</b></li>
+		<li>Diagonals of <b>V</b> look like tapered curves</li>
 	</ul>
 </td>
 <td>
 	<ul>
-		<li>Interesting (and probably unique) ampersand <i>&amp;</i> design</li>
-		<li>Oversized asterisk <i>*</i> (but a common choice)</li>
-		<li><i>D</i> matches other curved glyphs, but differs from <i>O</i> by only two dots</li>
-		<li>Low crossbar on <i>G</i> carries typographic flair, but looks out of place to my eye</li>
+		<li>Interesting (and probably unique) ampersand <b>&amp;</b> design</li>
+		<li>Oversized asterisk <b>*</b> (but a common choice)</li>
+		<li><b>D</b> matches other curved glyphs, but differs from <b>O</b> by only two dots</li>
+		<li>Low crossbar on <b>G</b> carries typographic flair, but looks out of place to my eye</li>
 	</ul>
 </td>
 </tr>
@@ -306,8 +301,8 @@
 <img src="research/MM4240.png" alt="National Semiconductor MM4240 character set">
 <p><i>Reference: <a href="https://archive.org/details/bitsavers_nationaldaMOSIntegratedCircuits_15188155/page/n277/mode/2up">MM4240 application notes</a></i></p>
 
-<p>This is a composite of two character sets: those of the MM4240AA (capitals only) and MM4240AE (small letters only) character generators. Like most such devices from the era, the glyphs are strictly confined to the 5&times;7 dot matrix, forcing the descending letters <i>g j p q y</i> to sit high on the baseline.  The designs of the small letters appear to have been influenced by traditional handwriting; note especially <i>a b d e g l p q y</i>.</p>
-<p>Apart from the slash <i>/</i> and <i>7</i>, all the characters up to <i>Z</i> are identical to those of the IBM 029. There seems to have been a trend of including a crosshatch graphic in the 0x7F position, also seen in several of the character sets below. This could serve as a blinking cursor on video displays.</p>
+<p>This is a composite of two character sets: those of the MM4240AA (capitals only) and MM4240AE (small letters only) character generators. Like most such devices from the era, the glyphs are strictly confined to the 5&times;7 dot matrix, forcing the descending letters <b>g j p q y</b> to sit high on the baseline.  The designs of the small letters appear to have been influenced by traditional handwriting; note especially <b>a b d e g l p q y</b>.</p>
+<p>Apart from the slash <b>/</b> and <b>7</b>, all the characters up to <b>Z</b> are identical to those of the IBM 029. There seems to have been a trend of including a crosshatch graphic in the 0x7F position, also seen in several of the character sets below. This could serve as a blinking cursor on video displays.</p>
 <table class="pmi">
 <tr>
 	<th>P 😍</th>
@@ -317,33 +312,33 @@
 <tr>
 <td>
 	<ul>
-		<li>Attractive bowl shape of <i>b d g p q</i></li>
-		<li>Consistent curves of <i>b d g h n p q r u y</i></li>
-		<li>Sophisticated, well-executed <i>k</i></li>
-		<li>Well-executed <i>t</i> is balanced, uses full width</li>
-		<li><i>v</i> matches <i>V</i></li>
-		<li>Centres of <i>m w</i> match</li>
+		<li>Attractive bowl shape of <b>b d g p q</b></li>
+		<li>Consistent curves of <b>b d g h n p q r u y</b></li>
+		<li>Sophisticated, well-executed <b>k</b></li>
+		<li>Well-executed <b>t</b> is balanced, uses full width</li>
+		<li><b>v</b> matches <b>V</b></li>
+		<li>Centres of <b>m w</b> match</li>
 	</ul>
 </td>
 <td>
 	<ul>
-		<li>Awkward diagonal on <i>7</i></li>
-		<li>Bowls of <i>d g</i> upside-down (<i>d</i> needs a spur, <i>g</i> doesn&rsquo;t; see <a href="https://www.fonts.com/font/monotype/lucida-calligraphy">example</a> of convention)</li>
-		<li>Crossbar of <i>f</i> too short, does not match <i>t</i></li>
-		<li>Ugly tail of <i>i</i> and hook of <i>j</i></li>
-		<li>Rounded corner of <i>q</i></li>
-		<li>Narrow curly brackets <i>{ }</i> hard to recognise</li>
-		<li>Awkward tilde <i>~</i></li>
+		<li>Awkward diagonal on <b>7</b></li>
+		<li>Bowls of <b>d g</b> upside-down (<b>d</b> needs a spur, <b>g</b> doesn&rsquo;t; see <a href="https://www.fonts.com/font/monotype/lucida-calligraphy">example</a> of convention)</li>
+		<li>Crossbar of <b>f</b> too short, does not match <b>t</b></li>
+		<li>Ugly tail of <b>i</b> and hook of <b>j</b></li>
+		<li>Rounded corner of <b>q</b></li>
+		<li>Narrow curly brackets <b>{ }</b> hard to recognise</li>
+		<li>Awkward tilde <b>~</b></li>
 	</ul>
 </td>
 <td>
 	<ul>
-		<li>Script-style <i>a</i> with tail</li>
-		<li>Open <i>c</i> is highly legible but looks wide</li>
-		<li>Rounded <i>e</i> with short tail</li>
-		<li>Mirrored <i>i j</i></li>
-		<li>Handwritten-style <i>l</i></li>
-		<li>Short centre leg of <i>m</i></li>
+		<li>Script-style <b>a</b> with tail</li>
+		<li>Open <b>c</b> is highly legible but looks wide</li>
+		<li>Rounded <b>e</b> with short tail</li>
+		<li>Mirrored <b>i j</b></li>
+		<li>Handwritten-style <b>l</b></li>
+		<li>Short centre leg of <b>m</b></li>
 	</ul>
 </td>
 </tr>
@@ -355,7 +350,7 @@
 <p><i>Font replicating this design: <a href="http://www.kreativekorp.com/software/fonts/trs80/">Another Man&rsquo;s Treasure</a> by Rebecca G. Bettencourt</i></p>
 
 <p>This character generator is notable for having being used in the Tandy/Radio Shack TRS-80 Model I computer. It was relatively advanced in that it contained glyphs for all 128 possible ASCII codes, including lower-case letters.</p>
-<p>Apart from <i>O</i> and <i>S</i>, the capitals are identical to those of the IBM 029.</p>
+<p>Apart from <b>O</b> and <b>S</b>, the capitals are identical to those of the IBM 029.</p>
 <table class="pmi">
 <tr>
 	<th>P 😍</th>
@@ -365,29 +360,29 @@
 <tr>
 <td>
 	<ul>
-		<li>Consistent curves of <i>b d g h n p q r u</i></li>
+		<li>Consistent curves of <b>b d g h n p q r u</b></li>
 	</ul>
 </td>
 <td>
 	<ul>
-		<li>Ugly comma design <i>' , ;</i></li>
-		<li>Inconsistent vertical alignment between colon and semicolon <i>: ;</i></li>
-		<li>Odd design of grave accent <i>`</i></li>
-		<li>Narrow <i>f</i> does not match <i>t</i></li>
-		<li>Ugly curves of <i>f t</i></li>
-		<li><i>j</i> looks too wide; lacks a serif to match <i>i</i></li>
-		<li><i>v w</i> both inconsistent with <i>V W</i></li>
-		<li>Curve of <i>y</i> inconsistent with <i>b d g h n p q r u</i></li>
-		<li>Tilde <i>~</i> less recognisable and raised up, which limits its usefulness</li>
+		<li>Ugly comma design <b>' , ;</b></li>
+		<li>Inconsistent vertical alignment between colon and semicolon <b>: ;</b></li>
+		<li>Odd design of grave accent <b>`</b></li>
+		<li>Narrow <b>f</b> does not match <b>t</b></li>
+		<li>Ugly curves of <b>f t</b></li>
+		<li><b>j</b> looks too wide; lacks a serif to match <b>i</b></li>
+		<li><b>v w</b> both inconsistent with <b>V W</b></li>
+		<li>Curve of <b>y</b> inconsistent with <b>b d g h n p q r u</b></li>
+		<li>Tilde <b>~</b> less recognisable and raised up, which limits its usefulness</li>
 	</ul>
 </td>
 <td>
 	<ul>
-		<li>Large, heavy, eight-pointed asterisk <i>*</i></li>
-		<li>Fully-rounded bowls of small <i>b d g p q</i></li>
-		<li>Narrow, single-dot aperture in <i>c</i></li>
-		<li>Curled tails of <i>g y</i></li>
-		<li>Narrow <i>k</i></li>
+		<li>Large, heavy, eight-pointed asterisk <b>*</b></li>
+		<li>Fully-rounded bowls of small <b>b d g p q</b></li>
+		<li>Narrow, single-dot aperture in <b>c</b></li>
+		<li>Curled tails of <b>g y</b></li>
+		<li>Narrow <b>k</b></li>
 	</ul>
 </td>
 </tr>
@@ -407,22 +402,22 @@
 <tr>
 <td>
 	<ul>
-		<li>Narrow, straight apostrophe <i>'</i> matches double quotation mark <i>"</i></li>
-		<li>Effective script <i>a</i></li>
+		<li>Narrow, straight apostrophe <b>'</b> matches double quotation mark <b>"</b></li>
+		<li>Effective script <b>a</b></li>
 	</ul>
 </td>
 <td>
 	<ul>
-		<li>Another abstract at sign <i>@</i></li>
-		<li>Wide and bold square brackets <i>[ ]</i></li>
-		<li>Poorly constructed <i>k</i></li>
-		<li>Very low central terminal of <i>w</i></li>
+		<li>Another abstract at sign <b>@</b></li>
+		<li>Wide and bold square brackets <b>[ ]</b></li>
+		<li>Poorly constructed <b>k</b></li>
+		<li>Very low central terminal of <b>w</b></li>
 	</ul>
 </td>
 <td>
 	<ul>
-		<li>Very narrow <i>f t</i></li>
-		<li>Flat curves of <i>h n r u y</i></li>
+		<li>Very narrow <b>f t</b></li>
+		<li>Flat curves of <b>h n r u y</b></li>
 	</ul>
 </td>
 </tr>
@@ -432,7 +427,7 @@
 <img src="research/DM8678.png" alt="National Semiconductor DM8678 character set">
 <p><i>Reference: <a href="https://archive.org/details/bitsavers_nationaldaMemoryDatabook_43572148/page/n365/mode/2up">DM8678 datasheet</a></i></p>
 
-<p>This is also a composite of character sets, from the DM8678CAB (upper case) and DM8678CAH (lower case) character generators. The DM8678CAH still contained only 5&times;7 dot matrices for each glyph, but shifted the descending letters <i>g j p q y</i> by two lines during output in order to display them correctly. This has the side-effect of making <i>j</i> appear sunken, with its dot at the waistline of the font.</p>
+<p>This is also a composite of character sets, from the DM8678CAB (upper case) and DM8678CAH (lower case) character generators. The DM8678CAH still contained only 5&times;7 dot matrices for each glyph, but shifted the descending letters <b>g j p q y</b> by two lines during output in order to display them correctly. This has the side-effect of making <b>j</b> appear sunken, with its dot at the waistline of the font.</p>
 <table class="pmi">
 <tr>
 	<th>P 😍</th>
@@ -442,25 +437,25 @@
 <tr>
 <td>
 	<ul>
-		<li>Clean, consistent lower case alphabet, with the sole exception of <i>j</i></li>
-		<li>Excellent question mark <i>?</i></li>
-		<li>Consistent, legible <i>b c d g h n p q y</i></li>
+		<li>Clean, consistent lower case alphabet, with the sole exception of <b>j</b></li>
+		<li>Excellent question mark <b>?</b></li>
+		<li>Consistent, legible <b>b c d g h n p q y</b></li>
 	</ul>
 </td>
 <td>
 	<ul>
-		<li>Another awkward, top-heavy <i>7</i></li>
-		<li>Serifs on upper terminals of <i>G T</i></li>
-		<li>Hook of <i>j</i> matches neither <i>g y</i> nor <i>f t</i></li>
+		<li>Another awkward, top-heavy <b>7</b></li>
+		<li>Serifs on upper terminals of <b>G T</b></li>
+		<li>Hook of <b>j</b> matches neither <b>g y</b> nor <b>f t</b></li>
 	</ul>
 </td>
 <td>
 	<ul>
-		<li>Long central leg of <i>M</i></li>
-		<li>Short tails of <i>g y</i></li>
-		<li>Narrow <i>r</i> (looks more proportional to me; compare with those above and below)</li>
-		<li>Shorter <i>t</i> matches conventional typefaces better, but less legible</li>
-		<li>Spurless <i>u</i>, <i>a la</i> <a href="https://www.fonts.com/font/linotype/futura">Futura</a></li>
+		<li>Long central leg of <b>M</b></li>
+		<li>Short tails of <b>g y</b></li>
+		<li>Narrow <b>r</b> (looks more proportional to me; compare with those above and below)</li>
+		<li>Shorter <b>t</b> matches conventional typefaces better, but less legible</li>
+		<li>Spurless <b>u</b>, <b>a la</b> <a href="https://www.fonts.com/font/linotype/futura">Futura</a></li>
 	</ul>
 </td>
 </tr>
@@ -481,19 +476,19 @@
 <tr>
 <td>
 	<ul>
-		<li>Comma and semicolon <i>, ;</i> extend below baseline, taking advantage of space</li>
-		<li>Colon and semicolon <i>: ;</i> properly aligned for lower-case text</li>
+		<li>Comma and semicolon <b>, ;</b> extend below baseline, taking advantage of space</li>
+		<li>Colon and semicolon <b>: ;</b> properly aligned for lower-case text</li>
 	</ul>
 </td>
 <td>
 	<ul>
-		<li>Odd dollar sign <i>$</i></li>
+		<li>Odd dollar sign <b>$</b></li>
 	</ul>
 </td>
 <td>
 	<ul>
-		<li>Narrow hyphen <i>-</i> to differentiate from dash <i>&ndash;</i> in &ldquo;English&rdquo; character set version</li>
-		<li>Unusual pointed zero <i>0</i> differentiates from capital <i>O</i> without using a slash, which may have confused general audiences at the time</li>
+		<li>Narrow hyphen <b>-</b> to differentiate from dash <b>&ndash;</b> in &ldquo;English&rdquo; character set version</li>
+		<li>Unusual pointed zero <b>0</b> differentiates from capital <b>O</b> without using a slash, which may have confused general audiences at the time</li>
 	</ul>
 </td>
 </tr>
@@ -513,24 +508,24 @@
 <tr>
 <td>
 	<ul>
-		<li>Another more reasonably sized asterisk <i>*</i></li>
-		<li>Unique and effective bold comma in <i>, ;</i></li>
-		<li>Rare and effective tail of <i>R</i></li>
-		<li>Non-descending <i>g j p q y</i> fit between baseline and waistline</li>
+		<li>Another more reasonably sized asterisk <b>*</b></li>
+		<li>Unique and effective bold comma in <b>, ;</b></li>
+		<li>Rare and effective tail of <b>R</b></li>
+		<li>Non-descending <b>g j p q y</b> fit between baseline and waistline</li>
 	</ul>
 </td>
 <td>
 	<ul>
-		<li>Short terminals of <i>s</i></li>
+		<li>Short terminals of <b>s</b></li>
 	</ul>
 </td>
 <td>
 	<ul>
-		<li>Curves of <i>6 9</i> match <i>0 O</i> etc.</li>
-		<li>Low crossbar of <i>A</i></li>
-		<li>Unique diagonals of <i>M W</i></li>
-		<li>Narrow <i>c</i> looks more proportional (but has inconsistent spacing with adjacent letters)</li>
-		<li><i>W w</i> are both rotated forms of <i>M m</i>, leading to unique <i>m</i> shape and central terminal of <i>w</i> being longer than usual</li>
+		<li>Curves of <b>6 9</b> match <b>0 O</b> etc.</li>
+		<li>Low crossbar of <b>A</b></li>
+		<li>Unique diagonals of <b>M W</b></li>
+		<li>Narrow <b>c</b> looks more proportional (but has inconsistent spacing with adjacent letters)</li>
+		<li><b>W w</b> are both rotated forms of <b>M m</b>, leading to unique <b>m</b> shape and central terminal of <b>w</b> being longer than usual</li>
 	</ul>
 </td>
 </tr>
@@ -552,21 +547,21 @@
 <tr>
 <td>
 	<ul>
-		<li>Another clean, consistent lower-case alphabet, with the exception of <i>g u</i></li>
-		<li><i>k</i> 5 dots wide; very open and legible</li>
+		<li>Another clean, consistent lower-case alphabet, with the exception of <b>g u</b></li>
+		<li><b>k</b> 5 dots wide; very open and legible</li>
 	</ul>
 </td>
 <td>
 	<ul>
-		<li><i>g</i> too round</li>
-		<li><i>m w</i> too square</li>
-		<li><i>r u</i> do not harmonise with <i>h n y</i></li>
+		<li><b>g</b> too round</li>
+		<li><b>m w</b> too square</li>
+		<li><b>r u</b> do not harmonise with <b>h n y</b></li>
 	</ul>
 </td>
 <td>
 	<ul>
-		<li>Unusual, effective length of central leg of <i>m</i></li>
-		<li>Bold but evenly-curved tilde <i>~</i>; a good solution to keep it two dots high</li>
+		<li>Unusual, effective length of central leg of <b>m</b></li>
+		<li>Bold but evenly-curved tilde <b>~</b>; a good solution to keep it two dots high</li>
 	</ul>
 </td>
 </tr>
@@ -577,7 +572,7 @@
 <p><i>Reference: <a href="https://en.wikipedia.org/wiki/File:Cocobvdg.png">Wikipedia</a></i></p>
 <p><i>Font replicating this design: <a href="http://www.kreativekorp.com/software/fonts/trs80/#coco">Hot CoCo</a> by Rebecca G. Bettencourt</i></p>
 
-<p>This video chip, with built-in character generator, was used in the Tandy/Radio Shack TRS-80 Color Computer. It contains a set of negative (or inverse, <i>i.e.</i> white on black) capitals, which there was no need to reproduce here, instead of small letters. Notice that this set is nearly identical to that of the IBM 029 Card Punch seen above.</p>
+<p>This video chip, with built-in character generator, was used in the Tandy/Radio Shack TRS-80 Color Computer. It contains a set of negative (or inverse, <b>i.e.</b> white on black) capitals, which there was no need to reproduce here, instead of small letters. Notice that this set is nearly identical to that of the IBM 029 Card Punch seen above.</p>
 <table class="pmi">
 <tr>
 	<th>P 😍</th>
@@ -589,12 +584,12 @@
 </td>
 <td>
 	<ul>
-		<li>Clumsy-looking <i>4 6 9</i></li>
+		<li>Clumsy-looking <b>4 6 9</b></li>
 	</ul>
 </td>
 <td>
 	<ul>
-		<li>Diamond in place of asterisk <i>*</i></li>
+		<li>Diamond in place of asterisk <b>*</b></li>
 	</ul>
 </td>
 </tr>
@@ -614,18 +609,18 @@
 <tr>
 <td>
 	<ul>
-		<li>Effective bold comma and semicolon <i>, ;</i></li>
+		<li>Effective bold comma and semicolon <b>, ;</b></li>
 	</ul>
 </td>
 <td>
 	<ul>
-		<li>Regular <i>S</i> in dollar sign <i>$</i>, with another non-protruding stroke</li>
-		<li>Narrow <span style="font-variant: small-caps;"><i>j k</i></span></li>
+		<li>Regular <b>S</b> in dollar sign <b>$</b>, with another non-protruding stroke</li>
+		<li>Narrow <span style="font-variant: small-caps;"><b>j k</b></span></li>
 	</ul>
 </td>
 <td>
 	<ul>
-		<li>Non-slashed, full-width zero <i>0</i></li>
+		<li>Non-slashed, full-width zero <b>0</b></li>
 	</ul>
 </td>
 </tr>
@@ -647,12 +642,12 @@
 </td>
 <td>
 	<ul>
-		<li>Aggressively-rounded corners of copyright symbol <i>©</i> mean the circle touches the <i>c</i></li>
+		<li>Aggressively-rounded corners of copyright symbol <b>©</b> mean the circle touches the <b>c</b></li>
 	</ul>
 </td>
 <td>
 	<ul>
-		<li>Long, low stroke on pound sign <i>£</i></li>
+		<li>Long, low stroke on pound sign <b>£</b></li>
 	</ul>
 </td>
 </tr>
@@ -672,22 +667,22 @@
 <tr>
 <td>
 	<ul>
-		<li>Crossbar of <i>f</i> on waistline, as in traditional typefaces</li>
+		<li>Crossbar of <b>f</b> on waistline, as in traditional typefaces</li>
 	</ul>
 </td>
 <td>
 	<ul>
-		<li>Very long serif of <i>J</i></li>
-		<li>Serifs of <i>T Z</i> inconsistent within the font</li>
-		<li>Elongated <i>t</i></li>
+		<li>Very long serif of <b>J</b></li>
+		<li>Serifs of <b>T Z</b> inconsistent within the font</li>
+		<li>Elongated <b>t</b></li>
 	</ul>
 </td>
 <td>
 	<ul>
-		<li>Unique ampersand <i>&amp;</i></li>
-		<li>Serifless <i>1</i></li>
-		<li>Descender of <i>f</i></li>
-		<li>Effective tilde <i>~</i> (but 6 dots wide is cheating)</li>
+		<li>Unique ampersand <b>&amp;</b></li>
+		<li>Serifless <b>1</b></li>
+		<li>Descender of <b>f</b></li>
+		<li>Effective tilde <b>~</b> (but 6 dots wide is cheating)</li>
 	</ul>
 </td>
 </tr>
@@ -697,7 +692,7 @@
 <img src="research/COMX-35.png" alt="COMX-35 character set">
 <p><i>Reference: <a href="https://web.archive.org/web/20180925005902/http://electrickery.xs4all.nl/comp/comx35/comxrom.zip">COMX-35 firmware</a> (see <a href="research/COMX35-chargen.png">graphic</a>)</i></p>
 
-<p>This obscure home computer has one of the worst character sets I&rsquo;ve seen (the ampersand <i>&amp;</i> really does sit below the baseline; that wasn&rsquo;t a mistake on my part!). There would have been plenty of room for lower-case letters if the set didn't have duplicate glyphs in different colours, multiple variations of the COMX logo and other useless pseudo-graphic characters. What&rsquo;s more, the <a href="https://archive.org/details/bitsavers_rcadataBoorocessorsMemoriesandPeripherals_44881019/page/n295/mode/2up">RCA CDP1870</a> video chip supports character cells 9 dots high, which would have allowed for lower-case with true descenders.</p>
+<p>This obscure home computer has one of the worst character sets I&rsquo;ve seen (the ampersand <b>&amp;</b> really does sit below the baseline; that wasn&rsquo;t a mistake on my part!). There would have been plenty of room for lower-case letters if the set didn't have duplicate glyphs in different colours, multiple variations of the COMX logo and other useless pseudo-graphic characters. What&rsquo;s more, the <a href="https://archive.org/details/bitsavers_rcadataBoorocessorsMemoriesandPeripherals_44881019/page/n295/mode/2up">RCA CDP1870</a> video chip supports character cells 9 dots high, which would have allowed for lower-case with true descenders.</p>
 <table class="pmi">
 <tr>
 	<th>P 😍</th>
@@ -709,10 +704,10 @@
 </td>
 <td>
 	<ul>
-		<li>Imbalanced number sign <i>#</i></li>
-		<li>Drooping upper terminal of <i>2</i></li>
-		<li>Extra dots in <i>5 A</i></li>
-		<li>Short terminals of <i>9 G</i></li>
+		<li>Imbalanced number sign <b>#</b></li>
+		<li>Drooping upper terminal of <b>2</b></li>
+		<li>Extra dots in <b>5 A</b></li>
+		<li>Short terminals of <b>9 G</b></li>
 	</ul>
 </td>
 <td>
@@ -736,15 +731,15 @@
 </td>
 <td>
 	<ul>
-		<li>Uneven arms on <i>k</i></li>
-		<li><i>m w</i> 6 dots wide and uneven</li>
-		<li>Short descenders of <i>p q</i></li>
-		<li>Square <i>y</i></li>
+		<li>Uneven arms on <b>k</b></li>
+		<li><b>m w</b> 6 dots wide and uneven</li>
+		<li>Short descenders of <b>p q</b></li>
+		<li>Square <b>y</b></li>
 	</ul>
 </td>
 <td>
 	<ul>
-		<li>Cruciform <i>t</i></li>
+		<li>Cruciform <b>t</b></li>
 	</ul>
 </td>
 </tr>
@@ -765,19 +760,19 @@
 <tr>
 <td>
 	<ul>
-		<li>Round <i>A G</i> make for consistent look</li>
-		<li>Unusual and effective <i>y</i> based on <i>v</i> shape, as in conventional typefaces</li>
+		<li>Round <b>A G</b> make for consistent look</li>
+		<li>Unusual and effective <b>y</b> based on <b>v</b> shape, as in conventional typefaces</li>
 	</ul>
 </td>
 <td>
 	<ul>
-		<li>Narrow <i>p q</i></li>
-		<li>Uneven <i>s</i></li>
+		<li>Narrow <b>p q</b></li>
+		<li>Uneven <b>s</b></li>
 	</ul>
 </td>
 <td>
 	<ul>
-		<li>Tail on <i>a</i></li>
+		<li>Tail on <b>a</b></li>
 	</ul>
 </td>
 </tr>
@@ -797,23 +792,23 @@
 <tr>
 <td>
 	<ul>
-		<li>Well-executed yen sign <i>&yen;</i></li>
-		<li>Effective Greek letter pi <i>&pi;</i></li>
+		<li>Well-executed yen sign <b>&yen;</b></li>
+		<li>Effective Greek letter pi <b>&pi;</b></li>
 	</ul>
 </td>
 <td>
 	<ul>
-		<li>Serif and weak diagonal on <i>7</i></li>
-		<li>Drooping upper terminal on question mark <i>?</i></li>
-		<li>Square <i>a</i></li>
-		<li>Wide crossbars on <i>f t</i></li>
+		<li>Serif and weak diagonal on <b>7</b></li>
+		<li>Drooping upper terminal on question mark <b>?</b></li>
+		<li>Square <b>a</b></li>
+		<li>Wide crossbars on <b>f t</b></li>
 	</ul>
 </td>
 <td>
 	<ul>
-		<li>Chunky <i>4</i> is highly legible</li>
-		<li>Rounded <i>a</i> within at sign <i>@</i></li>
-		<li>Short central terminal of <i>W</i></li>
+		<li>Chunky <b>4</b> is highly legible</li>
+		<li>Rounded <b>a</b> within at sign <b>@</b></li>
+		<li>Short central terminal of <b>W</b></li>
 	</ul>
 </td>
 </tr>
@@ -836,20 +831,20 @@
 </td>
 <td>
 	<ul>
-		<li>Poorly-executed ampersand <i>&amp;</i></li>
-		<li>Low slashes <i>/ \</i></li>
-		<li>Angular <i>5</i></li>
-		<li>Serif and odd diagonal on <i>7</i></li>
-		<li>Centred stem of <i>f</i> leaves little room for hook</li>
-		<li>Crowded dots in <i>g p q</i></li>
-		<li>Extra dot in middle of <i>s</i></li>
+		<li>Poorly-executed ampersand <b>&amp;</b></li>
+		<li>Low slashes <b>/ \</b></li>
+		<li>Angular <b>5</b></li>
+		<li>Serif and odd diagonal on <b>7</b></li>
+		<li>Centred stem of <b>f</b> leaves little room for hook</li>
+		<li>Crowded dots in <b>g p q</b></li>
+		<li>Extra dot in middle of <b>s</b></li>
 	</ul>
 </td>
 <td>
 	<ul>
-		<li>Bold less- and greater-than signs <i>&lt; &gt;</i></li>
-		<li><i>D</i> combines both legibility enhancements</li>
-		<li>Tail on <i>u</i></li>
+		<li>Bold less- and greater-than signs <b>&lt; &gt;</b></li>
+		<li><b>D</b> combines both legibility enhancements</li>
+		<li>Tail on <b>u</b></li>
 	</ul>
 </td>
 </tr>
@@ -869,20 +864,20 @@
 <tr>
 <td>
 	<ul>
-		<li>7-dot high version of the angular <i>y</i></li>
+		<li>7-dot high version of the angular <b>y</b></li>
 	</ul>
 </td>
 <td>
 	<ul>
-		<li>Asymmetric quotation marks <i>" '</i></li>
-		<li>Unique and ugly at sign <i>@</i></li>
+		<li>Asymmetric quotation marks <b>" '</b></li>
+		<li>Unique and ugly at sign <b>@</b></li>
 	</ul>
 </td>
 <td>
 	<ul>
-		<li>Large currency sign <i>&curren;</i></li>
-		<li>Rarely, <i>B D</i> do not match</li>
-		<li>Extra-pointy curly brackets <i>{ }</i></li>
+		<li>Large currency sign <b>&curren;</b></li>
+		<li>Rarely, <b>B D</b> do not match</li>
+		<li>Extra-pointy curly brackets <b>{ }</b></li>
 	</ul>
 </td>
 </tr>
@@ -904,12 +899,12 @@
 </td>
 <td>
 	<ul>
-		<li>Long upper terminal and ugly tail of <i>a</i></li>
+		<li>Long upper terminal and ugly tail of <b>a</b></li>
 	</ul>
 </td>
 <td>
 	<ul>
-		<li>Won sign <i>₩</i> uses width to advantage</li>
+		<li>Won sign <b>₩</b> uses width to advantage</li>
 	</ul>
 </td>
 </tr>
@@ -931,11 +926,11 @@
 </td>
 <td>
 	<ul>
-		<li>Another asterisk <i>*</i> with uneven weight</li>
-		<li>Missing dot in centre of <i>3</i></li>
-		<li>At sign <i>@</i> unique and ugly</li>
-		<li><i>j y</i> shorter than other descending letters</li>
-		<li>Humpless <i>m</i></li>
+		<li>Another asterisk <b>*</b> with uneven weight</li>
+		<li>Missing dot in centre of <b>3</b></li>
+		<li>At sign <b>@</b> unique and ugly</li>
+		<li><b>j y</b> shorter than other descending letters</li>
+		<li>Humpless <b>m</b></li>
 	</ul>
 </td>
 <td>
@@ -959,19 +954,19 @@
 <tr>
 <td>
 	<ul>
-		<li>Effective, serifless <i>1</i></li>
-		<li>Well-executed flat-topped <i>3</i> (finally!)</li>
-		<li>Open counter of <i>4</i> is attractive and legible</li>
+		<li>Effective, serifless <b>1</b></li>
+		<li>Well-executed flat-topped <b>3</b> (finally!)</li>
+		<li>Open counter of <b>4</b> is attractive and legible</li>
 	</ul>
 </td>
 <td>
 	<ul>
-		<li>Odd diagonal of <i>2</i></li>
+		<li>Odd diagonal of <b>2</b></li>
 	</ul>
 </td>
 <td>
 	<ul>
-		<li>Short tails of <i>6 9</i> are legible but appear somewhat imbalanced</li>
+		<li>Short tails of <b>6 9</b> are legible but appear somewhat imbalanced</li>
 	</ul>
 </td>
 </tr>
@@ -993,13 +988,13 @@
 </td>
 <td>
 	<ul>
-		<li>Cluttered yen sign <i>&yen;</i></li>
-		<li>Uneven <i>c</i></li>
+		<li>Cluttered yen sign <b>&yen;</b></li>
+		<li>Uneven <b>c</b></li>
 	</ul>
 </td>
 <td>
 	<ul>
-		<li>Very deep descenders of <i>g j p q y</i></li>
+		<li>Very deep descenders of <b>g j p q y</b></li>
 	</ul>
 </td>
 </tr>
@@ -1023,24 +1018,24 @@
 </td>
 <td>
 	<ul>
-		<li>Wide spacing in equals sign <i>=</i></li>
-		<li>Narrow <i>Z h k n u x y z ~</i></li>
-		<li>Only one serif at bottom right of <i>i l</i> but regular serif on <i>j</i></li>
-		<li>Serifs on <i>r</i></li>
-		<li>Uneven weight of <i>w y</i></li>
+		<li>Wide spacing in equals sign <b>=</b></li>
+		<li>Narrow <b>Z h k n u x y z ~</b></li>
+		<li>Only one serif at bottom right of <b>i l</b> but regular serif on <b>j</b></li>
+		<li>Serifs on <b>r</b></li>
+		<li>Uneven weight of <b>w y</b></li>
 	</ul>
 </td>
 <td>
 	<ul>
-		<li>Bold exclamation mark <i>!</i></li>
-		<li>Short number sign <i>#</i></li>
-		<li>Diagonal stroke in dollar sign <i>$</i></li>
-		<li>Narrow round brackets <i>( )</i></li>
-		<li>Small, bold asterisk <i>*</i></li>
-		<li>Another style of bold comma <i>,</i></li>
-		<li>High central terminal in <i>W</i></li>
-		<li>No diagonals in <i>x</i></li>
-		<li>Extra dot in centre of curly brackets <i>{ }</i></li>
+		<li>Bold exclamation mark <b>!</b></li>
+		<li>Short number sign <b>#</b></li>
+		<li>Diagonal stroke in dollar sign <b>$</b></li>
+		<li>Narrow round brackets <b>( )</b></li>
+		<li>Small, bold asterisk <b>*</b></li>
+		<li>Another style of bold comma <b>,</b></li>
+		<li>High central terminal in <b>W</b></li>
+		<li>No diagonals in <b>x</b></li>
+		<li>Extra dot in centre of curly brackets <b>{ }</b></li>
 	</ul>
 </td>
 </tr>
@@ -1060,21 +1055,21 @@
 <tr>
 <td>
 	<ul>
-		<li>Excellent slash and backslash <i>/ \</i> use the full height without appearing lumpy or wavy</li>
+		<li>Excellent slash and backslash <b>/ \</b> use the full height without appearing lumpy or wavy</li>
 	</ul>
 </td>
 <td>
 	<ul>
-		<li>Another ugly ampersand <i>&amp;</i><li>
-		<li>Mismatched comma and full stop <i>, .</i></li>
-		<li>Asymmetrical tilde on <i>~</i></li>
+		<li>Another ugly ampersand <b>&amp;</b><li>
+		<li>Mismatched comma and full stop <b>, .</b></li>
+		<li>Asymmetrical tilde on <b>~</b></li>
 	</ul>
 </td>
 <td>
 	<ul>
-		<li>Small, cross-shaped asterisk <i>*</i></li>
-		<li>At sign <i>@</i> uses broken ring to good effect</li>
-		<li>Descender of <i>Q</i></li>
+		<li>Small, cross-shaped asterisk <b>*</b></li>
+		<li>At sign <b>@</b> uses broken ring to good effect</li>
+		<li>Descender of <b>Q</b></li>
 	</ul>
 </td>
 </tr>
@@ -1085,7 +1080,7 @@
 <p><i>Reference: <a href="http://www.kreativekorp.com/software/fonts/fairfax.shtml">KreativeKorp &mdash; Fairfax</a></i></p>
 
 <p>This open-source font by Rebecca G. Bettencourt was created for the stated purposes of coding and plain text editing, and has a wide Unicode coverage with support for some constructed scripts in the Unicode Private Use Area. Similarly to the font I wish to create, it is distributed as an outline font in TrueType format, having been converted from bitmaps using <a href="https://github.com/kreativekorp/bitsnpicas">custom software</a>.</p>
-<p>Fairfax has the best lower-case <i>b d g p q</i> that I have seen in any 5&times;7 font. It is the only design examined here that has the conventional bowl shapes for these letters (see the National Semiconductor MM4240 section above). While still being restricted to 5 dots of width, some glyphs enjoy a much taller dot matrix, such as the quotation marks, slashes and brackets. This affords the font a more modern feel, unlike anything derived from one of the &ldquo;classical&rdquo; 5&times;7 fonts above.</p>
+<p>Fairfax has the best lower-case <b>b d g p q</b> that I have seen in any 5&times;7 font. It is the only design examined here that has the conventional bowl shapes for these letters (see the National Semiconductor MM4240 section above). While still being restricted to 5 dots of width, some glyphs enjoy a much taller dot matrix, such as the quotation marks, slashes and brackets. This affords the font a more modern feel, unlike anything derived from one of the &ldquo;classical&rdquo; 5&times;7 fonts above.</p>
 <table class="pmi">
 <tr>
 	<th>P 😍</th>
@@ -1095,27 +1090,27 @@
 <tr>
 <td>
 	<ul>
-		<li>Large dollar sign <i>$</i> with protruding stroke</li>
-		<li>Tall brackets, slashes, vertical line <i>() [] {} / \ |</i></li>
-		<li>Gentle curve of <i>7</i></li>
-		<li>Well-executed 5&times;5 less- and greater-than signs <i>&lt; &gt;</i> like rotated <i>v</i></li>
-		<li>Narrow curly brackets <i>{ }</i> much more effective with this height</li>
+		<li>Large dollar sign <b>$</b> with protruding stroke</li>
+		<li>Tall brackets, slashes, vertical line <b>() [] {} / \ |</b></li>
+		<li>Gentle curve of <b>7</b></li>
+		<li>Well-executed 5&times;5 less- and greater-than signs <b>&lt; &gt;</b> like rotated <b>v</b></li>
+		<li>Narrow curly brackets <b>{ }</b> much more effective with this height</li>
 	</ul>
 </td>
 <td>
 	<ul>
-		<li>Per cent sign <i>%</i> contains real circles instead of dots, but this harms its clarity</li>
+		<li>Per cent sign <b>%</b> contains real circles instead of dots, but this harms its clarity</li>
 	</ul>
 </td>
 <td>
 	<ul>
-		<li>Quotation marks <i>" '</i> raised above cap line</li>
-		<li>Small, raised number sign <i>#</i></li>
-		<li>Asterisk <i>*</i> raised but with usual shape</li>
-		<li>Flat upper serif of <i>1</i></li>
-		<li>Unusual <i>6 9</i></li>
-		<li>Variation of the abstract at sign <i>@</i> manages to contain recognisable <i>a</i></li>
-		<li>Asymmetric <i>c</i></li>
+		<li>Quotation marks <b>" '</b> raised above cap line</li>
+		<li>Small, raised number sign <b>#</b></li>
+		<li>Asterisk <b>*</b> raised but with usual shape</li>
+		<li>Flat upper serif of <b>1</b></li>
+		<li>Unusual <b>6 9</b></li>
+		<li>Variation of the abstract at sign <b>@</b> manages to contain recognisable <b>a</b></li>
+		<li>Asymmetric <b>c</b></li>
 	</ul>
 </td>
 </tr>
@@ -1135,24 +1130,24 @@
 <tr>
 <td>
 	<ul>
-		<li>Ideal size and shape of grave accent <i>`</i></li>
+		<li>Ideal size and shape of grave accent <b>`</b></li>
 	</ul>
 </td>
 <td>
 	<ul>
-		<li>Wide and ugly ampersand <i>&amp;</i></li>
-		<li>Plus-shaped asterisk <i>*</i></li>
-		<li>Slightly narrow, lop-sided question mark <i>?</i></li>
-		<li>Extra wide at sign <i>@</i></li>
-		<li>Extra tall <i>f</i></li>
-		<li><i>g</i> rises above waistline</li>
+		<li>Wide and ugly ampersand <b>&amp;</b></li>
+		<li>Plus-shaped asterisk <b>*</b></li>
+		<li>Slightly narrow, lop-sided question mark <b>?</b></li>
+		<li>Extra wide at sign <b>@</b></li>
+		<li>Extra tall <b>f</b></li>
+		<li><b>g</b> rises above waistline</li>
 	</ul>
 </td>
 <td>
 	<ul>
-		<li>Wide stroke spacing in number sign <i>#</i></li>
-		<li>Right-angled comma <i>, ;</i></li>
-		<li>Square corners of curly brackets <i>{ }</i></li>
+		<li>Wide stroke spacing in number sign <b>#</b></li>
+		<li>Right-angled comma <b>, ;</b></li>
+		<li>Square corners of curly brackets <b>{ }</b></li>
 	</ul>
 </td>
 </tr>
@@ -1176,14 +1171,14 @@
 </td>
 <td>
 	<ul>
-		<li>Another unusual ampersand <i>&amp;</i></li>
-		<li>Asterisk <i>*</i> is a square</li>
+		<li>Another unusual ampersand <b>&amp;</b></li>
+		<li>Asterisk <b>*</b> is a square</li>
 	</ul>
 </td>
 <td>
 	<ul>
-		<li>Bold exclamation mark <i>!</i></li>
-		<li>Different shape of non-descending <i>y</i></li>
+		<li>Bold exclamation mark <b>!</b></li>
+		<li>Different shape of non-descending <b>y</b></li>
 	</ul>
 </td>
 </tr>
@@ -1194,7 +1189,7 @@
 <p><i>Reference: ascii.png (game texture file)</i></p>
 
 <p>Although this is by far the most stylised font shown here, I felt it was worth examining since it belongs to the best-selling video game of all time; countless words in this font have been read by hundreds of millions of people around the world. This makes it a significant design with wide recognition, especially amongst young people.</p>
-<p>In monospaced fonts like those above (except PixelMix), it was normal to include serifs on <i>1 I i l</i> for extra width. The Minecraft font is proportionally spaced, however, so many glyphs are much wider or narrower than usual. Additionally, the proportions of many glyphs (like the small punctuation marks, small raised asterisk, full-height slashes, etc.) are unusual for 5&times;7 dot matrix fonts, but perfectly normal for conventional typefaces. These features all help to give the Minecraft font a more contemporary feel.</p>
+<p>In monospaced fonts like those above (except PixelMix), it was normal to include serifs on <b>1 I i l</b> for extra width. The Minecraft font is proportionally spaced, however, so many glyphs are much wider or narrower than usual. Additionally, the proportions of many glyphs (like the small punctuation marks, small raised asterisk, full-height slashes, etc.) are unusual for 5&times;7 dot matrix fonts, but perfectly normal for conventional typefaces. These features all help to give the Minecraft font a more contemporary feel.</p>
 <table class="pmi">
 <tr>
 	<th>P 😍</th>
@@ -1207,24 +1202,24 @@
 </td>
 <td>
 	<ul>
-		<li>Yet another poorly-executed ampersand <i>&</i></li>
-		<li>Small, raised asterisk <i>*</i> less recognisable</li>
-		<li>Wide base of <i>1</i></li>
-		<li>Serif on <i>2</i></li>
-		<li>Tailless <i>4</i></li>
-		<li>Long tails of <i>g y</i></li>
-		<li>Square corner of <i>w</i></li>
+		<li>Yet another poorly-executed ampersand <b>&</b></li>
+		<li>Small, raised asterisk <b>*</b> less recognisable</li>
+		<li>Wide base of <b>1</b></li>
+		<li>Serif on <b>2</b></li>
+		<li>Tailless <b>4</b></li>
+		<li>Long tails of <b>g y</b></li>
+		<li>Square corner of <b>w</b></li>
 	</ul>
 </td>
 <td>
 	<ul>
-		<li>Narrow dots in percent sign <i>%</i></li>
-		<li>Larger at sign <i>@</i> still an abstract squiggle</li>
-		<li>High-waisted capitals <i>A B E F G H K P R S X Y</i></li>
-		<li>Stroke of <i>Q</i> only extends outwards</li>
-		<li>Vertical tail of <i>R</i></li>
-		<li>Inconsistent terminals of <i>S</i></li>
-		<li>Serifless <i>i j l</i></li>
+		<li>Narrow dots in percent sign <b>%</b></li>
+		<li>Larger at sign <b>@</b> still an abstract squiggle</li>
+		<li>High-waisted capitals <b>A B E F G H K P R S X Y</b></li>
+		<li>Stroke of <b>Q</b> only extends outwards</li>
+		<li>Vertical tail of <b>R</b></li>
+		<li>Inconsistent terminals of <b>S</b></li>
+		<li>Serifless <b>i j l</b></li>
 	</ul>
 </td>
 </tr>
@@ -1249,24 +1244,24 @@
 <tr>
 <td>
 	<ul>
-		<li>Effective pound sign <i>£</i></li>
-		<li>Attractive section sign <i>§</i> is clearly based on <i>S</i></li>
-		<li>Wide degree sign <i>°</i> keeps counter open, even after application of the SAA5050&rsquo;s diagonal-smoothing algorithm</li>
-		<li>No bar in fractions <i>½ ¼ ¾</i> to maximise legibility at this low resolution</li>
-		<li>Attractive sharp s <i>ß</i></li>
-		<li>Distinguished, right-angled cedilla on <i>ç</i></li>
+		<li>Effective pound sign <b>£</b></li>
+		<li>Attractive section sign <b>§</b> is clearly based on <b>S</b></li>
+		<li>Wide degree sign <b>°</b> keeps counter open, even after application of the SAA5050&rsquo;s diagonal-smoothing algorithm</li>
+		<li>No bar in fractions <b>½ ¼ ¾</b> to maximise legibility at this low resolution</li>
+		<li>Attractive sharp s <b>ß</b></li>
+		<li>Distinguished, right-angled cedilla on <b>ç</b></li>
 	</ul>
 </td>
 <td>
 	<ul>
-		<li>Diacritics of <i>à â è é ê ô</i> touching base glyphs</li>
+		<li>Diacritics of <b>à â è é ê ô</b> touching base glyphs</li>
 	</ul>
 </td>
 <td>
 	<ul>
-		<li>Square currency sign <i>¤</i></li>
-		<li>Shorter letters <i>Ä Å É Ö Ü ì î ò û ü</i> to fit diacritical marks</li>
-		<li>Single dot for ring of <i>Å å</i></li>
+		<li>Square currency sign <b>¤</b></li>
+		<li>Shorter letters <b>Ä Å É Ö Ü ì î ò û ü</b> to fit diacritical marks</li>
+		<li>Single dot for ring of <b>Å å</b></li>
 	</ul>
 </td>
 </tr>
@@ -1285,17 +1280,17 @@
 </td>
 <td>
 	<ul>
-		<li>Ugly pound sign <i>£</i></li>
-		<li>No right downstroke on micro sign/mu <i>µ</i></li>
-		<li>Inverted question mark <i>¿</i> does not match regular one</li>
-		<li>Acute and grave accents on <i>À Á</i> are droopy</li>
-		<li>Misaligned diacritics on <i>È É Ê Ë Ì Í Î Ò Ó Û</i></li>
+		<li>Ugly pound sign <b>£</b></li>
+		<li>No right downstroke on micro sign/mu <b>µ</b></li>
+		<li>Inverted question mark <b>¿</b> does not match regular one</li>
+		<li>Acute and grave accents on <b>À Á</b> are droopy</li>
+		<li>Misaligned diacritics on <b>È É Ê Ë Ì Í Î Ò Ó Û</b></li>
 	</ul>
 </td>
 <td>
 	<ul>
-		<li>Inverted exclamation mark <i>&iexcl;</i> on baseline, suits all-capitals text</li>
-		<li>Diagonal cedilla on <i>Ç</i></li>
+		<li>Inverted exclamation mark <b>&iexcl;</b> on baseline, suits all-capitals text</li>
+		<li>Diagonal cedilla on <b>Ç</b></li>
 	</ul>
 </td>
 </tr>
@@ -1316,20 +1311,20 @@
 </td>
 <td>
 	<ul>
-		<li>Broken stroke of cent sign <i>¢</i> differs from <i>$</i></li>
-		<li>Another unsuccessful attempt at a calligraphic pound sign <i>£</i></li>
+		<li>Broken stroke of cent sign <b>¢</b> differs from <b>$</b></li>
+		<li>Another unsuccessful attempt at a calligraphic pound sign <b>£</b></li>
 		<li>Ordinal indicators ª º have different widths</li>
-		<li>Narrow counter of micro sign/mu <i>µ</i></li>
-		<li>Fractions <i>¼ ½ ¾</i> inconsistent and cramped</li>
-		<li>Width of <i>ü</i> inconsistent with <i>ù ú û</i></li>
+		<li>Narrow counter of micro sign/mu <b>µ</b></li>
+		<li>Fractions <b>¼ ½ ¾</b> inconsistent and cramped</li>
+		<li>Width of <b>ü</b> inconsistent with <b>ù ú û</b></li>
 	</ul>
 </td>
 <td>
 	<ul>
-		<li>Prominent crossbars of yen sign <i>¥</i></li>
-		<li>Large central section of narrow section sign <i>§</i></li>
-		<li>Curved cedilla on <i>ç</i></li>
-		<li><i>Õ õ</i> differ only in width</li>
+		<li>Prominent crossbars of yen sign <b>¥</b></li>
+		<li>Large central section of narrow section sign <b>§</b></li>
+		<li>Curved cedilla on <b>ç</b></li>
+		<li><b>Õ õ</b> differ only in width</li>
 	</ul>
 </td>
 </tr>
@@ -1348,23 +1343,23 @@
 <tr>
 <td>
 	<ul>
-		<li>Well-executed, calligraphic pound sign <i>£</i></li>
-		<li>Micro sign <i>&micro;</i> matches <i>u</i>, as in most conventional sans-serif typefaces</li>
+		<li>Well-executed, calligraphic pound sign <b>£</b></li>
+		<li>Micro sign <b>&micro;</b> matches <b>u</b>, as in most conventional sans-serif typefaces</li>
 	</ul>
 </td>
 <td>
 	<ul>
-		<li>Awkward section sign <i>§</i></li>
-		<li>Ugly pilcrow/paragraph sign <i>&para;</i></li>
-		<li>Serifed thorn <i>&THORN; &thorn;</i></li>
-		<li>Tall <i>&aelig;</i></li>
-		<li><i>&igrave; &iacute; &icirc; &iuml;</i> do not match <i>i</i></li>
-		<li>Ugly (but at least clear) eth <i>&eth;</i></li>
+		<li>Awkward section sign <b>§</b></li>
+		<li>Ugly pilcrow/paragraph sign <b>&para;</b></li>
+		<li>Serifed thorn <b>&THORN; &thorn;</b></li>
+		<li>Tall <b>&aelig;</b></li>
+		<li><b>&igrave; &iacute; &icirc; &iuml;</b> do not match <b>i</b></li>
+		<li>Ugly (but at least clear) eth <b>&eth;</b></li>
 	</ul>
 </td>
 <td>
 	<ul>
-		<li>Very large degree sign <i>&deg;</i></li>
+		<li>Very large degree sign <b>&deg;</b></li>
 	</ul>
 </td>
 </tr>
@@ -1383,22 +1378,22 @@
 <tr>
 <td>
 	<ul>
-		<li>Effective copyright symbol <i>&copy;</i></li>
+		<li>Effective copyright symbol <b>&copy;</b></li>
 	</ul>
 </td>
 <td>
 	<ul>
-		<li>Small superscript <i>&sup3;</i> is barely legible</li>
-		<li>Horizontal grave and acute accents <i>&Agrave; &Aacute; etc.</i> are only recognisable in context</li>
-		<li>Tilde <i>&Ntilde; etc.</i> looks more like double acute accent</li>
-		<li>Ugly <i>&Oslash; &oslash;</i></li>
-		<li>Greek delta <i>&delta;</i> in place of eth <i>&eth;</i></li>
+		<li>Small superscript <b>&sup3;</b> is barely legible</li>
+		<li>Horizontal grave and acute accents <b>&Agrave; &Aacute; etc.</b> are only recognisable in context</li>
+		<li>Tilde <b>&Ntilde; etc.</b> looks more like double acute accent</li>
+		<li>Ugly <b>&Oslash; &oslash;</b></li>
+		<li>Greek delta <b>&delta;</b> in place of eth <b>&eth;</b></li>
 	</ul>
 </td>
 <td>
 	<ul>
-		<li>Square ring of <i>&Aring; &aring;</i></li>
-		<li>Rotationally symmetric <i>&aelig;</i></li>
+		<li>Square ring of <b>&Aring; &aring;</b></li>
+		<li>Rotationally symmetric <b>&aelig;</b></li>
 	</ul>
 </td>
 </tr>
@@ -1417,21 +1412,21 @@
 <tr>
 <td>
 	<ul>
-		<li>Perfectly consistent and clear letters (with the only exceptions of the awkward <i>&Oslash; &eth;</i>)</li>
+		<li>Perfectly consistent and clear letters (with the only exceptions of the awkward <b>&Oslash; &eth;</b>)</li>
 	</ul>
 </td>
 <td>
 	<ul>
-		<li>Very angular micro sign/mu <i>&micro;</i></li>
-		<li>Extra dot near centre of pilcrow/paragraph sign <i>&para;</i></li>
+		<li>Very angular micro sign/mu <b>&micro;</b></li>
+		<li>Extra dot near centre of pilcrow/paragraph sign <b>&para;</b></li>
 	</ul>
 </td>
 <td>
 	<ul>
-		<li>Unique, well-executed pound sign <i>&pound;</i></li>
-		<li>Single stroke in yen sign <i>&yen;</i></li>
-		<li>Unusual but effective section sign <i>&sect;</i></li>
-		<li>Incomplete circles in copyright and registered trademark symbols <i>&copy; &reg;</i> to remain 5-dots wide</li>
+		<li>Unique, well-executed pound sign <b>&pound;</b></li>
+		<li>Single stroke in yen sign <b>&yen;</b></li>
+		<li>Unusual but effective section sign <b>&sect;</b></li>
+		<li>Incomplete circles in copyright and registered trademark symbols <b>&copy; &reg;</b> to remain 5-dots wide</li>
 	</ul>
 </td>
 </tr>
@@ -1451,7 +1446,7 @@
 <tr>
 <td>
 	<ul>
-		<li>Well-executed eth <i>&eth;</i></li>
+		<li>Well-executed eth <b>&eth;</b></li>
 	</ul>
 </td>
 <td>
@@ -1473,33 +1468,33 @@
 
 <h3>Untitled, 2014</h3>
 <img src="research/mine1.png" alt="My past design No. 1">
-<p>This was one of my earliest efforts, based on the 7&times;7 font I created first. The long ascenders and descenders, number <i>1</i>, capital letters <i>A I S V Y</i> and small <i>j</i> are all unusual designs. The small letters almost have the traditionally correct shapes, if not for <i>d</i>.</p>
+<p>This was one of my earliest efforts, based on the 7&times;7 font I created first. The long ascenders and descenders, number <b>1</b>, capital letters <b>A I S V Y</b> and small <b>j</b> are all unusual designs. The small letters almost have the traditionally correct shapes, if not for <b>d</b>.</p>
 
 <h3>Untitled, 2014</h3>
 <img src="research/mine2.png" alt="My past design No. 2">
 
-<p>This is an improved version of the previous design, now based on smaller character cells. Here, I had arrived upon my favourite design of the slashes <i>/ \</i>, which admittedly doesn&rsquo;t work very well in the per cent sign <i>%</i>. There is also a unique design for the capital <i>G</i> and the rare variant of <i>R</i>, which I must have created independently. I remember adding the extra curves to <i>S</i> after seeing other examples and realising my previous effort was rather unusual.</p>
+<p>This is an improved version of the previous design, now based on smaller character cells. Here, I had arrived upon my favourite design of the slashes <b>/ \</b>, which admittedly doesn&rsquo;t work very well in the per cent sign <b>%</b>. There is also a unique design for the capital <b>G</b> and the rare variant of <b>R</b>, which I must have created independently. I remember adding the extra curves to <b>S</b> after seeing other examples and realising my previous effort was rather unusual.</p>
 
 <h3>Untitled, 2018</h3>
 <img src="research/mine3.png" alt="My past design No. 3">
 
-<p>This design was created from scratch, without reference to any previous efforts. All the alphanumeric characters here are strictly 5 dots wide, including <i>1 I i j l</i>. We can see the introduction of my favourite design for the question mark <i>?</i>, and the capital <i>Y</i> no longer resembles <i>V</i>.</p>
+<p>This design was created from scratch, without reference to any previous efforts. All the alphanumeric characters here are strictly 5 dots wide, including <b>1 I i j l</b>. We can see the introduction of my favourite design for the question mark <b>?</b>, and the capital <b>Y</b> no longer resembles <b>V</b>.</p>
 
 <h3>QS Matrix 1.0, 2019</h3>
 <img src="research/mine4.png" alt="My past design No. 4">
 
-<p><a href="http://friedorange.xyz/quikscript/myfonts/QSMatrix.zip">This design</a> was created primarily as a font for the Quikscript and Shavian alphabets, hence the name QS Matrix. The design may have been based on the previous one, as it shares many similarities. The small <i>y</i> is unusual, and was inspired by the one from the Commodore MPS-803 printer as seen above.</p>
+<p><a href="http://friedorange.xyz/quikscript/myfonts/QSMatrix.zip">This design</a> was created primarily as a font for the Quikscript and Shavian alphabets, hence the name QS Matrix. The design may have been based on the previous one, as it shares many similarities. The small <b>y</b> is unusual, and was inspired by the one from the Commodore MPS-803 printer as seen above.</p>
 <p><a href="http://friedorange.xyz/quikscript/myfonts.html">Version 2</a> of this font was made after beginning the study documented here. As a result, I decided to alter some glyphs to make the font appear a little more generic.</p>
 
 
 <h2>Honourable mentions</h2>
 
-<p>I only discovered the following examples <em>after</em> this study was complete and all key glyphs for Matrix Sans were already designed. Nevertheless, in the interests of completeness, here are all of the remaining 5&times;7 dot matrix fonts that I have found. </p>
+<p>I only discovered the following examples <em>after</em> this study was complete and all key glyphs for Matrix Sans were already designed. Nevertheless, in the interests of completeness, here are all of the remaining 5&times;7 dot matrix fonts that I have found (excluding most modern designs that can be found on websites such as FontStruct, as they are high in quantity and low in  quality). Most of them still have many unique and unusual features:</p>
 
 <h3>Texas Instruments TMS9918 data book</h3>
 <img src="research/TI%20TMS9918.png" alt="Texas Instruments TMS9918 sample character set">
 <p><i>Reference: <a href="https://www.cs.columbia.edu/~sedwards/papers/TMS9918.pdf">TMS9918 Data Book</a></i></p>
-<p>From the data book pertaining to the video chip used in countless computers and video game systems of the 1980s. The small capital-style lower case is similar to that seen in the font from the TI 99/4A computer (see above). The curly brackets <i>{ }</i> are similar to my preferred style, that I previously thought I invented. Nothing new under the sun!</p>
+<p>From the data book pertaining to the video chip used in countless computers and video game systems of the 1980s. The small capital-style lower case is similar to that seen in the font from the TI 99/4A computer (see above).</p>
 
 <h3>Sinclair QL</h3>
 <img src="research/Sinclair%20QL.png" alt="Sinclair QL character set">
@@ -1508,28 +1503,27 @@
 
 <h3>Memotech MTX512</h3>
 <img src="research/MTX512.png" alt="Memotech MTX512 character set">
-<p><i>Reference: <a href="http://www.nyangau.org/memu/memu.htm">MEMU</a> emulator (see <a hfref="MTX512-screenshot">screenshot</a>)</i></p>
-<p>Mid-1980s home computer.</p>
-
-<h3>SAM Coupé</h3>
-<p><i>Reference: </i></p>
-<p>Late-1980s home computer.</p>
+<p><i>Reference: <a href="http://www.nyangau.org/memu/memu.htm">MEMU</a> emulator (see <a href="research/MTX512-screenshot.png">screenshot</a>)</i></p>
+<p>Mid-1980s home computer. The lower-case alphabet contains a number of oddities.</p>
 
 <h3>Monaco</h3>
 <img src="research/Monaco.png" alt="9-point Monaco bitmap font">
-<p><i>Reference: </i></p>
-<p>Designed by Susan Kare, this is the 9-point version of the monospaced bitmap font provided with early Apple Macintosh computers. It contains a number of very unusual features (particularly <i># % 6 9 Q R X</i>) and was probably a fully original design, rather than being largely derivative like almost every other font shown on this page.</p>
+<p><i>Reference: <a href="https://infinitemac.org/1984/System%201.0?saved_hd=false">Infinite Mac</a> emulator</i></p>
+<p>Designed by Susan Kare, this is the 9-point version of the monospaced bitmap font provided with early Apple Macintosh computers. It contains a number of very unusual features (particularly <b># % 6 9 Q R X</b>) and was probably a fully original design, rather than being largely derivative like almost every other font shown on this page.</p>
 
-<h3>Monte Carlo</h3>
-<p><i>Reference: </i></p>
-<p></p>
+<h3>SAM Coupé</h3>
+<img src="research/Sam%20Coupe.png" alt="Sam Coupé character set">
+<p><i>Reference: <a href="https://github.com/simonowen/simcoupe">SimCoupe</a> emulator (see <a href="research/Sam-Coupe-screenshot.png">screenshot</a>)</i></p>
+<p>Late-1980s home computer. The font is very similar to that of the Sinclair QL (see above), with most of the differences being in the lower case letters.</p>
 
-<h3>Necker</h3>
-<p><i>Reference: </i></p>
-<p>A Metafont font.</p>
+<h3>Neckerspoel</h3>
+<img src="research/Neckerspoel.png" alt="Neckerspoel font">
+<p><i>Reference: necker.mf from <a href="https://ctan.org/pkg/capbas?lang=en">&ldquo;capbas&rdquo; font collectiion</a></i></p>
+<p>A Metafont font dating from the early 1990s. According to the author, the name <em>Neckerspoel</em> “comes from the futuristic bus station in Eindhoven, where they use it in the ‘flip-dot’ displays above the buses.&rdquo; The characters <b>$ 3 ? ? @ W a i l w</b> are unique or unusual.</p>
 
 <h3>Dottie</h3>
-<p><i>Reference: </i></p>
+<img src="research/Dottie.png" alt="Dottie font">
+<p><i>Reference: <a href="https://www.myfonts.com/collections/dottie-font-ingrimayne-type?tab=glyphs">Dottie font</a> from MyFonts</i></p>
 <p>An early-2000s commercial typeface.</p>
 
 
@@ -1542,9 +1536,9 @@
 	<li>consistency</li>
 	<li>sound design</li>
 </ul>
-<p>The former two qualities are often in conflict with the latter two; for example, the crossbar of small <i>f</i> should ideally be at the waistline, but almost never is in the fonts seen above. Here, I would make the crossbar lower in the interests of authenticity. Doing so also adds a degree of quirkiness, which I think is desirable in such a font.</p>
+<p>The former two qualities are often in conflict with the latter two; for example, the crossbar of small <b>f</b> should ideally be at the waistline, but almost never is in the fonts seen above. Here, I would make the crossbar lower in the interests of authenticity. Doing so also adds a degree of quirkiness, which I think is desirable in such a font.</p>
 
-<p>Of course, there is really a fifth, hidden criterion for choosing these designs: personal taste. Despite attempts to remain impartial, some of my preferences &#x2014; even dating back to my earliest, inexperienced designs &#x2014; have sneaked into this project. Most notable are the rare less-than and greater-than signs <i> &lt; &gt;</i> and question mark <i>?</i>, and the (possibly) unique small <i>m</i>. To be fair, these instances can actually be justified under the sound design principle, as sometimes the most common variant seen above just isn&rsquo;t very good (in my opinion). But perhaps it is only right that I do leave some kind of mark here, rather than creating the most generic design possible.</p>
+<p>Of course, there is really a fifth, hidden criterion for choosing these designs: personal taste. Despite attempts to remain impartial, some of my preferences &#x2014; even dating back to my earliest, inexperienced designs &#x2014; have sneaked into this project. Most notable are the rare less-than and greater-than signs <b> &lt; &gt;</b> and question mark <b>?</b>, and the (possibly) unique small <b>m</b>. To be fair, these instances can actually be justified under the sound design principle, as sometimes the most common variant seen above just isn&rsquo;t very good (in my opinion). But perhaps it is only right that I do leave some kind of mark here, rather than creating the most generic design possible.</p>
 
 <p>So, after seeing a dizzying array of 5&times;7 dot matrix fonts from past and present, it is finally time to design my new font. I consider the following glyphs to be easy choices, because the overwhelming majority of existing fonts use them or because they have no reasonable alternatives:</p>
 
@@ -1552,9 +1546,9 @@
 	<img src="research/options/easychoices.png" alt="Glyphs with easy design choices">
 </figure>
 
-<p>While this image only spans the range of the ISO&#x2011;8859&#x2011;1 character set, I plan for the font to support both <a href="https://github.com/adobe-type-tools/adobe-latin-charsets">Adobe Latin 4</a> and <del><a href="https://github.com/googlefonts/glyphsets/tree/main/Lib/glyphsets/encodings/GF%20Glyph%20Sets">Google Fonts Latin Expert</a></del> <del><a href="https://github.com/googlefonts/glyphsets/tree/main/GF_glyphsets/Latin">Google Fonts Latin Level 4</a></del> <a href="https://github.com/googlefonts/glyphsets/blob/main/GLYPHSETS.md">Google Fonts Latin Core-Vietnamese-Plus</a>, which have much wider Unicode coverage. Also note that I have had to extend the character cells to 7 dots wide in order to fit the vulgar fractions <i>¼ ½ ¾</i>, and the copyright and registered trademark symbols &copy; &reg;, which require 6 dots of width. It is possible to make those fractions only 5 dots wide, as in the Mullard SAA5050 seen above, but that scheme would not work for the others like <i>⅔ ⅜ ⅝ ⅞</i>.</p>
+<p>While this image only spans the range of the ISO&#x2011;8859&#x2011;1 character set, I plan for the font to support both <a href="https://github.com/adobe-type-tools/adobe-latin-charsets">Adobe Latin 4</a> and <del><a href="https://github.com/googlefonts/glyphsets/tree/main/Lib/glyphsets/encodings/GF%20Glyph%20Sets">Google Fonts Latin Expert</a></del> <del><a href="https://github.com/googlefonts/glyphsets/tree/main/GF_glyphsets/Latin">Google Fonts Latin Level 4</a></del> <a href="https://github.com/googlefonts/glyphsets/blob/main/GLYPHSETS.md">Google Fonts Latin Core-Vietnamese-Plus</a>, which have much wider Unicode coverage. Also note that I have had to extend the character cells to 7 dots wide in order to fit the vulgar fractions <b>¼ ½ ¾</b>, and the copyright and registered trademark symbols &copy; &reg;, which require 6 dots of width. It is possible to make those fractions only 5 dots wide, as in the Mullard SAA5050 seen above, but that scheme would not work for the others like <b>⅔ ⅜ ⅝ ⅞</b>.</p>
 
-<p>To fill in the gaps of the above figure, I judged which option would best suit my intended aesthetic for the font, based on the four principles mentioned at the start of this section and visual trials of different variations. I consider many of these options to be equally good. In fact, in some cases my real personal preference ended up as the second choice, since I ultimately decided a different option was more suitable for the font as a whole. The following table lists the glyphs I chose from, in decreasing order of preference (<i>i.e.</i> with my final decision leftmost):</p>
+<p>To fill in the gaps of the above figure, I judged which option would best suit my intended aesthetic for the font, based on the four principles mentioned at the start of this section and visual trials of different variations. I consider many of these options to be equally good. In fact, in some cases my real personal preference ended up as the second choice, since I ultimately decided a different option was more suitable for the font as a whole. The following table lists the glyphs I chose from, in decreasing order of preference (<b>i.e.</b> with my final decision leftmost):</p>
 
 <table>
 <tr>
@@ -1587,7 +1581,7 @@
 </tr>
 <tr>
 	<td><img src="research/options/3.png"></td>
-	<td>Option 2 is more legible and better distinguished from <i>8</i> and the Cyrillic letter <i>З</i>, but probably too rare to use here.</td>
+	<td>Option 2 is more legible and better distinguished from <b>8</b> and the Cyrillic letter <b>З</b>, but probably too rare to use here.</td>
 </tr>
 <tr>
 	<td><img src="research/options/lt.png"></td>
@@ -1603,19 +1597,19 @@
 </tr>
 <tr>
 	<td><img src="research/options/A.png"></td>
-	<td>Option 2 here (as with <i>D G</i> below) is more consistent with the other capitals and arguably a more sound design. I chose Option 1 to inject a little more quirkiness to the font.</td>
+	<td>Option 2 here (as with <b>D G</b> below) is more consistent with the other capitals and arguably a more sound design. I chose Option 1 to inject a little more quirkiness to the font.</td>
 </tr>
 <tr>
 	<td><img src="research/options/D.png"></td>
-	<td>Reasons as noted for <i>A</i> above. Option 1 is also much more legible.</td>
+	<td>Reasons as noted for <b>A</b> above. Option 1 is also much more legible.</td>
 </tr>
 <tr>
 	<td><img src="research/options/G.png"></td>
-	<td>Reasons as noted for <i>A</i> above. Options 3 and 4 are perhaps a little too exaggerated for this font.</td>
+	<td>Reasons as noted for <b>A</b> above. Options 3 and 4 are perhaps a little too exaggerated for this font.</td>
 </tr>
 <tr>
 	<td><img src="research/options/J.png"></td>
-	<td>Chosen for consistency with capital <i>I</i>.</td>
+	<td>Chosen for consistency with capital <b>I</b>.</td>
 </tr>
 <tr>
 	<td><img src="research/options/N.png"></td>
@@ -1623,11 +1617,11 @@
 </tr>
 <tr>
 	<td><img src="research/options/V.png"></td>
-	<td>Less legible than Option 2, but chosen for consistency with <i>A</i> and <i>v</i>.</td>
+	<td>Less legible than Option 2, but chosen for consistency with <b>A</b> and <b>v</b>.</td>
 </tr>
 <tr>
 	<td><img src="research/options/W.png"></td>
-	<td>Also less legible than Option 2, but chosen for consistency with <i>V v w</i></td>
+	<td>Also less legible than Option 2, but chosen for consistency with <b>V v w</b></td>
 </tr>
 <tr>
 	<td><img src="research/options/Y.png"></td>
@@ -1635,11 +1629,11 @@
 </tr>
 <tr>
 	<td><img src="research/options/b.png"></td>
-	<td>A tough decision. Option 3 matches option 2 of <i>h n r u</i>, which I don&rsquo;t like very much. Option 2 is the most well-designed; perhaps <i>too</i> well-designed for this font. Therefore, I chose Option 1 for being suitably quirky, yet functional.</td>
+	<td>A tough decision. Option 3 matches option 2 of <b>h n r u</b>, which I don&rsquo;t like very much. Option 2 is the most well-designed; perhaps <b>too</b> well-designed for this font. Therefore, I chose Option 1 for being suitably quirky, yet functional.</td>
 </tr>
 <tr>
 	<td><img src="research/options/c.png"></td>
-	<td>Although Options 2 and 3 are more legible, I prefer glyphs that are 5 dots wide and Option 3 is unattractive.</td>
+	<td>Although Options 2 and 3 are more legible, I prefer glyphs that are 5 dots wide and Option 2 is unattractive.</td>
 </tr>
 <tr>
 	<td><img src="research/options/e.png"></td>
@@ -1647,15 +1641,15 @@
 </tr>
 <tr>
 	<td><img src="research/options/f.png"></td>
-	<td>Is 5 dots wide, more open and legible, more authentic, and the hook is consistent with <i>j t</i>.</td>
+	<td>Is 5 dots wide, more open and legible, more authentic, and the hook is consistent with <b>j t</b>.</td>
 </tr>
 <tr>
 	<td><img src="research/options/h.png"></td>
-	<td>I much prefer the look of option 1. It is also consistent with <i>b d</i> etc.</td>
+	<td>I much prefer the look of option 1. It is also consistent with <b>b d</b> etc.</td>
 </tr>
 <tr>
 	<td><img src="research/options/j_lc.png"></td>
-	<td>The hook is consistent with <i>f t</i> and the serif is consistent with <i>i</i>.</td>
+	<td>The hook is consistent with <b>f t</b> and the serif is consistent with <b>i</b>.</td>
 </tr>
 <tr>
 	<td><img src="research/options/k.png"></td>
@@ -1667,11 +1661,11 @@
 </tr>
 <tr>
 	<td><img src="research/options/r.png"></td>
-	<td>Option 2 would match Option 2 of <i>b h</i> etc.</td>
+	<td>Option 2 would match Option 2 of <b>b h</b> etc.</td>
 </tr>
 <tr>
 	<td><img src="research/options/t.png"></td>
-	<td>Similar reasons as for <i>f</i>.</td>
+	<td>Similar reasons as for <b>f</b>.</td>
 </tr>
 <tr>
 	<td><img src="research/options/v_lc.png"></td>
@@ -1679,7 +1673,7 @@
 </tr>
 <tr>
 	<td><img src="research/options/w_lc.png"></td>
-	<td>Chosen for consistency with <i>m</i>.</td>
+	<td>Chosen for consistency with <b>m</b>.</td>
 </tr>
 <tr>
 	<td><img src="research/options/y_lc.png"></td>
@@ -1695,7 +1689,7 @@
 </tr>
 <tr>
 	<td><img src="research/options/yen.png"></td>
-	<td>Same reasons as for the pound sign <i>&pound;</i> above.</td>
+	<td>Same reasons as for the pound sign <b>&pound;</b> above.</td>
 </tr>
 <tr>
 	<td><img src="research/options/section.png"></td>
@@ -1707,7 +1701,7 @@
 </tr>
 <tr>
 	<td><img src="research/options/micro.png"></td>
-	<td>A more traditional Greek shape, and unrelated to the design of <i>u</i> as it technically should be.</td>
+	<td>A more traditional Greek shape, and unrelated to the design of <b>u</b> as it technically should be.</td>
 </tr>
 <tr>
 	<td><img src="research/options/pilcrow.png"></td>
@@ -1719,8 +1713,16 @@
 </tr>
 </table>
 
+<p>With those more difficult choices made, here is the final design I arrived upon. In my view, it contains all of the best features from the many designs examined above and none of the worst:</p>
+
+<figure class="font" style="max-width: 768px;">
+	<img src="research/options/finaldesign.png" alt="Final design of Matrix Sans">
+</figure>
+
+<p>This may be the most effort anyone has ever put into a classic dot matrix-style font. I hope you find the result useful!</p>
+
 <footer>
-<p>Text is copyright &copy; 2022-2024, Brad Neil. All images on this page are made available under the <a href="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero license</a>.
+<p><i>Text is copyright &copy; 2020-2024, Brad Neil. All images on this page are made available under the <a href="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero licence</a> (public domain dedication).</i></p>
 </footer>
 
 </body>
