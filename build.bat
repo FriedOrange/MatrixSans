@@ -2,7 +2,7 @@
 
 rem Build OpenType fonts
 @cd sources
-python %USERPROFILE%\AppData\Local\Programs\Python\Python310\Scripts\gftools-builder.py config.yaml
+gftools builder config.yaml
 
 rem Patch in META table to fonts
 @cd ..
@@ -13,7 +13,6 @@ python documentation\image3.py --output documentation\sample.png
 
 rem Generate proof HTML documents
 @cd fonts\ttf
-set PYTHONUTF8=1
-python %USERPROFILE%\AppData\Local\Programs\Python\Python310\Scripts\gftools-gen-html.py proof -o ..\..\out\proof MatrixSansPrint-Regular.ttf MatrixSans-Regular.ttf MatrixSansScreen-Regular.ttf MatrixSansVideo-Regular.ttf MatrixSansRaster-Regular.ttf
+diffenator2 proof -o ..\..\out\proof MatrixSansPrint-Regular.ttf MatrixSans-Regular.ttf MatrixSansScreen-Regular.ttf MatrixSansVideo-Regular.ttf MatrixSansRaster-Regular.ttf
 
 @cd ..\..

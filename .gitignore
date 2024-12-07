@@ -10,6 +10,9 @@ glyph\ sets
 out
 test.log
 sources/temp
+.ninja_log
+build.ninja
+ccmp'
 
 # OS generated files #
 ######################
