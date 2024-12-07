@@ -5,3 +5,4 @@ sh>=2.0.6
 bumpfontversion>=0.4.1
 diffenator2>=0.3.8
 sfdLib==2.0.0.post0
+fonttools>=4.55.0
