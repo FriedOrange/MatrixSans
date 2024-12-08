@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uhorn.sc" format="2">
+  <advance width="800"/>
+  <outline>
+    <component base="u.sc"/>
+    <component base="horncomb" xOffset="550.0" yOffset="-200.0"/>
+  </outline>
+</glyph>
