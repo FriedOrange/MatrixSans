@@ -830,6 +830,7 @@
       <string>ydotbelow.sc</string>
       <string>yhookabove.sc</string>
       <string>ytilde.sc</string>
+      <string>edotbelow.sc</string>
     </array>
     <key>public.openTypeCategories</key>
     <dict>
@@ -1456,6 +1457,8 @@
       <key>edotaccent.sc</key>
       <string>base</string>
       <key>edotbelow</key>
+      <string>base</string>
+      <key>edotbelow.sc</key>
       <string>base</string>
       <key>egrave</key>
       <string>base</string>

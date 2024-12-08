@@ -628,6 +628,8 @@
     <string>edotaccent.sc.glif</string>
     <key>edotbelow</key>
     <string>edotbelow.glif</string>
+    <key>edotbelow.sc</key>
+    <string>edotbelow.sc.glif</string>
     <key>egrave</key>
     <string>egrave.glif</string>
     <key>egrave.sc</key>
