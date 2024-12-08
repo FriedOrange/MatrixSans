@@ -69,7 +69,7 @@ Fonts are built automatically by GitHub Actions - see the "Actions" tab for the 
 
 Ensure the following programs are installed: 
 - [Python](https://www.python.org/downloads/), for running the following items
-- [gftools](https://github.com/googlefonts/gftools), for building the fonts from the intermediate UFO sources
+- [gftools](https://github.com/googlefonts/gftools) and [fonttools](https://github.com/fonttools/fonttools), for building the fonts from the intermediate UFO sources
 - [drawbot-skia](https://github.com/justvanrossum/drawbot-skia), for producing the sample images in the `documentation` folder (optional)
 - [Font Bakery](https://github.com/googlefonts/fontbakery/), for testing the fonts (run `test.bat`) (optional)
 - [sfdLib](https://github.com/MFEK/sfdLib.py), for generating the UFO sources (see below)
@@ -88,7 +88,7 @@ To build the fonts on Linux, macOS etc:
 
 The master source file, `MatrixSans_MASTER.sfd`, is in FontForge's SFD format. It is recommended to edit this file if you wish to modify the fonts. Then, re-generate the intermediate UFO sources by running `step2.bat`. Note that the batch files (`.bat`) are designed to run in the Windows Command Prompt; they may need to be rewritten to work on Linux, macOS etc.
 
-To easily add or modify glyphs (requires [FontForge](https://fontforge.org/):
+To easily add or modify glyphs (requires [FontForge](https://fontforge.org/)):
 
 - Edit the image `glyphs.pbm`
 - Set the corresponding glyph names in `glyphs.csv`
