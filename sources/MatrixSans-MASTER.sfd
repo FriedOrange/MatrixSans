@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1657964544
-ModificationTime: 1733628195
+ModificationTime: 1733634192
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -35,7 +35,7 @@ OS2TypoDOffset: 0
 OS2TypoLinegap: 0
 OS2WinAscent: 1000
 OS2WinAOffset: 0
-OS2WinDescent: 200
+OS2WinDescent: 300
 OS2WinDOffset: 0
 HheadAscent: 1000
 HheadAOffset: 0
@@ -64,7 +64,7 @@ NameList: MatrixSans
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 65488 16 14
+WinInfo: 16 16 14
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 629146 314573 209715 524288 1048576 0 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
@@ -79,11 +79,11 @@ Flags: HM
 LayerCount: 2
 Fore
 SplineSet
-0 0 m 25
- 0 101 l 25
- 101 101 l 25
- 101 0 l 25
- 0 0 l 25
+0 0 m 29
+ 0 101 l 29
+ 101 101 l 29
+ 101 0 l 29
+ 0 0 l 29
 EndSplineSet
 EndChar
 
@@ -4417,20 +4417,20 @@ LayerCount: 2
 Fore
 SplineSet
 850 340 m 1
- 850 550 680 720 450 720 c 0
- 230 720 40 550 40 350 c 0
- 40 150 230 -20 450 -20 c 0
- 580 -20 700 40 770 130 c 1
- 710 130 l 1
- 650 60 550 10 450 10 c 0
- 350 10 250 50 190 120 c 1
  190 340 l 1
- 850 340 l 1
+ 190 120 l 1
+ 250 50 350 10 450 10 c 0
+ 550 10 650 60 710 130 c 1
+ 770 130 l 1
+ 700 40 580 -20 450 -20 c 0
+ 230 -20 40 150 40 350 c 0
+ 40 550 230 720 450 720 c 0
+ 680 720 850 550 850 340 c 1
 190 360 m 1
- 190 580 l 1
- 250 650 350 690 450 690 c 0
- 550 690 640 650 700 580 c 1
  700 360 l 1
+ 700 580 l 1
+ 640 650 550 690 450 690 c 0
+ 350 690 250 650 190 580 c 1
  190 360 l 1
 EndSplineSet
 EndChar
@@ -11498,7 +11498,7 @@ StartChar: ebreve.sc
 Encoding: 65646 -1 776
 Width: 600
 VWidth: 0
-Flags: H
+Flags: HM
 LayerCount: 2
 Fore
 Refer: 277 774 N 1 0 0 1 300 0 2
@@ -11509,7 +11509,7 @@ StartChar: gcircumflex.sc
 Encoding: 65647 -1 777
 Width: 600
 VWidth: 0
-Flags: H
+Flags: HM
 LayerCount: 2
 Fore
 Refer: 229 770 N 1 0 0 1 300 0 2
@@ -11520,7 +11520,7 @@ StartChar: hcircumflex.sc
 Encoding: 65648 -1 778
 Width: 600
 VWidth: 0
-Flags: H
+Flags: HM
 LayerCount: 2
 Fore
 Refer: 229 770 N 1 0 0 1 300 0 2
@@ -11531,7 +11531,7 @@ StartChar: itilde.sc
 Encoding: 65649 -1 779
 Width: 600
 VWidth: 0
-Flags: HWO
+Flags: HMW
 LayerCount: 2
 Fore
 Refer: 231 771 N 1 0 0 1 300 0 2
@@ -11542,7 +11542,7 @@ StartChar: jcircumflex.sc
 Encoding: 65650 -1 780
 Width: 600
 VWidth: 0
-Flags: H
+Flags: HM
 LayerCount: 2
 Fore
 Refer: 229 770 N 1 0 0 1 400 0 2
@@ -11553,7 +11553,7 @@ StartChar: ldot.sc
 Encoding: 65651 -1 781
 Width: 600
 VWidth: 0
-Flags: HW
+Flags: HMW
 LayerCount: 2
 Fore
 Refer: 0 -1 S 1 0 0 1 350 300 2
@@ -11564,7 +11564,7 @@ StartChar: napostrophe.sc
 Encoding: 65652 -1 782
 Width: 900
 VWidth: 0
-Flags: HW
+Flags: HMW
 LayerCount: 2
 Fore
 Refer: 13 44 N 1 0 0 1 0 500 2
@@ -11575,7 +11575,7 @@ StartChar: utilde.sc
 Encoding: 65653 -1 783
 Width: 600
 VWidth: 0
-Flags: H
+Flags: HM
 LayerCount: 2
 Fore
 Refer: 231 771 N 1 0 0 1 300 0 2
@@ -11586,7 +11586,7 @@ StartChar: uhorn.sc
 Encoding: 65654 -1 784
 Width: 800
 VWidth: 0
-Flags: HW
+Flags: HMW
 AnchorPoint: "marks_above" 300 600 basechar 0
 AnchorPoint: "marks_below" 300 0 basechar 0
 AnchorPoint: "ogonek" 300 0 basechar 0
@@ -11600,7 +11600,7 @@ StartChar: uni01D0.sc
 Encoding: 65655 -1 785
 Width: 400
 VWidth: 0
-Flags: H
+Flags: HM
 LayerCount: 2
 Fore
 Refer: 238 780 N 1 0 0 1 200 0 2
@@ -11611,7 +11611,7 @@ StartChar: uni01D4.sc
 Encoding: 65656 -1 786
 Width: 600
 VWidth: 0
-Flags: H
+Flags: HM
 LayerCount: 2
 Fore
 Refer: 238 780 N 1 0 0 1 300 0 2
@@ -11622,7 +11622,7 @@ StartChar: uni01D6.sc
 Encoding: 65657 -1 787
 Width: 600
 VWidth: 0
-Flags: H
+Flags: HM
 LayerCount: 2
 Fore
 Refer: 274 772 N 1 0 0 1 300 200 2
@@ -11633,7 +11633,7 @@ StartChar: gcaron.sc
 Encoding: 65658 -1 788
 Width: 600
 VWidth: 0
-Flags: H
+Flags: HM
 LayerCount: 2
 Fore
 Refer: 238 780 N 1 0 0 1 300 0 2
@@ -11644,7 +11644,7 @@ StartChar: uni1E0D.sc
 Encoding: 65659 -1 789
 Width: 600
 VWidth: 0
-Flags: H
+Flags: HM
 LayerCount: 2
 Fore
 Refer: 491 803 N 1 0 0 1 300 0 2
@@ -11655,7 +11655,7 @@ StartChar: uni1E0F.sc
 Encoding: 65660 -1 790
 Width: 600
 VWidth: 0
-Flags: H
+Flags: HM
 LayerCount: 2
 Fore
 Refer: 492 817 N 1 0 0 1 300 0 2
@@ -11666,7 +11666,7 @@ StartChar: uni1E21.sc
 Encoding: 65661 -1 791
 Width: 600
 VWidth: 0
-Flags: H
+Flags: HM
 LayerCount: 2
 Fore
 Refer: 274 772 N 1 0 0 1 300 0 2
@@ -11677,7 +11677,7 @@ StartChar: uni1E25.sc
 Encoding: 65662 -1 792
 Width: 600
 VWidth: 0
-Flags: H
+Flags: HM
 LayerCount: 2
 Fore
 Refer: 491 803 N 1 0 0 1 300 0 2
@@ -11688,7 +11688,7 @@ StartChar: uni1E2B.sc
 Encoding: 65663 -1 793
 Width: 600
 VWidth: 0
-Flags: H
+Flags: HM
 AnchorPoint: "marks_above" 300 600 basechar 0
 LayerCount: 2
 Fore
@@ -11710,7 +11710,7 @@ StartChar: uni1E37.sc
 Encoding: 65664 -1 794
 Width: 600
 VWidth: 0
-Flags: H
+Flags: HM
 LayerCount: 2
 Fore
 Refer: 491 803 N 1 0 0 1 300 0 2
@@ -11721,7 +11721,7 @@ StartChar: uni1E39.sc
 Encoding: 65665 -1 795
 Width: 600
 VWidth: 0
-Flags: H
+Flags: HM
 LayerCount: 2
 Fore
 Refer: 274 772 N 1 0 0 1 300 0 2
@@ -11732,7 +11732,7 @@ StartChar: uni1E3B.sc
 Encoding: 65666 -1 796
 Width: 600
 VWidth: 0
-Flags: H
+Flags: HM
 LayerCount: 2
 Fore
 Refer: 492 817 N 1 0 0 1 300 0 2
@@ -11743,7 +11743,7 @@ StartChar: uni1E43.sc
 Encoding: 65667 -1 797
 Width: 600
 VWidth: 0
-Flags: H
+Flags: HM
 LayerCount: 2
 Fore
 Refer: 491 803 N 1 0 0 1 300 0 2
@@ -11754,7 +11754,7 @@ StartChar: uni1E45.sc
 Encoding: 65668 -1 798
 Width: 600
 VWidth: 0
-Flags: H
+Flags: HM
 LayerCount: 2
 Fore
 Refer: 285 775 N 1 0 0 1 300 0 2
@@ -11765,7 +11765,7 @@ StartChar: uni1E47.sc
 Encoding: 65669 -1 799
 Width: 600
 VWidth: 0
-Flags: H
+Flags: HM
 LayerCount: 2
 Fore
 Refer: 491 803 N 1 0 0 1 300 0 2
@@ -11776,7 +11776,7 @@ StartChar: uni1E49.sc
 Encoding: 65670 -1 800
 Width: 600
 VWidth: 0
-Flags: H
+Flags: HM
 LayerCount: 2
 Fore
 Refer: 492 817 N 1 0 0 1 300 0 2
@@ -11787,7 +11787,7 @@ StartChar: uni1E5B.sc
 Encoding: 65671 -1 801
 Width: 600
 VWidth: 0
-Flags: H
+Flags: HM
 LayerCount: 2
 Fore
 Refer: 491 803 N 1 0 0 1 300 0 2
@@ -11798,7 +11798,7 @@ StartChar: uni1E5D.sc
 Encoding: 65672 -1 802
 Width: 600
 VWidth: 0
-Flags: H
+Flags: HM
 LayerCount: 2
 Fore
 Refer: 274 772 S 1 0 0 1 300 0 2
@@ -11809,7 +11809,7 @@ StartChar: uni1E5F.sc
 Encoding: 65673 -1 803
 Width: 600
 VWidth: 0
-Flags: H
+Flags: HM
 LayerCount: 2
 Fore
 Refer: 492 817 N 1 0 0 1 300 0 2
@@ -11820,7 +11820,7 @@ StartChar: uni1E6D.sc
 Encoding: 65674 -1 804
 Width: 600
 VWidth: 0
-Flags: H
+Flags: HM
 LayerCount: 2
 Fore
 Refer: 491 803 N 1 0 0 1 300 0 2
@@ -11831,7 +11831,7 @@ StartChar: uni1E6F.sc
 Encoding: 65675 -1 805
 Width: 600
 VWidth: 0
-Flags: H
+Flags: HM
 LayerCount: 2
 Fore
 Refer: 492 817 N 1 0 0 1 300 0 2
@@ -11842,7 +11842,7 @@ StartChar: uni1E8F.sc
 Encoding: 65676 -1 806
 Width: 600
 VWidth: 0
-Flags: H
+Flags: HM
 LayerCount: 2
 Fore
 Refer: 285 775 N 1 0 0 1 300 0 2
@@ -11853,7 +11853,7 @@ StartChar: uni1E97.sc
 Encoding: 65677 -1 807
 Width: 600
 VWidth: 0
-Flags: H
+Flags: HM
 LayerCount: 2
 Fore
 Refer: 233 776 N 1 0 0 1 300 0 2
@@ -11864,7 +11864,7 @@ StartChar: adotbelow.sc
 Encoding: 65678 -1 808
 Width: 600
 VWidth: 0
-Flags: H
+Flags: HM
 LayerCount: 2
 Fore
 Refer: 491 803 S 1 0 0 1 300 0 2
@@ -11875,7 +11875,7 @@ StartChar: ahookabove.sc
 Encoding: 65679 -1 809
 Width: 600
 VWidth: 0
-Flags: H
+Flags: HM
 LayerCount: 2
 Fore
 Refer: 590 777 N 1 0 0 1 300 0 2
@@ -11886,7 +11886,7 @@ StartChar: acircumflexdotbelow.sc
 Encoding: 65680 -1 810
 Width: 600
 VWidth: 0
-Flags: H
+Flags: HM
 LayerCount: 2
 Fore
 Refer: 229 770 N 1 0 0 1 300 0 2
@@ -11897,7 +11897,7 @@ StartChar: abrevedotbelow.sc
 Encoding: 65681 -1 811
 Width: 600
 VWidth: 0
-Flags: H
+Flags: HM
 LayerCount: 2
 Fore
 Refer: 277 774 N 1 0 0 1 300 0 2
@@ -11908,7 +11908,7 @@ StartChar: ehookabove.sc
 Encoding: 65682 -1 812
 Width: 600
 VWidth: 0
-Flags: H
+Flags: HM
 LayerCount: 2
 Fore
 Refer: 590 777 N 1 0 0 1 300 0 2
@@ -11919,7 +11919,7 @@ StartChar: etilde.sc
 Encoding: 65683 -1 813
 Width: 600
 VWidth: 0
-Flags: H
+Flags: HM
 LayerCount: 2
 Fore
 Refer: 231 771 N 1 0 0 1 300 0 2
@@ -11929,7 +11929,7 @@ EndChar
 StartChar: ecircumflexdotbelow.sc
 Encoding: 65684 -1 814
 Width: 600
-Flags: HW
+Flags: HMW
 LayerCount: 2
 Fore
 Refer: 491 803 N 1 0 0 1 300 0 2
@@ -11940,7 +11940,7 @@ StartChar: ihookabove.sc
 Encoding: 65685 -1 815
 Width: 400
 VWidth: 0
-Flags: H
+Flags: HM
 LayerCount: 2
 Fore
 Refer: 590 777 N 1 0 0 1 200 0 2
@@ -11951,7 +11951,7 @@ StartChar: idotbelow.sc
 Encoding: 65686 -1 816
 Width: 400
 VWidth: 0
-Flags: H
+Flags: HM
 LayerCount: 2
 Fore
 Refer: 491 803 N 1 0 0 1 200 0 2
@@ -11962,7 +11962,7 @@ StartChar: udotbelow.sc
 Encoding: 65687 -1 817
 Width: 600
 VWidth: 0
-Flags: H
+Flags: HM
 LayerCount: 2
 Fore
 Refer: 491 803 N 1 0 0 1 300 0 2
@@ -11973,7 +11973,7 @@ StartChar: uhookabove.sc
 Encoding: 65688 -1 818
 Width: 600
 VWidth: 0
-Flags: H
+Flags: HM
 LayerCount: 2
 Fore
 Refer: 590 777 N 1 0 0 1 300 0 2
@@ -11984,7 +11984,7 @@ StartChar: uhornacute.sc
 Encoding: 65689 -1 819
 Width: 800
 VWidth: 0
-Flags: HW
+Flags: HMW
 LayerCount: 2
 Fore
 Refer: 227 769 N 1 0 0 1 300 0 2
@@ -11995,7 +11995,7 @@ StartChar: uhorngrave.sc
 Encoding: 65690 -1 820
 Width: 800
 VWidth: 0
-Flags: HW
+Flags: HMW
 LayerCount: 2
 Fore
 Refer: 225 768 N 1 0 0 1 300 0 2
@@ -12006,7 +12006,7 @@ StartChar: uhornhookabove.sc
 Encoding: 65691 -1 821
 Width: 800
 VWidth: 0
-Flags: HW
+Flags: HMW
 LayerCount: 2
 Fore
 Refer: 590 777 N 1 0 0 1 300 0 2
@@ -12017,7 +12017,7 @@ StartChar: uhorntilde.sc
 Encoding: 65692 -1 822
 Width: 800
 VWidth: 0
-Flags: HW
+Flags: HMW
 LayerCount: 2
 Fore
 Refer: 231 771 N 1 0 0 1 300 0 2
@@ -12028,7 +12028,7 @@ StartChar: uhorndotbelow.sc
 Encoding: 65693 -1 823
 Width: 800
 VWidth: 0
-Flags: HW
+Flags: HMW
 LayerCount: 2
 Fore
 Refer: 491 803 N 1 0 0 1 300 0 2
@@ -12039,7 +12039,7 @@ StartChar: ydotbelow.sc
 Encoding: 65694 -1 824
 Width: 600
 VWidth: 0
-Flags: H
+Flags: HM
 LayerCount: 2
 Fore
 Refer: 491 803 N 1 0 0 1 300 0 2
@@ -12050,7 +12050,7 @@ StartChar: yhookabove.sc
 Encoding: 65695 -1 825
 Width: 600
 VWidth: 0
-Flags: H
+Flags: HM
 LayerCount: 2
 Fore
 Refer: 590 777 N 1 0 0 1 300 0 2
@@ -12061,7 +12061,7 @@ StartChar: ytilde.sc
 Encoding: 65696 -1 826
 Width: 600
 VWidth: 0
-Flags: H
+Flags: HM
 LayerCount: 2
 Fore
 Refer: 231 771 N 1 0 0 1 300 0 2
@@ -12072,7 +12072,7 @@ StartChar: edotbelow.sc
 Encoding: 65697 -1 827
 Width: 600
 VWidth: 0
-Flags: HW
+Flags: HMW
 LayerCount: 2
 Fore
 Refer: 491 803 N 1 0 0 1 300 0 2

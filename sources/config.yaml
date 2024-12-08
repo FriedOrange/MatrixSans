@@ -8,3 +8,4 @@ familyName: Matrix Sans
 buildVariable: false
 removeOutlineOverlaps: false
 autohintTTF: false
+extraFontmakeArgs: --keep-direction
