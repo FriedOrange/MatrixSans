@@ -100,7 +100,7 @@
       <string>bar</string>
       <string>braceright</string>
       <string>asciitilde</string>
-      <string>nbspace</string>
+      <string>uni00A0</string>
       <string>exclamdown</string>
       <string>cent</string>
       <string>sterling</string>
@@ -113,7 +113,6 @@
       <string>ordfeminine</string>
       <string>guillemotleft</string>
       <string>logicalnot</string>
-      <string>uni00AD</string>
       <string>registered</string>
       <string>macron</string>
       <string>degree</string>
@@ -1776,8 +1775,6 @@
       <string>base</string>
       <key>napostrophe.sc</key>
       <string>base</string>
-      <key>nbspace</key>
-      <string>base</string>
       <key>ncaron</key>
       <string>base</string>
       <key>ncaron.sc</key>
@@ -2152,7 +2149,7 @@
       <string>base</string>
       <key>underscore</key>
       <string>base</string>
-      <key>uni00AD</key>
+      <key>uni00A0</key>
       <string>base</string>
       <key>uni0162</key>
       <string>base</string>
