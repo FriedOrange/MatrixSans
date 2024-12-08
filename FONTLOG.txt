@@ -112,5 +112,5 @@ If you make modifications, be sure to add your name (N), email address (E), web 
 
 N: Brad Neil
 E: brad@friedorange.xyz
-W: http://friedorange.xyz/
-D: Designer - original Latin glyphs
+W: https://friedorange.xyz/
+D: Original design and implementation
