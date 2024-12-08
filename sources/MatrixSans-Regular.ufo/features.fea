@@ -165,6 +165,7 @@ feature locl {
 		lookup locl_CAT {
 			pos l periodcentered' <-100 0 -200 0> l;
 			pos L periodcentered' <-300 0 -200 0> L;
+			pos l.sc periodcentered' <-300 0 -200 0> l.sc;
 		} locl_CAT;
 	language TAT;
 		sub i by idotaccent;
