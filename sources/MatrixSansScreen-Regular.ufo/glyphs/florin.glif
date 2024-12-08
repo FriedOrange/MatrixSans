@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="florin" format="2">
-  <advance width="700"/>
+  <advance width="600"/>
   <unicode hex="0192"/>
   <outline>
     <contour>
@@ -68,12 +68,6 @@
       <point x="257.0" y="493.0" type="line"/>
       <point x="343.0" y="493.0" type="line"/>
       <point x="343.0" y="407.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="557.0" y="507.0" type="line"/>
-      <point x="557.0" y="593.0" type="line"/>
-      <point x="643.0" y="593.0" type="line"/>
-      <point x="643.0" y="507.0" type="line"/>
     </contour>
     <contour>
       <point x="257.0" y="507.0" type="line"/>
