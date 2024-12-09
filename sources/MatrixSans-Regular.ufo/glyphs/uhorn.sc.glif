@@ -2,7 +2,27 @@
 <glyph name="uhorn.sc" format="2">
   <advance width="800"/>
   <outline>
-    <component base="u.sc"/>
-    <component base="horncomb" xOffset="550.0" yOffset="-200.0"/>
+    <contour>
+      <point x="750.0" y="500.0" type="line"/>
+      <point x="750.0" y="300.0" type="line"/>
+      <point x="650.0" y="300.0" type="line"/>
+      <point x="650.0" y="200.0" type="line"/>
+      <point x="550.0" y="200.0" type="line"/>
+      <point x="550.0" y="100.0" type="line"/>
+      <point x="450.0" y="100.0" type="line"/>
+      <point x="450.0" y="0.0" type="line"/>
+      <point x="150.0" y="0.0" type="line"/>
+      <point x="150.0" y="100.0" type="line"/>
+      <point x="50.0" y="100.0" type="line"/>
+      <point x="50.0" y="500.0" type="line"/>
+      <point x="150.0" y="500.0" type="line"/>
+      <point x="150.0" y="100.0" type="line"/>
+      <point x="450.0" y="100.0" type="line"/>
+      <point x="450.0" y="500.0" type="line"/>
+      <point x="550.0" y="500.0" type="line"/>
+      <point x="550.0" y="300.0" type="line"/>
+      <point x="650.0" y="300.0" type="line"/>
+      <point x="650.0" y="500.0" type="line"/>
+    </contour>
   </outline>
 </glyph>
