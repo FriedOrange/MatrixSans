@@ -672,7 +672,6 @@
       <string>uniFB02</string>
       <string>idotaccent</string>
       <string>Eng.loclNSM</string>
-      <string>zero.zero</string>
       <string>jacute</string>
       <string>a.sc</string>
       <string>b.sc</string>
@@ -2480,8 +2479,6 @@
       <key>zero</key>
       <string>base</string>
       <key>zero.sc</key>
-      <string>base</string>
-      <key>zero.zero</key>
       <string>base</string>
     </dict>
   </dict>
