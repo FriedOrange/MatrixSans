@@ -27,7 +27,7 @@ feature smcp {
 } smcp;
 
 # mark classes
-markClass [gravecomb acutecomb circumflexcomb tildecomb macroncomb brevecomb dotaccentcomb dieresiscomb ringcomb hungarumlautcomb caroncomb commaturnedabovecomb hookabovecomb] <anchor 0 600> @marks_above;
+markClass [gravecomb acutecomb circumflexcomb tildecomb macroncomb brevecomb dotaccentcomb dieresiscomb ringcomb hungarumlautcomb caroncomb commaturnedabovecomb hookabovecomb circumflexcomb_acutecomb circumflexcomb_gravecomb circumflexcomb_hookabovecomb circumflexcomb_tildecomb] <anchor 0 600> @marks_above;
 markClass [commaaccentcomb cedillacomb dotbelowcomb uni0331 uni0324 uni032E] <anchor 0 0> @marks_below;
 markClass [ogonekcomb] <anchor 0 0> @marks_belowright;
 markClass [uni0315 horncomb] <anchor 0 500> @marks_aboveright;
@@ -61,18 +61,24 @@ feature ccmp {
 	# for Video style:
 	sub A ogonekcomb by Aogonek;
 	sub u ogonekcomb by uogonek;
+
+	sub y' @marks_below by y.titl;
+	sub circumflexcomb acutecomb by circumflexcomb_acutecomb;
+	sub circumflexcomb gravecomb by circumflexcomb_gravecomb;
+	sub circumflexcomb hookabovecomb by circumflexcomb_hookabovecomb;
+	sub circumflexcomb tildecomb by circumflexcomb_tildecomb;
 } ccmp;
 
 feature mkmk {
-	pos mark [gravecomb acutecomb circumflexcomb tildecomb brevecomb ringcomb hungarumlautcomb caroncomb commaturnedabovecomb]
+	pos mark [gravecomb acutecomb circumflexcomb tildecomb ringcomb hungarumlautcomb caroncomb commaturnedabovecomb hookabovecomb]
 		<anchor 0 900> mark @marks_above;
-	pos mark [macroncomb dotaccentcomb dieresiscomb]
+	pos mark [macroncomb dotaccentcomb dieresiscomb brevecomb]
 		<anchor 0 800> mark @marks_above;
 } mkmk;
 
 # classes for mark positioning
 @tall = [C D G H K M N R S T W Y Z h k]; # not including glyphs with ogonek or apostrophe-type caron
-@short = [c m n r s v-x z b.sc d.sc f.sc g.sc h.sc kgreenlandic m.sc n.sc p.sc q.sc r.sc t.sc y.sc];
+@short = [c m n r s v-x z b.sc d.sc f.sc g.sc h.sc kgreenlandic m.sc n.sc p.sc q.sc r.sc t.sc y.sc y.titl];
 @deep = [g p q y];
 
 feature mark {
@@ -104,6 +110,7 @@ feature mark {
 		<anchor 300 0> mark @marks_below;
 	pos base d 
 		<anchor 300 800> mark @marks_above
+		<anchor 300 0> mark @marks_below
 		<anchor 650 500> mark @marks_aboveright;
 	pos base l 
 		<anchor 200 800> mark @marks_above
@@ -252,11 +259,11 @@ feature kern {
 	pos I tildecomb <100 0 200 0>;
 	pos dotlessi tildecomb <100 0 200 0>;
 	pos i.sc tildecomb <100 0 200 0>;
-	pos O horncomb <0 0 200 0>;
-	pos o horncomb <0 0 200 0>;
-	pos U horncomb <0 0 200 0>;
-	pos u horncomb <0 0 200 0>;
-	pos u.sc horncomb <0 0 200 0>;
+	# pos O horncomb <0 0 200 0>;
+	# pos o horncomb <0 0 200 0>;
+	# pos U horncomb <0 0 200 0>;
+	# pos u horncomb <0 0 200 0>;
+	# pos u.sc horncomb <0 0 200 0>;
 	# enum pos @i v -100;
 	pos @A @T -100;
 	pos @D @T -100;
