@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni23FA" format="2">
+  <advance width="800"/>
+  <unicode hex="23FA"/>
+  <outline>
+    <component base="blackCircle"/>
+  </outline>
+</glyph>

@@ -638,6 +638,12 @@
       <string>notequal</string>
       <string>lessequal</string>
       <string>greaterequal</string>
+      <string>uni23CF</string>
+      <string>uni23E9</string>
+      <string>uni23EA</string>
+      <string>uni23F8</string>
+      <string>uni23F9</string>
+      <string>uni23FA</string>
       <string>D.circled</string>
       <string>filledbox</string>
       <string>whiteSquare</string>
@@ -2391,6 +2397,18 @@
       <key>uni2215</key>
       <string>base</string>
       <key>uni2219</key>
+      <string>base</string>
+      <key>uni23CF</key>
+      <string>base</string>
+      <key>uni23E9</key>
+      <string>base</string>
+      <key>uni23EA</key>
+      <string>base</string>
+      <key>uni23F8</key>
+      <string>base</string>
+      <key>uni23F9</key>
+      <string>base</string>
+      <key>uni23FA</key>
       <string>base</string>
       <key>uni25CC</key>
       <string>base</string>

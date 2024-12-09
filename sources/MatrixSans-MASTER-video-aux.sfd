@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1675081307
-ModificationTime: 1733750508
+ModificationTime: 1733751293
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -37,14 +37,13 @@ HheadDOffset: 1
 OS2Vendor: 'PfEd'
 DEI: 91125
 Encoding: UnicodeBmp
-Compacted: 1
 UnicodeInterp: none
 NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 16 14
-BeginChars: 65547 59
+WinInfo: 9120 16 14
+BeginChars: 65547 62
 
 StartChar: halfdot
 Encoding: 65536 -1 0
@@ -905,9 +904,9 @@ Width: 600
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 0 -1 S 1 0 0 1 200 50 2
+Refer: 0 -1 N 1 0 0 1 200 50 2
 Refer: 0 -1 N 1 0 0 1 100 150 2
-Refer: 0 -1 N 1 0 0 1 150 200 2
+Refer: 0 -1 S 1 0 0 1 150 200 2
 Refer: 7 -1 N 1 0 0 1 250 0 2
 Refer: 7 -1 N 1 0 0 1 250 100 2
 Refer: 7 -1 N 1 0 0 1 150 100 2
@@ -1281,7 +1280,7 @@ EndChar
 StartChar: openbullet
 Encoding: 9702 9702 32
 Width: 500
-Flags: HWO
+Flags: HW
 LayerCount: 2
 Fore
 Refer: 0 -1 N 1 0 0 1 250 450 2
@@ -2195,6 +2194,154 @@ Refer: 7 -1 N 1 0 0 1 50 500 2
 Refer: 7 -1 N 1 0 0 1 350 600 2
 Refer: 7 -1 N 1 0 0 1 250 600 2
 Refer: 7 -1 N 1 0 0 1 150 600 2
+EndChar
+
+StartChar: uni23CF
+Encoding: 9167 9167 59
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 650 400 2
+Refer: 0 -1 N 1 0 0 1 550 500 2
+Refer: 0 -1 N 1 0 0 1 450 600 2
+Refer: 0 -1 N 1 0 0 1 300 600 2
+Refer: 0 -1 N 1 0 0 1 200 500 2
+Refer: 0 -1 N 1 0 0 1 100 400 2
+Refer: 7 -1 N 1 0 0 1 650 0 2
+Refer: 7 -1 N 1 0 0 1 550 0 2
+Refer: 7 -1 N 1 0 0 1 450 0 2
+Refer: 7 -1 N 1 0 0 1 350 0 2
+Refer: 7 -1 N 1 0 0 1 250 0 2
+Refer: 7 -1 N 1 0 0 1 150 0 2
+Refer: 7 -1 N 1 0 0 1 50 0 2
+Refer: 7 -1 N 1 0 0 1 650 100 2
+Refer: 7 -1 N 1 0 0 1 550 100 2
+Refer: 7 -1 N 1 0 0 1 450 100 2
+Refer: 7 -1 N 1 0 0 1 350 100 2
+Refer: 7 -1 N 1 0 0 1 250 100 2
+Refer: 7 -1 N 1 0 0 1 150 100 2
+Refer: 7 -1 N 1 0 0 1 50 100 2
+Refer: 7 -1 N 1 0 0 1 650 300 2
+Refer: 7 -1 N 1 0 0 1 550 300 2
+Refer: 7 -1 N 1 0 0 1 450 300 2
+Refer: 7 -1 N 1 0 0 1 350 300 2
+Refer: 7 -1 N 1 0 0 1 250 300 2
+Refer: 7 -1 N 1 0 0 1 150 300 2
+Refer: 7 -1 N 1 0 0 1 50 300 2
+Refer: 7 -1 N 1 0 0 1 550 400 2
+Refer: 7 -1 N 1 0 0 1 450 400 2
+Refer: 7 -1 N 1 0 0 1 350 400 2
+Refer: 7 -1 N 1 0 0 1 250 400 2
+Refer: 7 -1 N 1 0 0 1 150 400 2
+Refer: 7 -1 N 1 0 0 1 450 500 2
+Refer: 7 -1 N 1 0 0 1 350 500 2
+Refer: 7 -1 N 1 0 0 1 250 500 2
+Refer: 7 -1 N 1 0 0 1 350 600 2
+EndChar
+
+StartChar: uni23E9
+Encoding: 9193 9193 60
+Width: 900
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 550 50 2
+Refer: 0 -1 N 1 0 0 1 650 150 2
+Refer: 0 -1 N 1 0 0 1 750 250 2
+Refer: 0 -1 N 1 0 0 1 750 400 2
+Refer: 0 -1 N 1 0 0 1 650 500 2
+Refer: 0 -1 N 1 0 0 1 550 600 2
+Refer: 0 -1 N 1 0 0 1 150 50 2
+Refer: 0 -1 N 1 0 0 1 250 150 2
+Refer: 0 -1 N 1 0 0 1 350 250 2
+Refer: 0 -1 N 1 0 0 1 350 400 2
+Refer: 0 -1 N 1 0 0 1 250 500 2
+Refer: 0 -1 N 1 0 0 1 150 600 2
+Refer: 7 -1 N 1 0 0 1 450 0 2
+Refer: 7 -1 N 1 0 0 1 50 0 2
+Refer: 7 -1 N 1 0 0 1 550 100 2
+Refer: 7 -1 N 1 0 0 1 450 100 2
+Refer: 7 -1 N 1 0 0 1 150 100 2
+Refer: 7 -1 N 1 0 0 1 50 100 2
+Refer: 7 -1 N 1 0 0 1 650 200 2
+Refer: 7 -1 N 1 0 0 1 550 200 2
+Refer: 7 -1 N 1 0 0 1 450 200 2
+Refer: 7 -1 N 1 0 0 1 250 200 2
+Refer: 7 -1 N 1 0 0 1 150 200 2
+Refer: 7 -1 N 1 0 0 1 50 200 2
+Refer: 7 -1 N 1 0 0 1 750 300 2
+Refer: 7 -1 N 1 0 0 1 650 300 2
+Refer: 7 -1 N 1 0 0 1 550 300 2
+Refer: 7 -1 N 1 0 0 1 450 300 2
+Refer: 7 -1 N 1 0 0 1 350 300 2
+Refer: 7 -1 N 1 0 0 1 250 300 2
+Refer: 7 -1 N 1 0 0 1 150 300 2
+Refer: 7 -1 N 1 0 0 1 50 300 2
+Refer: 7 -1 N 1 0 0 1 650 400 2
+Refer: 7 -1 N 1 0 0 1 550 400 2
+Refer: 7 -1 N 1 0 0 1 450 400 2
+Refer: 7 -1 N 1 0 0 1 250 400 2
+Refer: 7 -1 N 1 0 0 1 150 400 2
+Refer: 7 -1 N 1 0 0 1 50 400 2
+Refer: 7 -1 N 1 0 0 1 550 500 2
+Refer: 7 -1 N 1 0 0 1 450 500 2
+Refer: 7 -1 N 1 0 0 1 150 500 2
+Refer: 7 -1 N 1 0 0 1 50 500 2
+Refer: 7 -1 N 1 0 0 1 450 600 2
+Refer: 7 -1 N 1 0 0 1 50 600 2
+EndChar
+
+StartChar: uni23EA
+Encoding: 9194 9194 61
+Width: 900
+Flags: HWO
+LayerCount: 2
+Fore
+Refer: 0 -1 N -1 0 0 -1 751 651 2
+Refer: 0 -1 N -1 0 0 -1 651 551 2
+Refer: 0 -1 N -1 0 0 -1 551 451 2
+Refer: 0 -1 N -1 0 0 -1 551 301 2
+Refer: 0 -1 N -1 0 0 -1 651 201 2
+Refer: 0 -1 N -1 0 0 -1 751 101 2
+Refer: 0 -1 N -1 0 0 -1 351 651 2
+Refer: 0 -1 N -1 0 0 -1 251 551 2
+Refer: 0 -1 N -1 0 0 -1 151 451 2
+Refer: 0 -1 N -1 0 0 -1 151 301 2
+Refer: 0 -1 N -1 0 0 -1 251 201 2
+Refer: 0 -1 N -1 0 0 -1 351 101 2
+Refer: 7 -1 N 1 0 0 1 750 0 2
+Refer: 7 -1 N 1 0 0 1 350 0 2
+Refer: 7 -1 N 1 0 0 1 750 100 2
+Refer: 7 -1 N 1 0 0 1 650 100 2
+Refer: 7 -1 N 1 0 0 1 350 100 2
+Refer: 7 -1 N 1 0 0 1 250 100 2
+Refer: 7 -1 N 1 0 0 1 750 200 2
+Refer: 7 -1 N 1 0 0 1 650 200 2
+Refer: 7 -1 N 1 0 0 1 550 200 2
+Refer: 7 -1 N 1 0 0 1 350 200 2
+Refer: 7 -1 N 1 0 0 1 250 200 2
+Refer: 7 -1 N 1 0 0 1 150 200 2
+Refer: 7 -1 N 1 0 0 1 750 300 2
+Refer: 7 -1 N 1 0 0 1 650 300 2
+Refer: 7 -1 N 1 0 0 1 550 300 2
+Refer: 7 -1 N 1 0 0 1 450 300 2
+Refer: 7 -1 N 1 0 0 1 350 300 2
+Refer: 7 -1 N 1 0 0 1 250 300 2
+Refer: 7 -1 N 1 0 0 1 150 300 2
+Refer: 7 -1 N 1 0 0 1 50 300 2
+Refer: 7 -1 N 1 0 0 1 750 400 2
+Refer: 7 -1 N 1 0 0 1 650 400 2
+Refer: 7 -1 N 1 0 0 1 550 400 2
+Refer: 7 -1 N 1 0 0 1 350 400 2
+Refer: 7 -1 N 1 0 0 1 250 400 2
+Refer: 7 -1 N 1 0 0 1 150 400 2
+Refer: 7 -1 N 1 0 0 1 750 500 2
+Refer: 7 -1 N 1 0 0 1 650 500 2
+Refer: 7 -1 N 1 0 0 1 350 500 2
+Refer: 7 -1 N 1 0 0 1 250 500 2
+Refer: 7 -1 N 1 0 0 1 750 600 2
+Refer: 7 -1 N 1 0 0 1 350 600 2
 EndChar
 EndChars
 EndSplineFont
