@@ -21,6 +21,13 @@ Further documentation can be found at: https://github.com/FriedOrange/MatrixSans
 Changelog
 ---------
 
+9 December 2024 - Version 1.200
+
+- Now supports Adobe Latin 4 and Google Fonts Latin Core/Vietnamese/Plus character sets
+- Each style now has an "SC" (small capitals) variant
+- Changed design of ¶, ƒ, ™, and • ◦
+- Added `aalt`, `numr`, `dnom`, `frac`, `sups` and `subs` OpenType features
+
 26 December 2022 - Version 1.100
 - Added small capitals, accessible through the `smcp` and `c2sc` Opentype features
 - Changed the design of Æ, æ, Œ, œ, Ð, đ, ħ, ƒ, and ₽ 

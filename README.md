@@ -99,6 +99,13 @@ To easily add or modify glyphs (requires [FontForge](https://fontforge.org/)):
 
 ## Changelog
 
+#### 9 December 2024 - Version 1.200
+
+- Now supports Adobe Latin 4 and Google Fonts Latin Core/Vietnamese/Plus character sets
+- Each style now has an "SC" (small capitals) variant
+- Changed design of ¶, ƒ, ™, and • ◦
+- Added `aalt`, `numr`, `dnom`, `frac`, `sups` and `subs` OpenType features
+
 #### 26 December 2022 - Version 1.100
 
 ![Small capitals sample](documentation/smcp.png)
