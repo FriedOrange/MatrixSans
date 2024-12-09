@@ -159,7 +159,7 @@ To easily add or modify glyphs (requires [FontForge](https://fontforge.org/)):
 - Changed the working title from "Libre Dot Matrix" to "Matrix Sans"
 - Improved the appearance of some characters in the Video style
 
-#### August 2022 - Version 0.212
+#### 3 August 2022 - Version 0.212
 - Fixed accent placement on Ű and ű
 - Increased line height
 - Fixed underline position
