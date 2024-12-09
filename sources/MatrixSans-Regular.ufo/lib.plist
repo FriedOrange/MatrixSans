@@ -829,6 +829,8 @@
       <string>yhookabove.sc</string>
       <string>ytilde.sc</string>
       <string>edotbelow.sc</string>
+      <string>six.alt</string>
+      <string>nine.alt</string>
     </array>
     <key>public.openTypeCategories</key>
     <dict>
@@ -1784,6 +1786,8 @@
       <string>base</string>
       <key>nine</key>
       <string>base</string>
+      <key>nine.alt</key>
+      <string>base</string>
       <key>nine.sc</key>
       <string>base</string>
       <key>nineinferior</key>
@@ -2009,6 +2013,8 @@
       <key>sheqel</key>
       <string>base</string>
       <key>six</key>
+      <string>base</string>
+      <key>six.alt</key>
       <string>base</string>
       <key>six.sc</key>
       <string>base</string>

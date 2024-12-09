@@ -956,6 +956,8 @@
     <string>ncommaaccent.sc.glif</string>
     <key>nine</key>
     <string>nine.glif</string>
+    <key>nine.alt</key>
+    <string>nine.alt.glif</string>
     <key>nine.sc</key>
     <string>nine.sc.glif</string>
     <key>nineinferior</key>
@@ -1182,6 +1184,8 @@
     <string>sheqel.glif</string>
     <key>six</key>
     <string>six.glif</string>
+    <key>six.alt</key>
+    <string>six.alt.glif</string>
     <key>six.sc</key>
     <string>six.sc.glif</string>
     <key>sixinferior</key>

@@ -392,3 +392,11 @@ feature sups {
 feature subs {
 	lookup DNOM;
 } subs;
+
+feature ss01 {
+	featureNames {
+		name "Alternate numerals 6 and 9";
+	};
+	sub six by six.alt;
+	sub nine by nine.alt;
+} ss01;
