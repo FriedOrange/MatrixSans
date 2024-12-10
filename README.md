@@ -14,7 +14,7 @@ This is set of pixelated, retro-style fonts based on the classic 5&times;7 dot m
 ![Matrix Sans Screen Sample](documentation/sample_3.png)
 ![Matrix Sans Video Sample](documentation/sample_4.png)
 
-## Background
+## Inspiration
 
 For much of my life, I have liked both alphabets and lettering, and 8-bit home computers and video games. The intersection of those interests is low-resolution dot matrix graphics and fonts, which remain perhaps the most iconic feature of the 8-bit systems. Fonts based on a 5&times;7 dot matrix are especially noteworthy, having been some of the most common dimensions for over half a century.
 
@@ -23,6 +23,7 @@ In utilitarian applications, 5&times;7 dot matrix fonts may still be found all a
 | ![Scientific calculator](documentation/inspiration/ScientificCalculator.jpg) | ![Microwave oven display](documentation/inspiration/MicrowaveOven.jpg) | ![Electronic roadwork sign](documentation/inspiration/RoadworkSign.jpg) |
 | --- | --- | --- |
 | ![Train station display](documentation/inspiration/TrainStation.jpg) | ![Best before date](documentation/inspiration/BestBefore.jpg) | ![Character LCD](documentation/inspiration/CharacterLCD.jpg) |
+| ![Intercom](documentation/inspiration/Intercom.jpg) | ![Car Radio](documentation/inspiration/CarRadio.jpg) | ![Commodore MPS 803 dot-matrix printer](documentation/inspiration/CommodoreMPS803.jpg) |
 
 So-called "pixel" fonts are also a popular stylistic choice, often seen in contexts that have nothing to do with electronics or games, even in the absence of technical limitations. With all of that in mind, I felt that the typographical world could be enriched through the creation of high-quality, open-source fonts in this style.
 
