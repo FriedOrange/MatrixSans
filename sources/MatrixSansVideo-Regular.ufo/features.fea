@@ -401,3 +401,10 @@ feature ss01 {
 	sub six by six.alt;
 	sub nine by nine.alt;
 } ss01;
+
+feature ss02 {
+	featureNames {
+		name "Alternate capital letter Ŋ (Eng)";
+	};
+	sub Eng by Eng.loclNSM;
+} ss02;
