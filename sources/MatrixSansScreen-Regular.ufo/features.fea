@@ -18,6 +18,7 @@ feature aalt {
 	feature zero;
 	feature sups;
 	feature subs;
+	feature ss01;
 	sub y by y.titl;
 } aalt;
 
