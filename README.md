@@ -104,6 +104,7 @@ To easily add or modify glyphs (requires [FontForge](https://fontforge.org/)):
 - Improved appearance of various glyphs in Video style
 - Added media control symbols ⏏︎ ⏩︎ ⏪︎ ▶︎ ⏸︎ ⏹︎ ⏺︎
 - Added alternate glyphs for 6 and 9, accessed by `ss01` OpenType feature (swapped with normal glyphs in Video style)
+- Fixed a visual glitch with the combining hook above glyph ◌̉
 
 #### 9 December 2024 - Version 1.200
 
