@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1657964544
-ModificationTime: 1733814396
+ModificationTime: 1733818575
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -64,7 +64,7 @@ NameList: MatrixSans
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 16 16 14
+WinInfo: 592 16 14
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 629146 314573 209715 524288 1048576 0 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
@@ -8581,13 +8581,11 @@ EndChar
 StartChar: hookabovecomb
 Encoding: 777 777 588
 Width: 0
-Flags: MW
+Flags: HMWO
 AnchorPoint: "marks_above" 0 600 mark 0
 LayerCount: 2
 Fore
-Refer: 0 -1 N 1 0 0 1 -50 600 2
-Refer: 0 -1 N 1 0 0 1 -50 700 2
-Refer: 0 -1 N 1 0 0 1 -150 700 2
+Refer: 117 184 N 1 0 0 -1 -200 601 2
 EndChar
 
 StartChar: baht
@@ -10473,7 +10471,7 @@ EndChar
 StartChar: Ahookabove
 Encoding: 7842 7842 683
 Width: 600
-Flags: M
+Flags: HM
 LayerCount: 2
 Fore
 Refer: 588 777 N 1 0 0 1 300 200 2
@@ -10483,7 +10481,7 @@ EndChar
 StartChar: ahookabove
 Encoding: 7843 7843 684
 Width: 600
-Flags: M
+Flags: HM
 LayerCount: 2
 Fore
 Refer: 588 777 N 1 0 0 1 300 0 2
@@ -10555,7 +10553,7 @@ EndChar
 StartChar: circumflexcomb_hookabovecomb
 Encoding: 65642 -1 691
 Width: 0
-Flags: MW
+Flags: HMW
 AnchorPoint: "marks_above" 0 600 mark 0
 LayerCount: 2
 Fore
@@ -10566,7 +10564,7 @@ EndChar
 StartChar: Acircumflexhookabove
 Encoding: 7848 7848 692
 Width: 600
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Fore
 Refer: 691 -1 S 1 0 0 1 300 0 2
@@ -10577,7 +10575,7 @@ StartChar: acircumflexhookabove
 Encoding: 7849 7849 693
 Width: 600
 VWidth: 0
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Fore
 Refer: 66 97 S 1 0 0 1 0 0 3
@@ -10666,7 +10664,7 @@ StartChar: Abrevehookabove
 Encoding: 7858 7858 701
 Width: 600
 VWidth: 0
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Fore
 Refer: 588 777 S 1 0 0 1 300 200 2
@@ -10677,7 +10675,7 @@ EndChar
 StartChar: abrevehookabove
 Encoding: 7859 7859 702
 Width: 600
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Fore
 Refer: 588 777 N 1 0 0 1 300 200 2
@@ -10753,7 +10751,7 @@ EndChar
 StartChar: Ehookabove
 Encoding: 7866 7866 709
 Width: 600
-Flags: M
+Flags: HM
 LayerCount: 2
 Fore
 Refer: 588 777 N 1 0 0 1 300 200 2
@@ -10763,7 +10761,7 @@ EndChar
 StartChar: ehookabove
 Encoding: 7867 7867 710
 Width: 600
-Flags: M
+Flags: HM
 LayerCount: 2
 Fore
 Refer: 588 777 N 1 0 0 1 300 0 2
@@ -10833,7 +10831,7 @@ EndChar
 StartChar: Ecircumflexhookabove
 Encoding: 7874 7874 717
 Width: 600
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Fore
 Refer: 691 -1 S 1 0 0 1 300 0 2
@@ -10843,7 +10841,7 @@ EndChar
 StartChar: ecircumflexhookabove
 Encoding: 7875 7875 718
 Width: 600
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Fore
 Refer: 691 -1 N 1 0 0 1 300 0 2
@@ -10897,7 +10895,7 @@ EndChar
 StartChar: Ihookabove
 Encoding: 7880 7880 723
 Width: 400
-Flags: M
+Flags: HM
 LayerCount: 2
 Fore
 Refer: 588 777 N 1 0 0 1 200 200 2
@@ -10907,7 +10905,7 @@ EndChar
 StartChar: ihookabove
 Encoding: 7881 7881 724
 Width: 400
-Flags: M
+Flags: HM
 LayerCount: 2
 Fore
 Refer: 588 777 N 1 0 0 1 200 0 2
@@ -10957,7 +10955,7 @@ EndChar
 StartChar: Ohookabove
 Encoding: 7886 7886 729
 Width: 600
-Flags: M
+Flags: HM
 LayerCount: 2
 Fore
 Refer: 588 777 N 1 0 0 1 300 200 2
@@ -10967,7 +10965,7 @@ EndChar
 StartChar: ohookabove
 Encoding: 7887 7887 730
 Width: 600
-Flags: M
+Flags: HM
 LayerCount: 2
 Fore
 Refer: 588 777 N 1 0 0 1 300 0 2
@@ -11017,7 +11015,7 @@ EndChar
 StartChar: Ocircumflexhookabove
 Encoding: 7892 7892 735
 Width: 600
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Fore
 Refer: 691 -1 N 1 0 0 1 300 0 2
@@ -11027,7 +11025,7 @@ EndChar
 StartChar: ocircumflexhookabove
 Encoding: 7893 7893 736
 Width: 600
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Fore
 Refer: 691 -1 S 1 0 0 1 300 0 2
@@ -11121,7 +11119,7 @@ EndChar
 StartChar: Ohornhookabove
 Encoding: 7902 7902 745
 Width: 800
-Flags: M
+Flags: HM
 LayerCount: 2
 Fore
 Refer: 588 777 N 1 0 0 1 300 200 2
@@ -11131,7 +11129,7 @@ EndChar
 StartChar: ohornhookabove
 Encoding: 7903 7903 746
 Width: 800
-Flags: M
+Flags: HM
 LayerCount: 2
 Fore
 Refer: 588 777 N 1 0 0 1 300 0 2
@@ -11201,7 +11199,7 @@ EndChar
 StartChar: Uhookabove
 Encoding: 7910 7910 753
 Width: 600
-Flags: M
+Flags: HM
 LayerCount: 2
 Fore
 Refer: 588 777 N 1 0 0 1 300 200 2
@@ -11211,7 +11209,7 @@ EndChar
 StartChar: uhookabove
 Encoding: 7911 7911 754
 Width: 600
-Flags: M
+Flags: HM
 LayerCount: 2
 Fore
 Refer: 588 777 N 1 0 0 1 300 0 2
@@ -11261,7 +11259,7 @@ EndChar
 StartChar: Uhornhookabove
 Encoding: 7916 7916 759
 Width: 800
-Flags: M
+Flags: HM
 LayerCount: 2
 Fore
 Refer: 588 777 N 1 0 0 1 300 200 2
@@ -11271,7 +11269,7 @@ EndChar
 StartChar: uhornhookabove
 Encoding: 7917 7917 760
 Width: 800
-Flags: M
+Flags: HM
 LayerCount: 2
 Fore
 Refer: 588 777 N 1 0 0 1 300 0 2
@@ -11364,7 +11362,7 @@ EndChar
 StartChar: Yhookabove
 Encoding: 7926 7926 768
 Width: 600
-Flags: M
+Flags: HM
 LayerCount: 2
 Fore
 Refer: 588 777 N 1 0 0 1 300 200 2
@@ -11374,7 +11372,7 @@ EndChar
 StartChar: yhookabove
 Encoding: 7927 7927 769
 Width: 600
-Flags: M
+Flags: HM
 LayerCount: 2
 Fore
 Refer: 588 777 N 1 0 0 1 300 0 2
