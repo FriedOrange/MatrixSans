@@ -94,8 +94,27 @@ fontbakery version: 0.12.10
 </div>
 </details>
 
-<details><summary>[8] MatrixSansVideo-Regular.ttf</summary>
+<details><summary>[9] MatrixSansVideo-Regular.ttf</summary>
 <div>
+<details>
+    <summary>🔥 <b>FAIL</b> Glyph names are all valid? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.glyphnames.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>The following glyph names do not comply with naming conventions: A-cy, Be-cy, Che-cy, Chedescender-cy, De-cy, Dje-cy, Dzhe-cy, E-cy, Ef-cy, El-cy, Em-cy, En-cy, Endescender-cy, Er-cy, Ereversed-cy, Es-cy, Ge-cy, Gestroke-cy, Geupturn-cy, Ha-cy, Hadescender-cy, Hardsign-cy, I-cy, Ie-cy, Ii-cy, Iishort-cy, Imacron-cy, Io-cy, Je-cy, Ka-cy, Kadescender-cy, Lje-cy, Nje-cy, O-cy, Obarred-cy, Pe-cy, Schwa-cy, Sha-cy, Shcha-cy, Shha-cy, Softsign-cy, Te-cy, Tse-cy, Tshe-cy, U-cy, Umacron-cy, Ushort-cy, Ustraight-cy, Ustraightstroke-cy, Ve-cy, Ya-cy, Yeru-cy, Yi-cy, Yu-cy, Ze-cy, Zhe-cy, Zhedescender-cy, a-cy, be-cy, che-cy, chedescender-cy, de-cy, dje-cy, dzhe-cy, e-cy, ef-cy, el-cy, em-cy, en-cy, endescender-cy, er-cy, ereversed-cy, es-cy, ge-cy, gestroke-cy, geupturn-cy, ha-cy, hadescender-cy, hardsign-cy, i-cy, ie-cy, ii-cy, iishort-cy, imacron-cy, io-cy, je-cy, ka-cy, kadescender-cy, lje-cy, nje-cy, o-cy, obarred-cy, pe-cy, schwa-cy, sha-cy, shcha-cy, shha-cy, softsign-cy, te-cy, tse-cy, tshe-cy, u-cy, umacron-cy, ushort-cy, ustraight-cy, ustraightstroke-cy, ve-cy, ya-cy, yeru-cy, yi-cy, yu-cy, ze-cy, zhe-cy and zhedescender-cy</p>
+<p>A glyph name must be entirely comprised of characters from the following set: A-Z a-z 0-9 .(period) <em>(underscore). A glyph name must not start with a digit or period. There are a few exceptions such as the special glyph &quot;.notdef&quot;. The glyph names &quot;twocents&quot;, &quot;a1&quot;, and &quot;</em>&quot; are all valid, while &quot;2cents&quot; and &quot;.twocents&quot; are not.</p>
+ [code: found-invalid-names]
+
+
+
+</div>
+</details>
+
 <details>
     <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
     <div>
@@ -784,7 +803,7 @@ fontbakery version: 0.12.10
 * ⚠️ **WARN** <p>The most common width is 600 among a set of 9 math glyphs.
 The following math glyphs have a different width, though:</p>
 <p>Width = 400:
-greater, greaterequal, lessequal, less</p>
+greater, less, greaterequal, lessequal</p>
  [code: width-outliers]
 
 
@@ -826,33 +845,33 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, cherokee, coptic, math</li>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, tifinagh, cherokee</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, old-permic, todhri, tifinagh, coptic, malayalam, canadian-aboriginal, math, syriac, duployan, tai-le</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: duployan, tifinagh, malayalam, coptic, math, canadian-aboriginal, tai-le, syriac, old-permic, hebrew, todhri</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
-<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
+<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
 <li>U+030D COMBINING VERTICAL LINE ABOVE: try adding sunuwar</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+0315 COMBINING COMMA ABOVE RIGHT: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
-<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: duployan, cherokee, syriac</li>
+<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: duployan, syriac, cherokee</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: thai, sunuwar, tifinagh, gothic, cherokee, syriac, caucasian-albanian</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: caucasian-albanian, gothic, tifinagh, thai, syriac, sunuwar, cherokee</li>
 <li>U+0358 COMBINING DOT ABOVE RIGHT: try adding osage</li>
-<li>U+0394 GREEK CAPITAL LETTER DELTA: try adding one of: elbasan, math, greek</li>
-<li>U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: elbasan, math, greek</li>
+<li>U+0394 GREEK CAPITAL LETTER DELTA: try adding one of: math, elbasan, greek</li>
+<li>U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: math, elbasan, greek</li>
 <li>U+03BC GREEK SMALL LETTER MU: try adding one of: math, greek</li>
-<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: yi, math, greek</li>
+<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: math, yi, greek</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+2007 FIGURE SPACE: try adding symbols2</li>
-<li>U+2010 HYPHEN: try adding one of: yi, hebrew, sora-sompeng, lisu, sundanese, syloti-nagri, coptic, arabic, armenian, kharoshthi, kaithi, kayah-li, cham</li>
+<li>U+2010 HYPHEN: try adding one of: arabic, armenian, lisu, coptic, syloti-nagri, cham, sora-sompeng, yi, sundanese, kharoshthi, hebrew, kaithi, kayah-li</li>
 <li>U+2011 NON-BREAKING HYPHEN: try adding one of: arabic, yi, syloti-nagri</li>
 <li>U+2012 FIGURE DASH: not included in any glyphset definition</li>
 <li>U+2015 HORIZONTAL BAR: try adding adlam</li>
@@ -904,7 +923,7 @@ definitions.</p>
 <li>U+2206 INCREMENT: try adding math</li>
 <li>U+220F N-ARY PRODUCT: try adding math</li>
 <li>U+2211 N-ARY SUMMATION: try adding math</li>
-<li>U+2219 BULLET OPERATOR: try adding one of: tai-tham, yi, math, symbols</li>
+<li>U+2219 BULLET OPERATOR: try adding one of: math, yi, symbols, tai-tham</li>
 <li>U+221A SQUARE ROOT: try adding math</li>
 <li>U+221E INFINITY: try adding math</li>
 <li>U+222B INTEGRAL: try adding math</li>
@@ -943,7 +962,7 @@ definitions.</p>
 <li>U+25C7 WHITE DIAMOND: try adding symbols</li>
 <li>U+25CA LOZENGE: try adding one of: math, symbols</li>
 <li>U+25CB WHITE CIRCLE: try adding symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: gujarati, syloti-nagri, canadian-aboriginal, lepcha, tai-tham, sogdian, mende-kikakui, mandaic, tai-viet, syriac, bengali, saurashtra, grantha, takri, tirhuta, malayalam, phags-pa, gunjala-gondi, batak, khudawadi, soyombo, armenian, tai-le, wancho, khojki, buhid, tifinagh, kharoshthi, kaithi, sinhala, newa, zanabazar-square, psalter-pahlavi, masaram-gondi, sharada, myanmar, kannada, yi, tamil, warang-citi, bassa-vah, balinese, thaana, khmer, osage, brahmi, buginese, duployan, rejang, thai, mahajani, music, elbasan, nko, manichaean, oriya, chakma, devanagari, old-permic, mongolian, math, ahom, hanunoo, siddham, hanifi-rohingya, meetei-mayek, bhaiksuki, javanese, tagbanwa, symbols, adlam, hebrew, telugu, miao, caucasian-albanian, cham, pahawh-hmong, tibetan, lao, marchen, gurmukhi, limbu, modi, dogra, sundanese, coptic, new-tai-lue, tagalog, kayah-li</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: devanagari, math, lao, old-permic, miao, bhaiksuki, sinhala, marchen, pahawh-hmong, limbu, hebrew, phags-pa, lepcha, balinese, syriac, elbasan, sundanese, wancho, gunjala-gondi, mahajani, masaram-gondi, sharada, thaana, warang-citi, hanunoo, siddham, newa, thai, syloti-nagri, saurashtra, duployan, brahmi, khojki, manichaean, tagbanwa, takri, gujarati, buginese, tai-tham, yi, tagalog, oriya, kayah-li, mende-kikakui, buhid, tamil, gurmukhi, myanmar, khudawadi, mongolian, batak, meetei-mayek, zanabazar-square, bengali, new-tai-lue, rejang, tirhuta, psalter-pahlavi, kharoshthi, osage, music, ahom, canadian-aboriginal, tai-le, nko, kaithi, javanese, adlam, modi, coptic, tibetan, caucasian-albanian, tifinagh, malayalam, telugu, tai-viet, hanifi-rohingya, khmer, armenian, chakma, sogdian, cham, kannada, dogra, soyombo, symbols, bassa-vah, grantha, mandaic</li>
 <li>U+25CF BLACK CIRCLE: try adding symbols</li>
 <li>U+25E6 WHITE BULLET: try adding symbols</li>
 <li>U+27E8 MATHEMATICAL LEFT ANGLE BRACKET: try adding math</li>
@@ -951,7 +970,7 @@ definitions.</p>
 <li>U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition</li>
 <li>U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition</li>
 </ul>
-<p>Or you can add the above codepoints to one of the subsets supported by the font: <code>cyrillic-ext</code>, <code>latin</code>, <code>latin-ext</code>, <code>vietnamese</code></p>
+<p>Or you can add the above codepoints to one of the subsets supported by the font: <code>cyrillic</code>, <code>cyrillic-ext</code>, <code>latin</code>, <code>latin-ext</code>, <code>vietnamese</code></p>
  [code: unreachable-subsetting]
 
 
@@ -969,9 +988,10 @@ definitions.</p>
 
 
 
-* ⚠️ **WARN** <p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: i̛̇ i̛̊ i̛̋ i̛̍ i̛̒ i̤̇ i̤̊ i̤̋ i̤̍ i̤̒ i̦̇ i̦̊ i̦̋ i̦̍ i̦̒ i̧̇ i̧̊ i̧̋ i̧̍ i̧̒</p>
-<p>Your font fully covers the following languages that require the soft-dotted feature: Dutch (Latn, 31,709,104 speakers), Lithuanian (Latn, 2,357,094 speakers).</p>
-<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Ngbaka (Latn, 1,020,000 speakers), Nateni (Latn, 100,000 speakers), Fur (Latn, 1,230,163 speakers), Lugbara (Latn, 2,200,000 speakers), Ekpeye (Latn, 226,000 speakers), Teke-Ebo (Latn, 260,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Ebira (Latn, 2,200,000 speakers), South Central Banda (Latn, 244,000 speakers), Dii (Latn, 71,000 speakers), Igbo (Latn, 27,823,640 speakers), Basaa (Latn, 332,940 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Koonzime (Latn, 40,000 speakers), Sar (Latn, 500,000 speakers), Yala (Latn, 200,000 speakers), Kom (Latn, 360,685 speakers), Belarusian (Cyrl, 10,064,517 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Ejagham (Latn, 120,000 speakers), Bafut (Latn, 158,146 speakers), Avokaya (Latn, 100,000 speakers), Dan (Latn, 1,099,244 speakers), Cicipu (Latn, 44,000 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Mango (Latn, 77,000 speakers), Gulay (Latn, 250,478 speakers), Southern Kisi (Latn, 360,000 speakers), Kaska (Latn, 125 speakers), Vute (Latn, 21,000 speakers), Mfumte (Latn, 79,000 speakers), Navajo (Latn, 166,319 speakers), Zapotec (Latn, 490,000 speakers), Nzakara (Latn, 50,000 speakers), Heiltsuk (Latn, 300 speakers), Han (Latn, 6 speakers), Ma’di (Latn, 584,000 speakers), Aghem (Latn, 38,843 speakers), Mundani (Latn, 34,000 speakers), Makaa (Latn, 221,000 speakers).</p>
+* ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: і́</p>
+<p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: i̛̇ i̛̊ i̛̋ i̛̍ i̛̒ i̤̇ i̤̊ i̤̋ i̤̍ i̤̒ i̦̇ i̦̊ i̦̋ i̦̍ i̦̒ i̧̇ i̧̊ i̧̋ i̧̍ i̧̒</p>
+<p>Your font fully covers the following languages that require the soft-dotted feature: Dutch (Latn, 31,709,104 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Belarusian (Cyrl, 10,064,517 speakers), Lithuanian (Latn, 2,357,094 speakers).</p>
+<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Cicipu (Latn, 44,000 speakers), Kom (Latn, 360,685 speakers), Dii (Latn, 71,000 speakers), Dan (Latn, 1,099,244 speakers), Ngbaka (Latn, 1,020,000 speakers), Avokaya (Latn, 100,000 speakers), Southern Kisi (Latn, 360,000 speakers), Vute (Latn, 21,000 speakers), Mango (Latn, 77,000 speakers), Nzakara (Latn, 50,000 speakers), Bafut (Latn, 158,146 speakers), Teke-Ebo (Latn, 260,000 speakers), Ma’di (Latn, 584,000 speakers), Igbo (Latn, 27,823,640 speakers), Basaa (Latn, 332,940 speakers), Yala (Latn, 200,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Nateni (Latn, 100,000 speakers), Kaska (Latn, 125 speakers), Sar (Latn, 500,000 speakers), Makaa (Latn, 221,000 speakers), Ejagham (Latn, 120,000 speakers), Gulay (Latn, 250,478 speakers), Fur (Latn, 1,230,163 speakers), Ekpeye (Latn, 226,000 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Lugbara (Latn, 2,200,000 speakers), Koonzime (Latn, 40,000 speakers), Ebira (Latn, 2,200,000 speakers), Zapotec (Latn, 490,000 speakers), Heiltsuk (Latn, 300 speakers), Mundani (Latn, 34,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Han (Latn, 6 speakers), Mfumte (Latn, 79,000 speakers), Aghem (Latn, 38,843 speakers), South Central Banda (Latn, 244,000 speakers), Navajo (Latn, 166,319 speakers).</p>
  [code: soft-dotted]
 
 
@@ -999,8 +1019,27 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[7] MatrixSansVideoSC-Regular.ttf</summary>
+<details><summary>[9] MatrixSansVideoSC-Regular.ttf</summary>
 <div>
+<details>
+    <summary>🔥 <b>FAIL</b> Glyph names are all valid? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.glyphnames.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>The following glyph names do not comply with naming conventions: A-cy, Be-cy, Che-cy, Chedescender-cy, De-cy, Dje-cy, Dzhe-cy, E-cy, Ef-cy, El-cy, Em-cy, En-cy, Endescender-cy, Er-cy, Ereversed-cy, Es-cy, Ge-cy, Gestroke-cy, Geupturn-cy, Ha-cy, Hadescender-cy, Hardsign-cy, I-cy, Ie-cy, Ii-cy, Iishort-cy, Imacron-cy, Io-cy, Je-cy, Ka-cy, Kadescender-cy, Lje-cy, Nje-cy, O-cy, Obarred-cy, Pe-cy, Schwa-cy, Sha-cy, Shcha-cy, Shha-cy, Softsign-cy, Te-cy, Tse-cy, Tshe-cy, U-cy, Umacron-cy, Ushort-cy, Ustraight-cy, Ustraightstroke-cy, Ve-cy, Ya-cy, Yeru-cy, Yi-cy, Yu-cy, Ze-cy, Zhe-cy, Zhedescender-cy, a-cy, be-cy, che-cy, chedescender-cy, de-cy, dje-cy, dzhe-cy, e-cy, ef-cy, el-cy, em-cy, en-cy, endescender-cy, er-cy, ereversed-cy, es-cy, ge-cy, gestroke-cy, geupturn-cy, ha-cy, hadescender-cy, hardsign-cy, i-cy, ie-cy, ii-cy, iishort-cy, imacron-cy, io-cy, je-cy, ka-cy, kadescender-cy, lje-cy, nje-cy, o-cy, obarred-cy, pe-cy, schwa-cy, sha-cy, shcha-cy, shha-cy, softsign-cy, te-cy, tse-cy, tshe-cy, u-cy, umacron-cy, ushort-cy, ustraight-cy, ustraightstroke-cy, ve-cy, ya-cy, yeru-cy, yi-cy, yu-cy, ze-cy, zhe-cy and zhedescender-cy</p>
+<p>A glyph name must be entirely comprised of characters from the following set: A-Z a-z 0-9 .(period) <em>(underscore). A glyph name must not start with a digit or period. There are a few exceptions such as the special glyph &quot;.notdef&quot;. The glyph names &quot;twocents&quot;, &quot;a1&quot;, and &quot;</em>&quot; are all valid, while &quot;2cents&quot; and &quot;.twocents&quot; are not.</p>
+ [code: found-invalid-names]
+
+
+
+</div>
+</details>
+
 <details>
     <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
     <div>
@@ -2745,7 +2784,7 @@ definitions.</p>
 * ⚠️ **WARN** <p>The most common width is 600 among a set of 9 math glyphs.
 The following math glyphs have a different width, though:</p>
 <p>Width = 400:
-greater, greaterequal, lessequal, less</p>
+greater, less, greaterequal, lessequal</p>
  [code: width-outliers]
 
 
@@ -2787,33 +2826,33 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, cherokee, coptic, math</li>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, tifinagh, cherokee</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, old-permic, todhri, tifinagh, coptic, malayalam, canadian-aboriginal, math, syriac, duployan, tai-le</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: duployan, tifinagh, malayalam, coptic, math, canadian-aboriginal, tai-le, syriac, old-permic, hebrew, todhri</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
-<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
+<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
 <li>U+030D COMBINING VERTICAL LINE ABOVE: try adding sunuwar</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+0315 COMBINING COMMA ABOVE RIGHT: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
-<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: duployan, cherokee, syriac</li>
+<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: duployan, syriac, cherokee</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: thai, sunuwar, tifinagh, gothic, cherokee, syriac, caucasian-albanian</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: caucasian-albanian, gothic, tifinagh, thai, syriac, sunuwar, cherokee</li>
 <li>U+0358 COMBINING DOT ABOVE RIGHT: try adding osage</li>
-<li>U+0394 GREEK CAPITAL LETTER DELTA: try adding one of: elbasan, math, greek</li>
-<li>U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: elbasan, math, greek</li>
+<li>U+0394 GREEK CAPITAL LETTER DELTA: try adding one of: math, elbasan, greek</li>
+<li>U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: math, elbasan, greek</li>
 <li>U+03BC GREEK SMALL LETTER MU: try adding one of: math, greek</li>
-<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: yi, math, greek</li>
+<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: math, yi, greek</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+2007 FIGURE SPACE: try adding symbols2</li>
-<li>U+2010 HYPHEN: try adding one of: yi, hebrew, sora-sompeng, lisu, sundanese, syloti-nagri, coptic, arabic, armenian, kharoshthi, kaithi, kayah-li, cham</li>
+<li>U+2010 HYPHEN: try adding one of: arabic, armenian, lisu, coptic, syloti-nagri, cham, sora-sompeng, yi, sundanese, kharoshthi, hebrew, kaithi, kayah-li</li>
 <li>U+2011 NON-BREAKING HYPHEN: try adding one of: arabic, yi, syloti-nagri</li>
 <li>U+2012 FIGURE DASH: not included in any glyphset definition</li>
 <li>U+2015 HORIZONTAL BAR: try adding adlam</li>
@@ -2865,7 +2904,7 @@ definitions.</p>
 <li>U+2206 INCREMENT: try adding math</li>
 <li>U+220F N-ARY PRODUCT: try adding math</li>
 <li>U+2211 N-ARY SUMMATION: try adding math</li>
-<li>U+2219 BULLET OPERATOR: try adding one of: tai-tham, yi, math, symbols</li>
+<li>U+2219 BULLET OPERATOR: try adding one of: math, yi, symbols, tai-tham</li>
 <li>U+221A SQUARE ROOT: try adding math</li>
 <li>U+221E INFINITY: try adding math</li>
 <li>U+222B INTEGRAL: try adding math</li>
@@ -2904,7 +2943,7 @@ definitions.</p>
 <li>U+25C7 WHITE DIAMOND: try adding symbols</li>
 <li>U+25CA LOZENGE: try adding one of: math, symbols</li>
 <li>U+25CB WHITE CIRCLE: try adding symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: gujarati, syloti-nagri, canadian-aboriginal, lepcha, tai-tham, sogdian, mende-kikakui, mandaic, tai-viet, syriac, bengali, saurashtra, grantha, takri, tirhuta, malayalam, phags-pa, gunjala-gondi, batak, khudawadi, soyombo, armenian, tai-le, wancho, khojki, buhid, tifinagh, kharoshthi, kaithi, sinhala, newa, zanabazar-square, psalter-pahlavi, masaram-gondi, sharada, myanmar, kannada, yi, tamil, warang-citi, bassa-vah, balinese, thaana, khmer, osage, brahmi, buginese, duployan, rejang, thai, mahajani, music, elbasan, nko, manichaean, oriya, chakma, devanagari, old-permic, mongolian, math, ahom, hanunoo, siddham, hanifi-rohingya, meetei-mayek, bhaiksuki, javanese, tagbanwa, symbols, adlam, hebrew, telugu, miao, caucasian-albanian, cham, pahawh-hmong, tibetan, lao, marchen, gurmukhi, limbu, modi, dogra, sundanese, coptic, new-tai-lue, tagalog, kayah-li</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: devanagari, math, lao, old-permic, miao, bhaiksuki, sinhala, marchen, pahawh-hmong, limbu, hebrew, phags-pa, lepcha, balinese, syriac, elbasan, sundanese, wancho, gunjala-gondi, mahajani, masaram-gondi, sharada, thaana, warang-citi, hanunoo, siddham, newa, thai, syloti-nagri, saurashtra, duployan, brahmi, khojki, manichaean, tagbanwa, takri, gujarati, buginese, tai-tham, yi, tagalog, oriya, kayah-li, mende-kikakui, buhid, tamil, gurmukhi, myanmar, khudawadi, mongolian, batak, meetei-mayek, zanabazar-square, bengali, new-tai-lue, rejang, tirhuta, psalter-pahlavi, kharoshthi, osage, music, ahom, canadian-aboriginal, tai-le, nko, kaithi, javanese, adlam, modi, coptic, tibetan, caucasian-albanian, tifinagh, malayalam, telugu, tai-viet, hanifi-rohingya, khmer, armenian, chakma, sogdian, cham, kannada, dogra, soyombo, symbols, bassa-vah, grantha, mandaic</li>
 <li>U+25CF BLACK CIRCLE: try adding symbols</li>
 <li>U+25E6 WHITE BULLET: try adding symbols</li>
 <li>U+27E8 MATHEMATICAL LEFT ANGLE BRACKET: try adding math</li>
@@ -2912,8 +2951,29 @@ definitions.</p>
 <li>U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition</li>
 <li>U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition</li>
 </ul>
-<p>Or you can add the above codepoints to one of the subsets supported by the font: <code>cyrillic-ext</code>, <code>latin</code>, <code>latin-ext</code>, <code>vietnamese</code></p>
+<p>Or you can add the above codepoints to one of the subsets supported by the font: <code>cyrillic</code>, <code>cyrillic-ext</code>, <code>latin</code>, <code>latin-ext</code>, <code>vietnamese</code></p>
  [code: unreachable-subsetting]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/shaping.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: і́</p>
+<p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: і̀ і̂ і̃ і̄ і̆ і̇ і̉ і̊ і̋ і̌ і̍ і̒ і̛̀ і̛́ і̛̂ і̛̃ і̛̄ і̛̆ і̛̇ і̛̉</p>
+<p>Your font fully covers the following languages that require the soft-dotted feature: Dutch (Latn, 31,709,104 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Belarusian (Cyrl, 10,064,517 speakers), Lithuanian (Latn, 2,357,094 speakers).</p>
+<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Cicipu (Latn, 44,000 speakers), Kom (Latn, 360,685 speakers), Dii (Latn, 71,000 speakers), Dan (Latn, 1,099,244 speakers), Ngbaka (Latn, 1,020,000 speakers), Avokaya (Latn, 100,000 speakers), Southern Kisi (Latn, 360,000 speakers), Vute (Latn, 21,000 speakers), Mango (Latn, 77,000 speakers), Nzakara (Latn, 50,000 speakers), Bafut (Latn, 158,146 speakers), Teke-Ebo (Latn, 260,000 speakers), Ma’di (Latn, 584,000 speakers), Igbo (Latn, 27,823,640 speakers), Basaa (Latn, 332,940 speakers), Yala (Latn, 200,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Nateni (Latn, 100,000 speakers), Kaska (Latn, 125 speakers), Sar (Latn, 500,000 speakers), Makaa (Latn, 221,000 speakers), Ejagham (Latn, 120,000 speakers), Gulay (Latn, 250,478 speakers), Fur (Latn, 1,230,163 speakers), Ekpeye (Latn, 226,000 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Lugbara (Latn, 2,200,000 speakers), Koonzime (Latn, 40,000 speakers), Ebira (Latn, 2,200,000 speakers), Zapotec (Latn, 490,000 speakers), Heiltsuk (Latn, 300 speakers), Mundani (Latn, 34,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Han (Latn, 6 speakers), Mfumte (Latn, 79,000 speakers), Aghem (Latn, 38,843 speakers), South Central Banda (Latn, 244,000 speakers), Navajo (Latn, 166,319 speakers).</p>
+ [code: soft-dotted]
 
 
 
@@ -2940,8 +3000,27 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[8] MatrixSans-Regular.ttf</summary>
+<details><summary>[9] MatrixSans-Regular.ttf</summary>
 <div>
+<details>
+    <summary>🔥 <b>FAIL</b> Glyph names are all valid? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.glyphnames.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>The following glyph names do not comply with naming conventions: A-cy, Be-cy, Che-cy, Chedescender-cy, De-cy, Dje-cy, Dzhe-cy, E-cy, Ef-cy, El-cy, Em-cy, En-cy, Endescender-cy, Er-cy, Ereversed-cy, Es-cy, Ge-cy, Gestroke-cy, Geupturn-cy, Ha-cy, Hadescender-cy, Hardsign-cy, I-cy, Ie-cy, Ii-cy, Iishort-cy, Imacron-cy, Io-cy, Je-cy, Ka-cy, Kadescender-cy, Lje-cy, Nje-cy, O-cy, Obarred-cy, Pe-cy, Schwa-cy, Sha-cy, Shcha-cy, Shha-cy, Softsign-cy, Te-cy, Tse-cy, Tshe-cy, U-cy, Umacron-cy, Ushort-cy, Ustraight-cy, Ustraightstroke-cy, Ve-cy, Ya-cy, Yeru-cy, Yi-cy, Yu-cy, Ze-cy, Zhe-cy, Zhedescender-cy, a-cy, be-cy, che-cy, chedescender-cy, de-cy, dje-cy, dzhe-cy, e-cy, ef-cy, el-cy, em-cy, en-cy, endescender-cy, er-cy, ereversed-cy, es-cy, ge-cy, gestroke-cy, geupturn-cy, ha-cy, hadescender-cy, hardsign-cy, i-cy, ie-cy, ii-cy, iishort-cy, imacron-cy, io-cy, je-cy, ka-cy, kadescender-cy, lje-cy, nje-cy, o-cy, obarred-cy, pe-cy, schwa-cy, sha-cy, shcha-cy, shha-cy, softsign-cy, te-cy, tse-cy, tshe-cy, u-cy, umacron-cy, ushort-cy, ustraight-cy, ustraightstroke-cy, ve-cy, ya-cy, yeru-cy, yi-cy, yu-cy, ze-cy, zhe-cy and zhedescender-cy</p>
+<p>A glyph name must be entirely comprised of characters from the following set: A-Z a-z 0-9 .(period) <em>(underscore). A glyph name must not start with a digit or period. There are a few exceptions such as the special glyph &quot;.notdef&quot;. The glyph names &quot;twocents&quot;, &quot;a1&quot;, and &quot;</em>&quot; are all valid, while &quot;2cents&quot; and &quot;.twocents&quot; are not.</p>
+ [code: found-invalid-names]
+
+
+
+</div>
+</details>
+
 <details>
     <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
     <div>
@@ -3630,7 +3709,7 @@ definitions.</p>
 * ⚠️ **WARN** <p>The most common width is 600 among a set of 9 math glyphs.
 The following math glyphs have a different width, though:</p>
 <p>Width = 400:
-greater, greaterequal, lessequal, less</p>
+greater, less, greaterequal, lessequal</p>
  [code: width-outliers]
 
 
@@ -3672,33 +3751,33 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, cherokee, coptic, math</li>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, tifinagh, cherokee</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, old-permic, todhri, tifinagh, coptic, malayalam, canadian-aboriginal, math, syriac, duployan, tai-le</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: duployan, tifinagh, malayalam, coptic, math, canadian-aboriginal, tai-le, syriac, old-permic, hebrew, todhri</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
-<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
+<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
 <li>U+030D COMBINING VERTICAL LINE ABOVE: try adding sunuwar</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+0315 COMBINING COMMA ABOVE RIGHT: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
-<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: duployan, cherokee, syriac</li>
+<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: duployan, syriac, cherokee</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: thai, sunuwar, tifinagh, gothic, cherokee, syriac, caucasian-albanian</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: caucasian-albanian, gothic, tifinagh, thai, syriac, sunuwar, cherokee</li>
 <li>U+0358 COMBINING DOT ABOVE RIGHT: try adding osage</li>
-<li>U+0394 GREEK CAPITAL LETTER DELTA: try adding one of: elbasan, math, greek</li>
-<li>U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: elbasan, math, greek</li>
+<li>U+0394 GREEK CAPITAL LETTER DELTA: try adding one of: math, elbasan, greek</li>
+<li>U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: math, elbasan, greek</li>
 <li>U+03BC GREEK SMALL LETTER MU: try adding one of: math, greek</li>
-<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: yi, math, greek</li>
+<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: math, yi, greek</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+2007 FIGURE SPACE: try adding symbols2</li>
-<li>U+2010 HYPHEN: try adding one of: yi, hebrew, sora-sompeng, lisu, sundanese, syloti-nagri, coptic, arabic, armenian, kharoshthi, kaithi, kayah-li, cham</li>
+<li>U+2010 HYPHEN: try adding one of: arabic, armenian, lisu, coptic, syloti-nagri, cham, sora-sompeng, yi, sundanese, kharoshthi, hebrew, kaithi, kayah-li</li>
 <li>U+2011 NON-BREAKING HYPHEN: try adding one of: arabic, yi, syloti-nagri</li>
 <li>U+2012 FIGURE DASH: not included in any glyphset definition</li>
 <li>U+2015 HORIZONTAL BAR: try adding adlam</li>
@@ -3750,7 +3829,7 @@ definitions.</p>
 <li>U+2206 INCREMENT: try adding math</li>
 <li>U+220F N-ARY PRODUCT: try adding math</li>
 <li>U+2211 N-ARY SUMMATION: try adding math</li>
-<li>U+2219 BULLET OPERATOR: try adding one of: tai-tham, yi, math, symbols</li>
+<li>U+2219 BULLET OPERATOR: try adding one of: math, yi, symbols, tai-tham</li>
 <li>U+221A SQUARE ROOT: try adding math</li>
 <li>U+221E INFINITY: try adding math</li>
 <li>U+222B INTEGRAL: try adding math</li>
@@ -3789,7 +3868,7 @@ definitions.</p>
 <li>U+25C7 WHITE DIAMOND: try adding symbols</li>
 <li>U+25CA LOZENGE: try adding one of: math, symbols</li>
 <li>U+25CB WHITE CIRCLE: try adding symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: gujarati, syloti-nagri, canadian-aboriginal, lepcha, tai-tham, sogdian, mende-kikakui, mandaic, tai-viet, syriac, bengali, saurashtra, grantha, takri, tirhuta, malayalam, phags-pa, gunjala-gondi, batak, khudawadi, soyombo, armenian, tai-le, wancho, khojki, buhid, tifinagh, kharoshthi, kaithi, sinhala, newa, zanabazar-square, psalter-pahlavi, masaram-gondi, sharada, myanmar, kannada, yi, tamil, warang-citi, bassa-vah, balinese, thaana, khmer, osage, brahmi, buginese, duployan, rejang, thai, mahajani, music, elbasan, nko, manichaean, oriya, chakma, devanagari, old-permic, mongolian, math, ahom, hanunoo, siddham, hanifi-rohingya, meetei-mayek, bhaiksuki, javanese, tagbanwa, symbols, adlam, hebrew, telugu, miao, caucasian-albanian, cham, pahawh-hmong, tibetan, lao, marchen, gurmukhi, limbu, modi, dogra, sundanese, coptic, new-tai-lue, tagalog, kayah-li</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: devanagari, math, lao, old-permic, miao, bhaiksuki, sinhala, marchen, pahawh-hmong, limbu, hebrew, phags-pa, lepcha, balinese, syriac, elbasan, sundanese, wancho, gunjala-gondi, mahajani, masaram-gondi, sharada, thaana, warang-citi, hanunoo, siddham, newa, thai, syloti-nagri, saurashtra, duployan, brahmi, khojki, manichaean, tagbanwa, takri, gujarati, buginese, tai-tham, yi, tagalog, oriya, kayah-li, mende-kikakui, buhid, tamil, gurmukhi, myanmar, khudawadi, mongolian, batak, meetei-mayek, zanabazar-square, bengali, new-tai-lue, rejang, tirhuta, psalter-pahlavi, kharoshthi, osage, music, ahom, canadian-aboriginal, tai-le, nko, kaithi, javanese, adlam, modi, coptic, tibetan, caucasian-albanian, tifinagh, malayalam, telugu, tai-viet, hanifi-rohingya, khmer, armenian, chakma, sogdian, cham, kannada, dogra, soyombo, symbols, bassa-vah, grantha, mandaic</li>
 <li>U+25CF BLACK CIRCLE: try adding symbols</li>
 <li>U+25E6 WHITE BULLET: try adding symbols</li>
 <li>U+27E8 MATHEMATICAL LEFT ANGLE BRACKET: try adding math</li>
@@ -3797,7 +3876,7 @@ definitions.</p>
 <li>U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition</li>
 <li>U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition</li>
 </ul>
-<p>Or you can add the above codepoints to one of the subsets supported by the font: <code>cyrillic-ext</code>, <code>latin</code>, <code>latin-ext</code>, <code>vietnamese</code></p>
+<p>Or you can add the above codepoints to one of the subsets supported by the font: <code>cyrillic</code>, <code>cyrillic-ext</code>, <code>latin</code>, <code>latin-ext</code>, <code>vietnamese</code></p>
  [code: unreachable-subsetting]
 
 
@@ -3815,9 +3894,10 @@ definitions.</p>
 
 
 
-* ⚠️ **WARN** <p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: i̛̇ i̛̊ i̛̋ i̛̍ i̛̒ i̤̇ i̤̊ i̤̋ i̤̍ i̤̒ i̦̇ i̦̊ i̦̋ i̦̍ i̦̒ i̧̇ i̧̊ i̧̋ i̧̍ i̧̒</p>
-<p>Your font fully covers the following languages that require the soft-dotted feature: Dutch (Latn, 31,709,104 speakers), Lithuanian (Latn, 2,357,094 speakers).</p>
-<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Ngbaka (Latn, 1,020,000 speakers), Nateni (Latn, 100,000 speakers), Fur (Latn, 1,230,163 speakers), Lugbara (Latn, 2,200,000 speakers), Ekpeye (Latn, 226,000 speakers), Teke-Ebo (Latn, 260,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Ebira (Latn, 2,200,000 speakers), South Central Banda (Latn, 244,000 speakers), Dii (Latn, 71,000 speakers), Igbo (Latn, 27,823,640 speakers), Basaa (Latn, 332,940 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Koonzime (Latn, 40,000 speakers), Sar (Latn, 500,000 speakers), Yala (Latn, 200,000 speakers), Kom (Latn, 360,685 speakers), Belarusian (Cyrl, 10,064,517 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Ejagham (Latn, 120,000 speakers), Bafut (Latn, 158,146 speakers), Avokaya (Latn, 100,000 speakers), Dan (Latn, 1,099,244 speakers), Cicipu (Latn, 44,000 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Mango (Latn, 77,000 speakers), Gulay (Latn, 250,478 speakers), Southern Kisi (Latn, 360,000 speakers), Kaska (Latn, 125 speakers), Vute (Latn, 21,000 speakers), Mfumte (Latn, 79,000 speakers), Navajo (Latn, 166,319 speakers), Zapotec (Latn, 490,000 speakers), Nzakara (Latn, 50,000 speakers), Heiltsuk (Latn, 300 speakers), Han (Latn, 6 speakers), Ma’di (Latn, 584,000 speakers), Aghem (Latn, 38,843 speakers), Mundani (Latn, 34,000 speakers), Makaa (Latn, 221,000 speakers).</p>
+* ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: і́</p>
+<p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: i̛̇ i̛̊ i̛̋ i̛̍ i̛̒ i̤̇ i̤̊ i̤̋ i̤̍ i̤̒ i̦̇ i̦̊ i̦̋ i̦̍ i̦̒ i̧̇ i̧̊ i̧̋ i̧̍ i̧̒</p>
+<p>Your font fully covers the following languages that require the soft-dotted feature: Dutch (Latn, 31,709,104 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Belarusian (Cyrl, 10,064,517 speakers), Lithuanian (Latn, 2,357,094 speakers).</p>
+<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Cicipu (Latn, 44,000 speakers), Kom (Latn, 360,685 speakers), Dii (Latn, 71,000 speakers), Dan (Latn, 1,099,244 speakers), Ngbaka (Latn, 1,020,000 speakers), Avokaya (Latn, 100,000 speakers), Southern Kisi (Latn, 360,000 speakers), Vute (Latn, 21,000 speakers), Mango (Latn, 77,000 speakers), Nzakara (Latn, 50,000 speakers), Bafut (Latn, 158,146 speakers), Teke-Ebo (Latn, 260,000 speakers), Ma’di (Latn, 584,000 speakers), Igbo (Latn, 27,823,640 speakers), Basaa (Latn, 332,940 speakers), Yala (Latn, 200,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Nateni (Latn, 100,000 speakers), Kaska (Latn, 125 speakers), Sar (Latn, 500,000 speakers), Makaa (Latn, 221,000 speakers), Ejagham (Latn, 120,000 speakers), Gulay (Latn, 250,478 speakers), Fur (Latn, 1,230,163 speakers), Ekpeye (Latn, 226,000 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Lugbara (Latn, 2,200,000 speakers), Koonzime (Latn, 40,000 speakers), Ebira (Latn, 2,200,000 speakers), Zapotec (Latn, 490,000 speakers), Heiltsuk (Latn, 300 speakers), Mundani (Latn, 34,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Han (Latn, 6 speakers), Mfumte (Latn, 79,000 speakers), Aghem (Latn, 38,843 speakers), South Central Banda (Latn, 244,000 speakers), Navajo (Latn, 166,319 speakers).</p>
  [code: soft-dotted]
 
 
@@ -3845,8 +3925,27 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[7] MatrixSansSC-Regular.ttf</summary>
+<details><summary>[9] MatrixSansSC-Regular.ttf</summary>
 <div>
+<details>
+    <summary>🔥 <b>FAIL</b> Glyph names are all valid? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.glyphnames.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>The following glyph names do not comply with naming conventions: A-cy, Be-cy, Che-cy, Chedescender-cy, De-cy, Dje-cy, Dzhe-cy, E-cy, Ef-cy, El-cy, Em-cy, En-cy, Endescender-cy, Er-cy, Ereversed-cy, Es-cy, Ge-cy, Gestroke-cy, Geupturn-cy, Ha-cy, Hadescender-cy, Hardsign-cy, I-cy, Ie-cy, Ii-cy, Iishort-cy, Imacron-cy, Io-cy, Je-cy, Ka-cy, Kadescender-cy, Lje-cy, Nje-cy, O-cy, Obarred-cy, Pe-cy, Schwa-cy, Sha-cy, Shcha-cy, Shha-cy, Softsign-cy, Te-cy, Tse-cy, Tshe-cy, U-cy, Umacron-cy, Ushort-cy, Ustraight-cy, Ustraightstroke-cy, Ve-cy, Ya-cy, Yeru-cy, Yi-cy, Yu-cy, Ze-cy, Zhe-cy, Zhedescender-cy, a-cy, be-cy, che-cy, chedescender-cy, de-cy, dje-cy, dzhe-cy, e-cy, ef-cy, el-cy, em-cy, en-cy, endescender-cy, er-cy, ereversed-cy, es-cy, ge-cy, gestroke-cy, geupturn-cy, ha-cy, hadescender-cy, hardsign-cy, i-cy, ie-cy, ii-cy, iishort-cy, imacron-cy, io-cy, je-cy, ka-cy, kadescender-cy, lje-cy, nje-cy, o-cy, obarred-cy, pe-cy, schwa-cy, sha-cy, shcha-cy, shha-cy, softsign-cy, te-cy, tse-cy, tshe-cy, u-cy, umacron-cy, ushort-cy, ustraight-cy, ustraightstroke-cy, ve-cy, ya-cy, yeru-cy, yi-cy, yu-cy, ze-cy, zhe-cy and zhedescender-cy</p>
+<p>A glyph name must be entirely comprised of characters from the following set: A-Z a-z 0-9 .(period) <em>(underscore). A glyph name must not start with a digit or period. There are a few exceptions such as the special glyph &quot;.notdef&quot;. The glyph names &quot;twocents&quot;, &quot;a1&quot;, and &quot;</em>&quot; are all valid, while &quot;2cents&quot; and &quot;.twocents&quot; are not.</p>
+ [code: found-invalid-names]
+
+
+
+</div>
+</details>
+
 <details>
     <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
     <div>
@@ -5591,7 +5690,7 @@ definitions.</p>
 * ⚠️ **WARN** <p>The most common width is 600 among a set of 9 math glyphs.
 The following math glyphs have a different width, though:</p>
 <p>Width = 400:
-greater, greaterequal, lessequal, less</p>
+greater, less, greaterequal, lessequal</p>
  [code: width-outliers]
 
 
@@ -5633,33 +5732,33 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, cherokee, coptic, math</li>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, tifinagh, cherokee</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, old-permic, todhri, tifinagh, coptic, malayalam, canadian-aboriginal, math, syriac, duployan, tai-le</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: duployan, tifinagh, malayalam, coptic, math, canadian-aboriginal, tai-le, syriac, old-permic, hebrew, todhri</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
-<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
+<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
 <li>U+030D COMBINING VERTICAL LINE ABOVE: try adding sunuwar</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+0315 COMBINING COMMA ABOVE RIGHT: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
-<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: duployan, cherokee, syriac</li>
+<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: duployan, syriac, cherokee</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: thai, sunuwar, tifinagh, gothic, cherokee, syriac, caucasian-albanian</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: caucasian-albanian, gothic, tifinagh, thai, syriac, sunuwar, cherokee</li>
 <li>U+0358 COMBINING DOT ABOVE RIGHT: try adding osage</li>
-<li>U+0394 GREEK CAPITAL LETTER DELTA: try adding one of: elbasan, math, greek</li>
-<li>U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: elbasan, math, greek</li>
+<li>U+0394 GREEK CAPITAL LETTER DELTA: try adding one of: math, elbasan, greek</li>
+<li>U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: math, elbasan, greek</li>
 <li>U+03BC GREEK SMALL LETTER MU: try adding one of: math, greek</li>
-<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: yi, math, greek</li>
+<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: math, yi, greek</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+2007 FIGURE SPACE: try adding symbols2</li>
-<li>U+2010 HYPHEN: try adding one of: yi, hebrew, sora-sompeng, lisu, sundanese, syloti-nagri, coptic, arabic, armenian, kharoshthi, kaithi, kayah-li, cham</li>
+<li>U+2010 HYPHEN: try adding one of: arabic, armenian, lisu, coptic, syloti-nagri, cham, sora-sompeng, yi, sundanese, kharoshthi, hebrew, kaithi, kayah-li</li>
 <li>U+2011 NON-BREAKING HYPHEN: try adding one of: arabic, yi, syloti-nagri</li>
 <li>U+2012 FIGURE DASH: not included in any glyphset definition</li>
 <li>U+2015 HORIZONTAL BAR: try adding adlam</li>
@@ -5711,7 +5810,7 @@ definitions.</p>
 <li>U+2206 INCREMENT: try adding math</li>
 <li>U+220F N-ARY PRODUCT: try adding math</li>
 <li>U+2211 N-ARY SUMMATION: try adding math</li>
-<li>U+2219 BULLET OPERATOR: try adding one of: tai-tham, yi, math, symbols</li>
+<li>U+2219 BULLET OPERATOR: try adding one of: math, yi, symbols, tai-tham</li>
 <li>U+221A SQUARE ROOT: try adding math</li>
 <li>U+221E INFINITY: try adding math</li>
 <li>U+222B INTEGRAL: try adding math</li>
@@ -5750,7 +5849,7 @@ definitions.</p>
 <li>U+25C7 WHITE DIAMOND: try adding symbols</li>
 <li>U+25CA LOZENGE: try adding one of: math, symbols</li>
 <li>U+25CB WHITE CIRCLE: try adding symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: gujarati, syloti-nagri, canadian-aboriginal, lepcha, tai-tham, sogdian, mende-kikakui, mandaic, tai-viet, syriac, bengali, saurashtra, grantha, takri, tirhuta, malayalam, phags-pa, gunjala-gondi, batak, khudawadi, soyombo, armenian, tai-le, wancho, khojki, buhid, tifinagh, kharoshthi, kaithi, sinhala, newa, zanabazar-square, psalter-pahlavi, masaram-gondi, sharada, myanmar, kannada, yi, tamil, warang-citi, bassa-vah, balinese, thaana, khmer, osage, brahmi, buginese, duployan, rejang, thai, mahajani, music, elbasan, nko, manichaean, oriya, chakma, devanagari, old-permic, mongolian, math, ahom, hanunoo, siddham, hanifi-rohingya, meetei-mayek, bhaiksuki, javanese, tagbanwa, symbols, adlam, hebrew, telugu, miao, caucasian-albanian, cham, pahawh-hmong, tibetan, lao, marchen, gurmukhi, limbu, modi, dogra, sundanese, coptic, new-tai-lue, tagalog, kayah-li</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: devanagari, math, lao, old-permic, miao, bhaiksuki, sinhala, marchen, pahawh-hmong, limbu, hebrew, phags-pa, lepcha, balinese, syriac, elbasan, sundanese, wancho, gunjala-gondi, mahajani, masaram-gondi, sharada, thaana, warang-citi, hanunoo, siddham, newa, thai, syloti-nagri, saurashtra, duployan, brahmi, khojki, manichaean, tagbanwa, takri, gujarati, buginese, tai-tham, yi, tagalog, oriya, kayah-li, mende-kikakui, buhid, tamil, gurmukhi, myanmar, khudawadi, mongolian, batak, meetei-mayek, zanabazar-square, bengali, new-tai-lue, rejang, tirhuta, psalter-pahlavi, kharoshthi, osage, music, ahom, canadian-aboriginal, tai-le, nko, kaithi, javanese, adlam, modi, coptic, tibetan, caucasian-albanian, tifinagh, malayalam, telugu, tai-viet, hanifi-rohingya, khmer, armenian, chakma, sogdian, cham, kannada, dogra, soyombo, symbols, bassa-vah, grantha, mandaic</li>
 <li>U+25CF BLACK CIRCLE: try adding symbols</li>
 <li>U+25E6 WHITE BULLET: try adding symbols</li>
 <li>U+27E8 MATHEMATICAL LEFT ANGLE BRACKET: try adding math</li>
@@ -5758,8 +5857,29 @@ definitions.</p>
 <li>U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition</li>
 <li>U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition</li>
 </ul>
-<p>Or you can add the above codepoints to one of the subsets supported by the font: <code>cyrillic-ext</code>, <code>latin</code>, <code>latin-ext</code>, <code>vietnamese</code></p>
+<p>Or you can add the above codepoints to one of the subsets supported by the font: <code>cyrillic</code>, <code>cyrillic-ext</code>, <code>latin</code>, <code>latin-ext</code>, <code>vietnamese</code></p>
  [code: unreachable-subsetting]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/shaping.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: і́</p>
+<p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: і̀ і̂ і̃ і̄ і̆ і̇ і̉ і̊ і̋ і̌ і̍ і̒ і̛̀ і̛́ і̛̂ і̛̃ і̛̄ і̛̆ і̛̇ і̛̉</p>
+<p>Your font fully covers the following languages that require the soft-dotted feature: Dutch (Latn, 31,709,104 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Belarusian (Cyrl, 10,064,517 speakers), Lithuanian (Latn, 2,357,094 speakers).</p>
+<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Cicipu (Latn, 44,000 speakers), Kom (Latn, 360,685 speakers), Dii (Latn, 71,000 speakers), Dan (Latn, 1,099,244 speakers), Ngbaka (Latn, 1,020,000 speakers), Avokaya (Latn, 100,000 speakers), Southern Kisi (Latn, 360,000 speakers), Vute (Latn, 21,000 speakers), Mango (Latn, 77,000 speakers), Nzakara (Latn, 50,000 speakers), Bafut (Latn, 158,146 speakers), Teke-Ebo (Latn, 260,000 speakers), Ma’di (Latn, 584,000 speakers), Igbo (Latn, 27,823,640 speakers), Basaa (Latn, 332,940 speakers), Yala (Latn, 200,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Nateni (Latn, 100,000 speakers), Kaska (Latn, 125 speakers), Sar (Latn, 500,000 speakers), Makaa (Latn, 221,000 speakers), Ejagham (Latn, 120,000 speakers), Gulay (Latn, 250,478 speakers), Fur (Latn, 1,230,163 speakers), Ekpeye (Latn, 226,000 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Lugbara (Latn, 2,200,000 speakers), Koonzime (Latn, 40,000 speakers), Ebira (Latn, 2,200,000 speakers), Zapotec (Latn, 490,000 speakers), Heiltsuk (Latn, 300 speakers), Mundani (Latn, 34,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Han (Latn, 6 speakers), Mfumte (Latn, 79,000 speakers), Aghem (Latn, 38,843 speakers), South Central Banda (Latn, 244,000 speakers), Navajo (Latn, 166,319 speakers).</p>
+ [code: soft-dotted]
 
 
 
@@ -5786,8 +5906,27 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[6] MatrixSansRasterSC-Regular.ttf</summary>
+<details><summary>[8] MatrixSansRasterSC-Regular.ttf</summary>
 <div>
+<details>
+    <summary>🔥 <b>FAIL</b> Glyph names are all valid? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.glyphnames.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>The following glyph names do not comply with naming conventions: A-cy, Be-cy, Che-cy, Chedescender-cy, De-cy, Dje-cy, Dzhe-cy, E-cy, Ef-cy, El-cy, Em-cy, En-cy, Endescender-cy, Er-cy, Ereversed-cy, Es-cy, Ge-cy, Gestroke-cy, Geupturn-cy, Ha-cy, Hadescender-cy, Hardsign-cy, I-cy, Ie-cy, Ii-cy, Iishort-cy, Imacron-cy, Io-cy, Je-cy, Ka-cy, Kadescender-cy, Lje-cy, Nje-cy, O-cy, Obarred-cy, Pe-cy, Schwa-cy, Sha-cy, Shcha-cy, Shha-cy, Softsign-cy, Te-cy, Tse-cy, Tshe-cy, U-cy, Umacron-cy, Ushort-cy, Ustraight-cy, Ustraightstroke-cy, Ve-cy, Ya-cy, Yeru-cy, Yi-cy, Yu-cy, Ze-cy, Zhe-cy, Zhedescender-cy, a-cy, be-cy, che-cy, chedescender-cy, de-cy, dje-cy, dzhe-cy, e-cy, ef-cy, el-cy, em-cy, en-cy, endescender-cy, er-cy, ereversed-cy, es-cy, ge-cy, gestroke-cy, geupturn-cy, ha-cy, hadescender-cy, hardsign-cy, i-cy, ie-cy, ii-cy, iishort-cy, imacron-cy, io-cy, je-cy, ka-cy, kadescender-cy, lje-cy, nje-cy, o-cy, obarred-cy, pe-cy, schwa-cy, sha-cy, shcha-cy, shha-cy, softsign-cy, te-cy, tse-cy, tshe-cy, u-cy, umacron-cy, ushort-cy, ustraight-cy, ustraightstroke-cy, ve-cy, ya-cy, yeru-cy, yi-cy, yu-cy, ze-cy, zhe-cy and zhedescender-cy</p>
+<p>A glyph name must be entirely comprised of characters from the following set: A-Z a-z 0-9 .(period) <em>(underscore). A glyph name must not start with a digit or period. There are a few exceptions such as the special glyph &quot;.notdef&quot;. The glyph names &quot;twocents&quot;, &quot;a1&quot;, and &quot;</em>&quot; are all valid, while &quot;2cents&quot; and &quot;.twocents&quot; are not.</p>
+ [code: found-invalid-names]
+
+
+
+</div>
+</details>
+
 <details>
     <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
     <div>
@@ -8167,6 +8306,266 @@ definitions.</p>
 
 - Glyph name: pi	Contours detected: 9	Expected: 1
 
+- Glyph name: uni0400	Contours detected: 9	Expected: 2
+
+- Glyph name: Io-cy	Contours detected: 9	Expected: 3
+
+- Glyph name: Dje-cy	Contours detected: 10	Expected: 1
+
+- Glyph name: uni0403	Contours detected: 9	Expected: 2
+
+- Glyph name: E-cy	Contours detected: 9	Expected: 1
+
+- Glyph name: uni0405	Contours detected: 9	Expected: 1
+
+- Glyph name: I-cy	Contours detected: 7	Expected: 1
+
+- Glyph name: Yi-cy	Contours detected: 9	Expected: 3
+
+- Glyph name: Je-cy	Contours detected: 8	Expected: 1
+
+- Glyph name: Lje-cy	Contours detected: 15	Expected: 2
+
+- Glyph name: Nje-cy	Contours detected: 15	Expected: 2
+
+- Glyph name: Tshe-cy	Contours detected: 10	Expected: 1
+
+- Glyph name: uni040C	Contours detected: 15	Expected: 2
+
+- Glyph name: uni040D	Contours detected: 17	Expected: 2
+
+- Glyph name: Ushort-cy	Contours detected: 14	Expected: 2
+
+- Glyph name: Dzhe-cy	Contours detected: 14	Expected: 1
+
+- Glyph name: A-cy	Contours detected: 12	Expected: 2
+
+- Glyph name: Be-cy	Contours detected: 9	Expected: 2
+
+- Glyph name: Ve-cy	Contours detected: 11	Expected: 3
+
+- Glyph name: Ge-cy	Contours detected: 7	Expected: 1
+
+- Glyph name: De-cy	Contours detected: 14	Expected: 2
+
+- Glyph name: Ie-cy	Contours detected: 7	Expected: 1
+
+- Glyph name: Zhe-cy	Contours detected: 19	Expected: 1
+
+- Glyph name: Ze-cy	Contours detected: 9	Expected: 1
+
+- Glyph name: Ii-cy	Contours detected: 15	Expected: 1
+
+- Glyph name: Iishort-cy	Contours detected: 18	Expected: 2
+
+- Glyph name: Ka-cy	Contours detected: 13	Expected: 1
+
+- Glyph name: El-cy	Contours detected: 13	Expected: 1
+
+- Glyph name: Em-cy	Contours detected: 16	Expected: 1
+
+- Glyph name: En-cy	Contours detected: 13	Expected: 1
+
+- Glyph name: O-cy	Contours detected: 12	Expected: 2
+
+- Glyph name: Pe-cy	Contours detected: 13	Expected: 1
+
+- Glyph name: Er-cy	Contours detected: 9	Expected: 1 or 2
+
+- Glyph name: Es-cy	Contours detected: 9	Expected: 1
+
+- Glyph name: Te-cy	Contours detected: 7	Expected: 1
+
+- Glyph name: U-cy	Contours detected: 11	Expected: 1
+
+- Glyph name: Ef-cy	Contours detected: 13	Expected: 3
+
+- Glyph name: Ha-cy	Contours detected: 13	Expected: 1
+
+- Glyph name: Tse-cy	Contours detected: 14	Expected: 1
+
+- Glyph name: Che-cy	Contours detected: 10	Expected: 1
+
+- Glyph name: Sha-cy	Contours detected: 19	Expected: 1
+
+- Glyph name: Shcha-cy	Contours detected: 20	Expected: 1
+
+- Glyph name: Hardsign-cy	Contours detected: 9	Expected: 2
+
+- Glyph name: Yeru-cy	Contours detected: 16	Expected: 3
+
+- Glyph name: Softsign-cy	Contours detected: 9	Expected: 2
+
+- Glyph name: Ereversed-cy	Contours detected: 9	Expected: 1
+
+- Glyph name: Yu-cy	Contours detected: 18	Expected: 2
+
+- Glyph name: Ya-cy	Contours detected: 12	Expected: 2
+
+- Glyph name: a-cy	Contours detected: 6	Expected: 2
+
+- Glyph name: be-cy	Contours detected: 9	Expected: 2
+
+- Glyph name: ve-cy	Contours detected: 7	Expected: 3
+
+- Glyph name: ge-cy	Contours detected: 5	Expected: 1
+
+- Glyph name: de-cy	Contours detected: 10	Expected: 2
+
+- Glyph name: ie-cy	Contours detected: 6	Expected: 2
+
+- Glyph name: zhe-cy	Contours detected: 13	Expected: 1
+
+- Glyph name: ze-cy	Contours detected: 5	Expected: 1
+
+- Glyph name: ii-cy	Contours detected: 11	Expected: 1
+
+- Glyph name: iishort-cy	Contours detected: 14	Expected: 2
+
+- Glyph name: ka-cy	Contours detected: 9	Expected: 1
+
+- Glyph name: el-cy	Contours detected: 9	Expected: 1
+
+- Glyph name: em-cy	Contours detected: 12	Expected: 1
+
+- Glyph name: en-cy	Contours detected: 9	Expected: 1
+
+- Glyph name: o-cy	Contours detected: 8	Expected: 2
+
+- Glyph name: pe-cy	Contours detected: 9	Expected: 1
+
+- Glyph name: er-cy	Contours detected: 12	Expected: 2
+
+- Glyph name: es-cy	Contours detected: 7	Expected: 1
+
+- Glyph name: te-cy	Contours detected: 5	Expected: 1
+
+- Glyph name: u-cy	Contours detected: 12	Expected: 1
+
+- Glyph name: ef-cy	Contours detected: 15	Expected: 3
+
+- Glyph name: ha-cy	Contours detected: 9	Expected: 1
+
+- Glyph name: tse-cy	Contours detected: 10	Expected: 1
+
+- Glyph name: che-cy	Contours detected: 7	Expected: 1
+
+- Glyph name: sha-cy	Contours detected: 13	Expected: 1
+
+- Glyph name: shcha-cy	Contours detected: 14	Expected: 1
+
+- Glyph name: hardsign-cy	Contours detected: 6	Expected: 2
+
+- Glyph name: yeru-cy	Contours detected: 11	Expected: 3
+
+- Glyph name: softsign-cy	Contours detected: 6	Expected: 2
+
+- Glyph name: ereversed-cy	Contours detected: 5	Expected: 1
+
+- Glyph name: yu-cy	Contours detected: 12	Expected: 2
+
+- Glyph name: ya-cy	Contours detected: 8	Expected: 2
+
+- Glyph name: uni0450	Contours detected: 8	Expected: 3
+
+- Glyph name: io-cy	Contours detected: 8	Expected: 4
+
+- Glyph name: dje-cy	Contours detected: 13	Expected: 1
+
+- Glyph name: uni0453	Contours detected: 7	Expected: 2
+
+- Glyph name: e-cy	Contours detected: 5	Expected: 1
+
+- Glyph name: uni0455	Contours detected: 5	Expected: 1
+
+- Glyph name: i-cy	Contours detected: 6	Expected: 2
+
+- Glyph name: yi-cy	Contours detected: 7	Expected: 3
+
+- Glyph name: je-cy	Contours detected: 9	Expected: 2
+
+- Glyph name: lje-cy	Contours detected: 10	Expected: 2
+
+- Glyph name: nje-cy	Contours detected: 10	Expected: 2
+
+- Glyph name: tshe-cy	Contours detected: 11	Expected: 1
+
+- Glyph name: uni045C	Contours detected: 11	Expected: 2
+
+- Glyph name: uni045D	Contours detected: 13	Expected: 2
+
+- Glyph name: ushort-cy	Contours detected: 15	Expected: 2
+
+- Glyph name: dzhe-cy	Contours detected: 10	Expected: 1 or 2
+
+- Glyph name: uni0462	Contours detected: 9	Expected: 2
+
+- Glyph name: uni0463	Contours detected: 8	Expected: 2
+
+- Glyph name: uni0472	Contours detected: 13	Expected: 3
+
+- Glyph name: uni0473	Contours detected: 9	Expected: 3
+
+- Glyph name: uni0474	Contours detected: 13	Expected: 1
+
+- Glyph name: uni0475	Contours detected: 9	Expected: 1
+
+- Glyph name: Geupturn-cy	Contours detected: 8	Expected: 1
+
+- Glyph name: geupturn-cy	Contours detected: 6	Expected: 1
+
+- Glyph name: Gestroke-cy	Contours detected: 7	Expected: 1
+
+- Glyph name: gestroke-cy	Contours detected: 5	Expected: 1
+
+- Glyph name: Zhedescender-cy	Contours detected: 20	Expected: 1 or 2
+
+- Glyph name: zhedescender-cy	Contours detected: 14	Expected: 1 or 2
+
+- Glyph name: Kadescender-cy	Contours detected: 14	Expected: 1 or 2
+
+- Glyph name: kadescender-cy	Contours detected: 10	Expected: 1 or 2
+
+- Glyph name: Endescender-cy	Contours detected: 14	Expected: 1 or 2
+
+- Glyph name: endescender-cy	Contours detected: 10	Expected: 1 or 2
+
+- Glyph name: Ustraight-cy	Contours detected: 10	Expected: 1
+
+- Glyph name: ustraight-cy	Contours detected: 11	Expected: 1
+
+- Glyph name: Ustraightstroke-cy	Contours detected: 10	Expected: 1
+
+- Glyph name: ustraightstroke-cy	Contours detected: 11	Expected: 1
+
+- Glyph name: Hadescender-cy	Contours detected: 14	Expected: 1 or 2
+
+- Glyph name: hadescender-cy	Contours detected: 10	Expected: 1 or 2
+
+- Glyph name: Chedescender-cy	Contours detected: 11	Expected: 1 or 2
+
+- Glyph name: chedescender-cy	Contours detected: 8	Expected: 1 or 2
+
+- Glyph name: Shha-cy	Contours detected: 10	Expected: 1
+
+- Glyph name: shha-cy	Contours detected: 12	Expected: 1
+
+- Glyph name: Schwa-cy	Contours detected: 10	Expected: 2
+
+- Glyph name: schwa-cy	Contours detected: 6	Expected: 2
+
+- Glyph name: Imacron-cy	Contours detected: 16	Expected: 2
+
+- Glyph name: imacron-cy	Contours detected: 12	Expected: 2
+
+- Glyph name: Obarred-cy	Contours detected: 11	Expected: 3
+
+- Glyph name: obarred-cy	Contours detected: 7	Expected: 3
+
+- Glyph name: Umacron-cy	Contours detected: 12	Expected: 2
+
+- Glyph name: umacron-cy	Contours detected: 13	Expected: 2
+
 - Glyph name: baht	Contours detected: 11	Expected: 3 or 5
 
 - Glyph name: Ddotbelow	Contours detected: 13	Expected: 3
@@ -9373,6 +9772,38 @@ definitions.</p>
 
 - Glyph name: uni03BC	Contours detected: 12	Expected: 1
 
+- Glyph name: uni0400	Contours detected: 9	Expected: 2
+
+- Glyph name: uni0403	Contours detected: 9	Expected: 2
+
+- Glyph name: uni0405	Contours detected: 9	Expected: 1
+
+- Glyph name: uni040C	Contours detected: 15	Expected: 2
+
+- Glyph name: uni040D	Contours detected: 17	Expected: 2
+
+- Glyph name: uni0450	Contours detected: 8	Expected: 3
+
+- Glyph name: uni0453	Contours detected: 7	Expected: 2
+
+- Glyph name: uni0455	Contours detected: 5	Expected: 1
+
+- Glyph name: uni045C	Contours detected: 11	Expected: 2
+
+- Glyph name: uni045D	Contours detected: 13	Expected: 2
+
+- Glyph name: uni0462	Contours detected: 9	Expected: 2
+
+- Glyph name: uni0463	Contours detected: 8	Expected: 2
+
+- Glyph name: uni0472	Contours detected: 13	Expected: 3
+
+- Glyph name: uni0473	Contours detected: 9	Expected: 3
+
+- Glyph name: uni0474	Contours detected: 13	Expected: 1
+
+- Glyph name: uni0475	Contours detected: 9	Expected: 1
+
 - Glyph name: uni1E36	Contours detected: 8	Expected: 2
 
 - Glyph name: uni1E37	Contours detected: 8	Expected: 2
@@ -9487,7 +9918,7 @@ definitions.</p>
 * ⚠️ **WARN** <p>The most common width is 600 among a set of 9 math glyphs.
 The following math glyphs have a different width, though:</p>
 <p>Width = 400:
-greater, greaterequal, lessequal, less</p>
+greater, less, greaterequal, lessequal</p>
  [code: width-outliers]
 
 
@@ -9529,33 +9960,33 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, cherokee, coptic, math</li>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, tifinagh, cherokee</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, old-permic, todhri, tifinagh, coptic, malayalam, canadian-aboriginal, math, syriac, duployan, tai-le</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: duployan, tifinagh, malayalam, coptic, math, canadian-aboriginal, tai-le, syriac, old-permic, hebrew, todhri</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
-<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
+<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
 <li>U+030D COMBINING VERTICAL LINE ABOVE: try adding sunuwar</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+0315 COMBINING COMMA ABOVE RIGHT: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
-<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: duployan, cherokee, syriac</li>
+<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: duployan, syriac, cherokee</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: thai, sunuwar, tifinagh, gothic, cherokee, syriac, caucasian-albanian</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: caucasian-albanian, gothic, tifinagh, thai, syriac, sunuwar, cherokee</li>
 <li>U+0358 COMBINING DOT ABOVE RIGHT: try adding osage</li>
-<li>U+0394 GREEK CAPITAL LETTER DELTA: try adding one of: elbasan, math, greek</li>
-<li>U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: elbasan, math, greek</li>
+<li>U+0394 GREEK CAPITAL LETTER DELTA: try adding one of: math, elbasan, greek</li>
+<li>U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: math, elbasan, greek</li>
 <li>U+03BC GREEK SMALL LETTER MU: try adding one of: math, greek</li>
-<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: yi, math, greek</li>
+<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: math, yi, greek</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+2007 FIGURE SPACE: try adding symbols2</li>
-<li>U+2010 HYPHEN: try adding one of: yi, hebrew, sora-sompeng, lisu, sundanese, syloti-nagri, coptic, arabic, armenian, kharoshthi, kaithi, kayah-li, cham</li>
+<li>U+2010 HYPHEN: try adding one of: arabic, armenian, lisu, coptic, syloti-nagri, cham, sora-sompeng, yi, sundanese, kharoshthi, hebrew, kaithi, kayah-li</li>
 <li>U+2011 NON-BREAKING HYPHEN: try adding one of: arabic, yi, syloti-nagri</li>
 <li>U+2012 FIGURE DASH: not included in any glyphset definition</li>
 <li>U+2015 HORIZONTAL BAR: try adding adlam</li>
@@ -9607,7 +10038,7 @@ definitions.</p>
 <li>U+2206 INCREMENT: try adding math</li>
 <li>U+220F N-ARY PRODUCT: try adding math</li>
 <li>U+2211 N-ARY SUMMATION: try adding math</li>
-<li>U+2219 BULLET OPERATOR: try adding one of: tai-tham, yi, math, symbols</li>
+<li>U+2219 BULLET OPERATOR: try adding one of: math, yi, symbols, tai-tham</li>
 <li>U+221A SQUARE ROOT: try adding math</li>
 <li>U+221E INFINITY: try adding math</li>
 <li>U+222B INTEGRAL: try adding math</li>
@@ -9646,7 +10077,7 @@ definitions.</p>
 <li>U+25C7 WHITE DIAMOND: try adding symbols</li>
 <li>U+25CA LOZENGE: try adding one of: math, symbols</li>
 <li>U+25CB WHITE CIRCLE: try adding symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: gujarati, syloti-nagri, canadian-aboriginal, lepcha, tai-tham, sogdian, mende-kikakui, mandaic, tai-viet, syriac, bengali, saurashtra, grantha, takri, tirhuta, malayalam, phags-pa, gunjala-gondi, batak, khudawadi, soyombo, armenian, tai-le, wancho, khojki, buhid, tifinagh, kharoshthi, kaithi, sinhala, newa, zanabazar-square, psalter-pahlavi, masaram-gondi, sharada, myanmar, kannada, yi, tamil, warang-citi, bassa-vah, balinese, thaana, khmer, osage, brahmi, buginese, duployan, rejang, thai, mahajani, music, elbasan, nko, manichaean, oriya, chakma, devanagari, old-permic, mongolian, math, ahom, hanunoo, siddham, hanifi-rohingya, meetei-mayek, bhaiksuki, javanese, tagbanwa, symbols, adlam, hebrew, telugu, miao, caucasian-albanian, cham, pahawh-hmong, tibetan, lao, marchen, gurmukhi, limbu, modi, dogra, sundanese, coptic, new-tai-lue, tagalog, kayah-li</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: devanagari, math, lao, old-permic, miao, bhaiksuki, sinhala, marchen, pahawh-hmong, limbu, hebrew, phags-pa, lepcha, balinese, syriac, elbasan, sundanese, wancho, gunjala-gondi, mahajani, masaram-gondi, sharada, thaana, warang-citi, hanunoo, siddham, newa, thai, syloti-nagri, saurashtra, duployan, brahmi, khojki, manichaean, tagbanwa, takri, gujarati, buginese, tai-tham, yi, tagalog, oriya, kayah-li, mende-kikakui, buhid, tamil, gurmukhi, myanmar, khudawadi, mongolian, batak, meetei-mayek, zanabazar-square, bengali, new-tai-lue, rejang, tirhuta, psalter-pahlavi, kharoshthi, osage, music, ahom, canadian-aboriginal, tai-le, nko, kaithi, javanese, adlam, modi, coptic, tibetan, caucasian-albanian, tifinagh, malayalam, telugu, tai-viet, hanifi-rohingya, khmer, armenian, chakma, sogdian, cham, kannada, dogra, soyombo, symbols, bassa-vah, grantha, mandaic</li>
 <li>U+25CF BLACK CIRCLE: try adding symbols</li>
 <li>U+25E6 WHITE BULLET: try adding symbols</li>
 <li>U+27E8 MATHEMATICAL LEFT ANGLE BRACKET: try adding math</li>
@@ -9654,8 +10085,29 @@ definitions.</p>
 <li>U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition</li>
 <li>U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition</li>
 </ul>
-<p>Or you can add the above codepoints to one of the subsets supported by the font: <code>cyrillic-ext</code>, <code>latin</code>, <code>latin-ext</code>, <code>vietnamese</code></p>
+<p>Or you can add the above codepoints to one of the subsets supported by the font: <code>cyrillic</code>, <code>cyrillic-ext</code>, <code>latin</code>, <code>latin-ext</code>, <code>vietnamese</code></p>
  [code: unreachable-subsetting]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/shaping.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: і́</p>
+<p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: і̀ і̂ і̃ і̄ і̆ і̇ і̉ і̊ і̋ і̌ і̍ і̒ і̛̀ і̛́ і̛̂ і̛̃ і̛̄ і̛̆ і̛̇ і̛̉</p>
+<p>Your font fully covers the following languages that require the soft-dotted feature: Dutch (Latn, 31,709,104 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Belarusian (Cyrl, 10,064,517 speakers), Lithuanian (Latn, 2,357,094 speakers).</p>
+<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Cicipu (Latn, 44,000 speakers), Kom (Latn, 360,685 speakers), Dii (Latn, 71,000 speakers), Dan (Latn, 1,099,244 speakers), Ngbaka (Latn, 1,020,000 speakers), Avokaya (Latn, 100,000 speakers), Southern Kisi (Latn, 360,000 speakers), Vute (Latn, 21,000 speakers), Mango (Latn, 77,000 speakers), Nzakara (Latn, 50,000 speakers), Bafut (Latn, 158,146 speakers), Teke-Ebo (Latn, 260,000 speakers), Ma’di (Latn, 584,000 speakers), Igbo (Latn, 27,823,640 speakers), Basaa (Latn, 332,940 speakers), Yala (Latn, 200,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Nateni (Latn, 100,000 speakers), Kaska (Latn, 125 speakers), Sar (Latn, 500,000 speakers), Makaa (Latn, 221,000 speakers), Ejagham (Latn, 120,000 speakers), Gulay (Latn, 250,478 speakers), Fur (Latn, 1,230,163 speakers), Ekpeye (Latn, 226,000 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Lugbara (Latn, 2,200,000 speakers), Koonzime (Latn, 40,000 speakers), Ebira (Latn, 2,200,000 speakers), Zapotec (Latn, 490,000 speakers), Heiltsuk (Latn, 300 speakers), Mundani (Latn, 34,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Han (Latn, 6 speakers), Mfumte (Latn, 79,000 speakers), Aghem (Latn, 38,843 speakers), South Central Banda (Latn, 244,000 speakers), Navajo (Latn, 166,319 speakers).</p>
+ [code: soft-dotted]
 
 
 
@@ -9682,8 +10134,27 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[6] MatrixSansScreenSC-Regular.ttf</summary>
+<details><summary>[8] MatrixSansScreenSC-Regular.ttf</summary>
 <div>
+<details>
+    <summary>🔥 <b>FAIL</b> Glyph names are all valid? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.glyphnames.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>The following glyph names do not comply with naming conventions: A-cy, Be-cy, Che-cy, Chedescender-cy, De-cy, Dje-cy, Dzhe-cy, E-cy, Ef-cy, El-cy, Em-cy, En-cy, Endescender-cy, Er-cy, Ereversed-cy, Es-cy, Ge-cy, Gestroke-cy, Geupturn-cy, Ha-cy, Hadescender-cy, Hardsign-cy, I-cy, Ie-cy, Ii-cy, Iishort-cy, Imacron-cy, Io-cy, Je-cy, Ka-cy, Kadescender-cy, Lje-cy, Nje-cy, O-cy, Obarred-cy, Pe-cy, Schwa-cy, Sha-cy, Shcha-cy, Shha-cy, Softsign-cy, Te-cy, Tse-cy, Tshe-cy, U-cy, Umacron-cy, Ushort-cy, Ustraight-cy, Ustraightstroke-cy, Ve-cy, Ya-cy, Yeru-cy, Yi-cy, Yu-cy, Ze-cy, Zhe-cy, Zhedescender-cy, a-cy, be-cy, che-cy, chedescender-cy, de-cy, dje-cy, dzhe-cy, e-cy, ef-cy, el-cy, em-cy, en-cy, endescender-cy, er-cy, ereversed-cy, es-cy, ge-cy, gestroke-cy, geupturn-cy, ha-cy, hadescender-cy, hardsign-cy, i-cy, ie-cy, ii-cy, iishort-cy, imacron-cy, io-cy, je-cy, ka-cy, kadescender-cy, lje-cy, nje-cy, o-cy, obarred-cy, pe-cy, schwa-cy, sha-cy, shcha-cy, shha-cy, softsign-cy, te-cy, tse-cy, tshe-cy, u-cy, umacron-cy, ushort-cy, ustraight-cy, ustraightstroke-cy, ve-cy, ya-cy, yeru-cy, yi-cy, yu-cy, ze-cy, zhe-cy and zhedescender-cy</p>
+<p>A glyph name must be entirely comprised of characters from the following set: A-Z a-z 0-9 .(period) <em>(underscore). A glyph name must not start with a digit or period. There are a few exceptions such as the special glyph &quot;.notdef&quot;. The glyph names &quot;twocents&quot;, &quot;a1&quot;, and &quot;</em>&quot; are all valid, while &quot;2cents&quot; and &quot;.twocents&quot; are not.</p>
+ [code: found-invalid-names]
+
+
+
+</div>
+</details>
+
 <details>
     <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
     <div>
@@ -12079,6 +12550,266 @@ definitions.</p>
 
 - Glyph name: pi	Contours detected: 13	Expected: 1
 
+- Glyph name: uni0400	Contours detected: 20	Expected: 2
+
+- Glyph name: Io-cy	Contours detected: 20	Expected: 3
+
+- Glyph name: Dje-cy	Contours detected: 16	Expected: 1
+
+- Glyph name: uni0403	Contours detected: 13	Expected: 2
+
+- Glyph name: E-cy	Contours detected: 16	Expected: 1
+
+- Glyph name: uni0405	Contours detected: 15	Expected: 1
+
+- Glyph name: I-cy	Contours detected: 11	Expected: 1
+
+- Glyph name: Yi-cy	Contours detected: 13	Expected: 3
+
+- Glyph name: Je-cy	Contours detected: 11	Expected: 1
+
+- Glyph name: Lje-cy	Contours detected: 20	Expected: 2
+
+- Glyph name: Nje-cy	Contours detected: 22	Expected: 2
+
+- Glyph name: Tshe-cy	Contours detected: 16	Expected: 1
+
+- Glyph name: uni040C	Contours detected: 16	Expected: 2
+
+- Glyph name: uni040D	Contours detected: 19	Expected: 2
+
+- Glyph name: Ushort-cy	Contours detected: 21	Expected: 2
+
+- Glyph name: Dzhe-cy	Contours detected: 18	Expected: 1
+
+- Glyph name: A-cy	Contours detected: 16	Expected: 2
+
+- Glyph name: Be-cy	Contours detected: 19	Expected: 2
+
+- Glyph name: Ve-cy	Contours detected: 20	Expected: 3
+
+- Glyph name: Ge-cy	Contours detected: 11	Expected: 1
+
+- Glyph name: De-cy	Contours detected: 21	Expected: 2
+
+- Glyph name: Ie-cy	Contours detected: 18	Expected: 1
+
+- Glyph name: Zhe-cy	Contours detected: 21	Expected: 1
+
+- Glyph name: Ze-cy	Contours detected: 15	Expected: 1
+
+- Glyph name: Ii-cy	Contours detected: 17	Expected: 1
+
+- Glyph name: Iishort-cy	Contours detected: 22	Expected: 2
+
+- Glyph name: Ka-cy	Contours detected: 14	Expected: 1
+
+- Glyph name: El-cy	Contours detected: 15	Expected: 1
+
+- Glyph name: Em-cy	Contours detected: 18	Expected: 1
+
+- Glyph name: En-cy	Contours detected: 17	Expected: 1
+
+- Glyph name: O-cy	Contours detected: 16	Expected: 2
+
+- Glyph name: Pe-cy	Contours detected: 17	Expected: 1
+
+- Glyph name: Er-cy	Contours detected: 15	Expected: 1 or 2
+
+- Glyph name: Es-cy	Contours detected: 13	Expected: 1
+
+- Glyph name: Te-cy	Contours detected: 11	Expected: 1
+
+- Glyph name: U-cy	Contours detected: 16	Expected: 1
+
+- Glyph name: Ef-cy	Contours detected: 17	Expected: 3
+
+- Glyph name: Ha-cy	Contours detected: 13	Expected: 1
+
+- Glyph name: Tse-cy	Contours detected: 18	Expected: 1
+
+- Glyph name: Che-cy	Contours detected: 13	Expected: 1
+
+- Glyph name: Sha-cy	Contours detected: 23	Expected: 1
+
+- Glyph name: Shcha-cy	Contours detected: 25	Expected: 1
+
+- Glyph name: Hardsign-cy	Contours detected: 15	Expected: 2
+
+- Glyph name: Yeru-cy	Contours detected: 20	Expected: 3
+
+- Glyph name: Softsign-cy	Contours detected: 15	Expected: 2
+
+- Glyph name: Ereversed-cy	Contours detected: 16	Expected: 1
+
+- Glyph name: Yu-cy	Contours detected: 22	Expected: 2
+
+- Glyph name: Ya-cy	Contours detected: 18	Expected: 2
+
+- Glyph name: a-cy	Contours detected: 14	Expected: 2
+
+- Glyph name: be-cy	Contours detected: 16	Expected: 2
+
+- Glyph name: ve-cy	Contours detected: 16	Expected: 3
+
+- Glyph name: ge-cy	Contours detected: 9	Expected: 1
+
+- Glyph name: de-cy	Contours detected: 17	Expected: 2
+
+- Glyph name: ie-cy	Contours detected: 14	Expected: 2
+
+- Glyph name: zhe-cy	Contours detected: 15	Expected: 1
+
+- Glyph name: ze-cy	Contours detected: 13	Expected: 1
+
+- Glyph name: ii-cy	Contours detected: 13	Expected: 1
+
+- Glyph name: iishort-cy	Contours detected: 18	Expected: 2
+
+- Glyph name: ka-cy	Contours detected: 11	Expected: 1
+
+- Glyph name: el-cy	Contours detected: 11	Expected: 1
+
+- Glyph name: em-cy	Contours detected: 14	Expected: 1
+
+- Glyph name: en-cy	Contours detected: 13	Expected: 1
+
+- Glyph name: o-cy	Contours detected: 12	Expected: 2
+
+- Glyph name: pe-cy	Contours detected: 13	Expected: 1
+
+- Glyph name: er-cy	Contours detected: 16	Expected: 2
+
+- Glyph name: es-cy	Contours detected: 11	Expected: 1
+
+- Glyph name: te-cy	Contours detected: 9	Expected: 1
+
+- Glyph name: u-cy	Contours detected: 16	Expected: 1
+
+- Glyph name: ef-cy	Contours detected: 19	Expected: 3
+
+- Glyph name: ha-cy	Contours detected: 9	Expected: 1
+
+- Glyph name: tse-cy	Contours detected: 14	Expected: 1
+
+- Glyph name: che-cy	Contours detected: 10	Expected: 1
+
+- Glyph name: sha-cy	Contours detected: 17	Expected: 1
+
+- Glyph name: shcha-cy	Contours detected: 19	Expected: 1
+
+- Glyph name: hardsign-cy	Contours detected: 12	Expected: 2
+
+- Glyph name: yeru-cy	Contours detected: 15	Expected: 3
+
+- Glyph name: softsign-cy	Contours detected: 12	Expected: 2
+
+- Glyph name: ereversed-cy	Contours detected: 14	Expected: 1
+
+- Glyph name: yu-cy	Contours detected: 16	Expected: 2
+
+- Glyph name: ya-cy	Contours detected: 14	Expected: 2
+
+- Glyph name: uni0450	Contours detected: 16	Expected: 3
+
+- Glyph name: io-cy	Contours detected: 16	Expected: 4
+
+- Glyph name: dje-cy	Contours detected: 18	Expected: 1
+
+- Glyph name: uni0453	Contours detected: 11	Expected: 2
+
+- Glyph name: e-cy	Contours detected: 14	Expected: 1
+
+- Glyph name: uni0455	Contours detected: 13	Expected: 1
+
+- Glyph name: i-cy	Contours detected: 9	Expected: 2
+
+- Glyph name: yi-cy	Contours detected: 10	Expected: 3
+
+- Glyph name: je-cy	Contours detected: 11	Expected: 2
+
+- Glyph name: lje-cy	Contours detected: 15	Expected: 2
+
+- Glyph name: nje-cy	Contours detected: 17	Expected: 2
+
+- Glyph name: tshe-cy	Contours detected: 16	Expected: 1
+
+- Glyph name: uni045C	Contours detected: 13	Expected: 2
+
+- Glyph name: uni045D	Contours detected: 15	Expected: 2
+
+- Glyph name: ushort-cy	Contours detected: 21	Expected: 2
+
+- Glyph name: dzhe-cy	Contours detected: 14	Expected: 1 or 2
+
+- Glyph name: uni0462	Contours detected: 17	Expected: 2
+
+- Glyph name: uni0463	Contours detected: 14	Expected: 2
+
+- Glyph name: uni0472	Contours detected: 17	Expected: 3
+
+- Glyph name: uni0473	Contours detected: 13	Expected: 3
+
+- Glyph name: uni0474	Contours detected: 14	Expected: 1
+
+- Glyph name: uni0475	Contours detected: 10	Expected: 1
+
+- Glyph name: Geupturn-cy	Contours detected: 12	Expected: 1
+
+- Glyph name: geupturn-cy	Contours detected: 10	Expected: 1
+
+- Glyph name: Gestroke-cy	Contours detected: 14	Expected: 1
+
+- Glyph name: gestroke-cy	Contours detected: 12	Expected: 1
+
+- Glyph name: Zhedescender-cy	Contours detected: 23	Expected: 1 or 2
+
+- Glyph name: zhedescender-cy	Contours detected: 17	Expected: 1 or 2
+
+- Glyph name: Kadescender-cy	Contours detected: 16	Expected: 1 or 2
+
+- Glyph name: kadescender-cy	Contours detected: 12	Expected: 1 or 2
+
+- Glyph name: Endescender-cy	Contours detected: 18	Expected: 1 or 2
+
+- Glyph name: endescender-cy	Contours detected: 14	Expected: 1 or 2
+
+- Glyph name: Ustraight-cy	Contours detected: 10	Expected: 1
+
+- Glyph name: ustraight-cy	Contours detected: 11	Expected: 1
+
+- Glyph name: Ustraightstroke-cy	Contours detected: 12	Expected: 1
+
+- Glyph name: ustraightstroke-cy	Contours detected: 13	Expected: 1
+
+- Glyph name: Hadescender-cy	Contours detected: 15	Expected: 1 or 2
+
+- Glyph name: hadescender-cy	Contours detected: 11	Expected: 1 or 2
+
+- Glyph name: Chedescender-cy	Contours detected: 14	Expected: 1 or 2
+
+- Glyph name: chedescender-cy	Contours detected: 11	Expected: 1 or 2
+
+- Glyph name: Shha-cy	Contours detected: 13	Expected: 1
+
+- Glyph name: shha-cy	Contours detected: 14	Expected: 1
+
+- Glyph name: Schwa-cy	Contours detected: 18	Expected: 2
+
+- Glyph name: schwa-cy	Contours detected: 14	Expected: 2
+
+- Glyph name: Imacron-cy	Contours detected: 20	Expected: 2
+
+- Glyph name: imacron-cy	Contours detected: 16	Expected: 2
+
+- Glyph name: Obarred-cy	Contours detected: 19	Expected: 3
+
+- Glyph name: obarred-cy	Contours detected: 15	Expected: 3
+
+- Glyph name: Umacron-cy	Contours detected: 19	Expected: 2
+
+- Glyph name: umacron-cy	Contours detected: 19	Expected: 2
+
 - Glyph name: baht	Contours detected: 20	Expected: 3 or 5
 
 - Glyph name: Ddotbelow	Contours detected: 17	Expected: 3
@@ -13319,6 +14050,38 @@ definitions.</p>
 
 - Glyph name: uni03BC	Contours detected: 14	Expected: 1
 
+- Glyph name: uni0400	Contours detected: 20	Expected: 2
+
+- Glyph name: uni0403	Contours detected: 13	Expected: 2
+
+- Glyph name: uni0405	Contours detected: 15	Expected: 1
+
+- Glyph name: uni040C	Contours detected: 16	Expected: 2
+
+- Glyph name: uni040D	Contours detected: 19	Expected: 2
+
+- Glyph name: uni0450	Contours detected: 16	Expected: 3
+
+- Glyph name: uni0453	Contours detected: 11	Expected: 2
+
+- Glyph name: uni0455	Contours detected: 13	Expected: 1
+
+- Glyph name: uni045C	Contours detected: 13	Expected: 2
+
+- Glyph name: uni045D	Contours detected: 15	Expected: 2
+
+- Glyph name: uni0462	Contours detected: 17	Expected: 2
+
+- Glyph name: uni0463	Contours detected: 14	Expected: 2
+
+- Glyph name: uni0472	Contours detected: 17	Expected: 3
+
+- Glyph name: uni0473	Contours detected: 13	Expected: 3
+
+- Glyph name: uni0474	Contours detected: 14	Expected: 1
+
+- Glyph name: uni0475	Contours detected: 10	Expected: 1
+
 - Glyph name: uni1E36	Contours detected: 12	Expected: 2
 
 - Glyph name: uni1E37	Contours detected: 11	Expected: 2
@@ -13439,7 +14202,7 @@ definitions.</p>
 * ⚠️ **WARN** <p>The most common width is 600 among a set of 9 math glyphs.
 The following math glyphs have a different width, though:</p>
 <p>Width = 400:
-greater, greaterequal, lessequal, less</p>
+greater, less, greaterequal, lessequal</p>
  [code: width-outliers]
 
 
@@ -13481,33 +14244,33 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, cherokee, coptic, math</li>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, tifinagh, cherokee</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, old-permic, todhri, tifinagh, coptic, malayalam, canadian-aboriginal, math, syriac, duployan, tai-le</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: duployan, tifinagh, malayalam, coptic, math, canadian-aboriginal, tai-le, syriac, old-permic, hebrew, todhri</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
-<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
+<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
 <li>U+030D COMBINING VERTICAL LINE ABOVE: try adding sunuwar</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+0315 COMBINING COMMA ABOVE RIGHT: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
-<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: duployan, cherokee, syriac</li>
+<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: duployan, syriac, cherokee</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: thai, sunuwar, tifinagh, gothic, cherokee, syriac, caucasian-albanian</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: caucasian-albanian, gothic, tifinagh, thai, syriac, sunuwar, cherokee</li>
 <li>U+0358 COMBINING DOT ABOVE RIGHT: try adding osage</li>
-<li>U+0394 GREEK CAPITAL LETTER DELTA: try adding one of: elbasan, math, greek</li>
-<li>U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: elbasan, math, greek</li>
+<li>U+0394 GREEK CAPITAL LETTER DELTA: try adding one of: math, elbasan, greek</li>
+<li>U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: math, elbasan, greek</li>
 <li>U+03BC GREEK SMALL LETTER MU: try adding one of: math, greek</li>
-<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: yi, math, greek</li>
+<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: math, yi, greek</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+2007 FIGURE SPACE: try adding symbols2</li>
-<li>U+2010 HYPHEN: try adding one of: yi, hebrew, sora-sompeng, lisu, sundanese, syloti-nagri, coptic, arabic, armenian, kharoshthi, kaithi, kayah-li, cham</li>
+<li>U+2010 HYPHEN: try adding one of: arabic, armenian, lisu, coptic, syloti-nagri, cham, sora-sompeng, yi, sundanese, kharoshthi, hebrew, kaithi, kayah-li</li>
 <li>U+2011 NON-BREAKING HYPHEN: try adding one of: arabic, yi, syloti-nagri</li>
 <li>U+2012 FIGURE DASH: not included in any glyphset definition</li>
 <li>U+2015 HORIZONTAL BAR: try adding adlam</li>
@@ -13559,7 +14322,7 @@ definitions.</p>
 <li>U+2206 INCREMENT: try adding math</li>
 <li>U+220F N-ARY PRODUCT: try adding math</li>
 <li>U+2211 N-ARY SUMMATION: try adding math</li>
-<li>U+2219 BULLET OPERATOR: try adding one of: tai-tham, yi, math, symbols</li>
+<li>U+2219 BULLET OPERATOR: try adding one of: math, yi, symbols, tai-tham</li>
 <li>U+221A SQUARE ROOT: try adding math</li>
 <li>U+221E INFINITY: try adding math</li>
 <li>U+222B INTEGRAL: try adding math</li>
@@ -13598,7 +14361,7 @@ definitions.</p>
 <li>U+25C7 WHITE DIAMOND: try adding symbols</li>
 <li>U+25CA LOZENGE: try adding one of: math, symbols</li>
 <li>U+25CB WHITE CIRCLE: try adding symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: gujarati, syloti-nagri, canadian-aboriginal, lepcha, tai-tham, sogdian, mende-kikakui, mandaic, tai-viet, syriac, bengali, saurashtra, grantha, takri, tirhuta, malayalam, phags-pa, gunjala-gondi, batak, khudawadi, soyombo, armenian, tai-le, wancho, khojki, buhid, tifinagh, kharoshthi, kaithi, sinhala, newa, zanabazar-square, psalter-pahlavi, masaram-gondi, sharada, myanmar, kannada, yi, tamil, warang-citi, bassa-vah, balinese, thaana, khmer, osage, brahmi, buginese, duployan, rejang, thai, mahajani, music, elbasan, nko, manichaean, oriya, chakma, devanagari, old-permic, mongolian, math, ahom, hanunoo, siddham, hanifi-rohingya, meetei-mayek, bhaiksuki, javanese, tagbanwa, symbols, adlam, hebrew, telugu, miao, caucasian-albanian, cham, pahawh-hmong, tibetan, lao, marchen, gurmukhi, limbu, modi, dogra, sundanese, coptic, new-tai-lue, tagalog, kayah-li</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: devanagari, math, lao, old-permic, miao, bhaiksuki, sinhala, marchen, pahawh-hmong, limbu, hebrew, phags-pa, lepcha, balinese, syriac, elbasan, sundanese, wancho, gunjala-gondi, mahajani, masaram-gondi, sharada, thaana, warang-citi, hanunoo, siddham, newa, thai, syloti-nagri, saurashtra, duployan, brahmi, khojki, manichaean, tagbanwa, takri, gujarati, buginese, tai-tham, yi, tagalog, oriya, kayah-li, mende-kikakui, buhid, tamil, gurmukhi, myanmar, khudawadi, mongolian, batak, meetei-mayek, zanabazar-square, bengali, new-tai-lue, rejang, tirhuta, psalter-pahlavi, kharoshthi, osage, music, ahom, canadian-aboriginal, tai-le, nko, kaithi, javanese, adlam, modi, coptic, tibetan, caucasian-albanian, tifinagh, malayalam, telugu, tai-viet, hanifi-rohingya, khmer, armenian, chakma, sogdian, cham, kannada, dogra, soyombo, symbols, bassa-vah, grantha, mandaic</li>
 <li>U+25CF BLACK CIRCLE: try adding symbols</li>
 <li>U+25E6 WHITE BULLET: try adding symbols</li>
 <li>U+27E8 MATHEMATICAL LEFT ANGLE BRACKET: try adding math</li>
@@ -13606,8 +14369,29 @@ definitions.</p>
 <li>U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition</li>
 <li>U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition</li>
 </ul>
-<p>Or you can add the above codepoints to one of the subsets supported by the font: <code>cyrillic-ext</code>, <code>latin</code>, <code>latin-ext</code>, <code>vietnamese</code></p>
+<p>Or you can add the above codepoints to one of the subsets supported by the font: <code>cyrillic</code>, <code>cyrillic-ext</code>, <code>latin</code>, <code>latin-ext</code>, <code>vietnamese</code></p>
  [code: unreachable-subsetting]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/shaping.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: і́</p>
+<p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: і̀ і̂ і̃ і̄ і̆ і̇ і̉ і̊ і̋ і̌ і̍ і̒ і̛̀ і̛́ і̛̂ і̛̃ і̛̄ і̛̆ і̛̇ і̛̉</p>
+<p>Your font fully covers the following languages that require the soft-dotted feature: Dutch (Latn, 31,709,104 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Belarusian (Cyrl, 10,064,517 speakers), Lithuanian (Latn, 2,357,094 speakers).</p>
+<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Cicipu (Latn, 44,000 speakers), Kom (Latn, 360,685 speakers), Dii (Latn, 71,000 speakers), Dan (Latn, 1,099,244 speakers), Ngbaka (Latn, 1,020,000 speakers), Avokaya (Latn, 100,000 speakers), Southern Kisi (Latn, 360,000 speakers), Vute (Latn, 21,000 speakers), Mango (Latn, 77,000 speakers), Nzakara (Latn, 50,000 speakers), Bafut (Latn, 158,146 speakers), Teke-Ebo (Latn, 260,000 speakers), Ma’di (Latn, 584,000 speakers), Igbo (Latn, 27,823,640 speakers), Basaa (Latn, 332,940 speakers), Yala (Latn, 200,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Nateni (Latn, 100,000 speakers), Kaska (Latn, 125 speakers), Sar (Latn, 500,000 speakers), Makaa (Latn, 221,000 speakers), Ejagham (Latn, 120,000 speakers), Gulay (Latn, 250,478 speakers), Fur (Latn, 1,230,163 speakers), Ekpeye (Latn, 226,000 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Lugbara (Latn, 2,200,000 speakers), Koonzime (Latn, 40,000 speakers), Ebira (Latn, 2,200,000 speakers), Zapotec (Latn, 490,000 speakers), Heiltsuk (Latn, 300 speakers), Mundani (Latn, 34,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Han (Latn, 6 speakers), Mfumte (Latn, 79,000 speakers), Aghem (Latn, 38,843 speakers), South Central Banda (Latn, 244,000 speakers), Navajo (Latn, 166,319 speakers).</p>
+ [code: soft-dotted]
 
 
 
@@ -13634,8 +14418,27 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[7] MatrixSansRaster-Regular.ttf</summary>
+<details><summary>[8] MatrixSansRaster-Regular.ttf</summary>
 <div>
+<details>
+    <summary>🔥 <b>FAIL</b> Glyph names are all valid? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.glyphnames.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>The following glyph names do not comply with naming conventions: A-cy, Be-cy, Che-cy, Chedescender-cy, De-cy, Dje-cy, Dzhe-cy, E-cy, Ef-cy, El-cy, Em-cy, En-cy, Endescender-cy, Er-cy, Ereversed-cy, Es-cy, Ge-cy, Gestroke-cy, Geupturn-cy, Ha-cy, Hadescender-cy, Hardsign-cy, I-cy, Ie-cy, Ii-cy, Iishort-cy, Imacron-cy, Io-cy, Je-cy, Ka-cy, Kadescender-cy, Lje-cy, Nje-cy, O-cy, Obarred-cy, Pe-cy, Schwa-cy, Sha-cy, Shcha-cy, Shha-cy, Softsign-cy, Te-cy, Tse-cy, Tshe-cy, U-cy, Umacron-cy, Ushort-cy, Ustraight-cy, Ustraightstroke-cy, Ve-cy, Ya-cy, Yeru-cy, Yi-cy, Yu-cy, Ze-cy, Zhe-cy, Zhedescender-cy, a-cy, be-cy, che-cy, chedescender-cy, de-cy, dje-cy, dzhe-cy, e-cy, ef-cy, el-cy, em-cy, en-cy, endescender-cy, er-cy, ereversed-cy, es-cy, ge-cy, gestroke-cy, geupturn-cy, ha-cy, hadescender-cy, hardsign-cy, i-cy, ie-cy, ii-cy, iishort-cy, imacron-cy, io-cy, je-cy, ka-cy, kadescender-cy, lje-cy, nje-cy, o-cy, obarred-cy, pe-cy, schwa-cy, sha-cy, shcha-cy, shha-cy, softsign-cy, te-cy, tse-cy, tshe-cy, u-cy, umacron-cy, ushort-cy, ustraight-cy, ustraightstroke-cy, ve-cy, ya-cy, yeru-cy, yi-cy, yu-cy, ze-cy, zhe-cy and zhedescender-cy</p>
+<p>A glyph name must be entirely comprised of characters from the following set: A-Z a-z 0-9 .(period) <em>(underscore). A glyph name must not start with a digit or period. There are a few exceptions such as the special glyph &quot;.notdef&quot;. The glyph names &quot;twocents&quot;, &quot;a1&quot;, and &quot;</em>&quot; are all valid, while &quot;2cents&quot; and &quot;.twocents&quot; are not.</p>
+ [code: found-invalid-names]
+
+
+
+</div>
+</details>
+
 <details>
     <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
     <div>
@@ -14959,6 +15762,266 @@ definitions.</p>
 
 - Glyph name: pi	Contours detected: 9	Expected: 1
 
+- Glyph name: uni0400	Contours detected: 9	Expected: 2
+
+- Glyph name: Io-cy	Contours detected: 9	Expected: 3
+
+- Glyph name: Dje-cy	Contours detected: 10	Expected: 1
+
+- Glyph name: uni0403	Contours detected: 9	Expected: 2
+
+- Glyph name: E-cy	Contours detected: 9	Expected: 1
+
+- Glyph name: uni0405	Contours detected: 9	Expected: 1
+
+- Glyph name: I-cy	Contours detected: 7	Expected: 1
+
+- Glyph name: Yi-cy	Contours detected: 9	Expected: 3
+
+- Glyph name: Je-cy	Contours detected: 8	Expected: 1
+
+- Glyph name: Lje-cy	Contours detected: 15	Expected: 2
+
+- Glyph name: Nje-cy	Contours detected: 15	Expected: 2
+
+- Glyph name: Tshe-cy	Contours detected: 10	Expected: 1
+
+- Glyph name: uni040C	Contours detected: 15	Expected: 2
+
+- Glyph name: uni040D	Contours detected: 17	Expected: 2
+
+- Glyph name: Ushort-cy	Contours detected: 14	Expected: 2
+
+- Glyph name: Dzhe-cy	Contours detected: 14	Expected: 1
+
+- Glyph name: A-cy	Contours detected: 12	Expected: 2
+
+- Glyph name: Be-cy	Contours detected: 9	Expected: 2
+
+- Glyph name: Ve-cy	Contours detected: 11	Expected: 3
+
+- Glyph name: Ge-cy	Contours detected: 7	Expected: 1
+
+- Glyph name: De-cy	Contours detected: 14	Expected: 2
+
+- Glyph name: Ie-cy	Contours detected: 7	Expected: 1
+
+- Glyph name: Zhe-cy	Contours detected: 19	Expected: 1
+
+- Glyph name: Ze-cy	Contours detected: 9	Expected: 1
+
+- Glyph name: Ii-cy	Contours detected: 15	Expected: 1
+
+- Glyph name: Iishort-cy	Contours detected: 18	Expected: 2
+
+- Glyph name: Ka-cy	Contours detected: 13	Expected: 1
+
+- Glyph name: El-cy	Contours detected: 13	Expected: 1
+
+- Glyph name: Em-cy	Contours detected: 16	Expected: 1
+
+- Glyph name: En-cy	Contours detected: 13	Expected: 1
+
+- Glyph name: O-cy	Contours detected: 12	Expected: 2
+
+- Glyph name: Pe-cy	Contours detected: 13	Expected: 1
+
+- Glyph name: Er-cy	Contours detected: 9	Expected: 1 or 2
+
+- Glyph name: Es-cy	Contours detected: 9	Expected: 1
+
+- Glyph name: Te-cy	Contours detected: 7	Expected: 1
+
+- Glyph name: U-cy	Contours detected: 11	Expected: 1
+
+- Glyph name: Ef-cy	Contours detected: 13	Expected: 3
+
+- Glyph name: Ha-cy	Contours detected: 13	Expected: 1
+
+- Glyph name: Tse-cy	Contours detected: 14	Expected: 1
+
+- Glyph name: Che-cy	Contours detected: 10	Expected: 1
+
+- Glyph name: Sha-cy	Contours detected: 19	Expected: 1
+
+- Glyph name: Shcha-cy	Contours detected: 20	Expected: 1
+
+- Glyph name: Hardsign-cy	Contours detected: 9	Expected: 2
+
+- Glyph name: Yeru-cy	Contours detected: 16	Expected: 3
+
+- Glyph name: Softsign-cy	Contours detected: 9	Expected: 2
+
+- Glyph name: Ereversed-cy	Contours detected: 9	Expected: 1
+
+- Glyph name: Yu-cy	Contours detected: 18	Expected: 2
+
+- Glyph name: Ya-cy	Contours detected: 12	Expected: 2
+
+- Glyph name: a-cy	Contours detected: 6	Expected: 2
+
+- Glyph name: be-cy	Contours detected: 9	Expected: 2
+
+- Glyph name: ve-cy	Contours detected: 7	Expected: 3
+
+- Glyph name: ge-cy	Contours detected: 5	Expected: 1
+
+- Glyph name: de-cy	Contours detected: 10	Expected: 2
+
+- Glyph name: ie-cy	Contours detected: 6	Expected: 2
+
+- Glyph name: zhe-cy	Contours detected: 13	Expected: 1
+
+- Glyph name: ze-cy	Contours detected: 5	Expected: 1
+
+- Glyph name: ii-cy	Contours detected: 11	Expected: 1
+
+- Glyph name: iishort-cy	Contours detected: 14	Expected: 2
+
+- Glyph name: ka-cy	Contours detected: 9	Expected: 1
+
+- Glyph name: el-cy	Contours detected: 9	Expected: 1
+
+- Glyph name: em-cy	Contours detected: 12	Expected: 1
+
+- Glyph name: en-cy	Contours detected: 9	Expected: 1
+
+- Glyph name: o-cy	Contours detected: 8	Expected: 2
+
+- Glyph name: pe-cy	Contours detected: 9	Expected: 1
+
+- Glyph name: er-cy	Contours detected: 12	Expected: 2
+
+- Glyph name: es-cy	Contours detected: 7	Expected: 1
+
+- Glyph name: te-cy	Contours detected: 5	Expected: 1
+
+- Glyph name: u-cy	Contours detected: 12	Expected: 1
+
+- Glyph name: ef-cy	Contours detected: 15	Expected: 3
+
+- Glyph name: ha-cy	Contours detected: 9	Expected: 1
+
+- Glyph name: tse-cy	Contours detected: 10	Expected: 1
+
+- Glyph name: che-cy	Contours detected: 7	Expected: 1
+
+- Glyph name: sha-cy	Contours detected: 13	Expected: 1
+
+- Glyph name: shcha-cy	Contours detected: 14	Expected: 1
+
+- Glyph name: hardsign-cy	Contours detected: 6	Expected: 2
+
+- Glyph name: yeru-cy	Contours detected: 11	Expected: 3
+
+- Glyph name: softsign-cy	Contours detected: 6	Expected: 2
+
+- Glyph name: ereversed-cy	Contours detected: 5	Expected: 1
+
+- Glyph name: yu-cy	Contours detected: 12	Expected: 2
+
+- Glyph name: ya-cy	Contours detected: 8	Expected: 2
+
+- Glyph name: uni0450	Contours detected: 8	Expected: 3
+
+- Glyph name: io-cy	Contours detected: 8	Expected: 4
+
+- Glyph name: dje-cy	Contours detected: 13	Expected: 1
+
+- Glyph name: uni0453	Contours detected: 7	Expected: 2
+
+- Glyph name: e-cy	Contours detected: 5	Expected: 1
+
+- Glyph name: uni0455	Contours detected: 5	Expected: 1
+
+- Glyph name: i-cy	Contours detected: 6	Expected: 2
+
+- Glyph name: yi-cy	Contours detected: 7	Expected: 3
+
+- Glyph name: je-cy	Contours detected: 9	Expected: 2
+
+- Glyph name: lje-cy	Contours detected: 10	Expected: 2
+
+- Glyph name: nje-cy	Contours detected: 10	Expected: 2
+
+- Glyph name: tshe-cy	Contours detected: 11	Expected: 1
+
+- Glyph name: uni045C	Contours detected: 11	Expected: 2
+
+- Glyph name: uni045D	Contours detected: 13	Expected: 2
+
+- Glyph name: ushort-cy	Contours detected: 15	Expected: 2
+
+- Glyph name: dzhe-cy	Contours detected: 10	Expected: 1 or 2
+
+- Glyph name: uni0462	Contours detected: 9	Expected: 2
+
+- Glyph name: uni0463	Contours detected: 8	Expected: 2
+
+- Glyph name: uni0472	Contours detected: 13	Expected: 3
+
+- Glyph name: uni0473	Contours detected: 9	Expected: 3
+
+- Glyph name: uni0474	Contours detected: 13	Expected: 1
+
+- Glyph name: uni0475	Contours detected: 9	Expected: 1
+
+- Glyph name: Geupturn-cy	Contours detected: 8	Expected: 1
+
+- Glyph name: geupturn-cy	Contours detected: 6	Expected: 1
+
+- Glyph name: Gestroke-cy	Contours detected: 7	Expected: 1
+
+- Glyph name: gestroke-cy	Contours detected: 5	Expected: 1
+
+- Glyph name: Zhedescender-cy	Contours detected: 20	Expected: 1 or 2
+
+- Glyph name: zhedescender-cy	Contours detected: 14	Expected: 1 or 2
+
+- Glyph name: Kadescender-cy	Contours detected: 14	Expected: 1 or 2
+
+- Glyph name: kadescender-cy	Contours detected: 10	Expected: 1 or 2
+
+- Glyph name: Endescender-cy	Contours detected: 14	Expected: 1 or 2
+
+- Glyph name: endescender-cy	Contours detected: 10	Expected: 1 or 2
+
+- Glyph name: Ustraight-cy	Contours detected: 10	Expected: 1
+
+- Glyph name: ustraight-cy	Contours detected: 11	Expected: 1
+
+- Glyph name: Ustraightstroke-cy	Contours detected: 10	Expected: 1
+
+- Glyph name: ustraightstroke-cy	Contours detected: 11	Expected: 1
+
+- Glyph name: Hadescender-cy	Contours detected: 14	Expected: 1 or 2
+
+- Glyph name: hadescender-cy	Contours detected: 10	Expected: 1 or 2
+
+- Glyph name: Chedescender-cy	Contours detected: 11	Expected: 1 or 2
+
+- Glyph name: chedescender-cy	Contours detected: 8	Expected: 1 or 2
+
+- Glyph name: Shha-cy	Contours detected: 10	Expected: 1
+
+- Glyph name: shha-cy	Contours detected: 12	Expected: 1
+
+- Glyph name: Schwa-cy	Contours detected: 10	Expected: 2
+
+- Glyph name: schwa-cy	Contours detected: 6	Expected: 2
+
+- Glyph name: Imacron-cy	Contours detected: 16	Expected: 2
+
+- Glyph name: imacron-cy	Contours detected: 12	Expected: 2
+
+- Glyph name: Obarred-cy	Contours detected: 11	Expected: 3
+
+- Glyph name: obarred-cy	Contours detected: 7	Expected: 3
+
+- Glyph name: Umacron-cy	Contours detected: 12	Expected: 2
+
+- Glyph name: umacron-cy	Contours detected: 13	Expected: 2
+
 - Glyph name: baht	Contours detected: 11	Expected: 3 or 5
 
 - Glyph name: Ddotbelow	Contours detected: 13	Expected: 3
@@ -16165,6 +17228,38 @@ definitions.</p>
 
 - Glyph name: uni03BC	Contours detected: 12	Expected: 1
 
+- Glyph name: uni0400	Contours detected: 9	Expected: 2
+
+- Glyph name: uni0403	Contours detected: 9	Expected: 2
+
+- Glyph name: uni0405	Contours detected: 9	Expected: 1
+
+- Glyph name: uni040C	Contours detected: 15	Expected: 2
+
+- Glyph name: uni040D	Contours detected: 17	Expected: 2
+
+- Glyph name: uni0450	Contours detected: 8	Expected: 3
+
+- Glyph name: uni0453	Contours detected: 7	Expected: 2
+
+- Glyph name: uni0455	Contours detected: 5	Expected: 1
+
+- Glyph name: uni045C	Contours detected: 11	Expected: 2
+
+- Glyph name: uni045D	Contours detected: 13	Expected: 2
+
+- Glyph name: uni0462	Contours detected: 9	Expected: 2
+
+- Glyph name: uni0463	Contours detected: 8	Expected: 2
+
+- Glyph name: uni0472	Contours detected: 13	Expected: 3
+
+- Glyph name: uni0473	Contours detected: 9	Expected: 3
+
+- Glyph name: uni0474	Contours detected: 13	Expected: 1
+
+- Glyph name: uni0475	Contours detected: 9	Expected: 1
+
 - Glyph name: uni1E36	Contours detected: 8	Expected: 2
 
 - Glyph name: uni1E37	Contours detected: 8	Expected: 2
@@ -16279,7 +17374,7 @@ definitions.</p>
 * ⚠️ **WARN** <p>The most common width is 600 among a set of 9 math glyphs.
 The following math glyphs have a different width, though:</p>
 <p>Width = 400:
-greater, greaterequal, lessequal, less</p>
+greater, less, greaterequal, lessequal</p>
  [code: width-outliers]
 
 
@@ -16321,33 +17416,33 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, cherokee, coptic, math</li>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, tifinagh, cherokee</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, old-permic, todhri, tifinagh, coptic, malayalam, canadian-aboriginal, math, syriac, duployan, tai-le</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: duployan, tifinagh, malayalam, coptic, math, canadian-aboriginal, tai-le, syriac, old-permic, hebrew, todhri</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
-<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
+<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
 <li>U+030D COMBINING VERTICAL LINE ABOVE: try adding sunuwar</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+0315 COMBINING COMMA ABOVE RIGHT: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
-<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: duployan, cherokee, syriac</li>
+<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: duployan, syriac, cherokee</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: thai, sunuwar, tifinagh, gothic, cherokee, syriac, caucasian-albanian</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: caucasian-albanian, gothic, tifinagh, thai, syriac, sunuwar, cherokee</li>
 <li>U+0358 COMBINING DOT ABOVE RIGHT: try adding osage</li>
-<li>U+0394 GREEK CAPITAL LETTER DELTA: try adding one of: elbasan, math, greek</li>
-<li>U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: elbasan, math, greek</li>
+<li>U+0394 GREEK CAPITAL LETTER DELTA: try adding one of: math, elbasan, greek</li>
+<li>U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: math, elbasan, greek</li>
 <li>U+03BC GREEK SMALL LETTER MU: try adding one of: math, greek</li>
-<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: yi, math, greek</li>
+<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: math, yi, greek</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+2007 FIGURE SPACE: try adding symbols2</li>
-<li>U+2010 HYPHEN: try adding one of: yi, hebrew, sora-sompeng, lisu, sundanese, syloti-nagri, coptic, arabic, armenian, kharoshthi, kaithi, kayah-li, cham</li>
+<li>U+2010 HYPHEN: try adding one of: arabic, armenian, lisu, coptic, syloti-nagri, cham, sora-sompeng, yi, sundanese, kharoshthi, hebrew, kaithi, kayah-li</li>
 <li>U+2011 NON-BREAKING HYPHEN: try adding one of: arabic, yi, syloti-nagri</li>
 <li>U+2012 FIGURE DASH: not included in any glyphset definition</li>
 <li>U+2015 HORIZONTAL BAR: try adding adlam</li>
@@ -16399,7 +17494,7 @@ definitions.</p>
 <li>U+2206 INCREMENT: try adding math</li>
 <li>U+220F N-ARY PRODUCT: try adding math</li>
 <li>U+2211 N-ARY SUMMATION: try adding math</li>
-<li>U+2219 BULLET OPERATOR: try adding one of: tai-tham, yi, math, symbols</li>
+<li>U+2219 BULLET OPERATOR: try adding one of: math, yi, symbols, tai-tham</li>
 <li>U+221A SQUARE ROOT: try adding math</li>
 <li>U+221E INFINITY: try adding math</li>
 <li>U+222B INTEGRAL: try adding math</li>
@@ -16438,7 +17533,7 @@ definitions.</p>
 <li>U+25C7 WHITE DIAMOND: try adding symbols</li>
 <li>U+25CA LOZENGE: try adding one of: math, symbols</li>
 <li>U+25CB WHITE CIRCLE: try adding symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: gujarati, syloti-nagri, canadian-aboriginal, lepcha, tai-tham, sogdian, mende-kikakui, mandaic, tai-viet, syriac, bengali, saurashtra, grantha, takri, tirhuta, malayalam, phags-pa, gunjala-gondi, batak, khudawadi, soyombo, armenian, tai-le, wancho, khojki, buhid, tifinagh, kharoshthi, kaithi, sinhala, newa, zanabazar-square, psalter-pahlavi, masaram-gondi, sharada, myanmar, kannada, yi, tamil, warang-citi, bassa-vah, balinese, thaana, khmer, osage, brahmi, buginese, duployan, rejang, thai, mahajani, music, elbasan, nko, manichaean, oriya, chakma, devanagari, old-permic, mongolian, math, ahom, hanunoo, siddham, hanifi-rohingya, meetei-mayek, bhaiksuki, javanese, tagbanwa, symbols, adlam, hebrew, telugu, miao, caucasian-albanian, cham, pahawh-hmong, tibetan, lao, marchen, gurmukhi, limbu, modi, dogra, sundanese, coptic, new-tai-lue, tagalog, kayah-li</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: devanagari, math, lao, old-permic, miao, bhaiksuki, sinhala, marchen, pahawh-hmong, limbu, hebrew, phags-pa, lepcha, balinese, syriac, elbasan, sundanese, wancho, gunjala-gondi, mahajani, masaram-gondi, sharada, thaana, warang-citi, hanunoo, siddham, newa, thai, syloti-nagri, saurashtra, duployan, brahmi, khojki, manichaean, tagbanwa, takri, gujarati, buginese, tai-tham, yi, tagalog, oriya, kayah-li, mende-kikakui, buhid, tamil, gurmukhi, myanmar, khudawadi, mongolian, batak, meetei-mayek, zanabazar-square, bengali, new-tai-lue, rejang, tirhuta, psalter-pahlavi, kharoshthi, osage, music, ahom, canadian-aboriginal, tai-le, nko, kaithi, javanese, adlam, modi, coptic, tibetan, caucasian-albanian, tifinagh, malayalam, telugu, tai-viet, hanifi-rohingya, khmer, armenian, chakma, sogdian, cham, kannada, dogra, soyombo, symbols, bassa-vah, grantha, mandaic</li>
 <li>U+25CF BLACK CIRCLE: try adding symbols</li>
 <li>U+25E6 WHITE BULLET: try adding symbols</li>
 <li>U+27E8 MATHEMATICAL LEFT ANGLE BRACKET: try adding math</li>
@@ -16446,7 +17541,7 @@ definitions.</p>
 <li>U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition</li>
 <li>U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition</li>
 </ul>
-<p>Or you can add the above codepoints to one of the subsets supported by the font: <code>cyrillic-ext</code>, <code>latin</code>, <code>latin-ext</code>, <code>vietnamese</code></p>
+<p>Or you can add the above codepoints to one of the subsets supported by the font: <code>cyrillic</code>, <code>cyrillic-ext</code>, <code>latin</code>, <code>latin-ext</code>, <code>vietnamese</code></p>
  [code: unreachable-subsetting]
 
 
@@ -16464,9 +17559,10 @@ definitions.</p>
 
 
 
-* ⚠️ **WARN** <p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: i̛̇ i̛̊ i̛̋ i̛̍ i̛̒ i̤̇ i̤̊ i̤̋ i̤̍ i̤̒ i̦̇ i̦̊ i̦̋ i̦̍ i̦̒ i̧̇ i̧̊ i̧̋ i̧̍ i̧̒</p>
-<p>Your font fully covers the following languages that require the soft-dotted feature: Dutch (Latn, 31,709,104 speakers), Lithuanian (Latn, 2,357,094 speakers).</p>
-<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Ngbaka (Latn, 1,020,000 speakers), Nateni (Latn, 100,000 speakers), Fur (Latn, 1,230,163 speakers), Lugbara (Latn, 2,200,000 speakers), Ekpeye (Latn, 226,000 speakers), Teke-Ebo (Latn, 260,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Ebira (Latn, 2,200,000 speakers), South Central Banda (Latn, 244,000 speakers), Dii (Latn, 71,000 speakers), Igbo (Latn, 27,823,640 speakers), Basaa (Latn, 332,940 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Koonzime (Latn, 40,000 speakers), Sar (Latn, 500,000 speakers), Yala (Latn, 200,000 speakers), Kom (Latn, 360,685 speakers), Belarusian (Cyrl, 10,064,517 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Ejagham (Latn, 120,000 speakers), Bafut (Latn, 158,146 speakers), Avokaya (Latn, 100,000 speakers), Dan (Latn, 1,099,244 speakers), Cicipu (Latn, 44,000 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Mango (Latn, 77,000 speakers), Gulay (Latn, 250,478 speakers), Southern Kisi (Latn, 360,000 speakers), Kaska (Latn, 125 speakers), Vute (Latn, 21,000 speakers), Mfumte (Latn, 79,000 speakers), Navajo (Latn, 166,319 speakers), Zapotec (Latn, 490,000 speakers), Nzakara (Latn, 50,000 speakers), Heiltsuk (Latn, 300 speakers), Han (Latn, 6 speakers), Ma’di (Latn, 584,000 speakers), Aghem (Latn, 38,843 speakers), Mundani (Latn, 34,000 speakers), Makaa (Latn, 221,000 speakers).</p>
+* ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: і́</p>
+<p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: i̛̇ i̛̊ i̛̋ i̛̍ i̛̒ i̤̇ i̤̊ i̤̋ i̤̍ i̤̒ i̦̇ i̦̊ i̦̋ i̦̍ i̦̒ i̧̇ i̧̊ i̧̋ i̧̍ i̧̒</p>
+<p>Your font fully covers the following languages that require the soft-dotted feature: Dutch (Latn, 31,709,104 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Belarusian (Cyrl, 10,064,517 speakers), Lithuanian (Latn, 2,357,094 speakers).</p>
+<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Cicipu (Latn, 44,000 speakers), Kom (Latn, 360,685 speakers), Dii (Latn, 71,000 speakers), Dan (Latn, 1,099,244 speakers), Ngbaka (Latn, 1,020,000 speakers), Avokaya (Latn, 100,000 speakers), Southern Kisi (Latn, 360,000 speakers), Vute (Latn, 21,000 speakers), Mango (Latn, 77,000 speakers), Nzakara (Latn, 50,000 speakers), Bafut (Latn, 158,146 speakers), Teke-Ebo (Latn, 260,000 speakers), Ma’di (Latn, 584,000 speakers), Igbo (Latn, 27,823,640 speakers), Basaa (Latn, 332,940 speakers), Yala (Latn, 200,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Nateni (Latn, 100,000 speakers), Kaska (Latn, 125 speakers), Sar (Latn, 500,000 speakers), Makaa (Latn, 221,000 speakers), Ejagham (Latn, 120,000 speakers), Gulay (Latn, 250,478 speakers), Fur (Latn, 1,230,163 speakers), Ekpeye (Latn, 226,000 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Lugbara (Latn, 2,200,000 speakers), Koonzime (Latn, 40,000 speakers), Ebira (Latn, 2,200,000 speakers), Zapotec (Latn, 490,000 speakers), Heiltsuk (Latn, 300 speakers), Mundani (Latn, 34,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Han (Latn, 6 speakers), Mfumte (Latn, 79,000 speakers), Aghem (Latn, 38,843 speakers), South Central Banda (Latn, 244,000 speakers), Navajo (Latn, 166,319 speakers).</p>
  [code: soft-dotted]
 
 
@@ -16494,8 +17590,27 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[7] MatrixSansScreen-Regular.ttf</summary>
+<details><summary>[8] MatrixSansScreen-Regular.ttf</summary>
 <div>
+<details>
+    <summary>🔥 <b>FAIL</b> Glyph names are all valid? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.glyphnames.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>The following glyph names do not comply with naming conventions: A-cy, Be-cy, Che-cy, Chedescender-cy, De-cy, Dje-cy, Dzhe-cy, E-cy, Ef-cy, El-cy, Em-cy, En-cy, Endescender-cy, Er-cy, Ereversed-cy, Es-cy, Ge-cy, Gestroke-cy, Geupturn-cy, Ha-cy, Hadescender-cy, Hardsign-cy, I-cy, Ie-cy, Ii-cy, Iishort-cy, Imacron-cy, Io-cy, Je-cy, Ka-cy, Kadescender-cy, Lje-cy, Nje-cy, O-cy, Obarred-cy, Pe-cy, Schwa-cy, Sha-cy, Shcha-cy, Shha-cy, Softsign-cy, Te-cy, Tse-cy, Tshe-cy, U-cy, Umacron-cy, Ushort-cy, Ustraight-cy, Ustraightstroke-cy, Ve-cy, Ya-cy, Yeru-cy, Yi-cy, Yu-cy, Ze-cy, Zhe-cy, Zhedescender-cy, a-cy, be-cy, che-cy, chedescender-cy, de-cy, dje-cy, dzhe-cy, e-cy, ef-cy, el-cy, em-cy, en-cy, endescender-cy, er-cy, ereversed-cy, es-cy, ge-cy, gestroke-cy, geupturn-cy, ha-cy, hadescender-cy, hardsign-cy, i-cy, ie-cy, ii-cy, iishort-cy, imacron-cy, io-cy, je-cy, ka-cy, kadescender-cy, lje-cy, nje-cy, o-cy, obarred-cy, pe-cy, schwa-cy, sha-cy, shcha-cy, shha-cy, softsign-cy, te-cy, tse-cy, tshe-cy, u-cy, umacron-cy, ushort-cy, ustraight-cy, ustraightstroke-cy, ve-cy, ya-cy, yeru-cy, yi-cy, yu-cy, ze-cy, zhe-cy and zhedescender-cy</p>
+<p>A glyph name must be entirely comprised of characters from the following set: A-Z a-z 0-9 .(period) <em>(underscore). A glyph name must not start with a digit or period. There are a few exceptions such as the special glyph &quot;.notdef&quot;. The glyph names &quot;twocents&quot;, &quot;a1&quot;, and &quot;</em>&quot; are all valid, while &quot;2cents&quot; and &quot;.twocents&quot; are not.</p>
+ [code: found-invalid-names]
+
+
+
+</div>
+</details>
+
 <details>
     <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
     <div>
@@ -17835,6 +18950,266 @@ definitions.</p>
 
 - Glyph name: pi	Contours detected: 13	Expected: 1
 
+- Glyph name: uni0400	Contours detected: 20	Expected: 2
+
+- Glyph name: Io-cy	Contours detected: 20	Expected: 3
+
+- Glyph name: Dje-cy	Contours detected: 16	Expected: 1
+
+- Glyph name: uni0403	Contours detected: 13	Expected: 2
+
+- Glyph name: E-cy	Contours detected: 16	Expected: 1
+
+- Glyph name: uni0405	Contours detected: 15	Expected: 1
+
+- Glyph name: I-cy	Contours detected: 11	Expected: 1
+
+- Glyph name: Yi-cy	Contours detected: 13	Expected: 3
+
+- Glyph name: Je-cy	Contours detected: 11	Expected: 1
+
+- Glyph name: Lje-cy	Contours detected: 20	Expected: 2
+
+- Glyph name: Nje-cy	Contours detected: 22	Expected: 2
+
+- Glyph name: Tshe-cy	Contours detected: 16	Expected: 1
+
+- Glyph name: uni040C	Contours detected: 16	Expected: 2
+
+- Glyph name: uni040D	Contours detected: 19	Expected: 2
+
+- Glyph name: Ushort-cy	Contours detected: 21	Expected: 2
+
+- Glyph name: Dzhe-cy	Contours detected: 18	Expected: 1
+
+- Glyph name: A-cy	Contours detected: 16	Expected: 2
+
+- Glyph name: Be-cy	Contours detected: 19	Expected: 2
+
+- Glyph name: Ve-cy	Contours detected: 20	Expected: 3
+
+- Glyph name: Ge-cy	Contours detected: 11	Expected: 1
+
+- Glyph name: De-cy	Contours detected: 21	Expected: 2
+
+- Glyph name: Ie-cy	Contours detected: 18	Expected: 1
+
+- Glyph name: Zhe-cy	Contours detected: 21	Expected: 1
+
+- Glyph name: Ze-cy	Contours detected: 15	Expected: 1
+
+- Glyph name: Ii-cy	Contours detected: 17	Expected: 1
+
+- Glyph name: Iishort-cy	Contours detected: 22	Expected: 2
+
+- Glyph name: Ka-cy	Contours detected: 14	Expected: 1
+
+- Glyph name: El-cy	Contours detected: 15	Expected: 1
+
+- Glyph name: Em-cy	Contours detected: 18	Expected: 1
+
+- Glyph name: En-cy	Contours detected: 17	Expected: 1
+
+- Glyph name: O-cy	Contours detected: 16	Expected: 2
+
+- Glyph name: Pe-cy	Contours detected: 17	Expected: 1
+
+- Glyph name: Er-cy	Contours detected: 15	Expected: 1 or 2
+
+- Glyph name: Es-cy	Contours detected: 13	Expected: 1
+
+- Glyph name: Te-cy	Contours detected: 11	Expected: 1
+
+- Glyph name: U-cy	Contours detected: 16	Expected: 1
+
+- Glyph name: Ef-cy	Contours detected: 17	Expected: 3
+
+- Glyph name: Ha-cy	Contours detected: 13	Expected: 1
+
+- Glyph name: Tse-cy	Contours detected: 18	Expected: 1
+
+- Glyph name: Che-cy	Contours detected: 13	Expected: 1
+
+- Glyph name: Sha-cy	Contours detected: 23	Expected: 1
+
+- Glyph name: Shcha-cy	Contours detected: 25	Expected: 1
+
+- Glyph name: Hardsign-cy	Contours detected: 15	Expected: 2
+
+- Glyph name: Yeru-cy	Contours detected: 20	Expected: 3
+
+- Glyph name: Softsign-cy	Contours detected: 15	Expected: 2
+
+- Glyph name: Ereversed-cy	Contours detected: 16	Expected: 1
+
+- Glyph name: Yu-cy	Contours detected: 22	Expected: 2
+
+- Glyph name: Ya-cy	Contours detected: 18	Expected: 2
+
+- Glyph name: a-cy	Contours detected: 14	Expected: 2
+
+- Glyph name: be-cy	Contours detected: 16	Expected: 2
+
+- Glyph name: ve-cy	Contours detected: 16	Expected: 3
+
+- Glyph name: ge-cy	Contours detected: 9	Expected: 1
+
+- Glyph name: de-cy	Contours detected: 17	Expected: 2
+
+- Glyph name: ie-cy	Contours detected: 14	Expected: 2
+
+- Glyph name: zhe-cy	Contours detected: 15	Expected: 1
+
+- Glyph name: ze-cy	Contours detected: 13	Expected: 1
+
+- Glyph name: ii-cy	Contours detected: 13	Expected: 1
+
+- Glyph name: iishort-cy	Contours detected: 18	Expected: 2
+
+- Glyph name: ka-cy	Contours detected: 11	Expected: 1
+
+- Glyph name: el-cy	Contours detected: 11	Expected: 1
+
+- Glyph name: em-cy	Contours detected: 14	Expected: 1
+
+- Glyph name: en-cy	Contours detected: 13	Expected: 1
+
+- Glyph name: o-cy	Contours detected: 12	Expected: 2
+
+- Glyph name: pe-cy	Contours detected: 13	Expected: 1
+
+- Glyph name: er-cy	Contours detected: 16	Expected: 2
+
+- Glyph name: es-cy	Contours detected: 11	Expected: 1
+
+- Glyph name: te-cy	Contours detected: 9	Expected: 1
+
+- Glyph name: u-cy	Contours detected: 16	Expected: 1
+
+- Glyph name: ef-cy	Contours detected: 19	Expected: 3
+
+- Glyph name: ha-cy	Contours detected: 9	Expected: 1
+
+- Glyph name: tse-cy	Contours detected: 14	Expected: 1
+
+- Glyph name: che-cy	Contours detected: 10	Expected: 1
+
+- Glyph name: sha-cy	Contours detected: 17	Expected: 1
+
+- Glyph name: shcha-cy	Contours detected: 19	Expected: 1
+
+- Glyph name: hardsign-cy	Contours detected: 12	Expected: 2
+
+- Glyph name: yeru-cy	Contours detected: 15	Expected: 3
+
+- Glyph name: softsign-cy	Contours detected: 12	Expected: 2
+
+- Glyph name: ereversed-cy	Contours detected: 14	Expected: 1
+
+- Glyph name: yu-cy	Contours detected: 16	Expected: 2
+
+- Glyph name: ya-cy	Contours detected: 14	Expected: 2
+
+- Glyph name: uni0450	Contours detected: 16	Expected: 3
+
+- Glyph name: io-cy	Contours detected: 16	Expected: 4
+
+- Glyph name: dje-cy	Contours detected: 18	Expected: 1
+
+- Glyph name: uni0453	Contours detected: 11	Expected: 2
+
+- Glyph name: e-cy	Contours detected: 14	Expected: 1
+
+- Glyph name: uni0455	Contours detected: 13	Expected: 1
+
+- Glyph name: i-cy	Contours detected: 9	Expected: 2
+
+- Glyph name: yi-cy	Contours detected: 10	Expected: 3
+
+- Glyph name: je-cy	Contours detected: 11	Expected: 2
+
+- Glyph name: lje-cy	Contours detected: 15	Expected: 2
+
+- Glyph name: nje-cy	Contours detected: 17	Expected: 2
+
+- Glyph name: tshe-cy	Contours detected: 16	Expected: 1
+
+- Glyph name: uni045C	Contours detected: 13	Expected: 2
+
+- Glyph name: uni045D	Contours detected: 15	Expected: 2
+
+- Glyph name: ushort-cy	Contours detected: 21	Expected: 2
+
+- Glyph name: dzhe-cy	Contours detected: 14	Expected: 1 or 2
+
+- Glyph name: uni0462	Contours detected: 17	Expected: 2
+
+- Glyph name: uni0463	Contours detected: 14	Expected: 2
+
+- Glyph name: uni0472	Contours detected: 17	Expected: 3
+
+- Glyph name: uni0473	Contours detected: 13	Expected: 3
+
+- Glyph name: uni0474	Contours detected: 14	Expected: 1
+
+- Glyph name: uni0475	Contours detected: 10	Expected: 1
+
+- Glyph name: Geupturn-cy	Contours detected: 12	Expected: 1
+
+- Glyph name: geupturn-cy	Contours detected: 10	Expected: 1
+
+- Glyph name: Gestroke-cy	Contours detected: 14	Expected: 1
+
+- Glyph name: gestroke-cy	Contours detected: 12	Expected: 1
+
+- Glyph name: Zhedescender-cy	Contours detected: 23	Expected: 1 or 2
+
+- Glyph name: zhedescender-cy	Contours detected: 17	Expected: 1 or 2
+
+- Glyph name: Kadescender-cy	Contours detected: 16	Expected: 1 or 2
+
+- Glyph name: kadescender-cy	Contours detected: 12	Expected: 1 or 2
+
+- Glyph name: Endescender-cy	Contours detected: 18	Expected: 1 or 2
+
+- Glyph name: endescender-cy	Contours detected: 14	Expected: 1 or 2
+
+- Glyph name: Ustraight-cy	Contours detected: 10	Expected: 1
+
+- Glyph name: ustraight-cy	Contours detected: 11	Expected: 1
+
+- Glyph name: Ustraightstroke-cy	Contours detected: 12	Expected: 1
+
+- Glyph name: ustraightstroke-cy	Contours detected: 13	Expected: 1
+
+- Glyph name: Hadescender-cy	Contours detected: 15	Expected: 1 or 2
+
+- Glyph name: hadescender-cy	Contours detected: 11	Expected: 1 or 2
+
+- Glyph name: Chedescender-cy	Contours detected: 14	Expected: 1 or 2
+
+- Glyph name: chedescender-cy	Contours detected: 11	Expected: 1 or 2
+
+- Glyph name: Shha-cy	Contours detected: 13	Expected: 1
+
+- Glyph name: shha-cy	Contours detected: 14	Expected: 1
+
+- Glyph name: Schwa-cy	Contours detected: 18	Expected: 2
+
+- Glyph name: schwa-cy	Contours detected: 14	Expected: 2
+
+- Glyph name: Imacron-cy	Contours detected: 20	Expected: 2
+
+- Glyph name: imacron-cy	Contours detected: 16	Expected: 2
+
+- Glyph name: Obarred-cy	Contours detected: 19	Expected: 3
+
+- Glyph name: obarred-cy	Contours detected: 15	Expected: 3
+
+- Glyph name: Umacron-cy	Contours detected: 19	Expected: 2
+
+- Glyph name: umacron-cy	Contours detected: 19	Expected: 2
+
 - Glyph name: baht	Contours detected: 20	Expected: 3 or 5
 
 - Glyph name: Ddotbelow	Contours detected: 17	Expected: 3
@@ -19075,6 +20450,38 @@ definitions.</p>
 
 - Glyph name: uni03BC	Contours detected: 14	Expected: 1
 
+- Glyph name: uni0400	Contours detected: 20	Expected: 2
+
+- Glyph name: uni0403	Contours detected: 13	Expected: 2
+
+- Glyph name: uni0405	Contours detected: 15	Expected: 1
+
+- Glyph name: uni040C	Contours detected: 16	Expected: 2
+
+- Glyph name: uni040D	Contours detected: 19	Expected: 2
+
+- Glyph name: uni0450	Contours detected: 16	Expected: 3
+
+- Glyph name: uni0453	Contours detected: 11	Expected: 2
+
+- Glyph name: uni0455	Contours detected: 13	Expected: 1
+
+- Glyph name: uni045C	Contours detected: 13	Expected: 2
+
+- Glyph name: uni045D	Contours detected: 15	Expected: 2
+
+- Glyph name: uni0462	Contours detected: 17	Expected: 2
+
+- Glyph name: uni0463	Contours detected: 14	Expected: 2
+
+- Glyph name: uni0472	Contours detected: 17	Expected: 3
+
+- Glyph name: uni0473	Contours detected: 13	Expected: 3
+
+- Glyph name: uni0474	Contours detected: 14	Expected: 1
+
+- Glyph name: uni0475	Contours detected: 10	Expected: 1
+
 - Glyph name: uni1E36	Contours detected: 12	Expected: 2
 
 - Glyph name: uni1E37	Contours detected: 11	Expected: 2
@@ -19195,7 +20602,7 @@ definitions.</p>
 * ⚠️ **WARN** <p>The most common width is 600 among a set of 9 math glyphs.
 The following math glyphs have a different width, though:</p>
 <p>Width = 400:
-greater, greaterequal, lessequal, less</p>
+greater, less, greaterequal, lessequal</p>
  [code: width-outliers]
 
 
@@ -19237,33 +20644,33 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, cherokee, coptic, math</li>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, tifinagh, cherokee</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, old-permic, todhri, tifinagh, coptic, malayalam, canadian-aboriginal, math, syriac, duployan, tai-le</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: duployan, tifinagh, malayalam, coptic, math, canadian-aboriginal, tai-le, syriac, old-permic, hebrew, todhri</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
-<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
+<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
 <li>U+030D COMBINING VERTICAL LINE ABOVE: try adding sunuwar</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+0315 COMBINING COMMA ABOVE RIGHT: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
-<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: duployan, cherokee, syriac</li>
+<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: duployan, syriac, cherokee</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: thai, sunuwar, tifinagh, gothic, cherokee, syriac, caucasian-albanian</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: caucasian-albanian, gothic, tifinagh, thai, syriac, sunuwar, cherokee</li>
 <li>U+0358 COMBINING DOT ABOVE RIGHT: try adding osage</li>
-<li>U+0394 GREEK CAPITAL LETTER DELTA: try adding one of: elbasan, math, greek</li>
-<li>U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: elbasan, math, greek</li>
+<li>U+0394 GREEK CAPITAL LETTER DELTA: try adding one of: math, elbasan, greek</li>
+<li>U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: math, elbasan, greek</li>
 <li>U+03BC GREEK SMALL LETTER MU: try adding one of: math, greek</li>
-<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: yi, math, greek</li>
+<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: math, yi, greek</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+2007 FIGURE SPACE: try adding symbols2</li>
-<li>U+2010 HYPHEN: try adding one of: yi, hebrew, sora-sompeng, lisu, sundanese, syloti-nagri, coptic, arabic, armenian, kharoshthi, kaithi, kayah-li, cham</li>
+<li>U+2010 HYPHEN: try adding one of: arabic, armenian, lisu, coptic, syloti-nagri, cham, sora-sompeng, yi, sundanese, kharoshthi, hebrew, kaithi, kayah-li</li>
 <li>U+2011 NON-BREAKING HYPHEN: try adding one of: arabic, yi, syloti-nagri</li>
 <li>U+2012 FIGURE DASH: not included in any glyphset definition</li>
 <li>U+2015 HORIZONTAL BAR: try adding adlam</li>
@@ -19315,7 +20722,7 @@ definitions.</p>
 <li>U+2206 INCREMENT: try adding math</li>
 <li>U+220F N-ARY PRODUCT: try adding math</li>
 <li>U+2211 N-ARY SUMMATION: try adding math</li>
-<li>U+2219 BULLET OPERATOR: try adding one of: tai-tham, yi, math, symbols</li>
+<li>U+2219 BULLET OPERATOR: try adding one of: math, yi, symbols, tai-tham</li>
 <li>U+221A SQUARE ROOT: try adding math</li>
 <li>U+221E INFINITY: try adding math</li>
 <li>U+222B INTEGRAL: try adding math</li>
@@ -19354,7 +20761,7 @@ definitions.</p>
 <li>U+25C7 WHITE DIAMOND: try adding symbols</li>
 <li>U+25CA LOZENGE: try adding one of: math, symbols</li>
 <li>U+25CB WHITE CIRCLE: try adding symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: gujarati, syloti-nagri, canadian-aboriginal, lepcha, tai-tham, sogdian, mende-kikakui, mandaic, tai-viet, syriac, bengali, saurashtra, grantha, takri, tirhuta, malayalam, phags-pa, gunjala-gondi, batak, khudawadi, soyombo, armenian, tai-le, wancho, khojki, buhid, tifinagh, kharoshthi, kaithi, sinhala, newa, zanabazar-square, psalter-pahlavi, masaram-gondi, sharada, myanmar, kannada, yi, tamil, warang-citi, bassa-vah, balinese, thaana, khmer, osage, brahmi, buginese, duployan, rejang, thai, mahajani, music, elbasan, nko, manichaean, oriya, chakma, devanagari, old-permic, mongolian, math, ahom, hanunoo, siddham, hanifi-rohingya, meetei-mayek, bhaiksuki, javanese, tagbanwa, symbols, adlam, hebrew, telugu, miao, caucasian-albanian, cham, pahawh-hmong, tibetan, lao, marchen, gurmukhi, limbu, modi, dogra, sundanese, coptic, new-tai-lue, tagalog, kayah-li</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: devanagari, math, lao, old-permic, miao, bhaiksuki, sinhala, marchen, pahawh-hmong, limbu, hebrew, phags-pa, lepcha, balinese, syriac, elbasan, sundanese, wancho, gunjala-gondi, mahajani, masaram-gondi, sharada, thaana, warang-citi, hanunoo, siddham, newa, thai, syloti-nagri, saurashtra, duployan, brahmi, khojki, manichaean, tagbanwa, takri, gujarati, buginese, tai-tham, yi, tagalog, oriya, kayah-li, mende-kikakui, buhid, tamil, gurmukhi, myanmar, khudawadi, mongolian, batak, meetei-mayek, zanabazar-square, bengali, new-tai-lue, rejang, tirhuta, psalter-pahlavi, kharoshthi, osage, music, ahom, canadian-aboriginal, tai-le, nko, kaithi, javanese, adlam, modi, coptic, tibetan, caucasian-albanian, tifinagh, malayalam, telugu, tai-viet, hanifi-rohingya, khmer, armenian, chakma, sogdian, cham, kannada, dogra, soyombo, symbols, bassa-vah, grantha, mandaic</li>
 <li>U+25CF BLACK CIRCLE: try adding symbols</li>
 <li>U+25E6 WHITE BULLET: try adding symbols</li>
 <li>U+27E8 MATHEMATICAL LEFT ANGLE BRACKET: try adding math</li>
@@ -19362,7 +20769,7 @@ definitions.</p>
 <li>U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition</li>
 <li>U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition</li>
 </ul>
-<p>Or you can add the above codepoints to one of the subsets supported by the font: <code>cyrillic-ext</code>, <code>latin</code>, <code>latin-ext</code>, <code>vietnamese</code></p>
+<p>Or you can add the above codepoints to one of the subsets supported by the font: <code>cyrillic</code>, <code>cyrillic-ext</code>, <code>latin</code>, <code>latin-ext</code>, <code>vietnamese</code></p>
  [code: unreachable-subsetting]
 
 
@@ -19380,9 +20787,10 @@ definitions.</p>
 
 
 
-* ⚠️ **WARN** <p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: i̛̇ i̛̊ i̛̋ i̛̍ i̛̒ i̤̇ i̤̊ i̤̋ i̤̍ i̤̒ i̦̇ i̦̊ i̦̋ i̦̍ i̦̒ i̧̇ i̧̊ i̧̋ i̧̍ i̧̒</p>
-<p>Your font fully covers the following languages that require the soft-dotted feature: Dutch (Latn, 31,709,104 speakers), Lithuanian (Latn, 2,357,094 speakers).</p>
-<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Ngbaka (Latn, 1,020,000 speakers), Nateni (Latn, 100,000 speakers), Fur (Latn, 1,230,163 speakers), Lugbara (Latn, 2,200,000 speakers), Ekpeye (Latn, 226,000 speakers), Teke-Ebo (Latn, 260,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Ebira (Latn, 2,200,000 speakers), South Central Banda (Latn, 244,000 speakers), Dii (Latn, 71,000 speakers), Igbo (Latn, 27,823,640 speakers), Basaa (Latn, 332,940 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Koonzime (Latn, 40,000 speakers), Sar (Latn, 500,000 speakers), Yala (Latn, 200,000 speakers), Kom (Latn, 360,685 speakers), Belarusian (Cyrl, 10,064,517 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Ejagham (Latn, 120,000 speakers), Bafut (Latn, 158,146 speakers), Avokaya (Latn, 100,000 speakers), Dan (Latn, 1,099,244 speakers), Cicipu (Latn, 44,000 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Mango (Latn, 77,000 speakers), Gulay (Latn, 250,478 speakers), Southern Kisi (Latn, 360,000 speakers), Kaska (Latn, 125 speakers), Vute (Latn, 21,000 speakers), Mfumte (Latn, 79,000 speakers), Navajo (Latn, 166,319 speakers), Zapotec (Latn, 490,000 speakers), Nzakara (Latn, 50,000 speakers), Heiltsuk (Latn, 300 speakers), Han (Latn, 6 speakers), Ma’di (Latn, 584,000 speakers), Aghem (Latn, 38,843 speakers), Mundani (Latn, 34,000 speakers), Makaa (Latn, 221,000 speakers).</p>
+* ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: і́</p>
+<p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: i̛̇ i̛̊ i̛̋ i̛̍ i̛̒ i̤̇ i̤̊ i̤̋ i̤̍ i̤̒ i̦̇ i̦̊ i̦̋ i̦̍ i̦̒ i̧̇ i̧̊ i̧̋ i̧̍ i̧̒</p>
+<p>Your font fully covers the following languages that require the soft-dotted feature: Dutch (Latn, 31,709,104 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Belarusian (Cyrl, 10,064,517 speakers), Lithuanian (Latn, 2,357,094 speakers).</p>
+<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Cicipu (Latn, 44,000 speakers), Kom (Latn, 360,685 speakers), Dii (Latn, 71,000 speakers), Dan (Latn, 1,099,244 speakers), Ngbaka (Latn, 1,020,000 speakers), Avokaya (Latn, 100,000 speakers), Southern Kisi (Latn, 360,000 speakers), Vute (Latn, 21,000 speakers), Mango (Latn, 77,000 speakers), Nzakara (Latn, 50,000 speakers), Bafut (Latn, 158,146 speakers), Teke-Ebo (Latn, 260,000 speakers), Ma’di (Latn, 584,000 speakers), Igbo (Latn, 27,823,640 speakers), Basaa (Latn, 332,940 speakers), Yala (Latn, 200,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Nateni (Latn, 100,000 speakers), Kaska (Latn, 125 speakers), Sar (Latn, 500,000 speakers), Makaa (Latn, 221,000 speakers), Ejagham (Latn, 120,000 speakers), Gulay (Latn, 250,478 speakers), Fur (Latn, 1,230,163 speakers), Ekpeye (Latn, 226,000 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Lugbara (Latn, 2,200,000 speakers), Koonzime (Latn, 40,000 speakers), Ebira (Latn, 2,200,000 speakers), Zapotec (Latn, 490,000 speakers), Heiltsuk (Latn, 300 speakers), Mundani (Latn, 34,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Han (Latn, 6 speakers), Mfumte (Latn, 79,000 speakers), Aghem (Latn, 38,843 speakers), South Central Banda (Latn, 244,000 speakers), Navajo (Latn, 166,319 speakers).</p>
  [code: soft-dotted]
 
 
@@ -19410,8 +20818,27 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[7] MatrixSansPrint-Regular.ttf</summary>
+<details><summary>[8] MatrixSansPrint-Regular.ttf</summary>
 <div>
+<details>
+    <summary>🔥 <b>FAIL</b> Glyph names are all valid? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.glyphnames.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>The following glyph names do not comply with naming conventions: A-cy, Be-cy, Che-cy, Chedescender-cy, De-cy, Dje-cy, Dzhe-cy, E-cy, Ef-cy, El-cy, Em-cy, En-cy, Endescender-cy, Er-cy, Ereversed-cy, Es-cy, Ge-cy, Gestroke-cy, Geupturn-cy, Ha-cy, Hadescender-cy, Hardsign-cy, I-cy, Ie-cy, Ii-cy, Iishort-cy, Imacron-cy, Io-cy, Je-cy, Ka-cy, Kadescender-cy, Lje-cy, Nje-cy, O-cy, Obarred-cy, Pe-cy, Schwa-cy, Sha-cy, Shcha-cy, Shha-cy, Softsign-cy, Te-cy, Tse-cy, Tshe-cy, U-cy, Umacron-cy, Ushort-cy, Ustraight-cy, Ustraightstroke-cy, Ve-cy, Ya-cy, Yeru-cy, Yi-cy, Yu-cy, Ze-cy, Zhe-cy, Zhedescender-cy, a-cy, be-cy, che-cy, chedescender-cy, de-cy, dje-cy, dzhe-cy, e-cy, ef-cy, el-cy, em-cy, en-cy, endescender-cy, er-cy, ereversed-cy, es-cy, ge-cy, gestroke-cy, geupturn-cy, ha-cy, hadescender-cy, hardsign-cy, i-cy, ie-cy, ii-cy, iishort-cy, imacron-cy, io-cy, je-cy, ka-cy, kadescender-cy, lje-cy, nje-cy, o-cy, obarred-cy, pe-cy, schwa-cy, sha-cy, shcha-cy, shha-cy, softsign-cy, te-cy, tse-cy, tshe-cy, u-cy, umacron-cy, ushort-cy, ustraight-cy, ustraightstroke-cy, ve-cy, ya-cy, yeru-cy, yi-cy, yu-cy, ze-cy, zhe-cy and zhedescender-cy</p>
+<p>A glyph name must be entirely comprised of characters from the following set: A-Z a-z 0-9 .(period) <em>(underscore). A glyph name must not start with a digit or period. There are a few exceptions such as the special glyph &quot;.notdef&quot;. The glyph names &quot;twocents&quot;, &quot;a1&quot;, and &quot;</em>&quot; are all valid, while &quot;2cents&quot; and &quot;.twocents&quot; are not.</p>
+ [code: found-invalid-names]
+
+
+
+</div>
+</details>
+
 <details>
     <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
     <div>
@@ -20751,6 +22178,266 @@ definitions.</p>
 
 - Glyph name: pi	Contours detected: 13	Expected: 1
 
+- Glyph name: uni0400	Contours detected: 20	Expected: 2
+
+- Glyph name: Io-cy	Contours detected: 20	Expected: 3
+
+- Glyph name: Dje-cy	Contours detected: 16	Expected: 1
+
+- Glyph name: uni0403	Contours detected: 13	Expected: 2
+
+- Glyph name: E-cy	Contours detected: 16	Expected: 1
+
+- Glyph name: uni0405	Contours detected: 15	Expected: 1
+
+- Glyph name: I-cy	Contours detected: 11	Expected: 1
+
+- Glyph name: Yi-cy	Contours detected: 13	Expected: 3
+
+- Glyph name: Je-cy	Contours detected: 11	Expected: 1
+
+- Glyph name: Lje-cy	Contours detected: 20	Expected: 2
+
+- Glyph name: Nje-cy	Contours detected: 22	Expected: 2
+
+- Glyph name: Tshe-cy	Contours detected: 16	Expected: 1
+
+- Glyph name: uni040C	Contours detected: 16	Expected: 2
+
+- Glyph name: uni040D	Contours detected: 19	Expected: 2
+
+- Glyph name: Ushort-cy	Contours detected: 21	Expected: 2
+
+- Glyph name: Dzhe-cy	Contours detected: 18	Expected: 1
+
+- Glyph name: A-cy	Contours detected: 16	Expected: 2
+
+- Glyph name: Be-cy	Contours detected: 19	Expected: 2
+
+- Glyph name: Ve-cy	Contours detected: 20	Expected: 3
+
+- Glyph name: Ge-cy	Contours detected: 11	Expected: 1
+
+- Glyph name: De-cy	Contours detected: 21	Expected: 2
+
+- Glyph name: Ie-cy	Contours detected: 18	Expected: 1
+
+- Glyph name: Zhe-cy	Contours detected: 21	Expected: 1
+
+- Glyph name: Ze-cy	Contours detected: 15	Expected: 1
+
+- Glyph name: Ii-cy	Contours detected: 17	Expected: 1
+
+- Glyph name: Iishort-cy	Contours detected: 22	Expected: 2
+
+- Glyph name: Ka-cy	Contours detected: 14	Expected: 1
+
+- Glyph name: El-cy	Contours detected: 15	Expected: 1
+
+- Glyph name: Em-cy	Contours detected: 18	Expected: 1
+
+- Glyph name: En-cy	Contours detected: 17	Expected: 1
+
+- Glyph name: O-cy	Contours detected: 16	Expected: 2
+
+- Glyph name: Pe-cy	Contours detected: 17	Expected: 1
+
+- Glyph name: Er-cy	Contours detected: 15	Expected: 1 or 2
+
+- Glyph name: Es-cy	Contours detected: 13	Expected: 1
+
+- Glyph name: Te-cy	Contours detected: 11	Expected: 1
+
+- Glyph name: U-cy	Contours detected: 16	Expected: 1
+
+- Glyph name: Ef-cy	Contours detected: 17	Expected: 3
+
+- Glyph name: Ha-cy	Contours detected: 13	Expected: 1
+
+- Glyph name: Tse-cy	Contours detected: 18	Expected: 1
+
+- Glyph name: Che-cy	Contours detected: 13	Expected: 1
+
+- Glyph name: Sha-cy	Contours detected: 23	Expected: 1
+
+- Glyph name: Shcha-cy	Contours detected: 25	Expected: 1
+
+- Glyph name: Hardsign-cy	Contours detected: 15	Expected: 2
+
+- Glyph name: Yeru-cy	Contours detected: 20	Expected: 3
+
+- Glyph name: Softsign-cy	Contours detected: 15	Expected: 2
+
+- Glyph name: Ereversed-cy	Contours detected: 16	Expected: 1
+
+- Glyph name: Yu-cy	Contours detected: 22	Expected: 2
+
+- Glyph name: Ya-cy	Contours detected: 18	Expected: 2
+
+- Glyph name: a-cy	Contours detected: 14	Expected: 2
+
+- Glyph name: be-cy	Contours detected: 16	Expected: 2
+
+- Glyph name: ve-cy	Contours detected: 16	Expected: 3
+
+- Glyph name: ge-cy	Contours detected: 9	Expected: 1
+
+- Glyph name: de-cy	Contours detected: 17	Expected: 2
+
+- Glyph name: ie-cy	Contours detected: 14	Expected: 2
+
+- Glyph name: zhe-cy	Contours detected: 15	Expected: 1
+
+- Glyph name: ze-cy	Contours detected: 13	Expected: 1
+
+- Glyph name: ii-cy	Contours detected: 13	Expected: 1
+
+- Glyph name: iishort-cy	Contours detected: 18	Expected: 2
+
+- Glyph name: ka-cy	Contours detected: 11	Expected: 1
+
+- Glyph name: el-cy	Contours detected: 11	Expected: 1
+
+- Glyph name: em-cy	Contours detected: 14	Expected: 1
+
+- Glyph name: en-cy	Contours detected: 13	Expected: 1
+
+- Glyph name: o-cy	Contours detected: 12	Expected: 2
+
+- Glyph name: pe-cy	Contours detected: 13	Expected: 1
+
+- Glyph name: er-cy	Contours detected: 16	Expected: 2
+
+- Glyph name: es-cy	Contours detected: 11	Expected: 1
+
+- Glyph name: te-cy	Contours detected: 9	Expected: 1
+
+- Glyph name: u-cy	Contours detected: 16	Expected: 1
+
+- Glyph name: ef-cy	Contours detected: 19	Expected: 3
+
+- Glyph name: ha-cy	Contours detected: 9	Expected: 1
+
+- Glyph name: tse-cy	Contours detected: 14	Expected: 1
+
+- Glyph name: che-cy	Contours detected: 10	Expected: 1
+
+- Glyph name: sha-cy	Contours detected: 17	Expected: 1
+
+- Glyph name: shcha-cy	Contours detected: 19	Expected: 1
+
+- Glyph name: hardsign-cy	Contours detected: 12	Expected: 2
+
+- Glyph name: yeru-cy	Contours detected: 15	Expected: 3
+
+- Glyph name: softsign-cy	Contours detected: 12	Expected: 2
+
+- Glyph name: ereversed-cy	Contours detected: 14	Expected: 1
+
+- Glyph name: yu-cy	Contours detected: 16	Expected: 2
+
+- Glyph name: ya-cy	Contours detected: 14	Expected: 2
+
+- Glyph name: uni0450	Contours detected: 16	Expected: 3
+
+- Glyph name: io-cy	Contours detected: 16	Expected: 4
+
+- Glyph name: dje-cy	Contours detected: 18	Expected: 1
+
+- Glyph name: uni0453	Contours detected: 11	Expected: 2
+
+- Glyph name: e-cy	Contours detected: 14	Expected: 1
+
+- Glyph name: uni0455	Contours detected: 13	Expected: 1
+
+- Glyph name: i-cy	Contours detected: 9	Expected: 2
+
+- Glyph name: yi-cy	Contours detected: 10	Expected: 3
+
+- Glyph name: je-cy	Contours detected: 11	Expected: 2
+
+- Glyph name: lje-cy	Contours detected: 15	Expected: 2
+
+- Glyph name: nje-cy	Contours detected: 17	Expected: 2
+
+- Glyph name: tshe-cy	Contours detected: 16	Expected: 1
+
+- Glyph name: uni045C	Contours detected: 13	Expected: 2
+
+- Glyph name: uni045D	Contours detected: 15	Expected: 2
+
+- Glyph name: ushort-cy	Contours detected: 21	Expected: 2
+
+- Glyph name: dzhe-cy	Contours detected: 14	Expected: 1 or 2
+
+- Glyph name: uni0462	Contours detected: 17	Expected: 2
+
+- Glyph name: uni0463	Contours detected: 14	Expected: 2
+
+- Glyph name: uni0472	Contours detected: 17	Expected: 3
+
+- Glyph name: uni0473	Contours detected: 13	Expected: 3
+
+- Glyph name: uni0474	Contours detected: 14	Expected: 1
+
+- Glyph name: uni0475	Contours detected: 10	Expected: 1
+
+- Glyph name: Geupturn-cy	Contours detected: 12	Expected: 1
+
+- Glyph name: geupturn-cy	Contours detected: 10	Expected: 1
+
+- Glyph name: Gestroke-cy	Contours detected: 14	Expected: 1
+
+- Glyph name: gestroke-cy	Contours detected: 12	Expected: 1
+
+- Glyph name: Zhedescender-cy	Contours detected: 23	Expected: 1 or 2
+
+- Glyph name: zhedescender-cy	Contours detected: 17	Expected: 1 or 2
+
+- Glyph name: Kadescender-cy	Contours detected: 16	Expected: 1 or 2
+
+- Glyph name: kadescender-cy	Contours detected: 12	Expected: 1 or 2
+
+- Glyph name: Endescender-cy	Contours detected: 18	Expected: 1 or 2
+
+- Glyph name: endescender-cy	Contours detected: 14	Expected: 1 or 2
+
+- Glyph name: Ustraight-cy	Contours detected: 10	Expected: 1
+
+- Glyph name: ustraight-cy	Contours detected: 11	Expected: 1
+
+- Glyph name: Ustraightstroke-cy	Contours detected: 12	Expected: 1
+
+- Glyph name: ustraightstroke-cy	Contours detected: 13	Expected: 1
+
+- Glyph name: Hadescender-cy	Contours detected: 15	Expected: 1 or 2
+
+- Glyph name: hadescender-cy	Contours detected: 11	Expected: 1 or 2
+
+- Glyph name: Chedescender-cy	Contours detected: 14	Expected: 1 or 2
+
+- Glyph name: chedescender-cy	Contours detected: 11	Expected: 1 or 2
+
+- Glyph name: Shha-cy	Contours detected: 13	Expected: 1
+
+- Glyph name: shha-cy	Contours detected: 14	Expected: 1
+
+- Glyph name: Schwa-cy	Contours detected: 18	Expected: 2
+
+- Glyph name: schwa-cy	Contours detected: 14	Expected: 2
+
+- Glyph name: Imacron-cy	Contours detected: 20	Expected: 2
+
+- Glyph name: imacron-cy	Contours detected: 16	Expected: 2
+
+- Glyph name: Obarred-cy	Contours detected: 19	Expected: 3
+
+- Glyph name: obarred-cy	Contours detected: 15	Expected: 3
+
+- Glyph name: Umacron-cy	Contours detected: 19	Expected: 2
+
+- Glyph name: umacron-cy	Contours detected: 19	Expected: 2
+
 - Glyph name: baht	Contours detected: 20	Expected: 3 or 5
 
 - Glyph name: Ddotbelow	Contours detected: 17	Expected: 3
@@ -21991,6 +23678,38 @@ definitions.</p>
 
 - Glyph name: uni03BC	Contours detected: 14	Expected: 1
 
+- Glyph name: uni0400	Contours detected: 20	Expected: 2
+
+- Glyph name: uni0403	Contours detected: 13	Expected: 2
+
+- Glyph name: uni0405	Contours detected: 15	Expected: 1
+
+- Glyph name: uni040C	Contours detected: 16	Expected: 2
+
+- Glyph name: uni040D	Contours detected: 19	Expected: 2
+
+- Glyph name: uni0450	Contours detected: 16	Expected: 3
+
+- Glyph name: uni0453	Contours detected: 11	Expected: 2
+
+- Glyph name: uni0455	Contours detected: 13	Expected: 1
+
+- Glyph name: uni045C	Contours detected: 13	Expected: 2
+
+- Glyph name: uni045D	Contours detected: 15	Expected: 2
+
+- Glyph name: uni0462	Contours detected: 17	Expected: 2
+
+- Glyph name: uni0463	Contours detected: 14	Expected: 2
+
+- Glyph name: uni0472	Contours detected: 17	Expected: 3
+
+- Glyph name: uni0473	Contours detected: 13	Expected: 3
+
+- Glyph name: uni0474	Contours detected: 14	Expected: 1
+
+- Glyph name: uni0475	Contours detected: 10	Expected: 1
+
 - Glyph name: uni1E36	Contours detected: 12	Expected: 2
 
 - Glyph name: uni1E37	Contours detected: 11	Expected: 2
@@ -22111,7 +23830,7 @@ definitions.</p>
 * ⚠️ **WARN** <p>The most common width is 600 among a set of 9 math glyphs.
 The following math glyphs have a different width, though:</p>
 <p>Width = 400:
-greater, greaterequal, lessequal, less</p>
+greater, less, greaterequal, lessequal</p>
  [code: width-outliers]
 
 
@@ -22153,33 +23872,33 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, cherokee, coptic, math</li>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, tifinagh, cherokee</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, old-permic, todhri, tifinagh, coptic, malayalam, canadian-aboriginal, math, syriac, duployan, tai-le</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: duployan, tifinagh, malayalam, coptic, math, canadian-aboriginal, tai-le, syriac, old-permic, hebrew, todhri</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
-<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
+<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
 <li>U+030D COMBINING VERTICAL LINE ABOVE: try adding sunuwar</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+0315 COMBINING COMMA ABOVE RIGHT: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
-<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: duployan, cherokee, syriac</li>
+<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: duployan, syriac, cherokee</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: thai, sunuwar, tifinagh, gothic, cherokee, syriac, caucasian-albanian</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: caucasian-albanian, gothic, tifinagh, thai, syriac, sunuwar, cherokee</li>
 <li>U+0358 COMBINING DOT ABOVE RIGHT: try adding osage</li>
-<li>U+0394 GREEK CAPITAL LETTER DELTA: try adding one of: elbasan, math, greek</li>
-<li>U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: elbasan, math, greek</li>
+<li>U+0394 GREEK CAPITAL LETTER DELTA: try adding one of: math, elbasan, greek</li>
+<li>U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: math, elbasan, greek</li>
 <li>U+03BC GREEK SMALL LETTER MU: try adding one of: math, greek</li>
-<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: yi, math, greek</li>
+<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: math, yi, greek</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+2007 FIGURE SPACE: try adding symbols2</li>
-<li>U+2010 HYPHEN: try adding one of: yi, hebrew, sora-sompeng, lisu, sundanese, syloti-nagri, coptic, arabic, armenian, kharoshthi, kaithi, kayah-li, cham</li>
+<li>U+2010 HYPHEN: try adding one of: arabic, armenian, lisu, coptic, syloti-nagri, cham, sora-sompeng, yi, sundanese, kharoshthi, hebrew, kaithi, kayah-li</li>
 <li>U+2011 NON-BREAKING HYPHEN: try adding one of: arabic, yi, syloti-nagri</li>
 <li>U+2012 FIGURE DASH: not included in any glyphset definition</li>
 <li>U+2015 HORIZONTAL BAR: try adding adlam</li>
@@ -22231,7 +23950,7 @@ definitions.</p>
 <li>U+2206 INCREMENT: try adding math</li>
 <li>U+220F N-ARY PRODUCT: try adding math</li>
 <li>U+2211 N-ARY SUMMATION: try adding math</li>
-<li>U+2219 BULLET OPERATOR: try adding one of: tai-tham, yi, math, symbols</li>
+<li>U+2219 BULLET OPERATOR: try adding one of: math, yi, symbols, tai-tham</li>
 <li>U+221A SQUARE ROOT: try adding math</li>
 <li>U+221E INFINITY: try adding math</li>
 <li>U+222B INTEGRAL: try adding math</li>
@@ -22270,7 +23989,7 @@ definitions.</p>
 <li>U+25C7 WHITE DIAMOND: try adding symbols</li>
 <li>U+25CA LOZENGE: try adding one of: math, symbols</li>
 <li>U+25CB WHITE CIRCLE: try adding symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: gujarati, syloti-nagri, canadian-aboriginal, lepcha, tai-tham, sogdian, mende-kikakui, mandaic, tai-viet, syriac, bengali, saurashtra, grantha, takri, tirhuta, malayalam, phags-pa, gunjala-gondi, batak, khudawadi, soyombo, armenian, tai-le, wancho, khojki, buhid, tifinagh, kharoshthi, kaithi, sinhala, newa, zanabazar-square, psalter-pahlavi, masaram-gondi, sharada, myanmar, kannada, yi, tamil, warang-citi, bassa-vah, balinese, thaana, khmer, osage, brahmi, buginese, duployan, rejang, thai, mahajani, music, elbasan, nko, manichaean, oriya, chakma, devanagari, old-permic, mongolian, math, ahom, hanunoo, siddham, hanifi-rohingya, meetei-mayek, bhaiksuki, javanese, tagbanwa, symbols, adlam, hebrew, telugu, miao, caucasian-albanian, cham, pahawh-hmong, tibetan, lao, marchen, gurmukhi, limbu, modi, dogra, sundanese, coptic, new-tai-lue, tagalog, kayah-li</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: devanagari, math, lao, old-permic, miao, bhaiksuki, sinhala, marchen, pahawh-hmong, limbu, hebrew, phags-pa, lepcha, balinese, syriac, elbasan, sundanese, wancho, gunjala-gondi, mahajani, masaram-gondi, sharada, thaana, warang-citi, hanunoo, siddham, newa, thai, syloti-nagri, saurashtra, duployan, brahmi, khojki, manichaean, tagbanwa, takri, gujarati, buginese, tai-tham, yi, tagalog, oriya, kayah-li, mende-kikakui, buhid, tamil, gurmukhi, myanmar, khudawadi, mongolian, batak, meetei-mayek, zanabazar-square, bengali, new-tai-lue, rejang, tirhuta, psalter-pahlavi, kharoshthi, osage, music, ahom, canadian-aboriginal, tai-le, nko, kaithi, javanese, adlam, modi, coptic, tibetan, caucasian-albanian, tifinagh, malayalam, telugu, tai-viet, hanifi-rohingya, khmer, armenian, chakma, sogdian, cham, kannada, dogra, soyombo, symbols, bassa-vah, grantha, mandaic</li>
 <li>U+25CF BLACK CIRCLE: try adding symbols</li>
 <li>U+25E6 WHITE BULLET: try adding symbols</li>
 <li>U+27E8 MATHEMATICAL LEFT ANGLE BRACKET: try adding math</li>
@@ -22278,7 +23997,7 @@ definitions.</p>
 <li>U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition</li>
 <li>U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition</li>
 </ul>
-<p>Or you can add the above codepoints to one of the subsets supported by the font: <code>cyrillic-ext</code>, <code>latin</code>, <code>latin-ext</code>, <code>vietnamese</code></p>
+<p>Or you can add the above codepoints to one of the subsets supported by the font: <code>cyrillic</code>, <code>cyrillic-ext</code>, <code>latin</code>, <code>latin-ext</code>, <code>vietnamese</code></p>
  [code: unreachable-subsetting]
 
 
@@ -22296,9 +24015,10 @@ definitions.</p>
 
 
 
-* ⚠️ **WARN** <p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: i̛̇ i̛̊ i̛̋ i̛̍ i̛̒ i̤̇ i̤̊ i̤̋ i̤̍ i̤̒ i̦̇ i̦̊ i̦̋ i̦̍ i̦̒ i̧̇ i̧̊ i̧̋ i̧̍ i̧̒</p>
-<p>Your font fully covers the following languages that require the soft-dotted feature: Dutch (Latn, 31,709,104 speakers), Lithuanian (Latn, 2,357,094 speakers).</p>
-<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Ngbaka (Latn, 1,020,000 speakers), Nateni (Latn, 100,000 speakers), Fur (Latn, 1,230,163 speakers), Lugbara (Latn, 2,200,000 speakers), Ekpeye (Latn, 226,000 speakers), Teke-Ebo (Latn, 260,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Ebira (Latn, 2,200,000 speakers), South Central Banda (Latn, 244,000 speakers), Dii (Latn, 71,000 speakers), Igbo (Latn, 27,823,640 speakers), Basaa (Latn, 332,940 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Koonzime (Latn, 40,000 speakers), Sar (Latn, 500,000 speakers), Yala (Latn, 200,000 speakers), Kom (Latn, 360,685 speakers), Belarusian (Cyrl, 10,064,517 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Ejagham (Latn, 120,000 speakers), Bafut (Latn, 158,146 speakers), Avokaya (Latn, 100,000 speakers), Dan (Latn, 1,099,244 speakers), Cicipu (Latn, 44,000 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Mango (Latn, 77,000 speakers), Gulay (Latn, 250,478 speakers), Southern Kisi (Latn, 360,000 speakers), Kaska (Latn, 125 speakers), Vute (Latn, 21,000 speakers), Mfumte (Latn, 79,000 speakers), Navajo (Latn, 166,319 speakers), Zapotec (Latn, 490,000 speakers), Nzakara (Latn, 50,000 speakers), Heiltsuk (Latn, 300 speakers), Han (Latn, 6 speakers), Ma’di (Latn, 584,000 speakers), Aghem (Latn, 38,843 speakers), Mundani (Latn, 34,000 speakers), Makaa (Latn, 221,000 speakers).</p>
+* ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: і́</p>
+<p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: i̛̇ i̛̊ i̛̋ i̛̍ i̛̒ i̤̇ i̤̊ i̤̋ i̤̍ i̤̒ i̦̇ i̦̊ i̦̋ i̦̍ i̦̒ i̧̇ i̧̊ i̧̋ i̧̍ i̧̒</p>
+<p>Your font fully covers the following languages that require the soft-dotted feature: Dutch (Latn, 31,709,104 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Belarusian (Cyrl, 10,064,517 speakers), Lithuanian (Latn, 2,357,094 speakers).</p>
+<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Cicipu (Latn, 44,000 speakers), Kom (Latn, 360,685 speakers), Dii (Latn, 71,000 speakers), Dan (Latn, 1,099,244 speakers), Ngbaka (Latn, 1,020,000 speakers), Avokaya (Latn, 100,000 speakers), Southern Kisi (Latn, 360,000 speakers), Vute (Latn, 21,000 speakers), Mango (Latn, 77,000 speakers), Nzakara (Latn, 50,000 speakers), Bafut (Latn, 158,146 speakers), Teke-Ebo (Latn, 260,000 speakers), Ma’di (Latn, 584,000 speakers), Igbo (Latn, 27,823,640 speakers), Basaa (Latn, 332,940 speakers), Yala (Latn, 200,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Nateni (Latn, 100,000 speakers), Kaska (Latn, 125 speakers), Sar (Latn, 500,000 speakers), Makaa (Latn, 221,000 speakers), Ejagham (Latn, 120,000 speakers), Gulay (Latn, 250,478 speakers), Fur (Latn, 1,230,163 speakers), Ekpeye (Latn, 226,000 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Lugbara (Latn, 2,200,000 speakers), Koonzime (Latn, 40,000 speakers), Ebira (Latn, 2,200,000 speakers), Zapotec (Latn, 490,000 speakers), Heiltsuk (Latn, 300 speakers), Mundani (Latn, 34,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Han (Latn, 6 speakers), Mfumte (Latn, 79,000 speakers), Aghem (Latn, 38,843 speakers), South Central Banda (Latn, 244,000 speakers), Navajo (Latn, 166,319 speakers).</p>
  [code: soft-dotted]
 
 
@@ -22326,8 +24046,27 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[6] MatrixSansPrintSC-Regular.ttf</summary>
+<details><summary>[8] MatrixSansPrintSC-Regular.ttf</summary>
 <div>
+<details>
+    <summary>🔥 <b>FAIL</b> Glyph names are all valid? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.glyphnames.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>The following glyph names do not comply with naming conventions: A-cy, Be-cy, Che-cy, Chedescender-cy, De-cy, Dje-cy, Dzhe-cy, E-cy, Ef-cy, El-cy, Em-cy, En-cy, Endescender-cy, Er-cy, Ereversed-cy, Es-cy, Ge-cy, Gestroke-cy, Geupturn-cy, Ha-cy, Hadescender-cy, Hardsign-cy, I-cy, Ie-cy, Ii-cy, Iishort-cy, Imacron-cy, Io-cy, Je-cy, Ka-cy, Kadescender-cy, Lje-cy, Nje-cy, O-cy, Obarred-cy, Pe-cy, Schwa-cy, Sha-cy, Shcha-cy, Shha-cy, Softsign-cy, Te-cy, Tse-cy, Tshe-cy, U-cy, Umacron-cy, Ushort-cy, Ustraight-cy, Ustraightstroke-cy, Ve-cy, Ya-cy, Yeru-cy, Yi-cy, Yu-cy, Ze-cy, Zhe-cy, Zhedescender-cy, a-cy, be-cy, che-cy, chedescender-cy, de-cy, dje-cy, dzhe-cy, e-cy, ef-cy, el-cy, em-cy, en-cy, endescender-cy, er-cy, ereversed-cy, es-cy, ge-cy, gestroke-cy, geupturn-cy, ha-cy, hadescender-cy, hardsign-cy, i-cy, ie-cy, ii-cy, iishort-cy, imacron-cy, io-cy, je-cy, ka-cy, kadescender-cy, lje-cy, nje-cy, o-cy, obarred-cy, pe-cy, schwa-cy, sha-cy, shcha-cy, shha-cy, softsign-cy, te-cy, tse-cy, tshe-cy, u-cy, umacron-cy, ushort-cy, ustraight-cy, ustraightstroke-cy, ve-cy, ya-cy, yeru-cy, yi-cy, yu-cy, ze-cy, zhe-cy and zhedescender-cy</p>
+<p>A glyph name must be entirely comprised of characters from the following set: A-Z a-z 0-9 .(period) <em>(underscore). A glyph name must not start with a digit or period. There are a few exceptions such as the special glyph &quot;.notdef&quot;. The glyph names &quot;twocents&quot;, &quot;a1&quot;, and &quot;</em>&quot; are all valid, while &quot;2cents&quot; and &quot;.twocents&quot; are not.</p>
+ [code: found-invalid-names]
+
+
+
+</div>
+</details>
+
 <details>
     <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
     <div>
@@ -24723,6 +26462,266 @@ definitions.</p>
 
 - Glyph name: pi	Contours detected: 13	Expected: 1
 
+- Glyph name: uni0400	Contours detected: 20	Expected: 2
+
+- Glyph name: Io-cy	Contours detected: 20	Expected: 3
+
+- Glyph name: Dje-cy	Contours detected: 16	Expected: 1
+
+- Glyph name: uni0403	Contours detected: 13	Expected: 2
+
+- Glyph name: E-cy	Contours detected: 16	Expected: 1
+
+- Glyph name: uni0405	Contours detected: 15	Expected: 1
+
+- Glyph name: I-cy	Contours detected: 11	Expected: 1
+
+- Glyph name: Yi-cy	Contours detected: 13	Expected: 3
+
+- Glyph name: Je-cy	Contours detected: 11	Expected: 1
+
+- Glyph name: Lje-cy	Contours detected: 20	Expected: 2
+
+- Glyph name: Nje-cy	Contours detected: 22	Expected: 2
+
+- Glyph name: Tshe-cy	Contours detected: 16	Expected: 1
+
+- Glyph name: uni040C	Contours detected: 16	Expected: 2
+
+- Glyph name: uni040D	Contours detected: 19	Expected: 2
+
+- Glyph name: Ushort-cy	Contours detected: 21	Expected: 2
+
+- Glyph name: Dzhe-cy	Contours detected: 18	Expected: 1
+
+- Glyph name: A-cy	Contours detected: 16	Expected: 2
+
+- Glyph name: Be-cy	Contours detected: 19	Expected: 2
+
+- Glyph name: Ve-cy	Contours detected: 20	Expected: 3
+
+- Glyph name: Ge-cy	Contours detected: 11	Expected: 1
+
+- Glyph name: De-cy	Contours detected: 21	Expected: 2
+
+- Glyph name: Ie-cy	Contours detected: 18	Expected: 1
+
+- Glyph name: Zhe-cy	Contours detected: 21	Expected: 1
+
+- Glyph name: Ze-cy	Contours detected: 15	Expected: 1
+
+- Glyph name: Ii-cy	Contours detected: 17	Expected: 1
+
+- Glyph name: Iishort-cy	Contours detected: 22	Expected: 2
+
+- Glyph name: Ka-cy	Contours detected: 14	Expected: 1
+
+- Glyph name: El-cy	Contours detected: 15	Expected: 1
+
+- Glyph name: Em-cy	Contours detected: 18	Expected: 1
+
+- Glyph name: En-cy	Contours detected: 17	Expected: 1
+
+- Glyph name: O-cy	Contours detected: 16	Expected: 2
+
+- Glyph name: Pe-cy	Contours detected: 17	Expected: 1
+
+- Glyph name: Er-cy	Contours detected: 15	Expected: 1 or 2
+
+- Glyph name: Es-cy	Contours detected: 13	Expected: 1
+
+- Glyph name: Te-cy	Contours detected: 11	Expected: 1
+
+- Glyph name: U-cy	Contours detected: 16	Expected: 1
+
+- Glyph name: Ef-cy	Contours detected: 17	Expected: 3
+
+- Glyph name: Ha-cy	Contours detected: 13	Expected: 1
+
+- Glyph name: Tse-cy	Contours detected: 18	Expected: 1
+
+- Glyph name: Che-cy	Contours detected: 13	Expected: 1
+
+- Glyph name: Sha-cy	Contours detected: 23	Expected: 1
+
+- Glyph name: Shcha-cy	Contours detected: 25	Expected: 1
+
+- Glyph name: Hardsign-cy	Contours detected: 15	Expected: 2
+
+- Glyph name: Yeru-cy	Contours detected: 20	Expected: 3
+
+- Glyph name: Softsign-cy	Contours detected: 15	Expected: 2
+
+- Glyph name: Ereversed-cy	Contours detected: 16	Expected: 1
+
+- Glyph name: Yu-cy	Contours detected: 22	Expected: 2
+
+- Glyph name: Ya-cy	Contours detected: 18	Expected: 2
+
+- Glyph name: a-cy	Contours detected: 14	Expected: 2
+
+- Glyph name: be-cy	Contours detected: 16	Expected: 2
+
+- Glyph name: ve-cy	Contours detected: 16	Expected: 3
+
+- Glyph name: ge-cy	Contours detected: 9	Expected: 1
+
+- Glyph name: de-cy	Contours detected: 17	Expected: 2
+
+- Glyph name: ie-cy	Contours detected: 14	Expected: 2
+
+- Glyph name: zhe-cy	Contours detected: 15	Expected: 1
+
+- Glyph name: ze-cy	Contours detected: 13	Expected: 1
+
+- Glyph name: ii-cy	Contours detected: 13	Expected: 1
+
+- Glyph name: iishort-cy	Contours detected: 18	Expected: 2
+
+- Glyph name: ka-cy	Contours detected: 11	Expected: 1
+
+- Glyph name: el-cy	Contours detected: 11	Expected: 1
+
+- Glyph name: em-cy	Contours detected: 14	Expected: 1
+
+- Glyph name: en-cy	Contours detected: 13	Expected: 1
+
+- Glyph name: o-cy	Contours detected: 12	Expected: 2
+
+- Glyph name: pe-cy	Contours detected: 13	Expected: 1
+
+- Glyph name: er-cy	Contours detected: 16	Expected: 2
+
+- Glyph name: es-cy	Contours detected: 11	Expected: 1
+
+- Glyph name: te-cy	Contours detected: 9	Expected: 1
+
+- Glyph name: u-cy	Contours detected: 16	Expected: 1
+
+- Glyph name: ef-cy	Contours detected: 19	Expected: 3
+
+- Glyph name: ha-cy	Contours detected: 9	Expected: 1
+
+- Glyph name: tse-cy	Contours detected: 14	Expected: 1
+
+- Glyph name: che-cy	Contours detected: 10	Expected: 1
+
+- Glyph name: sha-cy	Contours detected: 17	Expected: 1
+
+- Glyph name: shcha-cy	Contours detected: 19	Expected: 1
+
+- Glyph name: hardsign-cy	Contours detected: 12	Expected: 2
+
+- Glyph name: yeru-cy	Contours detected: 15	Expected: 3
+
+- Glyph name: softsign-cy	Contours detected: 12	Expected: 2
+
+- Glyph name: ereversed-cy	Contours detected: 14	Expected: 1
+
+- Glyph name: yu-cy	Contours detected: 16	Expected: 2
+
+- Glyph name: ya-cy	Contours detected: 14	Expected: 2
+
+- Glyph name: uni0450	Contours detected: 16	Expected: 3
+
+- Glyph name: io-cy	Contours detected: 16	Expected: 4
+
+- Glyph name: dje-cy	Contours detected: 18	Expected: 1
+
+- Glyph name: uni0453	Contours detected: 11	Expected: 2
+
+- Glyph name: e-cy	Contours detected: 14	Expected: 1
+
+- Glyph name: uni0455	Contours detected: 13	Expected: 1
+
+- Glyph name: i-cy	Contours detected: 9	Expected: 2
+
+- Glyph name: yi-cy	Contours detected: 10	Expected: 3
+
+- Glyph name: je-cy	Contours detected: 11	Expected: 2
+
+- Glyph name: lje-cy	Contours detected: 15	Expected: 2
+
+- Glyph name: nje-cy	Contours detected: 17	Expected: 2
+
+- Glyph name: tshe-cy	Contours detected: 16	Expected: 1
+
+- Glyph name: uni045C	Contours detected: 13	Expected: 2
+
+- Glyph name: uni045D	Contours detected: 15	Expected: 2
+
+- Glyph name: ushort-cy	Contours detected: 21	Expected: 2
+
+- Glyph name: dzhe-cy	Contours detected: 14	Expected: 1 or 2
+
+- Glyph name: uni0462	Contours detected: 17	Expected: 2
+
+- Glyph name: uni0463	Contours detected: 14	Expected: 2
+
+- Glyph name: uni0472	Contours detected: 17	Expected: 3
+
+- Glyph name: uni0473	Contours detected: 13	Expected: 3
+
+- Glyph name: uni0474	Contours detected: 14	Expected: 1
+
+- Glyph name: uni0475	Contours detected: 10	Expected: 1
+
+- Glyph name: Geupturn-cy	Contours detected: 12	Expected: 1
+
+- Glyph name: geupturn-cy	Contours detected: 10	Expected: 1
+
+- Glyph name: Gestroke-cy	Contours detected: 14	Expected: 1
+
+- Glyph name: gestroke-cy	Contours detected: 12	Expected: 1
+
+- Glyph name: Zhedescender-cy	Contours detected: 23	Expected: 1 or 2
+
+- Glyph name: zhedescender-cy	Contours detected: 17	Expected: 1 or 2
+
+- Glyph name: Kadescender-cy	Contours detected: 16	Expected: 1 or 2
+
+- Glyph name: kadescender-cy	Contours detected: 12	Expected: 1 or 2
+
+- Glyph name: Endescender-cy	Contours detected: 18	Expected: 1 or 2
+
+- Glyph name: endescender-cy	Contours detected: 14	Expected: 1 or 2
+
+- Glyph name: Ustraight-cy	Contours detected: 10	Expected: 1
+
+- Glyph name: ustraight-cy	Contours detected: 11	Expected: 1
+
+- Glyph name: Ustraightstroke-cy	Contours detected: 12	Expected: 1
+
+- Glyph name: ustraightstroke-cy	Contours detected: 13	Expected: 1
+
+- Glyph name: Hadescender-cy	Contours detected: 15	Expected: 1 or 2
+
+- Glyph name: hadescender-cy	Contours detected: 11	Expected: 1 or 2
+
+- Glyph name: Chedescender-cy	Contours detected: 14	Expected: 1 or 2
+
+- Glyph name: chedescender-cy	Contours detected: 11	Expected: 1 or 2
+
+- Glyph name: Shha-cy	Contours detected: 13	Expected: 1
+
+- Glyph name: shha-cy	Contours detected: 14	Expected: 1
+
+- Glyph name: Schwa-cy	Contours detected: 18	Expected: 2
+
+- Glyph name: schwa-cy	Contours detected: 14	Expected: 2
+
+- Glyph name: Imacron-cy	Contours detected: 20	Expected: 2
+
+- Glyph name: imacron-cy	Contours detected: 16	Expected: 2
+
+- Glyph name: Obarred-cy	Contours detected: 19	Expected: 3
+
+- Glyph name: obarred-cy	Contours detected: 15	Expected: 3
+
+- Glyph name: Umacron-cy	Contours detected: 19	Expected: 2
+
+- Glyph name: umacron-cy	Contours detected: 19	Expected: 2
+
 - Glyph name: baht	Contours detected: 20	Expected: 3 or 5
 
 - Glyph name: Ddotbelow	Contours detected: 17	Expected: 3
@@ -25963,6 +27962,38 @@ definitions.</p>
 
 - Glyph name: uni03BC	Contours detected: 14	Expected: 1
 
+- Glyph name: uni0400	Contours detected: 20	Expected: 2
+
+- Glyph name: uni0403	Contours detected: 13	Expected: 2
+
+- Glyph name: uni0405	Contours detected: 15	Expected: 1
+
+- Glyph name: uni040C	Contours detected: 16	Expected: 2
+
+- Glyph name: uni040D	Contours detected: 19	Expected: 2
+
+- Glyph name: uni0450	Contours detected: 16	Expected: 3
+
+- Glyph name: uni0453	Contours detected: 11	Expected: 2
+
+- Glyph name: uni0455	Contours detected: 13	Expected: 1
+
+- Glyph name: uni045C	Contours detected: 13	Expected: 2
+
+- Glyph name: uni045D	Contours detected: 15	Expected: 2
+
+- Glyph name: uni0462	Contours detected: 17	Expected: 2
+
+- Glyph name: uni0463	Contours detected: 14	Expected: 2
+
+- Glyph name: uni0472	Contours detected: 17	Expected: 3
+
+- Glyph name: uni0473	Contours detected: 13	Expected: 3
+
+- Glyph name: uni0474	Contours detected: 14	Expected: 1
+
+- Glyph name: uni0475	Contours detected: 10	Expected: 1
+
 - Glyph name: uni1E36	Contours detected: 12	Expected: 2
 
 - Glyph name: uni1E37	Contours detected: 11	Expected: 2
@@ -26083,7 +28114,7 @@ definitions.</p>
 * ⚠️ **WARN** <p>The most common width is 600 among a set of 9 math glyphs.
 The following math glyphs have a different width, though:</p>
 <p>Width = 400:
-greater, greaterequal, lessequal, less</p>
+greater, less, greaterequal, lessequal</p>
  [code: width-outliers]
 
 
@@ -26125,33 +28156,33 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, cherokee, coptic, math</li>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, tifinagh, cherokee</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, old-permic, todhri, tifinagh, coptic, malayalam, canadian-aboriginal, math, syriac, duployan, tai-le</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: duployan, tifinagh, malayalam, coptic, math, canadian-aboriginal, tai-le, syriac, old-permic, hebrew, todhri</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
-<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
+<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
 <li>U+030D COMBINING VERTICAL LINE ABOVE: try adding sunuwar</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+0315 COMBINING COMMA ABOVE RIGHT: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
-<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: duployan, cherokee, syriac</li>
+<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: duployan, syriac, cherokee</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: thai, sunuwar, tifinagh, gothic, cherokee, syriac, caucasian-albanian</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: caucasian-albanian, gothic, tifinagh, thai, syriac, sunuwar, cherokee</li>
 <li>U+0358 COMBINING DOT ABOVE RIGHT: try adding osage</li>
-<li>U+0394 GREEK CAPITAL LETTER DELTA: try adding one of: elbasan, math, greek</li>
-<li>U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: elbasan, math, greek</li>
+<li>U+0394 GREEK CAPITAL LETTER DELTA: try adding one of: math, elbasan, greek</li>
+<li>U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: math, elbasan, greek</li>
 <li>U+03BC GREEK SMALL LETTER MU: try adding one of: math, greek</li>
-<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: yi, math, greek</li>
+<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: math, yi, greek</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+2007 FIGURE SPACE: try adding symbols2</li>
-<li>U+2010 HYPHEN: try adding one of: yi, hebrew, sora-sompeng, lisu, sundanese, syloti-nagri, coptic, arabic, armenian, kharoshthi, kaithi, kayah-li, cham</li>
+<li>U+2010 HYPHEN: try adding one of: arabic, armenian, lisu, coptic, syloti-nagri, cham, sora-sompeng, yi, sundanese, kharoshthi, hebrew, kaithi, kayah-li</li>
 <li>U+2011 NON-BREAKING HYPHEN: try adding one of: arabic, yi, syloti-nagri</li>
 <li>U+2012 FIGURE DASH: not included in any glyphset definition</li>
 <li>U+2015 HORIZONTAL BAR: try adding adlam</li>
@@ -26203,7 +28234,7 @@ definitions.</p>
 <li>U+2206 INCREMENT: try adding math</li>
 <li>U+220F N-ARY PRODUCT: try adding math</li>
 <li>U+2211 N-ARY SUMMATION: try adding math</li>
-<li>U+2219 BULLET OPERATOR: try adding one of: tai-tham, yi, math, symbols</li>
+<li>U+2219 BULLET OPERATOR: try adding one of: math, yi, symbols, tai-tham</li>
 <li>U+221A SQUARE ROOT: try adding math</li>
 <li>U+221E INFINITY: try adding math</li>
 <li>U+222B INTEGRAL: try adding math</li>
@@ -26242,7 +28273,7 @@ definitions.</p>
 <li>U+25C7 WHITE DIAMOND: try adding symbols</li>
 <li>U+25CA LOZENGE: try adding one of: math, symbols</li>
 <li>U+25CB WHITE CIRCLE: try adding symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: gujarati, syloti-nagri, canadian-aboriginal, lepcha, tai-tham, sogdian, mende-kikakui, mandaic, tai-viet, syriac, bengali, saurashtra, grantha, takri, tirhuta, malayalam, phags-pa, gunjala-gondi, batak, khudawadi, soyombo, armenian, tai-le, wancho, khojki, buhid, tifinagh, kharoshthi, kaithi, sinhala, newa, zanabazar-square, psalter-pahlavi, masaram-gondi, sharada, myanmar, kannada, yi, tamil, warang-citi, bassa-vah, balinese, thaana, khmer, osage, brahmi, buginese, duployan, rejang, thai, mahajani, music, elbasan, nko, manichaean, oriya, chakma, devanagari, old-permic, mongolian, math, ahom, hanunoo, siddham, hanifi-rohingya, meetei-mayek, bhaiksuki, javanese, tagbanwa, symbols, adlam, hebrew, telugu, miao, caucasian-albanian, cham, pahawh-hmong, tibetan, lao, marchen, gurmukhi, limbu, modi, dogra, sundanese, coptic, new-tai-lue, tagalog, kayah-li</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: devanagari, math, lao, old-permic, miao, bhaiksuki, sinhala, marchen, pahawh-hmong, limbu, hebrew, phags-pa, lepcha, balinese, syriac, elbasan, sundanese, wancho, gunjala-gondi, mahajani, masaram-gondi, sharada, thaana, warang-citi, hanunoo, siddham, newa, thai, syloti-nagri, saurashtra, duployan, brahmi, khojki, manichaean, tagbanwa, takri, gujarati, buginese, tai-tham, yi, tagalog, oriya, kayah-li, mende-kikakui, buhid, tamil, gurmukhi, myanmar, khudawadi, mongolian, batak, meetei-mayek, zanabazar-square, bengali, new-tai-lue, rejang, tirhuta, psalter-pahlavi, kharoshthi, osage, music, ahom, canadian-aboriginal, tai-le, nko, kaithi, javanese, adlam, modi, coptic, tibetan, caucasian-albanian, tifinagh, malayalam, telugu, tai-viet, hanifi-rohingya, khmer, armenian, chakma, sogdian, cham, kannada, dogra, soyombo, symbols, bassa-vah, grantha, mandaic</li>
 <li>U+25CF BLACK CIRCLE: try adding symbols</li>
 <li>U+25E6 WHITE BULLET: try adding symbols</li>
 <li>U+27E8 MATHEMATICAL LEFT ANGLE BRACKET: try adding math</li>
@@ -26250,8 +28281,29 @@ definitions.</p>
 <li>U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition</li>
 <li>U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition</li>
 </ul>
-<p>Or you can add the above codepoints to one of the subsets supported by the font: <code>cyrillic-ext</code>, <code>latin</code>, <code>latin-ext</code>, <code>vietnamese</code></p>
+<p>Or you can add the above codepoints to one of the subsets supported by the font: <code>cyrillic</code>, <code>cyrillic-ext</code>, <code>latin</code>, <code>latin-ext</code>, <code>vietnamese</code></p>
  [code: unreachable-subsetting]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/shaping.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: і́</p>
+<p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: і̀ і̂ і̃ і̄ і̆ і̇ і̉ і̊ і̋ і̌ і̍ і̒ і̛̀ і̛́ і̛̂ і̛̃ і̛̄ і̛̆ і̛̇ і̛̉</p>
+<p>Your font fully covers the following languages that require the soft-dotted feature: Dutch (Latn, 31,709,104 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Belarusian (Cyrl, 10,064,517 speakers), Lithuanian (Latn, 2,357,094 speakers).</p>
+<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Cicipu (Latn, 44,000 speakers), Kom (Latn, 360,685 speakers), Dii (Latn, 71,000 speakers), Dan (Latn, 1,099,244 speakers), Ngbaka (Latn, 1,020,000 speakers), Avokaya (Latn, 100,000 speakers), Southern Kisi (Latn, 360,000 speakers), Vute (Latn, 21,000 speakers), Mango (Latn, 77,000 speakers), Nzakara (Latn, 50,000 speakers), Bafut (Latn, 158,146 speakers), Teke-Ebo (Latn, 260,000 speakers), Ma’di (Latn, 584,000 speakers), Igbo (Latn, 27,823,640 speakers), Basaa (Latn, 332,940 speakers), Yala (Latn, 200,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Nateni (Latn, 100,000 speakers), Kaska (Latn, 125 speakers), Sar (Latn, 500,000 speakers), Makaa (Latn, 221,000 speakers), Ejagham (Latn, 120,000 speakers), Gulay (Latn, 250,478 speakers), Fur (Latn, 1,230,163 speakers), Ekpeye (Latn, 226,000 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Lugbara (Latn, 2,200,000 speakers), Koonzime (Latn, 40,000 speakers), Ebira (Latn, 2,200,000 speakers), Zapotec (Latn, 490,000 speakers), Heiltsuk (Latn, 300 speakers), Mundani (Latn, 34,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Han (Latn, 6 speakers), Mfumte (Latn, 79,000 speakers), Aghem (Latn, 38,843 speakers), South Central Banda (Latn, 244,000 speakers), Navajo (Latn, 166,319 speakers).</p>
+ [code: soft-dotted]
 
 
 
@@ -26285,8 +28337,8 @@ definitions.</p>
 
 | 💥 ERROR | ☠ FATAL | 🔥 FAIL | ⚠️ WARN | ⏩ SKIP | ℹ️ INFO | ✅ PASS | 🔎 DEBUG | 
 | ---|---|---|---|---|---|---|---|
-| 0 | 0 | 11 | 59 | 1153 | 81 | 1044 | 0 | 
-| 0% | 0% | 0% | 3% | 49% | 3% | 44% | 0% | 
+| 0 | 0 | 21 | 64 | 1153 | 81 | 1029 | 0 | 
+| 0% | 0% | 1% | 3% | 49% | 3% | 44% | 0% | 
 
 
 
