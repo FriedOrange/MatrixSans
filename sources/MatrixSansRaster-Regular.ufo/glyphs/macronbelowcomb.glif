@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="macronbelowcomb" format="2">
+  <unicode hex="0331"/>
+  <outline>
+    <component base="macron" xOffset="-200.0" yOffset="-800.0"/>
+  </outline>
+</glyph>

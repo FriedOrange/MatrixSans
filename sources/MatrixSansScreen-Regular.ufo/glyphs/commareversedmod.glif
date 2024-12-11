@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="commareversedmod" format="2">
+  <advance width="300"/>
+  <unicode hex="02BD"/>
+  <outline>
+    <contour>
+      <point x="57.0" y="607.0" type="line"/>
+      <point x="57.0" y="693.0" type="line"/>
+      <point x="143.0" y="693.0" type="line"/>
+      <point x="143.0" y="607.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="57.0" y="507.0" type="line"/>
+      <point x="57.0" y="593.0" type="line"/>
+      <point x="143.0" y="593.0" type="line"/>
+      <point x="143.0" y="507.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="157.0" y="407.0" type="line"/>
+      <point x="157.0" y="493.0" type="line"/>
+      <point x="243.0" y="493.0" type="line"/>
+      <point x="243.0" y="407.0" type="line"/>
+    </contour>
+  </outline>
+</glyph>
