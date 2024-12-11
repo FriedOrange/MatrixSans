@@ -878,10 +878,10 @@
     <string>hdotbelow.glif</string>
     <key>hdotbelow.sc</key>
     <string>hdotbelow.sc.glif</string>
-    <key>hlinebelow.sc</key>
-    <string>hlinebelow.sc.glif</string>
     <key>hmacronbelow</key>
     <string>hmacronbelow.glif</string>
+    <key>hmacronbelow.sc</key>
+    <string>hmacronbelow.sc.glif</string>
     <key>hookabovecomb</key>
     <string>hookabovecomb.glif</string>
     <key>horncomb</key>
@@ -982,10 +982,10 @@
     <string>khook.sc.glif</string>
     <key>kip</key>
     <string>kip.glif</string>
-    <key>klinebelow.sc</key>
-    <string>klinebelow.sc.glif</string>
     <key>kmacronbelow</key>
     <string>kmacronbelow.glif</string>
+    <key>kmacronbelow.sc</key>
+    <string>kmacronbelow.sc.glif</string>
     <key>l</key>
     <string>l.glif</string>
     <key>l.sc</key>

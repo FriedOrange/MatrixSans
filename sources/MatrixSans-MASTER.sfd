@@ -64,7 +64,7 @@ NameList: MatrixSans
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 16 14
+WinInfo: 65488 16 14
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 629146 314573 209715 524288 1048576 0 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
@@ -12873,7 +12873,7 @@ Refer: 273 772 N 1 0 0 1 300 0 2
 Refer: 404 -1 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: klinebelow.sc
+StartChar: kmacronbelow.sc
 Encoding: 65705 -1 871
 Width: 600
 VWidth: 0
@@ -12884,7 +12884,7 @@ Refer: 490 817 N 1 0 0 1 300 0 2
 Refer: 415 312 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: hlinebelow.sc
+StartChar: hmacronbelow.sc
 Encoding: 65706 -1 872
 Width: 600
 Flags: HM

@@ -874,8 +874,8 @@
       <string>nhookleft.sc</string>
       <string>yhook.sc</string>
       <string>ymacron.sc</string>
-      <string>klinebelow.sc</string>
-      <string>hlinebelow.sc</string>
+      <string>kmacronbelow.sc</string>
+      <string>hmacronbelow.sc</string>
       <string>ibreve.sc</string>
       <string>macute.sc</string>
       <string>ngrave.sc</string>
@@ -1756,9 +1756,9 @@
       <string>base</string>
       <key>hdotbelow.sc</key>
       <string>base</string>
-      <key>hlinebelow.sc</key>
-      <string>base</string>
       <key>hmacronbelow</key>
+      <string>base</string>
+      <key>hmacronbelow.sc</key>
       <string>base</string>
       <key>hookabovecomb</key>
       <string>base</string>
@@ -1860,9 +1860,9 @@
       <string>base</string>
       <key>kip</key>
       <string>base</string>
-      <key>klinebelow.sc</key>
-      <string>base</string>
       <key>kmacronbelow</key>
+      <string>base</string>
+      <key>kmacronbelow.sc</key>
       <string>base</string>
       <key>l</key>
       <string>base</string>
