@@ -4,7 +4,7 @@ FullName: Matrix Sans
 FamilyName: Matrix Sans
 Weight: Regular
 Copyright: Copyright 2024 The Matrix Sans Project Authors (https://github.com/FriedOrange/MatrixSans)
-Version: 1.300
+Version: 1.400
 ItalicAngle: 0
 UnderlinePosition: -150
 UnderlineWidth: 100
@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1657964544
-ModificationTime: 1733920670
+ModificationTime: 1733921339
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -15089,7 +15089,7 @@ EndChar
 StartChar: Shha-cy
 Encoding: 1210 1210 996
 Width: 600
-Flags: HMWO
+Flags: HMW
 LayerCount: 2
 Fore
 Refer: 0 -1 S 1 0 0 1 450 0 2
