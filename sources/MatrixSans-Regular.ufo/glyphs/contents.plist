@@ -748,6 +748,8 @@
     <string>endash.glif</string>
     <key>eng</key>
     <string>eng.glif</string>
+    <key>eng.sc</key>
+    <string>eng.sc.glif</string>
     <key>eng.sc.loclNSM</key>
     <string>eng.sc.loclN_S_M_.glif</string>
     <key>eogonek</key>

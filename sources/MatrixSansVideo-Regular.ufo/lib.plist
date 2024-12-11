@@ -879,6 +879,7 @@
       <string>ibreve.sc</string>
       <string>macute.sc</string>
       <string>ngrave.sc</string>
+      <string>eng.sc</string>
     </array>
     <key>public.openTypeCategories</key>
     <dict>
@@ -1625,6 +1626,8 @@
       <key>endash</key>
       <string>base</string>
       <key>eng</key>
+      <string>base</string>
+      <key>eng.sc</key>
       <string>base</string>
       <key>eng.sc.loclNSM</key>
       <string>base</string>
