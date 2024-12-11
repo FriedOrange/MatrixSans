@@ -147,7 +147,7 @@ feature mark {
 		<anchor 300 0> mark @marks_below;
 	pos base @deep 
 		<anchor 300 600> mark @marks_above;
-	pos base [dotlessi i.sc idotbelow.sc iogokek.sc]
+	pos base [dotlessi i.sc idotbelow.sc iogonek.sc]
 		<anchor 200 600> mark @marks_above
 		<anchor 200 0> mark @marks_below
 		<anchor 200 0> mark @marks_belowright;
