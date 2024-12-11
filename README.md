@@ -100,6 +100,12 @@ To easily add or modify glyphs (requires [FontForge](https://fontforge.org/)):
 
 ## Changelog
 
+#### 11 December 2024 - Version 1.300
+
+- Now supports Google Fonts Latin PriAfrican, TransLatin Arabic and TransLatin Pinyin character sets
+- Changed designs of: Ŋ ŋ ƒ Ħ
+- Made alternate form of Ŋ accessible by `ss02` OpenType feature
+
 #### 10 December 2024 - Version 1.210
 
 - Improved appearance of various glyphs in Video style
