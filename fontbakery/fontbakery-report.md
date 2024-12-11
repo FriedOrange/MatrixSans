@@ -94,8 +94,551 @@ fontbakery version: 0.12.10
 </div>
 </details>
 
-<details><summary>[7] MatrixSansVideo-Regular.ttf</summary>
+<details><summary>[8] MatrixSansVideo-Regular.ttf</summary>
 <div>
+<details>
+    <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">af_Latn (Afrikaans)</td>
+<td align="left">Requires Small-cap: c; both buffers returned c=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: o; both buffers returned o=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ó; both buffers returned oacute=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ò; both buffers returned ograve=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ô; both buffers returned ocircumflex=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ö; both buffers returned odieresis=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: s; both buffers returned s=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: v; both buffers returned v=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: w; both buffers returned w=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: x; both buffers returned x=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: z; both buffers returned z=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ç; both buffers returned ccedilla=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">bm_Latn (Bambara)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: c; both buffers returned c=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned eopen=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: o; both buffers returned o=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned oopen=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: s; both buffers returned s=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: w; both buffers returned w=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: z; both buffers returned z=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: v; both buffers returned v=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: x; both buffers returned x=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">dyu_Latn (Dyula)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: c; both buffers returned c=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned eopen=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: o; both buffers returned o=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned oopen=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: s; both buffers returned s=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: v; both buffers returned v=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: w; both buffers returned w=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: z; both buffers returned z=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">ha_Latn (Hausa)</td>
+<td align="left">Requires Small-cap: c; both buffers returned c=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: o; both buffers returned o=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: s; both buffers returned s=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: w; both buffers returned w=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: z; both buffers returned z=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ó; both buffers returned oacute=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ò; both buffers returned ograve=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ô; both buffers returned ocircumflex=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: v; both buffers returned v=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: x; both buffers returned x=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">ig_Latn (Igbo)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: o; both buffers returned o=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ọ; both buffers returned odotbelow=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: s; both buffers returned s=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: v; both buffers returned v=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: w; both buffers returned w=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: z; both buffers returned z=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: c; both buffers returned c=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ó; both buffers returned oacute=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ò; both buffers returned ograve=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ō; both buffers returned omacron=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: x; both buffers returned x=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned eopen=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɵ; both buffers returned .notdef=0+601</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">lg_Latn (Ganda)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: c; both buffers returned c=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: o; both buffers returned o=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: s; both buffers returned s=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: v; both buffers returned v=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: w; both buffers returned w=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: z; both buffers returned z=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: x; both buffers returned x=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">om_Latn (Oromo)</td>
+<td align="left">Requires Small-cap: c; both buffers returned c=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: o; both buffers returned o=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: s; both buffers returned s=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: v; both buffers returned v=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: w; both buffers returned w=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: x; both buffers returned x=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: z; both buffers returned z=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">sw_Latn (Swahili)</td>
+<td align="left">Requires Small-cap: o; both buffers returned o=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: s; both buffers returned s=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: v; both buffers returned v=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: w; both buffers returned w=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: z; both buffers returned z=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: c; both buffers returned c=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: x; both buffers returned x=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">xh_Latn (Xhosa)</td>
+<td align="left">Requires Small-cap: c; both buffers returned c=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: o; both buffers returned o=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: s; both buffers returned s=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: v; both buffers returned v=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: w; both buffers returned w=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: x; both buffers returned x=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: z; both buffers returned z=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">yo_Latn (Yoruba)</td>
+<td align="left">Requires Small-cap: o; both buffers returned o=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ó; both buffers returned oacute=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ò; both buffers returned ograve=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ọ; both buffers returned odotbelow=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: s; both buffers returned s=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ṣ; both buffers returned sdotbelow=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: w; both buffers returned w=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: c; both buffers returned c=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: v; both buffers returned v=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: x; both buffers returned x=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: z; both buffers returned z=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+</div>
+</details>
+
 <details>
     <summary>⚠️ <b>WARN</b> Check accent of Lcaron, dcaron, lcaron, tcaron <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
     <div>
@@ -241,7 +784,7 @@ fontbakery version: 0.12.10
 * ⚠️ **WARN** <p>The most common width is 600 among a set of 9 math glyphs.
 The following math glyphs have a different width, though:</p>
 <p>Width = 400:
-greaterequal, greater, lessequal, less</p>
+greater, greaterequal, lessequal, less</p>
  [code: width-outliers]
 
 
@@ -286,29 +829,31 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, coptic, cherokee</li>
-<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: syriac, duployan, tifinagh, math, tai-le, hebrew, canadian-aboriginal, old-permic, todhri, coptic, malayalam</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, cherokee, coptic, math</li>
+<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, old-permic, todhri, tifinagh, coptic, malayalam, canadian-aboriginal, math, syriac, duployan, tai-le</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
+<li>U+030D COMBINING VERTICAL LINE ABOVE: try adding sunuwar</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+0315 COMBINING COMMA ABOVE RIGHT: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
-<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: syriac, duployan, cherokee</li>
+<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: duployan, cherokee, syriac</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: syriac, gothic, caucasian-albanian, tifinagh, sunuwar, cherokee, thai</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: thai, sunuwar, tifinagh, gothic, cherokee, syriac, caucasian-albanian</li>
+<li>U+0358 COMBINING DOT ABOVE RIGHT: try adding osage</li>
 <li>U+0394 GREEK CAPITAL LETTER DELTA: try adding one of: elbasan, math, greek</li>
 <li>U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: elbasan, math, greek</li>
 <li>U+03BC GREEK SMALL LETTER MU: try adding one of: math, greek</li>
 <li>U+03C0 GREEK SMALL LETTER PI: try adding one of: yi, math, greek</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+2007 FIGURE SPACE: try adding symbols2</li>
-<li>U+2010 HYPHEN: try adding one of: lisu, syloti-nagri, arabic, sora-sompeng, armenian, kaithi, sundanese, kayah-li, yi, hebrew, kharoshthi, cham, coptic</li>
-<li>U+2011 NON-BREAKING HYPHEN: try adding one of: yi, syloti-nagri, arabic</li>
+<li>U+2010 HYPHEN: try adding one of: yi, hebrew, sora-sompeng, lisu, sundanese, syloti-nagri, coptic, arabic, armenian, kharoshthi, kaithi, kayah-li, cham</li>
+<li>U+2011 NON-BREAKING HYPHEN: try adding one of: arabic, yi, syloti-nagri</li>
 <li>U+2012 FIGURE DASH: not included in any glyphset definition</li>
 <li>U+2015 HORIZONTAL BAR: try adding adlam</li>
 <li>U+2016 DOUBLE VERTICAL LINE: try adding math</li>
@@ -346,20 +891,20 @@ definitions.</p>
 <li>U+215C VULGAR FRACTION THREE EIGHTHS: try adding symbols</li>
 <li>U+215D VULGAR FRACTION FIVE EIGHTHS: try adding symbols</li>
 <li>U+215E VULGAR FRACTION SEVEN EIGHTHS: try adding symbols</li>
-<li>U+2190 LEFTWARDS ARROW: try adding one of: symbols, math</li>
-<li>U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math</li>
-<li>U+2194 LEFT RIGHT ARROW: try adding one of: symbols, math</li>
-<li>U+2195 UP DOWN ARROW: try adding one of: symbols, math</li>
-<li>U+2196 NORTH WEST ARROW: try adding one of: symbols, math</li>
-<li>U+2197 NORTH EAST ARROW: try adding one of: symbols, math</li>
-<li>U+2198 SOUTH EAST ARROW: try adding one of: symbols, math</li>
-<li>U+2199 SOUTH WEST ARROW: try adding one of: symbols, math</li>
+<li>U+2190 LEFTWARDS ARROW: try adding one of: math, symbols</li>
+<li>U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols</li>
+<li>U+2194 LEFT RIGHT ARROW: try adding one of: math, symbols</li>
+<li>U+2195 UP DOWN ARROW: try adding one of: math, symbols</li>
+<li>U+2196 NORTH WEST ARROW: try adding one of: math, symbols</li>
+<li>U+2197 NORTH EAST ARROW: try adding one of: math, symbols</li>
+<li>U+2198 SOUTH EAST ARROW: try adding one of: math, symbols</li>
+<li>U+2199 SOUTH WEST ARROW: try adding one of: math, symbols</li>
 <li>U+2202 PARTIAL DIFFERENTIAL: try adding math</li>
 <li>U+2205 EMPTY SET: try adding math</li>
 <li>U+2206 INCREMENT: try adding math</li>
 <li>U+220F N-ARY PRODUCT: try adding math</li>
 <li>U+2211 N-ARY SUMMATION: try adding math</li>
-<li>U+2219 BULLET OPERATOR: try adding one of: symbols, yi, math, tai-tham</li>
+<li>U+2219 BULLET OPERATOR: try adding one of: tai-tham, yi, math, symbols</li>
 <li>U+221A SQUARE ROOT: try adding math</li>
 <li>U+221E INFINITY: try adding math</li>
 <li>U+222B INTEGRAL: try adding math</li>
@@ -379,26 +924,26 @@ definitions.</p>
 <li>U+25AA BLACK SMALL SQUARE: try adding symbols</li>
 <li>U+25AB WHITE SMALL SQUARE: try adding symbols</li>
 <li>U+25B2 BLACK UP-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25B3 WHITE UP-POINTING TRIANGLE: try adding one of: symbols, math</li>
+<li>U+25B3 WHITE UP-POINTING TRIANGLE: try adding one of: math, symbols</li>
 <li>U+25B4 BLACK UP-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25B5 WHITE UP-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25B6 BLACK RIGHT-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25B7 WHITE RIGHT-POINTING TRIANGLE: try adding one of: symbols, math</li>
+<li>U+25B7 WHITE RIGHT-POINTING TRIANGLE: try adding one of: math, symbols</li>
 <li>U+25B8 BLACK RIGHT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25B9 WHITE RIGHT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25BC BLACK DOWN-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25BD WHITE DOWN-POINTING TRIANGLE: try adding one of: symbols, math</li>
+<li>U+25BD WHITE DOWN-POINTING TRIANGLE: try adding one of: math, symbols</li>
 <li>U+25BE BLACK DOWN-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25BF WHITE DOWN-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25C0 BLACK LEFT-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: symbols, math</li>
+<li>U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: math, symbols</li>
 <li>U+25C2 BLACK LEFT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25C3 WHITE LEFT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25C6 BLACK DIAMOND: try adding symbols</li>
 <li>U+25C7 WHITE DIAMOND: try adding symbols</li>
-<li>U+25CA LOZENGE: try adding one of: symbols, math</li>
+<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
 <li>U+25CB WHITE CIRCLE: try adding symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: siddham, marchen, yi, ahom, brahmi, hanifi-rohingya, newa, balinese, caucasian-albanian, bhaiksuki, khmer, duployan, armenian, limbu, kaithi, math, wancho, gunjala-gondi, tagbanwa, buhid, tamil, kayah-li, chakma, adlam, thaana, gurmukhi, tai-tham, tai-viet, sogdian, tifinagh, buginese, nko, music, rejang, tibetan, manichaean, phags-pa, elbasan, meetei-mayek, bengali, malayalam, warang-citi, mahajani, soyombo, oriya, takri, devanagari, kharoshthi, old-permic, psalter-pahlavi, osage, pahawh-hmong, khudawadi, tai-le, sinhala, gujarati, tirhuta, miao, thai, kannada, masaram-gondi, khojki, myanmar, canadian-aboriginal, sundanese, coptic, bassa-vah, zanabazar-square, new-tai-lue, hanunoo, modi, javanese, syriac, dogra, lepcha, lao, saurashtra, syloti-nagri, symbols, sharada, telugu, hebrew, mandaic, mongolian, grantha, tagalog, mende-kikakui, batak, cham</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: gujarati, syloti-nagri, canadian-aboriginal, lepcha, tai-tham, sogdian, mende-kikakui, mandaic, tai-viet, syriac, bengali, saurashtra, grantha, takri, tirhuta, malayalam, phags-pa, gunjala-gondi, batak, khudawadi, soyombo, armenian, tai-le, wancho, khojki, buhid, tifinagh, kharoshthi, kaithi, sinhala, newa, zanabazar-square, psalter-pahlavi, masaram-gondi, sharada, myanmar, kannada, yi, tamil, warang-citi, bassa-vah, balinese, thaana, khmer, osage, brahmi, buginese, duployan, rejang, thai, mahajani, music, elbasan, nko, manichaean, oriya, chakma, devanagari, old-permic, mongolian, math, ahom, hanunoo, siddham, hanifi-rohingya, meetei-mayek, bhaiksuki, javanese, tagbanwa, symbols, adlam, hebrew, telugu, miao, caucasian-albanian, cham, pahawh-hmong, tibetan, lao, marchen, gurmukhi, limbu, modi, dogra, sundanese, coptic, new-tai-lue, tagalog, kayah-li</li>
 <li>U+25CF BLACK CIRCLE: try adding symbols</li>
 <li>U+25E6 WHITE BULLET: try adding symbols</li>
 <li>U+27E8 MATHEMATICAL LEFT ANGLE BRACKET: try adding math</li>
@@ -424,10 +969,9 @@ definitions.</p>
 
 
 
-* ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄</p>
-<p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: ĭ̛ i̛̇ i̛̊ i̛̋ i̛̒ ĭ̤ i̤̇ i̤̊ i̤̋ i̤̒ ĭ̦ i̦̇ i̦̊ i̦̋ i̦̒ ĭ̧ i̧̇ i̧̊ i̧̋ i̧̒</p>
+* ⚠️ **WARN** <p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: i̛̇ i̛̊ i̛̋ i̛̍ i̛̒ i̤̇ i̤̊ i̤̋ i̤̍ i̤̒ i̦̇ i̦̊ i̦̋ i̦̍ i̦̒ i̧̇ i̧̊ i̧̋ i̧̍ i̧̒</p>
 <p>Your font fully covers the following languages that require the soft-dotted feature: Dutch (Latn, 31,709,104 speakers), Lithuanian (Latn, 2,357,094 speakers).</p>
-<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Ekpeye (Latn, 226,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Kaska (Latn, 125 speakers), Teke-Ebo (Latn, 260,000 speakers), Avokaya (Latn, 100,000 speakers), Gulay (Latn, 250,478 speakers), Ejagham (Latn, 120,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Lugbara (Latn, 2,200,000 speakers), Navajo (Latn, 166,319 speakers), Belarusian (Cyrl, 10,064,517 speakers), South Central Banda (Latn, 244,000 speakers), Kom (Latn, 360,685 speakers), Heiltsuk (Latn, 300 speakers), Mfumte (Latn, 79,000 speakers), Dii (Latn, 71,000 speakers), Southern Kisi (Latn, 360,000 speakers), Basaa (Latn, 332,940 speakers), Makaa (Latn, 221,000 speakers), Ma’di (Latn, 584,000 speakers), Cicipu (Latn, 44,000 speakers), Mundani (Latn, 34,000 speakers), Koonzime (Latn, 40,000 speakers), Sar (Latn, 500,000 speakers), Nzakara (Latn, 50,000 speakers), Bafut (Latn, 158,146 speakers), Yala (Latn, 200,000 speakers), Aghem (Latn, 38,843 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Dan (Latn, 1,099,244 speakers), Igbo (Latn, 27,823,640 speakers), Ebira (Latn, 2,200,000 speakers), Nateni (Latn, 100,000 speakers), Vute (Latn, 21,000 speakers), Fur (Latn, 1,230,163 speakers), Ngbaka (Latn, 1,020,000 speakers), Mango (Latn, 77,000 speakers), Han (Latn, 6 speakers), Zapotec (Latn, 490,000 speakers), Kpelle, Guinea (Latn, 622,000 speakers).</p>
+<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Ngbaka (Latn, 1,020,000 speakers), Nateni (Latn, 100,000 speakers), Fur (Latn, 1,230,163 speakers), Lugbara (Latn, 2,200,000 speakers), Ekpeye (Latn, 226,000 speakers), Teke-Ebo (Latn, 260,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Ebira (Latn, 2,200,000 speakers), South Central Banda (Latn, 244,000 speakers), Dii (Latn, 71,000 speakers), Igbo (Latn, 27,823,640 speakers), Basaa (Latn, 332,940 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Koonzime (Latn, 40,000 speakers), Sar (Latn, 500,000 speakers), Yala (Latn, 200,000 speakers), Kom (Latn, 360,685 speakers), Belarusian (Cyrl, 10,064,517 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Ejagham (Latn, 120,000 speakers), Bafut (Latn, 158,146 speakers), Avokaya (Latn, 100,000 speakers), Dan (Latn, 1,099,244 speakers), Cicipu (Latn, 44,000 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Mango (Latn, 77,000 speakers), Gulay (Latn, 250,478 speakers), Southern Kisi (Latn, 360,000 speakers), Kaska (Latn, 125 speakers), Vute (Latn, 21,000 speakers), Mfumte (Latn, 79,000 speakers), Navajo (Latn, 166,319 speakers), Zapotec (Latn, 490,000 speakers), Nzakara (Latn, 50,000 speakers), Heiltsuk (Latn, 300 speakers), Han (Latn, 6 speakers), Ma’di (Latn, 584,000 speakers), Aghem (Latn, 38,843 speakers), Mundani (Latn, 34,000 speakers), Makaa (Latn, 221,000 speakers).</p>
  [code: soft-dotted]
 
 
@@ -455,8 +999,1607 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[6] MatrixSansVideoSC-Regular.ttf</summary>
+<details><summary>[7] MatrixSansVideoSC-Regular.ttf</summary>
 <div>
+<details>
+    <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">af_Latn (Afrikaans)</td>
+<td align="left">Requires Small-cap: a; both buffers returned a.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: á; both buffers returned aacute.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ä; both buffers returned adieresis.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: b; both buffers returned b.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: c; both buffers returned c=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: d; both buffers returned d.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: e; both buffers returned e.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: é; both buffers returned eacute.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: è; both buffers returned egrave.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ê; both buffers returned ecircumflex.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ë; both buffers returned edieresis.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: f; both buffers returned f.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: g; both buffers returned g.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: h; both buffers returned h.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: i; both buffers returned i.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: í; both buffers returned iacute.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: î; both buffers returned icircumflex.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ï; both buffers returned idieresis.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: j; both buffers returned j.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: k; both buffers returned kgreenlandic=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: l; both buffers returned l.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: m; both buffers returned m.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: n; both buffers returned n.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: o; both buffers returned o=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ó; both buffers returned oacute=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ò; both buffers returned ograve=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ô; both buffers returned ocircumflex=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ö; both buffers returned odieresis=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: p; both buffers returned p.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: q; both buffers returned q.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: r; both buffers returned r.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: s; both buffers returned s=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: t; both buffers returned t.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: u; both buffers returned u.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ú; both buffers returned uacute.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: û; both buffers returned ucircumflex.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ü; both buffers returned udieresis.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: v; both buffers returned v=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: w; both buffers returned w=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: x; both buffers returned x=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: y; both buffers returned y.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ý; both buffers returned yacute.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: z; both buffers returned z=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: à; both buffers returned agrave.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: â; both buffers returned acircumflex.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: å; both buffers returned aring.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ã; both buffers returned atilde.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: æ; both buffers returned ae.sc=0+800</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: œ; both buffers returned oe.sc=0+800</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ç; both buffers returned ccedilla=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ì; both buffers returned igrave.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ñ; both buffers returned ntilde.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ù; both buffers returned ugrave.sc=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">bm_Latn (Bambara)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: a; both buffers returned a.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: b; both buffers returned b.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: c; both buffers returned c=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: d; both buffers returned d.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: e; both buffers returned e.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned eopen=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: f; both buffers returned f.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: g; both buffers returned g.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: h; both buffers returned h.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: i; both buffers returned i.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: j; both buffers returned j.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: k; both buffers returned kgreenlandic=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: l; both buffers returned l.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: m; both buffers returned m.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: n; both buffers returned n.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɲ; both buffers returned nhookleft.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ŋ; both buffers returned eng.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: o; both buffers returned o=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned oopen=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: p; both buffers returned p.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: r; both buffers returned r.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: s; both buffers returned s=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: t; both buffers returned t.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: u; both buffers returned u.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: w; both buffers returned w=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: y; both buffers returned y.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: z; both buffers returned z=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: q; both buffers returned q.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: v; both buffers returned v=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: x; both buffers returned x=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">dyu_Latn (Dyula)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: a; both buffers returned a.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: b; both buffers returned b.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: c; both buffers returned c=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: d; both buffers returned d.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: e; both buffers returned e.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned eopen=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: f; both buffers returned f.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: g; both buffers returned g.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: h; both buffers returned h.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: i; both buffers returned i.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: j; both buffers returned j.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: k; both buffers returned kgreenlandic=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: l; both buffers returned l.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: m; both buffers returned m.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: n; both buffers returned n.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɲ; both buffers returned nhookleft.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ŋ; both buffers returned eng.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: o; both buffers returned o=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned oopen=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: p; both buffers returned p.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: r; both buffers returned r.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: s; both buffers returned s=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: t; both buffers returned t.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: u; both buffers returned u.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: v; both buffers returned v=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: w; both buffers returned w=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: y; both buffers returned y.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: z; both buffers returned z=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">ha_Latn (Hausa)</td>
+<td align="left">Requires Small-cap: a; both buffers returned a.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: b; both buffers returned b.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɓ; both buffers returned bhook.sc=0+700</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: c; both buffers returned c=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: d; both buffers returned d.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɗ; both buffers returned dhook.sc=0+700</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: e; both buffers returned e.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: f; both buffers returned f.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: g; both buffers returned g.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: h; both buffers returned h.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: i; both buffers returned i.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: j; both buffers returned j.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: k; both buffers returned kgreenlandic=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ƙ; both buffers returned khook.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: l; both buffers returned l.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: m; both buffers returned m.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: n; both buffers returned n.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: o; both buffers returned o=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: r; both buffers returned r.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: s; both buffers returned s=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: t; both buffers returned t.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: u; both buffers returned u.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: w; both buffers returned w=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: y; both buffers returned y.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ƴ; both buffers returned yhook.sc=0+700</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: z; both buffers returned z=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: á; both buffers returned aacute.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: à; both buffers returned agrave.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: â; both buffers returned acircumflex.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: é; both buffers returned eacute.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: è; both buffers returned egrave.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ê; both buffers returned ecircumflex.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: í; both buffers returned iacute.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ì; both buffers returned igrave.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: î; both buffers returned icircumflex.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ó; both buffers returned oacute=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ò; both buffers returned ograve=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ô; both buffers returned ocircumflex=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: p; both buffers returned p.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: q; both buffers returned q.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ú; both buffers returned uacute.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ù; both buffers returned ugrave.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: û; both buffers returned ucircumflex.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: v; both buffers returned v=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: x; both buffers returned x=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">ig_Latn (Igbo)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: a; both buffers returned a.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: b; both buffers returned b.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: d; both buffers returned d.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: e; both buffers returned e.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ẹ; both buffers returned edotbelow.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: f; both buffers returned f.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: g; both buffers returned g.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: h; both buffers returned h.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: i; both buffers returned i.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ị; both buffers returned idotbelow.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: j; both buffers returned j.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: k; both buffers returned kgreenlandic=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: l; both buffers returned l.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: m; both buffers returned m.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: n; both buffers returned n.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ṅ; both buffers returned ndotaccent.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: o; both buffers returned o=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ọ; both buffers returned odotbelow=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: p; both buffers returned p.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: r; both buffers returned r.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: s; both buffers returned s=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: t; both buffers returned t.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: u; both buffers returned u.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ụ; both buffers returned udotbelow.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: v; both buffers returned v=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: w; both buffers returned w=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: y; both buffers returned y.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: z; both buffers returned z=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: á; both buffers returned aacute.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: à; both buffers returned agrave.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ā; both buffers returned amacron.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: c; both buffers returned c=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: é; both buffers returned eacute.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: è; both buffers returned egrave.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ē; both buffers returned emacron.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: í; both buffers returned iacute.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ì; both buffers returned igrave.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ī; both buffers returned imacron.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ḿ; both buffers returned macute.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ń; both buffers returned nacute.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǹ; both buffers returned ngrave.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ó; both buffers returned oacute=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ò; both buffers returned ograve=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ō; both buffers returned omacron=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: q; both buffers returned q.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ú; both buffers returned uacute.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ù; both buffers returned ugrave.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ū; both buffers returned umacron.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: x; both buffers returned x=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned eopen=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɵ; both buffers returned .notdef=0+601</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ŋ; both buffers returned eng.sc=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">lg_Latn (Ganda)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: a; both buffers returned a.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: b; both buffers returned b.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: c; both buffers returned c=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: d; both buffers returned d.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: e; both buffers returned e.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: f; both buffers returned f.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: g; both buffers returned g.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: i; both buffers returned i.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: j; both buffers returned j.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: k; both buffers returned kgreenlandic=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: l; both buffers returned l.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: m; both buffers returned m.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: n; both buffers returned n.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ŋ; both buffers returned eng.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: o; both buffers returned o=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: p; both buffers returned p.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: r; both buffers returned r.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: s; both buffers returned s=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: t; both buffers returned t.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: u; both buffers returned u.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: v; both buffers returned v=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: w; both buffers returned w=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: y; both buffers returned y.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: z; both buffers returned z=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: h; both buffers returned h.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: q; both buffers returned q.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: x; both buffers returned x=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">om_Latn (Oromo)</td>
+<td align="left">Requires Small-cap: a; both buffers returned a.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: b; both buffers returned b.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: c; both buffers returned c=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: d; both buffers returned d.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: e; both buffers returned e.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: f; both buffers returned f.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: g; both buffers returned g.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: h; both buffers returned h.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: i; both buffers returned i.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: j; both buffers returned j.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: k; both buffers returned kgreenlandic=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: l; both buffers returned l.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: m; both buffers returned m.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: n; both buffers returned n.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: o; both buffers returned o=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: p; both buffers returned p.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: q; both buffers returned q.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: r; both buffers returned r.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: s; both buffers returned s=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: t; both buffers returned t.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: u; both buffers returned u.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: v; both buffers returned v=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: w; both buffers returned w=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: x; both buffers returned x=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: y; both buffers returned y.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: z; both buffers returned z=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">sw_Latn (Swahili)</td>
+<td align="left">Requires Small-cap: a; both buffers returned a.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: b; both buffers returned b.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: d; both buffers returned d.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: e; both buffers returned e.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: f; both buffers returned f.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: g; both buffers returned g.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: h; both buffers returned h.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: i; both buffers returned i.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: j; both buffers returned j.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: k; both buffers returned kgreenlandic=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: l; both buffers returned l.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: m; both buffers returned m.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: n; both buffers returned n.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: o; both buffers returned o=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: p; both buffers returned p.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: r; both buffers returned r.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: s; both buffers returned s=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: t; both buffers returned t.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: u; both buffers returned u.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: v; both buffers returned v=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: w; both buffers returned w=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: y; both buffers returned y.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: z; both buffers returned z=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: c; both buffers returned c=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: q; both buffers returned q.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: x; both buffers returned x=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">xh_Latn (Xhosa)</td>
+<td align="left">Requires Small-cap: a; both buffers returned a.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: b; both buffers returned b.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: c; both buffers returned c=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: d; both buffers returned d.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: e; both buffers returned e.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: f; both buffers returned f.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: g; both buffers returned g.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: h; both buffers returned h.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: i; both buffers returned i.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: j; both buffers returned j.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: k; both buffers returned kgreenlandic=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: l; both buffers returned l.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: m; both buffers returned m.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: n; both buffers returned n.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: o; both buffers returned o=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: p; both buffers returned p.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: q; both buffers returned q.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: r; both buffers returned r.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: s; both buffers returned s=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: t; both buffers returned t.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: u; both buffers returned u.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: v; both buffers returned v=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: w; both buffers returned w=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: x; both buffers returned x=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: y; both buffers returned y.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: z; both buffers returned z=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">yo_Latn (Yoruba)</td>
+<td align="left">Requires Small-cap: a; both buffers returned a.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: á; both buffers returned aacute.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: à; both buffers returned agrave.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: b; both buffers returned b.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: d; both buffers returned d.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: e; both buffers returned e.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: é; both buffers returned eacute.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: è; both buffers returned egrave.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ẹ; both buffers returned edotbelow.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: f; both buffers returned f.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: g; both buffers returned g.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: h; both buffers returned h.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: i; both buffers returned i.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: í; both buffers returned iacute.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ì; both buffers returned igrave.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: j; both buffers returned j.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: k; both buffers returned kgreenlandic=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: l; both buffers returned l.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: m; both buffers returned m.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ḿ; both buffers returned macute.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: n; both buffers returned n.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ń; both buffers returned nacute.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǹ; both buffers returned ngrave.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: o; both buffers returned o=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ó; both buffers returned oacute=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ò; both buffers returned ograve=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ọ; both buffers returned odotbelow=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: p; both buffers returned p.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: r; both buffers returned r.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: s; both buffers returned s=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ṣ; both buffers returned sdotbelow=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: t; both buffers returned t.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: u; both buffers returned u.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ú; both buffers returned uacute.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ù; both buffers returned ugrave.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: w; both buffers returned w=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: y; both buffers returned y.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: c; both buffers returned c=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: q; both buffers returned q.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: v; both buffers returned v=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: x; both buffers returned x=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: z; both buffers returned z=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+</div>
+</details>
+
 <details>
     <summary>⚠️ <b>WARN</b> Check accent of Lcaron, dcaron, lcaron, tcaron <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
     <div>
@@ -602,7 +2745,7 @@ definitions.</p>
 * ⚠️ **WARN** <p>The most common width is 600 among a set of 9 math glyphs.
 The following math glyphs have a different width, though:</p>
 <p>Width = 400:
-greaterequal, greater, lessequal, less</p>
+greater, greaterequal, lessequal, less</p>
  [code: width-outliers]
 
 
@@ -647,29 +2790,31 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, coptic, cherokee</li>
-<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: syriac, duployan, tifinagh, math, tai-le, hebrew, canadian-aboriginal, old-permic, todhri, coptic, malayalam</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, cherokee, coptic, math</li>
+<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, old-permic, todhri, tifinagh, coptic, malayalam, canadian-aboriginal, math, syriac, duployan, tai-le</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
+<li>U+030D COMBINING VERTICAL LINE ABOVE: try adding sunuwar</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+0315 COMBINING COMMA ABOVE RIGHT: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
-<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: syriac, duployan, cherokee</li>
+<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: duployan, cherokee, syriac</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: syriac, gothic, caucasian-albanian, tifinagh, sunuwar, cherokee, thai</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: thai, sunuwar, tifinagh, gothic, cherokee, syriac, caucasian-albanian</li>
+<li>U+0358 COMBINING DOT ABOVE RIGHT: try adding osage</li>
 <li>U+0394 GREEK CAPITAL LETTER DELTA: try adding one of: elbasan, math, greek</li>
 <li>U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: elbasan, math, greek</li>
 <li>U+03BC GREEK SMALL LETTER MU: try adding one of: math, greek</li>
 <li>U+03C0 GREEK SMALL LETTER PI: try adding one of: yi, math, greek</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+2007 FIGURE SPACE: try adding symbols2</li>
-<li>U+2010 HYPHEN: try adding one of: lisu, syloti-nagri, arabic, sora-sompeng, armenian, kaithi, sundanese, kayah-li, yi, hebrew, kharoshthi, cham, coptic</li>
-<li>U+2011 NON-BREAKING HYPHEN: try adding one of: yi, syloti-nagri, arabic</li>
+<li>U+2010 HYPHEN: try adding one of: yi, hebrew, sora-sompeng, lisu, sundanese, syloti-nagri, coptic, arabic, armenian, kharoshthi, kaithi, kayah-li, cham</li>
+<li>U+2011 NON-BREAKING HYPHEN: try adding one of: arabic, yi, syloti-nagri</li>
 <li>U+2012 FIGURE DASH: not included in any glyphset definition</li>
 <li>U+2015 HORIZONTAL BAR: try adding adlam</li>
 <li>U+2016 DOUBLE VERTICAL LINE: try adding math</li>
@@ -707,20 +2852,20 @@ definitions.</p>
 <li>U+215C VULGAR FRACTION THREE EIGHTHS: try adding symbols</li>
 <li>U+215D VULGAR FRACTION FIVE EIGHTHS: try adding symbols</li>
 <li>U+215E VULGAR FRACTION SEVEN EIGHTHS: try adding symbols</li>
-<li>U+2190 LEFTWARDS ARROW: try adding one of: symbols, math</li>
-<li>U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math</li>
-<li>U+2194 LEFT RIGHT ARROW: try adding one of: symbols, math</li>
-<li>U+2195 UP DOWN ARROW: try adding one of: symbols, math</li>
-<li>U+2196 NORTH WEST ARROW: try adding one of: symbols, math</li>
-<li>U+2197 NORTH EAST ARROW: try adding one of: symbols, math</li>
-<li>U+2198 SOUTH EAST ARROW: try adding one of: symbols, math</li>
-<li>U+2199 SOUTH WEST ARROW: try adding one of: symbols, math</li>
+<li>U+2190 LEFTWARDS ARROW: try adding one of: math, symbols</li>
+<li>U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols</li>
+<li>U+2194 LEFT RIGHT ARROW: try adding one of: math, symbols</li>
+<li>U+2195 UP DOWN ARROW: try adding one of: math, symbols</li>
+<li>U+2196 NORTH WEST ARROW: try adding one of: math, symbols</li>
+<li>U+2197 NORTH EAST ARROW: try adding one of: math, symbols</li>
+<li>U+2198 SOUTH EAST ARROW: try adding one of: math, symbols</li>
+<li>U+2199 SOUTH WEST ARROW: try adding one of: math, symbols</li>
 <li>U+2202 PARTIAL DIFFERENTIAL: try adding math</li>
 <li>U+2205 EMPTY SET: try adding math</li>
 <li>U+2206 INCREMENT: try adding math</li>
 <li>U+220F N-ARY PRODUCT: try adding math</li>
 <li>U+2211 N-ARY SUMMATION: try adding math</li>
-<li>U+2219 BULLET OPERATOR: try adding one of: symbols, yi, math, tai-tham</li>
+<li>U+2219 BULLET OPERATOR: try adding one of: tai-tham, yi, math, symbols</li>
 <li>U+221A SQUARE ROOT: try adding math</li>
 <li>U+221E INFINITY: try adding math</li>
 <li>U+222B INTEGRAL: try adding math</li>
@@ -740,26 +2885,26 @@ definitions.</p>
 <li>U+25AA BLACK SMALL SQUARE: try adding symbols</li>
 <li>U+25AB WHITE SMALL SQUARE: try adding symbols</li>
 <li>U+25B2 BLACK UP-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25B3 WHITE UP-POINTING TRIANGLE: try adding one of: symbols, math</li>
+<li>U+25B3 WHITE UP-POINTING TRIANGLE: try adding one of: math, symbols</li>
 <li>U+25B4 BLACK UP-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25B5 WHITE UP-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25B6 BLACK RIGHT-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25B7 WHITE RIGHT-POINTING TRIANGLE: try adding one of: symbols, math</li>
+<li>U+25B7 WHITE RIGHT-POINTING TRIANGLE: try adding one of: math, symbols</li>
 <li>U+25B8 BLACK RIGHT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25B9 WHITE RIGHT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25BC BLACK DOWN-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25BD WHITE DOWN-POINTING TRIANGLE: try adding one of: symbols, math</li>
+<li>U+25BD WHITE DOWN-POINTING TRIANGLE: try adding one of: math, symbols</li>
 <li>U+25BE BLACK DOWN-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25BF WHITE DOWN-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25C0 BLACK LEFT-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: symbols, math</li>
+<li>U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: math, symbols</li>
 <li>U+25C2 BLACK LEFT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25C3 WHITE LEFT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25C6 BLACK DIAMOND: try adding symbols</li>
 <li>U+25C7 WHITE DIAMOND: try adding symbols</li>
-<li>U+25CA LOZENGE: try adding one of: symbols, math</li>
+<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
 <li>U+25CB WHITE CIRCLE: try adding symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: siddham, marchen, yi, ahom, brahmi, hanifi-rohingya, newa, balinese, caucasian-albanian, bhaiksuki, khmer, duployan, armenian, limbu, kaithi, math, wancho, gunjala-gondi, tagbanwa, buhid, tamil, kayah-li, chakma, adlam, thaana, gurmukhi, tai-tham, tai-viet, sogdian, tifinagh, buginese, nko, music, rejang, tibetan, manichaean, phags-pa, elbasan, meetei-mayek, bengali, malayalam, warang-citi, mahajani, soyombo, oriya, takri, devanagari, kharoshthi, old-permic, psalter-pahlavi, osage, pahawh-hmong, khudawadi, tai-le, sinhala, gujarati, tirhuta, miao, thai, kannada, masaram-gondi, khojki, myanmar, canadian-aboriginal, sundanese, coptic, bassa-vah, zanabazar-square, new-tai-lue, hanunoo, modi, javanese, syriac, dogra, lepcha, lao, saurashtra, syloti-nagri, symbols, sharada, telugu, hebrew, mandaic, mongolian, grantha, tagalog, mende-kikakui, batak, cham</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: gujarati, syloti-nagri, canadian-aboriginal, lepcha, tai-tham, sogdian, mende-kikakui, mandaic, tai-viet, syriac, bengali, saurashtra, grantha, takri, tirhuta, malayalam, phags-pa, gunjala-gondi, batak, khudawadi, soyombo, armenian, tai-le, wancho, khojki, buhid, tifinagh, kharoshthi, kaithi, sinhala, newa, zanabazar-square, psalter-pahlavi, masaram-gondi, sharada, myanmar, kannada, yi, tamil, warang-citi, bassa-vah, balinese, thaana, khmer, osage, brahmi, buginese, duployan, rejang, thai, mahajani, music, elbasan, nko, manichaean, oriya, chakma, devanagari, old-permic, mongolian, math, ahom, hanunoo, siddham, hanifi-rohingya, meetei-mayek, bhaiksuki, javanese, tagbanwa, symbols, adlam, hebrew, telugu, miao, caucasian-albanian, cham, pahawh-hmong, tibetan, lao, marchen, gurmukhi, limbu, modi, dogra, sundanese, coptic, new-tai-lue, tagalog, kayah-li</li>
 <li>U+25CF BLACK CIRCLE: try adding symbols</li>
 <li>U+25E6 WHITE BULLET: try adding symbols</li>
 <li>U+27E8 MATHEMATICAL LEFT ANGLE BRACKET: try adding math</li>
@@ -795,8 +2940,551 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[7] MatrixSans-Regular.ttf</summary>
+<details><summary>[8] MatrixSans-Regular.ttf</summary>
 <div>
+<details>
+    <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">af_Latn (Afrikaans)</td>
+<td align="left">Requires Small-cap: c; both buffers returned c=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: o; both buffers returned o=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ó; both buffers returned oacute=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ò; both buffers returned ograve=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ô; both buffers returned ocircumflex=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ö; both buffers returned odieresis=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: s; both buffers returned s=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: v; both buffers returned v=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: w; both buffers returned w=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: x; both buffers returned x=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: z; both buffers returned z=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ç; both buffers returned ccedilla=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">bm_Latn (Bambara)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: c; both buffers returned c=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned eopen=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: o; both buffers returned o=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned oopen=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: s; both buffers returned s=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: w; both buffers returned w=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: z; both buffers returned z=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: v; both buffers returned v=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: x; both buffers returned x=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">dyu_Latn (Dyula)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: c; both buffers returned c=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned eopen=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: o; both buffers returned o=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned oopen=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: s; both buffers returned s=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: v; both buffers returned v=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: w; both buffers returned w=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: z; both buffers returned z=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">ha_Latn (Hausa)</td>
+<td align="left">Requires Small-cap: c; both buffers returned c=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: o; both buffers returned o=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: s; both buffers returned s=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: w; both buffers returned w=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: z; both buffers returned z=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ó; both buffers returned oacute=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ò; both buffers returned ograve=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ô; both buffers returned ocircumflex=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: v; both buffers returned v=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: x; both buffers returned x=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">ig_Latn (Igbo)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: o; both buffers returned o=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ọ; both buffers returned odotbelow=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: s; both buffers returned s=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: v; both buffers returned v=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: w; both buffers returned w=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: z; both buffers returned z=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: c; both buffers returned c=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ó; both buffers returned oacute=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ò; both buffers returned ograve=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ō; both buffers returned omacron=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: x; both buffers returned x=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned eopen=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɵ; both buffers returned .notdef=0+601</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">lg_Latn (Ganda)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: c; both buffers returned c=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: o; both buffers returned o=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: s; both buffers returned s=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: v; both buffers returned v=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: w; both buffers returned w=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: z; both buffers returned z=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: x; both buffers returned x=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">om_Latn (Oromo)</td>
+<td align="left">Requires Small-cap: c; both buffers returned c=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: o; both buffers returned o=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: s; both buffers returned s=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: v; both buffers returned v=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: w; both buffers returned w=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: x; both buffers returned x=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: z; both buffers returned z=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">sw_Latn (Swahili)</td>
+<td align="left">Requires Small-cap: o; both buffers returned o=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: s; both buffers returned s=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: v; both buffers returned v=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: w; both buffers returned w=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: z; both buffers returned z=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: c; both buffers returned c=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: x; both buffers returned x=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">xh_Latn (Xhosa)</td>
+<td align="left">Requires Small-cap: c; both buffers returned c=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: o; both buffers returned o=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: s; both buffers returned s=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: v; both buffers returned v=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: w; both buffers returned w=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: x; both buffers returned x=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: z; both buffers returned z=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">yo_Latn (Yoruba)</td>
+<td align="left">Requires Small-cap: o; both buffers returned o=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ó; both buffers returned oacute=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ò; both buffers returned ograve=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ọ; both buffers returned odotbelow=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: s; both buffers returned s=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ṣ; both buffers returned sdotbelow=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: w; both buffers returned w=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: c; both buffers returned c=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: v; both buffers returned v=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: x; both buffers returned x=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: z; both buffers returned z=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+</div>
+</details>
+
 <details>
     <summary>⚠️ <b>WARN</b> Check accent of Lcaron, dcaron, lcaron, tcaron <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
     <div>
@@ -942,7 +3630,7 @@ definitions.</p>
 * ⚠️ **WARN** <p>The most common width is 600 among a set of 9 math glyphs.
 The following math glyphs have a different width, though:</p>
 <p>Width = 400:
-greaterequal, greater, lessequal, less</p>
+greater, greaterequal, lessequal, less</p>
  [code: width-outliers]
 
 
@@ -987,29 +3675,31 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, coptic, cherokee</li>
-<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: syriac, duployan, tifinagh, math, tai-le, hebrew, canadian-aboriginal, old-permic, todhri, coptic, malayalam</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, cherokee, coptic, math</li>
+<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, old-permic, todhri, tifinagh, coptic, malayalam, canadian-aboriginal, math, syriac, duployan, tai-le</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
+<li>U+030D COMBINING VERTICAL LINE ABOVE: try adding sunuwar</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+0315 COMBINING COMMA ABOVE RIGHT: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
-<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: syriac, duployan, cherokee</li>
+<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: duployan, cherokee, syriac</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: syriac, gothic, caucasian-albanian, tifinagh, sunuwar, cherokee, thai</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: thai, sunuwar, tifinagh, gothic, cherokee, syriac, caucasian-albanian</li>
+<li>U+0358 COMBINING DOT ABOVE RIGHT: try adding osage</li>
 <li>U+0394 GREEK CAPITAL LETTER DELTA: try adding one of: elbasan, math, greek</li>
 <li>U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: elbasan, math, greek</li>
 <li>U+03BC GREEK SMALL LETTER MU: try adding one of: math, greek</li>
 <li>U+03C0 GREEK SMALL LETTER PI: try adding one of: yi, math, greek</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+2007 FIGURE SPACE: try adding symbols2</li>
-<li>U+2010 HYPHEN: try adding one of: lisu, syloti-nagri, arabic, sora-sompeng, armenian, kaithi, sundanese, kayah-li, yi, hebrew, kharoshthi, cham, coptic</li>
-<li>U+2011 NON-BREAKING HYPHEN: try adding one of: yi, syloti-nagri, arabic</li>
+<li>U+2010 HYPHEN: try adding one of: yi, hebrew, sora-sompeng, lisu, sundanese, syloti-nagri, coptic, arabic, armenian, kharoshthi, kaithi, kayah-li, cham</li>
+<li>U+2011 NON-BREAKING HYPHEN: try adding one of: arabic, yi, syloti-nagri</li>
 <li>U+2012 FIGURE DASH: not included in any glyphset definition</li>
 <li>U+2015 HORIZONTAL BAR: try adding adlam</li>
 <li>U+2016 DOUBLE VERTICAL LINE: try adding math</li>
@@ -1047,20 +3737,20 @@ definitions.</p>
 <li>U+215C VULGAR FRACTION THREE EIGHTHS: try adding symbols</li>
 <li>U+215D VULGAR FRACTION FIVE EIGHTHS: try adding symbols</li>
 <li>U+215E VULGAR FRACTION SEVEN EIGHTHS: try adding symbols</li>
-<li>U+2190 LEFTWARDS ARROW: try adding one of: symbols, math</li>
-<li>U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math</li>
-<li>U+2194 LEFT RIGHT ARROW: try adding one of: symbols, math</li>
-<li>U+2195 UP DOWN ARROW: try adding one of: symbols, math</li>
-<li>U+2196 NORTH WEST ARROW: try adding one of: symbols, math</li>
-<li>U+2197 NORTH EAST ARROW: try adding one of: symbols, math</li>
-<li>U+2198 SOUTH EAST ARROW: try adding one of: symbols, math</li>
-<li>U+2199 SOUTH WEST ARROW: try adding one of: symbols, math</li>
+<li>U+2190 LEFTWARDS ARROW: try adding one of: math, symbols</li>
+<li>U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols</li>
+<li>U+2194 LEFT RIGHT ARROW: try adding one of: math, symbols</li>
+<li>U+2195 UP DOWN ARROW: try adding one of: math, symbols</li>
+<li>U+2196 NORTH WEST ARROW: try adding one of: math, symbols</li>
+<li>U+2197 NORTH EAST ARROW: try adding one of: math, symbols</li>
+<li>U+2198 SOUTH EAST ARROW: try adding one of: math, symbols</li>
+<li>U+2199 SOUTH WEST ARROW: try adding one of: math, symbols</li>
 <li>U+2202 PARTIAL DIFFERENTIAL: try adding math</li>
 <li>U+2205 EMPTY SET: try adding math</li>
 <li>U+2206 INCREMENT: try adding math</li>
 <li>U+220F N-ARY PRODUCT: try adding math</li>
 <li>U+2211 N-ARY SUMMATION: try adding math</li>
-<li>U+2219 BULLET OPERATOR: try adding one of: symbols, yi, math, tai-tham</li>
+<li>U+2219 BULLET OPERATOR: try adding one of: tai-tham, yi, math, symbols</li>
 <li>U+221A SQUARE ROOT: try adding math</li>
 <li>U+221E INFINITY: try adding math</li>
 <li>U+222B INTEGRAL: try adding math</li>
@@ -1080,26 +3770,26 @@ definitions.</p>
 <li>U+25AA BLACK SMALL SQUARE: try adding symbols</li>
 <li>U+25AB WHITE SMALL SQUARE: try adding symbols</li>
 <li>U+25B2 BLACK UP-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25B3 WHITE UP-POINTING TRIANGLE: try adding one of: symbols, math</li>
+<li>U+25B3 WHITE UP-POINTING TRIANGLE: try adding one of: math, symbols</li>
 <li>U+25B4 BLACK UP-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25B5 WHITE UP-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25B6 BLACK RIGHT-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25B7 WHITE RIGHT-POINTING TRIANGLE: try adding one of: symbols, math</li>
+<li>U+25B7 WHITE RIGHT-POINTING TRIANGLE: try adding one of: math, symbols</li>
 <li>U+25B8 BLACK RIGHT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25B9 WHITE RIGHT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25BC BLACK DOWN-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25BD WHITE DOWN-POINTING TRIANGLE: try adding one of: symbols, math</li>
+<li>U+25BD WHITE DOWN-POINTING TRIANGLE: try adding one of: math, symbols</li>
 <li>U+25BE BLACK DOWN-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25BF WHITE DOWN-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25C0 BLACK LEFT-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: symbols, math</li>
+<li>U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: math, symbols</li>
 <li>U+25C2 BLACK LEFT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25C3 WHITE LEFT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25C6 BLACK DIAMOND: try adding symbols</li>
 <li>U+25C7 WHITE DIAMOND: try adding symbols</li>
-<li>U+25CA LOZENGE: try adding one of: symbols, math</li>
+<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
 <li>U+25CB WHITE CIRCLE: try adding symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: siddham, marchen, yi, ahom, brahmi, hanifi-rohingya, newa, balinese, caucasian-albanian, bhaiksuki, khmer, duployan, armenian, limbu, kaithi, math, wancho, gunjala-gondi, tagbanwa, buhid, tamil, kayah-li, chakma, adlam, thaana, gurmukhi, tai-tham, tai-viet, sogdian, tifinagh, buginese, nko, music, rejang, tibetan, manichaean, phags-pa, elbasan, meetei-mayek, bengali, malayalam, warang-citi, mahajani, soyombo, oriya, takri, devanagari, kharoshthi, old-permic, psalter-pahlavi, osage, pahawh-hmong, khudawadi, tai-le, sinhala, gujarati, tirhuta, miao, thai, kannada, masaram-gondi, khojki, myanmar, canadian-aboriginal, sundanese, coptic, bassa-vah, zanabazar-square, new-tai-lue, hanunoo, modi, javanese, syriac, dogra, lepcha, lao, saurashtra, syloti-nagri, symbols, sharada, telugu, hebrew, mandaic, mongolian, grantha, tagalog, mende-kikakui, batak, cham</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: gujarati, syloti-nagri, canadian-aboriginal, lepcha, tai-tham, sogdian, mende-kikakui, mandaic, tai-viet, syriac, bengali, saurashtra, grantha, takri, tirhuta, malayalam, phags-pa, gunjala-gondi, batak, khudawadi, soyombo, armenian, tai-le, wancho, khojki, buhid, tifinagh, kharoshthi, kaithi, sinhala, newa, zanabazar-square, psalter-pahlavi, masaram-gondi, sharada, myanmar, kannada, yi, tamil, warang-citi, bassa-vah, balinese, thaana, khmer, osage, brahmi, buginese, duployan, rejang, thai, mahajani, music, elbasan, nko, manichaean, oriya, chakma, devanagari, old-permic, mongolian, math, ahom, hanunoo, siddham, hanifi-rohingya, meetei-mayek, bhaiksuki, javanese, tagbanwa, symbols, adlam, hebrew, telugu, miao, caucasian-albanian, cham, pahawh-hmong, tibetan, lao, marchen, gurmukhi, limbu, modi, dogra, sundanese, coptic, new-tai-lue, tagalog, kayah-li</li>
 <li>U+25CF BLACK CIRCLE: try adding symbols</li>
 <li>U+25E6 WHITE BULLET: try adding symbols</li>
 <li>U+27E8 MATHEMATICAL LEFT ANGLE BRACKET: try adding math</li>
@@ -1125,10 +3815,9 @@ definitions.</p>
 
 
 
-* ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄</p>
-<p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: ĭ̛ i̛̇ i̛̊ i̛̋ i̛̒ ĭ̤ i̤̇ i̤̊ i̤̋ i̤̒ ĭ̦ i̦̇ i̦̊ i̦̋ i̦̒ ĭ̧ i̧̇ i̧̊ i̧̋ i̧̒</p>
+* ⚠️ **WARN** <p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: i̛̇ i̛̊ i̛̋ i̛̍ i̛̒ i̤̇ i̤̊ i̤̋ i̤̍ i̤̒ i̦̇ i̦̊ i̦̋ i̦̍ i̦̒ i̧̇ i̧̊ i̧̋ i̧̍ i̧̒</p>
 <p>Your font fully covers the following languages that require the soft-dotted feature: Dutch (Latn, 31,709,104 speakers), Lithuanian (Latn, 2,357,094 speakers).</p>
-<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Ekpeye (Latn, 226,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Kaska (Latn, 125 speakers), Teke-Ebo (Latn, 260,000 speakers), Avokaya (Latn, 100,000 speakers), Gulay (Latn, 250,478 speakers), Ejagham (Latn, 120,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Lugbara (Latn, 2,200,000 speakers), Navajo (Latn, 166,319 speakers), Belarusian (Cyrl, 10,064,517 speakers), South Central Banda (Latn, 244,000 speakers), Kom (Latn, 360,685 speakers), Heiltsuk (Latn, 300 speakers), Mfumte (Latn, 79,000 speakers), Dii (Latn, 71,000 speakers), Southern Kisi (Latn, 360,000 speakers), Basaa (Latn, 332,940 speakers), Makaa (Latn, 221,000 speakers), Ma’di (Latn, 584,000 speakers), Cicipu (Latn, 44,000 speakers), Mundani (Latn, 34,000 speakers), Koonzime (Latn, 40,000 speakers), Sar (Latn, 500,000 speakers), Nzakara (Latn, 50,000 speakers), Bafut (Latn, 158,146 speakers), Yala (Latn, 200,000 speakers), Aghem (Latn, 38,843 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Dan (Latn, 1,099,244 speakers), Igbo (Latn, 27,823,640 speakers), Ebira (Latn, 2,200,000 speakers), Nateni (Latn, 100,000 speakers), Vute (Latn, 21,000 speakers), Fur (Latn, 1,230,163 speakers), Ngbaka (Latn, 1,020,000 speakers), Mango (Latn, 77,000 speakers), Han (Latn, 6 speakers), Zapotec (Latn, 490,000 speakers), Kpelle, Guinea (Latn, 622,000 speakers).</p>
+<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Ngbaka (Latn, 1,020,000 speakers), Nateni (Latn, 100,000 speakers), Fur (Latn, 1,230,163 speakers), Lugbara (Latn, 2,200,000 speakers), Ekpeye (Latn, 226,000 speakers), Teke-Ebo (Latn, 260,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Ebira (Latn, 2,200,000 speakers), South Central Banda (Latn, 244,000 speakers), Dii (Latn, 71,000 speakers), Igbo (Latn, 27,823,640 speakers), Basaa (Latn, 332,940 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Koonzime (Latn, 40,000 speakers), Sar (Latn, 500,000 speakers), Yala (Latn, 200,000 speakers), Kom (Latn, 360,685 speakers), Belarusian (Cyrl, 10,064,517 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Ejagham (Latn, 120,000 speakers), Bafut (Latn, 158,146 speakers), Avokaya (Latn, 100,000 speakers), Dan (Latn, 1,099,244 speakers), Cicipu (Latn, 44,000 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Mango (Latn, 77,000 speakers), Gulay (Latn, 250,478 speakers), Southern Kisi (Latn, 360,000 speakers), Kaska (Latn, 125 speakers), Vute (Latn, 21,000 speakers), Mfumte (Latn, 79,000 speakers), Navajo (Latn, 166,319 speakers), Zapotec (Latn, 490,000 speakers), Nzakara (Latn, 50,000 speakers), Heiltsuk (Latn, 300 speakers), Han (Latn, 6 speakers), Ma’di (Latn, 584,000 speakers), Aghem (Latn, 38,843 speakers), Mundani (Latn, 34,000 speakers), Makaa (Latn, 221,000 speakers).</p>
  [code: soft-dotted]
 
 
@@ -1156,8 +3845,1607 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[6] MatrixSansSC-Regular.ttf</summary>
+<details><summary>[7] MatrixSansSC-Regular.ttf</summary>
 <div>
+<details>
+    <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">af_Latn (Afrikaans)</td>
+<td align="left">Requires Small-cap: a; both buffers returned a.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: á; both buffers returned aacute.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ä; both buffers returned adieresis.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: b; both buffers returned b.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: c; both buffers returned c=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: d; both buffers returned d.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: e; both buffers returned e.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: é; both buffers returned eacute.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: è; both buffers returned egrave.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ê; both buffers returned ecircumflex.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ë; both buffers returned edieresis.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: f; both buffers returned f.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: g; both buffers returned g.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: h; both buffers returned h.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: i; both buffers returned i.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: í; both buffers returned iacute.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: î; both buffers returned icircumflex.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ï; both buffers returned idieresis.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: j; both buffers returned j.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: k; both buffers returned kgreenlandic=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: l; both buffers returned l.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: m; both buffers returned m.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: n; both buffers returned n.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: o; both buffers returned o=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ó; both buffers returned oacute=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ò; both buffers returned ograve=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ô; both buffers returned ocircumflex=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ö; both buffers returned odieresis=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: p; both buffers returned p.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: q; both buffers returned q.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: r; both buffers returned r.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: s; both buffers returned s=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: t; both buffers returned t.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: u; both buffers returned u.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ú; both buffers returned uacute.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: û; both buffers returned ucircumflex.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ü; both buffers returned udieresis.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: v; both buffers returned v=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: w; both buffers returned w=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: x; both buffers returned x=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: y; both buffers returned y.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ý; both buffers returned yacute.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: z; both buffers returned z=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: à; both buffers returned agrave.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: â; both buffers returned acircumflex.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: å; both buffers returned aring.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ã; both buffers returned atilde.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: æ; both buffers returned ae.sc=0+800</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: œ; both buffers returned oe.sc=0+800</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ç; both buffers returned ccedilla=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ì; both buffers returned igrave.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ñ; both buffers returned ntilde.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ù; both buffers returned ugrave.sc=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">bm_Latn (Bambara)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: a; both buffers returned a.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: b; both buffers returned b.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: c; both buffers returned c=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: d; both buffers returned d.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: e; both buffers returned e.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned eopen=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: f; both buffers returned f.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: g; both buffers returned g.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: h; both buffers returned h.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: i; both buffers returned i.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: j; both buffers returned j.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: k; both buffers returned kgreenlandic=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: l; both buffers returned l.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: m; both buffers returned m.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: n; both buffers returned n.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɲ; both buffers returned nhookleft.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ŋ; both buffers returned eng.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: o; both buffers returned o=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned oopen=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: p; both buffers returned p.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: r; both buffers returned r.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: s; both buffers returned s=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: t; both buffers returned t.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: u; both buffers returned u.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: w; both buffers returned w=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: y; both buffers returned y.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: z; both buffers returned z=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: q; both buffers returned q.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: v; both buffers returned v=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: x; both buffers returned x=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">dyu_Latn (Dyula)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: a; both buffers returned a.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: b; both buffers returned b.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: c; both buffers returned c=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: d; both buffers returned d.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: e; both buffers returned e.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned eopen=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: f; both buffers returned f.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: g; both buffers returned g.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: h; both buffers returned h.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: i; both buffers returned i.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: j; both buffers returned j.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: k; both buffers returned kgreenlandic=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: l; both buffers returned l.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: m; both buffers returned m.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: n; both buffers returned n.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɲ; both buffers returned nhookleft.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ŋ; both buffers returned eng.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: o; both buffers returned o=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned oopen=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: p; both buffers returned p.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: r; both buffers returned r.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: s; both buffers returned s=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: t; both buffers returned t.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: u; both buffers returned u.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: v; both buffers returned v=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: w; both buffers returned w=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: y; both buffers returned y.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: z; both buffers returned z=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">ha_Latn (Hausa)</td>
+<td align="left">Requires Small-cap: a; both buffers returned a.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: b; both buffers returned b.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɓ; both buffers returned bhook.sc=0+700</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: c; both buffers returned c=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: d; both buffers returned d.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɗ; both buffers returned dhook.sc=0+700</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: e; both buffers returned e.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: f; both buffers returned f.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: g; both buffers returned g.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: h; both buffers returned h.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: i; both buffers returned i.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: j; both buffers returned j.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: k; both buffers returned kgreenlandic=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ƙ; both buffers returned khook.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: l; both buffers returned l.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: m; both buffers returned m.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: n; both buffers returned n.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: o; both buffers returned o=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: r; both buffers returned r.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: s; both buffers returned s=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: t; both buffers returned t.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: u; both buffers returned u.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: w; both buffers returned w=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: y; both buffers returned y.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ƴ; both buffers returned yhook.sc=0+700</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: z; both buffers returned z=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: á; both buffers returned aacute.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: à; both buffers returned agrave.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: â; both buffers returned acircumflex.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: é; both buffers returned eacute.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: è; both buffers returned egrave.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ê; both buffers returned ecircumflex.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: í; both buffers returned iacute.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ì; both buffers returned igrave.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: î; both buffers returned icircumflex.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ó; both buffers returned oacute=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ò; both buffers returned ograve=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ô; both buffers returned ocircumflex=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: p; both buffers returned p.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: q; both buffers returned q.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ú; both buffers returned uacute.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ù; both buffers returned ugrave.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: û; both buffers returned ucircumflex.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: v; both buffers returned v=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: x; both buffers returned x=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">ig_Latn (Igbo)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: a; both buffers returned a.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: b; both buffers returned b.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: d; both buffers returned d.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: e; both buffers returned e.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ẹ; both buffers returned edotbelow.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: f; both buffers returned f.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: g; both buffers returned g.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: h; both buffers returned h.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: i; both buffers returned i.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ị; both buffers returned idotbelow.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: j; both buffers returned j.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: k; both buffers returned kgreenlandic=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: l; both buffers returned l.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: m; both buffers returned m.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: n; both buffers returned n.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ṅ; both buffers returned ndotaccent.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: o; both buffers returned o=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ọ; both buffers returned odotbelow=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: p; both buffers returned p.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: r; both buffers returned r.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: s; both buffers returned s=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: t; both buffers returned t.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: u; both buffers returned u.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ụ; both buffers returned udotbelow.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: v; both buffers returned v=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: w; both buffers returned w=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: y; both buffers returned y.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: z; both buffers returned z=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: á; both buffers returned aacute.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: à; both buffers returned agrave.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ā; both buffers returned amacron.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: c; both buffers returned c=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: é; both buffers returned eacute.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: è; both buffers returned egrave.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ē; both buffers returned emacron.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: í; both buffers returned iacute.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ì; both buffers returned igrave.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ī; both buffers returned imacron.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ḿ; both buffers returned macute.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ń; both buffers returned nacute.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǹ; both buffers returned ngrave.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ó; both buffers returned oacute=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ò; both buffers returned ograve=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ō; both buffers returned omacron=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: q; both buffers returned q.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ú; both buffers returned uacute.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ù; both buffers returned ugrave.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ū; both buffers returned umacron.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: x; both buffers returned x=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned eopen=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɵ; both buffers returned .notdef=0+601</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ŋ; both buffers returned eng.sc=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">lg_Latn (Ganda)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: a; both buffers returned a.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: b; both buffers returned b.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: c; both buffers returned c=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: d; both buffers returned d.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: e; both buffers returned e.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: f; both buffers returned f.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: g; both buffers returned g.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: i; both buffers returned i.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: j; both buffers returned j.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: k; both buffers returned kgreenlandic=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: l; both buffers returned l.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: m; both buffers returned m.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: n; both buffers returned n.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ŋ; both buffers returned eng.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: o; both buffers returned o=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: p; both buffers returned p.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: r; both buffers returned r.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: s; both buffers returned s=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: t; both buffers returned t.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: u; both buffers returned u.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: v; both buffers returned v=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: w; both buffers returned w=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: y; both buffers returned y.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: z; both buffers returned z=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: h; both buffers returned h.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: q; both buffers returned q.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: x; both buffers returned x=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">om_Latn (Oromo)</td>
+<td align="left">Requires Small-cap: a; both buffers returned a.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: b; both buffers returned b.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: c; both buffers returned c=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: d; both buffers returned d.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: e; both buffers returned e.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: f; both buffers returned f.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: g; both buffers returned g.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: h; both buffers returned h.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: i; both buffers returned i.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: j; both buffers returned j.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: k; both buffers returned kgreenlandic=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: l; both buffers returned l.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: m; both buffers returned m.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: n; both buffers returned n.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: o; both buffers returned o=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: p; both buffers returned p.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: q; both buffers returned q.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: r; both buffers returned r.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: s; both buffers returned s=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: t; both buffers returned t.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: u; both buffers returned u.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: v; both buffers returned v=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: w; both buffers returned w=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: x; both buffers returned x=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: y; both buffers returned y.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: z; both buffers returned z=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">sw_Latn (Swahili)</td>
+<td align="left">Requires Small-cap: a; both buffers returned a.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: b; both buffers returned b.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: d; both buffers returned d.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: e; both buffers returned e.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: f; both buffers returned f.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: g; both buffers returned g.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: h; both buffers returned h.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: i; both buffers returned i.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: j; both buffers returned j.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: k; both buffers returned kgreenlandic=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: l; both buffers returned l.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: m; both buffers returned m.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: n; both buffers returned n.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: o; both buffers returned o=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: p; both buffers returned p.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: r; both buffers returned r.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: s; both buffers returned s=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: t; both buffers returned t.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: u; both buffers returned u.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: v; both buffers returned v=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: w; both buffers returned w=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: y; both buffers returned y.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: z; both buffers returned z=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: c; both buffers returned c=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: q; both buffers returned q.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: x; both buffers returned x=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">xh_Latn (Xhosa)</td>
+<td align="left">Requires Small-cap: a; both buffers returned a.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: b; both buffers returned b.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: c; both buffers returned c=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: d; both buffers returned d.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: e; both buffers returned e.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: f; both buffers returned f.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: g; both buffers returned g.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: h; both buffers returned h.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: i; both buffers returned i.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: j; both buffers returned j.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: k; both buffers returned kgreenlandic=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: l; both buffers returned l.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: m; both buffers returned m.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: n; both buffers returned n.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: o; both buffers returned o=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: p; both buffers returned p.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: q; both buffers returned q.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: r; both buffers returned r.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: s; both buffers returned s=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: t; both buffers returned t.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: u; both buffers returned u.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: v; both buffers returned v=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: w; both buffers returned w=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: x; both buffers returned x=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: y; both buffers returned y.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: z; both buffers returned z=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">yo_Latn (Yoruba)</td>
+<td align="left">Requires Small-cap: a; both buffers returned a.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: á; both buffers returned aacute.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: à; both buffers returned agrave.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: b; both buffers returned b.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: d; both buffers returned d.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: e; both buffers returned e.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: é; both buffers returned eacute.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: è; both buffers returned egrave.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ẹ; both buffers returned edotbelow.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: f; both buffers returned f.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: g; both buffers returned g.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: h; both buffers returned h.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: i; both buffers returned i.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: í; both buffers returned iacute.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ì; both buffers returned igrave.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: j; both buffers returned j.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: k; both buffers returned kgreenlandic=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: l; both buffers returned l.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: m; both buffers returned m.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ḿ; both buffers returned macute.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: n; both buffers returned n.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ń; both buffers returned nacute.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǹ; both buffers returned ngrave.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: o; both buffers returned o=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ó; both buffers returned oacute=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ò; both buffers returned ograve=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ọ; both buffers returned odotbelow=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: p; both buffers returned p.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: r; both buffers returned r.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: s; both buffers returned s=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ṣ; both buffers returned sdotbelow=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: t; both buffers returned t.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: u; both buffers returned u.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ú; both buffers returned uacute.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ù; both buffers returned ugrave.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: w; both buffers returned w=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: y; both buffers returned y.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: c; both buffers returned c=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: q; both buffers returned q.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: v; both buffers returned v=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: x; both buffers returned x=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: z; both buffers returned z=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+</div>
+</details>
+
 <details>
     <summary>⚠️ <b>WARN</b> Check accent of Lcaron, dcaron, lcaron, tcaron <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
     <div>
@@ -1303,7 +5591,7 @@ definitions.</p>
 * ⚠️ **WARN** <p>The most common width is 600 among a set of 9 math glyphs.
 The following math glyphs have a different width, though:</p>
 <p>Width = 400:
-greaterequal, greater, lessequal, less</p>
+greater, greaterequal, lessequal, less</p>
  [code: width-outliers]
 
 
@@ -1348,29 +5636,31 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, coptic, cherokee</li>
-<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: syriac, duployan, tifinagh, math, tai-le, hebrew, canadian-aboriginal, old-permic, todhri, coptic, malayalam</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, cherokee, coptic, math</li>
+<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, old-permic, todhri, tifinagh, coptic, malayalam, canadian-aboriginal, math, syriac, duployan, tai-le</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
+<li>U+030D COMBINING VERTICAL LINE ABOVE: try adding sunuwar</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+0315 COMBINING COMMA ABOVE RIGHT: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
-<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: syriac, duployan, cherokee</li>
+<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: duployan, cherokee, syriac</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: syriac, gothic, caucasian-albanian, tifinagh, sunuwar, cherokee, thai</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: thai, sunuwar, tifinagh, gothic, cherokee, syriac, caucasian-albanian</li>
+<li>U+0358 COMBINING DOT ABOVE RIGHT: try adding osage</li>
 <li>U+0394 GREEK CAPITAL LETTER DELTA: try adding one of: elbasan, math, greek</li>
 <li>U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: elbasan, math, greek</li>
 <li>U+03BC GREEK SMALL LETTER MU: try adding one of: math, greek</li>
 <li>U+03C0 GREEK SMALL LETTER PI: try adding one of: yi, math, greek</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+2007 FIGURE SPACE: try adding symbols2</li>
-<li>U+2010 HYPHEN: try adding one of: lisu, syloti-nagri, arabic, sora-sompeng, armenian, kaithi, sundanese, kayah-li, yi, hebrew, kharoshthi, cham, coptic</li>
-<li>U+2011 NON-BREAKING HYPHEN: try adding one of: yi, syloti-nagri, arabic</li>
+<li>U+2010 HYPHEN: try adding one of: yi, hebrew, sora-sompeng, lisu, sundanese, syloti-nagri, coptic, arabic, armenian, kharoshthi, kaithi, kayah-li, cham</li>
+<li>U+2011 NON-BREAKING HYPHEN: try adding one of: arabic, yi, syloti-nagri</li>
 <li>U+2012 FIGURE DASH: not included in any glyphset definition</li>
 <li>U+2015 HORIZONTAL BAR: try adding adlam</li>
 <li>U+2016 DOUBLE VERTICAL LINE: try adding math</li>
@@ -1408,20 +5698,20 @@ definitions.</p>
 <li>U+215C VULGAR FRACTION THREE EIGHTHS: try adding symbols</li>
 <li>U+215D VULGAR FRACTION FIVE EIGHTHS: try adding symbols</li>
 <li>U+215E VULGAR FRACTION SEVEN EIGHTHS: try adding symbols</li>
-<li>U+2190 LEFTWARDS ARROW: try adding one of: symbols, math</li>
-<li>U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math</li>
-<li>U+2194 LEFT RIGHT ARROW: try adding one of: symbols, math</li>
-<li>U+2195 UP DOWN ARROW: try adding one of: symbols, math</li>
-<li>U+2196 NORTH WEST ARROW: try adding one of: symbols, math</li>
-<li>U+2197 NORTH EAST ARROW: try adding one of: symbols, math</li>
-<li>U+2198 SOUTH EAST ARROW: try adding one of: symbols, math</li>
-<li>U+2199 SOUTH WEST ARROW: try adding one of: symbols, math</li>
+<li>U+2190 LEFTWARDS ARROW: try adding one of: math, symbols</li>
+<li>U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols</li>
+<li>U+2194 LEFT RIGHT ARROW: try adding one of: math, symbols</li>
+<li>U+2195 UP DOWN ARROW: try adding one of: math, symbols</li>
+<li>U+2196 NORTH WEST ARROW: try adding one of: math, symbols</li>
+<li>U+2197 NORTH EAST ARROW: try adding one of: math, symbols</li>
+<li>U+2198 SOUTH EAST ARROW: try adding one of: math, symbols</li>
+<li>U+2199 SOUTH WEST ARROW: try adding one of: math, symbols</li>
 <li>U+2202 PARTIAL DIFFERENTIAL: try adding math</li>
 <li>U+2205 EMPTY SET: try adding math</li>
 <li>U+2206 INCREMENT: try adding math</li>
 <li>U+220F N-ARY PRODUCT: try adding math</li>
 <li>U+2211 N-ARY SUMMATION: try adding math</li>
-<li>U+2219 BULLET OPERATOR: try adding one of: symbols, yi, math, tai-tham</li>
+<li>U+2219 BULLET OPERATOR: try adding one of: tai-tham, yi, math, symbols</li>
 <li>U+221A SQUARE ROOT: try adding math</li>
 <li>U+221E INFINITY: try adding math</li>
 <li>U+222B INTEGRAL: try adding math</li>
@@ -1441,26 +5731,26 @@ definitions.</p>
 <li>U+25AA BLACK SMALL SQUARE: try adding symbols</li>
 <li>U+25AB WHITE SMALL SQUARE: try adding symbols</li>
 <li>U+25B2 BLACK UP-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25B3 WHITE UP-POINTING TRIANGLE: try adding one of: symbols, math</li>
+<li>U+25B3 WHITE UP-POINTING TRIANGLE: try adding one of: math, symbols</li>
 <li>U+25B4 BLACK UP-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25B5 WHITE UP-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25B6 BLACK RIGHT-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25B7 WHITE RIGHT-POINTING TRIANGLE: try adding one of: symbols, math</li>
+<li>U+25B7 WHITE RIGHT-POINTING TRIANGLE: try adding one of: math, symbols</li>
 <li>U+25B8 BLACK RIGHT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25B9 WHITE RIGHT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25BC BLACK DOWN-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25BD WHITE DOWN-POINTING TRIANGLE: try adding one of: symbols, math</li>
+<li>U+25BD WHITE DOWN-POINTING TRIANGLE: try adding one of: math, symbols</li>
 <li>U+25BE BLACK DOWN-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25BF WHITE DOWN-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25C0 BLACK LEFT-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: symbols, math</li>
+<li>U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: math, symbols</li>
 <li>U+25C2 BLACK LEFT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25C3 WHITE LEFT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25C6 BLACK DIAMOND: try adding symbols</li>
 <li>U+25C7 WHITE DIAMOND: try adding symbols</li>
-<li>U+25CA LOZENGE: try adding one of: symbols, math</li>
+<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
 <li>U+25CB WHITE CIRCLE: try adding symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: siddham, marchen, yi, ahom, brahmi, hanifi-rohingya, newa, balinese, caucasian-albanian, bhaiksuki, khmer, duployan, armenian, limbu, kaithi, math, wancho, gunjala-gondi, tagbanwa, buhid, tamil, kayah-li, chakma, adlam, thaana, gurmukhi, tai-tham, tai-viet, sogdian, tifinagh, buginese, nko, music, rejang, tibetan, manichaean, phags-pa, elbasan, meetei-mayek, bengali, malayalam, warang-citi, mahajani, soyombo, oriya, takri, devanagari, kharoshthi, old-permic, psalter-pahlavi, osage, pahawh-hmong, khudawadi, tai-le, sinhala, gujarati, tirhuta, miao, thai, kannada, masaram-gondi, khojki, myanmar, canadian-aboriginal, sundanese, coptic, bassa-vah, zanabazar-square, new-tai-lue, hanunoo, modi, javanese, syriac, dogra, lepcha, lao, saurashtra, syloti-nagri, symbols, sharada, telugu, hebrew, mandaic, mongolian, grantha, tagalog, mende-kikakui, batak, cham</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: gujarati, syloti-nagri, canadian-aboriginal, lepcha, tai-tham, sogdian, mende-kikakui, mandaic, tai-viet, syriac, bengali, saurashtra, grantha, takri, tirhuta, malayalam, phags-pa, gunjala-gondi, batak, khudawadi, soyombo, armenian, tai-le, wancho, khojki, buhid, tifinagh, kharoshthi, kaithi, sinhala, newa, zanabazar-square, psalter-pahlavi, masaram-gondi, sharada, myanmar, kannada, yi, tamil, warang-citi, bassa-vah, balinese, thaana, khmer, osage, brahmi, buginese, duployan, rejang, thai, mahajani, music, elbasan, nko, manichaean, oriya, chakma, devanagari, old-permic, mongolian, math, ahom, hanunoo, siddham, hanifi-rohingya, meetei-mayek, bhaiksuki, javanese, tagbanwa, symbols, adlam, hebrew, telugu, miao, caucasian-albanian, cham, pahawh-hmong, tibetan, lao, marchen, gurmukhi, limbu, modi, dogra, sundanese, coptic, new-tai-lue, tagalog, kayah-li</li>
 <li>U+25CF BLACK CIRCLE: try adding symbols</li>
 <li>U+25E6 WHITE BULLET: try adding symbols</li>
 <li>U+27E8 MATHEMATICAL LEFT ANGLE BRACKET: try adding math</li>
@@ -1496,8 +5786,1607 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[5] MatrixSansRasterSC-Regular.ttf</summary>
+<details><summary>[6] MatrixSansRasterSC-Regular.ttf</summary>
 <div>
+<details>
+    <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">af_Latn (Afrikaans)</td>
+<td align="left">Requires Small-cap: a; both buffers returned a.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: á; both buffers returned aacute.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ä; both buffers returned adieresis.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: b; both buffers returned b.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: c; both buffers returned c=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: d; both buffers returned d.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: e; both buffers returned e.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: é; both buffers returned eacute.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: è; both buffers returned egrave.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ê; both buffers returned ecircumflex.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ë; both buffers returned edieresis.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: f; both buffers returned f.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: g; both buffers returned g.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: h; both buffers returned h.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: i; both buffers returned i.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: í; both buffers returned iacute.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: î; both buffers returned icircumflex.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ï; both buffers returned idieresis.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: j; both buffers returned j.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: k; both buffers returned kgreenlandic=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: l; both buffers returned l.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: m; both buffers returned m.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: n; both buffers returned n.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: o; both buffers returned o=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ó; both buffers returned oacute=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ò; both buffers returned ograve=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ô; both buffers returned ocircumflex=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ö; both buffers returned odieresis=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: p; both buffers returned p.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: q; both buffers returned q.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: r; both buffers returned r.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: s; both buffers returned s=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: t; both buffers returned t.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: u; both buffers returned u.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ú; both buffers returned uacute.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: û; both buffers returned ucircumflex.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ü; both buffers returned udieresis.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: v; both buffers returned v=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: w; both buffers returned w=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: x; both buffers returned x=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: y; both buffers returned y.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ý; both buffers returned yacute.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: z; both buffers returned z=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: à; both buffers returned agrave.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: â; both buffers returned acircumflex.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: å; both buffers returned aring.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ã; both buffers returned atilde.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: æ; both buffers returned ae.sc=0+800</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: œ; both buffers returned oe.sc=0+800</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ç; both buffers returned ccedilla=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ì; both buffers returned igrave.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ñ; both buffers returned ntilde.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ù; both buffers returned ugrave.sc=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">bm_Latn (Bambara)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: a; both buffers returned a.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: b; both buffers returned b.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: c; both buffers returned c=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: d; both buffers returned d.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: e; both buffers returned e.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned eopen=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: f; both buffers returned f.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: g; both buffers returned g.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: h; both buffers returned h.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: i; both buffers returned i.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: j; both buffers returned j.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: k; both buffers returned kgreenlandic=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: l; both buffers returned l.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: m; both buffers returned m.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: n; both buffers returned n.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɲ; both buffers returned nhookleft.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ŋ; both buffers returned eng.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: o; both buffers returned o=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned oopen=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: p; both buffers returned p.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: r; both buffers returned r.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: s; both buffers returned s=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: t; both buffers returned t.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: u; both buffers returned u.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: w; both buffers returned w=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: y; both buffers returned y.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: z; both buffers returned z=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: q; both buffers returned q.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: v; both buffers returned v=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: x; both buffers returned x=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">dyu_Latn (Dyula)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: a; both buffers returned a.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: b; both buffers returned b.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: c; both buffers returned c=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: d; both buffers returned d.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: e; both buffers returned e.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned eopen=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: f; both buffers returned f.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: g; both buffers returned g.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: h; both buffers returned h.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: i; both buffers returned i.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: j; both buffers returned j.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: k; both buffers returned kgreenlandic=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: l; both buffers returned l.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: m; both buffers returned m.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: n; both buffers returned n.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɲ; both buffers returned nhookleft.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ŋ; both buffers returned eng.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: o; both buffers returned o=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned oopen=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: p; both buffers returned p.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: r; both buffers returned r.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: s; both buffers returned s=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: t; both buffers returned t.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: u; both buffers returned u.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: v; both buffers returned v=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: w; both buffers returned w=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: y; both buffers returned y.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: z; both buffers returned z=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">ha_Latn (Hausa)</td>
+<td align="left">Requires Small-cap: a; both buffers returned a.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: b; both buffers returned b.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɓ; both buffers returned bhook.sc=0+700</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: c; both buffers returned c=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: d; both buffers returned d.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɗ; both buffers returned dhook.sc=0+700</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: e; both buffers returned e.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: f; both buffers returned f.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: g; both buffers returned g.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: h; both buffers returned h.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: i; both buffers returned i.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: j; both buffers returned j.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: k; both buffers returned kgreenlandic=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ƙ; both buffers returned khook.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: l; both buffers returned l.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: m; both buffers returned m.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: n; both buffers returned n.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: o; both buffers returned o=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: r; both buffers returned r.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: s; both buffers returned s=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: t; both buffers returned t.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: u; both buffers returned u.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: w; both buffers returned w=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: y; both buffers returned y.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ƴ; both buffers returned yhook.sc=0+700</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: z; both buffers returned z=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: á; both buffers returned aacute.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: à; both buffers returned agrave.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: â; both buffers returned acircumflex.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: é; both buffers returned eacute.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: è; both buffers returned egrave.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ê; both buffers returned ecircumflex.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: í; both buffers returned iacute.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ì; both buffers returned igrave.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: î; both buffers returned icircumflex.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ó; both buffers returned oacute=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ò; both buffers returned ograve=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ô; both buffers returned ocircumflex=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: p; both buffers returned p.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: q; both buffers returned q.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ú; both buffers returned uacute.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ù; both buffers returned ugrave.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: û; both buffers returned ucircumflex.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: v; both buffers returned v=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: x; both buffers returned x=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">ig_Latn (Igbo)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: a; both buffers returned a.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: b; both buffers returned b.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: d; both buffers returned d.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: e; both buffers returned e.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ẹ; both buffers returned edotbelow.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: f; both buffers returned f.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: g; both buffers returned g.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: h; both buffers returned h.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: i; both buffers returned i.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ị; both buffers returned idotbelow.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: j; both buffers returned j.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: k; both buffers returned kgreenlandic=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: l; both buffers returned l.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: m; both buffers returned m.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: n; both buffers returned n.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ṅ; both buffers returned ndotaccent.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: o; both buffers returned o=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ọ; both buffers returned odotbelow=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: p; both buffers returned p.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: r; both buffers returned r.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: s; both buffers returned s=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: t; both buffers returned t.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: u; both buffers returned u.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ụ; both buffers returned udotbelow.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: v; both buffers returned v=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: w; both buffers returned w=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: y; both buffers returned y.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: z; both buffers returned z=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: á; both buffers returned aacute.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: à; both buffers returned agrave.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ā; both buffers returned amacron.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: c; both buffers returned c=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: é; both buffers returned eacute.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: è; both buffers returned egrave.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ē; both buffers returned emacron.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: í; both buffers returned iacute.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ì; both buffers returned igrave.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ī; both buffers returned imacron.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ḿ; both buffers returned macute.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ń; both buffers returned nacute.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǹ; both buffers returned ngrave.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ó; both buffers returned oacute=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ò; both buffers returned ograve=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ō; both buffers returned omacron=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: q; both buffers returned q.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ú; both buffers returned uacute.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ù; both buffers returned ugrave.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ū; both buffers returned umacron.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: x; both buffers returned x=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned eopen=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɵ; both buffers returned .notdef=0+601</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ŋ; both buffers returned eng.sc=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">lg_Latn (Ganda)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: a; both buffers returned a.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: b; both buffers returned b.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: c; both buffers returned c=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: d; both buffers returned d.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: e; both buffers returned e.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: f; both buffers returned f.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: g; both buffers returned g.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: i; both buffers returned i.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: j; both buffers returned j.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: k; both buffers returned kgreenlandic=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: l; both buffers returned l.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: m; both buffers returned m.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: n; both buffers returned n.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ŋ; both buffers returned eng.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: o; both buffers returned o=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: p; both buffers returned p.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: r; both buffers returned r.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: s; both buffers returned s=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: t; both buffers returned t.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: u; both buffers returned u.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: v; both buffers returned v=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: w; both buffers returned w=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: y; both buffers returned y.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: z; both buffers returned z=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: h; both buffers returned h.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: q; both buffers returned q.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: x; both buffers returned x=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">om_Latn (Oromo)</td>
+<td align="left">Requires Small-cap: a; both buffers returned a.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: b; both buffers returned b.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: c; both buffers returned c=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: d; both buffers returned d.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: e; both buffers returned e.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: f; both buffers returned f.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: g; both buffers returned g.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: h; both buffers returned h.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: i; both buffers returned i.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: j; both buffers returned j.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: k; both buffers returned kgreenlandic=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: l; both buffers returned l.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: m; both buffers returned m.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: n; both buffers returned n.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: o; both buffers returned o=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: p; both buffers returned p.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: q; both buffers returned q.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: r; both buffers returned r.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: s; both buffers returned s=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: t; both buffers returned t.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: u; both buffers returned u.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: v; both buffers returned v=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: w; both buffers returned w=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: x; both buffers returned x=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: y; both buffers returned y.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: z; both buffers returned z=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">sw_Latn (Swahili)</td>
+<td align="left">Requires Small-cap: a; both buffers returned a.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: b; both buffers returned b.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: d; both buffers returned d.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: e; both buffers returned e.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: f; both buffers returned f.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: g; both buffers returned g.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: h; both buffers returned h.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: i; both buffers returned i.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: j; both buffers returned j.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: k; both buffers returned kgreenlandic=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: l; both buffers returned l.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: m; both buffers returned m.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: n; both buffers returned n.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: o; both buffers returned o=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: p; both buffers returned p.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: r; both buffers returned r.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: s; both buffers returned s=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: t; both buffers returned t.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: u; both buffers returned u.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: v; both buffers returned v=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: w; both buffers returned w=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: y; both buffers returned y.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: z; both buffers returned z=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: c; both buffers returned c=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: q; both buffers returned q.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: x; both buffers returned x=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">xh_Latn (Xhosa)</td>
+<td align="left">Requires Small-cap: a; both buffers returned a.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: b; both buffers returned b.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: c; both buffers returned c=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: d; both buffers returned d.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: e; both buffers returned e.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: f; both buffers returned f.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: g; both buffers returned g.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: h; both buffers returned h.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: i; both buffers returned i.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: j; both buffers returned j.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: k; both buffers returned kgreenlandic=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: l; both buffers returned l.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: m; both buffers returned m.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: n; both buffers returned n.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: o; both buffers returned o=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: p; both buffers returned p.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: q; both buffers returned q.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: r; both buffers returned r.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: s; both buffers returned s=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: t; both buffers returned t.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: u; both buffers returned u.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: v; both buffers returned v=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: w; both buffers returned w=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: x; both buffers returned x=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: y; both buffers returned y.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: z; both buffers returned z=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">yo_Latn (Yoruba)</td>
+<td align="left">Requires Small-cap: a; both buffers returned a.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: á; both buffers returned aacute.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: à; both buffers returned agrave.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: b; both buffers returned b.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: d; both buffers returned d.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: e; both buffers returned e.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: é; both buffers returned eacute.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: è; both buffers returned egrave.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ẹ; both buffers returned edotbelow.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: f; both buffers returned f.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: g; both buffers returned g.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: h; both buffers returned h.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: i; both buffers returned i.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: í; both buffers returned iacute.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ì; both buffers returned igrave.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: j; both buffers returned j.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: k; both buffers returned kgreenlandic=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: l; both buffers returned l.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: m; both buffers returned m.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ḿ; both buffers returned macute.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: n; both buffers returned n.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ń; both buffers returned nacute.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǹ; both buffers returned ngrave.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: o; both buffers returned o=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ó; both buffers returned oacute=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ò; both buffers returned ograve=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ọ; both buffers returned odotbelow=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: p; both buffers returned p.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: r; both buffers returned r.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: s; both buffers returned s=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ṣ; both buffers returned sdotbelow=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: t; both buffers returned t.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: u; both buffers returned u.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ú; both buffers returned uacute.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ù; both buffers returned ugrave.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: w; both buffers returned w=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: y; both buffers returned y.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: c; both buffers returned c=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: q; both buffers returned q.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: v; both buffers returned v=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: x; both buffers returned x=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: z; both buffers returned z=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+</div>
+</details>
+
 <details>
     <summary>⚠️ <b>WARN</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
     <div>
@@ -1956,6 +7845,10 @@ definitions.</p>
 
 - Glyph name: imacron	Contours detected: 6	Expected: 2
 
+- Glyph name: Ibreve	Contours detected: 10	Expected: 2
+
+- Glyph name: ibreve	Contours detected: 8	Expected: 2
+
 - Glyph name: Iogonek	Contours detected: 9	Expected: 1 or 2
 
 - Glyph name: iogonek	Contours detected: 8	Expected: 2 or 3
@@ -2012,13 +7905,17 @@ definitions.</p>
 
 - Glyph name: napostrophe	Contours detected: 13	Expected: 2
 
-- Glyph name: Eng	Contours detected: 16	Expected: 1
+- Glyph name: Eng	Contours detected: 14	Expected: 1
 
 - Glyph name: eng	Contours detected: 12	Expected: 1
 
 - Glyph name: Omacron	Contours detected: 13	Expected: 3
 
 - Glyph name: omacron	Contours detected: 9	Expected: 3
+
+- Glyph name: Obreve	Contours detected: 15	Expected: 3
+
+- Glyph name: obreve	Contours detected: 11	Expected: 3
 
 - Glyph name: Ohungarumlaut	Contours detected: 16	Expected: 4
 
@@ -2110,9 +8007,23 @@ definitions.</p>
 
 - Glyph name: zcaron	Contours detected: 8	Expected: 2
 
+- Glyph name: Bhook	Contours detected: 13	Expected: 3
+
+- Glyph name: Oopen	Contours detected: 9	Expected: 1
+
+- Glyph name: Dhook	Contours detected: 14	Expected: 2
+
 - Glyph name: uni018F	Contours detected: 10	Expected: 2
 
-- Glyph name: florin	Contours detected: 9	Expected: 1
+- Glyph name: Eopen	Contours detected: 9	Expected: 1
+
+- Glyph name: florin	Contours detected: 10	Expected: 1
+
+- Glyph name: Khook	Contours detected: 13	Expected: 1
+
+- Glyph name: khook	Contours detected: 11	Expected: 1
+
+- Glyph name: Nhookleft	Contours detected: 17	Expected: 1
 
 - Glyph name: Ohorn	Contours detected: 15	Expected: 2 or 3
 
@@ -2122,41 +8033,49 @@ definitions.</p>
 
 - Glyph name: uhorn	Contours detected: 13	Expected: 1
 
-- Glyph name: uni01CD	Contours detected: 15	Expected: 3
+- Glyph name: Yhook	Contours detected: 12	Expected: 1
 
-- Glyph name: uni01CE	Contours detected: 9	Expected: 3
+- Glyph name: yhook	Contours detected: 14	Expected: 1
 
-- Glyph name: uni01CF	Contours detected: 10	Expected: 2
+- Glyph name: Acaron	Contours detected: 15	Expected: 3
 
-- Glyph name: uni01D0	Contours detected: 8	Expected: 2
+- Glyph name: acaron	Contours detected: 9	Expected: 3
 
-- Glyph name: uni01D1	Contours detected: 15	Expected: 3
+- Glyph name: Icaron	Contours detected: 10	Expected: 2
 
-- Glyph name: uni01D2	Contours detected: 11	Expected: 3
+- Glyph name: icaron	Contours detected: 8	Expected: 2
 
-- Glyph name: uni01D3	Contours detected: 16	Expected: 2
+- Glyph name: Ocaron	Contours detected: 15	Expected: 3
 
-- Glyph name: uni01D4	Contours detected: 13	Expected: 2
+- Glyph name: ocaron	Contours detected: 11	Expected: 3
 
-- Glyph name: uni01D5	Contours detected: 14	Expected: 4
+- Glyph name: Ucaron	Contours detected: 16	Expected: 2
 
-- Glyph name: uni01D6	Contours detected: 13	Expected: 4
+- Glyph name: ucaron	Contours detected: 13	Expected: 2
 
-- Glyph name: uni01D7	Contours detected: 13	Expected: 4
+- Glyph name: Udieresismacron	Contours detected: 14	Expected: 4
 
-- Glyph name: uni01D8	Contours detected: 14	Expected: 4
+- Glyph name: udieresismacron	Contours detected: 13	Expected: 4
 
-- Glyph name: uni01D9	Contours detected: 14	Expected: 4
+- Glyph name: Udieresisacute	Contours detected: 13	Expected: 4
 
-- Glyph name: uni01DA	Contours detected: 15	Expected: 4
+- Glyph name: udieresisacute	Contours detected: 14	Expected: 4
 
-- Glyph name: uni01DB	Contours detected: 13	Expected: 4
+- Glyph name: Udieresiscaron	Contours detected: 14	Expected: 4
 
-- Glyph name: uni01DC	Contours detected: 14	Expected: 4
+- Glyph name: udieresiscaron	Contours detected: 15	Expected: 4
+
+- Glyph name: Udieresisgrave	Contours detected: 13	Expected: 4
+
+- Glyph name: udieresisgrave	Contours detected: 14	Expected: 4
 
 - Glyph name: Gcaron	Contours detected: 14	Expected: 2
 
 - Glyph name: gcaron	Contours detected: 15	Expected: 3 or 4
+
+- Glyph name: Ngrave	Contours detected: 17	Expected: 2
+
+- Glyph name: ngrave	Contours detected: 12	Expected: 2
 
 - Glyph name: Scommaaccent	Contours detected: 11	Expected: 2
 
@@ -2166,6 +8085,10 @@ definitions.</p>
 
 - Glyph name: tcommaaccent	Contours detected: 10	Expected: 2
 
+- Glyph name: Ymacron	Contours detected: 11	Expected: 2
+
+- Glyph name: ymacron	Contours detected: 13	Expected: 2
+
 - Glyph name: jdotless	Contours detected: 8	Expected: 1
 
 - Glyph name: uni0251	Contours detected: 10	Expected: 2
@@ -2174,13 +8097,15 @@ definitions.</p>
 
 - Glyph name: uni0261	Contours detected: 12	Expected: 2
 
+- Glyph name: nhookleft	Contours detected: 12	Expected: 1
+
 - Glyph name: uni02BB	Contours detected: 3	Expected: 1
 
-- Glyph name: uni02BC	Contours detected: 3	Expected: 1
+- Glyph name: apostrophemod	Contours detected: 3	Expected: 1
 
-- Glyph name: uni02BE	Contours detected: 3	Expected: 1
+- Glyph name: ringhalfright	Contours detected: 3	Expected: 1
 
-- Glyph name: uni02BF	Contours detected: 3	Expected: 1
+- Glyph name: ringhalfleft	Contours detected: 3	Expected: 1
 
 - Glyph name: circumflex	Contours detected: 3	Expected: 1
 
@@ -2232,7 +8157,7 @@ definitions.</p>
 
 - Glyph name: ogonekcomb	Contours detected: 2	Expected: 1
 
-- Glyph name: uni032E	Contours detected: 3	Expected: 1
+- Glyph name: brevebelowcomb	Contours detected: 3	Expected: 1
 
 - Glyph name: uni0394	Contours detected: 11	Expected: 2
 
@@ -2244,25 +8169,25 @@ definitions.</p>
 
 - Glyph name: baht	Contours detected: 11	Expected: 3 or 5
 
-- Glyph name: uni1E0C	Contours detected: 13	Expected: 3
+- Glyph name: Ddotbelow	Contours detected: 13	Expected: 3
 
-- Glyph name: uni1E0D	Contours detected: 13	Expected: 3
+- Glyph name: ddotbelow	Contours detected: 13	Expected: 3
 
-- Glyph name: uni1E0E	Contours detected: 13	Expected: 3
+- Glyph name: Dmacronbelow	Contours detected: 13	Expected: 3
 
-- Glyph name: uni1E0F	Contours detected: 13	Expected: 3
+- Glyph name: dmacronbelow	Contours detected: 13	Expected: 3
 
-- Glyph name: uni1E20	Contours detected: 12	Expected: 2
+- Glyph name: Gmacron	Contours detected: 12	Expected: 2
 
-- Glyph name: uni1E21	Contours detected: 13	Expected: 3 or 4
+- Glyph name: gmacron	Contours detected: 13	Expected: 3 or 4
 
-- Glyph name: uni1E24	Contours detected: 14	Expected: 2
+- Glyph name: Hdotbelow	Contours detected: 14	Expected: 2
 
-- Glyph name: uni1E25	Contours detected: 13	Expected: 2
+- Glyph name: hdotbelow	Contours detected: 13	Expected: 2
 
-- Glyph name: uni1E2A	Contours detected: 14	Expected: 2
+- Glyph name: Hbrevebelow	Contours detected: 14	Expected: 2
 
-- Glyph name: uni1E2B	Contours detected: 13	Expected: 2
+- Glyph name: hbrevebelow	Contours detected: 13	Expected: 2
 
 - Glyph name: uni1E36	Contours detected: 8	Expected: 2
 
@@ -2276,13 +8201,17 @@ definitions.</p>
 
 - Glyph name: uni1E3B	Contours detected: 8	Expected: 2
 
+- Glyph name: Macute	Contours detected: 18	Expected: 2
+
+- Glyph name: macute	Contours detected: 15	Expected: 2
+
 - Glyph name: uni1E42	Contours detected: 17	Expected: 2
 
 - Glyph name: uni1E43	Contours detected: 14	Expected: 2
 
-- Glyph name: uni1E44	Contours detected: 16	Expected: 2
+- Glyph name: Ndotaccent	Contours detected: 16	Expected: 2
 
-- Glyph name: uni1E45	Contours detected: 11	Expected: 2
+- Glyph name: ndotaccent	Contours detected: 11	Expected: 2
 
 - Glyph name: uni1E46	Contours detected: 16	Expected: 2
 
@@ -2308,17 +8237,17 @@ definitions.</p>
 
 - Glyph name: uni1E61	Contours detected: 6	Expected: 2
 
-- Glyph name: uni1E62	Contours detected: 10	Expected: 2
+- Glyph name: Sdotbelow	Contours detected: 10	Expected: 2
 
-- Glyph name: uni1E63	Contours detected: 6	Expected: 2
+- Glyph name: sdotbelow	Contours detected: 6	Expected: 2
 
-- Glyph name: uni1E6C	Contours detected: 8	Expected: 2
+- Glyph name: Tdotbelow	Contours detected: 8	Expected: 2
 
-- Glyph name: uni1E6D	Contours detected: 9	Expected: 2
+- Glyph name: tdotbelow	Contours detected: 9	Expected: 2
 
-- Glyph name: uni1E6E	Contours detected: 8	Expected: 2
+- Glyph name: Tmacronbelow	Contours detected: 8	Expected: 2
 
-- Glyph name: uni1E6F	Contours detected: 9	Expected: 2
+- Glyph name: tmacronbelow	Contours detected: 9	Expected: 2
 
 - Glyph name: Wgrave	Contours detected: 19	Expected: 2
 
@@ -2336,11 +8265,11 @@ definitions.</p>
 
 - Glyph name: uni1E8F	Contours detected: 13	Expected: 2
 
-- Glyph name: uni1E92	Contours detected: 8	Expected: 2
+- Glyph name: Zdotbelow	Contours detected: 8	Expected: 2
 
-- Glyph name: uni1E93	Contours detected: 6	Expected: 2
+- Glyph name: zdotbelow	Contours detected: 6	Expected: 2
 
-- Glyph name: uni1E97	Contours detected: 10	Expected: 3
+- Glyph name: tdieresis	Contours detected: 10	Expected: 3
 
 - Glyph name: Germandbls	Contours detected: 13	Expected: 1
 
@@ -2574,7 +8503,7 @@ definitions.</p>
 
 - Glyph name: uni207E	Contours detected: 5	Expected: 1
 
-- Glyph name: uni207F	Contours detected: 7	Expected: 1
+- Glyph name: nmod	Contours detected: 7	Expected: 1
 
 - Glyph name: uni2080	Contours detected: 8	Expected: 2 or 3
 
@@ -2816,7 +8745,7 @@ definitions.</p>
 
 - Glyph name: Emacron	Contours detected: 8	Expected: 2
 
-- Glyph name: Eng	Contours detected: 16	Expected: 1
+- Glyph name: Eng	Contours detected: 14	Expected: 1
 
 - Glyph name: Eogonek	Contours detected: 9	Expected: 1 or 2
 
@@ -2847,6 +8776,8 @@ definitions.</p>
 - Glyph name: IJ	Contours detected: 15	Expected: 1 or 2
 
 - Glyph name: Iacute	Contours detected: 9	Expected: 2
+
+- Glyph name: Ibreve	Contours detected: 10	Expected: 2
 
 - Glyph name: Icircumflex	Contours detected: 10	Expected: 2
 
@@ -3182,6 +9113,8 @@ definitions.</p>
 
 - Glyph name: iacute	Contours detected: 7	Expected: 2
 
+- Glyph name: ibreve	Contours detected: 8	Expected: 2
+
 - Glyph name: icircumflex	Contours detected: 8	Expected: 2
 
 - Glyph name: idieresis	Contours detected: 7	Expected: 3
@@ -3418,38 +9351,6 @@ definitions.</p>
 
 - Glyph name: uni018F	Contours detected: 10	Expected: 2
 
-- Glyph name: uni01CD	Contours detected: 15	Expected: 3
-
-- Glyph name: uni01CE	Contours detected: 9	Expected: 3
-
-- Glyph name: uni01CF	Contours detected: 10	Expected: 2
-
-- Glyph name: uni01D0	Contours detected: 8	Expected: 2
-
-- Glyph name: uni01D1	Contours detected: 15	Expected: 3
-
-- Glyph name: uni01D2	Contours detected: 11	Expected: 3
-
-- Glyph name: uni01D3	Contours detected: 16	Expected: 2
-
-- Glyph name: uni01D4	Contours detected: 13	Expected: 2
-
-- Glyph name: uni01D5	Contours detected: 14	Expected: 4
-
-- Glyph name: uni01D6	Contours detected: 13	Expected: 4
-
-- Glyph name: uni01D7	Contours detected: 13	Expected: 4
-
-- Glyph name: uni01D8	Contours detected: 14	Expected: 4
-
-- Glyph name: uni01D9	Contours detected: 14	Expected: 4
-
-- Glyph name: uni01DA	Contours detected: 15	Expected: 4
-
-- Glyph name: uni01DB	Contours detected: 13	Expected: 4
-
-- Glyph name: uni01DC	Contours detected: 14	Expected: 4
-
 - Glyph name: uni0251	Contours detected: 10	Expected: 2
 
 - Glyph name: uni0259	Contours detected: 6	Expected: 2
@@ -3457,12 +9358,6 @@ definitions.</p>
 - Glyph name: uni0261	Contours detected: 12	Expected: 2
 
 - Glyph name: uni02BB	Contours detected: 3	Expected: 1
-
-- Glyph name: uni02BC	Contours detected: 3	Expected: 1
-
-- Glyph name: uni02BE	Contours detected: 3	Expected: 1
-
-- Glyph name: uni02BF	Contours detected: 3	Expected: 1
 
 - Glyph name: uni02C8	Contours detected: 2	Expected: 1
 
@@ -3472,33 +9367,11 @@ definitions.</p>
 
 - Glyph name: uni02CC	Contours detected: 2	Expected: 1
 
-- Glyph name: uni032E	Contours detected: 3	Expected: 1
-
 - Glyph name: uni0394	Contours detected: 11	Expected: 2
 
 - Glyph name: uni03A9	Contours detected: 13	Expected: 1
 
 - Glyph name: uni03BC	Contours detected: 12	Expected: 1
-
-- Glyph name: uni1E0C	Contours detected: 13	Expected: 3
-
-- Glyph name: uni1E0D	Contours detected: 13	Expected: 3
-
-- Glyph name: uni1E0E	Contours detected: 13	Expected: 3
-
-- Glyph name: uni1E0F	Contours detected: 13	Expected: 3
-
-- Glyph name: uni1E20	Contours detected: 12	Expected: 2
-
-- Glyph name: uni1E21	Contours detected: 13	Expected: 3 or 4
-
-- Glyph name: uni1E24	Contours detected: 14	Expected: 2
-
-- Glyph name: uni1E25	Contours detected: 13	Expected: 2
-
-- Glyph name: uni1E2A	Contours detected: 14	Expected: 2
-
-- Glyph name: uni1E2B	Contours detected: 13	Expected: 2
 
 - Glyph name: uni1E36	Contours detected: 8	Expected: 2
 
@@ -3515,10 +9388,6 @@ definitions.</p>
 - Glyph name: uni1E42	Contours detected: 17	Expected: 2
 
 - Glyph name: uni1E43	Contours detected: 14	Expected: 2
-
-- Glyph name: uni1E44	Contours detected: 16	Expected: 2
-
-- Glyph name: uni1E45	Contours detected: 11	Expected: 2
 
 - Glyph name: uni1E46	Contours detected: 16	Expected: 2
 
@@ -3544,27 +9413,9 @@ definitions.</p>
 
 - Glyph name: uni1E61	Contours detected: 6	Expected: 2
 
-- Glyph name: uni1E62	Contours detected: 10	Expected: 2
-
-- Glyph name: uni1E63	Contours detected: 6	Expected: 2
-
-- Glyph name: uni1E6C	Contours detected: 8	Expected: 2
-
-- Glyph name: uni1E6D	Contours detected: 9	Expected: 2
-
-- Glyph name: uni1E6E	Contours detected: 8	Expected: 2
-
-- Glyph name: uni1E6F	Contours detected: 9	Expected: 2
-
 - Glyph name: uni1E8E	Contours detected: 11	Expected: 2
 
 - Glyph name: uni1E8F	Contours detected: 13	Expected: 2
-
-- Glyph name: uni1E92	Contours detected: 8	Expected: 2
-
-- Glyph name: uni1E93	Contours detected: 6	Expected: 2
-
-- Glyph name: uni1E97	Contours detected: 10	Expected: 3
 
 - Glyph name: uni2117	Contours detected: 19	Expected: 3 or 4
 
@@ -3636,7 +9487,7 @@ definitions.</p>
 * ⚠️ **WARN** <p>The most common width is 600 among a set of 9 math glyphs.
 The following math glyphs have a different width, though:</p>
 <p>Width = 400:
-greaterequal, greater, lessequal, less</p>
+greater, greaterequal, lessequal, less</p>
  [code: width-outliers]
 
 
@@ -3681,29 +9532,31 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, coptic, cherokee</li>
-<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: syriac, duployan, tifinagh, math, tai-le, hebrew, canadian-aboriginal, old-permic, todhri, coptic, malayalam</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, cherokee, coptic, math</li>
+<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, old-permic, todhri, tifinagh, coptic, malayalam, canadian-aboriginal, math, syriac, duployan, tai-le</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
+<li>U+030D COMBINING VERTICAL LINE ABOVE: try adding sunuwar</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+0315 COMBINING COMMA ABOVE RIGHT: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
-<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: syriac, duployan, cherokee</li>
+<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: duployan, cherokee, syriac</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: syriac, gothic, caucasian-albanian, tifinagh, sunuwar, cherokee, thai</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: thai, sunuwar, tifinagh, gothic, cherokee, syriac, caucasian-albanian</li>
+<li>U+0358 COMBINING DOT ABOVE RIGHT: try adding osage</li>
 <li>U+0394 GREEK CAPITAL LETTER DELTA: try adding one of: elbasan, math, greek</li>
 <li>U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: elbasan, math, greek</li>
 <li>U+03BC GREEK SMALL LETTER MU: try adding one of: math, greek</li>
 <li>U+03C0 GREEK SMALL LETTER PI: try adding one of: yi, math, greek</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+2007 FIGURE SPACE: try adding symbols2</li>
-<li>U+2010 HYPHEN: try adding one of: lisu, syloti-nagri, arabic, sora-sompeng, armenian, kaithi, sundanese, kayah-li, yi, hebrew, kharoshthi, cham, coptic</li>
-<li>U+2011 NON-BREAKING HYPHEN: try adding one of: yi, syloti-nagri, arabic</li>
+<li>U+2010 HYPHEN: try adding one of: yi, hebrew, sora-sompeng, lisu, sundanese, syloti-nagri, coptic, arabic, armenian, kharoshthi, kaithi, kayah-li, cham</li>
+<li>U+2011 NON-BREAKING HYPHEN: try adding one of: arabic, yi, syloti-nagri</li>
 <li>U+2012 FIGURE DASH: not included in any glyphset definition</li>
 <li>U+2015 HORIZONTAL BAR: try adding adlam</li>
 <li>U+2016 DOUBLE VERTICAL LINE: try adding math</li>
@@ -3741,20 +9594,20 @@ definitions.</p>
 <li>U+215C VULGAR FRACTION THREE EIGHTHS: try adding symbols</li>
 <li>U+215D VULGAR FRACTION FIVE EIGHTHS: try adding symbols</li>
 <li>U+215E VULGAR FRACTION SEVEN EIGHTHS: try adding symbols</li>
-<li>U+2190 LEFTWARDS ARROW: try adding one of: symbols, math</li>
-<li>U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math</li>
-<li>U+2194 LEFT RIGHT ARROW: try adding one of: symbols, math</li>
-<li>U+2195 UP DOWN ARROW: try adding one of: symbols, math</li>
-<li>U+2196 NORTH WEST ARROW: try adding one of: symbols, math</li>
-<li>U+2197 NORTH EAST ARROW: try adding one of: symbols, math</li>
-<li>U+2198 SOUTH EAST ARROW: try adding one of: symbols, math</li>
-<li>U+2199 SOUTH WEST ARROW: try adding one of: symbols, math</li>
+<li>U+2190 LEFTWARDS ARROW: try adding one of: math, symbols</li>
+<li>U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols</li>
+<li>U+2194 LEFT RIGHT ARROW: try adding one of: math, symbols</li>
+<li>U+2195 UP DOWN ARROW: try adding one of: math, symbols</li>
+<li>U+2196 NORTH WEST ARROW: try adding one of: math, symbols</li>
+<li>U+2197 NORTH EAST ARROW: try adding one of: math, symbols</li>
+<li>U+2198 SOUTH EAST ARROW: try adding one of: math, symbols</li>
+<li>U+2199 SOUTH WEST ARROW: try adding one of: math, symbols</li>
 <li>U+2202 PARTIAL DIFFERENTIAL: try adding math</li>
 <li>U+2205 EMPTY SET: try adding math</li>
 <li>U+2206 INCREMENT: try adding math</li>
 <li>U+220F N-ARY PRODUCT: try adding math</li>
 <li>U+2211 N-ARY SUMMATION: try adding math</li>
-<li>U+2219 BULLET OPERATOR: try adding one of: symbols, yi, math, tai-tham</li>
+<li>U+2219 BULLET OPERATOR: try adding one of: tai-tham, yi, math, symbols</li>
 <li>U+221A SQUARE ROOT: try adding math</li>
 <li>U+221E INFINITY: try adding math</li>
 <li>U+222B INTEGRAL: try adding math</li>
@@ -3774,26 +9627,26 @@ definitions.</p>
 <li>U+25AA BLACK SMALL SQUARE: try adding symbols</li>
 <li>U+25AB WHITE SMALL SQUARE: try adding symbols</li>
 <li>U+25B2 BLACK UP-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25B3 WHITE UP-POINTING TRIANGLE: try adding one of: symbols, math</li>
+<li>U+25B3 WHITE UP-POINTING TRIANGLE: try adding one of: math, symbols</li>
 <li>U+25B4 BLACK UP-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25B5 WHITE UP-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25B6 BLACK RIGHT-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25B7 WHITE RIGHT-POINTING TRIANGLE: try adding one of: symbols, math</li>
+<li>U+25B7 WHITE RIGHT-POINTING TRIANGLE: try adding one of: math, symbols</li>
 <li>U+25B8 BLACK RIGHT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25B9 WHITE RIGHT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25BC BLACK DOWN-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25BD WHITE DOWN-POINTING TRIANGLE: try adding one of: symbols, math</li>
+<li>U+25BD WHITE DOWN-POINTING TRIANGLE: try adding one of: math, symbols</li>
 <li>U+25BE BLACK DOWN-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25BF WHITE DOWN-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25C0 BLACK LEFT-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: symbols, math</li>
+<li>U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: math, symbols</li>
 <li>U+25C2 BLACK LEFT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25C3 WHITE LEFT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25C6 BLACK DIAMOND: try adding symbols</li>
 <li>U+25C7 WHITE DIAMOND: try adding symbols</li>
-<li>U+25CA LOZENGE: try adding one of: symbols, math</li>
+<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
 <li>U+25CB WHITE CIRCLE: try adding symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: siddham, marchen, yi, ahom, brahmi, hanifi-rohingya, newa, balinese, caucasian-albanian, bhaiksuki, khmer, duployan, armenian, limbu, kaithi, math, wancho, gunjala-gondi, tagbanwa, buhid, tamil, kayah-li, chakma, adlam, thaana, gurmukhi, tai-tham, tai-viet, sogdian, tifinagh, buginese, nko, music, rejang, tibetan, manichaean, phags-pa, elbasan, meetei-mayek, bengali, malayalam, warang-citi, mahajani, soyombo, oriya, takri, devanagari, kharoshthi, old-permic, psalter-pahlavi, osage, pahawh-hmong, khudawadi, tai-le, sinhala, gujarati, tirhuta, miao, thai, kannada, masaram-gondi, khojki, myanmar, canadian-aboriginal, sundanese, coptic, bassa-vah, zanabazar-square, new-tai-lue, hanunoo, modi, javanese, syriac, dogra, lepcha, lao, saurashtra, syloti-nagri, symbols, sharada, telugu, hebrew, mandaic, mongolian, grantha, tagalog, mende-kikakui, batak, cham</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: gujarati, syloti-nagri, canadian-aboriginal, lepcha, tai-tham, sogdian, mende-kikakui, mandaic, tai-viet, syriac, bengali, saurashtra, grantha, takri, tirhuta, malayalam, phags-pa, gunjala-gondi, batak, khudawadi, soyombo, armenian, tai-le, wancho, khojki, buhid, tifinagh, kharoshthi, kaithi, sinhala, newa, zanabazar-square, psalter-pahlavi, masaram-gondi, sharada, myanmar, kannada, yi, tamil, warang-citi, bassa-vah, balinese, thaana, khmer, osage, brahmi, buginese, duployan, rejang, thai, mahajani, music, elbasan, nko, manichaean, oriya, chakma, devanagari, old-permic, mongolian, math, ahom, hanunoo, siddham, hanifi-rohingya, meetei-mayek, bhaiksuki, javanese, tagbanwa, symbols, adlam, hebrew, telugu, miao, caucasian-albanian, cham, pahawh-hmong, tibetan, lao, marchen, gurmukhi, limbu, modi, dogra, sundanese, coptic, new-tai-lue, tagalog, kayah-li</li>
 <li>U+25CF BLACK CIRCLE: try adding symbols</li>
 <li>U+25E6 WHITE BULLET: try adding symbols</li>
 <li>U+27E8 MATHEMATICAL LEFT ANGLE BRACKET: try adding math</li>
@@ -3829,8 +9682,1607 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[5] MatrixSansScreenSC-Regular.ttf</summary>
+<details><summary>[6] MatrixSansScreenSC-Regular.ttf</summary>
 <div>
+<details>
+    <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">af_Latn (Afrikaans)</td>
+<td align="left">Requires Small-cap: a; both buffers returned a.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: á; both buffers returned aacute.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ä; both buffers returned adieresis.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: b; both buffers returned b.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: c; both buffers returned c=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: d; both buffers returned d.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: e; both buffers returned e.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: é; both buffers returned eacute.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: è; both buffers returned egrave.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ê; both buffers returned ecircumflex.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ë; both buffers returned edieresis.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: f; both buffers returned f.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: g; both buffers returned g.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: h; both buffers returned h.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: i; both buffers returned i.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: í; both buffers returned iacute.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: î; both buffers returned icircumflex.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ï; both buffers returned idieresis.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: j; both buffers returned j.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: k; both buffers returned kgreenlandic=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: l; both buffers returned l.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: m; both buffers returned m.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: n; both buffers returned n.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: o; both buffers returned o=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ó; both buffers returned oacute=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ò; both buffers returned ograve=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ô; both buffers returned ocircumflex=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ö; both buffers returned odieresis=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: p; both buffers returned p.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: q; both buffers returned q.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: r; both buffers returned r.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: s; both buffers returned s=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: t; both buffers returned t.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: u; both buffers returned u.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ú; both buffers returned uacute.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: û; both buffers returned ucircumflex.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ü; both buffers returned udieresis.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: v; both buffers returned v=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: w; both buffers returned w=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: x; both buffers returned x=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: y; both buffers returned y.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ý; both buffers returned yacute.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: z; both buffers returned z=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: à; both buffers returned agrave.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: â; both buffers returned acircumflex.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: å; both buffers returned aring.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ã; both buffers returned atilde.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: æ; both buffers returned ae.sc=0+800</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: œ; both buffers returned oe.sc=0+800</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ç; both buffers returned ccedilla=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ì; both buffers returned igrave.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ñ; both buffers returned ntilde.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ù; both buffers returned ugrave.sc=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">bm_Latn (Bambara)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: a; both buffers returned a.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: b; both buffers returned b.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: c; both buffers returned c=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: d; both buffers returned d.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: e; both buffers returned e.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned eopen=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: f; both buffers returned f.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: g; both buffers returned g.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: h; both buffers returned h.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: i; both buffers returned i.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: j; both buffers returned j.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: k; both buffers returned kgreenlandic=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: l; both buffers returned l.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: m; both buffers returned m.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: n; both buffers returned n.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɲ; both buffers returned nhookleft.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ŋ; both buffers returned eng.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: o; both buffers returned o=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned oopen=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: p; both buffers returned p.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: r; both buffers returned r.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: s; both buffers returned s=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: t; both buffers returned t.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: u; both buffers returned u.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: w; both buffers returned w=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: y; both buffers returned y.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: z; both buffers returned z=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: q; both buffers returned q.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: v; both buffers returned v=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: x; both buffers returned x=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">dyu_Latn (Dyula)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: a; both buffers returned a.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: b; both buffers returned b.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: c; both buffers returned c=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: d; both buffers returned d.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: e; both buffers returned e.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned eopen=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: f; both buffers returned f.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: g; both buffers returned g.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: h; both buffers returned h.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: i; both buffers returned i.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: j; both buffers returned j.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: k; both buffers returned kgreenlandic=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: l; both buffers returned l.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: m; both buffers returned m.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: n; both buffers returned n.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɲ; both buffers returned nhookleft.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ŋ; both buffers returned eng.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: o; both buffers returned o=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned oopen=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: p; both buffers returned p.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: r; both buffers returned r.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: s; both buffers returned s=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: t; both buffers returned t.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: u; both buffers returned u.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: v; both buffers returned v=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: w; both buffers returned w=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: y; both buffers returned y.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: z; both buffers returned z=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">ha_Latn (Hausa)</td>
+<td align="left">Requires Small-cap: a; both buffers returned a.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: b; both buffers returned b.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɓ; both buffers returned bhook.sc=0+700</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: c; both buffers returned c=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: d; both buffers returned d.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɗ; both buffers returned dhook.sc=0+700</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: e; both buffers returned e.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: f; both buffers returned f.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: g; both buffers returned g.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: h; both buffers returned h.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: i; both buffers returned i.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: j; both buffers returned j.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: k; both buffers returned kgreenlandic=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ƙ; both buffers returned khook.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: l; both buffers returned l.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: m; both buffers returned m.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: n; both buffers returned n.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: o; both buffers returned o=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: r; both buffers returned r.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: s; both buffers returned s=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: t; both buffers returned t.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: u; both buffers returned u.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: w; both buffers returned w=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: y; both buffers returned y.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ƴ; both buffers returned yhook.sc=0+700</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: z; both buffers returned z=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: á; both buffers returned aacute.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: à; both buffers returned agrave.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: â; both buffers returned acircumflex.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: é; both buffers returned eacute.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: è; both buffers returned egrave.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ê; both buffers returned ecircumflex.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: í; both buffers returned iacute.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ì; both buffers returned igrave.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: î; both buffers returned icircumflex.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ó; both buffers returned oacute=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ò; both buffers returned ograve=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ô; both buffers returned ocircumflex=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: p; both buffers returned p.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: q; both buffers returned q.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ú; both buffers returned uacute.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ù; both buffers returned ugrave.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: û; both buffers returned ucircumflex.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: v; both buffers returned v=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: x; both buffers returned x=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">ig_Latn (Igbo)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: a; both buffers returned a.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: b; both buffers returned b.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: d; both buffers returned d.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: e; both buffers returned e.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ẹ; both buffers returned edotbelow.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: f; both buffers returned f.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: g; both buffers returned g.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: h; both buffers returned h.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: i; both buffers returned i.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ị; both buffers returned idotbelow.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: j; both buffers returned j.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: k; both buffers returned kgreenlandic=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: l; both buffers returned l.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: m; both buffers returned m.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: n; both buffers returned n.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ṅ; both buffers returned ndotaccent.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: o; both buffers returned o=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ọ; both buffers returned odotbelow=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: p; both buffers returned p.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: r; both buffers returned r.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: s; both buffers returned s=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: t; both buffers returned t.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: u; both buffers returned u.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ụ; both buffers returned udotbelow.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: v; both buffers returned v=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: w; both buffers returned w=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: y; both buffers returned y.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: z; both buffers returned z=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: á; both buffers returned aacute.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: à; both buffers returned agrave.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ā; both buffers returned amacron.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: c; both buffers returned c=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: é; both buffers returned eacute.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: è; both buffers returned egrave.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ē; both buffers returned emacron.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: í; both buffers returned iacute.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ì; both buffers returned igrave.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ī; both buffers returned imacron.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ḿ; both buffers returned macute.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ń; both buffers returned nacute.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǹ; both buffers returned ngrave.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ó; both buffers returned oacute=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ò; both buffers returned ograve=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ō; both buffers returned omacron=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: q; both buffers returned q.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ú; both buffers returned uacute.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ù; both buffers returned ugrave.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ū; both buffers returned umacron.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: x; both buffers returned x=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned eopen=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɵ; both buffers returned .notdef=0+601</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ŋ; both buffers returned eng.sc=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">lg_Latn (Ganda)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: a; both buffers returned a.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: b; both buffers returned b.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: c; both buffers returned c=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: d; both buffers returned d.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: e; both buffers returned e.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: f; both buffers returned f.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: g; both buffers returned g.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: i; both buffers returned i.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: j; both buffers returned j.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: k; both buffers returned kgreenlandic=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: l; both buffers returned l.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: m; both buffers returned m.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: n; both buffers returned n.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ŋ; both buffers returned eng.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: o; both buffers returned o=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: p; both buffers returned p.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: r; both buffers returned r.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: s; both buffers returned s=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: t; both buffers returned t.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: u; both buffers returned u.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: v; both buffers returned v=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: w; both buffers returned w=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: y; both buffers returned y.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: z; both buffers returned z=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: h; both buffers returned h.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: q; both buffers returned q.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: x; both buffers returned x=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">om_Latn (Oromo)</td>
+<td align="left">Requires Small-cap: a; both buffers returned a.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: b; both buffers returned b.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: c; both buffers returned c=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: d; both buffers returned d.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: e; both buffers returned e.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: f; both buffers returned f.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: g; both buffers returned g.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: h; both buffers returned h.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: i; both buffers returned i.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: j; both buffers returned j.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: k; both buffers returned kgreenlandic=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: l; both buffers returned l.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: m; both buffers returned m.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: n; both buffers returned n.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: o; both buffers returned o=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: p; both buffers returned p.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: q; both buffers returned q.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: r; both buffers returned r.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: s; both buffers returned s=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: t; both buffers returned t.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: u; both buffers returned u.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: v; both buffers returned v=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: w; both buffers returned w=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: x; both buffers returned x=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: y; both buffers returned y.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: z; both buffers returned z=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">sw_Latn (Swahili)</td>
+<td align="left">Requires Small-cap: a; both buffers returned a.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: b; both buffers returned b.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: d; both buffers returned d.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: e; both buffers returned e.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: f; both buffers returned f.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: g; both buffers returned g.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: h; both buffers returned h.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: i; both buffers returned i.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: j; both buffers returned j.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: k; both buffers returned kgreenlandic=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: l; both buffers returned l.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: m; both buffers returned m.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: n; both buffers returned n.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: o; both buffers returned o=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: p; both buffers returned p.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: r; both buffers returned r.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: s; both buffers returned s=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: t; both buffers returned t.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: u; both buffers returned u.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: v; both buffers returned v=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: w; both buffers returned w=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: y; both buffers returned y.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: z; both buffers returned z=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: c; both buffers returned c=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: q; both buffers returned q.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: x; both buffers returned x=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">xh_Latn (Xhosa)</td>
+<td align="left">Requires Small-cap: a; both buffers returned a.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: b; both buffers returned b.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: c; both buffers returned c=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: d; both buffers returned d.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: e; both buffers returned e.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: f; both buffers returned f.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: g; both buffers returned g.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: h; both buffers returned h.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: i; both buffers returned i.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: j; both buffers returned j.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: k; both buffers returned kgreenlandic=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: l; both buffers returned l.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: m; both buffers returned m.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: n; both buffers returned n.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: o; both buffers returned o=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: p; both buffers returned p.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: q; both buffers returned q.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: r; both buffers returned r.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: s; both buffers returned s=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: t; both buffers returned t.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: u; both buffers returned u.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: v; both buffers returned v=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: w; both buffers returned w=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: x; both buffers returned x=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: y; both buffers returned y.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: z; both buffers returned z=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">yo_Latn (Yoruba)</td>
+<td align="left">Requires Small-cap: a; both buffers returned a.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: á; both buffers returned aacute.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: à; both buffers returned agrave.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: b; both buffers returned b.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: d; both buffers returned d.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: e; both buffers returned e.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: é; both buffers returned eacute.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: è; both buffers returned egrave.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ẹ; both buffers returned edotbelow.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: f; both buffers returned f.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: g; both buffers returned g.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: h; both buffers returned h.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: i; both buffers returned i.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: í; both buffers returned iacute.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ì; both buffers returned igrave.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: j; both buffers returned j.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: k; both buffers returned kgreenlandic=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: l; both buffers returned l.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: m; both buffers returned m.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ḿ; both buffers returned macute.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: n; both buffers returned n.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ń; both buffers returned nacute.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǹ; both buffers returned ngrave.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: o; both buffers returned o=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ó; both buffers returned oacute=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ò; both buffers returned ograve=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ọ; both buffers returned odotbelow=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: p; both buffers returned p.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: r; both buffers returned r.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: s; both buffers returned s=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ṣ; both buffers returned sdotbelow=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: t; both buffers returned t.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: u; both buffers returned u.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ú; both buffers returned uacute.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ù; both buffers returned ugrave.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: w; both buffers returned w=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: y; both buffers returned y.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: c; both buffers returned c=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: q; both buffers returned q.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: v; both buffers returned v=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: x; both buffers returned x=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: z; both buffers returned z=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+</div>
+</details>
+
 <details>
     <summary>⚠️ <b>WARN</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
     <div>
@@ -4299,6 +11751,10 @@ definitions.</p>
 
 - Glyph name: imacron	Contours detected: 11	Expected: 2
 
+- Glyph name: Ibreve	Contours detected: 16	Expected: 2
+
+- Glyph name: ibreve	Contours detected: 13	Expected: 2
+
 - Glyph name: Iogonek	Contours detected: 14	Expected: 1 or 2
 
 - Glyph name: iogonek	Contours detected: 12	Expected: 2 or 3
@@ -4355,13 +11811,17 @@ definitions.</p>
 
 - Glyph name: napostrophe	Contours detected: 15	Expected: 2
 
-- Glyph name: Eng	Contours detected: 19	Expected: 1
+- Glyph name: Eng	Contours detected: 16	Expected: 1
 
-- Glyph name: eng	Contours detected: 15	Expected: 1
+- Glyph name: eng	Contours detected: 14	Expected: 1
 
 - Glyph name: Omacron	Contours detected: 19	Expected: 3
 
 - Glyph name: omacron	Contours detected: 15	Expected: 3
+
+- Glyph name: Obreve	Contours detected: 21	Expected: 3
+
+- Glyph name: obreve	Contours detected: 17	Expected: 3
 
 - Glyph name: Ohungarumlaut	Contours detected: 20	Expected: 4
 
@@ -4453,9 +11913,23 @@ definitions.</p>
 
 - Glyph name: zcaron	Contours detected: 16	Expected: 2
 
+- Glyph name: Bhook	Contours detected: 20	Expected: 3
+
+- Glyph name: Oopen	Contours detected: 13	Expected: 1
+
+- Glyph name: Dhook	Contours detected: 17	Expected: 2
+
 - Glyph name: uni018F	Contours detected: 18	Expected: 2
 
+- Glyph name: Eopen	Contours detected: 15	Expected: 1
+
 - Glyph name: florin	Contours detected: 14	Expected: 1
+
+- Glyph name: Khook	Contours detected: 14	Expected: 1
+
+- Glyph name: khook	Contours detected: 13	Expected: 1
+
+- Glyph name: Nhookleft	Contours detected: 19	Expected: 1
 
 - Glyph name: Ohorn	Contours detected: 19	Expected: 2 or 3
 
@@ -4465,41 +11939,49 @@ definitions.</p>
 
 - Glyph name: uhorn	Contours detected: 15	Expected: 1
 
-- Glyph name: uni01CD	Contours detected: 19	Expected: 3
+- Glyph name: Yhook	Contours detected: 12	Expected: 1
 
-- Glyph name: uni01CE	Contours detected: 17	Expected: 3
+- Glyph name: yhook	Contours detected: 18	Expected: 1
 
-- Glyph name: uni01CF	Contours detected: 14	Expected: 2
+- Glyph name: Acaron	Contours detected: 19	Expected: 3
 
-- Glyph name: uni01D0	Contours detected: 11	Expected: 2
+- Glyph name: acaron	Contours detected: 17	Expected: 3
 
-- Glyph name: uni01D1	Contours detected: 19	Expected: 3
+- Glyph name: Icaron	Contours detected: 14	Expected: 2
 
-- Glyph name: uni01D2	Contours detected: 15	Expected: 3
+- Glyph name: icaron	Contours detected: 11	Expected: 2
 
-- Glyph name: uni01D3	Contours detected: 18	Expected: 2
+- Glyph name: Ocaron	Contours detected: 19	Expected: 3
 
-- Glyph name: uni01D4	Contours detected: 15	Expected: 2
+- Glyph name: ocaron	Contours detected: 15	Expected: 3
 
-- Glyph name: uni01D5	Contours detected: 18	Expected: 4
+- Glyph name: Ucaron	Contours detected: 18	Expected: 2
 
-- Glyph name: uni01D6	Contours detected: 17	Expected: 4
+- Glyph name: ucaron	Contours detected: 15	Expected: 2
 
-- Glyph name: uni01D7	Contours detected: 15	Expected: 4
+- Glyph name: Udieresismacron	Contours detected: 18	Expected: 4
 
-- Glyph name: uni01D8	Contours detected: 16	Expected: 4
+- Glyph name: udieresismacron	Contours detected: 17	Expected: 4
 
-- Glyph name: uni01D9	Contours detected: 16	Expected: 4
+- Glyph name: Udieresisacute	Contours detected: 15	Expected: 4
 
-- Glyph name: uni01DA	Contours detected: 17	Expected: 4
+- Glyph name: udieresisacute	Contours detected: 16	Expected: 4
 
-- Glyph name: uni01DB	Contours detected: 15	Expected: 4
+- Glyph name: Udieresiscaron	Contours detected: 16	Expected: 4
 
-- Glyph name: uni01DC	Contours detected: 16	Expected: 4
+- Glyph name: udieresiscaron	Contours detected: 17	Expected: 4
+
+- Glyph name: Udieresisgrave	Contours detected: 15	Expected: 4
+
+- Glyph name: udieresisgrave	Contours detected: 16	Expected: 4
 
 - Glyph name: Gcaron	Contours detected: 20	Expected: 2
 
 - Glyph name: gcaron	Contours detected: 21	Expected: 3 or 4
+
+- Glyph name: Ngrave	Contours detected: 19	Expected: 2
+
+- Glyph name: ngrave	Contours detected: 14	Expected: 2
 
 - Glyph name: Scommaaccent	Contours detected: 17	Expected: 2
 
@@ -4509,6 +11991,10 @@ definitions.</p>
 
 - Glyph name: tcommaaccent	Contours detected: 14	Expected: 2
 
+- Glyph name: Ymacron	Contours detected: 13	Expected: 2
+
+- Glyph name: ymacron	Contours detected: 19	Expected: 2
+
 - Glyph name: jdotless	Contours detected: 10	Expected: 1
 
 - Glyph name: uni0251	Contours detected: 14	Expected: 2
@@ -4517,13 +12003,15 @@ definitions.</p>
 
 - Glyph name: uni0261	Contours detected: 18	Expected: 2
 
+- Glyph name: nhookleft	Contours detected: 14	Expected: 1
+
 - Glyph name: uni02BB	Contours detected: 3	Expected: 1
 
-- Glyph name: uni02BC	Contours detected: 3	Expected: 1
+- Glyph name: apostrophemod	Contours detected: 3	Expected: 1
 
-- Glyph name: uni02BE	Contours detected: 3	Expected: 1
+- Glyph name: ringhalfright	Contours detected: 3	Expected: 1
 
-- Glyph name: uni02BF	Contours detected: 3	Expected: 1
+- Glyph name: ringhalfleft	Contours detected: 3	Expected: 1
 
 - Glyph name: circumflex	Contours detected: 3	Expected: 1
 
@@ -4579,9 +12067,9 @@ definitions.</p>
 
 - Glyph name: ogonekcomb	Contours detected: 3	Expected: 1
 
-- Glyph name: uni032E	Contours detected: 5	Expected: 1
+- Glyph name: brevebelowcomb	Contours detected: 5	Expected: 1
 
-- Glyph name: uni0331	Contours detected: 3	Expected: 1
+- Glyph name: macronbelowcomb	Contours detected: 3	Expected: 1
 
 - Glyph name: uni0394	Contours detected: 15	Expected: 2
 
@@ -4593,25 +12081,25 @@ definitions.</p>
 
 - Glyph name: baht	Contours detected: 20	Expected: 3 or 5
 
-- Glyph name: uni1E0C	Contours detected: 17	Expected: 3
+- Glyph name: Ddotbelow	Contours detected: 17	Expected: 3
 
-- Glyph name: uni1E0D	Contours detected: 17	Expected: 3
+- Glyph name: ddotbelow	Contours detected: 17	Expected: 3
 
-- Glyph name: uni1E0E	Contours detected: 19	Expected: 3
+- Glyph name: Dmacronbelow	Contours detected: 19	Expected: 3
 
-- Glyph name: uni1E0F	Contours detected: 19	Expected: 3
+- Glyph name: dmacronbelow	Contours detected: 19	Expected: 3
 
-- Glyph name: uni1E20	Contours detected: 20	Expected: 2
+- Glyph name: Gmacron	Contours detected: 20	Expected: 2
 
-- Glyph name: uni1E21	Contours detected: 21	Expected: 3 or 4
+- Glyph name: gmacron	Contours detected: 21	Expected: 3 or 4
 
-- Glyph name: uni1E24	Contours detected: 18	Expected: 2
+- Glyph name: Hdotbelow	Contours detected: 18	Expected: 2
 
-- Glyph name: uni1E25	Contours detected: 15	Expected: 2
+- Glyph name: hdotbelow	Contours detected: 15	Expected: 2
 
-- Glyph name: uni1E2A	Contours detected: 20	Expected: 2
+- Glyph name: Hbrevebelow	Contours detected: 20	Expected: 2
 
-- Glyph name: uni1E2B	Contours detected: 17	Expected: 2
+- Glyph name: hbrevebelow	Contours detected: 17	Expected: 2
 
 - Glyph name: uni1E36	Contours detected: 12	Expected: 2
 
@@ -4625,13 +12113,17 @@ definitions.</p>
 
 - Glyph name: uni1E3B	Contours detected: 13	Expected: 2
 
+- Glyph name: Macute	Contours detected: 20	Expected: 2
+
+- Glyph name: macute	Contours detected: 16	Expected: 2
+
 - Glyph name: uni1E42	Contours detected: 19	Expected: 2
 
 - Glyph name: uni1E43	Contours detected: 15	Expected: 2
 
-- Glyph name: uni1E44	Contours detected: 18	Expected: 2
+- Glyph name: Ndotaccent	Contours detected: 18	Expected: 2
 
-- Glyph name: uni1E45	Contours detected: 13	Expected: 2
+- Glyph name: ndotaccent	Contours detected: 13	Expected: 2
 
 - Glyph name: uni1E46	Contours detected: 18	Expected: 2
 
@@ -4657,17 +12149,17 @@ definitions.</p>
 
 - Glyph name: uni1E61	Contours detected: 14	Expected: 2
 
-- Glyph name: uni1E62	Contours detected: 16	Expected: 2
+- Glyph name: Sdotbelow	Contours detected: 16	Expected: 2
 
-- Glyph name: uni1E63	Contours detected: 14	Expected: 2
+- Glyph name: sdotbelow	Contours detected: 14	Expected: 2
 
-- Glyph name: uni1E6C	Contours detected: 12	Expected: 2
+- Glyph name: Tdotbelow	Contours detected: 12	Expected: 2
 
-- Glyph name: uni1E6D	Contours detected: 13	Expected: 2
+- Glyph name: tdotbelow	Contours detected: 13	Expected: 2
 
-- Glyph name: uni1E6E	Contours detected: 14	Expected: 2
+- Glyph name: Tmacronbelow	Contours detected: 14	Expected: 2
 
-- Glyph name: uni1E6F	Contours detected: 15	Expected: 2
+- Glyph name: tmacronbelow	Contours detected: 15	Expected: 2
 
 - Glyph name: Wgrave	Contours detected: 19	Expected: 2
 
@@ -4685,11 +12177,11 @@ definitions.</p>
 
 - Glyph name: uni1E8F	Contours detected: 17	Expected: 2
 
-- Glyph name: uni1E92	Contours detected: 16	Expected: 2
+- Glyph name: Zdotbelow	Contours detected: 16	Expected: 2
 
-- Glyph name: uni1E93	Contours detected: 14	Expected: 2
+- Glyph name: zdotbelow	Contours detected: 14	Expected: 2
 
-- Glyph name: uni1E97	Contours detected: 14	Expected: 3
+- Glyph name: tdieresis	Contours detected: 14	Expected: 3
 
 - Glyph name: Germandbls	Contours detected: 18	Expected: 1
 
@@ -4935,7 +12427,7 @@ definitions.</p>
 
 - Glyph name: uni207E	Contours detected: 5	Expected: 1
 
-- Glyph name: uni207F	Contours detected: 8	Expected: 1
+- Glyph name: nmod	Contours detected: 8	Expected: 1
 
 - Glyph name: uni2080	Contours detected: 8	Expected: 2 or 3
 
@@ -5179,7 +12671,7 @@ definitions.</p>
 
 - Glyph name: Emacron	Contours detected: 21	Expected: 2
 
-- Glyph name: Eng	Contours detected: 19	Expected: 1
+- Glyph name: Eng	Contours detected: 16	Expected: 1
 
 - Glyph name: Eogonek	Contours detected: 21	Expected: 1 or 2
 
@@ -5210,6 +12702,8 @@ definitions.</p>
 - Glyph name: IJ	Contours detected: 15	Expected: 1 or 2
 
 - Glyph name: Iacute	Contours detected: 13	Expected: 2
+
+- Glyph name: Ibreve	Contours detected: 16	Expected: 2
 
 - Glyph name: Icircumflex	Contours detected: 14	Expected: 2
 
@@ -5493,7 +12987,7 @@ definitions.</p>
 
 - Glyph name: endash	Contours detected: 5	Expected: 1
 
-- Glyph name: eng	Contours detected: 15	Expected: 1
+- Glyph name: eng	Contours detected: 14	Expected: 1
 
 - Glyph name: eogonek	Contours detected: 17	Expected: 2
 
@@ -5556,6 +13050,8 @@ definitions.</p>
 - Glyph name: i	Contours detected: 9	Expected: 2
 
 - Glyph name: iacute	Contours detected: 10	Expected: 2
+
+- Glyph name: ibreve	Contours detected: 13	Expected: 2
 
 - Glyph name: icircumflex	Contours detected: 11	Expected: 2
 
@@ -5799,38 +13295,6 @@ definitions.</p>
 
 - Glyph name: uni018F	Contours detected: 18	Expected: 2
 
-- Glyph name: uni01CD	Contours detected: 19	Expected: 3
-
-- Glyph name: uni01CE	Contours detected: 17	Expected: 3
-
-- Glyph name: uni01CF	Contours detected: 14	Expected: 2
-
-- Glyph name: uni01D0	Contours detected: 11	Expected: 2
-
-- Glyph name: uni01D1	Contours detected: 19	Expected: 3
-
-- Glyph name: uni01D2	Contours detected: 15	Expected: 3
-
-- Glyph name: uni01D3	Contours detected: 18	Expected: 2
-
-- Glyph name: uni01D4	Contours detected: 15	Expected: 2
-
-- Glyph name: uni01D5	Contours detected: 18	Expected: 4
-
-- Glyph name: uni01D6	Contours detected: 17	Expected: 4
-
-- Glyph name: uni01D7	Contours detected: 15	Expected: 4
-
-- Glyph name: uni01D8	Contours detected: 16	Expected: 4
-
-- Glyph name: uni01D9	Contours detected: 16	Expected: 4
-
-- Glyph name: uni01DA	Contours detected: 17	Expected: 4
-
-- Glyph name: uni01DB	Contours detected: 15	Expected: 4
-
-- Glyph name: uni01DC	Contours detected: 16	Expected: 4
-
 - Glyph name: uni0251	Contours detected: 14	Expected: 2
 
 - Glyph name: uni0259	Contours detected: 14	Expected: 2
@@ -5838,12 +13302,6 @@ definitions.</p>
 - Glyph name: uni0261	Contours detected: 18	Expected: 2
 
 - Glyph name: uni02BB	Contours detected: 3	Expected: 1
-
-- Glyph name: uni02BC	Contours detected: 3	Expected: 1
-
-- Glyph name: uni02BE	Contours detected: 3	Expected: 1
-
-- Glyph name: uni02BF	Contours detected: 3	Expected: 1
 
 - Glyph name: uni02C8	Contours detected: 2	Expected: 1
 
@@ -5855,35 +13313,11 @@ definitions.</p>
 
 - Glyph name: uni02CC	Contours detected: 2	Expected: 1
 
-- Glyph name: uni032E	Contours detected: 5	Expected: 1
-
-- Glyph name: uni0331	Contours detected: 3	Expected: 1
-
 - Glyph name: uni0394	Contours detected: 15	Expected: 2
 
 - Glyph name: uni03A9	Contours detected: 17	Expected: 1
 
 - Glyph name: uni03BC	Contours detected: 14	Expected: 1
-
-- Glyph name: uni1E0C	Contours detected: 17	Expected: 3
-
-- Glyph name: uni1E0D	Contours detected: 17	Expected: 3
-
-- Glyph name: uni1E0E	Contours detected: 19	Expected: 3
-
-- Glyph name: uni1E0F	Contours detected: 19	Expected: 3
-
-- Glyph name: uni1E20	Contours detected: 20	Expected: 2
-
-- Glyph name: uni1E21	Contours detected: 21	Expected: 3 or 4
-
-- Glyph name: uni1E24	Contours detected: 18	Expected: 2
-
-- Glyph name: uni1E25	Contours detected: 15	Expected: 2
-
-- Glyph name: uni1E2A	Contours detected: 20	Expected: 2
-
-- Glyph name: uni1E2B	Contours detected: 17	Expected: 2
 
 - Glyph name: uni1E36	Contours detected: 12	Expected: 2
 
@@ -5900,10 +13334,6 @@ definitions.</p>
 - Glyph name: uni1E42	Contours detected: 19	Expected: 2
 
 - Glyph name: uni1E43	Contours detected: 15	Expected: 2
-
-- Glyph name: uni1E44	Contours detected: 18	Expected: 2
-
-- Glyph name: uni1E45	Contours detected: 13	Expected: 2
 
 - Glyph name: uni1E46	Contours detected: 18	Expected: 2
 
@@ -5929,27 +13359,9 @@ definitions.</p>
 
 - Glyph name: uni1E61	Contours detected: 14	Expected: 2
 
-- Glyph name: uni1E62	Contours detected: 16	Expected: 2
-
-- Glyph name: uni1E63	Contours detected: 14	Expected: 2
-
-- Glyph name: uni1E6C	Contours detected: 12	Expected: 2
-
-- Glyph name: uni1E6D	Contours detected: 13	Expected: 2
-
-- Glyph name: uni1E6E	Contours detected: 14	Expected: 2
-
-- Glyph name: uni1E6F	Contours detected: 15	Expected: 2
-
 - Glyph name: uni1E8E	Contours detected: 11	Expected: 2
 
 - Glyph name: uni1E8F	Contours detected: 17	Expected: 2
-
-- Glyph name: uni1E92	Contours detected: 16	Expected: 2
-
-- Glyph name: uni1E93	Contours detected: 14	Expected: 2
-
-- Glyph name: uni1E97	Contours detected: 14	Expected: 3
 
 - Glyph name: uni2010	Contours detected: 4	Expected: 1
 
@@ -6027,7 +13439,7 @@ definitions.</p>
 * ⚠️ **WARN** <p>The most common width is 600 among a set of 9 math glyphs.
 The following math glyphs have a different width, though:</p>
 <p>Width = 400:
-greaterequal, greater, lessequal, less</p>
+greater, greaterequal, lessequal, less</p>
  [code: width-outliers]
 
 
@@ -6072,29 +13484,31 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, coptic, cherokee</li>
-<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: syriac, duployan, tifinagh, math, tai-le, hebrew, canadian-aboriginal, old-permic, todhri, coptic, malayalam</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, cherokee, coptic, math</li>
+<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, old-permic, todhri, tifinagh, coptic, malayalam, canadian-aboriginal, math, syriac, duployan, tai-le</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
+<li>U+030D COMBINING VERTICAL LINE ABOVE: try adding sunuwar</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+0315 COMBINING COMMA ABOVE RIGHT: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
-<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: syriac, duployan, cherokee</li>
+<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: duployan, cherokee, syriac</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: syriac, gothic, caucasian-albanian, tifinagh, sunuwar, cherokee, thai</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: thai, sunuwar, tifinagh, gothic, cherokee, syriac, caucasian-albanian</li>
+<li>U+0358 COMBINING DOT ABOVE RIGHT: try adding osage</li>
 <li>U+0394 GREEK CAPITAL LETTER DELTA: try adding one of: elbasan, math, greek</li>
 <li>U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: elbasan, math, greek</li>
 <li>U+03BC GREEK SMALL LETTER MU: try adding one of: math, greek</li>
 <li>U+03C0 GREEK SMALL LETTER PI: try adding one of: yi, math, greek</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+2007 FIGURE SPACE: try adding symbols2</li>
-<li>U+2010 HYPHEN: try adding one of: lisu, syloti-nagri, arabic, sora-sompeng, armenian, kaithi, sundanese, kayah-li, yi, hebrew, kharoshthi, cham, coptic</li>
-<li>U+2011 NON-BREAKING HYPHEN: try adding one of: yi, syloti-nagri, arabic</li>
+<li>U+2010 HYPHEN: try adding one of: yi, hebrew, sora-sompeng, lisu, sundanese, syloti-nagri, coptic, arabic, armenian, kharoshthi, kaithi, kayah-li, cham</li>
+<li>U+2011 NON-BREAKING HYPHEN: try adding one of: arabic, yi, syloti-nagri</li>
 <li>U+2012 FIGURE DASH: not included in any glyphset definition</li>
 <li>U+2015 HORIZONTAL BAR: try adding adlam</li>
 <li>U+2016 DOUBLE VERTICAL LINE: try adding math</li>
@@ -6132,20 +13546,20 @@ definitions.</p>
 <li>U+215C VULGAR FRACTION THREE EIGHTHS: try adding symbols</li>
 <li>U+215D VULGAR FRACTION FIVE EIGHTHS: try adding symbols</li>
 <li>U+215E VULGAR FRACTION SEVEN EIGHTHS: try adding symbols</li>
-<li>U+2190 LEFTWARDS ARROW: try adding one of: symbols, math</li>
-<li>U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math</li>
-<li>U+2194 LEFT RIGHT ARROW: try adding one of: symbols, math</li>
-<li>U+2195 UP DOWN ARROW: try adding one of: symbols, math</li>
-<li>U+2196 NORTH WEST ARROW: try adding one of: symbols, math</li>
-<li>U+2197 NORTH EAST ARROW: try adding one of: symbols, math</li>
-<li>U+2198 SOUTH EAST ARROW: try adding one of: symbols, math</li>
-<li>U+2199 SOUTH WEST ARROW: try adding one of: symbols, math</li>
+<li>U+2190 LEFTWARDS ARROW: try adding one of: math, symbols</li>
+<li>U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols</li>
+<li>U+2194 LEFT RIGHT ARROW: try adding one of: math, symbols</li>
+<li>U+2195 UP DOWN ARROW: try adding one of: math, symbols</li>
+<li>U+2196 NORTH WEST ARROW: try adding one of: math, symbols</li>
+<li>U+2197 NORTH EAST ARROW: try adding one of: math, symbols</li>
+<li>U+2198 SOUTH EAST ARROW: try adding one of: math, symbols</li>
+<li>U+2199 SOUTH WEST ARROW: try adding one of: math, symbols</li>
 <li>U+2202 PARTIAL DIFFERENTIAL: try adding math</li>
 <li>U+2205 EMPTY SET: try adding math</li>
 <li>U+2206 INCREMENT: try adding math</li>
 <li>U+220F N-ARY PRODUCT: try adding math</li>
 <li>U+2211 N-ARY SUMMATION: try adding math</li>
-<li>U+2219 BULLET OPERATOR: try adding one of: symbols, yi, math, tai-tham</li>
+<li>U+2219 BULLET OPERATOR: try adding one of: tai-tham, yi, math, symbols</li>
 <li>U+221A SQUARE ROOT: try adding math</li>
 <li>U+221E INFINITY: try adding math</li>
 <li>U+222B INTEGRAL: try adding math</li>
@@ -6165,26 +13579,26 @@ definitions.</p>
 <li>U+25AA BLACK SMALL SQUARE: try adding symbols</li>
 <li>U+25AB WHITE SMALL SQUARE: try adding symbols</li>
 <li>U+25B2 BLACK UP-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25B3 WHITE UP-POINTING TRIANGLE: try adding one of: symbols, math</li>
+<li>U+25B3 WHITE UP-POINTING TRIANGLE: try adding one of: math, symbols</li>
 <li>U+25B4 BLACK UP-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25B5 WHITE UP-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25B6 BLACK RIGHT-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25B7 WHITE RIGHT-POINTING TRIANGLE: try adding one of: symbols, math</li>
+<li>U+25B7 WHITE RIGHT-POINTING TRIANGLE: try adding one of: math, symbols</li>
 <li>U+25B8 BLACK RIGHT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25B9 WHITE RIGHT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25BC BLACK DOWN-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25BD WHITE DOWN-POINTING TRIANGLE: try adding one of: symbols, math</li>
+<li>U+25BD WHITE DOWN-POINTING TRIANGLE: try adding one of: math, symbols</li>
 <li>U+25BE BLACK DOWN-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25BF WHITE DOWN-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25C0 BLACK LEFT-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: symbols, math</li>
+<li>U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: math, symbols</li>
 <li>U+25C2 BLACK LEFT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25C3 WHITE LEFT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25C6 BLACK DIAMOND: try adding symbols</li>
 <li>U+25C7 WHITE DIAMOND: try adding symbols</li>
-<li>U+25CA LOZENGE: try adding one of: symbols, math</li>
+<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
 <li>U+25CB WHITE CIRCLE: try adding symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: siddham, marchen, yi, ahom, brahmi, hanifi-rohingya, newa, balinese, caucasian-albanian, bhaiksuki, khmer, duployan, armenian, limbu, kaithi, math, wancho, gunjala-gondi, tagbanwa, buhid, tamil, kayah-li, chakma, adlam, thaana, gurmukhi, tai-tham, tai-viet, sogdian, tifinagh, buginese, nko, music, rejang, tibetan, manichaean, phags-pa, elbasan, meetei-mayek, bengali, malayalam, warang-citi, mahajani, soyombo, oriya, takri, devanagari, kharoshthi, old-permic, psalter-pahlavi, osage, pahawh-hmong, khudawadi, tai-le, sinhala, gujarati, tirhuta, miao, thai, kannada, masaram-gondi, khojki, myanmar, canadian-aboriginal, sundanese, coptic, bassa-vah, zanabazar-square, new-tai-lue, hanunoo, modi, javanese, syriac, dogra, lepcha, lao, saurashtra, syloti-nagri, symbols, sharada, telugu, hebrew, mandaic, mongolian, grantha, tagalog, mende-kikakui, batak, cham</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: gujarati, syloti-nagri, canadian-aboriginal, lepcha, tai-tham, sogdian, mende-kikakui, mandaic, tai-viet, syriac, bengali, saurashtra, grantha, takri, tirhuta, malayalam, phags-pa, gunjala-gondi, batak, khudawadi, soyombo, armenian, tai-le, wancho, khojki, buhid, tifinagh, kharoshthi, kaithi, sinhala, newa, zanabazar-square, psalter-pahlavi, masaram-gondi, sharada, myanmar, kannada, yi, tamil, warang-citi, bassa-vah, balinese, thaana, khmer, osage, brahmi, buginese, duployan, rejang, thai, mahajani, music, elbasan, nko, manichaean, oriya, chakma, devanagari, old-permic, mongolian, math, ahom, hanunoo, siddham, hanifi-rohingya, meetei-mayek, bhaiksuki, javanese, tagbanwa, symbols, adlam, hebrew, telugu, miao, caucasian-albanian, cham, pahawh-hmong, tibetan, lao, marchen, gurmukhi, limbu, modi, dogra, sundanese, coptic, new-tai-lue, tagalog, kayah-li</li>
 <li>U+25CF BLACK CIRCLE: try adding symbols</li>
 <li>U+25E6 WHITE BULLET: try adding symbols</li>
 <li>U+27E8 MATHEMATICAL LEFT ANGLE BRACKET: try adding math</li>
@@ -6220,8 +13634,551 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[6] MatrixSansRaster-Regular.ttf</summary>
+<details><summary>[7] MatrixSansRaster-Regular.ttf</summary>
 <div>
+<details>
+    <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">af_Latn (Afrikaans)</td>
+<td align="left">Requires Small-cap: c; both buffers returned c=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: o; both buffers returned o=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ó; both buffers returned oacute=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ò; both buffers returned ograve=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ô; both buffers returned ocircumflex=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ö; both buffers returned odieresis=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: s; both buffers returned s=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: v; both buffers returned v=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: w; both buffers returned w=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: x; both buffers returned x=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: z; both buffers returned z=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ç; both buffers returned ccedilla=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">bm_Latn (Bambara)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: c; both buffers returned c=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned eopen=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: o; both buffers returned o=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned oopen=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: s; both buffers returned s=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: w; both buffers returned w=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: z; both buffers returned z=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: v; both buffers returned v=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: x; both buffers returned x=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">dyu_Latn (Dyula)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: c; both buffers returned c=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned eopen=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: o; both buffers returned o=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned oopen=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: s; both buffers returned s=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: v; both buffers returned v=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: w; both buffers returned w=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: z; both buffers returned z=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">ha_Latn (Hausa)</td>
+<td align="left">Requires Small-cap: c; both buffers returned c=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: o; both buffers returned o=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: s; both buffers returned s=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: w; both buffers returned w=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: z; both buffers returned z=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ó; both buffers returned oacute=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ò; both buffers returned ograve=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ô; both buffers returned ocircumflex=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: v; both buffers returned v=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: x; both buffers returned x=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">ig_Latn (Igbo)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: o; both buffers returned o=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ọ; both buffers returned odotbelow=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: s; both buffers returned s=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: v; both buffers returned v=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: w; both buffers returned w=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: z; both buffers returned z=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: c; both buffers returned c=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ó; both buffers returned oacute=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ò; both buffers returned ograve=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ō; both buffers returned omacron=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: x; both buffers returned x=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned eopen=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɵ; both buffers returned .notdef=0+601</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">lg_Latn (Ganda)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: c; both buffers returned c=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: o; both buffers returned o=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: s; both buffers returned s=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: v; both buffers returned v=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: w; both buffers returned w=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: z; both buffers returned z=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: x; both buffers returned x=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">om_Latn (Oromo)</td>
+<td align="left">Requires Small-cap: c; both buffers returned c=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: o; both buffers returned o=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: s; both buffers returned s=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: v; both buffers returned v=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: w; both buffers returned w=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: x; both buffers returned x=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: z; both buffers returned z=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">sw_Latn (Swahili)</td>
+<td align="left">Requires Small-cap: o; both buffers returned o=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: s; both buffers returned s=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: v; both buffers returned v=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: w; both buffers returned w=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: z; both buffers returned z=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: c; both buffers returned c=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: x; both buffers returned x=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">xh_Latn (Xhosa)</td>
+<td align="left">Requires Small-cap: c; both buffers returned c=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: o; both buffers returned o=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: s; both buffers returned s=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: v; both buffers returned v=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: w; both buffers returned w=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: x; both buffers returned x=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: z; both buffers returned z=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">yo_Latn (Yoruba)</td>
+<td align="left">Requires Small-cap: o; both buffers returned o=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ó; both buffers returned oacute=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ò; both buffers returned ograve=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ọ; both buffers returned odotbelow=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: s; both buffers returned s=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ṣ; both buffers returned sdotbelow=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: w; both buffers returned w=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: c; both buffers returned c=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: v; both buffers returned v=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: x; both buffers returned x=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: z; both buffers returned z=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+</div>
+</details>
+
 <details>
     <summary>⚠️ <b>WARN</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
     <div>
@@ -6680,6 +14637,10 @@ definitions.</p>
 
 - Glyph name: imacron	Contours detected: 6	Expected: 2
 
+- Glyph name: Ibreve	Contours detected: 10	Expected: 2
+
+- Glyph name: ibreve	Contours detected: 8	Expected: 2
+
 - Glyph name: Iogonek	Contours detected: 9	Expected: 1 or 2
 
 - Glyph name: iogonek	Contours detected: 8	Expected: 2 or 3
@@ -6736,13 +14697,17 @@ definitions.</p>
 
 - Glyph name: napostrophe	Contours detected: 13	Expected: 2
 
-- Glyph name: Eng	Contours detected: 16	Expected: 1
+- Glyph name: Eng	Contours detected: 14	Expected: 1
 
 - Glyph name: eng	Contours detected: 12	Expected: 1
 
 - Glyph name: Omacron	Contours detected: 13	Expected: 3
 
 - Glyph name: omacron	Contours detected: 9	Expected: 3
+
+- Glyph name: Obreve	Contours detected: 15	Expected: 3
+
+- Glyph name: obreve	Contours detected: 11	Expected: 3
 
 - Glyph name: Ohungarumlaut	Contours detected: 16	Expected: 4
 
@@ -6834,9 +14799,23 @@ definitions.</p>
 
 - Glyph name: zcaron	Contours detected: 8	Expected: 2
 
+- Glyph name: Bhook	Contours detected: 13	Expected: 3
+
+- Glyph name: Oopen	Contours detected: 9	Expected: 1
+
+- Glyph name: Dhook	Contours detected: 14	Expected: 2
+
 - Glyph name: uni018F	Contours detected: 10	Expected: 2
 
-- Glyph name: florin	Contours detected: 9	Expected: 1
+- Glyph name: Eopen	Contours detected: 9	Expected: 1
+
+- Glyph name: florin	Contours detected: 10	Expected: 1
+
+- Glyph name: Khook	Contours detected: 13	Expected: 1
+
+- Glyph name: khook	Contours detected: 11	Expected: 1
+
+- Glyph name: Nhookleft	Contours detected: 17	Expected: 1
 
 - Glyph name: Ohorn	Contours detected: 15	Expected: 2 or 3
 
@@ -6846,41 +14825,49 @@ definitions.</p>
 
 - Glyph name: uhorn	Contours detected: 13	Expected: 1
 
-- Glyph name: uni01CD	Contours detected: 15	Expected: 3
+- Glyph name: Yhook	Contours detected: 12	Expected: 1
 
-- Glyph name: uni01CE	Contours detected: 9	Expected: 3
+- Glyph name: yhook	Contours detected: 14	Expected: 1
 
-- Glyph name: uni01CF	Contours detected: 10	Expected: 2
+- Glyph name: Acaron	Contours detected: 15	Expected: 3
 
-- Glyph name: uni01D0	Contours detected: 8	Expected: 2
+- Glyph name: acaron	Contours detected: 9	Expected: 3
 
-- Glyph name: uni01D1	Contours detected: 15	Expected: 3
+- Glyph name: Icaron	Contours detected: 10	Expected: 2
 
-- Glyph name: uni01D2	Contours detected: 11	Expected: 3
+- Glyph name: icaron	Contours detected: 8	Expected: 2
 
-- Glyph name: uni01D3	Contours detected: 16	Expected: 2
+- Glyph name: Ocaron	Contours detected: 15	Expected: 3
 
-- Glyph name: uni01D4	Contours detected: 13	Expected: 2
+- Glyph name: ocaron	Contours detected: 11	Expected: 3
 
-- Glyph name: uni01D5	Contours detected: 14	Expected: 4
+- Glyph name: Ucaron	Contours detected: 16	Expected: 2
 
-- Glyph name: uni01D6	Contours detected: 13	Expected: 4
+- Glyph name: ucaron	Contours detected: 13	Expected: 2
 
-- Glyph name: uni01D7	Contours detected: 13	Expected: 4
+- Glyph name: Udieresismacron	Contours detected: 14	Expected: 4
 
-- Glyph name: uni01D8	Contours detected: 14	Expected: 4
+- Glyph name: udieresismacron	Contours detected: 13	Expected: 4
 
-- Glyph name: uni01D9	Contours detected: 14	Expected: 4
+- Glyph name: Udieresisacute	Contours detected: 13	Expected: 4
 
-- Glyph name: uni01DA	Contours detected: 15	Expected: 4
+- Glyph name: udieresisacute	Contours detected: 14	Expected: 4
 
-- Glyph name: uni01DB	Contours detected: 13	Expected: 4
+- Glyph name: Udieresiscaron	Contours detected: 14	Expected: 4
 
-- Glyph name: uni01DC	Contours detected: 14	Expected: 4
+- Glyph name: udieresiscaron	Contours detected: 15	Expected: 4
+
+- Glyph name: Udieresisgrave	Contours detected: 13	Expected: 4
+
+- Glyph name: udieresisgrave	Contours detected: 14	Expected: 4
 
 - Glyph name: Gcaron	Contours detected: 14	Expected: 2
 
 - Glyph name: gcaron	Contours detected: 15	Expected: 3 or 4
+
+- Glyph name: Ngrave	Contours detected: 17	Expected: 2
+
+- Glyph name: ngrave	Contours detected: 12	Expected: 2
 
 - Glyph name: Scommaaccent	Contours detected: 11	Expected: 2
 
@@ -6890,6 +14877,10 @@ definitions.</p>
 
 - Glyph name: tcommaaccent	Contours detected: 10	Expected: 2
 
+- Glyph name: Ymacron	Contours detected: 11	Expected: 2
+
+- Glyph name: ymacron	Contours detected: 13	Expected: 2
+
 - Glyph name: jdotless	Contours detected: 8	Expected: 1
 
 - Glyph name: uni0251	Contours detected: 10	Expected: 2
@@ -6898,13 +14889,15 @@ definitions.</p>
 
 - Glyph name: uni0261	Contours detected: 12	Expected: 2
 
+- Glyph name: nhookleft	Contours detected: 12	Expected: 1
+
 - Glyph name: uni02BB	Contours detected: 3	Expected: 1
 
-- Glyph name: uni02BC	Contours detected: 3	Expected: 1
+- Glyph name: apostrophemod	Contours detected: 3	Expected: 1
 
-- Glyph name: uni02BE	Contours detected: 3	Expected: 1
+- Glyph name: ringhalfright	Contours detected: 3	Expected: 1
 
-- Glyph name: uni02BF	Contours detected: 3	Expected: 1
+- Glyph name: ringhalfleft	Contours detected: 3	Expected: 1
 
 - Glyph name: circumflex	Contours detected: 3	Expected: 1
 
@@ -6956,7 +14949,7 @@ definitions.</p>
 
 - Glyph name: ogonekcomb	Contours detected: 2	Expected: 1
 
-- Glyph name: uni032E	Contours detected: 3	Expected: 1
+- Glyph name: brevebelowcomb	Contours detected: 3	Expected: 1
 
 - Glyph name: uni0394	Contours detected: 11	Expected: 2
 
@@ -6968,25 +14961,25 @@ definitions.</p>
 
 - Glyph name: baht	Contours detected: 11	Expected: 3 or 5
 
-- Glyph name: uni1E0C	Contours detected: 13	Expected: 3
+- Glyph name: Ddotbelow	Contours detected: 13	Expected: 3
 
-- Glyph name: uni1E0D	Contours detected: 13	Expected: 3
+- Glyph name: ddotbelow	Contours detected: 13	Expected: 3
 
-- Glyph name: uni1E0E	Contours detected: 13	Expected: 3
+- Glyph name: Dmacronbelow	Contours detected: 13	Expected: 3
 
-- Glyph name: uni1E0F	Contours detected: 13	Expected: 3
+- Glyph name: dmacronbelow	Contours detected: 13	Expected: 3
 
-- Glyph name: uni1E20	Contours detected: 12	Expected: 2
+- Glyph name: Gmacron	Contours detected: 12	Expected: 2
 
-- Glyph name: uni1E21	Contours detected: 13	Expected: 3 or 4
+- Glyph name: gmacron	Contours detected: 13	Expected: 3 or 4
 
-- Glyph name: uni1E24	Contours detected: 14	Expected: 2
+- Glyph name: Hdotbelow	Contours detected: 14	Expected: 2
 
-- Glyph name: uni1E25	Contours detected: 13	Expected: 2
+- Glyph name: hdotbelow	Contours detected: 13	Expected: 2
 
-- Glyph name: uni1E2A	Contours detected: 14	Expected: 2
+- Glyph name: Hbrevebelow	Contours detected: 14	Expected: 2
 
-- Glyph name: uni1E2B	Contours detected: 13	Expected: 2
+- Glyph name: hbrevebelow	Contours detected: 13	Expected: 2
 
 - Glyph name: uni1E36	Contours detected: 8	Expected: 2
 
@@ -7000,13 +14993,17 @@ definitions.</p>
 
 - Glyph name: uni1E3B	Contours detected: 8	Expected: 2
 
+- Glyph name: Macute	Contours detected: 18	Expected: 2
+
+- Glyph name: macute	Contours detected: 15	Expected: 2
+
 - Glyph name: uni1E42	Contours detected: 17	Expected: 2
 
 - Glyph name: uni1E43	Contours detected: 14	Expected: 2
 
-- Glyph name: uni1E44	Contours detected: 16	Expected: 2
+- Glyph name: Ndotaccent	Contours detected: 16	Expected: 2
 
-- Glyph name: uni1E45	Contours detected: 11	Expected: 2
+- Glyph name: ndotaccent	Contours detected: 11	Expected: 2
 
 - Glyph name: uni1E46	Contours detected: 16	Expected: 2
 
@@ -7032,17 +15029,17 @@ definitions.</p>
 
 - Glyph name: uni1E61	Contours detected: 6	Expected: 2
 
-- Glyph name: uni1E62	Contours detected: 10	Expected: 2
+- Glyph name: Sdotbelow	Contours detected: 10	Expected: 2
 
-- Glyph name: uni1E63	Contours detected: 6	Expected: 2
+- Glyph name: sdotbelow	Contours detected: 6	Expected: 2
 
-- Glyph name: uni1E6C	Contours detected: 8	Expected: 2
+- Glyph name: Tdotbelow	Contours detected: 8	Expected: 2
 
-- Glyph name: uni1E6D	Contours detected: 9	Expected: 2
+- Glyph name: tdotbelow	Contours detected: 9	Expected: 2
 
-- Glyph name: uni1E6E	Contours detected: 8	Expected: 2
+- Glyph name: Tmacronbelow	Contours detected: 8	Expected: 2
 
-- Glyph name: uni1E6F	Contours detected: 9	Expected: 2
+- Glyph name: tmacronbelow	Contours detected: 9	Expected: 2
 
 - Glyph name: Wgrave	Contours detected: 19	Expected: 2
 
@@ -7060,11 +15057,11 @@ definitions.</p>
 
 - Glyph name: uni1E8F	Contours detected: 13	Expected: 2
 
-- Glyph name: uni1E92	Contours detected: 8	Expected: 2
+- Glyph name: Zdotbelow	Contours detected: 8	Expected: 2
 
-- Glyph name: uni1E93	Contours detected: 6	Expected: 2
+- Glyph name: zdotbelow	Contours detected: 6	Expected: 2
 
-- Glyph name: uni1E97	Contours detected: 10	Expected: 3
+- Glyph name: tdieresis	Contours detected: 10	Expected: 3
 
 - Glyph name: Germandbls	Contours detected: 13	Expected: 1
 
@@ -7298,7 +15295,7 @@ definitions.</p>
 
 - Glyph name: uni207E	Contours detected: 5	Expected: 1
 
-- Glyph name: uni207F	Contours detected: 7	Expected: 1
+- Glyph name: nmod	Contours detected: 7	Expected: 1
 
 - Glyph name: uni2080	Contours detected: 8	Expected: 2 or 3
 
@@ -7540,7 +15537,7 @@ definitions.</p>
 
 - Glyph name: Emacron	Contours detected: 8	Expected: 2
 
-- Glyph name: Eng	Contours detected: 16	Expected: 1
+- Glyph name: Eng	Contours detected: 14	Expected: 1
 
 - Glyph name: Eogonek	Contours detected: 9	Expected: 1 or 2
 
@@ -7571,6 +15568,8 @@ definitions.</p>
 - Glyph name: IJ	Contours detected: 15	Expected: 1 or 2
 
 - Glyph name: Iacute	Contours detected: 9	Expected: 2
+
+- Glyph name: Ibreve	Contours detected: 10	Expected: 2
 
 - Glyph name: Icircumflex	Contours detected: 10	Expected: 2
 
@@ -7906,6 +15905,8 @@ definitions.</p>
 
 - Glyph name: iacute	Contours detected: 7	Expected: 2
 
+- Glyph name: ibreve	Contours detected: 8	Expected: 2
+
 - Glyph name: icircumflex	Contours detected: 8	Expected: 2
 
 - Glyph name: idieresis	Contours detected: 7	Expected: 3
@@ -8142,38 +16143,6 @@ definitions.</p>
 
 - Glyph name: uni018F	Contours detected: 10	Expected: 2
 
-- Glyph name: uni01CD	Contours detected: 15	Expected: 3
-
-- Glyph name: uni01CE	Contours detected: 9	Expected: 3
-
-- Glyph name: uni01CF	Contours detected: 10	Expected: 2
-
-- Glyph name: uni01D0	Contours detected: 8	Expected: 2
-
-- Glyph name: uni01D1	Contours detected: 15	Expected: 3
-
-- Glyph name: uni01D2	Contours detected: 11	Expected: 3
-
-- Glyph name: uni01D3	Contours detected: 16	Expected: 2
-
-- Glyph name: uni01D4	Contours detected: 13	Expected: 2
-
-- Glyph name: uni01D5	Contours detected: 14	Expected: 4
-
-- Glyph name: uni01D6	Contours detected: 13	Expected: 4
-
-- Glyph name: uni01D7	Contours detected: 13	Expected: 4
-
-- Glyph name: uni01D8	Contours detected: 14	Expected: 4
-
-- Glyph name: uni01D9	Contours detected: 14	Expected: 4
-
-- Glyph name: uni01DA	Contours detected: 15	Expected: 4
-
-- Glyph name: uni01DB	Contours detected: 13	Expected: 4
-
-- Glyph name: uni01DC	Contours detected: 14	Expected: 4
-
 - Glyph name: uni0251	Contours detected: 10	Expected: 2
 
 - Glyph name: uni0259	Contours detected: 6	Expected: 2
@@ -8181,12 +16150,6 @@ definitions.</p>
 - Glyph name: uni0261	Contours detected: 12	Expected: 2
 
 - Glyph name: uni02BB	Contours detected: 3	Expected: 1
-
-- Glyph name: uni02BC	Contours detected: 3	Expected: 1
-
-- Glyph name: uni02BE	Contours detected: 3	Expected: 1
-
-- Glyph name: uni02BF	Contours detected: 3	Expected: 1
 
 - Glyph name: uni02C8	Contours detected: 2	Expected: 1
 
@@ -8196,33 +16159,11 @@ definitions.</p>
 
 - Glyph name: uni02CC	Contours detected: 2	Expected: 1
 
-- Glyph name: uni032E	Contours detected: 3	Expected: 1
-
 - Glyph name: uni0394	Contours detected: 11	Expected: 2
 
 - Glyph name: uni03A9	Contours detected: 13	Expected: 1
 
 - Glyph name: uni03BC	Contours detected: 12	Expected: 1
-
-- Glyph name: uni1E0C	Contours detected: 13	Expected: 3
-
-- Glyph name: uni1E0D	Contours detected: 13	Expected: 3
-
-- Glyph name: uni1E0E	Contours detected: 13	Expected: 3
-
-- Glyph name: uni1E0F	Contours detected: 13	Expected: 3
-
-- Glyph name: uni1E20	Contours detected: 12	Expected: 2
-
-- Glyph name: uni1E21	Contours detected: 13	Expected: 3 or 4
-
-- Glyph name: uni1E24	Contours detected: 14	Expected: 2
-
-- Glyph name: uni1E25	Contours detected: 13	Expected: 2
-
-- Glyph name: uni1E2A	Contours detected: 14	Expected: 2
-
-- Glyph name: uni1E2B	Contours detected: 13	Expected: 2
 
 - Glyph name: uni1E36	Contours detected: 8	Expected: 2
 
@@ -8239,10 +16180,6 @@ definitions.</p>
 - Glyph name: uni1E42	Contours detected: 17	Expected: 2
 
 - Glyph name: uni1E43	Contours detected: 14	Expected: 2
-
-- Glyph name: uni1E44	Contours detected: 16	Expected: 2
-
-- Glyph name: uni1E45	Contours detected: 11	Expected: 2
 
 - Glyph name: uni1E46	Contours detected: 16	Expected: 2
 
@@ -8268,27 +16205,9 @@ definitions.</p>
 
 - Glyph name: uni1E61	Contours detected: 6	Expected: 2
 
-- Glyph name: uni1E62	Contours detected: 10	Expected: 2
-
-- Glyph name: uni1E63	Contours detected: 6	Expected: 2
-
-- Glyph name: uni1E6C	Contours detected: 8	Expected: 2
-
-- Glyph name: uni1E6D	Contours detected: 9	Expected: 2
-
-- Glyph name: uni1E6E	Contours detected: 8	Expected: 2
-
-- Glyph name: uni1E6F	Contours detected: 9	Expected: 2
-
 - Glyph name: uni1E8E	Contours detected: 11	Expected: 2
 
 - Glyph name: uni1E8F	Contours detected: 13	Expected: 2
-
-- Glyph name: uni1E92	Contours detected: 8	Expected: 2
-
-- Glyph name: uni1E93	Contours detected: 6	Expected: 2
-
-- Glyph name: uni1E97	Contours detected: 10	Expected: 3
 
 - Glyph name: uni2117	Contours detected: 19	Expected: 3 or 4
 
@@ -8360,7 +16279,7 @@ definitions.</p>
 * ⚠️ **WARN** <p>The most common width is 600 among a set of 9 math glyphs.
 The following math glyphs have a different width, though:</p>
 <p>Width = 400:
-greaterequal, greater, lessequal, less</p>
+greater, greaterequal, lessequal, less</p>
  [code: width-outliers]
 
 
@@ -8405,29 +16324,31 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, coptic, cherokee</li>
-<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: syriac, duployan, tifinagh, math, tai-le, hebrew, canadian-aboriginal, old-permic, todhri, coptic, malayalam</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, cherokee, coptic, math</li>
+<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, old-permic, todhri, tifinagh, coptic, malayalam, canadian-aboriginal, math, syriac, duployan, tai-le</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
+<li>U+030D COMBINING VERTICAL LINE ABOVE: try adding sunuwar</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+0315 COMBINING COMMA ABOVE RIGHT: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
-<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: syriac, duployan, cherokee</li>
+<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: duployan, cherokee, syriac</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: syriac, gothic, caucasian-albanian, tifinagh, sunuwar, cherokee, thai</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: thai, sunuwar, tifinagh, gothic, cherokee, syriac, caucasian-albanian</li>
+<li>U+0358 COMBINING DOT ABOVE RIGHT: try adding osage</li>
 <li>U+0394 GREEK CAPITAL LETTER DELTA: try adding one of: elbasan, math, greek</li>
 <li>U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: elbasan, math, greek</li>
 <li>U+03BC GREEK SMALL LETTER MU: try adding one of: math, greek</li>
 <li>U+03C0 GREEK SMALL LETTER PI: try adding one of: yi, math, greek</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+2007 FIGURE SPACE: try adding symbols2</li>
-<li>U+2010 HYPHEN: try adding one of: lisu, syloti-nagri, arabic, sora-sompeng, armenian, kaithi, sundanese, kayah-li, yi, hebrew, kharoshthi, cham, coptic</li>
-<li>U+2011 NON-BREAKING HYPHEN: try adding one of: yi, syloti-nagri, arabic</li>
+<li>U+2010 HYPHEN: try adding one of: yi, hebrew, sora-sompeng, lisu, sundanese, syloti-nagri, coptic, arabic, armenian, kharoshthi, kaithi, kayah-li, cham</li>
+<li>U+2011 NON-BREAKING HYPHEN: try adding one of: arabic, yi, syloti-nagri</li>
 <li>U+2012 FIGURE DASH: not included in any glyphset definition</li>
 <li>U+2015 HORIZONTAL BAR: try adding adlam</li>
 <li>U+2016 DOUBLE VERTICAL LINE: try adding math</li>
@@ -8465,20 +16386,20 @@ definitions.</p>
 <li>U+215C VULGAR FRACTION THREE EIGHTHS: try adding symbols</li>
 <li>U+215D VULGAR FRACTION FIVE EIGHTHS: try adding symbols</li>
 <li>U+215E VULGAR FRACTION SEVEN EIGHTHS: try adding symbols</li>
-<li>U+2190 LEFTWARDS ARROW: try adding one of: symbols, math</li>
-<li>U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math</li>
-<li>U+2194 LEFT RIGHT ARROW: try adding one of: symbols, math</li>
-<li>U+2195 UP DOWN ARROW: try adding one of: symbols, math</li>
-<li>U+2196 NORTH WEST ARROW: try adding one of: symbols, math</li>
-<li>U+2197 NORTH EAST ARROW: try adding one of: symbols, math</li>
-<li>U+2198 SOUTH EAST ARROW: try adding one of: symbols, math</li>
-<li>U+2199 SOUTH WEST ARROW: try adding one of: symbols, math</li>
+<li>U+2190 LEFTWARDS ARROW: try adding one of: math, symbols</li>
+<li>U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols</li>
+<li>U+2194 LEFT RIGHT ARROW: try adding one of: math, symbols</li>
+<li>U+2195 UP DOWN ARROW: try adding one of: math, symbols</li>
+<li>U+2196 NORTH WEST ARROW: try adding one of: math, symbols</li>
+<li>U+2197 NORTH EAST ARROW: try adding one of: math, symbols</li>
+<li>U+2198 SOUTH EAST ARROW: try adding one of: math, symbols</li>
+<li>U+2199 SOUTH WEST ARROW: try adding one of: math, symbols</li>
 <li>U+2202 PARTIAL DIFFERENTIAL: try adding math</li>
 <li>U+2205 EMPTY SET: try adding math</li>
 <li>U+2206 INCREMENT: try adding math</li>
 <li>U+220F N-ARY PRODUCT: try adding math</li>
 <li>U+2211 N-ARY SUMMATION: try adding math</li>
-<li>U+2219 BULLET OPERATOR: try adding one of: symbols, yi, math, tai-tham</li>
+<li>U+2219 BULLET OPERATOR: try adding one of: tai-tham, yi, math, symbols</li>
 <li>U+221A SQUARE ROOT: try adding math</li>
 <li>U+221E INFINITY: try adding math</li>
 <li>U+222B INTEGRAL: try adding math</li>
@@ -8498,26 +16419,26 @@ definitions.</p>
 <li>U+25AA BLACK SMALL SQUARE: try adding symbols</li>
 <li>U+25AB WHITE SMALL SQUARE: try adding symbols</li>
 <li>U+25B2 BLACK UP-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25B3 WHITE UP-POINTING TRIANGLE: try adding one of: symbols, math</li>
+<li>U+25B3 WHITE UP-POINTING TRIANGLE: try adding one of: math, symbols</li>
 <li>U+25B4 BLACK UP-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25B5 WHITE UP-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25B6 BLACK RIGHT-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25B7 WHITE RIGHT-POINTING TRIANGLE: try adding one of: symbols, math</li>
+<li>U+25B7 WHITE RIGHT-POINTING TRIANGLE: try adding one of: math, symbols</li>
 <li>U+25B8 BLACK RIGHT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25B9 WHITE RIGHT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25BC BLACK DOWN-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25BD WHITE DOWN-POINTING TRIANGLE: try adding one of: symbols, math</li>
+<li>U+25BD WHITE DOWN-POINTING TRIANGLE: try adding one of: math, symbols</li>
 <li>U+25BE BLACK DOWN-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25BF WHITE DOWN-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25C0 BLACK LEFT-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: symbols, math</li>
+<li>U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: math, symbols</li>
 <li>U+25C2 BLACK LEFT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25C3 WHITE LEFT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25C6 BLACK DIAMOND: try adding symbols</li>
 <li>U+25C7 WHITE DIAMOND: try adding symbols</li>
-<li>U+25CA LOZENGE: try adding one of: symbols, math</li>
+<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
 <li>U+25CB WHITE CIRCLE: try adding symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: siddham, marchen, yi, ahom, brahmi, hanifi-rohingya, newa, balinese, caucasian-albanian, bhaiksuki, khmer, duployan, armenian, limbu, kaithi, math, wancho, gunjala-gondi, tagbanwa, buhid, tamil, kayah-li, chakma, adlam, thaana, gurmukhi, tai-tham, tai-viet, sogdian, tifinagh, buginese, nko, music, rejang, tibetan, manichaean, phags-pa, elbasan, meetei-mayek, bengali, malayalam, warang-citi, mahajani, soyombo, oriya, takri, devanagari, kharoshthi, old-permic, psalter-pahlavi, osage, pahawh-hmong, khudawadi, tai-le, sinhala, gujarati, tirhuta, miao, thai, kannada, masaram-gondi, khojki, myanmar, canadian-aboriginal, sundanese, coptic, bassa-vah, zanabazar-square, new-tai-lue, hanunoo, modi, javanese, syriac, dogra, lepcha, lao, saurashtra, syloti-nagri, symbols, sharada, telugu, hebrew, mandaic, mongolian, grantha, tagalog, mende-kikakui, batak, cham</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: gujarati, syloti-nagri, canadian-aboriginal, lepcha, tai-tham, sogdian, mende-kikakui, mandaic, tai-viet, syriac, bengali, saurashtra, grantha, takri, tirhuta, malayalam, phags-pa, gunjala-gondi, batak, khudawadi, soyombo, armenian, tai-le, wancho, khojki, buhid, tifinagh, kharoshthi, kaithi, sinhala, newa, zanabazar-square, psalter-pahlavi, masaram-gondi, sharada, myanmar, kannada, yi, tamil, warang-citi, bassa-vah, balinese, thaana, khmer, osage, brahmi, buginese, duployan, rejang, thai, mahajani, music, elbasan, nko, manichaean, oriya, chakma, devanagari, old-permic, mongolian, math, ahom, hanunoo, siddham, hanifi-rohingya, meetei-mayek, bhaiksuki, javanese, tagbanwa, symbols, adlam, hebrew, telugu, miao, caucasian-albanian, cham, pahawh-hmong, tibetan, lao, marchen, gurmukhi, limbu, modi, dogra, sundanese, coptic, new-tai-lue, tagalog, kayah-li</li>
 <li>U+25CF BLACK CIRCLE: try adding symbols</li>
 <li>U+25E6 WHITE BULLET: try adding symbols</li>
 <li>U+27E8 MATHEMATICAL LEFT ANGLE BRACKET: try adding math</li>
@@ -8543,10 +16464,9 @@ definitions.</p>
 
 
 
-* ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄</p>
-<p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: ĭ̛ i̛̇ i̛̊ i̛̋ i̛̒ ĭ̤ i̤̇ i̤̊ i̤̋ i̤̒ ĭ̦ i̦̇ i̦̊ i̦̋ i̦̒ ĭ̧ i̧̇ i̧̊ i̧̋ i̧̒</p>
+* ⚠️ **WARN** <p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: i̛̇ i̛̊ i̛̋ i̛̍ i̛̒ i̤̇ i̤̊ i̤̋ i̤̍ i̤̒ i̦̇ i̦̊ i̦̋ i̦̍ i̦̒ i̧̇ i̧̊ i̧̋ i̧̍ i̧̒</p>
 <p>Your font fully covers the following languages that require the soft-dotted feature: Dutch (Latn, 31,709,104 speakers), Lithuanian (Latn, 2,357,094 speakers).</p>
-<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Ekpeye (Latn, 226,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Kaska (Latn, 125 speakers), Teke-Ebo (Latn, 260,000 speakers), Avokaya (Latn, 100,000 speakers), Gulay (Latn, 250,478 speakers), Ejagham (Latn, 120,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Lugbara (Latn, 2,200,000 speakers), Navajo (Latn, 166,319 speakers), Belarusian (Cyrl, 10,064,517 speakers), South Central Banda (Latn, 244,000 speakers), Kom (Latn, 360,685 speakers), Heiltsuk (Latn, 300 speakers), Mfumte (Latn, 79,000 speakers), Dii (Latn, 71,000 speakers), Southern Kisi (Latn, 360,000 speakers), Basaa (Latn, 332,940 speakers), Makaa (Latn, 221,000 speakers), Ma’di (Latn, 584,000 speakers), Cicipu (Latn, 44,000 speakers), Mundani (Latn, 34,000 speakers), Koonzime (Latn, 40,000 speakers), Sar (Latn, 500,000 speakers), Nzakara (Latn, 50,000 speakers), Bafut (Latn, 158,146 speakers), Yala (Latn, 200,000 speakers), Aghem (Latn, 38,843 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Dan (Latn, 1,099,244 speakers), Igbo (Latn, 27,823,640 speakers), Ebira (Latn, 2,200,000 speakers), Nateni (Latn, 100,000 speakers), Vute (Latn, 21,000 speakers), Fur (Latn, 1,230,163 speakers), Ngbaka (Latn, 1,020,000 speakers), Mango (Latn, 77,000 speakers), Han (Latn, 6 speakers), Zapotec (Latn, 490,000 speakers), Kpelle, Guinea (Latn, 622,000 speakers).</p>
+<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Ngbaka (Latn, 1,020,000 speakers), Nateni (Latn, 100,000 speakers), Fur (Latn, 1,230,163 speakers), Lugbara (Latn, 2,200,000 speakers), Ekpeye (Latn, 226,000 speakers), Teke-Ebo (Latn, 260,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Ebira (Latn, 2,200,000 speakers), South Central Banda (Latn, 244,000 speakers), Dii (Latn, 71,000 speakers), Igbo (Latn, 27,823,640 speakers), Basaa (Latn, 332,940 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Koonzime (Latn, 40,000 speakers), Sar (Latn, 500,000 speakers), Yala (Latn, 200,000 speakers), Kom (Latn, 360,685 speakers), Belarusian (Cyrl, 10,064,517 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Ejagham (Latn, 120,000 speakers), Bafut (Latn, 158,146 speakers), Avokaya (Latn, 100,000 speakers), Dan (Latn, 1,099,244 speakers), Cicipu (Latn, 44,000 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Mango (Latn, 77,000 speakers), Gulay (Latn, 250,478 speakers), Southern Kisi (Latn, 360,000 speakers), Kaska (Latn, 125 speakers), Vute (Latn, 21,000 speakers), Mfumte (Latn, 79,000 speakers), Navajo (Latn, 166,319 speakers), Zapotec (Latn, 490,000 speakers), Nzakara (Latn, 50,000 speakers), Heiltsuk (Latn, 300 speakers), Han (Latn, 6 speakers), Ma’di (Latn, 584,000 speakers), Aghem (Latn, 38,843 speakers), Mundani (Latn, 34,000 speakers), Makaa (Latn, 221,000 speakers).</p>
  [code: soft-dotted]
 
 
@@ -8574,8 +16494,551 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[6] MatrixSansScreen-Regular.ttf</summary>
+<details><summary>[7] MatrixSansScreen-Regular.ttf</summary>
 <div>
+<details>
+    <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">af_Latn (Afrikaans)</td>
+<td align="left">Requires Small-cap: c; both buffers returned c=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: o; both buffers returned o=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ó; both buffers returned oacute=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ò; both buffers returned ograve=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ô; both buffers returned ocircumflex=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ö; both buffers returned odieresis=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: s; both buffers returned s=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: v; both buffers returned v=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: w; both buffers returned w=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: x; both buffers returned x=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: z; both buffers returned z=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ç; both buffers returned ccedilla=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">bm_Latn (Bambara)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: c; both buffers returned c=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned eopen=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: o; both buffers returned o=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned oopen=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: s; both buffers returned s=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: w; both buffers returned w=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: z; both buffers returned z=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: v; both buffers returned v=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: x; both buffers returned x=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">dyu_Latn (Dyula)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: c; both buffers returned c=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned eopen=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: o; both buffers returned o=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned oopen=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: s; both buffers returned s=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: v; both buffers returned v=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: w; both buffers returned w=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: z; both buffers returned z=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">ha_Latn (Hausa)</td>
+<td align="left">Requires Small-cap: c; both buffers returned c=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: o; both buffers returned o=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: s; both buffers returned s=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: w; both buffers returned w=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: z; both buffers returned z=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ó; both buffers returned oacute=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ò; both buffers returned ograve=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ô; both buffers returned ocircumflex=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: v; both buffers returned v=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: x; both buffers returned x=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">ig_Latn (Igbo)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: o; both buffers returned o=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ọ; both buffers returned odotbelow=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: s; both buffers returned s=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: v; both buffers returned v=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: w; both buffers returned w=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: z; both buffers returned z=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: c; both buffers returned c=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ó; both buffers returned oacute=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ò; both buffers returned ograve=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ō; both buffers returned omacron=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: x; both buffers returned x=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned eopen=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɵ; both buffers returned .notdef=0+601</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">lg_Latn (Ganda)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: c; both buffers returned c=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: o; both buffers returned o=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: s; both buffers returned s=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: v; both buffers returned v=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: w; both buffers returned w=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: z; both buffers returned z=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: x; both buffers returned x=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">om_Latn (Oromo)</td>
+<td align="left">Requires Small-cap: c; both buffers returned c=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: o; both buffers returned o=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: s; both buffers returned s=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: v; both buffers returned v=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: w; both buffers returned w=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: x; both buffers returned x=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: z; both buffers returned z=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">sw_Latn (Swahili)</td>
+<td align="left">Requires Small-cap: o; both buffers returned o=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: s; both buffers returned s=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: v; both buffers returned v=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: w; both buffers returned w=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: z; both buffers returned z=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: c; both buffers returned c=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: x; both buffers returned x=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">xh_Latn (Xhosa)</td>
+<td align="left">Requires Small-cap: c; both buffers returned c=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: o; both buffers returned o=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: s; both buffers returned s=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: v; both buffers returned v=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: w; both buffers returned w=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: x; both buffers returned x=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: z; both buffers returned z=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">yo_Latn (Yoruba)</td>
+<td align="left">Requires Small-cap: o; both buffers returned o=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ó; both buffers returned oacute=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ò; both buffers returned ograve=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ọ; both buffers returned odotbelow=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: s; both buffers returned s=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ṣ; both buffers returned sdotbelow=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: w; both buffers returned w=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: c; both buffers returned c=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: v; both buffers returned v=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: x; both buffers returned x=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: z; both buffers returned z=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+</div>
+</details>
+
 <details>
     <summary>⚠️ <b>WARN</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
     <div>
@@ -9044,6 +17507,10 @@ definitions.</p>
 
 - Glyph name: imacron	Contours detected: 11	Expected: 2
 
+- Glyph name: Ibreve	Contours detected: 16	Expected: 2
+
+- Glyph name: ibreve	Contours detected: 13	Expected: 2
+
 - Glyph name: Iogonek	Contours detected: 14	Expected: 1 or 2
 
 - Glyph name: iogonek	Contours detected: 12	Expected: 2 or 3
@@ -9100,13 +17567,17 @@ definitions.</p>
 
 - Glyph name: napostrophe	Contours detected: 15	Expected: 2
 
-- Glyph name: Eng	Contours detected: 19	Expected: 1
+- Glyph name: Eng	Contours detected: 16	Expected: 1
 
-- Glyph name: eng	Contours detected: 15	Expected: 1
+- Glyph name: eng	Contours detected: 14	Expected: 1
 
 - Glyph name: Omacron	Contours detected: 19	Expected: 3
 
 - Glyph name: omacron	Contours detected: 15	Expected: 3
+
+- Glyph name: Obreve	Contours detected: 21	Expected: 3
+
+- Glyph name: obreve	Contours detected: 17	Expected: 3
 
 - Glyph name: Ohungarumlaut	Contours detected: 20	Expected: 4
 
@@ -9198,9 +17669,23 @@ definitions.</p>
 
 - Glyph name: zcaron	Contours detected: 16	Expected: 2
 
+- Glyph name: Bhook	Contours detected: 20	Expected: 3
+
+- Glyph name: Oopen	Contours detected: 13	Expected: 1
+
+- Glyph name: Dhook	Contours detected: 17	Expected: 2
+
 - Glyph name: uni018F	Contours detected: 18	Expected: 2
 
+- Glyph name: Eopen	Contours detected: 15	Expected: 1
+
 - Glyph name: florin	Contours detected: 14	Expected: 1
+
+- Glyph name: Khook	Contours detected: 14	Expected: 1
+
+- Glyph name: khook	Contours detected: 13	Expected: 1
+
+- Glyph name: Nhookleft	Contours detected: 19	Expected: 1
 
 - Glyph name: Ohorn	Contours detected: 19	Expected: 2 or 3
 
@@ -9210,41 +17695,49 @@ definitions.</p>
 
 - Glyph name: uhorn	Contours detected: 15	Expected: 1
 
-- Glyph name: uni01CD	Contours detected: 19	Expected: 3
+- Glyph name: Yhook	Contours detected: 12	Expected: 1
 
-- Glyph name: uni01CE	Contours detected: 17	Expected: 3
+- Glyph name: yhook	Contours detected: 18	Expected: 1
 
-- Glyph name: uni01CF	Contours detected: 14	Expected: 2
+- Glyph name: Acaron	Contours detected: 19	Expected: 3
 
-- Glyph name: uni01D0	Contours detected: 11	Expected: 2
+- Glyph name: acaron	Contours detected: 17	Expected: 3
 
-- Glyph name: uni01D1	Contours detected: 19	Expected: 3
+- Glyph name: Icaron	Contours detected: 14	Expected: 2
 
-- Glyph name: uni01D2	Contours detected: 15	Expected: 3
+- Glyph name: icaron	Contours detected: 11	Expected: 2
 
-- Glyph name: uni01D3	Contours detected: 18	Expected: 2
+- Glyph name: Ocaron	Contours detected: 19	Expected: 3
 
-- Glyph name: uni01D4	Contours detected: 15	Expected: 2
+- Glyph name: ocaron	Contours detected: 15	Expected: 3
 
-- Glyph name: uni01D5	Contours detected: 18	Expected: 4
+- Glyph name: Ucaron	Contours detected: 18	Expected: 2
 
-- Glyph name: uni01D6	Contours detected: 17	Expected: 4
+- Glyph name: ucaron	Contours detected: 15	Expected: 2
 
-- Glyph name: uni01D7	Contours detected: 15	Expected: 4
+- Glyph name: Udieresismacron	Contours detected: 18	Expected: 4
 
-- Glyph name: uni01D8	Contours detected: 16	Expected: 4
+- Glyph name: udieresismacron	Contours detected: 17	Expected: 4
 
-- Glyph name: uni01D9	Contours detected: 16	Expected: 4
+- Glyph name: Udieresisacute	Contours detected: 15	Expected: 4
 
-- Glyph name: uni01DA	Contours detected: 17	Expected: 4
+- Glyph name: udieresisacute	Contours detected: 16	Expected: 4
 
-- Glyph name: uni01DB	Contours detected: 15	Expected: 4
+- Glyph name: Udieresiscaron	Contours detected: 16	Expected: 4
 
-- Glyph name: uni01DC	Contours detected: 16	Expected: 4
+- Glyph name: udieresiscaron	Contours detected: 17	Expected: 4
+
+- Glyph name: Udieresisgrave	Contours detected: 15	Expected: 4
+
+- Glyph name: udieresisgrave	Contours detected: 16	Expected: 4
 
 - Glyph name: Gcaron	Contours detected: 20	Expected: 2
 
 - Glyph name: gcaron	Contours detected: 21	Expected: 3 or 4
+
+- Glyph name: Ngrave	Contours detected: 19	Expected: 2
+
+- Glyph name: ngrave	Contours detected: 14	Expected: 2
 
 - Glyph name: Scommaaccent	Contours detected: 17	Expected: 2
 
@@ -9254,6 +17747,10 @@ definitions.</p>
 
 - Glyph name: tcommaaccent	Contours detected: 14	Expected: 2
 
+- Glyph name: Ymacron	Contours detected: 13	Expected: 2
+
+- Glyph name: ymacron	Contours detected: 19	Expected: 2
+
 - Glyph name: jdotless	Contours detected: 10	Expected: 1
 
 - Glyph name: uni0251	Contours detected: 14	Expected: 2
@@ -9262,13 +17759,15 @@ definitions.</p>
 
 - Glyph name: uni0261	Contours detected: 18	Expected: 2
 
+- Glyph name: nhookleft	Contours detected: 14	Expected: 1
+
 - Glyph name: uni02BB	Contours detected: 3	Expected: 1
 
-- Glyph name: uni02BC	Contours detected: 3	Expected: 1
+- Glyph name: apostrophemod	Contours detected: 3	Expected: 1
 
-- Glyph name: uni02BE	Contours detected: 3	Expected: 1
+- Glyph name: ringhalfright	Contours detected: 3	Expected: 1
 
-- Glyph name: uni02BF	Contours detected: 3	Expected: 1
+- Glyph name: ringhalfleft	Contours detected: 3	Expected: 1
 
 - Glyph name: circumflex	Contours detected: 3	Expected: 1
 
@@ -9324,9 +17823,9 @@ definitions.</p>
 
 - Glyph name: ogonekcomb	Contours detected: 3	Expected: 1
 
-- Glyph name: uni032E	Contours detected: 5	Expected: 1
+- Glyph name: brevebelowcomb	Contours detected: 5	Expected: 1
 
-- Glyph name: uni0331	Contours detected: 3	Expected: 1
+- Glyph name: macronbelowcomb	Contours detected: 3	Expected: 1
 
 - Glyph name: uni0394	Contours detected: 15	Expected: 2
 
@@ -9338,25 +17837,25 @@ definitions.</p>
 
 - Glyph name: baht	Contours detected: 20	Expected: 3 or 5
 
-- Glyph name: uni1E0C	Contours detected: 17	Expected: 3
+- Glyph name: Ddotbelow	Contours detected: 17	Expected: 3
 
-- Glyph name: uni1E0D	Contours detected: 17	Expected: 3
+- Glyph name: ddotbelow	Contours detected: 17	Expected: 3
 
-- Glyph name: uni1E0E	Contours detected: 19	Expected: 3
+- Glyph name: Dmacronbelow	Contours detected: 19	Expected: 3
 
-- Glyph name: uni1E0F	Contours detected: 19	Expected: 3
+- Glyph name: dmacronbelow	Contours detected: 19	Expected: 3
 
-- Glyph name: uni1E20	Contours detected: 20	Expected: 2
+- Glyph name: Gmacron	Contours detected: 20	Expected: 2
 
-- Glyph name: uni1E21	Contours detected: 21	Expected: 3 or 4
+- Glyph name: gmacron	Contours detected: 21	Expected: 3 or 4
 
-- Glyph name: uni1E24	Contours detected: 18	Expected: 2
+- Glyph name: Hdotbelow	Contours detected: 18	Expected: 2
 
-- Glyph name: uni1E25	Contours detected: 15	Expected: 2
+- Glyph name: hdotbelow	Contours detected: 15	Expected: 2
 
-- Glyph name: uni1E2A	Contours detected: 20	Expected: 2
+- Glyph name: Hbrevebelow	Contours detected: 20	Expected: 2
 
-- Glyph name: uni1E2B	Contours detected: 17	Expected: 2
+- Glyph name: hbrevebelow	Contours detected: 17	Expected: 2
 
 - Glyph name: uni1E36	Contours detected: 12	Expected: 2
 
@@ -9370,13 +17869,17 @@ definitions.</p>
 
 - Glyph name: uni1E3B	Contours detected: 13	Expected: 2
 
+- Glyph name: Macute	Contours detected: 20	Expected: 2
+
+- Glyph name: macute	Contours detected: 16	Expected: 2
+
 - Glyph name: uni1E42	Contours detected: 19	Expected: 2
 
 - Glyph name: uni1E43	Contours detected: 15	Expected: 2
 
-- Glyph name: uni1E44	Contours detected: 18	Expected: 2
+- Glyph name: Ndotaccent	Contours detected: 18	Expected: 2
 
-- Glyph name: uni1E45	Contours detected: 13	Expected: 2
+- Glyph name: ndotaccent	Contours detected: 13	Expected: 2
 
 - Glyph name: uni1E46	Contours detected: 18	Expected: 2
 
@@ -9402,17 +17905,17 @@ definitions.</p>
 
 - Glyph name: uni1E61	Contours detected: 14	Expected: 2
 
-- Glyph name: uni1E62	Contours detected: 16	Expected: 2
+- Glyph name: Sdotbelow	Contours detected: 16	Expected: 2
 
-- Glyph name: uni1E63	Contours detected: 14	Expected: 2
+- Glyph name: sdotbelow	Contours detected: 14	Expected: 2
 
-- Glyph name: uni1E6C	Contours detected: 12	Expected: 2
+- Glyph name: Tdotbelow	Contours detected: 12	Expected: 2
 
-- Glyph name: uni1E6D	Contours detected: 13	Expected: 2
+- Glyph name: tdotbelow	Contours detected: 13	Expected: 2
 
-- Glyph name: uni1E6E	Contours detected: 14	Expected: 2
+- Glyph name: Tmacronbelow	Contours detected: 14	Expected: 2
 
-- Glyph name: uni1E6F	Contours detected: 15	Expected: 2
+- Glyph name: tmacronbelow	Contours detected: 15	Expected: 2
 
 - Glyph name: Wgrave	Contours detected: 19	Expected: 2
 
@@ -9430,11 +17933,11 @@ definitions.</p>
 
 - Glyph name: uni1E8F	Contours detected: 17	Expected: 2
 
-- Glyph name: uni1E92	Contours detected: 16	Expected: 2
+- Glyph name: Zdotbelow	Contours detected: 16	Expected: 2
 
-- Glyph name: uni1E93	Contours detected: 14	Expected: 2
+- Glyph name: zdotbelow	Contours detected: 14	Expected: 2
 
-- Glyph name: uni1E97	Contours detected: 14	Expected: 3
+- Glyph name: tdieresis	Contours detected: 14	Expected: 3
 
 - Glyph name: Germandbls	Contours detected: 18	Expected: 1
 
@@ -9680,7 +18183,7 @@ definitions.</p>
 
 - Glyph name: uni207E	Contours detected: 5	Expected: 1
 
-- Glyph name: uni207F	Contours detected: 8	Expected: 1
+- Glyph name: nmod	Contours detected: 8	Expected: 1
 
 - Glyph name: uni2080	Contours detected: 8	Expected: 2 or 3
 
@@ -9924,7 +18427,7 @@ definitions.</p>
 
 - Glyph name: Emacron	Contours detected: 21	Expected: 2
 
-- Glyph name: Eng	Contours detected: 19	Expected: 1
+- Glyph name: Eng	Contours detected: 16	Expected: 1
 
 - Glyph name: Eogonek	Contours detected: 21	Expected: 1 or 2
 
@@ -9955,6 +18458,8 @@ definitions.</p>
 - Glyph name: IJ	Contours detected: 15	Expected: 1 or 2
 
 - Glyph name: Iacute	Contours detected: 13	Expected: 2
+
+- Glyph name: Ibreve	Contours detected: 16	Expected: 2
 
 - Glyph name: Icircumflex	Contours detected: 14	Expected: 2
 
@@ -10238,7 +18743,7 @@ definitions.</p>
 
 - Glyph name: endash	Contours detected: 5	Expected: 1
 
-- Glyph name: eng	Contours detected: 15	Expected: 1
+- Glyph name: eng	Contours detected: 14	Expected: 1
 
 - Glyph name: eogonek	Contours detected: 17	Expected: 2
 
@@ -10301,6 +18806,8 @@ definitions.</p>
 - Glyph name: i	Contours detected: 9	Expected: 2
 
 - Glyph name: iacute	Contours detected: 10	Expected: 2
+
+- Glyph name: ibreve	Contours detected: 13	Expected: 2
 
 - Glyph name: icircumflex	Contours detected: 11	Expected: 2
 
@@ -10544,38 +19051,6 @@ definitions.</p>
 
 - Glyph name: uni018F	Contours detected: 18	Expected: 2
 
-- Glyph name: uni01CD	Contours detected: 19	Expected: 3
-
-- Glyph name: uni01CE	Contours detected: 17	Expected: 3
-
-- Glyph name: uni01CF	Contours detected: 14	Expected: 2
-
-- Glyph name: uni01D0	Contours detected: 11	Expected: 2
-
-- Glyph name: uni01D1	Contours detected: 19	Expected: 3
-
-- Glyph name: uni01D2	Contours detected: 15	Expected: 3
-
-- Glyph name: uni01D3	Contours detected: 18	Expected: 2
-
-- Glyph name: uni01D4	Contours detected: 15	Expected: 2
-
-- Glyph name: uni01D5	Contours detected: 18	Expected: 4
-
-- Glyph name: uni01D6	Contours detected: 17	Expected: 4
-
-- Glyph name: uni01D7	Contours detected: 15	Expected: 4
-
-- Glyph name: uni01D8	Contours detected: 16	Expected: 4
-
-- Glyph name: uni01D9	Contours detected: 16	Expected: 4
-
-- Glyph name: uni01DA	Contours detected: 17	Expected: 4
-
-- Glyph name: uni01DB	Contours detected: 15	Expected: 4
-
-- Glyph name: uni01DC	Contours detected: 16	Expected: 4
-
 - Glyph name: uni0251	Contours detected: 14	Expected: 2
 
 - Glyph name: uni0259	Contours detected: 14	Expected: 2
@@ -10583,12 +19058,6 @@ definitions.</p>
 - Glyph name: uni0261	Contours detected: 18	Expected: 2
 
 - Glyph name: uni02BB	Contours detected: 3	Expected: 1
-
-- Glyph name: uni02BC	Contours detected: 3	Expected: 1
-
-- Glyph name: uni02BE	Contours detected: 3	Expected: 1
-
-- Glyph name: uni02BF	Contours detected: 3	Expected: 1
 
 - Glyph name: uni02C8	Contours detected: 2	Expected: 1
 
@@ -10600,35 +19069,11 @@ definitions.</p>
 
 - Glyph name: uni02CC	Contours detected: 2	Expected: 1
 
-- Glyph name: uni032E	Contours detected: 5	Expected: 1
-
-- Glyph name: uni0331	Contours detected: 3	Expected: 1
-
 - Glyph name: uni0394	Contours detected: 15	Expected: 2
 
 - Glyph name: uni03A9	Contours detected: 17	Expected: 1
 
 - Glyph name: uni03BC	Contours detected: 14	Expected: 1
-
-- Glyph name: uni1E0C	Contours detected: 17	Expected: 3
-
-- Glyph name: uni1E0D	Contours detected: 17	Expected: 3
-
-- Glyph name: uni1E0E	Contours detected: 19	Expected: 3
-
-- Glyph name: uni1E0F	Contours detected: 19	Expected: 3
-
-- Glyph name: uni1E20	Contours detected: 20	Expected: 2
-
-- Glyph name: uni1E21	Contours detected: 21	Expected: 3 or 4
-
-- Glyph name: uni1E24	Contours detected: 18	Expected: 2
-
-- Glyph name: uni1E25	Contours detected: 15	Expected: 2
-
-- Glyph name: uni1E2A	Contours detected: 20	Expected: 2
-
-- Glyph name: uni1E2B	Contours detected: 17	Expected: 2
 
 - Glyph name: uni1E36	Contours detected: 12	Expected: 2
 
@@ -10645,10 +19090,6 @@ definitions.</p>
 - Glyph name: uni1E42	Contours detected: 19	Expected: 2
 
 - Glyph name: uni1E43	Contours detected: 15	Expected: 2
-
-- Glyph name: uni1E44	Contours detected: 18	Expected: 2
-
-- Glyph name: uni1E45	Contours detected: 13	Expected: 2
 
 - Glyph name: uni1E46	Contours detected: 18	Expected: 2
 
@@ -10674,27 +19115,9 @@ definitions.</p>
 
 - Glyph name: uni1E61	Contours detected: 14	Expected: 2
 
-- Glyph name: uni1E62	Contours detected: 16	Expected: 2
-
-- Glyph name: uni1E63	Contours detected: 14	Expected: 2
-
-- Glyph name: uni1E6C	Contours detected: 12	Expected: 2
-
-- Glyph name: uni1E6D	Contours detected: 13	Expected: 2
-
-- Glyph name: uni1E6E	Contours detected: 14	Expected: 2
-
-- Glyph name: uni1E6F	Contours detected: 15	Expected: 2
-
 - Glyph name: uni1E8E	Contours detected: 11	Expected: 2
 
 - Glyph name: uni1E8F	Contours detected: 17	Expected: 2
-
-- Glyph name: uni1E92	Contours detected: 16	Expected: 2
-
-- Glyph name: uni1E93	Contours detected: 14	Expected: 2
-
-- Glyph name: uni1E97	Contours detected: 14	Expected: 3
 
 - Glyph name: uni2010	Contours detected: 4	Expected: 1
 
@@ -10772,7 +19195,7 @@ definitions.</p>
 * ⚠️ **WARN** <p>The most common width is 600 among a set of 9 math glyphs.
 The following math glyphs have a different width, though:</p>
 <p>Width = 400:
-greaterequal, greater, lessequal, less</p>
+greater, greaterequal, lessequal, less</p>
  [code: width-outliers]
 
 
@@ -10817,29 +19240,31 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, coptic, cherokee</li>
-<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: syriac, duployan, tifinagh, math, tai-le, hebrew, canadian-aboriginal, old-permic, todhri, coptic, malayalam</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, cherokee, coptic, math</li>
+<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, old-permic, todhri, tifinagh, coptic, malayalam, canadian-aboriginal, math, syriac, duployan, tai-le</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
+<li>U+030D COMBINING VERTICAL LINE ABOVE: try adding sunuwar</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+0315 COMBINING COMMA ABOVE RIGHT: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
-<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: syriac, duployan, cherokee</li>
+<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: duployan, cherokee, syriac</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: syriac, gothic, caucasian-albanian, tifinagh, sunuwar, cherokee, thai</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: thai, sunuwar, tifinagh, gothic, cherokee, syriac, caucasian-albanian</li>
+<li>U+0358 COMBINING DOT ABOVE RIGHT: try adding osage</li>
 <li>U+0394 GREEK CAPITAL LETTER DELTA: try adding one of: elbasan, math, greek</li>
 <li>U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: elbasan, math, greek</li>
 <li>U+03BC GREEK SMALL LETTER MU: try adding one of: math, greek</li>
 <li>U+03C0 GREEK SMALL LETTER PI: try adding one of: yi, math, greek</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+2007 FIGURE SPACE: try adding symbols2</li>
-<li>U+2010 HYPHEN: try adding one of: lisu, syloti-nagri, arabic, sora-sompeng, armenian, kaithi, sundanese, kayah-li, yi, hebrew, kharoshthi, cham, coptic</li>
-<li>U+2011 NON-BREAKING HYPHEN: try adding one of: yi, syloti-nagri, arabic</li>
+<li>U+2010 HYPHEN: try adding one of: yi, hebrew, sora-sompeng, lisu, sundanese, syloti-nagri, coptic, arabic, armenian, kharoshthi, kaithi, kayah-li, cham</li>
+<li>U+2011 NON-BREAKING HYPHEN: try adding one of: arabic, yi, syloti-nagri</li>
 <li>U+2012 FIGURE DASH: not included in any glyphset definition</li>
 <li>U+2015 HORIZONTAL BAR: try adding adlam</li>
 <li>U+2016 DOUBLE VERTICAL LINE: try adding math</li>
@@ -10877,20 +19302,20 @@ definitions.</p>
 <li>U+215C VULGAR FRACTION THREE EIGHTHS: try adding symbols</li>
 <li>U+215D VULGAR FRACTION FIVE EIGHTHS: try adding symbols</li>
 <li>U+215E VULGAR FRACTION SEVEN EIGHTHS: try adding symbols</li>
-<li>U+2190 LEFTWARDS ARROW: try adding one of: symbols, math</li>
-<li>U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math</li>
-<li>U+2194 LEFT RIGHT ARROW: try adding one of: symbols, math</li>
-<li>U+2195 UP DOWN ARROW: try adding one of: symbols, math</li>
-<li>U+2196 NORTH WEST ARROW: try adding one of: symbols, math</li>
-<li>U+2197 NORTH EAST ARROW: try adding one of: symbols, math</li>
-<li>U+2198 SOUTH EAST ARROW: try adding one of: symbols, math</li>
-<li>U+2199 SOUTH WEST ARROW: try adding one of: symbols, math</li>
+<li>U+2190 LEFTWARDS ARROW: try adding one of: math, symbols</li>
+<li>U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols</li>
+<li>U+2194 LEFT RIGHT ARROW: try adding one of: math, symbols</li>
+<li>U+2195 UP DOWN ARROW: try adding one of: math, symbols</li>
+<li>U+2196 NORTH WEST ARROW: try adding one of: math, symbols</li>
+<li>U+2197 NORTH EAST ARROW: try adding one of: math, symbols</li>
+<li>U+2198 SOUTH EAST ARROW: try adding one of: math, symbols</li>
+<li>U+2199 SOUTH WEST ARROW: try adding one of: math, symbols</li>
 <li>U+2202 PARTIAL DIFFERENTIAL: try adding math</li>
 <li>U+2205 EMPTY SET: try adding math</li>
 <li>U+2206 INCREMENT: try adding math</li>
 <li>U+220F N-ARY PRODUCT: try adding math</li>
 <li>U+2211 N-ARY SUMMATION: try adding math</li>
-<li>U+2219 BULLET OPERATOR: try adding one of: symbols, yi, math, tai-tham</li>
+<li>U+2219 BULLET OPERATOR: try adding one of: tai-tham, yi, math, symbols</li>
 <li>U+221A SQUARE ROOT: try adding math</li>
 <li>U+221E INFINITY: try adding math</li>
 <li>U+222B INTEGRAL: try adding math</li>
@@ -10910,26 +19335,26 @@ definitions.</p>
 <li>U+25AA BLACK SMALL SQUARE: try adding symbols</li>
 <li>U+25AB WHITE SMALL SQUARE: try adding symbols</li>
 <li>U+25B2 BLACK UP-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25B3 WHITE UP-POINTING TRIANGLE: try adding one of: symbols, math</li>
+<li>U+25B3 WHITE UP-POINTING TRIANGLE: try adding one of: math, symbols</li>
 <li>U+25B4 BLACK UP-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25B5 WHITE UP-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25B6 BLACK RIGHT-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25B7 WHITE RIGHT-POINTING TRIANGLE: try adding one of: symbols, math</li>
+<li>U+25B7 WHITE RIGHT-POINTING TRIANGLE: try adding one of: math, symbols</li>
 <li>U+25B8 BLACK RIGHT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25B9 WHITE RIGHT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25BC BLACK DOWN-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25BD WHITE DOWN-POINTING TRIANGLE: try adding one of: symbols, math</li>
+<li>U+25BD WHITE DOWN-POINTING TRIANGLE: try adding one of: math, symbols</li>
 <li>U+25BE BLACK DOWN-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25BF WHITE DOWN-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25C0 BLACK LEFT-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: symbols, math</li>
+<li>U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: math, symbols</li>
 <li>U+25C2 BLACK LEFT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25C3 WHITE LEFT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25C6 BLACK DIAMOND: try adding symbols</li>
 <li>U+25C7 WHITE DIAMOND: try adding symbols</li>
-<li>U+25CA LOZENGE: try adding one of: symbols, math</li>
+<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
 <li>U+25CB WHITE CIRCLE: try adding symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: siddham, marchen, yi, ahom, brahmi, hanifi-rohingya, newa, balinese, caucasian-albanian, bhaiksuki, khmer, duployan, armenian, limbu, kaithi, math, wancho, gunjala-gondi, tagbanwa, buhid, tamil, kayah-li, chakma, adlam, thaana, gurmukhi, tai-tham, tai-viet, sogdian, tifinagh, buginese, nko, music, rejang, tibetan, manichaean, phags-pa, elbasan, meetei-mayek, bengali, malayalam, warang-citi, mahajani, soyombo, oriya, takri, devanagari, kharoshthi, old-permic, psalter-pahlavi, osage, pahawh-hmong, khudawadi, tai-le, sinhala, gujarati, tirhuta, miao, thai, kannada, masaram-gondi, khojki, myanmar, canadian-aboriginal, sundanese, coptic, bassa-vah, zanabazar-square, new-tai-lue, hanunoo, modi, javanese, syriac, dogra, lepcha, lao, saurashtra, syloti-nagri, symbols, sharada, telugu, hebrew, mandaic, mongolian, grantha, tagalog, mende-kikakui, batak, cham</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: gujarati, syloti-nagri, canadian-aboriginal, lepcha, tai-tham, sogdian, mende-kikakui, mandaic, tai-viet, syriac, bengali, saurashtra, grantha, takri, tirhuta, malayalam, phags-pa, gunjala-gondi, batak, khudawadi, soyombo, armenian, tai-le, wancho, khojki, buhid, tifinagh, kharoshthi, kaithi, sinhala, newa, zanabazar-square, psalter-pahlavi, masaram-gondi, sharada, myanmar, kannada, yi, tamil, warang-citi, bassa-vah, balinese, thaana, khmer, osage, brahmi, buginese, duployan, rejang, thai, mahajani, music, elbasan, nko, manichaean, oriya, chakma, devanagari, old-permic, mongolian, math, ahom, hanunoo, siddham, hanifi-rohingya, meetei-mayek, bhaiksuki, javanese, tagbanwa, symbols, adlam, hebrew, telugu, miao, caucasian-albanian, cham, pahawh-hmong, tibetan, lao, marchen, gurmukhi, limbu, modi, dogra, sundanese, coptic, new-tai-lue, tagalog, kayah-li</li>
 <li>U+25CF BLACK CIRCLE: try adding symbols</li>
 <li>U+25E6 WHITE BULLET: try adding symbols</li>
 <li>U+27E8 MATHEMATICAL LEFT ANGLE BRACKET: try adding math</li>
@@ -10955,10 +19380,9 @@ definitions.</p>
 
 
 
-* ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄</p>
-<p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: ĭ̛ i̛̇ i̛̊ i̛̋ i̛̒ ĭ̤ i̤̇ i̤̊ i̤̋ i̤̒ ĭ̦ i̦̇ i̦̊ i̦̋ i̦̒ ĭ̧ i̧̇ i̧̊ i̧̋ i̧̒</p>
+* ⚠️ **WARN** <p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: i̛̇ i̛̊ i̛̋ i̛̍ i̛̒ i̤̇ i̤̊ i̤̋ i̤̍ i̤̒ i̦̇ i̦̊ i̦̋ i̦̍ i̦̒ i̧̇ i̧̊ i̧̋ i̧̍ i̧̒</p>
 <p>Your font fully covers the following languages that require the soft-dotted feature: Dutch (Latn, 31,709,104 speakers), Lithuanian (Latn, 2,357,094 speakers).</p>
-<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Ekpeye (Latn, 226,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Kaska (Latn, 125 speakers), Teke-Ebo (Latn, 260,000 speakers), Avokaya (Latn, 100,000 speakers), Gulay (Latn, 250,478 speakers), Ejagham (Latn, 120,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Lugbara (Latn, 2,200,000 speakers), Navajo (Latn, 166,319 speakers), Belarusian (Cyrl, 10,064,517 speakers), South Central Banda (Latn, 244,000 speakers), Kom (Latn, 360,685 speakers), Heiltsuk (Latn, 300 speakers), Mfumte (Latn, 79,000 speakers), Dii (Latn, 71,000 speakers), Southern Kisi (Latn, 360,000 speakers), Basaa (Latn, 332,940 speakers), Makaa (Latn, 221,000 speakers), Ma’di (Latn, 584,000 speakers), Cicipu (Latn, 44,000 speakers), Mundani (Latn, 34,000 speakers), Koonzime (Latn, 40,000 speakers), Sar (Latn, 500,000 speakers), Nzakara (Latn, 50,000 speakers), Bafut (Latn, 158,146 speakers), Yala (Latn, 200,000 speakers), Aghem (Latn, 38,843 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Dan (Latn, 1,099,244 speakers), Igbo (Latn, 27,823,640 speakers), Ebira (Latn, 2,200,000 speakers), Nateni (Latn, 100,000 speakers), Vute (Latn, 21,000 speakers), Fur (Latn, 1,230,163 speakers), Ngbaka (Latn, 1,020,000 speakers), Mango (Latn, 77,000 speakers), Han (Latn, 6 speakers), Zapotec (Latn, 490,000 speakers), Kpelle, Guinea (Latn, 622,000 speakers).</p>
+<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Ngbaka (Latn, 1,020,000 speakers), Nateni (Latn, 100,000 speakers), Fur (Latn, 1,230,163 speakers), Lugbara (Latn, 2,200,000 speakers), Ekpeye (Latn, 226,000 speakers), Teke-Ebo (Latn, 260,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Ebira (Latn, 2,200,000 speakers), South Central Banda (Latn, 244,000 speakers), Dii (Latn, 71,000 speakers), Igbo (Latn, 27,823,640 speakers), Basaa (Latn, 332,940 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Koonzime (Latn, 40,000 speakers), Sar (Latn, 500,000 speakers), Yala (Latn, 200,000 speakers), Kom (Latn, 360,685 speakers), Belarusian (Cyrl, 10,064,517 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Ejagham (Latn, 120,000 speakers), Bafut (Latn, 158,146 speakers), Avokaya (Latn, 100,000 speakers), Dan (Latn, 1,099,244 speakers), Cicipu (Latn, 44,000 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Mango (Latn, 77,000 speakers), Gulay (Latn, 250,478 speakers), Southern Kisi (Latn, 360,000 speakers), Kaska (Latn, 125 speakers), Vute (Latn, 21,000 speakers), Mfumte (Latn, 79,000 speakers), Navajo (Latn, 166,319 speakers), Zapotec (Latn, 490,000 speakers), Nzakara (Latn, 50,000 speakers), Heiltsuk (Latn, 300 speakers), Han (Latn, 6 speakers), Ma’di (Latn, 584,000 speakers), Aghem (Latn, 38,843 speakers), Mundani (Latn, 34,000 speakers), Makaa (Latn, 221,000 speakers).</p>
  [code: soft-dotted]
 
 
@@ -10986,8 +19410,551 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[6] MatrixSansPrint-Regular.ttf</summary>
+<details><summary>[7] MatrixSansPrint-Regular.ttf</summary>
 <div>
+<details>
+    <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">af_Latn (Afrikaans)</td>
+<td align="left">Requires Small-cap: c; both buffers returned c=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: o; both buffers returned o=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ó; both buffers returned oacute=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ò; both buffers returned ograve=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ô; both buffers returned ocircumflex=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ö; both buffers returned odieresis=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: s; both buffers returned s=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: v; both buffers returned v=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: w; both buffers returned w=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: x; both buffers returned x=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: z; both buffers returned z=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ç; both buffers returned ccedilla=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">bm_Latn (Bambara)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: c; both buffers returned c=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned eopen=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: o; both buffers returned o=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned oopen=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: s; both buffers returned s=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: w; both buffers returned w=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: z; both buffers returned z=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: v; both buffers returned v=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: x; both buffers returned x=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">dyu_Latn (Dyula)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: c; both buffers returned c=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned eopen=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: o; both buffers returned o=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned oopen=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: s; both buffers returned s=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: v; both buffers returned v=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: w; both buffers returned w=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: z; both buffers returned z=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">ha_Latn (Hausa)</td>
+<td align="left">Requires Small-cap: c; both buffers returned c=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: o; both buffers returned o=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: s; both buffers returned s=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: w; both buffers returned w=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: z; both buffers returned z=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ó; both buffers returned oacute=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ò; both buffers returned ograve=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ô; both buffers returned ocircumflex=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: v; both buffers returned v=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: x; both buffers returned x=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">ig_Latn (Igbo)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: o; both buffers returned o=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ọ; both buffers returned odotbelow=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: s; both buffers returned s=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: v; both buffers returned v=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: w; both buffers returned w=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: z; both buffers returned z=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: c; both buffers returned c=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ó; both buffers returned oacute=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ò; both buffers returned ograve=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ō; both buffers returned omacron=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: x; both buffers returned x=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned eopen=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɵ; both buffers returned .notdef=0+601</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">lg_Latn (Ganda)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: c; both buffers returned c=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: o; both buffers returned o=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: s; both buffers returned s=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: v; both buffers returned v=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: w; both buffers returned w=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: z; both buffers returned z=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: x; both buffers returned x=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">om_Latn (Oromo)</td>
+<td align="left">Requires Small-cap: c; both buffers returned c=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: o; both buffers returned o=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: s; both buffers returned s=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: v; both buffers returned v=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: w; both buffers returned w=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: x; both buffers returned x=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: z; both buffers returned z=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">sw_Latn (Swahili)</td>
+<td align="left">Requires Small-cap: o; both buffers returned o=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: s; both buffers returned s=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: v; both buffers returned v=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: w; both buffers returned w=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: z; both buffers returned z=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: c; both buffers returned c=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: x; both buffers returned x=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">xh_Latn (Xhosa)</td>
+<td align="left">Requires Small-cap: c; both buffers returned c=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: o; both buffers returned o=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: s; both buffers returned s=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: v; both buffers returned v=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: w; both buffers returned w=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: x; both buffers returned x=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: z; both buffers returned z=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">yo_Latn (Yoruba)</td>
+<td align="left">Requires Small-cap: o; both buffers returned o=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ó; both buffers returned oacute=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ò; both buffers returned ograve=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ọ; both buffers returned odotbelow=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: s; both buffers returned s=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ṣ; both buffers returned sdotbelow=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: w; both buffers returned w=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: c; both buffers returned c=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: v; both buffers returned v=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: x; both buffers returned x=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: z; both buffers returned z=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+</div>
+</details>
+
 <details>
     <summary>⚠️ <b>WARN</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
     <div>
@@ -11456,6 +20423,10 @@ definitions.</p>
 
 - Glyph name: imacron	Contours detected: 11	Expected: 2
 
+- Glyph name: Ibreve	Contours detected: 16	Expected: 2
+
+- Glyph name: ibreve	Contours detected: 13	Expected: 2
+
 - Glyph name: Iogonek	Contours detected: 14	Expected: 1 or 2
 
 - Glyph name: iogonek	Contours detected: 12	Expected: 2 or 3
@@ -11512,13 +20483,17 @@ definitions.</p>
 
 - Glyph name: napostrophe	Contours detected: 15	Expected: 2
 
-- Glyph name: Eng	Contours detected: 19	Expected: 1
+- Glyph name: Eng	Contours detected: 16	Expected: 1
 
-- Glyph name: eng	Contours detected: 15	Expected: 1
+- Glyph name: eng	Contours detected: 14	Expected: 1
 
 - Glyph name: Omacron	Contours detected: 19	Expected: 3
 
 - Glyph name: omacron	Contours detected: 15	Expected: 3
+
+- Glyph name: Obreve	Contours detected: 21	Expected: 3
+
+- Glyph name: obreve	Contours detected: 17	Expected: 3
 
 - Glyph name: Ohungarumlaut	Contours detected: 20	Expected: 4
 
@@ -11610,9 +20585,23 @@ definitions.</p>
 
 - Glyph name: zcaron	Contours detected: 16	Expected: 2
 
+- Glyph name: Bhook	Contours detected: 20	Expected: 3
+
+- Glyph name: Oopen	Contours detected: 13	Expected: 1
+
+- Glyph name: Dhook	Contours detected: 17	Expected: 2
+
 - Glyph name: uni018F	Contours detected: 18	Expected: 2
 
+- Glyph name: Eopen	Contours detected: 15	Expected: 1
+
 - Glyph name: florin	Contours detected: 14	Expected: 1
+
+- Glyph name: Khook	Contours detected: 14	Expected: 1
+
+- Glyph name: khook	Contours detected: 13	Expected: 1
+
+- Glyph name: Nhookleft	Contours detected: 19	Expected: 1
 
 - Glyph name: Ohorn	Contours detected: 19	Expected: 2 or 3
 
@@ -11622,41 +20611,49 @@ definitions.</p>
 
 - Glyph name: uhorn	Contours detected: 15	Expected: 1
 
-- Glyph name: uni01CD	Contours detected: 19	Expected: 3
+- Glyph name: Yhook	Contours detected: 12	Expected: 1
 
-- Glyph name: uni01CE	Contours detected: 17	Expected: 3
+- Glyph name: yhook	Contours detected: 18	Expected: 1
 
-- Glyph name: uni01CF	Contours detected: 14	Expected: 2
+- Glyph name: Acaron	Contours detected: 19	Expected: 3
 
-- Glyph name: uni01D0	Contours detected: 11	Expected: 2
+- Glyph name: acaron	Contours detected: 17	Expected: 3
 
-- Glyph name: uni01D1	Contours detected: 19	Expected: 3
+- Glyph name: Icaron	Contours detected: 14	Expected: 2
 
-- Glyph name: uni01D2	Contours detected: 15	Expected: 3
+- Glyph name: icaron	Contours detected: 11	Expected: 2
 
-- Glyph name: uni01D3	Contours detected: 18	Expected: 2
+- Glyph name: Ocaron	Contours detected: 19	Expected: 3
 
-- Glyph name: uni01D4	Contours detected: 15	Expected: 2
+- Glyph name: ocaron	Contours detected: 15	Expected: 3
 
-- Glyph name: uni01D5	Contours detected: 18	Expected: 4
+- Glyph name: Ucaron	Contours detected: 18	Expected: 2
 
-- Glyph name: uni01D6	Contours detected: 17	Expected: 4
+- Glyph name: ucaron	Contours detected: 15	Expected: 2
 
-- Glyph name: uni01D7	Contours detected: 15	Expected: 4
+- Glyph name: Udieresismacron	Contours detected: 18	Expected: 4
 
-- Glyph name: uni01D8	Contours detected: 16	Expected: 4
+- Glyph name: udieresismacron	Contours detected: 17	Expected: 4
 
-- Glyph name: uni01D9	Contours detected: 16	Expected: 4
+- Glyph name: Udieresisacute	Contours detected: 15	Expected: 4
 
-- Glyph name: uni01DA	Contours detected: 17	Expected: 4
+- Glyph name: udieresisacute	Contours detected: 16	Expected: 4
 
-- Glyph name: uni01DB	Contours detected: 15	Expected: 4
+- Glyph name: Udieresiscaron	Contours detected: 16	Expected: 4
 
-- Glyph name: uni01DC	Contours detected: 16	Expected: 4
+- Glyph name: udieresiscaron	Contours detected: 17	Expected: 4
+
+- Glyph name: Udieresisgrave	Contours detected: 15	Expected: 4
+
+- Glyph name: udieresisgrave	Contours detected: 16	Expected: 4
 
 - Glyph name: Gcaron	Contours detected: 20	Expected: 2
 
 - Glyph name: gcaron	Contours detected: 21	Expected: 3 or 4
+
+- Glyph name: Ngrave	Contours detected: 19	Expected: 2
+
+- Glyph name: ngrave	Contours detected: 14	Expected: 2
 
 - Glyph name: Scommaaccent	Contours detected: 17	Expected: 2
 
@@ -11666,6 +20663,10 @@ definitions.</p>
 
 - Glyph name: tcommaaccent	Contours detected: 14	Expected: 2
 
+- Glyph name: Ymacron	Contours detected: 13	Expected: 2
+
+- Glyph name: ymacron	Contours detected: 19	Expected: 2
+
 - Glyph name: jdotless	Contours detected: 10	Expected: 1
 
 - Glyph name: uni0251	Contours detected: 14	Expected: 2
@@ -11674,13 +20675,15 @@ definitions.</p>
 
 - Glyph name: uni0261	Contours detected: 18	Expected: 2
 
+- Glyph name: nhookleft	Contours detected: 14	Expected: 1
+
 - Glyph name: uni02BB	Contours detected: 3	Expected: 1
 
-- Glyph name: uni02BC	Contours detected: 3	Expected: 1
+- Glyph name: apostrophemod	Contours detected: 3	Expected: 1
 
-- Glyph name: uni02BE	Contours detected: 3	Expected: 1
+- Glyph name: ringhalfright	Contours detected: 3	Expected: 1
 
-- Glyph name: uni02BF	Contours detected: 3	Expected: 1
+- Glyph name: ringhalfleft	Contours detected: 3	Expected: 1
 
 - Glyph name: circumflex	Contours detected: 3	Expected: 1
 
@@ -11736,9 +20739,9 @@ definitions.</p>
 
 - Glyph name: ogonekcomb	Contours detected: 3	Expected: 1
 
-- Glyph name: uni032E	Contours detected: 5	Expected: 1
+- Glyph name: brevebelowcomb	Contours detected: 5	Expected: 1
 
-- Glyph name: uni0331	Contours detected: 3	Expected: 1
+- Glyph name: macronbelowcomb	Contours detected: 3	Expected: 1
 
 - Glyph name: uni0394	Contours detected: 15	Expected: 2
 
@@ -11750,25 +20753,25 @@ definitions.</p>
 
 - Glyph name: baht	Contours detected: 20	Expected: 3 or 5
 
-- Glyph name: uni1E0C	Contours detected: 17	Expected: 3
+- Glyph name: Ddotbelow	Contours detected: 17	Expected: 3
 
-- Glyph name: uni1E0D	Contours detected: 17	Expected: 3
+- Glyph name: ddotbelow	Contours detected: 17	Expected: 3
 
-- Glyph name: uni1E0E	Contours detected: 19	Expected: 3
+- Glyph name: Dmacronbelow	Contours detected: 19	Expected: 3
 
-- Glyph name: uni1E0F	Contours detected: 19	Expected: 3
+- Glyph name: dmacronbelow	Contours detected: 19	Expected: 3
 
-- Glyph name: uni1E20	Contours detected: 20	Expected: 2
+- Glyph name: Gmacron	Contours detected: 20	Expected: 2
 
-- Glyph name: uni1E21	Contours detected: 21	Expected: 3 or 4
+- Glyph name: gmacron	Contours detected: 21	Expected: 3 or 4
 
-- Glyph name: uni1E24	Contours detected: 18	Expected: 2
+- Glyph name: Hdotbelow	Contours detected: 18	Expected: 2
 
-- Glyph name: uni1E25	Contours detected: 15	Expected: 2
+- Glyph name: hdotbelow	Contours detected: 15	Expected: 2
 
-- Glyph name: uni1E2A	Contours detected: 20	Expected: 2
+- Glyph name: Hbrevebelow	Contours detected: 20	Expected: 2
 
-- Glyph name: uni1E2B	Contours detected: 17	Expected: 2
+- Glyph name: hbrevebelow	Contours detected: 17	Expected: 2
 
 - Glyph name: uni1E36	Contours detected: 12	Expected: 2
 
@@ -11782,13 +20785,17 @@ definitions.</p>
 
 - Glyph name: uni1E3B	Contours detected: 13	Expected: 2
 
+- Glyph name: Macute	Contours detected: 20	Expected: 2
+
+- Glyph name: macute	Contours detected: 16	Expected: 2
+
 - Glyph name: uni1E42	Contours detected: 19	Expected: 2
 
 - Glyph name: uni1E43	Contours detected: 15	Expected: 2
 
-- Glyph name: uni1E44	Contours detected: 18	Expected: 2
+- Glyph name: Ndotaccent	Contours detected: 18	Expected: 2
 
-- Glyph name: uni1E45	Contours detected: 13	Expected: 2
+- Glyph name: ndotaccent	Contours detected: 13	Expected: 2
 
 - Glyph name: uni1E46	Contours detected: 18	Expected: 2
 
@@ -11814,17 +20821,17 @@ definitions.</p>
 
 - Glyph name: uni1E61	Contours detected: 14	Expected: 2
 
-- Glyph name: uni1E62	Contours detected: 16	Expected: 2
+- Glyph name: Sdotbelow	Contours detected: 16	Expected: 2
 
-- Glyph name: uni1E63	Contours detected: 14	Expected: 2
+- Glyph name: sdotbelow	Contours detected: 14	Expected: 2
 
-- Glyph name: uni1E6C	Contours detected: 12	Expected: 2
+- Glyph name: Tdotbelow	Contours detected: 12	Expected: 2
 
-- Glyph name: uni1E6D	Contours detected: 13	Expected: 2
+- Glyph name: tdotbelow	Contours detected: 13	Expected: 2
 
-- Glyph name: uni1E6E	Contours detected: 14	Expected: 2
+- Glyph name: Tmacronbelow	Contours detected: 14	Expected: 2
 
-- Glyph name: uni1E6F	Contours detected: 15	Expected: 2
+- Glyph name: tmacronbelow	Contours detected: 15	Expected: 2
 
 - Glyph name: Wgrave	Contours detected: 19	Expected: 2
 
@@ -11842,11 +20849,11 @@ definitions.</p>
 
 - Glyph name: uni1E8F	Contours detected: 17	Expected: 2
 
-- Glyph name: uni1E92	Contours detected: 16	Expected: 2
+- Glyph name: Zdotbelow	Contours detected: 16	Expected: 2
 
-- Glyph name: uni1E93	Contours detected: 14	Expected: 2
+- Glyph name: zdotbelow	Contours detected: 14	Expected: 2
 
-- Glyph name: uni1E97	Contours detected: 14	Expected: 3
+- Glyph name: tdieresis	Contours detected: 14	Expected: 3
 
 - Glyph name: Germandbls	Contours detected: 18	Expected: 1
 
@@ -12092,7 +21099,7 @@ definitions.</p>
 
 - Glyph name: uni207E	Contours detected: 5	Expected: 1
 
-- Glyph name: uni207F	Contours detected: 8	Expected: 1
+- Glyph name: nmod	Contours detected: 8	Expected: 1
 
 - Glyph name: uni2080	Contours detected: 8	Expected: 2 or 3
 
@@ -12336,7 +21343,7 @@ definitions.</p>
 
 - Glyph name: Emacron	Contours detected: 21	Expected: 2
 
-- Glyph name: Eng	Contours detected: 19	Expected: 1
+- Glyph name: Eng	Contours detected: 16	Expected: 1
 
 - Glyph name: Eogonek	Contours detected: 21	Expected: 1 or 2
 
@@ -12367,6 +21374,8 @@ definitions.</p>
 - Glyph name: IJ	Contours detected: 15	Expected: 1 or 2
 
 - Glyph name: Iacute	Contours detected: 13	Expected: 2
+
+- Glyph name: Ibreve	Contours detected: 16	Expected: 2
 
 - Glyph name: Icircumflex	Contours detected: 14	Expected: 2
 
@@ -12650,7 +21659,7 @@ definitions.</p>
 
 - Glyph name: endash	Contours detected: 5	Expected: 1
 
-- Glyph name: eng	Contours detected: 15	Expected: 1
+- Glyph name: eng	Contours detected: 14	Expected: 1
 
 - Glyph name: eogonek	Contours detected: 17	Expected: 2
 
@@ -12713,6 +21722,8 @@ definitions.</p>
 - Glyph name: i	Contours detected: 9	Expected: 2
 
 - Glyph name: iacute	Contours detected: 10	Expected: 2
+
+- Glyph name: ibreve	Contours detected: 13	Expected: 2
 
 - Glyph name: icircumflex	Contours detected: 11	Expected: 2
 
@@ -12956,38 +21967,6 @@ definitions.</p>
 
 - Glyph name: uni018F	Contours detected: 18	Expected: 2
 
-- Glyph name: uni01CD	Contours detected: 19	Expected: 3
-
-- Glyph name: uni01CE	Contours detected: 17	Expected: 3
-
-- Glyph name: uni01CF	Contours detected: 14	Expected: 2
-
-- Glyph name: uni01D0	Contours detected: 11	Expected: 2
-
-- Glyph name: uni01D1	Contours detected: 19	Expected: 3
-
-- Glyph name: uni01D2	Contours detected: 15	Expected: 3
-
-- Glyph name: uni01D3	Contours detected: 18	Expected: 2
-
-- Glyph name: uni01D4	Contours detected: 15	Expected: 2
-
-- Glyph name: uni01D5	Contours detected: 18	Expected: 4
-
-- Glyph name: uni01D6	Contours detected: 17	Expected: 4
-
-- Glyph name: uni01D7	Contours detected: 15	Expected: 4
-
-- Glyph name: uni01D8	Contours detected: 16	Expected: 4
-
-- Glyph name: uni01D9	Contours detected: 16	Expected: 4
-
-- Glyph name: uni01DA	Contours detected: 17	Expected: 4
-
-- Glyph name: uni01DB	Contours detected: 15	Expected: 4
-
-- Glyph name: uni01DC	Contours detected: 16	Expected: 4
-
 - Glyph name: uni0251	Contours detected: 14	Expected: 2
 
 - Glyph name: uni0259	Contours detected: 14	Expected: 2
@@ -12995,12 +21974,6 @@ definitions.</p>
 - Glyph name: uni0261	Contours detected: 18	Expected: 2
 
 - Glyph name: uni02BB	Contours detected: 3	Expected: 1
-
-- Glyph name: uni02BC	Contours detected: 3	Expected: 1
-
-- Glyph name: uni02BE	Contours detected: 3	Expected: 1
-
-- Glyph name: uni02BF	Contours detected: 3	Expected: 1
 
 - Glyph name: uni02C8	Contours detected: 2	Expected: 1
 
@@ -13012,35 +21985,11 @@ definitions.</p>
 
 - Glyph name: uni02CC	Contours detected: 2	Expected: 1
 
-- Glyph name: uni032E	Contours detected: 5	Expected: 1
-
-- Glyph name: uni0331	Contours detected: 3	Expected: 1
-
 - Glyph name: uni0394	Contours detected: 15	Expected: 2
 
 - Glyph name: uni03A9	Contours detected: 17	Expected: 1
 
 - Glyph name: uni03BC	Contours detected: 14	Expected: 1
-
-- Glyph name: uni1E0C	Contours detected: 17	Expected: 3
-
-- Glyph name: uni1E0D	Contours detected: 17	Expected: 3
-
-- Glyph name: uni1E0E	Contours detected: 19	Expected: 3
-
-- Glyph name: uni1E0F	Contours detected: 19	Expected: 3
-
-- Glyph name: uni1E20	Contours detected: 20	Expected: 2
-
-- Glyph name: uni1E21	Contours detected: 21	Expected: 3 or 4
-
-- Glyph name: uni1E24	Contours detected: 18	Expected: 2
-
-- Glyph name: uni1E25	Contours detected: 15	Expected: 2
-
-- Glyph name: uni1E2A	Contours detected: 20	Expected: 2
-
-- Glyph name: uni1E2B	Contours detected: 17	Expected: 2
 
 - Glyph name: uni1E36	Contours detected: 12	Expected: 2
 
@@ -13057,10 +22006,6 @@ definitions.</p>
 - Glyph name: uni1E42	Contours detected: 19	Expected: 2
 
 - Glyph name: uni1E43	Contours detected: 15	Expected: 2
-
-- Glyph name: uni1E44	Contours detected: 18	Expected: 2
-
-- Glyph name: uni1E45	Contours detected: 13	Expected: 2
 
 - Glyph name: uni1E46	Contours detected: 18	Expected: 2
 
@@ -13086,27 +22031,9 @@ definitions.</p>
 
 - Glyph name: uni1E61	Contours detected: 14	Expected: 2
 
-- Glyph name: uni1E62	Contours detected: 16	Expected: 2
-
-- Glyph name: uni1E63	Contours detected: 14	Expected: 2
-
-- Glyph name: uni1E6C	Contours detected: 12	Expected: 2
-
-- Glyph name: uni1E6D	Contours detected: 13	Expected: 2
-
-- Glyph name: uni1E6E	Contours detected: 14	Expected: 2
-
-- Glyph name: uni1E6F	Contours detected: 15	Expected: 2
-
 - Glyph name: uni1E8E	Contours detected: 11	Expected: 2
 
 - Glyph name: uni1E8F	Contours detected: 17	Expected: 2
-
-- Glyph name: uni1E92	Contours detected: 16	Expected: 2
-
-- Glyph name: uni1E93	Contours detected: 14	Expected: 2
-
-- Glyph name: uni1E97	Contours detected: 14	Expected: 3
 
 - Glyph name: uni2010	Contours detected: 4	Expected: 1
 
@@ -13184,7 +22111,7 @@ definitions.</p>
 * ⚠️ **WARN** <p>The most common width is 600 among a set of 9 math glyphs.
 The following math glyphs have a different width, though:</p>
 <p>Width = 400:
-greaterequal, greater, lessequal, less</p>
+greater, greaterequal, lessequal, less</p>
  [code: width-outliers]
 
 
@@ -13229,29 +22156,31 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, coptic, cherokee</li>
-<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: syriac, duployan, tifinagh, math, tai-le, hebrew, canadian-aboriginal, old-permic, todhri, coptic, malayalam</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, cherokee, coptic, math</li>
+<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, old-permic, todhri, tifinagh, coptic, malayalam, canadian-aboriginal, math, syriac, duployan, tai-le</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
+<li>U+030D COMBINING VERTICAL LINE ABOVE: try adding sunuwar</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+0315 COMBINING COMMA ABOVE RIGHT: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
-<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: syriac, duployan, cherokee</li>
+<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: duployan, cherokee, syriac</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: syriac, gothic, caucasian-albanian, tifinagh, sunuwar, cherokee, thai</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: thai, sunuwar, tifinagh, gothic, cherokee, syriac, caucasian-albanian</li>
+<li>U+0358 COMBINING DOT ABOVE RIGHT: try adding osage</li>
 <li>U+0394 GREEK CAPITAL LETTER DELTA: try adding one of: elbasan, math, greek</li>
 <li>U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: elbasan, math, greek</li>
 <li>U+03BC GREEK SMALL LETTER MU: try adding one of: math, greek</li>
 <li>U+03C0 GREEK SMALL LETTER PI: try adding one of: yi, math, greek</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+2007 FIGURE SPACE: try adding symbols2</li>
-<li>U+2010 HYPHEN: try adding one of: lisu, syloti-nagri, arabic, sora-sompeng, armenian, kaithi, sundanese, kayah-li, yi, hebrew, kharoshthi, cham, coptic</li>
-<li>U+2011 NON-BREAKING HYPHEN: try adding one of: yi, syloti-nagri, arabic</li>
+<li>U+2010 HYPHEN: try adding one of: yi, hebrew, sora-sompeng, lisu, sundanese, syloti-nagri, coptic, arabic, armenian, kharoshthi, kaithi, kayah-li, cham</li>
+<li>U+2011 NON-BREAKING HYPHEN: try adding one of: arabic, yi, syloti-nagri</li>
 <li>U+2012 FIGURE DASH: not included in any glyphset definition</li>
 <li>U+2015 HORIZONTAL BAR: try adding adlam</li>
 <li>U+2016 DOUBLE VERTICAL LINE: try adding math</li>
@@ -13289,20 +22218,20 @@ definitions.</p>
 <li>U+215C VULGAR FRACTION THREE EIGHTHS: try adding symbols</li>
 <li>U+215D VULGAR FRACTION FIVE EIGHTHS: try adding symbols</li>
 <li>U+215E VULGAR FRACTION SEVEN EIGHTHS: try adding symbols</li>
-<li>U+2190 LEFTWARDS ARROW: try adding one of: symbols, math</li>
-<li>U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math</li>
-<li>U+2194 LEFT RIGHT ARROW: try adding one of: symbols, math</li>
-<li>U+2195 UP DOWN ARROW: try adding one of: symbols, math</li>
-<li>U+2196 NORTH WEST ARROW: try adding one of: symbols, math</li>
-<li>U+2197 NORTH EAST ARROW: try adding one of: symbols, math</li>
-<li>U+2198 SOUTH EAST ARROW: try adding one of: symbols, math</li>
-<li>U+2199 SOUTH WEST ARROW: try adding one of: symbols, math</li>
+<li>U+2190 LEFTWARDS ARROW: try adding one of: math, symbols</li>
+<li>U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols</li>
+<li>U+2194 LEFT RIGHT ARROW: try adding one of: math, symbols</li>
+<li>U+2195 UP DOWN ARROW: try adding one of: math, symbols</li>
+<li>U+2196 NORTH WEST ARROW: try adding one of: math, symbols</li>
+<li>U+2197 NORTH EAST ARROW: try adding one of: math, symbols</li>
+<li>U+2198 SOUTH EAST ARROW: try adding one of: math, symbols</li>
+<li>U+2199 SOUTH WEST ARROW: try adding one of: math, symbols</li>
 <li>U+2202 PARTIAL DIFFERENTIAL: try adding math</li>
 <li>U+2205 EMPTY SET: try adding math</li>
 <li>U+2206 INCREMENT: try adding math</li>
 <li>U+220F N-ARY PRODUCT: try adding math</li>
 <li>U+2211 N-ARY SUMMATION: try adding math</li>
-<li>U+2219 BULLET OPERATOR: try adding one of: symbols, yi, math, tai-tham</li>
+<li>U+2219 BULLET OPERATOR: try adding one of: tai-tham, yi, math, symbols</li>
 <li>U+221A SQUARE ROOT: try adding math</li>
 <li>U+221E INFINITY: try adding math</li>
 <li>U+222B INTEGRAL: try adding math</li>
@@ -13322,26 +22251,26 @@ definitions.</p>
 <li>U+25AA BLACK SMALL SQUARE: try adding symbols</li>
 <li>U+25AB WHITE SMALL SQUARE: try adding symbols</li>
 <li>U+25B2 BLACK UP-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25B3 WHITE UP-POINTING TRIANGLE: try adding one of: symbols, math</li>
+<li>U+25B3 WHITE UP-POINTING TRIANGLE: try adding one of: math, symbols</li>
 <li>U+25B4 BLACK UP-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25B5 WHITE UP-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25B6 BLACK RIGHT-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25B7 WHITE RIGHT-POINTING TRIANGLE: try adding one of: symbols, math</li>
+<li>U+25B7 WHITE RIGHT-POINTING TRIANGLE: try adding one of: math, symbols</li>
 <li>U+25B8 BLACK RIGHT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25B9 WHITE RIGHT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25BC BLACK DOWN-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25BD WHITE DOWN-POINTING TRIANGLE: try adding one of: symbols, math</li>
+<li>U+25BD WHITE DOWN-POINTING TRIANGLE: try adding one of: math, symbols</li>
 <li>U+25BE BLACK DOWN-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25BF WHITE DOWN-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25C0 BLACK LEFT-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: symbols, math</li>
+<li>U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: math, symbols</li>
 <li>U+25C2 BLACK LEFT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25C3 WHITE LEFT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25C6 BLACK DIAMOND: try adding symbols</li>
 <li>U+25C7 WHITE DIAMOND: try adding symbols</li>
-<li>U+25CA LOZENGE: try adding one of: symbols, math</li>
+<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
 <li>U+25CB WHITE CIRCLE: try adding symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: siddham, marchen, yi, ahom, brahmi, hanifi-rohingya, newa, balinese, caucasian-albanian, bhaiksuki, khmer, duployan, armenian, limbu, kaithi, math, wancho, gunjala-gondi, tagbanwa, buhid, tamil, kayah-li, chakma, adlam, thaana, gurmukhi, tai-tham, tai-viet, sogdian, tifinagh, buginese, nko, music, rejang, tibetan, manichaean, phags-pa, elbasan, meetei-mayek, bengali, malayalam, warang-citi, mahajani, soyombo, oriya, takri, devanagari, kharoshthi, old-permic, psalter-pahlavi, osage, pahawh-hmong, khudawadi, tai-le, sinhala, gujarati, tirhuta, miao, thai, kannada, masaram-gondi, khojki, myanmar, canadian-aboriginal, sundanese, coptic, bassa-vah, zanabazar-square, new-tai-lue, hanunoo, modi, javanese, syriac, dogra, lepcha, lao, saurashtra, syloti-nagri, symbols, sharada, telugu, hebrew, mandaic, mongolian, grantha, tagalog, mende-kikakui, batak, cham</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: gujarati, syloti-nagri, canadian-aboriginal, lepcha, tai-tham, sogdian, mende-kikakui, mandaic, tai-viet, syriac, bengali, saurashtra, grantha, takri, tirhuta, malayalam, phags-pa, gunjala-gondi, batak, khudawadi, soyombo, armenian, tai-le, wancho, khojki, buhid, tifinagh, kharoshthi, kaithi, sinhala, newa, zanabazar-square, psalter-pahlavi, masaram-gondi, sharada, myanmar, kannada, yi, tamil, warang-citi, bassa-vah, balinese, thaana, khmer, osage, brahmi, buginese, duployan, rejang, thai, mahajani, music, elbasan, nko, manichaean, oriya, chakma, devanagari, old-permic, mongolian, math, ahom, hanunoo, siddham, hanifi-rohingya, meetei-mayek, bhaiksuki, javanese, tagbanwa, symbols, adlam, hebrew, telugu, miao, caucasian-albanian, cham, pahawh-hmong, tibetan, lao, marchen, gurmukhi, limbu, modi, dogra, sundanese, coptic, new-tai-lue, tagalog, kayah-li</li>
 <li>U+25CF BLACK CIRCLE: try adding symbols</li>
 <li>U+25E6 WHITE BULLET: try adding symbols</li>
 <li>U+27E8 MATHEMATICAL LEFT ANGLE BRACKET: try adding math</li>
@@ -13367,10 +22296,9 @@ definitions.</p>
 
 
 
-* ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄</p>
-<p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: ĭ̛ i̛̇ i̛̊ i̛̋ i̛̒ ĭ̤ i̤̇ i̤̊ i̤̋ i̤̒ ĭ̦ i̦̇ i̦̊ i̦̋ i̦̒ ĭ̧ i̧̇ i̧̊ i̧̋ i̧̒</p>
+* ⚠️ **WARN** <p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: i̛̇ i̛̊ i̛̋ i̛̍ i̛̒ i̤̇ i̤̊ i̤̋ i̤̍ i̤̒ i̦̇ i̦̊ i̦̋ i̦̍ i̦̒ i̧̇ i̧̊ i̧̋ i̧̍ i̧̒</p>
 <p>Your font fully covers the following languages that require the soft-dotted feature: Dutch (Latn, 31,709,104 speakers), Lithuanian (Latn, 2,357,094 speakers).</p>
-<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Ekpeye (Latn, 226,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Kaska (Latn, 125 speakers), Teke-Ebo (Latn, 260,000 speakers), Avokaya (Latn, 100,000 speakers), Gulay (Latn, 250,478 speakers), Ejagham (Latn, 120,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Lugbara (Latn, 2,200,000 speakers), Navajo (Latn, 166,319 speakers), Belarusian (Cyrl, 10,064,517 speakers), South Central Banda (Latn, 244,000 speakers), Kom (Latn, 360,685 speakers), Heiltsuk (Latn, 300 speakers), Mfumte (Latn, 79,000 speakers), Dii (Latn, 71,000 speakers), Southern Kisi (Latn, 360,000 speakers), Basaa (Latn, 332,940 speakers), Makaa (Latn, 221,000 speakers), Ma’di (Latn, 584,000 speakers), Cicipu (Latn, 44,000 speakers), Mundani (Latn, 34,000 speakers), Koonzime (Latn, 40,000 speakers), Sar (Latn, 500,000 speakers), Nzakara (Latn, 50,000 speakers), Bafut (Latn, 158,146 speakers), Yala (Latn, 200,000 speakers), Aghem (Latn, 38,843 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Dan (Latn, 1,099,244 speakers), Igbo (Latn, 27,823,640 speakers), Ebira (Latn, 2,200,000 speakers), Nateni (Latn, 100,000 speakers), Vute (Latn, 21,000 speakers), Fur (Latn, 1,230,163 speakers), Ngbaka (Latn, 1,020,000 speakers), Mango (Latn, 77,000 speakers), Han (Latn, 6 speakers), Zapotec (Latn, 490,000 speakers), Kpelle, Guinea (Latn, 622,000 speakers).</p>
+<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Ngbaka (Latn, 1,020,000 speakers), Nateni (Latn, 100,000 speakers), Fur (Latn, 1,230,163 speakers), Lugbara (Latn, 2,200,000 speakers), Ekpeye (Latn, 226,000 speakers), Teke-Ebo (Latn, 260,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Ebira (Latn, 2,200,000 speakers), South Central Banda (Latn, 244,000 speakers), Dii (Latn, 71,000 speakers), Igbo (Latn, 27,823,640 speakers), Basaa (Latn, 332,940 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Koonzime (Latn, 40,000 speakers), Sar (Latn, 500,000 speakers), Yala (Latn, 200,000 speakers), Kom (Latn, 360,685 speakers), Belarusian (Cyrl, 10,064,517 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Ejagham (Latn, 120,000 speakers), Bafut (Latn, 158,146 speakers), Avokaya (Latn, 100,000 speakers), Dan (Latn, 1,099,244 speakers), Cicipu (Latn, 44,000 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Mango (Latn, 77,000 speakers), Gulay (Latn, 250,478 speakers), Southern Kisi (Latn, 360,000 speakers), Kaska (Latn, 125 speakers), Vute (Latn, 21,000 speakers), Mfumte (Latn, 79,000 speakers), Navajo (Latn, 166,319 speakers), Zapotec (Latn, 490,000 speakers), Nzakara (Latn, 50,000 speakers), Heiltsuk (Latn, 300 speakers), Han (Latn, 6 speakers), Ma’di (Latn, 584,000 speakers), Aghem (Latn, 38,843 speakers), Mundani (Latn, 34,000 speakers), Makaa (Latn, 221,000 speakers).</p>
  [code: soft-dotted]
 
 
@@ -13398,8 +22326,1607 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[5] MatrixSansPrintSC-Regular.ttf</summary>
+<details><summary>[6] MatrixSansPrintSC-Regular.ttf</summary>
 <div>
+<details>
+    <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">af_Latn (Afrikaans)</td>
+<td align="left">Requires Small-cap: a; both buffers returned a.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: á; both buffers returned aacute.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ä; both buffers returned adieresis.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: b; both buffers returned b.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: c; both buffers returned c=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: d; both buffers returned d.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: e; both buffers returned e.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: é; both buffers returned eacute.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: è; both buffers returned egrave.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ê; both buffers returned ecircumflex.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ë; both buffers returned edieresis.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: f; both buffers returned f.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: g; both buffers returned g.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: h; both buffers returned h.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: i; both buffers returned i.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: í; both buffers returned iacute.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: î; both buffers returned icircumflex.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ï; both buffers returned idieresis.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: j; both buffers returned j.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: k; both buffers returned kgreenlandic=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: l; both buffers returned l.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: m; both buffers returned m.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: n; both buffers returned n.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: o; both buffers returned o=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ó; both buffers returned oacute=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ò; both buffers returned ograve=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ô; both buffers returned ocircumflex=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ö; both buffers returned odieresis=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: p; both buffers returned p.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: q; both buffers returned q.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: r; both buffers returned r.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: s; both buffers returned s=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: t; both buffers returned t.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: u; both buffers returned u.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ú; both buffers returned uacute.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: û; both buffers returned ucircumflex.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ü; both buffers returned udieresis.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: v; both buffers returned v=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: w; both buffers returned w=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: x; both buffers returned x=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: y; both buffers returned y.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ý; both buffers returned yacute.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: z; both buffers returned z=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: à; both buffers returned agrave.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: â; both buffers returned acircumflex.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: å; both buffers returned aring.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ã; both buffers returned atilde.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: æ; both buffers returned ae.sc=0+800</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: œ; both buffers returned oe.sc=0+800</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ç; both buffers returned ccedilla=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ì; both buffers returned igrave.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ñ; both buffers returned ntilde.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ù; both buffers returned ugrave.sc=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">bm_Latn (Bambara)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: a; both buffers returned a.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: b; both buffers returned b.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: c; both buffers returned c=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: d; both buffers returned d.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: e; both buffers returned e.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned eopen=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: f; both buffers returned f.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: g; both buffers returned g.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: h; both buffers returned h.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: i; both buffers returned i.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: j; both buffers returned j.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: k; both buffers returned kgreenlandic=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: l; both buffers returned l.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: m; both buffers returned m.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: n; both buffers returned n.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɲ; both buffers returned nhookleft.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ŋ; both buffers returned eng.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: o; both buffers returned o=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned oopen=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: p; both buffers returned p.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: r; both buffers returned r.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: s; both buffers returned s=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: t; both buffers returned t.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: u; both buffers returned u.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: w; both buffers returned w=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: y; both buffers returned y.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: z; both buffers returned z=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: q; both buffers returned q.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: v; both buffers returned v=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: x; both buffers returned x=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">dyu_Latn (Dyula)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: a; both buffers returned a.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: b; both buffers returned b.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: c; both buffers returned c=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: d; both buffers returned d.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: e; both buffers returned e.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned eopen=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: f; both buffers returned f.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: g; both buffers returned g.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: h; both buffers returned h.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: i; both buffers returned i.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: j; both buffers returned j.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: k; both buffers returned kgreenlandic=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: l; both buffers returned l.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: m; both buffers returned m.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: n; both buffers returned n.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɲ; both buffers returned nhookleft.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ŋ; both buffers returned eng.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: o; both buffers returned o=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɔ; both buffers returned oopen=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: p; both buffers returned p.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: r; both buffers returned r.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: s; both buffers returned s=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: t; both buffers returned t.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: u; both buffers returned u.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: v; both buffers returned v=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: w; both buffers returned w=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: y; both buffers returned y.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: z; both buffers returned z=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">ha_Latn (Hausa)</td>
+<td align="left">Requires Small-cap: a; both buffers returned a.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: b; both buffers returned b.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɓ; both buffers returned bhook.sc=0+700</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: c; both buffers returned c=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: d; both buffers returned d.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɗ; both buffers returned dhook.sc=0+700</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: e; both buffers returned e.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: f; both buffers returned f.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: g; both buffers returned g.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: h; both buffers returned h.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: i; both buffers returned i.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: j; both buffers returned j.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: k; both buffers returned kgreenlandic=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ƙ; both buffers returned khook.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: l; both buffers returned l.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: m; both buffers returned m.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: n; both buffers returned n.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: o; both buffers returned o=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: r; both buffers returned r.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: s; both buffers returned s=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: t; both buffers returned t.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: u; both buffers returned u.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: w; both buffers returned w=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: y; both buffers returned y.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ƴ; both buffers returned yhook.sc=0+700</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: z; both buffers returned z=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: á; both buffers returned aacute.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: à; both buffers returned agrave.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: â; both buffers returned acircumflex.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: é; both buffers returned eacute.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: è; both buffers returned egrave.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ê; both buffers returned ecircumflex.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: í; both buffers returned iacute.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ì; both buffers returned igrave.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: î; both buffers returned icircumflex.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ó; both buffers returned oacute=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ò; both buffers returned ograve=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ô; both buffers returned ocircumflex=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: p; both buffers returned p.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: q; both buffers returned q.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ú; both buffers returned uacute.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ù; both buffers returned ugrave.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: û; both buffers returned ucircumflex.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: v; both buffers returned v=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: x; both buffers returned x=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">ig_Latn (Igbo)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: a; both buffers returned a.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: b; both buffers returned b.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: d; both buffers returned d.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: e; both buffers returned e.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ẹ; both buffers returned edotbelow.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: f; both buffers returned f.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: g; both buffers returned g.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: h; both buffers returned h.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: i; both buffers returned i.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ị; both buffers returned idotbelow.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: j; both buffers returned j.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: k; both buffers returned kgreenlandic=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: l; both buffers returned l.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: m; both buffers returned m.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: n; both buffers returned n.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ṅ; both buffers returned ndotaccent.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: o; both buffers returned o=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ọ; both buffers returned odotbelow=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: p; both buffers returned p.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: r; both buffers returned r.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: s; both buffers returned s=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: t; both buffers returned t.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: u; both buffers returned u.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ụ; both buffers returned udotbelow.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: v; both buffers returned v=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: w; both buffers returned w=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: y; both buffers returned y.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: z; both buffers returned z=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: á; both buffers returned aacute.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: à; both buffers returned agrave.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ā; both buffers returned amacron.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: c; both buffers returned c=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: é; both buffers returned eacute.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: è; both buffers returned egrave.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ē; both buffers returned emacron.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: í; both buffers returned iacute.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ì; both buffers returned igrave.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ī; both buffers returned imacron.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ḿ; both buffers returned macute.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ń; both buffers returned nacute.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǹ; both buffers returned ngrave.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ó; both buffers returned oacute=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ò; both buffers returned ograve=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ō; both buffers returned omacron=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: q; both buffers returned q.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ú; both buffers returned uacute.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ù; both buffers returned ugrave.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ū; both buffers returned umacron.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: x; both buffers returned x=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɛ; both buffers returned eopen=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ɵ; both buffers returned .notdef=0+601</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ŋ; both buffers returned eng.sc=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">lg_Latn (Ganda)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: a; both buffers returned a.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: b; both buffers returned b.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: c; both buffers returned c=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: d; both buffers returned d.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: e; both buffers returned e.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: f; both buffers returned f.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: g; both buffers returned g.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: i; both buffers returned i.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: j; both buffers returned j.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: k; both buffers returned kgreenlandic=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: l; both buffers returned l.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: m; both buffers returned m.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: n; both buffers returned n.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ŋ; both buffers returned eng.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: o; both buffers returned o=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: p; both buffers returned p.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: r; both buffers returned r.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: s; both buffers returned s=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: t; both buffers returned t.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: u; both buffers returned u.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: v; both buffers returned v=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: w; both buffers returned w=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: y; both buffers returned y.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: z; both buffers returned z=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: h; both buffers returned h.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: q; both buffers returned q.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: x; both buffers returned x=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">om_Latn (Oromo)</td>
+<td align="left">Requires Small-cap: a; both buffers returned a.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: b; both buffers returned b.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: c; both buffers returned c=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: d; both buffers returned d.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: e; both buffers returned e.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: f; both buffers returned f.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: g; both buffers returned g.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: h; both buffers returned h.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: i; both buffers returned i.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: j; both buffers returned j.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: k; both buffers returned kgreenlandic=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: l; both buffers returned l.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: m; both buffers returned m.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: n; both buffers returned n.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: o; both buffers returned o=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: p; both buffers returned p.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: q; both buffers returned q.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: r; both buffers returned r.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: s; both buffers returned s=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: t; both buffers returned t.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: u; both buffers returned u.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: v; both buffers returned v=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: w; both buffers returned w=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: x; both buffers returned x=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: y; both buffers returned y.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: z; both buffers returned z=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">sw_Latn (Swahili)</td>
+<td align="left">Requires Small-cap: a; both buffers returned a.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: b; both buffers returned b.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: d; both buffers returned d.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: e; both buffers returned e.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: f; both buffers returned f.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: g; both buffers returned g.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: h; both buffers returned h.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: i; both buffers returned i.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: j; both buffers returned j.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: k; both buffers returned kgreenlandic=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: l; both buffers returned l.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: m; both buffers returned m.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: n; both buffers returned n.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: o; both buffers returned o=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: p; both buffers returned p.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: r; both buffers returned r.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: s; both buffers returned s=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: t; both buffers returned t.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: u; both buffers returned u.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: v; both buffers returned v=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: w; both buffers returned w=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: y; both buffers returned y.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: z; both buffers returned z=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: c; both buffers returned c=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: q; both buffers returned q.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: x; both buffers returned x=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">xh_Latn (Xhosa)</td>
+<td align="left">Requires Small-cap: a; both buffers returned a.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: b; both buffers returned b.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: c; both buffers returned c=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: d; both buffers returned d.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: e; both buffers returned e.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: f; both buffers returned f.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: g; both buffers returned g.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: h; both buffers returned h.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: i; both buffers returned i.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: j; both buffers returned j.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: k; both buffers returned kgreenlandic=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: l; both buffers returned l.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: m; both buffers returned m.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: n; both buffers returned n.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: o; both buffers returned o=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: p; both buffers returned p.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: q; both buffers returned q.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: r; both buffers returned r.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: s; both buffers returned s=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: t; both buffers returned t.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: u; both buffers returned u.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: v; both buffers returned v=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: w; both buffers returned w=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: x; both buffers returned x=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: y; both buffers returned y.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: z; both buffers returned z=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_PriAfrican glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">yo_Latn (Yoruba)</td>
+<td align="left">Requires Small-cap: a; both buffers returned a.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: á; both buffers returned aacute.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: à; both buffers returned agrave.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: b; both buffers returned b.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: d; both buffers returned d.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: e; both buffers returned e.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: é; both buffers returned eacute.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: è; both buffers returned egrave.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ẹ; both buffers returned edotbelow.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: f; both buffers returned f.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: g; both buffers returned g.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: h; both buffers returned h.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: i; both buffers returned i.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: í; both buffers returned iacute.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ì; both buffers returned igrave.sc=0+400</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: j; both buffers returned j.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: k; both buffers returned kgreenlandic=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: l; both buffers returned l.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: m; both buffers returned m.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ḿ; both buffers returned macute.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: n; both buffers returned n.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ń; both buffers returned nacute.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ǹ; both buffers returned ngrave.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: o; both buffers returned o=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ó; both buffers returned oacute=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ò; both buffers returned ograve=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ọ; both buffers returned odotbelow=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: p; both buffers returned p.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: r; both buffers returned r.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: s; both buffers returned s=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ṣ; both buffers returned sdotbelow=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: t; both buffers returned t.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: u; both buffers returned u.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ú; both buffers returned uacute.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: ù; both buffers returned ugrave.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: w; both buffers returned w=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: y; both buffers returned y.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: c; both buffers returned c=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: q; both buffers returned q.sc=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: v; both buffers returned v=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: x; both buffers returned x=0+600</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Requires Small-cap: z; both buffers returned z=0+600</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+</div>
+</details>
+
 <details>
     <summary>⚠️ <b>WARN</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
     <div>
@@ -13868,6 +24395,10 @@ definitions.</p>
 
 - Glyph name: imacron	Contours detected: 11	Expected: 2
 
+- Glyph name: Ibreve	Contours detected: 16	Expected: 2
+
+- Glyph name: ibreve	Contours detected: 13	Expected: 2
+
 - Glyph name: Iogonek	Contours detected: 14	Expected: 1 or 2
 
 - Glyph name: iogonek	Contours detected: 12	Expected: 2 or 3
@@ -13924,13 +24455,17 @@ definitions.</p>
 
 - Glyph name: napostrophe	Contours detected: 15	Expected: 2
 
-- Glyph name: Eng	Contours detected: 19	Expected: 1
+- Glyph name: Eng	Contours detected: 16	Expected: 1
 
-- Glyph name: eng	Contours detected: 15	Expected: 1
+- Glyph name: eng	Contours detected: 14	Expected: 1
 
 - Glyph name: Omacron	Contours detected: 19	Expected: 3
 
 - Glyph name: omacron	Contours detected: 15	Expected: 3
+
+- Glyph name: Obreve	Contours detected: 21	Expected: 3
+
+- Glyph name: obreve	Contours detected: 17	Expected: 3
 
 - Glyph name: Ohungarumlaut	Contours detected: 20	Expected: 4
 
@@ -14022,9 +24557,23 @@ definitions.</p>
 
 - Glyph name: zcaron	Contours detected: 16	Expected: 2
 
+- Glyph name: Bhook	Contours detected: 20	Expected: 3
+
+- Glyph name: Oopen	Contours detected: 13	Expected: 1
+
+- Glyph name: Dhook	Contours detected: 17	Expected: 2
+
 - Glyph name: uni018F	Contours detected: 18	Expected: 2
 
+- Glyph name: Eopen	Contours detected: 15	Expected: 1
+
 - Glyph name: florin	Contours detected: 14	Expected: 1
+
+- Glyph name: Khook	Contours detected: 14	Expected: 1
+
+- Glyph name: khook	Contours detected: 13	Expected: 1
+
+- Glyph name: Nhookleft	Contours detected: 19	Expected: 1
 
 - Glyph name: Ohorn	Contours detected: 19	Expected: 2 or 3
 
@@ -14034,41 +24583,49 @@ definitions.</p>
 
 - Glyph name: uhorn	Contours detected: 15	Expected: 1
 
-- Glyph name: uni01CD	Contours detected: 19	Expected: 3
+- Glyph name: Yhook	Contours detected: 12	Expected: 1
 
-- Glyph name: uni01CE	Contours detected: 17	Expected: 3
+- Glyph name: yhook	Contours detected: 18	Expected: 1
 
-- Glyph name: uni01CF	Contours detected: 14	Expected: 2
+- Glyph name: Acaron	Contours detected: 19	Expected: 3
 
-- Glyph name: uni01D0	Contours detected: 11	Expected: 2
+- Glyph name: acaron	Contours detected: 17	Expected: 3
 
-- Glyph name: uni01D1	Contours detected: 19	Expected: 3
+- Glyph name: Icaron	Contours detected: 14	Expected: 2
 
-- Glyph name: uni01D2	Contours detected: 15	Expected: 3
+- Glyph name: icaron	Contours detected: 11	Expected: 2
 
-- Glyph name: uni01D3	Contours detected: 18	Expected: 2
+- Glyph name: Ocaron	Contours detected: 19	Expected: 3
 
-- Glyph name: uni01D4	Contours detected: 15	Expected: 2
+- Glyph name: ocaron	Contours detected: 15	Expected: 3
 
-- Glyph name: uni01D5	Contours detected: 18	Expected: 4
+- Glyph name: Ucaron	Contours detected: 18	Expected: 2
 
-- Glyph name: uni01D6	Contours detected: 17	Expected: 4
+- Glyph name: ucaron	Contours detected: 15	Expected: 2
 
-- Glyph name: uni01D7	Contours detected: 15	Expected: 4
+- Glyph name: Udieresismacron	Contours detected: 18	Expected: 4
 
-- Glyph name: uni01D8	Contours detected: 16	Expected: 4
+- Glyph name: udieresismacron	Contours detected: 17	Expected: 4
 
-- Glyph name: uni01D9	Contours detected: 16	Expected: 4
+- Glyph name: Udieresisacute	Contours detected: 15	Expected: 4
 
-- Glyph name: uni01DA	Contours detected: 17	Expected: 4
+- Glyph name: udieresisacute	Contours detected: 16	Expected: 4
 
-- Glyph name: uni01DB	Contours detected: 15	Expected: 4
+- Glyph name: Udieresiscaron	Contours detected: 16	Expected: 4
 
-- Glyph name: uni01DC	Contours detected: 16	Expected: 4
+- Glyph name: udieresiscaron	Contours detected: 17	Expected: 4
+
+- Glyph name: Udieresisgrave	Contours detected: 15	Expected: 4
+
+- Glyph name: udieresisgrave	Contours detected: 16	Expected: 4
 
 - Glyph name: Gcaron	Contours detected: 20	Expected: 2
 
 - Glyph name: gcaron	Contours detected: 21	Expected: 3 or 4
+
+- Glyph name: Ngrave	Contours detected: 19	Expected: 2
+
+- Glyph name: ngrave	Contours detected: 14	Expected: 2
 
 - Glyph name: Scommaaccent	Contours detected: 17	Expected: 2
 
@@ -14078,6 +24635,10 @@ definitions.</p>
 
 - Glyph name: tcommaaccent	Contours detected: 14	Expected: 2
 
+- Glyph name: Ymacron	Contours detected: 13	Expected: 2
+
+- Glyph name: ymacron	Contours detected: 19	Expected: 2
+
 - Glyph name: jdotless	Contours detected: 10	Expected: 1
 
 - Glyph name: uni0251	Contours detected: 14	Expected: 2
@@ -14086,13 +24647,15 @@ definitions.</p>
 
 - Glyph name: uni0261	Contours detected: 18	Expected: 2
 
+- Glyph name: nhookleft	Contours detected: 14	Expected: 1
+
 - Glyph name: uni02BB	Contours detected: 3	Expected: 1
 
-- Glyph name: uni02BC	Contours detected: 3	Expected: 1
+- Glyph name: apostrophemod	Contours detected: 3	Expected: 1
 
-- Glyph name: uni02BE	Contours detected: 3	Expected: 1
+- Glyph name: ringhalfright	Contours detected: 3	Expected: 1
 
-- Glyph name: uni02BF	Contours detected: 3	Expected: 1
+- Glyph name: ringhalfleft	Contours detected: 3	Expected: 1
 
 - Glyph name: circumflex	Contours detected: 3	Expected: 1
 
@@ -14148,9 +24711,9 @@ definitions.</p>
 
 - Glyph name: ogonekcomb	Contours detected: 3	Expected: 1
 
-- Glyph name: uni032E	Contours detected: 5	Expected: 1
+- Glyph name: brevebelowcomb	Contours detected: 5	Expected: 1
 
-- Glyph name: uni0331	Contours detected: 3	Expected: 1
+- Glyph name: macronbelowcomb	Contours detected: 3	Expected: 1
 
 - Glyph name: uni0394	Contours detected: 15	Expected: 2
 
@@ -14162,25 +24725,25 @@ definitions.</p>
 
 - Glyph name: baht	Contours detected: 20	Expected: 3 or 5
 
-- Glyph name: uni1E0C	Contours detected: 17	Expected: 3
+- Glyph name: Ddotbelow	Contours detected: 17	Expected: 3
 
-- Glyph name: uni1E0D	Contours detected: 17	Expected: 3
+- Glyph name: ddotbelow	Contours detected: 17	Expected: 3
 
-- Glyph name: uni1E0E	Contours detected: 19	Expected: 3
+- Glyph name: Dmacronbelow	Contours detected: 19	Expected: 3
 
-- Glyph name: uni1E0F	Contours detected: 19	Expected: 3
+- Glyph name: dmacronbelow	Contours detected: 19	Expected: 3
 
-- Glyph name: uni1E20	Contours detected: 20	Expected: 2
+- Glyph name: Gmacron	Contours detected: 20	Expected: 2
 
-- Glyph name: uni1E21	Contours detected: 21	Expected: 3 or 4
+- Glyph name: gmacron	Contours detected: 21	Expected: 3 or 4
 
-- Glyph name: uni1E24	Contours detected: 18	Expected: 2
+- Glyph name: Hdotbelow	Contours detected: 18	Expected: 2
 
-- Glyph name: uni1E25	Contours detected: 15	Expected: 2
+- Glyph name: hdotbelow	Contours detected: 15	Expected: 2
 
-- Glyph name: uni1E2A	Contours detected: 20	Expected: 2
+- Glyph name: Hbrevebelow	Contours detected: 20	Expected: 2
 
-- Glyph name: uni1E2B	Contours detected: 17	Expected: 2
+- Glyph name: hbrevebelow	Contours detected: 17	Expected: 2
 
 - Glyph name: uni1E36	Contours detected: 12	Expected: 2
 
@@ -14194,13 +24757,17 @@ definitions.</p>
 
 - Glyph name: uni1E3B	Contours detected: 13	Expected: 2
 
+- Glyph name: Macute	Contours detected: 20	Expected: 2
+
+- Glyph name: macute	Contours detected: 16	Expected: 2
+
 - Glyph name: uni1E42	Contours detected: 19	Expected: 2
 
 - Glyph name: uni1E43	Contours detected: 15	Expected: 2
 
-- Glyph name: uni1E44	Contours detected: 18	Expected: 2
+- Glyph name: Ndotaccent	Contours detected: 18	Expected: 2
 
-- Glyph name: uni1E45	Contours detected: 13	Expected: 2
+- Glyph name: ndotaccent	Contours detected: 13	Expected: 2
 
 - Glyph name: uni1E46	Contours detected: 18	Expected: 2
 
@@ -14226,17 +24793,17 @@ definitions.</p>
 
 - Glyph name: uni1E61	Contours detected: 14	Expected: 2
 
-- Glyph name: uni1E62	Contours detected: 16	Expected: 2
+- Glyph name: Sdotbelow	Contours detected: 16	Expected: 2
 
-- Glyph name: uni1E63	Contours detected: 14	Expected: 2
+- Glyph name: sdotbelow	Contours detected: 14	Expected: 2
 
-- Glyph name: uni1E6C	Contours detected: 12	Expected: 2
+- Glyph name: Tdotbelow	Contours detected: 12	Expected: 2
 
-- Glyph name: uni1E6D	Contours detected: 13	Expected: 2
+- Glyph name: tdotbelow	Contours detected: 13	Expected: 2
 
-- Glyph name: uni1E6E	Contours detected: 14	Expected: 2
+- Glyph name: Tmacronbelow	Contours detected: 14	Expected: 2
 
-- Glyph name: uni1E6F	Contours detected: 15	Expected: 2
+- Glyph name: tmacronbelow	Contours detected: 15	Expected: 2
 
 - Glyph name: Wgrave	Contours detected: 19	Expected: 2
 
@@ -14254,11 +24821,11 @@ definitions.</p>
 
 - Glyph name: uni1E8F	Contours detected: 17	Expected: 2
 
-- Glyph name: uni1E92	Contours detected: 16	Expected: 2
+- Glyph name: Zdotbelow	Contours detected: 16	Expected: 2
 
-- Glyph name: uni1E93	Contours detected: 14	Expected: 2
+- Glyph name: zdotbelow	Contours detected: 14	Expected: 2
 
-- Glyph name: uni1E97	Contours detected: 14	Expected: 3
+- Glyph name: tdieresis	Contours detected: 14	Expected: 3
 
 - Glyph name: Germandbls	Contours detected: 18	Expected: 1
 
@@ -14504,7 +25071,7 @@ definitions.</p>
 
 - Glyph name: uni207E	Contours detected: 5	Expected: 1
 
-- Glyph name: uni207F	Contours detected: 8	Expected: 1
+- Glyph name: nmod	Contours detected: 8	Expected: 1
 
 - Glyph name: uni2080	Contours detected: 8	Expected: 2 or 3
 
@@ -14748,7 +25315,7 @@ definitions.</p>
 
 - Glyph name: Emacron	Contours detected: 21	Expected: 2
 
-- Glyph name: Eng	Contours detected: 19	Expected: 1
+- Glyph name: Eng	Contours detected: 16	Expected: 1
 
 - Glyph name: Eogonek	Contours detected: 21	Expected: 1 or 2
 
@@ -14779,6 +25346,8 @@ definitions.</p>
 - Glyph name: IJ	Contours detected: 15	Expected: 1 or 2
 
 - Glyph name: Iacute	Contours detected: 13	Expected: 2
+
+- Glyph name: Ibreve	Contours detected: 16	Expected: 2
 
 - Glyph name: Icircumflex	Contours detected: 14	Expected: 2
 
@@ -15062,7 +25631,7 @@ definitions.</p>
 
 - Glyph name: endash	Contours detected: 5	Expected: 1
 
-- Glyph name: eng	Contours detected: 15	Expected: 1
+- Glyph name: eng	Contours detected: 14	Expected: 1
 
 - Glyph name: eogonek	Contours detected: 17	Expected: 2
 
@@ -15125,6 +25694,8 @@ definitions.</p>
 - Glyph name: i	Contours detected: 9	Expected: 2
 
 - Glyph name: iacute	Contours detected: 10	Expected: 2
+
+- Glyph name: ibreve	Contours detected: 13	Expected: 2
 
 - Glyph name: icircumflex	Contours detected: 11	Expected: 2
 
@@ -15368,38 +25939,6 @@ definitions.</p>
 
 - Glyph name: uni018F	Contours detected: 18	Expected: 2
 
-- Glyph name: uni01CD	Contours detected: 19	Expected: 3
-
-- Glyph name: uni01CE	Contours detected: 17	Expected: 3
-
-- Glyph name: uni01CF	Contours detected: 14	Expected: 2
-
-- Glyph name: uni01D0	Contours detected: 11	Expected: 2
-
-- Glyph name: uni01D1	Contours detected: 19	Expected: 3
-
-- Glyph name: uni01D2	Contours detected: 15	Expected: 3
-
-- Glyph name: uni01D3	Contours detected: 18	Expected: 2
-
-- Glyph name: uni01D4	Contours detected: 15	Expected: 2
-
-- Glyph name: uni01D5	Contours detected: 18	Expected: 4
-
-- Glyph name: uni01D6	Contours detected: 17	Expected: 4
-
-- Glyph name: uni01D7	Contours detected: 15	Expected: 4
-
-- Glyph name: uni01D8	Contours detected: 16	Expected: 4
-
-- Glyph name: uni01D9	Contours detected: 16	Expected: 4
-
-- Glyph name: uni01DA	Contours detected: 17	Expected: 4
-
-- Glyph name: uni01DB	Contours detected: 15	Expected: 4
-
-- Glyph name: uni01DC	Contours detected: 16	Expected: 4
-
 - Glyph name: uni0251	Contours detected: 14	Expected: 2
 
 - Glyph name: uni0259	Contours detected: 14	Expected: 2
@@ -15407,12 +25946,6 @@ definitions.</p>
 - Glyph name: uni0261	Contours detected: 18	Expected: 2
 
 - Glyph name: uni02BB	Contours detected: 3	Expected: 1
-
-- Glyph name: uni02BC	Contours detected: 3	Expected: 1
-
-- Glyph name: uni02BE	Contours detected: 3	Expected: 1
-
-- Glyph name: uni02BF	Contours detected: 3	Expected: 1
 
 - Glyph name: uni02C8	Contours detected: 2	Expected: 1
 
@@ -15424,35 +25957,11 @@ definitions.</p>
 
 - Glyph name: uni02CC	Contours detected: 2	Expected: 1
 
-- Glyph name: uni032E	Contours detected: 5	Expected: 1
-
-- Glyph name: uni0331	Contours detected: 3	Expected: 1
-
 - Glyph name: uni0394	Contours detected: 15	Expected: 2
 
 - Glyph name: uni03A9	Contours detected: 17	Expected: 1
 
 - Glyph name: uni03BC	Contours detected: 14	Expected: 1
-
-- Glyph name: uni1E0C	Contours detected: 17	Expected: 3
-
-- Glyph name: uni1E0D	Contours detected: 17	Expected: 3
-
-- Glyph name: uni1E0E	Contours detected: 19	Expected: 3
-
-- Glyph name: uni1E0F	Contours detected: 19	Expected: 3
-
-- Glyph name: uni1E20	Contours detected: 20	Expected: 2
-
-- Glyph name: uni1E21	Contours detected: 21	Expected: 3 or 4
-
-- Glyph name: uni1E24	Contours detected: 18	Expected: 2
-
-- Glyph name: uni1E25	Contours detected: 15	Expected: 2
-
-- Glyph name: uni1E2A	Contours detected: 20	Expected: 2
-
-- Glyph name: uni1E2B	Contours detected: 17	Expected: 2
 
 - Glyph name: uni1E36	Contours detected: 12	Expected: 2
 
@@ -15469,10 +25978,6 @@ definitions.</p>
 - Glyph name: uni1E42	Contours detected: 19	Expected: 2
 
 - Glyph name: uni1E43	Contours detected: 15	Expected: 2
-
-- Glyph name: uni1E44	Contours detected: 18	Expected: 2
-
-- Glyph name: uni1E45	Contours detected: 13	Expected: 2
 
 - Glyph name: uni1E46	Contours detected: 18	Expected: 2
 
@@ -15498,27 +26003,9 @@ definitions.</p>
 
 - Glyph name: uni1E61	Contours detected: 14	Expected: 2
 
-- Glyph name: uni1E62	Contours detected: 16	Expected: 2
-
-- Glyph name: uni1E63	Contours detected: 14	Expected: 2
-
-- Glyph name: uni1E6C	Contours detected: 12	Expected: 2
-
-- Glyph name: uni1E6D	Contours detected: 13	Expected: 2
-
-- Glyph name: uni1E6E	Contours detected: 14	Expected: 2
-
-- Glyph name: uni1E6F	Contours detected: 15	Expected: 2
-
 - Glyph name: uni1E8E	Contours detected: 11	Expected: 2
 
 - Glyph name: uni1E8F	Contours detected: 17	Expected: 2
-
-- Glyph name: uni1E92	Contours detected: 16	Expected: 2
-
-- Glyph name: uni1E93	Contours detected: 14	Expected: 2
-
-- Glyph name: uni1E97	Contours detected: 14	Expected: 3
 
 - Glyph name: uni2010	Contours detected: 4	Expected: 1
 
@@ -15596,7 +26083,7 @@ definitions.</p>
 * ⚠️ **WARN** <p>The most common width is 600 among a set of 9 math glyphs.
 The following math glyphs have a different width, though:</p>
 <p>Width = 400:
-greaterequal, greater, lessequal, less</p>
+greater, greaterequal, lessequal, less</p>
  [code: width-outliers]
 
 
@@ -15641,29 +26128,31 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, coptic, cherokee</li>
-<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: syriac, duployan, tifinagh, math, tai-le, hebrew, canadian-aboriginal, old-permic, todhri, coptic, malayalam</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, cherokee, coptic, math</li>
+<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, old-permic, todhri, tifinagh, coptic, malayalam, canadian-aboriginal, math, syriac, duployan, tai-le</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
+<li>U+030D COMBINING VERTICAL LINE ABOVE: try adding sunuwar</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+0315 COMBINING COMMA ABOVE RIGHT: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
-<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: syriac, duployan, cherokee</li>
+<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: duployan, cherokee, syriac</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: syriac, gothic, caucasian-albanian, tifinagh, sunuwar, cherokee, thai</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: thai, sunuwar, tifinagh, gothic, cherokee, syriac, caucasian-albanian</li>
+<li>U+0358 COMBINING DOT ABOVE RIGHT: try adding osage</li>
 <li>U+0394 GREEK CAPITAL LETTER DELTA: try adding one of: elbasan, math, greek</li>
 <li>U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: elbasan, math, greek</li>
 <li>U+03BC GREEK SMALL LETTER MU: try adding one of: math, greek</li>
 <li>U+03C0 GREEK SMALL LETTER PI: try adding one of: yi, math, greek</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+2007 FIGURE SPACE: try adding symbols2</li>
-<li>U+2010 HYPHEN: try adding one of: lisu, syloti-nagri, arabic, sora-sompeng, armenian, kaithi, sundanese, kayah-li, yi, hebrew, kharoshthi, cham, coptic</li>
-<li>U+2011 NON-BREAKING HYPHEN: try adding one of: yi, syloti-nagri, arabic</li>
+<li>U+2010 HYPHEN: try adding one of: yi, hebrew, sora-sompeng, lisu, sundanese, syloti-nagri, coptic, arabic, armenian, kharoshthi, kaithi, kayah-li, cham</li>
+<li>U+2011 NON-BREAKING HYPHEN: try adding one of: arabic, yi, syloti-nagri</li>
 <li>U+2012 FIGURE DASH: not included in any glyphset definition</li>
 <li>U+2015 HORIZONTAL BAR: try adding adlam</li>
 <li>U+2016 DOUBLE VERTICAL LINE: try adding math</li>
@@ -15701,20 +26190,20 @@ definitions.</p>
 <li>U+215C VULGAR FRACTION THREE EIGHTHS: try adding symbols</li>
 <li>U+215D VULGAR FRACTION FIVE EIGHTHS: try adding symbols</li>
 <li>U+215E VULGAR FRACTION SEVEN EIGHTHS: try adding symbols</li>
-<li>U+2190 LEFTWARDS ARROW: try adding one of: symbols, math</li>
-<li>U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math</li>
-<li>U+2194 LEFT RIGHT ARROW: try adding one of: symbols, math</li>
-<li>U+2195 UP DOWN ARROW: try adding one of: symbols, math</li>
-<li>U+2196 NORTH WEST ARROW: try adding one of: symbols, math</li>
-<li>U+2197 NORTH EAST ARROW: try adding one of: symbols, math</li>
-<li>U+2198 SOUTH EAST ARROW: try adding one of: symbols, math</li>
-<li>U+2199 SOUTH WEST ARROW: try adding one of: symbols, math</li>
+<li>U+2190 LEFTWARDS ARROW: try adding one of: math, symbols</li>
+<li>U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols</li>
+<li>U+2194 LEFT RIGHT ARROW: try adding one of: math, symbols</li>
+<li>U+2195 UP DOWN ARROW: try adding one of: math, symbols</li>
+<li>U+2196 NORTH WEST ARROW: try adding one of: math, symbols</li>
+<li>U+2197 NORTH EAST ARROW: try adding one of: math, symbols</li>
+<li>U+2198 SOUTH EAST ARROW: try adding one of: math, symbols</li>
+<li>U+2199 SOUTH WEST ARROW: try adding one of: math, symbols</li>
 <li>U+2202 PARTIAL DIFFERENTIAL: try adding math</li>
 <li>U+2205 EMPTY SET: try adding math</li>
 <li>U+2206 INCREMENT: try adding math</li>
 <li>U+220F N-ARY PRODUCT: try adding math</li>
 <li>U+2211 N-ARY SUMMATION: try adding math</li>
-<li>U+2219 BULLET OPERATOR: try adding one of: symbols, yi, math, tai-tham</li>
+<li>U+2219 BULLET OPERATOR: try adding one of: tai-tham, yi, math, symbols</li>
 <li>U+221A SQUARE ROOT: try adding math</li>
 <li>U+221E INFINITY: try adding math</li>
 <li>U+222B INTEGRAL: try adding math</li>
@@ -15734,26 +26223,26 @@ definitions.</p>
 <li>U+25AA BLACK SMALL SQUARE: try adding symbols</li>
 <li>U+25AB WHITE SMALL SQUARE: try adding symbols</li>
 <li>U+25B2 BLACK UP-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25B3 WHITE UP-POINTING TRIANGLE: try adding one of: symbols, math</li>
+<li>U+25B3 WHITE UP-POINTING TRIANGLE: try adding one of: math, symbols</li>
 <li>U+25B4 BLACK UP-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25B5 WHITE UP-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25B6 BLACK RIGHT-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25B7 WHITE RIGHT-POINTING TRIANGLE: try adding one of: symbols, math</li>
+<li>U+25B7 WHITE RIGHT-POINTING TRIANGLE: try adding one of: math, symbols</li>
 <li>U+25B8 BLACK RIGHT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25B9 WHITE RIGHT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25BC BLACK DOWN-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25BD WHITE DOWN-POINTING TRIANGLE: try adding one of: symbols, math</li>
+<li>U+25BD WHITE DOWN-POINTING TRIANGLE: try adding one of: math, symbols</li>
 <li>U+25BE BLACK DOWN-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25BF WHITE DOWN-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25C0 BLACK LEFT-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: symbols, math</li>
+<li>U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: math, symbols</li>
 <li>U+25C2 BLACK LEFT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25C3 WHITE LEFT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25C6 BLACK DIAMOND: try adding symbols</li>
 <li>U+25C7 WHITE DIAMOND: try adding symbols</li>
-<li>U+25CA LOZENGE: try adding one of: symbols, math</li>
+<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
 <li>U+25CB WHITE CIRCLE: try adding symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: siddham, marchen, yi, ahom, brahmi, hanifi-rohingya, newa, balinese, caucasian-albanian, bhaiksuki, khmer, duployan, armenian, limbu, kaithi, math, wancho, gunjala-gondi, tagbanwa, buhid, tamil, kayah-li, chakma, adlam, thaana, gurmukhi, tai-tham, tai-viet, sogdian, tifinagh, buginese, nko, music, rejang, tibetan, manichaean, phags-pa, elbasan, meetei-mayek, bengali, malayalam, warang-citi, mahajani, soyombo, oriya, takri, devanagari, kharoshthi, old-permic, psalter-pahlavi, osage, pahawh-hmong, khudawadi, tai-le, sinhala, gujarati, tirhuta, miao, thai, kannada, masaram-gondi, khojki, myanmar, canadian-aboriginal, sundanese, coptic, bassa-vah, zanabazar-square, new-tai-lue, hanunoo, modi, javanese, syriac, dogra, lepcha, lao, saurashtra, syloti-nagri, symbols, sharada, telugu, hebrew, mandaic, mongolian, grantha, tagalog, mende-kikakui, batak, cham</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: gujarati, syloti-nagri, canadian-aboriginal, lepcha, tai-tham, sogdian, mende-kikakui, mandaic, tai-viet, syriac, bengali, saurashtra, grantha, takri, tirhuta, malayalam, phags-pa, gunjala-gondi, batak, khudawadi, soyombo, armenian, tai-le, wancho, khojki, buhid, tifinagh, kharoshthi, kaithi, sinhala, newa, zanabazar-square, psalter-pahlavi, masaram-gondi, sharada, myanmar, kannada, yi, tamil, warang-citi, bassa-vah, balinese, thaana, khmer, osage, brahmi, buginese, duployan, rejang, thai, mahajani, music, elbasan, nko, manichaean, oriya, chakma, devanagari, old-permic, mongolian, math, ahom, hanunoo, siddham, hanifi-rohingya, meetei-mayek, bhaiksuki, javanese, tagbanwa, symbols, adlam, hebrew, telugu, miao, caucasian-albanian, cham, pahawh-hmong, tibetan, lao, marchen, gurmukhi, limbu, modi, dogra, sundanese, coptic, new-tai-lue, tagalog, kayah-li</li>
 <li>U+25CF BLACK CIRCLE: try adding symbols</li>
 <li>U+25E6 WHITE BULLET: try adding symbols</li>
 <li>U+27E8 MATHEMATICAL LEFT ANGLE BRACKET: try adding math</li>
@@ -15796,8 +26285,8 @@ definitions.</p>
 
 | 💥 ERROR | ☠ FATAL | 🔥 FAIL | ⚠️ WARN | ⏩ SKIP | ℹ️ INFO | ✅ PASS | 🔎 DEBUG | 
 | ---|---|---|---|---|---|---|---|
-| 0 | 0 | 1 | 59 | 1153 | 81 | 1054 | 0 | 
-| 0% | 0% | 0% | 3% | 49% | 3% | 45% | 0% | 
+| 0 | 0 | 11 | 59 | 1153 | 81 | 1044 | 0 | 
+| 0% | 0% | 0% | 3% | 49% | 3% | 44% | 0% | 
 
 
 
