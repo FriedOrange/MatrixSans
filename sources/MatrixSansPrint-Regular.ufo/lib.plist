@@ -416,6 +416,136 @@
       <string>uni03A9</string>
       <string>uni03BC</string>
       <string>pi</string>
+      <string>uni0400</string>
+      <string>Io-cy</string>
+      <string>Dje-cy</string>
+      <string>uni0403</string>
+      <string>E-cy</string>
+      <string>uni0405</string>
+      <string>I-cy</string>
+      <string>Yi-cy</string>
+      <string>Je-cy</string>
+      <string>Lje-cy</string>
+      <string>Nje-cy</string>
+      <string>Tshe-cy</string>
+      <string>uni040C</string>
+      <string>uni040D</string>
+      <string>Ushort-cy</string>
+      <string>Dzhe-cy</string>
+      <string>A-cy</string>
+      <string>Be-cy</string>
+      <string>Ve-cy</string>
+      <string>Ge-cy</string>
+      <string>De-cy</string>
+      <string>Ie-cy</string>
+      <string>Zhe-cy</string>
+      <string>Ze-cy</string>
+      <string>Ii-cy</string>
+      <string>Iishort-cy</string>
+      <string>Ka-cy</string>
+      <string>El-cy</string>
+      <string>Em-cy</string>
+      <string>En-cy</string>
+      <string>O-cy</string>
+      <string>Pe-cy</string>
+      <string>Er-cy</string>
+      <string>Es-cy</string>
+      <string>Te-cy</string>
+      <string>U-cy</string>
+      <string>Ef-cy</string>
+      <string>Ha-cy</string>
+      <string>Tse-cy</string>
+      <string>Che-cy</string>
+      <string>Sha-cy</string>
+      <string>Shcha-cy</string>
+      <string>Hardsign-cy</string>
+      <string>Yeru-cy</string>
+      <string>Softsign-cy</string>
+      <string>Ereversed-cy</string>
+      <string>Yu-cy</string>
+      <string>Ya-cy</string>
+      <string>a-cy</string>
+      <string>be-cy</string>
+      <string>ve-cy</string>
+      <string>ge-cy</string>
+      <string>de-cy</string>
+      <string>ie-cy</string>
+      <string>zhe-cy</string>
+      <string>ze-cy</string>
+      <string>ii-cy</string>
+      <string>iishort-cy</string>
+      <string>ka-cy</string>
+      <string>el-cy</string>
+      <string>em-cy</string>
+      <string>en-cy</string>
+      <string>o-cy</string>
+      <string>pe-cy</string>
+      <string>er-cy</string>
+      <string>es-cy</string>
+      <string>te-cy</string>
+      <string>u-cy</string>
+      <string>ef-cy</string>
+      <string>ha-cy</string>
+      <string>tse-cy</string>
+      <string>che-cy</string>
+      <string>sha-cy</string>
+      <string>shcha-cy</string>
+      <string>hardsign-cy</string>
+      <string>yeru-cy</string>
+      <string>softsign-cy</string>
+      <string>ereversed-cy</string>
+      <string>yu-cy</string>
+      <string>ya-cy</string>
+      <string>uni0450</string>
+      <string>io-cy</string>
+      <string>dje-cy</string>
+      <string>uni0453</string>
+      <string>e-cy</string>
+      <string>uni0455</string>
+      <string>i-cy</string>
+      <string>yi-cy</string>
+      <string>je-cy</string>
+      <string>lje-cy</string>
+      <string>nje-cy</string>
+      <string>tshe-cy</string>
+      <string>uni045C</string>
+      <string>uni045D</string>
+      <string>ushort-cy</string>
+      <string>dzhe-cy</string>
+      <string>uni0462</string>
+      <string>uni0463</string>
+      <string>uni0472</string>
+      <string>uni0473</string>
+      <string>uni0474</string>
+      <string>uni0475</string>
+      <string>Geupturn-cy</string>
+      <string>geupturn-cy</string>
+      <string>Gestroke-cy</string>
+      <string>gestroke-cy</string>
+      <string>Zhedescender-cy</string>
+      <string>zhedescender-cy</string>
+      <string>Kadescender-cy</string>
+      <string>kadescender-cy</string>
+      <string>Endescender-cy</string>
+      <string>endescender-cy</string>
+      <string>Ustraight-cy</string>
+      <string>ustraight-cy</string>
+      <string>Ustraightstroke-cy</string>
+      <string>ustraightstroke-cy</string>
+      <string>Hadescender-cy</string>
+      <string>hadescender-cy</string>
+      <string>Chedescender-cy</string>
+      <string>chedescender-cy</string>
+      <string>Shha-cy</string>
+      <string>shha-cy</string>
+      <string>Schwa-cy</string>
+      <string>schwa-cy</string>
+      <string>Imacron-cy</string>
+      <string>imacron-cy</string>
+      <string>Obarred-cy</string>
+      <string>obarred-cy</string>
+      <string>Umacron-cy</string>
+      <string>umacron-cy</string>
       <string>baht</string>
       <string>Nmod</string>
       <string>Ddotbelow</string>
@@ -885,6 +1015,8 @@
     <dict>
       <key>A</key>
       <string>base</string>
+      <key>A-cy</key>
+      <string>base</string>
       <key>AE</key>
       <string>base</string>
       <key>Aacute</key>
@@ -933,6 +1065,8 @@
       <string>base</string>
       <key>B</key>
       <string>base</string>
+      <key>Be-cy</key>
+      <string>base</string>
       <key>Bhook</key>
       <string>base</string>
       <key>C</key>
@@ -947,6 +1081,10 @@
       <string>base</string>
       <key>Cdotaccent</key>
       <string>base</string>
+      <key>Che-cy</key>
+      <string>base</string>
+      <key>Chedescender-cy</key>
+      <string>base</string>
       <key>D</key>
       <string>base</string>
       <key>Dcaron</key>
@@ -955,11 +1093,19 @@
       <string>base</string>
       <key>Ddotbelow</key>
       <string>base</string>
+      <key>De-cy</key>
+      <string>base</string>
       <key>Dhook</key>
+      <string>base</string>
+      <key>Dje-cy</key>
       <string>base</string>
       <key>Dmacronbelow</key>
       <string>base</string>
+      <key>Dzhe-cy</key>
+      <string>base</string>
       <key>E</key>
+      <string>base</string>
+      <key>E-cy</key>
       <string>base</string>
       <key>Eacute</key>
       <string>base</string>
@@ -985,11 +1131,21 @@
       <string>base</string>
       <key>Edotbelow</key>
       <string>base</string>
+      <key>Ef-cy</key>
+      <string>base</string>
       <key>Egrave</key>
       <string>base</string>
       <key>Ehookabove</key>
       <string>base</string>
+      <key>El-cy</key>
+      <string>base</string>
+      <key>Em-cy</key>
+      <string>base</string>
       <key>Emacron</key>
+      <string>base</string>
+      <key>En-cy</key>
+      <string>base</string>
+      <key>Endescender-cy</key>
       <string>base</string>
       <key>Eng</key>
       <string>base</string>
@@ -998,6 +1154,12 @@
       <key>Eogonek</key>
       <string>base</string>
       <key>Eopen</key>
+      <string>base</string>
+      <key>Er-cy</key>
+      <string>base</string>
+      <key>Ereversed-cy</key>
+      <string>base</string>
+      <key>Es-cy</key>
       <string>base</string>
       <key>Eth</key>
       <string>base</string>
@@ -1019,11 +1181,23 @@
       <string>base</string>
       <key>Gdotaccent</key>
       <string>base</string>
+      <key>Ge-cy</key>
+      <string>base</string>
       <key>Germandbls</key>
+      <string>base</string>
+      <key>Gestroke-cy</key>
+      <string>base</string>
+      <key>Geupturn-cy</key>
       <string>base</string>
       <key>Gmacron</key>
       <string>base</string>
       <key>H</key>
+      <string>base</string>
+      <key>Ha-cy</key>
+      <string>base</string>
+      <key>Hadescender-cy</key>
+      <string>base</string>
+      <key>Hardsign-cy</key>
       <string>base</string>
       <key>Hbar</key>
       <string>base</string>
@@ -1034,6 +1208,8 @@
       <key>Hdotbelow</key>
       <string>base</string>
       <key>I</key>
+      <string>base</string>
+      <key>I-cy</key>
       <string>base</string>
       <key>IJ</key>
       <string>base</string>
@@ -1051,11 +1227,21 @@
       <string>base</string>
       <key>Idotbelow</key>
       <string>base</string>
+      <key>Ie-cy</key>
+      <string>base</string>
       <key>Igrave</key>
       <string>base</string>
       <key>Ihookabove</key>
       <string>base</string>
+      <key>Ii-cy</key>
+      <string>base</string>
+      <key>Iishort-cy</key>
+      <string>base</string>
       <key>Imacron</key>
+      <string>base</string>
+      <key>Imacron-cy</key>
+      <string>base</string>
+      <key>Io-cy</key>
       <string>base</string>
       <key>Iogonek</key>
       <string>base</string>
@@ -1065,7 +1251,13 @@
       <string>base</string>
       <key>Jcircumflex</key>
       <string>base</string>
+      <key>Je-cy</key>
+      <string>base</string>
       <key>K</key>
+      <string>base</string>
+      <key>Ka-cy</key>
+      <string>base</string>
+      <key>Kadescender-cy</key>
       <string>base</string>
       <key>Kcommaaccent</key>
       <string>base</string>
@@ -1082,6 +1274,8 @@
       <key>Lcommaaccent</key>
       <string>base</string>
       <key>Ldot</key>
+      <string>base</string>
+      <key>Lje-cy</key>
       <string>base</string>
       <key>Lslash</key>
       <string>base</string>
@@ -1103,15 +1297,21 @@
       <string>base</string>
       <key>Nhookleft</key>
       <string>base</string>
+      <key>Nje-cy</key>
+      <string>base</string>
       <key>Nmod</key>
       <string>base</string>
       <key>Ntilde</key>
       <string>base</string>
       <key>O</key>
       <string>base</string>
+      <key>O-cy</key>
+      <string>base</string>
       <key>OE</key>
       <string>base</string>
       <key>Oacute</key>
+      <string>base</string>
+      <key>Obarred-cy</key>
       <string>base</string>
       <key>Obreve</key>
       <string>base</string>
@@ -1163,6 +1363,8 @@
       <string>base</string>
       <key>P</key>
       <string>base</string>
+      <key>Pe-cy</key>
+      <string>base</string>
       <key>Q</key>
       <string>base</string>
       <key>R</key>
@@ -1181,11 +1383,21 @@
       <string>base</string>
       <key>Scedilla</key>
       <string>base</string>
+      <key>Schwa-cy</key>
+      <string>base</string>
       <key>Scircumflex</key>
       <string>base</string>
       <key>Scommaaccent</key>
       <string>base</string>
       <key>Sdotbelow</key>
+      <string>base</string>
+      <key>Sha-cy</key>
+      <string>base</string>
+      <key>Shcha-cy</key>
+      <string>base</string>
+      <key>Shha-cy</key>
+      <string>base</string>
+      <key>Softsign-cy</key>
       <string>base</string>
       <key>T</key>
       <string>base</string>
@@ -1195,11 +1407,19 @@
       <string>base</string>
       <key>Tdotbelow</key>
       <string>base</string>
+      <key>Te-cy</key>
+      <string>base</string>
       <key>Thorn</key>
       <string>base</string>
       <key>Tmacronbelow</key>
       <string>base</string>
+      <key>Tse-cy</key>
+      <string>base</string>
+      <key>Tshe-cy</key>
+      <string>base</string>
       <key>U</key>
+      <string>base</string>
+      <key>U-cy</key>
       <string>base</string>
       <key>Uacute</key>
       <string>base</string>
@@ -1241,13 +1461,23 @@
       <string>base</string>
       <key>Umacron</key>
       <string>base</string>
+      <key>Umacron-cy</key>
+      <string>base</string>
       <key>Uogonek</key>
       <string>base</string>
       <key>Uring</key>
       <string>base</string>
+      <key>Ushort-cy</key>
+      <string>base</string>
+      <key>Ustraight-cy</key>
+      <string>base</string>
+      <key>Ustraightstroke-cy</key>
+      <string>base</string>
       <key>Utilde</key>
       <string>base</string>
       <key>V</key>
+      <string>base</string>
+      <key>Ve-cy</key>
       <string>base</string>
       <key>W</key>
       <string>base</string>
@@ -1263,6 +1493,8 @@
       <string>base</string>
       <key>Y</key>
       <string>base</string>
+      <key>Ya-cy</key>
+      <string>base</string>
       <key>Yacute</key>
       <string>base</string>
       <key>Ycircumflex</key>
@@ -1271,15 +1503,21 @@
       <string>base</string>
       <key>Ydotbelow</key>
       <string>base</string>
+      <key>Yeru-cy</key>
+      <string>base</string>
       <key>Ygrave</key>
       <string>base</string>
       <key>Yhook</key>
       <string>base</string>
       <key>Yhookabove</key>
       <string>base</string>
+      <key>Yi-cy</key>
+      <string>base</string>
       <key>Ymacron</key>
       <string>base</string>
       <key>Ytilde</key>
+      <string>base</string>
+      <key>Yu-cy</key>
       <string>base</string>
       <key>Z</key>
       <string>base</string>
@@ -1291,7 +1529,15 @@
       <string>base</string>
       <key>Zdotbelow</key>
       <string>base</string>
+      <key>Ze-cy</key>
+      <string>base</string>
+      <key>Zhe-cy</key>
+      <string>base</string>
+      <key>Zhedescender-cy</key>
+      <string>base</string>
       <key>a</key>
+      <string>base</string>
+      <key>a-cy</key>
       <string>base</string>
       <key>a.sc</key>
       <string>base</string>
@@ -1413,6 +1659,8 @@
       <string>base</string>
       <key>bar</key>
       <string>base</string>
+      <key>be-cy</key>
+      <string>base</string>
       <key>bhook</key>
       <string>base</string>
       <key>bhook.sc</key>
@@ -1467,6 +1715,10 @@
       <string>base</string>
       <key>cent</key>
       <string>base</string>
+      <key>che-cy</key>
+      <string>base</string>
+      <key>chedescender-cy</key>
+      <string>base</string>
       <key>circle</key>
       <string>base</string>
       <key>circumflex</key>
@@ -1517,6 +1769,8 @@
       <string>base</string>
       <key>ddotbelow.sc</key>
       <string>base</string>
+      <key>de-cy</key>
+      <string>base</string>
       <key>degree</key>
       <string>base</string>
       <key>dhook</key>
@@ -1528,6 +1782,8 @@
       <key>dieresiscomb</key>
       <string>base</string>
       <key>divide</key>
+      <string>base</string>
+      <key>dje-cy</key>
       <string>base</string>
       <key>dmacronbelow</key>
       <string>base</string>
@@ -1553,7 +1809,11 @@
       <string>base</string>
       <key>downWhiteTriangle</key>
       <string>base</string>
+      <key>dzhe-cy</key>
+      <string>base</string>
       <key>e</key>
+      <string>base</string>
+      <key>e-cy</key>
       <string>base</string>
       <key>e.sc</key>
       <string>base</string>
@@ -1597,6 +1857,8 @@
       <string>base</string>
       <key>edotbelow.sc</key>
       <string>base</string>
+      <key>ef-cy</key>
+      <string>base</string>
       <key>egrave</key>
       <string>base</string>
       <key>egrave.sc</key>
@@ -1613,7 +1875,11 @@
       <string>base</string>
       <key>eightsuperior</key>
       <string>base</string>
+      <key>el-cy</key>
+      <string>base</string>
       <key>ellipsis</key>
+      <string>base</string>
+      <key>em-cy</key>
       <string>base</string>
       <key>emacron</key>
       <string>base</string>
@@ -1623,7 +1889,11 @@
       <string>base</string>
       <key>emptyset</key>
       <string>base</string>
+      <key>en-cy</key>
+      <string>base</string>
       <key>endash</key>
+      <string>base</string>
+      <key>endescender-cy</key>
       <string>base</string>
       <key>eng</key>
       <string>base</string>
@@ -1638,6 +1908,12 @@
       <key>eopen</key>
       <string>base</string>
       <key>equal</key>
+      <string>base</string>
+      <key>er-cy</key>
+      <string>base</string>
+      <key>ereversed-cy</key>
+      <string>base</string>
+      <key>es-cy</key>
       <string>base</string>
       <key>estimated</key>
       <string>base</string>
@@ -1713,9 +1989,15 @@
       <string>base</string>
       <key>gdotaccent.sc</key>
       <string>base</string>
+      <key>ge-cy</key>
+      <string>base</string>
       <key>germandbls</key>
       <string>base</string>
       <key>germandbls.sc</key>
+      <string>base</string>
+      <key>gestroke-cy</key>
+      <string>base</string>
+      <key>geupturn-cy</key>
       <string>base</string>
       <key>gmacron</key>
       <string>base</string>
@@ -1742,6 +2024,12 @@
       <key>h</key>
       <string>base</string>
       <key>h.sc</key>
+      <string>base</string>
+      <key>ha-cy</key>
+      <string>base</string>
+      <key>hadescender-cy</key>
+      <string>base</string>
+      <key>hardsign-cy</key>
       <string>base</string>
       <key>hbar</key>
       <string>base</string>
@@ -1777,6 +2065,8 @@
       <string>base</string>
       <key>i</key>
       <string>base</string>
+      <key>i-cy</key>
+      <string>base</string>
       <key>i.sc</key>
       <string>base</string>
       <key>iacute</key>
@@ -1807,6 +2097,8 @@
       <string>base</string>
       <key>idotbelow.sc</key>
       <string>base</string>
+      <key>ie-cy</key>
+      <string>base</string>
       <key>igrave</key>
       <string>base</string>
       <key>igrave.sc</key>
@@ -1815,11 +2107,17 @@
       <string>base</string>
       <key>ihookabove.sc</key>
       <string>base</string>
+      <key>ii-cy</key>
+      <string>base</string>
+      <key>iishort-cy</key>
+      <string>base</string>
       <key>ij</key>
       <string>base</string>
       <key>ij.sc</key>
       <string>base</string>
       <key>imacron</key>
+      <string>base</string>
+      <key>imacron-cy</key>
       <string>base</string>
       <key>imacron.sc</key>
       <string>base</string>
@@ -1828,6 +2126,8 @@
       <key>infinity</key>
       <string>base</string>
       <key>integral</key>
+      <string>base</string>
+      <key>io-cy</key>
       <string>base</string>
       <key>iogonek</key>
       <string>base</string>
@@ -1849,7 +2149,13 @@
       <string>base</string>
       <key>jdotless</key>
       <string>base</string>
+      <key>je-cy</key>
+      <string>base</string>
       <key>k</key>
+      <string>base</string>
+      <key>ka-cy</key>
+      <string>base</string>
+      <key>kadescender-cy</key>
       <string>base</string>
       <key>kcommaaccent</key>
       <string>base</string>
@@ -1908,6 +2214,8 @@
       <key>liraTurkish</key>
       <string>base</string>
       <key>literSign</key>
+      <string>base</string>
+      <key>lje-cy</key>
       <string>base</string>
       <key>logicalnot</key>
       <string>base</string>
@@ -1985,6 +2293,8 @@
       <string>base</string>
       <key>ninesuperior</key>
       <string>base</string>
+      <key>nje-cy</key>
+      <string>base</string>
       <key>nmod</key>
       <string>base</string>
       <key>northEastArrow</key>
@@ -2003,7 +2313,11 @@
       <string>base</string>
       <key>o</key>
       <string>base</string>
+      <key>o-cy</key>
+      <string>base</string>
       <key>oacute</key>
+      <string>base</string>
+      <key>obarred-cy</key>
       <string>base</string>
       <key>obreve</key>
       <string>base</string>
@@ -2092,6 +2406,8 @@
       <key>parenright</key>
       <string>base</string>
       <key>partialdiff</key>
+      <string>base</string>
+      <key>pe-cy</key>
       <string>base</string>
       <key>percent</key>
       <string>base</string>
@@ -2193,6 +2509,8 @@
       <string>base</string>
       <key>scedilla</key>
       <string>base</string>
+      <key>schwa-cy</key>
+      <string>base</string>
       <key>scircumflex</key>
       <string>base</string>
       <key>scommaaccent</key>
@@ -2215,7 +2533,13 @@
       <string>base</string>
       <key>sevensuperior</key>
       <string>base</string>
+      <key>sha-cy</key>
+      <string>base</string>
+      <key>shcha-cy</key>
+      <string>base</string>
       <key>sheqel</key>
+      <string>base</string>
+      <key>shha-cy</key>
       <string>base</string>
       <key>six</key>
       <string>base</string>
@@ -2228,6 +2552,8 @@
       <key>sixsuperior</key>
       <string>base</string>
       <key>slash</key>
+      <string>base</string>
+      <key>softsign-cy</key>
       <string>base</string>
       <key>southEastArrow</key>
       <string>base</string>
@@ -2261,6 +2587,8 @@
       <string>base</string>
       <key>tdotbelow.sc</key>
       <string>base</string>
+      <key>te-cy</key>
+      <string>base</string>
       <key>tenge</key>
       <string>base</string>
       <key>thorn</key>
@@ -2293,6 +2621,10 @@
       <string>base</string>
       <key>triagup</key>
       <string>base</string>
+      <key>tse-cy</key>
+      <string>base</string>
+      <key>tshe-cy</key>
+      <string>base</string>
       <key>tugrik</key>
       <string>base</string>
       <key>two</key>
@@ -2306,6 +2638,8 @@
       <key>twothirds</key>
       <string>base</string>
       <key>u</key>
+      <string>base</string>
+      <key>u-cy</key>
       <string>base</string>
       <key>u.sc</key>
       <string>base</string>
@@ -2381,6 +2715,8 @@
       <string>base</string>
       <key>umacron</key>
       <string>base</string>
+      <key>umacron-cy</key>
+      <string>base</string>
       <key>umacron.sc</key>
       <string>base</string>
       <key>underscore</key>
@@ -2420,6 +2756,38 @@
       <key>uni03A9</key>
       <string>base</string>
       <key>uni03BC</key>
+      <string>base</string>
+      <key>uni0400</key>
+      <string>base</string>
+      <key>uni0403</key>
+      <string>base</string>
+      <key>uni0405</key>
+      <string>base</string>
+      <key>uni040C</key>
+      <string>base</string>
+      <key>uni040D</key>
+      <string>base</string>
+      <key>uni0450</key>
+      <string>base</string>
+      <key>uni0453</key>
+      <string>base</string>
+      <key>uni0455</key>
+      <string>base</string>
+      <key>uni045C</key>
+      <string>base</string>
+      <key>uni045D</key>
+      <string>base</string>
+      <key>uni0462</key>
+      <string>base</string>
+      <key>uni0463</key>
+      <string>base</string>
+      <key>uni0472</key>
+      <string>base</string>
+      <key>uni0473</key>
+      <string>base</string>
+      <key>uni0474</key>
+      <string>base</string>
+      <key>uni0475</key>
       <string>base</string>
       <key>uni1E36</key>
       <string>base</string>
@@ -2547,11 +2915,19 @@
       <string>base</string>
       <key>uring.sc</key>
       <string>base</string>
+      <key>ushort-cy</key>
+      <string>base</string>
+      <key>ustraight-cy</key>
+      <string>base</string>
+      <key>ustraightstroke-cy</key>
+      <string>base</string>
       <key>utilde</key>
       <string>base</string>
       <key>utilde.sc</key>
       <string>base</string>
       <key>v</key>
+      <string>base</string>
+      <key>ve-cy</key>
       <string>base</string>
       <key>verticallineabovecomb</key>
       <string>base</string>
@@ -2581,6 +2957,8 @@
       <string>base</string>
       <key>y.titl</key>
       <string>base</string>
+      <key>ya-cy</key>
+      <string>base</string>
       <key>yacute</key>
       <string>base</string>
       <key>yacute.sc</key>
@@ -2599,6 +2977,8 @@
       <string>base</string>
       <key>yen</key>
       <string>base</string>
+      <key>yeru-cy</key>
+      <string>base</string>
       <key>ygrave</key>
       <string>base</string>
       <key>ygrave.sc</key>
@@ -2611,6 +2991,8 @@
       <string>base</string>
       <key>yhookabove.sc</key>
       <string>base</string>
+      <key>yi-cy</key>
+      <string>base</string>
       <key>ymacron</key>
       <string>base</string>
       <key>ymacron.sc</key>
@@ -2618,6 +3000,8 @@
       <key>ytilde</key>
       <string>base</string>
       <key>ytilde.sc</key>
+      <string>base</string>
+      <key>yu-cy</key>
       <string>base</string>
       <key>z</key>
       <string>base</string>
@@ -2629,9 +3013,15 @@
       <string>base</string>
       <key>zdotbelow</key>
       <string>base</string>
+      <key>ze-cy</key>
+      <string>base</string>
       <key>zero</key>
       <string>base</string>
       <key>zero.sc</key>
+      <string>base</string>
+      <key>zhe-cy</key>
+      <string>base</string>
+      <key>zhedescender-cy</key>
       <string>base</string>
     </dict>
   </dict>
