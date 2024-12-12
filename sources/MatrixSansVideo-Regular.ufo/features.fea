@@ -60,7 +60,7 @@ markClass [uni0315 horncomb dotaboverightcomb] <anchor 0 500> @marks_aboveright;
 # markClass [circumflexcomb tildecomb macroncomb brevecomb dieresiscomb hungarumlautcomb] <anchor 0 600> @wide_marks_above;
 
 feature ccmp {
-	sub [i j i-cy]' @marks_above by [dotlessi jdotless idotless];
+	sub [i j i-cy]' @marks_above by [dotlessi jdotless dotlessi];
 	sub L caroncomb' by uni0315;
 	sub d caroncomb' by uni0315;
 	sub l caroncomb' by uni0315;
