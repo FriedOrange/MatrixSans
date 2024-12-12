@@ -245,6 +245,11 @@ feature locl {
 @sc_underhangR = [a.sc agrave.sc aacute.sc acircumflex.sc adieresis.sc aring.sc amacron.sc aogonek.sc acaron.sc l.sc lacute.sc lcaron.sc lcommaaccent.sc lslash.sc];
 @horn = [ohorn uhorn ohornacute ohorndotbelow ohorngrave ohornhookabove ohorntilde uhornacute uhorndotbelow uhorngrave uhornhookabove uhorntilde];
 @Horn = [Ohorn Uhorn Ohornacute Ohorndotbelow Ohorngrave Ohornhookabove Ohorntilde Uhornacute Uhorndotbelow Uhorngrave Uhornhookabove Uhorntilde];
+@tall_overhangR_cy = [uni0403 Je-cy Ge-cy uni0474 Geupturn-cy Gestroke-cy];
+@short_overhangR_cy = [Er-cy ge-cy uni0453 uni0475 geupturn-cy gestroke-cy];
+@descenderR_cy = [De-cy Tse-cy Shcha-cy de-cy tse-cy shcha-cy i-cy Zhedescender-cy zhedescender-cy Kadescender-cy kadescender-cy Endescender-cy endescender-cy Hadescender-cy hadescender-cy Chedescender-cy chedescender-cy];
+@shortR_cy = [Dje-cy Lje-cy Nje-cy Tshe-cy Hardsign-cy Softsign-cy uni0462 Shha-cy];
+@veryshortR_cy = [hardsign-cy softsign-cy lje-cy nje-cy uni0463 shha-cy.sc];
 
 # Right side classes
 @A2 = [A Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde Acaron AE Adotbelow Ahookabove Acircumflexdotbelow Abrevedotbelow];
@@ -255,12 +260,22 @@ feature locl {
 @l = [l  lcommaaccent lcaron ldot uni1E37 uni1E39];
 @sc_underhangL = [a.sc ae.sc j.sc eth.sc lslash.sc agrave.sc aacute.sc acircumflex.sc adieresis.sc aring.sc amacron.sc aogonek.sc acaron.sc];
 @sc_overhangL = [t.sc tcaron.sc tcedilla.sc tcommaaccent.sc y.sc yacute.sc ycircumflex.sc ydieresis.sc ygrave.sc];
+@tall_overhangL_cy = [Dje-cy Tshe-cy Hardsign-cy];
+@short_overhangL_cy = [hardsign-cy dje-cy tshe-cy uni0462 uni0463 dje-cy.sc tshe-cy.sc uni0463.sc ustraightstroke-cy.sc];
+@descenderL_cy = [Lje-cy De-cy El-cy de-cy el-cy lje-cy je-cy];
+@shortL_cy = [ve-cy ge-cy ie-cy zhe-cy ze-cy ii-cy iishort-cy ka-cy em-cy en-cy o-cy pe-cy er-cy es-cy te-cy u-cy ef-cy ha-cy tse-cy sha-cy shcha-cy yeru-cy softsign-cy ereversed-cy yu-cy ya-cy uni0450 io-cy uni0453 e-cy uni0455 i-cy nje-cy uni045C uni045D dzhe-cy uni0473 uni0475 geupturn-cy gestroke-cy zhedescender-cy kadescender-cy endescender-cy schwa-cy imacron-cy obarred-cy umacron-cy be-cy.sc ef-cy.sc shha-cy.sc a-cy.sc i-cy.sc je-cy.sc er-cy.sc ustraight-cy.sc ie-cy.sc iegrave-cy.sc io-cy.sc];
+#che-cy chedescender-cy
+#a-cy
+#u-cy.sc umacron-cy.sc ushort-cy.sc
 
 # Left and right side classes
 @T = [T Tcaron uni0162 Tcommaaccent Tdotbelow Tmacronbelow];
 @Y = [Y Yacute Ycircumflex Ydieresis Ygrave uni1E8E Ydotbelow Yhookabove Ytilde Ymacron];
 @t = [ t tcaron uni0163 tcommaaccent tdotbelow tmacronbelow tdieresis];
 @i = [i iacute ij iogonek idotaccent idotbelow];
+@tall_overhangLR_cy = [Te-cy];
+@short_overhangLR_cy = [te-cy];
+# ustraight-cy ustraightstroke-cy
 
 feature kern {
 	pos F J -200;
@@ -372,6 +387,30 @@ feature kern {
 	pos yhook @squareTL -100;
 	pos yhook @curveTL -100;
 	pos yhook @t -100;
+
+	pos @tall_overhangR_cy @descenderL_cy -100;
+	pos @tall_overhangR_cy @shortL_cy -100;
+	pos @tall_overhangR_cy a-cy -100;
+	pos @tall_overhangR_cy [u-cy.sc umacron-cy.sc ushort-cy.sc] -100;
+	pos @short_overhangR_cy @descenderL_cy -100;
+	pos @descenderR_cy @tall_overhangL_cy -100;
+	pos @descenderR_cy @short_overhangL_cy -100;
+	pos @descenderR_cy [Che-cy che-cy chedescender-cy] -100;
+	pos @descenderR_cy [ustraight-cy ustraightstroke-cy] -100;
+	pos @descenderR_cy [u-cy.sc umacron-cy.sc ushort-cy.sc] -100;
+	pos @descenderR_cy quotesingle -100;
+	pos [ustraight-cy ustraightstroke-cy] @descenderL_cy -100;
+	pos @short_overhangR_cy a-cy -100;
+	pos @veryshortR_cy @tall_overhangL_cy -100;
+	pos @veryshortR_cy @short_overhangL_cy -100;
+	pos @veryshortR_cy quotesingle -100;
+	pos @tall_overhangLR_cy @descenderL_cy -100;
+	pos @tall_overhangLR_cy @shortL_cy -100;
+	pos @tall_overhangLR_cy a-cy -100;
+	pos @tall_overhangLR_cy [u-cy.sc umacron-cy.sc ushort-cy.sc] -100;
+	pos @short_overhangLR_cy @descenderL_cy -100;
+	pos @shortR_cy @tall_overhangL_cy -100;
+	pos @shortR_cy @tall_overhangLR_cy -100;
 } kern;
 
 feature tnum {
