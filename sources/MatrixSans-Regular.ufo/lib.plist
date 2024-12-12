@@ -1010,6 +1010,24 @@
       <string>macute.sc</string>
       <string>ngrave.sc</string>
       <string>eng.sc</string>
+      <string>be-cy.sc</string>
+      <string>ef-cy.sc</string>
+      <string>dje-cy.sc</string>
+      <string>tshe-cy.sc</string>
+      <string>uni0463.sc</string>
+      <string>ustraightstroke-cy.sc</string>
+      <string>shha-cy.sc</string>
+      <string>a-cy.sc</string>
+      <string>i-cy.sc</string>
+      <string>je-cy.sc</string>
+      <string>er-cy.sc</string>
+      <string>ustraight-cy.sc</string>
+      <string>u-cy.sc</string>
+      <string>ie-cy.sc</string>
+      <string>iegrave-cy.sc</string>
+      <string>io-cy.sc</string>
+      <string>umacron-cy.sc</string>
+      <string>ushort-cy.sc</string>
     </array>
     <key>public.openTypeCategories</key>
     <dict>
@@ -1539,6 +1557,8 @@
       <string>base</string>
       <key>a-cy</key>
       <string>base</string>
+      <key>a-cy.sc</key>
+      <string>base</string>
       <key>a.sc</key>
       <string>base</string>
       <key>aacute</key>
@@ -1660,6 +1680,8 @@
       <key>bar</key>
       <string>base</string>
       <key>be-cy</key>
+      <string>base</string>
+      <key>be-cy.sc</key>
       <string>base</string>
       <key>bhook</key>
       <string>base</string>
@@ -1785,6 +1807,8 @@
       <string>base</string>
       <key>dje-cy</key>
       <string>base</string>
+      <key>dje-cy.sc</key>
+      <string>base</string>
       <key>dmacronbelow</key>
       <string>base</string>
       <key>dmacronbelow.sc</key>
@@ -1859,6 +1883,8 @@
       <string>base</string>
       <key>ef-cy</key>
       <string>base</string>
+      <key>ef-cy.sc</key>
+      <string>base</string>
       <key>egrave</key>
       <string>base</string>
       <key>egrave.sc</key>
@@ -1910,6 +1936,8 @@
       <key>equal</key>
       <string>base</string>
       <key>er-cy</key>
+      <string>base</string>
+      <key>er-cy.sc</key>
       <string>base</string>
       <key>ereversed-cy</key>
       <string>base</string>
@@ -2067,6 +2095,8 @@
       <string>base</string>
       <key>i-cy</key>
       <string>base</string>
+      <key>i-cy.sc</key>
+      <string>base</string>
       <key>i.sc</key>
       <string>base</string>
       <key>iacute</key>
@@ -2099,6 +2129,10 @@
       <string>base</string>
       <key>ie-cy</key>
       <string>base</string>
+      <key>ie-cy.sc</key>
+      <string>base</string>
+      <key>iegrave-cy.sc</key>
+      <string>base</string>
       <key>igrave</key>
       <string>base</string>
       <key>igrave.sc</key>
@@ -2129,6 +2163,8 @@
       <string>base</string>
       <key>io-cy</key>
       <string>base</string>
+      <key>io-cy.sc</key>
+      <string>base</string>
       <key>iogonek</key>
       <string>base</string>
       <key>iogonek.sc</key>
@@ -2150,6 +2186,8 @@
       <key>jdotless</key>
       <string>base</string>
       <key>je-cy</key>
+      <string>base</string>
+      <key>je-cy.sc</key>
       <string>base</string>
       <key>k</key>
       <string>base</string>
@@ -2541,6 +2579,8 @@
       <string>base</string>
       <key>shha-cy</key>
       <string>base</string>
+      <key>shha-cy.sc</key>
+      <string>base</string>
       <key>six</key>
       <string>base</string>
       <key>six.alt</key>
@@ -2625,6 +2665,8 @@
       <string>base</string>
       <key>tshe-cy</key>
       <string>base</string>
+      <key>tshe-cy.sc</key>
+      <string>base</string>
       <key>tugrik</key>
       <string>base</string>
       <key>two</key>
@@ -2640,6 +2682,8 @@
       <key>u</key>
       <string>base</string>
       <key>u-cy</key>
+      <string>base</string>
+      <key>u-cy.sc</key>
       <string>base</string>
       <key>u.sc</key>
       <string>base</string>
@@ -2717,6 +2761,8 @@
       <string>base</string>
       <key>umacron-cy</key>
       <string>base</string>
+      <key>umacron-cy.sc</key>
+      <string>base</string>
       <key>umacron.sc</key>
       <string>base</string>
       <key>underscore</key>
@@ -2780,6 +2826,8 @@
       <key>uni0462</key>
       <string>base</string>
       <key>uni0463</key>
+      <string>base</string>
+      <key>uni0463.sc</key>
       <string>base</string>
       <key>uni0472</key>
       <string>base</string>
@@ -2917,9 +2965,15 @@
       <string>base</string>
       <key>ushort-cy</key>
       <string>base</string>
+      <key>ushort-cy.sc</key>
+      <string>base</string>
       <key>ustraight-cy</key>
       <string>base</string>
+      <key>ustraight-cy.sc</key>
+      <string>base</string>
       <key>ustraightstroke-cy</key>
+      <string>base</string>
+      <key>ustraightstroke-cy.sc</key>
       <string>base</string>
       <key>utilde</key>
       <string>base</string>

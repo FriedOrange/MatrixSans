@@ -10,6 +10,7 @@ languagesystem latn MOL;
 languagesystem latn ROM;
 languagesystem latn NSM;
 languagesystem latn NLD;
+languagesystem cyrl dflt;
 
 feature aalt {
 	feature c2sc;
@@ -29,12 +30,23 @@ feature aalt {
 # ĉ ĕ ĝ ĥ ĩ ĵ ĸ ŀ ŉ ŝ ũ ơ ư ǐ ǒ ǔ ǖ ǘ ǚ ǜ ǧ ɑ ə ɡ ḍ ḏ ḡ ḥ ḫ ḷ ḹ ḻ ṃ ṅ ṇ ṉ ṛ ṝ ṟ ṡ ṣ ṭ ṯ ẏ ẓ ẗ ạ ả ấ ầ ẩ ẫ ậ ắ ằ ẳ ẵ ặ ẻ ẽ ế ề ể ễ ệ ỉ ị ọ ỏ ố ồ ổ ỗ ộ ớ ờ ở ỡ ợ ụ ủ ứ ừ ử ữ ự ỵ ỷ ỹ
 @smcp = [a.sc b.sc d.sc e.sc f.sc g.sc h.sc i.sc j.sc kgreenlandic l.sc m.sc n.sc p.sc q.sc r.sc t.sc u.sc y.sc aacute.sc abreve.sc acaron.sc acircumflex.sc adieresis.sc agrave.sc amacron.sc aogonek.sc aring.sc atilde.sc ae.sc dcaron.sc eth.sc i.sc j.sc eacute.sc ecaron.sc ecircumflex.sc edieresis.sc edotaccent.sc egrave.sc emacron.sc eogonek.sc eth.sc florin.sc gbreve.sc gcommaaccent.sc gdotaccent.sc hbar.sc iacute.sc icircumflex.sc idieresis.sc igrave.sc imacron.sc iogonek.sc kcommaaccent.sc lacute.sc lcaron.sc lcommaaccent.sc lslash.sc nacute.sc ncaron.sc ncommaaccent.sc ntilde.sc racute.sc rcaron.sc rcommaaccent.sc germandbls.sc tcaron.sc tcedilla.sc tcommaaccent.sc thorn.sc uacute.sc ubreve.sc ucircumflex.sc udieresis.sc uhungarumlaut.sc ugrave.sc umacron.sc uogonek.sc uring.sc yacute.sc ycircumflex.sc ydieresis.sc ygrave.sc ij.sc oe.sc idotaccent.sc ebreve.sc gcircumflex.sc hcircumflex.sc itilde.sc jcircumflex.sc ldot.sc napostrophe.sc utilde.sc uhorn.sc icaron.sc ucaron.sc udieresismacron.sc Udieresisacute Udieresiscaron Udieresisgrave gcaron.sc ddotbelow.sc dmacronbelow.sc gmacron.sc hdotbelow.sc hbrevebelow.sc uni1E37.sc uni1E39.sc uni1E3B.sc uni1E43.sc ndotaccent.sc uni1E47.sc uni1E49.sc uni1E5B.sc uni1E5D.sc uni1E5F.sc tdotbelow.sc tmacronbelow.sc uni1E8F.sc tdieresis.sc adotbelow.sc ahookabove.sc Acircumflexacute Acircumflexgrave Acircumflexhookabove Acircumflextilde acircumflexdotbelow.sc Abreveacute Abrevegrave Abrevehookabove Abrevetilde abrevedotbelow.sc ehookabove.sc etilde.sc Ecircumflexacute Ecircumflexgrave Ecircumflexhookabove Ecircumflextilde edotbelow.sc ecircumflexdotbelow.sc ihookabove.sc idotbelow.sc udotbelow.sc uhookabove.sc uhornacute.sc uhorngrave.sc uhornhookabove.sc uhorntilde.sc uhorndotbelow.sc ydotbelow.sc yhookabove.sc ytilde.sc ymacron.sc kmacronbelow.sc hmacronbelow.sc ibreve.sc ngrave.sc macute.sc khook.sc yhook.sc bhook.sc dhook.sc nhookleft.sc eng.sc];
 
+@uc_cy = [uni0400 Io-cy Dje-cy uni0403 E-cy uni0405 I-cy Yi-cy Je-cy Lje-cy Nje-cy Tshe-cy uni040C uni040D Ushort-cy Dzhe-cy A-cy Be-cy Ve-cy Ge-cy De-cy Ie-cy Zhe-cy Ze-cy Ii-cy Iishort-cy Ka-cy El-cy Em-cy En-cy O-cy Pe-cy Er-cy Es-cy Te-cy U-cy Ef-cy Ha-cy Tse-cy Che-cy Sha-cy Shcha-cy Hardsign-cy Yeru-cy Softsign-cy Ereversed-cy Yu-cy Ya-cy uni0462 uni0472 uni0474 Geupturn-cy Gestroke-cy Zhedescender-cy Kadescender-cy Endescender-cy Ustraight-cy Ustraightstroke-cy Hadescender-cy Chedescender-cy Shha-cy Schwa-cy Imacron-cy Obarred-cy Umacron-cy];
+@c2sc_cy = [iegrave-cy.sc io-cy.sc dje-cy.sc uni0453 e-cy uni0455 i-cy.sc idieresis.sc je-cy.sc lje-cy nje-cy tshe-cy.sc uni045C uni045D ushort-cy.sc dzhe-cy a-cy.sc be-cy.sc ve-cy ge-cy de-cy ie-cy.sc zhe-cy ze-cy ii-cy iishort-cy ka-cy el-cy em-cy en-cy o-cy pe-cy er-cy.sc es-cy te-cy u-cy.sc ef-cy.sc ha-cy tse-cy che-cy sha-cy shcha-cy hardsign-cy yeru-cy softsign-cy ereversed-cy yu-cy ya-cy uni0463.sc uni0473 uni0475 geupturn-cy gestroke-cy zhedescender-cy kadescender-cy endescender-cy ustraight-cy.sc ustraightstroke-cy.sc hadescender-cy chedescender-cy shha-cy.sc schwa-cy imacron-cy obarred-cy umacron-cy.sc];
+@lc_cy = [];
+@smcp_cy = [];
+
 feature c2sc {
+	script latn;
 	sub @uc by @c2sc;
+	script cyrl;
+	sub @uc_cy by @c2sc_cy;
 } c2sc;
 
 feature smcp {
+	script latn;
 	sub @lc by @smcp;
+	# script cyrl;
+	# sub @lc_cy by @smcp_cy;
 } smcp;
 
 # mark classes

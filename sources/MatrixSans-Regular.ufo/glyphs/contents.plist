@@ -530,6 +530,8 @@
     <string>a.glif</string>
     <key>a-cy</key>
     <string>a-cy.glif</string>
+    <key>a-cy.sc</key>
+    <string>a-cy.sc.glif</string>
     <key>a.sc</key>
     <string>a.sc.glif</string>
     <key>aacute</key>
@@ -652,6 +654,8 @@
     <string>bar.glif</string>
     <key>be-cy</key>
     <string>be-cy.glif</string>
+    <key>be-cy.sc</key>
+    <string>be-cy.sc.glif</string>
     <key>bhook</key>
     <string>bhook.glif</string>
     <key>bhook.sc</key>
@@ -776,6 +780,8 @@
     <string>divide.glif</string>
     <key>dje-cy</key>
     <string>dje-cy.glif</string>
+    <key>dje-cy.sc</key>
+    <string>dje-cy.sc.glif</string>
     <key>dmacronbelow</key>
     <string>dmacronbelow.glif</string>
     <key>dmacronbelow.sc</key>
@@ -850,6 +856,8 @@
     <string>edotbelow.sc.glif</string>
     <key>ef-cy</key>
     <string>ef-cy.glif</string>
+    <key>ef-cy.sc</key>
+    <string>ef-cy.sc.glif</string>
     <key>egrave</key>
     <string>egrave.glif</string>
     <key>egrave.sc</key>
@@ -902,6 +910,8 @@
     <string>equal.glif</string>
     <key>er-cy</key>
     <string>er-cy.glif</string>
+    <key>er-cy.sc</key>
+    <string>er-cy.sc.glif</string>
     <key>ereversed-cy</key>
     <string>ereversed-cy.glif</string>
     <key>es-cy</key>
@@ -1058,6 +1068,8 @@
     <string>i.glif</string>
     <key>i-cy</key>
     <string>i-cy.glif</string>
+    <key>i-cy.sc</key>
+    <string>i-cy.sc.glif</string>
     <key>i.sc</key>
     <string>i.sc.glif</string>
     <key>iacute</key>
@@ -1090,6 +1102,10 @@
     <string>idotbelow.sc.glif</string>
     <key>ie-cy</key>
     <string>ie-cy.glif</string>
+    <key>ie-cy.sc</key>
+    <string>ie-cy.sc.glif</string>
+    <key>iegrave-cy.sc</key>
+    <string>iegrave-cy.sc.glif</string>
     <key>igrave</key>
     <string>igrave.glif</string>
     <key>igrave.sc</key>
@@ -1120,6 +1136,8 @@
     <string>integral.glif</string>
     <key>io-cy</key>
     <string>io-cy.glif</string>
+    <key>io-cy.sc</key>
+    <string>io-cy.sc.glif</string>
     <key>iogonek</key>
     <string>iogonek.glif</string>
     <key>iogonek.sc</key>
@@ -1142,6 +1160,8 @@
     <string>jdotless.glif</string>
     <key>je-cy</key>
     <string>je-cy.glif</string>
+    <key>je-cy.sc</key>
+    <string>je-cy.sc.glif</string>
     <key>k</key>
     <string>k.glif</string>
     <key>ka-cy</key>
@@ -1532,6 +1552,8 @@
     <string>sheqel.glif</string>
     <key>shha-cy</key>
     <string>shha-cy.glif</string>
+    <key>shha-cy.sc</key>
+    <string>shha-cy.sc.glif</string>
     <key>six</key>
     <string>six.glif</string>
     <key>six.alt</key>
@@ -1616,6 +1638,8 @@
     <string>tse-cy.glif</string>
     <key>tshe-cy</key>
     <string>tshe-cy.glif</string>
+    <key>tshe-cy.sc</key>
+    <string>tshe-cy.sc.glif</string>
     <key>tugrik</key>
     <string>tugrik.glif</string>
     <key>two</key>
@@ -1632,6 +1656,8 @@
     <string>u.glif</string>
     <key>u-cy</key>
     <string>u-cy.glif</string>
+    <key>u-cy.sc</key>
+    <string>u-cy.sc.glif</string>
     <key>u.sc</key>
     <string>u.sc.glif</string>
     <key>uacute</key>
@@ -1708,6 +1734,8 @@
     <string>umacron.glif</string>
     <key>umacron-cy</key>
     <string>umacron-cy.glif</string>
+    <key>umacron-cy.sc</key>
+    <string>umacron-cy.sc.glif</string>
     <key>umacron.sc</key>
     <string>umacron.sc.glif</string>
     <key>underscore</key>
@@ -1772,6 +1800,8 @@
     <string>uni0462.glif</string>
     <key>uni0463</key>
     <string>uni0463.glif</string>
+    <key>uni0463.sc</key>
+    <string>uni0463.sc.glif</string>
     <key>uni0472</key>
     <string>uni0472.glif</string>
     <key>uni0473</key>
@@ -1908,10 +1938,16 @@
     <string>uring.sc.glif</string>
     <key>ushort-cy</key>
     <string>ushort-cy.glif</string>
+    <key>ushort-cy.sc</key>
+    <string>ushort-cy.sc.glif</string>
     <key>ustraight-cy</key>
     <string>ustraight-cy.glif</string>
+    <key>ustraight-cy.sc</key>
+    <string>ustraight-cy.sc.glif</string>
     <key>ustraightstroke-cy</key>
     <string>ustraightstroke-cy.glif</string>
+    <key>ustraightstroke-cy.sc</key>
+    <string>ustraightstroke-cy.sc.glif</string>
     <key>utilde</key>
     <string>utilde.glif</string>
     <key>utilde.sc</key>
