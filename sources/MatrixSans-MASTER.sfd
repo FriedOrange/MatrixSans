@@ -15237,7 +15237,7 @@ StartChar: be-cy.sc
 Encoding: 65711 -1 1007
 Width: 600
 VWidth: 0
-Flags: HW
+Flags: MW
 LayerCount: 2
 Fore
 Refer: 0 -1 N 1 0 0 1 350 0 2
@@ -15262,7 +15262,7 @@ StartChar: ef-cy.sc
 Encoding: 65712 -1 1008
 Width: 600
 VWidth: 0
-Flags: HW
+Flags: MW
 LayerCount: 2
 Fore
 Refer: 0 -1 N 1 0 0 1 250 0 2
@@ -15282,7 +15282,7 @@ StartChar: dje-cy.sc
 Encoding: 65713 -1 1009
 Width: 700
 VWidth: 0
-Flags: HW
+Flags: MW
 LayerCount: 2
 Fore
 Refer: 0 -1 N 1 0 0 1 450 0 2
@@ -15304,7 +15304,7 @@ StartChar: tshe-cy.sc
 Encoding: 65714 -1 1010
 Width: 700
 VWidth: 0
-Flags: HW
+Flags: MW
 LayerCount: 2
 Fore
 Refer: 0 -1 N 1 0 0 1 550 0 2
@@ -15326,7 +15326,7 @@ StartChar: uni0463.sc
 Encoding: 65715 -1 1011
 Width: 600
 VWidth: 0
-Flags: HW
+Flags: MW
 LayerCount: 2
 Fore
 Refer: 0 -1 N 1 0 0 1 350 0 2
@@ -15349,7 +15349,7 @@ StartChar: ustraightstroke-cy.sc
 Encoding: 65716 -1 1012
 Width: 600
 VWidth: 0
-Flags: HW
+Flags: MW
 LayerCount: 2
 Fore
 Refer: 0 -1 N 1 0 0 1 250 0 2
@@ -15367,7 +15367,7 @@ StartChar: shha-cy.sc
 Encoding: 65717 -1 1013
 Width: 600
 VWidth: 0
-Flags: HW
+Flags: MW
 LayerCount: 2
 Fore
 Refer: 0 -1 N 1 0 0 1 450 0 2
@@ -15386,7 +15386,7 @@ StartChar: a-cy.sc
 Encoding: 65718 -1 1014
 Width: 600
 VWidth: 0
-Flags: HW
+Flags: MW
 LayerCount: 2
 Fore
 Refer: 388 -1 S 1 0 0 1 0 0 3
@@ -15396,7 +15396,7 @@ StartChar: i-cy.sc
 Encoding: 65719 -1 1015
 Width: 400
 VWidth: 0
-Flags: HW
+Flags: MW
 LayerCount: 2
 Fore
 Refer: 395 -1 S 1 0 0 1 0 0 3
@@ -15406,7 +15406,7 @@ StartChar: je-cy.sc
 Encoding: 65720 -1 1016
 Width: 600
 VWidth: 0
-Flags: HW
+Flags: MW
 LayerCount: 2
 Fore
 Refer: 396 -1 S 1 0 0 1 0 0 3
@@ -15416,7 +15416,7 @@ StartChar: er-cy.sc
 Encoding: 65721 -1 1017
 Width: 600
 VWidth: 0
-Flags: HW
+Flags: MW
 LayerCount: 2
 Fore
 Refer: 400 -1 N 1 0 0 1 0 0 3
@@ -15426,7 +15426,7 @@ StartChar: ustraight-cy.sc
 Encoding: 65722 -1 1018
 Width: 600
 VWidth: 0
-Flags: HW
+Flags: MW
 LayerCount: 2
 Fore
 Refer: 404 -1 S 1 0 0 1 0 0 3
@@ -15436,7 +15436,7 @@ StartChar: u-cy.sc
 Encoding: 65723 -1 1019
 Width: 600
 VWidth: 0
-Flags: HW
+Flags: MW
 AnchorPoint: "marks_above" 300 600 basechar 0
 LayerCount: 2
 Fore
@@ -15447,7 +15447,7 @@ StartChar: ie-cy.sc
 Encoding: 65724 -1 1020
 Width: 600
 VWidth: 0
-Flags: HW
+Flags: MW
 AnchorPoint: "marks_above" 300 600 basechar 0
 LayerCount: 2
 Fore
@@ -15458,7 +15458,7 @@ StartChar: iegrave-cy.sc
 Encoding: 65725 -1 1021
 Width: 600
 VWidth: 0
-Flags: HW
+Flags: MW
 LayerCount: 2
 Fore
 Refer: 224 768 N 1 0 0 1 300 0 2
@@ -15468,7 +15468,7 @@ EndChar
 StartChar: io-cy.sc
 Encoding: 65726 -1 1022
 Width: 600
-Flags: H
+Flags: M
 LayerCount: 2
 Fore
 Refer: 232 776 N 1 0 0 1 300 0 2
@@ -15479,7 +15479,7 @@ StartChar: umacron-cy.sc
 Encoding: 65727 -1 1023
 Width: 600
 VWidth: 0
-Flags: HW
+Flags: MW
 LayerCount: 2
 Fore
 Refer: 273 772 N 1 0 0 1 300 0 2
@@ -15489,7 +15489,7 @@ EndChar
 StartChar: ushort-cy.sc
 Encoding: 65728 -1 1024
 Width: 600
-Flags: H
+Flags: M
 LayerCount: 2
 Fore
 Refer: 276 774 N 1 0 0 1 300 0 2

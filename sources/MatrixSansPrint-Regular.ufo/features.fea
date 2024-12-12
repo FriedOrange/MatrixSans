@@ -60,7 +60,7 @@ markClass [uni0315 horncomb dotaboverightcomb] <anchor 0 500> @marks_aboveright;
 # markClass [circumflexcomb tildecomb macroncomb brevecomb dieresiscomb hungarumlautcomb] <anchor 0 600> @wide_marks_above;
 
 feature ccmp {
-	sub [i j]' @marks_above by [dotlessi jdotless];
+	sub [i j i-cy]' @marks_above by [dotlessi jdotless idotless];
 	sub L caroncomb' by uni0315;
 	sub d caroncomb' by uni0315;
 	sub l caroncomb' by uni0315;
@@ -102,16 +102,16 @@ feature mkmk {
 } mkmk;
 
 # classes for mark positioning
-@tall = [C D G H K M N R S T W Y Z h k Edotbelow Odotbelow Udotbelow]; # not including glyphs with ogonek or apostrophe-type caron
-@short = [c m n r s v-x z b.sc d.sc f.sc g.sc h.sc kgreenlandic m.sc n.sc p.sc q.sc r.sc t.sc y.sc y.titl edotbelow odotbelow udotbelow edotbelow.sc udotbelow.sc];
-@deep = [g p q y];
+@tall = [C D G H K M N R S T W Y Z h k Edotbelow Odotbelow Udotbelow Ie-cy Ge-cy Ka-cy Ii-cy U-cy]; # not including glyphs with ogonek or apostrophe-type caron
+@short = [c m n r s v-x z b.sc d.sc f.sc g.sc h.sc kgreenlandic m.sc n.sc p.sc q.sc r.sc t.sc y.sc y.titl edotbelow odotbelow udotbelow edotbelow.sc udotbelow.sc ii-cy ie-cy ge-cy ka-cy];
+@deep = [g p q y  u-cy];
 
 feature mark {
 	pos base [A E] 
 		<anchor 300 800> mark @marks_above
 		<anchor 300 0> mark @marks_below
 		<anchor 400 0> mark @marks_belowright;
-	pos base [I i idotaccent Idotbelow] 
+	pos base [I i idotaccent Idotbelow I-cy] 
 		<anchor 200 800> mark @marks_above
 		<anchor 200 0> mark @marks_below
 		<anchor 200 0> mark @marks_belowright;
@@ -185,7 +185,7 @@ feature mark {
 
 table GDEF {
 	# Because gftools builder doesn't create this table automatically....
-	GlyphClassDef [A E I i idotaccent J L U @tall d l t a e u @short @deep dotlessi i.sc jdotless uni25CC j.sc l.sc],[IJ ij ij.sc],[@marks_above @marks_aboveright @marks_belowright @marks_below],;
+	GlyphClassDef [A E I i idotaccent J L U @tall d l t a e u @short @deep dotlessi i.sc jdotless uni25CC j.sc l.sc I-cy],[IJ ij ij.sc],[@marks_above @marks_aboveright @marks_belowright @marks_below],;
 	LigatureCaretByPos IJ 200;
 	LigatureCaretByPos ij 350;
 	LigatureCaretByPos ij.sc 200;
