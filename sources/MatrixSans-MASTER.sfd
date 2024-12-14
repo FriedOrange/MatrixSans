@@ -64,7 +64,7 @@ NameList: MatrixSans
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 992 16 14
+WinInfo: 65520 16 14
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 629146 314573 209715 524288 1048576 0 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
@@ -4084,6 +4084,7 @@ EndChar
 StartChar: gravecomb
 Encoding: 768 768 224
 Width: 0
+GlyphClass: 4
 Flags: HMW
 AnchorPoint: "marks_above" 0 600 mark 0
 LayerCount: 2
@@ -4104,6 +4105,7 @@ EndChar
 StartChar: acutecomb
 Encoding: 769 769 226
 Width: 0
+GlyphClass: 4
 Flags: HMW
 AnchorPoint: "marks_above" 0 600 mark 0
 LayerCount: 2
@@ -4124,6 +4126,7 @@ EndChar
 StartChar: circumflexcomb
 Encoding: 770 770 228
 Width: 0
+GlyphClass: 4
 Flags: HMW
 AnchorPoint: "marks_above" 0 600 mark 0
 LayerCount: 2
@@ -4144,6 +4147,7 @@ EndChar
 StartChar: tildecomb
 Encoding: 771 771 230
 Width: 0
+GlyphClass: 4
 Flags: HMW
 AnchorPoint: "marks_above" 0 600 mark 0
 LayerCount: 2
@@ -4164,6 +4168,7 @@ EndChar
 StartChar: dieresiscomb
 Encoding: 776 776 232
 Width: 0
+GlyphClass: 4
 Flags: HMW
 AnchorPoint: "marks_above" 0 600 mark 0
 LayerCount: 2
@@ -4184,6 +4189,7 @@ EndChar
 StartChar: ringcomb
 Encoding: 778 778 234
 Width: 0
+GlyphClass: 4
 Flags: HMW
 AnchorPoint: "marks_above" 0 600 mark 0
 LayerCount: 2
@@ -4214,6 +4220,7 @@ EndChar
 StartChar: caroncomb
 Encoding: 780 780 237
 Width: 0
+GlyphClass: 4
 Flags: HMW
 AnchorPoint: "marks_above" 0 600 mark 0
 LayerCount: 2
@@ -4320,6 +4327,7 @@ EndChar
 StartChar: cedillacomb
 Encoding: 807 807 248
 Width: 0
+GlyphClass: 4
 Flags: HMW
 AnchorPoint: "marks_below" 0 0 mark 0
 LayerCount: 2
@@ -4580,6 +4588,7 @@ EndChar
 StartChar: IJ
 Encoding: 306 306 265
 Width: 600
+GlyphClass: 3
 Flags: HMW
 AnchorPoint: "marks_below" 300 0 basechar 0
 AnchorPoint: "marks_above" 300 800 basechar 0
@@ -4605,6 +4614,7 @@ EndChar
 StartChar: ij
 Encoding: 307 307 266
 Width: 600
+GlyphClass: 3
 Flags: HMW
 LayerCount: 2
 Fore
@@ -4775,6 +4785,7 @@ EndChar
 StartChar: macroncomb
 Encoding: 772 772 273
 Width: 0
+GlyphClass: 4
 Flags: MW
 AnchorPoint: "marks_above" 0 600 mark 0
 LayerCount: 2
@@ -4805,6 +4816,7 @@ EndChar
 StartChar: brevecomb
 Encoding: 774 774 276
 Width: 0
+GlyphClass: 4
 Flags: MW
 AnchorPoint: "marks_above" 0 600 mark 0
 LayerCount: 2
@@ -4835,6 +4847,7 @@ EndChar
 StartChar: ogonekcomb
 Encoding: 808 808 279
 Width: 0
+GlyphClass: 4
 Flags: HMW
 AnchorPoint: "ogonek" 0 0 mark 0
 LayerCount: 2
@@ -4885,6 +4898,7 @@ EndChar
 StartChar: dotaccentcomb
 Encoding: 775 775 284
 Width: 0
+GlyphClass: 4
 Flags: HMW
 AnchorPoint: "marks_above" 0 600 mark 0
 LayerCount: 2
@@ -4945,6 +4959,7 @@ EndChar
 StartChar: uni0315
 Encoding: 789 789 290
 Width: 0
+GlyphClass: 4
 Flags: HMW
 AnchorPoint: "marks_aboveright" 0 500 mark 0
 LayerCount: 2
@@ -5095,6 +5110,7 @@ EndChar
 StartChar: commaaccentcomb
 Encoding: 806 806 305
 Width: 0
+GlyphClass: 4
 Flags: HMW
 AnchorPoint: "marks_below" 0 0 mark 0
 LayerCount: 2
@@ -5115,6 +5131,7 @@ EndChar
 StartChar: commaturnedabovecomb
 Encoding: 786 786 307
 Width: 0
+GlyphClass: 4
 Flags: HMW
 AnchorPoint: "marks_above" 0 600 mark 0
 LayerCount: 2
@@ -5347,6 +5364,7 @@ EndChar
 StartChar: hungarumlautcomb
 Encoding: 779 779 330
 Width: 0
+GlyphClass: 4
 Flags: HMW
 AnchorPoint: "marks_above" 0 600 mark 0
 LayerCount: 2
@@ -6532,6 +6550,7 @@ StartChar: ij.sc
 Encoding: 65566 -1 413
 Width: 600
 VWidth: 0
+GlyphClass: 3
 Flags: HMW
 LayerCount: 2
 Fore
@@ -7475,6 +7494,7 @@ EndChar
 StartChar: horncomb
 Encoding: 795 795 488
 Width: 0
+GlyphClass: 4
 Flags: MW
 AnchorPoint: "marks_aboveright" 0 500 mark 0
 LayerCount: 2
@@ -7485,6 +7505,7 @@ EndChar
 StartChar: dotbelowcomb
 Encoding: 803 803 489
 Width: 0
+GlyphClass: 4
 Flags: MW
 AnchorPoint: "marks_below" 0 0 mark 0
 LayerCount: 2
@@ -7495,6 +7516,7 @@ EndChar
 StartChar: macronbelowcomb
 Encoding: 817 817 490
 Width: 0
+GlyphClass: 4
 Flags: MW
 AnchorPoint: "marks_below" 0 0 mark 0
 LayerCount: 2
@@ -7993,6 +8015,7 @@ EndChar
 StartChar: uni0324
 Encoding: 804 804 535
 Width: 0
+GlyphClass: 4
 Flags: MW
 AnchorPoint: "marks_below" 0 0 mark 0
 LayerCount: 2
@@ -8003,6 +8026,7 @@ EndChar
 StartChar: brevebelowcomb
 Encoding: 814 814 536
 Width: 0
+GlyphClass: 4
 Flags: MW
 AnchorPoint: "marks_below" 0 0 mark 0
 LayerCount: 2
@@ -8572,6 +8596,7 @@ EndChar
 StartChar: hookabovecomb
 Encoding: 777 777 588
 Width: 0
+GlyphClass: 4
 Flags: HMW
 AnchorPoint: "marks_above" 0 600 mark 0
 LayerCount: 2
@@ -10502,6 +10527,7 @@ EndChar
 StartChar: circumflexcomb_acutecomb
 Encoding: 65640 -1 687
 Width: 0
+GlyphClass: 4
 Flags: MW
 AnchorPoint: "marks_above" 0 600 mark 0
 LayerCount: 2
@@ -10513,6 +10539,7 @@ EndChar
 StartChar: circumflexcomb_gravecomb
 Encoding: 65641 -1 688
 Width: 0
+GlyphClass: 4
 Flags: MW
 AnchorPoint: "marks_above" 0 600 mark 0
 LayerCount: 2
@@ -10544,6 +10571,7 @@ EndChar
 StartChar: circumflexcomb_hookabovecomb
 Encoding: 65642 -1 691
 Width: 0
+GlyphClass: 4
 Flags: HMW
 AnchorPoint: "marks_above" 0 600 mark 0
 LayerCount: 2
@@ -10576,6 +10604,7 @@ EndChar
 StartChar: circumflexcomb_tildecomb
 Encoding: 65643 -1 694
 Width: 0
+GlyphClass: 4
 Flags: MW
 AnchorPoint: "marks_above" 0 600 mark 0
 LayerCount: 2
@@ -12712,6 +12741,7 @@ EndChar
 StartChar: verticallineabovecomb
 Encoding: 781 781 861
 Width: 0
+GlyphClass: 4
 Flags: HMW
 AnchorPoint: "marks_above" 0 600 mark 0
 LayerCount: 2
@@ -12722,6 +12752,7 @@ EndChar
 StartChar: dotaboverightcomb
 Encoding: 856 856 862
 Width: 0
+GlyphClass: 4
 Flags: HMW
 AnchorPoint: "marks_aboveright" -50 300 mark 0
 LayerCount: 2

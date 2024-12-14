@@ -183,13 +183,12 @@ feature mark {
 		<anchor 550 300> mark @marks_aboveright;
 } mark;
 
-table GDEF {
-	# Because gftools builder doesn't create this table automatically....
-	GlyphClassDef [A E I i idotaccent J L U @tall d l t a e u @short @deep dotlessi i.sc jdotless uni25CC j.sc l.sc I-cy],[IJ ij ij.sc],[@marks_above @marks_aboveright @marks_belowright @marks_below],;
-	LigatureCaretByPos IJ 200;
-	LigatureCaretByPos ij 350;
-	LigatureCaretByPos ij.sc 200;
-} GDEF;
+# table GDEF {
+# 	GlyphClassDef [A E I i idotaccent J L U @tall d l t a e u @short @deep dotlessi i.sc jdotless uni25CC j.sc l.sc I-cy],[IJ ij ij.sc],[@marks_above @marks_aboveright @marks_belowright @marks_below],;
+# 	LigatureCaretByPos IJ 200;
+# 	LigatureCaretByPos ij 350;
+# 	LigatureCaretByPos ij.sc 200;
+# } GDEF;
 
 feature locl {
 	script latn;
