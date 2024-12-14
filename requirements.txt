@@ -5,4 +5,3 @@ sh>=2.0.6
 bumpfontversion>=0.4.1
 git+https://github.com/FriedOrange/diffenator2
 sfdLib==2.0.0.post0
-fonttools>=4.55.0
