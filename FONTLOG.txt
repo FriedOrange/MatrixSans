@@ -21,6 +21,11 @@ Further documentation can be found at: https://github.com/FriedOrange/MatrixSans
 Changelog
 ---------
 
+14 December 2024 - Version 1.400
+
+- Now supports Google Fonts Cyrillic Core and Adobe Cyrillic 1 character sets
+- Improved kerning
+
 11 December 2024 - Version 1.300
 
 - Now supports Google Fonts Latin PriAfrican, TransLatin Arabic and TransLatin Pinyin character sets

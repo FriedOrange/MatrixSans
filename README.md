@@ -100,6 +100,11 @@ To easily add or modify glyphs (requires [FontForge](https://fontforge.org/)):
 
 ## Changelog
 
+#### 14 December 2024 - Version 1.400
+
+- Now supports [Google Fonts Cyrillic Core](https://github.com/googlefonts/glyphsets/blob/main/GLYPHSETS.md#gf-cyrillic-core) and [Adobe Cyrillic 1](http://adobe-type-tools.github.io/adobe-cyrillic-charsets/adobe-cyrillic-1.html) character sets
+- Improved kerning
+
 #### 11 December 2024 - Version 1.300
 
 - Now supports Google Fonts Latin PriAfrican, TransLatin Arabic and TransLatin Pinyin character sets
