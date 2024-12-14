@@ -9,3 +9,4 @@ buildVariable: false
 removeOutlineOverlaps: false
 autohintTTF: false
 extraFontmakeArgs: --keep-direction
+buildSmallCap: false

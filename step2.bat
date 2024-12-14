@@ -9,4 +9,7 @@ for %%f in (temp\MatrixSans*-Regular.sfd) do (
 	copy features.fea %%~nf.ufo\features.fea
 )
 
+rem Add fixed lib.plist to UFO sources
+fontforge -script fixufo.py
+for %%f in (temp\MatrixSans*.sfd) do copy temp\lib.plist %%~nf.ufo\lib.plist
 cd ..

@@ -6,7 +6,7 @@ gftools builder config.yaml
 
 rem Patch in META table to fonts
 @cd ..
-for /r fonts %%f in (*) do ttx -o %%f -m %%f sources\meta.ttx
+rem for /r fonts %%f in (*) do ttx -o %%f -m %%f sources\meta.ttx
 
 rem Generate sample images
 python documentation\image3.py --output documentation\sample.png
