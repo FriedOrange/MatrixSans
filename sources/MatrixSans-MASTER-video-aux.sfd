@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1675081307
-ModificationTime: 1733892363
+ModificationTime: 1734176727
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -42,8 +42,8 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 65328 16 14
-BeginChars: 65547 66
+WinInfo: 1008 16 14
+BeginChars: 65547 70
 
 StartChar: halfdot
 Encoding: 65536 -1 0
@@ -2549,6 +2549,244 @@ Refer: 7 -1 N 1 0 0 1 450 300 2
 Refer: 7 -1 N 1 0 0 1 50 300 2
 Refer: 7 -1 N 1 0 0 1 450 400 2
 Refer: 7 -1 N 1 0 0 1 50 400 2
+EndChar
+
+StartChar: uni0438
+Encoding: 1080 1080 66
+Width: 600
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 S 1 0 0 1 150 50 2
+Refer: 0 -1 S 1 0 0 1 200 100 2
+Refer: 0 -1 S 1 0 0 1 150 100 2
+Refer: 0 -1 S 1 0 0 1 250 150 2
+Refer: 0 -1 S 1 0 0 1 200 150 2
+Refer: 0 -1 S 1 0 0 1 150 150 2
+Refer: 0 -1 S 1 0 0 1 300 200 2
+Refer: 0 -1 S 1 0 0 1 250 200 2
+Refer: 0 -1 S 1 0 0 1 200 200 2
+Refer: 0 -1 S 1 0 0 1 350 250 2
+Refer: 0 -1 S 1 0 0 1 300 250 2
+Refer: 0 -1 S 1 0 0 1 250 250 2
+Refer: 0 -1 S 1 0 0 1 400 300 2
+Refer: 0 -1 S 1 0 0 1 350 300 2
+Refer: 0 -1 S 1 0 0 1 300 300 2
+Refer: 0 -1 S 1 0 0 1 400 350 2
+Refer: 0 -1 S 1 0 0 1 350 350 2
+Refer: 0 -1 S 1 0 0 1 400 400 2
+Refer: 7 -1 N 1 0 0 1 450 0 2
+Refer: 7 -1 N 1 0 0 1 50 0 2
+Refer: 7 -1 N 1 0 0 1 450 100 2
+Refer: 7 -1 N 1 0 0 1 50 100 2
+Refer: 7 -1 N 1 0 0 1 450 200 2
+Refer: 7 -1 N 1 0 0 1 50 200 2
+Refer: 7 -1 N 1 0 0 1 450 300 2
+Refer: 7 -1 N 1 0 0 1 50 300 2
+Refer: 7 -1 N 1 0 0 1 450 400 2
+Refer: 7 -1 N 1 0 0 1 50 400 2
+EndChar
+
+StartChar: uni044F
+Encoding: 1103 1103 67
+Width: 600
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 7 -1 N 1 0 0 1 50 0 2
+Refer: 0 -1 N 1 0 0 1 100 100 2
+Refer: 0 -1 N -1 0 0 -1 151 451 2
+Refer: 0 -1 N -1 0 0 -1 201 401 2
+Refer: 0 -1 N -1 0 0 -1 151 301 2
+Refer: 0 -1 N -1 0 0 -1 201 351 2
+Refer: 0 -1 N 1 0 0 1 250 150 2
+Refer: 0 -1 N 1 0 0 1 150 50 2
+Refer: 7 -1 N 1 0 0 1 450 400 2
+Refer: 7 -1 N 1 0 0 1 150 100 2
+Refer: 7 -1 N 1 0 0 1 450 0 2
+Refer: 7 -1 N -1 0 0 -1 251 501 2
+Refer: 7 -1 N -1 0 0 -1 351 501 2
+Refer: 7 -1 N -1 0 0 -1 451 501 2
+Refer: 7 -1 N 1 0 0 1 450 100 2
+Refer: 7 -1 N -1 0 0 -1 151 401 2
+Refer: 7 -1 N 1 0 0 1 450 200 2
+Refer: 7 -1 N -1 0 0 -1 251 301 2
+Refer: 7 -1 N -1 0 0 -1 351 301 2
+Refer: 7 -1 N -1 0 0 -1 451 301 2
+Refer: 7 -1 N 1 0 0 1 450 300 2
+EndChar
+
+StartChar: uni0418
+Encoding: 1048 1048 68
+Width: 600
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 500 0 2
+Refer: 0 -1 N 1 0 0 1 450 0 2
+Refer: 0 -1 N 1 0 0 1 100 0 2
+Refer: 0 -1 N 1 0 0 1 50 0 2
+Refer: 0 -1 N 1 0 0 1 500 50 2
+Refer: 0 -1 N 1 0 0 1 450 50 2
+Refer: 0 -1 N 1 0 0 1 100 50 2
+Refer: 0 -1 N 1 0 0 1 50 50 2
+Refer: 0 -1 N 1 0 0 1 500 100 2
+Refer: 0 -1 N 1 0 0 1 450 100 2
+Refer: 0 -1 N 1 0 0 1 100 100 2
+Refer: 0 -1 N 1 0 0 1 50 100 2
+Refer: 0 -1 N 1 0 0 1 500 150 2
+Refer: 0 -1 N 1 0 0 1 450 150 2
+Refer: 0 -1 S 1 0 0 1 150 150 2
+Refer: 0 -1 N 1 0 0 1 100 150 2
+Refer: 0 -1 N 1 0 0 1 50 150 2
+Refer: 0 -1 N 1 0 0 1 500 200 2
+Refer: 0 -1 N 1 0 0 1 450 200 2
+Refer: 0 -1 S 1 0 0 1 200 200 2
+Refer: 0 -1 S 1 0 0 1 150 200 2
+Refer: 0 -1 N 1 0 0 1 100 200 2
+Refer: 0 -1 N 1 0 0 1 50 200 2
+Refer: 0 -1 N 1 0 0 1 500 250 2
+Refer: 0 -1 N 1 0 0 1 450 250 2
+Refer: 0 -1 S 1 0 0 1 250 250 2
+Refer: 0 -1 S 1 0 0 1 200 250 2
+Refer: 0 -1 S 1 0 0 1 150 250 2
+Refer: 0 -1 N 1 0 0 1 100 250 2
+Refer: 0 -1 N 1 0 0 1 50 250 2
+Refer: 0 -1 N 1 0 0 1 500 300 2
+Refer: 0 -1 N 1 0 0 1 450 300 2
+Refer: 0 -1 S 1 0 0 1 300 300 2
+Refer: 0 -1 S 1 0 0 1 250 300 2
+Refer: 0 -1 S 1 0 0 1 200 300 2
+Refer: 0 -1 N 1 0 0 1 100 300 2
+Refer: 0 -1 N 1 0 0 1 50 300 2
+Refer: 0 -1 N 1 0 0 1 500 350 2
+Refer: 0 -1 N 1 0 0 1 450 350 2
+Refer: 0 -1 S 1 0 0 1 350 350 2
+Refer: 0 -1 S 1 0 0 1 300 350 2
+Refer: 0 -1 S 1 0 0 1 250 350 2
+Refer: 0 -1 N 1 0 0 1 100 350 2
+Refer: 0 -1 N 1 0 0 1 50 350 2
+Refer: 0 -1 N 1 0 0 1 500 400 2
+Refer: 0 -1 N 1 0 0 1 450 400 2
+Refer: 0 -1 S 1 0 0 1 400 400 2
+Refer: 0 -1 S 1 0 0 1 350 400 2
+Refer: 0 -1 S 1 0 0 1 300 400 2
+Refer: 0 -1 N 1 0 0 1 100 400 2
+Refer: 0 -1 N 1 0 0 1 50 400 2
+Refer: 0 -1 N 1 0 0 1 500 450 2
+Refer: 0 -1 N 1 0 0 1 450 450 2
+Refer: 0 -1 S 1 0 0 1 400 450 2
+Refer: 0 -1 S 1 0 0 1 350 450 2
+Refer: 0 -1 N 1 0 0 1 100 450 2
+Refer: 0 -1 N 1 0 0 1 50 450 2
+Refer: 0 -1 N 1 0 0 1 500 500 2
+Refer: 0 -1 N 1 0 0 1 450 500 2
+Refer: 0 -1 S 1 0 0 1 400 500 2
+Refer: 0 -1 N 1 0 0 1 100 500 2
+Refer: 0 -1 N 1 0 0 1 50 500 2
+Refer: 0 -1 N 1 0 0 1 500 550 2
+Refer: 0 -1 N 1 0 0 1 450 550 2
+Refer: 0 -1 N 1 0 0 1 100 550 2
+Refer: 0 -1 N 1 0 0 1 50 550 2
+Refer: 0 -1 N 1 0 0 1 500 600 2
+Refer: 0 -1 N 1 0 0 1 450 600 2
+Refer: 0 -1 N 1 0 0 1 100 600 2
+Refer: 0 -1 N 1 0 0 1 50 600 2
+Refer: 0 -1 N 1 0 0 1 500 650 2
+Refer: 0 -1 N 1 0 0 1 450 650 2
+Refer: 0 -1 N 1 0 0 1 100 650 2
+Refer: 0 -1 N 1 0 0 1 50 650 2
+EndChar
+
+StartChar: uni042F
+Encoding: 1071 1071 69
+Width: 600
+Flags: HWO
+LayerCount: 2
+Fore
+Refer: 0 -1 S 1 0 0 1 350 250 2
+Refer: 0 -1 N 1 0 0 1 100 0 2
+Refer: 0 -1 N 1 0 0 1 50 0 2
+Refer: 0 -1 N 1 0 0 1 150 50 2
+Refer: 0 -1 N 1 0 0 1 100 50 2
+Refer: 0 -1 N 1 0 0 1 50 50 2
+Refer: 0 -1 N 1 0 0 1 200 100 2
+Refer: 0 -1 N 1 0 0 1 150 100 2
+Refer: 0 -1 N 1 0 0 1 100 100 2
+Refer: 0 -1 N 1 0 0 1 250 150 2
+Refer: 0 -1 N 1 0 0 1 200 150 2
+Refer: 0 -1 N 1 0 0 1 150 150 2
+Refer: 0 -1 N 1 0 0 1 300 200 2
+Refer: 0 -1 N 1 0 0 1 250 200 2
+Refer: 0 -1 N 1 0 0 1 200 200 2
+Refer: 0 -1 N 1 0 0 1 300 250 2
+Refer: 0 -1 N 1 0 0 1 250 250 2
+Refer: 0 -1 N 1 0 0 1 500 0 2
+Refer: 0 -1 N 1 0 0 1 450 0 2
+Refer: 0 -1 N 1 0 0 1 500 50 2
+Refer: 0 -1 N 1 0 0 1 450 50 2
+Refer: 0 -1 N 1 0 0 1 500 100 2
+Refer: 0 -1 N 1 0 0 1 450 100 2
+Refer: 0 -1 N 1 0 0 1 500 150 2
+Refer: 0 -1 N 1 0 0 1 450 150 2
+Refer: 0 -1 N 1 0 0 1 500 200 2
+Refer: 0 -1 N 1 0 0 1 450 200 2
+Refer: 0 -1 N 1 0 0 1 500 250 2
+Refer: 0 -1 N 1 0 0 1 450 250 2
+Refer: 0 -1 N -1 0 0 -1 201 701 2
+Refer: 0 -1 N -1 0 0 -1 251 701 2
+Refer: 0 -1 N -1 0 0 -1 301 701 2
+Refer: 0 -1 N -1 0 0 -1 351 701 2
+Refer: 0 -1 N -1 0 0 -1 401 701 2
+Refer: 0 -1 N -1 0 0 -1 451 701 2
+Refer: 0 -1 N 1 0 0 1 500 300 2
+Refer: 0 -1 N 1 0 0 1 450 300 2
+Refer: 0 -1 N -1 0 0 -1 151 651 2
+Refer: 0 -1 N -1 0 0 -1 201 651 2
+Refer: 0 -1 N -1 0 0 -1 251 651 2
+Refer: 0 -1 N -1 0 0 -1 301 651 2
+Refer: 0 -1 N -1 0 0 -1 351 651 2
+Refer: 0 -1 N -1 0 0 -1 401 651 2
+Refer: 0 -1 N -1 0 0 -1 451 651 2
+Refer: 0 -1 N 1 0 0 1 500 350 2
+Refer: 0 -1 N 1 0 0 1 450 350 2
+Refer: 0 -1 N -1 0 0 -1 101 601 2
+Refer: 0 -1 N -1 0 0 -1 151 601 2
+Refer: 0 -1 N -1 0 0 -1 201 601 2
+Refer: 0 -1 N 1 0 0 1 500 400 2
+Refer: 0 -1 N 1 0 0 1 450 400 2
+Refer: 0 -1 N -1 0 0 -1 101 551 2
+Refer: 0 -1 N -1 0 0 -1 151 551 2
+Refer: 0 -1 N 1 0 0 1 500 450 2
+Refer: 0 -1 N 1 0 0 1 450 450 2
+Refer: 0 -1 N -1 0 0 -1 101 501 2
+Refer: 0 -1 N -1 0 0 -1 151 501 2
+Refer: 0 -1 N 1 0 0 1 500 500 2
+Refer: 0 -1 N 1 0 0 1 450 500 2
+Refer: 0 -1 N -1 0 0 -1 101 451 2
+Refer: 0 -1 N -1 0 0 -1 151 451 2
+Refer: 0 -1 N -1 0 0 -1 201 451 2
+Refer: 0 -1 N 1 0 0 1 500 550 2
+Refer: 0 -1 N 1 0 0 1 450 550 2
+Refer: 0 -1 N -1 0 0 -1 151 401 2
+Refer: 0 -1 N -1 0 0 -1 201 401 2
+Refer: 0 -1 N -1 0 0 -1 251 401 2
+Refer: 0 -1 N -1 0 0 -1 301 401 2
+Refer: 0 -1 N -1 0 0 -1 351 401 2
+Refer: 0 -1 N -1 0 0 -1 401 401 2
+Refer: 0 -1 N -1 0 0 -1 451 401 2
+Refer: 0 -1 N 1 0 0 1 500 600 2
+Refer: 0 -1 N 1 0 0 1 450 600 2
+Refer: 0 -1 N -1 0 0 -1 201 351 2
+Refer: 0 -1 N -1 0 0 -1 251 351 2
+Refer: 0 -1 N -1 0 0 -1 301 351 2
+Refer: 0 -1 N -1 0 0 -1 351 351 2
+Refer: 0 -1 N -1 0 0 -1 401 351 2
+Refer: 0 -1 N -1 0 0 -1 451 351 2
+Refer: 0 -1 N 1 0 0 1 500 650 2
+Refer: 0 -1 N 1 0 0 1 450 650 2
 EndChar
 EndChars
 EndSplineFont
