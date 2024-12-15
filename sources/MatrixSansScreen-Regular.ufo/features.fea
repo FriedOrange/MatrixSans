@@ -11,6 +11,7 @@ languagesystem latn ROM;
 languagesystem latn NSM;
 languagesystem latn NLD;
 languagesystem cyrl dflt;
+languagesystem grek dflt;
 
 feature aalt {
 	feature c2sc;
@@ -60,7 +61,8 @@ markClass [uni0315 horncomb dotaboverightcomb] <anchor 0 500> @marks_aboveright;
 # markClass [circumflexcomb tildecomb macroncomb brevecomb dieresiscomb hungarumlautcomb] <anchor 0 600> @wide_marks_above;
 
 feature ccmp {
-	sub [i j i-cy]' @marks_above by [dotlessi jdotless dotlessi];
+	script latn;
+	sub [i j]' @marks_above by [dotlessi jdotless];
 	sub L caroncomb' by uni0315;
 	sub d caroncomb' by uni0315;
 	sub l caroncomb' by uni0315;
@@ -81,17 +83,21 @@ feature ccmp {
 	sub l.sc cedillacomb' by commaaccentcomb;
 	sub n.sc cedillacomb' by commaaccentcomb;
 	sub r.sc cedillacomb' by commaaccentcomb;
-	# for Video style:
-	sub A ogonekcomb by Aogonek;
-	sub u ogonekcomb by uogonek;
-
+	sub A ogonekcomb by Aogonek; # for Video style
+	sub u ogonekcomb by uogonek; # for Video style
 	sub y' @marks_below by y.titl;
 	sub circumflexcomb acutecomb by circumflexcomb_acutecomb;
 	sub circumflexcomb gravecomb by circumflexcomb_gravecomb;
 	sub circumflexcomb hookabovecomb by circumflexcomb_hookabovecomb;
 	sub circumflexcomb tildecomb by circumflexcomb_tildecomb;
-
 	sub [idotbelow iogonek]' @marks_above by dotlessi dotbelowcomb;
+	script cyrl;
+	sub i-cy' @marks_above by dotlessi;
+	script grek;
+	sub [Alpha Epsilon Eta Iota Omicron Upsilon Omega]' acutecomb by [Alphatonos Epsilontonos Etatonos Iotatonos Omicrontonos Upsilontonos Omegatonos];
+	sub [Alphatonos Epsilontonos Etatonos Iotatonos Omicrontonos Upsilontonos Omegatonos] acutecomb' by NULL;
+	sub iota dieresiscomb acutecomb by iotadieresistonos;
+	sub upsilon dieresiscomb acutecomb by upsilondieresistonos;
 } ccmp;
 
 feature mkmk {
@@ -102,8 +108,8 @@ feature mkmk {
 } mkmk;
 
 # classes for mark positioning
-@tall = [C D G H K M N R S T W Y Z h k Edotbelow Odotbelow Udotbelow Ie-cy Ge-cy Ka-cy Ii-cy U-cy]; # not including glyphs with ogonek or apostrophe-type caron
-@short = [c m n r s v-x z b.sc d.sc f.sc g.sc h.sc kgreenlandic m.sc n.sc p.sc q.sc r.sc t.sc y.sc y.titl edotbelow odotbelow udotbelow edotbelow.sc udotbelow.sc ii-cy ie-cy ge-cy ka-cy];
+@tall = [C D G H K M N R S T W Y Z h k Edotbelow Odotbelow Udotbelow Ie-cy Ge-cy Ka-cy Ii-cy U-cy Upsilon]; # not including glyphs with ogonek or apostrophe-type caron
+@short = [c m n r s v-x z b.sc d.sc f.sc g.sc h.sc kgreenlandic m.sc n.sc p.sc q.sc r.sc t.sc y.sc y.titl edotbelow odotbelow udotbelow edotbelow.sc udotbelow.sc ii-cy ie-cy ge-cy ka-cy alpha epsilon eta upsilon omicron omega];
 @deep = [g p q y  u-cy];
 
 feature mark {
@@ -111,7 +117,7 @@ feature mark {
 		<anchor 300 800> mark @marks_above
 		<anchor 300 0> mark @marks_below
 		<anchor 400 0> mark @marks_belowright;
-	pos base [I i idotaccent Idotbelow I-cy] 
+	pos base [I i idotaccent Idotbelow I-cy Iota] 
 		<anchor 200 800> mark @marks_above
 		<anchor 200 0> mark @marks_below
 		<anchor 200 0> mark @marks_belowright;
@@ -159,7 +165,7 @@ feature mark {
 		<anchor 300 0> mark @marks_below;
 	pos base @deep 
 		<anchor 300 600> mark @marks_above;
-	pos base [dotlessi i.sc idotbelow.sc iogonek.sc]
+	pos base [dotlessi i.sc idotbelow.sc iogonek.sc iota]
 		<anchor 200 600> mark @marks_above
 		<anchor 200 0> mark @marks_below
 		<anchor 200 0> mark @marks_belowright;
