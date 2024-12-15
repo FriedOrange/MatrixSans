@@ -3815,11 +3815,13 @@
 		<array>
 			<string>Latn</string>
 			<string>Cyrl</string>
+			<string>Grek</string>
 		</array>
 		<key>slng</key>
 		<array>
 			<string>Latn</string>
 			<string>Cyrl</string>
+			<string>Grek</string>
 		</array>
 	</dict>
 </dict>
