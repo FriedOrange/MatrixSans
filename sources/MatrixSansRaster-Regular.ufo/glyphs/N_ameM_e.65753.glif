@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="NameMe.65753" format="2">
+  <advance width="600"/>
+  <outline>
+    <component base="h.sc"/>
+    <component base="acutecomb" xOffset="300.0"/>
+  </outline>
+</glyph>
