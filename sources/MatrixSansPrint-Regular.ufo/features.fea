@@ -33,14 +33,21 @@ feature aalt {
 
 @uc_cy = [uni0400 Io-cy Dje-cy uni0403 E-cy uni0405 I-cy Yi-cy Je-cy Lje-cy Nje-cy Tshe-cy uni040C uni040D Ushort-cy Dzhe-cy A-cy Be-cy Ve-cy Ge-cy De-cy Ie-cy Zhe-cy Ze-cy Ii-cy Iishort-cy Ka-cy El-cy Em-cy En-cy O-cy Pe-cy Er-cy Es-cy Te-cy U-cy Ef-cy Ha-cy Tse-cy Che-cy Sha-cy Shcha-cy Hardsign-cy Yeru-cy Softsign-cy Ereversed-cy Yu-cy Ya-cy uni0462 uni0472 uni0474 Geupturn-cy Gestroke-cy Zhedescender-cy Kadescender-cy Endescender-cy Ustraight-cy Ustraightstroke-cy Hadescender-cy Chedescender-cy Shha-cy Schwa-cy Imacron-cy Obarred-cy Umacron-cy];
 @c2sc_cy = [iegrave-cy.sc io-cy.sc dje-cy.sc uni0453 e-cy uni0455 i-cy.sc idieresis.sc je-cy.sc lje-cy nje-cy tshe-cy.sc uni045C uni045D ushort-cy.sc dzhe-cy a-cy.sc be-cy.sc ve-cy ge-cy de-cy ie-cy.sc zhe-cy ze-cy ii-cy iishort-cy ka-cy el-cy em-cy en-cy o-cy pe-cy er-cy.sc es-cy te-cy u-cy.sc ef-cy.sc ha-cy tse-cy che-cy sha-cy shcha-cy hardsign-cy yeru-cy softsign-cy ereversed-cy yu-cy ya-cy uni0463.sc uni0473 uni0475 geupturn-cy gestroke-cy zhedescender-cy kadescender-cy endescender-cy ustraight-cy.sc ustraightstroke-cy.sc hadescender-cy chedescender-cy shha-cy.sc schwa-cy imacron-cy obarred-cy umacron-cy.sc];
-@lc_cy = [a-cy be-cy er-cy u-cy ef-cy uni0450 io-cy dje-cy i-cy yi-cy je-cy tshe-cy ushort-cy uni0463 ustraight-cy ustraightstroke-cy shha-cy umacron-cy];
-@smcp_cy = [a-cy.sc be-cy.sc er-cy.sc u-cy.sc ef-cy.sc iegrave-cy.sc io-cy.sc dje-cy.sc i-cy.sc idieresis.sc je-cy.sc tshe-cy.sc ushort-cy.sc uni0463.sc ustraight-cy.sc ustraightstroke-cy.sc shha-cy.sc umacron-cy.sc];
+@lc_cy = [a-cy be-cy ie-cy er-cy u-cy ef-cy uni0450 io-cy dje-cy i-cy yi-cy je-cy tshe-cy ushort-cy uni0463 ustraight-cy ustraightstroke-cy shha-cy umacron-cy];
+@smcp_cy = [a-cy.sc be-cy.sc ie-cy.sc er-cy.sc u-cy.sc ef-cy.sc iegrave-cy.sc io-cy.sc dje-cy.sc i-cy.sc idieresis.sc je-cy.sc tshe-cy.sc ushort-cy.sc uni0463.sc ustraight-cy.sc ustraightstroke-cy.sc shha-cy.sc umacron-cy.sc];
+
+@uc_gr = [Alphatonos Epsilontonos Etatonos Iotatonos Omicrontonos Upsilontonos Omegatonos Alpha Beta Gamma Delta Epsilon Zeta Eta Theta Iota Kappa Lambda Mu Nu Xi Omicron Pi Rho Sigma Tau Upsilon Phi Chi Psi Omega Iotadieresis Upsilondieresis KaiSymbol];
+@c2sc_gr = [alphatonos.sc epsilontonos.sc etatonos.sc iotatonos.sc omicrontonos upsilontonos.sc omegatonos.sc alpha.sc beta.sc gamma.sc delta.sc epsilon.sc zeta.sc eta.sc theta.sc iota.sc kappa lambda.sc mu.sc nu.sc xi.sc omicron pi.sc rho.sc sigma.sc tau.sc upsilon.sc phi.sc chi.sc psi.sc omega.sc iotadieresis.sc upsilondieresis.sc kaiSymbol];
+@lc_gr = [alphatonos epsilontonos etatonos iotatonos upsilontonos omegatonos iotadieresistonos upsilondieresistonos alpha beta gamma delta epsilon zeta eta theta iota lambda mu nu xi pi rho sigma sigmafinal tau upsilon phi chi psi omega iotadieresis upsilondieresis];
+@smcp_gr = [alphatonos.sc epsilontonos.sc etatonos.sc iotatonos.sc upsilontonos.sc omegatonos.sc iotadieresistonos.sc upsilondieresistonos.sc alpha.sc beta.sc gamma.sc delta.sc epsilon.sc zeta.sc eta.sc theta.sc iota.sc lambda.sc mu.sc nu.sc xi.sc pi.sc rho.sc sigma.sc sigma.sc tau.sc upsilon.sc phi.sc chi.sc psi.sc omega.sc iotadieresis.sc upsilondieresis.sc];
 
 feature c2sc {
 	script latn;
 	sub @uc by @c2sc;
 	script cyrl;
 	sub @uc_cy by @c2sc_cy;
+	script grek;
+	sub @uc_gr by @c2sc_gr;
 } c2sc;
 
 feature smcp {
@@ -48,6 +55,8 @@ feature smcp {
 	sub @lc by @smcp;
 	script cyrl;
 	sub @lc_cy by @smcp_cy;
+	script grek;
+	sub @lc_gr by @smcp_gr;
 } smcp;
 
 # mark classes
