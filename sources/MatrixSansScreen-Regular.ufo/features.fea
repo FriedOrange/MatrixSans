@@ -38,8 +38,8 @@ feature aalt {
 
 @uc_gr = [Alphatonos Epsilontonos Etatonos Iotatonos Omicrontonos Upsilontonos Omegatonos Alpha Beta Gamma Delta Epsilon Zeta Eta Theta Iota Kappa Lambda Mu Nu Xi Omicron Pi Rho Sigma Tau Upsilon Phi Chi Psi Omega Iotadieresis Upsilondieresis KaiSymbol];
 @c2sc_gr = [alphatonos.sc epsilontonos.sc etatonos.sc iotatonos.sc omicrontonos upsilontonos.sc omegatonos.sc alpha.sc beta.sc gamma.sc delta.sc epsilon.sc zeta.sc eta.sc theta.sc iota.sc kappa lambda.sc mu.sc nu.sc xi.sc omicron pi.sc rho.sc sigma.sc tau.sc upsilon.sc phi.sc chi.sc psi.sc omega.sc iotadieresis.sc upsilondieresis.sc kaiSymbol];
-@lc_gr = [alphatonos epsilontonos etatonos iotatonos upsilontonos omegatonos iotadieresistonos upsilondieresistonos alpha beta gamma delta epsilon zeta eta theta iota lambda mu nu xi pi rho sigma sigmafinal tau upsilon phi chi psi omega iotadieresis upsilondieresis];
-@smcp_gr = [alphatonos.sc epsilontonos.sc etatonos.sc iotatonos.sc upsilontonos.sc omegatonos.sc iotadieresistonos.sc upsilondieresistonos.sc alpha.sc beta.sc gamma.sc delta.sc epsilon.sc zeta.sc eta.sc theta.sc iota.sc lambda.sc mu.sc nu.sc xi.sc pi.sc rho.sc sigma.sc sigma.sc tau.sc upsilon.sc phi.sc chi.sc psi.sc omega.sc iotadieresis.sc upsilondieresis.sc];
+@lc_gr = [alphatonos epsilontonos etatonos iotatonos upsilontonos omegatonos iotadieresistonos upsilondieresistonos alpha beta gamma delta epsilon zeta eta theta iota lambda mu nu xi pi rho sigma sigmafinal tau upsilon phi chi psi omega iotadieresis upsilondieresis phi1];
+@smcp_gr = [alphatonos.sc epsilontonos.sc etatonos.sc iotatonos.sc upsilontonos.sc omegatonos.sc iotadieresistonos.sc upsilondieresistonos.sc alpha.sc beta.sc gamma.sc delta.sc epsilon.sc zeta.sc eta.sc theta.sc iota.sc lambda.sc mu.sc nu.sc xi.sc pi.sc rho.sc sigma.sc sigma.sc tau.sc upsilon.sc phi.sc chi.sc psi.sc omega.sc iotadieresis.sc upsilondieresis.sc phi.sc];
 
 feature c2sc {
 	script latn;
