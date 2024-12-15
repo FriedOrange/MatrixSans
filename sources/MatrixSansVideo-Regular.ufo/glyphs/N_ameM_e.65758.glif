@@ -1,8 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph name="NameMe.65758" format="2">
-  <advance width="600"/>
-  <outline>
-    <component base="NameMe.65750"/>
-    <component base="acutecomb" xOffset="300.0"/>
-  </outline>
-</glyph>

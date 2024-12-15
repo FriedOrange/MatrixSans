@@ -64,7 +64,7 @@ NameList: MatrixSans
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 864 16 14
+WinInfo: 65552 16 14
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 629146 314573 209715 524288 1048576 0 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
@@ -3543,7 +3543,7 @@ Refer: 0 -1 N 1 0 0 1 250 700 2
 Refer: 0 -1 N 1 0 0 1 150 700 2
 EndChar
 
-StartChar: uni03A9
+StartChar: Omega
 Encoding: 937 937 195
 Width: 600
 Flags: HMW
@@ -5945,7 +5945,7 @@ Fore
 Refer: 212 8722 S 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni03BC
+StartChar: mu
 Encoding: 956 956 386
 Width: 600
 Flags: MW
@@ -5954,7 +5954,7 @@ Fore
 Refer: 114 181 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni0394
+StartChar: Delta
 Encoding: 916 916 387
 Width: 600
 Flags: MW
@@ -15833,7 +15833,7 @@ Refer: 0 -1 N 1 0 0 1 250 400 2
 Refer: 0 -1 N 1 0 0 1 150 400 2
 EndChar
 
-StartChar: sigma1
+StartChar: sigmafinal
 Encoding: 962 962 1040
 Width: 600
 Flags: HMW
@@ -15982,7 +15982,7 @@ Refer: 0 -1 N 1 0 0 1 350 400 2
 Refer: 0 -1 N 1 0 0 1 150 400 2
 EndChar
 
-StartChar: uni03CF
+StartChar: KaiSymbol
 Encoding: 975 975 1047
 Width: 600
 Flags: HMW
@@ -16006,7 +16006,7 @@ Refer: 0 -1 N 1 0 0 1 450 600 2
 Refer: 0 -1 N 1 0 0 1 50 600 2
 EndChar
 
-StartChar: uni03D7
+StartChar: kaiSymbol
 Encoding: 983 983 1048
 Width: 600
 Flags: HMW
@@ -16027,7 +16027,7 @@ Refer: 0 -1 N 1 0 0 1 450 400 2
 Refer: 0 -1 N 1 0 0 1 50 400 2
 EndChar
 
-StartChar: uni037E
+StartChar: questiongreek
 Encoding: 894 894 1049
 Width: 300
 Flags: HMW
@@ -16490,7 +16490,7 @@ Refer: 195 937 S 1 0 0 1 200 -1 2
 Refer: 587 712 N 1 0 0 1 0 0 2
 EndChar
 
-StartChar: uni0374
+StartChar: numeral-greek
 Encoding: 884 884 1097
 Width: 300
 Flags: HMW
@@ -16499,7 +16499,7 @@ Fore
 Refer: 245 8217 S 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni0375
+StartChar: lowernumeral-greek
 Encoding: 885 885 1098
 Width: 300
 Flags: HMW
@@ -16508,7 +16508,7 @@ Fore
 Refer: 245 8217 N 1 0 0 1 0 -600 3
 EndChar
 
-StartChar: NameMe.65729
+StartChar: alpha.sc
 Encoding: 65729 -1 1099
 Width: 600
 VWidth: 0
@@ -16518,7 +16518,7 @@ Fore
 Refer: 388 -1 S 1 0 0 1 0 0 3
 EndChar
 
-StartChar: NameMe.65730
+StartChar: beta.sc
 Encoding: 65730 -1 1100
 Width: 600
 VWidth: 0
@@ -16528,7 +16528,7 @@ Fore
 Refer: 389 -1 S 1 0 0 1 0 0 3
 EndChar
 
-StartChar: NameMe.65731
+StartChar: gamma.sc
 Encoding: 65731 -1 1101
 Width: 600
 Flags: HMW
@@ -16537,7 +16537,7 @@ Fore
 Refer: 927 1075 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: NameMe.65732
+StartChar: delta.sc
 Encoding: 65732 -1 1102
 Width: 600
 VWidth: 0
@@ -16558,7 +16558,7 @@ Refer: 0 -1 N 1 0 0 1 150 300 2
 Refer: 0 -1 N 1 0 0 1 250 400 2
 EndChar
 
-StartChar: NameMe.65733
+StartChar: epsilon.sc
 Encoding: 65733 -1 1103
 Width: 600
 VWidth: 0
@@ -16569,7 +16569,7 @@ Fore
 Refer: 391 -1 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: NameMe.65734
+StartChar: zeta.sc
 Encoding: 65734 -1 1104
 Width: 600
 Flags: HMW
@@ -16578,7 +16578,7 @@ Fore
 Refer: 91 122 S 1 0 0 1 0 0 3
 EndChar
 
-StartChar: NameMe.65735
+StartChar: eta.sc
 Encoding: 65735 -1 1105
 Width: 600
 VWidth: 0
@@ -16588,7 +16588,7 @@ Fore
 Refer: 394 -1 S 1 0 0 1 0 0 3
 EndChar
 
-StartChar: NameMe.65736
+StartChar: theta.sc
 Encoding: 65736 -1 1106
 Width: 600
 VWidth: 0
@@ -16598,7 +16598,7 @@ Fore
 Refer: 473 -1 S 1 0 0 1 0 0 3
 EndChar
 
-StartChar: NameMe.65737
+StartChar: iota.sc
 Encoding: 65737 -1 1107
 Width: 400
 VWidth: 0
@@ -16608,7 +16608,7 @@ Fore
 Refer: 395 -1 S 1 0 0 1 0 0 3
 EndChar
 
-StartChar: NameMe.65738
+StartChar: lambda.sc
 Encoding: 65738 -1 1108
 Width: 600
 VWidth: 0
@@ -16626,7 +16626,7 @@ Refer: 0 -1 N 1 0 0 1 150 300 2
 Refer: 0 -1 N 1 0 0 1 250 400 2
 EndChar
 
-StartChar: NameMe.65739
+StartChar: mu.sc
 Encoding: 65739 -1 1109
 Width: 600
 VWidth: 0
@@ -16636,7 +16636,7 @@ Fore
 Refer: 398 -1 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: NameMe.65740
+StartChar: nu.sc
 Encoding: 65740 -1 1110
 Width: 600
 VWidth: 0
@@ -16646,7 +16646,7 @@ Fore
 Refer: 399 -1 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: NameMe.65741
+StartChar: xi.sc
 Encoding: 65741 -1 1111
 Width: 600
 VWidth: 0
@@ -16668,7 +16668,7 @@ Refer: 0 -1 N 1 0 0 1 150 400 2
 Refer: 0 -1 N 1 0 0 1 50 400 2
 EndChar
 
-StartChar: NameMe.65742
+StartChar: pi.sc
 Encoding: 65742 -1 1112
 Width: 600
 Flags: HMW
@@ -16677,7 +16677,7 @@ Fore
 Refer: 939 1087 S 1 0 0 1 0 0 3
 EndChar
 
-StartChar: NameMe.65743
+StartChar: rho.sc
 Encoding: 65743 -1 1113
 Width: 600
 VWidth: 0
@@ -16687,7 +16687,7 @@ Fore
 Refer: 400 -1 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: NameMe.65744
+StartChar: sigma.sc
 Encoding: 65744 -1 1114
 Width: 600
 VWidth: 0
@@ -16709,7 +16709,7 @@ Refer: 0 -1 N 1 0 0 1 150 400 2
 Refer: 0 -1 N 1 0 0 1 50 400 2
 EndChar
 
-StartChar: NameMe.65745
+StartChar: tau.sc
 Encoding: 65745 -1 1115
 Width: 600
 VWidth: 0
@@ -16719,7 +16719,7 @@ Fore
 Refer: 402 -1 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: NameMe.65746
+StartChar: upsilon.sc
 Encoding: 65746 -1 1116
 Width: 600
 VWidth: 0
@@ -16729,7 +16729,7 @@ Fore
 Refer: 404 -1 S 1 0 0 1 0 0 3
 EndChar
 
-StartChar: NameMe.65747
+StartChar: phi.sc
 Encoding: 65747 -1 1117
 Width: 600
 VWidth: 0
@@ -16739,7 +16739,7 @@ Fore
 Refer: 1008 -1 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: NameMe.65748
+StartChar: chi.sc
 Encoding: 65748 -1 1118
 Width: 600
 Flags: HMW
@@ -16748,7 +16748,7 @@ Fore
 Refer: 89 120 S 1 0 0 1 0 0 3
 EndChar
 
-StartChar: NameMe.65749
+StartChar: psi.sc
 Encoding: 65749 -1 1119
 Width: 600
 VWidth: 0
@@ -16768,7 +16768,7 @@ Refer: 0 -1 N 1 0 0 1 250 400 2
 Refer: 0 -1 N 1 0 0 1 50 400 2
 EndChar
 
-StartChar: NameMe.65750
+StartChar: omega.sc
 Encoding: 65750 -1 1120
 Width: 600
 VWidth: 0
@@ -16790,7 +16790,7 @@ Refer: 0 -1 N 1 0 0 1 250 400 2
 Refer: 0 -1 N 1 0 0 1 150 400 2
 EndChar
 
-StartChar: NameMe.65751
+StartChar: alphatonos.sc
 Encoding: 65751 -1 1121
 Width: 600
 VWidth: 0
@@ -16801,7 +16801,7 @@ Refer: 226 769 N 1 0 0 1 300 0 2
 Refer: 388 -1 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: NameMe.65752
+StartChar: epsilontonos.sc
 Encoding: 65752 -1 1122
 Width: 600
 VWidth: 0
@@ -16812,7 +16812,7 @@ Refer: 226 769 S 1 0 0 1 300 0 2
 Refer: 391 -1 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: NameMe.65753
+StartChar: etatonos.sc
 Encoding: 65753 -1 1123
 Width: 600
 VWidth: 0
@@ -16823,7 +16823,7 @@ Refer: 226 769 S 1 0 0 1 300 0 2
 Refer: 394 -1 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: NameMe.65754
+StartChar: iotatonos.sc
 Encoding: 65754 -1 1124
 Width: 400
 VWidth: 0
@@ -16834,7 +16834,7 @@ Refer: 226 769 N 1 0 0 1 200 0 2
 Refer: 395 -1 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: NameMe.65755
+StartChar: iotadieresis.sc
 Encoding: 65755 -1 1125
 Width: 400
 VWidth: 0
@@ -16845,7 +16845,7 @@ Refer: 395 -1 S 1 0 0 1 0 0 3
 Refer: 232 776 N 1 0 0 1 200 0 2
 EndChar
 
-StartChar: NameMe.65756
+StartChar: upsilontonos.sc
 Encoding: 65756 -1 1126
 Width: 600
 VWidth: 0
@@ -16856,7 +16856,7 @@ Refer: 226 769 N 1 0 0 1 300 0 2
 Refer: 404 -1 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: NameMe.65757
+StartChar: upsilondieresis.sc
 Encoding: 65757 -1 1127
 Width: 600
 VWidth: 0
@@ -16867,7 +16867,7 @@ Refer: 232 776 N 1 0 0 1 300 0 2
 Refer: 404 -1 S 1 0 0 1 0 0 3
 EndChar
 
-StartChar: NameMe.65759
+StartChar: upsilondieresistonos.sc
 Encoding: 65759 -1 1128
 Width: 600
 Flags: HMW
@@ -16877,7 +16877,7 @@ Refer: 404 -1 N 1 0 0 1 0 0 3
 Refer: 1025 901 S 1 0 0 1 0 0 2
 EndChar
 
-StartChar: NameMe.65758
+StartChar: omegatonos.sc
 Encoding: 65758 -1 1129
 Width: 600
 VWidth: 0
@@ -16888,7 +16888,7 @@ Refer: 226 769 N 1 0 0 1 300 0 2
 Refer: 1120 -1 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: NameMe.65760
+StartChar: iotadieresistonos.sc
 Encoding: 65760 -1 1130
 Width: 600
 Flags: HMW

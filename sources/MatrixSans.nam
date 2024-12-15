@@ -392,3 +392,12 @@ Based: AGL For New Fonts
 0x04E9	obarred-cy
 0x04EE	Umacron-cy
 0x04EF	umacron-cy
+0x0374	numeral-greek
+0x0375	lowernumeral-greek
+0x037E	questiongreek
+0x0394	Delta
+0x03A9	Omega
+0x03BC	mu
+0x03C2	sigmafinal
+0x03CF	KaiSymbol
+0x03D7	kaiSymbol
