@@ -491,3 +491,11 @@ feature ss02 {
 	};
 	sub Eng by Eng.loclNSM;
 } ss02;
+
+feature ss03 {
+	featureNames {
+		name "Alternate Greek letter φ (phi)";
+	};
+	sub phi by phi1;
+	sub phi1 by phi;
+} ss03;
