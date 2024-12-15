@@ -22,9 +22,9 @@ BOLD_AUX_SOURCE = "source\\Quantum-MASTER-bold-aux.sfd"
 VIDEO_AUX_SOURCE = "MatrixSans-MASTER-video-aux.sfd"
 BOLD_TEMP = "source\\temp\\temp bold.sfd"
 EXTENDED_TEMP = "source\\temp\\temp extended.sfd"
-UNLINK_LIST = ["Aring", "Ccedilla", "aring", "ccedilla", "aogonek", "dcaron", 
+UNLINK_LIST = ["Aring", "Ccedilla", "aring", "ccedilla", "aogonek",
 	"Eogonek", "eogonek", "Gcommaaccent", "Iogonek", "iogonek", "Lcommaaccent", "lcommaaccent",
-	"lcaron", "Scedilla", "scedilla", "uni0162", "uni0163", "Uogonek", "Scommaaccent",
+	"Scedilla", "scedilla", "uni0162", "uni0163", "Uogonek", "Scommaaccent",
 	"scommaaccent", "Tcommaaccent", "tcommaaccent", "aring.sc", "eogonek.sc", "gcommaaccent.sc",
 	"iogonek.sc", "lcommaaccent.sc", "tcedilla.sc", "tcommaaccent.sc", "uogonek.sc", "Ohorn", "ohorn", "Uhorn", "uhorn.sc"]
 
