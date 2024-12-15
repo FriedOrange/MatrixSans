@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="gestroke-cy" format="2">
-  <advance width="700"/>
+  <advance width="600"/>
   <unicode hex="0493"/>
   <outline>
     <contour>
@@ -26,12 +26,6 @@
       <point x="457.0" y="493.0" type="line"/>
       <point x="543.0" y="493.0" type="line"/>
       <point x="543.0" y="407.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="557.0" y="407.0" type="line"/>
-      <point x="557.0" y="493.0" type="line"/>
-      <point x="643.0" y="493.0" type="line"/>
-      <point x="643.0" y="407.0" type="line"/>
     </contour>
     <contour>
       <point x="157.0" y="307.0" type="line"/>
