@@ -103,10 +103,16 @@ feature ccmp {
 	script cyrl;
 	sub i-cy' @marks_above by dotlessi;
 	script grek;
-	sub [Alpha Epsilon Eta Iota Omicron Upsilon Omega]' acutecomb by [Alphatonos Epsilontonos Etatonos Iotatonos Omicrontonos Upsilontonos Omegatonos];
-	sub [Alphatonos Epsilontonos Etatonos Iotatonos Omicrontonos Upsilontonos Omegatonos] acutecomb' by NULL;
-	sub iota dieresiscomb acutecomb by iotadieresistonos;
+	sub Alpha acutecomb by Alphatonos;
+	sub Epsilon acutecomb by Epsilontonos;
+	sub Eta acutecomb by Etatonos;
+	sub Iota acutecomb by Iotatonos;
+	sub Omicron acutecomb by Omicrontonos;
+	sub Upsilon acutecomb by Upsilontonos;
+	sub Omega acutecomb by Omegatonos;
 	sub upsilon dieresiscomb acutecomb by upsilondieresistonos;
+	sub iota dieresiscomb acutecomb by iotadieresistonos;
+	sub [alpha epsilon eta iota omicron upsilon omega] acutecomb' by verticallineabovecomb;
 } ccmp;
 
 feature mkmk {
@@ -117,7 +123,7 @@ feature mkmk {
 } mkmk;
 
 # classes for mark positioning
-@tall = [C D G H K M N R S T W Y Z h k Edotbelow Odotbelow Udotbelow Ie-cy Ge-cy Ka-cy Ii-cy U-cy Upsilon]; # not including glyphs with ogonek or apostrophe-type caron
+@tall = [C D G H K M N R S T W Y Z h k Edotbelow Odotbelow Udotbelow Ie-cy Ge-cy Ka-cy Ii-cy U-cy Alpha Epsilon Eta Omicron Upsilon Omega]; # not including glyphs with ogonek or apostrophe-type caron
 @short = [c m n r s v-x z b.sc d.sc f.sc g.sc h.sc kgreenlandic m.sc n.sc p.sc q.sc r.sc t.sc y.sc y.titl edotbelow odotbelow udotbelow edotbelow.sc udotbelow.sc ii-cy ie-cy ge-cy ka-cy alpha epsilon eta upsilon omicron omega];
 @deep = [g p q y  u-cy];
 
@@ -264,6 +270,10 @@ feature locl {
 @descenderR_cy = [De-cy Tse-cy Shcha-cy de-cy tse-cy shcha-cy i-cy Zhedescender-cy zhedescender-cy Kadescender-cy kadescender-cy Endescender-cy endescender-cy Hadescender-cy hadescender-cy Chedescender-cy chedescender-cy];
 @shortR_cy = [Dje-cy Lje-cy Nje-cy Tshe-cy Hardsign-cy Softsign-cy uni0462 Shha-cy];
 @veryshortR_cy = [hardsign-cy softsign-cy lje-cy nje-cy uni0463 shha-cy.sc];
+@talloverhangR_gr = [Gamma Tau];
+@talloverhang2R_gr = [Upsilontonos Upsilon Upsilondieresis];
+@shortunderhangR_gr = [iotadieresistonos iotatonos iota mu iotadieresis];
+@openmidR_gr = [Epsilontonos Epsilon Zeta Kappa Xi Sigma Chi lambda];
 
 # Right side classes
 @A2 = [A Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde Acaron AE Adotbelow Ahookabove Acircumflexdotbelow Abrevedotbelow];
@@ -281,6 +291,11 @@ feature locl {
 #che-cy chedescender-cy
 #a-cy
 #u-cy.sc umacron-cy.sc ushort-cy.sc
+@talloverhang2L_gr = [Alphatonos Epsilontonos Etatonos Iotatonos Upsilontonos Omegatonos Upsilon Upsilondieresis];
+@shortoverhangL_gr = [etatonos iotatonos eta iota pi tau];
+@curveL_gr = [alphatonos epsilontonos alpha delta epsilon omicron sigmafinal sigma omega omicrontonos omegatonos phi1];
+@curveBL_gr = [upsilon phi psi upsilondieresis upsilontonos];
+@sqaureL_gr = [kappa mu kaiSymbol];
 
 # Left and right side classes
 @T = [T Tcaron uni0162 Tcommaaccent Tdotbelow Tmacronbelow];
@@ -429,6 +444,33 @@ feature kern {
 	pos a-cy.sc @short_overhangL_cy -100;
 	pos [ie-cy uni0450 io-cy] @descenderL_cy -100;
 	pos [ie-cy uni0450 io-cy] je-cy -100;
+
+	script grek;
+	pos [Alphatonos Alpha] Tau -100;
+	pos @talloverhangR_gr Alpha -100;
+	pos @talloverhangR_gr [Delta Lambda] -100;
+	pos @talloverhangR_gr @shortoverhangL_gr -100;
+	pos @talloverhangR_gr @curveL_gr -100;
+	pos @talloverhangR_gr @curveBL_gr -100;
+	pos @talloverhangR_gr @sqaureL_gr -100;
+	pos @talloverhangR_gr [gamma chi nu] -100;
+	pos @talloverhangR_gr rho -100;
+	pos @talloverhang2R_gr [Delta Lambda] -100;
+	pos @talloverhang2R_gr @curveL_gr -100;
+	pos @talloverhang2R_gr rho -100;
+	pos Psi [Delta Lambda] -100;
+	pos [Delta Lambda] Tau -100;
+	pos [Delta Lambda] Psi -100;
+	pos [Delta Lambda] @talloverhang2L_gr -100;
+	# pos [Delta Lambda] @shortoverhangL_gr -100;
+	pos @shortunderhangR_gr @shortoverhangL_gr -100;
+	# pos @shortunderhangR_gr [gamma chi nu] -100;
+	pos @shortunderhangR_gr [iotadieresis iotadieresistonos] -100;
+	pos @openmidR_gr @shortoverhangL_gr -100;
+	pos [zeta xi] @shortoverhangL_gr -100;
+	# pos [zeta xi] @curveL_gr -100;
+	# pos [zeta xi] @curveBL_gr -100;
+	# pos [zeta xi] [gamma chi nu] -100;
 } kern;
 
 feature tnum {
