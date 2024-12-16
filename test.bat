@@ -1,2 +1,2 @@
 set PYTHONUTF8=1
-fontbakery check-googlefonts -C -l PASS --succinct --badges out\badges --html out\fontbakery\fontbakery-report.html fonts\ttf\*.ttf > out\test.log
+fontbakery check-googlefonts -C -l PASS --succinct --html out\fontbakery\fontbakery-report.html -j fonts\ttf\*.ttf > NUL
