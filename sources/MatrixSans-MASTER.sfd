@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1657964544
-ModificationTime: 1734345278
+ModificationTime: 1734349517
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -16039,11 +16039,11 @@ EndChar
 StartChar: tonos
 Encoding: 900 900 1050
 Width: 200
-Flags: HMW
+Flags: HMWO
 AnchorPoint: "marks_above" 100 500 mark 0
 LayerCount: 2
 Fore
-Refer: 587 712 N 1 0 0 1 0 0 3
+Refer: 587 712 N 1 0 0 1 0 100 3
 EndChar
 
 StartChar: Alpha
@@ -16777,7 +16777,7 @@ StartChar: omega.sc
 Encoding: 65750 -1 1120
 Width: 600
 VWidth: 0
-Flags: HMWO
+Flags: HMW
 AnchorPoint: "marks_above" 300 600 basechar 0
 LayerCount: 2
 Fore
