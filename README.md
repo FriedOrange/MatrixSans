@@ -77,13 +77,10 @@ Ensure the following programs are installed:
 
 After installing Python (and ensuring it is added to the PATH environment variable), the others may be acquired automatically by running `pip install -r requirements.txt` at the command line.
 
-To build the fonts on Windows:
+To build the fonts:
 
-- Run `build.bat` in the `sources` folder. 
-
-To build the fonts on Linux, macOS etc:
-
-- Run `make build` at the command line, in the `MatrixSans` folder.
+- On Windows, run `build.bat` at the command line
+- On Linux, macOS etc, run `make build` at the command line (terminal)
 
 ### Modifying the fonts
 
