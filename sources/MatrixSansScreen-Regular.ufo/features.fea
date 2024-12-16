@@ -274,6 +274,7 @@ feature locl {
 @talloverhang2R_gr = [Upsilontonos Upsilon Upsilondieresis];
 @shortunderhangR_gr = [iotadieresistonos iotatonos iota mu iotadieresis];
 @openmidR_gr = [Epsilontonos Epsilon Zeta Kappa Xi Sigma Chi lambda];
+@shortoverhangR_gr = [gamma.sc tau.sc upsilon.sc upsilontonos.sc upsilondieresis.sc];
 
 # Right side classes
 @A2 = [A Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde Acaron AE Adotbelow Ahookabove Acircumflexdotbelow Abrevedotbelow];
@@ -292,10 +293,11 @@ feature locl {
 #a-cy
 #u-cy.sc umacron-cy.sc ushort-cy.sc
 @talloverhang2L_gr = [Alphatonos Epsilontonos Etatonos Iotatonos Upsilontonos Omegatonos Upsilon Upsilondieresis];
-@shortoverhangL_gr = [etatonos iotatonos eta iota pi tau];
-@curveL_gr = [alphatonos epsilontonos alpha delta epsilon omicron sigmafinal sigma omega omicrontonos omegatonos phi1];
-@curveBL_gr = [upsilon phi psi upsilondieresis upsilontonos];
-@sqaureL_gr = [kappa mu kaiSymbol];
+@shortoverhangL_gr = [etatonos iotatonos eta iota pi tau tau.sc upsilon.sc upsilontonos.sc upsilondieresis.sc];
+@curveL_gr = [alphatonos epsilontonos alpha delta epsilon omicron sigmafinal sigma omega omicrontonos omegatonos phi1 theta.sc];
+@curveBL_gr = [upsilon phi psi upsilondieresis upsilontonos psi.sc];
+@sqaureL_gr = [kappa mu kaiSymbol beta.sc gamma.sc epsilon.sc zeta.sc eta.sc iota.sc mu.sc nu.sc xi.sc pi.sc rho.sc sigma.sc chi.sc epsilontonos.sc etatonos.sc iotatonos.sc];
+@curveTL_gr = [rho omega.sc  omegatonos.sc];
 
 # Left and right side classes
 @T = [T Tcaron uni0162 Tcommaaccent Tdotbelow Tmacronbelow];
@@ -446,6 +448,7 @@ feature kern {
 	pos [ie-cy uni0450 io-cy] je-cy -100;
 
 	script grek;
+	enum pos [alpha.sc delta.sc lambda.sc alphatonos.sc] tau.sc -100;
 	pos [Alphatonos Alpha] Tau -100;
 	pos @talloverhangR_gr Alpha -100;
 	pos @talloverhangR_gr [Delta Lambda] -100;
@@ -454,10 +457,10 @@ feature kern {
 	pos @talloverhangR_gr @curveBL_gr -100;
 	pos @talloverhangR_gr @sqaureL_gr -100;
 	pos @talloverhangR_gr [gamma chi nu] -100;
-	pos @talloverhangR_gr rho -100;
+	pos @talloverhangR_gr @curveTL_gr -100;
 	pos @talloverhang2R_gr [Delta Lambda] -100;
 	pos @talloverhang2R_gr @curveL_gr -100;
-	pos @talloverhang2R_gr rho -100;
+	pos @talloverhang2R_gr @curveTL_gr -100;
 	pos Psi [Delta Lambda] -100;
 	pos [Delta Lambda] Tau -100;
 	pos [Delta Lambda] Psi -100;
@@ -471,6 +474,9 @@ feature kern {
 	# pos [zeta xi] @curveL_gr -100;
 	# pos [zeta xi] @curveBL_gr -100;
 	# pos [zeta xi] [gamma chi nu] -100;
+	pos @shortoverhangR_gr [alpha.sc delta.sc lambda.sc alphatonos.sc] -100;
+	pos phi.sc @shortoverhangL_gr -100;
+	pos @shortoverhangR_gr phi.sc -100;
 } kern;
 
 feature tnum {
