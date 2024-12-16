@@ -100,6 +100,13 @@ To easily add or modify glyphs (requires [FontForge](https://fontforge.org/)):
 
 ## Changelog
 
+#### 17 December 2024 - Version 1.500
+
+- Now supports [Google Fonts Greek Core](https://github.com/googlefonts/glyphsets/blob/main/GLYPHSETS.md#gf-greek-core) and [Adobe Greek 1](http://adobe-type-tools.github.io/adobe-greek-charsets/adobe-greek-1.html) character sets
+  - Alternate form of Greek letter φ (ϕ) available via Stylistic Set 3
+- Fixed missing Cyrillic small cap "е"
+- Improved kerning for Cyrillic
+
 #### 15 December 2024 - Version 1.401
 
 - Improved kerning for Cyrillic

@@ -21,6 +21,13 @@ Further documentation can be found at: https://github.com/FriedOrange/MatrixSans
 Changelog
 ---------
 
+17 December 2024 - Version 1.500
+
+- Now supports Google Fonts Greek Core and Adobe Greek 1 character sets
+  - Alternate form of Greek letter φ (ϕ) available via Stylistic Set 3
+- Fixed missing Cyrillic small cap "е"
+- Improved kerning for Cyrillic
+
 15 December 2024 - Version 1.401
 
 - Improved kerning for Cyrillic
