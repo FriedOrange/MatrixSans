@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1657964544
-ModificationTime: 1734246087
+ModificationTime: 1734345278
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -64,7 +64,7 @@ NameList: MatrixSans
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 65552 16 14
+WinInfo: 848 16 14
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 629146 314573 209715 524288 1048576 0 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
@@ -16038,11 +16038,12 @@ EndChar
 
 StartChar: tonos
 Encoding: 900 900 1050
-Width: 300
+Width: 200
 Flags: HMW
+AnchorPoint: "marks_above" 100 500 mark 0
 LayerCount: 2
 Fore
-Refer: 113 180 N 1 0 0 1 0 100 3
+Refer: 587 712 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: Alpha
@@ -16296,8 +16297,8 @@ Width: 600
 Flags: HMW
 LayerCount: 2
 Fore
+Refer: 1050 900 N 1 0 0 1 200 100 2
 Refer: 1030 945 N 1 0 0 1 0 0 3
-Refer: 113 180 N 1 0 0 1 200 100 2
 EndChar
 
 StartChar: epsilontonos
@@ -16306,8 +16307,8 @@ Width: 600
 Flags: HMW
 LayerCount: 2
 Fore
+Refer: 1050 900 N 1 0 0 1 200 100 2
 Refer: 1070 949 N 1 0 0 1 0 0 3
-Refer: 113 180 S 1 0 0 1 200 100 2
 EndChar
 
 StartChar: etatonos
@@ -16316,8 +16317,8 @@ Width: 600
 Flags: HMW
 LayerCount: 2
 Fore
+Refer: 1050 900 N 1 0 0 1 200 100 2
 Refer: 1034 951 N 1 0 0 1 0 0 3
-Refer: 113 180 S 1 0 0 1 200 100 2
 EndChar
 
 StartChar: iotatonos
@@ -16326,8 +16327,8 @@ Width: 400
 Flags: HMW
 LayerCount: 2
 Fore
+Refer: 1050 900 N 1 0 0 1 100 100 2
 Refer: 1035 953 N 1 0 0 1 0 0 3
-Refer: 113 180 N 1 0 0 1 100 100 2
 EndChar
 
 StartChar: upsilondieresistonos
@@ -16385,8 +16386,8 @@ Width: 600
 Flags: HMW
 LayerCount: 2
 Fore
+Refer: 1050 900 N 1 0 0 1 200 100 2
 Refer: 1037 959 N 1 0 0 1 0 0 3
-Refer: 113 180 S 1 0 0 1 200 100 2
 EndChar
 
 StartChar: upsilontonos
@@ -16396,8 +16397,8 @@ VWidth: 0
 Flags: HMW
 LayerCount: 2
 Fore
+Refer: 1050 900 N 1 0 0 1 200 100 2
 Refer: 1074 965 N 1 0 0 1 0 0 3
-Refer: 113 180 S 1 0 0 1 200 100 2
 EndChar
 
 StartChar: omegatonos
@@ -16406,8 +16407,8 @@ Width: 600
 Flags: HMW
 LayerCount: 2
 Fore
+Refer: 1050 900 N 1 0 0 1 200 100 2
 Refer: 1046 969 N 1 0 0 1 0 0 3
-Refer: 113 180 S 1 0 0 1 200 100 2
 EndChar
 
 StartChar: anoteleia
@@ -16513,9 +16514,10 @@ Encoding: 65729 -1 1099
 Width: 600
 VWidth: 0
 Flags: HMW
+AnchorPoint: "marks_above" 300 600 basechar 0
 LayerCount: 2
 Fore
-Refer: 388 -1 S 1 0 0 1 0 0 3
+Refer: 388 -1 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: beta.sc
@@ -16583,9 +16585,10 @@ Encoding: 65735 -1 1105
 Width: 600
 VWidth: 0
 Flags: HMW
+AnchorPoint: "marks_above" 300 600 basechar 0
 LayerCount: 2
 Fore
-Refer: 394 -1 S 1 0 0 1 0 0 3
+Refer: 394 -1 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: theta.sc
@@ -16603,9 +16606,10 @@ Encoding: 65737 -1 1107
 Width: 400
 VWidth: 0
 Flags: HMW
+AnchorPoint: "marks_above" 200 600 basechar 0
 LayerCount: 2
 Fore
-Refer: 395 -1 S 1 0 0 1 0 0 3
+Refer: 395 -1 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: lambda.sc
@@ -16724,9 +16728,10 @@ Encoding: 65746 -1 1116
 Width: 600
 VWidth: 0
 Flags: HMW
+AnchorPoint: "marks_above" 300 600 basechar 0
 LayerCount: 2
 Fore
-Refer: 404 -1 S 1 0 0 1 0 0 3
+Refer: 404 -1 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: phi.sc
@@ -16772,7 +16777,8 @@ StartChar: omega.sc
 Encoding: 65750 -1 1120
 Width: 600
 VWidth: 0
-Flags: HMW
+Flags: HMWO
+AnchorPoint: "marks_above" 300 600 basechar 0
 LayerCount: 2
 Fore
 Refer: 0 -1 N 1 0 0 1 450 0 2
@@ -16797,8 +16803,8 @@ VWidth: 0
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 226 769 N 1 0 0 1 300 0 2
-Refer: 388 -1 N 1 0 0 1 0 0 3
+Refer: 1050 900 N 1 0 0 1 200 100 2
+Refer: 1099 -1 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: epsilontonos.sc
@@ -16808,8 +16814,8 @@ VWidth: 0
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 226 769 S 1 0 0 1 300 0 2
-Refer: 391 -1 N 1 0 0 1 0 0 3
+Refer: 1050 900 N 1 0 0 1 200 100 2
+Refer: 1103 -1 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: etatonos.sc
@@ -16819,8 +16825,8 @@ VWidth: 0
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 226 769 S 1 0 0 1 300 0 2
-Refer: 394 -1 N 1 0 0 1 0 0 3
+Refer: 1050 900 N 1 0 0 1 200 100 2
+Refer: 1105 -1 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: iotatonos.sc
@@ -16830,8 +16836,8 @@ VWidth: 0
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 226 769 N 1 0 0 1 200 0 2
-Refer: 395 -1 N 1 0 0 1 0 0 3
+Refer: 1050 900 N 1 0 0 1 100 100 2
+Refer: 1107 -1 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: iotadieresis.sc
@@ -16852,8 +16858,8 @@ VWidth: 0
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 226 769 N 1 0 0 1 300 0 2
-Refer: 404 -1 N 1 0 0 1 0 0 3
+Refer: 1050 900 N 1 0 0 1 200 100 2
+Refer: 1116 -1 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: upsilondieresis.sc
@@ -16884,7 +16890,7 @@ VWidth: 0
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 226 769 N 1 0 0 1 300 0 2
+Refer: 1050 900 N 1 0 0 1 200 100 2
 Refer: 1120 -1 N 1 0 0 1 0 0 3
 EndChar
 

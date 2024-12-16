@@ -2,7 +2,7 @@
 <glyph name="upsilontonos.sc" format="2">
   <advance width="600"/>
   <outline>
-    <component base="y.sc"/>
-    <component base="acutecomb" xOffset="300.0"/>
+    <component base="upsilon.sc"/>
+    <component base="tonos" xOffset="200.0" yOffset="100.0"/>
   </outline>
 </glyph>

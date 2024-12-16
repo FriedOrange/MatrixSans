@@ -3,6 +3,6 @@
   <advance width="600"/>
   <outline>
     <component base="omega.sc"/>
-    <component base="acutecomb" xOffset="300.0"/>
+    <component base="tonos" xOffset="200.0" yOffset="100.0"/>
   </outline>
 </glyph>
