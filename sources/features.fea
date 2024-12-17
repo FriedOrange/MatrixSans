@@ -21,6 +21,7 @@ feature aalt {
 	feature sups;
 	feature subs;
 	feature ss01;
+	feature ss03;
 	sub y by y.titl;
 } aalt;
 
@@ -245,6 +246,7 @@ feature locl {
 		sub uni0163 by tcommaaccent;
 	language NSM;
 		sub Eng by Eng.loclNSM;
+		sub eng.sc by eng.sc.loclNSM;
 	language NLD;
 		sub I [J j j.sc] by IJ;
 		sub i j by ij;
@@ -552,3 +554,14 @@ feature ss03 {
 	sub phi by phi1;
 	sub phi1 by phi;
 } ss03;
+
+feature salt {
+	sub six by six.alt;
+	sub nine by nine.alt;
+	sub Eng by Eng.loclNSM;
+	sub eng.sc by eng.sc.loclNSM;
+	sub phi by phi1;
+	sub phi1 by phi;
+	sub zero by O;
+	sub zero.sc by o;
+} salt;
