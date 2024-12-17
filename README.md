@@ -97,6 +97,12 @@ To easily add or modify glyphs (requires [FontForge](https://fontforge.org/)):
 
 ## Changelog
 
+#### Coming soon - Version 1.510
+
+- Now supports the [World Glyph Set](https://en.wikipedia.org/wiki/World_glyph_set) and most of [Windows Glyph List 4](https://learn.microsoft.com/en-us/typography/develop/wgl4) (not including the miscellaneous symbols from the IBM PC set)
+- Changed design of pilcrow, section, daggers and ruble sign ¶ § † ‡ ₽
+- Changed underline thickness in Print, Raster and Screen styles
+
 #### 17 December 2024 - Version 1.500
 
 - Now supports [Google Fonts Greek Core](https://github.com/googlefonts/glyphsets/blob/main/GLYPHSETS.md#gf-greek-core) and [Adobe Greek 1](http://adobe-type-tools.github.io/adobe-greek-charsets/adobe-greek-1.html) character sets
