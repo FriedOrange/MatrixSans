@@ -297,6 +297,8 @@
 		<string>uni0163</string>
 		<string>Tcaron</string>
 		<string>tcaron</string>
+		<string>Tbar</string>
+		<string>tbar</string>
 		<string>Utilde</string>
 		<string>utilde</string>
 		<string>Umacron</string>
@@ -320,6 +322,7 @@
 		<string>zdotaccent</string>
 		<string>Zcaron</string>
 		<string>zcaron</string>
+		<string>longs</string>
 		<string>Bhook</string>
 		<string>Oopen</string>
 		<string>Dhook</string>
@@ -355,6 +358,12 @@
 		<string>gcaron</string>
 		<string>Ngrave</string>
 		<string>ngrave</string>
+		<string>Aringacute</string>
+		<string>aringacute</string>
+		<string>AEacute</string>
+		<string>aeacute</string>
+		<string>Oslashacute</string>
+		<string>oslashacute</string>
 		<string>Scommaaccent</string>
 		<string>scommaaccent</string>
 		<string>Tcommaaccent</string>
@@ -778,6 +787,7 @@
 		<string>quoteleft</string>
 		<string>quoteright</string>
 		<string>quotesinglbase</string>
+		<string>quotereversed</string>
 		<string>quotedblleft</string>
 		<string>quotedblright</string>
 		<string>quotedblbase</string>
@@ -790,6 +800,7 @@
 		<string>second</string>
 		<string>guilsinglleft</string>
 		<string>guilsinglright</string>
+		<string>uni203D</string>
 		<string>fraction</string>
 		<string>uni2070</string>
 		<string>foursuperior</string>
@@ -798,6 +809,9 @@
 		<string>sevensuperior</string>
 		<string>eightsuperior</string>
 		<string>ninesuperior</string>
+		<string>uni207A</string>
+		<string>uni207B</string>
+		<string>uni207C</string>
 		<string>uni207D</string>
 		<string>uni207E</string>
 		<string>nmod</string>
@@ -811,9 +825,13 @@
 		<string>seveninferior</string>
 		<string>eightinferior</string>
 		<string>nineinferior</string>
+		<string>uni208A</string>
+		<string>uni208B</string>
+		<string>uni208C</string>
 		<string>uni208D</string>
 		<string>uni208E</string>
 		<string>colonmonetary</string>
+		<string>franc</string>
 		<string>lira</string>
 		<string>naira</string>
 		<string>peseta</string>
@@ -835,6 +853,7 @@
 		<string>ruble</string>
 		<string>lari</string>
 		<string>bitcoin</string>
+		<string>uni2105</string>
 		<string>literSign</string>
 		<string>numero</string>
 		<string>uni2117</string>
@@ -909,8 +928,11 @@
 		<string>openbullet</string>
 		<string>leftanglebracket_math</string>
 		<string>rightanglebracket_math</string>
+		<string>uniFB00</string>
 		<string>uniFB01</string>
 		<string>uniFB02</string>
+		<string>uniFB03</string>
+		<string>uniFB04</string>
 		<string>idotaccent</string>
 		<string>Eng.loclNSM</string>
 		<string>jacute</string>
@@ -1134,6 +1156,8 @@
 		<string>upsilondieresistonos.sc</string>
 		<string>omegatonos.sc</string>
 		<string>iotadieresistonos.sc</string>
+		<string>tbar.sc</string>
+		<string>aeacute.sc</string>
 	</array>
 	<key>public.openTypeCategories</key>
 	<dict>
@@ -1142,6 +1166,8 @@
 		<key>A-cy</key>
 		<string>base</string>
 		<key>AE</key>
+		<string>base</string>
+		<key>AEacute</key>
 		<string>base</string>
 		<key>Aacute</key>
 		<string>base</string>
@@ -1188,6 +1214,8 @@
 		<key>Aogonek</key>
 		<string>base</string>
 		<key>Aring</key>
+		<string>base</string>
+		<key>Aringacute</key>
 		<string>base</string>
 		<key>Atilde</key>
 		<string>base</string>
@@ -1527,6 +1555,8 @@
 		<string>base</string>
 		<key>Oslash</key>
 		<string>base</string>
+		<key>Oslashacute</key>
+		<string>base</string>
 		<key>Otilde</key>
 		<string>base</string>
 		<key>P</key>
@@ -1580,6 +1610,8 @@
 		<key>T</key>
 		<string>base</string>
 		<key>Tau</key>
+		<string>base</string>
+		<key>Tbar</key>
 		<string>base</string>
 		<key>Tcaron</key>
 		<string>base</string>
@@ -1791,6 +1823,10 @@
 		<string>base</string>
 		<key>ae.sc</key>
 		<string>base</string>
+		<key>aeacute</key>
+		<string>base</string>
+		<key>aeacute.sc</key>
+		<string>base</string>
 		<key>agrave</key>
 		<string>base</string>
 		<key>agrave.sc</key>
@@ -1828,6 +1864,8 @@
 		<key>aring</key>
 		<string>base</string>
 		<key>aring.sc</key>
+		<string>base</string>
+		<key>aringacute</key>
 		<string>base</string>
 		<key>arrowboth</key>
 		<string>base</string>
@@ -2207,6 +2245,8 @@
 		<string>base</string>
 		<key>fraction</key>
 		<string>base</string>
+		<key>franc</key>
+		<string>base</string>
 		<key>g</key>
 		<string>base</string>
 		<key>g.sc</key>
@@ -2499,6 +2539,8 @@
 		<string>base</string>
 		<key>logicalnot</key>
 		<string>base</string>
+		<key>longs</key>
+		<string>base</string>
 		<key>lowernumeral-greek</key>
 		<string>base</string>
 		<key>lozenge</key>
@@ -2697,6 +2739,8 @@
 		<string>base</string>
 		<key>oslash</key>
 		<string>base</string>
+		<key>oslashacute</key>
+		<string>base</string>
 		<key>otilde</key>
 		<string>base</string>
 		<key>p</key>
@@ -2768,6 +2812,8 @@
 		<key>quotedblright</key>
 		<string>base</string>
 		<key>quoteleft</key>
+		<string>base</string>
+		<key>quotereversed</key>
 		<string>base</string>
 		<key>quoteright</key>
 		<string>base</string>
@@ -2902,6 +2948,10 @@
 		<key>tau</key>
 		<string>base</string>
 		<key>tau.sc</key>
+		<string>base</string>
+		<key>tbar</key>
+		<string>base</string>
+		<key>tbar.sc</key>
 		<string>base</string>
 		<key>tcaron</key>
 		<string>base</string>
@@ -3203,7 +3253,15 @@
 		<string>base</string>
 		<key>uni2015</key>
 		<string>base</string>
+		<key>uni203D</key>
+		<string>base</string>
 		<key>uni2070</key>
+		<string>base</string>
+		<key>uni207A</key>
+		<string>base</string>
+		<key>uni207B</key>
+		<string>base</string>
+		<key>uni207C</key>
 		<string>base</string>
 		<key>uni207D</key>
 		<string>base</string>
@@ -3211,9 +3269,17 @@
 		<string>base</string>
 		<key>uni2080</key>
 		<string>base</string>
+		<key>uni208A</key>
+		<string>base</string>
+		<key>uni208B</key>
+		<string>base</string>
+		<key>uni208C</key>
+		<string>base</string>
 		<key>uni208D</key>
 		<string>base</string>
 		<key>uni208E</key>
+		<string>base</string>
+		<key>uni2105</key>
 		<string>base</string>
 		<key>uni2117</key>
 		<string>base</string>
@@ -3239,9 +3305,15 @@
 		<string>base</string>
 		<key>uni25CC</key>
 		<string>base</string>
+		<key>uniFB00</key>
+		<string>base</string>
 		<key>uniFB01</key>
 		<string>base</string>
 		<key>uniFB02</key>
+		<string>base</string>
+		<key>uniFB03</key>
+		<string>base</string>
+		<key>uniFB04</key>
 		<string>base</string>
 		<key>uogonek</key>
 		<string>base</string>

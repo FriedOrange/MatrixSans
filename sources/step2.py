@@ -26,7 +26,7 @@ UNLINK_LIST = ["Aring", "Ccedilla", "aring", "ccedilla", "aogonek",
 	"Eogonek", "eogonek", "Gcommaaccent", "Iogonek", "iogonek", "Lcommaaccent", "lcommaaccent",
 	"Scedilla", "scedilla", "uni0162", "uni0163", "Uogonek", "Scommaaccent",
 	"scommaaccent", "Tcommaaccent", "tcommaaccent", "aring.sc", "eogonek.sc", "gcommaaccent.sc",
-	"iogonek.sc", "lcommaaccent.sc", "tcedilla.sc", "tcommaaccent.sc", "uogonek.sc", "Ohorn", "ohorn", "Uhorn", "uhorn.sc"]
+	"iogonek.sc", "lcommaaccent.sc", "tcedilla.sc", "tcommaaccent.sc", "uogonek.sc", "Ohorn", "ohorn", "Uhorn", "uhorn.sc", "Aringacute", "aringacute"]
 
 def add_names(font, style, suffix=""):
 	font.fontname = font.fontname + style + suffix + f"-{font.weight}"
@@ -79,7 +79,7 @@ def make_screen(source):
 	font["dot"].unlinkThisGlyph()
 	font["dot"].clear()
 	add_names(font, "Screen")
-	# font.uwidth = int(SCREEN_DOT_FACTOR * DOT_SIZE)
+	font.uwidth = int(SCREEN_DOT_FACTOR * DOT_SIZE)
 	font.os2_strikeysize = int(SCREEN_DOT_FACTOR * DOT_SIZE)
 	font.os2_strikeypos += int((DOT_SIZE - font.os2_strikeysize) / 2)
 	font.os2_panose = segmented_panose(font.os2_panose)
@@ -96,7 +96,7 @@ def make_print(source, name_suffix=""):
 	font["dot"].unlinkThisGlyph()
 	font["dot"].clear()
 	add_names(font, "Print", name_suffix)
-	# font.uwidth = int(PRINT_DOT_RADIUS * 10/6)
+	font.uwidth = int(PRINT_DOT_RADIUS * 10/6)
 	font.os2_strikeysize = int(PRINT_DOT_RADIUS * 10/6)
 	font.os2_strikeypos += int((DOT_SIZE - font.os2_strikeysize) / 2)
 	font.os2_panose = segmented_panose(font.os2_panose)
@@ -209,7 +209,7 @@ def make_raster(source):
 	font.removeOverlap()
 	font.simplify()
 	add_names(font, "Raster")
-	# font.uwidth = 80
+	font.uwidth = 80
 	font.os2_strikeysize = 80
 	font.os2_strikeypos += int((DOT_SIZE - font.os2_strikeysize) / 2)
 	font.os2_panose = segmented_panose(font.os2_panose)
