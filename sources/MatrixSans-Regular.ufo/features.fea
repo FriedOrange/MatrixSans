@@ -542,6 +542,7 @@ feature ss02 {
 		name "Alternate capital letter Ŋ (Eng)";
 	};
 	sub Eng by Eng.loclNSM;
+	sub eng.sc by eng.sc.loclNSM;
 } ss02;
 
 feature ss03 {
