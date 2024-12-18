@@ -64,7 +64,7 @@ NameList: MatrixSans
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 8432 16 14
+WinInfo: 16 16 14
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 629146 314573 209715 524288 1048576 0 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
@@ -16414,7 +16414,7 @@ EndChar
 StartChar: Alphatonos
 Encoding: 902 902 1090
 Width: 800
-Flags: HMWO
+Flags: HMW
 LayerCount: 2
 Fore
 Refer: 587 712 N 1 0 0 1 0 0 2
@@ -16897,7 +16897,7 @@ EndChar
 StartChar: longs
 Encoding: 383 383 1131
 Width: 500
-Flags: HW
+Flags: MW
 LayerCount: 2
 Fore
 Refer: 0 -1 N 1 0 0 1 50 0 2
@@ -16914,7 +16914,7 @@ EndChar
 StartChar: Tbar
 Encoding: 358 358 1132
 Width: 600
-Flags: HW
+Flags: MW
 LayerCount: 2
 Fore
 Refer: 0 -1 N 1 0 0 1 250 0 2
@@ -16935,7 +16935,7 @@ EndChar
 StartChar: tbar
 Encoding: 359 359 1133
 Width: 600
-Flags: HW
+Flags: MW
 LayerCount: 2
 Fore
 Refer: 0 -1 N 1 0 0 1 350 0 2
@@ -16957,7 +16957,7 @@ EndChar
 StartChar: Oslashacute
 Encoding: 510 510 1134
 Width: 600
-Flags: H
+Flags: M
 LayerCount: 2
 Fore
 Refer: 226 769 N 1 0 0 1 300 200 2
@@ -16967,7 +16967,7 @@ EndChar
 StartChar: oslashacute
 Encoding: 511 511 1135
 Width: 600
-Flags: H
+Flags: M
 LayerCount: 2
 Fore
 Refer: 226 769 N 1 0 0 1 300 0 2
@@ -16977,7 +16977,7 @@ EndChar
 StartChar: AEacute
 Encoding: 508 508 1136
 Width: 800
-Flags: H
+Flags: M
 LayerCount: 2
 Fore
 Refer: 226 769 N 1 0 0 1 400 200 2
@@ -16987,7 +16987,7 @@ EndChar
 StartChar: aeacute
 Encoding: 509 509 1137
 Width: 800
-Flags: H
+Flags: M
 LayerCount: 2
 Fore
 Refer: 226 769 N 1 0 0 1 400 0 2
@@ -16997,7 +16997,7 @@ EndChar
 StartChar: Aringacute
 Encoding: 506 506 1138
 Width: 600
-Flags: HW
+Flags: MW
 LayerCount: 2
 Fore
 Refer: 421 -1 N 1 0 0 1 0 0 3
@@ -17007,7 +17007,7 @@ EndChar
 StartChar: aringacute
 Encoding: 507 507 1139
 Width: 600
-Flags: H
+Flags: M
 LayerCount: 2
 Fore
 Refer: 226 769 N 1 0 0 1 300 200 2
@@ -17017,7 +17017,7 @@ EndChar
 StartChar: quotereversed
 Encoding: 8219 8219 1140
 Width: 300
-Flags: HW
+Flags: MW
 LayerCount: 2
 Fore
 Refer: 847 701 N 1 0 0 1 0 0 3
@@ -17026,7 +17026,7 @@ EndChar
 StartChar: uni203D
 Encoding: 8253 8253 1141
 Width: 600
-Flags: HW
+Flags: MW
 LayerCount: 2
 Fore
 Refer: 0 -1 N 1 0 0 1 250 0 2
@@ -17046,7 +17046,7 @@ EndChar
 StartChar: uni207A
 Encoding: 8314 8314 1142
 Width: 400
-Flags: HW
+Flags: MW
 LayerCount: 2
 Fore
 Refer: 0 -1 N 1 0 0 1 150 300 2
@@ -17059,7 +17059,7 @@ EndChar
 StartChar: uni207B
 Encoding: 8315 8315 1143
 Width: 400
-Flags: HW
+Flags: MW
 LayerCount: 2
 Fore
 Refer: 0 -1 N 1 0 0 1 250 400 2
@@ -17070,7 +17070,7 @@ EndChar
 StartChar: uni207C
 Encoding: 8316 8316 1144
 Width: 400
-Flags: HW
+Flags: MW
 LayerCount: 2
 Fore
 Refer: 0 -1 N 1 0 0 1 250 300 2
@@ -17084,7 +17084,7 @@ EndChar
 StartChar: uni208A
 Encoding: 8330 8330 1145
 Width: 400
-Flags: HW
+Flags: MW
 LayerCount: 2
 Fore
 Refer: 1142 8314 S 1 0 0 1 0 -400 3
@@ -17093,7 +17093,7 @@ EndChar
 StartChar: uni208B
 Encoding: 8331 8331 1146
 Width: 400
-Flags: HW
+Flags: MW
 LayerCount: 2
 Fore
 Refer: 1143 8315 S 1 0 0 1 0 -400 3
@@ -17102,7 +17102,7 @@ EndChar
 StartChar: uni208C
 Encoding: 8332 8332 1147
 Width: 400
-Flags: HW
+Flags: MW
 LayerCount: 2
 Fore
 Refer: 1144 8316 N 1 0 0 1 0 -400 3
@@ -17111,7 +17111,7 @@ EndChar
 StartChar: franc
 Encoding: 8355 8355 1148
 Width: 600
-Flags: HW
+Flags: MW
 LayerCount: 2
 Fore
 Refer: 0 -1 N 1 0 0 1 150 0 2
@@ -17133,7 +17133,7 @@ EndChar
 StartChar: uni2105
 Encoding: 8453 8453 1149
 Width: 800
-Flags: HW
+Flags: MW
 LayerCount: 2
 Fore
 Refer: 16 47 N 1 0 0 1 100 0 2
@@ -17157,7 +17157,7 @@ EndChar
 StartChar: uniFB00
 Encoding: 64256 64256 1150
 Width: 900
-Flags: HW
+Flags: MW
 LayerCount: 2
 Fore
 Refer: 0 -1 N 1 0 0 1 450 0 2
@@ -17187,7 +17187,7 @@ EndChar
 StartChar: uniFB03
 Encoding: 64259 64259 1151
 Width: 900
-Flags: HW
+Flags: MW
 LayerCount: 2
 Fore
 Refer: 0 -1 N 1 0 0 1 750 0 2
@@ -17221,7 +17221,7 @@ EndChar
 StartChar: uniFB04
 Encoding: 64260 64260 1152
 Width: 900
-Flags: HW
+Flags: MW
 LayerCount: 2
 Fore
 Refer: 0 -1 N 1 0 0 1 750 0 2
@@ -17257,7 +17257,7 @@ StartChar: tbar.sc
 Encoding: 65761 -1 1153
 Width: 600
 VWidth: 0
-Flags: HW
+Flags: MW
 LayerCount: 2
 Fore
 Refer: 0 -1 N 1 0 0 1 250 0 2
@@ -17276,7 +17276,7 @@ EndChar
 StartChar: aeacute.sc
 Encoding: 65762 -1 1154
 Width: 800
-Flags: H
+Flags: M
 LayerCount: 2
 Fore
 Refer: 226 769 N 1 0 0 1 400 0 2
