@@ -64,7 +64,7 @@ NameList: MatrixSans
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 16 16 14
+WinInfo: 0 16 14
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 629146 314573 209715 524288 1048576 0 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
@@ -3965,7 +3965,7 @@ Refer: 0 -1 N 1 0 0 1 150 500 2
 Refer: 0 -1 N 1 0 0 1 250 600 2
 EndChar
 
-StartChar: uniFB01
+StartChar: f_i
 Encoding: 64257 64257 218
 Width: 600
 Flags: HMW
@@ -3989,7 +3989,7 @@ Refer: 0 -1 N 1 0 0 1 350 600 2
 Refer: 0 -1 N 1 0 0 1 250 600 2
 EndChar
 
-StartChar: uniFB02
+StartChar: f_l
 Encoding: 64258 64258 219
 Width: 600
 Flags: HMW
@@ -5482,7 +5482,7 @@ Refer: 248 807 N 1 0 0 1 300 0 2
 Refer: 84 115 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni0162
+StartChar: Tcedilla
 Encoding: 354 354 343
 Width: 600
 Flags: HMW
@@ -5492,7 +5492,7 @@ Refer: 248 807 S 1 0 0 1 300 0 2
 Refer: 53 84 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni0163
+StartChar: tcedilla
 Encoding: 355 355 344
 Width: 600
 Flags: HM
@@ -7928,7 +7928,7 @@ Refer: 237 780 N 1 0 0 1 300 0 2
 Refer: 72 103 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni0261
+StartChar: gsingle
 Encoding: 609 609 530
 Width: 600
 Flags: HMW
@@ -7937,7 +7937,7 @@ Fore
 Refer: 72 103 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni0251
+StartChar: alpha-latin
 Encoding: 593 593 531
 Width: 600
 Flags: HMW
@@ -7960,7 +7960,7 @@ Refer: 0 -1 N 1 0 0 1 250 0 2
 Refer: 0 -1 N 1 0 0 1 450 0 2
 EndChar
 
-StartChar: uni0259
+StartChar: schwa
 Encoding: 601 601 532
 Width: 600
 Flags: HMW
@@ -8150,7 +8150,7 @@ Refer: 0 -1 S 1 0 0 1 450 100 2
 Refer: 536 814 S 1 0 0 1 300 100 2
 EndChar
 
-StartChar: uni1E36
+StartChar: Ldotbelow
 Encoding: 7734 7734 547
 Width: 600
 Flags: M
@@ -8160,7 +8160,7 @@ Refer: 489 803 S 1 0 0 1 300 0 2
 Refer: 45 76 S 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni1E37
+StartChar: ldotbelow
 Encoding: 7735 7735 548
 Width: 400
 Flags: M
@@ -8170,7 +8170,7 @@ Refer: 489 803 S 1 0 0 1 200 0 2
 Refer: 77 108 S 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni1E38
+StartChar: Ldotbelowmacron
 Encoding: 7736 7736 549
 Width: 600
 Flags: M
@@ -8181,7 +8181,7 @@ Refer: 45 76 S 1 0 0 1 0 0 3
 Refer: 273 772 N 1 0 0 1 300 200 2
 EndChar
 
-StartChar: uni1E39
+StartChar: ldotbelowmacron
 Encoding: 7737 7737 550
 Width: 400
 Flags: M
@@ -8192,7 +8192,7 @@ Refer: 77 108 N 1 0 0 1 0 0 3
 Refer: 273 772 N 1 0 0 1 200 200 2
 EndChar
 
-StartChar: uni1E3A
+StartChar: Lmacronbelow
 Encoding: 7738 7738 551
 Width: 600
 Flags: M
@@ -8202,7 +8202,7 @@ Refer: 490 817 N 1 0 0 1 300 0 2
 Refer: 45 76 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni1E3B
+StartChar: lmacronbelow
 Encoding: 7739 7739 552
 Width: 400
 Flags: M
@@ -8212,7 +8212,7 @@ Refer: 490 817 N 1 0 0 1 200 0 2
 Refer: 77 108 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni1E42
+StartChar: Mdotbelow
 Encoding: 7746 7746 553
 Width: 600
 Flags: M
@@ -8222,7 +8222,7 @@ Refer: 489 803 N 1 0 0 1 300 0 2
 Refer: 46 77 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni1E43
+StartChar: mdotbelow
 Encoding: 7747 7747 554
 Width: 600
 Flags: M
@@ -8252,7 +8252,7 @@ Refer: 284 775 N 1 0 0 1 300 0 2
 Refer: 79 110 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni1E46
+StartChar: Ndotbelow
 Encoding: 7750 7750 557
 Width: 600
 Flags: M
@@ -8262,7 +8262,7 @@ Refer: 489 803 N 1 0 0 1 300 0 2
 Refer: 47 78 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni1E47
+StartChar: ndotbelow
 Encoding: 7751 7751 558
 Width: 600
 Flags: M
@@ -8272,7 +8272,7 @@ Refer: 489 803 N 1 0 0 1 300 0 2
 Refer: 79 110 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni1E48
+StartChar: Nmacronbelow
 Encoding: 7752 7752 559
 Width: 600
 Flags: M
@@ -8282,7 +8282,7 @@ Refer: 490 817 N 1 0 0 1 300 0 2
 Refer: 47 78 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni1E49
+StartChar: nmacronbelow
 Encoding: 7753 7753 560
 Width: 600
 Flags: M
@@ -8292,7 +8292,7 @@ Refer: 490 817 N 1 0 0 1 300 0 2
 Refer: 79 110 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni1E5A
+StartChar: Rdotbelow
 Encoding: 7770 7770 561
 Width: 600
 Flags: M
@@ -8302,7 +8302,7 @@ Refer: 489 803 N 1 0 0 1 300 0 2
 Refer: 51 82 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni1E5B
+StartChar: rdotbelow
 Encoding: 7771 7771 562
 Width: 600
 Flags: M
@@ -8312,7 +8312,7 @@ Refer: 489 803 S 1 0 0 1 300 0 2
 Refer: 83 114 S 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni1E5C
+StartChar: Rdotbelowmacron
 Encoding: 7772 7772 563
 Width: 600
 Flags: M
@@ -8323,7 +8323,7 @@ Refer: 489 803 N 1 0 0 1 300 0 2
 Refer: 273 772 N 1 0 0 1 300 200 2
 EndChar
 
-StartChar: uni1E5D
+StartChar: rdotbelowmacron
 Encoding: 7773 7773 564
 Width: 600
 Flags: M
@@ -8334,7 +8334,7 @@ Refer: 83 114 N 1 0 0 1 0 0 3
 Refer: 273 772 N 1 0 0 1 300 0 2
 EndChar
 
-StartChar: uni1E5E
+StartChar: Rmacronbelow
 Encoding: 7774 7774 565
 Width: 600
 Flags: M
@@ -8344,7 +8344,7 @@ Refer: 490 817 N 1 0 0 1 300 0 2
 Refer: 51 82 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni1E5F
+StartChar: rmacronbelow
 Encoding: 7775 7775 566
 Width: 600
 Flags: M
@@ -8354,7 +8354,7 @@ Refer: 490 817 N 1 0 0 1 300 0 2
 Refer: 83 114 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni1E60
+StartChar: Sdotaccent
 Encoding: 7776 7776 567
 Width: 600
 Flags: M
@@ -8364,7 +8364,7 @@ Refer: 284 775 N 1 0 0 1 300 200 2
 Refer: 52 83 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni1E61
+StartChar: sdotaccent
 Encoding: 7777 7777 568
 Width: 600
 Flags: M
@@ -8434,7 +8434,7 @@ Refer: 490 817 N 1 0 0 1 300 0 2
 Refer: 85 116 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni1E8E
+StartChar: Ydotaccent
 Encoding: 7822 7822 575
 Width: 600
 Flags: M
@@ -8444,7 +8444,7 @@ Refer: 284 775 N 1 0 0 1 300 200 2
 Refer: 58 89 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni1E8F
+StartChar: ydotaccent
 Encoding: 7823 7823 576
 Width: 600
 Flags: M
@@ -8526,7 +8526,7 @@ Refer: 489 803 N 1 0 0 1 300 0 2
 Refer: 66 97 S 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni018F
+StartChar: Schwa
 Encoding: 399 399 584
 Width: 600
 Flags: MW
@@ -11669,7 +11669,7 @@ Refer: 0 -1 N 1 0 0 1 450 100 2
 Refer: 536 814 N 1 0 0 1 300 100 2
 EndChar
 
-StartChar: uni1E37.sc
+StartChar: ldotbelow.sc
 Encoding: 65663 -1 792
 Width: 600
 VWidth: 0
@@ -11680,7 +11680,7 @@ Refer: 489 803 N 1 0 0 1 300 0 2
 Refer: 397 -1 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni1E39.sc
+StartChar: ldotbelowmacron.sc
 Encoding: 65664 -1 793
 Width: 600
 VWidth: 0
@@ -11691,7 +11691,7 @@ Refer: 273 772 N 1 0 0 1 300 0 2
 Refer: 792 -1 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni1E3B.sc
+StartChar: lmacronbelow.sc
 Encoding: 65665 -1 794
 Width: 600
 VWidth: 0
@@ -11702,7 +11702,7 @@ Refer: 490 817 N 1 0 0 1 300 0 2
 Refer: 397 -1 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni1E43.sc
+StartChar: mdotbelow.sc
 Encoding: 65666 -1 795
 Width: 600
 VWidth: 0
@@ -11724,7 +11724,7 @@ Refer: 284 775 N 1 0 0 1 300 0 2
 Refer: 399 -1 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni1E47.sc
+StartChar: ndotbelow.sc
 Encoding: 65668 -1 797
 Width: 600
 VWidth: 0
@@ -11735,7 +11735,7 @@ Refer: 489 803 N 1 0 0 1 300 0 2
 Refer: 399 -1 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni1E49.sc
+StartChar: nmacronbelow.sc
 Encoding: 65669 -1 798
 Width: 600
 VWidth: 0
@@ -11746,7 +11746,7 @@ Refer: 490 817 N 1 0 0 1 300 0 2
 Refer: 399 -1 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni1E5B.sc
+StartChar: rdotbelow.sc
 Encoding: 65670 -1 799
 Width: 600
 VWidth: 0
@@ -11757,7 +11757,7 @@ Refer: 489 803 N 1 0 0 1 300 0 2
 Refer: 401 -1 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni1E5D.sc
+StartChar: rdotbelowmacron.sc
 Encoding: 65671 -1 800
 Width: 600
 VWidth: 0
@@ -11768,7 +11768,7 @@ Refer: 273 772 S 1 0 0 1 300 0 2
 Refer: 799 -1 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni1E5F.sc
+StartChar: rmacronbelow.sc
 Encoding: 65672 -1 801
 Width: 600
 VWidth: 0
@@ -11801,7 +11801,7 @@ Refer: 490 817 N 1 0 0 1 300 0 2
 Refer: 402 -1 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni1E8F.sc
+StartChar: ydotaccent.sc
 Encoding: 65675 -1 804
 Width: 600
 VWidth: 0
@@ -17154,7 +17154,7 @@ Refer: 0 -1 N 1 0 0 1 150 600 2
 Refer: 0 -1 N 1 0 0 1 50 600 2
 EndChar
 
-StartChar: uniFB00
+StartChar: f_f
 Encoding: 64256 64256 1150
 Width: 900
 Flags: MW
@@ -17184,7 +17184,7 @@ Refer: 0 -1 N 1 0 0 1 350 600 2
 Refer: 0 -1 N 1 0 0 1 250 600 2
 EndChar
 
-StartChar: uniFB03
+StartChar: f_f_i
 Encoding: 64259 64259 1151
 Width: 900
 Flags: MW
@@ -17218,7 +17218,7 @@ Refer: 0 -1 N 1 0 0 1 350 600 2
 Refer: 0 -1 N 1 0 0 1 250 600 2
 EndChar
 
-StartChar: uniFB04
+StartChar: f_f_l
 Encoding: 64260 64260 1152
 Width: 900
 Flags: MW
