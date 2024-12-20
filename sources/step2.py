@@ -24,7 +24,7 @@ BOLD_TEMP = "source\\temp\\temp bold.sfd"
 EXTENDED_TEMP = "source\\temp\\temp extended.sfd"
 UNLINK_LIST = ["Aring", "Ccedilla", "aring", "ccedilla", "aogonek",
 	"Eogonek", "eogonek", "Gcommaaccent", "Iogonek", "iogonek", "Lcommaaccent", "lcommaaccent",
-	"Scedilla", "scedilla", "uni0162", "uni0163", "Uogonek", "Scommaaccent",
+	"Scedilla", "scedilla", "Tcedilla", "tcedilla", "Uogonek", "Scommaaccent",
 	"scommaaccent", "Tcommaaccent", "tcommaaccent", "aring.sc", "eogonek.sc", "gcommaaccent.sc",
 	"iogonek.sc", "lcommaaccent.sc", "tcedilla.sc", "tcommaaccent.sc", "uogonek.sc", "Ohorn", "ohorn", "Uhorn", "uhorn.sc", "Aringacute", "aringacute"]
 
@@ -40,7 +40,7 @@ def add_names(font, style, suffix=""):
 def get_pattern(font, glyph):
 	matrix = [[False]*GLYPH_HEIGHT for _ in range(GLYPH_WIDTH)] # full dots
 	skip = False
-	for ref, trans in font[glyph].references:
+	for ref, trans, _ in font[glyph].references:
 		if ref != "dot":
 			skip = True
 			break # we are only interested in glyphs that directly reference the "dot" glyph

@@ -293,8 +293,8 @@
 		<string>scedilla</string>
 		<string>Scaron</string>
 		<string>scaron</string>
-		<string>uni0162</string>
-		<string>uni0163</string>
+		<string>Tcedilla</string>
+		<string>tcedilla</string>
 		<string>Tcaron</string>
 		<string>tcaron</string>
 		<string>Tbar</string>
@@ -326,7 +326,7 @@
 		<string>Bhook</string>
 		<string>Oopen</string>
 		<string>Dhook</string>
-		<string>uni018F</string>
+		<string>Schwa</string>
 		<string>Eopen</string>
 		<string>florin</string>
 		<string>Khook</string>
@@ -371,13 +371,13 @@
 		<string>Ymacron</string>
 		<string>ymacron</string>
 		<string>jdotless</string>
-		<string>uni0251</string>
+		<string>alpha-latin</string>
 		<string>bhook</string>
 		<string>oopen</string>
 		<string>dhook</string>
-		<string>uni0259</string>
+		<string>schwa</string>
 		<string>eopen</string>
-		<string>uni0261</string>
+		<string>gsingle</string>
 		<string>nhookleft</string>
 		<string>uni02BB</string>
 		<string>apostrophemod</string>
@@ -643,30 +643,30 @@
 		<string>hbrevebelow</string>
 		<string>Kmacronbelow</string>
 		<string>kmacronbelow</string>
-		<string>uni1E36</string>
-		<string>uni1E37</string>
-		<string>uni1E38</string>
-		<string>uni1E39</string>
-		<string>uni1E3A</string>
-		<string>uni1E3B</string>
+		<string>Ldotbelow</string>
+		<string>ldotbelow</string>
+		<string>Ldotbelowmacron</string>
+		<string>ldotbelowmacron</string>
+		<string>Lmacronbelow</string>
+		<string>lmacronbelow</string>
 		<string>Macute</string>
 		<string>macute</string>
-		<string>uni1E42</string>
-		<string>uni1E43</string>
+		<string>Mdotbelow</string>
+		<string>mdotbelow</string>
 		<string>Ndotaccent</string>
 		<string>ndotaccent</string>
-		<string>uni1E46</string>
-		<string>uni1E47</string>
-		<string>uni1E48</string>
-		<string>uni1E49</string>
-		<string>uni1E5A</string>
-		<string>uni1E5B</string>
-		<string>uni1E5C</string>
-		<string>uni1E5D</string>
-		<string>uni1E5E</string>
-		<string>uni1E5F</string>
-		<string>uni1E60</string>
-		<string>uni1E61</string>
+		<string>Ndotbelow</string>
+		<string>ndotbelow</string>
+		<string>Nmacronbelow</string>
+		<string>nmacronbelow</string>
+		<string>Rdotbelow</string>
+		<string>rdotbelow</string>
+		<string>Rdotbelowmacron</string>
+		<string>rdotbelowmacron</string>
+		<string>Rmacronbelow</string>
+		<string>rmacronbelow</string>
+		<string>Sdotaccent</string>
+		<string>sdotaccent</string>
 		<string>Sdotbelow</string>
 		<string>sdotbelow</string>
 		<string>Tdotbelow</string>
@@ -679,8 +679,8 @@
 		<string>wacute</string>
 		<string>Wdieresis</string>
 		<string>wdieresis</string>
-		<string>uni1E8E</string>
-		<string>uni1E8F</string>
+		<string>Ydotaccent</string>
+		<string>ydotaccent</string>
 		<string>Zdotbelow</string>
 		<string>zdotbelow</string>
 		<string>hmacronbelow</string>
@@ -928,11 +928,11 @@
 		<string>openbullet</string>
 		<string>leftanglebracket_math</string>
 		<string>rightanglebracket_math</string>
-		<string>uniFB00</string>
-		<string>uniFB01</string>
-		<string>uniFB02</string>
-		<string>uniFB03</string>
-		<string>uniFB04</string>
+		<string>f_f</string>
+		<string>f_i</string>
+		<string>f_l</string>
+		<string>f_f_i</string>
+		<string>f_f_l</string>
 		<string>idotaccent</string>
 		<string>Eng.loclNSM</string>
 		<string>jacute</string>
@@ -1058,19 +1058,19 @@
 		<string>gmacron.sc</string>
 		<string>hdotbelow.sc</string>
 		<string>hbrevebelow.sc</string>
-		<string>uni1E37.sc</string>
-		<string>uni1E39.sc</string>
-		<string>uni1E3B.sc</string>
-		<string>uni1E43.sc</string>
+		<string>ldotbelow.sc</string>
+		<string>ldotbelowmacron.sc</string>
+		<string>lmacronbelow.sc</string>
+		<string>mdotbelow.sc</string>
 		<string>ndotaccent.sc</string>
-		<string>uni1E47.sc</string>
-		<string>uni1E49.sc</string>
-		<string>uni1E5B.sc</string>
-		<string>uni1E5D.sc</string>
-		<string>uni1E5F.sc</string>
+		<string>ndotbelow.sc</string>
+		<string>nmacronbelow.sc</string>
+		<string>rdotbelow.sc</string>
+		<string>rdotbelowmacron.sc</string>
+		<string>rmacronbelow.sc</string>
 		<string>tdotbelow.sc</string>
 		<string>tmacronbelow.sc</string>
-		<string>uni1E8F.sc</string>
+		<string>ydotaccent.sc</string>
 		<string>tdieresis.sc</string>
 		<string>adotbelow.sc</string>
 		<string>ahookabove.sc</string>
@@ -1459,13 +1459,21 @@
 		<string>base</string>
 		<key>Ldot</key>
 		<string>base</string>
+		<key>Ldotbelow</key>
+		<string>base</string>
+		<key>Ldotbelowmacron</key>
+		<string>base</string>
 		<key>Lje-cy</key>
+		<string>base</string>
+		<key>Lmacronbelow</key>
 		<string>base</string>
 		<key>Lslash</key>
 		<string>base</string>
 		<key>M</key>
 		<string>base</string>
 		<key>Macute</key>
+		<string>base</string>
+		<key>Mdotbelow</key>
 		<string>base</string>
 		<key>Mu</key>
 		<string>base</string>
@@ -1479,11 +1487,15 @@
 		<string>base</string>
 		<key>Ndotaccent</key>
 		<string>base</string>
+		<key>Ndotbelow</key>
+		<string>base</string>
 		<key>Ngrave</key>
 		<string>base</string>
 		<key>Nhookleft</key>
 		<string>base</string>
 		<key>Nje-cy</key>
+		<string>base</string>
+		<key>Nmacronbelow</key>
 		<string>base</string>
 		<key>Nmod</key>
 		<string>base</string>
@@ -1579,7 +1591,13 @@
 		<string>base</string>
 		<key>Rcommaaccent</key>
 		<string>base</string>
+		<key>Rdotbelow</key>
+		<string>base</string>
+		<key>Rdotbelowmacron</key>
+		<string>base</string>
 		<key>Rho</key>
+		<string>base</string>
+		<key>Rmacronbelow</key>
 		<string>base</string>
 		<key>S</key>
 		<string>base</string>
@@ -1589,11 +1607,15 @@
 		<string>base</string>
 		<key>Scedilla</key>
 		<string>base</string>
+		<key>Schwa</key>
+		<string>base</string>
 		<key>Schwa-cy</key>
 		<string>base</string>
 		<key>Scircumflex</key>
 		<string>base</string>
 		<key>Scommaaccent</key>
+		<string>base</string>
+		<key>Sdotaccent</key>
 		<string>base</string>
 		<key>Sdotbelow</key>
 		<string>base</string>
@@ -1614,6 +1636,8 @@
 		<key>Tbar</key>
 		<string>base</string>
 		<key>Tcaron</key>
+		<string>base</string>
+		<key>Tcedilla</key>
 		<string>base</string>
 		<key>Tcommaaccent</key>
 		<string>base</string>
@@ -1722,6 +1746,8 @@
 		<key>Ycircumflex</key>
 		<string>base</string>
 		<key>Ydieresis</key>
+		<string>base</string>
+		<key>Ydotaccent</key>
 		<string>base</string>
 		<key>Ydotbelow</key>
 		<string>base</string>
@@ -1836,6 +1862,8 @@
 		<key>ahookabove.sc</key>
 		<string>base</string>
 		<key>alpha</key>
+		<string>base</string>
+		<key>alpha-latin</key>
 		<string>base</string>
 		<key>alpha.sc</key>
 		<string>base</string>
@@ -2217,6 +2245,16 @@
 		<string>base</string>
 		<key>f.sc</key>
 		<string>base</string>
+		<key>f_f</key>
+		<string>base</string>
+		<key>f_f_i</key>
+		<string>base</string>
+		<key>f_f_l</key>
+		<string>base</string>
+		<key>f_i</key>
+		<string>base</string>
+		<key>f_l</key>
+		<string>base</string>
 		<key>figuredash</key>
 		<string>base</string>
 		<key>filledbox</key>
@@ -2296,6 +2334,8 @@
 		<key>greater</key>
 		<string>base</string>
 		<key>greaterequal</key>
+		<string>base</string>
+		<key>gsingle</key>
 		<string>base</string>
 		<key>guarani</key>
 		<string>base</string>
@@ -2515,6 +2555,14 @@
 		<string>base</string>
 		<key>ldot.sc</key>
 		<string>base</string>
+		<key>ldotbelow</key>
+		<string>base</string>
+		<key>ldotbelow.sc</key>
+		<string>base</string>
+		<key>ldotbelowmacron</key>
+		<string>base</string>
+		<key>ldotbelowmacron.sc</key>
+		<string>base</string>
 		<key>leftBlackSmallTriangle</key>
 		<string>base</string>
 		<key>leftBlackTriangle</key>
@@ -2536,6 +2584,10 @@
 		<key>literSign</key>
 		<string>base</string>
 		<key>lje-cy</key>
+		<string>base</string>
+		<key>lmacronbelow</key>
+		<string>base</string>
+		<key>lmacronbelow.sc</key>
 		<string>base</string>
 		<key>logicalnot</key>
 		<string>base</string>
@@ -2564,6 +2616,10 @@
 		<key>macute.sc</key>
 		<string>base</string>
 		<key>manat</key>
+		<string>base</string>
+		<key>mdotbelow</key>
+		<string>base</string>
+		<key>mdotbelow.sc</key>
 		<string>base</string>
 		<key>micro</key>
 		<string>base</string>
@@ -2603,6 +2659,10 @@
 		<string>base</string>
 		<key>ndotaccent.sc</key>
 		<string>base</string>
+		<key>ndotbelow</key>
+		<string>base</string>
+		<key>ndotbelow.sc</key>
+		<string>base</string>
 		<key>ngrave</key>
 		<string>base</string>
 		<key>ngrave.sc</key>
@@ -2622,6 +2682,10 @@
 		<key>ninesuperior</key>
 		<string>base</string>
 		<key>nje-cy</key>
+		<string>base</string>
+		<key>nmacronbelow</key>
+		<string>base</string>
+		<key>nmacronbelow.sc</key>
 		<string>base</string>
 		<key>nmod</key>
 		<string>base</string>
@@ -2839,6 +2903,14 @@
 		<string>base</string>
 		<key>rcommaaccent.sc</key>
 		<string>base</string>
+		<key>rdotbelow</key>
+		<string>base</string>
+		<key>rdotbelow.sc</key>
+		<string>base</string>
+		<key>rdotbelowmacron</key>
+		<string>base</string>
+		<key>rdotbelowmacron.sc</key>
+		<string>base</string>
 		<key>registered</key>
 		<string>base</string>
 		<key>rho</key>
@@ -2863,6 +2935,10 @@
 		<string>base</string>
 		<key>ringhalfright</key>
 		<string>base</string>
+		<key>rmacronbelow</key>
+		<string>base</string>
+		<key>rmacronbelow.sc</key>
+		<string>base</string>
 		<key>ruble</key>
 		<string>base</string>
 		<key>rupee</key>
@@ -2877,11 +2953,15 @@
 		<string>base</string>
 		<key>scedilla</key>
 		<string>base</string>
+		<key>schwa</key>
+		<string>base</string>
 		<key>schwa-cy</key>
 		<string>base</string>
 		<key>scircumflex</key>
 		<string>base</string>
 		<key>scommaaccent</key>
+		<string>base</string>
+		<key>sdotaccent</key>
 		<string>base</string>
 		<key>sdotbelow</key>
 		<string>base</string>
@@ -2956,6 +3036,8 @@
 		<key>tcaron</key>
 		<string>base</string>
 		<key>tcaron.sc</key>
+		<string>base</string>
+		<key>tcedilla</key>
 		<string>base</string>
 		<key>tcedilla.sc</key>
 		<string>base</string>
@@ -3119,18 +3201,6 @@
 		<string>base</string>
 		<key>uni00A0</key>
 		<string>base</string>
-		<key>uni0162</key>
-		<string>base</string>
-		<key>uni0163</key>
-		<string>base</string>
-		<key>uni018F</key>
-		<string>base</string>
-		<key>uni0251</key>
-		<string>base</string>
-		<key>uni0259</key>
-		<string>base</string>
-		<key>uni0261</key>
-		<string>base</string>
 		<key>uni02BB</key>
 		<string>base</string>
 		<key>uni02C8</key>
@@ -3180,70 +3250,6 @@
 		<key>uni0474</key>
 		<string>base</string>
 		<key>uni0475</key>
-		<string>base</string>
-		<key>uni1E36</key>
-		<string>base</string>
-		<key>uni1E37</key>
-		<string>base</string>
-		<key>uni1E37.sc</key>
-		<string>base</string>
-		<key>uni1E38</key>
-		<string>base</string>
-		<key>uni1E39</key>
-		<string>base</string>
-		<key>uni1E39.sc</key>
-		<string>base</string>
-		<key>uni1E3A</key>
-		<string>base</string>
-		<key>uni1E3B</key>
-		<string>base</string>
-		<key>uni1E3B.sc</key>
-		<string>base</string>
-		<key>uni1E42</key>
-		<string>base</string>
-		<key>uni1E43</key>
-		<string>base</string>
-		<key>uni1E43.sc</key>
-		<string>base</string>
-		<key>uni1E46</key>
-		<string>base</string>
-		<key>uni1E47</key>
-		<string>base</string>
-		<key>uni1E47.sc</key>
-		<string>base</string>
-		<key>uni1E48</key>
-		<string>base</string>
-		<key>uni1E49</key>
-		<string>base</string>
-		<key>uni1E49.sc</key>
-		<string>base</string>
-		<key>uni1E5A</key>
-		<string>base</string>
-		<key>uni1E5B</key>
-		<string>base</string>
-		<key>uni1E5B.sc</key>
-		<string>base</string>
-		<key>uni1E5C</key>
-		<string>base</string>
-		<key>uni1E5D</key>
-		<string>base</string>
-		<key>uni1E5D.sc</key>
-		<string>base</string>
-		<key>uni1E5E</key>
-		<string>base</string>
-		<key>uni1E5F</key>
-		<string>base</string>
-		<key>uni1E5F.sc</key>
-		<string>base</string>
-		<key>uni1E60</key>
-		<string>base</string>
-		<key>uni1E61</key>
-		<string>base</string>
-		<key>uni1E8E</key>
-		<string>base</string>
-		<key>uni1E8F</key>
-		<string>base</string>
-		<key>uni1E8F.sc</key>
 		<string>base</string>
 		<key>uni2007</key>
 		<string>base</string>
@@ -3304,16 +3310,6 @@
 		<key>uni24B9</key>
 		<string>base</string>
 		<key>uni25CC</key>
-		<string>base</string>
-		<key>uniFB00</key>
-		<string>base</string>
-		<key>uniFB01</key>
-		<string>base</string>
-		<key>uniFB02</key>
-		<string>base</string>
-		<key>uniFB03</key>
-		<string>base</string>
-		<key>uniFB04</key>
 		<string>base</string>
 		<key>uogonek</key>
 		<string>base</string>
@@ -3411,6 +3407,10 @@
 		<string>base</string>
 		<key>ydieresis.sc</key>
 		<string>base</string>
+		<key>ydotaccent</key>
+		<string>base</string>
+		<key>ydotaccent.sc</key>
+		<string>base</string>
 		<key>ydotbelow</key>
 		<string>base</string>
 		<key>ydotbelow.sc</key>
@@ -3482,6 +3482,10 @@
 		<string>uni2074</string>
 		<key>increment</key>
 		<string>Delta</string>
+		<key>f_i</key>
+		<string>uniFB01</string>
+		<key>f_l</key>
+		<string>uniFB02</string>
 		<key>Ohm</key>
 		<string>Omega</string>
 		<key>circumflexcomb</key>
@@ -3512,6 +3516,10 @@
 		<string>uni0156</string>
 		<key>rcommaaccent</key>
 		<string>uni0157</string>
+		<key>Tcedilla</key>
+		<string>uni0162</string>
+		<key>tcedilla</key>
+		<string>uni0163</string>
 		<key>Acaron</key>
 		<string>uni01CD</string>
 		<key>acaron</key>
@@ -3552,6 +3560,8 @@
 		<string>uni01DB</string>
 		<key>udieresisgrave</key>
 		<string>uni01DC</string>
+		<key>schwa</key>
+		<string>uni0259</string>
 		<key>apostrophemod</key>
 		<string>uni02BC</string>
 		<key>Ddotbelow</key>
@@ -3570,10 +3580,38 @@
 		<string>uni1E2A</string>
 		<key>hbrevebelow</key>
 		<string>uni1E2B</string>
+		<key>Ldotbelow</key>
+		<string>uni1E36</string>
+		<key>ldotbelow</key>
+		<string>uni1E37</string>
+		<key>Ldotbelowmacron</key>
+		<string>uni1E38</string>
+		<key>ldotbelowmacron</key>
+		<string>uni1E39</string>
+		<key>Mdotbelow</key>
+		<string>uni1E42</string>
+		<key>mdotbelow</key>
+		<string>uni1E43</string>
 		<key>Ndotaccent</key>
 		<string>uni1E44</string>
 		<key>ndotaccent</key>
 		<string>uni1E45</string>
+		<key>Ndotbelow</key>
+		<string>uni1E46</string>
+		<key>ndotbelow</key>
+		<string>uni1E47</string>
+		<key>Rdotbelow</key>
+		<string>uni1E5A</string>
+		<key>rdotbelow</key>
+		<string>uni1E5B</string>
+		<key>Rdotbelowmacron</key>
+		<string>uni1E5C</string>
+		<key>rdotbelowmacron</key>
+		<string>uni1E5D</string>
+		<key>Sdotaccent</key>
+		<string>uni1E60</string>
+		<key>sdotaccent</key>
+		<string>uni1E61</string>
 		<key>Sdotbelow</key>
 		<string>uni1E62</string>
 		<key>sdotbelow</key>
@@ -3582,6 +3620,10 @@
 		<string>uni1E6C</string>
 		<key>tdotbelow</key>
 		<string>uni1E6D</string>
+		<key>Ydotaccent</key>
+		<string>uni1E8E</string>
+		<key>ydotaccent</key>
+		<string>uni1E8F</string>
 		<key>Zdotbelow</key>
 		<string>uni1E92</string>
 		<key>zdotbelow</key>
@@ -3596,6 +3638,8 @@
 		<string>uni1EAC</string>
 		<key>acircumflexdotbelow</key>
 		<string>uni1EAD</string>
+		<key>Schwa</key>
+		<string>uni018F</string>
 		<key>ringhalfright</key>
 		<string>uni02BE</string>
 		<key>ringhalfleft</key>
@@ -3880,6 +3924,12 @@
 		<string>sigma1</string>
 		<key>questiongreek</key>
 		<string>uni037E</string>
+		<key>f_f</key>
+		<string>uniFB00</string>
+		<key>f_f_i</key>
+		<string>uniFB03</string>
+		<key>f_f_l</key>
+		<string>uniFB04</string>
 	</dict>
 	<key>public.openTypeMeta</key>
 	<dict>
