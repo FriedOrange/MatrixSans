@@ -258,23 +258,24 @@ feature locl {
 } locl;
 
 # Classes for kerning
-# Left side classes
+# First-of-pair classes
+
 @talloverhangR = [F J Jcircumflex T Tbar Tcaron Tcedilla Tcommaaccent Tdotbelow Tmacronbelow dhook ibreve ibreve.sc itilde itilde.sc jacute jcircumflex yhook uni02BB quoteleft quotedblleft];
 @talloverhang2R = [Hbar Ohorn Ohornacute Ohorndotbelow Ohorngrave Ohornhookabove Ohorntilde Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhookabove Uhorntilde Y Yacute Ycircumflex Ydieresis Ydotaccent Ydotbelow Ygrave Yhookabove Ymacron Ytilde dcaron dcroat f f_f florin lcaron longs uni02C8];
 @talloverhang3R = [Yhook ytilde.sc quotesingle quotedbl commareversedmod quotereversed P];
 @shortoverhangR = [f.sc florin.sc j.sc jcircumflex.sc t.sc tbar.sc tcaron.sc tcedilla.sc tcommaaccent.sc tdieresis.sc tdotbelow.sc tmacronbelow.sc ydieresis.sc ydotaccent.sc ydotbelow.sc ygrave.sc yhookabove.sc ymacron.sc];
-@shortoverhang2R = [hbar.sc ohorn ohornacute ohorndotbelow ohorngrave ohornhookabove ohorntilde p.sc r racute rcaron rcommaaccent rdotbelow rdotbelowmacron rmacronbelow uhorn uhorn.sc uhornacute uhornacute.sc uhorndotbelow uhorndotbelow.sc uhorngrave uhorngrave.sc uhornhookabove uhornhookabove.sc uhorntilde uhorntilde.sc];
+@shortoverhang2R = [hbar.sc ohorn ohornacute ohorndotbelow ohorngrave ohornhookabove ohorntilde p.sc r racute rcaron rcommaaccent rdotbelow rdotbelowmacron rmacronbelow uhorn uhorn.sc uhornacute uhornacute.sc uhorndotbelow uhorndotbelow.sc uhorngrave uhorngrave.sc uhornhookabove uhornhookabove.sc uhorntilde uhorntilde.sc hyphen endash];
 @underhangR = [L Lacute Lcaron Lcommaaccent Ldot Ldotbelow Ldotbelowmacron Lmacronbelow Lslash];
 @curveBR = [B Bhook Eng Germandbls O S Sacute Scaron Scedilla Schwa Scircumflex Scommaaccent Sdotaccent Sdotbelow U Uacute Ubreve Ucaron Ucircumflex Udieresis Udieresisacute Udieresiscaron Udieresisgrave Udieresismacron Udotbelow Ugrave Uhookabove Uhungarumlaut Umacron Uogonek Uring Utilde W Wacute Wcircumflex Wdieresis Wgrave eth etilde];
 @curve2BR = [D Dcaron Dcroat Ddotbelow Dhook Dmacronbelow Eth Thorn V];
 @tallcurve2TR = [A Aacute Abreve Abrevedotbelow Acaron Acircumflex Acircumflexdotbelow Adieresis Adotbelow Agrave Ahookabove Amacron Aogonek Aring Atilde];
 @shortcurveTR = [a aacute abreve abreveacute abrevedotbelow abrevegrave abrevehookabove abrevetilde acircumflex acircumflexacute acircumflexdotbelow adieresis adotbelow agrave ahookabove amacron aogonek aring aringacute eng eng.sc eogonek h hbar hbrevebelow hcircumflex hdotbelow hmacronbelow l lacute lcommaaccent ldot ldotbelow ldotbelowmacron lmacronbelow m macute mdotbelow n nacute napostrophe ncaron ncommaaccent ndotaccent ndotbelow ngrave nhookleft nmacronbelow q.sc r.sc racute.sc rcaron.sc rcommaaccent.sc rdotbelow.sc rdotbelowmacron.sc rmacronbelow.sc];
-@shortcurve2TR = [Acircumflexacute Adieresistilde Aringacute a.sc agrave.sc acaron.sc acircumflex.sc acircumflexdotbelow.sc adieresis.sc adotbelow.sc];
-@shortcurveBR = [oslash oslashacute s sacute scaron scedilla scircumflex scommaaccent sdotaccent sdotbelow u.sc uacute.sc ubreve.sc ucaron.sc ucircumflex.sc udieresis.sc udieresisacute.sc udieresiscaron.sc udieresisgrave.sc udieresismacron.sc udotbelow.sc ugrave.sc uhookabove.sc uhungarumlaut.sc umacron.sc uogonek.sc uring.sc utilde.sc v w wacute wcircumflex wdieresis wgrave y.alt ydotbelow];
+@shortcurve2TR = [Acircumflexacute Acircumflextilde Aringacute a.sc agrave.sc acaron.sc acircumflex.sc acircumflexdotbelow.sc adieresis.sc adotbelow.sc];
+@shortcurveBR = [oslash oslashacute s sacute scaron scedilla scircumflex scommaaccent sdotaccent sdotbelow u.sc uacute.sc ubreve.sc ucaron.sc ucircumflex.sc udieresis.sc udieresismacron.sc udotbelow.sc ugrave.sc uhookabove.sc uhungarumlaut.sc umacron.sc uogonek.sc uring.sc utilde.sc v w wacute wcircumflex wdieresis wgrave y.titl ydotbelow];
 @shortcurveR = [ae aeacute b b.sc bhook bhook.sc c cacute ccaron ccedilla ccircumflex cdotaccent d.sc dcaron.sc ddotbelow.sc dhook.sc dmacronbelow.sc e eacute ecaron ecircumflex ecircumflexacute ecircumflexdotbelow ecircumflexhookabove ecircumflextilde edieresis edotaccent edotbelow egrave ehookabove emacron eth.sc germandbls o oacute ocaron ocircumflex ocircumflexacute ocircumflexdotbelow ocircumflexhookabove ocircumflextilde odieresis odotbelow oe ograve ohookabove omacron oopen p schwa thorn thorn.sc];
 @shortunderhangR = [l.sc lacute.sc lcaron.sc lcommaaccent.sc ldot.sc ldotbelow.sc ldotbelowmacron.sc lmacronbelow.sc lslash.sc];
 @shortunderhang2R = [t tbar tcaron tcedilla tcommaaccent tdieresis tdotbelow tmacronbelow];
-@shortR = [ae.sc aeacute.sc alpha-latin e.sc eacute.sc ecaron.sc ecircumflex.sc ecircumflexacute.sc ecircumflexdotbelow.sc ecircumflexhookabove.sc ecircumflextilde.sc edieresis.sc edotaccent.sc edotbelow.sc egrave.sc ehookabove.sc emacron.sc eng.sc.loclNSM eogonek.sc eopen g g.sc gcaron gcaron.sc gcircumflex gcircumflex.sc gcommaaccent gcommaaccent.sc gdotaccent gdotaccent.sc germandbls.sc gmacron gmacron.sc gsingle h.sc hbrevebelow.sc hcircumflex.sc hdotbelow.sc hmacronbelow.sc i i.sc idotaccent idotaccent.sc idotbelow idotbelow.sc igrave igrave.sc ihookabove ihookabove.sc ij.sc iogonek iogonek.sc k kcommaaccent kcommaaccent.sc kgreenlandic khook khook.sc kmacronbelow kmacronbelow.sc lslash m.sc macute.sc mdotbelow.sc n.sc nacute.sc napostrophe.sc ncaron.sc ncommaaccent.sc ndotaccent.sc ndotbelow.sc ngrave.sc nhookleft.sc nmacronbelow.sc oe.sc q u uacute ucaron ucircumflex udieresis udieresisacute udieresiscaron udieresisgrave udieresismacron udotbelow ugrave uhookabove umacron uogonek uring x y yacute ycircumflex ydieresis ydotaccent ygrave yhookabove ymacron z zacute zcaron zdotaccent zdotbelow];
+@shortR = [ae.sc aeacute.sc alpha-latin e.sc eacute.sc ecaron.sc ecircumflex.sc ecircumflexdotbelow.sc edieresis.sc edotaccent.sc edotbelow.sc egrave.sc ehookabove.sc emacron.sc eng.sc.loclNSM eogonek.sc eopen g g.sc gcaron gcaron.sc gcircumflex gcircumflex.sc gcommaaccent gcommaaccent.sc gdotaccent gdotaccent.sc germandbls.sc gmacron gmacron.sc gsingle h.sc hbrevebelow.sc hcircumflex.sc hdotbelow.sc hmacronbelow.sc i i.sc idotaccent idotaccent.sc idotbelow idotbelow.sc igrave igrave.sc ihookabove ihookabove.sc ij.sc iogonek iogonek.sc k kcommaaccent kcommaaccent.sc kgreenlandic khook khook.sc kmacronbelow kmacronbelow.sc lslash m.sc macute.sc mdotbelow.sc n.sc nacute.sc napostrophe.sc ncaron.sc ncommaaccent.sc ndotaccent.sc ndotbelow.sc ngrave.sc nhookleft.sc nmacronbelow.sc oe.sc q u uacute ucaron ucircumflex udieresis udieresisacute udieresiscaron udieresisgrave udieresismacron udotbelow ugrave uhookabove umacron uogonek uring x y yacute ycircumflex ydieresis ydotaccent ygrave yhookabove ymacron z zacute zcaron zdotaccent zdotbelow];
 @openmidR = [AE AEacute E Eacute Ebreve Ecaron Ecircumflex Ecircumflexdotbelow Edieresis Edotaccent Edotbelow Egrave Ehookabove Emacron Eogonek Etilde K Kcommaaccent Khook Kmacronbelow OE Oacute Obreve Ocaron Ocircumflex Ocircumflexacute Ocircumflexdotbelow Ocircumflexgrave Ocircumflexhookabove Ocircumflextilde Odieresis Odotbelow Ograve Ohookabove Ohungarumlaut Omacron Oopen Oslash Oslashacute Otilde X Z Zacute Zcaron Zdotaccent Zdotbelow];
 @openmidcurveBR = [C Cacute Ccaron Ccedilla Ccircumflex Cdotaccent Eopen];
 
@@ -304,22 +305,24 @@ feature locl {
 @openmidR_gr = [Epsilontonos Epsilon Zeta Kappa Xi Sigma Chi lambda];
 @shortoverhangR_gr = [gamma.sc tau.sc upsilon.sc upsilontonos.sc upsilondieresis.sc];
 
-# # Right side classes
+# Second-of-pair classes
+
 @tallcurve2TL = [A AE AEacute Aacute Abreve Abrevedotbelow Acaron Acircumflex Acircumflexdotbelow Adieresis Adotbelow Agrave Ahookabove Amacron Aogonek Aring Atilde];
-@talloverhangL = [T TBar Tcaron Tcedilla Tcommaaccent Tdotbelow Tmacronbelow ibreve ibreve.sc];
+@talloverhangL = [T Tbar Tcaron Tcedilla Tcommaaccent Tdotbelow Tmacronbelow ibreve ibreve.sc];
 @talloverhang2L = [hbar itilde itilde.sc];
+@talloverhang3L = [quotesingle quotedbl quoteright quotedblright];
 @underhang2L = [J Jcircumflex j.sc jcircumflex.sc lslash.sc];
 @underhang3L = [Lslash eth.sc];
 @hookleft = [Nhookleft florin.sc nhookleft nhookleft.sc];
-@strokemidL = [Eth Dcroat f f_F f_f_i f_f_l f_i f_l florin];
+@strokemidL = [Eth Dcroat f f_f f_f_i f_f_l f_i f_l florin hyphen endash];
+@shortoverhangL = [napostrophe napostrophe.sc t t.sc tbar.sc  tcaron tcaron.sc tcedilla tcedilla.sc tcommaaccent tcommaaccent.sc tdieresis tdieresis.sc tdotbelow tdotbelow.sc tmacronbelow tmacronbelow.sc y.sc yacute.sc ycircumflex.sc ydieresis.sc ydotaccent.sc ydotbelow.sc ygrave.sc yhook.sc yhookabove.sc ymacron.sc];
 @shortoverhang2L = [hbar.sc];
 @shortoverhang3L = [bhook.sc dhook.sc];
-@shortcurveTL = [Ocircumflexgrave Ocircumflexhookabove Odieresistilde alpha-latin c cacute ccaron ccedilla ccircumflex cdotaccent d dcaron dcroat ddotbelow dhook dmacronbelow e eacute ecaron ccircumflex ecircumflexdotbelow ecircumflexgrave ecircumflexhookabove edieresistilde edieresis edotaccent edotbelow egrave ehookabove emacron eogonek eopen g g.sc gcaron gcaron.sc gcircumflex gcircumflex.sc gcommaaccent gcommaaccent.sc gdotaccent gdotaccent.sc germandbls.sc gmacron gmacron.sc gsingle khook.sc o oacute ocaron ocircumflex ocircumflexdotbelow ocircumflexgrave ocircumflexhookabove odieresistilde odieresis odotbelow oe oe.sc ograve ohookabove ohorn ohornacute ohorndotbelow ohorngrave ohornhookabove omacron oopen oslash oslashacute q q.sc s sacute scaron scedilla schwa scircumflex scommaaccent sdotaccent sdotbelow];
-@shortcurve2TL = [Acircumflexgrave Acircumflexhookabove Adieresistilde Aringacute a.sc aacute.sc acaron.sc acircumflex.sc acircumflexdotbelow.sc adieresis.sc adotbelow.sc ae.sc aeacute.sc agrave.sc ahookabove.sc amacron.sc aogonek.sc aring.sc aringacute.sc];
-@shortoverhangL = [napostrophe napostrophe.sc t t.sc tbar.sc  tcaron tcaron.sc tcedilla tcedilla.sc tcommaaccent tcommaaccent.sc tdieresis tdieresis.sc tdotbelow tdotbelow.sc tmacronbelow tmacronbelow.sc y.sc yacute.sc ycircumflex.sc ydieresis.sc ydotaccent.sc ydotbelow.sc ygrave.sc yhook.sc yhookabove.sc ymacron.sc];
-@shortunderhang2L = [a aacute acaron acircumflex acircumflexdotbelow acircumflexgrave acircumflexhookabove adieresistilde adieresis adotbelow ae aeacute agrave ahookabove amacron aogonek aring aringacute eth];
+@shortcurveTL = [Ocircumflexgrave Ocircumflexhookabove Ocircumflextilde alpha-latin c cacute ccaron ccedilla ccircumflex cdotaccent d dcaron dcroat ddotbelow dhook dmacronbelow e eacute ecaron ecircumflex ecircumflexdotbelow ecircumflexgrave ecircumflexhookabove ecircumflextilde edieresis edotaccent edotbelow egrave ehookabove emacron eogonek eopen g g.sc gcaron gcaron.sc gcircumflex gcircumflex.sc gcommaaccent gcommaaccent.sc gdotaccent gdotaccent.sc germandbls.sc gmacron gmacron.sc gsingle khook.sc o oacute ocaron ocircumflex ocircumflexdotbelow ocircumflexgrave ocircumflexhookabove ocircumflextilde odieresis odotbelow oe oe.sc ograve ohookabove ohorn ohornacute ohorndotbelow ohorngrave ohornhookabove omacron oopen oslash oslashacute q q.sc s sacute scaron scedilla schwa scircumflex scommaaccent sdotaccent sdotbelow];
+@shortcurve2TL = [Acircumflexgrave Acircumflexhookabove Acircumflextilde Aringacute a.sc aacute.sc acaron.sc acircumflex.sc acircumflexdotbelow.sc adieresis.sc adotbelow.sc ae.sc aeacute.sc agrave.sc ahookabove.sc amacron.sc aogonek.sc aring.sc];
+@shortunderhang2L = [a aacute acaron acircumflex acircumflexdotbelow acircumflexgrave acircumflexhookabove acircumflextilde adieresis adotbelow ae aeacute agrave ahookabove amacron aogonek aring aringacute eth];
 @aother = [abreve abreveacute abrevedotbelow abrevegrave abrevehookabove abrevetilde kgreenlandic];
-@shortL = [Ecircumflexgrave Ecircumflexhookabove Edieresistilde Udieresisacute Udieresiscaron Udieresisgrave b.sc d.sc dcaron.sc dmacronbelow.sc dotlessi e.sc eacute.sc ecaron.sc ccircumflex.sc ecircumflexdotbelow.sc ecircumflexgrave.sc ecircumflexhookabove.sc edieresistilde.sc edieresis.sc edotaccent.sc edotbelow.sc egrave.sc ehookabove.sc emacron.sc eng eng.sc eng.sc.loclNSM eogonek.sc f.sc h.sc hcircumflex.sc hdotbelow.sc hmacronbelow.sc i i.sc iacute iacute.sc idotaccent idotaccent.sc idotbelow idotbelow.sc ij ij.sc iogonek iogonek.sc l.sc lcaron.sc lcommaaccent.sc ldot.sc ldotbelow.sc ldotbelowmacron.sc lmacronbelow.sc m m.sc macute macute.sc mdotbelow mdotbelow.sc n n.sc nacute nacute.sc ncaron ncaron.sc ncommaaccent ncommaaccent.sc ndotaccent ndotaccent.sc ndotbelow ndotbelow.sc ngrave ngrave.sc nmacronbelow nmacronbelow.sc p o.sc r r.sc racute racute.sc rcaron rcaron.sc rcommaaccent rcommaaccent.sc rdotbelow rdotbelow.sc rdotbelowmacron rdotbelowmacron.sc rmacronbelow rmacronbelow.sc thorn.sc u uacute ucaron ucircumflex udieresis udieresisacute udieresiscaron udieresisgrave udieresismacron udotbelow ugrave uhookabove uhorn uhornacute uhorndotbelow uhorngrave uhornhookabove umacron uogonek uring u.sc uacute.sc ucaron.sc ucircumflex.sc udieresis.sc udieresisacute.sc udieresiscaron.sc udieresisgrave.sc udieresismacron.sc udotbelow.sc ugrave.sc uhookabove.sc uhorn.sc uhornacute.sc uhorndotbelow.sc uhorngrave.sc uhornhookabove.sc umacron.sc uogonek.sc uring.sc w wacute wcircumflex wdieresis wgrave x y y.alt yacute ycircumflex ydieresis ydotaccent ydotbelow ygrave yhook yhookabove ymacron z zacute zcaron zdotaccent zdotbelow];
+@shortL = [Ecircumflexgrave Ecircumflexhookabove Ecircumflextilde Udieresisacute Udieresiscaron Udieresisgrave b.sc d.sc dcaron.sc dmacronbelow.sc dotlessi e.sc eacute.sc ecaron.sc ecircumflexdotbelow.sc edieresis.sc edotaccent.sc edotbelow.sc egrave.sc ehookabove.sc emacron.sc eng eng.sc eng.sc.loclNSM eogonek.sc f.sc h.sc hcircumflex.sc hdotbelow.sc hmacronbelow.sc i i.sc iacute iacute.sc idotaccent idotaccent.sc idotbelow idotbelow.sc ij ij.sc iogonek iogonek.sc l.sc lcaron.sc lcommaaccent.sc ldot.sc ldotbelow.sc ldotbelowmacron.sc lmacronbelow.sc m m.sc macute macute.sc mdotbelow mdotbelow.sc n n.sc nacute nacute.sc ncaron ncaron.sc ncommaaccent ncommaaccent.sc ndotaccent ndotaccent.sc ndotbelow ndotbelow.sc ngrave ngrave.sc nmacronbelow nmacronbelow.sc p r r.sc racute racute.sc rcaron rcaron.sc rcommaaccent rcommaaccent.sc rdotbelow rdotbelow.sc rdotbelowmacron rdotbelowmacron.sc rmacronbelow rmacronbelow.sc thorn.sc u uacute ucaron ucircumflex udieresis udieresisacute udieresiscaron udieresisgrave udieresismacron udotbelow ugrave uhookabove uhorn uhornacute uhorndotbelow uhorngrave uhornhookabove umacron uogonek uring u.sc uacute.sc ucaron.sc ucircumflex.sc udieresis.sc udieresismacron.sc udotbelow.sc ugrave.sc uhookabove.sc uhorn.sc uhornacute.sc uhorndotbelow.sc uhorngrave.sc uhornhookabove.sc umacron.sc uogonek.sc uring.sc w wacute wcircumflex wdieresis wgrave x y y.titl yacute ycircumflex ydieresis ydotaccent ydotbelow ygrave yhook yhookabove ymacron z zacute zcaron zdotaccent zdotbelow];
 @l = [l lacute lcaron lcommaaccent ldot ldotbelow ldotbelowmacron lmacronbelow];
 @j = [j jcircumflex jdotless];
 
@@ -355,7 +358,83 @@ feature locl {
 # # ustraight-cy ustraightstroke-cy
 
 feature kern {
-# 	script latn;
+	script latn;
+	enum pos [g j q y yacute eng] nhookleft 100;
+	pos @talloverhangR @tallcurve2TL -100;
+	pos @talloverhangR @underhang2L -100;
+	pos @talloverhangR @underhang3L -100;
+	pos @talloverhangR @strokemidL -100;
+	pos @talloverhangR @shortoverhangL -100;
+	pos @talloverhangR @shortoverhang2L -100;
+	pos @talloverhangR @shortoverhang3L -100;
+	pos @talloverhangR @shortcurveTL -100;
+	pos @talloverhangR @shortcurve2TL -100;
+	pos @talloverhangR @shortunderhang2L -100;
+	pos @talloverhangR @shortL -100;
+	pos @talloverhangR @j -200;
+	pos @talloverhang2R @underhang2L -100;
+	pos @talloverhang2R @underhang3L -100;
+	pos @talloverhang2R @strokemidL -100;
+	pos @talloverhang2R @shortcurveTL -100;
+	pos @talloverhang2R @shortcurve2TL -100;
+	pos @talloverhang2R @shortunderhang2L -100;
+	pos @talloverhang2R @j -200;
+	pos @talloverhang3R @underhang2L -100;
+	pos @talloverhang3R @underhang3L -100;
+	pos @talloverhang3R @shortcurve2TL -100;
+	pos @talloverhang3R @shortunderhang2L -100;
+	pos @talloverhang3R @j -200;
+	pos @shortoverhangR @talloverhangL -100;
+	pos @shortoverhangR @underhang2L -100;
+	pos @shortoverhangR @underhang3L -100;
+	pos @shortoverhangR @shortcurve2TL -100;
+	pos @shortoverhangR @shortunderhang2L -100;
+	pos @shortoverhangR @j -200;
+	pos @shortoverhang2R @talloverhangL -100;
+	pos @shortoverhang2R @underhang2L -100;
+	pos @shortoverhang2R @shortunderhang2L -100;
+	pos @shortoverhang2R @aother -100;
+	pos @shortoverhang2R @l -100;
+	pos @shortoverhang2R @j -200;
+	pos @underhangR @talloverhangL -100;
+	pos @underhangR @talloverhang2L -100;
+	pos @underhangR @talloverhang3L -100;
+	pos @underhangR @strokemidL -100;
+	pos @underhangR @shortoverhangL -100;
+	pos @underhangR @shortoverhang2L -100;
+	pos @underhangR @shortoverhang3L -100;
+	pos @curveBR @j -100;
+	pos @curve2BR @j -100;
+	pos @tallcurve2TR @talloverhangL -100;
+	pos @shortcurveTR @talloverhangL -100;
+	pos @shortcurveTR @talloverhang2L -100;
+	pos @shortcurve2TR @talloverhangL -100;
+	pos @shortcurve2TR @talloverhang2L -100;
+	pos @shortcurve2TR @talloverhang3L -100;
+	pos @shortcurve2TR @shortoverhangL -100;
+	pos @shortcurveBR @talloverhangL -100;
+	pos @shortcurveBR @j -100;
+	pos @shortcurveR @talloverhangL -100;
+	pos @shortcurveR @talloverhang2L -100;
+	pos @shortcurveR @j -100;
+	pos @shortunderhangR @talloverhangL -100;
+	pos @shortunderhangR @talloverhang2L -100;
+	pos @shortunderhangR @talloverhang3L -100;
+	pos @shortunderhangR @strokemidL -100;
+	pos @shortunderhangR @shortoverhangL -100;
+	pos @shortunderhangR @shortoverhang2L -100;
+	pos @shortunderhangR @shortoverhang3L -100;
+	pos @shortunderhang2R @talloverhangL -100;
+	pos @shortunderhang2R @talloverhang2L -100;
+	pos @shortunderhang2R @talloverhang3L -100;
+	pos @shortunderhang2R @strokemidL -100;
+	pos @shortunderhang2R @shortoverhangL -100;
+	pos @shortunderhang2R @shortoverhang2L -100;
+	pos @shortR @talloverhangL -100;
+	pos @openmidR @strokemidL -100;
+	pos @openmidcurveBR @strokemidL -100;
+	pos @openmidcurveBR @j -100;
+
 # 	pos F J -200;
 # 	pos F j -300;
 # 	pos J J -100;
