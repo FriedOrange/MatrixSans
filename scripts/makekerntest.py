@@ -56,7 +56,7 @@ with open("features.fea", "r") as feature_file:
 							continue
 					new_output_line = []
 					for glyph2 in right_class:
-						if uni1 == -1 and not (glyph2[0].isupper() or glyph2.endswith(".sc")):
+						if glyph1.endswith(".sc") and not (glyph2[0].isupper() or glyph2.endswith(".sc")):
 							continue
 						uni2 = font[glyph2].unicode
 						prefix2 = ""

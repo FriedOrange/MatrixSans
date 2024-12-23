@@ -337,7 +337,7 @@ feature locl {
 @tall_overhangL_cy = [Dje-cy Tshe-cy Hardsign-cy Te-cy];
 @short_overhangL_cy = [hardsign-cy dje-cy tshe-cy uni0462 uni0463 dje-cy.sc tshe-cy.sc uni0463.sc ustraightstroke-cy.sc te-cy];
 @descenderL_cy = [Lje-cy De-cy El-cy de-cy el-cy lje-cy];
-@shortL_cy = [ve-cy ge-cy ie-cy zhe-cy ze-cy ii-cy iishort-cy ka-cy em-cy en-cy o-cy pe-cy er-cy es-cy u-cy ef-cy ha-cy tse-cy sha-cy shcha-cy yeru-cy softsign-cy ereversed-cy yu-cy ya-cy iegrave-cy io-cy uni0453 e-cy uni0455 i-cy nje-cy uni045C uni045D dzhe-cy uni0473 uni0475 geupturn-cy gestroke-cy zhedescender-cy kadescender-cy endescender-cy schwa-cy imacron-cy obarred-cy umacron-cy be-cy.sc ef-cy.sc shha-cy.sc i-cy.sc je-cy.sc er-cy.sc ustraight-cy.sc ie-cy.sc iegrave-cy.sc io-cy.sc];
+@shortL_cy = [ve-cy ge-cy ie-cy zhe-cy ze-cy ii-cy ka-cy em-cy en-cy o-cy pe-cy er-cy es-cy u-cy ef-cy ha-cy tse-cy sha-cy shcha-cy yeru-cy softsign-cy ereversed-cy yu-cy ya-cy iegrave-cy io-cy uni0453 e-cy uni0455 i-cy nje-cy uni045C uni045D dzhe-cy uni0473 uni0475 geupturn-cy gestroke-cy zhedescender-cy kadescender-cy endescender-cy schwa-cy imacron-cy obarred-cy umacron-cy be-cy.sc ef-cy.sc shha-cy.sc i-cy.sc je-cy.sc er-cy.sc ustraight-cy.sc ie-cy.sc iegrave-cy.sc io-cy.sc];
 #che-cy chedescender-cy
 #a-cy
 #u-cy.sc umacron-cy.sc ushort-cy.sc
@@ -358,7 +358,7 @@ feature locl {
 
 feature kern {
 	script latn;
-	enum pos [g j q y yacute eng] nhookleft 100;
+	enum pos [g j q y yacute eng Eng.loclNSM] nhookleft 100;
 	pos @talloverhangR @tallcurve2TL -100;
 	pos @talloverhangR @underhang2L -100;
 	pos @talloverhangR @underhang3L -100;
@@ -403,7 +403,7 @@ feature kern {
 	pos @underhangR @shortoverhang2L -100;
 	pos @underhangR @shortoverhang3L -100;
 	pos @curveBR @j -100;
-	pos @curve2BR @j -100;
+	pos @curve2BR @j -200;
 	pos @tallcurve2TR @talloverhangL -100;
 	pos @shortcurveTR @talloverhangL -100;
 	pos @shortcurveTR @talloverhang2L -100;
