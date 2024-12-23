@@ -5,7 +5,7 @@ font = fontforge.open("MatrixSans-MASTER.sfd")
 with open("features.fea", "r") as feature_file:
 	fea = feature_file.read()
 	start_pos = fea.find("# Classes for kerning")
-	end_pos = fea.find("script cyrl;", start_pos)
+	end_pos = fea.find("kern;", start_pos)
 	fea_lines = fea[start_pos:end_pos].splitlines()
 	classes = {}
 	output_lines = []
@@ -29,12 +29,21 @@ with open("features.fea", "r") as feature_file:
 					second_of_pairs.add(glyph)
 		elif line == "# Second-of-pair classes":
 			n_of_pairs = 2
-		elif line.startswith("\tpos"):
+		elif line.startswith("\tpos") or line.startswith("\tenum pos"):
 			try:
-				left, right = re.search(r" @(.+) @(.+) ", line).group(1, 2)
-				# print(f"{classes[left]}")
-				output_lines.append(f"@{left} @{right}\n")
-				for glyph1 in classes[left]:
+				left, right = re.search(r"pos ([^ ]+|\[.+\]) ([^ ]+|\[.+\]) -?\d", line).group(1, 2)
+				def enum_class(classname):
+					if classname.startswith("@"):
+						result = classes[classname[1:]]
+					elif classname.startswith("["):
+						result = classname[1:-1].split(" ")
+					else:
+						result = [classname]
+					return result
+				left_class = enum_class(left)
+				right_class = enum_class(right)
+				output_lines.append(f"<h4>{left} {right}</h4>\n<pre contenteditable>")
+				for glyph1 in left_class:
 					uni1 = font[glyph1].unicode
 					prefix = ""
 					suffix = ""
@@ -46,7 +55,7 @@ with open("features.fea", "r") as feature_file:
 						else:
 							continue
 					new_output_line = []
-					for glyph2 in classes[right]:
+					for glyph2 in right_class:
 						if uni1 == -1 and not (glyph2[0].isupper() or glyph2.endswith(".sc")):
 							continue
 						uni2 = font[glyph2].unicode
@@ -57,11 +66,14 @@ with open("features.fea", "r") as feature_file:
 								prefix2 = "<span class='sc'>"
 								suffix2 = "</span>"
 								uni2 = font[glyph2[:-3]].unicode
+							elif glyph2.endswith(".sc") and glyph2 != "idotaccent.sc" and glyph1.endswith(".sc"):
+								uni2 = font[glyph2[:-3]].unicode
 							else:
 								continue
 						new_output_line.append(f"{prefix2}{chr(uni1)}{chr(uni2)}{suffix2}")
 					if len(new_output_line):
 						output_lines.append(prefix + " ".join(new_output_line) + f"{suffix}\n")
+				output_lines.append("</pre>")
 			except Exception as e:
 				print(e)
 				print(glyph1)
@@ -80,7 +92,7 @@ html_pre = """
 				 url("../sources/MatrixSans-RegularB.ttf");
 		}
 	body {
-		color: silver;
+		color: white;
 		background-color: black;
 		margin: 1em;
 	}
@@ -91,6 +103,10 @@ html_pre = """
 	.sc {
 		font-feature-settings: "smcp";
 	}
+	h4 {
+		font-weight: normal;
+		color: silver;
+	}
 </style>
 </head>
 <body>
@@ -98,11 +114,11 @@ html_pre = """
 <pre contenteditable spellcheck="false">
 Matrix Sans kern test
 Not shown: small cap + lower case kern pairs
+</pre>
 
 """
 
 html_post = """
-</pre>
 
 </body>
 </html>
