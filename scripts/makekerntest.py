@@ -42,7 +42,7 @@ with open("features.fea", "r") as feature_file:
 					return result
 				left_class = enum_class(left)
 				right_class = enum_class(right)
-				output_lines.append(f"<h4>{left} {right}</h4>\n<pre contenteditable>")
+				output_lines.append(f"<h4>{left} {right}</h4>\n<pre contenteditable spellcheck='false'>")
 				for glyph1 in left_class:
 					uni1 = font[glyph1].unicode
 					prefix = ""
