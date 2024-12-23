@@ -545,7 +545,7 @@ feature kern {
 	pos @tall_overhangR_cy a-cy.sc -100;
 	pos @tall_overhangR_cy a-cy -100;
 	pos @tall_overhangR_cy A-cy -100;
-	pos @tall_overhangR_cy [u-cy.sc umacron-cy.sc ushort-cy.sc] -100;
+	pos @tall_overhangR_cy [u-cy.sc umacron-cy.sc] -100;
 	pos @short_overhangR_cy @descenderL_cy -100;
 	pos @short_overhangR_cy je-cy -200;
 	pos @short_overhangR_cy a-cy -100;
