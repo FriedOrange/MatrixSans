@@ -499,7 +499,7 @@
 		<string>KaiSymbol</string>
 		<string>phi1</string>
 		<string>kaiSymbol</string>
-		<string>uni0400</string>
+		<string>Iegrave-cy</string>
 		<string>Io-cy</string>
 		<string>Dje-cy</string>
 		<string>uni0403</string>
@@ -579,7 +579,7 @@
 		<string>ereversed-cy</string>
 		<string>yu-cy</string>
 		<string>ya-cy</string>
-		<string>uni0450</string>
+		<string>iegrave-cy</string>
 		<string>io-cy</string>
 		<string>dje-cy</string>
 		<string>uni0453</string>
@@ -1400,6 +1400,8 @@
 		<key>Idotbelow</key>
 		<string>base</string>
 		<key>Ie-cy</key>
+		<string>base</string>
+		<key>Iegrave-cy</key>
 		<string>base</string>
 		<key>Igrave</key>
 		<string>base</string>
@@ -2429,6 +2431,8 @@
 		<string>base</string>
 		<key>ie-cy.sc</key>
 		<string>base</string>
+		<key>iegrave-cy</key>
+		<string>base</string>
 		<key>iegrave-cy.sc</key>
 		<string>base</string>
 		<key>igrave</key>
@@ -3217,8 +3221,6 @@
 		<string>mark</string>
 		<key>uni0324</key>
 		<string>mark</string>
-		<key>uni0400</key>
-		<string>base</string>
 		<key>uni0403</key>
 		<string>base</string>
 		<key>uni0405</key>
@@ -3226,8 +3228,6 @@
 		<key>uni040C</key>
 		<string>base</string>
 		<key>uni040D</key>
-		<string>base</string>
-		<key>uni0450</key>
 		<string>base</string>
 		<key>uni0453</key>
 		<string>base</string>

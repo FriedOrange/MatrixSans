@@ -244,6 +244,8 @@
     <string>I_dotbelow.glif</string>
     <key>Ie-cy</key>
     <string>I_e-cy.glif</string>
+    <key>Iegrave-cy</key>
+    <string>I_egrave-cy.glif</string>
     <key>Igrave</key>
     <string>I_grave.glif</string>
     <key>Ihookabove</key>
@@ -1272,6 +1274,8 @@
     <string>ie-cy.glif</string>
     <key>ie-cy.sc</key>
     <string>ie-cy.sc.glif</string>
+    <key>iegrave-cy</key>
+    <string>iegrave-cy.glif</string>
     <key>iegrave-cy.sc</key>
     <string>iegrave-cy.sc.glif</string>
     <key>igrave</key>
@@ -2060,8 +2064,6 @@
     <string>uni0315.glif</string>
     <key>uni0324</key>
     <string>uni0324.glif</string>
-    <key>uni0400</key>
-    <string>uni0400.glif</string>
     <key>uni0403</key>
     <string>uni0403.glif</string>
     <key>uni0405</key>
@@ -2070,8 +2072,6 @@
     <string>uni040C_.glif</string>
     <key>uni040D</key>
     <string>uni040D_.glif</string>
-    <key>uni0450</key>
-    <string>uni0450.glif</string>
     <key>uni0453</key>
     <string>uni0453.glif</string>
     <key>uni0455</key>
