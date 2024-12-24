@@ -3478,8 +3478,12 @@
 		<string>mu</string>
 		<key>onesuperior</key>
 		<string>uni00B9</string>
+		<key>Omega</key>
+		<string>uni03A9</string>
 		<key>foursuperior</key>
 		<string>uni2074</string>
+		<key>literSign</key>
+		<string>uni2113</string>
 		<key>increment</key>
 		<string>Delta</string>
 		<key>f_i</key>
@@ -3490,14 +3494,36 @@
 		<string>Omega</string>
 		<key>circumflexcomb</key>
 		<string>uni0302</string>
+		<key>dieresiscomb</key>
+		<string>uni0308</string>
+		<key>ringcomb</key>
+		<string>uni030A</string>
 		<key>caroncomb</key>
 		<string>uni030C</string>
+		<key>cedillacomb</key>
+		<string>uni0327</string>
+		<key>jdotless</key>
+		<string>uni0237</string>
+		<key>Germandbls</key>
+		<string>uni1E9E</string>
+		<key>liraTurkish</key>
+		<string>uni20BA</string>
+		<key>ruble</key>
+		<string>uni20BD</string>
 		<key>macroncomb</key>
 		<string>uni0304</string>
 		<key>brevecomb</key>
 		<string>uni0306</string>
+		<key>ogonekcomb</key>
+		<string>uni0328</string>
+		<key>dotaccentcomb</key>
+		<string>uni0307</string>
+		<key>commaaccentcomb</key>
+		<string>uni0326</string>
 		<key>Gcommaaccent</key>
 		<string>uni0122</string>
+		<key>commaturnedabovecomb</key>
+		<string>uni0312</string>
 		<key>gcommaaccent</key>
 		<string>uni0123</string>
 		<key>Kcommaaccent</key>
@@ -3512,6 +3538,8 @@
 		<string>uni0145</string>
 		<key>ncommaaccent</key>
 		<string>uni0146</string>
+		<key>hungarumlautcomb</key>
+		<string>uni030B</string>
 		<key>Rcommaaccent</key>
 		<string>uni0156</string>
 		<key>rcommaaccent</key>
@@ -3529,9 +3557,17 @@
 		<key>scommaaccent</key>
 		<string>uni0219</string>
 		<key>Tcommaaccent</key>
-		<string>uni0162</string>
+		<string>uni021A</string>
 		<key>tcommaaccent</key>
-		<string>uni0163</string>
+		<string>uni021B</string>
+		<key>mu</key>
+		<string>uni03BC</string>
+		<key>Delta</key>
+		<string>uni0394</string>
+		<key>horncomb</key>
+		<string>uni031B</string>
+		<key>macronbelowcomb</key>
+		<string>uni0331</string>
 		<key>Icaron</key>
 		<string>uni01CF</string>
 		<key>icaron</key>
@@ -3560,14 +3596,24 @@
 		<string>uni01DB</string>
 		<key>udieresisgrave</key>
 		<string>uni01DC</string>
+		<key>gsingle</key>
+		<string>uni0261</string>
+		<key>alpha-latin</key>
+		<string>uni0251</string>
 		<key>schwa</key>
 		<string>uni0259</string>
 		<key>apostrophemod</key>
 		<string>uni02BC</string>
+		<key>brevebelowcomb</key>
+		<string>uni032E</string>
 		<key>Ddotbelow</key>
 		<string>uni1E0C</string>
 		<key>ddotbelow</key>
 		<string>uni1E0D</string>
+		<key>Dmacronbelow</key>
+		<string>uni1E0E</string>
+		<key>dmacronbelow</key>
+		<string>uni1E0F</string>
 		<key>Gmacron</key>
 		<string>uni1E20</string>
 		<key>gmacron</key>
@@ -3588,6 +3634,10 @@
 		<string>uni1E38</string>
 		<key>ldotbelowmacron</key>
 		<string>uni1E39</string>
+		<key>Lmacronbelow</key>
+		<string>uni1E3A</string>
+		<key>lmacronbelow</key>
+		<string>uni1E3B</string>
 		<key>Mdotbelow</key>
 		<string>uni1E42</string>
 		<key>mdotbelow</key>
@@ -3600,6 +3650,10 @@
 		<string>uni1E46</string>
 		<key>ndotbelow</key>
 		<string>uni1E47</string>
+		<key>Nmacronbelow</key>
+		<string>uni1E48</string>
+		<key>nmacronbelow</key>
+		<string>uni1E49</string>
 		<key>Rdotbelow</key>
 		<string>uni1E5A</string>
 		<key>rdotbelow</key>
@@ -3608,6 +3662,10 @@
 		<string>uni1E5C</string>
 		<key>rdotbelowmacron</key>
 		<string>uni1E5D</string>
+		<key>Rmacronbelow</key>
+		<string>uni1E5E</string>
+		<key>rmacronbelow</key>
+		<string>uni1E5F</string>
 		<key>Sdotaccent</key>
 		<string>uni1E60</string>
 		<key>sdotaccent</key>
@@ -3620,6 +3678,10 @@
 		<string>uni1E6C</string>
 		<key>tdotbelow</key>
 		<string>uni1E6D</string>
+		<key>Tmacronbelow</key>
+		<string>uni1E6E</string>
+		<key>tmacronbelow</key>
+		<string>uni1E6F</string>
 		<key>Ydotaccent</key>
 		<string>uni1E8E</string>
 		<key>ydotaccent</key>
@@ -3644,6 +3706,8 @@
 		<string>uni02BE</string>
 		<key>ringhalfleft</key>
 		<string>uni02BF</string>
+		<key>baht</key>
+		<string>uni0E3F</string>
 		<key>fivesuperior</key>
 		<string>uni2075</string>
 		<key>sixsuperior</key>
@@ -3680,8 +3744,84 @@
 		<string>uni20A9</string>
 		<key>sheqel</key>
 		<string>uni20AA</string>
+		<key>kip</key>
+		<string>uni20AD</string>
+		<key>tugrik</key>
+		<string>uni20AE</string>
+		<key>peso</key>
+		<string>uni20B1</string>
+		<key>guarani</key>
+		<string>uni20B2</string>
+		<key>hryvnia</key>
+		<string>uni20B4</string>
+		<key>cedi</key>
+		<string>uni20B5</string>
+		<key>tenge</key>
+		<string>uni20B8</string>
+		<key>rupeeIndian</key>
+		<string>uni20B9</string>
+		<key>manat</key>
+		<string>uni20BC</string>
+		<key>lari</key>
+		<string>uni20BE</string>
+		<key>bitcoin</key>
+		<string>uni20BF</string>
+		<key>northWestArrow</key>
+		<string>uni2196</string>
+		<key>northEastArrow</key>
+		<string>uni2197</string>
+		<key>southEastArrow</key>
+		<string>uni2198</string>
+		<key>southWestArrow</key>
+		<string>uni2199</string>
+		<key>whiteSquare</key>
+		<string>H22073</string>
+		<key>blackSmallSquare</key>
+		<string>H18543</string>
+		<key>whiteSmallSquare</key>
+		<string>H18551</string>
+		<key>upWhiteTriangle</key>
+		<string>uni25B3</string>
+		<key>upBlackSmallTriangle</key>
+		<string>uni25B4</string>
+		<key>upWhiteSmallTriangle</key>
+		<string>uni25B5</string>
+		<key>rightBlackTriangle</key>
+		<string>uni25B6</string>
+		<key>rightWhiteTriangle</key>
+		<string>uni25B7</string>
+		<key>rightBlackSmallTriangle</key>
+		<string>uni25B8</string>
+		<key>rightWhiteSmallTriangle</key>
+		<string>uni25B9</string>
+		<key>downWhiteTriangle</key>
+		<string>uni25BD</string>
+		<key>downBlackSmallTriangle</key>
+		<string>uni25BE</string>
+		<key>downWhiteSmallTriangle</key>
+		<string>uni25BF</string>
+		<key>leftBlackTriangle</key>
+		<string>uni25C0</string>
+		<key>leftWhiteTriangle</key>
+		<string>uni25C1</string>
+		<key>leftBlackSmallTriangle</key>
+		<string>uni25C2</string>
+		<key>leftWhiteSmallTriangle</key>
+		<string>uni25C3</string>
+		<key>blackDiamond</key>
+		<string>uni25C6</string>
+		<key>whiteDiamond</key>
+		<string>uni25C7</string>
+		<key>blackCircle</key>
+		<string>H18533</string>
+		<key>leftanglebracket_math</key>
+		<string>uni27E8</string>
+		<key>rightanglebracket_math</key>
+		<string>uni27E9</string>
 		<key>dblverticalbar</key>
 		<string>uni2016</string>
+		<key>nmod</key>
+		<string>uni207F</string>
 		<key>numero</key>
 		<string>uni2116</string>
 		<key>Ahookabove</key>
@@ -3880,12 +4020,264 @@
 		<string>uni0272</string>
 		<key>commareversedmod</key>
 		<string>uni02BD</string>
+		<key>Nmod</key>
+		<string>uni1D3A</string>
 		<key>Dhook</key>
 		<string>uni018A</string>
+		<key>Ymacron</key>
+		<string>uni0232</string>
+		<key>ymacron</key>
+		<string>uni0233</string>
+		<key>Kmacronbelow</key>
+		<string>uni1E34</string>
+		<key>kmacronbelow</key>
+		<string>uni1E35</string>
+		<key>hmacronbelow</key>
+		<string>uni1E96</string>
+		<key>Ngrave</key>
+		<string>uni01F8</string>
+		<key>ngrave</key>
+		<string>uni01F9</string>
+		<key>verticallineabovecomb</key>
+		<string>uni030D</string>
+		<key>dotaboverightcomb</key>
+		<string>uni0358</string>
 		<key>Macute</key>
 		<string>uni1E3E</string>
 		<key>macute</key>
 		<string>uni1E3F</string>
+		<key>Iegrave-cy</key>
+		<string>uni0400</string>
+		<key>Io-cy</key>
+		<string>uni0401</string>
+		<key>Dje-cy</key>
+		<string>uni0402</string>
+		<key>E-cy</key>
+		<string>uni0404</string>
+		<key>I-cy</key>
+		<string>uni0406</string>
+		<key>Yi-cy</key>
+		<string>uni0407</string>
+		<key>Je-cy</key>
+		<string>uni0408</string>
+		<key>Lje-cy</key>
+		<string>uni0409</string>
+		<key>Nje-cy</key>
+		<string>uni040A</string>
+		<key>Tshe-cy</key>
+		<string>uni040B</string>
+		<key>Ushort-cy</key>
+		<string>uni040E</string>
+		<key>Dzhe-cy</key>
+		<string>uni040F</string>
+		<key>A-cy</key>
+		<string>uni0410</string>
+		<key>Be-cy</key>
+		<string>uni0411</string>
+		<key>Ge-cy</key>
+		<string>uni0413</string>
+		<key>De-cy</key>
+		<string>uni0414</string>
+		<key>Ie-cy</key>
+		<string>uni0415</string>
+		<key>Zhe-cy</key>
+		<string>uni0416</string>
+		<key>Ze-cy</key>
+		<string>uni0417</string>
+		<key>Ii-cy</key>
+		<string>uni0418</string>
+		<key>Iishort-cy</key>
+		<string>uni0419</string>
+		<key>Ka-cy</key>
+		<string>uni041A</string>
+		<key>El-cy</key>
+		<string>uni041B</string>
+		<key>Em-cy</key>
+		<string>uni041C</string>
+		<key>En-cy</key>
+		<string>uni041D</string>
+		<key>O-cy</key>
+		<string>uni041E</string>
+		<key>Pe-cy</key>
+		<string>uni041F</string>
+		<key>Er-cy</key>
+		<string>uni0420</string>
+		<key>Es-cy</key>
+		<string>uni0421</string>
+		<key>Te-cy</key>
+		<string>uni0422</string>
+		<key>U-cy</key>
+		<string>uni0423</string>
+		<key>Ef-cy</key>
+		<string>uni0424</string>
+		<key>Ha-cy</key>
+		<string>uni0425</string>
+		<key>Tse-cy</key>
+		<string>uni0426</string>
+		<key>Che-cy</key>
+		<string>uni0427</string>
+		<key>Sha-cy</key>
+		<string>uni0428</string>
+		<key>Shcha-cy</key>
+		<string>uni0429</string>
+		<key>Hardsign-cy</key>
+		<string>uni042A</string>
+		<key>Yeru-cy</key>
+		<string>uni042B</string>
+		<key>Softsign-cy</key>
+		<string>uni042C</string>
+		<key>Ereversed-cy</key>
+		<string>uni042D</string>
+		<key>Yu-cy</key>
+		<string>uni042E</string>
+		<key>Ya-cy</key>
+		<string>uni042F</string>
+		<key>a-cy</key>
+		<string>uni0430</string>
+		<key>be-cy</key>
+		<string>uni0431</string>
+		<key>ve-cy</key>
+		<string>uni0432</string>
+		<key>ge-cy</key>
+		<string>uni0433</string>
+		<key>de-cy</key>
+		<string>uni0434</string>
+		<key>ie-cy</key>
+		<string>uni0435</string>
+		<key>zhe-cy</key>
+		<string>uni0436</string>
+		<key>ze-cy</key>
+		<string>uni0437</string>
+		<key>ii-cy</key>
+		<string>uni0438</string>
+		<key>iishort-cy</key>
+		<string>uni0439</string>
+		<key>ka-cy</key>
+		<string>uni043A</string>
+		<key>el-cy</key>
+		<string>uni043B</string>
+		<key>em-cy</key>
+		<string>uni043C</string>
+		<key>en-cy</key>
+		<string>uni043D</string>
+		<key>o-cy</key>
+		<string>uni043E</string>
+		<key>pe-cy</key>
+		<string>uni043F</string>
+		<key>er-cy</key>
+		<string>uni0440</string>
+		<key>es-cy</key>
+		<string>uni0441</string>
+		<key>te-cy</key>
+		<string>uni0442</string>
+		<key>u-cy</key>
+		<string>uni0443</string>
+		<key>ef-cy</key>
+		<string>uni0444</string>
+		<key>ha-cy</key>
+		<string>uni0445</string>
+		<key>tse-cy</key>
+		<string>uni0446</string>
+		<key>che-cy</key>
+		<string>uni0447</string>
+		<key>sha-cy</key>
+		<string>uni0448</string>
+		<key>shcha-cy</key>
+		<string>uni0449</string>
+		<key>hardsign-cy</key>
+		<string>uni044A</string>
+		<key>yeru-cy</key>
+		<string>uni044B</string>
+		<key>softsign-cy</key>
+		<string>uni044C</string>
+		<key>ereversed-cy</key>
+		<string>uni044D</string>
+		<key>yu-cy</key>
+		<string>uni044E</string>
+		<key>ya-cy</key>
+		<string>uni044F</string>
+		<key>iegrave-cy</key>
+		<string>uni0450</string>
+		<key>io-cy</key>
+		<string>uni0451</string>
+		<key>dje-cy</key>
+		<string>uni0452</string>
+		<key>e-cy</key>
+		<string>uni0454</string>
+		<key>i-cy</key>
+		<string>uni0456</string>
+		<key>yi-cy</key>
+		<string>uni0457</string>
+		<key>je-cy</key>
+		<string>uni0458</string>
+		<key>lje-cy</key>
+		<string>uni0459</string>
+		<key>nje-cy</key>
+		<string>uni045A</string>
+		<key>tshe-cy</key>
+		<string>uni045B</string>
+		<key>ushort-cy</key>
+		<string>uni045E</string>
+		<key>dzhe-cy</key>
+		<string>uni045F</string>
+		<key>Geupturn-cy</key>
+		<string>uni0490</string>
+		<key>geupturn-cy</key>
+		<string>uni0491</string>
+		<key>Gestroke-cy</key>
+		<string>uni0492</string>
+		<key>gestroke-cy</key>
+		<string>uni0493</string>
+		<key>Zhedescender-cy</key>
+		<string>uni0496</string>
+		<key>zhedescender-cy</key>
+		<string>uni0497</string>
+		<key>Kadescender-cy</key>
+		<string>uni049A</string>
+		<key>kadescender-cy</key>
+		<string>uni049B</string>
+		<key>Endescender-cy</key>
+		<string>uni04A2</string>
+		<key>endescender-cy</key>
+		<string>uni04A3</string>
+		<key>Ustraight-cy</key>
+		<string>uni04AE</string>
+		<key>ustraight-cy</key>
+		<string>uni04AF</string>
+		<key>Ustraightstroke-cy</key>
+		<string>uni04B0</string>
+		<key>ustraightstroke-cy</key>
+		<string>uni04B1</string>
+		<key>Hadescender-cy</key>
+		<string>uni04B2</string>
+		<key>hadescender-cy</key>
+		<string>uni04B3</string>
+		<key>Chedescender-cy</key>
+		<string>uni04B6</string>
+		<key>chedescender-cy</key>
+		<string>uni04B7</string>
+		<key>Shha-cy</key>
+		<string>uni04BA</string>
+		<key>shha-cy</key>
+		<string>uni04BB</string>
+		<key>Schwa-cy</key>
+		<string>uni04D8</string>
+		<key>schwa-cy</key>
+		<string>uni04D9</string>
+		<key>Imacron-cy</key>
+		<string>uni04E2</string>
+		<key>imacron-cy</key>
+		<string>uni04E3</string>
+		<key>Obarred-cy</key>
+		<string>uni04E8</string>
+		<key>obarred-cy</key>
+		<string>uni04E9</string>
+		<key>Umacron-cy</key>
+		<string>uni04EE</string>
+		<key>umacron-cy</key>
+		<string>uni04EF</string>
+		<key>Ve-cy</key>
+		<string>uni0412</string>
 		<key>be-cy.sc</key>
 		<string>be_cy.sc</string>
 		<key>ef-cy.sc</key>
@@ -3922,8 +4314,16 @@
 		<string>ushort_cy.sc</string>
 		<key>sigmafinal</key>
 		<string>sigma1</string>
+		<key>KaiSymbol</key>
+		<string>uni03CF</string>
+		<key>kaiSymbol</key>
+		<string>uni03D7</string>
 		<key>questiongreek</key>
 		<string>uni037E</string>
+		<key>numeral-greek</key>
+		<string>uni0374</string>
+		<key>lowernumeral-greek</key>
+		<string>uni0375</string>
 		<key>f_f</key>
 		<string>uniFB00</string>
 		<key>f_f_i</key>
