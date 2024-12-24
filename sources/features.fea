@@ -335,7 +335,8 @@ feature locl {
 # @sc_overhangL = [t.sc tcaron.sc tcedilla.sc tcommaaccent.sc y.sc yacute.sc ycircumflex.sc ydieresis.sc ygrave.sc];
 
 @tall_overhangL_cy = [Dje-cy Tshe-cy Hardsign-cy Te-cy];
-@short_overhangL_cy = [hardsign-cy dje-cy tshe-cy uni0462 uni0463 dje-cy.sc tshe-cy.sc uni0463.sc ustraightstroke-cy.sc te-cy];
+@short_overhangL_cy = [hardsign-cy uni0463 dje-cy.sc tshe-cy.sc uni0463.sc ustraightstroke-cy.sc te-cy];
+@tall_overhang2L_cy = [dje-cy tshe-cy uni0462];
 @descenderL_cy = [Lje-cy De-cy El-cy de-cy el-cy lje-cy];
 @shortL_cy = [ve-cy ge-cy ie-cy zhe-cy ze-cy ii-cy ka-cy em-cy en-cy o-cy pe-cy er-cy es-cy u-cy ef-cy ha-cy tse-cy sha-cy shcha-cy yeru-cy softsign-cy ereversed-cy yu-cy ya-cy iegrave-cy io-cy uni0453 e-cy uni0455 i-cy nje-cy uni045C uni045D dzhe-cy uni0473 uni0475 geupturn-cy gestroke-cy zhedescender-cy kadescender-cy endescender-cy schwa-cy imacron-cy obarred-cy umacron-cy be-cy.sc ef-cy.sc shha-cy.sc i-cy.sc je-cy.sc er-cy.sc ustraight-cy.sc ie-cy.sc iegrave-cy.sc io-cy.sc];
 #che-cy chedescender-cy
@@ -358,6 +359,8 @@ feature locl {
 
 feature kern {
 	script latn;
+	pos F j -300;
+	pos F J -200;
 	enum pos [g q y yacute eng eng.sc.loclNSM] @hookleft 100;
 	pos [j Eng.loclNSM] @hookleft 100;
 	pos @talloverhangR @tallcurve2TL -100;
@@ -551,6 +554,7 @@ feature kern {
 	pos @short_overhangR_cy a-cy -100;
 	pos @short_overhangR_cy a-cy.sc -100;
 	pos @descenderR_cy @tall_overhangL_cy -100;
+	pos @descenderR_cy @tall_overhang2L_cy -100;
 	pos @descenderR_cy @short_overhangL_cy -100;
 	pos @descenderR_cy [Che-cy che-cy chedescender-cy] -100;
 	pos @descenderR_cy [ustraight-cy ustraightstroke-cy Ustraight-cy Ustraightstroke-cy] -100;
@@ -559,13 +563,16 @@ feature kern {
 	pos [ustraight-cy ustraightstroke-cy Ustraight-cy Ustraightstroke-cy] @descenderL_cy -100;
 	pos [ustraight-cy ustraightstroke-cy Ustraight-cy Ustraightstroke-cy] je-cy -100;
 	pos @veryshortR_cy @tall_overhangL_cy -100;
+	pos @veryshortR_cy @tall_overhang2L_cy -100;
 	pos @veryshortR_cy @short_overhangL_cy -100;
 	pos @veryshortR_cy quotesingle -100;
 	pos @shortR_cy @tall_overhangL_cy -100;
 	pos A-cy @tall_overhangL_cy -100;
 	pos a-cy.sc @short_overhangL_cy -100;
+	pos a-cy.sc @tall_overhang2L_cy -100;
 	pos [ie-cy iegrave-cy io-cy] @descenderL_cy -100;
 	pos [ie-cy iegrave-cy io-cy] je-cy -100;
+	pos be-cy @short_overhangL_cy -100;
 
 	script grek;
 	enum pos [alpha.sc delta.sc lambda.sc alphatonos.sc] tau.sc -100;
