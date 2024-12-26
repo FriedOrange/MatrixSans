@@ -2,7 +2,7 @@ import re, fontforge
 
 font = fontforge.open("MatrixSans-MASTER.sfd")
 
-with open("features.fea", "r") as feature_file:
+with open("features.fea", "r", encoding="utf-8") as feature_file:
 	fea = feature_file.read()
 	start_pos = fea.find("# Classes for kerning")
 	end_pos = fea.find("kern;", start_pos)
@@ -125,7 +125,7 @@ html_post = """
 """
 # print(classes)
 
-with open("..\\scripts\\kerntest.html", "w") as output_file:
+with open("..\\scripts\\kerntest.html", "w", encoding="utf-8") as output_file:
 	output_file.write(html_pre)
 	output_file.writelines(output_lines)
 	output_file.write(html_post)
