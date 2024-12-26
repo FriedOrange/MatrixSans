@@ -11,19 +11,19 @@ ps_names = {}
 font = fontforge.open(MASTER_FONT)
 for glyph in font:
 
-	# ridiculous bodge to get correct unicode value for current glyph
+	# bodge: get correct unicode value for current glyph
 	font.selection.select(glyph)
 	for slot in font.selection:
-		uni = slot if slot < 2**16 else -1
+		uni = slot if slot < 2**16 else -1 # works only for Unicode BMP encoding
 	
 	# determine production name
-	if glyph.endswith("-cy.sc"):
-		aglfn_name = glyph.replace("-", "_") # hyphen not allowed in PS names
-	elif uni < 0:
-		print(glyph)
-		continue # other unencoded glyphs are OK (currently)
+	if uni < 0: # unencoded glyph
+		if "-" in glyph:
+			aglfn_name = glyph.replace("-", "_") # hyphen not allowed in PS names
+		else:
+			continue
 	else:
-		aglfn_name = AGLFN[uni] if uni in AGLFN else f"uni{uni:04X}" 
+		aglfn_name = AGLFN.get(uni, f"uni{uni:04X}")
 
 	if glyph != aglfn_name:
 		ps_names[glyph] = aglfn_name
