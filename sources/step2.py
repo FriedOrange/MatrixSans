@@ -40,7 +40,8 @@ def add_names(font, style, suffix=""):
 def get_pattern(font, glyph):
 	matrix = [[False]*GLYPH_HEIGHT for _ in range(GLYPH_WIDTH)] # full dots
 	skip = False
-	for ref, trans, _ in font[glyph].references:
+	# for ref, trans, _ in font[glyph].references:
+	for ref, trans in font[glyph].references:
 		if ref != "dot":
 			skip = True
 			break # we are only interested in glyphs that directly reference the "dot" glyph
