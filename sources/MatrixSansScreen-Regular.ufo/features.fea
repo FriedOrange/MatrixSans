@@ -558,7 +558,8 @@ feature kern {
 	pos @descenderR_cy @short_overhangL_cy -100;
 	pos @descenderR_cy [Che-cy che-cy chedescender-cy] -100;
 	pos @descenderR_cy [ustraight-cy ustraightstroke-cy Ustraight-cy Ustraightstroke-cy] -100;
-	pos @descenderR_cy [u-cy.sc umacron-cy.sc ushort-cy.sc] -100;
+	pos @descenderR_cy [u-cy.sc umacron-cy.sc] -100;
+	pos @descenderR_cy ushort-cy.sc -100;
 	pos @descenderR_cy quotesingle -100;
 	pos [ustraight-cy ustraightstroke-cy Ustraight-cy Ustraightstroke-cy] @descenderL_cy -100;
 	pos [ustraight-cy ustraightstroke-cy Ustraight-cy Ustraightstroke-cy] je-cy -100;
