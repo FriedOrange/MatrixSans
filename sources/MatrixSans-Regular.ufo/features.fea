@@ -412,6 +412,7 @@ feature kern {
 	pos @underhangR @shortoverhangL -100;
 	pos @underhangR @shortoverhang2L -100;
 	pos @underhangR @shortoverhang3L -100;
+	pos @underhangR @underhang3L -100;
 	pos @underhangR V -100;
 	pos @curveBR @j -100;
 	pos @curve2R @j -200;
@@ -551,6 +552,10 @@ feature kern {
 # 	pos yhook @t -100;
 
 	script cyrl;
+	pos quotesingle a-cy -100;
+	pos quotesingle a-cy.sc -100;
+	pos quotesingle je-cy -100;
+	pos quotesingle je-cy.sc -100;
 	pos @tall_overhangR_cy @descenderL_cy -100;
 	pos @tall_overhangR_cy je-cy -200;
 	pos @tall_overhangR_cy @shortL_cy -100;
@@ -588,13 +593,9 @@ feature kern {
 	pos quotesingle @descenderL_cy -100;
 	pos [quoteright apostrophemod] @shortcurveTL_cy -100;
 	pos [quoteright apostrophemod] a-cy -100;
-	pos quotesingle a-cy -100;
 	pos [quoteright apostrophemod] a-cy.sc -100;
-	pos quotesingle a-cy.sc -100;
 	pos [quoteright apostrophemod] je-cy -100;
-	pos quotesingle je-cy -100;
 	pos [quoteright apostrophemod] je-cy.sc -100;
-	pos quotesingle je-cy.sc -100;
 
 	script grek;
 	enum pos [alpha.sc delta.sc lambda.sc alphatonos.sc] tau.sc -100;
