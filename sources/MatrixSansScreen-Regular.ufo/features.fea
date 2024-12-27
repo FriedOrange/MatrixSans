@@ -267,7 +267,7 @@ feature locl {
 @shortoverhang2R = [hbar.sc ohorn ohornacute ohorndotbelow ohorngrave ohornhookabove ohorntilde p.sc r racute rcaron rcommaaccent rdotbelow rdotbelowmacron rmacronbelow uhorn uhorn.sc uhornacute uhornacute.sc uhorndotbelow uhorndotbelow.sc uhorngrave uhorngrave.sc uhornhookabove uhornhookabove.sc uhorntilde uhorntilde.sc hyphen endash uni2010 uni2011];
 @underhangR = [L Lacute Lcaron Lcommaaccent Ldot Ldotbelow Ldotbelowmacron Lmacronbelow Lslash i idotaccent idotbelow igrave ihookabove iogonek l lacute lcommaaccent ldot ldotbelow ldotbelowmacron lmacronbelow l.sc lacute.sc lcaron.sc lcommaaccent.sc ldot.sc ldotbelow.sc ldotbelowmacron.sc lmacronbelow.sc lslash.sc];
 @curveBR = [B Bhook Eng Germandbls O OE Oacute Obreve Ocaron Ocircumflex Ocircumflexacute Ocircumflexdotbelow Ocircumflexgrave Ocircumflexhookabove Ocircumflextilde Odieresis Odotbelow Ograve Ohookabove Ohungarumlaut Omacron Oopen Oslash Oslashacute Otilde S Sacute Scaron Scedilla Schwa Scircumflex Scommaaccent Sdotaccent Sdotbelow U Uacute Ubreve Ucaron Ucircumflex Udieresis Udieresisacute Udieresiscaron Udieresisgrave Udieresismacron Udotbelow Ugrave Uhookabove Uhungarumlaut Umacron Uogonek Uring Utilde W Wacute Wcircumflex Wdieresis Wgrave eth etilde];
-@curve2BR = [D Dcaron Dcroat Ddotbelow Dhook Dmacronbelow Eth Thorn V];
+@curve2R = [D Dcaron Dcroat Ddotbelow Dhook Dmacronbelow Eth Thorn];
 @tallcurve2TR = [A Aacute Abreve Abrevedotbelow Acaron Acircumflex Acircumflexdotbelow Adieresis Adotbelow Agrave Ahookabove Amacron Aogonek Aring Atilde];
 @shortcurveTR = [a aacute acircumflex acircumflexacute acircumflexdotbelow adieresis adotbelow agrave ahookabove amacron aogonek aring aringacute eng eng.sc eogonek h hbar hbrevebelow hcircumflex hdotbelow hmacronbelow m macute mdotbelow n nacute napostrophe ncaron ncommaaccent ndotaccent ndotbelow ngrave nhookleft nmacronbelow q.sc r.sc racute.sc rcaron.sc rcommaaccent.sc rdotbelow.sc rdotbelowmacron.sc rmacronbelow.sc];
 @shortcurve2TR = [Acircumflexacute Acircumflextilde Aringacute a.sc agrave.sc acaron.sc acircumflex.sc acircumflexdotbelow.sc adieresis.sc adotbelow.sc];
@@ -362,6 +362,11 @@ feature kern {
 	script latn;
 	pos F j -300;
 	pos F J -200;
+	pos F Jcircumflex -200;
+	pos P J -200;
+	pos P Jcircumflex -200;
+	pos P j.sc -200;
+	pos P jcircumflex.sc -200;
 	enum pos [g q y yacute eng eng.sc.loclNSM] @hookleft 100;
 	pos [j Eng.loclNSM] @hookleft 100;
 	pos @talloverhangR @tallcurve2TL -100;
@@ -408,8 +413,10 @@ feature kern {
 	pos @underhangR @shortoverhang2L -100;
 	pos @underhangR @shortoverhang3L -100;
 	pos @curveBR @j -100;
-	pos @curve2BR @j -200;
+	pos @curve2R @j -200;
+	pos V @j -200;
 	pos @tallcurve2TR @talloverhangL -100;
+	pos @curve2R @talloverhangL -100;
 	pos @shortcurveTR @talloverhangL -100;
 	pos @shortcurveTR @talloverhang2L -100;
 	pos @shortcurve2TR @talloverhangL -100;
