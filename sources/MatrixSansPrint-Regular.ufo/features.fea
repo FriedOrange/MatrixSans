@@ -260,9 +260,9 @@ feature locl {
 # Classes for kerning
 # First-of-pair classes
 
-@talloverhangR = [F J Jcircumflex T Tbar Tcaron Tcedilla Tcommaaccent Tdotbelow Tmacronbelow dhook ibreve ibreve.sc itilde itilde.sc jacute jcircumflex yhook uni02BB quoteleft quotedblleft];
-@talloverhang2R = [Hbar Ohorn Ohornacute Ohorndotbelow Ohorngrave Ohornhookabove Ohorntilde Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhookabove Uhorntilde Y Yacute Ycircumflex Ydieresis Ydotaccent Ydotbelow Ygrave Yhookabove Ymacron Ytilde dcaron dcroat f f_f florin lcaron longs uni02C8];
-@talloverhang3R = [Yhook ytilde.sc quotesingle quotedbl commareversedmod quotereversed P];
+@talloverhangR = [F J Jcircumflex T Tbar Tcaron Tcedilla Tcommaaccent Tdotbelow Tmacronbelow dhook ibreve ibreve.sc itilde itilde.sc jacute jcircumflex yhook uni02BB];
+@talloverhang2R = [Hbar Ohorn Ohornacute Ohorndotbelow Ohorngrave Ohornhookabove Ohorntilde Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhookabove Uhorntilde Y Yacute Ycircumflex Ydieresis Ydotaccent Ydotbelow Ygrave Yhookabove Ymacron Ytilde dcaron dcroat f f_f florin lcaron longs apostrophemod uni02C8 quoteright];
+@talloverhang3R = [Yhook ytilde.sc commareversedmod P quotesingle];
 @shortoverhangR = [f.sc florin.sc j.sc jcircumflex.sc t.sc tbar.sc tcaron.sc tcedilla.sc tcommaaccent.sc tdieresis.sc tdotbelow.sc tmacronbelow.sc y.sc ydieresis.sc ydotaccent.sc ydotbelow.sc ygrave.sc yhookabove.sc ymacron.sc];
 @shortoverhang2R = [hbar.sc ohorn ohornacute ohorndotbelow ohorngrave ohornhookabove ohorntilde p.sc r racute rcaron rcommaaccent rdotbelow rdotbelowmacron rmacronbelow uhorn uhorn.sc uhornacute uhornacute.sc uhorndotbelow uhorndotbelow.sc uhorngrave uhorngrave.sc uhornhookabove uhornhookabove.sc uhorntilde uhorntilde.sc hyphen endash uni2010 uni2011];
 @underhangR = [L Lacute Lcaron Lcommaaccent Ldot Ldotbelow Ldotbelowmacron Lmacronbelow Lslash i idotaccent idotbelow igrave ihookabove iogonek l lacute lcommaaccent ldot ldotbelow ldotbelowmacron lmacronbelow l.sc lacute.sc lcaron.sc lcommaaccent.sc ldot.sc ldotbelow.sc ldotbelowmacron.sc lmacronbelow.sc lslash.sc];
@@ -308,8 +308,8 @@ feature locl {
 
 @tallcurve2TL = [A AE AEacute Aacute Abreve Abrevedotbelow Acaron Acircumflex Acircumflexdotbelow Adieresis Adotbelow Agrave Ahookabove Amacron Aogonek Aring Atilde];
 @talloverhangL = [T Tbar Tcaron Tcedilla Tcommaaccent Tdotbelow Tmacronbelow ibreve ibreve.sc];
-@talloverhang2L = [Hbar Y Yacute Ycircumflex Ydieresis Ydotaccent Ydotbelow Ygrave Yhook Yhookabove Ymacron Ytilde hbar itilde itilde.sc];
-@talloverhang3L = [Bhook Dhook quotesingle quotedbl quoteright quotedblright];
+@talloverhang2L = [Hbar Y Yacute Ycircumflex Ydieresis Ydotaccent Ydotbelow Ygrave Yhook Yhookabove Ymacron Ytilde hbar itilde itilde.sc commareversedmod];
+@talloverhang3L = [Bhook Dhook uni02BB apostrophemod quotesingle quoteright];
 @underhang2L = [J Jcircumflex j.sc jcircumflex.sc lslash.sc];
 @underhang3L = [Lslash eth.sc];
 @hookleft = [Nhookleft florin.sc nhookleft nhookleft.sc];
@@ -338,7 +338,8 @@ feature locl {
 @short_overhangL_cy = [hardsign-cy uni0463 dje-cy.sc tshe-cy.sc uni0463.sc ustraightstroke-cy.sc te-cy];
 @tall_overhang2L_cy = [dje-cy tshe-cy uni0462];
 @descenderL_cy = [Lje-cy De-cy El-cy de-cy el-cy lje-cy];
-@shortL_cy = [ve-cy ge-cy ie-cy zhe-cy ze-cy ii-cy ka-cy em-cy en-cy o-cy pe-cy er-cy es-cy u-cy ef-cy ha-cy tse-cy sha-cy shcha-cy yeru-cy softsign-cy ereversed-cy yu-cy ya-cy iegrave-cy io-cy uni0453 e-cy uni0455 i-cy nje-cy uni045C uni045D dzhe-cy uni0473 uni0475 geupturn-cy gestroke-cy zhedescender-cy kadescender-cy endescender-cy schwa-cy imacron-cy obarred-cy umacron-cy be-cy.sc ef-cy.sc shha-cy.sc i-cy.sc je-cy.sc er-cy.sc ustraight-cy.sc ie-cy.sc iegrave-cy.sc io-cy.sc];
+@shortL_cy = [ve-cy ge-cy zhe-cy ze-cy ii-cy ka-cy em-cy en-cy pe-cy er-cy u-cy ha-cy tse-cy sha-cy shcha-cy yeru-cy softsign-cy ereversed-cy yu-cy uni0453 i-cy nje-cy uni045C uni045D dzhe-cy uni0475 geupturn-cy gestroke-cy zhedescender-cy kadescender-cy endescender-cy imacron-cy umacron-cy be-cy.sc shha-cy.sc i-cy.sc er-cy.sc ustraight-cy.sc ie-cy.sc iegrave-cy.sc io-cy.sc];
+@shortcurveTL_cy = [ie-cy o-cy es-cy ef-cy ya-cy iegrave-cy io-cy e-cy uni0455 uni0473 schwa-cy obarred-cy ef-cy.sc];
 #che-cy chedescender-cy
 #a-cy
 #u-cy.sc umacron-cy.sc ushort-cy.sc
@@ -545,6 +546,7 @@ feature kern {
 	pos @tall_overhangR_cy @descenderL_cy -100;
 	pos @tall_overhangR_cy je-cy -200;
 	pos @tall_overhangR_cy @shortL_cy -100;
+	pos @tall_overhangR_cy @shortcurveTL_cy -100;
 	pos @tall_overhangR_cy a-cy.sc -100;
 	pos @tall_overhangR_cy a-cy -100;
 	pos @tall_overhangR_cy A-cy -100;
@@ -560,13 +562,13 @@ feature kern {
 	pos @descenderR_cy [ustraight-cy ustraightstroke-cy Ustraight-cy Ustraightstroke-cy] -100;
 	pos @descenderR_cy [u-cy.sc umacron-cy.sc] -100;
 	pos @descenderR_cy ushort-cy.sc -100;
-	pos @descenderR_cy quotesingle -100;
+	pos @descenderR_cy [quotesingle quoteright apostrophemod] -100;
 	pos [ustraight-cy ustraightstroke-cy Ustraight-cy Ustraightstroke-cy] @descenderL_cy -100;
 	pos [ustraight-cy ustraightstroke-cy Ustraight-cy Ustraightstroke-cy] je-cy -100;
 	pos @veryshortR_cy @tall_overhangL_cy -100;
 	pos @veryshortR_cy @tall_overhang2L_cy -100;
 	pos @veryshortR_cy @short_overhangL_cy -100;
-	pos @veryshortR_cy quotesingle -100;
+	pos @veryshortR_cy [quotesingle quoteright apostrophemod] -100;
 	pos @shortR_cy @tall_overhangL_cy -100;
 	pos A-cy @tall_overhangL_cy -100;
 	pos a-cy.sc @short_overhangL_cy -100;
@@ -574,6 +576,17 @@ feature kern {
 	pos [ie-cy iegrave-cy io-cy] @descenderL_cy -100;
 	pos [ie-cy iegrave-cy io-cy] je-cy -100;
 	pos be-cy @short_overhangL_cy -100;
+	pos [quoteright apostrophemod] @descenderL_cy -100;
+	pos quotesingle @descenderL_cy -100;
+	pos [quoteright apostrophemod] @shortcurveTL_cy -100;
+	pos [quoteright apostrophemod] a-cy -100;
+	pos quotesingle a-cy -100;
+	pos [quoteright apostrophemod] a-cy.sc -100;
+	pos quotesingle a-cy.sc -100;
+	pos [quoteright apostrophemod] je-cy -100;
+	pos quotesingle je-cy -100;
+	pos [quoteright apostrophemod] je-cy.sc -100;
+	pos quotesingle je-cy.sc -100;
 
 	script grek;
 	enum pos [alpha.sc delta.sc lambda.sc alphatonos.sc] tau.sc -100;
