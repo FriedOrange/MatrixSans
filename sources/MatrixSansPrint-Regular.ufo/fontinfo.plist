@@ -22,6 +22,8 @@
     <integer>-300</integer>
     <key>openTypeHheaLineGap</key>
     <integer>0</integer>
+    <key>openTypeNameDescription</key>
+    <string>Based on the classic 5-by-7 dot matrix capitals, incorporating the best features from historical designs. It was conceived in 2019 to meet the need for a quality free font in this popular style.</string>
     <key>openTypeNameDesigner</key>
     <string>Brad Neil</string>
     <key>openTypeNameDesignerURL</key>

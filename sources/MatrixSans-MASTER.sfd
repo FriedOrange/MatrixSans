@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1657964544
-ModificationTime: 1735297865
+ModificationTime: 1735306332
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -57,14 +57,14 @@ OS2FamilyClass: 2058
 OS2Vendor: 'PfEd'
 MarkAttachClasses: 1
 DEI: 91125
-LangName: 1033 "" "" "" "" "" "" "" "" "" "Brad Neil" "" "" "http://friedorange.xyz/" "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" "https://scripts.sil.org/OFL"
+LangName: 1033 "" "" "" "" "" "" "" "" "" "Brad Neil" "Based on the classic 5-by-7 dot matrix capitals, incorporating the best features from historical designs. It was conceived in 2019 to meet the need for a quality free font in this popular style." "" "http://friedorange.xyz/" "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" "https://scripts.sil.org/OFL"
 Encoding: UnicodeBmp
 UnicodeInterp: none
 NameList: MatrixSans
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 16 14
+WinInfo: 16 16 14
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 629146 314573 209715 524288 1048576 0 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
