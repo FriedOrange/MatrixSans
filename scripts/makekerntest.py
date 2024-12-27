@@ -89,7 +89,7 @@ html_pre = """
 	@font-face {
 			font-family: "Matrix Sans";
 			src: url("proof/MatrixSans-Regular.ttf"),
-				 url("../sources/MatrixSans-RegularB.ttf");
+				 url("../fonts/ttf/MatrixSans-Regular.ttf");
 		}
 	body {
 		color: white;
