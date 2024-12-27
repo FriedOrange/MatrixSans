@@ -21,6 +21,17 @@ Further documentation can be found at: https://github.com/FriedOrange/MatrixSans
 Changelog
 ---------
 
+28 December 2024 - Version 1.510
+
+- Now supports the World Glyph Set and the alphabetic glyphs of Windows Glyph List 4
+- Fixed placement of Greek tonos mark
+- Fixed placement of circumflex accent in ộ
+- Changed designs of pilcrow, section, daggers, ruble, service mark and trademark signs ¶ § † ‡ ₽ ℠ ™
+- Rewrote the kern feature for Latin glyphs; many more pairs are now kerned
+- Changed underline thickness in Print, Raster and Screen styles
+- Improved appearance of some glyphs in Video style
+- Added Stylistic Alternates (salt) OpenType feature, providing another way to access existing alternate glyphs
+
 17 December 2024 - Version 1.500
 
 - Now supports Google Fonts Greek Core and Adobe Greek 1 character sets

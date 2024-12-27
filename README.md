@@ -69,11 +69,12 @@ Fonts are built automatically by GitHub Actions - see the "Actions" tab for the 
 ### Building manually
 
 Ensure the following programs are installed: 
+
 - [Python](https://www.python.org/downloads/), for running the following items
-- [gftools](https://github.com/googlefonts/gftools) and [fonttools](https://github.com/fonttools/fonttools), for building the fonts from the intermediate UFO sources
+- [sfdLib](https://github.com/MFEK/sfdLib.py), for generating the UFO sources (see below)
+- [gftools](https://github.com/googlefonts/gftools), for building the fonts from the intermediate UFO sources
 - [drawbot-skia](https://github.com/justvanrossum/drawbot-skia), for producing the sample images in the `documentation` folder (optional)
 - [Font Bakery](https://github.com/googlefonts/fontbakery/), for testing the fonts (run `test.bat`) (optional)
-- [sfdLib](https://github.com/MFEK/sfdLib.py), for generating the UFO sources (see below)
 
 After installing Python (and ensuring it is added to the PATH environment variable), the others may be acquired automatically by running `pip install -r requirements.txt` at the command line.
 
@@ -97,11 +98,16 @@ To easily add or modify glyphs (requires [FontForge](https://fontforge.org/)):
 
 ## Changelog
 
-#### Coming soon - Version 1.510
+#### 28 December 2024 - Version 1.510
 
-- Now supports the [World Glyph Set](https://en.wikipedia.org/wiki/World_glyph_set) and most of [Windows Glyph List 4](https://learn.microsoft.com/en-us/typography/develop/wgl4) (not including the miscellaneous symbols from the IBM PC set)
-- Changed design of pilcrow, section, daggers and ruble sign ¶ § † ‡ ₽
+- Now supports the [World Glyph Set](https://en.wikipedia.org/wiki/World_glyph_set) and the alphabetic glyphs of [Windows Glyph List 4](https://learn.microsoft.com/en-us/typography/develop/wgl4)
+- Fixed placement of Greek tonos mark
+- Fixed placement of circumflex accent in ộ
+- Changed designs of pilcrow, section, daggers, ruble, service mark and trademark signs ¶ § † ‡ ₽ ℠ ™
+- Rewrote the kern feature for Latin glyphs; many more pairs are now kerned
 - Changed underline thickness in Print, Raster and Screen styles
+- Improved appearance of some glyphs in Video style
+- Added Stylistic Alternates (salt) OpenType feature, providing another way to access existing alternate glyphs
 
 #### 17 December 2024 - Version 1.500
 
