@@ -21,6 +21,10 @@ Further documentation can be found at: https://github.com/FriedOrange/MatrixSans
 Changelog
 ---------
 
+28 December 2024 - Version 1.511
+
+- Improved appearance of service mark and trademark signs in Video style
+
 28 December 2024 - Version 1.510
 
 - Now supports the World Glyph Set and the alphabetic glyphs of Windows Glyph List 4
