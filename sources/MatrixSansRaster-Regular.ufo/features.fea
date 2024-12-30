@@ -273,7 +273,7 @@ feature locl {
 @shortcurve2TR = [Acircumflexacute Acircumflextilde Aringacute a.sc agrave.sc acaron.sc acircumflex.sc acircumflexdotbelow.sc adieresis.sc adotbelow.sc];
 @shortcurveBR = [oslash oslashacute s sacute scaron scedilla scircumflex scommaaccent sdotaccent sdotbelow u.sc uacute.sc ubreve.sc ucaron.sc ucircumflex.sc udieresis.sc udieresismacron.sc udotbelow.sc ugrave.sc uhookabove.sc uhungarumlaut.sc umacron.sc uogonek.sc uring.sc utilde.sc v w wacute wcircumflex wdieresis wgrave y.titl ydotbelow];
 @shortcurveR = [ae aeacute b b.sc bhook bhook.sc c cacute ccaron ccedilla ccircumflex cdotaccent d.sc dcaron.sc ddotbelow.sc dhook.sc dmacronbelow.sc e eacute ecaron ecircumflex ecircumflexacute ecircumflexdotbelow ecircumflexhookabove ecircumflextilde edieresis edotaccent edotbelow egrave ehookabove emacron eth.sc germandbls o oacute ocaron ocircumflex ocircumflexacute ocircumflexdotbelow ocircumflexhookabove ocircumflextilde odieresis odotbelow oe ograve ohookabove omacron oopen p schwa thorn thorn.sc];
-@shortunderhang2R = [t tbar tcaron tcedilla tcommaaccent tdieresis tdotbelow tmacronbelow];
+@t1 = [t tbar tcaron tcedilla tcommaaccent tdieresis tdotbelow tmacronbelow];
 @shortR = [ae.sc aeacute.sc alpha-latin e.sc eacute.sc ecaron.sc ecircumflex.sc ecircumflexdotbelow.sc edieresis.sc edotaccent.sc edotbelow.sc egrave.sc ehookabove.sc emacron.sc eng.sc.loclNSM eogonek.sc eopen g g.sc gcaron gcaron.sc gcircumflex gcircumflex.sc gcommaaccent gcommaaccent.sc gdotaccent gdotaccent.sc germandbls.sc gmacron gmacron.sc gsingle h.sc hbrevebelow.sc hcircumflex.sc hdotbelow.sc hmacronbelow.sc i.sc idotaccent.sc idotbelow.sc igrave.sc ihookabove.sc ij.sc iogonek.sc k kcommaaccent kcommaaccent.sc kgreenlandic khook khook.sc kmacronbelow kmacronbelow.sc lslash m.sc macute.sc mdotbelow.sc n.sc nacute.sc napostrophe.sc ncaron.sc ncommaaccent.sc ndotaccent.sc ndotbelow.sc ngrave.sc nhookleft.sc nmacronbelow.sc oe.sc q u uacute ucaron ucircumflex udieresis udieresisacute udieresiscaron udieresisgrave udieresismacron udotbelow ugrave uhookabove umacron uogonek uring x y yacute ycircumflex ydieresis ydotaccent ygrave yhookabove ymacron z zacute zcaron zdotaccent zdotbelow];
 @openmidR = [AE AEacute E Eacute Ebreve Ecaron Ecircumflex Ecircumflexdotbelow Edieresis Edotaccent Edotbelow Egrave Ehookabove Emacron Eogonek Etilde K Kcommaaccent Khook Kmacronbelow X Z Zacute Zcaron Zdotaccent Zdotbelow iacute icaron icircumflex idieresis imacron];
 @openmidcurveBR = [C Cacute Ccaron Ccedilla Ccircumflex Cdotaccent Eopen];
@@ -430,12 +430,13 @@ feature kern {
 	pos @shortcurveR @talloverhangL -100;
 	pos @shortcurveR @talloverhang2L -100;
 	pos @shortcurveR @j -100;
-	pos @shortunderhang2R @talloverhangL -100;
-	pos @shortunderhang2R @talloverhang2L -100;
-	pos @shortunderhang2R @talloverhang3L -100;
-	pos @shortunderhang2R @strokemidL -100;
-	pos @shortunderhang2R @shortoverhangL -100;
-	pos @shortunderhang2R @shortoverhang2L -100;
+	pos @t1 @talloverhangL -100;
+	pos @t1 @talloverhang2L -100;
+	pos @t1 @talloverhang3L -100;
+	pos @t1 @strokemidL -100;
+	pos @t1 @shortoverhangL -100;
+	pos @t1 @shortoverhang2L -100;
+	pos @t1 @j -100;
 	pos @shortR @talloverhangL -100;
 	pos @openmidR @strokemidL -100;
 	pos @openmidcurveBR @strokemidL -100;
