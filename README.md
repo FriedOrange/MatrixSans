@@ -98,6 +98,11 @@ To easily add or modify glyphs (requires [FontForge](https://fontforge.org/)):
 
 ## Changelog
 
+#### 30 December 2024 - Version 1.512
+
+- Restored previous *tj* kerning pairs
+- Increased side bearings (spacing) of horizontal bar/quote dash: ―
+
 #### 28 December 2024 - Version 1.511
 
 - Improved appearance of service mark and trademark signs in Video style
