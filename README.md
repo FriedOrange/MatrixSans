@@ -8,6 +8,14 @@ This is set of pixelated, retro-style fonts based on the classic 5&times;7 dot m
 - **Screen** is similar to Print, but uses square dots instead of round ones. It matches the look of the "character LCDs" seen in many devices, as well as some light-up LED displays.
 - **Video** is an interpolated version of Regular. It resembles the on-screen displays of VCRs, Teletext, camcorders and the like; harking back to the early days of computerisation in television and home video.
 
+### Links
+
+- [Downloads](https://github.com/FriedOrange/MatrixSans/releases)
+- [Editable text demo](https://friedorange.github.io/MatrixSans/proof/Regular-diffbrowsers_text.html)
+- [Showcase of supported glyphs](https://friedorange.github.io/MatrixSans/proof/Regular-diffbrowsers_glyphs.html)
+
+### Sample images
+
 ![Matrix Sans Sample](documentation/sample_0.png)
 ![Matrix Sans Print Sample](documentation/sample_1.png)
 ![Matrix Sans Raster Sample](documentation/sample_2.png)
