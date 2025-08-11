@@ -11,10 +11,7 @@ ps_names = {}
 font = fontforge.open(MASTER_FONT)
 for glyph in font:
 
-	# bodge: get correct unicode value for current glyph
-	font.selection.select(glyph)
-	for slot in font.selection:
-		uni = slot if slot < 2**16 else -1 # works only for Unicode BMP encoding
+	uni = font[glyph].unicode
 	
 	# determine production name
 	if uni < 0: # unencoded glyph

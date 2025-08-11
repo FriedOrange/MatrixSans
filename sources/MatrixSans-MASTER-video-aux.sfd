@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1675081307
-ModificationTime: 1734436418
+ModificationTime: 1735349736
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -42,8 +42,8 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 7456 16 14
-BeginChars: 65548 75
+WinInfo: 8464 16 14
+BeginChars: 65548 77
 
 StartChar: halfdot
 Encoding: 65536 -1 0
@@ -1186,15 +1186,15 @@ LayerCount: 2
 Fore
 Refer: 0 -1 N 1 0 0 1 250 250 2
 Refer: 0 -1 N 1 0 0 1 300 550 2
-Refer: 0 -1 N 1 0 0 1 350 600 2
+Refer: 0 -1 S 1 0 0 1 350 600 2
 Refer: 0 -1 N 1 0 0 1 200 50 2
 Refer: 0 -1 N 1 0 0 1 250 100 2
 Refer: 0 -1 N 1 0 0 1 450 50 2
 Refer: 0 -1 N 1 0 0 1 400 100 2
 Refer: 0 -1 N 1 0 0 1 350 350 2
 Refer: 0 -1 N 1 0 0 1 300 400 2
-Refer: 0 -1 S 1 0 0 1 250 550 2
-Refer: 0 -1 S 1 0 0 1 200 600 2
+Refer: 0 -1 N 1 0 0 1 250 550 2
+Refer: 0 -1 N 1 0 0 1 200 600 2
 Refer: 7 -1 N 1 0 0 1 350 0 2
 Refer: 7 -1 N 1 0 0 1 250 0 2
 Refer: 7 -1 N 1 0 0 1 450 100 2
@@ -2920,7 +2920,7 @@ EndChar
 StartChar: uni1D3A
 Encoding: 7482 7482 74
 Width: 500
-Flags: HWO
+Flags: HW
 LayerCount: 2
 Fore
 Refer: 0 -1 S 1 0 0 1 150 600 2
@@ -2939,6 +2939,103 @@ Refer: 7 -1 N 1 0 0 1 150 500 2
 Refer: 7 -1 N 1 0 0 1 50 500 2
 Refer: 7 -1 N 1 0 0 1 350 600 2
 Refer: 7 -1 N 1 0 0 1 50 600 2
+EndChar
+
+StartChar: trademark
+Encoding: 8482 8482 75
+Width: 900
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+50 600 m 1
+ 50 700 l 1
+ 450 700 l 1
+ 450 600 l 1
+ 550 600 l 1
+ 550 550 l 1
+ 650 550 l 1
+ 650 600 l 1
+ 750 600 l 1
+ 750 700 l 1
+ 850 700 l 1
+ 850 300 l 1
+ 750 300 l 1
+ 750 500 l 1
+ 700 500 l 1
+ 700 450 l 1
+ 650 450 l 1
+ 650 400 l 1
+ 550 400 l 1
+ 550 450 l 1
+ 500 450 l 1
+ 500 500 l 1
+ 450 500 l 1
+ 450 300 l 1
+ 350 300 l 1
+ 350 600 l 1
+ 250 600 l 1
+ 250 300 l 1
+ 150 300 l 1
+ 150 600 l 1
+ 50 600 l 1
+EndSplineSet
+Refer: 0 -1 S 1 0 0 1 700 600 2
+Refer: 0 -1 N 1 0 0 1 450 600 2
+EndChar
+
+StartChar: uni2120
+Encoding: 8480 8480 76
+Width: 900
+Flags: HWO
+LayerCount: 2
+Fore
+SplineSet
+50 300 m 1
+ 50 400 l 1
+ 150 400 l 1
+ 150 450 l 1
+ 100 450 l 1
+ 100 500 l 1
+ 50 500 l 1
+ 50 700 l 1
+ 250 700 l 1
+ 250 600 l 1
+ 150 600 l 1
+ 150 550 l 1
+ 200 550 l 1
+ 200 500 l 1
+ 250 500 l 1
+ 250 300 l 1
+ 50 300 l 1
+750 300 m 1
+ 750 500 l 1
+ 700 500 l 1
+ 700 450 l 1
+ 650 450 l 1
+ 650 400 l 1
+ 550 400 l 1
+ 550 450 l 1
+ 500 450 l 1
+ 500 500 l 1
+ 450 500 l 1
+ 450 300 l 1
+ 350 300 l 1
+ 350 700 l 1
+ 450 700 l 1
+ 450 600 l 1
+ 550 600 l 1
+ 550 550 l 1
+ 650 550 l 1
+ 650 600 l 1
+ 750 600 l 1
+ 750 700 l 1
+ 850 700 l 1
+ 850 300 l 1
+ 750 300 l 1
+EndSplineSet
+Refer: 0 -1 N 1 0 0 1 700 600 2
+Refer: 0 -1 N 1 0 0 1 450 600 2
 EndChar
 EndChars
 EndSplineFont

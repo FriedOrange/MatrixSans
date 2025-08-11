@@ -1,18 +1,20 @@
 @echo off
 
+cd sources
+
 rem Build OpenType fonts
-@cd sources
 gftools builder config.yaml
 
-rem Patch in META table to fonts
-@cd ..
-rem for /r fonts %%f in (*) do ttx -o %%f -m %%f sources\meta.ttx
+rem Generate kerning demonstration page
+fontforge -script ..\scripts\makekerntest.py
+
+cd ..
 
 rem Generate sample images
 python documentation\image3.py --output documentation\sample.png
 
 rem Generate proof HTML documents
-@cd fonts\ttf
+cd fonts\ttf
 diffenator2 proof -o ..\..\out\proof MatrixSansPrint-Regular.ttf MatrixSans-Regular.ttf MatrixSansScreen-Regular.ttf MatrixSansVideo-Regular.ttf MatrixSansRaster-Regular.ttf
 
-@cd ..\..
+cd ..\..

@@ -260,20 +260,20 @@ feature locl {
 # Classes for kerning
 # First-of-pair classes
 
-@talloverhangR = [F J Jcircumflex T Tbar Tcaron Tcedilla Tcommaaccent Tdotbelow Tmacronbelow dhook ibreve ibreve.sc itilde itilde.sc jacute jcircumflex yhook uni02BB quoteleft quotedblleft];
-@talloverhang2R = [Hbar Ohorn Ohornacute Ohorndotbelow Ohorngrave Ohornhookabove Ohorntilde Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhookabove Uhorntilde Y Yacute Ycircumflex Ydieresis Ydotaccent Ydotbelow Ygrave Yhookabove Ymacron Ytilde dcaron dcroat f f_f florin lcaron longs uni02C8];
-@talloverhang3R = [Yhook ytilde.sc quotesingle quotedbl commareversedmod quotereversed P];
+@talloverhangR = [F J Jcircumflex T Tbar Tcaron Tcedilla Tcommaaccent Tdotbelow Tmacronbelow dhook ibreve ibreve.sc itilde itilde.sc jacute jcircumflex yhook uni02BB];
+@talloverhang2R = [Hbar Ohorn Ohornacute Ohorndotbelow Ohorngrave Ohornhookabove Ohorntilde Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhookabove Uhorntilde Y Yacute Ycircumflex Ydieresis Ydotaccent Ydotbelow Ygrave Yhookabove Ymacron Ytilde dcaron dcroat f f_f florin lcaron longs apostrophemod uni02C8 quoteright];
+@talloverhang3R = [Yhook ytilde.sc commareversedmod P quotesingle];
 @shortoverhangR = [f.sc florin.sc j.sc jcircumflex.sc t.sc tbar.sc tcaron.sc tcedilla.sc tcommaaccent.sc tdieresis.sc tdotbelow.sc tmacronbelow.sc y.sc ydieresis.sc ydotaccent.sc ydotbelow.sc ygrave.sc yhookabove.sc ymacron.sc];
 @shortoverhang2R = [hbar.sc ohorn ohornacute ohorndotbelow ohorngrave ohornhookabove ohorntilde p.sc r racute rcaron rcommaaccent rdotbelow rdotbelowmacron rmacronbelow uhorn uhorn.sc uhornacute uhornacute.sc uhorndotbelow uhorndotbelow.sc uhorngrave uhorngrave.sc uhornhookabove uhornhookabove.sc uhorntilde uhorntilde.sc hyphen endash uni2010 uni2011];
 @underhangR = [L Lacute Lcaron Lcommaaccent Ldot Ldotbelow Ldotbelowmacron Lmacronbelow Lslash i idotaccent idotbelow igrave ihookabove iogonek l lacute lcommaaccent ldot ldotbelow ldotbelowmacron lmacronbelow l.sc lacute.sc lcaron.sc lcommaaccent.sc ldot.sc ldotbelow.sc ldotbelowmacron.sc lmacronbelow.sc lslash.sc];
 @curveBR = [B Bhook Eng Germandbls O OE Oacute Obreve Ocaron Ocircumflex Ocircumflexacute Ocircumflexdotbelow Ocircumflexgrave Ocircumflexhookabove Ocircumflextilde Odieresis Odotbelow Ograve Ohookabove Ohungarumlaut Omacron Oopen Oslash Oslashacute Otilde S Sacute Scaron Scedilla Schwa Scircumflex Scommaaccent Sdotaccent Sdotbelow U Uacute Ubreve Ucaron Ucircumflex Udieresis Udieresisacute Udieresiscaron Udieresisgrave Udieresismacron Udotbelow Ugrave Uhookabove Uhungarumlaut Umacron Uogonek Uring Utilde W Wacute Wcircumflex Wdieresis Wgrave eth etilde];
-@curve2BR = [D Dcaron Dcroat Ddotbelow Dhook Dmacronbelow Eth Thorn V];
+@curve2R = [D Dcaron Dcroat Ddotbelow Dhook Dmacronbelow Eth Thorn];
 @tallcurve2TR = [A Aacute Abreve Abrevedotbelow Acaron Acircumflex Acircumflexdotbelow Adieresis Adotbelow Agrave Ahookabove Amacron Aogonek Aring Atilde];
 @shortcurveTR = [a aacute acircumflex acircumflexacute acircumflexdotbelow adieresis adotbelow agrave ahookabove amacron aogonek aring aringacute eng eng.sc eogonek h hbar hbrevebelow hcircumflex hdotbelow hmacronbelow m macute mdotbelow n nacute napostrophe ncaron ncommaaccent ndotaccent ndotbelow ngrave nhookleft nmacronbelow q.sc r.sc racute.sc rcaron.sc rcommaaccent.sc rdotbelow.sc rdotbelowmacron.sc rmacronbelow.sc];
 @shortcurve2TR = [Acircumflexacute Acircumflextilde Aringacute a.sc agrave.sc acaron.sc acircumflex.sc acircumflexdotbelow.sc adieresis.sc adotbelow.sc];
 @shortcurveBR = [oslash oslashacute s sacute scaron scedilla scircumflex scommaaccent sdotaccent sdotbelow u.sc uacute.sc ubreve.sc ucaron.sc ucircumflex.sc udieresis.sc udieresismacron.sc udotbelow.sc ugrave.sc uhookabove.sc uhungarumlaut.sc umacron.sc uogonek.sc uring.sc utilde.sc v w wacute wcircumflex wdieresis wgrave y.titl ydotbelow];
 @shortcurveR = [ae aeacute b b.sc bhook bhook.sc c cacute ccaron ccedilla ccircumflex cdotaccent d.sc dcaron.sc ddotbelow.sc dhook.sc dmacronbelow.sc e eacute ecaron ecircumflex ecircumflexacute ecircumflexdotbelow ecircumflexhookabove ecircumflextilde edieresis edotaccent edotbelow egrave ehookabove emacron eth.sc germandbls o oacute ocaron ocircumflex ocircumflexacute ocircumflexdotbelow ocircumflexhookabove ocircumflextilde odieresis odotbelow oe ograve ohookabove omacron oopen p schwa thorn thorn.sc];
-@shortunderhang2R = [t tbar tcaron tcedilla tcommaaccent tdieresis tdotbelow tmacronbelow];
+@t1 = [t tbar tcaron tcedilla tcommaaccent tdieresis tdotbelow tmacronbelow];
 @shortR = [ae.sc aeacute.sc alpha-latin e.sc eacute.sc ecaron.sc ecircumflex.sc ecircumflexdotbelow.sc edieresis.sc edotaccent.sc edotbelow.sc egrave.sc ehookabove.sc emacron.sc eng.sc.loclNSM eogonek.sc eopen g g.sc gcaron gcaron.sc gcircumflex gcircumflex.sc gcommaaccent gcommaaccent.sc gdotaccent gdotaccent.sc germandbls.sc gmacron gmacron.sc gsingle h.sc hbrevebelow.sc hcircumflex.sc hdotbelow.sc hmacronbelow.sc i.sc idotaccent.sc idotbelow.sc igrave.sc ihookabove.sc ij.sc iogonek.sc k kcommaaccent kcommaaccent.sc kgreenlandic khook khook.sc kmacronbelow kmacronbelow.sc lslash m.sc macute.sc mdotbelow.sc n.sc nacute.sc napostrophe.sc ncaron.sc ncommaaccent.sc ndotaccent.sc ndotbelow.sc ngrave.sc nhookleft.sc nmacronbelow.sc oe.sc q u uacute ucaron ucircumflex udieresis udieresisacute udieresiscaron udieresisgrave udieresismacron udotbelow ugrave uhookabove umacron uogonek uring x y yacute ycircumflex ydieresis ydotaccent ygrave yhookabove ymacron z zacute zcaron zdotaccent zdotbelow];
 @openmidR = [AE AEacute E Eacute Ebreve Ecaron Ecircumflex Ecircumflexdotbelow Edieresis Edotaccent Edotbelow Egrave Ehookabove Emacron Eogonek Etilde K Kcommaaccent Khook Kmacronbelow X Z Zacute Zcaron Zdotaccent Zdotbelow iacute icaron icircumflex idieresis imacron];
 @openmidcurveBR = [C Cacute Ccaron Ccedilla Ccircumflex Cdotaccent Eopen];
@@ -308,8 +308,8 @@ feature locl {
 
 @tallcurve2TL = [A AE AEacute Aacute Abreve Abrevedotbelow Acaron Acircumflex Acircumflexdotbelow Adieresis Adotbelow Agrave Ahookabove Amacron Aogonek Aring Atilde];
 @talloverhangL = [T Tbar Tcaron Tcedilla Tcommaaccent Tdotbelow Tmacronbelow ibreve ibreve.sc];
-@talloverhang2L = [Hbar Y Yacute Ycircumflex Ydieresis Ydotaccent Ydotbelow Ygrave Yhook Yhookabove Ymacron Ytilde hbar itilde itilde.sc];
-@talloverhang3L = [Bhook Dhook quotesingle quotedbl quoteright quotedblright];
+@talloverhang2L = [Hbar Y Yacute Ycircumflex Ydieresis Ydotaccent Ydotbelow Ygrave Yhook Yhookabove Ymacron Ytilde hbar itilde itilde.sc commareversedmod];
+@talloverhang3L = [Bhook Dhook uni02BB apostrophemod quotesingle quoteright];
 @underhang2L = [J Jcircumflex j.sc jcircumflex.sc lslash.sc];
 @underhang3L = [Lslash eth.sc];
 @hookleft = [Nhookleft florin.sc nhookleft nhookleft.sc];
@@ -321,7 +321,7 @@ feature locl {
 @shortcurve2TL = [Acircumflexgrave Acircumflexhookabove Acircumflextilde Aringacute a.sc aacute.sc acaron.sc acircumflex.sc acircumflexdotbelow.sc adieresis.sc adotbelow.sc ae.sc aeacute.sc agrave.sc ahookabove.sc amacron.sc aogonek.sc aring.sc];
 @shortunderhang2L = [a aacute acaron acircumflex acircumflexdotbelow acircumflexgrave acircumflexhookabove acircumflextilde adieresis adotbelow ae aeacute agrave ahookabove amacron aogonek aring aringacute eth];
 @aother = [abreve abreveacute abrevedotbelow abrevegrave abrevehookabove abrevetilde];
-@shortL = [Ecircumflexgrave Ecircumflexhookabove Ecircumflextilde Udieresisacute Udieresiscaron Udieresisgrave b.sc d.sc dcaron.sc dmacronbelow.sc dotlessi e.sc eacute.sc ecaron.sc ecircumflexdotbelow.sc edieresis.sc edotaccent.sc edotbelow.sc egrave.sc ehookabove.sc emacron.sc eng eng.sc eng.sc.loclNSM eogonek.sc f.sc h.sc hcircumflex.sc hdotbelow.sc hmacronbelow.sc i i.sc iacute iacute.sc idotaccent idotaccent.sc idotbelow idotbelow.sc ij ij.sc iogonek iogonek.sc kgreenlandic l.sc lcaron.sc lcommaaccent.sc ldot.sc ldotbelow.sc ldotbelowmacron.sc lmacronbelow.sc m m.sc macute macute.sc mdotbelow mdotbelow.sc n n.sc nacute nacute.sc ncaron ncaron.sc ncommaaccent ncommaaccent.sc ndotaccent ndotaccent.sc ndotbelow ndotbelow.sc ngrave ngrave.sc nmacronbelow nmacronbelow.sc p r r.sc racute racute.sc rcaron rcaron.sc rcommaaccent rcommaaccent.sc rdotbelow rdotbelow.sc rdotbelowmacron rdotbelowmacron.sc rmacronbelow rmacronbelow.sc thorn.sc u uacute ucaron ucircumflex udieresis udieresisacute udieresiscaron udieresisgrave udieresismacron udotbelow ugrave uhookabove uhorn uhornacute uhorndotbelow uhorngrave uhornhookabove umacron uogonek uring u.sc uacute.sc ucaron.sc ucircumflex.sc udieresis.sc udieresismacron.sc udotbelow.sc ugrave.sc uhookabove.sc uhorn.sc uhornacute.sc uhorndotbelow.sc uhorngrave.sc uhornhookabove.sc umacron.sc uogonek.sc uring.sc w wacute wcircumflex wdieresis wgrave x y y.titl yacute ycircumflex ydieresis ydotaccent ydotbelow ygrave yhook yhookabove ymacron z zacute zcaron zdotaccent zdotbelow];
+@shortL = [Ecircumflexgrave Ecircumflexhookabove Ecircumflextilde Udieresisacute Udieresiscaron Udieresisgrave b.sc d.sc dcaron.sc dmacronbelow.sc dotlessi e.sc eacute.sc ecaron.sc ecircumflexdotbelow.sc edieresis.sc edotaccent.sc edotbelow.sc egrave.sc ehookabove.sc emacron.sc eng eng.sc eng.sc.loclNSM eogonek.sc f.sc h.sc hcircumflex.sc hdotbelow.sc hmacronbelow.sc i i.sc iacute iacute.sc idotaccent idotaccent.sc idotbelow idotbelow.sc ij ij.sc iogonek iogonek.sc kgreenlandic l.sc lcaron.sc lcommaaccent.sc ldot.sc ldotbelow.sc ldotbelowmacron.sc lmacronbelow.sc m m.sc macute macute.sc mdotbelow mdotbelow.sc n n.sc nacute nacute.sc ncaron ncaron.sc ncommaaccent ncommaaccent.sc ndotaccent ndotaccent.sc ndotbelow ndotbelow.sc ngrave ngrave.sc nmacronbelow nmacronbelow.sc p r r.sc racute racute.sc rcaron rcaron.sc rcommaaccent rcommaaccent.sc rdotbelow rdotbelow.sc rdotbelowmacron rdotbelowmacron.sc rmacronbelow rmacronbelow.sc thorn.sc u uacute ucaron ucircumflex udieresis udieresisacute udieresiscaron udieresisgrave udieresismacron udotbelow ugrave uhookabove uhorn uhornacute uhorndotbelow uhorngrave uhornhookabove umacron uogonek uring u.sc uacute.sc ucaron.sc ucircumflex.sc udieresis.sc udieresismacron.sc udotbelow.sc ugrave.sc uhookabove.sc uhorn.sc uhornacute.sc uhorndotbelow.sc uhorngrave.sc uhornhookabove.sc umacron.sc uogonek.sc uring.sc v w wacute wcircumflex wdieresis wgrave x y y.titl yacute ycircumflex ydieresis ydotaccent ydotbelow ygrave yhook yhookabove ymacron z zacute zcaron zdotaccent zdotbelow];
 @l = [l lacute lcaron lcommaaccent ldot ldotbelow ldotbelowmacron lmacronbelow];
 @j = [j jcircumflex jdotless];
 
@@ -338,7 +338,8 @@ feature locl {
 @short_overhangL_cy = [hardsign-cy uni0463 dje-cy.sc tshe-cy.sc uni0463.sc ustraightstroke-cy.sc te-cy];
 @tall_overhang2L_cy = [dje-cy tshe-cy uni0462];
 @descenderL_cy = [Lje-cy De-cy El-cy de-cy el-cy lje-cy];
-@shortL_cy = [ve-cy ge-cy ie-cy zhe-cy ze-cy ii-cy ka-cy em-cy en-cy o-cy pe-cy er-cy es-cy u-cy ef-cy ha-cy tse-cy sha-cy shcha-cy yeru-cy softsign-cy ereversed-cy yu-cy ya-cy iegrave-cy io-cy uni0453 e-cy uni0455 i-cy nje-cy uni045C uni045D dzhe-cy uni0473 uni0475 geupturn-cy gestroke-cy zhedescender-cy kadescender-cy endescender-cy schwa-cy imacron-cy obarred-cy umacron-cy be-cy.sc ef-cy.sc shha-cy.sc i-cy.sc je-cy.sc er-cy.sc ustraight-cy.sc ie-cy.sc iegrave-cy.sc io-cy.sc];
+@shortL_cy = [ve-cy ge-cy zhe-cy ze-cy ii-cy ka-cy em-cy en-cy pe-cy er-cy u-cy ha-cy tse-cy sha-cy shcha-cy yeru-cy softsign-cy ereversed-cy yu-cy uni0453 i-cy nje-cy uni045C uni045D dzhe-cy uni0475 geupturn-cy gestroke-cy zhedescender-cy kadescender-cy endescender-cy imacron-cy umacron-cy be-cy.sc shha-cy.sc i-cy.sc er-cy.sc ustraight-cy.sc ie-cy.sc iegrave-cy.sc io-cy.sc];
+@shortcurveTL_cy = [ie-cy o-cy es-cy ef-cy ya-cy iegrave-cy io-cy e-cy uni0455 uni0473 schwa-cy obarred-cy ef-cy.sc];
 #che-cy chedescender-cy
 #a-cy
 #u-cy.sc umacron-cy.sc ushort-cy.sc
@@ -361,6 +362,11 @@ feature kern {
 	script latn;
 	pos F j -300;
 	pos F J -200;
+	pos F Jcircumflex -200;
+	pos P J -200;
+	pos P Jcircumflex -200;
+	pos P j.sc -200;
+	pos P jcircumflex.sc -200;
 	enum pos [g q y yacute eng eng.sc.loclNSM] @hookleft 100;
 	pos [j Eng.loclNSM] @hookleft 100;
 	pos @talloverhangR @tallcurve2TL -100;
@@ -406,9 +412,13 @@ feature kern {
 	pos @underhangR @shortoverhangL -100;
 	pos @underhangR @shortoverhang2L -100;
 	pos @underhangR @shortoverhang3L -100;
+	pos @underhangR @underhang3L -100;
+	pos @underhangR V -100;
 	pos @curveBR @j -100;
-	pos @curve2BR @j -200;
+	pos @curve2R @j -200;
+	pos V @j -200;
 	pos @tallcurve2TR @talloverhangL -100;
+	pos @curve2R @talloverhangL -100;
 	pos @shortcurveTR @talloverhangL -100;
 	pos @shortcurveTR @talloverhang2L -100;
 	pos @shortcurve2TR @talloverhangL -100;
@@ -420,12 +430,13 @@ feature kern {
 	pos @shortcurveR @talloverhangL -100;
 	pos @shortcurveR @talloverhang2L -100;
 	pos @shortcurveR @j -100;
-	pos @shortunderhang2R @talloverhangL -100;
-	pos @shortunderhang2R @talloverhang2L -100;
-	pos @shortunderhang2R @talloverhang3L -100;
-	pos @shortunderhang2R @strokemidL -100;
-	pos @shortunderhang2R @shortoverhangL -100;
-	pos @shortunderhang2R @shortoverhang2L -100;
+	pos @t1 @talloverhangL -100;
+	pos @t1 @talloverhang2L -100;
+	pos @t1 @talloverhang3L -100;
+	pos @t1 @strokemidL -100;
+	pos @t1 @shortoverhangL -100;
+	pos @t1 @shortoverhang2L -100;
+	pos @t1 @j -100;
 	pos @shortR @talloverhangL -100;
 	pos @openmidR @strokemidL -100;
 	pos @openmidcurveBR @strokemidL -100;
@@ -542,9 +553,14 @@ feature kern {
 # 	pos yhook @t -100;
 
 	script cyrl;
+	pos quotesingle a-cy -100;
+	pos quotesingle a-cy.sc -100;
+	pos quotesingle je-cy -100;
+	pos quotesingle je-cy.sc -100;
 	pos @tall_overhangR_cy @descenderL_cy -100;
 	pos @tall_overhangR_cy je-cy -200;
 	pos @tall_overhangR_cy @shortL_cy -100;
+	pos @tall_overhangR_cy @shortcurveTL_cy -100;
 	pos @tall_overhangR_cy a-cy.sc -100;
 	pos @tall_overhangR_cy a-cy -100;
 	pos @tall_overhangR_cy A-cy -100;
@@ -560,13 +576,13 @@ feature kern {
 	pos @descenderR_cy [ustraight-cy ustraightstroke-cy Ustraight-cy Ustraightstroke-cy] -100;
 	pos @descenderR_cy [u-cy.sc umacron-cy.sc] -100;
 	pos @descenderR_cy ushort-cy.sc -100;
-	pos @descenderR_cy quotesingle -100;
+	pos @descenderR_cy [quotesingle quoteright apostrophemod] -100;
 	pos [ustraight-cy ustraightstroke-cy Ustraight-cy Ustraightstroke-cy] @descenderL_cy -100;
 	pos [ustraight-cy ustraightstroke-cy Ustraight-cy Ustraightstroke-cy] je-cy -100;
 	pos @veryshortR_cy @tall_overhangL_cy -100;
 	pos @veryshortR_cy @tall_overhang2L_cy -100;
 	pos @veryshortR_cy @short_overhangL_cy -100;
-	pos @veryshortR_cy quotesingle -100;
+	pos @veryshortR_cy [quotesingle quoteright apostrophemod] -100;
 	pos @shortR_cy @tall_overhangL_cy -100;
 	pos A-cy @tall_overhangL_cy -100;
 	pos a-cy.sc @short_overhangL_cy -100;
@@ -574,6 +590,13 @@ feature kern {
 	pos [ie-cy iegrave-cy io-cy] @descenderL_cy -100;
 	pos [ie-cy iegrave-cy io-cy] je-cy -100;
 	pos be-cy @short_overhangL_cy -100;
+	pos [quoteright apostrophemod] @descenderL_cy -100;
+	pos quotesingle @descenderL_cy -100;
+	pos [quoteright apostrophemod] @shortcurveTL_cy -100;
+	pos [quoteright apostrophemod] a-cy -100;
+	pos [quoteright apostrophemod] a-cy.sc -100;
+	pos [quoteright apostrophemod] je-cy -100;
+	pos [quoteright apostrophemod] je-cy.sc -100;
 
 	script grek;
 	enum pos [alpha.sc delta.sc lambda.sc alphatonos.sc] tau.sc -100;
