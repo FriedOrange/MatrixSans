@@ -378,6 +378,7 @@
 		<string>schwa</string>
 		<string>eopen</string>
 		<string>gsingle</string>
+		<string>uni026F</string>
 		<string>nhookleft</string>
 		<string>uni02BB</string>
 		<string>apostrophemod</string>
@@ -629,6 +630,97 @@
 		<string>obarred-cy</string>
 		<string>Umacron-cy</string>
 		<string>umacron-cy</string>
+		<string>Ayb-ar</string>
+		<string>Ben-ar</string>
+		<string>Gim-ar</string>
+		<string>Da-ar</string>
+		<string>Ech-ar</string>
+		<string>Za-ar</string>
+		<string>Eh-ar</string>
+		<string>Et-ar</string>
+		<string>To-ar</string>
+		<string>Zhe-ar</string>
+		<string>Ini-ar</string>
+		<string>Liwn-ar</string>
+		<string>Xeh-ar</string>
+		<string>Ca-ar</string>
+		<string>Ken-ar</string>
+		<string>Ho-ar</string>
+		<string>Ja-ar</string>
+		<string>Ghad-ar</string>
+		<string>Cheh-ar</string>
+		<string>Men-ar</string>
+		<string>Yi-ar</string>
+		<string>Now-ar</string>
+		<string>Sha-ar</string>
+		<string>Vo-ar</string>
+		<string>Cha-ar</string>
+		<string>Peh-ar</string>
+		<string>Jheh-ar</string>
+		<string>Ra-ar</string>
+		<string>Seh-ar</string>
+		<string>Vew-ar</string>
+		<string>Tiwn-ar</string>
+		<string>Reh-ar</string>
+		<string>Co-ar</string>
+		<string>Yiwn-ar</string>
+		<string>Piwr-ar</string>
+		<string>Keh-ar</string>
+		<string>Oh-ar</string>
+		<string>Feh-ar</string>
+		<string>ringhalfleft-ar</string>
+		<string>apostrophe-ar</string>
+		<string>emphas-ar</string>
+		<string>exclam-ar</string>
+		<string>comma-ar</string>
+		<string>question-ar</string>
+		<string>abbrev-ar</string>
+		<string>aybturned-ar</string>
+		<string>ayb-ar</string>
+		<string>ben-ar</string>
+		<string>gim-ar</string>
+		<string>da-ar</string>
+		<string>ech-ar</string>
+		<string>za-ar</string>
+		<string>eh-ar</string>
+		<string>et-ar</string>
+		<string>to-ar</string>
+		<string>zhe-ar</string>
+		<string>ini-ar</string>
+		<string>liwn-ar</string>
+		<string>xeh-ar</string>
+		<string>ca-ar</string>
+		<string>ken-ar</string>
+		<string>ho-ar</string>
+		<string>ja-ar</string>
+		<string>ghad-ar</string>
+		<string>cheh-ar</string>
+		<string>men-ar</string>
+		<string>yi-ar</string>
+		<string>now-ar</string>
+		<string>sha-ar</string>
+		<string>vo-ar</string>
+		<string>cha-ar</string>
+		<string>peh-ar</string>
+		<string>jheh-ar</string>
+		<string>ra-ar</string>
+		<string>seh-ar</string>
+		<string>vew-ar</string>
+		<string>tiwn-ar</string>
+		<string>reh-ar</string>
+		<string>co-ar</string>
+		<string>yiwn-ar</string>
+		<string>piwr-ar</string>
+		<string>keh-ar</string>
+		<string>oh-ar</string>
+		<string>feh-ar</string>
+		<string>ech_yiwn-ar</string>
+		<string>yistroke-ar</string>
+		<string>fullstop-ar</string>
+		<string>hyphen-ar</string>
+		<string>eternityleft</string>
+		<string>eternityright</string>
+		<string>dram</string>
 		<string>baht</string>
 		<string>Nmod</string>
 		<string>Ddotbelow</string>
@@ -1158,6 +1250,39 @@
 		<string>iotadieresistonos.sc</string>
 		<string>tbar.sc</string>
 		<string>aeacute.sc</string>
+		<string>NameMe.65763</string>
+		<string>NameMe.65764</string>
+		<string>NameMe.65765</string>
+		<string>NameMe.65766</string>
+		<string>NameMe.65767</string>
+		<string>NameMe.65768</string>
+		<string>NameMe.65769</string>
+		<string>NameMe.65770</string>
+		<string>NameMe.65771</string>
+		<string>NameMe.65772</string>
+		<string>NameMe.65773</string>
+		<string>NameMe.65774</string>
+		<string>NameMe.65775</string>
+		<string>NameMe.65776</string>
+		<string>NameMe.65777</string>
+		<string>NameMe.65778</string>
+		<string>NameMe.65779</string>
+		<string>NameMe.65780</string>
+		<string>NameMe.65781</string>
+		<string>NameMe.65782</string>
+		<string>NameMe.65783</string>
+		<string>NameMe.65784</string>
+		<string>NameMe.65785</string>
+		<string>NameMe.65786</string>
+		<string>NameMe.65787</string>
+		<string>NameMe.65788</string>
+		<string>NameMe.65789</string>
+		<string>NameMe.65790</string>
+		<string>NameMe.65791</string>
+		<string>NameMe.65792</string>
+		<string>NameMe.65793</string>
+		<string>NameMe.65794</string>
+		<string>NameMe.65795</string>
 	</array>
 	<key>public.openTypeCategories</key>
 	<dict>
@@ -1219,15 +1344,21 @@
 		<string>base</string>
 		<key>Atilde</key>
 		<string>base</string>
+		<key>Ayb-ar</key>
+		<string>base</string>
 		<key>B</key>
 		<string>base</string>
 		<key>Be-cy</key>
+		<string>base</string>
+		<key>Ben-ar</key>
 		<string>base</string>
 		<key>Beta</key>
 		<string>base</string>
 		<key>Bhook</key>
 		<string>base</string>
 		<key>C</key>
+		<string>base</string>
+		<key>Ca-ar</key>
 		<string>base</string>
 		<key>Cacute</key>
 		<string>base</string>
@@ -1239,13 +1370,21 @@
 		<string>base</string>
 		<key>Cdotaccent</key>
 		<string>base</string>
+		<key>Cha-ar</key>
+		<string>base</string>
 		<key>Che-cy</key>
 		<string>base</string>
 		<key>Chedescender-cy</key>
 		<string>base</string>
+		<key>Cheh-ar</key>
+		<string>base</string>
 		<key>Chi</key>
 		<string>base</string>
+		<key>Co-ar</key>
+		<string>base</string>
 		<key>D</key>
+		<string>base</string>
+		<key>Da-ar</key>
 		<string>base</string>
 		<key>Dcaron</key>
 		<string>base</string>
@@ -1275,6 +1414,8 @@
 		<string>base</string>
 		<key>Ecaron</key>
 		<string>base</string>
+		<key>Ech-ar</key>
+		<string>base</string>
 		<key>Ecircumflex</key>
 		<string>base</string>
 		<key>Ecircumflexacute</key>
@@ -1296,6 +1437,8 @@
 		<key>Ef-cy</key>
 		<string>base</string>
 		<key>Egrave</key>
+		<string>base</string>
+		<key>Eh-ar</key>
 		<string>base</string>
 		<key>Ehookabove</key>
 		<string>base</string>
@@ -1327,6 +1470,8 @@
 		<string>base</string>
 		<key>Es-cy</key>
 		<string>base</string>
+		<key>Et-ar</key>
+		<string>base</string>
 		<key>Eta</key>
 		<string>base</string>
 		<key>Etatonos</key>
@@ -1338,6 +1483,8 @@
 		<key>Euro</key>
 		<string>base</string>
 		<key>F</key>
+		<string>base</string>
+		<key>Feh-ar</key>
 		<string>base</string>
 		<key>G</key>
 		<string>base</string>
@@ -1361,6 +1508,10 @@
 		<string>base</string>
 		<key>Geupturn-cy</key>
 		<string>base</string>
+		<key>Ghad-ar</key>
+		<string>base</string>
+		<key>Gim-ar</key>
+		<string>base</string>
 		<key>Gmacron</key>
 		<string>base</string>
 		<key>H</key>
@@ -1378,6 +1529,8 @@
 		<key>Hcircumflex</key>
 		<string>base</string>
 		<key>Hdotbelow</key>
+		<string>base</string>
+		<key>Ho-ar</key>
 		<string>base</string>
 		<key>I</key>
 		<string>base</string>
@@ -1415,6 +1568,8 @@
 		<string>base</string>
 		<key>Imacron-cy</key>
 		<string>base</string>
+		<key>Ini-ar</key>
+		<string>base</string>
 		<key>Io-cy</key>
 		<string>base</string>
 		<key>Iogonek</key>
@@ -1429,9 +1584,13 @@
 		<string>base</string>
 		<key>J</key>
 		<string>base</string>
+		<key>Ja-ar</key>
+		<string>base</string>
 		<key>Jcircumflex</key>
 		<string>base</string>
 		<key>Je-cy</key>
+		<string>base</string>
+		<key>Jheh-ar</key>
 		<string>base</string>
 		<key>K</key>
 		<string>base</string>
@@ -1444,6 +1603,10 @@
 		<key>Kappa</key>
 		<string>base</string>
 		<key>Kcommaaccent</key>
+		<string>base</string>
+		<key>Keh-ar</key>
+		<string>base</string>
+		<key>Ken-ar</key>
 		<string>base</string>
 		<key>Khook</key>
 		<string>base</string>
@@ -1465,6 +1628,8 @@
 		<string>base</string>
 		<key>Ldotbelowmacron</key>
 		<string>base</string>
+		<key>Liwn-ar</key>
+		<string>base</string>
 		<key>Lje-cy</key>
 		<string>base</string>
 		<key>Lmacronbelow</key>
@@ -1477,11 +1642,79 @@
 		<string>base</string>
 		<key>Mdotbelow</key>
 		<string>base</string>
+		<key>Men-ar</key>
+		<string>base</string>
 		<key>Mu</key>
 		<string>base</string>
 		<key>N</key>
 		<string>base</string>
 		<key>Nacute</key>
+		<string>base</string>
+		<key>NameMe.65763</key>
+		<string>base</string>
+		<key>NameMe.65764</key>
+		<string>base</string>
+		<key>NameMe.65765</key>
+		<string>base</string>
+		<key>NameMe.65766</key>
+		<string>base</string>
+		<key>NameMe.65767</key>
+		<string>base</string>
+		<key>NameMe.65768</key>
+		<string>base</string>
+		<key>NameMe.65769</key>
+		<string>base</string>
+		<key>NameMe.65770</key>
+		<string>base</string>
+		<key>NameMe.65771</key>
+		<string>base</string>
+		<key>NameMe.65772</key>
+		<string>base</string>
+		<key>NameMe.65773</key>
+		<string>base</string>
+		<key>NameMe.65774</key>
+		<string>base</string>
+		<key>NameMe.65775</key>
+		<string>base</string>
+		<key>NameMe.65776</key>
+		<string>base</string>
+		<key>NameMe.65777</key>
+		<string>base</string>
+		<key>NameMe.65778</key>
+		<string>base</string>
+		<key>NameMe.65779</key>
+		<string>base</string>
+		<key>NameMe.65780</key>
+		<string>base</string>
+		<key>NameMe.65781</key>
+		<string>base</string>
+		<key>NameMe.65782</key>
+		<string>base</string>
+		<key>NameMe.65783</key>
+		<string>base</string>
+		<key>NameMe.65784</key>
+		<string>base</string>
+		<key>NameMe.65785</key>
+		<string>base</string>
+		<key>NameMe.65786</key>
+		<string>base</string>
+		<key>NameMe.65787</key>
+		<string>base</string>
+		<key>NameMe.65788</key>
+		<string>base</string>
+		<key>NameMe.65789</key>
+		<string>base</string>
+		<key>NameMe.65790</key>
+		<string>base</string>
+		<key>NameMe.65791</key>
+		<string>base</string>
+		<key>NameMe.65792</key>
+		<string>base</string>
+		<key>NameMe.65793</key>
+		<string>base</string>
+		<key>NameMe.65794</key>
+		<string>base</string>
+		<key>NameMe.65795</key>
 		<string>base</string>
 		<key>Ncaron</key>
 		<string>base</string>
@@ -1500,6 +1733,8 @@
 		<key>Nmacronbelow</key>
 		<string>base</string>
 		<key>Nmod</key>
+		<string>base</string>
+		<key>Now-ar</key>
 		<string>base</string>
 		<key>Ntilde</key>
 		<string>base</string>
@@ -1536,6 +1771,8 @@
 		<key>Odotbelow</key>
 		<string>base</string>
 		<key>Ograve</key>
+		<string>base</string>
+		<key>Oh-ar</key>
 		<string>base</string>
 		<key>Ohm</key>
 		<string>base</string>
@@ -1577,15 +1814,21 @@
 		<string>base</string>
 		<key>Pe-cy</key>
 		<string>base</string>
+		<key>Peh-ar</key>
+		<string>base</string>
 		<key>Phi</key>
 		<string>base</string>
 		<key>Pi</key>
+		<string>base</string>
+		<key>Piwr-ar</key>
 		<string>base</string>
 		<key>Psi</key>
 		<string>base</string>
 		<key>Q</key>
 		<string>base</string>
 		<key>R</key>
+		<string>base</string>
+		<key>Ra-ar</key>
 		<string>base</string>
 		<key>Racute</key>
 		<string>base</string>
@@ -1596,6 +1839,8 @@
 		<key>Rdotbelow</key>
 		<string>base</string>
 		<key>Rdotbelowmacron</key>
+		<string>base</string>
+		<key>Reh-ar</key>
 		<string>base</string>
 		<key>Rho</key>
 		<string>base</string>
@@ -1620,6 +1865,10 @@
 		<key>Sdotaccent</key>
 		<string>base</string>
 		<key>Sdotbelow</key>
+		<string>base</string>
+		<key>Seh-ar</key>
+		<string>base</string>
+		<key>Sha-ar</key>
 		<string>base</string>
 		<key>Sha-cy</key>
 		<string>base</string>
@@ -1651,7 +1900,11 @@
 		<string>base</string>
 		<key>Thorn</key>
 		<string>base</string>
+		<key>Tiwn-ar</key>
+		<string>base</string>
 		<key>Tmacronbelow</key>
+		<string>base</string>
+		<key>To-ar</key>
 		<string>base</string>
 		<key>Tse-cy</key>
 		<string>base</string>
@@ -1725,6 +1978,10 @@
 		<string>base</string>
 		<key>Ve-cy</key>
 		<string>base</string>
+		<key>Vew-ar</key>
+		<string>base</string>
+		<key>Vo-ar</key>
+		<string>base</string>
 		<key>W</key>
 		<string>base</string>
 		<key>Wacute</key>
@@ -1736,6 +1993,8 @@
 		<key>Wgrave</key>
 		<string>base</string>
 		<key>X</key>
+		<string>base</string>
+		<key>Xeh-ar</key>
 		<string>base</string>
 		<key>Xi</key>
 		<string>base</string>
@@ -1761,7 +2020,11 @@
 		<string>base</string>
 		<key>Yhookabove</key>
 		<string>base</string>
+		<key>Yi-ar</key>
+		<string>base</string>
 		<key>Yi-cy</key>
+		<string>base</string>
+		<key>Yiwn-ar</key>
 		<string>base</string>
 		<key>Ymacron</key>
 		<string>base</string>
@@ -1770,6 +2033,8 @@
 		<key>Yu-cy</key>
 		<string>base</string>
 		<key>Z</key>
+		<string>base</string>
+		<key>Za-ar</key>
 		<string>base</string>
 		<key>Zacute</key>
 		<string>base</string>
@@ -1782,6 +2047,8 @@
 		<key>Ze-cy</key>
 		<string>base</string>
 		<key>Zeta</key>
+		<string>base</string>
+		<key>Zhe-ar</key>
 		<string>base</string>
 		<key>Zhe-cy</key>
 		<string>base</string>
@@ -1798,6 +2065,8 @@
 		<key>aacute</key>
 		<string>base</string>
 		<key>aacute.sc</key>
+		<string>base</string>
+		<key>abbrev-ar</key>
 		<string>base</string>
 		<key>abreve</key>
 		<string>base</string>
@@ -1887,6 +2156,8 @@
 		<string>base</string>
 		<key>aogonek.sc</key>
 		<string>base</string>
+		<key>apostrophe-ar</key>
+		<string>base</string>
 		<key>apostrophemod</key>
 		<string>base</string>
 		<key>approxequal</key>
@@ -1921,6 +2192,10 @@
 		<string>base</string>
 		<key>atilde.sc</key>
 		<string>base</string>
+		<key>ayb-ar</key>
+		<string>base</string>
+		<key>aybturned-ar</key>
+		<string>base</string>
 		<key>b</key>
 		<string>base</string>
 		<key>b.sc</key>
@@ -1934,6 +2209,8 @@
 		<key>be-cy</key>
 		<string>base</string>
 		<key>be-cy.sc</key>
+		<string>base</string>
+		<key>ben-ar</key>
 		<string>base</string>
 		<key>beta</key>
 		<string>base</string>
@@ -1971,6 +2248,8 @@
 		<string>base</string>
 		<key>c</key>
 		<string>base</string>
+		<key>ca-ar</key>
+		<string>base</string>
 		<key>cacute</key>
 		<string>base</string>
 		<key>caron</key>
@@ -1993,9 +2272,13 @@
 		<string>mark</string>
 		<key>cent</key>
 		<string>base</string>
+		<key>cha-ar</key>
+		<string>base</string>
 		<key>che-cy</key>
 		<string>base</string>
 		<key>chedescender-cy</key>
+		<string>base</string>
+		<key>cheh-ar</key>
 		<string>base</string>
 		<key>chi</key>
 		<string>base</string>
@@ -2015,11 +2298,15 @@
 		<string>mark</string>
 		<key>circumflexcomb_tildecomb</key>
 		<string>mark</string>
+		<key>co-ar</key>
+		<string>base</string>
 		<key>colon</key>
 		<string>base</string>
 		<key>colonmonetary</key>
 		<string>base</string>
 		<key>comma</key>
+		<string>base</string>
+		<key>comma-ar</key>
 		<string>base</string>
 		<key>commaaccentcomb</key>
 		<string>mark</string>
@@ -2034,6 +2321,8 @@
 		<key>d</key>
 		<string>base</string>
 		<key>d.sc</key>
+		<string>base</string>
+		<key>da-ar</key>
 		<string>base</string>
 		<key>dagger</key>
 		<string>base</string>
@@ -2099,6 +2388,8 @@
 		<string>base</string>
 		<key>downWhiteTriangle</key>
 		<string>base</string>
+		<key>dram</key>
+		<string>base</string>
 		<key>dzhe-cy</key>
 		<string>base</string>
 		<key>e</key>
@@ -2118,6 +2409,10 @@
 		<key>ecaron</key>
 		<string>base</string>
 		<key>ecaron.sc</key>
+		<string>base</string>
+		<key>ech-ar</key>
+		<string>base</string>
+		<key>ech_yiwn-ar</key>
 		<string>base</string>
 		<key>ecircumflex</key>
 		<string>base</string>
@@ -2155,6 +2450,8 @@
 		<string>base</string>
 		<key>egrave.sc</key>
 		<string>base</string>
+		<key>eh-ar</key>
+		<string>base</string>
 		<key>ehookabove</key>
 		<string>base</string>
 		<key>ehookabove.sc</key>
@@ -2178,6 +2475,8 @@
 		<key>emacron.sc</key>
 		<string>base</string>
 		<key>emdash</key>
+		<string>base</string>
+		<key>emphas-ar</key>
 		<string>base</string>
 		<key>emptyset</key>
 		<string>base</string>
@@ -2219,6 +2518,8 @@
 		<string>base</string>
 		<key>estimated</key>
 		<string>base</string>
+		<key>et-ar</key>
+		<string>base</string>
 		<key>eta</key>
 		<string>base</string>
 		<key>eta.sc</key>
@@ -2226,6 +2527,10 @@
 		<key>etatonos</key>
 		<string>base</string>
 		<key>etatonos.sc</key>
+		<string>base</string>
+		<key>eternityleft</key>
+		<string>base</string>
+		<key>eternityright</key>
 		<string>base</string>
 		<key>eth</key>
 		<string>base</string>
@@ -2236,6 +2541,8 @@
 		<key>etilde.sc</key>
 		<string>base</string>
 		<key>exclam</key>
+		<string>base</string>
+		<key>exclam-ar</key>
 		<string>base</string>
 		<key>exclam.sc</key>
 		<string>base</string>
@@ -2256,6 +2563,8 @@
 		<key>f_i</key>
 		<string>base</string>
 		<key>f_l</key>
+		<string>base</string>
+		<key>feh-ar</key>
 		<string>base</string>
 		<key>figuredash</key>
 		<string>base</string>
@@ -2286,6 +2595,8 @@
 		<key>fraction</key>
 		<string>base</string>
 		<key>franc</key>
+		<string>base</string>
+		<key>fullstop-ar</key>
 		<string>base</string>
 		<key>g</key>
 		<string>base</string>
@@ -2324,6 +2635,10 @@
 		<key>gestroke-cy</key>
 		<string>base</string>
 		<key>geupturn-cy</key>
+		<string>base</string>
+		<key>ghad-ar</key>
+		<string>base</string>
+		<key>gim-ar</key>
 		<string>base</string>
 		<key>gmacron</key>
 		<string>base</string>
@@ -2379,6 +2694,8 @@
 		<string>base</string>
 		<key>hmacronbelow.sc</key>
 		<string>base</string>
+		<key>ho-ar</key>
+		<string>base</string>
 		<key>hookabovecomb</key>
 		<string>mark</string>
 		<key>horncomb</key>
@@ -2390,6 +2707,8 @@
 		<key>hungarumlautcomb</key>
 		<string>mark</string>
 		<key>hyphen</key>
+		<string>base</string>
+		<key>hyphen-ar</key>
 		<string>base</string>
 		<key>i</key>
 		<string>base</string>
@@ -2461,6 +2780,8 @@
 		<string>base</string>
 		<key>infinity</key>
 		<string>base</string>
+		<key>ini-ar</key>
+		<string>base</string>
 		<key>integral</key>
 		<string>base</string>
 		<key>io-cy</key>
@@ -2495,6 +2816,8 @@
 		<string>base</string>
 		<key>j.sc</key>
 		<string>base</string>
+		<key>ja-ar</key>
+		<string>base</string>
 		<key>jacute</key>
 		<string>base</string>
 		<key>jcircumflex</key>
@@ -2506,6 +2829,8 @@
 		<key>je-cy</key>
 		<string>base</string>
 		<key>je-cy.sc</key>
+		<string>base</string>
+		<key>jheh-ar</key>
 		<string>base</string>
 		<key>k</key>
 		<string>base</string>
@@ -2520,6 +2845,10 @@
 		<key>kcommaaccent</key>
 		<string>base</string>
 		<key>kcommaaccent.sc</key>
+		<string>base</string>
+		<key>keh-ar</key>
+		<string>base</string>
+		<key>ken-ar</key>
 		<string>base</string>
 		<key>kgreenlandic</key>
 		<string>base</string>
@@ -2587,6 +2916,8 @@
 		<string>base</string>
 		<key>literSign</key>
 		<string>base</string>
+		<key>liwn-ar</key>
+		<string>base</string>
 		<key>lje-cy</key>
 		<string>base</string>
 		<key>lmacronbelow</key>
@@ -2624,6 +2955,8 @@
 		<key>mdotbelow</key>
 		<string>base</string>
 		<key>mdotbelow.sc</key>
+		<string>base</string>
+		<key>men-ar</key>
 		<string>base</string>
 		<key>micro</key>
 		<string>base</string>
@@ -2699,6 +3032,8 @@
 		<string>base</string>
 		<key>notequal</key>
 		<string>base</string>
+		<key>now-ar</key>
+		<string>base</string>
 		<key>ntilde</key>
 		<string>base</string>
 		<key>ntilde.sc</key>
@@ -2750,6 +3085,8 @@
 		<key>ogonekcomb</key>
 		<string>mark</string>
 		<key>ograve</key>
+		<string>base</string>
+		<key>oh-ar</key>
 		<string>base</string>
 		<key>ohookabove</key>
 		<string>base</string>
@@ -2825,6 +3162,8 @@
 		<string>base</string>
 		<key>pe-cy</key>
 		<string>base</string>
+		<key>peh-ar</key>
+		<string>base</string>
 		<key>percent</key>
 		<string>base</string>
 		<key>period</key>
@@ -2847,6 +3186,8 @@
 		<string>base</string>
 		<key>pi.sc</key>
 		<string>base</string>
+		<key>piwr-ar</key>
+		<string>base</string>
 		<key>plus</key>
 		<string>base</string>
 		<key>plusminus</key>
@@ -2862,6 +3203,8 @@
 		<key>q.sc</key>
 		<string>base</string>
 		<key>question</key>
+		<string>base</string>
+		<key>question-ar</key>
 		<string>base</string>
 		<key>question.sc</key>
 		<string>base</string>
@@ -2893,6 +3236,8 @@
 		<string>base</string>
 		<key>r.sc</key>
 		<string>base</string>
+		<key>ra-ar</key>
+		<string>base</string>
 		<key>racute</key>
 		<string>base</string>
 		<key>racute.sc</key>
@@ -2917,6 +3262,8 @@
 		<string>base</string>
 		<key>registered</key>
 		<string>base</string>
+		<key>reh-ar</key>
+		<string>base</string>
 		<key>rho</key>
 		<string>base</string>
 		<key>rho.sc</key>
@@ -2936,6 +3283,8 @@
 		<key>ringcomb</key>
 		<string>mark</string>
 		<key>ringhalfleft</key>
+		<string>base</string>
+		<key>ringhalfleft-ar</key>
 		<string>base</string>
 		<key>ringhalfright</key>
 		<string>base</string>
@@ -2973,6 +3322,8 @@
 		<string>base</string>
 		<key>section</key>
 		<string>base</string>
+		<key>seh-ar</key>
+		<string>base</string>
 		<key>semicolon</key>
 		<string>base</string>
 		<key>seven</key>
@@ -2984,6 +3335,8 @@
 		<key>seveninferior</key>
 		<string>base</string>
 		<key>sevensuperior</key>
+		<string>base</string>
+		<key>sha-ar</key>
 		<string>base</string>
 		<key>sha-cy</key>
 		<string>base</string>
@@ -3085,9 +3438,13 @@
 		<string>base</string>
 		<key>tildecomb</key>
 		<string>mark</string>
+		<key>tiwn-ar</key>
+		<string>base</string>
 		<key>tmacronbelow</key>
 		<string>base</string>
 		<key>tmacronbelow.sc</key>
+		<string>base</string>
+		<key>to-ar</key>
 		<string>base</string>
 		<key>tonos</key>
 		<string>base</string>
@@ -3204,6 +3561,8 @@
 		<key>underscore</key>
 		<string>base</string>
 		<key>uni00A0</key>
+		<string>base</string>
+		<key>uni026F</key>
 		<string>base</string>
 		<key>uni02BB</key>
 		<string>base</string>
@@ -3363,6 +3722,10 @@
 		<string>base</string>
 		<key>verticallineabovecomb</key>
 		<string>mark</string>
+		<key>vew-ar</key>
+		<string>base</string>
+		<key>vo-ar</key>
+		<string>base</string>
 		<key>w</key>
 		<string>base</string>
 		<key>wacute</key>
@@ -3382,6 +3745,8 @@
 		<key>won</key>
 		<string>base</string>
 		<key>x</key>
+		<string>base</string>
+		<key>xeh-ar</key>
 		<string>base</string>
 		<key>xi</key>
 		<string>base</string>
@@ -3431,7 +3796,13 @@
 		<string>base</string>
 		<key>yhookabove.sc</key>
 		<string>base</string>
+		<key>yi-ar</key>
+		<string>base</string>
 		<key>yi-cy</key>
+		<string>base</string>
+		<key>yistroke-ar</key>
+		<string>base</string>
+		<key>yiwn-ar</key>
 		<string>base</string>
 		<key>ymacron</key>
 		<string>base</string>
@@ -3444,6 +3815,8 @@
 		<key>yu-cy</key>
 		<string>base</string>
 		<key>z</key>
+		<string>base</string>
+		<key>za-ar</key>
 		<string>base</string>
 		<key>zacute</key>
 		<string>base</string>
@@ -3462,6 +3835,8 @@
 		<key>zeta</key>
 		<string>base</string>
 		<key>zeta.sc</key>
+		<string>base</string>
+		<key>zhe-ar</key>
 		<string>base</string>
 		<key>zhe-cy</key>
 		<string>base</string>
@@ -4330,6 +4705,188 @@
 		<string>uniFB03</string>
 		<key>f_f_l</key>
 		<string>uniFB04</string>
+		<key>Ayb-ar</key>
+		<string>uni0531</string>
+		<key>Ben-ar</key>
+		<string>uni0532</string>
+		<key>Gim-ar</key>
+		<string>uni0533</string>
+		<key>Da-ar</key>
+		<string>uni0534</string>
+		<key>Ech-ar</key>
+		<string>uni0535</string>
+		<key>Za-ar</key>
+		<string>uni0536</string>
+		<key>Eh-ar</key>
+		<string>uni0537</string>
+		<key>Et-ar</key>
+		<string>uni0538</string>
+		<key>To-ar</key>
+		<string>uni0539</string>
+		<key>Zhe-ar</key>
+		<string>uni053A</string>
+		<key>Ini-ar</key>
+		<string>uni053B</string>
+		<key>Liwn-ar</key>
+		<string>uni053C</string>
+		<key>Xeh-ar</key>
+		<string>uni053D</string>
+		<key>Ca-ar</key>
+		<string>uni053E</string>
+		<key>Ken-ar</key>
+		<string>uni053F</string>
+		<key>Ho-ar</key>
+		<string>uni0540</string>
+		<key>Ja-ar</key>
+		<string>uni0541</string>
+		<key>Ghad-ar</key>
+		<string>uni0542</string>
+		<key>Cheh-ar</key>
+		<string>uni0543</string>
+		<key>Men-ar</key>
+		<string>uni0544</string>
+		<key>Yi-ar</key>
+		<string>uni0545</string>
+		<key>Now-ar</key>
+		<string>uni0546</string>
+		<key>Sha-ar</key>
+		<string>uni0547</string>
+		<key>Vo-ar</key>
+		<string>uni0548</string>
+		<key>Cha-ar</key>
+		<string>uni0549</string>
+		<key>Peh-ar</key>
+		<string>uni054A</string>
+		<key>Jheh-ar</key>
+		<string>uni054B</string>
+		<key>Ra-ar</key>
+		<string>uni054C</string>
+		<key>Seh-ar</key>
+		<string>uni054D</string>
+		<key>Vew-ar</key>
+		<string>uni054E</string>
+		<key>Tiwn-ar</key>
+		<string>uni054F</string>
+		<key>Reh-ar</key>
+		<string>uni0550</string>
+		<key>Co-ar</key>
+		<string>uni0551</string>
+		<key>Yiwn-ar</key>
+		<string>uni0552</string>
+		<key>Piwr-ar</key>
+		<string>uni0553</string>
+		<key>Keh-ar</key>
+		<string>uni0554</string>
+		<key>Oh-ar</key>
+		<string>uni0555</string>
+		<key>Feh-ar</key>
+		<string>uni0556</string>
+		<key>ringhalfleft-ar</key>
+		<string>uni0559</string>
+		<key>apostrophe-ar</key>
+		<string>uni055A</string>
+		<key>emphas-ar</key>
+		<string>uni055B</string>
+		<key>exclam-ar</key>
+		<string>uni055C</string>
+		<key>comma-ar</key>
+		<string>uni055D</string>
+		<key>question-ar</key>
+		<string>uni055E</string>
+		<key>abbrev-ar</key>
+		<string>uni055F</string>
+		<key>aybturned-ar</key>
+		<string>uni0560</string>
+		<key>ayb-ar</key>
+		<string>uni0561</string>
+		<key>ben-ar</key>
+		<string>uni0562</string>
+		<key>gim-ar</key>
+		<string>uni0563</string>
+		<key>da-ar</key>
+		<string>uni0564</string>
+		<key>ech-ar</key>
+		<string>uni0565</string>
+		<key>za-ar</key>
+		<string>uni0566</string>
+		<key>eh-ar</key>
+		<string>uni0567</string>
+		<key>et-ar</key>
+		<string>uni0568</string>
+		<key>to-ar</key>
+		<string>uni0569</string>
+		<key>zhe-ar</key>
+		<string>uni056A</string>
+		<key>ini-ar</key>
+		<string>uni056B</string>
+		<key>liwn-ar</key>
+		<string>uni056C</string>
+		<key>xeh-ar</key>
+		<string>uni056D</string>
+		<key>ca-ar</key>
+		<string>uni056E</string>
+		<key>ken-ar</key>
+		<string>uni056F</string>
+		<key>ho-ar</key>
+		<string>uni0570</string>
+		<key>ja-ar</key>
+		<string>uni0571</string>
+		<key>ghad-ar</key>
+		<string>uni0572</string>
+		<key>cheh-ar</key>
+		<string>uni0573</string>
+		<key>men-ar</key>
+		<string>uni0574</string>
+		<key>yi-ar</key>
+		<string>uni0575</string>
+		<key>now-ar</key>
+		<string>uni0576</string>
+		<key>sha-ar</key>
+		<string>uni0577</string>
+		<key>vo-ar</key>
+		<string>uni0578</string>
+		<key>cha-ar</key>
+		<string>uni0579</string>
+		<key>peh-ar</key>
+		<string>uni057A</string>
+		<key>jheh-ar</key>
+		<string>uni057B</string>
+		<key>ra-ar</key>
+		<string>uni057C</string>
+		<key>seh-ar</key>
+		<string>uni057D</string>
+		<key>vew-ar</key>
+		<string>uni057E</string>
+		<key>tiwn-ar</key>
+		<string>uni057F</string>
+		<key>reh-ar</key>
+		<string>uni0580</string>
+		<key>co-ar</key>
+		<string>uni0581</string>
+		<key>yiwn-ar</key>
+		<string>uni0582</string>
+		<key>piwr-ar</key>
+		<string>uni0583</string>
+		<key>keh-ar</key>
+		<string>uni0584</string>
+		<key>oh-ar</key>
+		<string>uni0585</string>
+		<key>feh-ar</key>
+		<string>uni0586</string>
+		<key>ech_yiwn-ar</key>
+		<string>uni0587</string>
+		<key>yistroke-ar</key>
+		<string>uni0588</string>
+		<key>fullstop-ar</key>
+		<string>uni0589</string>
+		<key>hyphen-ar</key>
+		<string>uni058A</string>
+		<key>eternityleft</key>
+		<string>uni058D</string>
+		<key>eternityright</key>
+		<string>uni058E</string>
+		<key>dram</key>
+		<string>uni058F</string>
 	</dict>
 	<key>public.openTypeMeta</key>
 	<dict>

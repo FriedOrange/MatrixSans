@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="apostrophe-ar" format="2">
+  <advance height="900" width="300"/>
+  <unicode hex="055A"/>
+  <outline>
+    <component base="ringhalfright" yOffset="-100.0"/>
+  </outline>
+</glyph>
