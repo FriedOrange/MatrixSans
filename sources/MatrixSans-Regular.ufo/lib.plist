@@ -1290,6 +1290,7 @@
 		<string>yiwn-ar.sc</string>
 		<string>keh-ar.sc</string>
 		<string>feh-ar.sc</string>
+		<string>to-ar.alt</string>
 	</array>
 	<key>public.openTypeCategories</key>
 	<dict>
@@ -3435,6 +3436,8 @@
 		<string>base</string>
 		<key>to-ar</key>
 		<string>base</string>
+		<key>to-ar.alt</key>
+		<string>base</string>
 		<key>to-ar.sc</key>
 		<string>base</string>
 		<key>tonos</key>
@@ -4974,6 +4977,8 @@
 		<string>keh_ar.sc</string>
 		<key>feh-ar.sc</key>
 		<string>feh_ar.sc</string>
+		<key>to-ar.alt</key>
+		<string>to_ar.alt</string>
 	</dict>
 	<key>public.openTypeMeta</key>
 	<dict>

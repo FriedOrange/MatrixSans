@@ -721,6 +721,7 @@ feature salt {
 	sub phi1 by phi;
 	sub zero by O;
 	sub zero.sc by o;
+	sub to-ar by to-ar.alt;
 } salt;
 
 feature dlig {
