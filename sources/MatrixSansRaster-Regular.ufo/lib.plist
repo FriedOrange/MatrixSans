@@ -1234,7 +1234,6 @@
 		<string>sigma.sc</string>
 		<string>tau.sc</string>
 		<string>upsilon.sc</string>
-		<string>phi.sc</string>
 		<string>chi.sc</string>
 		<string>psi.sc</string>
 		<string>omega.sc</string>
@@ -3155,8 +3154,6 @@
 		<key>peso</key>
 		<string>base</string>
 		<key>phi</key>
-		<string>base</string>
-		<key>phi.sc</key>
 		<string>base</string>
 		<key>phi1</key>
 		<string>base</string>
