@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1657964544
-ModificationTime: 1756719924
+ModificationTime: 1756720890
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -64,12 +64,12 @@ NameList: MatrixSans
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 65616 16 12
+WinInfo: 1248 16 12
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 629146 314573 209715 524288 1048576 0 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "marks_above"""  "marks_below"""  "ogonek"""  "marks_aboveright""" 
-BeginChars: 65796 1279
+BeginChars: 65796 1286
 
 StartChar: dot
 Encoding: 65536 -1 0
@@ -6176,14 +6176,14 @@ AnchorPoint: "marks_below" 300 0 basechar 0
 LayerCount: 2
 Fore
 Refer: 0 -1 N 1 0 0 1 450 0 2
-Refer: 0 -1 N 1 0 0 1 350 0 2
-Refer: 0 -1 N 1 0 0 1 250 0 2
-Refer: 0 -1 N 1 0 0 1 150 0 2
-Refer: 0 -1 N 1 0 0 1 50 0 2
-Refer: 0 -1 N 1 0 0 1 50 100 2
-Refer: 0 -1 N 1 0 0 1 50 200 2
-Refer: 0 -1 N 1 0 0 1 50 300 2
-Refer: 0 -1 N 1 0 0 1 50 400 2
+Refer: 0 -1 S 1 0 0 1 350 0 2
+Refer: 0 -1 S 1 0 0 1 250 0 2
+Refer: 0 -1 S 1 0 0 1 150 0 2
+Refer: 0 -1 S 1 0 0 1 50 0 2
+Refer: 0 -1 S 1 0 0 1 50 100 2
+Refer: 0 -1 S 1 0 0 1 50 200 2
+Refer: 0 -1 S 1 0 0 1 50 300 2
+Refer: 0 -1 S 1 0 0 1 50 400 2
 EndChar
 
 StartChar: m.sc
@@ -18824,12 +18824,19 @@ EndChar
 
 StartChar: yiwn-ar
 Encoding: 1410 1410 1233
-Width: 600
+Width: 500
 VWidth: 0
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 397 -1 N 1 0 0 1 0 0 3
+Refer: 0 -1 N 1 0 0 1 350 0 2
+Refer: 0 -1 N 1 0 0 1 250 0 2
+Refer: 0 -1 N 1 0 0 1 150 0 2
+Refer: 0 -1 N 1 0 0 1 50 0 2
+Refer: 0 -1 N 1 0 0 1 50 100 2
+Refer: 0 -1 N 1 0 0 1 50 200 2
+Refer: 0 -1 N 1 0 0 1 50 300 2
+Refer: 0 -1 N 1 0 0 1 50 400 2
 EndChar
 
 StartChar: piwr-ar
@@ -19742,6 +19749,55 @@ Flags: HMW
 LayerCount: 2
 Fore
 Refer: 1200 1377 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni200A
+Encoding: 8202 8202 1279
+Width: 100
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni2009
+Encoding: 8201 8201 1280
+Width: 200
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni2008
+Encoding: 8200 8200 1281
+Width: 300
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni2003
+Encoding: 8195 8195 1282
+Width: 1000
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni2002
+Encoding: 8194 8194 1283
+Width: 500
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni2001
+Encoding: 8193 8193 1284
+Width: 1000
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni2000
+Encoding: 8192 8192 1285
+Width: 500
+Flags: HW
+LayerCount: 2
 EndChar
 EndChars
 EndSplineFont

@@ -868,7 +868,14 @@
 		<string>yhookabove</string>
 		<string>Ytilde</string>
 		<string>ytilde</string>
+		<string>uni2000</string>
+		<string>uni2001</string>
+		<string>uni2002</string>
+		<string>uni2003</string>
 		<string>uni2007</string>
+		<string>uni2008</string>
+		<string>uni2009</string>
+		<string>uni200A</string>
 		<string>uni2010</string>
 		<string>uni2011</string>
 		<string>figuredash</string>
@@ -3593,7 +3600,21 @@
 		<string>base</string>
 		<key>uni0475</key>
 		<string>base</string>
+		<key>uni2000</key>
+		<string>base</string>
+		<key>uni2001</key>
+		<string>base</string>
+		<key>uni2002</key>
+		<string>base</string>
+		<key>uni2003</key>
+		<string>base</string>
 		<key>uni2007</key>
+		<string>base</string>
+		<key>uni2008</key>
+		<string>base</string>
+		<key>uni2009</key>
+		<string>base</string>
+		<key>uni200A</key>
 		<string>base</string>
 		<key>uni2010</key>
 		<string>base</string>
