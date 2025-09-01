@@ -46,7 +46,7 @@ feature aalt {
 @uc_ar = [Ayb-ar Ben-ar Gim-ar Da-ar Ech-ar Za-ar Eh-ar Et-ar To-ar Zhe-ar Ini-ar Liwn-ar Xeh-ar Ca-ar Ken-ar Ho-ar Ja-ar Ghad-ar Cheh-ar Men-ar Yi-ar Now-ar Sha-ar Vo-ar Cha-ar Peh-ar Jheh-ar Ra-ar Seh-ar Vew-ar Tiwn-ar Reh-ar Co-ar Yiwn-ar Piwr-ar Keh-ar Oh-ar Feh-ar];
 @c2sc_ar = [ayb-ar.sc ben-ar.sc gim-ar.sc da-ar.sc ech-ar.sc za-ar.sc eh-ar.sc et-ar.sc to-ar.sc zhe-ar.sc ini-ar.sc l.sc xeh-ar.sc ca-ar.sc ken-ar.sc ho-ar.sc ja-ar.sc ghad-ar.sc cheh-ar.sc men-ar.sc yi-ar.sc now-ar.sc sha-ar.sc vo-ar.sc cha-ar.sc peh-ar.sc jheh-ar.sc ra-ar.sc u.sc vew-ar.sc s.sc reh-ar.sc co-ar.sc yiwn-ar.sc ef-cy.sc keh-ar.sc o feh-ar.sc];
 @lc_ar = [ayb-ar ben-ar gim-ar da-ar ech-ar za-ar eh-ar et-ar to-ar zhe-ar ini-ar liwn-ar xeh-ar ca-ar ken-ar ho-ar ja-ar ghad-ar cheh-ar men-ar yi-ar now-ar sha-ar vo-ar cha-ar peh-ar jheh-ar ra-ar seh-ar vew-ar tiwn-ar reh-ar co-ar yiwn-ar piwr-ar keh-ar oh-ar feh-ar ech_yiwn-ar];
-@sc_ar = [ayb-ar.sc ben-ar.sc gim-ar.sc da-ar.sc ech-ar.sc za-ar.sc eh-ar.sc et-ar.sc to-ar.sc zhe-ar.sc ini-ar.sc l.sc xeh-ar.sc ca-ar.sc ken-ar.sc ho-ar.sc ja-ar.sc ghad-ar.sc cheh-ar.sc men-ar.sc yi-ar.sc now-ar.sc sha-ar.sc vo-ar.sc cha-ar.sc peh-ar.sc jheh-ar.sc ra-ar.sc u.sc vew-ar.sc tiwn-ar.sc reh-ar.sc co-ar.sc yiwn-ar.sc piwr-ar.sc keh-ar.sc feh-ar.sc];
+@sc_ar = [ayb-ar.sc ben-ar.sc gim-ar.sc da-ar.sc ech-ar.sc za-ar.sc eh-ar.sc et-ar.sc to-ar.sc zhe-ar.sc ini-ar.sc l.sc xeh-ar.sc ca-ar.sc ken-ar.sc ho-ar.sc ja-ar.sc ghad-ar.sc cheh-ar.sc men-ar.sc yi-ar.sc now-ar.sc sha-ar.sc vo-ar.sc cha-ar.sc peh-ar.sc jheh-ar.sc ra-ar.sc u.sc vew-ar.sc s.sc reh-ar.sc co-ar.sc yiwn-ar.sc piwr-ar.sc keh-ar.sc feh-ar.sc];
 
 feature c2sc {
 	script latn;
