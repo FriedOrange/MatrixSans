@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="vew-ar" format="2">
-  <advance width="600"/>
+  <advance width="700"/>
   <unicode hex="057E"/>
   <outline>
     <contour>
@@ -98,6 +98,12 @@
       <point x="457.0" y="-107.0" type="line"/>
       <point x="543.0" y="-107.0" type="line"/>
       <point x="543.0" y="-193.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="557.0" y="-193.0" type="line"/>
+      <point x="557.0" y="-107.0" type="line"/>
+      <point x="643.0" y="-107.0" type="line"/>
+      <point x="643.0" y="-193.0" type="line"/>
     </contour>
   </outline>
 </glyph>

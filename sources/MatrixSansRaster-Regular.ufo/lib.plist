@@ -1250,39 +1250,39 @@
 		<string>iotadieresistonos.sc</string>
 		<string>tbar.sc</string>
 		<string>aeacute.sc</string>
-		<string>NameMe.65763</string>
-		<string>NameMe.65764</string>
-		<string>NameMe.65765</string>
-		<string>NameMe.65766</string>
-		<string>NameMe.65767</string>
-		<string>NameMe.65768</string>
-		<string>NameMe.65769</string>
-		<string>NameMe.65770</string>
-		<string>NameMe.65771</string>
-		<string>NameMe.65772</string>
-		<string>NameMe.65773</string>
-		<string>NameMe.65774</string>
-		<string>NameMe.65775</string>
-		<string>NameMe.65776</string>
-		<string>NameMe.65777</string>
-		<string>NameMe.65778</string>
-		<string>NameMe.65779</string>
-		<string>NameMe.65780</string>
-		<string>NameMe.65781</string>
-		<string>NameMe.65782</string>
-		<string>NameMe.65783</string>
-		<string>NameMe.65784</string>
-		<string>NameMe.65785</string>
-		<string>NameMe.65786</string>
-		<string>NameMe.65787</string>
-		<string>NameMe.65788</string>
-		<string>NameMe.65789</string>
-		<string>NameMe.65790</string>
-		<string>NameMe.65791</string>
-		<string>NameMe.65792</string>
-		<string>NameMe.65793</string>
-		<string>NameMe.65794</string>
-		<string>NameMe.65795</string>
+		<string>ayb-ar.sc</string>
+		<string>ben-ar.sc</string>
+		<string>gim-ar.sc</string>
+		<string>da-ar.sc</string>
+		<string>ech-ar.sc</string>
+		<string>za-ar.sc</string>
+		<string>eh-ar.sc</string>
+		<string>et-ar.sc</string>
+		<string>to-ar.sc</string>
+		<string>zhe-ar.sc</string>
+		<string>ini-ar.sc</string>
+		<string>xeh-ar.sc</string>
+		<string>ca-ar.sc</string>
+		<string>ken-ar.sc</string>
+		<string>ho-ar.sc</string>
+		<string>ja-ar.sc</string>
+		<string>ghad-ar.sc</string>
+		<string>cheh-ar.sc</string>
+		<string>men-ar.sc</string>
+		<string>yi-ar.sc</string>
+		<string>now-ar.sc</string>
+		<string>sha-ar.sc</string>
+		<string>vo-ar.sc</string>
+		<string>cha-ar.sc</string>
+		<string>peh-ar.sc</string>
+		<string>jheh-ar.sc</string>
+		<string>ra-ar.sc</string>
+		<string>vew-ar.sc</string>
+		<string>reh-ar.sc</string>
+		<string>co-ar.sc</string>
+		<string>yiwn-ar.sc</string>
+		<string>keh-ar.sc</string>
+		<string>feh-ar.sc</string>
 	</array>
 	<key>public.openTypeCategories</key>
 	<dict>
@@ -1649,72 +1649,6 @@
 		<key>N</key>
 		<string>base</string>
 		<key>Nacute</key>
-		<string>base</string>
-		<key>NameMe.65763</key>
-		<string>base</string>
-		<key>NameMe.65764</key>
-		<string>base</string>
-		<key>NameMe.65765</key>
-		<string>base</string>
-		<key>NameMe.65766</key>
-		<string>base</string>
-		<key>NameMe.65767</key>
-		<string>base</string>
-		<key>NameMe.65768</key>
-		<string>base</string>
-		<key>NameMe.65769</key>
-		<string>base</string>
-		<key>NameMe.65770</key>
-		<string>base</string>
-		<key>NameMe.65771</key>
-		<string>base</string>
-		<key>NameMe.65772</key>
-		<string>base</string>
-		<key>NameMe.65773</key>
-		<string>base</string>
-		<key>NameMe.65774</key>
-		<string>base</string>
-		<key>NameMe.65775</key>
-		<string>base</string>
-		<key>NameMe.65776</key>
-		<string>base</string>
-		<key>NameMe.65777</key>
-		<string>base</string>
-		<key>NameMe.65778</key>
-		<string>base</string>
-		<key>NameMe.65779</key>
-		<string>base</string>
-		<key>NameMe.65780</key>
-		<string>base</string>
-		<key>NameMe.65781</key>
-		<string>base</string>
-		<key>NameMe.65782</key>
-		<string>base</string>
-		<key>NameMe.65783</key>
-		<string>base</string>
-		<key>NameMe.65784</key>
-		<string>base</string>
-		<key>NameMe.65785</key>
-		<string>base</string>
-		<key>NameMe.65786</key>
-		<string>base</string>
-		<key>NameMe.65787</key>
-		<string>base</string>
-		<key>NameMe.65788</key>
-		<string>base</string>
-		<key>NameMe.65789</key>
-		<string>base</string>
-		<key>NameMe.65790</key>
-		<string>base</string>
-		<key>NameMe.65791</key>
-		<string>base</string>
-		<key>NameMe.65792</key>
-		<string>base</string>
-		<key>NameMe.65793</key>
-		<string>base</string>
-		<key>NameMe.65794</key>
-		<string>base</string>
-		<key>NameMe.65795</key>
 		<string>base</string>
 		<key>Ncaron</key>
 		<string>base</string>
@@ -2194,6 +2128,8 @@
 		<string>base</string>
 		<key>ayb-ar</key>
 		<string>base</string>
+		<key>ayb-ar.sc</key>
+		<string>base</string>
 		<key>aybturned-ar</key>
 		<string>base</string>
 		<key>b</key>
@@ -2211,6 +2147,8 @@
 		<key>be-cy.sc</key>
 		<string>base</string>
 		<key>ben-ar</key>
+		<string>base</string>
+		<key>ben-ar.sc</key>
 		<string>base</string>
 		<key>beta</key>
 		<string>base</string>
@@ -2250,6 +2188,8 @@
 		<string>base</string>
 		<key>ca-ar</key>
 		<string>base</string>
+		<key>ca-ar.sc</key>
+		<string>base</string>
 		<key>cacute</key>
 		<string>base</string>
 		<key>caron</key>
@@ -2274,11 +2214,15 @@
 		<string>base</string>
 		<key>cha-ar</key>
 		<string>base</string>
+		<key>cha-ar.sc</key>
+		<string>base</string>
 		<key>che-cy</key>
 		<string>base</string>
 		<key>chedescender-cy</key>
 		<string>base</string>
 		<key>cheh-ar</key>
+		<string>base</string>
+		<key>cheh-ar.sc</key>
 		<string>base</string>
 		<key>chi</key>
 		<string>base</string>
@@ -2299,6 +2243,8 @@
 		<key>circumflexcomb_tildecomb</key>
 		<string>mark</string>
 		<key>co-ar</key>
+		<string>base</string>
+		<key>co-ar.sc</key>
 		<string>base</string>
 		<key>colon</key>
 		<string>base</string>
@@ -2323,6 +2269,8 @@
 		<key>d.sc</key>
 		<string>base</string>
 		<key>da-ar</key>
+		<string>base</string>
+		<key>da-ar.sc</key>
 		<string>base</string>
 		<key>dagger</key>
 		<string>base</string>
@@ -2412,6 +2360,8 @@
 		<string>base</string>
 		<key>ech-ar</key>
 		<string>base</string>
+		<key>ech-ar.sc</key>
+		<string>base</string>
 		<key>ech_yiwn-ar</key>
 		<string>base</string>
 		<key>ecircumflex</key>
@@ -2451,6 +2401,8 @@
 		<key>egrave.sc</key>
 		<string>base</string>
 		<key>eh-ar</key>
+		<string>base</string>
+		<key>eh-ar.sc</key>
 		<string>base</string>
 		<key>ehookabove</key>
 		<string>base</string>
@@ -2520,6 +2472,8 @@
 		<string>base</string>
 		<key>et-ar</key>
 		<string>base</string>
+		<key>et-ar.sc</key>
+		<string>base</string>
 		<key>eta</key>
 		<string>base</string>
 		<key>eta.sc</key>
@@ -2565,6 +2519,8 @@
 		<key>f_l</key>
 		<string>base</string>
 		<key>feh-ar</key>
+		<string>base</string>
+		<key>feh-ar.sc</key>
 		<string>base</string>
 		<key>figuredash</key>
 		<string>base</string>
@@ -2638,7 +2594,11 @@
 		<string>base</string>
 		<key>ghad-ar</key>
 		<string>base</string>
+		<key>ghad-ar.sc</key>
+		<string>base</string>
 		<key>gim-ar</key>
+		<string>base</string>
+		<key>gim-ar.sc</key>
 		<string>base</string>
 		<key>gmacron</key>
 		<string>base</string>
@@ -2695,6 +2655,8 @@
 		<key>hmacronbelow.sc</key>
 		<string>base</string>
 		<key>ho-ar</key>
+		<string>base</string>
+		<key>ho-ar.sc</key>
 		<string>base</string>
 		<key>hookabovecomb</key>
 		<string>mark</string>
@@ -2782,6 +2744,8 @@
 		<string>base</string>
 		<key>ini-ar</key>
 		<string>base</string>
+		<key>ini-ar.sc</key>
+		<string>base</string>
 		<key>integral</key>
 		<string>base</string>
 		<key>io-cy</key>
@@ -2818,6 +2782,8 @@
 		<string>base</string>
 		<key>ja-ar</key>
 		<string>base</string>
+		<key>ja-ar.sc</key>
+		<string>base</string>
 		<key>jacute</key>
 		<string>base</string>
 		<key>jcircumflex</key>
@@ -2831,6 +2797,8 @@
 		<key>je-cy.sc</key>
 		<string>base</string>
 		<key>jheh-ar</key>
+		<string>base</string>
+		<key>jheh-ar.sc</key>
 		<string>base</string>
 		<key>k</key>
 		<string>base</string>
@@ -2848,7 +2816,11 @@
 		<string>base</string>
 		<key>keh-ar</key>
 		<string>base</string>
+		<key>keh-ar.sc</key>
+		<string>base</string>
 		<key>ken-ar</key>
+		<string>base</string>
+		<key>ken-ar.sc</key>
 		<string>base</string>
 		<key>kgreenlandic</key>
 		<string>base</string>
@@ -2958,6 +2930,8 @@
 		<string>base</string>
 		<key>men-ar</key>
 		<string>base</string>
+		<key>men-ar.sc</key>
+		<string>base</string>
 		<key>micro</key>
 		<string>base</string>
 		<key>minus</key>
@@ -3033,6 +3007,8 @@
 		<key>notequal</key>
 		<string>base</string>
 		<key>now-ar</key>
+		<string>base</string>
+		<key>now-ar.sc</key>
 		<string>base</string>
 		<key>ntilde</key>
 		<string>base</string>
@@ -3164,6 +3140,8 @@
 		<string>base</string>
 		<key>peh-ar</key>
 		<string>base</string>
+		<key>peh-ar.sc</key>
+		<string>base</string>
 		<key>percent</key>
 		<string>base</string>
 		<key>period</key>
@@ -3238,6 +3216,8 @@
 		<string>base</string>
 		<key>ra-ar</key>
 		<string>base</string>
+		<key>ra-ar.sc</key>
+		<string>base</string>
 		<key>racute</key>
 		<string>base</string>
 		<key>racute.sc</key>
@@ -3263,6 +3243,8 @@
 		<key>registered</key>
 		<string>base</string>
 		<key>reh-ar</key>
+		<string>base</string>
+		<key>reh-ar.sc</key>
 		<string>base</string>
 		<key>rho</key>
 		<string>base</string>
@@ -3337,6 +3319,8 @@
 		<key>sevensuperior</key>
 		<string>base</string>
 		<key>sha-ar</key>
+		<string>base</string>
+		<key>sha-ar.sc</key>
 		<string>base</string>
 		<key>sha-cy</key>
 		<string>base</string>
@@ -3445,6 +3429,8 @@
 		<key>tmacronbelow.sc</key>
 		<string>base</string>
 		<key>to-ar</key>
+		<string>base</string>
+		<key>to-ar.sc</key>
 		<string>base</string>
 		<key>tonos</key>
 		<string>base</string>
@@ -3724,7 +3710,11 @@
 		<string>mark</string>
 		<key>vew-ar</key>
 		<string>base</string>
+		<key>vew-ar.sc</key>
+		<string>base</string>
 		<key>vo-ar</key>
+		<string>base</string>
+		<key>vo-ar.sc</key>
 		<string>base</string>
 		<key>w</key>
 		<string>base</string>
@@ -3747,6 +3737,8 @@
 		<key>x</key>
 		<string>base</string>
 		<key>xeh-ar</key>
+		<string>base</string>
+		<key>xeh-ar.sc</key>
 		<string>base</string>
 		<key>xi</key>
 		<string>base</string>
@@ -3798,11 +3790,15 @@
 		<string>base</string>
 		<key>yi-ar</key>
 		<string>base</string>
+		<key>yi-ar.sc</key>
+		<string>base</string>
 		<key>yi-cy</key>
 		<string>base</string>
 		<key>yistroke-ar</key>
 		<string>base</string>
 		<key>yiwn-ar</key>
+		<string>base</string>
+		<key>yiwn-ar.sc</key>
 		<string>base</string>
 		<key>ymacron</key>
 		<string>base</string>
@@ -3817,6 +3813,8 @@
 		<key>z</key>
 		<string>base</string>
 		<key>za-ar</key>
+		<string>base</string>
+		<key>za-ar.sc</key>
 		<string>base</string>
 		<key>zacute</key>
 		<string>base</string>
@@ -3837,6 +3835,8 @@
 		<key>zeta.sc</key>
 		<string>base</string>
 		<key>zhe-ar</key>
+		<string>base</string>
+		<key>zhe-ar.sc</key>
 		<string>base</string>
 		<key>zhe-cy</key>
 		<string>base</string>
@@ -4887,6 +4887,72 @@
 		<string>uni058E</string>
 		<key>dram</key>
 		<string>uni058F</string>
+		<key>ayb-ar.sc</key>
+		<string>ayb_ar.sc</string>
+		<key>ben-ar.sc</key>
+		<string>ben_ar.sc</string>
+		<key>gim-ar.sc</key>
+		<string>gim_ar.sc</string>
+		<key>da-ar.sc</key>
+		<string>da_ar.sc</string>
+		<key>ech-ar.sc</key>
+		<string>ech_ar.sc</string>
+		<key>za-ar.sc</key>
+		<string>za_ar.sc</string>
+		<key>eh-ar.sc</key>
+		<string>eh_ar.sc</string>
+		<key>et-ar.sc</key>
+		<string>et_ar.sc</string>
+		<key>to-ar.sc</key>
+		<string>to_ar.sc</string>
+		<key>zhe-ar.sc</key>
+		<string>zhe_ar.sc</string>
+		<key>ini-ar.sc</key>
+		<string>ini_ar.sc</string>
+		<key>xeh-ar.sc</key>
+		<string>xeh_ar.sc</string>
+		<key>ca-ar.sc</key>
+		<string>ca_ar.sc</string>
+		<key>ken-ar.sc</key>
+		<string>ken_ar.sc</string>
+		<key>ho-ar.sc</key>
+		<string>ho_ar.sc</string>
+		<key>ja-ar.sc</key>
+		<string>ja_ar.sc</string>
+		<key>ghad-ar.sc</key>
+		<string>ghad_ar.sc</string>
+		<key>cheh-ar.sc</key>
+		<string>cheh_ar.sc</string>
+		<key>men-ar.sc</key>
+		<string>men_ar.sc</string>
+		<key>yi-ar.sc</key>
+		<string>yi_ar.sc</string>
+		<key>now-ar.sc</key>
+		<string>now_ar.sc</string>
+		<key>sha-ar.sc</key>
+		<string>sha_ar.sc</string>
+		<key>vo-ar.sc</key>
+		<string>vo_ar.sc</string>
+		<key>cha-ar.sc</key>
+		<string>cha_ar.sc</string>
+		<key>peh-ar.sc</key>
+		<string>peh_ar.sc</string>
+		<key>jheh-ar.sc</key>
+		<string>jheh_ar.sc</string>
+		<key>ra-ar.sc</key>
+		<string>ra_ar.sc</string>
+		<key>vew-ar.sc</key>
+		<string>vew_ar.sc</string>
+		<key>reh-ar.sc</key>
+		<string>reh_ar.sc</string>
+		<key>co-ar.sc</key>
+		<string>co_ar.sc</string>
+		<key>yiwn-ar.sc</key>
+		<string>yiwn_ar.sc</string>
+		<key>keh-ar.sc</key>
+		<string>keh_ar.sc</string>
+		<key>feh-ar.sc</key>
+		<string>feh_ar.sc</string>
 	</dict>
 	<key>public.openTypeMeta</key>
 	<dict>

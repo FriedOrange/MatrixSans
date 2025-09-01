@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1657964544
-ModificationTime: 1756630379
+ModificationTime: 1756702330
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -64,7 +64,7 @@ NameList: MatrixSans
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 1312 16 12
+WinInfo: 1296 16 12
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 629146 314573 209715 524288 1048576 0 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
@@ -19082,7 +19082,7 @@ Refer: 0 -1 N 1 0 0 1 250 600 2
 Refer: 0 -1 N 1 0 0 1 150 600 2
 EndChar
 
-StartChar: NameMe.65763
+StartChar: ayb-ar.sc
 Encoding: 65763 -1 1246
 Width: 600
 VWidth: 0
@@ -19103,7 +19103,7 @@ Refer: 0 -1 N 1 0 0 1 450 400 2
 Refer: 0 -1 N 1 0 0 1 50 400 2
 EndChar
 
-StartChar: NameMe.65764
+StartChar: ben-ar.sc
 Encoding: 65764 -1 1247
 Width: 600
 VWidth: 0
@@ -19124,7 +19124,7 @@ Refer: 0 -1 N 1 0 0 1 250 400 2
 Refer: 0 -1 N 1 0 0 1 150 400 2
 EndChar
 
-StartChar: NameMe.65765
+StartChar: gim-ar.sc
 Encoding: 65765 -1 1248
 Width: 600
 VWidth: 0
@@ -19143,7 +19143,7 @@ Refer: 0 -1 N 1 0 0 1 250 400 2
 Refer: 0 -1 N 1 0 0 1 150 400 2
 EndChar
 
-StartChar: NameMe.65766
+StartChar: da-ar.sc
 Encoding: 65766 -1 1249
 Width: 600
 VWidth: 0
@@ -19160,7 +19160,7 @@ Refer: 0 -1 N 1 0 0 1 250 400 2
 Refer: 0 -1 N 1 0 0 1 150 400 2
 EndChar
 
-StartChar: NameMe.65767
+StartChar: ech-ar.sc
 Encoding: 65767 -1 1250
 Width: 600
 VWidth: 0
@@ -19181,7 +19181,7 @@ Refer: 0 -1 N 1 0 0 1 50 300 2
 Refer: 0 -1 N 1 0 0 1 50 400 2
 EndChar
 
-StartChar: NameMe.65768
+StartChar: za-ar.sc
 Encoding: 65768 -1 1251
 Width: 600
 VWidth: 0
@@ -19203,7 +19203,7 @@ Refer: 0 -1 N 1 0 0 1 250 400 2
 Refer: 0 -1 N 1 0 0 1 150 400 2
 EndChar
 
-StartChar: NameMe.65769
+StartChar: eh-ar.sc
 Encoding: 65769 -1 1252
 Width: 600
 VWidth: 0
@@ -19225,7 +19225,7 @@ Refer: 0 -1 N 1 0 0 1 50 300 2
 Refer: 0 -1 N 1 0 0 1 50 400 2
 EndChar
 
-StartChar: NameMe.65770
+StartChar: et-ar.sc
 Encoding: 65770 -1 1253
 Width: 600
 VWidth: 0
@@ -19246,7 +19246,7 @@ Refer: 0 -1 N 1 0 0 1 250 400 2
 Refer: 0 -1 N 1 0 0 1 150 400 2
 EndChar
 
-StartChar: NameMe.65771
+StartChar: to-ar.sc
 Encoding: 65771 -1 1254
 Width: 700
 VWidth: 0
@@ -19269,7 +19269,7 @@ Refer: 0 -1 N 1 0 0 1 250 400 2
 Refer: 0 -1 N 1 0 0 1 150 400 2
 EndChar
 
-StartChar: NameMe.65772
+StartChar: zhe-ar.sc
 Encoding: 65772 -1 1255
 Width: 600
 VWidth: 0
@@ -19288,7 +19288,7 @@ Refer: 0 -1 N 1 0 0 1 350 300 2
 Refer: 0 -1 N 1 0 0 1 350 400 2
 EndChar
 
-StartChar: NameMe.65773
+StartChar: ini-ar.sc
 Encoding: 65773 -1 1256
 Width: 600
 VWidth: 0
@@ -19306,7 +19306,7 @@ Refer: 0 -1 N 1 0 0 1 50 300 2
 Refer: 0 -1 N 1 0 0 1 50 400 2
 EndChar
 
-StartChar: NameMe.65774
+StartChar: xeh-ar.sc
 Encoding: 65774 -1 1257
 Width: 600
 VWidth: 0
@@ -19328,7 +19328,7 @@ Refer: 0 -1 N 1 0 0 1 50 300 2
 Refer: 0 -1 N 1 0 0 1 50 400 2
 EndChar
 
-StartChar: NameMe.65775
+StartChar: ca-ar.sc
 Encoding: 65775 -1 1258
 Width: 600
 VWidth: 0
@@ -19350,7 +19350,7 @@ Refer: 0 -1 N 1 0 0 1 50 300 2
 Refer: 0 -1 N 1 0 0 1 50 400 2
 EndChar
 
-StartChar: NameMe.65776
+StartChar: ken-ar.sc
 Encoding: 65776 -1 1259
 Width: 600
 VWidth: 0
@@ -19369,7 +19369,7 @@ Refer: 0 -1 N 1 0 0 1 50 300 2
 Refer: 0 -1 N 1 0 0 1 50 400 2
 EndChar
 
-StartChar: NameMe.65777
+StartChar: ho-ar.sc
 Encoding: 65777 -1 1260
 Width: 600
 VWidth: 0
@@ -19388,7 +19388,7 @@ Refer: 0 -1 N 1 0 0 1 250 400 2
 Refer: 0 -1 N 1 0 0 1 150 400 2
 EndChar
 
-StartChar: NameMe.65778
+StartChar: ja-ar.sc
 Encoding: 65778 -1 1261
 Width: 600
 VWidth: 0
@@ -19409,7 +19409,7 @@ Refer: 0 -1 N 1 0 0 1 250 400 2
 Refer: 0 -1 N 1 0 0 1 150 400 2
 EndChar
 
-StartChar: NameMe.65779
+StartChar: ghad-ar.sc
 Encoding: 65779 -1 1262
 Width: 600
 VWidth: 0
@@ -19426,7 +19426,7 @@ Refer: 0 -1 N 1 0 0 1 250 400 2
 Refer: 0 -1 N 1 0 0 1 150 400 2
 EndChar
 
-StartChar: NameMe.65780
+StartChar: cheh-ar.sc
 Encoding: 65780 -1 1263
 Width: 600
 VWidth: 0
@@ -19449,7 +19449,7 @@ Refer: 0 -1 N 1 0 0 1 150 400 2
 Refer: 0 -1 N 1 0 0 1 50 400 2
 EndChar
 
-StartChar: NameMe.65781
+StartChar: men-ar.sc
 Encoding: 65781 -1 1264
 Width: 600
 VWidth: 0
@@ -19469,7 +19469,7 @@ Refer: 0 -1 N 1 0 0 1 350 400 2
 Refer: 0 -1 N 1 0 0 1 50 400 2
 EndChar
 
-StartChar: NameMe.65782
+StartChar: yi-ar.sc
 Encoding: 65782 -1 1265
 Width: 600
 VWidth: 0
@@ -19490,7 +19490,7 @@ Refer: 0 -1 N 1 0 0 1 250 400 2
 Refer: 0 -1 N 1 0 0 1 150 400 2
 EndChar
 
-StartChar: NameMe.65783
+StartChar: now-ar.sc
 Encoding: 65783 -1 1266
 Width: 600
 VWidth: 0
@@ -19507,7 +19507,7 @@ Refer: 0 -1 N 1 0 0 1 150 400 2
 Refer: 0 -1 N 1 0 0 1 50 400 2
 EndChar
 
-StartChar: NameMe.65784
+StartChar: sha-ar.sc
 Encoding: 65784 -1 1267
 Width: 600
 VWidth: 0
@@ -19526,7 +19526,7 @@ Refer: 0 -1 N 1 0 0 1 150 400 2
 Refer: 0 -1 N 1 0 0 1 50 400 2
 EndChar
 
-StartChar: NameMe.65785
+StartChar: vo-ar.sc
 Encoding: 65785 -1 1268
 Width: 600
 VWidth: 0
@@ -19546,7 +19546,7 @@ Refer: 0 -1 N 1 0 0 1 250 400 2
 Refer: 0 -1 N 1 0 0 1 150 400 2
 EndChar
 
-StartChar: NameMe.65786
+StartChar: cha-ar.sc
 Encoding: 65786 -1 1269
 Width: 600
 VWidth: 0
@@ -19565,7 +19565,7 @@ Refer: 0 -1 N 1 0 0 1 250 400 2
 Refer: 0 -1 N 1 0 0 1 150 400 2
 EndChar
 
-StartChar: NameMe.65787
+StartChar: peh-ar.sc
 Encoding: 65787 -1 1270
 Width: 600
 VWidth: 0
@@ -19584,7 +19584,7 @@ Refer: 0 -1 N 1 0 0 1 250 400 2
 Refer: 0 -1 N 1 0 0 1 150 400 2
 EndChar
 
-StartChar: NameMe.65788
+StartChar: jheh-ar.sc
 Encoding: 65788 -1 1271
 Width: 600
 VWidth: 0
@@ -19606,7 +19606,7 @@ Refer: 0 -1 N 1 0 0 1 350 400 2
 Refer: 0 -1 N 1 0 0 1 250 400 2
 EndChar
 
-StartChar: NameMe.65789
+StartChar: ra-ar.sc
 Encoding: 65789 -1 1272
 Width: 600
 VWidth: 0
@@ -19626,7 +19626,7 @@ Refer: 0 -1 N 1 0 0 1 250 400 2
 Refer: 0 -1 N 1 0 0 1 150 400 2
 EndChar
 
-StartChar: NameMe.65790
+StartChar: vew-ar.sc
 Encoding: 65790 -1 1273
 Width: 600
 VWidth: 0
@@ -19645,7 +19645,7 @@ Refer: 0 -1 N 1 0 0 1 50 300 2
 Refer: 0 -1 N 1 0 0 1 350 400 2
 EndChar
 
-StartChar: NameMe.65791
+StartChar: reh-ar.sc
 Encoding: 65791 -1 1274
 Width: 600
 VWidth: 0
@@ -19662,7 +19662,7 @@ Refer: 0 -1 N 1 0 0 1 250 400 2
 Refer: 0 -1 N 1 0 0 1 150 400 2
 EndChar
 
-StartChar: NameMe.65792
+StartChar: co-ar.sc
 Encoding: 65792 -1 1275
 Width: 600
 VWidth: 0
@@ -19683,7 +19683,7 @@ Refer: 0 -1 N 1 0 0 1 250 400 2
 Refer: 0 -1 N 1 0 0 1 150 400 2
 EndChar
 
-StartChar: NameMe.65793
+StartChar: yiwn-ar.sc
 Encoding: 65793 -1 1276
 Width: 600
 VWidth: 0
@@ -19701,7 +19701,7 @@ Refer: 0 -1 N 1 0 0 1 50 300 2
 Refer: 0 -1 N 1 0 0 1 50 400 2
 EndChar
 
-StartChar: NameMe.65794
+StartChar: keh-ar.sc
 Encoding: 65794 -1 1277
 Width: 600
 VWidth: 0
@@ -19723,7 +19723,7 @@ Refer: 0 -1 N 1 0 0 1 350 400 2
 Refer: 0 -1 N 1 0 0 1 250 400 2
 EndChar
 
-StartChar: NameMe.65795
+StartChar: feh-ar.sc
 Encoding: 65795 -1 1278
 Width: 600
 VWidth: 0
