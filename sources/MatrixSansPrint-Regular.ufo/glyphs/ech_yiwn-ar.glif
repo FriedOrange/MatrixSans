@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ech_yiwn-ar" format="2">
-  <advance width="700"/>
+  <advance width="900"/>
   <unicode hex="0587"/>
   <outline>
     <contour>
@@ -212,6 +212,34 @@
       <point x="600.0" y="2.0" type="curve" smooth="yes"/>
       <point x="574.0" y="2.0"/>
       <point x="552.0" y="24.0"/>
+    </contour>
+    <contour>
+      <point x="652.0" y="50.0" type="curve" smooth="yes"/>
+      <point x="652.0" y="76.0"/>
+      <point x="674.0" y="98.0"/>
+      <point x="700.0" y="98.0" type="curve" smooth="yes"/>
+      <point x="726.0" y="98.0"/>
+      <point x="748.0" y="76.0"/>
+      <point x="748.0" y="50.0" type="curve" smooth="yes"/>
+      <point x="748.0" y="24.0"/>
+      <point x="726.0" y="2.0"/>
+      <point x="700.0" y="2.0" type="curve" smooth="yes"/>
+      <point x="674.0" y="2.0"/>
+      <point x="652.0" y="24.0"/>
+    </contour>
+    <contour>
+      <point x="752.0" y="50.0" type="curve" smooth="yes"/>
+      <point x="752.0" y="76.0"/>
+      <point x="774.0" y="98.0"/>
+      <point x="800.0" y="98.0" type="curve" smooth="yes"/>
+      <point x="826.0" y="98.0"/>
+      <point x="848.0" y="76.0"/>
+      <point x="848.0" y="50.0" type="curve" smooth="yes"/>
+      <point x="848.0" y="24.0"/>
+      <point x="826.0" y="2.0"/>
+      <point x="800.0" y="2.0" type="curve" smooth="yes"/>
+      <point x="774.0" y="2.0"/>
+      <point x="752.0" y="24.0"/>
     </contour>
   </outline>
 </glyph>

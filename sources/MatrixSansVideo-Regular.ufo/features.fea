@@ -68,7 +68,7 @@ feature smcp {
 	sub @lc_gr by @smcp_gr;
 	script armn;
 	sub @lc_ar by @sc_ar;
-	sub ech_yiwn-ar by ech-ar.sc yiwn-ar.sc;
+	sub ech_yiwn-ar by ech-ar.sc vew-ar.sc;
 } smcp;
 
 # mark classes

@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ech_yiwn-ar" format="2">
-  <advance width="700"/>
+  <advance width="900"/>
   <unicode hex="0587"/>
   <outline>
     <contour>
-      <point x="650.0" y="0.0" type="line"/>
+      <point x="850.0" y="0.0" type="line"/>
       <point x="450.0" y="0.0" type="line"/>
       <point x="450.0" y="100.0" type="line"/>
       <point x="350.0" y="100.0" type="line"/>
@@ -21,7 +21,7 @@
       <point x="450.0" y="500.0" type="line"/>
       <point x="550.0" y="500.0" type="line"/>
       <point x="550.0" y="100.0" type="line"/>
-      <point x="650.0" y="100.0" type="line"/>
+      <point x="850.0" y="100.0" type="line"/>
     </contour>
   </outline>
 </glyph>
