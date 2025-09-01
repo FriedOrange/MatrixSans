@@ -1027,6 +1027,7 @@
 		<string>openbullet</string>
 		<string>leftanglebracket_math</string>
 		<string>rightanglebracket_math</string>
+		<string>uni2E18</string>
 		<string>f_f</string>
 		<string>f_i</string>
 		<string>f_l</string>
@@ -3673,6 +3674,8 @@
 		<key>uni24B9</key>
 		<string>base</string>
 		<key>uni25CC</key>
+		<string>base</string>
+		<key>uni2E18</key>
 		<string>base</string>
 		<key>uogonek</key>
 		<string>base</string>
