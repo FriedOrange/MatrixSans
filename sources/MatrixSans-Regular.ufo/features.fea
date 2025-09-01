@@ -379,6 +379,7 @@ feature kern {
 	pos P j.sc -200;
 	pos P jcircumflex.sc -200;
 	enum pos [g q y yacute eng eng.sc.loclNSM] @hookleft 100;
+	enum pos [dcroat f] @aother -100;
 	pos [j Eng.loclNSM] @hookleft 100;
 	pos @talloverhangR @tallcurve2TL -100;
 	pos @talloverhangR @underhang2L -100;
