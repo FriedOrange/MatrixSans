@@ -1291,6 +1291,14 @@
 		<string>keh-ar.sc</string>
 		<string>feh-ar.sc</string>
 		<string>to-ar.alt</string>
+		<string>two.alt</string>
+		<string>D.alt</string>
+		<string>Eth.alt</string>
+		<string>Dhook.alt</string>
+		<string>Dcaron.alt</string>
+		<string>Ddotbelow.alt</string>
+		<string>Dmacronbelow.alt</string>
+		<string>Dcroat.alt</string>
 	</array>
 	<key>public.openTypeCategories</key>
 	<dict>
@@ -1392,13 +1400,21 @@
 		<string>base</string>
 		<key>D</key>
 		<string>base</string>
+		<key>D.alt</key>
+		<string>base</string>
 		<key>Da-ar</key>
 		<string>base</string>
 		<key>Dcaron</key>
 		<string>base</string>
+		<key>Dcaron.alt</key>
+		<string>base</string>
 		<key>Dcroat</key>
 		<string>base</string>
+		<key>Dcroat.alt</key>
+		<string>base</string>
 		<key>Ddotbelow</key>
+		<string>base</string>
+		<key>Ddotbelow.alt</key>
 		<string>base</string>
 		<key>De-cy</key>
 		<string>base</string>
@@ -1406,9 +1422,13 @@
 		<string>base</string>
 		<key>Dhook</key>
 		<string>base</string>
+		<key>Dhook.alt</key>
+		<string>base</string>
 		<key>Dje-cy</key>
 		<string>base</string>
 		<key>Dmacronbelow</key>
+		<string>base</string>
+		<key>Dmacronbelow.alt</key>
 		<string>base</string>
 		<key>Dzhe-cy</key>
 		<string>base</string>
@@ -1485,6 +1505,8 @@
 		<key>Etatonos</key>
 		<string>base</string>
 		<key>Eth</key>
+		<string>base</string>
+		<key>Eth.alt</key>
 		<string>base</string>
 		<key>Etilde</key>
 		<string>base</string>
@@ -3457,6 +3479,8 @@
 		<key>tugrik</key>
 		<string>base</string>
 		<key>two</key>
+		<string>base</string>
+		<key>two.alt</key>
 		<string>base</string>
 		<key>two.sc</key>
 		<string>base</string>

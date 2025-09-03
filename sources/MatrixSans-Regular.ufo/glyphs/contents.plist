@@ -102,24 +102,36 @@
     <string>C_o-ar.glif</string>
     <key>D</key>
     <string>D_.glif</string>
+    <key>D.alt</key>
+    <string>D_.alt.glif</string>
     <key>Da-ar</key>
     <string>D_a-ar.glif</string>
     <key>Dcaron</key>
     <string>D_caron.glif</string>
+    <key>Dcaron.alt</key>
+    <string>D_caron.alt.glif</string>
     <key>Dcroat</key>
     <string>D_croat.glif</string>
+    <key>Dcroat.alt</key>
+    <string>D_croat.alt.glif</string>
     <key>Ddotbelow</key>
     <string>D_dotbelow.glif</string>
+    <key>Ddotbelow.alt</key>
+    <string>D_dotbelow.alt.glif</string>
     <key>De-cy</key>
     <string>D_e-cy.glif</string>
     <key>Delta</key>
     <string>D_elta.glif</string>
     <key>Dhook</key>
     <string>D_hook.glif</string>
+    <key>Dhook.alt</key>
+    <string>D_hook.alt.glif</string>
     <key>Dje-cy</key>
     <string>D_je-cy.glif</string>
     <key>Dmacronbelow</key>
     <string>D_macronbelow.glif</string>
+    <key>Dmacronbelow.alt</key>
+    <string>D_macronbelow.alt.glif</string>
     <key>Dzhe-cy</key>
     <string>D_zhe-cy.glif</string>
     <key>E</key>
@@ -196,6 +208,8 @@
     <string>E_tatonos.glif</string>
     <key>Eth</key>
     <string>E_th.glif</string>
+    <key>Eth.alt</key>
+    <string>E_th.alt.glif</string>
     <key>Etilde</key>
     <string>E_tilde.glif</string>
     <key>Euro</key>
@@ -2168,6 +2182,8 @@
     <string>tugrik.glif</string>
     <key>two</key>
     <string>two.glif</string>
+    <key>two.alt</key>
+    <string>two.alt.glif</string>
     <key>two.sc</key>
     <string>two.sc.glif</string>
     <key>twoinferior</key>

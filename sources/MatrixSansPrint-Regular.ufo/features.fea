@@ -690,7 +690,7 @@ feature subs {
 
 feature ss01 {
 	featureNames {
-		name "Alternate numerals 6 and 9";
+		name "Alternate 6 and 9";
 	};
 	sub six by six.alt;
 	sub nine by nine.alt;
@@ -706,11 +706,25 @@ feature ss02 {
 
 feature ss03 {
 	featureNames {
-		name "Alternate Greek letter φ (phi)";
+		name "Alternate small Greek letter φ (phi)";
 	};
 	sub phi by phi1;
 	sub phi1 by phi;
 } ss03;
+
+feature sso4 {
+	featureNames {
+		name "Alternate numeral 2, capital letter D, etc.";
+	};
+	sub two by two.alt;
+	sub D by D.alt;
+	sub Eth by Eth.alt;
+	sub Dcroat by Dcroat.alt;
+	sub Dhook by Dhook.alt;
+	sub Dcaron by Dcaron.alt;
+	sub Ddotbelow by Ddotbelow.alt;
+	sub Dmacronbelow by Dmacronbelow.alt;
+}
 
 feature salt {
 	sub six by six.alt;
