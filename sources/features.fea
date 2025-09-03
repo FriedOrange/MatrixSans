@@ -712,7 +712,7 @@ feature ss03 {
 	sub phi1 by phi;
 } ss03;
 
-feature sso4 {
+feature ss04 {
 	featureNames {
 		name "Alternate numeral 2, capital letter D, etc.";
 	};
@@ -724,7 +724,7 @@ feature sso4 {
 	sub Dcaron by Dcaron.alt;
 	sub Ddotbelow by Ddotbelow.alt;
 	sub Dmacronbelow by Dmacronbelow.alt;
-}
+} ss04;
 
 feature salt {
 	sub six by six.alt;
