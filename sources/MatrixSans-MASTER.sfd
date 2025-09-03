@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1657964544
-ModificationTime: 1756886353
+ModificationTime: 1756887281
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -64,12 +64,12 @@ NameList: MatrixSans
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 1248 16 12
+WinInfo: 512 16 12
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 629146 314573 209715 524288 1048576 0 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "marks_above"""  "marks_below"""  "ogonek"""  "marks_aboveright""" 
-BeginChars: 65805 1296
+BeginChars: 65805 1295
 
 StartChar: dot
 Encoding: 65536 -1 0
@@ -18079,7 +18079,7 @@ EndChar
 StartChar: exclam-ar
 Encoding: 1372 1372 1195
 Width: 500
-Flags: HMWO
+Flags: HMW
 LayerCount: 2
 Fore
 Refer: 0 -1 N 1 0 0 1 50 400 2
@@ -19742,66 +19742,57 @@ Refer: 0 -1 N 1 0 0 1 250 400 2
 Refer: 0 -1 N 1 0 0 1 150 400 2
 EndChar
 
-StartChar: uni026F
-Encoding: 623 623 1278
-Width: 600
-Flags: HMW
-LayerCount: 2
-Fore
-Refer: 1200 1377 N 1 0 0 1 0 0 3
-EndChar
-
 StartChar: uni200A
-Encoding: 8202 8202 1279
+Encoding: 8202 8202 1278
 Width: 100
 Flags: HW
 LayerCount: 2
 EndChar
 
 StartChar: uni2009
-Encoding: 8201 8201 1280
+Encoding: 8201 8201 1279
 Width: 200
 Flags: HW
 LayerCount: 2
 EndChar
 
 StartChar: uni2008
-Encoding: 8200 8200 1281
+Encoding: 8200 8200 1280
 Width: 300
 Flags: HW
 LayerCount: 2
 EndChar
 
 StartChar: uni2003
-Encoding: 8195 8195 1282
+Encoding: 8195 8195 1281
 Width: 1000
 Flags: HW
 LayerCount: 2
 EndChar
 
 StartChar: uni2002
-Encoding: 8194 8194 1283
+Encoding: 8194 8194 1282
 Width: 500
 Flags: HW
 LayerCount: 2
 EndChar
 
 StartChar: uni2001
-Encoding: 8193 8193 1284
+Encoding: 8193 8193 1283
 Width: 1000
 Flags: HW
 LayerCount: 2
 EndChar
 
 StartChar: uni2000
-Encoding: 8192 8192 1285
+Encoding: 8192 8192 1284
 Width: 500
 Flags: HW
 LayerCount: 2
 EndChar
 
 StartChar: uni2E18
-Encoding: 11800 11800 1286
+Encoding: 11800 11800 1285
 Width: 600
 Flags: HW
 LayerCount: 2
@@ -19821,7 +19812,7 @@ Refer: 0 -1 N 1 0 0 1 250 400 2
 EndChar
 
 StartChar: to-ar.alt
-Encoding: 65796 -1 1287
+Encoding: 65796 -1 1286
 Width: 700
 VWidth: 0
 Flags: HW
@@ -19852,7 +19843,7 @@ Refer: 0 -1 N 1 0 0 1 50 600 2
 EndChar
 
 StartChar: two.alt
-Encoding: 65797 -1 1288
+Encoding: 65797 -1 1287
 Width: 600
 VWidth: 0
 Flags: HW
@@ -19877,7 +19868,7 @@ Refer: 0 -1 N 1 0 0 1 150 600 2
 EndChar
 
 StartChar: D.alt
-Encoding: 65798 -1 1289
+Encoding: 65798 -1 1288
 Width: 600
 VWidth: 0
 Flags: HW
@@ -19904,7 +19895,7 @@ Refer: 0 -1 N 1 0 0 1 50 600 2
 EndChar
 
 StartChar: Eth.alt
-Encoding: 65799 -1 1290
+Encoding: 65799 -1 1289
 Width: 700
 VWidth: 0
 Flags: HW
@@ -19933,7 +19924,7 @@ Refer: 0 -1 N 1 0 0 1 150 600 2
 EndChar
 
 StartChar: Dhook.alt
-Encoding: 65800 -1 1291
+Encoding: 65800 -1 1290
 Width: 700
 VWidth: 0
 Flags: HW
@@ -19961,46 +19952,46 @@ Refer: 0 -1 N 1 0 0 1 150 600 2
 EndChar
 
 StartChar: Dcaron.alt
-Encoding: 65801 -1 1292
+Encoding: 65801 -1 1291
 Width: 600
 VWidth: 0
 Flags: HW
 LayerCount: 2
 Fore
 Refer: 237 780 N 1 0 0 1 300 200 2
-Refer: 1289 -1 N 1 0 0 1 0 0 3
+Refer: 1288 -1 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: Ddotbelow.alt
-Encoding: 65803 -1 1293
+Encoding: 65803 -1 1292
 Width: 600
 VWidth: 0
 Flags: HW
 LayerCount: 2
 Fore
 Refer: 489 803 S 1 0 0 1 300 0 2
-Refer: 1289 -1 N 1 0 0 1 0 0 3
+Refer: 1288 -1 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: Dmacronbelow.alt
-Encoding: 65804 -1 1294
+Encoding: 65804 -1 1293
 Width: 600
 VWidth: 0
 Flags: HW
 LayerCount: 2
 Fore
 Refer: 490 817 N 1 0 0 1 300 0 2
-Refer: 1289 -1 N 1 0 0 1 0 0 3
+Refer: 1288 -1 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: Dcroat.alt
-Encoding: 65802 -1 1295
+Encoding: 65802 -1 1294
 Width: 700
 VWidth: 0
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 1290 -1 N 1 0 0 1 0 0 3
+Refer: 1289 -1 N 1 0 0 1 0 0 3
 EndChar
 EndChars
 EndSplineFont

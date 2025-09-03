@@ -378,7 +378,6 @@
 		<string>schwa</string>
 		<string>eopen</string>
 		<string>gsingle</string>
-		<string>uni026F</string>
 		<string>nhookleft</string>
 		<string>uni02BB</string>
 		<string>apostrophemod</string>
@@ -3579,8 +3578,6 @@
 		<key>underscore</key>
 		<string>base</string>
 		<key>uni00A0</key>
-		<string>base</string>
-		<key>uni026F</key>
 		<string>base</string>
 		<key>uni02BB</key>
 		<string>base</string>
