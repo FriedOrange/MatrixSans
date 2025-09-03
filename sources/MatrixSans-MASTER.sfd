@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1657964544
-ModificationTime: 1756772547
+ModificationTime: 1756886353
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -64,7 +64,7 @@ NameList: MatrixSans
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 65616 16 12
+WinInfo: 1248 16 12
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 629146 314573 209715 524288 1048576 0 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
@@ -18078,14 +18078,14 @@ EndChar
 
 StartChar: exclam-ar
 Encoding: 1372 1372 1195
-Width: 550
-Flags: HMW
+Width: 500
+Flags: HMWO
 LayerCount: 2
 Fore
-Refer: 0 -1 N 1 0 0 1 100 400 2
-Refer: 0 -1 S 1 0 0 1 300 500 2
-Refer: 0 -1 N 1 0 0 1 200 500 2
-Refer: 0 -1 N 1 0 0 1 400 600 2
+Refer: 0 -1 N 1 0 0 1 50 400 2
+Refer: 0 -1 S 1 0 0 1 250 500 2
+Refer: 0 -1 N 1 0 0 1 150 500 2
+Refer: 0 -1 N 1 0 0 1 350 600 2
 EndChar
 
 StartChar: comma-ar
