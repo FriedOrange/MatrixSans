@@ -1664,6 +1664,14 @@
     <string>men-ar.glif</string>
     <key>men-ar.sc</key>
     <string>men-ar.sc.glif</string>
+    <key>men_ech-ar</key>
+    <string>men_ech-ar.glif</string>
+    <key>men_ini-ar</key>
+    <string>men_ini-ar.glif</string>
+    <key>men_now-ar</key>
+    <string>men_now-ar.glif</string>
+    <key>men_xeh-ar</key>
+    <string>men_xeh-ar.glif</string>
     <key>micro</key>
     <string>micro.glif</string>
     <key>minus</key>
@@ -2460,6 +2468,8 @@
     <string>vew-ar.glif</string>
     <key>vew-ar.sc</key>
     <string>vew-ar.sc.glif</string>
+    <key>vew_now-ar</key>
+    <string>vew_now-ar.glif</string>
     <key>vo-ar</key>
     <string>vo-ar.glif</string>
     <key>vo-ar.sc</key>

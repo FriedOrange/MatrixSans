@@ -1032,6 +1032,11 @@
 		<string>f_l</string>
 		<string>f_f_i</string>
 		<string>f_f_l</string>
+		<string>men_now-ar</string>
+		<string>men_ech-ar</string>
+		<string>men_ini-ar</string>
+		<string>vew_now-ar</string>
+		<string>men_xeh-ar</string>
 		<string>idotaccent</string>
 		<string>Eng.loclNSM</string>
 		<string>jacute</string>
@@ -2961,6 +2966,14 @@
 		<string>base</string>
 		<key>men-ar.sc</key>
 		<string>base</string>
+		<key>men_ech-ar</key>
+		<string>base</string>
+		<key>men_ini-ar</key>
+		<string>base</string>
+		<key>men_now-ar</key>
+		<string>base</string>
+		<key>men_xeh-ar</key>
+		<string>base</string>
 		<key>micro</key>
 		<string>base</string>
 		<key>minus</key>
@@ -3756,6 +3769,8 @@
 		<key>vew-ar</key>
 		<string>base</string>
 		<key>vew-ar.sc</key>
+		<string>base</string>
+		<key>vew_now-ar</key>
 		<string>base</string>
 		<key>vo-ar</key>
 		<string>base</string>
@@ -5000,6 +5015,16 @@
 		<string>feh_ar.sc</string>
 		<key>to-ar.alt</key>
 		<string>to_ar.alt</string>
+		<key>men_now-ar</key>
+		<string>uniFB13</string>
+		<key>men_ech-ar</key>
+		<string>uniFB14</string>
+		<key>men_ini-ar</key>
+		<string>uniFB15</string>
+		<key>men_xeh-ar</key>
+		<string>uniFB17</string>
+		<key>vew_now-ar</key>
+		<string>uniFB16</string>
 	</dict>
 	<key>public.openTypeMeta</key>
 	<dict>
