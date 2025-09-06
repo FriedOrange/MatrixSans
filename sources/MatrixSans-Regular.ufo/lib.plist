@@ -1303,6 +1303,7 @@
 		<string>Ddotbelow.alt</string>
 		<string>Dmacronbelow.alt</string>
 		<string>Dcroat.alt</string>
+		<string>three.alt</string>
 	</array>
 	<key>public.openTypeCategories</key>
 	<dict>
@@ -3447,6 +3448,8 @@
 		<key>thorn.sc</key>
 		<string>base</string>
 		<key>three</key>
+		<string>base</string>
+		<key>three.alt</key>
 		<string>base</string>
 		<key>three.sc</key>
 		<string>base</string>

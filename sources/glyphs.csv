@@ -13,7 +13,7 @@ uni25CC,dcroat,Hbar,hbar,IJ,ij,Eng,eng,dotlessj,uni1E9E,uni20BA,uni20BD,Eng.locl
 a.sc,b.sc,c.sc,d.sc,e.sc,f.sc,g.sc,h.sc,i.sc,j.sc,k.sc,l.sc,m.sc,n.sc,o.sc,p.sc
 r.sc,s.sc,t.sc,u.sc,v.sc,w.sc,x.sc,y.sc,z.sc,ae.sc,eth.sc,oslash.sc,thorn.sc,germandbls.sc,lslash.sc,oe.sc
 florin.sc,hbar.sc,ij.sc,q.sc,eng.sc.loclNSM,zero.sc,one.sc,two.sc,three.sc,four.sc,five.sc,six.sc,seven.sc,eight.sc,nine.sc,slash.sc
-backslash.sc,at.sc,ampersand.sc,dollar.sc,sterling.sc,euro.sc,uni20BA.sc,uni20BD.sc,exclam.sc,question.sc,exclamdown.sc,questiondown.sc,uni207F,uni2e18,,
+backslash.sc,at.sc,ampersand.sc,dollar.sc,sterling.sc,euro.sc,uni20BA.sc,uni20BD.sc,exclam.sc,question.sc,exclamdown.sc,questiondown.sc,uni207F,uni2e18,three.alt,
 uni018F,uni0251,uni0259,uni02BE,uni02BF,uni02C8,hookabovecomb,uni0E3F,minute,second,uni2070,uni2075,uni2076,uni2077,uni2078,uni2079
 uni207D,uni207E,colonmonetary,lira,uni20A6,peseta,uni20A8,uni20A9,uni20AA,uni20AD,uni20AE,uni20B1,uni20B2,uni20B4,uni20B8,uni20B9
 uni20BC,uni20BE,uni20BF,uni2117,uni2120,arrowleft,arrowup,arrowright,arrowdown,arrowboth,arrowupdn,uni2196,uni2197,uni2198,uni2199,emptyset
@@ -21,7 +21,7 @@ filledbox,uni25A1,uni25AA,uni25AB,triagup,uni25B3,uni25B4,uni25B5,uni25B6,uni25B
 uni25C0,uni25C1,uni25C2,uni25C3,uni25C6,uni25C7,circle,uni25CF,uni25E6,uni27E8,uni27E9,y.titl,uni23E9,uni23EA,uni23F8,uni23CF
 uni02BD,uni1D3A,uni0181,uni0253,uni0186,uni0254,uni018A,uni0257,uni0190,uni025B,uni0198,uni0199,uni019D,uni0272,uni01B3,uni01B4
 bhook.sc,dhook.sc,khook.sc,nhookleft.sc,yhook.sc,uni04e9,uni042c,uni04b0,uni04b1,uni04b2,uni04b3,uni04af,uni04b6,uni04b7,uni04ba,
-uni0402,uni0413,uni0404,uni0409,uni040a,uni040b,uni0418,uni0423,uni040f,uni0411,uni0414,uni0416,uni0417,uni041b,uni041f,uni0424
+uni0402,uni0413,uni0404,uni0409,uni040a,uni040b,uni0418,uni0423,uni040f,uni0411,uni0414,uni0416,uni0437,uni041b,uni041f,uni0424
 uni0426,uni0427,uni0428,uni0429,uni042a,uni042b,uni042d,uni042e,uni042f,uni0431,uni0433,uni0434,uni0436,uni0438,uni043b,uni043f
 uni0444,uni0446,uni0447,uni0448,uni0449,uni044a,uni044b,uni044c,uni044d,uni044e,uni044f,uni0452,uni0454,uni0459,uni045a,uni045f
 uni0462,uni0463,uni0472,uni0474,uni0475,uni0490,uni0491,uni0492,uni0493,uni0496,uni0497,uni049a,uni049b,uni04a2,uni04a3,uni04e8

@@ -22,7 +22,10 @@ feature aalt {
 	feature sups;
 	feature subs;
 	feature ss01;
+	feature ss02;
 	feature ss03;
+	feature ss04;
+	feature ss05;
 	sub y by y.titl;
 } aalt;
 
@@ -84,6 +87,7 @@ markClass [uni0315 horncomb dotaboverightcomb] <anchor 0 500> @marks_aboveright;
 feature ccmp {
 	script cyrl;
 	sub i-cy' @marks_above by dotlessi;
+	sub three by three.alt;
 	script grek;
 	sub Alpha acutecomb by Alphatonos;
 	sub Epsilon acutecomb by Epsilontonos;
@@ -690,32 +694,7 @@ feature subs {
 
 feature ss01 {
 	featureNames {
-		name "Alternate 2, 6 and 9";
-	};
-	sub two by two.alt;
-	sub six by six.alt;
-	sub nine by nine.alt;
-} ss01;
-
-feature ss02 {
-	featureNames {
-		name "Alternate capital letter Ŋ (Eng)";
-	};
-	sub Eng by Eng.loclNSM;
-	sub eng.sc by eng.sc.loclNSM;
-} ss02;
-
-feature ss03 {
-	featureNames {
-		name "Alternate small Greek letter φ (phi)";
-	};
-	sub phi by phi1;
-	sub phi1 by phi;
-} ss03;
-
-feature ss04 {
-	featureNames {
-		name "Alternate numeral 2, capital letter D, etc.";
+		name "Alternate capital letter D, etc.";
 	};
 	# these get added to the end of ccmp automatically for Video style
 	sub D by D.alt;
@@ -725,7 +704,40 @@ feature ss04 {
 	sub Dcaron by Dcaron.alt;
 	sub Ddotbelow by Ddotbelow.alt;
 	sub Dmacronbelow by Dmacronbelow.alt;
+} ss01;
+
+feature ss02 {
+	featureNames {
+		name "Alternate numerals 2, 6 and 9";
+	};
+	sub two by two.alt;
+	sub six by six.alt;
+	sub nine by nine.alt;
+} ss02;
+
+feature ss03 {
+	featureNames {
+		name "Alternate numeral 3";
+	};
+	sub three by three.alt;
+} ss03;
+
+
+feature ss04 {
+	featureNames {
+		name "Alternate capital letter Ŋ (Eng)";
+	};
+	sub Eng by Eng.loclNSM;
+	sub eng.sc by eng.sc.loclNSM;
 } ss04;
+
+feature ss05 {
+	featureNames {
+		name "Alternate small Greek letter φ (phi)";
+	};
+	sub phi by phi1;
+	sub phi1 by phi;
+} ss05;
 
 feature salt {
 	sub six by six.alt;

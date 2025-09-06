@@ -2146,6 +2146,8 @@
     <string>thorn.sc.glif</string>
     <key>three</key>
     <string>three.glif</string>
+    <key>three.alt</key>
+    <string>three.alt.glif</string>
     <key>three.sc</key>
     <string>three.sc.glif</string>
     <key>threeeighths</key>
