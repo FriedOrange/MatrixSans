@@ -98,6 +98,8 @@ jobs:
         continue-on-error: true
       - name: Copy OFL.txt to artefact directory
         run: cp OFL.txt ${{ env.ZIP_NAME }}/OFL.txt
+      - name: Copy FONTLOG.txt to artefact directory
+        run: cp FONTLOG.txt ${{ env.ZIP_NAME }}/FONTLOG.txt
       - name: Remove proof/fontbakery stuff from release
         run: rm -rf ${{ env.ZIP_NAME }}/out
       - name: gen release file name
