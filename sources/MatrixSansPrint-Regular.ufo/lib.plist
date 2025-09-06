@@ -1298,7 +1298,6 @@
 		<string>yiwn-ar.sc</string>
 		<string>keh-ar.sc</string>
 		<string>feh-ar.sc</string>
-		<string>to-ar.alt</string>
 		<string>two.alt</string>
 		<string>D.alt</string>
 		<string>Eth.alt</string>
@@ -3485,8 +3484,6 @@
 		<string>base</string>
 		<key>to-ar</key>
 		<string>base</string>
-		<key>to-ar.alt</key>
-		<string>base</string>
 		<key>to-ar.sc</key>
 		<string>base</string>
 		<key>tonos</key>
@@ -5028,8 +5025,6 @@
 		<string>keh_ar.sc</string>
 		<key>feh-ar.sc</key>
 		<string>feh_ar.sc</string>
-		<key>to-ar.alt</key>
-		<string>to_ar.alt</string>
 		<key>men_now-ar</key>
 		<string>uniFB13</string>
 		<key>men_ech-ar</key>
