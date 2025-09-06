@@ -974,6 +974,8 @@
     <string>circumflexcomb_hookabovecomb.glif</string>
     <key>circumflexcomb_tildecomb</key>
     <string>circumflexcomb_tildecomb.glif</string>
+    <key>club</key>
+    <string>club.glif</string>
     <key>co-ar</key>
     <string>co-ar.glif</string>
     <key>co-ar.sc</key>
@@ -1032,6 +1034,8 @@
     <string>dhook.glif</string>
     <key>dhook.sc</key>
     <string>dhook.sc.glif</string>
+    <key>diamond</key>
+    <string>diamond.glif</string>
     <key>dieresis</key>
     <string>dieresis.glif</string>
     <key>dieresiscomb</key>
@@ -1382,6 +1386,8 @@
     <string>hdotbelow.glif</string>
     <key>hdotbelow.sc</key>
     <string>hdotbelow.sc.glif</string>
+    <key>heart</key>
+    <string>heart.glif</string>
     <key>hmacronbelow</key>
     <string>hmacronbelow.glif</string>
     <key>hmacronbelow.sc</key>
@@ -2096,6 +2102,8 @@
     <string>southW_estA_rrow.glif</string>
     <key>space</key>
     <string>space.glif</string>
+    <key>spade</key>
+    <string>spade.glif</string>
     <key>sterling</key>
     <string>sterling.glif</string>
     <key>summation</key>

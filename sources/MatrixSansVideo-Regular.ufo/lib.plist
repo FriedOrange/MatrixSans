@@ -1024,6 +1024,10 @@
 		<string>uni25CC</string>
 		<string>blackCircle</string>
 		<string>openbullet</string>
+		<string>spade</string>
+		<string>club</string>
+		<string>heart</string>
+		<string>diamond</string>
 		<string>leftanglebracket_math</string>
 		<string>rightanglebracket_math</string>
 		<string>uni2E18</string>
@@ -2277,6 +2281,8 @@
 		<string>mark</string>
 		<key>circumflexcomb_tildecomb</key>
 		<string>mark</string>
+		<key>club</key>
+		<string>base</string>
 		<key>co-ar</key>
 		<string>base</string>
 		<key>co-ar.sc</key>
@@ -2334,6 +2340,8 @@
 		<key>dhook</key>
 		<string>base</string>
 		<key>dhook.sc</key>
+		<string>base</string>
+		<key>diamond</key>
 		<string>base</string>
 		<key>dieresis</key>
 		<string>base</string>
@@ -2684,6 +2692,8 @@
 		<key>hdotbelow</key>
 		<string>base</string>
 		<key>hdotbelow.sc</key>
+		<string>base</string>
+		<key>heart</key>
 		<string>base</string>
 		<key>hmacronbelow</key>
 		<string>base</string>
@@ -3398,6 +3408,8 @@
 		<key>southWestArrow</key>
 		<string>base</string>
 		<key>space</key>
+		<string>base</string>
+		<key>spade</key>
 		<string>base</string>
 		<key>sterling</key>
 		<string>base</string>
