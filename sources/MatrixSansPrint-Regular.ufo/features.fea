@@ -82,6 +82,19 @@ markClass [uni0315 horncomb dotaboverightcomb] <anchor 0 500> @marks_aboveright;
 # markClass [circumflexcomb tildecomb macroncomb brevecomb dieresiscomb hungarumlautcomb] <anchor 0 600> @wide_marks_above;
 
 feature ccmp {
+	script cyrl;
+	sub i-cy' @marks_above by dotlessi;
+	script grek;
+	sub Alpha acutecomb by Alphatonos;
+	sub Epsilon acutecomb by Epsilontonos;
+	sub Eta acutecomb by Etatonos;
+	sub Iota acutecomb by Iotatonos;
+	sub Omicron acutecomb by Omicrontonos;
+	sub Upsilon acutecomb by Upsilontonos;
+	sub Omega acutecomb by Omegatonos;
+	sub upsilon dieresiscomb acutecomb by upsilondieresistonos;
+	sub iota dieresiscomb acutecomb by iotadieresistonos;
+	sub [alpha epsilon eta iota omicron upsilon omega] acutecomb' by verticallineabovecomb;
 	script latn;
 	sub [i j]' @marks_above by [dotlessi jdotless];
 	sub L caroncomb' by uni0315;
@@ -112,19 +125,6 @@ feature ccmp {
 	sub circumflexcomb hookabovecomb by circumflexcomb_hookabovecomb;
 	sub circumflexcomb tildecomb by circumflexcomb_tildecomb;
 	sub [idotbelow iogonek]' @marks_above by dotlessi dotbelowcomb;
-	script cyrl;
-	sub i-cy' @marks_above by dotlessi;
-	script grek;
-	sub Alpha acutecomb by Alphatonos;
-	sub Epsilon acutecomb by Epsilontonos;
-	sub Eta acutecomb by Etatonos;
-	sub Iota acutecomb by Iotatonos;
-	sub Omicron acutecomb by Omicrontonos;
-	sub Upsilon acutecomb by Upsilontonos;
-	sub Omega acutecomb by Omegatonos;
-	sub upsilon dieresiscomb acutecomb by upsilondieresistonos;
-	sub iota dieresiscomb acutecomb by iotadieresistonos;
-	sub [alpha epsilon eta iota omicron upsilon omega] acutecomb' by verticallineabovecomb;
 } ccmp;
 
 feature mkmk {
@@ -690,8 +690,9 @@ feature subs {
 
 feature ss01 {
 	featureNames {
-		name "Alternate 6 and 9";
+		name "Alternate 2, 6 and 9";
 	};
+	sub two by two.alt;
 	sub six by six.alt;
 	sub nine by nine.alt;
 } ss01;
@@ -716,7 +717,7 @@ feature ss04 {
 	featureNames {
 		name "Alternate numeral 2, capital letter D, etc.";
 	};
-	sub two by two.alt;
+	# these get added to the end of ccmp automatically for Video style
 	sub D by D.alt;
 	sub Eth by Eth.alt;
 	sub Dcroat by Dcroat.alt;

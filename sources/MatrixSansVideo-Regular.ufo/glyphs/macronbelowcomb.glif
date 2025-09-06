@@ -2,11 +2,6 @@
 <glyph name="macronbelowcomb" format="2">
   <unicode hex="0331"/>
   <outline>
-    <contour>
-      <point x="-150.0" y="-200.0" type="line"/>
-      <point x="-150.0" y="-100.0" type="line"/>
-      <point x="150.0" y="-100.0" type="line"/>
-      <point x="150.0" y="-200.0" type="line"/>
-    </contour>
+    <component base="macron" xOffset="-200.0" yOffset="-800.0"/>
   </outline>
 </glyph>
