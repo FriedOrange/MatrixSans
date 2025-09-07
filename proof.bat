@@ -1,0 +1,10 @@
+diffenator2 proof -o ..\..\out\proof\regular MatrixSans-Regular.ttf
+diffenator2 proof -o ..\..\out\proof\print MatrixSansPrint-Regular.ttf
+diffenator2 proof -o ..\..\out\proof\screen MatrixSansScreen-Regular.ttf
+diffenator2 proof -o ..\..\out\proof\video MatrixSansVideo-Regular.ttf
+diffenator2 proof -o ..\..\out\proof\raster MatrixSansRaster-Regular.ttf
+diffenator2 proof -o ..\..\out\proof\regular-sc MatrixSansSC-Regular.ttf
+diffenator2 proof -o ..\..\out\proof\print-sc MatrixSansPrintSC-Regular.ttf
+diffenator2 proof -o ..\..\out\proof\screen-sc MatrixSansScreenSC-Regular.ttf
+diffenator2 proof -o ..\..\out\proof\video-sc MatrixSansVideoSC-Regular.ttf
+diffenator2 proof -o ..\..\out\proof\raster-sc MatrixSansRasterSC-Regular.ttf

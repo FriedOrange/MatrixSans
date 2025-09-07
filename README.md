@@ -60,18 +60,6 @@ Readers today expect visually consistent spacing around all characters, includin
 
 ## Building
 
-[![][Fontbakery]](https://FriedOrange.github.io/MatrixSans/fontbakery/fontbakery-report.html)
-[![][Universal]](https://FriedOrange.github.io/MatrixSans/fontbakery/fontbakery-report.html)
-[![][GF Profile]](https://FriedOrange.github.io/MatrixSans/fontbakery/fontbakery-report.html)
-[![][Outline Correctness]](https://FriedOrange.github.io/MatrixSans/fontbakery/fontbakery-report.html)
-[![][Shaping]](https://FriedOrange.github.io/MatrixSans/fontbakery/fontbakery-report.html)
-
-[Fontbakery]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FFriedOrange%2FMatrixSans%2Fgh-pages%2Fbadges%2Foverall.json
-[GF Profile]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FFriedOrange%2FMatrixSans%2Fgh-pages%2Fbadges%2FGoogleFonts.json
-[Outline Correctness]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FFriedOrange%2FMatrixSans%2Fgh-pages%2Fbadges%2FOutlineCorrectnessChecks.json
-[Shaping]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FFriedOrange%2FMatrixSans%2Fgh-pages%2Fbadges%2FShapingChecks.json
-[Universal]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FFriedOrange%2FMatrixSans%2Fgh-pages%2Fbadges%2FUniversal.json
-
 Fonts are built automatically by GitHub Actions - see the "Actions" tab for the latest build.
 
 ### Building manually

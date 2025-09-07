@@ -15,6 +15,5 @@ python documentation\image3.py --output documentation\sample.png
 
 rem Generate proof HTML documents
 cd fonts\ttf
-diffenator2 proof -o ..\..\out\proof MatrixSansPrint-Regular.ttf MatrixSans-Regular.ttf MatrixSansScreen-Regular.ttf MatrixSansVideo-Regular.ttf MatrixSansRaster-Regular.ttf
-
+proof
 cd ..\..

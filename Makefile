@@ -41,7 +41,16 @@ test: venv-test build.stamp
 	TOCHECK=$$(find fonts/variable -type f 2>/dev/null); if [ -z "$$TOCHECK" ]; then TOCHECK=$$(find fonts/ttf -type f 2>/dev/null); fi ; . venv-test/bin/activate; mkdir -p out/ out/fontbakery; fontbakery check-googlefonts -l WARN --full-lists --succinct --badges out/badges --html out/fontbakery/fontbakery-report.html -j $$TOCHECK  || echo '::warning file=sources/config.yaml,title=Fontbakery failures::The fontbakery QA check reported errors in your font. Please check the generated report.'
 
 proof: venv build.stamp
-	TOCHECK=$$(find fonts/variable -type f 2>/dev/null); if [ -z "$$TOCHECK" ]; then TOCHECK=$$(find fonts/ttf -type f 2>/dev/null); fi ; . venv/bin/activate; mkdir -p out/ out/proof; diffenator2 proof $$TOCHECK -o out/proof
+	diffenator2 proof -o out/proof/regular fonts/ttf/MatrixSans-Regular.ttf
+	diffenator2 proof -o out/proof/print fonts/ttf/MatrixSansPrint-Regular.ttf
+	diffenator2 proof -o out/proof/screen fonts/ttf/MatrixSansScreen-Regular.ttf
+	diffenator2 proof -o out/proof/video fonts/ttf/MatrixSansVideo-Regular.ttf
+	diffenator2 proof -o out/proof/raster fonts/ttf/MatrixSansRaster-Regular.ttf
+	diffenator2 proof -o out/proof/regular-sc fonts/ttf/MatrixSansSC-Regular.ttf
+	diffenator2 proof -o out/proof/print-sc fonts/ttf/MatrixSansPrintSC-Regular.ttf
+	diffenator2 proof -o out/proof/screen-sc fonts/ttf/MatrixSansScreenSC-Regular.ttf
+	diffenator2 proof -o out/proof/video-sc fonts/ttf/MatrixSansVideoSC-Regular.ttf
+	diffenator2 proof -o out/proof/raster-sc fonts/ttf/MatrixSansRasterSC-Regular.ttf
 
 images: venv build.stamp $(DRAWBOT_OUTPUT)
 	git add documentation/*.png && git commit -m "Rebuild images" documentation/*.png
