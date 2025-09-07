@@ -41,6 +41,7 @@ test: venv-test build.stamp
 	TOCHECK=$$(find fonts/variable -type f 2>/dev/null); if [ -z "$$TOCHECK" ]; then TOCHECK=$$(find fonts/ttf -type f 2>/dev/null); fi ; . venv-test/bin/activate; mkdir -p out/ out/fontbakery; fontbakery check-googlefonts -l WARN --full-lists --succinct --badges out/badges --html out/fontbakery/fontbakery-report.html -j $$TOCHECK  || echo '::warning file=sources/config.yaml,title=Fontbakery failures::The fontbakery QA check reported errors in your font. Please check the generated report.'
 
 proof: venv build.stamp
+	mkdir -p out/ out/proof out/proof/regular out/proof/regular-sc out/proof/print out/proof/print-sc out/proof/screen out/proof/screen-sc out/proof/raster out/proof/raster-sc out/proof/video out/proof/video-sc
 	diffenator2 proof -o out/proof/regular fonts/ttf/MatrixSans-Regular.ttf
 	diffenator2 proof -o out/proof/print fonts/ttf/MatrixSansPrint-Regular.ttf
 	diffenator2 proof -o out/proof/screen fonts/ttf/MatrixSansScreen-Regular.ttf
