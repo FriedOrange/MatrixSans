@@ -11,8 +11,7 @@ This is set of pixelated, retro-style fonts based on the classic 5&times;7 dot m
 ### Links
 
 - [Downloads](https://github.com/FriedOrange/MatrixSans/releases)
-- [Editable text demo](https://friedorange.github.io/MatrixSans/proof/Regular-diffbrowsers_text.html)
-- [Showcase of supported glyphs](https://friedorange.github.io/MatrixSans/proof/Regular-diffbrowsers_glyphs.html)
+- [Testing & demo pages](https://friedorange.github.io/MatrixSans/)
 
 ### Sample images
 
