@@ -328,7 +328,7 @@ feature locl {
 @openmidR_ar = [Et-ar];
 @underhangR_ar = [Liwn-ar Ghad-ar Vew-ar gim-ar da-ar liwn-ar ech_yiwn-ar];
 @underhang2_ar = [Now-ar Sha-ar];
-@curveBR_ar = [Ech-ar Ca-ar Yi-ar Tiwn-ar Co-ar Piwr-ar Keh-ar Oh-ar Feh-ar yistroke-ar]
+@curveBR_ar = [Ech-ar Ca-ar Yi-ar Tiwn-ar Co-ar Piwr-ar Keh-ar Oh-ar Feh-ar yistroke-ar];
 @shortcurveTR_ar = [aybturned-ar ben-ar et-ar ini-ar ho-ar ja-ar sha-ar vo-ar jheh-ar ra-ar tiwn-ar reh-ar piwr-ar keh-ar oh-ar feh-ar];
 @shortR_ar = [ayb-ar ech-ar eh-ar zhe-ar xeh-ar ca-ar ken-ar yi-ar now-ar peh-ar seh-ar co-ar];
 @underhangN2R_ar = [za-ar liwn-ar ghad-ar cha-ar vew-ar];
