@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1657964544
-ModificationTime: 1757300890
+ModificationTime: 1757326365
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -64,12 +64,12 @@ NameList: MatrixSans
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 688 16 12
+WinInfo: 65600 16 12
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 629146 314573 209715 524288 1048576 0 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "marks_above"""  "marks_below"""  "ogonek"""  "marks_aboveright""" 
-BeginChars: 65806 1305
+BeginChars: 65806 1306
 
 StartChar: dot
 Encoding: 65536 -1 0
@@ -20321,6 +20321,16 @@ AnchorPoint: "marks_below" 0 0 mark 0
 LayerCount: 2
 Fore
 Refer: 587 712 N 1 0 0 1 -100 -700 2
+EndChar
+
+StartChar: phi.sc
+Encoding: 65747 -1 1305
+Width: 600
+VWidth: 0
+Flags: HWO
+LayerCount: 2
+Fore
+Refer: 1008 -1 N 1 0 0 1 0 0 3
 EndChar
 EndChars
 EndSplineFont

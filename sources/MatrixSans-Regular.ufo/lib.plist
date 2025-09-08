@@ -1308,6 +1308,7 @@
 		<string>Dmacronbelow.alt</string>
 		<string>Dcroat.alt</string>
 		<string>three.alt</string>
+		<string>phi.sc</string>
 	</array>
 	<key>public.openTypeCategories</key>
 	<dict>
@@ -3208,6 +3209,8 @@
 		<key>peso</key>
 		<string>base</string>
 		<key>phi</key>
+		<string>base</string>
+		<key>phi.sc</key>
 		<string>base</string>
 		<key>phi1</key>
 		<string>base</string>
