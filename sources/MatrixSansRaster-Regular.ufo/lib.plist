@@ -418,6 +418,7 @@
 		<string>commaaccentcomb</string>
 		<string>cedillacomb</string>
 		<string>ogonekcomb</string>
+		<string>uni0329</string>
 		<string>brevebelowcomb</string>
 		<string>macronbelowcomb</string>
 		<string>dotaboverightcomb</string>
@@ -3620,6 +3621,8 @@
 		<string>mark</string>
 		<key>uni0324</key>
 		<string>mark</string>
+		<key>uni0329</key>
+		<string>base</string>
 		<key>uni0403</key>
 		<string>base</string>
 		<key>uni0405</key>
