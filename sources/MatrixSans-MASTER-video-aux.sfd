@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1675081307
-ModificationTime: 1757325814
+ModificationTime: 1757417591
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -44,8 +44,8 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 1114048 16 6
-BeginChars: 1114129 89
+WinInfo: 9568 16 12
+BeginChars: 1114129 93
 
 StartChar: halfdot
 Encoding: 1114112 -1 0
@@ -3607,7 +3607,7 @@ StartChar: ca-ar.sc
 Encoding: 1114128 -1 88
 Width: 600
 VWidth: 0
-Flags: HWO
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -3647,6 +3647,230 @@ SplineSet
  250 200 l 1
  200 200 l 1
  200 100 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni25B3
+Encoding: 9651 9651 89
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+200 101 m 1
+ 601 101 l 1
+ 601 201 l 1
+ 551 201 l 1
+ 551 301 l 1
+ 501 301 l 1
+ 501 401 l 1
+ 451 401 l 1
+ 451 501 l 1
+ 350 501 l 1
+ 350 401 l 1
+ 300 401 l 1
+ 300 301 l 1
+ 250 301 l 1
+ 250 201 l 1
+ 200 201 l 1
+ 200 101 l 1
+50 0 m 1
+ 50 101 l 1
+ 100 101 l 1
+ 100 201 l 1
+ 150 201 l 1
+ 150 301 l 1
+ 200 301 l 1
+ 200 401 l 1
+ 250 401 l 1
+ 250 501 l 1
+ 300 501 l 1
+ 300 601 l 1
+ 350 601 l 1
+ 350 701 l 1
+ 451 701 l 1
+ 451 601 l 1
+ 501 601 l 1
+ 501 501 l 1
+ 551 501 l 1
+ 551 401 l 1
+ 601 401 l 1
+ 601 301 l 1
+ 651 301 l 1
+ 651 201 l 1
+ 701 201 l 1
+ 701 101 l 1
+ 751 101 l 1
+ 751 0 l 1
+ 50 0 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni25B7
+Encoding: 9655 9655 90
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+151 551 m 1
+ 151 150 l 1
+ 251 150 l 1
+ 251 200 l 1
+ 351 200 l 1
+ 351 250 l 1
+ 451 250 l 1
+ 451 300 l 1
+ 551 300 l 1
+ 551 401 l 1
+ 451 401 l 1
+ 451 451 l 1
+ 351 451 l 1
+ 351 501 l 1
+ 251 501 l 1
+ 251 551 l 1
+ 151 551 l 1
+50 701 m 1
+ 151 701 l 1
+ 151 651 l 1
+ 251 651 l 1
+ 251 601 l 1
+ 351 601 l 1
+ 351 551 l 1
+ 451 551 l 1
+ 451 501 l 1
+ 551 501 l 1
+ 551 451 l 1
+ 651 451 l 1
+ 651 401 l 1
+ 751 401 l 1
+ 751 300 l 1
+ 651 300 l 1
+ 651 250 l 1
+ 551 250 l 1
+ 551 200 l 1
+ 451 200 l 1
+ 451 150 l 1
+ 351 150 l 1
+ 351 100 l 1
+ 251 100 l 1
+ 251 50 l 1
+ 151 50 l 1
+ 151 0 l 1
+ 50 0 l 1
+ 50 701 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni25BD
+Encoding: 9661 9661 91
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+601 600 m 1
+ 200 600 l 1
+ 200 500 l 1
+ 250 500 l 1
+ 250 400 l 1
+ 300 400 l 1
+ 300 300 l 1
+ 350 300 l 1
+ 350 200 l 1
+ 451 200 l 1
+ 451 300 l 1
+ 501 300 l 1
+ 501 400 l 1
+ 551 400 l 1
+ 551 500 l 1
+ 601 500 l 1
+ 601 600 l 1
+751 701 m 1
+ 751 600 l 1
+ 701 600 l 1
+ 701 500 l 1
+ 651 500 l 1
+ 651 400 l 1
+ 601 400 l 1
+ 601 300 l 1
+ 551 300 l 1
+ 551 200 l 1
+ 501 200 l 1
+ 501 100 l 1
+ 451 100 l 1
+ 451 0 l 1
+ 350 0 l 1
+ 350 100 l 1
+ 300 100 l 1
+ 300 200 l 1
+ 250 200 l 1
+ 250 300 l 1
+ 200 300 l 1
+ 200 400 l 1
+ 150 400 l 1
+ 150 500 l 1
+ 100 500 l 1
+ 100 600 l 1
+ 50 600 l 1
+ 50 701 l 1
+ 751 701 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni25C1
+Encoding: 9665 9665 92
+Width: 800
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+650 150 m 1
+ 650 551 l 1
+ 550 551 l 1
+ 550 501 l 1
+ 450 501 l 1
+ 450 451 l 1
+ 350 451 l 1
+ 350 401 l 1
+ 250 401 l 1
+ 250 300 l 1
+ 350 300 l 1
+ 350 250 l 1
+ 450 250 l 1
+ 450 200 l 1
+ 550 200 l 1
+ 550 150 l 1
+ 650 150 l 1
+751 0 m 1
+ 650 0 l 1
+ 650 50 l 1
+ 550 50 l 1
+ 550 100 l 1
+ 450 100 l 1
+ 450 150 l 1
+ 350 150 l 1
+ 350 200 l 1
+ 250 200 l 1
+ 250 250 l 1
+ 150 250 l 1
+ 150 300 l 1
+ 50 300 l 1
+ 50 401 l 1
+ 150 401 l 1
+ 150 451 l 1
+ 250 451 l 1
+ 250 501 l 1
+ 350 501 l 1
+ 350 551 l 1
+ 450 551 l 1
+ 450 601 l 1
+ 550 601 l 1
+ 550 651 l 1
+ 650 651 l 1
+ 650 701 l 1
+ 751 701 l 1
+ 751 0 l 1
 EndSplineSet
 EndChar
 EndChars
