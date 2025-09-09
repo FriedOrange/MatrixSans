@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni10B5" format="2">
+  <advance width="600"/>
+  <unicode hex="10B5"/>
+  <outline>
+    <component base="dagger"/>
+  </outline>
+</glyph>

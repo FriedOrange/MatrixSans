@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni10F3" format="2">
+  <advance height="-200" width="600"/>
+  <unicode hex="10F3"/>
+  <outline>
+    <component base="three.alt" yOffset="-200.0"/>
+  </outline>
+</glyph>
