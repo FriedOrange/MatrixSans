@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1657964544
-ModificationTime: 1757414538
+ModificationTime: 1757458026
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -64,7 +64,7 @@ NameList: MatrixSans
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 96 16 12
+WinInfo: 9808 16 12
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 629146 314573 209715 524288 1048576 0 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
@@ -20284,31 +20284,7 @@ Width: 800
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 0 -1 N 1 0 0 1 350 0 2
-Refer: 0 -1 N 1 0 0 1 450 100 2
-Refer: 0 -1 N 1 0 0 1 350 100 2
-Refer: 0 -1 N 1 0 0 1 250 100 2
-Refer: 0 -1 N 1 0 0 1 550 200 2
-Refer: 0 -1 N 1 0 0 1 450 200 2
-Refer: 0 -1 N 1 0 0 1 350 200 2
-Refer: 0 -1 N 1 0 0 1 250 200 2
-Refer: 0 -1 N 1 0 0 1 150 200 2
-Refer: 0 -1 N 1 0 0 1 650 300 2
-Refer: 0 -1 N 1 0 0 1 550 300 2
-Refer: 0 -1 N 1 0 0 1 450 300 2
-Refer: 0 -1 N 1 0 0 1 350 300 2
-Refer: 0 -1 N 1 0 0 1 250 300 2
-Refer: 0 -1 N 1 0 0 1 150 300 2
-Refer: 0 -1 N 1 0 0 1 50 300 2
-Refer: 0 -1 N 1 0 0 1 550 400 2
-Refer: 0 -1 N 1 0 0 1 450 400 2
-Refer: 0 -1 N 1 0 0 1 350 400 2
-Refer: 0 -1 N 1 0 0 1 250 400 2
-Refer: 0 -1 N 1 0 0 1 150 400 2
-Refer: 0 -1 N 1 0 0 1 450 500 2
-Refer: 0 -1 N 1 0 0 1 350 500 2
-Refer: 0 -1 N 1 0 0 1 250 500 2
-Refer: 0 -1 N 1 0 0 1 350 600 2
+Refer: 662 9670 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni0329
