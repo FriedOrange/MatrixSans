@@ -32,7 +32,7 @@ with open(OLD_FILE, "rb") as input_file:
 lib["public.postscriptNames"] = ps_names
 # add 'meta' OpenType table
 lib["public.openTypeMeta"] = {
-		"dlng": ["Latn", "Cyrl", "Grek"], 	"slng": ["Latn", "Cyrl", "Grek"]
+		"dlng": ["Latn", "Cyrl", "Grek", "Armn", "Geor"], 	"slng": ["Latn", "Cyrl", "Grek", "Armn", "Geor"]
 	}
 
 with open(NEW_FILE, "wb") as output_file:

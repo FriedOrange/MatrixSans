@@ -5571,12 +5571,16 @@
 			<string>Latn</string>
 			<string>Cyrl</string>
 			<string>Grek</string>
+			<string>Armn</string>
+			<string>Geor</string>
 		</array>
 		<key>slng</key>
 		<array>
 			<string>Latn</string>
 			<string>Cyrl</string>
 			<string>Grek</string>
+			<string>Armn</string>
+			<string>Geor</string>
 		</array>
 	</dict>
 </dict>
