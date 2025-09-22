@@ -119,9 +119,9 @@ def make_video(source):
 	pen.closePath()
 	pen = None
 
-	for glyph in font:
+	video_aux_font = fontforge.open(VIDEO_AUX_SOURCE)
 
-		video_aux_font = fontforge.open(VIDEO_AUX_SOURCE)
+	for glyph in font:
 
 		# determine where the dots are in each glyph
 		matrix, skip = get_pattern(font, glyph)
