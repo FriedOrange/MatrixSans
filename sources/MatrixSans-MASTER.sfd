@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1657964544
-ModificationTime: 1758777145
+ModificationTime: 1758796128
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -58,18 +58,18 @@ OS2Vendor: 'PfEd'
 MarkAttachClasses: 1
 DEI: 91125
 LangName: 1033 "" "" "" "" "" "" "" "" "" "Brad Neil" "Based on the classic 5-by-7 dot matrix capitals, incorporating the best features from historical designs. It was conceived in 2019 to meet the need for a quality free font in this popular style." "" "http://friedorange.xyz/" "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" "https://scripts.sil.org/OFL"
-Encoding: UnicodeBmp
+Encoding: Custom
 UnicodeInterp: none
 NameList: MatrixSans
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 65632 16 12
+WinInfo: 65648 16 12
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 629146 314573 209715 524288 1048576 0 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "marks_above"""  "marks_below"""  "ogonek"""  "marks_aboveright""" 
-BeginChars: 65818 1492
+BeginChars: 65827 1501
 
 StartChar: dot
 Encoding: 65536 -1 0
@@ -23629,7 +23629,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: chamfer
+StartChar: chamferTR
 Encoding: 65811 -1 1485
 Width: 0
 VWidth: 0
@@ -23637,16 +23637,16 @@ Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-0 0 m 1
- 0 50 l 1
- 22 50 l 1
- 50 22 l 1
- 50 0 l 1
- 0 0 l 1
+50 50 m 1
+ 50 100 l 1
+ 72 100 l 1
+ 100 72 l 1
+ 100 50 l 1
+ 50 50 l 1
 EndSplineSet
 EndChar
 
-StartChar: concaveRH
+StartChar: concaveTR
 Encoding: 65812 -1 1486
 Width: 0
 VWidth: 0
@@ -23654,16 +23654,16 @@ Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-72 0 m 1
- 0 0 l 1
- 0 50 l 1
+122 50 m 1
  50 50 l 1
- 50 22 l 1
- 72 0 l 1
+ 50 100 l 1
+ 100 100 l 1
+ 100 72 l 1
+ 122 50 l 1
 EndSplineSet
 EndChar
 
-StartChar: convexRH
+StartChar: convexTR
 Encoding: 65813 -1 1487
 Width: 0
 VWidth: 0
@@ -23671,15 +23671,15 @@ Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-0 0 m 1
- 0 50 l 1
- 22 50 l 1
- 72 0 l 1
- 0 0 l 1
+50 50 m 1
+ 50 100 l 1
+ 72 100 l 1
+ 122 50 l 1
+ 50 50 l 1
 EndSplineSet
 EndChar
 
-StartChar: midRH
+StartChar: midTR
 Encoding: 65814 -1 1488
 Width: 0
 VWidth: 0
@@ -23687,15 +23687,15 @@ Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-0 0 m 1
- 0 50 l 1
- 72 50 l 1
- 122 0 l 1
- 0 0 l 1
+50 100 m 1
+ 172 100 l 1
+ 122 50 l 1
+ 50 50 l 1
+ 50 100 l 1
 EndSplineSet
 EndChar
 
-StartChar: concaveLH
+StartChar: chamferBR
 Encoding: 65815 -1 1489
 Width: 0
 VWidth: 0
@@ -23703,17 +23703,50 @@ Flags: HW
 LayerCount: 2
 Fore
 SplineSet
--22 0 m 1
- 0 22 l 1
- 0 50 l 1
- 50 50 l 1
+50 50 m 1
+ 100 50 l 1
+ 100 28 l 1
+ 72 0 l 1
  50 0 l 1
- -22 0 l 1
+ 50 50 l 1
 EndSplineSet
 EndChar
 
-StartChar: convexLH
+StartChar: concaveBR
 Encoding: 65816 -1 1490
+Width: 0
+VWidth: 0
+Flags: HWO
+LayerCount: 2
+Fore
+SplineSet
+122 50 m 1
+ 100 28 l 1
+ 100 0 l 1
+ 50 0 l 1
+ 50 50 l 1
+ 122 50 l 1
+EndSplineSet
+EndChar
+
+StartChar: convexBR
+Encoding: 65817 -1 1491
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+50 50 m 1
+ 122 50 l 1
+ 72 0 l 1
+ 50 0 l 1
+ 50 50 l 1
+EndSplineSet
+EndChar
+
+StartChar: midBR
+Encoding: 65818 -1 1492
 Width: 0
 VWidth: 0
 Flags: HW
@@ -23721,18 +23754,68 @@ LayerCount: 2
 Fore
 SplineSet
 50 0 m 1
- -22 0 l 1
- 28 50 l 1
  50 50 l 1
+ 122 50 l 1
+ 172 0 l 1
  50 0 l 1
 EndSplineSet
 EndChar
 
-StartChar: midLH
-Encoding: 65817 -1 1491
+StartChar: chamferBL
+Encoding: 65819 -1 1493
 Width: 0
 VWidth: 0
-Flags: HWO
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+50 50 m 1
+ 50 0 l 1
+ 28 0 l 1
+ 0 28 l 1
+ 0 50 l 1
+ 50 50 l 1
+EndSplineSet
+EndChar
+
+StartChar: concaveBL
+Encoding: 65820 -1 1494
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+-22 50 m 1
+ 50 50 l 1
+ 50 0 l 1
+ 0 0 l 1
+ 0 28 l 1
+ -22 50 l 1
+EndSplineSet
+EndChar
+
+StartChar: convexBL
+Encoding: 65821 -1 1495
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+50 50 m 1
+ 50 0 l 1
+ 28 0 l 1
+ -22 50 l 1
+ 50 50 l 1
+EndSplineSet
+EndChar
+
+StartChar: midBL
+Encoding: 65822 -1 1496
+Width: 0
+VWidth: 0
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -23741,6 +23824,72 @@ SplineSet
  -22 50 l 1
  50 50 l 1
  50 0 l 1
+EndSplineSet
+EndChar
+
+StartChar: chamferTL
+Encoding: 65823 -1 1497
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+50 50 m 1
+ 0 50 l 1
+ 0 72 l 1
+ 28 100 l 1
+ 50 100 l 1
+ 50 50 l 1
+EndSplineSet
+EndChar
+
+StartChar: concaveTL
+Encoding: 65824 -1 1498
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+-22 50 m 1
+ 0 72 l 1
+ 0 100 l 1
+ 50 100 l 1
+ 50 50 l 1
+ -22 50 l 1
+EndSplineSet
+EndChar
+
+StartChar: convexTL
+Encoding: 65825 -1 1499
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+50 50 m 1
+ -22 50 l 1
+ 28 100 l 1
+ 50 100 l 1
+ 50 50 l 1
+EndSplineSet
+EndChar
+
+StartChar: midTL
+Encoding: 65826 -1 1500
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+50 100 m 1
+ 50 50 l 1
+ -22 50 l 1
+ -72 100 l 1
+ 50 100 l 1
 EndSplineSet
 EndChar
 EndChars

@@ -39,7 +39,10 @@ def add_names(font, style, suffix=""):
 
 def get_pattern(font, glyph):
 	matrix = [[False]*GLYPH_HEIGHT for _ in range(GLYPH_WIDTH)] # full dots
-	skip = False
+	if len(font[glyph].references) == 0:
+		return matrix, True
+	else:
+		skip = False
 	# for ref, trans, _ in font[glyph].references:
 	for ref, trans, _ in font[glyph].references:
 		if ref != "dot":
@@ -59,7 +62,7 @@ def segmented_panose(panose):
 	return new_panose
 
 def clear_dots(font):
-	for glyph in ["dot", "printdot", "screendot", "rasterdot", "rasterdot2", "quarterdot", "concaveRH", "concaveLH", "convexRH", "convexLH", "midRH", "midLH", "chamfer"]:
+	for glyph in ["dot", "printdot", "screendot", "rasterdot", "rasterdot2", "quarterdot", "concaveTR", "concaveTL", "convexTR", "convexTL", "midTR", "midTL", "chamferTR", "chamferTL", "concaveBR", "concaveBL", "convexBR", "convexBL", "midBR", "midBL", "chamferBR", "chamferBL"]:
 		font[glyph].unlinkThisGlyph()
 		font[glyph].clear()
 
@@ -263,7 +266,7 @@ def make_smooth(source):
 
 	# make glyphs with diagonally-touching components directly reference "dot"
 	font.createChar(-1, "temp")
-	for glyph in ["Aogonek", "uogonek", "aogonek.sc"]:
+	for glyph in ["Aogonek", "aogonek.sc"]:
 		font["temp"].clear()
 		refs_to_dots(glyph, 0, 0, "temp")
 		font.selection.select("temp")
@@ -272,71 +275,140 @@ def make_smooth(source):
 		font.paste()
 	font["temp"].clear()
 
+	# cell connection (neighbour) criteria, mask, component reference by cell quadrant
+	topright = [
+		(0b00010000, 0b11111000, "convexTR"),
+		(0b00000001, 0b11110011, "chamferTR"),
+		(0b01000000, 0b11100000, "midTR"),
+		(0b10010000, 0b10111000, "concaveTR"),
+	]
+	bottomleft = [
+		(0b00000001, 0b10001111, "convexBL"),
+		(0b00010000, 0b00111110, "chamferBL"),
+		(0b00000100, 0b00001110, "midBL"),
+		(0b00001001, 0b10001011, "concaveBL"),
+	]
+	topleft = [
+		(0b00000100, 0b10001111, "convexTL"),
+		(0b01000000, 0b11100011, "chamferTL"),
+		(0b00000001, 0b10000011, "midTL"),
+		(0b10000100, 0b10001110, "concaveTL"),
+	]
+	bottomright = [
+		(0b01000000, 0b11111000, "convexBR"),
+		(0b00000100, 0b00111110, "chamferBR"),
+		(0b00010000, 0b00111000, "midBR"),
+		(0b01001000, 0b11101000, "concaveBR"),
+	]
+
 	for glyph in font:
 
 		# determine where the dots are in each glyph
 		matrix, skip = get_pattern(font, glyph)
 		if skip:
-			continue
+			continue # ignore glyphs that don't reference "dot"
 
-		# determine which directions have a connected dot
-		connections = 0
+		# print(f"Interpolating \"{glyph}\"")
+		# for j in range(GLYPH_HEIGHT - 1, -1, -1):
+		# 	for i in range(GLYPH_WIDTH):
+		# 		print("\u2588" if matrix[i][j] else " ", end="")
+		# 	print()
+
+		# remove existing (ordinary) "dot" glyphs
+		font[glyph].references = ()
+
+		# determine which directions have a connected (neighbouring) dot
 		for j in range(GLYPH_HEIGHT - 1, -1, -1):
 			for i in range(GLYPH_WIDTH):
+				if not matrix[i][j]:
+					continue
+				connections = 0
 				if j < GLYPH_HEIGHT - 1:
-					if matrix[i][j + 1]: connections |= 0b10000000
-					if i < GLYPH_WIDTH - 1 and matrix[i + 1][j + 1]: connections |= 0b01000000
+					if matrix[i][j + 1]: 
+						connections |= 0b10000000
+					if i < GLYPH_WIDTH - 1 and matrix[i + 1][j + 1]: 
+						connections |= 0b01000000
 				if i < GLYPH_WIDTH - 1:
-					if matrix[i + 1][j]: connections |= 0b00100000
-					if j > 0 and matrix[i + 1][j - 1]: connections |= 0b00010000
+					if matrix[i + 1][j]: 
+						connections |= 0b00100000
+					if j > 0 and matrix[i + 1][j - 1]: 
+						connections |= 0b00010000
 				if j > 0:
-					if matrix[i][j - 1]: connections |= 0b00001000
-					if i > 0 and matrix[i - 1][j - 1]: connections |= 0b00000100
+					if matrix[i][j - 1]: 
+						connections |= 0b00001000
+					if i > 0 and matrix[i - 1][j - 1]: 
+						connections |= 0b00000100
 				if i > 0:
-					if matrix[i - 1][j]: connections |= 0b00000010
-					if j < GLYPH_HEIGHT - 1 and matrix [i - 1][j + 1]: connections |= 0b00000001
+					if matrix[i - 1][j]: 
+						connections |= 0b00000010
+					if j < GLYPH_HEIGHT - 1 and matrix [i - 1][j + 1]: 
+						connections |= 0b00000001
 
-		# add quarter blocks depending on matrix cell connections
-		for j in range(GLYPH_HEIGHT - 1, -1, -1):
-			for i in range(GLYPH_WIDTH):
+				if glyph == "x":
+					print(f"x: {i} y: {j - DESCENT_DOTS}")
+					print(f"connections: {connections:08b}")
+
+				# add quarter blocks depending on matrix cell connections
 				for criteria, mask, block in topleft:
 					if connections & mask == criteria:
-						# add block
+						if glyph == "x":
+							print(f"block: {block}")
+							print(f"mask:        {mask:08b}")
+							print(f"criteria:    {criteria:08b}")
+						font[glyph].addReference(block, (1, 0, 0, 1, i * DOT_SIZE, (j - DESCENT_DOTS) * DOT_SIZE))
 						break
 				else:
-					# add quarterdot
-					pass
+					font[glyph].addReference("quarterdot", (1, 0, 0, 1, i * DOT_SIZE, (j - DESCENT_DOTS + 0.5) * DOT_SIZE))
 				for criteria, mask, block in topright:
 					if connections & mask == criteria:
-						# add block
+						if glyph == "x":
+							print(f"block: {block}")
+							print(f"mask:        {mask:08b}")
+							print(f"criteria:    {criteria:08b}")
+						font[glyph].addReference(block, (1, 0, 0, 1, i * DOT_SIZE, (j - DESCENT_DOTS) * DOT_SIZE))
 						break
 				else:
-					# add quarterdot
-					pass
+					font[glyph].addReference("quarterdot", (1, 0, 0, 1, (i + 0.5) * DOT_SIZE, (j - DESCENT_DOTS + 0.5) * DOT_SIZE))
 				for criteria, mask, block in bottomleft:
 					if connections & mask == criteria:
-						# add block
+						if glyph == "x":
+							print(f"block: {block}")
+							print(f"mask:        {mask:08b}")
+							print(f"criteria:    {criteria:08b}")
+						font[glyph].addReference(block, (1, 0, 0, 1, i * DOT_SIZE, (j - DESCENT_DOTS) * DOT_SIZE))
 						break
 				else:
-					# add quarterdot
-					pass
+					font[glyph].addReference("quarterdot", (1, 0, 0, 1, i * DOT_SIZE, (j - DESCENT_DOTS) * DOT_SIZE))
 				for criteria, mask, block in bottomright:
 					if connections & mask == criteria:
-						# add block
+						if glyph == "x":
+							print(f"block: {block}")
+							print(f"mask:        {mask:08b}")
+							print(f"criteria:    {criteria:08b}")
+						font[glyph].addReference(block, (1, 0, 0, 1, i * DOT_SIZE, (j - DESCENT_DOTS) * DOT_SIZE))
 						break
 				else:
-					# add quarterdot
-					pass
+					font[glyph].addReference("quarterdot", (1, 0, 0, 1, (i + 0.5) * DOT_SIZE, (j - DESCENT_DOTS) * DOT_SIZE))
 
+	# clear_dots(font)
+
+	# for glyph in UNLINK_LIST:
+	# 	font[glyph].unlinkRef() # prevent rendering issues with just-touching components
+	# font.selection.all()
+	# font.removeOverlap()
+	# font.round()
+	# font.simplify()
+
+	add_names(font, "Smooth")
 	font.save(f"temp\\MatrixSansSmooth-{font.weight}.sfd")
 
 def main():
-	make_regular(MAIN_SOURCE)
-	make_print(MAIN_SOURCE)
-	make_raster(MAIN_SOURCE)
-	make_screen(MAIN_SOURCE)
-	make_video(MAIN_SOURCE)
-	# make_smooth(MAIN_SOURCE)
+	# make_regular(MAIN_SOURCE)
+	# make_print(MAIN_SOURCE)
+	# make_raster(MAIN_SOURCE)
+	# make_screen(MAIN_SOURCE)
+	# make_video(MAIN_SOURCE)
+	make_smooth(MAIN_SOURCE)
 	# make_print(HALFSTEP_SOURCE, "Mono")
 	# make_extended(HALFSTEP_SOURCE)
 	# make_print(EXTENDED_TEMP, "Mono")
