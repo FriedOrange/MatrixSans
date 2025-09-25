@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="aring.sc" format="2">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="228.0" y="800.0" type="line"/>
+      <point x="272.0" y="800.0" type="line"/>
+      <point x="400.0" y="672.0" type="line"/>
+      <point x="400.0" y="628.0" type="line"/>
+      <point x="272.0" y="500.0" type="line"/>
+      <point x="500.0" y="272.0" type="line"/>
+      <point x="500.0" y="0.0" type="line"/>
+      <point x="400.0" y="0.0" type="line"/>
+      <point x="400.0" y="100.0" type="line"/>
+      <point x="100.0" y="100.0" type="line"/>
+      <point x="100.0" y="0.0" type="line"/>
+      <point x="0.0" y="0.0" type="line"/>
+      <point x="0.0" y="272.0" type="line"/>
+      <point x="228.0" y="500.0" type="line"/>
+      <point x="100.0" y="628.0" type="line"/>
+      <point x="100.0" y="672.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="222.0" y="650.0" type="line"/>
+      <point x="250.0" y="622.0" type="line"/>
+      <point x="278.0" y="650.0" type="line"/>
+      <point x="250.0" y="678.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="250.0" y="378.0" type="line"/>
+      <point x="100.0" y="228.0" type="line"/>
+      <point x="100.0" y="200.0" type="line"/>
+      <point x="400.0" y="200.0" type="line"/>
+      <point x="400.0" y="228.0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

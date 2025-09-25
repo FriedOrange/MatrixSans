@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="abbrev-ar" format="2">
+  <advance width="600"/>
+  <unicode hex="055F"/>
+  <outline>
+    <contour>
+      <point x="500.0" y="500.0" type="line"/>
+      <point x="0.0" y="500.0" type="line"/>
+      <point x="0.0" y="700.0" type="line"/>
+      <point x="100.0" y="700.0" type="line"/>
+      <point x="100.0" y="600.0" type="line"/>
+      <point x="500.0" y="600.0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

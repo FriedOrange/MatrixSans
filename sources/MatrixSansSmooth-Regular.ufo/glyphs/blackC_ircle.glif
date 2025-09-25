@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="blackCircle" format="2">
+  <advance width="800"/>
+  <unicode hex="25CF"/>
+  <outline>
+    <contour>
+      <point x="500.0" y="0.0" type="line"/>
+      <point x="200.0" y="0.0" type="line"/>
+      <point x="200.0" y="100.0" type="line"/>
+      <point x="100.0" y="100.0" type="line"/>
+      <point x="100.0" y="200.0" type="line"/>
+      <point x="0.0" y="200.0" type="line"/>
+      <point x="0.0" y="500.0" type="line"/>
+      <point x="100.0" y="500.0" type="line"/>
+      <point x="100.0" y="600.0" type="line"/>
+      <point x="200.0" y="600.0" type="line"/>
+      <point x="200.0" y="700.0" type="line"/>
+      <point x="500.0" y="700.0" type="line"/>
+      <point x="500.0" y="600.0" type="line"/>
+      <point x="600.0" y="600.0" type="line"/>
+      <point x="600.0" y="500.0" type="line"/>
+      <point x="700.0" y="500.0" type="line"/>
+      <point x="700.0" y="200.0" type="line"/>
+      <point x="600.0" y="200.0" type="line"/>
+      <point x="600.0" y="100.0" type="line"/>
+      <point x="500.0" y="100.0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

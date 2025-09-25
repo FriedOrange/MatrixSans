@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ldot.sc" format="2">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="350.0" y="300.0" type="line"/>
+      <point x="350.0" y="401.0" type="line"/>
+      <point x="451.0" y="401.0" type="line"/>
+      <point x="451.0" y="300.0" type="line"/>
+    </contour>
+    <component base="l.sc"/>
+  </outline>
+</glyph>

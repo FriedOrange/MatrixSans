@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hbrevebelow.sc" format="2">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="151.0" y="501.0" type="line"/>
+      <point x="151.0" y="301.0" type="line"/>
+      <point x="450.0" y="301.0" type="line"/>
+      <point x="450.0" y="501.0" type="line"/>
+      <point x="551.0" y="501.0" type="line"/>
+      <point x="551.0" y="100.0" type="line"/>
+      <point x="450.0" y="100.0" type="line"/>
+      <point x="450.0" y="200.0" type="line"/>
+      <point x="151.0" y="200.0" type="line"/>
+      <point x="151.0" y="100.0" type="line"/>
+      <point x="50.0" y="100.0" type="line"/>
+      <point x="50.0" y="501.0" type="line"/>
+    </contour>
+    <component base="brevebelowcomb" xOffset="300.0" yOffset="100.0"/>
+  </outline>
+</glyph>

@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="vew_now-ar" format="2">
+  <advance width="1200"/>
+  <unicode hex="FB16"/>
+  <outline>
+    <contour>
+      <point x="600.0" y="-200.0" type="line"/>
+      <point x="400.0" y="-200.0" type="line"/>
+      <point x="400.0" y="100.0" type="line"/>
+      <point x="372.0" y="100.0" type="line"/>
+      <point x="272.0" y="0.0" type="line"/>
+      <point x="128.0" y="0.0" type="line"/>
+      <point x="0.0" y="128.0" type="line"/>
+      <point x="0.0" y="500.0" type="line"/>
+      <point x="100.0" y="500.0" type="line"/>
+      <point x="100.0" y="172.0" type="line"/>
+      <point x="172.0" y="100.0" type="line"/>
+      <point x="228.0" y="100.0" type="line"/>
+      <point x="328.0" y="200.0" type="line"/>
+      <point x="400.0" y="200.0" type="line"/>
+      <point x="400.0" y="700.0" type="line"/>
+      <point x="700.0" y="700.0" type="line"/>
+      <point x="700.0" y="172.0" type="line"/>
+      <point x="772.0" y="100.0" type="line"/>
+      <point x="828.0" y="100.0" type="line"/>
+      <point x="928.0" y="200.0" type="line"/>
+      <point x="1000.0" y="200.0" type="line"/>
+      <point x="1000.0" y="500.0" type="line"/>
+      <point x="1100.0" y="500.0" type="line"/>
+      <point x="1100.0" y="0.0" type="line"/>
+      <point x="1000.0" y="0.0" type="line"/>
+      <point x="1000.0" y="100.0" type="line"/>
+      <point x="972.0" y="100.0" type="line"/>
+      <point x="872.0" y="0.0" type="line"/>
+      <point x="728.0" y="0.0" type="line"/>
+      <point x="600.0" y="128.0" type="line"/>
+      <point x="600.0" y="600.0" type="line"/>
+      <point x="500.0" y="600.0" type="line"/>
+      <point x="500.0" y="-100.0" type="line"/>
+      <point x="600.0" y="-100.0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

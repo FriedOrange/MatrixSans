@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ringhalfleft" format="2">
+  <advance width="300"/>
+  <unicode hex="02BF"/>
+  <outline>
+    <contour>
+      <point x="128.0" y="800.0" type="line"/>
+      <point x="200.0" y="800.0" type="line"/>
+      <point x="200.0" y="728.0" type="line"/>
+      <point x="122.0" y="650.0" type="line"/>
+      <point x="200.0" y="572.0" type="line"/>
+      <point x="200.0" y="500.0" type="line"/>
+      <point x="128.0" y="500.0" type="line"/>
+      <point x="0.0" y="628.0" type="line"/>
+      <point x="0.0" y="672.0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

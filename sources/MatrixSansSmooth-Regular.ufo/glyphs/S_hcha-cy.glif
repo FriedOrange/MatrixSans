@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Shcha-cy" format="2">
+  <advance width="700"/>
+  <unicode hex="0429"/>
+  <outline>
+    <contour>
+      <point x="600.0" y="-100.0" type="line"/>
+      <point x="500.0" y="-100.0" type="line"/>
+      <point x="500.0" y="0.0" type="line"/>
+      <point x="0.0" y="0.0" type="line"/>
+      <point x="0.0" y="700.0" type="line"/>
+      <point x="100.0" y="700.0" type="line"/>
+      <point x="100.0" y="100.0" type="line"/>
+      <point x="200.0" y="100.0" type="line"/>
+      <point x="200.0" y="600.0" type="line"/>
+      <point x="300.0" y="600.0" type="line"/>
+      <point x="300.0" y="100.0" type="line"/>
+      <point x="400.0" y="100.0" type="line"/>
+      <point x="400.0" y="700.0" type="line"/>
+      <point x="500.0" y="700.0" type="line"/>
+      <point x="500.0" y="100.0" type="line"/>
+      <point x="600.0" y="100.0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="yhook" format="2">
+  <advance width="700"/>
+  <unicode hex="01B4"/>
+  <outline>
+    <contour>
+      <point x="372.0" y="-200.0" type="line"/>
+      <point x="100.0" y="-200.0" type="line"/>
+      <point x="100.0" y="-100.0" type="line"/>
+      <point x="328.0" y="-100.0" type="line"/>
+      <point x="400.0" y="-28.0" type="line"/>
+      <point x="400.0" y="100.0" type="line"/>
+      <point x="372.0" y="100.0" type="line"/>
+      <point x="272.0" y="0.0" type="line"/>
+      <point x="128.0" y="0.0" type="line"/>
+      <point x="0.0" y="128.0" type="line"/>
+      <point x="0.0" y="500.0" type="line"/>
+      <point x="100.0" y="500.0" type="line"/>
+      <point x="100.0" y="172.0" type="line"/>
+      <point x="172.0" y="100.0" type="line"/>
+      <point x="228.0" y="100.0" type="line"/>
+      <point x="328.0" y="200.0" type="line"/>
+      <point x="400.0" y="200.0" type="line"/>
+      <point x="400.0" y="572.0" type="line"/>
+      <point x="528.0" y="700.0" type="line"/>
+      <point x="600.0" y="700.0" type="line"/>
+      <point x="600.0" y="628.0" type="line"/>
+      <point x="500.0" y="528.0" type="line"/>
+      <point x="500.0" y="-72.0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

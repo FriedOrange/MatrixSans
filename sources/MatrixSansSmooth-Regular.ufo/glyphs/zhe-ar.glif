@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="zhe-ar" format="2">
+  <advance width="600"/>
+  <unicode hex="056A"/>
+  <outline>
+    <contour>
+      <point x="272.0" y="0.0" type="line"/>
+      <point x="128.0" y="0.0" type="line"/>
+      <point x="0.0" y="128.0" type="line"/>
+      <point x="0.0" y="372.0" type="line"/>
+      <point x="128.0" y="500.0" type="line"/>
+      <point x="300.0" y="500.0" type="line"/>
+      <point x="300.0" y="700.0" type="line"/>
+      <point x="400.0" y="700.0" type="line"/>
+      <point x="400.0" y="500.0" type="line"/>
+      <point x="500.0" y="500.0" type="line"/>
+      <point x="500.0" y="400.0" type="line"/>
+      <point x="400.0" y="400.0" type="line"/>
+      <point x="400.0" y="128.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="172.0" y="100.0" type="line"/>
+      <point x="228.0" y="100.0" type="line"/>
+      <point x="300.0" y="172.0" type="line"/>
+      <point x="300.0" y="400.0" type="line"/>
+      <point x="172.0" y="400.0" type="line"/>
+      <point x="100.0" y="328.0" type="line"/>
+      <point x="100.0" y="172.0" type="line"/>
+    </contour>
+  </outline>
+</glyph>
