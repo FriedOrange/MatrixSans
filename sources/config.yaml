@@ -4,6 +4,7 @@ sources:
   - MatrixSansPrint-Regular.ufo
   - MatrixSansVideo-Regular.ufo
   - MatrixSansRaster-Regular.ufo
+  - MatrixSansSmooth-Regular.ufo
 familyName: Matrix Sans
 buildVariable: false
 removeOutlineOverlaps: false

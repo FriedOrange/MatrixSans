@@ -403,11 +403,11 @@ def make_smooth(source):
 	font.save(f"temp\\MatrixSansSmooth-{font.weight}.sfd")
 
 def main():
-	# make_regular(MAIN_SOURCE)
-	# make_print(MAIN_SOURCE)
-	# make_raster(MAIN_SOURCE)
-	# make_screen(MAIN_SOURCE)
-	# make_video(MAIN_SOURCE)
+	make_regular(MAIN_SOURCE)
+	make_print(MAIN_SOURCE)
+	make_raster(MAIN_SOURCE)
+	make_screen(MAIN_SOURCE)
+	make_video(MAIN_SOURCE)
 	make_smooth(MAIN_SOURCE)
 	# make_print(HALFSTEP_SOURCE, "Mono")
 	# make_extended(HALFSTEP_SOURCE)
