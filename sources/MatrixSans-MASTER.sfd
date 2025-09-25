@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1657964544
-ModificationTime: 1757509443
+ModificationTime: 1758777145
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -64,12 +64,12 @@ NameList: MatrixSans
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 4224 16 12
+WinInfo: 65632 16 12
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 629146 314573 209715 524288 1048576 0 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "marks_above"""  "marks_below"""  "ogonek"""  "marks_aboveright""" 
-BeginChars: 65806 1480
+BeginChars: 65818 1492
 
 StartChar: dot
 Encoding: 65536 -1 0
@@ -23545,6 +23545,203 @@ Flags: HW
 LayerCount: 2
 Fore
 Refer: 91 122 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: printdot
+Encoding: 65806 -1 1480
+Width: 100
+VWidth: 50
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+2 50 m 0
+ 2 76 24 98 50 98 c 0
+ 76 98 98 76 98 50 c 0
+ 98 24 76 2 50 2 c 0
+ 24 2 2 24 2 50 c 0
+EndSplineSet
+EndChar
+
+StartChar: screendot
+Encoding: 65807 -1 1481
+Width: 7
+VWidth: 7
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+7 7 m 29
+ 7 93 l 29
+ 93 93 l 29
+ 93 7 l 29
+ 7 7 l 29
+EndSplineSet
+EndChar
+
+StartChar: rasterdot
+Encoding: 65808 -1 1482
+Width: 100
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+-15 50 m 0
+ -15 72 3 90 25 90 c 2
+ 75 90 l 2
+ 97 90 115 72 115 50 c 0
+ 115 28 97 10 75 10 c 2
+ 25 10 l 2
+ 3 10 -15 28 -15 50 c 0
+EndSplineSet
+EndChar
+
+StartChar: rasterdot2
+Encoding: 65809 -1 1483
+Width: 100
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+74 90 m 1
+ 126 90 l 1
+ 126 10 l 1
+ 74 10 l 1
+ 74 90 l 1
+EndSplineSet
+EndChar
+
+StartChar: quarterdot
+Encoding: 65810 -1 1484
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+0 0 m 1
+ 0 50 l 1
+ 50 50 l 1
+ 50 0 l 1
+ 0 0 l 1
+EndSplineSet
+EndChar
+
+StartChar: chamfer
+Encoding: 65811 -1 1485
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+0 0 m 1
+ 0 50 l 1
+ 22 50 l 1
+ 50 22 l 1
+ 50 0 l 1
+ 0 0 l 1
+EndSplineSet
+EndChar
+
+StartChar: concaveRH
+Encoding: 65812 -1 1486
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+72 0 m 1
+ 0 0 l 1
+ 0 50 l 1
+ 50 50 l 1
+ 50 22 l 1
+ 72 0 l 1
+EndSplineSet
+EndChar
+
+StartChar: convexRH
+Encoding: 65813 -1 1487
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+0 0 m 1
+ 0 50 l 1
+ 22 50 l 1
+ 72 0 l 1
+ 0 0 l 1
+EndSplineSet
+EndChar
+
+StartChar: midRH
+Encoding: 65814 -1 1488
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+0 0 m 1
+ 0 50 l 1
+ 72 50 l 1
+ 122 0 l 1
+ 0 0 l 1
+EndSplineSet
+EndChar
+
+StartChar: concaveLH
+Encoding: 65815 -1 1489
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+-22 0 m 1
+ 0 22 l 1
+ 0 50 l 1
+ 50 50 l 1
+ 50 0 l 1
+ -22 0 l 1
+EndSplineSet
+EndChar
+
+StartChar: convexLH
+Encoding: 65816 -1 1490
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+50 0 m 1
+ -22 0 l 1
+ 28 50 l 1
+ 50 50 l 1
+ 50 0 l 1
+EndSplineSet
+EndChar
+
+StartChar: midLH
+Encoding: 65817 -1 1491
+Width: 0
+VWidth: 0
+Flags: HWO
+LayerCount: 2
+Fore
+SplineSet
+50 0 m 1
+ -72 0 l 1
+ -22 50 l 1
+ 50 50 l 1
+ 50 0 l 1
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont

@@ -39,15 +39,16 @@ HheadDOffset: 1
 OS2Vendor: 'PfEd'
 DEI: 91125
 Encoding: UnicodeFull
+Compacted: 1
 UnicodeInterp: none
 NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 11520 16 12
+WinInfo: 0 16 12
 BeginChars: 1114129 106
 
-StartChar: halfdot
+StartChar: quarterdot
 Encoding: 1114112 -1 0
 Width: 0
 VWidth: 0
@@ -4501,7 +4502,7 @@ EndChar
 StartChar: uni2D1F
 Encoding: 11551 11551 105
 Width: 600
-Flags: HWO
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet

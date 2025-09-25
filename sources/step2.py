@@ -58,10 +58,14 @@ def segmented_panose(panose):
 	new_panose = tuple(new_panose)
 	return new_panose
 
+def clear_dots(font):
+	for glyph in ["dot", "printdot", "screendot", "rasterdot", "rasterdot2", "quarterdot", "concaveRH", "concaveLH", "convexRH", "convexLH", "midRH", "midLH", "chamfer"]:
+		font[glyph].unlinkThisGlyph()
+		font[glyph].clear()
+
 def make_regular(source):
 	font = fontforge.open(source)
-	font["dot"].unlinkThisGlyph()
-	font["dot"].clear()
+	clear_dots(font)
 	for glyph in UNLINK_LIST:
 		font[glyph].unlinkRef() # prevent rendering issues with just-touching components
 	font.selection.all()
@@ -74,11 +78,11 @@ def make_regular(source):
 
 def make_screen(source):
 	font = fontforge.open(source)
+	font.selection.select("screendot")
+	font.copy()
 	font.selection.select("dot")
-	font.round(0.1)
-	font["dot"].transform((SCREEN_DOT_FACTOR, 0.0, 0.0, SCREEN_DOT_FACTOR, (DOT_SIZE - DOT_SIZE * SCREEN_DOT_FACTOR) / 2, (DOT_SIZE - DOT_SIZE * SCREEN_DOT_FACTOR) / 2))
-	font["dot"].unlinkThisGlyph()
-	font["dot"].clear()
+	font.paste()
+	clear_dots(font)
 	add_names(font, "Screen")
 	font.uwidth = int(SCREEN_DOT_FACTOR * DOT_SIZE)
 	font.os2_strikeysize = int(SCREEN_DOT_FACTOR * DOT_SIZE)
@@ -88,14 +92,11 @@ def make_screen(source):
 
 def make_print(source, name_suffix=""):
 	font = fontforge.open(source)
-	font["dot"].clear()
-	circle = fontforge.unitShape(0) # creates a unit circle
-	circle.draw(font["dot"].glyphPen()) # draws the circle into the glyph, replacing previous outlines
-	font["dot"].transform((PRINT_DOT_RADIUS, 0.0, 0.0, PRINT_DOT_RADIUS, DOT_SIZE / 2, DOT_SIZE / 2))
-	font["dot"].round()
-	font["dot"].width = 100
-	font["dot"].unlinkThisGlyph()
-	font["dot"].clear()
+	font.selection.select("printdot")
+	font.copy()
+	font.selection.select("dot")
+	font.paste()
+	clear_dots(font)
 	add_names(font, "Print", name_suffix)
 	font.uwidth = int(PRINT_DOT_RADIUS * 10/6)
 	font.os2_strikeysize = int(PRINT_DOT_RADIUS * 10/6)
@@ -110,15 +111,6 @@ def make_video(source):
 	UNLINK_LIST.append("uogonek")
 	UNLINK_LIST.append("aogonek.sc")
 
-	font.createChar(-1, "halfdot")
-	pen = font["halfdot"].glyphPen()
-	pen.moveTo(0,0)
-	pen.lineTo(0,DOT_SIZE // 2 + 1)
-	pen.lineTo(DOT_SIZE // 2 + 1, DOT_SIZE // 2 + 1)
-	pen.lineTo(DOT_SIZE // 2 + 1, 0)
-	pen.closePath()
-	pen = None
-
 	video_aux_font = fontforge.open(VIDEO_AUX_SOURCE)
 
 	for glyph in font:
@@ -132,11 +124,11 @@ def make_video(source):
 		for x in range(GLYPH_WIDTH - 1):
 			for y in range(GLYPH_HEIGHT - 1):
 				if matrix[x][y] and matrix[x + 1][y + 1] and not (matrix[x + 1][y] or matrix[x][y + 1]):
-					font[glyph].addReference("halfdot", (1, 0, 0, 1, x * DOT_SIZE + DOT_SIZE // 2 + LEFT_SIDE_BEARING, (y - DESCENT_DOTS + 1) * DOT_SIZE))
-					font[glyph].addReference("halfdot", (1, 0, 0, 1, (x + 1) * DOT_SIZE + LEFT_SIDE_BEARING, (y - DESCENT_DOTS) * DOT_SIZE + DOT_SIZE // 2))
+					font[glyph].addReference("quarterdot", (1, 0, 0, 1, x * DOT_SIZE + DOT_SIZE // 2 + LEFT_SIDE_BEARING, (y - DESCENT_DOTS + 1) * DOT_SIZE))
+					font[glyph].addReference("quarterdot", (1, 0, 0, 1, (x + 1) * DOT_SIZE + LEFT_SIDE_BEARING, (y - DESCENT_DOTS) * DOT_SIZE + DOT_SIZE // 2))
 				if matrix[x][y + 1] and matrix[x + 1][y] and not (matrix[x][y] or matrix[x + 1][y + 1]):
-					font[glyph].addReference("halfdot", (1, 0, 0, 1, x * DOT_SIZE + DOT_SIZE // 2 + LEFT_SIDE_BEARING, (y - DESCENT_DOTS) * DOT_SIZE + DOT_SIZE // 2))
-					font[glyph].addReference("halfdot", (1, 0, 0, 1, (x + 1) * DOT_SIZE + LEFT_SIDE_BEARING, (y - DESCENT_DOTS + 1) * DOT_SIZE))
+					font[glyph].addReference("quarterdot", (1, 0, 0, 1, x * DOT_SIZE + DOT_SIZE // 2 + LEFT_SIDE_BEARING, (y - DESCENT_DOTS) * DOT_SIZE + DOT_SIZE // 2))
+					font[glyph].addReference("quarterdot", (1, 0, 0, 1, (x + 1) * DOT_SIZE + LEFT_SIDE_BEARING, (y - DESCENT_DOTS + 1) * DOT_SIZE))
 
 	for glyph in video_aux_font:
 		video_aux_font.selection.select(glyph)
@@ -145,10 +137,7 @@ def make_video(source):
 		font.paste()
 
 	# interpolation done, now finish it off the same as Regular style
-	font["dot"].unlinkThisGlyph()
-	font["halfdot"].unlinkThisGlyph()
-	font["dot"].clear()
-	font["halfdot"].clear()
+	clear_dots(font)
 
 	for glyph in UNLINK_LIST:
 		font[glyph].unlinkRef() # prevent rendering issues with just-touching components
@@ -164,28 +153,10 @@ def make_video(source):
 def make_raster(source):
 	font = fontforge.open(source)
 
-	font["dot"].clear()
-	pen = font["dot"].glyphPen()
-	pen.moveTo((-15, 50))
-	pen.curveTo((-15, 72), (3, 90), (25, 90))
-
-	pen.lineTo((75, 90))
-	pen.curveTo((97, 90), (115, 72), (115, 50))
-	pen.curveTo((115, 28), (97, 10), (75, 10))
-
-	pen.lineTo(25, 10)
-	pen.curveTo((3, 10), (-15, 28), (-15, 50))
-	pen.closePath()
-	font["dot"].width = 100
-
-	font.createChar(-1, "dot2") # overlaps with dot to the right
-	pen = font["dot2"].glyphPen()
-	pen.moveTo((74, 90))
-	pen.lineTo((126, 90))
-	pen.lineTo((126, 10))
-	pen.lineTo((74, 10))
-	pen.closePath()
-	font["dot2"].width = 100
+	font.selection.select("rasterdot")
+	font.copy()
+	font.selection.select("dot")
+	font.paste()
 
 	for glyph in font:
 
@@ -198,14 +169,11 @@ def make_raster(source):
 			for i in range(GLYPH_WIDTH - 1):
 				if matrix[i][j] and matrix[i + 1][j]:
 					if glyph == "underscore" or glyph == "emdash":
-						font[glyph].addReference("dot2", (1, 0, 0, 1, i * DOT_SIZE, (j - DESCENT_DOTS) * DOT_SIZE))
+						font[glyph].addReference("rasterdot2", (1, 0, 0, 1, i * DOT_SIZE, (j - DESCENT_DOTS) * DOT_SIZE))
 					else:
-						font[glyph].addReference("dot2", (1, 0, 0, 1, i * DOT_SIZE + LEFT_SIDE_BEARING, (j - DESCENT_DOTS) * DOT_SIZE))
+						font[glyph].addReference("rasterdot2", (1, 0, 0, 1, i * DOT_SIZE + LEFT_SIDE_BEARING, (j - DESCENT_DOTS) * DOT_SIZE))
 
-	font["dot"].unlinkThisGlyph()
-	font["dot"].clear()
-	font["dot2"].unlinkThisGlyph()
-	font["dot2"].clear()
+	clear_dots(font)
 	font.selection.all()
 	font.removeOverlap()
 	font.simplify()
@@ -280,12 +248,95 @@ def make_extended(source):
 	font.os2_weight = 700
 	font.save(EXTENDED_TEMP)
 
+def make_smooth(source):
+
+	def refs_to_dots(source, x, y, destination):
+		for ref, trans, _ in font[source].references:
+			x2 = x + trans[4]
+			y2 = y + trans[5]
+			if ref == "dot":
+				font[destination].addReference("dot", (1, 0, 0, 1, x2, y2))
+			else:
+				refs_to_dots(ref, x2, y2, destination)
+
+	font = fontforge.open(source)
+
+	# make glyphs with diagonally-touching components directly reference "dot"
+	font.createChar(-1, "temp")
+	for glyph in ["Aogonek", "uogonek", "aogonek.sc"]:
+		font["temp"].clear()
+		refs_to_dots(glyph, 0, 0, "temp")
+		font.selection.select("temp")
+		font.copy()
+		font.selection.select(glyph)
+		font.paste()
+	font["temp"].clear()
+
+	for glyph in font:
+
+		# determine where the dots are in each glyph
+		matrix, skip = get_pattern(font, glyph)
+		if skip:
+			continue
+
+		# determine which directions have a connected dot
+		connections = 0
+		for j in range(GLYPH_HEIGHT - 1, -1, -1):
+			for i in range(GLYPH_WIDTH):
+				if j < GLYPH_HEIGHT - 1:
+					if matrix[i][j + 1]: connections |= 0b10000000
+					if i < GLYPH_WIDTH - 1 and matrix[i + 1][j + 1]: connections |= 0b01000000
+				if i < GLYPH_WIDTH - 1:
+					if matrix[i + 1][j]: connections |= 0b00100000
+					if j > 0 and matrix[i + 1][j - 1]: connections |= 0b00010000
+				if j > 0:
+					if matrix[i][j - 1]: connections |= 0b00001000
+					if i > 0 and matrix[i - 1][j - 1]: connections |= 0b00000100
+				if i > 0:
+					if matrix[i - 1][j]: connections |= 0b00000010
+					if j < GLYPH_HEIGHT - 1 and matrix [i - 1][j + 1]: connections |= 0b00000001
+
+		# add quarter blocks depending on matrix cell connections
+		for j in range(GLYPH_HEIGHT - 1, -1, -1):
+			for i in range(GLYPH_WIDTH):
+				for criteria, mask, block in topleft:
+					if connections & mask == criteria:
+						# add block
+						break
+				else:
+					# add quarterdot
+					pass
+				for criteria, mask, block in topright:
+					if connections & mask == criteria:
+						# add block
+						break
+				else:
+					# add quarterdot
+					pass
+				for criteria, mask, block in bottomleft:
+					if connections & mask == criteria:
+						# add block
+						break
+				else:
+					# add quarterdot
+					pass
+				for criteria, mask, block in bottomright:
+					if connections & mask == criteria:
+						# add block
+						break
+				else:
+					# add quarterdot
+					pass
+
+	font.save(f"temp\\MatrixSansSmooth-{font.weight}.sfd")
+
 def main():
 	make_regular(MAIN_SOURCE)
 	make_print(MAIN_SOURCE)
 	make_raster(MAIN_SOURCE)
 	make_screen(MAIN_SOURCE)
 	make_video(MAIN_SOURCE)
+	# make_smooth(MAIN_SOURCE)
 	# make_print(HALFSTEP_SOURCE, "Mono")
 	# make_extended(HALFSTEP_SOURCE)
 	# make_print(EXTENDED_TEMP, "Mono")
