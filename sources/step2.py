@@ -28,6 +28,7 @@ UNLINK_LIST = ["Aring", "Ccedilla", "aring", "ccedilla", "aogonek",
 	"scommaaccent", "Tcommaaccent", "tcommaaccent", "aring.sc", "eogonek.sc", "gcommaaccent.sc",
 	"iogonek.sc", "lcommaaccent.sc", "tcedilla.sc", "tcommaaccent.sc", "uogonek.sc", "Ohorn", "ohorn", "Uhorn", "uhorn.sc", "Aringacute", "aringacute", "Abrevetilde", "abrevetilde"]
 
+
 def add_names(font, style, suffix=""):
 	font.fontname = font.fontname + style + suffix + f"-{font.weight}"
 	# font.appendSFNTName("English (US)", 16, font.familyname)
@@ -36,6 +37,7 @@ def add_names(font, style, suffix=""):
 	# font.appendSFNTName("English (US)", 17, style)
 	# font.appendSFNTName("English (US)", 21, font.familyname)
 	# font.appendSFNTName("English (US)", 22, "Regular")
+
 
 def get_pattern(font, glyph):
 	matrix = [[False]*GLYPH_HEIGHT for _ in range(GLYPH_WIDTH)] # full dots
@@ -55,16 +57,19 @@ def get_pattern(font, glyph):
 		matrix[x][y] = True
 	return matrix, skip
 
+
 def segmented_panose(panose):
 	new_panose = list(panose)
 	new_panose[-2] = 4
 	new_panose = tuple(new_panose)
 	return new_panose
 
+
 def clear_dots(font):
 	for glyph in ["dot", "printdot", "screendot", "rasterdot", "rasterdot2", "quarterdot", "concaveTR", "concaveTL", "convexTR", "convexTL", "midTR", "midTL", "chamferTR", "chamferTL", "concaveBR", "concaveBL", "convexBR", "convexBL", "midBR", "midBL", "chamferBR", "chamferBL"]:
 		font[glyph].unlinkThisGlyph()
 		font[glyph].clear()
+
 
 def make_regular(source):
 	font = fontforge.open(source)
@@ -78,6 +83,7 @@ def make_regular(source):
 	font.round(0.1) # hack: the "dot" glyph is deliberately 1 unit too large so that simplify() produces nicer outlines; this reverses that
 	font.fontname = font.fontname + f"-{font.weight}"
 	font.save(f"temp\\MatrixSans-{font.weight}.sfd")
+
 
 def make_screen(source):
 	font = fontforge.open(source)
@@ -93,6 +99,7 @@ def make_screen(source):
 	font.os2_panose = segmented_panose(font.os2_panose)
 	font.save(f"temp\\MatrixSansScreen-{font.weight}.sfd")
 
+
 def make_print(source, name_suffix=""):
 	font = fontforge.open(source)
 	font.selection.select("printdot")
@@ -106,6 +113,7 @@ def make_print(source, name_suffix=""):
 	font.os2_strikeypos += int((DOT_SIZE - font.os2_strikeysize) / 2)
 	font.os2_panose = segmented_panose(font.os2_panose)
 	font.save("temp\\MatrixSansPrint" + name_suffix + f"-{font.weight}.sfd")
+
 
 def make_video(source):
 	font = fontforge.open(source)
@@ -153,6 +161,7 @@ def make_video(source):
 	add_names(font, "Video")
 	font.save(f"temp\\MatrixSansVideo-{font.weight}.sfd")
 
+
 def make_raster(source):
 	font = fontforge.open(source)
 
@@ -187,6 +196,7 @@ def make_raster(source):
 	font.os2_panose = segmented_panose(font.os2_panose)
 	font.save(f"temp\\MatrixSansRaster-{font.weight}.sfd")
 
+
 def make_bold(source):
 	font = fontforge.open(source)
 	bold_aux_font = fontforge.open(BOLD_AUX_SOURCE)
@@ -215,6 +225,7 @@ def make_bold(source):
 	font.weight = "Bold"
 	font.os2_weight = 700
 	font.save(BOLD_TEMP)
+
 
 def make_extended(source):
 	font = fontforge.open(source)
@@ -250,6 +261,7 @@ def make_extended(source):
 	font.weight = "Bold"
 	font.os2_weight = 700
 	font.save(EXTENDED_TEMP)
+
 
 def make_smooth(source):
 
@@ -308,12 +320,6 @@ def make_smooth(source):
 		if skip:
 			continue # ignore glyphs that don't reference "dot"
 
-		# print(f"Interpolating \"{glyph}\"")
-		# for j in range(GLYPH_HEIGHT - 1, -1, -1):
-		# 	for i in range(GLYPH_WIDTH):
-		# 		print("\u2588" if matrix[i][j] else " ", end="")
-		# 	print()
-
 		# remove existing (ordinary) "dot" glyphs
 		font[glyph].references = ()
 
@@ -344,63 +350,44 @@ def make_smooth(source):
 					if j < GLYPH_HEIGHT - 1 and matrix [i - 1][j + 1]: 
 						connections |= 0b00000001
 
-				if glyph == "x":
-					print(f"x: {i} y: {j - DESCENT_DOTS}")
-					print(f"connections: {connections:08b}")
-
 				# add quarter blocks depending on matrix cell connections
 				for criteria, mask, block in topleft:
 					if connections & mask == criteria:
-						if glyph == "x":
-							print(f"block: {block}")
-							print(f"mask:        {mask:08b}")
-							print(f"criteria:    {criteria:08b}")
 						font[glyph].addReference(block, (1, 0, 0, 1, i * DOT_SIZE, (j - DESCENT_DOTS) * DOT_SIZE))
 						break
 				else:
 					font[glyph].addReference("quarterdot", (1, 0, 0, 1, i * DOT_SIZE, (j - DESCENT_DOTS + 0.5) * DOT_SIZE))
 				for criteria, mask, block in topright:
 					if connections & mask == criteria:
-						if glyph == "x":
-							print(f"block: {block}")
-							print(f"mask:        {mask:08b}")
-							print(f"criteria:    {criteria:08b}")
 						font[glyph].addReference(block, (1, 0, 0, 1, i * DOT_SIZE, (j - DESCENT_DOTS) * DOT_SIZE))
 						break
 				else:
 					font[glyph].addReference("quarterdot", (1, 0, 0, 1, (i + 0.5) * DOT_SIZE, (j - DESCENT_DOTS + 0.5) * DOT_SIZE))
 				for criteria, mask, block in bottomleft:
 					if connections & mask == criteria:
-						if glyph == "x":
-							print(f"block: {block}")
-							print(f"mask:        {mask:08b}")
-							print(f"criteria:    {criteria:08b}")
 						font[glyph].addReference(block, (1, 0, 0, 1, i * DOT_SIZE, (j - DESCENT_DOTS) * DOT_SIZE))
 						break
 				else:
 					font[glyph].addReference("quarterdot", (1, 0, 0, 1, i * DOT_SIZE, (j - DESCENT_DOTS) * DOT_SIZE))
 				for criteria, mask, block in bottomright:
 					if connections & mask == criteria:
-						if glyph == "x":
-							print(f"block: {block}")
-							print(f"mask:        {mask:08b}")
-							print(f"criteria:    {criteria:08b}")
 						font[glyph].addReference(block, (1, 0, 0, 1, i * DOT_SIZE, (j - DESCENT_DOTS) * DOT_SIZE))
 						break
 				else:
 					font[glyph].addReference("quarterdot", (1, 0, 0, 1, (i + 0.5) * DOT_SIZE, (j - DESCENT_DOTS) * DOT_SIZE))
 
-	# clear_dots(font)
+	clear_dots(font)
 
-	# for glyph in UNLINK_LIST:
-	# 	font[glyph].unlinkRef() # prevent rendering issues with just-touching components
-	# font.selection.all()
-	# font.removeOverlap()
-	# font.round()
-	# font.simplify()
+	for glyph in UNLINK_LIST:
+		font[glyph].unlinkRef() # prevent rendering issues with just-touching components
+	font.selection.all()
+	font.removeOverlap()
+	font.round()
+	font.simplify()
 
 	add_names(font, "Smooth")
 	font.save(f"temp\\MatrixSansSmooth-{font.weight}.sfd")
+
 
 def main():
 	make_regular(MAIN_SOURCE)
@@ -409,15 +396,7 @@ def main():
 	make_screen(MAIN_SOURCE)
 	make_video(MAIN_SOURCE)
 	make_smooth(MAIN_SOURCE)
-	# make_print(HALFSTEP_SOURCE, "Mono")
-	# make_extended(HALFSTEP_SOURCE)
-	# make_print(EXTENDED_TEMP, "Mono")
-	# make_bold(MAIN_SOURCE)
-	# make_regular(BOLD_TEMP)
-	# make_print(BOLD_TEMP)
-	# make_raster(BOLD_TEMP)
-	# make_screen(BOLD_TEMP)
-	# make_video(BOLD_TEMP)
+
 
 if __name__ == "__main__":
 	main()
