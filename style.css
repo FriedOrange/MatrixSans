@@ -1,0 +1,95 @@
+@font-face {
+	font-family: "Matrix Sans";
+	src: url("proof/regular/MatrixSans-Regular.ttf");
+}
+@font-face {
+	font-family: "Matrix Sans Print";
+	src: url("proof/print/MatrixSansPrint-Regular.ttf");
+}
+@font-face {
+	font-family: "Matrix Sans Screen";
+	src: url("proof/screen/MatrixSansScreen-Regular.ttf");
+}
+@font-face {
+	font-family: "Matrix Sans Raster";
+	src: url("proof/raster/MatrixSansRaster-Regular.ttf");
+}
+@font-face {
+	font-family: "Matrix Sans Video";
+	src: url("proof/video/MatrixSansVideo-Regular.ttf");
+}
+@font-face {
+	font-family: "Matrix Sans Smooth";
+	src: url("proof/smooth/MatrixSansSmooth-Regular.ttf");
+}
+body {
+	max-width: 54em;
+	margin: auto;
+	background-color: #000;
+	color: #ccc;
+	font-family: "Matrix Sans", sans-serif;
+	line-height: 1.25;
+	text-underline-offset: 0.1em;
+	text-decoration-thickness: 0.1em;
+}
+header, section {
+	background-color: #222;
+	margin: 0.5em;
+	padding: 1em 2em 1em 2em;
+	border-radius: 0.25em;
+}
+footer {text-align: center;}
+h1, h2, h3 {
+	font-weight: normal;
+	color: #ddd;
+	border-bottom: 0.1em #888 solid;
+}
+ul {list-style-type: "• ";}
+ul ul {list-style-type: "◦ ";}
+a {
+	color: #6d6;
+	text-decoration: none;
+}
+a:visited {color: #397;}
+a:active {color: #c4c}
+a:hover, a:visited:hover {text-decoration: underline;}
+.print {font-family: "Matrix Sans Print", sans-serif;}
+.screen {font-family: "Matrix Sans Screen", sans-serif;}
+.raster {font-family: "Matrix Sans Raster", sans-serif;}
+.video {font-family: "Matrix Sans Video", sans-serif;}
+.smooth {font-family: "Matrix Sans Smooth", sans-serif;}
+.big {
+	font-size: 2.5em;
+	color: #ddd;
+}
+img {margin: 0.25em;}
+figcaption {text-align: center;}
+@media screen and (max-width: 490px) {
+	figure {
+		max-width: 420px;
+		margin: auto;
+	}
+}
+@media screen and (min-width: 700px) {
+	figure {
+		max-width: 640px;
+		margin: auto;
+	}
+}
+@media screen and (max-width: 570px) {
+	figure {
+		max-width: 210px;
+		margin: auto;
+	}
+}
+th {
+	font-weight: normal;
+	/* padding: 0.1em; */
+}
+td {
+	vertical-align: top;
+	/* padding: 0.1em; */
+}
+td + td, th + th {border-left: 0.1em #888 solid;}
+tr + tr > td {border-top: 0.1em #888 solid;}
+table {border-collapse: collapse;}
