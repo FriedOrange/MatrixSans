@@ -18,10 +18,10 @@ This is set of pixelated, retro-style fonts based on the classic 5&times;7 dot m
 ### Sample images
 
 ![Matrix Sans Sample](documentation/sample_0.png)
+![Matrix Sans Video Sample](documentation/sample_4.png)
 ![Matrix Sans Print Sample](documentation/sample_1.png)
 ![Matrix Sans Raster Sample](documentation/sample_2.png)
 ![Matrix Sans Screen Sample](documentation/sample_3.png)
-![Matrix Sans Video Sample](documentation/sample_4.png)
 
 ## Building
 
