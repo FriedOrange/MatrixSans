@@ -54,7 +54,7 @@ jobs:
       run: |
         cp documentation/index.html out/index.html
         cp documentation/kerntest.html out/kerntest.html
-        cp documentation/research.html out/tests.html
+        cp documentation/research.html out/research.html
         cp documentation/tests.html out/tests.html
         cp documentation/style.css out/style.css
         cp -r documentation/inspiration out/inspiration
