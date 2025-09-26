@@ -15,15 +15,15 @@ import sys
 import argparse
 
 # Constants, these are the main "settings" for the image
-WIDTH, HEIGHT, MARGIN, FRAMES = 1380, 520, 30, 1
+WIDTH, HEIGHT, MARGIN, FRAMES = 1024, 512, 30, 1
 FONT_PATH = "fonts/otf/MatrixSans-Regular.otf"
 FONT_LICENSE = "OFL v1.1"
 AUXILIARY_FONT = "Open Sans"
 AUXILIARY_FONT_SIZE = 22
 BIG_TEXT = "Aa"
-BIG_TEXT_FONT_SIZE = 100
+BIG_TEXT_FONT_SIZE = 80
 BIG_TEXT_SIDE_MARGIN = WIDTH // 2
-BIG_TEXT_BOTTOM_MARGIN = MARGIN
+BIG_TEXT_BOTTOM_MARGIN = 72
 BIG_TEXT_INTERLINE = BIG_TEXT_FONT_SIZE * 1.3
 GRID_VIEW = False # Change this to "True" for a grid overlay
 
@@ -136,9 +136,13 @@ def draw_auxiliary_text():
 	text(FONT_LICENSE, POS_BOTTOM_RIGHT, align="right")
 
 
-def make_image(text_list, text_colour, bg_colour):
-	height = BIG_TEXT_INTERLINE * len(text_list)
-	draw_background(bg_colour, height)
+def make_image(text_list, text_colour, bg_colour, stripes=False):
+	draw_background(bg_colour, HEIGHT)
+	if stripes:
+		fill(0.65, 0.85, 0.75)
+		rect(0, 360, WIDTH, 104)
+		rect(0, 152, WIDTH, 104)
+		rect(0, -56, WIDTH, 104)
 	draw_main_text(text_list, text_colour)
 	# draw_divider_lines()
 	# draw_auxiliary_text()
@@ -146,15 +150,17 @@ def make_image(text_list, text_colour, bg_colour):
 # Build and save the image
 if __name__ == "__main__":
 	FONT_PATH = "fonts/otf/MatrixSans-Regular.otf"
-	make_image(["MATRIX SANS REGULAR","The quick brown fox","jumps over the lazy dog.","§27 ¶14; { 35°29′10″ }"], [0, 0, 0], [1, 1, 1])
+	make_image(["MATRIX SANS REGULAR","The quick brown fox","jumps over a lazy dog.","§27 ¶14; { 35°29′10″ }"], [0.1, 0.1, 0.1], [0.9, 0.9, 0.9])
 	FONT_PATH = "fonts/otf/MatrixSansPrint-Regular.otf"
-	make_image(["MATRIX SANS PRINT","Quick & wafting zephyrs","#vex “bold” @Jim :-)","$18.99 €38,76 £1.50 75%"], [48/255, 48/255, 48/255], [1, 1, 1])
+	make_image(["MATRIX SANS PRINT","Quick wafting zephyrs","#vex “bold” @Jim :-)","$18.99 €38,76 £1.50 75%"], [0, 0, 0], [0.99, 0.97, 0.95], True)
 	FONT_PATH = "fonts/otf/MatrixSansRaster-Regular.otf"
-	make_image(["MATRIX SANS RASTER","Pack my box with five","dozen liquor jugs*","150 IF X>32 THEN N=0"], [0, 1, 0.5], [0, 0, 0])
+	make_image(["MATRIX SANS RASTER","Pack my box with five","dozen liquor jugs*","150 IF X>32 THEN N=0"], [1, 0.6, 0], [0, 0, 0])
 	FONT_PATH = "fonts/otf/MatrixSansScreen-Regular.otf"
-	make_image(["MATRIX SANS SCREEN","Jackdaws love my big","sphinx of quartz?","3×(5+1)²−6/2=105"], [0, 0, 0], [202/255, 228/255, 175/255])
+	make_image(["MATRIX SANS SCREEN","Jackdaws love my big","sphinx of quartz?","3×(5+1)²−6÷2=105"], [0, 0, 0], [202/255, 228/255, 175/255])
 	FONT_PATH = "fonts/otf/MatrixSansVideo-Regular.otf"
-	make_image(["MATRIX SANS VIDEO","How quickly [daft]","jumping zebras vex!","23/04/1987 12:56 PM"], [216/255, 216/255, 216/255], [0, 0, 160/255])
+	make_image(["MATRIX SANS VIDEO","▶ How quickly daft","jumping zebras vex!","23/04/1987 12:56 PM"], [216/255, 216/255, 216/255], [0, 0, 160/255])
+	FONT_PATH = "fonts/otf/MatrixSansSmooth-Regular.otf"
+	make_image(["MATRIX SANS SMOOTH", "Bright vixens jump", "& dozy fowl quack.", "«№3½» ±0.5µm ←↑→↓"], [0.9, 0.9, 0.9], [0.1, 0.1, 0.1])
 	# Save output, using the "--output" flag location
 	saveImage(args.output)
 	# Print done in the terminal
