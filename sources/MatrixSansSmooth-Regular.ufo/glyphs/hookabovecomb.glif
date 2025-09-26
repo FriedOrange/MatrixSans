@@ -2,6 +2,13 @@
 <glyph name="hookabovecomb" format="2">
   <unicode hex="0309"/>
   <outline>
-    <component base="cedilla" yScale="-1.0" xOffset="-200.0" yOffset="601.0"/>
+    <contour>
+      <point x="1200.0" y="600.0" type="line"/>
+      <point x="1100.0" y="600.0" type="line"/>
+      <point x="1100.0" y="700.0" type="line"/>
+      <point x="1000.0" y="700.0" type="line"/>
+      <point x="1000.0" y="800.0" type="line"/>
+      <point x="1200.0" y="800.0" type="line"/>
+    </contour>
   </outline>
 </glyph>
