@@ -11,7 +11,9 @@ This is set of pixelated, retro-style fonts based on the classic 5&times;7 dot m
 ### Links
 
 - [Downloads](https://github.com/FriedOrange/MatrixSans/releases)
-- [Testing & demo pages](https://friedorange.github.io/MatrixSans/)
+- [Testing & Demo pages](https://friedorange.github.io/MatrixSans/tests.html)
+- [Inspiration & Design philosophy](https:/friedorange.github.io/MatrixSans/)
+- [Research (with comments on 40+ existing designs)](https://friedorange.github.io/MatrixSans/research.html)
 
 ### Sample images
 
@@ -20,42 +22,6 @@ This is set of pixelated, retro-style fonts based on the classic 5&times;7 dot m
 ![Matrix Sans Raster Sample](documentation/sample_2.png)
 ![Matrix Sans Screen Sample](documentation/sample_3.png)
 ![Matrix Sans Video Sample](documentation/sample_4.png)
-
-## Inspiration
-
-For much of my life, I have liked both alphabets and lettering, and 8-bit home computers and video games. The intersection of those interests is low-resolution dot matrix graphics and fonts, which remain perhaps the most iconic feature of the 8-bit systems. Fonts based on a 5&times;7 dot matrix are especially noteworthy, having been some of the most common dimensions for over half a century.
-
-In utilitarian applications, 5&times;7 dot matrix fonts may still be found all around us, for example: in calculators, microwave ovens, electronic road signs, train stations and airport terminals, dot-matrix printers (which have mostly fallen out of use, but the style is still commonly seen in the expiry dates printed on food packaging) and "character LCD" modules used in all manner of electronic devices:
-
-| ![Scientific calculator](documentation/inspiration/ScientificCalculator.jpg) | ![Microwave oven display](documentation/inspiration/MicrowaveOven.jpg) | ![Electronic roadwork sign](documentation/inspiration/RoadworkSign.jpg) |
-| --- | --- | --- |
-| ![Train station display](documentation/inspiration/TrainStation.jpg) | ![Best before date](documentation/inspiration/BestBefore.jpg) | ![Character LCD](documentation/inspiration/CharacterLCD.jpg) |
-| ![Intercom](documentation/inspiration/Intercom.jpg) | ![Car Radio](documentation/inspiration/CarRadio.jpg) | ![Commodore MPS 803 dot-matrix printer](documentation/inspiration/CommodoreMPS803.jpg) |
-
-So-called "pixel" fonts are also a popular stylistic choice, often seen in contexts that have nothing to do with electronics or games, even in the absence of technical limitations. With all of that in mind, I felt that the typographical world could be enriched through the creation of high-quality, open-source fonts in this style.
-
-## [Research](documentation/research.md)
-
-Much of my interest in the topic was piqued by Damien Guard’s article, [*Typography in 8 bits: system fonts*](https://damieng.com/blog/2011/02/20/typography-in-8-bits-system-fonts). In preparation for this project, I decided to conduct an even more comprehensive study of classic dot-matrix fonts, with a focus on those using the iconic 5&times;7 dot matrix capitals.
-
-Almost 40 existing 5&times;7 font designs were studied. See [documentation/research.md](documentation/research.md) for detailed documentation of this study and the decision-making process for the design of this font.
-
-## Design philosophy
-
-When designing the dot-matrix patterns for these fonts, I attempted to strike a balance between the following principles:
-
-- authenticity
-- quirkiness
-- consistency
-- sound design
-
-*Authenticity* and *quirkiness* are often in conflict with *consistency* and *sound design*; the countless historical 5&times;7 fonts contain many unusual-looking (*quirky*) features, which by their nature are often inconsistent.
-
-In order to retain the essence and charm of existing 5&times;7 fonts, yet rein in their oddities and avoid ugliness, none of these principles can be *fully* embraced. Instead, they serve as a guide while trying to choose the most coherent, well thought-out designs possible for this project.
-
-### Proportional spacing
-
-Readers today expect visually consistent spacing around all characters, including narrow ones like *1 I i l* and punctuation marks. Trading some *authenticity* for *sound design*, this font family is proportionally spaced, unlike most prior 5&times;7 fonts. The proportionally-spaced typefaces [American Typewriter](https://www.fonts.com/font/itc/itc-american-typewriter) and [OCR A Tribute](https://www.fonts.com/font/linotype/ocr-a-tribute) are similarly inspired by classic monospaced designs, but take the further step of tweaking the proportions of the glyphs themselves, in the pursuit of a more conventional reading experience. This design doesn't go that far: all glyphs (and spaces between them) are still based strictly on a square grid. Where possible, glyphs have been kept to no more than 5 dots wide, which would allow for a monospaced version to be created with mostly the same glyphs.
 
 ## Building
 
@@ -151,8 +117,6 @@ To easily add or modify glyphs (requires [FontForge](https://fontforge.org/)):
 - Added `aalt`, `numr`, `dnom`, `frac`, `sups` and `subs` OpenType features
 
 #### 26 December 2022 - Version 1.100
-
-![Small capitals sample](documentation/smcp.png)
 
 - Added small capitals, accessible through the `smcp` and `c2sc` Opentype features
 - Changed the design of Æ, æ, Œ, œ, Ð, đ, ħ, ƒ, and ₽ 
