@@ -1,26 +1,26 @@
 @font-face {
 	font-family: "Matrix Sans";
-	src: url("proof/regular/MatrixSans-Regular.ttf");
+	src: url("webfonts/MatrixSans-Regular.woff2");
 }
 @font-face {
 	font-family: "Matrix Sans Print";
-	src: url("proof/print/MatrixSansPrint-Regular.ttf");
+	src: url("webfonts/MatrixSansPrint-Regular.woff2");
 }
 @font-face {
 	font-family: "Matrix Sans Screen";
-	src: url("proof/screen/MatrixSansScreen-Regular.ttf");
+	src: url("webfonts/MatrixSansScreen-Regular.woff2");
 }
 @font-face {
 	font-family: "Matrix Sans Raster";
-	src: url("proof/raster/MatrixSansRaster-Regular.ttf");
+	src: url("webfonts/MatrixSansRaster-Regular.woff2");
 }
 @font-face {
 	font-family: "Matrix Sans Video";
-	src: url("proof/video/MatrixSansVideo-Regular.ttf");
+	src: url("webfonts/MatrixSansVideo-Regular.woff2");
 }
 @font-face {
 	font-family: "Matrix Sans Smooth";
-	src: url("proof/smooth/MatrixSansSmooth-Regular.ttf");
+	src: url("webfonts/MatrixSansSmooth-Regular.woff2");
 }
 body {
 	max-width: 54em;
