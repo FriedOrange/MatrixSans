@@ -58,18 +58,18 @@ OS2Vendor: 'PfEd'
 MarkAttachClasses: 1
 DEI: 91125
 LangName: 1033 "" "" "" "" "" "" "" "" "" "Brad Neil" "Based on the classic 5-by-7 dot matrix capitals, incorporating the best features from historical designs. It was conceived in 2019 to meet the need for a quality free font in this popular style." "" "http://friedorange.xyz/" "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" "https://scripts.sil.org/OFL"
-Encoding: Custom
+Encoding: UnicodeBmp
 UnicodeInterp: none
 NameList: MatrixSans
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 65648 16 12
+WinInfo: 65488 16 12
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 629146 314573 209715 524288 1048576 0 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "marks_above"""  "marks_below"""  "ogonek"""  "marks_aboveright""" 
-BeginChars: 65827 1501
+BeginChars: 65826 1501
 
 StartChar: dot
 Encoding: 65536 -1 0
@@ -16718,7 +16718,7 @@ Refer: 404 -1 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: chi.sc
-Encoding: 65748 -1 1117
+Encoding: 65747 -1 1117
 Width: 600
 Flags: HMW
 LayerCount: 2
@@ -16727,7 +16727,7 @@ Refer: 89 120 S 1 0 0 1 0 0 3
 EndChar
 
 StartChar: psi.sc
-Encoding: 65749 -1 1118
+Encoding: 65748 -1 1118
 Width: 600
 VWidth: 0
 Flags: HMW
@@ -16747,7 +16747,7 @@ Refer: 0 -1 N 1 0 0 1 50 400 2
 EndChar
 
 StartChar: omega.sc
-Encoding: 65750 -1 1119
+Encoding: 65749 -1 1119
 Width: 600
 VWidth: 0
 Flags: HMW
@@ -16770,7 +16770,7 @@ Refer: 0 -1 N 1 0 0 1 150 400 2
 EndChar
 
 StartChar: alphatonos.sc
-Encoding: 65751 -1 1120
+Encoding: 65750 -1 1120
 Width: 600
 VWidth: 0
 Flags: HMW
@@ -16781,7 +16781,7 @@ Refer: 1099 -1 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: epsilontonos.sc
-Encoding: 65752 -1 1121
+Encoding: 65751 -1 1121
 Width: 600
 VWidth: 0
 Flags: HMW
@@ -16792,7 +16792,7 @@ Refer: 1103 -1 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: etatonos.sc
-Encoding: 65753 -1 1122
+Encoding: 65752 -1 1122
 Width: 600
 VWidth: 0
 Flags: HMW
@@ -16803,7 +16803,7 @@ Refer: 1105 -1 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: iotatonos.sc
-Encoding: 65754 -1 1123
+Encoding: 65753 -1 1123
 Width: 400
 VWidth: 0
 Flags: HMW
@@ -16814,7 +16814,7 @@ Refer: 1107 -1 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: iotadieresis.sc
-Encoding: 65755 -1 1124
+Encoding: 65754 -1 1124
 Width: 400
 VWidth: 0
 Flags: HMW
@@ -16825,7 +16825,7 @@ Refer: 232 776 N 1 0 0 1 200 0 2
 EndChar
 
 StartChar: upsilontonos.sc
-Encoding: 65756 -1 1125
+Encoding: 65755 -1 1125
 Width: 600
 VWidth: 0
 Flags: HMW
@@ -16836,7 +16836,7 @@ Refer: 1116 -1 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: upsilondieresis.sc
-Encoding: 65757 -1 1126
+Encoding: 65756 -1 1126
 Width: 600
 VWidth: 0
 Flags: HMW
@@ -16847,7 +16847,7 @@ Refer: 404 -1 S 1 0 0 1 0 0 3
 EndChar
 
 StartChar: upsilondieresistonos.sc
-Encoding: 65759 -1 1127
+Encoding: 65757 -1 1127
 Width: 600
 Flags: HMW
 LayerCount: 2
@@ -16868,7 +16868,7 @@ Refer: 1119 -1 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: iotadieresistonos.sc
-Encoding: 65760 -1 1129
+Encoding: 65759 -1 1129
 Width: 600
 Flags: HMW
 LayerCount: 2
@@ -17237,7 +17237,7 @@ Refer: 0 -1 N 1 0 0 1 250 600 2
 EndChar
 
 StartChar: tbar.sc
-Encoding: 65761 -1 1152
+Encoding: 65760 -1 1152
 Width: 600
 VWidth: 0
 Flags: MW
@@ -17257,7 +17257,7 @@ Refer: 0 -1 N 1 0 0 1 50 400 2
 EndChar
 
 StartChar: aeacute.sc
-Encoding: 65762 -1 1153
+Encoding: 65761 -1 1153
 Width: 800
 Flags: M
 LayerCount: 2
@@ -19066,7 +19066,7 @@ Refer: 0 -1 N 1 0 0 1 150 600 2
 EndChar
 
 StartChar: ayb-ar.sc
-Encoding: 65763 -1 1245
+Encoding: 65762 -1 1245
 Width: 600
 VWidth: 0
 Flags: HMW
@@ -19087,7 +19087,7 @@ Refer: 0 -1 N 1 0 0 1 50 400 2
 EndChar
 
 StartChar: ben-ar.sc
-Encoding: 65764 -1 1246
+Encoding: 65763 -1 1246
 Width: 600
 VWidth: 0
 Flags: HMW
@@ -19108,7 +19108,7 @@ Refer: 0 -1 N 1 0 0 1 150 400 2
 EndChar
 
 StartChar: gim-ar.sc
-Encoding: 65765 -1 1247
+Encoding: 65764 -1 1247
 Width: 600
 VWidth: 0
 Flags: HMW
@@ -19127,7 +19127,7 @@ Refer: 0 -1 N 1 0 0 1 150 400 2
 EndChar
 
 StartChar: da-ar.sc
-Encoding: 65766 -1 1248
+Encoding: 65765 -1 1248
 Width: 600
 VWidth: 0
 Flags: HMW
@@ -19144,7 +19144,7 @@ Refer: 0 -1 N 1 0 0 1 150 400 2
 EndChar
 
 StartChar: ech-ar.sc
-Encoding: 65767 -1 1249
+Encoding: 65766 -1 1249
 Width: 600
 VWidth: 0
 Flags: HMW
@@ -19165,7 +19165,7 @@ Refer: 0 -1 N 1 0 0 1 50 400 2
 EndChar
 
 StartChar: za-ar.sc
-Encoding: 65768 -1 1250
+Encoding: 65767 -1 1250
 Width: 600
 VWidth: 0
 Flags: HMW
@@ -19187,7 +19187,7 @@ Refer: 0 -1 N 1 0 0 1 150 400 2
 EndChar
 
 StartChar: eh-ar.sc
-Encoding: 65769 -1 1251
+Encoding: 65768 -1 1251
 Width: 600
 VWidth: 0
 Flags: HMW
@@ -19208,7 +19208,7 @@ Refer: 0 -1 N 1 0 0 1 50 400 2
 EndChar
 
 StartChar: et-ar.sc
-Encoding: 65770 -1 1252
+Encoding: 65769 -1 1252
 Width: 600
 VWidth: 0
 Flags: HMW
@@ -19229,7 +19229,7 @@ Refer: 0 -1 N 1 0 0 1 150 400 2
 EndChar
 
 StartChar: to-ar.sc
-Encoding: 65771 -1 1253
+Encoding: 65770 -1 1253
 Width: 700
 VWidth: 0
 Flags: HMW
@@ -19252,7 +19252,7 @@ Refer: 0 -1 N 1 0 0 1 150 400 2
 EndChar
 
 StartChar: zhe-ar.sc
-Encoding: 65772 -1 1254
+Encoding: 65771 -1 1254
 Width: 600
 VWidth: 0
 Flags: HMW
@@ -19271,7 +19271,7 @@ Refer: 0 -1 N 1 0 0 1 350 400 2
 EndChar
 
 StartChar: ini-ar.sc
-Encoding: 65773 -1 1255
+Encoding: 65772 -1 1255
 Width: 600
 VWidth: 0
 Flags: HMW
@@ -19289,7 +19289,7 @@ Refer: 0 -1 N 1 0 0 1 50 400 2
 EndChar
 
 StartChar: xeh-ar.sc
-Encoding: 65774 -1 1256
+Encoding: 65773 -1 1256
 Width: 600
 VWidth: 0
 Flags: HMW
@@ -19309,7 +19309,7 @@ Refer: 0 -1 N 1 0 0 1 50 400 2
 EndChar
 
 StartChar: ca-ar.sc
-Encoding: 65775 -1 1257
+Encoding: 65774 -1 1257
 Width: 600
 VWidth: 0
 Flags: HMW
@@ -19331,7 +19331,7 @@ Refer: 0 -1 N 1 0 0 1 50 400 2
 EndChar
 
 StartChar: ken-ar.sc
-Encoding: 65776 -1 1258
+Encoding: 65775 -1 1258
 Width: 600
 VWidth: 0
 Flags: HMW
@@ -19350,7 +19350,7 @@ Refer: 0 -1 N 1 0 0 1 50 400 2
 EndChar
 
 StartChar: ho-ar.sc
-Encoding: 65777 -1 1259
+Encoding: 65776 -1 1259
 Width: 600
 VWidth: 0
 Flags: HMW
@@ -19369,7 +19369,7 @@ Refer: 0 -1 N 1 0 0 1 150 400 2
 EndChar
 
 StartChar: ja-ar.sc
-Encoding: 65778 -1 1260
+Encoding: 65777 -1 1260
 Width: 600
 VWidth: 0
 Flags: HMW
@@ -19390,7 +19390,7 @@ Refer: 0 -1 N 1 0 0 1 150 400 2
 EndChar
 
 StartChar: ghad-ar.sc
-Encoding: 65779 -1 1261
+Encoding: 65778 -1 1261
 Width: 600
 VWidth: 0
 Flags: HMW
@@ -19407,7 +19407,7 @@ Refer: 0 -1 N 1 0 0 1 150 400 2
 EndChar
 
 StartChar: cheh-ar.sc
-Encoding: 65780 -1 1262
+Encoding: 65779 -1 1262
 Width: 600
 VWidth: 0
 Flags: HMW
@@ -19430,7 +19430,7 @@ Refer: 0 -1 N 1 0 0 1 50 400 2
 EndChar
 
 StartChar: men-ar.sc
-Encoding: 65781 -1 1263
+Encoding: 65780 -1 1263
 Width: 600
 VWidth: 0
 Flags: HMW
@@ -19450,7 +19450,7 @@ Refer: 0 -1 N 1 0 0 1 50 400 2
 EndChar
 
 StartChar: yi-ar.sc
-Encoding: 65782 -1 1264
+Encoding: 65781 -1 1264
 Width: 600
 VWidth: 0
 Flags: HMW
@@ -19471,7 +19471,7 @@ Refer: 0 -1 N 1 0 0 1 150 400 2
 EndChar
 
 StartChar: now-ar.sc
-Encoding: 65783 -1 1265
+Encoding: 65782 -1 1265
 Width: 600
 VWidth: 0
 Flags: HMW
@@ -19488,7 +19488,7 @@ Refer: 0 -1 N 1 0 0 1 50 400 2
 EndChar
 
 StartChar: sha-ar.sc
-Encoding: 65784 -1 1266
+Encoding: 65783 -1 1266
 Width: 600
 VWidth: 0
 Flags: HMW
@@ -19507,7 +19507,7 @@ Refer: 0 -1 N 1 0 0 1 50 400 2
 EndChar
 
 StartChar: vo-ar.sc
-Encoding: 65785 -1 1267
+Encoding: 65784 -1 1267
 Width: 600
 VWidth: 0
 Flags: HMW
@@ -19527,7 +19527,7 @@ Refer: 0 -1 N 1 0 0 1 150 400 2
 EndChar
 
 StartChar: cha-ar.sc
-Encoding: 65786 -1 1268
+Encoding: 65785 -1 1268
 Width: 600
 VWidth: 0
 Flags: HMW
@@ -19546,7 +19546,7 @@ Refer: 0 -1 N 1 0 0 1 150 400 2
 EndChar
 
 StartChar: peh-ar.sc
-Encoding: 65787 -1 1269
+Encoding: 65786 -1 1269
 Width: 600
 VWidth: 0
 Flags: HMW
@@ -19565,7 +19565,7 @@ Refer: 0 -1 N 1 0 0 1 150 400 2
 EndChar
 
 StartChar: jheh-ar.sc
-Encoding: 65788 -1 1270
+Encoding: 65787 -1 1270
 Width: 600
 VWidth: 0
 Flags: HMW
@@ -19587,7 +19587,7 @@ Refer: 0 -1 N 1 0 0 1 250 400 2
 EndChar
 
 StartChar: ra-ar.sc
-Encoding: 65789 -1 1271
+Encoding: 65788 -1 1271
 Width: 600
 VWidth: 0
 Flags: HMW
@@ -19607,7 +19607,7 @@ Refer: 0 -1 N 1 0 0 1 150 400 2
 EndChar
 
 StartChar: vew-ar.sc
-Encoding: 65790 -1 1272
+Encoding: 65789 -1 1272
 Width: 600
 VWidth: 0
 Flags: HMW
@@ -19626,7 +19626,7 @@ Refer: 0 -1 N 1 0 0 1 350 400 2
 EndChar
 
 StartChar: reh-ar.sc
-Encoding: 65791 -1 1273
+Encoding: 65790 -1 1273
 Width: 600
 VWidth: 0
 Flags: HMW
@@ -19643,7 +19643,7 @@ Refer: 0 -1 N 1 0 0 1 150 400 2
 EndChar
 
 StartChar: co-ar.sc
-Encoding: 65792 -1 1274
+Encoding: 65791 -1 1274
 Width: 600
 VWidth: 0
 Flags: HMW
@@ -19664,7 +19664,7 @@ Refer: 0 -1 N 1 0 0 1 150 400 2
 EndChar
 
 StartChar: yiwn-ar.sc
-Encoding: 65793 -1 1275
+Encoding: 65792 -1 1275
 Width: 600
 VWidth: 0
 Flags: HMW
@@ -19682,7 +19682,7 @@ Refer: 0 -1 N 1 0 0 1 50 400 2
 EndChar
 
 StartChar: keh-ar.sc
-Encoding: 65794 -1 1276
+Encoding: 65793 -1 1276
 Width: 600
 VWidth: 0
 Flags: HMW
@@ -19704,7 +19704,7 @@ Refer: 0 -1 N 1 0 0 1 250 400 2
 EndChar
 
 StartChar: feh-ar.sc
-Encoding: 65795 -1 1277
+Encoding: 65794 -1 1277
 Width: 600
 VWidth: 0
 Flags: HMW
@@ -19795,7 +19795,7 @@ Refer: 0 -1 N 1 0 0 1 250 400 2
 EndChar
 
 StartChar: two.alt
-Encoding: 65797 -1 1286
+Encoding: 65795 -1 1286
 Width: 600
 VWidth: 0
 Flags: MW
@@ -19820,7 +19820,7 @@ Refer: 0 -1 N 1 0 0 1 150 600 2
 EndChar
 
 StartChar: D.alt
-Encoding: 65798 -1 1287
+Encoding: 65796 -1 1287
 Width: 600
 VWidth: 0
 Flags: MW
@@ -19847,7 +19847,7 @@ Refer: 0 -1 N 1 0 0 1 50 600 2
 EndChar
 
 StartChar: Eth.alt
-Encoding: 65799 -1 1288
+Encoding: 65797 -1 1288
 Width: 700
 VWidth: 0
 Flags: MW
@@ -19876,7 +19876,7 @@ Refer: 0 -1 N 1 0 0 1 150 600 2
 EndChar
 
 StartChar: Dhook.alt
-Encoding: 65800 -1 1289
+Encoding: 65798 -1 1289
 Width: 700
 VWidth: 0
 Flags: MW
@@ -19904,7 +19904,7 @@ Refer: 0 -1 N 1 0 0 1 150 600 2
 EndChar
 
 StartChar: Dcaron.alt
-Encoding: 65801 -1 1290
+Encoding: 65799 -1 1290
 Width: 600
 VWidth: 0
 Flags: MW
@@ -19915,7 +19915,7 @@ Refer: 1287 -1 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: Ddotbelow.alt
-Encoding: 65803 -1 1291
+Encoding: 65800 -1 1291
 Width: 600
 VWidth: 0
 Flags: MW
@@ -19926,7 +19926,7 @@ Refer: 1287 -1 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: Dmacronbelow.alt
-Encoding: 65804 -1 1292
+Encoding: 65801 -1 1292
 Width: 600
 VWidth: 0
 Flags: MW
@@ -20144,7 +20144,7 @@ Refer: 0 -1 N 1 0 0 1 450 600 2
 EndChar
 
 StartChar: three.alt
-Encoding: 65805 -1 1299
+Encoding: 65803 -1 1299
 Width: 600
 VWidth: 0
 Flags: HMW
@@ -20298,7 +20298,7 @@ Refer: 587 712 N 1 0 0 1 -100 -700 2
 EndChar
 
 StartChar: phi.sc
-Encoding: 65747 -1 1305
+Encoding: 65804 -1 1305
 Width: 600
 VWidth: 0
 Flags: HMW
@@ -23548,7 +23548,7 @@ Refer: 91 122 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: printdot
-Encoding: 65806 -1 1480
+Encoding: 65805 -1 1480
 Width: 100
 VWidth: 50
 Flags: HW
@@ -23564,7 +23564,7 @@ EndSplineSet
 EndChar
 
 StartChar: screendot
-Encoding: 65807 -1 1481
+Encoding: 65806 -1 1481
 Width: 7
 VWidth: 7
 Flags: HW
@@ -23580,7 +23580,7 @@ EndSplineSet
 EndChar
 
 StartChar: rasterdot
-Encoding: 65808 -1 1482
+Encoding: 65807 -1 1482
 Width: 100
 VWidth: 0
 Flags: HW
@@ -23598,7 +23598,7 @@ EndSplineSet
 EndChar
 
 StartChar: rasterdot2
-Encoding: 65809 -1 1483
+Encoding: 65808 -1 1483
 Width: 100
 VWidth: 0
 Flags: HW
@@ -23614,7 +23614,7 @@ EndSplineSet
 EndChar
 
 StartChar: quarterdot
-Encoding: 65810 -1 1484
+Encoding: 65809 -1 1484
 Width: 0
 VWidth: 0
 Flags: HW
@@ -23630,7 +23630,7 @@ EndSplineSet
 EndChar
 
 StartChar: chamferTR
-Encoding: 65811 -1 1485
+Encoding: 65810 -1 1485
 Width: 0
 VWidth: 0
 Flags: HW
@@ -23647,7 +23647,7 @@ EndSplineSet
 EndChar
 
 StartChar: concaveTR
-Encoding: 65812 -1 1486
+Encoding: 65811 -1 1486
 Width: 0
 VWidth: 0
 Flags: HW
@@ -23664,7 +23664,7 @@ EndSplineSet
 EndChar
 
 StartChar: convexTR
-Encoding: 65813 -1 1487
+Encoding: 65812 -1 1487
 Width: 0
 VWidth: 0
 Flags: HW
@@ -23680,7 +23680,7 @@ EndSplineSet
 EndChar
 
 StartChar: midTR
-Encoding: 65814 -1 1488
+Encoding: 65813 -1 1488
 Width: 0
 VWidth: 0
 Flags: HW
@@ -23696,7 +23696,7 @@ EndSplineSet
 EndChar
 
 StartChar: chamferBR
-Encoding: 65815 -1 1489
+Encoding: 65814 -1 1489
 Width: 0
 VWidth: 0
 Flags: HW
@@ -23713,10 +23713,10 @@ EndSplineSet
 EndChar
 
 StartChar: concaveBR
-Encoding: 65816 -1 1490
+Encoding: 65815 -1 1490
 Width: 0
 VWidth: 0
-Flags: HWO
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -23730,7 +23730,7 @@ EndSplineSet
 EndChar
 
 StartChar: convexBR
-Encoding: 65817 -1 1491
+Encoding: 65816 -1 1491
 Width: 0
 VWidth: 0
 Flags: HW
@@ -23746,7 +23746,7 @@ EndSplineSet
 EndChar
 
 StartChar: midBR
-Encoding: 65818 -1 1492
+Encoding: 65817 -1 1492
 Width: 0
 VWidth: 0
 Flags: HW
@@ -23762,7 +23762,7 @@ EndSplineSet
 EndChar
 
 StartChar: chamferBL
-Encoding: 65819 -1 1493
+Encoding: 65818 -1 1493
 Width: 0
 VWidth: 0
 Flags: HW
@@ -23779,7 +23779,7 @@ EndSplineSet
 EndChar
 
 StartChar: concaveBL
-Encoding: 65820 -1 1494
+Encoding: 65819 -1 1494
 Width: 0
 VWidth: 0
 Flags: HW
@@ -23796,7 +23796,7 @@ EndSplineSet
 EndChar
 
 StartChar: convexBL
-Encoding: 65821 -1 1495
+Encoding: 65820 -1 1495
 Width: 0
 VWidth: 0
 Flags: HW
@@ -23812,7 +23812,7 @@ EndSplineSet
 EndChar
 
 StartChar: midBL
-Encoding: 65822 -1 1496
+Encoding: 65821 -1 1496
 Width: 0
 VWidth: 0
 Flags: HW
@@ -23828,7 +23828,7 @@ EndSplineSet
 EndChar
 
 StartChar: chamferTL
-Encoding: 65823 -1 1497
+Encoding: 65822 -1 1497
 Width: 0
 VWidth: 0
 Flags: HW
@@ -23845,7 +23845,7 @@ EndSplineSet
 EndChar
 
 StartChar: concaveTL
-Encoding: 65824 -1 1498
+Encoding: 65823 -1 1498
 Width: 0
 VWidth: 0
 Flags: HW
@@ -23862,7 +23862,7 @@ EndSplineSet
 EndChar
 
 StartChar: convexTL
-Encoding: 65825 -1 1499
+Encoding: 65824 -1 1499
 Width: 0
 VWidth: 0
 Flags: HW
@@ -23878,7 +23878,7 @@ EndSplineSet
 EndChar
 
 StartChar: midTL
-Encoding: 65826 -1 1500
+Encoding: 65825 -1 1500
 Width: 0
 VWidth: 0
 Flags: HW
