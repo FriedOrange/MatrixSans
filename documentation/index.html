@@ -32,6 +32,36 @@
 		<p>The fonts were created by drawing the Regular glyphs as bitmaps, then turning them into outlines in FontForge with the help of a custom Python script. This method made it convenient to provide multiple variants with different styles of dots, allowing for faithful renditions of the various real-world examples of dot-matrix fonts.</p>
 
 		<p>On screen, the Regular, Smooth and Video styles look best at multiples of 15-point size, where their outlines exactly align with screen pixels. The fonts are deliberately unhinted, to prevent them from appearing uneven at other sizes.</p>
+
+		<h2>Features</h2>
+
+		<p>The Matrix Sans fonts support hundreds of languages written with the Latin, Greek, Cyrillic, Georgian and Armenian alphabets. For a full showcase of the supported characters, see the <a href="tests.html">Tests & Demos</a> page.</p>
+
+		<p>The fonts implement the OpenType &ldquo;Small Capitals&rdquo; and &ldquo;Small Capitals from Capitals&rdquo; features (except for Georgian scripts). Each style has an accompanying &ldquo;SC&rdquo; variant with small capitals in place of the regular lowercase.</p>
+		
+		<blockquote>
+			<p>smcp:<br />
+			abcdefghijklmnopqrstuvwxyz &rarr; <span style="font-feature-settings: 'smcp';">abcdefghijklmnopqrstuvwxyz</span><br />
+			<!-- αβγδεζηθικλμνξοπρςστυφχψω &rarr; <span style="font-feature-settings: 'smcp';">αβγδεζηθικλμνξοπρςστυφχψω</span><br />
+			абвгдежзийклмнопрстуфхцчшщъыьэюя &rarr; <span style="font-feature-settings: 'smcp';">абвгдежзийклмнопрстуфхцчшщъыьэюя</span><br />
+			աբգդեզէըթժիլխծկհձղճմյնշոչպջռսվտրցւփքօֆև &rarr; <span style="font-feature-settings: 'smcp';">աբգդեզէըթժիլխծկհձղճմյնշոչպջռսվտրցւփքօֆև</span></p> -->
+			<p>c2sc:<br />
+			ABCDEFGHIJKLMNOPQRSTUVWXYZ &rarr; <span style="font-feature-settings: 'c2sc';">ABCDEFGHIJKLMNOPQRSTUVWXYZ</span><br />
+			<!-- ΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩ &rarr; <span style="font-feature-settings: 'c2sc';">ΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩ</span><br />
+			АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ &rarr; <span style="font-feature-settings: 'c2sc';">АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ</span><br />
+			ԱԲԳԴԵԶԷԸԹԺԻԼԽԾԿՀՁՂՃՄՅՆՇՈՉՊՋՌՍՎՏՐՑՒՓՔՕՖև &rarr; <span style="font-feature-settings: 'c2sc';">ԱԲԳԴԵԶԷԸԹԺԻԼԽԾԿՀՁՂՃՄՅՆՇՈՉՊՋՌՍՎՏՐՑՒՓՔՕՖև</span></p> -->
+		</blockquote>
+		</section>
+
+		<section>
+		<h2>Licence</h2>
+
+		<p>The Matrix Sans fonts are open source, licenced under the <a href="https://scripts.sil.org/OFL">SIL Open Font License, Version 1.1</a> (see link for full licence text and FAQ). In short, this means that:</p>
+		<ul>
+			<li>You can use them in books, posters, artwork, logos, and on websites, even make 3D objects with the outlines—<u>no acknowledgement is required</u></li>
+			<li>You can bundle them in apps or software subject to certain conditions</li>
+			<li>You can freely modify and redistribute OFL fonts</li>
+		</ul>
 		</section>
 
 		<section>
@@ -76,10 +106,8 @@
 		<p><u>Authenticity</u> and <u>quirkiness</u> are often in conflict with <u>consistency</u> and <u>sound design</u>; the countless historical 5&times;7 fonts contain many unusual-looking (<u>quirky</u>) features, which by their nature are often inconsistent.</p>
 
 		<p>In order to retain the essence and charm of existing 5&times;7 fonts, yet rein in their oddities and avoid ugliness, none of these principles can be <u>fully</u> embraced. Instead, they serve as a guide while trying to choose the most coherent, well thought-out designs possible for this project.</p>
-		</section>
 
-		<section>
-		<h2>Proportional spacing</h2>
+		<h3>Proportional spacing</h3>
 
 		<p>Readers today expect visually consistent spacing around all characters, including narrow ones like <u>1 I i l</u> and punctuation marks. Trading some <u>authenticity</u> for <u>sound design</u>, this font family is proportionally spaced, unlike most prior 5&times;7 fonts. The proportionally-spaced typefaces <a href="https://www.fonts.com/font/itc/itc-american-typewriter">American Typewriter</a> and <a href="https://www.fonts.com/font/linotype/ocr-a-tribute">OCR A Tribute</a> are similarly inspired by classic monospaced designs, but take the further step of tweaking the proportions of the glyphs themselves, in the pursuit of a more conventional reading experience. This design doesn't go that far: all glyphs (and spaces between them) are still based strictly on a square grid. Where possible, glyphs have been kept to no more than 5 dots wide, which would allow for a monospaced version to be created with mostly the same glyphs.</p>
 		</section>
