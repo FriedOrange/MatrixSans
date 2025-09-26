@@ -15,16 +15,18 @@ import sys
 import argparse
 
 # Constants, these are the main "settings" for the image
-WIDTH, HEIGHT, MARGIN, FRAMES = 1024, 512, 30, 1
+DRAW_AUX_TEXT = False
+
+WIDTH, HEIGHT, MARGIN, FRAMES = 1024, 512, 32, 1
 FONT_PATH = "fonts/otf/MatrixSans-Regular.otf"
-FONT_LICENSE = "OFL v1.1"
-AUXILIARY_FONT = "Open Sans"
+FONT_LICENSE = "Open Font License v1.1"
+AUXILIARY_FONT = "Bahnschrift"
 AUXILIARY_FONT_SIZE = 22
 BIG_TEXT = "Aa"
 BIG_TEXT_FONT_SIZE = 80
 BIG_TEXT_SIDE_MARGIN = WIDTH // 2
-BIG_TEXT_BOTTOM_MARGIN = 72
-BIG_TEXT_INTERLINE = BIG_TEXT_FONT_SIZE * 1.3
+BIG_TEXT_INTERLINE = BIG_TEXT_FONT_SIZE * (1.1 if DRAW_AUX_TEXT else 1.3)
+BIG_TEXT_BOTTOM_MARGIN = (HEIGHT - (BIG_TEXT_INTERLINE * 4)) / 2 + BIG_TEXT_FONT_SIZE * (0.2 if DRAW_AUX_TEXT else 0.3)
 GRID_VIEW = False # Change this to "True" for a grid overlay
 
 # Handel the "--output" flag
@@ -96,17 +98,17 @@ def draw_main_text(text_list, colour):
 
 
 # Divider lines
-def draw_divider_lines():
-	stroke(0.5)
-	strokeWidth(2)
+def draw_divider_lines(colour):
+	stroke(colour)
+	strokeWidth(0)
 	lineCap("round")
-	line((MARGIN, HEIGHT - MARGIN), (WIDTH - MARGIN, HEIGHT - MARGIN))
-	line((MARGIN, MARGIN + (MARGIN / 2)), (WIDTH - MARGIN, MARGIN + (MARGIN / 2)))
+	line((MARGIN, HEIGHT - MARGIN * 2), (WIDTH - MARGIN, HEIGHT - MARGIN * 2))
+	line((MARGIN, MARGIN * 2), (WIDTH - MARGIN, MARGIN * 2))
 	stroke(None)
 
 
 # Draw text describing the font and it's git status & repo URL
-def draw_auxiliary_text():
+def draw_auxiliary_text(text_colour):
 	# Load the font with the parts of fonttools that are imported with the line:
 	# from fontTools.ttLib import TTFont
 	# Docs Link: https://fonttools.readthedocs.io/en/latest/ttLib/ttFont.html
@@ -119,15 +121,17 @@ def draw_auxiliary_text():
 	# FONT_VERSION = "v%s" % floatToFixedToStr(ttFont["head"].fontRevision, 16)
 	FONT_VERSION = str(ttFont["name"].getName(5, 3, 1))
 	# Setup
-	fill(0.5)
+	fill(text_colour)
 	font(AUXILIARY_FONT)
 	fontSize(AUXILIARY_FONT_SIZE)
-	POS_TOP_LEFT = (MARGIN, HEIGHT - MARGIN * 1.5)
-	POS_TOP_RIGHT = (WIDTH - MARGIN, HEIGHT - MARGIN * 1.5)
-	POS_BOTTOM_LEFT = (MARGIN, MARGIN)
-	POS_BOTTOM_RIGHT = (WIDTH - MARGIN * 0.95, MARGIN)
-	# URL_AND_HASH = MY_URL + "at commit " + MY_HASH
-	URL_AND_HASH = MY_URL
+	# print(listFontVariations())
+	fontVariations(wdth=100, wght=350)
+	POS_TOP_LEFT = (MARGIN, HEIGHT - MARGIN * 1.75)
+	POS_TOP_RIGHT = (WIDTH - MARGIN, HEIGHT - MARGIN * 1.75)
+	POS_BOTTOM_LEFT = (MARGIN, MARGIN * 1.25)
+	POS_BOTTOM_RIGHT = (WIDTH - MARGIN * 0.95, MARGIN * 1.25)
+	URL_AND_HASH = MY_URL + "at commit " + MY_HASH
+	# URL_AND_HASH = MY_URL
 	URL_AND_HASH = URL_AND_HASH.replace("\n", " ")
 	# Draw Text
 	text(FONT_NAME, POS_TOP_LEFT, align="left")
@@ -139,13 +143,16 @@ def draw_auxiliary_text():
 def make_image(text_list, text_colour, bg_colour, stripes=False):
 	draw_background(bg_colour, HEIGHT)
 	if stripes:
+		stripe_margin = BIG_TEXT_BOTTOM_MARGIN - (BIG_TEXT_INTERLINE - BIG_TEXT_FONT_SIZE) * (2 if DRAW_AUX_TEXT else 1)
 		fill(0.65, 0.85, 0.75)
-		rect(0, 360, WIDTH, 104)
-		rect(0, 152, WIDTH, 104)
-		rect(0, -56, WIDTH, 104)
+		rect(0, stripe_margin + BIG_TEXT_INTERLINE * 3, WIDTH, BIG_TEXT_INTERLINE)
+		rect(0, stripe_margin + BIG_TEXT_INTERLINE, WIDTH, BIG_TEXT_INTERLINE)
+		rect(0, stripe_margin - BIG_TEXT_INTERLINE, WIDTH, BIG_TEXT_INTERLINE)
 	draw_main_text(text_list, text_colour)
-	# draw_divider_lines()
-	# draw_auxiliary_text()
+	aux_colour = (text_avg := sum(text_colour) / 3) + (0.5 - text_avg) * 0.625
+	if DRAW_AUX_TEXT:
+		draw_divider_lines(aux_colour)
+		draw_auxiliary_text(aux_colour)
 
 # Build and save the image
 if __name__ == "__main__":
