@@ -17,13 +17,15 @@ LEFT_SIDE_BEARING = 50
 SCREEN_DOT_FACTOR = 0.86
 PRINT_DOT_RADIUS = 48.0
 MAIN_SOURCE = "MatrixSans-MASTER.sfd"
-VIDEO_AUX_SOURCE = "MatrixSans-MASTER-video-aux.sfd"
+VIDEO_AUX_SOURCE = "MatrixSans-video-aux.sfd"
+SMOOTH_AUX_SOURCE = "MatrixSans-smooth-aux.sfd"
 UNLINK_LIST = ["Aring", "Ccedilla", "aring", "ccedilla", "aogonek",
 	"Eogonek", "eogonek", "Gcommaaccent", "Iogonek", "iogonek", "Lcommaaccent", "lcommaaccent",
 	"Scedilla", "scedilla", "Tcedilla", "tcedilla", "Uogonek", "Scommaaccent",
 	"scommaaccent", "Tcommaaccent", "tcommaaccent", "aring.sc", "eogonek.sc", "gcommaaccent.sc",
 	"iogonek.sc", "lcommaaccent.sc", "tcedilla.sc", "tcommaaccent.sc", "uogonek.sc", "Ohorn", "ohorn", "Uhorn", "uhorn.sc", "Aringacute", "aringacute", "Abrevetilde", "abrevetilde"]
 DOT_GLYPHS = ["dot", "printdot", "screendot", "rasterdot", "rasterdot2", "quarterdot", "concaveTR", "concaveTL", "convexTR", "convexTL", "midTR", "midTL", "chamferTR", "chamferTL", "concaveBR", "concaveBL", "convexBR", "convexBL", "midBR", "midBL", "chamferBR", "chamferBL"]
+NON_SPACING_FIX_LIST = ["hookabovecomb"]
 
 
 def add_names(font, style, suffix=""):
@@ -41,12 +43,11 @@ def get_pattern(font, glyph):
 	if len(font[glyph].references) == 0:
 		return matrix, True
 	else:
-		skip = True
-	# for ref, trans, _ in font[glyph].references:
+		skip = True # skip glyphs that don't reference "dot"
 	for ref, trans, _ in font[glyph].references:
 		if ref == "dot":
 			skip = False
-			x = int(trans[4]) # coordinates of glyph reference
+			x = int(trans[4])
 			y = int(trans[5])
 			x //= DOT_SIZE
 			y = y // DOT_SIZE + DESCENT_DOTS
@@ -80,12 +81,18 @@ def refs_to_dots(font, glyphs):
 	font.createChar(-1, "temp")
 	for glyph in glyphs:
 		font["temp"].clear()
+		font["temp"].width = font[glyph].width
 		refs_to_dots1(glyph, 0, 0, "temp")
 		font.selection.select("temp")
 		font.copy()
 		font.selection.select(glyph)
 		font.paste()
 	font["temp"].clear()
+
+
+def make_non_spacing(font, glyph):
+	while font[glyph].width > 0:
+		font[glyph].left_side_bearing = int(font[glyph].left_side_bearing - 1)
 
 
 def make_regular(source):
@@ -135,9 +142,8 @@ def make_print(source, name_suffix=""):
 def make_video(source):
 	font = fontforge.open(source)
 
-	UNLINK_LIST.append("Aogonek")
-	UNLINK_LIST.append("uogonek")
-	UNLINK_LIST.append("aogonek.sc")
+	# make glyphs with diagonally-touching components directly reference "dot"
+	refs_to_dots(font, ["Aogonek", "aogonek.sc"])
 
 	video_aux_font = fontforge.open(VIDEO_AUX_SOURCE)
 
@@ -182,6 +188,13 @@ def make_video(source):
 def make_raster(source):
 	font = fontforge.open(source)
 
+	# prepare non-spacing glyphs for processing
+	for glyph in NON_SPACING_FIX_LIST:
+		font[glyph].left_side_bearing = LEFT_SIDE_BEARING
+
+	# make glyphs with touching components directly reference "dot"
+	refs_to_dots(font, ["Ohorn", "ohorn", "Uhorn", "uhorn", "uhorn.sc"])
+
 	font.selection.select("rasterdot")
 	font.copy()
 	font.selection.select("dot")
@@ -202,6 +215,9 @@ def make_raster(source):
 					else:
 						font[glyph].addReference("rasterdot2", (1, 0, 0, 1, i * DOT_SIZE + LEFT_SIDE_BEARING, (j - DESCENT_DOTS) * DOT_SIZE))
 
+	for glyph in NON_SPACING_FIX_LIST:
+		make_non_spacing(font, glyph)
+
 	clear_dots(font)
 	font.selection.all()
 	font.removeOverlap()
@@ -218,13 +234,17 @@ def make_smooth(source):
 
 	font = fontforge.open(source)
 
-	# make glyphs with diagonally-touching components directly reference "dot"
-	refs_to_dots(font, ["Aogonek", "aogonek.sc"])
+	# make glyphs with touching components directly reference "dot"
+	refs_to_dots(font, ["Aogonek", "aogonek.sc", "Ohorn", "ohorn", "Uhorn", "uhorn", "uhorn.sc"])
+
+	# prepare non-spacing glyphs for processing
+	for glyph in NON_SPACING_FIX_LIST:
+		font[glyph].left_side_bearing = LEFT_SIDE_BEARING
 
 	# cell connection (neighbour) criteria, mask, component reference by cell quadrant
 	topright = [
 		(0b00010000, 0b11111000, "convexTR"),
-		(0b00000001, 0b11110011, "chamferTR"),
+		(0b00000001, 0b11100011, "chamferTR"),
 		(0b01000000, 0b11100000, "midTR"),
 		(0b10010000, 0b10111000, "concaveTR"),
 	]
@@ -309,6 +329,17 @@ def make_smooth(source):
 						break
 				else:
 					font[glyph].addReference("quarterdot", (1, 0, 0, 1, LEFT_SIDE_BEARING + (i + 0.5) * DOT_SIZE, (j - DESCENT_DOTS) * DOT_SIZE))
+
+	# replace certain glyphs with manually-designed forms
+	smooth_aux_font = fontforge.open(SMOOTH_AUX_SOURCE)
+	for glyph in smooth_aux_font:
+		smooth_aux_font.selection.select(glyph)
+		smooth_aux_font.copy()
+		font.selection.select(glyph)
+		font.paste()
+
+	for glyph in NON_SPACING_FIX_LIST:
+		make_non_spacing(font, glyph)
 
 	clear_dots(font)
 

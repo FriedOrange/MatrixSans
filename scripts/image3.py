@@ -167,7 +167,7 @@ if __name__ == "__main__":
 	FONT_PATH = "fonts/otf/MatrixSansVideo-Regular.otf"
 	make_image(["MATRIX SANS VIDEO","▶ How quickly daft","jumping zebras vex!","23/04/1987 12:56 PM"], [216/255, 216/255, 216/255], [0, 0, 160/255])
 	FONT_PATH = "fonts/otf/MatrixSansSmooth-Regular.otf"
-	make_image(["MATRIX SANS SMOOTH", "Bright vixens jump", "& dozy fowl quack.", "«№3½» ±0.5µm ←↑→↓"], [0.9, 0.9, 0.9], [0.1, 0.1, 0.1])
+	make_image(["MATRIX SANS SMOOTH", "Bright vixens jump", "& dozy fowl quack.", "«№3½» ±0.5µm ↑ 68Ω"], [0.9, 0.9, 0.9], [0.1, 0.1, 0.1])
 	# Save output, using the "--output" flag location
 	saveImage(args.output)
 	# Print done in the terminal

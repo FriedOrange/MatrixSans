@@ -9,13 +9,11 @@
       <point x="420.0" y="500.0" type="line"/>
       <point x="550.0" y="370.0" type="line"/>
       <point x="550.0" y="330.0" type="line"/>
-      <point x="450.0" y="230.0" type="line"/>
-      <point x="450.0" y="170.0" type="line"/>
+      <point x="420.0" y="200.0" type="line"/>
       <point x="550.0" y="70.0" type="line"/>
       <point x="550.0" y="0.0" type="line"/>
       <point x="480.0" y="0.0" type="line"/>
-      <point x="350.0" y="130.0" type="line"/>
-      <point x="350.0" y="200.0" type="line"/>
+      <point x="280.0" y="200.0" type="line"/>
       <point x="150.0" y="200.0" type="line"/>
     </contour>
     <contour>
