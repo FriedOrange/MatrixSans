@@ -125,7 +125,7 @@ html_post = """
 """
 # print(classes)
 
-with open("..\\scripts\\kerntest.html", "w", encoding="utf-8") as output_file:
+with open("..\\documentation\\kerntest.html", "w", encoding="utf-8") as output_file:
 	output_file.write(html_pre)
 	output_file.writelines(output_lines)
 	output_file.write(html_post)
