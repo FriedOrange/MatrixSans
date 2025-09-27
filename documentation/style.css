@@ -46,6 +46,7 @@ h1, h2, h3 {
 }
 ul {list-style-type: "• ";}
 ul ul {list-style-type: "◦ ";}
+main u {text-decoration-color: #888;}
 a {
 	color: #6d6;
 	text-decoration: none;
