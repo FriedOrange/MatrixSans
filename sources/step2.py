@@ -81,6 +81,7 @@ def refs_to_dots(font, glyphs):
 	font.createChar(-1, "temp")
 	for glyph in glyphs:
 		font["temp"].clear()
+		font["temp"].width = font[glyph].width
 		refs_to_dots1(glyph, 0, 0, "temp")
 		font.selection.select("temp")
 		font.copy()
@@ -191,6 +192,9 @@ def make_raster(source):
 	for glyph in NON_SPACING_FIX_LIST:
 		font[glyph].left_side_bearing = LEFT_SIDE_BEARING
 
+	# make glyphs with touching components directly reference "dot"
+	refs_to_dots(font, ["Ohorn", "ohorn", "Uhorn", "uhorn", "uhorn.sc"])
+
 	font.selection.select("rasterdot")
 	font.copy()
 	font.selection.select("dot")
@@ -230,8 +234,8 @@ def make_smooth(source):
 
 	font = fontforge.open(source)
 
-	# make glyphs with diagonally-touching components directly reference "dot"
-	refs_to_dots(font, ["Aogonek", "aogonek.sc"])
+	# make glyphs with touching components directly reference "dot"
+	refs_to_dots(font, ["Aogonek", "aogonek.sc", "Ohorn", "ohorn", "Uhorn", "uhorn", "uhorn.sc"])
 
 	# prepare non-spacing glyphs for processing
 	for glyph in NON_SPACING_FIX_LIST:
