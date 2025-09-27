@@ -27,6 +27,7 @@ UNLINK_LIST = ["Aring", "Ccedilla", "aring", "ccedilla", "aogonek",
 	"Scedilla", "scedilla", "Tcedilla", "tcedilla", "Uogonek", "Scommaaccent",
 	"scommaaccent", "Tcommaaccent", "tcommaaccent", "aring.sc", "eogonek.sc", "gcommaaccent.sc",
 	"iogonek.sc", "lcommaaccent.sc", "tcedilla.sc", "tcommaaccent.sc", "uogonek.sc", "Ohorn", "ohorn", "Uhorn", "uhorn.sc", "Aringacute", "aringacute", "Abrevetilde", "abrevetilde"]
+DOT_GLYPHS = ["dot", "printdot", "screendot", "rasterdot", "rasterdot2", "quarterdot", "concaveTR", "concaveTL", "convexTR", "convexTL", "midTR", "midTL", "chamferTR", "chamferTL", "concaveBR", "concaveBL", "convexBR", "convexBL", "midBR", "midBL", "chamferBR", "chamferBL"]
 
 
 def add_names(font, style, suffix=""):
@@ -65,9 +66,30 @@ def segmented_panose(panose):
 
 
 def clear_dots(font):
-	for glyph in ["dot", "printdot", "screendot", "rasterdot", "rasterdot2", "quarterdot", "concaveTR", "concaveTL", "convexTR", "convexTL", "midTR", "midTL", "chamferTR", "chamferTL", "concaveBR", "concaveBL", "convexBR", "convexBL", "midBR", "midBL", "chamferBR", "chamferBL"]:
+	for glyph in DOT_GLYPHS:
 		font[glyph].unlinkThisGlyph()
 		font[glyph].clear()
+
+
+def refs_to_dots(font, glyphs):
+	def refs_to_dots1(source, x, y, destination):
+		for ref, trans, _ in font[source].references:
+			x2 = x + trans[4]
+			y2 = y + trans[5]
+			if ref == "dot":
+				font[destination].addReference("dot", (1, 0, 0, 1, x2, y2))
+			else:
+				refs_to_dots1(ref, x2, y2, destination)
+	
+	font.createChar(-1, "temp")
+	for glyph in glyphs:
+		font["temp"].clear()
+		refs_to_dots1(glyph, 0, 0, "temp")
+		font.selection.select("temp")
+		font.copy()
+		font.selection.select(glyph)
+		font.paste()
+	font["temp"].clear()
 
 
 def make_regular(source):
@@ -261,30 +283,13 @@ def make_extended(source):
 	font.os2_weight = 700
 	font.save(EXTENDED_TEMP)
 
-
+	
 def make_smooth(source):
-
-	def refs_to_dots(source, x, y, destination):
-		for ref, trans, _ in font[source].references:
-			x2 = x + trans[4]
-			y2 = y + trans[5]
-			if ref == "dot":
-				font[destination].addReference("dot", (1, 0, 0, 1, x2, y2))
-			else:
-				refs_to_dots(ref, x2, y2, destination)
 
 	font = fontforge.open(source)
 
 	# make glyphs with diagonally-touching components directly reference "dot"
-	font.createChar(-1, "temp")
-	for glyph in ["Aogonek", "aogonek.sc"]:
-		font["temp"].clear()
-		refs_to_dots(glyph, 0, 0, "temp")
-		font.selection.select("temp")
-		font.copy()
-		font.selection.select(glyph)
-		font.paste()
-	font["temp"].clear()
+	refs_to_dots(font, ["Aogonek", "aogonek.sc"])
 
 	# cell connection (neighbour) criteria, mask, component reference by cell quadrant
 	topright = [
