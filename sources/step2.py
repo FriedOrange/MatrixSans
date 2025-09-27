@@ -41,12 +41,11 @@ def get_pattern(font, glyph):
 	if len(font[glyph].references) == 0:
 		return matrix, True
 	else:
-		skip = True
-	# for ref, trans, _ in font[glyph].references:
+		skip = True # skip glyphs that don't reference "dot"
 	for ref, trans, _ in font[glyph].references:
 		if ref == "dot":
 			skip = False
-			x = int(trans[4]) # coordinates of glyph reference
+			x = int(trans[4])
 			y = int(trans[5])
 			x //= DOT_SIZE
 			y = y // DOT_SIZE + DESCENT_DOTS
@@ -135,9 +134,8 @@ def make_print(source, name_suffix=""):
 def make_video(source):
 	font = fontforge.open(source)
 
-	UNLINK_LIST.append("Aogonek")
-	UNLINK_LIST.append("uogonek")
-	UNLINK_LIST.append("aogonek.sc")
+	# make glyphs with diagonally-touching components directly reference "dot"
+	refs_to_dots(font, ["Aogonek", "aogonek.sc"])
 
 	video_aux_font = fontforge.open(VIDEO_AUX_SOURCE)
 
