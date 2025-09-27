@@ -17,11 +17,7 @@ LEFT_SIDE_BEARING = 50
 SCREEN_DOT_FACTOR = 0.86
 PRINT_DOT_RADIUS = 48.0
 MAIN_SOURCE = "MatrixSans-MASTER.sfd"
-HALFSTEP_SOURCE = "source\\Quantum-MASTER-halfstep.sfd"
-BOLD_AUX_SOURCE = "source\\Quantum-MASTER-bold-aux.sfd"
 VIDEO_AUX_SOURCE = "MatrixSans-MASTER-video-aux.sfd"
-BOLD_TEMP = "source\\temp\\temp bold.sfd"
-EXTENDED_TEMP = "source\\temp\\temp extended.sfd"
 UNLINK_LIST = ["Aring", "Ccedilla", "aring", "ccedilla", "aogonek",
 	"Eogonek", "eogonek", "Gcommaaccent", "Iogonek", "iogonek", "Lcommaaccent", "lcommaaccent",
 	"Scedilla", "scedilla", "Tcedilla", "tcedilla", "Uogonek", "Scommaaccent",
@@ -216,72 +212,6 @@ def make_raster(source):
 	font.os2_strikeypos += int((DOT_SIZE - font.os2_strikeysize) / 2)
 	font.os2_panose = segmented_panose(font.os2_panose)
 	font.save(f"temp\\MatrixSansRaster-{font.weight}.sfd")
-
-
-def make_bold(source):
-	font = fontforge.open(source)
-	bold_aux_font = fontforge.open(BOLD_AUX_SOURCE)
-
-	for glyph in font:
-	
-		# determine where the dots are in each glyph
-		matrix, skip = get_pattern(font, glyph)
-		if skip:
-			continue
-
-		for j in range(GLYPH_HEIGHT):
-			for i in range(GLYPH_WIDTH - 1):
-				if matrix[i][j] and not matrix[i + 1][j]:
-					font[glyph].addReference("dot", (1, 0, 0, 1, (i + 1) * DOT_SIZE + LEFT_SIDE_BEARING, (j - DESCENT_DOTS) * DOT_SIZE))
-
-		if font[glyph].right_side_bearing <= 0:
-			font[glyph].right_side_bearing = LEFT_SIDE_BEARING - 1
-
-	for glyph in bold_aux_font:
-		bold_aux_font.selection.select(glyph)
-		bold_aux_font.copy()
-		font.selection.select(glyph)
-		font.paste()
-
-	font.weight = "Bold"
-	font.os2_weight = 700
-	font.save(BOLD_TEMP)
-
-
-def make_extended(source):
-	font = fontforge.open(source)
-
-	for glyph in font:
-
-		width = font[glyph].width
-		font[glyph].width = width * 2
-
-		# determine where the dots are in each glyph
-		matrix = [[False]*GLYPH_HEIGHT for _ in range(GLYPH_WIDTH*2)] # full dots
-		skip = False
-		for ref, trans in font[glyph].references:
-			if ref != "dot":
-				skip = True
-				break # we are only interested in glyphs that directly reference the "dot" glyph
-			x = int(trans[4]) # coordinates of glyph reference
-			y = int(trans[5])
-			x //= DOT_SIZE // 2
-			y = y // DOT_SIZE + DESCENT_DOTS
-			matrix[x][y] = True
-		if skip or not font[glyph].references:
-			continue
-
-		font[glyph].references = ()
-
-		for j in range(GLYPH_HEIGHT):
-			for i in range(GLYPH_WIDTH * 2):
-				if matrix[i][j]:
-					font[glyph].addReference("dot", (1, 0, 0, 1, i * DOT_SIZE, (j - DESCENT_DOTS) * DOT_SIZE))
-					font[glyph].addReference("dot", (1, 0, 0, 1, (i + 1) * DOT_SIZE, (j - DESCENT_DOTS) * DOT_SIZE))
-
-	font.weight = "Bold"
-	font.os2_weight = 700
-	font.save(EXTENDED_TEMP)
 
 	
 def make_smooth(source):
