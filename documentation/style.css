@@ -62,6 +62,7 @@ a:hover, a:visited:hover {text-decoration: underline;}
 	font-size: 2.5em;
 	color: #ddd;
 }
+.sc {font-feature-settings: 'smcp';}
 img {
 	margin: 0.25em;
 	max-width: 100%;
@@ -96,3 +97,4 @@ td {
 td + td, th + th {border-left: 0.1em #888 solid;}
 tr + tr > td {border-top: 0.1em #888 solid;}
 table {border-collapse: collapse;}
+.padded td, .padded th {padding: 0.2em;}
