@@ -50,7 +50,7 @@ a {
 	color: #6d6;
 	text-decoration: none;
 }
-a:visited {color: #397;}
+a:visited {color: #4a8;}
 a:active {color: #c4c}
 a:hover, a:visited:hover {text-decoration: underline;}
 .print {font-family: "Matrix Sans Print", sans-serif;}
@@ -59,7 +59,7 @@ a:hover, a:visited:hover {text-decoration: underline;}
 .video {font-family: "Matrix Sans Video", sans-serif;}
 .smooth {font-family: "Matrix Sans Smooth", sans-serif;}
 .big {
-	font-size: 2.5em;
+	font-size: 3em;
 	color: #ddd;
 }
 .sc {font-feature-settings: 'smcp';}
