@@ -15,8 +15,7 @@
       <point x="50.0" y="0.0" type="line"/>
       <point x="50.0" y="700.0" type="line"/>
       <point x="220.0" y="700.0" type="line"/>
-      <point x="320.0" y="600.0" type="line"/>
-      <point x="350.0" y="600.0" type="line"/>
+      <point x="350.0" y="570.0" type="line"/>
       <point x="350.0" y="500.0" type="line"/>
       <point x="450.0" y="500.0" type="line"/>
       <point x="450.0" y="700.0" type="line"/>
