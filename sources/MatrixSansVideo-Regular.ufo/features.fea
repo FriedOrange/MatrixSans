@@ -76,7 +76,7 @@ feature smcp {
 
 # mark classes
 markClass [gravecomb acutecomb circumflexcomb tildecomb macroncomb brevecomb dotaccentcomb dieresiscomb ringcomb hungarumlautcomb caroncomb commaturnedabovecomb hookabovecomb circumflexcomb_acutecomb circumflexcomb_gravecomb circumflexcomb_hookabovecomb circumflexcomb_tildecomb verticallineabovecomb] <anchor 0 600> @marks_above;
-markClass [commaaccentcomb cedillacomb dotbelowcomb macronbelowcomb uni0324 brevebelowcomb] <anchor 0 0> @marks_below;
+markClass [commaaccentcomb cedillacomb dotbelowcomb macronbelowcomb uni0324 brevebelowcomb uni0329] <anchor 0 0> @marks_below;
 markClass [ogonekcomb] <anchor 0 0> @marks_belowright;
 markClass [uni0315 horncomb dotaboverightcomb] <anchor 0 500> @marks_aboveright;
 # markClass [gravecomb acutecomb circumflexcomb tildecomb brevecomb ringcomb hungarumlautcomb caroncomb commaturnedabovecomb] <anchor 0 600> @tall_marks_above;
@@ -88,6 +88,7 @@ feature ccmp {
 	script cyrl;
 	sub i-cy' @marks_above by dotlessi;
 	sub three by three.alt;
+	sub Yi-cy' @marks_above by idieresis.sc;
 	script grek;
 	sub Alpha acutecomb by Alphatonos;
 	sub Epsilon acutecomb by Epsilontonos;
@@ -128,7 +129,11 @@ feature ccmp {
 	sub circumflexcomb gravecomb by circumflexcomb_gravecomb;
 	sub circumflexcomb hookabovecomb by circumflexcomb_hookabovecomb;
 	sub circumflexcomb tildecomb by circumflexcomb_tildecomb;
-	sub [idotbelow iogonek]' @marks_above by dotlessi dotbelowcomb;
+	sub idotbelow' @marks_above by dotlessi dotbelowcomb;
+	sub iogonek' @marks_above by dotlessi ogonekcomb;
+	sub Idotaccent' @marks_above by idotaccent.sc;
+	sub Edotaccent' @marks_above by edotaccent.sc;
+	sub Umacron' @marks_above by umacron.sc;
 sub D by D.alt;sub Eth by Eth.alt;sub Dcroat by Dcroat.alt;sub Dhook by Dhook.alt;sub Dcaron by Dcaron.alt;sub Ddotbelow by Ddotbelow.alt;sub Dmacronbelow by Dmacronbelow.alt;} ccmp;
 
 feature mkmk {
@@ -139,17 +144,21 @@ feature mkmk {
 } mkmk;
 
 # classes for mark positioning
-@tall = [C D G H K M N R S T W Y Z h k Edotbelow Odotbelow Udotbelow Ie-cy Ge-cy Ka-cy Ii-cy U-cy Alpha Epsilon Eta Omicron Upsilon Omega Oslash]; # not including glyphs with ogonek or apostrophe-type caron
-@short = [c m n r s v-x z b.sc d.sc f.sc g.sc h.sc kgreenlandic m.sc n.sc p.sc q.sc r.sc t.sc y.sc y.titl edotbelow odotbelow udotbelow edotbelow.sc udotbelow.sc ii-cy ie-cy ge-cy ka-cy alpha epsilon eta upsilon omicron omega oslash];
+@tall = [C D G H K M N R S T W Y Z h k Edotbelow Odotbelow Udotbelow Ie-cy Ge-cy Ka-cy Ii-cy U-cy Alpha Epsilon Eta Omicron Upsilon Omega Oslash io-cy iegrave-cy Aogonek Eogonek Uogonek eacute egrave ecircumflex ecaron oacute ograve ocircumflex ocaron Ocaron edotaccent.sc umacron.sc Oacute Ograve Ocircumflex umacron edotaccent]; # not including glyphs with ogonek or apostrophe-type caron
+@short = [c m n r s v-x z b.sc d.sc f.sc g.sc h.sc kgreenlandic m.sc n.sc p.sc q.sc r.sc t.sc y.sc y.titl edotbelow odotbelow udotbelow edotbelow.sc udotbelow.sc ii-cy ie-cy ge-cy ka-cy alpha epsilon eta upsilon omicron omega oslash a-cy o-cy yeru-cy ereversed-cy yu-cy ya-cy e-cy hardsign-cy aogonek eogonek uogonek];
 @deep = [g p q y u-cy];
 
 feature mark {
-	pos base [A E] 
+	pos base [A E Eacute Egrave Ecircumflex Ecaron] 
 		<anchor 300 800> mark @marks_above
 		<anchor 300 0> mark @marks_below
 		<anchor 400 0> mark @marks_belowright;
-	pos base [I i idotaccent Idotbelow I-cy Iota] 
+	pos base [I i idotaccent Idotbelow I-cy Iota i-cy yi-cy idieresis.sc idotaccent.sc Iogonek iogonek] 
 		<anchor 200 800> mark @marks_above
+		<anchor 200 0> mark @marks_below
+		<anchor 200 0> mark @marks_belowright;
+	pos base [Idotaccent Yi-cy]
+		<anchor 200 900> mark @marks_above
 		<anchor 200 0> mark @marks_below
 		<anchor 200 0> mark @marks_belowright;
 	pos base J 
@@ -736,7 +745,6 @@ feature ss03 {
 	};
 	sub three by three.alt;
 } ss03;
-
 
 feature ss04 {
 	featureNames {
