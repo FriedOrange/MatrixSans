@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1675081307
-ModificationTime: 1758959587
+ModificationTime: 1758983920
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -39,14 +39,13 @@ HheadDOffset: 1
 OS2Vendor: 'PfEd'
 DEI: 91125
 Encoding: UnicodeBmp
-Compacted: 1
 UnicodeInterp: none
 NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 16 12
-BeginChars: 65553 100
+WinInfo: 65376 16 12
+BeginChars: 65553 101
 
 StartChar: quarterdot
 Encoding: 65536 -1 0
@@ -1958,7 +1957,7 @@ Refer: 7 -1 N 1 0 0 1 250 500 2
 EndChar
 
 StartChar: six.alt
-Encoding: 65543 -1 52
+Encoding: 65542 -1 52
 Width: 600
 Flags: MW
 LayerCount: 2
@@ -1991,7 +1990,7 @@ Refer: 7 -1 N 1 0 0 1 250 600 2
 EndChar
 
 StartChar: nine.alt
-Encoding: 65544 -1 53
+Encoding: 65543 -1 53
 Width: 600
 Flags: MW
 LayerCount: 2
@@ -2298,7 +2297,7 @@ Refer: 7 -1 N 1 0 0 1 50 400 2
 EndChar
 
 StartChar: nhookleft.sc
-Encoding: 65545 -1 59
+Encoding: 65544 -1 59
 Width: 600
 VWidth: 0
 Flags: MW
@@ -2339,7 +2338,7 @@ Refer: 7 -1 N 1 0 0 1 50 400 2
 EndChar
 
 StartChar: eng.sc.loclNSM
-Encoding: 65546 -1 60
+Encoding: 65545 -1 60
 Width: 600
 VWidth: 0
 Flags: MW
@@ -2688,7 +2687,7 @@ Refer: 7 -1 N 1 0 0 1 50 600 2
 EndChar
 
 StartChar: sigma.sc
-Encoding: 65547 -1 67
+Encoding: 65546 -1 67
 Width: 600
 VWidth: 0
 Flags: MW
@@ -2887,7 +2886,7 @@ EndSplineSet
 EndChar
 
 StartChar: two.alt
-Encoding: 65548 -1 72
+Encoding: 65547 -1 72
 Width: 600
 VWidth: 0
 Flags: HW
@@ -2945,7 +2944,7 @@ EndSplineSet
 EndChar
 
 StartChar: three.alt
-Encoding: 65549 -1 73
+Encoding: 65548 -1 73
 Width: 600
 VWidth: 0
 Flags: HW
@@ -3297,7 +3296,7 @@ EndSplineSet
 EndChar
 
 StartChar: za-ar.sc
-Encoding: 65550 -1 80
+Encoding: 65549 -1 80
 Width: 600
 VWidth: 0
 Flags: HW
@@ -3345,7 +3344,7 @@ EndSplineSet
 EndChar
 
 StartChar: to-ar.sc
-Encoding: 65551 -1 81
+Encoding: 65550 -1 81
 Width: 700
 VWidth: 0
 Flags: HW
@@ -3400,7 +3399,7 @@ EndSplineSet
 EndChar
 
 StartChar: ca-ar.sc
-Encoding: 65552 -1 82
+Encoding: 65551 -1 82
 Width: 600
 VWidth: 0
 Flags: HW
@@ -4348,6 +4347,37 @@ SplineSet
  100 400 l 1
  50 400 l 1
 EndSplineSet
+EndChar
+
+StartChar: germandbls.sc
+Encoding: 65552 -1 100
+Width: 600
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 300 300 2
+Refer: 0 -1 N 1 0 0 1 450 350 2
+Refer: 0 -1 N 1 0 0 1 450 200 2
+Refer: 0 -1 N 1 0 0 1 400 150 2
+Refer: 0 -1 N 1 0 0 1 450 50 2
+Refer: 0 -1 N 1 0 0 1 400 100 2
+Refer: 0 -1 N 1 0 0 1 150 350 2
+Refer: 0 -1 N 1 0 0 1 100 400 2
+Refer: 7 -1 N 1 0 0 1 350 0 2
+Refer: 7 -1 N 1 0 0 1 250 0 2
+Refer: 7 -1 N 1 0 0 1 50 0 2
+Refer: 7 -1 N 1 0 0 1 450 100 2
+Refer: 7 -1 N 1 0 0 1 50 100 2
+Refer: 7 -1 N 1 0 0 1 350 200 2
+Refer: 7 -1 N 1 0 0 1 250 200 2
+Refer: 7 -1 N 1 0 0 1 50 200 2
+Refer: 7 -1 N 1 0 0 1 350 300 2
+Refer: 7 -1 N 1 0 0 1 50 300 2
+Refer: 7 -1 N 1 0 0 1 450 400 2
+Refer: 7 -1 N 1 0 0 1 350 400 2
+Refer: 7 -1 N 1 0 0 1 250 400 2
+Refer: 7 -1 N 1 0 0 1 150 400 2
 EndChar
 EndChars
 EndSplineFont
