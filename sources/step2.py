@@ -44,17 +44,16 @@ def get_pattern(font, glyph):
 	if len(font[glyph].references) == 0:
 		return matrix, True
 	else:
-		skip = False
+		skip = True
 	# for ref, trans, _ in font[glyph].references:
 	for ref, trans, _ in font[glyph].references:
-		if ref != "dot":
-			skip = True
-			break # we are only interested in glyphs that directly reference the "dot" glyph
-		x = int(trans[4]) # coordinates of glyph reference
-		y = int(trans[5])
-		x //= DOT_SIZE
-		y = y // DOT_SIZE + DESCENT_DOTS
-		matrix[x][y] = True
+		if ref == "dot":
+			skip = False
+			x = int(trans[4]) # coordinates of glyph reference
+			y = int(trans[5])
+			x //= DOT_SIZE
+			y = y // DOT_SIZE + DESCENT_DOTS
+			matrix[x][y] = True
 	return matrix, skip
 
 
@@ -321,7 +320,7 @@ def make_smooth(source):
 			continue # ignore glyphs that don't reference "dot"
 
 		# remove existing (ordinary) "dot" glyphs
-		font[glyph].references = ()
+		font[glyph].references = tuple(filter(lambda r: r[0] != "dot", font[glyph].references))
 
 		# determine which directions have a connected (neighbouring) dot
 		for j in range(GLYPH_HEIGHT - 1, -1, -1):
@@ -353,28 +352,28 @@ def make_smooth(source):
 				# add quarter blocks depending on matrix cell connections
 				for criteria, mask, block in topleft:
 					if connections & mask == criteria:
-						font[glyph].addReference(block, (1, 0, 0, 1, i * DOT_SIZE, (j - DESCENT_DOTS) * DOT_SIZE))
+						font[glyph].addReference(block, (1, 0, 0, 1, LEFT_SIDE_BEARING + i * DOT_SIZE, (j - DESCENT_DOTS) * DOT_SIZE))
 						break
 				else:
-					font[glyph].addReference("quarterdot", (1, 0, 0, 1, i * DOT_SIZE, (j - DESCENT_DOTS + 0.5) * DOT_SIZE))
+					font[glyph].addReference("quarterdot", (1, 0, 0, 1, LEFT_SIDE_BEARING + i * DOT_SIZE, (j - DESCENT_DOTS + 0.5) * DOT_SIZE))
 				for criteria, mask, block in topright:
 					if connections & mask == criteria:
-						font[glyph].addReference(block, (1, 0, 0, 1, i * DOT_SIZE, (j - DESCENT_DOTS) * DOT_SIZE))
+						font[glyph].addReference(block, (1, 0, 0, 1, LEFT_SIDE_BEARING + i * DOT_SIZE, (j - DESCENT_DOTS) * DOT_SIZE))
 						break
 				else:
-					font[glyph].addReference("quarterdot", (1, 0, 0, 1, (i + 0.5) * DOT_SIZE, (j - DESCENT_DOTS + 0.5) * DOT_SIZE))
+					font[glyph].addReference("quarterdot", (1, 0, 0, 1, LEFT_SIDE_BEARING + (i + 0.5) * DOT_SIZE, (j - DESCENT_DOTS + 0.5) * DOT_SIZE))
 				for criteria, mask, block in bottomleft:
 					if connections & mask == criteria:
-						font[glyph].addReference(block, (1, 0, 0, 1, i * DOT_SIZE, (j - DESCENT_DOTS) * DOT_SIZE))
+						font[glyph].addReference(block, (1, 0, 0, 1, LEFT_SIDE_BEARING + i * DOT_SIZE, (j - DESCENT_DOTS) * DOT_SIZE))
 						break
 				else:
-					font[glyph].addReference("quarterdot", (1, 0, 0, 1, i * DOT_SIZE, (j - DESCENT_DOTS) * DOT_SIZE))
+					font[glyph].addReference("quarterdot", (1, 0, 0, 1, LEFT_SIDE_BEARING + i * DOT_SIZE, (j - DESCENT_DOTS) * DOT_SIZE))
 				for criteria, mask, block in bottomright:
 					if connections & mask == criteria:
-						font[glyph].addReference(block, (1, 0, 0, 1, i * DOT_SIZE, (j - DESCENT_DOTS) * DOT_SIZE))
+						font[glyph].addReference(block, (1, 0, 0, 1, LEFT_SIDE_BEARING + i * DOT_SIZE, (j - DESCENT_DOTS) * DOT_SIZE))
 						break
 				else:
-					font[glyph].addReference("quarterdot", (1, 0, 0, 1, (i + 0.5) * DOT_SIZE, (j - DESCENT_DOTS) * DOT_SIZE))
+					font[glyph].addReference("quarterdot", (1, 0, 0, 1, LEFT_SIDE_BEARING + (i + 0.5) * DOT_SIZE, (j - DESCENT_DOTS) * DOT_SIZE))
 
 	clear_dots(font)
 
@@ -382,7 +381,7 @@ def make_smooth(source):
 		font[glyph].unlinkRef() # prevent rendering issues with just-touching components
 	font.selection.all()
 	font.removeOverlap()
-	font.round()
+	font.round(0.1)
 	font.simplify()
 
 	add_names(font, "Smooth")

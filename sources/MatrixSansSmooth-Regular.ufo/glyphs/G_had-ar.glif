@@ -4,19 +4,19 @@
   <unicode hex="0542"/>
   <outline>
     <contour>
-      <point x="500.0" y="0.0" type="line"/>
-      <point x="300.0" y="0.0" type="line"/>
-      <point x="300.0" y="528.0" type="line"/>
-      <point x="228.0" y="600.0" type="line"/>
-      <point x="172.0" y="600.0" type="line"/>
-      <point x="72.0" y="500.0" type="line"/>
-      <point x="0.0" y="500.0" type="line"/>
-      <point x="0.0" y="572.0" type="line"/>
-      <point x="128.0" y="700.0" type="line"/>
-      <point x="272.0" y="700.0" type="line"/>
-      <point x="400.0" y="572.0" type="line"/>
-      <point x="400.0" y="100.0" type="line"/>
-      <point x="500.0" y="100.0" type="line"/>
+      <point x="550.0" y="0.0" type="line"/>
+      <point x="350.0" y="0.0" type="line"/>
+      <point x="350.0" y="530.0" type="line"/>
+      <point x="280.0" y="600.0" type="line"/>
+      <point x="220.0" y="600.0" type="line"/>
+      <point x="120.0" y="500.0" type="line"/>
+      <point x="50.0" y="500.0" type="line"/>
+      <point x="50.0" y="570.0" type="line"/>
+      <point x="180.0" y="700.0" type="line"/>
+      <point x="320.0" y="700.0" type="line"/>
+      <point x="450.0" y="570.0" type="line"/>
+      <point x="450.0" y="100.0" type="line"/>
+      <point x="550.0" y="100.0" type="line"/>
     </contour>
   </outline>
 </glyph>

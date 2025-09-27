@@ -4,18 +4,18 @@
   <unicode hex="1E2A"/>
   <outline>
     <contour>
-      <point x="151.0" y="701.0" type="line"/>
-      <point x="151.0" y="401.0" type="line"/>
-      <point x="450.0" y="401.0" type="line"/>
-      <point x="450.0" y="701.0" type="line"/>
-      <point x="551.0" y="701.0" type="line"/>
-      <point x="551.0" y="100.0" type="line"/>
+      <point x="550.0" y="100.0" type="line"/>
       <point x="450.0" y="100.0" type="line"/>
       <point x="450.0" y="300.0" type="line"/>
-      <point x="151.0" y="300.0" type="line"/>
-      <point x="151.0" y="100.0" type="line"/>
+      <point x="150.0" y="300.0" type="line"/>
+      <point x="150.0" y="100.0" type="line"/>
       <point x="50.0" y="100.0" type="line"/>
-      <point x="50.0" y="701.0" type="line"/>
+      <point x="50.0" y="700.0" type="line"/>
+      <point x="150.0" y="700.0" type="line"/>
+      <point x="150.0" y="400.0" type="line"/>
+      <point x="450.0" y="400.0" type="line"/>
+      <point x="450.0" y="700.0" type="line"/>
+      <point x="550.0" y="700.0" type="line"/>
     </contour>
     <component base="brevebelowcomb" xOffset="300.0" yOffset="100.0"/>
   </outline>

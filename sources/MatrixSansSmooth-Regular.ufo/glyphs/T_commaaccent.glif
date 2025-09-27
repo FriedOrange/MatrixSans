@@ -4,18 +4,18 @@
   <unicode hex="021A"/>
   <outline>
     <contour>
-      <point x="100.0" y="-128.0" type="line"/>
-      <point x="228.0" y="0.0" type="line"/>
-      <point x="200.0" y="0.0" type="line"/>
-      <point x="200.0" y="600.0" type="line"/>
-      <point x="0.0" y="600.0" type="line"/>
-      <point x="0.0" y="700.0" type="line"/>
-      <point x="500.0" y="700.0" type="line"/>
-      <point x="500.0" y="600.0" type="line"/>
-      <point x="300.0" y="600.0" type="line"/>
-      <point x="300.0" y="-72.0" type="line"/>
-      <point x="172.0" y="-200.0" type="line"/>
-      <point x="100.0" y="-200.0" type="line"/>
+      <point x="150.0" y="-130.0" type="line"/>
+      <point x="280.0" y="0.0" type="line"/>
+      <point x="250.0" y="0.0" type="line"/>
+      <point x="250.0" y="600.0" type="line"/>
+      <point x="50.0" y="600.0" type="line"/>
+      <point x="50.0" y="700.0" type="line"/>
+      <point x="550.0" y="700.0" type="line"/>
+      <point x="550.0" y="600.0" type="line"/>
+      <point x="350.0" y="600.0" type="line"/>
+      <point x="350.0" y="-70.0" type="line"/>
+      <point x="220.0" y="-200.0" type="line"/>
+      <point x="150.0" y="-200.0" type="line"/>
     </contour>
   </outline>
 </glyph>
