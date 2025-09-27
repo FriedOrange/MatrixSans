@@ -62,7 +62,10 @@ a:hover, a:visited:hover {text-decoration: underline;}
 	font-size: 2.5em;
 	color: #ddd;
 }
-img {margin: 0.25em;}
+img {
+	margin: 0.25em;
+	max-width: 100%;
+}
 figcaption {text-align: center;}
 @media screen and (max-width: 490px) {
 	figure {
