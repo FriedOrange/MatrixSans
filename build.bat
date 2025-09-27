@@ -11,9 +11,9 @@ fontforge -script ..\scripts\makekerntest.py
 cd ..
 
 rem Generate sample images
-python scripts\image3.py --output documentation\sample.png
+rem python scripts\image3.py --output documentation\sample.png
 
 rem Generate proof HTML documents
 cd fonts\ttf
-proof
+..\..\proof
 cd ..\..
