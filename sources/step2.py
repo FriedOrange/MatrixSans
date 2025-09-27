@@ -17,7 +17,8 @@ LEFT_SIDE_BEARING = 50
 SCREEN_DOT_FACTOR = 0.86
 PRINT_DOT_RADIUS = 48.0
 MAIN_SOURCE = "MatrixSans-MASTER.sfd"
-VIDEO_AUX_SOURCE = "MatrixSans-MASTER-video-aux.sfd"
+VIDEO_AUX_SOURCE = "MatrixSans-video-aux.sfd"
+SMOOTH_AUX_SOURCE = "MatrixSans-smooth-aux.sfd"
 UNLINK_LIST = ["Aring", "Ccedilla", "aring", "ccedilla", "aogonek",
 	"Eogonek", "eogonek", "Gcommaaccent", "Iogonek", "iogonek", "Lcommaaccent", "lcommaaccent",
 	"Scedilla", "scedilla", "Tcedilla", "tcedilla", "Uogonek", "Scommaaccent",
@@ -307,6 +308,14 @@ def make_smooth(source):
 						break
 				else:
 					font[glyph].addReference("quarterdot", (1, 0, 0, 1, LEFT_SIDE_BEARING + (i + 0.5) * DOT_SIZE, (j - DESCENT_DOTS) * DOT_SIZE))
+
+	# replace certain glyphs with manually-designed forms
+	smooth_aux_font = fontforge.open(SMOOTH_AUX_SOURCE)
+	for glyph in smooth_aux_font:
+		smooth_aux_font.selection.select(glyph)
+		smooth_aux_font.copy()
+		font.selection.select(glyph)
+		font.paste()
 
 	clear_dots(font)
 
