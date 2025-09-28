@@ -25,7 +25,7 @@ UNLINK_LIST = ["Aring", "Ccedilla", "aring", "ccedilla", "aogonek",
 	"scommaaccent", "Tcommaaccent", "tcommaaccent", "aring.sc", "eogonek.sc", "gcommaaccent.sc",
 	"iogonek.sc", "lcommaaccent.sc", "tcedilla.sc", "tcommaaccent.sc", "uogonek.sc", "Ohorn", "ohorn", "Uhorn", "uhorn.sc", "Aringacute", "aringacute", "Abrevetilde", "abrevetilde"]
 DOT_GLYPHS = ["dot", "printdot", "screendot", "rasterdot", "rasterdot2", "quarterdot", "concaveTR", "concaveTL", "convexTR", "convexTL", "midTR", "midTL", "chamferTR", "chamferTL", "concaveBR", "concaveBL", "convexBR", "convexBL", "midBR", "midBL", "chamferBR", "chamferBL"]
-NON_SPACING_FIX_LIST = ["hookabovecomb"]
+LSB_FIX_LIST = ["hookabovecomb", "nhookleft", "florin.sc"]
 
 
 def add_names(font, style, suffix=""):
@@ -90,8 +90,8 @@ def refs_to_dots(font, glyphs):
 	font["temp"].clear()
 
 
-def make_non_spacing(font, glyph):
-	while font[glyph].width > 0:
+def restore_width(font, glyph, width):
+	while font[glyph].width > width:
 		font[glyph].left_side_bearing = int(font[glyph].left_side_bearing - 1)
 
 
@@ -145,6 +145,12 @@ def make_video(source):
 	# make glyphs with diagonally-touching components directly reference "dot"
 	refs_to_dots(font, ["Aogonek", "aogonek.sc"])
 
+	# prepare glyphs with negative left side bearings for processing
+	original_widths = {}
+	for glyph in LSB_FIX_LIST:
+		original_widths[glyph] = font[glyph].width
+		font[glyph].left_side_bearing = LEFT_SIDE_BEARING
+
 	video_aux_font = fontforge.open(VIDEO_AUX_SOURCE)
 
 	for glyph in font:
@@ -170,6 +176,9 @@ def make_video(source):
 		font.selection.select(glyph)
 		font.paste()
 
+	for glyph in LSB_FIX_LIST:
+		restore_width(font, glyph, original_widths[glyph])
+
 	# interpolation done, now finish it off the same as Regular style
 	clear_dots(font)
 
@@ -189,7 +198,9 @@ def make_raster(source):
 	font = fontforge.open(source)
 
 	# prepare non-spacing glyphs for processing
-	for glyph in NON_SPACING_FIX_LIST:
+	original_widths = {}
+	for glyph in LSB_FIX_LIST:
+		original_widths[glyph] = font[glyph].width
 		font[glyph].left_side_bearing = LEFT_SIDE_BEARING
 
 	# make glyphs with touching components directly reference "dot"
@@ -215,8 +226,8 @@ def make_raster(source):
 					else:
 						font[glyph].addReference("rasterdot2", (1, 0, 0, 1, i * DOT_SIZE + LEFT_SIDE_BEARING, (j - DESCENT_DOTS) * DOT_SIZE))
 
-	for glyph in NON_SPACING_FIX_LIST:
-		make_non_spacing(font, glyph)
+	for glyph in LSB_FIX_LIST:
+		restore_width(font, glyph, original_widths[glyph])
 
 	clear_dots(font)
 	font.selection.all()
@@ -237,8 +248,10 @@ def make_smooth(source):
 	# make glyphs with touching components directly reference "dot"
 	refs_to_dots(font, ["Aogonek", "aogonek.sc", "Ohorn", "ohorn", "Uhorn", "uhorn", "uhorn.sc"])
 
-	# prepare non-spacing glyphs for processing
-	for glyph in NON_SPACING_FIX_LIST:
+	# prepare glyphs with negative left side bearings for processing
+	original_widths = {}
+	for glyph in LSB_FIX_LIST:
+		original_widths[glyph] = font[glyph].width
 		font[glyph].left_side_bearing = LEFT_SIDE_BEARING
 
 	# cell connection (neighbour) criteria, mask, component reference by cell quadrant
@@ -338,8 +351,8 @@ def make_smooth(source):
 		font.selection.select(glyph)
 		font.paste()
 
-	for glyph in NON_SPACING_FIX_LIST:
-		make_non_spacing(font, glyph)
+	for glyph in LSB_FIX_LIST:
+		restore_width(font, glyph, original_widths[glyph])
 
 	clear_dots(font)
 
