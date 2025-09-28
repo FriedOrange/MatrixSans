@@ -406,6 +406,7 @@ feature kern {
 	pos P Jcircumflex -200;
 	pos P j.sc -200;
 	pos P jcircumflex.sc -200;
+	pos iacute jacute -200;
 	enum pos [g q y yacute eng eng.sc.loclNSM] @hookleft 100;
 	enum pos [dcroat f] @aother -100;
 	pos [j Eng.loclNSM] @hookleft 100;
@@ -494,7 +495,6 @@ feature kern {
 # 	pos v j -200;
 # 	pos f j -200;
 # 	pos F Lslash -100;
-# 	pos iacute jacute -200;
 # 	pos J Lslash -100;
 # 	pos F aacute -200;
 # 	pos r atilde -100;
