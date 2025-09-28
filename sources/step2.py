@@ -23,7 +23,7 @@ UNLINK_LIST = ["Aring", "Ccedilla", "aring", "ccedilla", "aogonek",
 	"Eogonek", "eogonek", "Gcommaaccent", "Iogonek", "iogonek", "Lcommaaccent", "lcommaaccent",
 	"Scedilla", "scedilla", "Tcedilla", "tcedilla", "Uogonek", "Scommaaccent",
 	"scommaaccent", "Tcommaaccent", "tcommaaccent", "aring.sc", "eogonek.sc", "gcommaaccent.sc",
-	"iogonek.sc", "lcommaaccent.sc", "tcedilla.sc", "tcommaaccent.sc", "uogonek.sc", "Ohorn", "ohorn", "Uhorn", "uhorn.sc", "Aringacute", "aringacute", "Abrevetilde", "abrevetilde"]
+	"iogonek.sc", "lcommaaccent.sc", "tcedilla.sc", "tcommaaccent.sc", "uogonek.sc", "Ohorn", "ohorn", "Uhorn", "uhorn", "uhorn.sc", "Aringacute", "aringacute", "Abrevetilde", "abrevetilde"]
 DOT_GLYPHS = ["dot", "printdot", "screendot", "rasterdot", "rasterdot2", "quarterdot", "concaveTR", "concaveTL", "convexTR", "convexTL", "midTR", "midTL", "chamferTR", "chamferTL", "concaveBR", "concaveBL", "convexBR", "convexBL", "midBR", "midBL", "chamferBR", "chamferBL"]
 LSB_FIX_LIST = ["hookabovecomb", "nhookleft", "florin.sc"]
 
