@@ -39,18 +39,21 @@ header, section {
 	border-radius: 0.25em;
 }
 footer {text-align: center;}
-h1, h2, h3 {
+h1, h2, h3, h4 {
 	font-weight: normal;
 	color: #ddd;
 	border-bottom: 0.1em #888 solid;
 }
 ul {list-style-type: "• ";}
 ul ul {list-style-type: "◦ ";}
+details summary {list-style-type: "▶ ";}
+details[open] summary {list-style-type: "▼ ";}
+main u, del {text-decoration-color: #888;}
 a {
 	color: #6d6;
 	text-decoration: none;
 }
-a:visited {color: #397;}
+a:visited {color: #4a8;}
 a:active {color: #c4c}
 a:hover, a:visited:hover {text-decoration: underline;}
 .print {font-family: "Matrix Sans Print", sans-serif;}
@@ -59,7 +62,7 @@ a:hover, a:visited:hover {text-decoration: underline;}
 .video {font-family: "Matrix Sans Video", sans-serif;}
 .smooth {font-family: "Matrix Sans Smooth", sans-serif;}
 .big {
-	font-size: 2.5em;
+	font-size: 3em;
 	color: #ddd;
 }
 .sc {font-feature-settings: 'smcp';}

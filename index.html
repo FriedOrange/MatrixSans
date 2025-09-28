@@ -7,6 +7,12 @@
 		<title>Matrix Sans Fonts</title>
 		<link rel="stylesheet" href="style.css" />
 		<link rel="icon" href="favicon.png" />
+		<style>
+			th {
+				text-align: left;
+				color: #ddd;
+			}
+		</style>
 	</head>
 	<body>
 		<header>
@@ -23,47 +29,154 @@
 
 		<p>Matrix Sans is set of pixelated, retro-style fonts based on the classic 5&times;7 dot matrix capitals. The design captures the look of this ubiquitous format, incorporating the best features from historical examples. While its forebears are strictly utilitarian and technologically restricted, Matrix Sans is intended to be a useful, modern, display font family. There are six variants available:</p>
 
-		<p><span class="big">Regular</span> is like most &ldquo;pixel&rdquo; fonts that use connected, square dots, like the displays of 8-bit home computers and video game consoles from the 1980s.</p>
-		<p><span class="print big">Print</span> is made up of separate circular dots, resembling the output of a dot-matrix printer or the expiry dates on food products. It also mimics the electronic signs found on motorways, at airports and train stations, etc.</p>
-		<p><span class="raster big">Raster</span> consists of horizontal lines with rounded edges, emulating a raster (the set of lines traced out by the electron beam in a CRT, as seen in old computer monitors).</p>
-		<p><span class="screen big">Screen</span> is similar to Print, but uses square dots instead of round ones. It matches the look of the "character LCDs" seen in many devices, as well as some light-up LED displays.</p>
-		<p><span class="video big">Video</span> is an interpolated version of Regular. It resembles the on-screen displays of VCRs, Teletext, camcorders and the like; harking back to the early days of computerisation in television and home video.</p>
-		<p><span class="smooth big">Smooth</span> is also interpolated, but with perfectly smooth diagonals instead of the jagged steps seen in the other styles.</p>
+		<p><span class="big">Regular</span><br /> is like most &ldquo;pixel&rdquo; fonts that use connected, square dots, like the displays of 8-bit home computers and video game consoles from the 1980s.</p>
+		<p><span class="print big">Print</span><br /> is made up of separate circular dots, resembling the output of a dot-matrix printer or the expiry dates on food products. It also mimics the electronic signs found on motorways, at airports and train stations, etc.</p>
+		<p><span class="raster big">Raster</span><br /> consists of horizontal lines with rounded edges, emulating a raster (the set of lines traced out by the electron beam in a CRT, as seen in old computer monitors).</p>
+		<p><span class="screen big">Screen</span><br /> is similar to Print, but uses square dots instead of round ones. It matches the look of the &ldquo;character LCDs&rdquo; seen in many devices, as well as some light-up LED displays.</p>
+		<p><span class="video big">Video</span><br /> is an interpolated version of Regular. It resembles the on-screen displays of VCRs, Teletext, camcorders and the like; harking back to the early days of computerisation in television and home video.</p>
+		<p><span class="smooth big">Smooth</span><br /> is also interpolated, but with perfectly smooth diagonals instead of the jagged steps seen in the other styles.</p>
+
+		<p>Each style also has an accompanying &ldquo;SC&rdquo; variant with <span style="font-feature-settings: 'smcp';">small capitals</span> in place of the regular lowercase (except for Georgian scripts).</p>
 
 		<p>The fonts were created by drawing the Regular glyphs as bitmaps, then turning them into outlines in FontForge with the help of a custom Python script. This method made it convenient to provide multiple variants with different styles of dots, allowing for faithful renditions of the various real-world examples of dot-matrix fonts.</p>
 
-		<p>On screen, the Regular, Smooth and Video styles look best at multiples of 15-point size, where their outlines exactly align with screen pixels. The fonts are deliberately unhinted, to prevent them from appearing uneven at other sizes.</p>
 		</section>
 
 		<section>
 		<h2>Features</h2>
 
-		<p>The Matrix Sans fonts support hundreds of languages written with the Latin, Greek, Cyrillic, Georgian and Armenian alphabets. For a full showcase of the supported characters, see the <a href="tests.html">Tests & Demos</a> page.</p>
+		<h3>Character set</h3>
 
-		<p>The fonts implement the OpenType &ldquo;Small Capitals&rdquo; and &ldquo;Small Capitals from Capitals&rdquo; features (except for Georgian scripts). Each style has an accompanying &ldquo;SC&rdquo; variant with small capitals in place of the regular lowercase.</p>
+		<p>The Matrix Sans fonts support dozens of languages written with the Latin, Greek, Cyrillic, Georgian and Armenian alphabets. The character sets supported are:</p>
 		
-		<blockquote>
-			<p>smcp:<br />
-			abcdefghijklmnopqrstuvwxyz &rarr; <span style="font-feature-settings: 'smcp';">abcdefghijklmnopqrstuvwxyz</span><br />
-			<!-- αβγδεζηθικλμνξοπρςστυφχψω &rarr; <span style="font-feature-settings: 'smcp';">αβγδεζηθικλμνξοπρςστυφχψω</span><br />
-			абвгдежзийклмнопрстуфхцчшщъыьэюя &rarr; <span style="font-feature-settings: 'smcp';">абвгдежзийклмнопрстуфхцчшщъыьэюя</span><br />
-			աբգդեզէըթժիլխծկհձղճմյնշոչպջռսվտրցւփքօֆև &rarr; <span style="font-feature-settings: 'smcp';">աբգդեզէըթժիլխծկհձղճմյնշոչպջռսվտրցւփքօֆև</span></p> -->
-			<p>c2sc:<br />
-			ABCDEFGHIJKLMNOPQRSTUVWXYZ &rarr; <span style="font-feature-settings: 'c2sc';">ABCDEFGHIJKLMNOPQRSTUVWXYZ</span><br />
-			<!-- ΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩ &rarr; <span style="font-feature-settings: 'c2sc';">ΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩ</span><br />
-			АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ &rarr; <span style="font-feature-settings: 'c2sc';">АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ</span><br />
-			ԱԲԳԴԵԶԷԸԹԺԻԼԽԾԿՀՁՂՃՄՅՆՇՈՉՊՋՌՍՎՏՐՑՒՓՔՕՖև &rarr; <span style="font-feature-settings: 'c2sc';">ԱԲԳԴԵԶԷԸԹԺԻԼԽԾԿՀՁՂՃՄՅՆՇՈՉՊՋՌՍՎՏՐՑՒՓՔՕՖև</span></p> -->
-		</blockquote>
+		<ul>
+			<li><a href="https://github.com/googlefonts/glyphsets/blob/main/GLYPHSETS.md#gf-latin-core">Google Fonts Latin Core</a>, <a href="https://github.com/googlefonts/glyphsets/blob/main/GLYPHSETS.md#gf-latin-vietnamese">Vietnamese</a>, <a href="https://github.com/googlefonts/glyphsets/blob/main/GLYPHSETS.md#gf-latin-plus">Plus</a>, <a href="https://github.com/googlefonts/glyphsets/blob/main/GLYPHSETS.md#gf-latin-priafrican">PriAfrican</a>, <a href="https://github.com/googlefonts/glyphsets/blob/main/GLYPHSETS.md#gf-translatin-arabic">TransLatin Arabic</a> and <a href="https://github.com/googlefonts/glyphsets/blob/main/GLYPHSETS.md#gf-translatin-pinyin">TransLatin Pinyin</a>; and <a href="https://adobe-type-tools.github.io/adobe-latin-charsets/adobe-latin-4.html">Adobe Latin 4</a></li>
+			<li><a href="https://github.com/googlefonts/glyphsets/blob/main/GLYPHSETS.md#gf-cyrillic-core">Google Fonts Cyrillic Core</a> and <a href="http://adobe-type-tools.github.io/adobe-cyrillic-charsets/adobe-cyrillic-1.html">Adobe Cyrillic 1</a></li>
+			<li><a href="https://github.com/googlefonts/glyphsets/blob/main/GLYPHSETS.md#gf-greek-core">Google Fonts Greek Core</a> and <a href="http://adobe-type-tools.github.io/adobe-greek-charsets/adobe-greek-1.html">Adobe Greek 1</a></li>
+			<li><a href="https://en.wikipedia.org/wiki/World_glyph_set">World Glyph Set</a></li>
+			<li><a href="https://learn.microsoft.com/en-us/typography/develop/wgl4">Windows Glyph List 4</a> (except box-drawing characters, etc.)</li>
+		</ul>
+
+		<p>For a full showcase of the supported characters, see the <a href="tests.html">Tests & Demos</a> page.</p>
+
+		<details>
+			<summary>[Click to see supported languages]</summary>
+			<blockquote>
+				<h4>Latin script</h4>
+				Afar, Afrikaans, Akuapem Twi, Albanian, Azerbaijani, Bambara, Basque, Belarusian, Breton, Catalan, Chamorro, Chichewa, Croatian, Czech, Danish, Dutch, Dyula, English, Esperanto, Estonian, Fanti, Faroese, Filipino/Tagalog, Finnish, French, Fulah, Gaelic, Gagauz, Ganda, German, Gikuyu, Greenlandic, Guarani, Hausa, Hawaiian, Hungarian, Icelandic, Igbo, Indonesian, Irish, Italian, Javanese, Kashubian, Kuskokwim, Latvian, Lithuanian, Luba (Ciluba), Malay, Maltese, Māori, Marquesan, Moldovan, Ndebele, Norwegian, Oromo, Polish, Portuguese, Romanian, Sami (Northern, Inari, and Lule), Sami (Southern), Samoan, Serbian, Setswana, Sidamo, Silesian, Slovak, Slovenian, Somali, Sorbian, Sotho (Northern and Southern), Spanish, Swahili, Swazi, Swedish, Tahitian, Tetum, Tongan, Tsonga, Tuareg, Turkish, Uzbek, Vietnamese, Wallisian, Walloon, Welsh, Xhosa, Yoruba, Zulu.
+				<h4>Cyrillic script</h4>
+				Balkar, Belarusian, Bosnian, Bulgarian, Erzya, Karachay, Kazakh, Kumyk, Macedonian, Moksha, Nanai, Nogai, Russian, Rusyn, Serbian, Tajik, Turkmen, Ukrainian, Uzbek
+				<h4>Other scripts</h4>
+				Armenian, Georgian
+			</blockquote>
+		</details>
+
+		<h3>OpenType features</h3>
+
+		<p>* = on by default in most applications</p>
+		
+		<table class="padded">
+			<tr>
+				<th>Tag</th>
+				<th>Feature name</th>
+				<th>Examples</th>
+			</tr>
+			<tr>
+				<td>kern</td>
+				<td>Kerning*</td>
+				<td><span style="font-feature-settings: 'kern' 0;">GESTALT foray Fjord it’s</span> &rarr; GESTALT foray Fjord it’s</td>
+			</tr>
+			<tr>
+				<td>smcp</td>
+				<td>Small Capitals</td>
+				<td>abcdefg &rarr; <span style="font-feature-settings: 'smcp';">abcdefg</span><br />
+					αβγδεζη &rarr; <span style="font-feature-settings: 'smcp';">αβγδεζη</span><br />
+					абвгдеж &rarr; <span style="font-feature-settings: 'smcp';">абвгдеж</span><br />
+					աբգդեզէ &rarr; <span style="font-feature-settings: 'smcp';">աբգդեզէ</span>
+				</td>
+			</tr>
+			<tr>
+				<td>c2sc</td>
+				<td>Small Capitals from Capitals</td>
+				<td>ABCDEFG &rarr; <span style="font-feature-settings: 'c2sc';">ABCDEFG</span><br />
+					ΑΒΓΔΕΖΗ &rarr; <span style="font-feature-settings: 'c2sc';">ΑΒΓΔΕΖΗ</span><br />
+					АБВГДЕЖ &rarr; <span style="font-feature-settings: 'c2sc';">АБВГДЕЖ</span><br />
+					ԱԲԳԴԵԶԷ &rarr; <span style="font-feature-settings: 'c2sc';">ԱԲԳԴԵԶԷ</span>
+				</td>
+			</tr>
+			<tr>
+				<td>locl</td>
+				<td>Localised Forms*</td>
+				<td>Catalan: L·L l·l &rarr; <span lang="ca">L·L l·l</span><br />
+					Romanian: ŞşŢţ &rarr; <span lang="ro">ŞşŢţ</span><br />
+					Northern Sami: Ŋ &rarr; <span lang="se">Ŋ</span><br />
+					Dutch: Ij ij íj &rarr; <span lang="nl">Ij ij íj</span>
+				</td>
+			</tr>
+			<tr>
+				<td>frac</td>
+				<td>Fractions</td>
+				<td>123/456 &rarr; <span style="font-feature-settings: 'frac';">123/456</span></td>
+			</tr>
+			<tr>
+				<td>tnum</td>
+				<td>Tabular Figures</td>
+				<td>123123 &rarr; <span style="font-feature-settings: 'tnum';">123123</span></td>
+			</tr>
+			<tr>
+				<td>zero</td>
+				<td>Slashed Zero</td>
+				<td>0 &rarr; <span style="font-feature-settings: 'zero';">0</span></td>
+			</tr>
+			<tr>
+				<td>ss01</td>
+				<td>Stylistic Set 1</td>
+				<td>DÐĎƊḌḎ &rarr; <span style="font-feature-settings: 'ss01';">DÐĎƊḌḎ</span></td>
+			</tr>
+			<tr>
+				<td>ss02</td>
+				<td>Stylistic Set 2</td>
+				<td>269 &rarr; <span style="font-feature-settings: 'ss02';">269</span></td>
+			</tr>
+			<tr>
+				<td>ss03</td>
+				<td>Stylistic Set 3</td>
+				<td>3 &rarr; <span style="font-feature-settings: 'ss03';">3</span></td>
+			</tr>
+			<tr>
+				<td>ss04</td>
+				<td>Stylistic Set 4</td>
+				<td>Ŋ &rarr; <span style="font-feature-settings: 'ss04';">Ŋ</span></td>
+			</tr>
+			<tr>
+				<td>ss05</td>
+				<td>Stylistic Set 5</td>
+				<td>φ &rarr; <span style="font-feature-settings: 'ss05';">φ</span></td>
+			</tr>
+			<tr>
+				<td>dlig</td>
+				<td>Discretionary Ligatures</td>
+				<td>ff fi fl ffi ffl &rarr; <span style="font-feature-settings: 'dlig';">ff fi fl ffi ffl</span></td>
+			</tr>
+		</table>
+
+		<h3>Dimensions</h3>
+
+		<p>On screen, the Regular, Smooth and Video styles look best at multiples of 15pt (20px) size, where their outlines exactly align with screen pixels. The fonts are deliberately unhinted, to prevent them from appearing uneven at other sizes.</p>
+		
+		<p>In standards-compliant applications, the <u>underline</u> and <del>strikeout</del> lines have the correct thickness and positioning to match the dot-matrix &ldquo;grid&rdquo; of the fonts.</p>
+		
+		<p>Each grid unit in the fonts is <span style="font-feature-settings: 'frac';">1/10</span> of the em size&#x2014;0.1em or 0.2ex in CSS units.</p>
 		</section>
 
 		<section>
-		<h2>Licence</h2>
+		<h2>Copyright/Legal</h2>
 
 		<p>The Matrix Sans fonts are open source, licenced under the <a href="https://scripts.sil.org/OFL">SIL Open Font License, Version 1.1</a> (see link for full licence text and FAQ). In short, this means that:</p>
 		<ul>
 			<li>You can use them in books, posters, artwork, logos, and on websites, even make 3D objects with the outlines—<u>no acknowledgement is required</u></li>
 			<li>You can bundle them in apps or software subject to certain conditions</li>
-			<li>You can freely modify and redistribute OFL fonts</li>
+			<li>You can freely modify and redistribute them</li>
 		</ul>
 		</section>
 		</main>
