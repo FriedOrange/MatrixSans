@@ -72,6 +72,11 @@ feature smcp {
 	script armn;
 	sub @lc_ar by @sc_ar;
 	sub ech_yiwn-ar by ech-ar.sc vew-ar.sc;
+	sub men_now-ar by men-ar.sc now-ar.sc;
+	sub men_ech-ar by men-ar.sc ech-ar.sc;
+	sub men_ini-ar by men-ar.sc ini-ar.sc;
+	sub vew_now-ar by vew-ar.sc now-ar.sc;
+	sub men_xeh-ar by men-ar.sc xeh-ar.sc;
 } smcp;
 
 # mark classes
