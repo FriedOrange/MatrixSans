@@ -134,7 +134,7 @@ feature ccmp {
 	sub Idotaccent' @marks_above by idotaccent.sc;
 	sub Edotaccent' @marks_above by edotaccent.sc;
 	sub Umacron' @marks_above by umacron.sc;
-} ccmp;
+sub D by D.alt;sub Eth by Eth.alt;sub Dcroat by Dcroat.alt;sub Dhook by Dhook.alt;sub Dcaron by Dcaron.alt;sub Ddotbelow by Ddotbelow.alt;sub Dmacronbelow by Dmacronbelow.alt;} ccmp;
 
 feature mkmk {
 	pos mark [gravecomb acutecomb circumflexcomb tildecomb ringcomb hungarumlautcomb caroncomb commaturnedabovecomb hookabovecomb]
@@ -721,13 +721,13 @@ feature ss01 {
 		name "Alternate capital letter D, etc.";
 	};
 	# these get added to the end of ccmp automatically for Video style
-	sub D by D.alt;
-	sub Eth by Eth.alt;
-	sub Dcroat by Dcroat.alt;
-	sub Dhook by Dhook.alt;
-	sub Dcaron by Dcaron.alt;
-	sub Ddotbelow by Ddotbelow.alt;
-	sub Dmacronbelow by Dmacronbelow.alt;
+	sub D.alt by D;
+	sub Eth.alt by Eth;
+	sub Dcroat.alt by Dcroat;
+	sub Dhook.alt by Dhook;
+	sub Dcaron.alt by Dcaron;
+	sub Ddotbelow.alt by Ddotbelow;
+	sub Dmacronbelow.alt by Dmacronbelow;
 } ss01;
 
 feature ss02 {

@@ -15,5 +15,6 @@ for %%f in (temp\MatrixSans*.sfd) do copy temp\lib.plist %%~nf.ufo\lib.plist
 
 rem Patch Video style feature file
 python patchccmp.py
+copy MatrixSansVideo-Regular.ufo\features.fea MatrixSansSmooth-Regular.ufo\features.fea
 
 cd ..
