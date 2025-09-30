@@ -307,20 +307,6 @@ feature locl {
 @openmidR = [AE AEacute E Eacute Ebreve Ecaron Ecircumflex Ecircumflexdotbelow Edieresis Edotaccent Edotbelow Egrave Ehookabove Emacron Eogonek Etilde K Kcommaaccent Khook Kmacronbelow X Z Zacute Zcaron Zdotaccent Zdotbelow iacute icaron icircumflex idieresis imacron];
 @openmidcurveBR = [C Cacute Ccaron Ccedilla Ccircumflex Cdotaccent Eopen];
 
-
-# @A = [A Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde Acaron Adotbelow Ahookabove Acircumflexdotbelow Abrevedotbelow];
-# @C = [C Cacute Ccaron Ccedilla Cdotaccent Ccircumflex];
-# @D = [D Eth Dcaron Dcroat Ddotbelow];
-# @L = [L Lacute Lcommaaccent Lslash Ldot uni1E36 uni1E38];
-# @curveBR = [B O Oacute Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde S Sacute Scaron Scedilla Scommaaccent U Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring W b c ccedilla cacute ccaron cdotaccent e eacute ecaron ecircumflex edieresis edotaccent egrave emacron eth o oacute ograve ocircumflex odieresis omacron otilde p s sacute scaron scedilla scommaaccent germandbls thorn w wcircumflex ccircumflex ebreve Scircumflex scircumflex uni018F Ocaron ocaron Ucaron Udieresismacron Udieresisacute Udieresiscaron Udieresisgrave uni0259 uni1E60 uni1E61 Sdotbelow sdotbelow Germandbls edotbelow ehookabove etilde ecircumflexacute ecircumflexdotbelow ecircumflexgrave ecircumflexhookabove ecircumflextilde Odotbelow odotbelow Ohookabove ohookabove Ocircumflexacute ocircumflexacute Ocircumflexgrave ocircumflexgrave Ocircumflexhookabove ocircumflexhookabove Ocircumflextilde ocircumflextilde Ocircumflexdotbelow ocircumflexdotbelow ydotbelow Obreve obreve Bhook Oopen Dhook bhook oopen]; # curve at bottom right
-# @gapRM = [E Eacute Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eogonek K Kcommaaccent Ebreve Edotbelow Ehookabove Etilde Ecircumflexdotbelow Eopen]; # gap at right middle
-# # I Iacute Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek removed from @gapRM
-# @r = [r racute rcaron uni1E5B uni1E5D uni1E5F];
-# @sc_overhangR = [f.sc j.sc t.sc y.sc tcaron.sc tcedilla.sc tcommaaccent.sc yacute.sc ycircumflex.sc ydieresis.sc ygrave.sc];
-# @sc_underhangR = [a.sc agrave.sc aacute.sc acircumflex.sc adieresis.sc aring.sc amacron.sc aogonek.sc acaron.sc l.sc lacute.sc lcaron.sc lcommaaccent.sc lslash.sc];
-# @horn = [ohorn uhorn ohornacute ohorndotbelow ohorngrave ohornhookabove ohorntilde uhornacute uhorndotbelow uhorngrave uhornhookabove uhorntilde];
-# @Horn = [Ohorn Uhorn Ohornacute Ohorndotbelow Ohorngrave Ohornhookabove Ohorntilde Uhornacute Uhorndotbelow Uhorngrave Uhornhookabove Uhorntilde];
-
 @tall_overhangR_cy = [uni0403 Je-cy Ge-cy uni0474 Geupturn-cy Gestroke-cy Te-cy];
 @short_overhangR_cy = [Er-cy ge-cy uni0453 uni0475 geupturn-cy gestroke-cy te-cy];
 @descenderR_cy = [De-cy Tse-cy Shcha-cy de-cy tse-cy shcha-cy i-cy Zhedescender-cy zhedescender-cy Kadescender-cy kadescender-cy Endescender-cy endescender-cy Hadescender-cy hadescender-cy Chedescender-cy chedescender-cy];
@@ -334,22 +320,22 @@ feature locl {
 @shortoverhangR_gr = [gamma.sc tau.sc upsilon.sc upsilontonos.sc upsilondieresis.sc];
 
 @overhangmidR_ar = [Ben-ar];
-@strokemidR_ar = [Gim-ar Da-ar Zhe-ar Ini-ar Ra-ar hyphen-ar];
+@strokemidR_ar = [Gim-ar Da-ar Zhe-ar Ini-ar Ra-ar hyphen-ar reh-ar.sc yiwn-ar.sc];
 @overhangR_ar = [Men-ar men-ar emphas-ar exclam-ar];
 @overhang2R_ar = [Reh-ar apostrophe-ar question-ar abbrev-ar];
-@overhang3R_ar = [ringhalfleft-ar comma-ar];
+@overhang3R_ar = [ringhalfleft-ar comma-ar men-ar.sc];
 @overhang3Rcurve3TR_ar = [Yiwn-ar Eh-ar To-ar eh-ar];
 @openmidR_ar = [Et-ar];
-@underhangR_ar = [Liwn-ar Ghad-ar Vew-ar gim-ar da-ar yiwn-ar ech_yiwn-ar];
-@underhang2R_ar = [Now-ar Sha-ar cha-ar];
+@underhangR_ar = [Liwn-ar Ghad-ar Vew-ar gim-ar da-ar yiwn-ar ech_yiwn-ar ghad-ar.sc vew-ar.sc];
+@underhang2R_ar = [Now-ar Sha-ar cha-ar now-ar.sc sha-ar.sc feh-ar.sc];
 @curve2TR_ar = [Ken-ar];
 @curve2R_ar = [Piwr-ar Xeh-ar];
 @curveBR_ar = [Ca-ar Yi-ar Seh-ar Tiwn-ar Co-ar Keh-ar Oh-ar];
 @curveBR2TR_ar = [Ech-ar];
 @curveBRunderhang3R_ar = [Feh-ar feh-ar yistroke-ar];
-@curve2BRunderhang3R_ar = [to-ar];
-@shortcurveTR_ar = [aybturned-ar ben-ar et-ar ini-ar ho-ar ja-ar sha-ar vo-ar jheh-ar ra-ar tiwn-ar reh-ar piwr-ar keh-ar oh-ar feh-ar men_ini-ar ghad-ar];
-@shortR_ar = [ayb-ar ech-ar zhe-ar xeh-ar ca-ar ken-ar yi-ar now-ar peh-ar seh-ar co-ar men_now-ar men_ech-ar vew_now-ar men_xeh-ar za-ar liwn-ar]; #zhe-ar also curveBR
+@curve2BRunderhang3R_ar = [to-ar gim-ar.sc da-ar.sc to-ar.sc zhe-ar.sc ini-ar.sc ra-ar.sc];
+@shortcurveTR_ar = [aybturned-ar ben-ar et-ar ini-ar ho-ar ja-ar sha-ar vo-ar jheh-ar ra-ar tiwn-ar reh-ar piwr-ar keh-ar oh-ar feh-ar men_ini-ar ghad-ar ech-ar.sc za-ar.sc eh-ar.sc et-ar.sc xeh-ar.sc ca-ar.sc ken-ar.sc ho-ar.sc ja-ar.sc yi-ar.sc vo-ar.sc cha-ar.sc peh-ar.sc jheh-ar.sc co-ar.sc yiwn-ar.sc keh-ar.sc];
+@shortR_ar = [ayb-ar ech-ar zhe-ar xeh-ar ca-ar ken-ar yi-ar now-ar peh-ar seh-ar co-ar men_now-ar men_ech-ar vew_now-ar men_xeh-ar za-ar liwn-ar ayb-ar.sc ben-ar.sc]; #zhe-ar also curveBR
 @underhangN2R_ar = [za-ar liwn-ar ghad-ar cha-ar vew-ar]; # NB: USE IN SINGLE PAIR RULES ONLY; ghad-ar also shortcurveTR
 
 
@@ -374,15 +360,6 @@ feature locl {
 @l = [l lacute lcaron lcommaaccent ldot ldotbelow ldotbelowmacron lmacronbelow];
 @j = [j jcircumflex jdotless];
 
-# @A2 = [A Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde Acaron AE Adotbelow Ahookabove Acircumflexdotbelow Abrevedotbelow];
-# @strokeLM = [Eth Dcroat f uniFB01 uniFB02]; # stroke at left middle
-# @squareTL = [dotlessi m n ncommaaccent eng p r rcommaaccent u uogonek v w x y z ugrave uacute ucircumflex udieresis yacute nacute ncaron racute rcaron umacron uring wcircumflex ycircumflex ydieresis zacute zdotaccent zcaron wgrave wacute wdieresis ygrave b.sc d.sc e.sc f.sc h.sc i.sc kgreenlandic l.sc m.sc n.sc p.sc r.sc u.sc hbar.sc thorn.sc dcaron.sc eacute.sc ecaron.sc ecircumflex.sc edieresis.sc edotaccent.sc egrave.sc emacron.sc eogonek.sc iacute.sc iogonek.sc kcommaaccent.sc lcaron.sc nacute.sc ncaron.sc ncommaaccent.sc racute.sc rcaron.sc rcommaaccent.sc uacute.sc ucircumflex.sc udieresis.sc ugrave.sc umacron.sc uogonek.sc uring.sc ij.sc uhorn ucaron udieresismacron udieresisacute udieresiscaron udieresisgrave uni1E43 ndotaccent uni1E47 uni1E49 uni1E5B uni1E5D uni1E5F uni1E8F zdotbelow udotbelow uhookabove uhornacute uhorngrave uhornhookabove uhorntilde uhorndotbelow ydotbelow yhookabove ymacron ngrave macute yhook];
-# @curveTL = [c ccedilla d dcaron e eogonek g o oslash oe q s scedilla scommaaccent g.sc q.sc germandbls.sc oe.sc cacute ccaron cdotaccent eacute ecaron ecircumflex edieresis edotaccent egrave emacron dcroat eth gdotaccent gcommaaccent oacute ograve ocircumflex odieresis omacron sacute scaron gcommaaccent.sc gdotaccent.sc ccircumflex ebreve gcircumflex scircumflex ohorn ocaron gcaron uni0251 uni0259 uni0261 ddotbelow dmacronbelow gmacron uni1E61 sdotbelow edotbelow ehookabove etilde ecircumflexacute ecircumflexdotbelow ecircumflexgrave ecircumflexhookabove ecircumflextilde odotbelow ohookabove Ocircumflexacute ocircumflexacute Ocircumflexgrave ocircumflexgrave Ocircumflexhookabove ocircumflexhookabove Ocircumflextilde ocircumflextilde ocircumflexdotbelow ohornacute ohorngrave ohornhookabove ohorntilde ohorndotbelow obreve dhook]; # curve at top left, narrow diacritics
-# @a = [a aogonek ae aacute acircumflex adieresis agrave amacron aring acaron adotbelow ahookabove acircumflexacute acircumflexgrave acircumflexhookabove acircumflextilde acircumflexdotbelow abreveacute abrevegrave abrevehookabove abrevetilde abrevedotbelow]; # previously in @short_curveTL
-# @l = [l lcommaaccent lcaron ldot uni1E37 uni1E39];
-# @sc_underhangL = [a.sc ae.sc j.sc eth.sc lslash.sc agrave.sc aacute.sc acircumflex.sc adieresis.sc aring.sc amacron.sc aogonek.sc acaron.sc];
-# @sc_overhangL = [t.sc tcaron.sc tcedilla.sc tcommaaccent.sc y.sc yacute.sc ycircumflex.sc ydieresis.sc ygrave.sc];
-
 @tall_overhangL_cy = [Dje-cy Tshe-cy Hardsign-cy Te-cy];
 @short_overhangL_cy = [hardsign-cy uni0463 dje-cy.sc tshe-cy.sc uni0463.sc ustraightstroke-cy.sc te-cy];
 @tall_overhang2L_cy = [dje-cy tshe-cy uni0462];
@@ -404,15 +381,15 @@ feature locl {
 @overhang2L_ar = [Da-ar Ghad-ar Cha-ar Peh-ar ringhalfleft-ar abbrev-ar];
 @overhang3L_ar = [Gim-ar apostrophe-ar emphas-ar exclam-ar question-ar];
 @openmidL_ar = [Za-ar Ja-ar];
-@strokemidL_ar = [Ho-ar hyphen-ar];
-@underhang2L_ar = [Keh-ar]; # Keh-ar also curveBL
+@strokemidL_ar = [Ho-ar hyphen-ar gim-ar.sc da-ar.sc ghad-ar.sc peh-ar.sc co-ar.sc];
+@underhang2L_ar = [Keh-ar zhe-ar.sc ja-ar.sc jheh-ar.sc]; # Keh-ar also curveBL
 @underhang3L_ar = [Zhe-ar ca-ar ja-ar];
 @underhangN1L_ar = [yi-ar keh-ar yistroke-ar];
 @curve2BL_ar = [Ken-ar];
 @curve2L_ar = [Piwr-ar];
 @curve3L_ar = [Vew-ar];
-@shortL_ar = [aybturned-ar ayb-ar ben-ar da-ar et-ar to-ar liwn-ar ghad-ar men-ar vo-ar peh-ar ra-ar seh-ar vew-ar tiwn-ar reh-ar yiwn-ar piwr-ar];
-@shortcurveTL_ar = [gim-ar za-ar zhe-ar cheh-ar sha-ar cha-ar jheh-ar co-ar oh-ar]; # sha-ar also shortoverhang2L; jheh-ar also curve2BL
+@shortL_ar = [aybturned-ar ayb-ar ben-ar da-ar et-ar to-ar liwn-ar ghad-ar men-ar vo-ar peh-ar ra-ar seh-ar vew-ar tiwn-ar reh-ar yiwn-ar piwr-ar ayb-ar.sc ech-ar.sc eh-ar.sc ini-ar.sc xeh-ar.sc ca-ar.sc ken-ar.sc men-ar.sc sha-ar.sc yiwn-ar.sc];
+@shortcurveTL_ar = [gim-ar za-ar zhe-ar cheh-ar sha-ar cha-ar jheh-ar co-ar oh-ar ben-ar.sc za-ar.sc et-ar.sc to-ar.sc vo-ar.sc cha-ar.sc ra-ar.sc vew-ar.sc reh-ar.sc feh-ar.sc ho-ar.sc]; # sha-ar also shortoverhang2L; jheh-ar also curve2BL
 @descendL_ar = [ben-ar et-ar to-ar ini-ar liwn-ar xeh-ar yi-ar cha-ar reh-ar keh-ar yistroke-ar];  # NB: USE IN SINGLE PAIR RULES ONLY
 
 # # Left and right side classes
@@ -588,16 +565,20 @@ feature kern {
 	script armn;
 	enum pos [Ben-ar Zhe-ar Ini-ar Men-ar Reh-ar Yiwn-ar To-ar zhe-ar] [yi-ar yistroke-ar] -200;
 	enum pos [Now-ar Sha-ar] @underhangN1L_ar -100;
-	pos Piwr-ar keh-ar -100;
+	enum pos [Xeh-ar Piwr-ar] keh-ar -100;
 	pos to-ar keh-ar -100;
 	enum pos @underhangN2R_ar @descendL_ar 100;
+	enum pos xeh-ar.sc keh-ar.sc -100;
+	enum pos [ghad-ar.sc men-ar.sc] ho-ar.sc -100;
 	pos @overhangmidR_ar @underhang2L_ar -100;
 	pos @overhangmidR_ar @underhangN1L_ar -100;
+	pos @overhangmidR_ar keh-ar.sc -100;
 	pos @strokemidR_ar @overhangL_ar -100;
 	pos @strokemidR_ar @overhang2L_ar -100;
 	pos @strokemidR_ar @openmidL_ar -100;
 	pos @strokemidR_ar @underhang2L_ar -100;
 	pos @strokemidR_ar @underhangN1L_ar -100;
+	pos @strokemidR_ar keh-ar.sc -100;
 	pos @overhangR_ar @strokemidL_ar -100;
 	pos @overhangR_ar @underhang2L_ar -100;
 	pos @overhangR_ar @underhang3L_ar -100;
@@ -606,18 +587,23 @@ feature kern {
 	pos @overhangR_ar @curve3L_ar -100;
 	pos @overhangR_ar @shortL_ar -100;
 	pos @overhangR_ar @shortcurveTL_ar -100;
+	pos @overhangR_ar now-ar.sc -100;
+	pos @overhangR_ar keh-ar.sc -100;
 	pos @overhang2R_ar @strokemidL_ar -100;
 	pos @overhang2R_ar @underhang2L_ar -100;
 	pos @overhang2R_ar @underhang3L_ar -100;
 	pos @overhang2R_ar @underhangN1L_ar -100;
 	pos @overhang2R_ar @shortcurveTL_ar -100;
+	pos @overhang2R_ar keh-ar.sc -100;
 	pos @overhang3R_ar @underhang2L_ar -100;
 	pos @overhang3R_ar @underhang3L_ar -100;
 	pos @overhang3R_ar @underhangN1L_ar -100;
+	pos @overhang3R_ar keh-ar.sc -100;
 	pos @overhang3Rcurve3TR_ar @overhangL_ar -100;
 	pos @overhang3Rcurve3TR_ar @underhang2L_ar -100;
 	pos @overhang3Rcurve3TR_ar @underhang3L_ar -100;
 	pos @overhang3Rcurve3TR_ar @underhangN1L_ar -100;
+	pos @overhang3Rcurve3TR_ar keh-ar.sc -100;
 	pos @openmidR_ar @strokemidL_ar -100;
 	pos @underhangR_ar @overhangL_ar -100;
 	pos @underhangR_ar @overhang2L_ar -100;
@@ -626,13 +612,16 @@ feature kern {
 	pos @underhangR_ar @curve2BL_ar -100;
 	pos @underhangR_ar @curve2L_ar -100;
 	pos @underhangR_ar @curve3L_ar -100;
+	pos @underhangR_ar now-ar.sc -100;
 	pos @underhang2R_ar @overhangL_ar -100;
 	pos @underhang2R_ar @overhang2L_ar -100;
 	pos @underhang2R_ar @overhang3L_ar -100;
 	pos @underhang2R_ar @strokemidL_ar -100;
+	pos @underhang2R_ar now-ar.sc -100;
 	pos @curve2TR_ar @overhangL_ar -100;
 	pos @curve2R_ar @overhangL_ar -100;
 	pos @curve2R_ar @underhangN1L_ar -200;
+	pos @curve2R_ar keh-ar.sc -100;
 	pos @curveBR_ar @underhangN1L_ar -100;
 	pos @curveBR2TR_ar @overhangL_ar -100;
 	pos @curveBR2TR_ar @underhangN1L_ar -100;
@@ -640,10 +629,13 @@ feature kern {
 	pos @curveBRunderhang3R_ar @overhang2L_ar -100;
 	pos @curveBRunderhang3R_ar @overhang3L_ar -100;
 	pos @curveBRunderhang3R_ar @underhangN1L_ar -100;
+	pos @curveBRunderhang3R_ar now-ar.sc -100;
 	pos @curve2BRunderhang3R_ar @overhangL_ar -100;
 	pos @curve2BRunderhang3R_ar @overhang2L_ar -100;
 	pos @curve2BRunderhang3R_ar @overhang3L_ar -100;
 	pos @curve2BRunderhang3R_ar @underhangN1L_ar -200;
+	pos @curve2BRunderhang3R_ar now-ar.sc -100;
+	pos @curve2BRunderhang3R_ar keh-ar.sc -100;
 	pos @shortcurveTR_ar @overhangL_ar -100;
 	pos @shortcurveTR_ar @overhang2L_ar -100;
 	pos @shortR_ar @overhangL_ar -100;
