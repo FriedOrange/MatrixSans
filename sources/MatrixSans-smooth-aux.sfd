@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1675081307
-ModificationTime: 1759070667
+ModificationTime: 1759221436
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -44,7 +44,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 65408 16 11
+WinInfo: 1264 16 11
 BeginChars: 65570 113
 
 StartChar: quarterdot
@@ -4897,7 +4897,7 @@ EndChar
 
 StartChar: uni0566
 Encoding: 1382 1382 74
-Width: 700
+Width: 600
 Flags: HW
 LayerCount: 2
 Fore
