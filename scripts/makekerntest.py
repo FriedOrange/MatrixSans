@@ -88,8 +88,8 @@ html_pre = """
 <style>
 	@font-face {
 			font-family: "Matrix Sans";
-			src: url("proof/MatrixSans-Regular.ttf"),
-				 url("../fonts/ttf/MatrixSans-Regular.ttf");
+			src: url("../sources/MatrixSansSmooth-RegularB.ttf"),
+				 url("webfonts/MatrixSans-Regular.woff2");
 		}
 	body {
 		color: white;
