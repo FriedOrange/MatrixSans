@@ -320,7 +320,7 @@ feature locl {
 @shortoverhangR_gr = [gamma.sc tau.sc upsilon.sc upsilontonos.sc upsilondieresis.sc];
 
 @overhangmidR_ar = [Ben-ar];
-@strokemidR_ar = [Gim-ar Da-ar Zhe-ar Ini-ar Ra-ar hyphen-ar reh-ar.sc yiwn-ar.sc];
+@strokemidR_ar = [Gim-ar Da-ar Zhe-ar Ini-ar Ra-ar hyphen-ar reh-ar.sc yiwn-ar.sc eh-ar.sc];
 @overhangR_ar = [Men-ar men-ar emphas-ar exclam-ar];
 @overhang2R_ar = [Reh-ar apostrophe-ar question-ar abbrev-ar];
 @overhang3R_ar = [ringhalfleft-ar comma-ar men-ar.sc];
@@ -334,7 +334,7 @@ feature locl {
 @curveBR2TR_ar = [Ech-ar];
 @curveBRunderhang3R_ar = [Feh-ar feh-ar yistroke-ar];
 @curve2BRunderhang3R_ar = [to-ar gim-ar.sc da-ar.sc to-ar.sc zhe-ar.sc ini-ar.sc ra-ar.sc ef-cy.sc];
-@shortcurveTR_ar = [aybturned-ar ben-ar et-ar ini-ar ho-ar ja-ar sha-ar vo-ar jheh-ar ra-ar tiwn-ar reh-ar piwr-ar keh-ar oh-ar feh-ar men_ini-ar ghad-ar ech-ar.sc za-ar.sc eh-ar.sc et-ar.sc xeh-ar.sc ca-ar.sc ken-ar.sc ho-ar.sc ja-ar.sc yi-ar.sc vo-ar.sc cha-ar.sc peh-ar.sc jheh-ar.sc co-ar.sc yiwn-ar.sc keh-ar.sc];
+@shortcurveTR_ar = [aybturned-ar ben-ar et-ar ini-ar ho-ar ja-ar sha-ar vo-ar jheh-ar ra-ar tiwn-ar reh-ar piwr-ar keh-ar oh-ar feh-ar men_ini-ar ghad-ar ech-ar.sc za-ar.sc  et-ar.sc xeh-ar.sc ca-ar.sc ken-ar.sc ho-ar.sc ja-ar.sc yi-ar.sc vo-ar.sc cha-ar.sc peh-ar.sc jheh-ar.sc co-ar.sc yiwn-ar.sc keh-ar.sc];
 @shortR_ar = [ayb-ar ech-ar zhe-ar xeh-ar ca-ar ken-ar yi-ar now-ar peh-ar seh-ar co-ar men_now-ar men_ech-ar vew_now-ar men_xeh-ar za-ar liwn-ar ayb-ar.sc ben-ar.sc u.sc s]; #zhe-ar also curveBR
 @underhangN2R_ar = [za-ar liwn-ar ghad-ar cha-ar vew-ar]; # NB: USE IN SINGLE PAIR RULES ONLY; ghad-ar also shortcurveTR
 
