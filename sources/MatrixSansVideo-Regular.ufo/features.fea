@@ -569,7 +569,7 @@ feature kern {
 	pos to-ar keh-ar -100;
 	enum pos @underhangN2R_ar @descendL_ar 100;
 	enum pos xeh-ar.sc keh-ar.sc -100;
-	enum pos [et-ar.sc ghad-ar.sc men-ar.sc vew-ar.sc] [ho-ar.sc yi-ar.sc] -100;
+	enum pos [et-ar.sc ghad-ar.sc men-ar.sc vew-ar.sc] [ho-ar.sc yi-ar.sc ef-cy.sc] -100;
 	pos @overhangmidR_ar @underhang2L_ar -100;
 	pos @overhangmidR_ar @underhangN1L_ar -100;
 	pos @overhangmidR_ar keh-ar.sc -100;
