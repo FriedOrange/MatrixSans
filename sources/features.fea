@@ -13,6 +13,7 @@ languagesystem latn NLD;
 languagesystem cyrl dflt;
 languagesystem grek dflt;
 languagesystem armn dflt;
+languagesystem geor dflt;
 
 feature aalt {
 	feature c2sc;
@@ -338,6 +339,13 @@ feature locl {
 @shortR_ar = [ayb-ar ech-ar zhe-ar xeh-ar ca-ar ken-ar yi-ar now-ar peh-ar seh-ar co-ar men_now-ar men_ech-ar vew_now-ar men_xeh-ar za-ar liwn-ar ayb-ar.sc ben-ar.sc u.sc s]; #zhe-ar also curveBR
 @underhangN2R_ar = [za-ar liwn-ar ghad-ar cha-ar vew-ar]; # NB: USE IN SINGLE PAIR RULES ONLY; ghad-ar also shortcurveTR
 
+@underhangR_ge = [uni10a1 uni10a2];
+@hookR_ge = [uni10a5 uni10a7 uni10ab uni10b0 uni10bb];
+@strokemidR_ge = [uni10c1];
+@overhang3R_ge = [uni10b5 uni10bc uni10c4]
+@overhang4R_ge = [uni10b4];
+@underhang2R_ge = [uni10b1 uni10b3 uni10c0];
+@underhang3R_ge = [uni10a6 uni10aa uni10ad uni10b9];
 
 # Second-of-pair classes
 
@@ -391,6 +399,12 @@ feature locl {
 @shortL_ar = [aybturned-ar ayb-ar ben-ar da-ar et-ar to-ar liwn-ar ghad-ar men-ar vo-ar peh-ar ra-ar seh-ar vew-ar tiwn-ar reh-ar yiwn-ar piwr-ar ayb-ar.sc ech-ar.sc eh-ar.sc ini-ar.sc xeh-ar.sc ca-ar.sc ken-ar.sc men-ar.sc sha-ar.sc yiwn-ar.sc l.sc u.sc];
 @shortcurveTL_ar = [gim-ar za-ar zhe-ar cheh-ar sha-ar cha-ar jheh-ar co-ar oh-ar ben-ar.sc za-ar.sc et-ar.sc to-ar.sc vo-ar.sc cha-ar.sc ra-ar.sc vew-ar.sc reh-ar.sc feh-ar.sc ho-ar.sc s]; # sha-ar also shortoverhang2L; jheh-ar also curve2BL
 @descendL_ar = [ben-ar et-ar to-ar ini-ar liwn-ar xeh-ar yi-ar cha-ar reh-ar keh-ar yistroke-ar];  # NB: USE IN SINGLE PAIR RULES ONLY
+
+@overhangL_ge = [uni10a6 uni10a8 uni10ae uni10af];
+@overhang3L_ge = [uni10a1 uni10a2 uni10a4 uni10a5 uni10aa uni10b5 uni10b7 uni10c0 uni10c4];
+@overhang4L_ge = [uni10b4 uni10c3];
+@underhang2L_ge = [uni10b0 uni10c5];
+@underhang3L_ge = [uni10bb];
 
 # # Left and right side classes
 # @T = [T Tcaron uni0162 Tcommaaccent Tdotbelow Tmacronbelow];
@@ -639,6 +653,11 @@ feature kern {
 	pos @shortcurveTR_ar @overhangL_ar -100;
 	pos @shortcurveTR_ar @overhang2L_ar -100;
 	pos @shortR_ar @overhangL_ar -100;
+
+	script geor;
+	pos uni10a0 uni10b5 by -100;
+	pos uni10ac uni10b5 by -100;
+	pos uni10b5 uni10ab by -100;
 } kern;
 
 feature tnum {
