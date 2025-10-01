@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1675081307
-ModificationTime: 1759227122
+ModificationTime: 1759328248
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -39,13 +39,14 @@ HheadDOffset: 1
 OS2Vendor: 'PfEd'
 DEI: 91125
 Encoding: UnicodeBmp
+Compacted: 1
 UnicodeInterp: none
 NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 8336 16 12
-BeginChars: 65554 103
+WinInfo: 0 16 12
+BeginChars: 65555 104
 
 StartChar: quarterdot
 Encoding: 65536 -1 0
@@ -536,28 +537,42 @@ EndChar
 StartChar: four
 Encoding: 52 52 8
 Width: 600
-Flags: MW
+VWidth: 0
+Flags: HMW
 LayerCount: 2
 Fore
-Refer: 0 -1 N 1 0 0 1 100 400 2
-Refer: 0 -1 N 1 0 0 1 150 350 2
-Refer: 0 -1 N 1 0 0 1 200 500 2
-Refer: 0 -1 N 1 0 0 1 250 450 2
-Refer: 0 -1 N 1 0 0 1 300 600 2
-Refer: 7 -1 N 1 0 0 1 350 0 2
-Refer: 7 -1 N 1 0 0 1 350 100 2
-Refer: 7 -1 N 1 0 0 1 450 200 2
-Refer: 7 -1 N 1 0 0 1 350 200 2
-Refer: 7 -1 N 1 0 0 1 250 200 2
-Refer: 7 -1 N 1 0 0 1 150 200 2
-Refer: 7 -1 N 1 0 0 1 50 200 2
-Refer: 7 -1 N 1 0 0 1 350 300 2
-Refer: 7 -1 N 1 0 0 1 50 300 2
-Refer: 7 -1 N 1 0 0 1 350 400 2
-Refer: 7 -1 N 1 0 0 1 150 400 2
-Refer: 7 -1 N 1 0 0 1 350 500 2
-Refer: 7 -1 N 1 0 0 1 250 500 2
-Refer: 7 -1 N 1 0 0 1 350 600 2
+SplineSet
+350 0 m 1
+ 350 200 l 1
+ 50 200 l 1
+ 50 500 l 1
+ 100 500 l 1
+ 100 550 l 1
+ 150 550 l 1
+ 150 600 l 1
+ 200 600 l 1
+ 200 650 l 1
+ 250 650 l 1
+ 250 700 l 1
+ 450 700 l 1
+ 450 300 l 1
+ 550 300 l 1
+ 550 200 l 1
+ 450 200 l 1
+ 450 0 l 1
+ 350 0 l 1
+150 300 m 1
+ 350 300 l 1
+ 350 600 l 1
+ 300 600 l 1
+ 300 550 l 1
+ 250 550 l 1
+ 250 500 l 1
+ 200 500 l 1
+ 200 450 l 1
+ 150 450 l 1
+ 150 300 l 1
+EndSplineSet
 EndChar
 
 StartChar: b
@@ -4506,6 +4521,50 @@ Refer: 7 -1 N 1 0 0 1 50 500 2
 Refer: 7 -1 N 1 0 0 1 450 600 2
 Refer: 7 -1 N 1 0 0 1 150 600 2
 Refer: 7 -1 N 1 0 0 1 50 600 2
+EndChar
+
+StartChar: four.alt
+Encoding: 65554 -1 103
+Width: 600
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+350 0 m 1
+ 350 200 l 1
+ 50 200 l 1
+ 50 400 l 1
+ 100 400 l 1
+ 100 450 l 1
+ 150 450 l 1
+ 150 500 l 1
+ 200 500 l 1
+ 200 550 l 1
+ 250 550 l 1
+ 250 600 l 1
+ 300 600 l 1
+ 300 650 l 1
+ 350 650 l 1
+ 350 700 l 1
+ 450 700 l 1
+ 450 300 l 1
+ 550 300 l 1
+ 550 200 l 1
+ 450 200 l 1
+ 450 0 l 1
+ 350 0 l 1
+150 300 m 1
+ 350 300 l 1
+ 350 500 l 1
+ 300 500 l 1
+ 300 450 l 1
+ 250 450 l 1
+ 250 400 l 1
+ 200 400 l 1
+ 200 350 l 1
+ 150 350 l 1
+ 150 300 l 1
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont

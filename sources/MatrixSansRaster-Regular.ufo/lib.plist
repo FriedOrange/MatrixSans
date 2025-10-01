@@ -1483,6 +1483,7 @@
 		<string>Dcroat.alt</string>
 		<string>three.alt</string>
 		<string>phi.sc</string>
+		<string>four.alt</string>
 	</array>
 	<key>public.openTypeCategories</key>
 	<dict>
@@ -2759,6 +2760,8 @@
 		<key>florin.sc</key>
 		<string>base</string>
 		<key>four</key>
+		<string>base</string>
+		<key>four.alt</key>
 		<string>base</string>
 		<key>four.sc</key>
 		<string>base</string>
