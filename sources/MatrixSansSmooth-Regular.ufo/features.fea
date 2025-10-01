@@ -140,7 +140,7 @@ feature ccmp {
 	sub Idotaccent' @marks_above by idotaccent.sc;
 	sub Edotaccent' @marks_above by edotaccent.sc;
 	sub Umacron' @marks_above by umacron.sc;
-sub D by D.alt;sub Eth by Eth.alt;sub Dcroat by Dcroat.alt;sub Dhook by Dhook.alt;sub Dcaron by Dcaron.alt;sub Ddotbelow by Ddotbelow.alt;sub Dmacronbelow by Dmacronbelow.alt;} ccmp;
+} ccmp;
 
 feature mkmk {
 	pos mark [gravecomb acutecomb circumflexcomb tildecomb ringcomb hungarumlautcomb caroncomb commaturnedabovecomb hookabovecomb]
@@ -339,13 +339,13 @@ feature locl {
 @shortR_ar = [ayb-ar ech-ar zhe-ar xeh-ar ca-ar ken-ar yi-ar now-ar peh-ar seh-ar co-ar men_now-ar men_ech-ar vew_now-ar men_xeh-ar za-ar liwn-ar ayb-ar.sc ben-ar.sc u.sc s]; #zhe-ar also curveBR
 @underhangN2R_ar = [za-ar liwn-ar ghad-ar cha-ar vew-ar]; # NB: USE IN SINGLE PAIR RULES ONLY; ghad-ar also shortcurveTR
 
-@underhangR_ge = [uni10a1 uni10a2];
-@hookR_ge = [uni10a5 uni10a7 uni10ab uni10b0 uni10bb];
-@strokemidR_ge = [uni10c1];
-@overhang3R_ge = [uni10b5 uni10bc uni10c4]
-@overhang4R_ge = [uni10b4];
-@underhang2R_ge = [uni10b1 uni10b3 uni10c0];
-@underhang3R_ge = [uni10a6 uni10aa uni10ad uni10b9];
+@underhangR_ge = [uni10A1 uni10A2];
+@hookR_ge = [uni10A5 uni10A7 uni10AB uni10B0 uni10BB];
+@strokemidR_ge = [uni10C1];
+@overhang3R_ge = [uni10B5 uni10BC uni10C4];
+@overhang4R_ge = [uni10B4];
+@underhang2R_ge = [uni10B1 uni10B3 uni10C0];
+@underhang3R_ge = [uni10A6 uni10AA uni10AD uni10B9];
 
 # Second-of-pair classes
 
@@ -400,11 +400,11 @@ feature locl {
 @shortcurveTL_ar = [gim-ar za-ar zhe-ar cheh-ar sha-ar cha-ar jheh-ar co-ar oh-ar ben-ar.sc za-ar.sc et-ar.sc to-ar.sc vo-ar.sc cha-ar.sc ra-ar.sc vew-ar.sc reh-ar.sc feh-ar.sc ho-ar.sc s]; # sha-ar also shortoverhang2L; jheh-ar also curve2BL
 @descendL_ar = [ben-ar et-ar to-ar ini-ar liwn-ar xeh-ar yi-ar cha-ar reh-ar keh-ar yistroke-ar];  # NB: USE IN SINGLE PAIR RULES ONLY
 
-@overhangL_ge = [uni10a6 uni10a8 uni10ae uni10af];
-@overhang3L_ge = [uni10a1 uni10a2 uni10a4 uni10a5 uni10aa uni10b5 uni10b7 uni10c0 uni10c4];
-@overhang4L_ge = [uni10b4 uni10c3];
-@underhang2L_ge = [uni10b0 uni10c5];
-@underhang3L_ge = [uni10bb];
+@overhangL_ge = [uni10A6 uni10A8 uni10AE uni10AF];
+@overhang3L_ge = [uni10A1 uni10A2 uni10A4 uni10A5 uni10AA uni10B5 uni10B7 uni10C0 uni10C4];
+@overhang4L_ge = [uni10B4 uni10C3];
+@underhang2L_ge = [uni10B0 uni10C5];
+@underhang3L_ge = [uni10BB];
 
 # # Left and right side classes
 # @T = [T Tcaron uni0162 Tcommaaccent Tdotbelow Tmacronbelow];
@@ -655,9 +655,25 @@ feature kern {
 	pos @shortR_ar @overhangL_ar -100;
 
 	script geor;
-	pos uni10a0 uni10b5 by -100;
-	pos uni10ac uni10b5 by -100;
-	pos uni10b5 uni10ab by -100;
+	pos uni10A0 uni10B5 -100;
+	pos uni10AC uni10B5 -100;
+	pos uni10B5 uni10AB -100;
+	enum pos @underhang2R_ge uni10A8 -200;
+	enum pos @underhang3R_ge uni10A8 -200;
+	pos @underhangR_ge @overhangL_ge -100;
+	pos @underhangR_ge @overhang3L_ge -100;
+	pos @underhangR_ge @overhang4L_ge -100;
+	pos @hookR_ge @overhangL_ge -100;
+	pos @strokemidR_ge @overhangL_ge -100;
+	pos @strokemidR_ge @underhang2L_ge -100;
+	pos @overhang3R_ge @underhang2L_ge -200;
+	pos @overhang3R_ge @underhang3L_ge -100;
+	pos @overhang4R_ge @underhang2L_ge -100;
+	pos @underhang2R_ge @overhangL_ge -100;
+	pos @underhang2R_ge @overhang3L_ge -200;
+	pos @underhang2R_ge @overhang4L_ge -100;
+	pos @underhang3R_ge @overhangL_ge -100;
+	pos @underhang3R_ge @overhang3L_ge -100;
 } kern;
 
 feature tnum {
@@ -711,13 +727,13 @@ feature ss01 {
 		name "Alternate capital letter D, etc.";
 	};
 	# these get added to the end of ccmp automatically for Video style
-	sub D.alt by D;
-	sub Eth.alt by Eth;
-	sub Dcroat.alt by Dcroat;
-	sub Dhook.alt by Dhook;
-	sub Dcaron.alt by Dcaron;
-	sub Ddotbelow.alt by Ddotbelow;
-	sub Dmacronbelow.alt by Dmacronbelow;
+	sub D by D.alt;
+	sub Eth by Eth.alt;
+	sub Dcroat by Dcroat.alt;
+	sub Dhook by Dhook.alt;
+	sub Dcaron by Dcaron.alt;
+	sub Ddotbelow by Ddotbelow.alt;
+	sub Dmacronbelow by Dmacronbelow.alt;
 } ss01;
 
 feature ss02 {
