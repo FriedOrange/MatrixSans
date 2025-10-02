@@ -342,10 +342,13 @@ feature locl {
 @underhangR_ge = [uni10A1 uni10A2];
 @hookR_ge = [uni10A5 uni10A7 uni10AB uni10B0 uni10BB];
 @strokemidR_ge = [uni10C1];
-@overhang3R_ge = [uni10B5 uni10BC uni10C4];
+@overhang3R_ge = [uni10BC uni10C4];
 @overhang4R_ge = [uni10B4];
 @underhang2R_ge = [uni10B1 uni10B3 uni10C0];
 @underhang3R_ge = [uni10A6 uni10AA uni10AD uni10B9];
+@shortoverhangR_ge = [uni10B5 uni2D15];
+@shortR_ge = [uni2D00 uni2D04 uni2D05 uni2D06 uni2D07 uni2D08 uni2D09 uni2D0A uni2D0C uni2D0D uni2D0E uni2D0F uni2D10 uni2D11 uni2D12 uni2D14 uni2D16 uni2D17 uni2D18 uni2D19 uni2D1A uni2D1B uni2D1C uni2D1D uni2D1E uni2D1F uni2D20 uni2D21 uni2D22 uni2D24 uni2D27 uni2D2D];
+@underhangN1R_ge = [uni2D01 uni2D02];
 
 # Second-of-pair classes
 
@@ -400,11 +403,13 @@ feature locl {
 @shortcurveTL_ar = [gim-ar za-ar zhe-ar cheh-ar sha-ar cha-ar jheh-ar co-ar oh-ar ben-ar.sc za-ar.sc et-ar.sc to-ar.sc vo-ar.sc cha-ar.sc ra-ar.sc vew-ar.sc reh-ar.sc feh-ar.sc ho-ar.sc s]; # sha-ar also shortoverhang2L; jheh-ar also curve2BL
 @descendL_ar = [ben-ar et-ar to-ar ini-ar liwn-ar xeh-ar yi-ar cha-ar reh-ar keh-ar yistroke-ar];  # NB: USE IN SINGLE PAIR RULES ONLY
 
-@overhangL_ge = [uni10A6 uni10A8 uni10AE uni10AF];
-@overhang3L_ge = [uni10A1 uni10A2 uni10A4 uni10A5 uni10AA uni10B5 uni10B7 uni10C0 uni10C4];
+@overhangL_ge = [uni10A6 uni10A8 uni10AE uni10AF uni2D06];
+@overhang3L_ge = [uni10A1 uni10A2 uni10A4 uni10A5 uni10AA uni10B7 uni10C0 uni10C4];
 @overhang4L_ge = [uni10B4 uni10C3];
 @underhang2L_ge = [uni10B0 uni10C5];
 @underhang3L_ge = [uni10BB];
+@shortoverhangL_ge = [uni10B5 uni2D0E uni2D0F uni2D15];
+@shortcurveBL_ge = [uni2D00 uni2D01 uni2D03 uni2D07 uni2D08 uni2D09 uni2D0B uni2D0D uni2D10 uni2D11 uni2D13 uni2D14 uni2D17 uni2D18 uni2D1B uni2D22 uni2D23 uni2D24 uni2D25]; # uni2D08 also curve2BL
 
 # # Left and right side classes
 # @T = [T Tcaron uni0162 Tcommaaccent Tdotbelow Tmacronbelow];
@@ -655,14 +660,14 @@ feature kern {
 	pos @shortR_ar @overhangL_ar -100;
 
 	script geor;
-	pos uni10A0 uni10B5 -100;
-	pos uni10AC uni10B5 -100;
-	pos uni10B5 uni10AB -100;
+	enum pos @underhangR_ge uni2D08 -100;
 	enum pos @underhang2R_ge uni10A8 -200;
 	enum pos @underhang3R_ge uni10A8 -200;
+	enum pos @underhangR_ge uni10B5 -100;
 	pos @underhangR_ge @overhangL_ge -100;
 	pos @underhangR_ge @overhang3L_ge -100;
 	pos @underhangR_ge @overhang4L_ge -100;
+	pos @underhangR_ge @shortoverhangL_ge -100;
 	pos @hookR_ge @overhangL_ge -100;
 	pos @strokemidR_ge @overhangL_ge -100;
 	pos @strokemidR_ge @underhang2L_ge -100;
@@ -670,10 +675,21 @@ feature kern {
 	pos @overhang3R_ge @underhang3L_ge -100;
 	pos @overhang4R_ge @underhang2L_ge -100;
 	pos @underhang2R_ge @overhangL_ge -100;
-	pos @underhang2R_ge @overhang3L_ge -100;
+	pos @underhang2R_ge @overhang3L_ge -200;
 	pos @underhang2R_ge @overhang4L_ge -100;
+	pos @underhang2R_ge @shortoverhangL_ge -100;
 	pos @underhang3R_ge @overhangL_ge -100;
 	pos @underhang3R_ge @overhang3L_ge -100;
+	pos @underhang3R_ge @shortoverhangL_ge -100;
+	pos @shortoverhangR_ge @overhangL_ge -100;
+	pos @shortoverhangR_ge @underhang2L_ge -100;
+	pos @shortoverhangR_ge @underhang3L_ge -100;
+	pos @shortR_ge @overhangL_ge -100;
+	pos @underhangN1R_ge @overhangL_ge -200;
+	pos @underhangN1R_ge @overhang3L_ge -100;
+	pos @underhangN1R_ge @overhang4L_ge -100;
+	pos @underhangN1R_ge @shortoverhangL_ge -100;
+	pos @underhangN1R_ge @shortcurveBL_ge -100;
 } kern;
 
 feature tnum {
