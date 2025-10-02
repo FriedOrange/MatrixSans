@@ -666,11 +666,11 @@ feature kern {
 	pos @hookR_ge @overhangL_ge -100;
 	pos @strokemidR_ge @overhangL_ge -100;
 	pos @strokemidR_ge @underhang2L_ge -100;
-	pos @overhang3R_ge @underhang2L_ge -200;
+	pos @overhang3R_ge @underhang2L_ge -100;
 	pos @overhang3R_ge @underhang3L_ge -100;
 	pos @overhang4R_ge @underhang2L_ge -100;
 	pos @underhang2R_ge @overhangL_ge -100;
-	pos @underhang2R_ge @overhang3L_ge -200;
+	pos @underhang2R_ge @overhang3L_ge -100;
 	pos @underhang2R_ge @overhang4L_ge -100;
 	pos @underhang3R_ge @overhangL_ge -100;
 	pos @underhang3R_ge @overhang3L_ge -100;
