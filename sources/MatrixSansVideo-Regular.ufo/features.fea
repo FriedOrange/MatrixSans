@@ -741,6 +741,7 @@ feature ss02 {
 		name "Alternate numerals 2, 6 and 9";
 	};
 	sub two by two.alt;
+	sub four by four.alt;
 	sub six by six.alt;
 	sub nine by nine.alt;
 } ss02;
