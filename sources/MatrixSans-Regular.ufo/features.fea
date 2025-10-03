@@ -758,7 +758,7 @@ feature ss01 {
 
 feature ss02 {
 	featureNames {
-		name "Alternate numerals 2, 6 and 9";
+		name "Alternate numerals 2, 4, 6 and 9";
 	};
 	sub two by two.alt;
 	sub four by four.alt;
