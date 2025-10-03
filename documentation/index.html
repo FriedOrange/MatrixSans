@@ -71,8 +71,6 @@
 
 		<h3>OpenType features</h3>
 
-		<p>* = on by default in most applications</p>
-		
 		<table class="padded">
 			<tr>
 				<th>Tag</th>
@@ -80,8 +78,8 @@
 				<th>Examples</th>
 			</tr>
 			<tr>
-				<td>kern</td>
-				<td>Kerning*</td>
+				<td>kern&dagger;</td>
+				<td>Kerning</td>
 				<td><span style="font-feature-settings: 'kern' 0;">GESTALT foray Fjord it’s</span> &rarr; GESTALT foray Fjord it’s</td>
 			</tr>
 			<tr>
@@ -103,8 +101,8 @@
 				</td>
 			</tr>
 			<tr>
-				<td>locl</td>
-				<td>Localised Forms*</td>
+				<td>locl&dagger;</td>
+				<td>Localised Forms</td>
 				<td>Catalan: L·L l·l &rarr; <span lang="ca">L·L l·l</span><br />
 					Romanian: ŞşŢţ &rarr; <span lang="ro">ŞşŢţ</span><br />
 					Northern Sami: Ŋ &rarr; <span lang="se">Ŋ</span><br />
@@ -127,12 +125,12 @@
 				<td>0 &rarr; <span style="font-feature-settings: 'zero';">0</span></td>
 			</tr>
 			<tr>
-				<td>ss01</td>
+				<td>ss01&ddagger;</td>
 				<td>Stylistic Set 1</td>
 				<td>DÐĎƊḌḎ &rarr; <span style="font-feature-settings: 'ss01';">DÐĎƊḌḎ</span></td>
 			</tr>
 			<tr>
-				<td>ss02</td>
+				<td>ss02&ddagger;</td>
 				<td>Stylistic Set 2</td>
 				<td>2469 &rarr; <span style="font-feature-settings: 'ss02';">2469</span></td>
 			</tr>
@@ -144,7 +142,7 @@
 			<tr>
 				<td>ss04</td>
 				<td>Stylistic Set 4</td>
-				<td>Ŋ &rarr; <span style="font-feature-settings: 'ss04';">Ŋ</span></td>
+				<td>Ŋ <span style="font-feature-settings: 'c2sc';">Ŋ</span> &rarr; <span style="font-feature-settings: 'ss04';">Ŋ</span> <span style="font-feature-settings: 'c2sc', 'ss04';">Ŋ</span></td>
 			</tr>
 			<tr>
 				<td>ss05</td>
@@ -157,6 +155,9 @@
 				<td>ff fi fl ffi ffl &rarr; <span style="font-feature-settings: 'dlig';">ff fi fl ffi ffl</span></td>
 			</tr>
 		</table>
+
+		<p>&dagger;enabled by default in most applications<br />
+		&ddagger;default and alternate forms are swapped in Video and Smooth styles</p>
 
 		<h3>Dimensions</h3>
 
