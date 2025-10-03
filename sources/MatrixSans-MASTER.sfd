@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1657964544
-ModificationTime: 1759490966
+ModificationTime: 1759492855
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -18231,7 +18231,7 @@ EndChar
 
 StartChar: za-ar
 Encoding: 1382 1382 1205
-Width: 600
+Width: 500
 Flags: HMW
 LayerCount: 2
 Fore
@@ -18490,7 +18490,7 @@ EndChar
 
 StartChar: ghad-ar
 Encoding: 1394 1394 1217
-Width: 600
+Width: 500
 Flags: HMW
 LayerCount: 2
 Fore
@@ -18711,7 +18711,7 @@ EndChar
 
 StartChar: vew-ar
 Encoding: 1406 1406 1229
-Width: 600
+Width: 500
 Flags: HMW
 LayerCount: 2
 Fore
