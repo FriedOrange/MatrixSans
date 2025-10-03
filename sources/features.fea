@@ -341,11 +341,11 @@ feature locl {
 
 @hookR_ge = [uni10A5 uni10A7 uni10AB uni10B0 uni10BB];
 @strokemidR_ge = [uni10C1];
-@overhang3R_ge = [uni10BC uni10C4];
-@overhang4R_ge = [uni10B4 uni10FC];
+@overhang3R_ge = [uni10BC uni10C4 uni1CBA];
+@overhang4R_ge = [uni10B4 uni10FC uni1C93 uni1C9A];
 @underhangR_ge = [uni10A1 uni10A2 uni10D2];
-@underhang2R_ge = [uni10B1 uni10B3 uni10C0 uni10E9];
-@underhang3R_ge = [uni10A6 uni10AA uni10AD uni10B9 uni10D0 uni10D1 uni10D6];
+@underhang2R_ge = [uni10B1 uni10B3 uni10C0 uni10E9 uni1CA9];
+@underhang3R_ge = [uni10A6 uni10AA uni10AD uni10B9 uni10D0 uni10D1 uni10D6 uni1C96];
 @shortoverhangR_ge = [uni10B5 uni2D15];
 @shortR_ge = [uni2D00 uni2D04 uni2D05 uni2D06 uni2D07 uni2D08 uni2D09 uni2D0A uni2D0C uni2D0D uni2D0E uni2D0F uni2D10 uni2D11 uni2D12 uni2D14 uni2D16 uni2D17 uni2D18 uni2D19 uni2D1A uni2D1B uni2D1C uni2D1D uni2D1E uni2D1F uni2D20 uni2D21 uni2D22 uni2D24 uni2D27 uni2D2D uni10D3 uni10D4 uni10D5 uni10D7 uni10D8 uni10D9 uni10DA uni10DC uni10DD uni10DF uni10E0 uni10E1 uni10E2 uni10E3 uni10E4 uni10E6 uni10E7 uni10EA uni10EE uni10EF uni10F2 uni10F3 uni10F4 uni10F5 uni10F6 uni10F7 uni10F8 uni10F9 uni10FA uni10FE uni10FF]; # uni10F5 also curve2BR
 @underhangN1R_ge = [uni2D01 uni2D02];
@@ -404,10 +404,10 @@ feature locl {
 @descendL_ar = [ben-ar et-ar to-ar ini-ar liwn-ar xeh-ar yi-ar cha-ar reh-ar keh-ar yistroke-ar];  # NB: USE IN SINGLE PAIR RULES ONLY
 
 @overhangL_ge = [uni10A6 uni10A8 uni10AE uni10AF uni2D06];
-@overhang3L_ge = [uni10A1 uni10A2 uni10A4 uni10A5 uni10AA uni10B7 uni10C0 uni10C4 uni10D6];
-@overhang4L_ge = [uni10B4 uni10C3 uni10FC];
+@overhang3L_ge = [uni10A1 uni10A2 uni10A4 uni10A5 uni10AA uni10B7 uni10C0 uni10C4 uni10D6 uni1C96 uni1CB9];
+@overhang4L_ge = [uni10B4 uni10C3 uni10FC uni1CA4 uni1CA7];
 @underhangL_ge = [uni10D9 uni10F4];
-@underhang2L_ge = [uni10B0 uni10C5 uni10D0 uni10F0];
+@underhang2L_ge = [uni10B0 uni10C5 uni10D0 uni10F0 uni1CB0 uni1CB4];
 @underhang3L_ge = [uni10BB];
 @shortoverhangL_ge = [uni10B5 uni2D0E uni2D0F uni2D15];
 @shortcurveBL_ge = [uni2D00 uni2D01 uni2D03 uni2D07 uni2D08 uni2D09 uni2D0B uni2D0D uni2D10 uni2D11 uni2D13 uni2D14 uni2D17 uni2D18 uni2D1B uni2D22 uni2D23 uni2D24 uni2D25]; # uni2D08 also curve2BL
@@ -667,6 +667,7 @@ feature kern {
 	enum pos @underhangR_ge uni10B5 -100;
 	enum pos uni10F5 @underhangL_ge -100;
 	enum pos uni10E9 @overhang3L_ge -100;
+	enum pos uni1CA9 @overhang3L_ge -100;
 	pos @underhangR_ge @overhangL_ge -100;
 	pos @underhangR_ge @overhang3L_ge -100;
 	pos @underhangR_ge @overhang4L_ge -100;
