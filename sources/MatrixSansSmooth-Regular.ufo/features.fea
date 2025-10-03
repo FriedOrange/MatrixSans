@@ -395,12 +395,12 @@ feature locl {
 @strokemidL_ar = [Ho-ar hyphen-ar gim-ar.sc da-ar.sc ghad-ar.sc peh-ar.sc co-ar.sc];
 @underhang2L_ar = [Keh-ar zhe-ar.sc ja-ar.sc jheh-ar.sc]; # Keh-ar also curveBL
 @underhang3L_ar = [Zhe-ar ca-ar ja-ar];
-@underhangN1L_ar = [yi-ar keh-ar yistroke-ar];
+@underhangN1L_ar = [yi-ar yistroke-ar];
 @curve2BL_ar = [Ken-ar];
 @curve2L_ar = [Piwr-ar];
 @curve3L_ar = [Vew-ar];
 @shortL_ar = [aybturned-ar ayb-ar ben-ar da-ar et-ar to-ar liwn-ar ghad-ar men-ar vo-ar peh-ar ra-ar seh-ar vew-ar tiwn-ar reh-ar yiwn-ar piwr-ar ayb-ar.sc ech-ar.sc eh-ar.sc ini-ar.sc xeh-ar.sc ca-ar.sc ken-ar.sc men-ar.sc sha-ar.sc yiwn-ar.sc l.sc u.sc];
-@shortcurveTL_ar = [gim-ar za-ar zhe-ar cheh-ar sha-ar cha-ar jheh-ar co-ar oh-ar ben-ar.sc za-ar.sc et-ar.sc to-ar.sc vo-ar.sc cha-ar.sc ra-ar.sc vew-ar.sc reh-ar.sc feh-ar.sc ho-ar.sc s]; # sha-ar also shortoverhang2L; jheh-ar also curve2BL
+@shortcurveTL_ar = [gim-ar za-ar zhe-ar cheh-ar sha-ar cha-ar jheh-ar co-ar oh-ar ben-ar.sc za-ar.sc et-ar.sc to-ar.sc vo-ar.sc cha-ar.sc ra-ar.sc vew-ar.sc reh-ar.sc feh-ar.sc ho-ar.sc s keh-ar]; # sha-ar also shortoverhang2L; jheh-ar also curve2BL
 @descendL_ar = [ben-ar et-ar to-ar ini-ar liwn-ar xeh-ar yi-ar cha-ar reh-ar keh-ar yistroke-ar];  # NB: USE IN SINGLE PAIR RULES ONLY
 
 @overhangL_ge = [uni10A6 uni10A8 uni10AE uni10AF uni2D06];
@@ -585,8 +585,8 @@ feature kern {
 	script armn;
 	enum pos [Ben-ar Zhe-ar Ini-ar Men-ar Reh-ar Yiwn-ar To-ar zhe-ar] [yi-ar yistroke-ar] -200;
 	enum pos [Now-ar Sha-ar] @underhangN1L_ar -100;
-	enum pos [Xeh-ar Piwr-ar] keh-ar -100;
-	pos to-ar keh-ar -100;
+	# enum pos [Xeh-ar Piwr-ar] keh-ar -100;
+	# pos to-ar keh-ar -100;
 	enum pos @underhangN2R_ar @descendL_ar 100;
 	enum pos xeh-ar.sc keh-ar.sc -100;
 	enum pos [et-ar.sc ghad-ar.sc men-ar.sc vew-ar.sc] [ho-ar.sc yi-ar.sc ef-cy.sc] -100;

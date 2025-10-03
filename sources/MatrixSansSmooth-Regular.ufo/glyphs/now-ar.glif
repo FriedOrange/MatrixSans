@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="now-ar" format="2">
-  <advance width="700"/>
+  <advance width="600"/>
   <unicode hex="0576"/>
   <outline>
     <contour>
-      <point x="650.0" y="0.0" type="line"/>
       <point x="550.0" y="0.0" type="line"/>
-      <point x="550.0" y="100.0" type="line"/>
-      <point x="520.0" y="100.0" type="line"/>
-      <point x="420.0" y="0.0" type="line"/>
+      <point x="450.0" y="0.0" type="line"/>
+      <point x="450.0" y="100.0" type="line"/>
+      <point x="420.0" y="100.0" type="line"/>
+      <point x="320.0" y="0.0" type="line"/>
       <point x="280.0" y="0.0" type="line"/>
       <point x="150.0" y="130.0" type="line"/>
       <point x="150.0" y="600.0" type="line"/>
@@ -16,12 +16,11 @@
       <point x="50.0" y="700.0" type="line"/>
       <point x="250.0" y="700.0" type="line"/>
       <point x="250.0" y="170.0" type="line"/>
-      <point x="320.0" y="100.0" type="line"/>
-      <point x="380.0" y="100.0" type="line"/>
-      <point x="480.0" y="200.0" type="line"/>
-      <point x="550.0" y="200.0" type="line"/>
+      <point x="300.0" y="120.0" type="line"/>
+      <point x="380.0" y="200.0" type="line"/>
+      <point x="450.0" y="200.0" type="line"/>
+      <point x="450.0" y="500.0" type="line"/>
       <point x="550.0" y="500.0" type="line"/>
-      <point x="650.0" y="500.0" type="line"/>
     </contour>
   </outline>
 </glyph>
