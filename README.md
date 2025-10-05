@@ -10,10 +10,11 @@ This is set of pixelated, retro-style fonts based on the classic 5&times;7 dot m
 
 ### Links
 
-- [Downloads](https://github.com/FriedOrange/MatrixSans/releases)
-- [Testing & Demo pages](https://friedorange.github.io/MatrixSans/tests.html)
-- [Inspiration & Design philosophy](https://friedorange.github.io/MatrixSans/inspiration.html)
-- [Research (with comments on 40+ existing designs)](https://friedorange.github.io/MatrixSans/research.html)
+- [**Downloads**](https://github.com/FriedOrange/MatrixSans/releases)
+- [**Features & Design philosopy**](https://friedorange.github.io/MatrixSans/)
+- [**Tests & Demos**](https://friedorange.github.io/MatrixSans/tests.html)
+- [**Background/Inspiration**](https://friedorange.github.io/MatrixSans/inspiration.html)
+- [**Research** (with comments on 40+ existing designs)](https://friedorange.github.io/MatrixSans/research.html)
 
 ### Sample images
 
