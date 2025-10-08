@@ -793,6 +793,7 @@ feature ss05 {
 feature salt {
 	sub two by two.alt;
 	sub three by three.alt;
+	sub four by four.alt;
 	sub six by six.alt;
 	sub nine by nine.alt;
 	sub D by D.alt;
