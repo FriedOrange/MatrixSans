@@ -1846,6 +1846,8 @@
     <string>one.glif</string>
     <key>one.sc</key>
     <string>one.sc.glif</string>
+    <key>onedotenleader</key>
+    <string>onedotenleader.glif</string>
     <key>oneeighth</key>
     <string>oneeighth.glif</string>
     <key>onehalf</key>
@@ -2642,6 +2644,8 @@
     <string>uni2015.glif</string>
     <key>uni203D</key>
     <string>uni203D_.glif</string>
+    <key>uni205A</key>
+    <string>uni205A_.glif</string>
     <key>uni2070</key>
     <string>uni2070.glif</string>
     <key>uni207A</key>
@@ -2774,6 +2778,8 @@
     <string>uni2D_2D_.glif</string>
     <key>uni2E18</key>
     <string>uni2E_18.glif</string>
+    <key>uni2E31</key>
+    <string>uni2E_31.glif</string>
     <key>uogonek</key>
     <string>uogonek.glif</string>
     <key>uogonek.sc</key>

@@ -1027,6 +1027,7 @@
 		<string>dagger</string>
 		<string>daggerdbl</string>
 		<string>bullet</string>
+		<string>onedotenleader</string>
 		<string>ellipsis</string>
 		<string>perthousand</string>
 		<string>minute</string>
@@ -1035,6 +1036,7 @@
 		<string>guilsinglright</string>
 		<string>uni203D</string>
 		<string>fraction</string>
+		<string>uni205A</string>
 		<string>uni2070</string>
 		<string>foursuperior</string>
 		<string>fivesuperior</string>
@@ -1206,6 +1208,7 @@
 		<string>uni2D27</string>
 		<string>uni2D2D</string>
 		<string>uni2E18</string>
+		<string>uni2E31</string>
 		<string>f_f</string>
 		<string>f_i</string>
 		<string>f_l</string>
@@ -3329,6 +3332,8 @@
 		<string>base</string>
 		<key>one.sc</key>
 		<string>base</string>
+		<key>onedotenleader</key>
+		<string>base</string>
 		<key>oneeighth</key>
 		<string>base</string>
 		<key>onehalf</key>
@@ -4125,6 +4130,8 @@
 		<string>base</string>
 		<key>uni203D</key>
 		<string>base</string>
+		<key>uni205A</key>
+		<string>base</string>
 		<key>uni2070</key>
 		<string>base</string>
 		<key>uni207A</key>
@@ -4256,6 +4263,8 @@
 		<key>uni2D2D</key>
 		<string>base</string>
 		<key>uni2E18</key>
+		<string>base</string>
+		<key>uni2E31</key>
 		<string>base</string>
 		<key>uogonek</key>
 		<string>base</string>
