@@ -93,7 +93,6 @@ markClass [uni0315 horncomb dotaboverightcomb] <anchor 0 500> @marks_aboveright;
 feature ccmp {
 	script cyrl;
 	sub i-cy' @marks_above by dotlessi;
-	sub three by three.alt;
 	sub Yi-cy' @marks_above by idieresis.sc;
 	script grek;
 	sub Alpha acutecomb by Alphatonos;
@@ -285,6 +284,8 @@ feature locl {
 		sub I acutecomb J' by J acutecomb;
 		sub i acutecomb j' by jacute;
 		sub i.sc j.sc by ij.sc;
+	script cyrl;
+		sub three by three.alt;
 } locl;
 
 # Classes for kerning
