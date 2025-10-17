@@ -7,6 +7,7 @@ This is set of pixelated, retro-style fonts based on the classic 5&times;7 dot m
 - **Raster** consists of horizontal lines with rounded edges, emulating a *raster*; the set of lines traced out by the electron beam in a CRT, as seen in old computer monitors.
 - **Screen** is similar to Print, but uses square dots instead of round ones. It matches the look of the "character LCDs" seen in many devices, as well as some light-up LED displays.
 - **Video** is an interpolated version of Regular. It resembles the on-screen displays of VCRs, Teletext, camcorders and the like; harking back to the early days of computerisation in television and home video.
+- **Smooth** is also interpolated, but with perfectly smooth diagonals instead of the jagged steps seen in the other styles.
 
 ### Links
 
@@ -23,6 +24,7 @@ This is set of pixelated, retro-style fonts based on the classic 5&times;7 dot m
 ![Matrix Sans Print Sample](documentation/sample_1.png)
 ![Matrix Sans Raster Sample](documentation/sample_2.png)
 ![Matrix Sans Screen Sample](documentation/sample_3.png)
+![Matrix Sans Smooth Sample](documentation/sample_5.png)
 
 ## Building
 
@@ -61,6 +63,19 @@ To easily add or modify glyphs (requires [FontForge](https://fontforge.org/)):
 	- Custom behaviour is implemented for certain glyphs in the Video, Raster and Smooth styles; edit `step2.py` to change this. Also see the `-aux` sources with manually-designed versions of some glyphs for the Video and Smooth styles
 
 ## Changelog
+
+#### 18 October 2025 - Version 1.600
+
+- Added **Smooth** style: interpolated like Video but with completely smooth diagonals
+- Added Armenian alphabet (with small capitals available)
+- Added Georgian alphabet (including *Asomtavruli*, *Nuskhuri*, *Mkhedruli* and *Mkedruli Mtavruli* scripts)
+- In Video style: tweaked shapes of 2, 4 and D, Ð, etc; improved small capital ẞ
+- Tweaked shapes of Cyrillic З, з; added alternate numeral 3 for Cyrillic
+- Tweaked shapes of Greek φ and ₦ ₧ ₨ currency signs
+- Added playing card suit symbols ♣︎♦︎♥︎♠︎ and inverted interrobang ⸘
+- Re-added various space characters
+- Improved kerning for Latin script
+- Fixed visual bugs in Raster and Video styles
 
 #### 30 December 2024 - Version 1.512
 

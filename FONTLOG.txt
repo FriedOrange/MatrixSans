@@ -15,11 +15,25 @@ It comes in five variants:
 - Raster, with rounded horizontal lines
 - Screen, with separate square dots 
 - Video, with interpolation on diagonal sections
+- Smooth, with straight lines on diagonal sections
 
 Further documentation can be found at: https://github.com/FriedOrange/MatrixSans
 
 Changelog
 ---------
+
+18 October 2025 - Version 1.600
+
+- Added **Smooth** style: interpolated like Video but with completely smooth diagonals
+- Added Armenian alphabet (with small capitals available)
+- Added Georgian alphabet (including *Asomtavruli*, *Nuskhuri*, *Mkhedruli* and *Mkedruli Mtavruli* scripts)
+- In Video style: tweaked shapes of 2, 4 and D, Ð, etc; improved small capital ẞ
+- Tweaked shapes of Cyrillic З, з; added alternate numeral 3 for Cyrillic
+- Tweaked shapes of Greek φ and ₦ ₧ ₨ currency signs
+- Added playing card suit symbols ♣︎♦︎♥︎♠︎ and inverted interrobang ⸘
+- Re-added various space characters
+- Improved kerning for Latin script
+- Fixed visual bugs in Raster and Video styles
 
 30 December 2024 - Version 1.512
 
