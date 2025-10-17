@@ -393,8 +393,8 @@ feature locl {
 @overhang2L_ar = [Da-ar Ghad-ar Cha-ar Peh-ar ringhalfleft-ar abbrev-ar];
 @overhang3L_ar = [Gim-ar apostrophe-ar emphas-ar exclam-ar question-ar];
 @openmidL_ar = [Za-ar Ja-ar];
-@strokemidL_ar = [Ho-ar hyphen-ar gim-ar.sc da-ar.sc ghad-ar.sc peh-ar.sc co-ar.sc];
-@underhang2L_ar = [Keh-ar zhe-ar.sc ja-ar.sc jheh-ar.sc]; # Keh-ar also curveBL
+@strokemidL_ar = [hyphen-ar gim-ar.sc da-ar.sc ghad-ar.sc peh-ar.sc co-ar.sc];
+@underhang2L_ar = [Ho-ar Keh-ar zhe-ar.sc ja-ar.sc jheh-ar.sc]; # Keh-ar also curveBL
 @underhang3L_ar = [Zhe-ar ca-ar ja-ar];
 @underhangN1L_ar = [yi-ar yistroke-ar];
 @curve2BL_ar = [Ken-ar];
