@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni300A" format="2">
+  <advance width="700"/>
+  <unicode hex="300A"/>
+  <outline>
+    <component base="leftanglebracket_math"/>
+    <component base="leftanglebracket_math" xOffset="200.0"/>
+  </outline>
+</glyph>

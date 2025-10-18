@@ -391,6 +391,8 @@
 		<string>uni02CA</string>
 		<string>uni02CB</string>
 		<string>uni02CC</string>
+		<string>uni02CD</string>
+		<string>uni02D7</string>
 		<string>breve</string>
 		<string>dotaccent</string>
 		<string>ring</string>
@@ -1209,6 +1211,56 @@
 		<string>uni2D2D</string>
 		<string>uni2E18</string>
 		<string>uni2E31</string>
+		<string>uni300A</string>
+		<string>uni300B</string>
+		<string>uniA4D0</string>
+		<string>uniA4D1</string>
+		<string>uniA4D2</string>
+		<string>uniA4D3</string>
+		<string>uniA4D4</string>
+		<string>uniA4D5</string>
+		<string>uniA4D6</string>
+		<string>uniA4D7</string>
+		<string>uniA4D8</string>
+		<string>uniA4D9</string>
+		<string>uniA4DA</string>
+		<string>uniA4DB</string>
+		<string>uniA4DC</string>
+		<string>uniA4DD</string>
+		<string>uniA4DE</string>
+		<string>uniA4DF</string>
+		<string>uniA4E0</string>
+		<string>uniA4E1</string>
+		<string>uniA4E2</string>
+		<string>uniA4E3</string>
+		<string>uniA4E4</string>
+		<string>uniA4E5</string>
+		<string>uniA4E6</string>
+		<string>uniA4E7</string>
+		<string>uniA4E8</string>
+		<string>uniA4E9</string>
+		<string>uniA4EA</string>
+		<string>uniA4EB</string>
+		<string>uniA4EC</string>
+		<string>uniA4ED</string>
+		<string>uniA4EE</string>
+		<string>uniA4EF</string>
+		<string>uniA4F0</string>
+		<string>uniA4F1</string>
+		<string>uniA4F2</string>
+		<string>uniA4F3</string>
+		<string>uniA4F4</string>
+		<string>uniA4F5</string>
+		<string>uniA4F6</string>
+		<string>uniA4F7</string>
+		<string>uniA4F8</string>
+		<string>uniA4F9</string>
+		<string>uniA4FA</string>
+		<string>uniA4FB</string>
+		<string>uniA4FC</string>
+		<string>uniA4FD</string>
+		<string>uniA4FE</string>
+		<string>uniA4FF</string>
 		<string>f_f</string>
 		<string>f_i</string>
 		<string>f_l</string>
@@ -1219,6 +1271,7 @@
 		<string>men_ini-ar</string>
 		<string>vew_now-ar</string>
 		<string>men_xeh-ar</string>
+		<string>u11FB0</string>
 		<string>idotaccent</string>
 		<string>Eng.loclNSM</string>
 		<string>jacute</string>
@@ -3708,6 +3761,8 @@
 		<string>base</string>
 		<key>u.sc</key>
 		<string>base</string>
+		<key>u11FB0</key>
+		<string>base</string>
 		<key>uacute</key>
 		<string>base</string>
 		<key>uacute.sc</key>
@@ -3801,6 +3856,10 @@
 		<key>uni02CB</key>
 		<string>base</string>
 		<key>uni02CC</key>
+		<string>base</string>
+		<key>uni02CD</key>
+		<string>base</string>
+		<key>uni02D7</key>
 		<string>base</string>
 		<key>uni0315</key>
 		<string>mark</string>
@@ -4265,6 +4324,106 @@
 		<key>uni2E18</key>
 		<string>base</string>
 		<key>uni2E31</key>
+		<string>base</string>
+		<key>uni300A</key>
+		<string>base</string>
+		<key>uni300B</key>
+		<string>base</string>
+		<key>uniA4D0</key>
+		<string>base</string>
+		<key>uniA4D1</key>
+		<string>base</string>
+		<key>uniA4D2</key>
+		<string>base</string>
+		<key>uniA4D3</key>
+		<string>base</string>
+		<key>uniA4D4</key>
+		<string>base</string>
+		<key>uniA4D5</key>
+		<string>base</string>
+		<key>uniA4D6</key>
+		<string>base</string>
+		<key>uniA4D7</key>
+		<string>base</string>
+		<key>uniA4D8</key>
+		<string>base</string>
+		<key>uniA4D9</key>
+		<string>base</string>
+		<key>uniA4DA</key>
+		<string>base</string>
+		<key>uniA4DB</key>
+		<string>base</string>
+		<key>uniA4DC</key>
+		<string>base</string>
+		<key>uniA4DD</key>
+		<string>base</string>
+		<key>uniA4DE</key>
+		<string>base</string>
+		<key>uniA4DF</key>
+		<string>base</string>
+		<key>uniA4E0</key>
+		<string>base</string>
+		<key>uniA4E1</key>
+		<string>base</string>
+		<key>uniA4E2</key>
+		<string>base</string>
+		<key>uniA4E3</key>
+		<string>base</string>
+		<key>uniA4E4</key>
+		<string>base</string>
+		<key>uniA4E5</key>
+		<string>base</string>
+		<key>uniA4E6</key>
+		<string>base</string>
+		<key>uniA4E7</key>
+		<string>base</string>
+		<key>uniA4E8</key>
+		<string>base</string>
+		<key>uniA4E9</key>
+		<string>base</string>
+		<key>uniA4EA</key>
+		<string>base</string>
+		<key>uniA4EB</key>
+		<string>base</string>
+		<key>uniA4EC</key>
+		<string>base</string>
+		<key>uniA4ED</key>
+		<string>base</string>
+		<key>uniA4EE</key>
+		<string>base</string>
+		<key>uniA4EF</key>
+		<string>base</string>
+		<key>uniA4F0</key>
+		<string>base</string>
+		<key>uniA4F1</key>
+		<string>base</string>
+		<key>uniA4F2</key>
+		<string>base</string>
+		<key>uniA4F3</key>
+		<string>base</string>
+		<key>uniA4F4</key>
+		<string>base</string>
+		<key>uniA4F5</key>
+		<string>base</string>
+		<key>uniA4F6</key>
+		<string>base</string>
+		<key>uniA4F7</key>
+		<string>base</string>
+		<key>uniA4F8</key>
+		<string>base</string>
+		<key>uniA4F9</key>
+		<string>base</string>
+		<key>uniA4FA</key>
+		<string>base</string>
+		<key>uniA4FB</key>
+		<string>base</string>
+		<key>uniA4FC</key>
+		<string>base</string>
+		<key>uniA4FD</key>
+		<string>base</string>
+		<key>uniA4FE</key>
+		<string>base</string>
+		<key>uniA4FF</key>
 		<string>base</string>
 		<key>uogonek</key>
 		<string>base</string>
@@ -5575,6 +5734,8 @@
 		<string>uniFB17</string>
 		<key>vew_now-ar</key>
 		<string>uniFB16</string>
+		<key>u11FB0</key>
+		<string>uni11FB0</string>
 	</dict>
 	<key>public.openTypeMeta</key>
 	<dict>

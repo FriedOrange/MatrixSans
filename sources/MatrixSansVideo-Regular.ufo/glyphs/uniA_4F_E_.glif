@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniA4FE" format="2">
+  <advance width="600"/>
+  <unicode hex="A4FE"/>
+  <outline>
+    <component base="hyphen"/>
+    <component base="period" xOffset="400.0"/>
+  </outline>
+</glyph>
