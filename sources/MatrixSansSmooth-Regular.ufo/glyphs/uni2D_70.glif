@@ -1,17 +1,22 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni2D70" format="2">
-  <advance width="500"/>
+  <advance width="300"/>
   <unicode hex="2D70"/>
   <outline>
     <contour>
-      <point x="220.0" y="-200.0" type="line"/>
-      <point x="50.0" y="-200.0" type="line"/>
+      <point x="1250.0" y="-200.0" type="line"/>
+      <point x="1050.0" y="-200.0" type="line"/>
+      <point x="1050.0" y="-100.0" type="line"/>
+      <point x="1250.0" y="-100.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="250.0" y="700.0" type="line"/>
+      <point x="250.0" y="30.0" type="line"/>
+      <point x="120.0" y="-100.0" type="line"/>
       <point x="50.0" y="-100.0" type="line"/>
-      <point x="180.0" y="-100.0" type="line"/>
-      <point x="350.0" y="70.0" type="line"/>
-      <point x="350.0" y="700.0" type="line"/>
-      <point x="450.0" y="700.0" type="line"/>
-      <point x="450.0" y="30.0" type="line"/>
+      <point x="50.0" y="-30.0" type="line"/>
+      <point x="150.0" y="70.0" type="line"/>
+      <point x="150.0" y="700.0" type="line"/>
     </contour>
   </outline>
 </glyph>
