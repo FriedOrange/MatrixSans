@@ -15,6 +15,7 @@ languagesystem grek dflt;
 languagesystem armn dflt;
 languagesystem geor dflt;
 languagesystem lisu dflt;
+languagesystem tfng dflt;
 
 feature aalt {
 	feature c2sc;
@@ -150,7 +151,7 @@ feature mkmk {
 } mkmk;
 
 # classes for mark positioning
-@tall = [C D G H K M N R S T W Y Z h k Edotbelow Odotbelow Udotbelow Ie-cy Ge-cy Ka-cy Ii-cy U-cy Alpha Epsilon Eta Omicron Upsilon Omega Oslash io-cy iegrave-cy Aogonek Eogonek Uogonek eacute egrave ecircumflex ecaron oacute ograve ocircumflex ocaron Ocaron edotaccent.sc umacron.sc Oacute Ograve Ocircumflex umacron edotaccent]; # not including glyphs with ogonek or apostrophe-type caron
+@tall = [C D G H K M N R S T W Y Z h k Edotbelow Odotbelow Udotbelow Ie-cy Ge-cy Ka-cy Ii-cy U-cy Alpha Epsilon Eta Omicron Upsilon Omega Oslash io-cy iegrave-cy Aogonek Eogonek Uogonek eacute egrave ecircumflex ecaron oacute ograve ocircumflex ocaron Ocaron edotaccent.sc umacron.sc Oacute Ograve Ocircumflex umacron edotaccent uni2D31-uni2D3D uni2D3F-uni2D41 uni2D43-uni2D4E uni2D50 uni2D52 uni2D54-uni2D56 uni2D58-uni2D5B uni2D5D-uni2D63 uni2D65-uni2D67]; # not including glyphs with ogonek or apostrophe-type caron
 @short = [c m n r s v-x z b.sc d.sc f.sc g.sc h.sc kgreenlandic m.sc n.sc p.sc q.sc r.sc t.sc y.sc y.titl edotbelow odotbelow udotbelow edotbelow.sc udotbelow.sc ii-cy ie-cy ge-cy ka-cy alpha epsilon eta upsilon omicron omega oslash a-cy o-cy yeru-cy ereversed-cy yu-cy ya-cy e-cy hardsign-cy aogonek eogonek uogonek];
 @deep = [g p q y u-cy];
 
@@ -159,7 +160,7 @@ feature mark {
 		<anchor 300 800> mark @marks_above
 		<anchor 300 0> mark @marks_below
 		<anchor 400 0> mark @marks_belowright;
-	pos base [I i idotaccent Idotbelow I-cy Iota i-cy yi-cy idieresis.sc idotaccent.sc Iogonek iogonek] 
+	pos base [I i idotaccent Idotbelow I-cy Iota i-cy yi-cy idieresis.sc idotaccent.sc Iogonek iogonek uni2D3E uni2D53 uni2D5C uni2D64] 
 		<anchor 200 800> mark @marks_above
 		<anchor 200 0> mark @marks_below
 		<anchor 200 0> mark @marks_belowright;
@@ -237,6 +238,12 @@ feature mark {
 		<anchor 400 800> mark @marks_above;
 	pos base [ae ae.sc]
 		<anchor 400 600> mark @marks_above;
+	pos base uni2D30
+		<anchor 300 500> mark @marks_above
+		<anchor 300 0> mark @marks_below;
+	pos base [uni2D42 uni2D4F uni2D51 uni2D57]
+		<anchor 100 800> mark @marks_above
+		<anchor 100 0> mark @marks_below;
 } mark;
 
 # table GDEF {
