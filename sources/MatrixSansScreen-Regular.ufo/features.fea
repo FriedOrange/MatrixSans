@@ -15,6 +15,7 @@ languagesystem grek dflt;
 languagesystem armn dflt;
 languagesystem geor dflt;
 languagesystem lisu dflt;
+languagesystem tfng dflt;
 
 feature aalt {
 	feature c2sc;
@@ -150,7 +151,7 @@ feature mkmk {
 } mkmk;
 
 # classes for mark positioning
-@tall = [C D G H K M N R S T W Y Z h k Edotbelow Odotbelow Udotbelow Ie-cy Ge-cy Ka-cy Ii-cy U-cy Alpha Epsilon Eta Omicron Upsilon Omega Oslash io-cy iegrave-cy Aogonek Eogonek Uogonek eacute egrave ecircumflex ecaron oacute ograve ocircumflex ocaron Ocaron edotaccent.sc umacron.sc Oacute Ograve Ocircumflex umacron edotaccent]; # not including glyphs with ogonek or apostrophe-type caron
+@tall = [C D G H K M N R S T W Y Z h k Edotbelow Odotbelow Udotbelow Ie-cy Ge-cy Ka-cy Ii-cy U-cy Alpha Epsilon Eta Omicron Upsilon Omega Oslash io-cy iegrave-cy Aogonek Eogonek Uogonek eacute egrave ecircumflex ecaron oacute ograve ocircumflex ocaron Ocaron edotaccent.sc umacron.sc Oacute Ograve Ocircumflex umacron edotaccent uni2D31 uni2D32 uni2D33 uni2D34 uni2D35 uni2D36 uni2D37 uni2D38 uni2D39 uni2D3A uni2D3B uni2D3C uni2D3D uni2D3F uni2D40 uni2D41 uni2D43 uni2D44 uni2D45 uni2D46 uni2D47 uni2D48 uni2D49 uni2D4A uni2D4B uni2D4C uni2D4D uni2D4E uni2D50 uni2D52 uni2D54 uni2D55 uni2D56 uni2D58 uni2D59 uni2D5A uni2D5B uni2D5D uni2D5E uni2D5F uni2D60 uni2D61 uni2D62 uni2D63 uni2D65 uni2D66 uni2D67]; # not including glyphs with ogonek or apostrophe-type caron
 @short = [c m n r s v-x z b.sc d.sc f.sc g.sc h.sc kgreenlandic m.sc n.sc p.sc q.sc r.sc t.sc y.sc y.titl edotbelow odotbelow udotbelow edotbelow.sc udotbelow.sc ii-cy ie-cy ge-cy ka-cy alpha epsilon eta upsilon omicron omega oslash a-cy o-cy yeru-cy ereversed-cy yu-cy ya-cy e-cy hardsign-cy aogonek eogonek uogonek];
 @deep = [g p q y u-cy];
 
@@ -159,7 +160,7 @@ feature mark {
 		<anchor 300 800> mark @marks_above
 		<anchor 300 0> mark @marks_below
 		<anchor 400 0> mark @marks_belowright;
-	pos base [I i idotaccent Idotbelow I-cy Iota i-cy yi-cy idieresis.sc idotaccent.sc Iogonek iogonek] 
+	pos base [I i idotaccent Idotbelow I-cy Iota i-cy yi-cy idieresis.sc idotaccent.sc Iogonek iogonek uni2D3E uni2D53 uni2D5C uni2D64] 
 		<anchor 200 800> mark @marks_above
 		<anchor 200 0> mark @marks_below
 		<anchor 200 0> mark @marks_belowright;
@@ -237,6 +238,12 @@ feature mark {
 		<anchor 400 800> mark @marks_above;
 	pos base [ae ae.sc]
 		<anchor 400 600> mark @marks_above;
+	pos base uni2D30
+		<anchor 300 500> mark @marks_above
+		<anchor 300 0> mark @marks_below;
+	pos base [uni2D42 uni2D4F uni2D51 uni2D57]
+		<anchor 100 800> mark @marks_above
+		<anchor 100 0> mark @marks_below;
 } mark;
 
 # table GDEF {
@@ -366,6 +373,16 @@ feature locl {
 @openR_li = [uniA4D7 uniA4DC uniA4EB uniA4F0 uniA4F2]; # also uniA4AB
 @strokeR_li = [hyphen];
 
+@overhangR_ti = [uni2D36];
+@overhang2R_ti = [uni2D6F];
+@overhang3R_ti = [uni2D38 uni2D64];
+@overhang4R_ti = [uni2D56];
+@underhang3R_ti = [uni2D30 uni2D37 uni2D60];
+@shortR_ti = [uni2D44];
+@strokeR_ti = [uni2D3B uni2D3E uni2D48 uni2D5C uni2D62 uni2D67];
+@curve2R_ti = [uni2D4C uni2D50];
+@openR_ti = [uni2D33 uni2D34 uni2D35 uni2D3C uni2D3D uni2D3F uni2D43 uni2D45 uni2D46 uni2D47 uni2D49 uni2D4A uni2D4B uni2D4E uni2D53 uni2D58 uni2D5B uni2D5D uni2D5E uni2D5F uni2D63 uni2D66];
+
 # Second-of-pair classes
 
 @tallcurve2TL = [A AE AEacute Aacute Abreve Abrevedotbelow Acaron Acircumflex Acircumflexdotbelow Adieresis Adotbelow Agrave Ahookabove Amacron Aogonek Aring Atilde];
@@ -443,6 +460,16 @@ feature locl {
 @openL_li = [uniA4D8 uniA4DC uniA4EB uniA4F1 uniA4F2]; # also uniA4DC
 @strokeL_li = [hyphen uniA4FE];
 
+@overhangL_ti = [uni2D36];
+@overhang2L_ti = [uni2D6F];
+@overhang3L_ti = [uni2D38];
+@overhang4L_ti = [uni2D56];
+@underhang2L_ti = [uni2D43];
+@underhang3L_ti = [uni2D30 uni2D37 uni2D60];
+@curve2L_ti = [uni2D4C uni2D50];
+@shortL_ti = [uni2D44];
+@strokeL_ti = [uni2D3B uni2D48 uni2D5C uni2D62 uni2D66 uni2D67];
+@openL_ti = [uni2D33 uni2D34 uni2D35 uni2D3C uni2D3E uni2D45 uni2D46 uni2D49 uni2D4A uni2D4B uni2D53 uni2D58 uni2D5D uni2D63];
 
 # # Left and right side classes
 # @T = [T Tcaron uni0162 Tcommaaccent Tdotbelow Tmacronbelow];
@@ -775,6 +802,33 @@ feature kern {
 	pos @curve2BR_li @underhangN1L_li -100;
 	pos @openR_li @strokeL_li -100;
 	pos @strokeR_li @openL_li -100;
+
+	script tfng;
+	pos uni2D64 uni2D36 -100;
+	pos @overhangR_ti @underhang2L_ti -100;
+	pos @overhangR_ti @underhang3L_ti -100;
+	pos @overhangR_ti @curve2L_ti -100;
+	pos @overhangR_ti @shortL_ti -100;
+	pos @overhangR_ti @strokeL_ti -100;
+	pos @overhang2R_ti @underhang2L_ti -100;
+	pos @overhang2R_ti @underhang3L_ti -100;
+	pos @overhang2R_ti @shortL_ti -100;
+	pos @overhang2R_ti @strokeL_ti -100;;
+	pos @overhang3R_ti @underhang2L_ti -100;
+	pos @overhang3R_ti @underhang3L_ti -100;
+	pos @overhang4R_ti @underhang2L_ti -100;
+	pos @underhang3R_ti @overhangL_ti -100;
+	pos @underhang3R_ti @overhang2L_ti -100;
+	pos @underhang3R_ti @overhang3L_ti -100;
+	pos @shortR_ti @overhangL_ti -100;
+	pos @shortR_ti @overhang2L_ti -100;
+	pos @strokeR_ti @overhangL_ti -100;
+	pos @strokeR_ti @overhang2L_ti -100;
+	pos @strokeR_ti @underhang2L_ti -100;
+	pos @strokeR_ti @openL_ti -100;
+	pos @curve2R_ti @overhangL_ti -100;
+	pos @openR_ti @strokeL_ti -100;
+
 } kern;
 
 feature tnum {
