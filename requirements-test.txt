@@ -1,2 +1,2 @@
-fontbakery[googlefonts]
-gftools[qa]>=0.9.23
+fontbakery[googlefonts] --upgrade
+gftools[qa]>=0.9.54
