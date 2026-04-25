@@ -38,7 +38,7 @@ Ensure the following programs are installed:
 - [gftools](https://github.com/googlefonts/gftools), for building the fonts from the intermediate UFO sources
 - [sfdLib](https://github.com/MFEK/sfdLib.py), for generating the UFO sources (optional; see **Modifying the fonts** below)
 - [drawbot-skia](https://github.com/justvanrossum/drawbot-skia), for producing the sample images in the `documentation` folder (optional)
-- [Font Bakery](https://github.com/googlefonts/fontbakery/), for testing the fonts (run `test.bat`) (optional)
+- [Fontspector](https://github.com/fonttools/fontspector), for testing the fonts (run `test.bat`) (optional)
 
 After installing Python (and ensuring it is added to the PATH environment variable), the others may be acquired automatically by running `pip install -r requirements.txt` at the command line.
 
