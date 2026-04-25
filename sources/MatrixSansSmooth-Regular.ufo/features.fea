@@ -837,8 +837,8 @@ feature kern {
 	pos @openR_ti @strokeL_ti -100;
 
 	script hebr;
-	pos @overhangL_he @underhangR_he -100;
-	pos @underhangL_he @overhangR_he -100;
+	pos @overhangL_he @underhangR_he <-100 0 -100 0>;
+	pos @underhangL_he @overhangR_he <-100 0 -100 0>;
 } kern;
 
 feature tnum {
