@@ -836,6 +836,9 @@ feature kern {
 	pos @curve2R_ti @overhangL_ti -100;
 	pos @openR_ti @strokeL_ti -100;
 
+	script hebr;
+	pos @overhangL_he @underhangR_he -100;
+	pos @underhangL_he @overhangR_he -100;
 } kern;
 
 feature tnum {
