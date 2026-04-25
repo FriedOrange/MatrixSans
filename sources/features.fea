@@ -16,6 +16,7 @@ languagesystem armn dflt;
 languagesystem geor dflt;
 languagesystem lisu dflt;
 languagesystem tfng dflt;
+languagesystem hebr dflt;
 
 feature aalt {
 	feature c2sc;
@@ -383,6 +384,9 @@ feature locl {
 @curve2R_ti = [uni2D4C uni2D50];
 @openR_ti = [uni2D33 uni2D34 uni2D35 uni2D3C uni2D3D uni2D3F uni2D43 uni2D45 uni2D46 uni2D47 uni2D49 uni2D4A uni2D4B uni2D4E uni2D53 uni2D58 uni2D5B uni2D5D uni2D5E uni2D5F uni2D63 uni2D66];
 
+@overhangL_he = [uni05D3 uni05D5 uni05D6 uni05D9 uni05DA uni05DC uni05DF uni05E3 uni05E5 uni05E8 uni05BE uni05F3 uni05F4 quotesingle quotedbl quoteright quotedblright];
+@underhangL_he = [uni05D2 uni05E2];
+
 # Second-of-pair classes
 
 @tallcurve2TL = [A AE AEacute Aacute Abreve Abrevedotbelow Acaron Acircumflex Acircumflexdotbelow Adieresis Adotbelow Agrave Ahookabove Amacron Aogonek Aring Atilde];
@@ -470,6 +474,9 @@ feature locl {
 @shortL_ti = [uni2D44];
 @strokeL_ti = [uni2D3B uni2D48 uni2D5C uni2D62 uni2D66 uni2D67];
 @openL_ti = [uni2D33 uni2D34 uni2D35 uni2D3C uni2D3E uni2D45 uni2D46 uni2D49 uni2D4A uni2D4B uni2D53 uni2D58 uni2D5D uni2D63];
+
+@overhangR_he = [uni05D3 uni05D6 uni05D9 uni05DC uni05E2 uni05E5 uni05E7 uni05BE uni05F3 uni05F4 quotesingle quotedbl quoteright quotedblright];
+@underhangR_he = [uni05D1];
 
 # # Left and right side classes
 # @T = [T Tcaron uni0162 Tcommaaccent Tdotbelow Tmacronbelow];
