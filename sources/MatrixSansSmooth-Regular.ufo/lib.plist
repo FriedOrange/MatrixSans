@@ -723,6 +723,38 @@
 		<string>eternityleft</string>
 		<string>eternityright</string>
 		<string>dram</string>
+		<string>uni05BE</string>
+		<string>uni05C0</string>
+		<string>uni05C3</string>
+		<string>uni05D0</string>
+		<string>uni05D1</string>
+		<string>uni05D2</string>
+		<string>uni05D3</string>
+		<string>uni05D4</string>
+		<string>uni05D5</string>
+		<string>uni05D6</string>
+		<string>uni05D7</string>
+		<string>uni05D8</string>
+		<string>uni05D9</string>
+		<string>uni05DA</string>
+		<string>uni05DB</string>
+		<string>uni05DC</string>
+		<string>uni05DD</string>
+		<string>uni05DE</string>
+		<string>uni05DF</string>
+		<string>uni05E0</string>
+		<string>uni05E1</string>
+		<string>uni05E2</string>
+		<string>uni05E3</string>
+		<string>uni05E4</string>
+		<string>uni05E5</string>
+		<string>uni05E6</string>
+		<string>uni05E7</string>
+		<string>uni05E8</string>
+		<string>uni05E9</string>
+		<string>uni05EA</string>
+		<string>uni05F3</string>
+		<string>uni05F4</string>
 		<string>baht</string>
 		<string>uni10A0</string>
 		<string>uni10A1</string>
@@ -1329,6 +1361,7 @@
 		<string>men_ini-ar</string>
 		<string>vew_now-ar</string>
 		<string>men_xeh-ar</string>
+		<string>uniFB29</string>
 		<string>u11FB0</string>
 		<string>idotaccent</string>
 		<string>Eng.loclNSM</string>
@@ -3955,6 +3988,70 @@
 		<string>base</string>
 		<key>uni0475</key>
 		<string>base</string>
+		<key>uni05BE</key>
+		<string>base</string>
+		<key>uni05C0</key>
+		<string>base</string>
+		<key>uni05C3</key>
+		<string>base</string>
+		<key>uni05D0</key>
+		<string>base</string>
+		<key>uni05D1</key>
+		<string>base</string>
+		<key>uni05D2</key>
+		<string>base</string>
+		<key>uni05D3</key>
+		<string>base</string>
+		<key>uni05D4</key>
+		<string>base</string>
+		<key>uni05D5</key>
+		<string>base</string>
+		<key>uni05D6</key>
+		<string>base</string>
+		<key>uni05D7</key>
+		<string>base</string>
+		<key>uni05D8</key>
+		<string>base</string>
+		<key>uni05D9</key>
+		<string>base</string>
+		<key>uni05DA</key>
+		<string>base</string>
+		<key>uni05DB</key>
+		<string>base</string>
+		<key>uni05DC</key>
+		<string>base</string>
+		<key>uni05DD</key>
+		<string>base</string>
+		<key>uni05DE</key>
+		<string>base</string>
+		<key>uni05DF</key>
+		<string>base</string>
+		<key>uni05E0</key>
+		<string>base</string>
+		<key>uni05E1</key>
+		<string>base</string>
+		<key>uni05E2</key>
+		<string>base</string>
+		<key>uni05E3</key>
+		<string>base</string>
+		<key>uni05E4</key>
+		<string>base</string>
+		<key>uni05E5</key>
+		<string>base</string>
+		<key>uni05E6</key>
+		<string>base</string>
+		<key>uni05E7</key>
+		<string>base</string>
+		<key>uni05E8</key>
+		<string>base</string>
+		<key>uni05E9</key>
+		<string>base</string>
+		<key>uni05EA</key>
+		<string>base</string>
+		<key>uni05F3</key>
+		<string>base</string>
+		<key>uni05F4</key>
+		<string>base</string>
 		<key>uni10A0</key>
 		<string>base</string>
 		<key>uni10A1</key>
@@ -4598,6 +4695,8 @@
 		<key>uniA4FE</key>
 		<string>base</string>
 		<key>uniA4FF</key>
+		<string>base</string>
+		<key>uniFB29</key>
 		<string>base</string>
 		<key>uogonek</key>
 		<string>base</string>
