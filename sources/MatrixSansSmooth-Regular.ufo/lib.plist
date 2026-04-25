@@ -724,7 +724,6 @@
 		<string>eternityright</string>
 		<string>dram</string>
 		<string>uni05BE</string>
-		<string>uni05C0</string>
 		<string>uni05C3</string>
 		<string>uni05D0</string>
 		<string>uni05D1</string>
@@ -1044,6 +1043,9 @@
 		<string>uni2008</string>
 		<string>uni2009</string>
 		<string>uni200A</string>
+		<string>uni200B</string>
+		<string>uni200C</string>
+		<string>uni200D</string>
 		<string>uni2010</string>
 		<string>uni2011</string>
 		<string>figuredash</string>
@@ -1063,6 +1065,8 @@
 		<string>bullet</string>
 		<string>onedotenleader</string>
 		<string>ellipsis</string>
+		<string>uni2028</string>
+		<string>uni2029</string>
 		<string>perthousand</string>
 		<string>minute</string>
 		<string>second</string>
@@ -3990,8 +3994,6 @@
 		<string>base</string>
 		<key>uni05BE</key>
 		<string>base</string>
-		<key>uni05C0</key>
-		<string>base</string>
 		<key>uni05C3</key>
 		<string>base</string>
 		<key>uni05D0</key>
@@ -4336,11 +4338,21 @@
 		<string>base</string>
 		<key>uni200A</key>
 		<string>base</string>
+		<key>uni200B</key>
+		<string>base</string>
+		<key>uni200C</key>
+		<string>base</string>
+		<key>uni200D</key>
+		<string>base</string>
 		<key>uni2010</key>
 		<string>base</string>
 		<key>uni2011</key>
 		<string>base</string>
 		<key>uni2015</key>
+		<string>base</string>
+		<key>uni2028</key>
+		<string>base</string>
+		<key>uni2029</key>
 		<string>base</string>
 		<key>uni203D</key>
 		<string>base</string>

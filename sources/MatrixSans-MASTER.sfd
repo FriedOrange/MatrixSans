@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1657964544
-ModificationTime: 1777098788
+ModificationTime: 1777100415
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -64,12 +64,12 @@ NameList: MatrixSans
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 1392 16 12
+WinInfo: 8176 16 12
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 629146 314573 209715 524288 1048576 0 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "marks_above"""  "marks_below"""  "ogonek"""  "marks_aboveright""" 
-BeginChars: 1114403 1649
+BeginChars: 1114403 1653
 
 StartChar: dot
 Encoding: 1114112 -1 0
@@ -26147,18 +26147,39 @@ Fore
 Refer: 3 34 N 1 0 0 1 0 -100 3
 EndChar
 
-StartChar: uni05C0
-Encoding: 1472 1472 1648
-Width: 200
-Flags: HMWO
+StartChar: uni200B
+Encoding: 8203 8203 1648
+Width: 0
+Flags: HW
 LayerCount: 2
-Fore
-Refer: 0 -1 N 1 0 0 1 50 0 2
-Refer: 0 -1 N 1 0 0 1 50 100 2
-Refer: 0 -1 N 1 0 0 1 50 200 2
-Refer: 0 -1 N 1 0 0 1 50 300 2
-Refer: 0 -1 N 1 0 0 1 50 400 2
-Refer: 0 -1 N 1 0 0 1 50 500 2
+EndChar
+
+StartChar: uni200C
+Encoding: 8204 8204 1649
+Width: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni200D
+Encoding: 8205 8205 1650
+Width: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni2028
+Encoding: 8232 8232 1651
+Width: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni2029
+Encoding: 8233 8233 1652
+Width: 0
+Flags: HW
+LayerCount: 2
 EndChar
 EndChars
 EndSplineFont

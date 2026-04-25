@@ -2360,8 +2360,6 @@
     <string>uni0475.glif</string>
     <key>uni05BE</key>
     <string>uni05B_E_.glif</string>
-    <key>uni05C0</key>
-    <string>uni05C_0.glif</string>
     <key>uni05C3</key>
     <string>uni05C_3.glif</string>
     <key>uni05D0</key>
@@ -2706,12 +2704,22 @@
     <string>uni2009.glif</string>
     <key>uni200A</key>
     <string>uni200A_.glif</string>
+    <key>uni200B</key>
+    <string>uni200B_.glif</string>
+    <key>uni200C</key>
+    <string>uni200C_.glif</string>
+    <key>uni200D</key>
+    <string>uni200D_.glif</string>
     <key>uni2010</key>
     <string>uni2010.glif</string>
     <key>uni2011</key>
     <string>uni2011.glif</string>
     <key>uni2015</key>
     <string>uni2015.glif</string>
+    <key>uni2028</key>
+    <string>uni2028.glif</string>
+    <key>uni2029</key>
+    <string>uni2029.glif</string>
     <key>uni203D</key>
     <string>uni203D_.glif</string>
     <key>uni205A</key>
