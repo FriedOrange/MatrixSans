@@ -372,7 +372,7 @@ feature locl {
 @curve2TR_li = [uniA4EE];
 @curve2BR_li = [uniA4EF];
 @openR_li = [uniA4D7 uniA4DC uniA4EB uniA4F0 uniA4F2]; # also uniA4AB
-@strokeR_li = [hyphen];
+@strokeR_li = [hyphen uni2010];
 
 @overhangR_ti = [uni2D36];
 @overhang2R_ti = [uni2D6F];
@@ -462,7 +462,7 @@ feature locl {
 @curve2BL_li = [uniA4EF];
 @shortL_li = [uniA4FD colon];
 @openL_li = [uniA4D8 uniA4DC uniA4EB uniA4F1 uniA4F2]; # also uniA4DC
-@strokeL_li = [hyphen uniA4FE];
+@strokeL_li = [hyphen uniA4FE uni2010];
 
 @overhangL_ti = [uni2D36];
 @overhang2L_ti = [uni2D6F];
