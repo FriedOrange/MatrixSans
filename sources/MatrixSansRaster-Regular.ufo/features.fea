@@ -364,11 +364,11 @@ feature locl {
 @overhangR_li = [uniA4D4 uniA4DD quoteleft quotedblleft];
 @overhang2R_li = [uniA4E9 uniA4EC];
 @overhang3R_li = [uniA4D1 uniA4E6 quotesingle quotedbl];
-@underhangR_li = [uniA4D5 uniA4E1 uniA4F8 uniA4FA uniA4FE];
-@underhang2R_li = [uniA4F9 uniA4FB u11FB0];
+@underhangR_li = [uniA4D5 uniA4E1 uniA4F8 uniA4FA uniA4FE period];
+@underhang2R_li = [uniA4F9 uniA4FB u11FB0 comma];
 @underhang3R_li = [uniA4E5 uni02D7];
 @underhangN1R_li = [uni02CD];
-@curve2R_li = [uniA4D3 uniA4FF];
+@curve2R_li = [uniA4D3 uniA4FF equal];
 @curve2TR_li = [uniA4EE];
 @curve2BR_li = [uniA4EF];
 @openR_li = [uniA4D7 uniA4DC uniA4EB uniA4F0 uniA4F2]; # also uniA4AB
@@ -452,15 +452,15 @@ feature locl {
 @overhangL_li = [uniA4D4 uniA4F6];
 @overhang2L_li = [uniA4EC];
 @overhang3L_li = [uniA4E6 quotesingle quotedbl quoteright quotedblright];
-@underhangL_li = [uniA4D5 uniA4DE uniA4F8 uniA4FA uniA4FB];
+@underhangL_li = [uniA4D5 uniA4DE uniA4F8 uniA4FA uniA4FB period];
 @underhang2L_li = [uniA4D9 u11FB0];
 @underhang3L_li = [uniA4D2 uniA4E5 uni02D7];
-@underhangN1L_li = [uniA4F9 uniA4FC uni02CD];
+@underhangN1L_li = [uniA4F9 uniA4FC uni02CD semicolon comma];
 @curveBL_li = [uniA4D6 uniA4DA uniA4DB uniA4E2 uniA4E4 uniA4E8 uniA4EA uniA4ED uniA4F4 uniA4F5]; # also uniA4D9 uniA4E2
-@curve2L_li = [uniA4F7 uniA4FF];
+@curve2L_li = [uniA4F7 uniA4FF equal];
 @curve2TL_li = [uniA4EE];
 @curve2BL_li = [uniA4EF];
-@shortL_li = [uniA4FD];
+@shortL_li = [uniA4FD colon];
 @openL_li = [uniA4D8 uniA4DC uniA4EB uniA4F1 uniA4F2]; # also uniA4DC
 @strokeL_li = [hyphen uniA4FE];
 
