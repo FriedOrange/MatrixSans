@@ -17,10 +17,23 @@ It comes in five variants:
 - Video, with interpolation on diagonal sections
 - Smooth, with straight lines on diagonal sections
 
-Further documentation can be found at: https://github.com/FriedOrange/MatrixSans
+Further information can be found at: https://friedorange.github.io/MatrixSans/
+
+The official git repository, containing sources and build scripts, can be found at: https://github.com/FriedOrange/MatrixSans
+
+License
+-------
+
+This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at https://scripts.sil.org/OFL
 
 Changelog
 ---------
+
+26 April 2026 - Version 1.700
+
+- Added Lisu (Fraser) script
+- Added Tifinagh script
+- Added Hebrew script (basic alphabet only; no points, etc.)
 
 18 October 2025 - Version 1.600
 

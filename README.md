@@ -64,6 +64,12 @@ To easily add or modify glyphs (requires [FontForge](https://fontforge.org/)):
 
 ## Changelog
 
+#### 26 April 2026 - Version 1.700
+
+- Added Lisu (Fraser) script
+- Added Tifinagh script
+- Added Hebrew script (basic alphabet only; no points, etc.)
+
 #### 18 October 2025 - Version 1.600
 
 - Added **Smooth** style: interpolated like Video but with completely smooth diagonals
