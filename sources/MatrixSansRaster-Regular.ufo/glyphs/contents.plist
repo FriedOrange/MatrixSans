@@ -102,6 +102,8 @@
     <string>C_heh-ar.glif</string>
     <key>Chi</key>
     <string>C_hi.glif</string>
+    <key>Chilatin</key>
+    <string>C_hilatin.glif</string>
     <key>Co-ar</key>
     <string>C_o-ar.glif</string>
     <key>Cslash</key>
@@ -1022,6 +1024,8 @@
     <string>chi.glif</string>
     <key>chi.sc</key>
     <string>chi.sc.glif</string>
+    <key>chilatin</key>
+    <string>chilatin.glif</string>
     <key>circle</key>
     <string>circle.glif</string>
     <key>circumflex</key>
@@ -3226,8 +3230,6 @@
     <string>uniA_4F_F_.glif</string>
     <key>uniA7AE</key>
     <string>uniA_7A_E_.glif</string>
-    <key>uniAB53</key>
-    <string>uniA_B_53.glif</string>
     <key>uniFB29</key>
     <string>uniF_B_29.glif</string>
     <key>uogonek</key>

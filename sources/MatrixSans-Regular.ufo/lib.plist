@@ -1426,8 +1426,9 @@
 		<string>Gsingle</string>
 		<string>Lbelt</string>
 		<string>uniA7AE</string>
+		<string>Chilatin</string>
 		<string>Lambdalatinbar</string>
-		<string>uniAB53</string>
+		<string>chilatin</string>
 		<string>f_f</string>
 		<string>f_i</string>
 		<string>f_l</string>
@@ -1817,6 +1818,8 @@
 		<key>Cheh-ar</key>
 		<string>base</string>
 		<key>Chi</key>
+		<string>base</string>
+		<key>Chilatin</key>
 		<string>base</string>
 		<key>Co-ar</key>
 		<string>base</string>
@@ -2737,6 +2740,8 @@
 		<key>chi</key>
 		<string>base</string>
 		<key>chi.sc</key>
+		<string>base</string>
+		<key>chilatin</key>
 		<string>base</string>
 		<key>circle</key>
 		<string>base</string>
@@ -4942,8 +4947,6 @@
 		<string>base</string>
 		<key>uniA7AE</key>
 		<string>base</string>
-		<key>uniAB53</key>
-		<string>base</string>
 		<key>uniFB29</key>
 		<string>base</string>
 		<key>uogonek</key>
@@ -6323,6 +6326,8 @@
 		<string>uni1E95</string>
 		<key>saltillo</key>
 		<string>uniA78C</string>
+		<key>chilatin</key>
+		<string>uniAB53</string>
 		<key>Gammalatin</key>
 		<string>uni0194</string>
 		<key>Ibar</key>
@@ -6383,6 +6388,8 @@
 		<string>uniA7AC</string>
 		<key>Lambdalatinbar</key>
 		<string>uniA7DC</string>
+		<key>Chilatin</key>
+		<string>uniA7B3</string>
 	</dict>
 	<key>public.openTypeMeta</key>
 	<dict>
