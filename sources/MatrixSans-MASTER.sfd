@@ -64,7 +64,7 @@ NameList: MatrixSans
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 1114224 16 12
+WinInfo: 16 16 12
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 629146 314573 209715 524288 1048576 0 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
@@ -26308,7 +26308,7 @@ Fore
 Refer: 395 -1 S 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni0269
+StartChar: iotalatin
 Encoding: 617 617 1665
 Width: 400
 Flags: HW
@@ -26480,7 +26480,7 @@ Refer: 490 817 N 1 0 0 1 300 0 2
 Refer: 91 122 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uniA78C
+StartChar: saltillo
 Encoding: 42892 42892 1682
 Width: 200
 Flags: HW
@@ -26526,7 +26526,7 @@ Fore
 Refer: 109 175 N 1 0 0 1 -200 -500 2
 EndChar
 
-StartChar: uni0194
+StartChar: Gammalatin
 Encoding: 404 404 1687
 Width: 600
 Flags: HW
@@ -26596,7 +26596,7 @@ Refer: 0 -1 N 1 0 0 1 150 600 2
 Refer: 0 -1 N 1 0 0 1 50 600 2
 EndChar
 
-StartChar: uni01B1
+StartChar: Upsilonlatin
 Encoding: 433 433 1691
 Width: 600
 Flags: HW
@@ -26846,7 +26846,7 @@ Refer: 0 -1 N 1 0 0 1 250 400 2
 Refer: 0 -1 N 1 0 0 1 150 400 2
 EndChar
 
-StartChar: uni0263
+StartChar: gammalatin
 Encoding: 611 611 1702
 Width: 600
 Flags: HW
@@ -27004,7 +27004,7 @@ Refer: 0 -1 N 1 0 0 1 250 700 2
 Refer: 0 -1 N 1 0 0 1 150 700 2
 EndChar
 
-StartChar: Ltilde
+StartChar: Lmiddletilde
 Encoding: 11362 11362 1711
 Width: 700
 Flags: HW
@@ -27073,7 +27073,7 @@ Refer: 0 -1 N 1 0 0 1 150 500 2
 Refer: 0 -1 N 1 0 0 1 150 600 2
 EndChar
 
-StartChar: uniA78B
+StartChar: Saltillo
 Encoding: 42891 42891 1714
 Width: 200
 Flags: HW
@@ -27101,7 +27101,7 @@ Refer: 0 -1 N 1 0 0 1 150 400 2
 Refer: 0 -1 N 1 0 0 1 50 400 2
 EndChar
 
-StartChar: ltilde
+StartChar: lmiddletilde
 Encoding: 619 619 1716
 Width: 600
 Flags: HW
@@ -27145,7 +27145,7 @@ Refer: 0 -1 N 1 0 0 1 250 600 2
 Refer: 0 -1 N 1 0 0 1 150 600 2
 EndChar
 
-StartChar: uniA7AD
+StartChar: Lbelt
 Encoding: 42925 42925 1718
 Width: 700
 Flags: HW

@@ -329,7 +329,7 @@
 		<string>Schwa</string>
 		<string>Eopen</string>
 		<string>florin</string>
-		<string>uni0194</string>
+		<string>Gammalatin</string>
 		<string>Ibar</string>
 		<string>Khook</string>
 		<string>khook</string>
@@ -340,7 +340,7 @@
 		<string>ohorn</string>
 		<string>Uhorn</string>
 		<string>uhorn</string>
-		<string>uni01B1</string>
+		<string>Upsilonlatin</string>
 		<string>Yhook</string>
 		<string>yhook</string>
 		<string>Ezh</string>
@@ -403,10 +403,10 @@
 		<string>schwa</string>
 		<string>eopen</string>
 		<string>gsingle</string>
-		<string>uni0263</string>
-		<string>uni0269</string>
+		<string>gammalatin</string>
+		<string>iotalatin</string>
 		<string>uni026A</string>
-		<string>ltilde</string>
+		<string>lmiddletilde</string>
 		<string>lbelt</string>
 		<string>nhookleft</string>
 		<string>uni028A</string>
@@ -1264,7 +1264,7 @@
 		<string>diamond</string>
 		<string>leftanglebracket_math</string>
 		<string>rightanglebracket_math</string>
-		<string>Ltilde</string>
+		<string>Lmiddletilde</string>
 		<string>aslash</string>
 		<string>tslash</string>
 		<string>uni2D00</string>
@@ -1417,9 +1417,9 @@
 		<string>uniA4FD</string>
 		<string>uniA4FE</string>
 		<string>uniA4FF</string>
-		<string>uniA78B</string>
-		<string>uniA78C</string>
-		<string>uniA7AD</string>
+		<string>Saltillo</string>
+		<string>saltillo</string>
+		<string>Lbelt</string>
 		<string>uniAB53</string>
 		<string>f_f</string>
 		<string>f_i</string>
@@ -1943,6 +1943,8 @@
 		<string>base</string>
 		<key>Gamma</key>
 		<string>base</string>
+		<key>Gammalatin</key>
+		<string>base</string>
 		<key>Gbar</key>
 		<string>base</string>
 		<key>Gbreve</key>
@@ -2083,6 +2085,8 @@
 		<string>base</string>
 		<key>Lbar</key>
 		<string>base</string>
+		<key>Lbelt</key>
+		<string>base</string>
 		<key>Lcaron</key>
 		<string>base</string>
 		<key>Lcommaaccent</key>
@@ -2099,9 +2103,9 @@
 		<string>base</string>
 		<key>Lmacronbelow</key>
 		<string>base</string>
-		<key>Lslash</key>
+		<key>Lmiddletilde</key>
 		<string>base</string>
-		<key>Ltilde</key>
+		<key>Lslash</key>
 		<string>base</string>
 		<key>M</key>
 		<string>base</string>
@@ -2259,6 +2263,8 @@
 		<string>base</string>
 		<key>Sacute</key>
 		<string>base</string>
+		<key>Saltillo</key>
+		<string>base</string>
 		<key>Scaron</key>
 		<string>base</string>
 		<key>Scedilla</key>
@@ -2372,6 +2378,8 @@
 		<key>Upsilon</key>
 		<string>base</string>
 		<key>Upsilondieresis</key>
+		<string>base</string>
+		<key>Upsilonlatin</key>
 		<string>base</string>
 		<key>Upsilontonos</key>
 		<string>base</string>
@@ -3061,6 +3069,8 @@
 		<string>base</string>
 		<key>gamma.sc</key>
 		<string>base</string>
+		<key>gammalatin</key>
+		<string>base</string>
 		<key>gammalatin.sc</key>
 		<string>base</string>
 		<key>gbar</key>
@@ -3277,6 +3287,8 @@
 		<string>base</string>
 		<key>iotadieresistonos.sc</key>
 		<string>base</string>
+		<key>iotalatin</key>
+		<string>base</string>
 		<key>iotatonos</key>
 		<string>base</string>
 		<key>iotatonos.sc</key>
@@ -3423,6 +3435,8 @@
 		<string>base</string>
 		<key>lmacronbelow.sc</key>
 		<string>base</string>
+		<key>lmiddletilde</key>
+		<string>base</string>
 		<key>lmiddletilde.sc</key>
 		<string>base</string>
 		<key>logicalnot</key>
@@ -3436,8 +3450,6 @@
 		<key>lslash</key>
 		<string>base</string>
 		<key>lslash.sc</key>
-		<string>base</string>
-		<key>ltilde</key>
 		<string>base</string>
 		<key>m</key>
 		<string>base</string>
@@ -3833,6 +3845,8 @@
 		<string>base</string>
 		<key>sacute</key>
 		<string>base</string>
+		<key>saltillo</key>
+		<string>base</string>
 		<key>saltillo.sc</key>
 		<string>base</string>
 		<key>scaron</key>
@@ -4113,19 +4127,11 @@
 		<string>base</string>
 		<key>uni00A0</key>
 		<string>base</string>
-		<key>uni0194</key>
-		<string>base</string>
-		<key>uni01B1</key>
-		<string>base</string>
 		<key>uni01C2</key>
 		<string>base</string>
 		<key>uni0241</key>
 		<string>base</string>
 		<key>uni0242</key>
-		<string>base</string>
-		<key>uni0263</key>
-		<string>base</string>
-		<key>uni0269</key>
 		<string>base</string>
 		<key>uni026A</key>
 		<string>base</string>
@@ -4914,12 +4920,6 @@
 		<key>uniA4FE</key>
 		<string>base</string>
 		<key>uniA4FF</key>
-		<string>base</string>
-		<key>uniA78B</key>
-		<string>base</string>
-		<key>uniA78C</key>
-		<string>base</string>
-		<key>uniA7AD</key>
 		<string>base</string>
 		<key>uniAB53</key>
 		<string>base</string>
@@ -6266,6 +6266,8 @@
 		<string>uni01EF</string>
 		<key>jcaron</key>
 		<string>uni01F0</string>
+		<key>iotalatin</key>
+		<string>uni0269</string>
 		<key>Emacrongrave</key>
 		<string>uni1E14</string>
 		<key>emacrongrave</key>
@@ -6298,12 +6300,18 @@
 		<string>uni1E94</string>
 		<key>zmacronbelow</key>
 		<string>uni1E95</string>
+		<key>saltillo</key>
+		<string>uniA78C</string>
+		<key>Gammalatin</key>
+		<string>uni0194</string>
 		<key>Ibar</key>
 		<string>uni0197</string>
 		<key>lambdastroke</key>
 		<string>uni019B</string>
 		<key>lbar</key>
 		<string>uni019A</string>
+		<key>Upsilonlatin</key>
+		<string>uni01B1</string>
 		<key>Gbar</key>
 		<string>uni01E4</string>
 		<key>gbar</key>
@@ -6318,6 +6326,8 @@
 		<string>uni023D</string>
 		<key>Tslash</key>
 		<string>uni023E</string>
+		<key>gammalatin</key>
+		<string>uni0263</string>
 		<key>wmod</key>
 		<string>uni02B7</string>
 		<key>ymod</key>
@@ -6326,16 +6336,20 @@
 		<string>uni1DBB</string>
 		<key>thetamod</key>
 		<string>uni1DBF</string>
-		<key>Ltilde</key>
+		<key>Lmiddletilde</key>
 		<string>uni2C62</string>
 		<key>aslash</key>
 		<string>uni2C65</string>
 		<key>tslash</key>
 		<string>uni2C66</string>
-		<key>ltilde</key>
+		<key>Saltillo</key>
+		<string>uniA78B</string>
+		<key>lmiddletilde</key>
 		<string>uni026B</string>
 		<key>lbelt</key>
 		<string>uni026C</string>
+		<key>Lbelt</key>
+		<string>uniA7AD</string>
 	</dict>
 	<key>public.openTypeMeta</key>
 	<dict>

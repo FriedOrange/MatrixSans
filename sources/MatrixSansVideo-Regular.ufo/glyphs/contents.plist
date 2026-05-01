@@ -234,6 +234,8 @@
     <string>G_.glif</string>
     <key>Gamma</key>
     <string>G_amma.glif</string>
+    <key>Gammalatin</key>
+    <string>G_ammalatin.glif</string>
     <key>Gbar</key>
     <string>G_bar.glif</string>
     <key>Gbreve</key>
@@ -374,6 +376,8 @@
     <string>L_ambda.glif</string>
     <key>Lbar</key>
     <string>L_bar.glif</string>
+    <key>Lbelt</key>
+    <string>L_belt.glif</string>
     <key>Lcaron</key>
     <string>L_caron.glif</string>
     <key>Lcommaaccent</key>
@@ -390,10 +394,10 @@
     <string>L_je-cy.glif</string>
     <key>Lmacronbelow</key>
     <string>L_macronbelow.glif</string>
+    <key>Lmiddletilde</key>
+    <string>L_middletilde.glif</string>
     <key>Lslash</key>
     <string>L_slash.glif</string>
-    <key>Ltilde</key>
-    <string>L_tilde.glif</string>
     <key>M</key>
     <string>M_.glif</string>
     <key>Macute</key>
@@ -550,6 +554,8 @@
     <string>S_.glif</string>
     <key>Sacute</key>
     <string>S_acute.glif</string>
+    <key>Saltillo</key>
+    <string>S_altillo.glif</string>
     <key>Scaron</key>
     <string>S_caron.glif</string>
     <key>Scedilla</key>
@@ -664,6 +670,8 @@
     <string>U_psilon.glif</string>
     <key>Upsilondieresis</key>
     <string>U_psilondieresis.glif</string>
+    <key>Upsilonlatin</key>
+    <string>U_psilonlatin.glif</string>
     <key>Upsilontonos</key>
     <string>U_psilontonos.glif</string>
     <key>Uring</key>
@@ -1352,6 +1360,8 @@
     <string>gamma.glif</string>
     <key>gamma.sc</key>
     <string>gamma.sc.glif</string>
+    <key>gammalatin</key>
+    <string>gammalatin.glif</string>
     <key>gammalatin.sc</key>
     <string>gammalatin.sc.glif</string>
     <key>gbar</key>
@@ -1568,6 +1578,8 @@
     <string>iotadieresistonos.glif</string>
     <key>iotadieresistonos.sc</key>
     <string>iotadieresistonos.sc.glif</string>
+    <key>iotalatin</key>
+    <string>iotalatin.glif</string>
     <key>iotatonos</key>
     <string>iotatonos.glif</string>
     <key>iotatonos.sc</key>
@@ -1714,6 +1726,8 @@
     <string>lmacronbelow.glif</string>
     <key>lmacronbelow.sc</key>
     <string>lmacronbelow.sc.glif</string>
+    <key>lmiddletilde</key>
+    <string>lmiddletilde.glif</string>
     <key>lmiddletilde.sc</key>
     <string>lmiddletilde.sc.glif</string>
     <key>logicalnot</key>
@@ -1728,8 +1742,6 @@
     <string>lslash.glif</string>
     <key>lslash.sc</key>
     <string>lslash.sc.glif</string>
-    <key>ltilde</key>
-    <string>ltilde.glif</string>
     <key>m</key>
     <string>m.glif</string>
     <key>m.sc</key>
@@ -2124,6 +2136,8 @@
     <string>s.glif</string>
     <key>sacute</key>
     <string>sacute.glif</string>
+    <key>saltillo</key>
+    <string>saltillo.glif</string>
     <key>saltillo.sc</key>
     <string>saltillo.sc.glif</string>
     <key>scaron</key>
@@ -2404,20 +2418,12 @@
     <string>underscore.glif</string>
     <key>uni00A0</key>
     <string>uni00A_0.glif</string>
-    <key>uni0194</key>
-    <string>uni0194.glif</string>
-    <key>uni01B1</key>
-    <string>uni01B_1.glif</string>
     <key>uni01C2</key>
     <string>uni01C_2.glif</string>
     <key>uni0241</key>
     <string>uni0241.glif</string>
     <key>uni0242</key>
     <string>uni0242.glif</string>
-    <key>uni0263</key>
-    <string>uni0263.glif</string>
-    <key>uni0269</key>
-    <string>uni0269.glif</string>
     <key>uni026A</key>
     <string>uni026A_.glif</string>
     <key>uni028A</key>
@@ -3206,12 +3212,6 @@
     <string>uniA_4F_E_.glif</string>
     <key>uniA4FF</key>
     <string>uniA_4F_F_.glif</string>
-    <key>uniA78B</key>
-    <string>uniA_78B_.glif</string>
-    <key>uniA78C</key>
-    <string>uniA_78C_.glif</string>
-    <key>uniA7AD</key>
-    <string>uniA_7A_D_.glif</string>
     <key>uniAB53</key>
     <string>uniA_B_53.glif</string>
     <key>uniFB29</key>
