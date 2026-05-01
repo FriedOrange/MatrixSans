@@ -1425,6 +1425,7 @@
 		<string>saltillo</string>
 		<string>Gsingle</string>
 		<string>Lbelt</string>
+		<string>uniA7AE</string>
 		<string>Lambdalatinbar</string>
 		<string>uniAB53</string>
 		<string>f_f</string>
@@ -4938,6 +4939,8 @@
 		<key>uniA4FE</key>
 		<string>base</string>
 		<key>uniA4FF</key>
+		<string>base</string>
+		<key>uniA7AE</key>
 		<string>base</string>
 		<key>uniAB53</key>
 		<string>base</string>
