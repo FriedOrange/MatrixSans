@@ -6385,6 +6385,8 @@
 			<string>Grek</string>
 			<string>Armn</string>
 			<string>Geor</string>
+			<string>Lisu</string>
+			<string>Tfng</string>
 		</array>
 		<key>slng</key>
 		<array>
@@ -6393,6 +6395,9 @@
 			<string>Grek</string>
 			<string>Armn</string>
 			<string>Geor</string>
+			<string>Lisu</string>
+			<string>Tfng</string>
+			<string>Hebr</string>
 		</array>
 	</dict>
 </dict>
