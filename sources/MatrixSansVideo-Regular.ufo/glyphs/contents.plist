@@ -382,6 +382,8 @@
     <string>L_acute.glif</string>
     <key>Lambda</key>
     <string>L_ambda.glif</string>
+    <key>Lambdalatinbar</key>
+    <string>L_ambdalatinbar.glif</string>
     <key>Lbar</key>
     <string>L_bar.glif</string>
     <key>Lbelt</key>
@@ -1676,8 +1678,8 @@
     <string>lambda.glif</string>
     <key>lambda.sc</key>
     <string>lambda.sc.glif</string>
-    <key>lambdastroke</key>
-    <string>lambdastroke.glif</string>
+    <key>lambdalatinbar</key>
+    <string>lambdalatinbar.glif</string>
     <key>lari</key>
     <string>lari.glif</string>
     <key>lbar</key>

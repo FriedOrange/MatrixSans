@@ -336,7 +336,7 @@
 		<string>Khook</string>
 		<string>khook</string>
 		<string>lbar</string>
-		<string>lambdastroke</string>
+		<string>lambdalatinbar</string>
 		<string>Nhookleft</string>
 		<string>Ohorn</string>
 		<string>ohorn</string>
@@ -1425,6 +1425,7 @@
 		<string>saltillo</string>
 		<string>Gsingle</string>
 		<string>Lbelt</string>
+		<string>Lambdalatinbar</string>
 		<string>uniAB53</string>
 		<string>f_f</string>
 		<string>f_i</string>
@@ -2095,6 +2096,8 @@
 		<key>Lacute</key>
 		<string>base</string>
 		<key>Lambda</key>
+		<string>base</string>
+		<key>Lambdalatinbar</key>
 		<string>base</string>
 		<key>Lbar</key>
 		<string>base</string>
@@ -3390,7 +3393,7 @@
 		<string>base</string>
 		<key>lambda.sc</key>
 		<string>base</string>
-		<key>lambdastroke</key>
+		<key>lambdalatinbar</key>
 		<string>base</string>
 		<key>lari</key>
 		<string>base</string>
@@ -6321,7 +6324,7 @@
 		<string>uni0194</string>
 		<key>Ibar</key>
 		<string>uni0197</string>
-		<key>lambdastroke</key>
+		<key>lambdalatinbar</key>
 		<string>uni019B</string>
 		<key>lbar</key>
 		<string>uni019A</string>
@@ -6375,6 +6378,8 @@
 		<string>uni2C6D</string>
 		<key>Gsingle</key>
 		<string>uniA7AC</string>
+		<key>Lambdalatinbar</key>
+		<string>uniA7DC</string>
 	</dict>
 	<key>public.openTypeMeta</key>
 	<dict>
