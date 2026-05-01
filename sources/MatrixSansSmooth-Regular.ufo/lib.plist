@@ -1718,6 +1718,7 @@
 		<string>lmiddletilde.sc</string>
 		<string>lbelt.sc</string>
 		<string>saltillo.sc</string>
+		<string>lambdalatinbar.sc</string>
 	</array>
 	<key>public.openTypeCategories</key>
 	<dict>
@@ -3400,6 +3401,8 @@
 		<key>lambda.sc</key>
 		<string>base</string>
 		<key>lambdalatinbar</key>
+		<string>base</string>
+		<key>lambdalatinbar.sc</key>
 		<string>base</string>
 		<key>lari</key>
 		<string>base</string>

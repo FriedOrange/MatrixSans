@@ -1684,6 +1684,8 @@
     <string>lambda.sc.glif</string>
     <key>lambdalatinbar</key>
     <string>lambdalatinbar.glif</string>
+    <key>lambdalatinbar.sc</key>
+    <string>lambdalatinbar.sc.glif</string>
     <key>lari</key>
     <string>lari.glif</string>
     <key>lbar</key>
