@@ -892,6 +892,8 @@
     <string>asciitilde.glif</string>
     <key>aslash</key>
     <string>aslash.glif</string>
+    <key>aslash.sc</key>
+    <string>aslash.sc.glif</string>
     <key>asterisk</key>
     <string>asterisk.glif</string>
     <key>at</key>
@@ -1350,8 +1352,12 @@
     <string>gamma.glif</string>
     <key>gamma.sc</key>
     <string>gamma.sc.glif</string>
+    <key>gammalatin.sc</key>
+    <string>gammalatin.sc.glif</string>
     <key>gbar</key>
     <string>gbar.glif</string>
+    <key>gbar.sc</key>
+    <string>gbar.sc.glif</string>
     <key>gbreve</key>
     <string>gbreve.glif</string>
     <key>gbreve.sc</key>
@@ -1476,6 +1482,8 @@
     <string>iacute.glif</string>
     <key>iacute.sc</key>
     <string>iacute.sc.glif</string>
+    <key>ibar.sc</key>
+    <string>ibar.sc.glif</string>
     <key>ibreve</key>
     <string>ibreve.glif</string>
     <key>ibreve.sc</key>
@@ -1652,8 +1660,12 @@
     <string>lari.glif</string>
     <key>lbar</key>
     <string>lbar.glif</string>
+    <key>lbar.sc</key>
+    <string>lbar.sc.glif</string>
     <key>lbelt</key>
     <string>lbelt.glif</string>
+    <key>lbelt.sc</key>
+    <string>lbelt.sc.glif</string>
     <key>lcaron</key>
     <string>lcaron.glif</string>
     <key>lcaron.sc</key>
@@ -1702,6 +1714,8 @@
     <string>lmacronbelow.glif</string>
     <key>lmacronbelow.sc</key>
     <string>lmacronbelow.sc.glif</string>
+    <key>lmiddletilde.sc</key>
+    <string>lmiddletilde.sc.glif</string>
     <key>logicalnot</key>
     <string>logicalnot.glif</string>
     <key>longs</key>
@@ -2110,6 +2124,8 @@
     <string>s.glif</string>
     <key>sacute</key>
     <string>sacute.glif</string>
+    <key>saltillo.sc</key>
+    <string>saltillo.sc.glif</string>
     <key>scaron</key>
     <string>scaron.glif</string>
     <key>scedilla</key>
@@ -2280,6 +2296,8 @@
     <string>tshe-cy.sc.glif</string>
     <key>tslash</key>
     <string>tslash.glif</string>
+    <key>tslash.sc</key>
+    <string>tslash.sc.glif</string>
     <key>tugrik</key>
     <string>tugrik.glif</string>
     <key>two</key>
@@ -3192,6 +3210,8 @@
     <string>uniA_78B_.glif</string>
     <key>uniA78C</key>
     <string>uniA_78C_.glif</string>
+    <key>uniA7AD</key>
+    <string>uniA_7A_D_.glif</string>
     <key>uniAB53</key>
     <string>uniA_B_53.glif</string>
     <key>uniFB29</key>

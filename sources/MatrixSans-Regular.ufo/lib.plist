@@ -1419,6 +1419,7 @@
 		<string>uniA4FF</string>
 		<string>uniA78B</string>
 		<string>uniA78C</string>
+		<string>uniA7AD</string>
 		<string>uniAB53</string>
 		<string>f_f</string>
 		<string>f_i</string>
@@ -1700,6 +1701,15 @@
 		<string>three.alt</string>
 		<string>phi.sc</string>
 		<string>four.alt</string>
+		<string>gammalatin.sc</string>
+		<string>ibar.sc</string>
+		<string>lbar.sc</string>
+		<string>gbar.sc</string>
+		<string>aslash.sc</string>
+		<string>tslash.sc</string>
+		<string>lmiddletilde.sc</string>
+		<string>lbelt.sc</string>
+		<string>saltillo.sc</string>
 	</array>
 	<key>public.openTypeCategories</key>
 	<dict>
@@ -2591,6 +2601,8 @@
 		<string>base</string>
 		<key>aslash</key>
 		<string>base</string>
+		<key>aslash.sc</key>
+		<string>base</string>
 		<key>asterisk</key>
 		<string>base</string>
 		<key>at</key>
@@ -3049,7 +3061,11 @@
 		<string>base</string>
 		<key>gamma.sc</key>
 		<string>base</string>
+		<key>gammalatin.sc</key>
+		<string>base</string>
 		<key>gbar</key>
+		<string>base</string>
+		<key>gbar.sc</key>
 		<string>base</string>
 		<key>gbreve</key>
 		<string>base</string>
@@ -3174,6 +3190,8 @@
 		<key>iacute</key>
 		<string>base</string>
 		<key>iacute.sc</key>
+		<string>base</string>
+		<key>ibar.sc</key>
 		<string>base</string>
 		<key>ibreve</key>
 		<string>base</string>
@@ -3351,7 +3369,11 @@
 		<string>base</string>
 		<key>lbar</key>
 		<string>base</string>
+		<key>lbar.sc</key>
+		<string>base</string>
 		<key>lbelt</key>
+		<string>base</string>
+		<key>lbelt.sc</key>
 		<string>base</string>
 		<key>lcaron</key>
 		<string>base</string>
@@ -3400,6 +3422,8 @@
 		<key>lmacronbelow</key>
 		<string>base</string>
 		<key>lmacronbelow.sc</key>
+		<string>base</string>
+		<key>lmiddletilde.sc</key>
 		<string>base</string>
 		<key>logicalnot</key>
 		<string>base</string>
@@ -3809,6 +3833,8 @@
 		<string>base</string>
 		<key>sacute</key>
 		<string>base</string>
+		<key>saltillo.sc</key>
+		<string>base</string>
 		<key>scaron</key>
 		<string>base</string>
 		<key>scedilla</key>
@@ -3978,6 +4004,8 @@
 		<key>tshe-cy.sc</key>
 		<string>base</string>
 		<key>tslash</key>
+		<string>base</string>
+		<key>tslash.sc</key>
 		<string>base</string>
 		<key>tugrik</key>
 		<string>base</string>
@@ -4890,6 +4918,8 @@
 		<key>uniA78B</key>
 		<string>base</string>
 		<key>uniA78C</key>
+		<string>base</string>
+		<key>uniA7AD</key>
 		<string>base</string>
 		<key>uniAB53</key>
 		<string>base</string>
