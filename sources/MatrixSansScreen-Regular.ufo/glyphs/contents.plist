@@ -50,6 +50,8 @@
     <string>A_hookabove.glif</string>
     <key>Alpha</key>
     <string>A_lpha.glif</string>
+    <key>Alphalatin</key>
+    <string>A_lphalatin.glif</string>
     <key>Alphatonos</key>
     <string>A_lphatonos.glif</string>
     <key>Amacron</key>
@@ -230,6 +232,8 @@
     <string>F_.glif</string>
     <key>Feh-ar</key>
     <string>F_eh-ar.glif</string>
+    <key>Florin</key>
+    <string>F_lorin.glif</string>
     <key>G</key>
     <string>G_.glif</string>
     <key>Gamma</key>
@@ -262,6 +266,8 @@
     <string>G_im-ar.glif</string>
     <key>Gmacron</key>
     <string>G_macron.glif</string>
+    <key>Gsingle</key>
+    <string>G_single.glif</string>
     <key>H</key>
     <string>H_.glif</string>
     <key>Ha-cy</key>
@@ -328,6 +334,8 @@
     <string>I_ota.glif</string>
     <key>Iotadieresis</key>
     <string>I_otadieresis.glif</string>
+    <key>Iotalatin</key>
+    <string>I_otalatin.glif</string>
     <key>Iotatonos</key>
     <string>I_otatonos.glif</string>
     <key>Itilde</key>
@@ -1492,6 +1500,8 @@
     <string>iacute.glif</string>
     <key>iacute.sc</key>
     <string>iacute.sc.glif</string>
+    <key>ibar</key>
+    <string>ibar.glif</string>
     <key>ibar.sc</key>
     <string>ibar.sc.glif</string>
     <key>ibreve</key>

@@ -328,8 +328,10 @@
 		<string>Dhook</string>
 		<string>Schwa</string>
 		<string>Eopen</string>
+		<string>Florin</string>
 		<string>florin</string>
 		<string>Gammalatin</string>
+		<string>Iotalatin</string>
 		<string>Ibar</string>
 		<string>Khook</string>
 		<string>khook</string>
@@ -404,6 +406,7 @@
 		<string>eopen</string>
 		<string>gsingle</string>
 		<string>gammalatin</string>
+		<string>ibar</string>
 		<string>iotalatin</string>
 		<string>uni026A</string>
 		<string>lmiddletilde</string>
@@ -1267,6 +1270,7 @@
 		<string>Lmiddletilde</string>
 		<string>aslash</string>
 		<string>tslash</string>
+		<string>Alphalatin</string>
 		<string>uni2D00</string>
 		<string>uni2D01</string>
 		<string>uni2D02</string>
@@ -1419,6 +1423,7 @@
 		<string>uniA4FF</string>
 		<string>Saltillo</string>
 		<string>saltillo</string>
+		<string>Gsingle</string>
 		<string>Lbelt</string>
 		<string>uniAB53</string>
 		<string>f_f</string>
@@ -1759,6 +1764,8 @@
 		<string>base</string>
 		<key>Alpha</key>
 		<string>base</string>
+		<key>Alphalatin</key>
+		<string>base</string>
 		<key>Alphatonos</key>
 		<string>base</string>
 		<key>Amacron</key>
@@ -1939,6 +1946,8 @@
 		<string>base</string>
 		<key>Feh-ar</key>
 		<string>base</string>
+		<key>Florin</key>
+		<string>base</string>
 		<key>G</key>
 		<string>base</string>
 		<key>Gamma</key>
@@ -1970,6 +1979,8 @@
 		<key>Gim-ar</key>
 		<string>base</string>
 		<key>Gmacron</key>
+		<string>base</string>
+		<key>Gsingle</key>
 		<string>base</string>
 		<key>H</key>
 		<string>base</string>
@@ -2036,6 +2047,8 @@
 		<key>Iota</key>
 		<string>base</string>
 		<key>Iotadieresis</key>
+		<string>base</string>
+		<key>Iotalatin</key>
 		<string>base</string>
 		<key>Iotatonos</key>
 		<string>base</string>
@@ -3200,6 +3213,8 @@
 		<key>iacute</key>
 		<string>base</string>
 		<key>iacute.sc</key>
+		<string>base</string>
+		<key>ibar</key>
 		<string>base</string>
 		<key>ibar.sc</key>
 		<string>base</string>
@@ -6350,6 +6365,16 @@
 		<string>uni026C</string>
 		<key>Lbelt</key>
 		<string>uniA7AD</string>
+		<key>Florin</key>
+		<string>uni0191</string>
+		<key>Iotalatin</key>
+		<string>uni0196</string>
+		<key>ibar</key>
+		<string>uni0268</string>
+		<key>Alphalatin</key>
+		<string>uni2C6D</string>
+		<key>Gsingle</key>
+		<string>uniA7AC</string>
 	</dict>
 	<key>public.openTypeMeta</key>
 	<dict>
