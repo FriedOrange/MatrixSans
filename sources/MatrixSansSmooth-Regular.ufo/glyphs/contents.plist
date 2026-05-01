@@ -856,10 +856,10 @@
     <string>ahookabove.sc.glif</string>
     <key>alpha</key>
     <string>alpha.glif</string>
-    <key>alpha-latin</key>
-    <string>alpha-latin.glif</string>
     <key>alpha.sc</key>
     <string>alpha.sc.glif</string>
+    <key>alphalatin</key>
+    <string>alphalatin.glif</string>
     <key>alphatonos</key>
     <string>alphatonos.glif</string>
     <key>alphatonos.sc</key>

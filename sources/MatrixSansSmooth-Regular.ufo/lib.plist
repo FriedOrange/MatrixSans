@@ -398,7 +398,7 @@
 		<string>Tslash</string>
 		<string>uni0241</string>
 		<string>uni0242</string>
-		<string>alpha-latin</string>
+		<string>alphalatin</string>
 		<string>bhook</string>
 		<string>oopen</string>
 		<string>dhook</string>
@@ -2570,9 +2570,9 @@
 		<string>base</string>
 		<key>alpha</key>
 		<string>base</string>
-		<key>alpha-latin</key>
-		<string>base</string>
 		<key>alpha.sc</key>
+		<string>base</string>
+		<key>alphalatin</key>
 		<string>base</string>
 		<key>alphatonos</key>
 		<string>base</string>
@@ -5269,7 +5269,7 @@
 		<string>uni01DC</string>
 		<key>gsingle</key>
 		<string>uni0261</string>
-		<key>alpha-latin</key>
+		<key>alphalatin</key>
 		<string>uni0251</string>
 		<key>schwa</key>
 		<string>uni0259</string>
