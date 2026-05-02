@@ -420,6 +420,7 @@
 		<string>uni0295</string>
 		<string>wmod</string>
 		<string>ymod</string>
+		<string>uni02B9</string>
 		<string>uni02BB</string>
 		<string>apostrophemod</string>
 		<string>commareversedmod</string>
@@ -4194,6 +4195,8 @@
 		<key>uni0294</key>
 		<string>base</string>
 		<key>uni0295</key>
+		<string>base</string>
+		<key>uni02B9</key>
 		<string>base</string>
 		<key>uni02BB</key>
 		<string>base</string>
