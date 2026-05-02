@@ -64,7 +64,7 @@ NameList: MatrixSans
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 1114240 16 12
+WinInfo: 784 16 12
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 629146 314573 209715 524288 1048576 0 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
@@ -26510,6 +26510,7 @@ EndChar
 StartChar: uni0332
 Encoding: 818 818 1685
 Width: 0
+GlyphClass: 4
 Flags: HW
 AnchorPoint: "marks_below" 0 0 mark 0
 LayerCount: 2
@@ -26520,6 +26521,7 @@ EndChar
 StartChar: uni0335
 Encoding: 821 821 1686
 Width: 0
+GlyphClass: 4
 Flags: HW
 LayerCount: 2
 Fore
