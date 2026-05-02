@@ -412,7 +412,7 @@
 		<string>lmiddletilde</string>
 		<string>lbelt</string>
 		<string>nhookleft</string>
-		<string>uni028A</string>
+		<string>upsilonlatin</string>
 		<string>uni0292</string>
 		<string>uni0294</string>
 		<string>uni0295</string>
@@ -1719,6 +1719,11 @@
 		<string>lbelt.sc</string>
 		<string>saltillo.sc</string>
 		<string>lambdalatinbar.sc</string>
+		<string>ezh.sc</string>
+		<string>ezhcaron.sc</string>
+		<string>kacute.sc</string>
+		<string>kcaron.sc</string>
+		<string>kdotbelow.sc</string>
 	</array>
 	<key>public.openTypeCategories</key>
 	<dict>
@@ -3030,7 +3035,11 @@
 		<string>base</string>
 		<key>exclamdown.sc</key>
 		<string>base</string>
+		<key>ezh.sc</key>
+		<string>base</string>
 		<key>ezhcaron</key>
+		<string>base</string>
+		<key>ezhcaron.sc</key>
 		<string>base</string>
 		<key>f</key>
 		<string>base</string>
@@ -3354,6 +3363,8 @@
 		<string>base</string>
 		<key>kacute</key>
 		<string>base</string>
+		<key>kacute.sc</key>
+		<string>base</string>
 		<key>kadescender-cy</key>
 		<string>base</string>
 		<key>kaiSymbol</key>
@@ -3362,11 +3373,15 @@
 		<string>base</string>
 		<key>kcaron</key>
 		<string>base</string>
+		<key>kcaron.sc</key>
+		<string>base</string>
 		<key>kcommaaccent</key>
 		<string>base</string>
 		<key>kcommaaccent.sc</key>
 		<string>base</string>
 		<key>kdotbelow</key>
+		<string>base</string>
+		<key>kdotbelow.sc</key>
 		<string>base</string>
 		<key>keh-ar</key>
 		<string>base</string>
@@ -4161,8 +4176,6 @@
 		<key>uni0242</key>
 		<string>base</string>
 		<key>uni026A</key>
-		<string>base</string>
-		<key>uni028A</key>
 		<string>base</string>
 		<key>uni0292</key>
 		<string>base</string>
@@ -4973,6 +4986,8 @@
 		<key>upsilondieresistonos</key>
 		<string>base</string>
 		<key>upsilondieresistonos.sc</key>
+		<string>base</string>
+		<key>upsilonlatin</key>
 		<string>base</string>
 		<key>upsilontonos</key>
 		<string>base</string>
@@ -6357,6 +6372,8 @@
 		<string>uni023E</string>
 		<key>gammalatin</key>
 		<string>uni0263</string>
+		<key>upsilonlatin</key>
+		<string>uni028A</string>
 		<key>wmod</key>
 		<string>uni02B7</string>
 		<key>ymod</key>

@@ -2,11 +2,6 @@
 <glyph name="saltillo.sc" format="2">
   <advance width="200"/>
   <outline>
-    <contour>
-      <point x="150.0" y="200.0" type="line"/>
-      <point x="50.0" y="200.0" type="line"/>
-      <point x="50.0" y="500.0" type="line"/>
-      <point x="150.0" y="500.0" type="line"/>
-    </contour>
+    <component base="quotesingle" yOffset="-200.0"/>
   </outline>
 </glyph>

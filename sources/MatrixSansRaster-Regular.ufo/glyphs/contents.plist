@@ -1312,8 +1312,12 @@
     <string>exclamdown.glif</string>
     <key>exclamdown.sc</key>
     <string>exclamdown.sc.glif</string>
+    <key>ezh.sc</key>
+    <string>ezh.sc.glif</string>
     <key>ezhcaron</key>
     <string>ezhcaron.glif</string>
+    <key>ezhcaron.sc</key>
+    <string>ezhcaron.sc.glif</string>
     <key>f</key>
     <string>f.glif</string>
     <key>f.sc</key>
@@ -1636,6 +1640,8 @@
     <string>ka-cy.glif</string>
     <key>kacute</key>
     <string>kacute.glif</string>
+    <key>kacute.sc</key>
+    <string>kacute.sc.glif</string>
     <key>kadescender-cy</key>
     <string>kadescender-cy.glif</string>
     <key>kaiSymbol</key>
@@ -1644,12 +1650,16 @@
     <string>kappa.glif</string>
     <key>kcaron</key>
     <string>kcaron.glif</string>
+    <key>kcaron.sc</key>
+    <string>kcaron.sc.glif</string>
     <key>kcommaaccent</key>
     <string>kcommaaccent.glif</string>
     <key>kcommaaccent.sc</key>
     <string>kcommaaccent.sc.glif</string>
     <key>kdotbelow</key>
     <string>kdotbelow.glif</string>
+    <key>kdotbelow.sc</key>
+    <string>kdotbelow.sc.glif</string>
     <key>keh-ar</key>
     <string>keh-ar.glif</string>
     <key>keh-ar.sc</key>
@@ -2444,8 +2454,6 @@
     <string>uni0242.glif</string>
     <key>uni026A</key>
     <string>uni026A_.glif</string>
-    <key>uni028A</key>
-    <string>uni028A_.glif</string>
     <key>uni0292</key>
     <string>uni0292.glif</string>
     <key>uni0294</key>
@@ -3256,6 +3264,8 @@
     <string>upsilondieresistonos.glif</string>
     <key>upsilondieresistonos.sc</key>
     <string>upsilondieresistonos.sc.glif</string>
+    <key>upsilonlatin</key>
+    <string>upsilonlatin.glif</string>
     <key>upsilontonos</key>
     <string>upsilontonos.glif</string>
     <key>upsilontonos.sc</key>
