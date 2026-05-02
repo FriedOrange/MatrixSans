@@ -1054,6 +1054,8 @@
     <string>comma.glif</string>
     <key>comma-ar</key>
     <string>comma-ar.glif</string>
+    <key>commaabovecomb</key>
+    <string>commaabovecomb.glif</string>
     <key>commaaccentcomb</key>
     <string>commaaccentcomb.glif</string>
     <key>commareversedmod</key>

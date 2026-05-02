@@ -457,6 +457,7 @@
 		<string>caroncomb</string>
 		<string>verticallineabovecomb</string>
 		<string>commaturnedabovecomb</string>
+		<string>commaabovecomb</string>
 		<string>uni0315</string>
 		<string>horncomb</string>
 		<string>dotbelowcomb</string>
@@ -2781,6 +2782,8 @@
 		<key>comma</key>
 		<string>base</string>
 		<key>comma-ar</key>
+		<string>base</string>
+		<key>commaabovecomb</key>
 		<string>base</string>
 		<key>commaaccentcomb</key>
 		<string>mark</string>
@@ -6429,6 +6432,8 @@
 		<string>uniA7B3</string>
 		<key>obar</key>
 		<string>uni0275</string>
+		<key>commaabovecomb</key>
+		<string>uni0313</string>
 	</dict>
 	<key>public.openTypeMeta</key>
 	<dict>
