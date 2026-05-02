@@ -1516,6 +1516,8 @@
     <string>ibar.glif</string>
     <key>ibar.sc</key>
     <string>ibar.sc.glif</string>
+    <key>ibardotless</key>
+    <string>ibardotless.glif</string>
     <key>ibreve</key>
     <string>ibreve.glif</string>
     <key>ibreve.sc</key>

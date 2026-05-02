@@ -1727,6 +1727,7 @@
 		<string>kcaron.sc</string>
 		<string>kdotbelow.sc</string>
 		<string>jcaron.sc</string>
+		<string>ibardotless</string>
 	</array>
 	<key>public.openTypeCategories</key>
 	<dict>
@@ -3241,6 +3242,8 @@
 		<key>ibar</key>
 		<string>base</string>
 		<key>ibar.sc</key>
+		<string>base</string>
+		<key>ibardotless</key>
 		<string>base</string>
 		<key>ibreve</key>
 		<string>base</string>

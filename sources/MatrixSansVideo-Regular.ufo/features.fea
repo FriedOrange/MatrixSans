@@ -108,7 +108,7 @@ feature ccmp {
 	sub iota dieresiscomb acutecomb by iotadieresistonos;
 	sub [alpha epsilon eta iota omicron upsilon omega] acutecomb' by verticallineabovecomb;
 	script latn;
-	sub [i j]' @marks_above by [dotlessi jdotless];
+	sub [i j ibar]' @marks_above by [dotlessi jdotless ibardotless];
 	sub L caroncomb' by uni0315;
 	sub d caroncomb' by uni0315;
 	sub l caroncomb' by uni0315;
@@ -212,7 +212,7 @@ feature mark {
 		<anchor 300 0> mark @marks_below;
 	pos base @deep 
 		<anchor 300 600> mark @marks_above;
-	pos base [dotlessi i.sc idotbelow.sc iogonek.sc iota]
+	pos base [dotlessi i.sc idotbelow.sc iogonek.sc iota ibardotless]
 		<anchor 200 600> mark @marks_above
 		<anchor 200 0> mark @marks_below
 		<anchor 200 0> mark @marks_belowright;
@@ -245,13 +245,6 @@ feature mark {
 		<anchor 100 800> mark @marks_above
 		<anchor 100 0> mark @marks_below;
 } mark;
-
-# table GDEF {
-# 	GlyphClassDef [A E I i idotaccent J L U @tall d l t a e u @short @deep dotlessi i.sc jdotless uni25CC j.sc l.sc I-cy],[IJ ij ij.sc],[@marks_above @marks_aboveright @marks_belowright @marks_below],;
-# 	LigatureCaretByPos IJ 200;
-# 	LigatureCaretByPos ij 350;
-# 	LigatureCaretByPos ij.sc 200;
-# } GDEF;
 
 feature locl {
 	script latn;
