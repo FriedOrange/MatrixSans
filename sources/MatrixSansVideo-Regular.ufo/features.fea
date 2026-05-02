@@ -96,6 +96,7 @@ feature ccmp {
 	script cyrl;
 	sub i-cy' @marks_above by dotlessi;
 	sub Yi-cy' @marks_above by idieresis.sc;
+	sub je-cy' @marks_above by jdotless;
 	script grek;
 	sub Alpha acutecomb by Alphatonos;
 	sub Epsilon acutecomb by Epsilontonos;
