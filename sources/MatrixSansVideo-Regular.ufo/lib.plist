@@ -338,6 +338,7 @@
 		<string>lbar</string>
 		<string>lambdalatinbar</string>
 		<string>Nhookleft</string>
+		<string>uni019F</string>
 		<string>Ohorn</string>
 		<string>ohorn</string>
 		<string>Uhorn</string>
@@ -412,6 +413,7 @@
 		<string>lmiddletilde</string>
 		<string>lbelt</string>
 		<string>nhookleft</string>
+		<string>obar</string>
 		<string>upsilonlatin</string>
 		<string>ezh</string>
 		<string>uni0294</string>
@@ -3628,6 +3630,8 @@
 		<string>base</string>
 		<key>oacute</key>
 		<string>base</string>
+		<key>obar</key>
+		<string>base</string>
 		<key>obarred-cy</key>
 		<string>base</string>
 		<key>obreve</key>
@@ -4173,6 +4177,8 @@
 		<key>underscore</key>
 		<string>base</string>
 		<key>uni00A0</key>
+		<string>base</string>
+		<key>uni019F</key>
 		<string>base</string>
 		<key>uni01C2</key>
 		<string>base</string>
@@ -6415,6 +6421,8 @@
 		<string>uniA7DC</string>
 		<key>Chilatin</key>
 		<string>uniA7B3</string>
+		<key>obar</key>
+		<string>uni0275</string>
 	</dict>
 	<key>public.openTypeMeta</key>
 	<dict>

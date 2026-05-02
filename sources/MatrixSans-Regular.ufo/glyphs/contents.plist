@@ -1904,6 +1904,8 @@
     <string>o-cy.glif</string>
     <key>oacute</key>
     <string>oacute.glif</string>
+    <key>obar</key>
+    <string>obar.glif</string>
     <key>obarred-cy</key>
     <string>obarred-cy.glif</string>
     <key>obreve</key>
@@ -2450,6 +2452,8 @@
     <string>underscore.glif</string>
     <key>uni00A0</key>
     <string>uni00A_0.glif</string>
+    <key>uni019F</key>
+    <string>uni019F_.glif</string>
     <key>uni01C2</key>
     <string>uni01C_2.glif</string>
     <key>uni0241</key>
