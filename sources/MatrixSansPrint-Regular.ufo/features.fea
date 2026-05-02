@@ -84,7 +84,7 @@ feature smcp {
 
 # mark classes
 markClass [gravecomb acutecomb circumflexcomb tildecomb macroncomb brevecomb dotaccentcomb dieresiscomb ringcomb hungarumlautcomb caroncomb commaturnedabovecomb hookabovecomb circumflexcomb_acutecomb circumflexcomb_gravecomb circumflexcomb_hookabovecomb circumflexcomb_tildecomb verticallineabovecomb comaabovecomb] <anchor 0 600> @marks_above;
-markClass [commaaccentcomb cedillacomb dotbelowcomb macronbelowcomb uni0324 brevebelowcomb uni0329] <anchor 0 0> @marks_below;
+markClass [commaaccentcomb cedillacomb dotbelowcomb macronbelowcomb uni0324 brevebelowcomb uni0329 uni0332 uni0335] <anchor 0 0> @marks_below;
 markClass [ogonekcomb] <anchor 0 0> @marks_belowright;
 markClass [uni0315 horncomb dotaboverightcomb] <anchor 0 500> @marks_aboveright;
 # markClass [gravecomb acutecomb circumflexcomb tildecomb brevecomb ringcomb hungarumlautcomb caroncomb commaturnedabovecomb] <anchor 0 600> @tall_marks_above;
