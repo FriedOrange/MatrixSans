@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1657964544
-ModificationTime: 1777694695
+ModificationTime: 1777697464
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -64,12 +64,12 @@ NameList: MatrixSans
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 544 16 12
+WinInfo: 1114240 16 12
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 629146 314573 209715 524288 1048576 0 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "marks_above"""  "marks_below"""  "ogonek"""  "marks_aboveright""" 
-BeginChars: 1114419 1742
+BeginChars: 1114419 1743
 
 StartChar: dot
 Encoding: 1114112 -1 0
@@ -26267,7 +26267,7 @@ Refer: 237 780 N 1 0 0 1 300 200 2
 Refer: 1659 439 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni0292
+StartChar: ezh
 Encoding: 658 658 1661
 Width: 600
 VWidth: -200
@@ -27596,6 +27596,16 @@ LayerCount: 2
 Fore
 Refer: 489 803 N 1 0 0 1 300 0 2
 Refer: 415 312 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: jcaron.sc
+Encoding: 1114418 -1 1742
+Width: 600
+Flags: H
+LayerCount: 2
+Fore
+Refer: 237 780 N 1 0 0 1 400 0 2
+Refer: 396 -1 N 1 0 0 1 0 0 3
 EndChar
 EndChars
 EndSplineFont

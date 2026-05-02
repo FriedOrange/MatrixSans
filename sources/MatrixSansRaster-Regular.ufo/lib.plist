@@ -413,7 +413,7 @@
 		<string>lbelt</string>
 		<string>nhookleft</string>
 		<string>upsilonlatin</string>
-		<string>uni0292</string>
+		<string>ezh</string>
 		<string>uni0294</string>
 		<string>uni0295</string>
 		<string>wmod</string>
@@ -1724,6 +1724,7 @@
 		<string>kacute.sc</string>
 		<string>kcaron.sc</string>
 		<string>kdotbelow.sc</string>
+		<string>jcaron.sc</string>
 	</array>
 	<key>public.openTypeCategories</key>
 	<dict>
@@ -3035,6 +3036,8 @@
 		<string>base</string>
 		<key>exclamdown.sc</key>
 		<string>base</string>
+		<key>ezh</key>
+		<string>base</string>
 		<key>ezh.sc</key>
 		<string>base</string>
 		<key>ezhcaron</key>
@@ -3342,6 +3345,8 @@
 		<key>jacute</key>
 		<string>base</string>
 		<key>jcaron</key>
+		<string>base</string>
+		<key>jcaron.sc</key>
 		<string>base</string>
 		<key>jcircumflex</key>
 		<string>base</string>
@@ -4176,8 +4181,6 @@
 		<key>uni0242</key>
 		<string>base</string>
 		<key>uni026A</key>
-		<string>base</string>
-		<key>uni0292</key>
 		<string>base</string>
 		<key>uni0294</key>
 		<string>base</string>
@@ -6304,6 +6307,8 @@
 		<string>uni01B7</string>
 		<key>Ezhcaron</key>
 		<string>uni01EE</string>
+		<key>ezh</key>
+		<string>uni0292</string>
 		<key>ezhcaron</key>
 		<string>uni01EF</string>
 		<key>jcaron</key>

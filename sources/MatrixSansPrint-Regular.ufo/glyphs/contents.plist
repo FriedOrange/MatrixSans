@@ -1312,6 +1312,8 @@
     <string>exclamdown.glif</string>
     <key>exclamdown.sc</key>
     <string>exclamdown.sc.glif</string>
+    <key>ezh</key>
+    <string>ezh.glif</string>
     <key>ezh.sc</key>
     <string>ezh.sc.glif</string>
     <key>ezhcaron</key>
@@ -1620,6 +1622,8 @@
     <string>jacute.glif</string>
     <key>jcaron</key>
     <string>jcaron.glif</string>
+    <key>jcaron.sc</key>
+    <string>jcaron.sc.glif</string>
     <key>jcircumflex</key>
     <string>jcircumflex.glif</string>
     <key>jcircumflex.sc</key>
@@ -2454,8 +2458,6 @@
     <string>uni0242.glif</string>
     <key>uni026A</key>
     <string>uni026A_.glif</string>
-    <key>uni0292</key>
-    <string>uni0292.glif</string>
     <key>uni0294</key>
     <string>uni0294.glif</string>
     <key>uni0295</key>
