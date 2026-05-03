@@ -338,7 +338,7 @@
 		<string>lbar</string>
 		<string>lambdalatinbar</string>
 		<string>Nhookleft</string>
-		<string>uni019F</string>
+		<string>Obar</string>
 		<string>Ohorn</string>
 		<string>ohorn</string>
 		<string>Uhorn</string>
@@ -2184,6 +2184,8 @@
 		<key>OE</key>
 		<string>base</string>
 		<key>Oacute</key>
+		<string>base</string>
+		<key>Obar</key>
 		<string>base</string>
 		<key>Obarred-cy</key>
 		<string>base</string>
@@ -4184,8 +4186,6 @@
 		<key>underscore</key>
 		<string>base</string>
 		<key>uni00A0</key>
-		<string>base</string>
-		<key>uni019F</key>
 		<string>base</string>
 		<key>uni01C2</key>
 		<string>base</string>
@@ -6432,6 +6432,8 @@
 		<string>uniA7B3</string>
 		<key>obar</key>
 		<string>uni0275</string>
+		<key>Obar</key>
+		<string>uni019F</string>
 		<key>commaabovecomb</key>
 		<string>uni0313</string>
 	</dict>
