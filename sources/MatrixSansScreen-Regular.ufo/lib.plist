@@ -2786,7 +2786,7 @@
 		<key>comma-ar</key>
 		<string>base</string>
 		<key>commaabovecomb</key>
-		<string>base</string>
+		<string>mark</string>
 		<key>commaaccentcomb</key>
 		<string>mark</string>
 		<key>commareversedmod</key>
@@ -4222,7 +4222,7 @@
 		<key>uni02D7</key>
 		<string>base</string>
 		<key>uni0315</key>
-		<string>mark</string>
+		<string>base</string>
 		<key>uni0324</key>
 		<string>mark</string>
 		<key>uni0329</key>
