@@ -293,11 +293,11 @@ feature locl {
 # Classes for kerning
 # First-of-pair classes
 
-@talloverhangR = [F J Jcircumflex T Tbar Tcaron Tcedilla Tcommaaccent Tdotbelow Tmacronbelow dhook ibreve ibreve.sc itilde itilde.sc jacute jcircumflex yhook uni02BB quoteleft quotedblleft Florin jcaron uni02B9 minute second apostrophemod ringhalfright circumflex caron macron uni02CA];
+@talloverhangR = [F J Jcircumflex T Tbar Tcaron Tcedilla Tcommaaccent Tdotbelow Tmacronbelow dhook ibreve ibreve.sc itilde itilde.sc jacute jcircumflex yhook uni02BB quoteleft quotedblleft Florin jcaron uni02B9 minute second ringhalfright circumflex caron macron uni02CA];
 @talloverhang2R = [Hbar Ohorn Ohornacute Ohorndotbelow Ohorngrave Ohornhookabove Ohorntilde Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhookabove Uhorntilde Y Yacute Ycircumflex Ydieresis Ydotaccent Ydotbelow Ygrave Yhookabove Ymacron Ytilde dcaron dcroat f f_f florin lcaron longs apostrophemod uni02C8 quoteright quotedblright uni0315 Tslash uni0295 uni02C0 ringhalfleft uni02CB];
 @talloverhang3R = [Yhook ytilde.sc P quotesingle quotedbl saltillo thetamod tslash.sc wmod degree];
 @talloverhang4R = [Saltillo uni0241 uni0294 ymod zmod nmod];
-@shortoverhangR = [f.sc florin.sc j.sc jcircumflex.sc t.sc tbar.sc tcaron.sc tcedilla.sc tcommaaccent.sc tdieresis.sc tdotbelow.sc tmacronbelow.sc y.sc ydieresis.sc ydotaccent.sc ydotbelow.sc ygrave.sc yhookabove.sc ymacron.sc chilatin lmiddletilde quoteright quotedblright dagger commareversedmod quotereversed];
+@shortoverhangR = [f.sc florin.sc j.sc jcircumflex.sc t.sc tbar.sc tcaron.sc tcedilla.sc tcommaaccent.sc tdieresis.sc tdotbelow.sc tmacronbelow.sc y.sc ydieresis.sc ydotaccent.sc ydotbelow.sc ygrave.sc yhookabove.sc ymacron.sc chilatin lmiddletilde dagger commareversedmod quotereversed];
 @shortoverhang2R = [hbar.sc ldot ohorn ohornacute ohorndotbelow ohorngrave ohornhookabove ohorntilde p.sc r racute rcaron rcommaaccent rdotbelow rdotbelowmacron rmacronbelow uhorn uhorn.sc uhornacute uhornacute.sc uhorndotbelow uhorndotbelow.sc uhorngrave uhorngrave.sc uhornhookabove uhornhookabove.sc uhorntilde uhorntilde.sc hyphen endash uni2010 uni2011 gammalatin uni02D7];
 @underhangR = [L Lacute Lcaron Lcommaaccent Ldot Ldotbelow Ldotbelowmacron Lmacronbelow Lslash i idotaccent idotbelow igrave ihookabove iogonek l lacute lcommaaccent ldotbelow ldotbelowmacron lmacronbelow l.sc lacute.sc lcaron.sc lcommaaccent.sc ldot.sc ldotbelow.sc ldotbelowmacron.sc lmacronbelow.sc lslash.sc questiondown gbar Iotalatin iotalatin lambdalatinbar.sc Lbar lbar.sc Lbelt lbelt.sc Lmiddletilde lmiddletilde.sc period ellipsis uni02CC];
 @underhang2R = [t tbar tcaron tcedilla tcommaaccent tdieresis tdotbelow tmacronbelow quotesinglbase quotedblbase comma];
@@ -386,7 +386,7 @@ feature locl {
 @tallcurve2TL = [A AE AEacute Aacute Abreve Abrevedotbelow Acaron Acircumflex Acircumflexdotbelow Adieresis Adotbelow Agrave Ahookabove Amacron Aogonek Aring Atilde Aslash];
 @talloverhangL = [T Tbar Tcaron Tcedilla Tcommaaccent Tdotbelow Tmacronbelow ibreve ibreve.sc Iotalatin uni02C0 ringhalfleft circumflex caron macron uni02CB];
 @talloverhang2L = [Hbar Y Yacute Ycircumflex Ydieresis Ydotaccent Ydotbelow Ygrave Yhook Yhookabove Ymacron Ytilde hbar itilde itilde.sc commareversedmod quotereversed question uni203D uni0315 uni0241 uni0294 ymod ringhalfright uni02C8 uni02CA];
-@talloverhang3L = [Bhook Dhook uni02BB apostrophemod quotesingle quoteleft quotedblleft saltillo thetamod wmod degree];
+@talloverhang3L = [Bhook Dhook uni02BB quotesingle quotedbl quoteleft quotedblleft saltillo thetamod wmod degree];
 @talloverhang4L = [Saltillo uni0295 zmod nmod];
 @underhang2L = [J Jcircumflex j.sc jcircumflex.sc lslash.sc Lambdalatinbar uni2144 a aacute acaron acircumflex acircumflexdotbelow acircumflexgrave acircumflexhookabove acircumflextilde adieresis adotbelow ae aeacute agrave ahookabove amacron aogonek aring aringacute eth aslash lambdalatinbar.sc period ellipsis];
 @underhang3L = [Lslash eth.sc];
