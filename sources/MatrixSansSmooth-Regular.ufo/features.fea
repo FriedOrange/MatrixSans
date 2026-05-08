@@ -300,7 +300,7 @@ feature locl {
 @shortoverhangR = [f.sc florin.sc j.sc jcircumflex.sc t.sc tbar.sc tcaron.sc tcedilla.sc tcommaaccent.sc tdieresis.sc tdotbelow.sc tmacronbelow.sc y.sc ydieresis.sc ydotaccent.sc ydotbelow.sc ygrave.sc yhookabove.sc ymacron.sc chilatin lmiddletilde quoteright quotedblright dagger commareversedmod quotereversed];
 @shortoverhang2R = [hbar.sc ldot ohorn ohornacute ohorndotbelow ohorngrave ohornhookabove ohorntilde p.sc r racute rcaron rcommaaccent rdotbelow rdotbelowmacron rmacronbelow uhorn uhorn.sc uhornacute uhornacute.sc uhorndotbelow uhorndotbelow.sc uhorngrave uhorngrave.sc uhornhookabove uhornhookabove.sc uhorntilde uhorntilde.sc hyphen endash uni2010 uni2011 gammalatin uni02D7];
 @underhangR = [L Lacute Lcaron Lcommaaccent Ldot Ldotbelow Ldotbelowmacron Lmacronbelow Lslash i idotaccent idotbelow igrave ihookabove iogonek l lacute lcommaaccent ldotbelow ldotbelowmacron lmacronbelow l.sc lacute.sc lcaron.sc lcommaaccent.sc ldot.sc ldotbelow.sc ldotbelowmacron.sc lmacronbelow.sc lslash.sc questiondown gbar Iotalatin iotalatin lambdalatinbar.sc Lbar lbar.sc Lbelt lbelt.sc Lmiddletilde lmiddletilde.sc period ellipsis uni02CC];
-@underhang2R = [t tbar tcaron tcedilla tcommaaccent tdieresis tdotbelow tmacronbelow quotesinglebase quotedblbase comma];
+@underhang2R = [t tbar tcaron tcedilla tcommaaccent tdieresis tdotbelow tmacronbelow quotesinglbase quotedblbase comma];
 @curveBR = [B Bhook Eng Germandbls O OE Oacute Obreve Ocaron Ocircumflex Ocircumflexacute Ocircumflexdotbelow Ocircumflexgrave Ocircumflexhookabove Ocircumflextilde Odieresis Odotbelow Ograve Ohookabove Ohungarumlaut Omacron Oopen Oslash Oslashacute Otilde S Sacute Scaron Scedilla Schwa Scircumflex Scommaaccent Sdotaccent Sdotbelow U Uacute Ubreve Ucaron Ucircumflex Udieresis Udieresisacute Udieresiscaron Udieresisgrave Udieresismacron Udotbelow Ugrave Uhookabove Uhungarumlaut Umacron Uogonek Uring Utilde W Wacute Wcircumflex Wdieresis Wgrave eth etilde D.alt Eth.alt Dcroat.alt Dcaron.alt Ddotbelow.alt Dmacronbelow.alt Dhook.alt cslash Ezh Ezhcaron Obar Oogonek Oogonekmacron tslash Upsilonlatin];
 @curve2R = [D Dcaron Dcroat Ddotbelow Dhook Dmacronbelow Eth Thorn Gbar];
 @tallcurve2TR = [A Aacute Abreve Abrevedotbelow Acaron Acircumflex Acircumflexdotbelow Adieresis Adotbelow Agrave Ahookabove Amacron Aogonek Aring Atilde];
@@ -400,7 +400,7 @@ feature locl {
 @aother = [abreve abreveacute abrevedotbelow abrevegrave abrevehookabove abrevetilde];
 @shortL = [Ecircumflexgrave Ecircumflexhookabove Ecircumflextilde Udieresisacute Udieresiscaron Udieresisgrave b.sc d.sc dcaron.sc dmacronbelow.sc dotlessi e.sc eacute.sc ecaron.sc ecircumflexdotbelow.sc edieresis.sc edotaccent.sc edotbelow.sc egrave.sc ehookabove.sc emacron.sc eng eng.sc eng.sc.loclNSM eogonek.sc f.sc h.sc hcircumflex.sc hdotbelow.sc hmacronbelow.sc i i.sc iacute iacute.sc idotaccent idotaccent.sc idotbelow idotbelow.sc ij ij.sc iogonek iogonek.sc kgreenlandic l.sc lcaron.sc lcommaaccent.sc ldot.sc ldotbelow.sc ldotbelowmacron.sc lmacronbelow.sc m m.sc macute macute.sc mdotbelow mdotbelow.sc n n.sc nacute nacute.sc ncaron ncaron.sc ncommaaccent ncommaaccent.sc ndotaccent ndotaccent.sc ndotbelow ndotbelow.sc ngrave ngrave.sc nmacronbelow nmacronbelow.sc p r r.sc racute racute.sc rcaron rcaron.sc rcommaaccent rcommaaccent.sc rdotbelow rdotbelow.sc rdotbelowmacron rdotbelowmacron.sc rmacronbelow rmacronbelow.sc thorn.sc u uacute ucaron ucircumflex udieresis udieresisacute udieresiscaron udieresisgrave udieresismacron udotbelow ugrave uhookabove uhorn uhornacute uhorndotbelow uhorngrave uhornhookabove umacron uogonek uring u.sc uacute.sc ucaron.sc ucircumflex.sc udieresis.sc udieresismacron.sc udotbelow.sc ugrave.sc uhookabove.sc uhorn.sc uhornacute.sc uhorndotbelow.sc uhorngrave.sc uhornhookabove.sc umacron.sc uogonek.sc uring.sc v w wacute wcircumflex wdieresis wgrave x y y.titl yacute ycircumflex ydieresis ydotaccent ydotbelow ygrave yhook yhookabove ymacron z zacute zcaron zdotaccent zdotbelow ezh ezh.sc ezhcaron ezhcaron.sc gammalatin.sc ibar ibar.sc ibardotless kacute.sc kcaron.sc kdotbelow.sc tslash uni026A uni02D0 upsilonlatin zcircumflex zmacronbelow colon];
 @l = [l lacute lcaron lcommaaccent ldot ldotbelow ldotbelowmacron lmacronbelow];
-@underhangN1L = [j jcircumflex jdotless jcaron comma semicolon quotesinglebase quotedblbase uni02CC];
+@underhangN1L = [j jcircumflex jdotless jcaron comma semicolon quotesinglbase quotedblbase uni02CC];
 
 @tall_overhangL_cy = [Dje-cy Tshe-cy Hardsign-cy Te-cy];
 @short_overhangL_cy = [hardsign-cy uni0463 dje-cy.sc tshe-cy.sc uni0463.sc ustraightstroke-cy.sc te-cy];
@@ -506,7 +506,6 @@ feature kern {
 	pos @talloverhangR @shortcurve2TL -100;
 	pos @talloverhangR @shortL -100;
 	pos @talloverhangR @underhangN1L -200;
-	pos @talloverhangR [quoteright quotedblright] -100;
 	pos @talloverhang2R @underhang2L -100;
 	pos @talloverhang2R @underhang3L -100;
 	pos @talloverhang2R @strokemidL -100;
@@ -531,7 +530,6 @@ feature kern {
 	pos @underhangR @talloverhangL -100;
 	pos @underhangR @talloverhang2L -100;
 	pos @underhangR @talloverhang3L -100;
-	pos @underhangR [quoteright quotedblright] -100;
 	pos @underhangR @strokemidL -100;
 	pos @underhangR @shortoverhangL -100;
 	pos @underhangR @shortoverhang2L -100;
@@ -549,7 +547,6 @@ feature kern {
 	pos @shortcurve2TR @talloverhangL -100;
 	pos @shortcurve2TR @talloverhang2L -100;
 	pos @shortcurve2TR @talloverhang3L -100;
-	pos @shortcurve2TR [quoteright quotedblright] -100;
 	pos @shortcurve2TR @shortoverhangL -100;
 	pos @shortcurveBR @talloverhangL -100;
 	pos @shortcurveBR @underhangN1L -100;
@@ -559,7 +556,6 @@ feature kern {
 	pos @underhang2R @talloverhangL -100;
 	pos @underhang2R @talloverhang2L -100;
 	pos @underhang2R @talloverhang3L -100;
-	pos @underhang2R [] -100;
 	pos @underhang2R @strokemidL -100;
 	pos @underhang2R @shortoverhangL -100;
 	pos @underhang2R @shortoverhang2L -100;
