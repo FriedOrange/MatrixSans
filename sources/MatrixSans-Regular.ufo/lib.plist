@@ -389,6 +389,8 @@
 		<string>scommaaccent</string>
 		<string>Tcommaaccent</string>
 		<string>tcommaaccent</string>
+		<string>Hcaron</string>
+		<string>hcaron</string>
 		<string>Ymacron</string>
 		<string>ymacron</string>
 		<string>jdotless</string>
@@ -2011,6 +2013,8 @@
 		<string>base</string>
 		<key>Hbrevebelow</key>
 		<string>base</string>
+		<key>Hcaron</key>
+		<string>base</string>
 		<key>Hcircumflex</key>
 		<string>base</string>
 		<key>Hdotbelow</key>
@@ -3200,6 +3204,8 @@
 		<key>hbrevebelow</key>
 		<string>base</string>
 		<key>hbrevebelow.sc</key>
+		<string>base</string>
+		<key>hcaron</key>
 		<string>base</string>
 		<key>hcircumflex</key>
 		<string>base</string>
@@ -6436,6 +6442,10 @@
 		<string>uni019F</string>
 		<key>commaabovecomb</key>
 		<string>uni0313</string>
+		<key>Hcaron</key>
+		<string>uni021E</string>
+		<key>hcaron</key>
+		<string>uni021F</string>
 	</dict>
 	<key>public.openTypeMeta</key>
 	<dict>
