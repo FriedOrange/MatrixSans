@@ -142,7 +142,7 @@ feature ccmp {
 	sub Idotaccent' @marks_above by idotaccent.sc;
 	sub Edotaccent' @marks_above by edotaccent.sc;
 	sub Umacron' @marks_above by umacron.sc;
-} ccmp;
+sub D by D.alt;sub Eth by Eth.alt;sub Dcroat by Dcroat.alt;sub Dhook by Dhook.alt;sub Dcaron by Dcaron.alt;sub Ddotbelow by Ddotbelow.alt;sub Dmacronbelow by Dmacronbelow.alt;} ccmp;
 
 feature mkmk {
 	pos mark [gravecomb acutecomb circumflexcomb tildecomb ringcomb hungarumlautcomb caroncomb commaturnedabovecomb hookabovecomb]
@@ -400,7 +400,8 @@ feature locl {
 @aother = [abreve abreveacute abrevedotbelow abrevegrave abrevehookabove abrevetilde];
 @shortL = [Ecircumflexgrave Ecircumflexhookabove Ecircumflextilde Udieresisacute Udieresiscaron Udieresisgrave b.sc d.sc dcaron.sc dmacronbelow.sc dotlessi e.sc eacute.sc ecaron.sc ecircumflexdotbelow.sc edieresis.sc edotaccent.sc edotbelow.sc egrave.sc ehookabove.sc emacron.sc eng eng.sc eng.sc.loclNSM eogonek.sc f.sc h.sc hcircumflex.sc hdotbelow.sc hmacronbelow.sc i i.sc iacute iacute.sc idotaccent idotaccent.sc idotbelow idotbelow.sc ij ij.sc iogonek iogonek.sc kgreenlandic l.sc lcaron.sc lcommaaccent.sc ldot.sc ldotbelow.sc ldotbelowmacron.sc lmacronbelow.sc m m.sc macute macute.sc mdotbelow mdotbelow.sc n n.sc nacute nacute.sc ncaron ncaron.sc ncommaaccent ncommaaccent.sc ndotaccent ndotaccent.sc ndotbelow ndotbelow.sc ngrave ngrave.sc nmacronbelow nmacronbelow.sc p r r.sc racute racute.sc rcaron rcaron.sc rcommaaccent rcommaaccent.sc rdotbelow rdotbelow.sc rdotbelowmacron rdotbelowmacron.sc rmacronbelow rmacronbelow.sc thorn.sc u uacute ucaron ucircumflex udieresis udieresisacute udieresiscaron udieresisgrave udieresismacron udotbelow ugrave uhookabove uhorn uhornacute uhorndotbelow uhorngrave uhornhookabove umacron uogonek uring u.sc uacute.sc ucaron.sc ucircumflex.sc udieresis.sc udieresismacron.sc udotbelow.sc ugrave.sc uhookabove.sc uhorn.sc uhornacute.sc uhorndotbelow.sc uhorngrave.sc uhornhookabove.sc umacron.sc uogonek.sc uring.sc v w wacute wcircumflex wdieresis wgrave x y y.titl yacute ycircumflex ydieresis ydotaccent ydotbelow ygrave yhook yhookabove ymacron z zacute zcaron zdotaccent zdotbelow ezh ezh.sc ezhcaron ezhcaron.sc gammalatin.sc ibar ibar.sc ibardotless kacute.sc kcaron.sc kdotbelow.sc tslash uni026A uni02D0 upsilonlatin zcircumflex zmacronbelow colon];
 @l = [l lacute lcaron lcommaaccent ldot ldotbelow ldotbelowmacron lmacronbelow];
-@underhangN1L = [j jcircumflex jdotless jcaron comma semicolon quotesinglbase quotedblbase uni02CC];
+@underhangN1L = [comma semicolon quotesinglbase quotedblbase uni02CC];
+@j = [j jcircumflex jdotless jcaron];
 
 @tall_overhangL_cy = [Dje-cy Tshe-cy Hardsign-cy Te-cy];
 @short_overhangL_cy = [hardsign-cy uni0463 dje-cy.sc tshe-cy.sc uni0463.sc ustraightstroke-cy.sc te-cy];
@@ -492,6 +493,7 @@ feature kern {
 	pos iacute jacute -200;
 	enum pos [g q y yacute eng eng.sc.loclNSM] @hookleft 100;
 	enum pos [dcroat f] @aother -100;
+	enum pos [comma quotesinglbase quotedblbase] @underhangN1L 0;
 	pos Chilatin s 0;
 	pos Chilatin @shortcurveTL -100;
 	pos [j Eng.loclNSM] @hookleft 100;
@@ -506,27 +508,32 @@ feature kern {
 	pos @talloverhangR @shortcurve2TL -100;
 	pos @talloverhangR @shortL -100;
 	pos @talloverhangR @underhangN1L -100;
+	pos @talloverhangR @j -200;
 	pos @talloverhang2R @underhang2L -100;
 	pos @talloverhang2R @underhang3L -100;
 	pos @talloverhang2R @strokemidL -100;
 	pos @talloverhang2R @shortcurveTL -100;
 	pos @talloverhang2R @shortcurve2TL -100;
 	pos @talloverhang2R @underhangN1L -100;
+	pos @talloverhang2R @j -200;
 	pos @talloverhang3R @underhang2L -100;
 	pos @talloverhang3R @underhang3L -100;
 	pos @talloverhang3R @shortcurve2TL -100;
 	pos @talloverhang3R @underhangN1L -100;
+	pos @talloverhang3R @j -200;
 	pos @talloverhang4R @underhang2L -100;
 	pos @shortoverhangR @talloverhangL -100;
 	pos @shortoverhangR @underhang2L -100;
 	pos @shortoverhangR @underhang3L -100;
 	pos @shortoverhangR @shortcurve2TL -100;
 	pos @shortoverhangR @underhangN1L -100;
+	pos @shortoverhangR @j -200;
 	pos @shortoverhang2R @talloverhangL -100;
 	pos @shortoverhang2R @underhang2L -100;
 	pos @shortoverhang2R @aother -100;
 	pos @shortoverhang2R @l -100;
 	pos @shortoverhang2R @underhangN1L -100;
+	pos @shortoverhang2R @j -200;
 	pos @underhangR @talloverhangL -100;
 	pos @underhangR @talloverhang2L -100;
 	pos @underhangR @talloverhang3L -100;
@@ -538,8 +545,11 @@ feature kern {
 	pos @underhangR V -100;
 	pos @underhangR @talloverhang4L -100;
 	pos @curveBR @underhangN1L -100;
-	pos @curve2R @underhangN1L -200;
-	pos V @underhangN1L -200;
+	pos @curveBR @j -100;
+	pos @curve2R @underhangN1L -100;
+	pos @curve2R @j -200;
+	pos V @underhangN1L -100;
+	pos V @j -200;
 	pos @tallcurve2TR @talloverhangL -100;
 	pos @curve2R @talloverhangL -100;
 	pos @shortcurveTR @talloverhangL -100;
@@ -550,9 +560,11 @@ feature kern {
 	pos @shortcurve2TR @shortoverhangL -100;
 	pos @shortcurveBR @talloverhangL -100;
 	pos @shortcurveBR @underhangN1L -100;
+	pos @shortcurveBR @j -100;
 	pos @shortcurveR @talloverhangL -100;
 	pos @shortcurveR @talloverhang2L -100;
 	pos @shortcurveR @underhangN1L -100;
+	pos @shortcurveR @j -100;
 	pos @underhang2R @talloverhangL -100;
 	pos @underhang2R @talloverhang2L -100;
 	pos @underhang2R @talloverhang3L -100;
@@ -560,11 +572,13 @@ feature kern {
 	pos @underhang2R @shortoverhangL -100;
 	pos @underhang2R @shortoverhang2L -100;
 	pos @underhang2R @underhangN1L -100;
+	pos @underhang2R @j -100;
 	pos @underhang2R @talloverhang4L -100;
 	pos @shortR @talloverhangL -100;
 	pos @openmidR @strokemidL -100;
 	pos @openmidcurveBR @strokemidL -100;
 	pos @openmidcurveBR @underhangN1L -100;
+	pos @openmidcurveBR @j -100;
 
 	script cyrl;
 	pos quotesingle a-cy -100;
@@ -887,13 +901,13 @@ feature ss01 {
 		name "Alternate capital letter D, etc.";
 	};
 	# these get added to the end of ccmp automatically for Video style
-	sub D by D.alt;
-	sub Eth by Eth.alt;
-	sub Dcroat by Dcroat.alt;
-	sub Dhook by Dhook.alt;
-	sub Dcaron by Dcaron.alt;
-	sub Ddotbelow by Ddotbelow.alt;
-	sub Dmacronbelow by Dmacronbelow.alt;
+	sub D.alt by D;
+	sub Eth.alt by Eth;
+	sub Dcroat.alt by Dcroat;
+	sub Dhook.alt by Dhook;
+	sub Dcaron.alt by Dcaron;
+	sub Ddotbelow.alt by Ddotbelow;
+	sub Dmacronbelow.alt by Dmacronbelow;
 } ss01;
 
 feature ss02 {
