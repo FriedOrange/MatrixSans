@@ -9,9 +9,8 @@
       <point x="150.0" y="100.0" type="line"/>
       <point x="150.0" y="300.0" type="line"/>
       <point x="50.0" y="300.0" type="line"/>
-      <point x="50.0" y="400.0" type="line"/>
-      <point x="150.0" y="400.0" type="line"/>
-      <point x="150.0" y="500.0" type="line"/>
+      <point x="50.0" y="370.0" type="line"/>
+      <point x="180.0" y="500.0" type="line"/>
       <point x="250.0" y="500.0" type="line"/>
       <point x="250.0" y="100.0" type="line"/>
       <point x="350.0" y="100.0" type="line"/>
