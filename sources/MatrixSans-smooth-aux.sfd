@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1675081307
-ModificationTime: 1778240788
+ModificationTime: 1778250216
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -36,6 +36,7 @@ HheadAscent: 0
 HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
+OS2Vendor: 'PfEd'
 DEI: 91125
 Encoding: UnicodeBmp
 UnicodeInterp: none
@@ -43,7 +44,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 16 12
+WinInfo: 7456 16 12
 BeginChars: 65576 147
 
 StartChar: quarterdot
@@ -4214,19 +4215,12 @@ EndChar
 StartChar: uni1D3A
 Encoding: 7482 7482 65
 Width: 500
+VWidth: 1100
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 97 -1 N 1 0 0 1 100 550 2
-Refer: 105 -1 N 1 0 0 1 300 350 2
-Refer: 0 -1 N 1 0 0 1 400 200 2
-Refer: 0 -1 N 1 0 0 1 350 200 2
-Refer: 0 -1 N 1 0 0 1 400 250 2
-Refer: 0 -1 N 1 0 0 1 350 250 2
-Refer: 0 -1 N 1 0 0 1 100 200 2
-Refer: 0 -1 N 1 0 0 1 50 200 2
-Refer: 0 -1 N 1 0 0 1 100 250 2
-Refer: 0 -1 N 1 0 0 1 50 250 2
+Refer: 97 -1 N 1 0 0 1 100 650 2
+Refer: 105 -1 N 1 0 0 1 300 450 2
 Refer: 0 -1 N 1 0 0 1 400 300 2
 Refer: 0 -1 N 1 0 0 1 350 300 2
 Refer: 0 -1 N 1 0 0 1 400 350 2
@@ -4239,10 +4233,6 @@ Refer: 0 -1 N 1 0 0 1 400 400 2
 Refer: 0 -1 N 1 0 0 1 350 400 2
 Refer: 0 -1 N 1 0 0 1 400 450 2
 Refer: 0 -1 N 1 0 0 1 350 450 2
-Refer: 0 -1 N 1 0 0 1 300 400 2
-Refer: 105 -1 N 1 0 0 1 250 400 2
-Refer: 0 -1 N 1 0 0 1 300 450 2
-Refer: 110 -1 N 1 0 0 1 250 400 2
 Refer: 0 -1 N 1 0 0 1 100 400 2
 Refer: 0 -1 N 1 0 0 1 50 400 2
 Refer: 0 -1 N 1 0 0 1 100 450 2
@@ -4251,10 +4241,10 @@ Refer: 0 -1 N 1 0 0 1 400 500 2
 Refer: 0 -1 N 1 0 0 1 350 500 2
 Refer: 0 -1 N 1 0 0 1 400 550 2
 Refer: 0 -1 N 1 0 0 1 350 550 2
-Refer: 102 -1 N 1 0 0 1 150 500 2
-Refer: 0 -1 N 1 0 0 1 150 500 2
-Refer: 97 -1 N 1 0 0 1 150 500 2
-Refer: 0 -1 N 1 0 0 1 150 550 2
+Refer: 0 -1 N 1 0 0 1 300 500 2
+Refer: 105 -1 N 1 0 0 1 250 500 2
+Refer: 0 -1 N 1 0 0 1 300 550 2
+Refer: 110 -1 N 1 0 0 1 250 500 2
 Refer: 0 -1 N 1 0 0 1 100 500 2
 Refer: 0 -1 N 1 0 0 1 50 500 2
 Refer: 0 -1 N 1 0 0 1 100 550 2
@@ -4263,10 +4253,22 @@ Refer: 0 -1 N 1 0 0 1 400 600 2
 Refer: 0 -1 N 1 0 0 1 350 600 2
 Refer: 0 -1 N 1 0 0 1 400 650 2
 Refer: 0 -1 N 1 0 0 1 350 650 2
+Refer: 102 -1 N 1 0 0 1 150 600 2
+Refer: 0 -1 N 1 0 0 1 150 600 2
+Refer: 97 -1 N 1 0 0 1 150 600 2
+Refer: 0 -1 N 1 0 0 1 150 650 2
 Refer: 0 -1 N 1 0 0 1 100 600 2
 Refer: 0 -1 N 1 0 0 1 50 600 2
 Refer: 0 -1 N 1 0 0 1 100 650 2
 Refer: 0 -1 N 1 0 0 1 50 650 2
+Refer: 0 -1 N 1 0 0 1 400 700 2
+Refer: 0 -1 N 1 0 0 1 350 700 2
+Refer: 0 -1 N 1 0 0 1 400 750 2
+Refer: 0 -1 N 1 0 0 1 350 750 2
+Refer: 0 -1 N 1 0 0 1 100 700 2
+Refer: 0 -1 N 1 0 0 1 50 700 2
+Refer: 0 -1 N 1 0 0 1 100 750 2
+Refer: 0 -1 N 1 0 0 1 50 750 2
 EndChar
 
 StartChar: trademark
