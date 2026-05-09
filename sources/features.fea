@@ -972,3 +972,8 @@ feature dlig {
 	sub f i by f_i;
 	sub f l by f_l;
 } dlig;
+
+feature case {
+	pos questiondown <0 200 0 0>;
+	pos exclamdown <0 200 0 0>;
+} case;
