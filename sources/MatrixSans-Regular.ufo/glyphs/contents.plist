@@ -1476,6 +1476,8 @@
     <string>hbrevebelow.sc.glif</string>
     <key>hcaron</key>
     <string>hcaron.glif</string>
+    <key>hcaron.sc</key>
+    <string>hcaron.sc.glif</string>
     <key>hcircumflex</key>
     <string>hcircumflex.glif</string>
     <key>hcircumflex.sc</key>
