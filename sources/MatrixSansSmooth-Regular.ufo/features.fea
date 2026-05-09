@@ -142,7 +142,7 @@ feature ccmp {
 	sub Idotaccent' @marks_above by idotaccent.sc;
 	sub Edotaccent' @marks_above by edotaccent.sc;
 	sub Umacron' @marks_above by umacron.sc;
-} ccmp;
+sub D by D.alt;sub Eth by Eth.alt;sub Dcroat by Dcroat.alt;sub Dhook by Dhook.alt;sub Dcaron by Dcaron.alt;sub Ddotbelow by Ddotbelow.alt;sub Dmacronbelow by Dmacronbelow.alt;} ccmp;
 
 feature mkmk {
 	pos mark [gravecomb acutecomb circumflexcomb tildecomb ringcomb hungarumlautcomb caroncomb commaturnedabovecomb hookabovecomb]
@@ -294,7 +294,7 @@ feature locl {
 # First-of-pair classes
 
 @talloverhangR = [F J Jcircumflex T Tbar Tcaron Tcedilla Tcommaaccent Tdotbelow Tmacronbelow dhook ibreve ibreve.sc itilde itilde.sc jacute jcircumflex yhook uni02BB quoteleft quotedblleft Florin jcaron uni02B9 minute second ringhalfright circumflex caron macron uni02CA];
-@talloverhang2R = [Hbar Ohorn Ohornacute Ohorndotbelow Ohorngrave Ohornhookabove Ohorntilde Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhookabove Uhorntilde Y Yacute Ycircumflex Ydieresis Ydotaccent Ydotbelow Ygrave Yhookabove Ymacron Ytilde dcaron dcroat f f_f florin lcaron longs apostrophemod uni02C8 quoteright quotedblright uni0315 Tslash uni0295 uni02C0 ringhalfleft uni02CB];
+@talloverhang2R = [Hbar Ohorn Ohornacute Ohorndotbelow Ohorngrave Ohornhookabove Ohorntilde Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhookabove Uhorntilde Y Yacute Ycircumflex Ydieresis Ydotaccent Ydotbelow Ygrave Yhookabove Ymacron Ytilde dcaron dcroat f f_f florin lcaron longs apostrophemod uni02C8 quoteright quotedblright Tslash uni0295 uni02C0 ringhalfleft uni02CB];
 @talloverhang3R = [Yhook ytilde.sc P quotesingle quotedbl saltillo thetamod tslash.sc wmod degree];
 @talloverhang4R = [Saltillo uni0241 uni0294 ymod zmod nmod];
 @shortoverhangR = [f.sc florin.sc j.sc jcircumflex.sc t.sc tbar.sc tcaron.sc tcedilla.sc tcommaaccent.sc tdieresis.sc tdotbelow.sc tmacronbelow.sc y.sc ydieresis.sc ydotaccent.sc ydotbelow.sc ygrave.sc yhookabove.sc ymacron.sc chilatin lmiddletilde dagger commareversedmod quotereversed];
@@ -385,7 +385,7 @@ feature locl {
 
 @tallcurve2TL = [A AE AEacute Aacute Abreve Abrevedotbelow Acaron Acircumflex Acircumflexdotbelow Adieresis Adotbelow Agrave Ahookabove Amacron Aogonek Aring Atilde Aslash];
 @talloverhangL = [T Tbar Tcaron Tcedilla Tcommaaccent Tdotbelow Tmacronbelow ibreve ibreve.sc Iotalatin uni02C0 ringhalfleft circumflex caron macron uni02CB];
-@talloverhang2L = [Hbar Y Yacute Ycircumflex Ydieresis Ydotaccent Ydotbelow Ygrave Yhook Yhookabove Ymacron Ytilde hbar itilde itilde.sc commareversedmod quotereversed question uni203D uni0315 uni0241 uni0294 ymod ringhalfright uni02C8 uni02CA];
+@talloverhang2L = [Hbar Y Yacute Ycircumflex Ydieresis Ydotaccent Ydotbelow Ygrave Yhook Yhookabove Ymacron Ytilde hbar itilde itilde.sc commareversedmod quotereversed question uni203D uni0241 uni0294 ymod ringhalfright uni02C8 uni02CA];
 @talloverhang3L = [Bhook Dhook uni02BB quotesingle quotedbl quoteleft quotedblleft saltillo thetamod wmod degree];
 @talloverhang4L = [Saltillo uni0295 zmod nmod];
 @underhang2L = [J Jcircumflex j.sc jcircumflex.sc lslash.sc Lambdalatinbar uni2144 a aacute acaron acircumflex acircumflexdotbelow acircumflexgrave acircumflexhookabove acircumflextilde adieresis adotbelow ae aeacute agrave ahookabove amacron aogonek aring aringacute eth aslash lambdalatinbar.sc period ellipsis];
@@ -485,7 +485,6 @@ feature kern {
 	pos F j -300;
 	pos F J -200;
 	pos F Jcircumflex -200;
-	pos L uni0315 -400;
 	pos P J -200;
 	pos P Jcircumflex -200;
 	pos P j.sc -200;
@@ -901,13 +900,13 @@ feature ss01 {
 		name "Alternate capital letter D, etc.";
 	};
 	# these get added to the end of ccmp automatically for Video style
-	sub D by D.alt;
-	sub Eth by Eth.alt;
-	sub Dcroat by Dcroat.alt;
-	sub Dhook by Dhook.alt;
-	sub Dcaron by Dcaron.alt;
-	sub Ddotbelow by Ddotbelow.alt;
-	sub Dmacronbelow by Dmacronbelow.alt;
+	sub D.alt by D;
+	sub Eth.alt by Eth;
+	sub Dcroat.alt by Dcroat;
+	sub Dhook.alt by Dhook;
+	sub Dcaron.alt by Dcaron;
+	sub Ddotbelow.alt by Ddotbelow;
+	sub Dmacronbelow.alt by Dmacronbelow;
 } ss01;
 
 feature ss02 {
