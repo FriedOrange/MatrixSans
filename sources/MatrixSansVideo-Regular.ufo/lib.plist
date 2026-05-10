@@ -649,38 +649,144 @@
 		<string>dzhe-cy</string>
 		<string>uni0462</string>
 		<string>uni0463</string>
+		<string>uni046A</string>
+		<string>uni046B</string>
 		<string>uni0472</string>
 		<string>uni0473</string>
 		<string>uni0474</string>
 		<string>uni0475</string>
+		<string>uni048A</string>
+		<string>uni048B</string>
+		<string>uni048E</string>
+		<string>uni048F</string>
 		<string>Geupturn-cy</string>
 		<string>geupturn-cy</string>
 		<string>Gestroke-cy</string>
 		<string>gestroke-cy</string>
+		<string>uni0494</string>
+		<string>uni0495</string>
 		<string>Zhedescender-cy</string>
 		<string>zhedescender-cy</string>
+		<string>uni0498</string>
+		<string>uni0499</string>
 		<string>Kadescender-cy</string>
 		<string>kadescender-cy</string>
+		<string>uni049C</string>
+		<string>uni049D</string>
+		<string>uni049E</string>
+		<string>uni049F</string>
+		<string>uni04A0</string>
+		<string>uni04A1</string>
 		<string>Endescender-cy</string>
 		<string>endescender-cy</string>
+		<string>uni04A4</string>
+		<string>uni04A5</string>
+		<string>uni04A6</string>
+		<string>uni04A7</string>
+		<string>uni04A8</string>
+		<string>uni04A9</string>
+		<string>uni04AA</string>
+		<string>uni04AB</string>
+		<string>uni04AC</string>
+		<string>uni04AD</string>
 		<string>Ustraight-cy</string>
 		<string>ustraight-cy</string>
 		<string>Ustraightstroke-cy</string>
 		<string>ustraightstroke-cy</string>
 		<string>Hadescender-cy</string>
 		<string>hadescender-cy</string>
+		<string>uni04B4</string>
+		<string>uni04B5</string>
 		<string>Chedescender-cy</string>
 		<string>chedescender-cy</string>
+		<string>uni04B8</string>
+		<string>uni04B9</string>
 		<string>Shha-cy</string>
 		<string>shha-cy</string>
+		<string>uni04BC</string>
+		<string>uni04BD</string>
+		<string>uni04BE</string>
+		<string>uni04BF</string>
+		<string>uni04C0</string>
+		<string>uni04C1</string>
+		<string>uni04C2</string>
+		<string>uni04C3</string>
+		<string>uni04C4</string>
+		<string>uni04C5</string>
+		<string>uni04C6</string>
+		<string>uni04C7</string>
+		<string>uni04C8</string>
+		<string>uni04C9</string>
+		<string>uni04CA</string>
+		<string>uni04CB</string>
+		<string>uni04CC</string>
+		<string>uni04CD</string>
+		<string>uni04CE</string>
+		<string>uni04CF</string>
+		<string>uni04D0</string>
+		<string>uni04D1</string>
+		<string>uni04D2</string>
+		<string>uni04D3</string>
+		<string>uni04D4</string>
+		<string>uni04D5</string>
+		<string>uni04D6</string>
+		<string>uni04D7</string>
 		<string>Schwa-cy</string>
 		<string>schwa-cy</string>
+		<string>uni04DA</string>
+		<string>uni04DB</string>
+		<string>uni04DC</string>
+		<string>uni04DD</string>
+		<string>uni04DE</string>
+		<string>uni04DF</string>
+		<string>uni04E0</string>
+		<string>uni04E1</string>
 		<string>Imacron-cy</string>
 		<string>imacron-cy</string>
+		<string>uni04E4</string>
+		<string>uni04E5</string>
+		<string>uni04E6</string>
+		<string>uni04E7</string>
 		<string>Obarred-cy</string>
 		<string>obarred-cy</string>
+		<string>uni04EA</string>
+		<string>uni04EB</string>
+		<string>uni04EC</string>
+		<string>uni04ED</string>
 		<string>Umacron-cy</string>
 		<string>umacron-cy</string>
+		<string>uni04F0</string>
+		<string>uni04F1</string>
+		<string>uni04F2</string>
+		<string>uni04F3</string>
+		<string>uni04F4</string>
+		<string>uni04F5</string>
+		<string>uni04F6</string>
+		<string>uni04F7</string>
+		<string>uni04F8</string>
+		<string>uni04F9</string>
+		<string>uni04FA</string>
+		<string>uni04FB</string>
+		<string>uni04FC</string>
+		<string>uni04FD</string>
+		<string>uni04FE</string>
+		<string>uni04FF</string>
+		<string>uni0510</string>
+		<string>uni0511</string>
+		<string>uni0512</string>
+		<string>uni0513</string>
+		<string>uni051A</string>
+		<string>uni051B</string>
+		<string>uni051C</string>
+		<string>uni051D</string>
+		<string>uni0524</string>
+		<string>uni0525</string>
+		<string>uni0526</string>
+		<string>uni0527</string>
+		<string>uni0528</string>
+		<string>uni0529</string>
+		<string>uni052E</string>
+		<string>uni052F</string>
 		<string>Ayb-ar</string>
 		<string>Ben-ar</string>
 		<string>Gim-ar</string>
@@ -1742,6 +1848,8 @@
 		<string>shcha-cy.loclBGR</string>
 		<string>yu-cy.loclBGR</string>
 		<string>ze-cy.loclBGR</string>
+		<string>uni049F.sc</string>
+		<string>uni048F.sc</string>
 	</array>
 	<key>public.openTypeCategories</key>
 	<dict>
@@ -4281,6 +4389,10 @@
 		<string>base</string>
 		<key>uni0463.sc</key>
 		<string>base</string>
+		<key>uni046A</key>
+		<string>base</string>
+		<key>uni046B</key>
+		<string>base</string>
 		<key>uni0472</key>
 		<string>base</string>
 		<key>uni0473</key>
@@ -4288,6 +4400,218 @@
 		<key>uni0474</key>
 		<string>base</string>
 		<key>uni0475</key>
+		<string>base</string>
+		<key>uni048A</key>
+		<string>base</string>
+		<key>uni048B</key>
+		<string>base</string>
+		<key>uni048E</key>
+		<string>base</string>
+		<key>uni048F</key>
+		<string>base</string>
+		<key>uni048F.sc</key>
+		<string>base</string>
+		<key>uni0494</key>
+		<string>base</string>
+		<key>uni0495</key>
+		<string>base</string>
+		<key>uni0498</key>
+		<string>base</string>
+		<key>uni0499</key>
+		<string>base</string>
+		<key>uni049C</key>
+		<string>base</string>
+		<key>uni049D</key>
+		<string>base</string>
+		<key>uni049E</key>
+		<string>base</string>
+		<key>uni049F</key>
+		<string>base</string>
+		<key>uni049F.sc</key>
+		<string>base</string>
+		<key>uni04A0</key>
+		<string>base</string>
+		<key>uni04A1</key>
+		<string>base</string>
+		<key>uni04A4</key>
+		<string>base</string>
+		<key>uni04A5</key>
+		<string>base</string>
+		<key>uni04A6</key>
+		<string>base</string>
+		<key>uni04A7</key>
+		<string>base</string>
+		<key>uni04A8</key>
+		<string>base</string>
+		<key>uni04A9</key>
+		<string>base</string>
+		<key>uni04AA</key>
+		<string>base</string>
+		<key>uni04AB</key>
+		<string>base</string>
+		<key>uni04AC</key>
+		<string>base</string>
+		<key>uni04AD</key>
+		<string>base</string>
+		<key>uni04B4</key>
+		<string>base</string>
+		<key>uni04B5</key>
+		<string>base</string>
+		<key>uni04B8</key>
+		<string>base</string>
+		<key>uni04B9</key>
+		<string>base</string>
+		<key>uni04BC</key>
+		<string>base</string>
+		<key>uni04BD</key>
+		<string>base</string>
+		<key>uni04BE</key>
+		<string>base</string>
+		<key>uni04BF</key>
+		<string>base</string>
+		<key>uni04C0</key>
+		<string>base</string>
+		<key>uni04C1</key>
+		<string>base</string>
+		<key>uni04C2</key>
+		<string>base</string>
+		<key>uni04C3</key>
+		<string>base</string>
+		<key>uni04C4</key>
+		<string>base</string>
+		<key>uni04C5</key>
+		<string>base</string>
+		<key>uni04C6</key>
+		<string>base</string>
+		<key>uni04C7</key>
+		<string>base</string>
+		<key>uni04C8</key>
+		<string>base</string>
+		<key>uni04C9</key>
+		<string>base</string>
+		<key>uni04CA</key>
+		<string>base</string>
+		<key>uni04CB</key>
+		<string>base</string>
+		<key>uni04CC</key>
+		<string>base</string>
+		<key>uni04CD</key>
+		<string>base</string>
+		<key>uni04CE</key>
+		<string>base</string>
+		<key>uni04CF</key>
+		<string>base</string>
+		<key>uni04D0</key>
+		<string>base</string>
+		<key>uni04D1</key>
+		<string>base</string>
+		<key>uni04D2</key>
+		<string>base</string>
+		<key>uni04D3</key>
+		<string>base</string>
+		<key>uni04D4</key>
+		<string>base</string>
+		<key>uni04D5</key>
+		<string>base</string>
+		<key>uni04D6</key>
+		<string>base</string>
+		<key>uni04D7</key>
+		<string>base</string>
+		<key>uni04DA</key>
+		<string>base</string>
+		<key>uni04DB</key>
+		<string>base</string>
+		<key>uni04DC</key>
+		<string>base</string>
+		<key>uni04DD</key>
+		<string>base</string>
+		<key>uni04DE</key>
+		<string>base</string>
+		<key>uni04DF</key>
+		<string>base</string>
+		<key>uni04E0</key>
+		<string>base</string>
+		<key>uni04E1</key>
+		<string>base</string>
+		<key>uni04E4</key>
+		<string>base</string>
+		<key>uni04E5</key>
+		<string>base</string>
+		<key>uni04E6</key>
+		<string>base</string>
+		<key>uni04E7</key>
+		<string>base</string>
+		<key>uni04EA</key>
+		<string>base</string>
+		<key>uni04EB</key>
+		<string>base</string>
+		<key>uni04EC</key>
+		<string>base</string>
+		<key>uni04ED</key>
+		<string>base</string>
+		<key>uni04F0</key>
+		<string>base</string>
+		<key>uni04F1</key>
+		<string>base</string>
+		<key>uni04F2</key>
+		<string>base</string>
+		<key>uni04F3</key>
+		<string>base</string>
+		<key>uni04F4</key>
+		<string>base</string>
+		<key>uni04F5</key>
+		<string>base</string>
+		<key>uni04F6</key>
+		<string>base</string>
+		<key>uni04F7</key>
+		<string>base</string>
+		<key>uni04F8</key>
+		<string>base</string>
+		<key>uni04F9</key>
+		<string>base</string>
+		<key>uni04FA</key>
+		<string>base</string>
+		<key>uni04FB</key>
+		<string>base</string>
+		<key>uni04FC</key>
+		<string>base</string>
+		<key>uni04FD</key>
+		<string>base</string>
+		<key>uni04FE</key>
+		<string>base</string>
+		<key>uni04FF</key>
+		<string>base</string>
+		<key>uni0510</key>
+		<string>base</string>
+		<key>uni0511</key>
+		<string>base</string>
+		<key>uni0512</key>
+		<string>base</string>
+		<key>uni0513</key>
+		<string>base</string>
+		<key>uni051A</key>
+		<string>base</string>
+		<key>uni051B</key>
+		<string>base</string>
+		<key>uni051C</key>
+		<string>base</string>
+		<key>uni051D</key>
+		<string>base</string>
+		<key>uni0524</key>
+		<string>base</string>
+		<key>uni0525</key>
+		<string>base</string>
+		<key>uni0526</key>
+		<string>base</string>
+		<key>uni0527</key>
+		<string>base</string>
+		<key>uni0528</key>
+		<string>base</string>
+		<key>uni0529</key>
+		<string>base</string>
+		<key>uni052E</key>
+		<string>base</string>
+		<key>uni052F</key>
 		<string>base</string>
 		<key>uni05BE</key>
 		<string>base</string>
