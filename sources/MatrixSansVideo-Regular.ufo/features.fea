@@ -11,6 +11,8 @@ languagesystem latn ROM;
 languagesystem latn NSM;
 languagesystem latn NLD;
 languagesystem cyrl dflt;
+languagesystem cyrl SRB;
+languagesystem cyrl BGR;
 languagesystem grek dflt;
 languagesystem armn dflt;
 languagesystem geor dflt;
@@ -276,8 +278,10 @@ feature locl {
 		sub Tcedilla by Tcommaaccent;
 		sub tcedilla by tcommaaccent;
 	language NSM;
-		sub Eng by Eng.loclNSM;
-		sub eng.sc by eng.sc.loclNSM;
+		lookup locl_NSM {
+			sub Eng by Eng.loclNSM;
+			sub eng.sc by eng.sc.loclNSM;
+		} locl_NSM;		
 	language NLD;
 		sub I [J j j.sc] by IJ;
 		sub i j by ij;
@@ -288,6 +292,14 @@ feature locl {
 		sub i.sc j.sc by ij.sc;
 	script cyrl;
 		sub three by three.alt;
+	language SRB;
+		lookup locl_SRB {
+			sub be-cy by be-cy.loclSRB;
+		} locl_SRB;
+	language BGR;
+		lookup locl_BGR {
+			sub [ve-cy ge-cy de-cy zhe-cy ze-cy ii-cy iishort-cy ka-cy el-cy pe-cy te-cy tse-cy sha-cy shcha-cy yu-cy] by [ve-cy.loclBGR ge-cy.loclBGR g zhe-cy.loclBGR ze-cy.loclBGR u ubreve k el-cy.loclBGR n m tse-cy.loclBGR ayb-ar shcha-cy.loclBGR yu-cy.loclBGR];
+		} locl_BGR;
 } locl;
 
 # Classes for kerning
@@ -937,9 +949,22 @@ feature ss06 {
 	featureNames {
 		name "Alternate capital letter Ŋ (Eng)";
 	};
-	sub Eng by Eng.loclNSM;
-	sub eng.sc by eng.sc.loclNSM;
+	lookup locl_NSM;
 } ss06;
+
+feature ss07 {
+	featureNames {
+		name "Serbian letter forms";
+	};
+	lookup locl_SRB;
+} ss07;
+
+feature ss08 {
+	featureNames {
+		name "Bulgarian letter forms";
+	};
+	lookup locl_BGR;
+} ss08;
 
 feature salt {
 	sub two by two.alt;

@@ -944,6 +944,8 @@
     <string>bar.glif</string>
     <key>be-cy</key>
     <string>be-cy.glif</string>
+    <key>be-cy.loclSRB</key>
+    <string>be-cy.loclS_R_B_.glif</string>
     <key>be-cy.sc</key>
     <string>be-cy.sc.glif</string>
     <key>ben-ar</key>
@@ -1228,6 +1230,8 @@
     <string>eightsuperior.glif</string>
     <key>el-cy</key>
     <string>el-cy.glif</string>
+    <key>el-cy.loclBGR</key>
+    <string>el-cy.loclB_G_R_.glif</string>
     <key>ellipsis</key>
     <string>ellipsis.glif</string>
     <key>em-cy</key>
@@ -1416,6 +1420,8 @@
     <string>gdotaccent.sc.glif</string>
     <key>ge-cy</key>
     <string>ge-cy.glif</string>
+    <key>ge-cy.loclBGR</key>
+    <string>ge-cy.loclB_G_R_.glif</string>
     <key>germandbls</key>
     <string>germandbls.glif</string>
     <key>germandbls.sc</key>
@@ -2228,6 +2234,8 @@
     <string>sha-cy.glif</string>
     <key>shcha-cy</key>
     <string>shcha-cy.glif</string>
+    <key>shcha-cy.loclBGR</key>
+    <string>shcha-cy.loclB_G_R_.glif</string>
     <key>sheqel</key>
     <string>sheqel.glif</string>
     <key>shha-cy</key>
@@ -2350,6 +2358,8 @@
     <string>triagup.glif</string>
     <key>tse-cy</key>
     <string>tse-cy.glif</string>
+    <key>tse-cy.loclBGR</key>
+    <string>tse-cy.loclB_G_R_.glif</string>
     <key>tshe-cy</key>
     <string>tshe-cy.glif</string>
     <key>tshe-cy.sc</key>
@@ -3312,6 +3322,8 @@
     <string>v.glif</string>
     <key>ve-cy</key>
     <string>ve-cy.glif</string>
+    <key>ve-cy.loclBGR</key>
+    <string>ve-cy.loclB_G_R_.glif</string>
     <key>verticallineabovecomb</key>
     <string>verticallineabovecomb.glif</string>
     <key>vew-ar</key>
@@ -3422,6 +3434,8 @@
     <string>ytilde.sc.glif</string>
     <key>yu-cy</key>
     <string>yu-cy.glif</string>
+    <key>yu-cy.loclBGR</key>
+    <string>yu-cy.loclB_G_R_.glif</string>
     <key>z</key>
     <string>z.glif</string>
     <key>za-ar</key>
@@ -3440,6 +3454,8 @@
     <string>zdotbelow.glif</string>
     <key>ze-cy</key>
     <string>ze-cy.glif</string>
+    <key>ze-cy.loclBGR</key>
+    <string>ze-cy.loclB_G_R_.glif</string>
     <key>zero</key>
     <string>zero.glif</string>
     <key>zero.sc</key>
@@ -3454,6 +3470,8 @@
     <string>zhe-ar.sc.glif</string>
     <key>zhe-cy</key>
     <string>zhe-cy.glif</string>
+    <key>zhe-cy.loclBGR</key>
+    <string>zhe-cy.loclB_G_R_.glif</string>
     <key>zhedescender-cy</key>
     <string>zhedescender-cy.glif</string>
     <key>zmacronbelow</key>
