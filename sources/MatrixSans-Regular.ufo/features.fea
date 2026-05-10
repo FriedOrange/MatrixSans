@@ -904,10 +904,9 @@ feature ss01 {
 
 feature ss02 {
 	featureNames {
-		name "Alternate numerals 2, 4, 6 and 9";
+		name "Alternate numerals 2, 6 and 9";
 	};
 	sub two by two.alt;
-	sub four by four.alt;
 	sub six by six.alt;
 	sub nine by nine.alt;
 } ss02;
@@ -921,10 +920,9 @@ feature ss03 {
 
 feature ss04 {
 	featureNames {
-		name "Alternate capital letter Ŋ (Eng)";
+		name "Alternate numeral 4";
 	};
-	sub Eng by Eng.loclNSM;
-	sub eng.sc by eng.sc.loclNSM;
+	sub four by four.alt;
 } ss04;
 
 feature ss05 {
@@ -934,6 +932,14 @@ feature ss05 {
 	sub phi by phi1;
 	sub phi1 by phi;
 } ss05;
+
+feature ss06 {
+	featureNames {
+		name "Alternate capital letter Ŋ (Eng)";
+	};
+	sub Eng by Eng.loclNSM;
+	sub eng.sc by eng.sc.loclNSM;
+} ss06;
 
 feature salt {
 	sub two by two.alt;

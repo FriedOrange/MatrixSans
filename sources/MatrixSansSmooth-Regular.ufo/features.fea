@@ -142,7 +142,7 @@ feature ccmp {
 	sub Idotaccent' @marks_above by idotaccent.sc;
 	sub Edotaccent' @marks_above by edotaccent.sc;
 	sub Umacron' @marks_above by umacron.sc;
-sub D by D.alt;sub Eth by Eth.alt;sub Dcroat by Dcroat.alt;sub Dhook by Dhook.alt;sub Dcaron by Dcaron.alt;sub Ddotbelow by Ddotbelow.alt;sub Dmacronbelow by Dmacronbelow.alt;} ccmp;
+} ccmp;
 
 feature mkmk {
 	pos mark [gravecomb acutecomb circumflexcomb tildecomb ringcomb hungarumlautcomb caroncomb commaturnedabovecomb hookabovecomb]
@@ -893,21 +893,20 @@ feature ss01 {
 		name "Alternate capital letter D, etc.";
 	};
 	# these get added to the end of ccmp automatically for Video style
-	sub D.alt by D;
-	sub Eth.alt by Eth;
-	sub Dcroat.alt by Dcroat;
-	sub Dhook.alt by Dhook;
-	sub Dcaron.alt by Dcaron;
-	sub Ddotbelow.alt by Ddotbelow;
-	sub Dmacronbelow.alt by Dmacronbelow;
+	sub D by D.alt;
+	sub Eth by Eth.alt;
+	sub Dcroat by Dcroat.alt;
+	sub Dhook by Dhook.alt;
+	sub Dcaron by Dcaron.alt;
+	sub Ddotbelow by Ddotbelow.alt;
+	sub Dmacronbelow by Dmacronbelow.alt;
 } ss01;
 
 feature ss02 {
 	featureNames {
-		name "Alternate numerals 2, 4, 6 and 9";
+		name "Alternate numerals 2, 6 and 9";
 	};
 	sub two by two.alt;
-	sub four by four.alt;
 	sub six by six.alt;
 	sub nine by nine.alt;
 } ss02;
@@ -921,10 +920,9 @@ feature ss03 {
 
 feature ss04 {
 	featureNames {
-		name "Alternate capital letter Ŋ (Eng)";
+		name "Alternate numeral 4";
 	};
-	sub Eng by Eng.loclNSM;
-	sub eng.sc by eng.sc.loclNSM;
+	sub four by four.alt;
 } ss04;
 
 feature ss05 {
@@ -934,6 +932,14 @@ feature ss05 {
 	sub phi by phi1;
 	sub phi1 by phi;
 } ss05;
+
+feature ss06 {
+	featureNames {
+		name "Alternate capital letter Ŋ (Eng)";
+	};
+	sub Eng by Eng.loclNSM;
+	sub eng.sc by eng.sc.loclNSM;
+} ss06;
 
 feature salt {
 	sub two by two.alt;
