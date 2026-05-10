@@ -29,6 +29,15 @@ This Font Software is licensed under the SIL Open Font License, Version 1.1. Thi
 Changelog
 ---------
 
+10 May 2026 - Version 1.710
+
+- Now supports Google Fonts Latin Beyond character set
+- Added matching capitals for existing small letters: Ɑ, Ɡ, Ƒ
+- Swapped regular and alternate digit 4 in Video and Smooth styles; alternate now accessed by Stylistic Set 4 feature
+- Changed design of prime and double prime (minute/second, foot/inch) ′ ″
+- Improved kerning of punctuation marks and "modifier letters"
+- Fixed OpenType `meta` table: now mentions Lisu, Tifinagh and Hebrew as supported scripts
+
 26 April 2026 - Version 1.700
 
 - Added Lisu (Fraser) script

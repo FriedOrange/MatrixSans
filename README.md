@@ -62,7 +62,22 @@ To easily add or modify glyphs (requires [FontForge](https://fontforge.org/)):
 5. Run `step2.bat` to generate the intermediate UFO sources in the various styles
 	- Custom behaviour is implemented for certain glyphs in the Video, Raster and Smooth styles; edit `step2.py` to change this. Also see the `-aux` sources with manually-designed versions of some glyphs for the Video and Smooth styles
 
+## License
+
+This Font Software is licensed under the SIL Open Font License, Version 1.1.
+This license is available with a FAQ at
+https://scripts.sil.org/OFL
+
 ## Changelog
+
+#### 10 May 2026 - Version 1.710
+
+- Now supports Google Fonts Latin Beyond character set
+- Added matching capitals for existing small letters: Ɑ, Ɡ, Ƒ
+- Swapped regular and alternate digit 4 in Video and Smooth styles; alternate now accessed by Stylistic Set 4 feature
+- Changed design of prime and double prime (minute/second, foot/inch) ′ ″
+- Improved kerning of punctuation marks and "modifier letters"
+- Fixed OpenType `meta` table: now mentions Lisu, Tifinagh and Hebrew as supported scripts
 
 #### 26 April 2026 - Version 1.700
 
@@ -223,9 +238,3 @@ To easily add or modify glyphs (requires [FontForge](https://fontforge.org/)):
 #### 20 July 2022 - Version 0.001
 - Initial test release
 - Supports Basic Latin (ASCII)
-
-## License
-
-This Font Software is licensed under the SIL Open Font License, Version 1.1.
-This license is available with a FAQ at
-https://scripts.sil.org/OFL
