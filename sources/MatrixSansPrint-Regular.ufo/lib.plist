@@ -657,6 +657,8 @@
 		<string>uni0475</string>
 		<string>uni048A</string>
 		<string>uni048B</string>
+		<string>uni048C</string>
+		<string>uni048D</string>
 		<string>uni048E</string>
 		<string>uni048F</string>
 		<string>Geupturn-cy</string>
@@ -1852,6 +1854,7 @@
 		<string>uni048F.sc</string>
 		<string>uni04F3.sc</string>
 		<string>uni04F1.sc</string>
+		<string>uni048D.sc</string>
 	</array>
 	<key>public.openTypeCategories</key>
 	<dict>
@@ -4406,6 +4409,12 @@
 		<key>uni048A</key>
 		<string>base</string>
 		<key>uni048B</key>
+		<string>base</string>
+		<key>uni048C</key>
+		<string>base</string>
+		<key>uni048D</key>
+		<string>base</string>
+		<key>uni048D.sc</key>
 		<string>base</string>
 		<key>uni048E</key>
 		<string>base</string>
