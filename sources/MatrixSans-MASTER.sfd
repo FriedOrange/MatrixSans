@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1657964544
-ModificationTime: 1778460184
+ModificationTime: 1778490644
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -69,7 +69,7 @@ BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 629146 314573 209715 524288 1048576 0 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "marks_above"""  "marks_below"""  "ogonek"""  "marks_aboveright""" 
-BeginChars: 1114433 1869
+BeginChars: 1114434 1870
 
 StartChar: dot
 Encoding: 1114112 -1 0
@@ -29908,6 +29908,16 @@ Flags: H
 LayerCount: 2
 Fore
 Refer: 330 779 N 1 0 0 1 300 0 2
+Refer: 1019 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni04F1.sc
+Encoding: 1114433 -1 1869
+Width: 600
+Flags: H
+LayerCount: 2
+Fore
+Refer: 232 776 N 1 0 0 1 300 0 2
 Refer: 1019 -1 N 1 0 0 1 0 0 3
 EndChar
 EndChars
