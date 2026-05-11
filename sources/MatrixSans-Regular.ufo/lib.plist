@@ -1850,6 +1850,7 @@
 		<string>ze-cy.loclBGR</string>
 		<string>uni049F.sc</string>
 		<string>uni048F.sc</string>
+		<string>uni04F3.sc</string>
 	</array>
 	<key>public.openTypeCategories</key>
 	<dict>
@@ -4556,6 +4557,8 @@
 		<key>uni04F2</key>
 		<string>base</string>
 		<key>uni04F3</key>
+		<string>base</string>
+		<key>uni04F3.sc</key>
 		<string>base</string>
 		<key>uni04F4</key>
 		<string>base</string>
