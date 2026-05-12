@@ -554,16 +554,16 @@
 		<string>Iegrave-cy</string>
 		<string>Io-cy</string>
 		<string>Dje-cy</string>
-		<string>uni0403</string>
+		<string>Gje-cy</string>
 		<string>E-cy</string>
-		<string>uni0405</string>
+		<string>Dze-cy</string>
 		<string>I-cy</string>
 		<string>Yi-cy</string>
 		<string>Je-cy</string>
 		<string>Lje-cy</string>
 		<string>Nje-cy</string>
 		<string>Tshe-cy</string>
-		<string>uni040C</string>
+		<string>Kje-cy</string>
 		<string>uni040D</string>
 		<string>Ushort-cy</string>
 		<string>Dzhe-cy</string>
@@ -634,16 +634,16 @@
 		<string>iegrave-cy</string>
 		<string>io-cy</string>
 		<string>dje-cy</string>
-		<string>uni0453</string>
+		<string>gje-cy</string>
 		<string>e-cy</string>
-		<string>uni0455</string>
+		<string>dze-cy</string>
 		<string>i-cy</string>
 		<string>yi-cy</string>
 		<string>je-cy</string>
 		<string>lje-cy</string>
 		<string>nje-cy</string>
 		<string>tshe-cy</string>
-		<string>uni045C</string>
+		<string>kje-cy</string>
 		<string>uni045D</string>
 		<string>ushort-cy</string>
 		<string>dzhe-cy</string>
@@ -655,140 +655,140 @@
 		<string>uni0473</string>
 		<string>uni0474</string>
 		<string>uni0475</string>
-		<string>uni048A</string>
-		<string>uni048B</string>
-		<string>uni048C</string>
-		<string>uni048D</string>
-		<string>uni048E</string>
-		<string>uni048F</string>
+		<string>Iishorttail-cy</string>
+		<string>iishorttail-cy</string>
+		<string>Semisoftsign-cy</string>
+		<string>semisoftsign-cy</string>
+		<string>Ertick-cy</string>
+		<string>ertick-cy</string>
 		<string>Geupturn-cy</string>
 		<string>geupturn-cy</string>
 		<string>Gestroke-cy</string>
 		<string>gestroke-cy</string>
-		<string>uni0494</string>
-		<string>uni0495</string>
+		<string>Gemiddlehook-cy</string>
+		<string>gemiddlehook-cy</string>
 		<string>Zhedescender-cy</string>
 		<string>zhedescender-cy</string>
-		<string>uni0498</string>
-		<string>uni0499</string>
+		<string>Zedescender-cy</string>
+		<string>zedescender-cy</string>
 		<string>Kadescender-cy</string>
 		<string>kadescender-cy</string>
-		<string>uni049C</string>
-		<string>uni049D</string>
-		<string>uni049E</string>
-		<string>uni049F</string>
-		<string>uni04A0</string>
-		<string>uni04A1</string>
+		<string>Kaverticalstroke-cy</string>
+		<string>kaverticalstroke-cy</string>
+		<string>Kastroke-cy</string>
+		<string>kastroke-cy</string>
+		<string>Kabashkir-cy</string>
+		<string>kabashkir-cy</string>
 		<string>Endescender-cy</string>
 		<string>endescender-cy</string>
-		<string>uni04A4</string>
-		<string>uni04A5</string>
+		<string>EnGe-cy</string>
+		<string>enge-cy</string>
 		<string>uni04A6</string>
 		<string>uni04A7</string>
-		<string>uni04A8</string>
-		<string>uni04A9</string>
-		<string>uni04AA</string>
-		<string>uni04AB</string>
-		<string>uni04AC</string>
-		<string>uni04AD</string>
+		<string>Haabkhasian-cy</string>
+		<string>haabkhasian-cy</string>
+		<string>Esdescender-cy</string>
+		<string>esdescender-cy</string>
+		<string>Tedescender-cy</string>
+		<string>tedescender-cy</string>
 		<string>Ustraight-cy</string>
 		<string>ustraight-cy</string>
 		<string>Ustraightstroke-cy</string>
 		<string>ustraightstroke-cy</string>
 		<string>Hadescender-cy</string>
 		<string>hadescender-cy</string>
-		<string>uni04B4</string>
-		<string>uni04B5</string>
+		<string>Tetse-cy</string>
+		<string>tetse-cy</string>
 		<string>Chedescender-cy</string>
 		<string>chedescender-cy</string>
-		<string>uni04B8</string>
-		<string>uni04B9</string>
+		<string>Cheverticalstroke-cy</string>
+		<string>cheverticalstroke-cy</string>
 		<string>Shha-cy</string>
 		<string>shha-cy</string>
-		<string>uni04BC</string>
-		<string>uni04BD</string>
-		<string>uni04BE</string>
-		<string>uni04BF</string>
-		<string>uni04C0</string>
+		<string>Cheabkhasian-cy</string>
+		<string>cheabkhasian-cy</string>
+		<string>Chedescenderabkhasian-cy</string>
+		<string>chedescenderabkhasian-cy</string>
+		<string>Palochka-cy</string>
 		<string>uni04C1</string>
 		<string>uni04C2</string>
-		<string>uni04C3</string>
-		<string>uni04C4</string>
-		<string>uni04C5</string>
-		<string>uni04C6</string>
-		<string>uni04C7</string>
-		<string>uni04C8</string>
-		<string>uni04C9</string>
-		<string>uni04CA</string>
+		<string>Kahook-cy</string>
+		<string>kahook-cy</string>
+		<string>Eltail-cy</string>
+		<string>eltail-cy</string>
+		<string>Enhook-cy</string>
+		<string>enhook-cy</string>
+		<string>Entail-cy</string>
+		<string>entail-cy</string>
 		<string>uni04CB</string>
 		<string>uni04CC</string>
-		<string>uni04CD</string>
-		<string>uni04CE</string>
-		<string>uni04CF</string>
-		<string>uni04D0</string>
-		<string>uni04D1</string>
+		<string>Emtail-cy</string>
+		<string>emtail-cy</string>
+		<string>palochka-cy</string>
+		<string>Abreve-cy</string>
+		<string>abreve-cy</string>
 		<string>uni04D2</string>
 		<string>uni04D3</string>
-		<string>uni04D4</string>
-		<string>uni04D5</string>
-		<string>uni04D6</string>
-		<string>uni04D7</string>
+		<string>Aie-cy</string>
+		<string>aie-cy</string>
+		<string>Iebreve-cy</string>
+		<string>iebreve-cy</string>
 		<string>Schwa-cy</string>
 		<string>schwa-cy</string>
-		<string>uni04DA</string>
-		<string>uni04DB</string>
-		<string>uni04DC</string>
-		<string>uni04DD</string>
-		<string>uni04DE</string>
-		<string>uni04DF</string>
-		<string>uni04E0</string>
-		<string>uni04E1</string>
+		<string>Schwadieresis-cy</string>
+		<string>schwadieresis-cy</string>
+		<string>Zhedieresis-cy</string>
+		<string>zhedieresis-cy</string>
+		<string>Zedieresis-cy</string>
+		<string>zedieresis-cy</string>
+		<string>Dzeabkhasian-cy</string>
+		<string>dzeabkhasian-cy</string>
 		<string>Imacron-cy</string>
 		<string>imacron-cy</string>
-		<string>uni04E4</string>
-		<string>uni04E5</string>
-		<string>uni04E6</string>
-		<string>uni04E7</string>
+		<string>Idieresis-cy</string>
+		<string>idieresis-cy</string>
+		<string>Odieresis-cy</string>
+		<string>odieresis-cy</string>
 		<string>Obarred-cy</string>
 		<string>obarred-cy</string>
-		<string>uni04EA</string>
-		<string>uni04EB</string>
-		<string>uni04EC</string>
-		<string>uni04ED</string>
+		<string>Obarreddieresis-cy</string>
+		<string>obarreddieresis-cy</string>
+		<string>Edieresis-cy</string>
+		<string>edieresis-cy</string>
 		<string>Umacron-cy</string>
 		<string>umacron-cy</string>
-		<string>uni04F0</string>
-		<string>uni04F1</string>
-		<string>uni04F2</string>
-		<string>uni04F3</string>
-		<string>uni04F4</string>
-		<string>uni04F5</string>
+		<string>Udieresis-cy</string>
+		<string>udieresis-cy</string>
+		<string>Uhungarumlaut-cy</string>
+		<string>uhungarumlaut-cy</string>
+		<string>Chedieresis-cy</string>
+		<string>chedieresis-cy</string>
 		<string>uni04F6</string>
 		<string>uni04F7</string>
 		<string>uni04F8</string>
 		<string>uni04F9</string>
-		<string>uni04FA</string>
-		<string>uni04FB</string>
-		<string>uni04FC</string>
-		<string>uni04FD</string>
-		<string>uni04FE</string>
-		<string>uni04FF</string>
-		<string>uni0510</string>
-		<string>uni0511</string>
-		<string>uni0512</string>
-		<string>uni0513</string>
+		<string>Gestrokehook-cy</string>
+		<string>gestrokehook-cy</string>
+		<string>Hahook-cy</string>
+		<string>hahook-cy</string>
+		<string>Hastroke-cy</string>
+		<string>hastroke-cy</string>
+		<string>Reversedze-cy</string>
+		<string>reversedze-cy</string>
+		<string>Elhook-cy</string>
+		<string>elhook-cy</string>
 		<string>uni051A</string>
 		<string>uni051B</string>
 		<string>uni051C</string>
 		<string>uni051D</string>
-		<string>uni0524</string>
-		<string>uni0525</string>
-		<string>uni0526</string>
-		<string>uni0527</string>
-		<string>uni0528</string>
-		<string>uni0529</string>
-		<string>uni052E</string>
-		<string>uni052F</string>
+		<string>Pedescender-cy</string>
+		<string>pedescender-cy</string>
+		<string>Shhadescender-cy</string>
+		<string>shhadescender-cy</string>
+		<string>EnLeftHook-cy</string>
+		<string>enlefthook-cy</string>
+		<string>Eldescender-cy</string>
+		<string>eldescender-cy</string>
 		<string>Ayb-ar</string>
 		<string>Ben-ar</string>
 		<string>Gim-ar</string>
@@ -1850,11 +1850,11 @@
 		<string>shcha-cy.loclBGR</string>
 		<string>yu-cy.loclBGR</string>
 		<string>ze-cy.loclBGR</string>
-		<string>uni049F.sc</string>
-		<string>uni048F.sc</string>
-		<string>uni04F3.sc</string>
-		<string>uni04F1.sc</string>
-		<string>uni048D.sc</string>
+		<string>kastroke-cy.sc</string>
+		<string>ertick-cy.sc</string>
+		<string>uhungarumlaut-cy.sc</string>
+		<string>udieresis-cy.sc</string>
+		<string>semisoftsign-cy.sc</string>
 	</array>
 	<key>public.openTypeCategories</key>
 	<dict>
@@ -1869,6 +1869,8 @@
 		<key>Aacute</key>
 		<string>base</string>
 		<key>Abreve</key>
+		<string>base</string>
+		<key>Abreve-cy</key>
 		<string>base</string>
 		<key>Abreveacute</key>
 		<string>base</string>
@@ -1901,6 +1903,8 @@
 		<key>Agrave</key>
 		<string>base</string>
 		<key>Ahookabove</key>
+		<string>base</string>
+		<key>Aie-cy</key>
 		<string>base</string>
 		<key>Alpha</key>
 		<string>base</string>
@@ -1950,9 +1954,17 @@
 		<string>base</string>
 		<key>Che-cy</key>
 		<string>base</string>
+		<key>Cheabkhasian-cy</key>
+		<string>base</string>
 		<key>Chedescender-cy</key>
 		<string>base</string>
+		<key>Chedescenderabkhasian-cy</key>
+		<string>base</string>
+		<key>Chedieresis-cy</key>
+		<string>base</string>
 		<key>Cheh-ar</key>
+		<string>base</string>
+		<key>Cheverticalstroke-cy</key>
 		<string>base</string>
 		<key>Chi</key>
 		<string>base</string>
@@ -1994,6 +2006,10 @@
 		<string>base</string>
 		<key>Dmacronbelow.alt</key>
 		<string>base</string>
+		<key>Dze-cy</key>
+		<string>base</string>
+		<key>Dzeabkhasian-cy</key>
+		<string>base</string>
 		<key>Dzhe-cy</key>
 		<string>base</string>
 		<key>E</key>
@@ -2022,6 +2038,8 @@
 		<string>base</string>
 		<key>Edieresis</key>
 		<string>base</string>
+		<key>Edieresis-cy</key>
+		<string>base</string>
 		<key>Edotaccent</key>
 		<string>base</string>
 		<key>Edotbelow</key>
@@ -2036,6 +2054,12 @@
 		<string>base</string>
 		<key>El-cy</key>
 		<string>base</string>
+		<key>Eldescender-cy</key>
+		<string>base</string>
+		<key>Elhook-cy</key>
+		<string>base</string>
+		<key>Eltail-cy</key>
+		<string>base</string>
 		<key>Em-cy</key>
 		<string>base</string>
 		<key>Emacron</key>
@@ -2044,13 +2068,23 @@
 		<string>base</string>
 		<key>Emacrongrave</key>
 		<string>base</string>
+		<key>Emtail-cy</key>
+		<string>base</string>
 		<key>En-cy</key>
+		<string>base</string>
+		<key>EnGe-cy</key>
+		<string>base</string>
+		<key>EnLeftHook-cy</key>
 		<string>base</string>
 		<key>Endescender-cy</key>
 		<string>base</string>
 		<key>Eng</key>
 		<string>base</string>
 		<key>Eng.loclNSM</key>
+		<string>base</string>
+		<key>Enhook-cy</key>
+		<string>base</string>
+		<key>Entail-cy</key>
 		<string>base</string>
 		<key>Eogonek</key>
 		<string>base</string>
@@ -2064,7 +2098,11 @@
 		<string>base</string>
 		<key>Ereversed-cy</key>
 		<string>base</string>
+		<key>Ertick-cy</key>
+		<string>base</string>
 		<key>Es-cy</key>
+		<string>base</string>
+		<key>Esdescender-cy</key>
 		<string>base</string>
 		<key>Et-ar</key>
 		<string>base</string>
@@ -2110,15 +2148,21 @@
 		<string>base</string>
 		<key>Ge-cy</key>
 		<string>base</string>
+		<key>Gemiddlehook-cy</key>
+		<string>base</string>
 		<key>Germandbls</key>
 		<string>base</string>
 		<key>Gestroke-cy</key>
+		<string>base</string>
+		<key>Gestrokehook-cy</key>
 		<string>base</string>
 		<key>Geupturn-cy</key>
 		<string>base</string>
 		<key>Ghad-ar</key>
 		<string>base</string>
 		<key>Gim-ar</key>
+		<string>base</string>
+		<key>Gje-cy</key>
 		<string>base</string>
 		<key>Gmacron</key>
 		<string>base</string>
@@ -2128,9 +2172,15 @@
 		<string>base</string>
 		<key>Ha-cy</key>
 		<string>base</string>
+		<key>Haabkhasian-cy</key>
+		<string>base</string>
 		<key>Hadescender-cy</key>
 		<string>base</string>
+		<key>Hahook-cy</key>
+		<string>base</string>
 		<key>Hardsign-cy</key>
+		<string>base</string>
+		<key>Hastroke-cy</key>
 		<string>base</string>
 		<key>Hbar</key>
 		<string>base</string>
@@ -2162,11 +2212,15 @@
 		<string>base</string>
 		<key>Idieresis</key>
 		<string>base</string>
+		<key>Idieresis-cy</key>
+		<string>base</string>
 		<key>Idotaccent</key>
 		<string>base</string>
 		<key>Idotbelow</key>
 		<string>base</string>
 		<key>Ie-cy</key>
+		<string>base</string>
+		<key>Iebreve-cy</key>
 		<string>base</string>
 		<key>Iegrave-cy</key>
 		<string>base</string>
@@ -2177,6 +2231,8 @@
 		<key>Ii-cy</key>
 		<string>base</string>
 		<key>Iishort-cy</key>
+		<string>base</string>
+		<key>Iishorttail-cy</key>
 		<string>base</string>
 		<key>Imacron</key>
 		<string>base</string>
@@ -2212,13 +2268,21 @@
 		<string>base</string>
 		<key>Ka-cy</key>
 		<string>base</string>
+		<key>Kabashkir-cy</key>
+		<string>base</string>
 		<key>Kacute</key>
 		<string>base</string>
 		<key>Kadescender-cy</key>
 		<string>base</string>
+		<key>Kahook-cy</key>
+		<string>base</string>
 		<key>KaiSymbol</key>
 		<string>base</string>
 		<key>Kappa</key>
+		<string>base</string>
+		<key>Kastroke-cy</key>
+		<string>base</string>
+		<key>Kaverticalstroke-cy</key>
 		<string>base</string>
 		<key>Kcaron</key>
 		<string>base</string>
@@ -2231,6 +2295,8 @@
 		<key>Ken-ar</key>
 		<string>base</string>
 		<key>Khook</key>
+		<string>base</string>
+		<key>Kje-cy</key>
 		<string>base</string>
 		<key>Kmacronbelow</key>
 		<string>base</string>
@@ -2316,6 +2382,8 @@
 		<string>base</string>
 		<key>Obarred-cy</key>
 		<string>base</string>
+		<key>Obarreddieresis-cy</key>
+		<string>base</string>
 		<key>Obreve</key>
 		<string>base</string>
 		<key>Ocaron</key>
@@ -2333,6 +2401,8 @@
 		<key>Ocircumflextilde</key>
 		<string>base</string>
 		<key>Odieresis</key>
+		<string>base</string>
+		<key>Odieresis-cy</key>
 		<string>base</string>
 		<key>Odotbelow</key>
 		<string>base</string>
@@ -2386,7 +2456,11 @@
 		<string>base</string>
 		<key>P</key>
 		<string>base</string>
+		<key>Palochka-cy</key>
+		<string>base</string>
 		<key>Pe-cy</key>
+		<string>base</string>
+		<key>Pedescender-cy</key>
 		<string>base</string>
 		<key>Peh-ar</key>
 		<string>base</string>
@@ -2416,6 +2490,8 @@
 		<string>base</string>
 		<key>Reh-ar</key>
 		<string>base</string>
+		<key>Reversedze-cy</key>
+		<string>base</string>
 		<key>Rho</key>
 		<string>base</string>
 		<key>Rmacronbelow</key>
@@ -2434,6 +2510,8 @@
 		<string>base</string>
 		<key>Schwa-cy</key>
 		<string>base</string>
+		<key>Schwadieresis-cy</key>
+		<string>base</string>
 		<key>Scircumflex</key>
 		<string>base</string>
 		<key>Scommaaccent</key>
@@ -2444,6 +2522,8 @@
 		<string>base</string>
 		<key>Seh-ar</key>
 		<string>base</string>
+		<key>Semisoftsign-cy</key>
+		<string>base</string>
 		<key>Sha-ar</key>
 		<string>base</string>
 		<key>Sha-cy</key>
@@ -2451,6 +2531,8 @@
 		<key>Shcha-cy</key>
 		<string>base</string>
 		<key>Shha-cy</key>
+		<string>base</string>
+		<key>Shhadescender-cy</key>
 		<string>base</string>
 		<key>Sigma</key>
 		<string>base</string>
@@ -2471,6 +2553,10 @@
 		<key>Tdotbelow</key>
 		<string>base</string>
 		<key>Te-cy</key>
+		<string>base</string>
+		<key>Tedescender-cy</key>
+		<string>base</string>
+		<key>Tetse-cy</key>
 		<string>base</string>
 		<key>Theta</key>
 		<string>base</string>
@@ -2502,6 +2588,8 @@
 		<string>base</string>
 		<key>Udieresis</key>
 		<string>base</string>
+		<key>Udieresis-cy</key>
+		<string>base</string>
 		<key>Udieresisacute</key>
 		<string>base</string>
 		<key>Udieresiscaron</key>
@@ -2529,6 +2617,8 @@
 		<key>Uhorntilde</key>
 		<string>base</string>
 		<key>Uhungarumlaut</key>
+		<string>base</string>
+		<key>Uhungarumlaut-cy</key>
 		<string>base</string>
 		<key>Umacron</key>
 		<string>base</string>
@@ -2628,6 +2718,10 @@
 		<string>base</string>
 		<key>Ze-cy</key>
 		<string>base</string>
+		<key>Zedescender-cy</key>
+		<string>base</string>
+		<key>Zedieresis-cy</key>
+		<string>base</string>
 		<key>Zeta</key>
 		<string>base</string>
 		<key>Zhe-ar</key>
@@ -2635,6 +2729,8 @@
 		<key>Zhe-cy</key>
 		<string>base</string>
 		<key>Zhedescender-cy</key>
+		<string>base</string>
+		<key>Zhedieresis-cy</key>
 		<string>base</string>
 		<key>Zmacronbelow</key>
 		<string>base</string>
@@ -2653,6 +2749,8 @@
 		<key>abbrev-ar</key>
 		<string>base</string>
 		<key>abreve</key>
+		<string>base</string>
+		<key>abreve-cy</key>
 		<string>base</string>
 		<key>abreve.sc</key>
 		<string>base</string>
@@ -2715,6 +2813,8 @@
 		<key>ahookabove</key>
 		<string>base</string>
 		<key>ahookabove.sc</key>
+		<string>base</string>
+		<key>aie-cy</key>
 		<string>base</string>
 		<key>alpha</key>
 		<string>base</string>
@@ -2874,11 +2974,19 @@
 		<string>base</string>
 		<key>che-cy</key>
 		<string>base</string>
+		<key>cheabkhasian-cy</key>
+		<string>base</string>
 		<key>chedescender-cy</key>
+		<string>base</string>
+		<key>chedescenderabkhasian-cy</key>
+		<string>base</string>
+		<key>chedieresis-cy</key>
 		<string>base</string>
 		<key>cheh-ar</key>
 		<string>base</string>
 		<key>cheh-ar.sc</key>
+		<string>base</string>
+		<key>cheverticalstroke-cy</key>
 		<string>base</string>
 		<key>chi</key>
 		<string>base</string>
@@ -3004,6 +3112,10 @@
 		<string>base</string>
 		<key>dram</key>
 		<string>base</string>
+		<key>dze-cy</key>
+		<string>base</string>
+		<key>dzeabkhasian-cy</key>
+		<string>base</string>
 		<key>dzhe-cy</key>
 		<string>base</string>
 		<key>e</key>
@@ -3048,6 +3160,8 @@
 		<string>base</string>
 		<key>edieresis</key>
 		<string>base</string>
+		<key>edieresis-cy</key>
+		<string>base</string>
 		<key>edieresis.sc</key>
 		<string>base</string>
 		<key>edotaccent</key>
@@ -3086,7 +3200,13 @@
 		<string>base</string>
 		<key>el-cy.loclBGR</key>
 		<string>base</string>
+		<key>eldescender-cy</key>
+		<string>base</string>
+		<key>elhook-cy</key>
+		<string>base</string>
 		<key>ellipsis</key>
+		<string>base</string>
+		<key>eltail-cy</key>
 		<string>base</string>
 		<key>em-cy</key>
 		<string>base</string>
@@ -3104,6 +3224,8 @@
 		<string>base</string>
 		<key>emptyset</key>
 		<string>base</string>
+		<key>emtail-cy</key>
+		<string>base</string>
 		<key>en-cy</key>
 		<string>base</string>
 		<key>endash</key>
@@ -3115,6 +3237,14 @@
 		<key>eng.sc</key>
 		<string>base</string>
 		<key>eng.sc.loclNSM</key>
+		<string>base</string>
+		<key>enge-cy</key>
+		<string>base</string>
+		<key>enhook-cy</key>
+		<string>base</string>
+		<key>enlefthook-cy</key>
+		<string>base</string>
+		<key>entail-cy</key>
 		<string>base</string>
 		<key>eogonek</key>
 		<string>base</string>
@@ -3138,7 +3268,13 @@
 		<string>base</string>
 		<key>ereversed-cy</key>
 		<string>base</string>
+		<key>ertick-cy</key>
+		<string>base</string>
+		<key>ertick-cy.sc</key>
+		<string>base</string>
 		<key>es-cy</key>
+		<string>base</string>
+		<key>esdescender-cy</key>
 		<string>base</string>
 		<key>estimated</key>
 		<string>base</string>
@@ -3276,11 +3412,15 @@
 		<string>base</string>
 		<key>ge-cy.loclBGR</key>
 		<string>base</string>
+		<key>gemiddlehook-cy</key>
+		<string>base</string>
 		<key>germandbls</key>
 		<string>base</string>
 		<key>germandbls.sc</key>
 		<string>base</string>
 		<key>gestroke-cy</key>
+		<string>base</string>
+		<key>gestrokehook-cy</key>
 		<string>base</string>
 		<key>geupturn-cy</key>
 		<string>base</string>
@@ -3291,6 +3431,8 @@
 		<key>gim-ar</key>
 		<string>base</string>
 		<key>gim-ar.sc</key>
+		<string>base</string>
+		<key>gje-cy</key>
 		<string>base</string>
 		<key>gmacron</key>
 		<string>base</string>
@@ -3322,9 +3464,15 @@
 		<string>base</string>
 		<key>ha-cy</key>
 		<string>base</string>
+		<key>haabkhasian-cy</key>
+		<string>base</string>
 		<key>hadescender-cy</key>
 		<string>base</string>
+		<key>hahook-cy</key>
+		<string>base</string>
 		<key>hardsign-cy</key>
+		<string>base</string>
+		<key>hastroke-cy</key>
 		<string>base</string>
 		<key>hbar</key>
 		<string>base</string>
@@ -3402,6 +3550,8 @@
 		<string>base</string>
 		<key>idieresis</key>
 		<string>base</string>
+		<key>idieresis-cy</key>
+		<string>base</string>
 		<key>idieresis.sc</key>
 		<string>base</string>
 		<key>idotaccent</key>
@@ -3415,6 +3565,8 @@
 		<key>ie-cy</key>
 		<string>base</string>
 		<key>ie-cy.sc</key>
+		<string>base</string>
+		<key>iebreve-cy</key>
 		<string>base</string>
 		<key>iegrave-cy</key>
 		<string>base</string>
@@ -3431,6 +3583,8 @@
 		<key>ii-cy</key>
 		<string>base</string>
 		<key>iishort-cy</key>
+		<string>base</string>
+		<key>iishorttail-cy</key>
 		<string>base</string>
 		<key>ij</key>
 		<string>ligature</string>
@@ -3514,15 +3668,25 @@
 		<string>base</string>
 		<key>ka-cy</key>
 		<string>base</string>
+		<key>kabashkir-cy</key>
+		<string>base</string>
 		<key>kacute</key>
 		<string>base</string>
 		<key>kacute.sc</key>
 		<string>base</string>
 		<key>kadescender-cy</key>
 		<string>base</string>
+		<key>kahook-cy</key>
+		<string>base</string>
 		<key>kaiSymbol</key>
 		<string>base</string>
 		<key>kappa</key>
+		<string>base</string>
+		<key>kastroke-cy</key>
+		<string>base</string>
+		<key>kastroke-cy.sc</key>
+		<string>base</string>
+		<key>kaverticalstroke-cy</key>
 		<string>base</string>
 		<key>kcaron</key>
 		<string>base</string>
@@ -3551,6 +3715,8 @@
 		<key>khook.sc</key>
 		<string>base</string>
 		<key>kip</key>
+		<string>base</string>
+		<key>kje-cy</key>
 		<string>base</string>
 		<key>kmacronbelow</key>
 		<string>base</string>
@@ -3780,6 +3946,8 @@
 		<string>base</string>
 		<key>obarred-cy</key>
 		<string>base</string>
+		<key>obarreddieresis-cy</key>
+		<string>base</string>
 		<key>obreve</key>
 		<string>base</string>
 		<key>ocaron</key>
@@ -3797,6 +3965,8 @@
 		<key>ocircumflextilde</key>
 		<string>base</string>
 		<key>odieresis</key>
+		<string>base</string>
+		<key>odieresis-cy</key>
 		<string>base</string>
 		<key>odotbelow</key>
 		<string>base</string>
@@ -3886,6 +4056,8 @@
 		<string>base</string>
 		<key>p.sc</key>
 		<string>base</string>
+		<key>palochka-cy</key>
+		<string>base</string>
 		<key>paragraph</key>
 		<string>base</string>
 		<key>parenleft</key>
@@ -3895,6 +4067,8 @@
 		<key>partialdiff</key>
 		<string>base</string>
 		<key>pe-cy</key>
+		<string>base</string>
+		<key>pedescender-cy</key>
 		<string>base</string>
 		<key>peh-ar</key>
 		<string>base</string>
@@ -4004,6 +4178,8 @@
 		<string>base</string>
 		<key>reh-ar.sc</key>
 		<string>base</string>
+		<key>reversedze-cy</key>
+		<string>base</string>
 		<key>rho</key>
 		<string>base</string>
 		<key>rho.sc</key>
@@ -4054,6 +4230,8 @@
 		<string>base</string>
 		<key>schwa-cy</key>
 		<string>base</string>
+		<key>schwadieresis-cy</key>
+		<string>base</string>
 		<key>scircumflex</key>
 		<string>base</string>
 		<key>scommaaccent</key>
@@ -4069,6 +4247,10 @@
 		<key>seh-ar</key>
 		<string>base</string>
 		<key>semicolon</key>
+		<string>base</string>
+		<key>semisoftsign-cy</key>
+		<string>base</string>
+		<key>semisoftsign-cy.sc</key>
 		<string>base</string>
 		<key>seven</key>
 		<string>base</string>
@@ -4095,6 +4277,8 @@
 		<key>shha-cy</key>
 		<string>base</string>
 		<key>shha-cy.sc</key>
+		<string>base</string>
+		<key>shhadescender-cy</key>
 		<string>base</string>
 		<key>sigma</key>
 		<string>base</string>
@@ -4162,7 +4346,11 @@
 		<string>base</string>
 		<key>te-cy</key>
 		<string>base</string>
+		<key>tedescender-cy</key>
+		<string>base</string>
 		<key>tenge</key>
+		<string>base</string>
+		<key>tetse-cy</key>
 		<string>base</string>
 		<key>theta</key>
 		<string>base</string>
@@ -4264,6 +4452,10 @@
 		<string>base</string>
 		<key>udieresis</key>
 		<string>base</string>
+		<key>udieresis-cy</key>
+		<string>base</string>
+		<key>udieresis-cy.sc</key>
+		<string>base</string>
 		<key>udieresis.sc</key>
 		<string>base</string>
 		<key>udieresisacute</key>
@@ -4313,6 +4505,10 @@
 		<key>uhorntilde.sc</key>
 		<string>base</string>
 		<key>uhungarumlaut</key>
+		<string>base</string>
+		<key>uhungarumlaut-cy</key>
+		<string>base</string>
+		<key>uhungarumlaut-cy.sc</key>
 		<string>base</string>
 		<key>uhungarumlaut.sc</key>
 		<string>base</string>
@@ -4372,19 +4568,7 @@
 		<string>mark</string>
 		<key>uni0335</key>
 		<string>mark</string>
-		<key>uni0403</key>
-		<string>base</string>
-		<key>uni0405</key>
-		<string>base</string>
-		<key>uni040C</key>
-		<string>base</string>
 		<key>uni040D</key>
-		<string>base</string>
-		<key>uni0453</key>
-		<string>base</string>
-		<key>uni0455</key>
-		<string>base</string>
-		<key>uni045C</key>
 		<string>base</string>
 		<key>uni045D</key>
 		<string>base</string>
@@ -4406,175 +4590,21 @@
 		<string>base</string>
 		<key>uni0475</key>
 		<string>base</string>
-		<key>uni048A</key>
-		<string>base</string>
-		<key>uni048B</key>
-		<string>base</string>
-		<key>uni048C</key>
-		<string>base</string>
-		<key>uni048D</key>
-		<string>base</string>
-		<key>uni048D.sc</key>
-		<string>base</string>
-		<key>uni048E</key>
-		<string>base</string>
-		<key>uni048F</key>
-		<string>base</string>
-		<key>uni048F.sc</key>
-		<string>base</string>
-		<key>uni0494</key>
-		<string>base</string>
-		<key>uni0495</key>
-		<string>base</string>
-		<key>uni0498</key>
-		<string>base</string>
-		<key>uni0499</key>
-		<string>base</string>
-		<key>uni049C</key>
-		<string>base</string>
-		<key>uni049D</key>
-		<string>base</string>
-		<key>uni049E</key>
-		<string>base</string>
-		<key>uni049F</key>
-		<string>base</string>
-		<key>uni049F.sc</key>
-		<string>base</string>
-		<key>uni04A0</key>
-		<string>base</string>
-		<key>uni04A1</key>
-		<string>base</string>
-		<key>uni04A4</key>
-		<string>base</string>
-		<key>uni04A5</key>
-		<string>base</string>
 		<key>uni04A6</key>
 		<string>base</string>
 		<key>uni04A7</key>
-		<string>base</string>
-		<key>uni04A8</key>
-		<string>base</string>
-		<key>uni04A9</key>
-		<string>base</string>
-		<key>uni04AA</key>
-		<string>base</string>
-		<key>uni04AB</key>
-		<string>base</string>
-		<key>uni04AC</key>
-		<string>base</string>
-		<key>uni04AD</key>
-		<string>base</string>
-		<key>uni04B4</key>
-		<string>base</string>
-		<key>uni04B5</key>
-		<string>base</string>
-		<key>uni04B8</key>
-		<string>base</string>
-		<key>uni04B9</key>
-		<string>base</string>
-		<key>uni04BC</key>
-		<string>base</string>
-		<key>uni04BD</key>
-		<string>base</string>
-		<key>uni04BE</key>
-		<string>base</string>
-		<key>uni04BF</key>
-		<string>base</string>
-		<key>uni04C0</key>
 		<string>base</string>
 		<key>uni04C1</key>
 		<string>base</string>
 		<key>uni04C2</key>
 		<string>base</string>
-		<key>uni04C3</key>
-		<string>base</string>
-		<key>uni04C4</key>
-		<string>base</string>
-		<key>uni04C5</key>
-		<string>base</string>
-		<key>uni04C6</key>
-		<string>base</string>
-		<key>uni04C7</key>
-		<string>base</string>
-		<key>uni04C8</key>
-		<string>base</string>
-		<key>uni04C9</key>
-		<string>base</string>
-		<key>uni04CA</key>
-		<string>base</string>
 		<key>uni04CB</key>
 		<string>base</string>
 		<key>uni04CC</key>
 		<string>base</string>
-		<key>uni04CD</key>
-		<string>base</string>
-		<key>uni04CE</key>
-		<string>base</string>
-		<key>uni04CF</key>
-		<string>base</string>
-		<key>uni04D0</key>
-		<string>base</string>
-		<key>uni04D1</key>
-		<string>base</string>
 		<key>uni04D2</key>
 		<string>base</string>
 		<key>uni04D3</key>
-		<string>base</string>
-		<key>uni04D4</key>
-		<string>base</string>
-		<key>uni04D5</key>
-		<string>base</string>
-		<key>uni04D6</key>
-		<string>base</string>
-		<key>uni04D7</key>
-		<string>base</string>
-		<key>uni04DA</key>
-		<string>base</string>
-		<key>uni04DB</key>
-		<string>base</string>
-		<key>uni04DC</key>
-		<string>base</string>
-		<key>uni04DD</key>
-		<string>base</string>
-		<key>uni04DE</key>
-		<string>base</string>
-		<key>uni04DF</key>
-		<string>base</string>
-		<key>uni04E0</key>
-		<string>base</string>
-		<key>uni04E1</key>
-		<string>base</string>
-		<key>uni04E4</key>
-		<string>base</string>
-		<key>uni04E5</key>
-		<string>base</string>
-		<key>uni04E6</key>
-		<string>base</string>
-		<key>uni04E7</key>
-		<string>base</string>
-		<key>uni04EA</key>
-		<string>base</string>
-		<key>uni04EB</key>
-		<string>base</string>
-		<key>uni04EC</key>
-		<string>base</string>
-		<key>uni04ED</key>
-		<string>base</string>
-		<key>uni04F0</key>
-		<string>base</string>
-		<key>uni04F1</key>
-		<string>base</string>
-		<key>uni04F1.sc</key>
-		<string>base</string>
-		<key>uni04F2</key>
-		<string>base</string>
-		<key>uni04F3</key>
-		<string>base</string>
-		<key>uni04F3.sc</key>
-		<string>base</string>
-		<key>uni04F4</key>
-		<string>base</string>
-		<key>uni04F5</key>
 		<string>base</string>
 		<key>uni04F6</key>
 		<string>base</string>
@@ -4584,26 +4614,6 @@
 		<string>base</string>
 		<key>uni04F9</key>
 		<string>base</string>
-		<key>uni04FA</key>
-		<string>base</string>
-		<key>uni04FB</key>
-		<string>base</string>
-		<key>uni04FC</key>
-		<string>base</string>
-		<key>uni04FD</key>
-		<string>base</string>
-		<key>uni04FE</key>
-		<string>base</string>
-		<key>uni04FF</key>
-		<string>base</string>
-		<key>uni0510</key>
-		<string>base</string>
-		<key>uni0511</key>
-		<string>base</string>
-		<key>uni0512</key>
-		<string>base</string>
-		<key>uni0513</key>
-		<string>base</string>
 		<key>uni051A</key>
 		<string>base</string>
 		<key>uni051B</key>
@@ -4611,22 +4621,6 @@
 		<key>uni051C</key>
 		<string>base</string>
 		<key>uni051D</key>
-		<string>base</string>
-		<key>uni0524</key>
-		<string>base</string>
-		<key>uni0525</key>
-		<string>base</string>
-		<key>uni0526</key>
-		<string>base</string>
-		<key>uni0527</key>
-		<string>base</string>
-		<key>uni0528</key>
-		<string>base</string>
-		<key>uni0529</key>
-		<string>base</string>
-		<key>uni052E</key>
-		<string>base</string>
-		<key>uni052F</key>
 		<string>base</string>
 		<key>uni05BE</key>
 		<string>base</string>
@@ -5536,6 +5530,10 @@
 		<string>base</string>
 		<key>ze-cy.loclBGR</key>
 		<string>base</string>
+		<key>zedescender-cy</key>
+		<string>base</string>
+		<key>zedieresis-cy</key>
+		<string>base</string>
 		<key>zero</key>
 		<string>base</string>
 		<key>zero.sc</key>
@@ -5553,6 +5551,8 @@
 		<key>zhe-cy.loclBGR</key>
 		<string>base</string>
 		<key>zhedescender-cy</key>
+		<string>base</string>
+		<key>zhedieresis-cy</key>
 		<string>base</string>
 		<key>zmacronbelow</key>
 		<string>base</string>
@@ -6143,8 +6143,12 @@
 		<string>uni0401</string>
 		<key>Dje-cy</key>
 		<string>uni0402</string>
+		<key>Gje-cy</key>
+		<string>uni0403</string>
 		<key>E-cy</key>
 		<string>uni0404</string>
+		<key>Dze-cy</key>
+		<string>uni0405</string>
 		<key>I-cy</key>
 		<string>uni0406</string>
 		<key>Yi-cy</key>
@@ -6157,6 +6161,8 @@
 		<string>uni040A</string>
 		<key>Tshe-cy</key>
 		<string>uni040B</string>
+		<key>Kje-cy</key>
+		<string>uni040C</string>
 		<key>Ushort-cy</key>
 		<string>uni040E</string>
 		<key>Dzhe-cy</key>
@@ -6293,8 +6299,12 @@
 		<string>uni0451</string>
 		<key>dje-cy</key>
 		<string>uni0452</string>
+		<key>gje-cy</key>
+		<string>uni0453</string>
 		<key>e-cy</key>
 		<string>uni0454</string>
+		<key>dze-cy</key>
+		<string>uni0455</string>
 		<key>i-cy</key>
 		<string>uni0456</string>
 		<key>yi-cy</key>
@@ -6307,6 +6317,8 @@
 		<string>uni045A</string>
 		<key>tshe-cy</key>
 		<string>uni045B</string>
+		<key>kje-cy</key>
+		<string>uni045C</string>
 		<key>ushort-cy</key>
 		<string>uni045E</string>
 		<key>dzhe-cy</key>
@@ -6833,6 +6845,196 @@
 		<string>yu_cy.loclBGR</string>
 		<key>ze-cy.loclBGR</key>
 		<string>ze_cy.loclBGR</string>
+		<key>Iishorttail-cy</key>
+		<string>uni048A</string>
+		<key>iishorttail-cy</key>
+		<string>uni048B</string>
+		<key>Ertick-cy</key>
+		<string>uni048E</string>
+		<key>ertick-cy</key>
+		<string>uni048F</string>
+		<key>Gemiddlehook-cy</key>
+		<string>uni0494</string>
+		<key>gemiddlehook-cy</key>
+		<string>uni0495</string>
+		<key>Zedescender-cy</key>
+		<string>uni0498</string>
+		<key>zedescender-cy</key>
+		<string>uni0499</string>
+		<key>Kaverticalstroke-cy</key>
+		<string>uni049C</string>
+		<key>kaverticalstroke-cy</key>
+		<string>uni049D</string>
+		<key>Kastroke-cy</key>
+		<string>uni049E</string>
+		<key>kastroke-cy</key>
+		<string>uni049F</string>
+		<key>Kabashkir-cy</key>
+		<string>uni04A0</string>
+		<key>kabashkir-cy</key>
+		<string>uni04A1</string>
+		<key>EnGe-cy</key>
+		<string>uni04A4</string>
+		<key>enge-cy</key>
+		<string>uni04A5</string>
+		<key>Haabkhasian-cy</key>
+		<string>uni04A8</string>
+		<key>haabkhasian-cy</key>
+		<string>uni04A9</string>
+		<key>Tedescender-cy</key>
+		<string>uni04AC</string>
+		<key>tedescender-cy</key>
+		<string>uni04AD</string>
+		<key>Tetse-cy</key>
+		<string>uni04B4</string>
+		<key>tetse-cy</key>
+		<string>uni04B5</string>
+		<key>Cheverticalstroke-cy</key>
+		<string>uni04B8</string>
+		<key>cheverticalstroke-cy</key>
+		<string>uni04B9</string>
+		<key>Cheabkhasian-cy</key>
+		<string>uni04BC</string>
+		<key>cheabkhasian-cy</key>
+		<string>uni04BD</string>
+		<key>Chedescenderabkhasian-cy</key>
+		<string>uni04BE</string>
+		<key>chedescenderabkhasian-cy</key>
+		<string>uni04BF</string>
+		<key>Kahook-cy</key>
+		<string>uni04C3</string>
+		<key>kahook-cy</key>
+		<string>uni04C4</string>
+		<key>Eltail-cy</key>
+		<string>uni04C5</string>
+		<key>eltail-cy</key>
+		<string>uni04C6</string>
+		<key>Enhook-cy</key>
+		<string>uni04C7</string>
+		<key>enhook-cy</key>
+		<string>uni04C8</string>
+		<key>Entail-cy</key>
+		<string>uni04C9</string>
+		<key>entail-cy</key>
+		<string>uni04CA</string>
+		<key>Emtail-cy</key>
+		<string>uni04CD</string>
+		<key>emtail-cy</key>
+		<string>uni04CE</string>
+		<key>Gestrokehook-cy</key>
+		<string>uni04FA</string>
+		<key>gestrokehook-cy</key>
+		<string>uni04FB</string>
+		<key>Hahook-cy</key>
+		<string>uni04FC</string>
+		<key>hahook-cy</key>
+		<string>uni04FD</string>
+		<key>Hastroke-cy</key>
+		<string>uni04FE</string>
+		<key>hastroke-cy</key>
+		<string>uni04FF</string>
+		<key>Elhook-cy</key>
+		<string>uni0512</string>
+		<key>elhook-cy</key>
+		<string>uni0513</string>
+		<key>Pedescender-cy</key>
+		<string>uni0524</string>
+		<key>pedescender-cy</key>
+		<string>uni0525</string>
+		<key>Shhadescender-cy</key>
+		<string>uni0526</string>
+		<key>shhadescender-cy</key>
+		<string>uni0527</string>
+		<key>EnLeftHook-cy</key>
+		<string>uni0528</string>
+		<key>enlefthook-cy</key>
+		<string>uni0529</string>
+		<key>kastroke-cy.sc</key>
+		<string>kastroke_cy.sc</string>
+		<key>ertick-cy.sc</key>
+		<string>ertick_cy.sc</string>
+		<key>Eldescender-cy</key>
+		<string>uni052E</string>
+		<key>eldescender-cy</key>
+		<string>uni052F</string>
+		<key>Esdescender-cy</key>
+		<string>uni04AA</string>
+		<key>esdescender-cy</key>
+		<string>uni04AB</string>
+		<key>Palochka-cy</key>
+		<string>uni04C0</string>
+		<key>palochka-cy</key>
+		<string>uni04CF</string>
+		<key>Abreve-cy</key>
+		<string>uni04D0</string>
+		<key>abreve-cy</key>
+		<string>uni04D1</string>
+		<key>Aie-cy</key>
+		<string>uni04D4</string>
+		<key>aie-cy</key>
+		<string>uni04D5</string>
+		<key>Iebreve-cy</key>
+		<string>uni04D6</string>
+		<key>iebreve-cy</key>
+		<string>uni04D7</string>
+		<key>Zhedieresis-cy</key>
+		<string>uni04DC</string>
+		<key>zhedieresis-cy</key>
+		<string>uni04DD</string>
+		<key>Zedieresis-cy</key>
+		<string>uni04DE</string>
+		<key>zedieresis-cy</key>
+		<string>uni04DF</string>
+		<key>Dzeabkhasian-cy</key>
+		<string>uni04E0</string>
+		<key>dzeabkhasian-cy</key>
+		<string>uni04E1</string>
+		<key>Idieresis-cy</key>
+		<string>uni04E4</string>
+		<key>idieresis-cy</key>
+		<string>uni04E5</string>
+		<key>Odieresis-cy</key>
+		<string>uni04E6</string>
+		<key>odieresis-cy</key>
+		<string>uni04E7</string>
+		<key>Udieresis-cy</key>
+		<string>uni04F0</string>
+		<key>udieresis-cy</key>
+		<string>uni04F1</string>
+		<key>Uhungarumlaut-cy</key>
+		<string>uni04F2</string>
+		<key>uhungarumlaut-cy</key>
+		<string>uni04F3</string>
+		<key>Chedieresis-cy</key>
+		<string>uni04F4</string>
+		<key>chedieresis-cy</key>
+		<string>uni04F5</string>
+		<key>Schwadieresis-cy</key>
+		<string>uni04DA</string>
+		<key>schwadieresis-cy</key>
+		<string>uni04DB</string>
+		<key>Obarreddieresis-cy</key>
+		<string>uni04EA</string>
+		<key>obarreddieresis-cy</key>
+		<string>uni04EB</string>
+		<key>Edieresis-cy</key>
+		<string>uni04EC</string>
+		<key>edieresis-cy</key>
+		<string>uni04ED</string>
+		<key>Reversedze-cy</key>
+		<string>uni0510</string>
+		<key>reversedze-cy</key>
+		<string>uni0511</string>
+		<key>uhungarumlaut-cy.sc</key>
+		<string>uhungarumlaut_cy.sc</string>
+		<key>udieresis-cy.sc</key>
+		<string>udieresis_cy.sc</string>
+		<key>Semisoftsign-cy</key>
+		<string>uni048C</string>
+		<key>semisoftsign-cy</key>
+		<string>uni048D</string>
+		<key>semisoftsign-cy.sc</key>
+		<string>semisoftsign_cy.sc</string>
 	</dict>
 	<key>public.openTypeMeta</key>
 	<dict>

@@ -64,7 +64,7 @@ NameList: MatrixSans
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 1114256 16 12
+WinInfo: 928 16 12
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 629146 314573 209715 524288 1048576 0 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
@@ -12997,7 +12997,7 @@ Refer: 0 -1 N 1 0 0 1 150 600 2
 Refer: 0 -1 N 1 0 0 1 50 600 2
 EndChar
 
-StartChar: uni0403
+StartChar: Gje-cy
 Encoding: 1027 1027 880
 Width: 600
 Flags: HMW
@@ -13031,7 +13031,7 @@ Refer: 0 -1 N 1 0 0 1 250 600 2
 Refer: 0 -1 N 1 0 0 1 150 600 2
 EndChar
 
-StartChar: uni0405
+StartChar: Dze-cy
 Encoding: 1029 1029 882
 Width: 600
 Flags: HMW
@@ -13151,7 +13151,7 @@ Refer: 0 -1 N 1 0 0 1 150 600 2
 Refer: 0 -1 N 1 0 0 1 50 600 2
 EndChar
 
-StartChar: uni040C
+StartChar: Kje-cy
 Encoding: 1036 1036 889
 Width: 600
 Flags: HMW
@@ -14421,7 +14421,7 @@ Refer: 0 -1 N 1 0 0 1 50 500 2
 Refer: 0 -1 N 1 0 0 1 150 600 2
 EndChar
 
-StartChar: uni0453
+StartChar: gje-cy
 Encoding: 1107 1107 959
 Width: 600
 Flags: HMW
@@ -14453,7 +14453,7 @@ Refer: 0 -1 N 1 0 0 1 250 400 2
 Refer: 0 -1 N 1 0 0 1 150 400 2
 EndChar
 
-StartChar: uni0455
+StartChar: dze-cy
 Encoding: 1109 1109 961
 Width: 600
 Flags: HMW
@@ -14552,7 +14552,7 @@ Fore
 Refer: 264 295 S 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni045C
+StartChar: kje-cy
 Encoding: 1116 1116 968
 Width: 600
 Flags: HMW
@@ -27963,7 +27963,7 @@ Refer: 0 -1 N 1 0 0 1 150 400 2
 Refer: 0 -1 N 1 0 0 1 50 400 2
 EndChar
 
-StartChar: uni048A
+StartChar: Iishorttail-cy
 Encoding: 1162 1162 1762
 Width: 700
 Flags: HW
@@ -27996,7 +27996,7 @@ Refer: 0 -1 N 1 0 0 1 450 900 2
 Refer: 0 -1 N 1 0 0 1 50 900 2
 EndChar
 
-StartChar: uni048B
+StartChar: iishorttail-cy
 Encoding: 1163 1163 1763
 Width: 700
 Flags: HW
@@ -28025,7 +28025,7 @@ Refer: 0 -1 N 1 0 0 1 450 700 2
 Refer: 0 -1 N 1 0 0 1 50 700 2
 EndChar
 
-StartChar: uni048E
+StartChar: Ertick-cy
 Encoding: 1166 1166 1764
 Width: 600
 Flags: HW
@@ -28048,7 +28048,7 @@ Refer: 0 -1 N 1 0 0 1 150 600 2
 Refer: 0 -1 N 1 0 0 1 50 600 2
 EndChar
 
-StartChar: uni048F
+StartChar: ertick-cy
 Encoding: 1167 1167 1765
 Width: 600
 Flags: HW
@@ -28072,7 +28072,7 @@ Refer: 0 -1 N 1 0 0 1 250 400 2
 Refer: 0 -1 N 1 0 0 1 50 400 2
 EndChar
 
-StartChar: uni0494
+StartChar: Gemiddlehook-cy
 Encoding: 1172 1172 1766
 Width: 600
 Flags: HW
@@ -28100,7 +28100,7 @@ Refer: 0 -1 N 1 0 0 1 150 600 2
 Refer: 0 -1 N 1 0 0 1 50 600 2
 EndChar
 
-StartChar: uni0495
+StartChar: gemiddlehook-cy
 Encoding: 1173 1173 1767
 Width: 600
 Flags: HW
@@ -28125,7 +28125,7 @@ Refer: 0 -1 N 1 0 0 1 150 400 2
 Refer: 0 -1 N 1 0 0 1 50 400 2
 EndChar
 
-StartChar: uni0498
+StartChar: Zedescender-cy
 Encoding: 1176 1176 1768
 Width: 600
 Flags: HW
@@ -28150,7 +28150,7 @@ Refer: 0 -1 N 1 0 0 1 250 600 2
 Refer: 0 -1 N 1 0 0 1 150 600 2
 EndChar
 
-StartChar: uni0499
+StartChar: zedescender-cy
 Encoding: 1177 1177 1769
 Width: 600
 Flags: HW
@@ -28173,7 +28173,7 @@ Refer: 0 -1 N 1 0 0 1 150 400 2
 Refer: 0 -1 N 1 0 0 1 50 400 2
 EndChar
 
-StartChar: uni049C
+StartChar: Kaverticalstroke-cy
 Encoding: 1180 1180 1770
 Width: 600
 Flags: HW
@@ -28200,7 +28200,7 @@ Refer: 0 -1 N 1 0 0 1 450 600 2
 Refer: 0 -1 N 1 0 0 1 50 600 2
 EndChar
 
-StartChar: uni049D
+StartChar: kaverticalstroke-cy
 Encoding: 1181 1181 1771
 Width: 600
 Flags: HW
@@ -28222,7 +28222,7 @@ Refer: 0 -1 N 1 0 0 1 450 400 2
 Refer: 0 -1 N 1 0 0 1 50 400 2
 EndChar
 
-StartChar: uni049E
+StartChar: Kastroke-cy
 Encoding: 1182 1182 1772
 Width: 700
 Flags: HW
@@ -28246,7 +28246,7 @@ Refer: 0 -1 N 1 0 0 1 550 600 2
 Refer: 0 -1 N 1 0 0 1 150 600 2
 EndChar
 
-StartChar: uni049F
+StartChar: kastroke-cy
 Encoding: 1183 1183 1773
 Width: 600
 Flags: HW
@@ -28268,7 +28268,7 @@ Refer: 0 -1 N 1 0 0 1 50 500 2
 Refer: 0 -1 N 1 0 0 1 150 600 2
 EndChar
 
-StartChar: uni04A0
+StartChar: Kabashkir-cy
 Encoding: 1184 1184 1774
 Width: 700
 Flags: HW
@@ -28291,7 +28291,7 @@ Refer: 0 -1 N 1 0 0 1 150 600 2
 Refer: 0 -1 N 1 0 0 1 50 600 2
 EndChar
 
-StartChar: uni04A1
+StartChar: kabashkir-cy
 Encoding: 1185 1185 1775
 Width: 600
 Flags: HW
@@ -28310,7 +28310,7 @@ Refer: 0 -1 N 1 0 0 1 150 400 2
 Refer: 0 -1 N 1 0 0 1 50 400 2
 EndChar
 
-StartChar: uni04A4
+StartChar: EnGe-cy
 Encoding: 1188 1188 1776
 Width: 700
 Flags: HW
@@ -28336,7 +28336,7 @@ Refer: 0 -1 N 1 0 0 1 350 600 2
 Refer: 0 -1 N 1 0 0 1 50 600 2
 EndChar
 
-StartChar: uni04A5
+StartChar: enge-cy
 Encoding: 1189 1189 1777
 Width: 700
 Flags: HW
@@ -28417,7 +28417,7 @@ Refer: 0 -1 N 1 0 0 1 150 400 2
 Refer: 0 -1 N 1 0 0 1 50 400 2
 EndChar
 
-StartChar: uni04A8
+StartChar: Haabkhasian-cy
 Encoding: 1192 1192 1780
 Width: 600
 Flags: HW
@@ -28442,7 +28442,7 @@ Refer: 0 -1 N 1 0 0 1 50 500 2
 Refer: 0 -1 N 1 0 0 1 150 600 2
 EndChar
 
-StartChar: uni04A9
+StartChar: haabkhasian-cy
 Encoding: 1193 1193 1781
 Width: 600
 Flags: HW
@@ -28463,7 +28463,7 @@ Refer: 0 -1 N 1 0 0 1 50 300 2
 Refer: 0 -1 N 1 0 0 1 150 400 2
 EndChar
 
-StartChar: uni04AC
+StartChar: Tedescender-cy
 Encoding: 1196 1196 1782
 Width: 600
 Flags: HW
@@ -28484,7 +28484,7 @@ Refer: 0 -1 N 1 0 0 1 150 600 2
 Refer: 0 -1 N 1 0 0 1 50 600 2
 EndChar
 
-StartChar: uni04AD
+StartChar: tedescender-cy
 Encoding: 1197 1197 1783
 Width: 600
 Flags: HW
@@ -28503,7 +28503,7 @@ Refer: 0 -1 N 1 0 0 1 150 400 2
 Refer: 0 -1 N 1 0 0 1 50 400 2
 EndChar
 
-StartChar: uni04B4
+StartChar: Tetse-cy
 Encoding: 1204 1204 1784
 Width: 700
 Flags: HW
@@ -28531,7 +28531,7 @@ Refer: 0 -1 N 1 0 0 1 150 600 2
 Refer: 0 -1 N 1 0 0 1 50 600 2
 EndChar
 
-StartChar: uni04B5
+StartChar: tetse-cy
 Encoding: 1205 1205 1785
 Width: 700
 Flags: HW
@@ -28555,7 +28555,7 @@ Refer: 0 -1 N 1 0 0 1 150 400 2
 Refer: 0 -1 N 1 0 0 1 50 400 2
 EndChar
 
-StartChar: uni04B8
+StartChar: Cheverticalstroke-cy
 Encoding: 1208 1208 1786
 Width: 600
 Flags: HW
@@ -28578,7 +28578,7 @@ Refer: 0 -1 N 1 0 0 1 450 600 2
 Refer: 0 -1 N 1 0 0 1 50 600 2
 EndChar
 
-StartChar: uni04B9
+StartChar: cheverticalstroke-cy
 Encoding: 1209 1209 1787
 Width: 600
 Flags: HW
@@ -28598,7 +28598,7 @@ Refer: 0 -1 N 1 0 0 1 450 400 2
 Refer: 0 -1 N 1 0 0 1 50 400 2
 EndChar
 
-StartChar: uni04BC
+StartChar: Cheabkhasian-cy
 Encoding: 1212 1212 1788
 Width: 700
 Flags: HW
@@ -28624,7 +28624,7 @@ Refer: 0 -1 N 1 0 0 1 450 600 2
 Refer: 0 -1 N 1 0 0 1 350 600 2
 EndChar
 
-StartChar: uni04BD
+StartChar: cheabkhasian-cy
 Encoding: 1213 1213 1789
 Width: 700
 Flags: HW
@@ -28646,7 +28646,7 @@ Refer: 0 -1 N 1 0 0 1 450 400 2
 Refer: 0 -1 N 1 0 0 1 350 400 2
 EndChar
 
-StartChar: uni04BE
+StartChar: Chedescenderabkhasian-cy
 Encoding: 1214 1214 1790
 Width: 700
 Flags: HW
@@ -28673,7 +28673,7 @@ Refer: 0 -1 N 1 0 0 1 450 600 2
 Refer: 0 -1 N 1 0 0 1 350 600 2
 EndChar
 
-StartChar: uni04BF
+StartChar: chedescenderabkhasian-cy
 Encoding: 1215 1215 1791
 Width: 700
 Flags: HW
@@ -28696,7 +28696,7 @@ Refer: 0 -1 N 1 0 0 1 450 400 2
 Refer: 0 -1 N 1 0 0 1 350 400 2
 EndChar
 
-StartChar: uni04C3
+StartChar: Kahook-cy
 Encoding: 1219 1219 1792
 Width: 600
 Flags: HW
@@ -28722,7 +28722,7 @@ Refer: 0 -1 N 1 0 0 1 450 600 2
 Refer: 0 -1 N 1 0 0 1 50 600 2
 EndChar
 
-StartChar: uni04C4
+StartChar: kahook-cy
 Encoding: 1220 1220 1793
 Width: 600
 Flags: HW
@@ -28744,7 +28744,7 @@ Refer: 0 -1 N 1 0 0 1 450 400 2
 Refer: 0 -1 N 1 0 0 1 50 400 2
 EndChar
 
-StartChar: uni04C5
+StartChar: Eltail-cy
 Encoding: 1221 1221 1794
 Width: 700
 Flags: HW
@@ -28770,7 +28770,7 @@ Refer: 0 -1 N 1 0 0 1 350 600 2
 Refer: 0 -1 N 1 0 0 1 250 600 2
 EndChar
 
-StartChar: uni04C6
+StartChar: eltail-cy
 Encoding: 1222 1222 1795
 Width: 700
 Flags: HW
@@ -28792,7 +28792,7 @@ Refer: 0 -1 N 1 0 0 1 350 400 2
 Refer: 0 -1 N 1 0 0 1 250 400 2
 EndChar
 
-StartChar: uni04C7
+StartChar: Enhook-cy
 Encoding: 1223 1223 1796
 Width: 600
 Flags: HW
@@ -28820,7 +28820,7 @@ Refer: 0 -1 N 1 0 0 1 450 600 2
 Refer: 0 -1 N 1 0 0 1 50 600 2
 EndChar
 
-StartChar: uni04C8
+StartChar: enhook-cy
 Encoding: 1224 1224 1797
 Width: 600
 Flags: HW
@@ -28844,7 +28844,7 @@ Refer: 0 -1 N 1 0 0 1 450 400 2
 Refer: 0 -1 N 1 0 0 1 50 400 2
 EndChar
 
-StartChar: uni04C9
+StartChar: Entail-cy
 Encoding: 1225 1225 1798
 Width: 700
 Flags: HW
@@ -28872,7 +28872,7 @@ Refer: 0 -1 N 1 0 0 1 450 600 2
 Refer: 0 -1 N 1 0 0 1 50 600 2
 EndChar
 
-StartChar: uni04CA
+StartChar: entail-cy
 Encoding: 1226 1226 1799
 Width: 700
 Flags: HW
@@ -28939,7 +28939,7 @@ Refer: 0 -1 N 1 0 0 1 450 400 2
 Refer: 0 -1 N 1 0 0 1 50 400 2
 EndChar
 
-StartChar: uni04CD
+StartChar: Emtail-cy
 Encoding: 1229 1229 1802
 Width: 700
 Flags: HW
@@ -28968,7 +28968,7 @@ Refer: 0 -1 N 1 0 0 1 450 600 2
 Refer: 0 -1 N 1 0 0 1 50 600 2
 EndChar
 
-StartChar: uni04CE
+StartChar: emtail-cy
 Encoding: 1230 1230 1803
 Width: 700
 Flags: HW
@@ -29033,7 +29033,7 @@ Refer: 0 -1 N 1 0 0 1 150 400 2
 Refer: 0 -1 N 1 0 0 1 50 400 2
 EndChar
 
-StartChar: uni04FA
+StartChar: Gestrokehook-cy
 Encoding: 1274 1274 1806
 Width: 600
 Flags: HW
@@ -29058,7 +29058,7 @@ Refer: 0 -1 N 1 0 0 1 250 600 2
 Refer: 0 -1 N 1 0 0 1 150 600 2
 EndChar
 
-StartChar: uni04FB
+StartChar: gestrokehook-cy
 Encoding: 1275 1275 1807
 Width: 600
 Flags: HW
@@ -29081,7 +29081,7 @@ Refer: 0 -1 N 1 0 0 1 250 400 2
 Refer: 0 -1 N 1 0 0 1 150 400 2
 EndChar
 
-StartChar: uni04FC
+StartChar: Hahook-cy
 Encoding: 1276 1276 1808
 Width: 700
 Flags: HW
@@ -29106,7 +29106,7 @@ Refer: 0 -1 N 1 0 0 1 450 600 2
 Refer: 0 -1 N 1 0 0 1 50 600 2
 EndChar
 
-StartChar: uni04FD
+StartChar: hahook-cy
 Encoding: 1277 1277 1809
 Width: 700
 Flags: HW
@@ -29127,7 +29127,7 @@ Refer: 0 -1 N 1 0 0 1 450 400 2
 Refer: 0 -1 N 1 0 0 1 50 400 2
 EndChar
 
-StartChar: uni04FE
+StartChar: Hastroke-cy
 Encoding: 1278 1278 1810
 Width: 600
 Flags: HW
@@ -29150,7 +29150,7 @@ Refer: 0 -1 N 1 0 0 1 450 600 2
 Refer: 0 -1 N 1 0 0 1 50 600 2
 EndChar
 
-StartChar: uni04FF
+StartChar: hastroke-cy
 Encoding: 1279 1279 1811
 Width: 600
 Flags: HW
@@ -29171,7 +29171,7 @@ Refer: 0 -1 N 1 0 0 1 450 400 2
 Refer: 0 -1 N 1 0 0 1 50 400 2
 EndChar
 
-StartChar: uni0512
+StartChar: Elhook-cy
 Encoding: 1298 1298 1812
 Width: 700
 Flags: HW
@@ -29198,7 +29198,7 @@ Refer: 0 -1 N 1 0 0 1 350 600 2
 Refer: 0 -1 N 1 0 0 1 250 600 2
 EndChar
 
-StartChar: uni0513
+StartChar: elhook-cy
 Encoding: 1299 1299 1813
 Width: 700
 Flags: HW
@@ -29221,7 +29221,7 @@ Refer: 0 -1 N 1 0 0 1 350 400 2
 Refer: 0 -1 N 1 0 0 1 250 400 2
 EndChar
 
-StartChar: uni0524
+StartChar: Pedescender-cy
 Encoding: 1316 1316 1814
 Width: 600
 Flags: HW
@@ -29247,7 +29247,7 @@ Refer: 0 -1 N 1 0 0 1 150 600 2
 Refer: 0 -1 N 1 0 0 1 50 600 2
 EndChar
 
-StartChar: uni0525
+StartChar: pedescender-cy
 Encoding: 1317 1317 1815
 Width: 600
 Flags: HW
@@ -29269,7 +29269,7 @@ Refer: 0 -1 N 1 0 0 1 150 400 2
 Refer: 0 -1 N 1 0 0 1 50 400 2
 EndChar
 
-StartChar: uni0526
+StartChar: Shhadescender-cy
 Encoding: 1318 1318 1816
 Width: 600
 Flags: HW
@@ -29291,7 +29291,7 @@ Refer: 0 -1 N 1 0 0 1 50 500 2
 Refer: 0 -1 N 1 0 0 1 50 600 2
 EndChar
 
-StartChar: uni0527
+StartChar: shhadescender-cy
 Encoding: 1319 1319 1817
 Width: 600
 Flags: HW
@@ -29310,7 +29310,7 @@ Refer: 0 -1 N 1 0 0 1 50 300 2
 Refer: 0 -1 N 1 0 0 1 50 400 2
 EndChar
 
-StartChar: uni0528
+StartChar: EnLeftHook-cy
 Encoding: 1320 1320 1818
 Width: 600
 Flags: HW
@@ -29336,7 +29336,7 @@ Refer: 0 -1 N 1 0 0 1 450 600 2
 Refer: 0 -1 N 1 0 0 1 150 600 2
 EndChar
 
-StartChar: uni0529
+StartChar: enlefthook-cy
 Encoding: 1321 1321 1819
 Width: 600
 Flags: HW
@@ -29358,7 +29358,7 @@ Refer: 0 -1 N 1 0 0 1 450 400 2
 Refer: 0 -1 N 1 0 0 1 150 400 2
 EndChar
 
-StartChar: uni049F.sc
+StartChar: kastroke-cy.sc
 Encoding: 1114430 -1 1820
 Width: 700
 VWidth: 0
@@ -29380,7 +29380,7 @@ Refer: 0 -1 N 1 0 0 1 550 400 2
 Refer: 0 -1 N 1 0 0 1 150 400 2
 EndChar
 
-StartChar: uni048F.sc
+StartChar: ertick-cy.sc
 Encoding: 1114431 -1 1821
 Width: 600
 VWidth: 0
@@ -29402,7 +29402,7 @@ Refer: 0 -1 N 1 0 0 1 150 400 2
 Refer: 0 -1 N 1 0 0 1 50 400 2
 EndChar
 
-StartChar: uni052E
+StartChar: Eldescender-cy
 Encoding: 1326 1326 1822
 Width: 700
 Flags: HW
@@ -29427,7 +29427,7 @@ Refer: 0 -1 N 1 0 0 1 350 600 2
 Refer: 0 -1 N 1 0 0 1 250 600 2
 EndChar
 
-StartChar: uni052F
+StartChar: eldescender-cy
 Encoding: 1327 1327 1823
 Width: 700
 Flags: HW
@@ -29448,7 +29448,7 @@ Refer: 0 -1 N 1 0 0 1 350 400 2
 Refer: 0 -1 N 1 0 0 1 250 400 2
 EndChar
 
-StartChar: uni04AA
+StartChar: Esdescender-cy
 Encoding: 1194 1194 1824
 Width: 600
 Flags: HW
@@ -29457,7 +29457,7 @@ Fore
 Refer: 126 199 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni04AB
+StartChar: esdescender-cy
 Encoding: 1195 1195 1825
 Width: 600
 Flags: HW
@@ -29466,7 +29466,7 @@ Fore
 Refer: 158 231 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni04C0
+StartChar: Palochka-cy
 Encoding: 1216 1216 1826
 Width: 400
 Flags: HW
@@ -29475,7 +29475,7 @@ Fore
 Refer: 42 73 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni04CF
+StartChar: palochka-cy
 Encoding: 1231 1231 1827
 Width: 400
 Flags: HW
@@ -29504,7 +29504,7 @@ Refer: 276 774 N 1 0 0 1 300 0 2
 Refer: 930 1078 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni04D0
+StartChar: Abreve-cy
 Encoding: 1232 1232 1830
 Width: 600
 Flags: H
@@ -29514,7 +29514,7 @@ Refer: 276 774 N 1 0 0 1 300 200 2
 Refer: 893 1040 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni04D1
+StartChar: abreve-cy
 Encoding: 1233 1233 1831
 Width: 600
 Flags: H
@@ -29544,7 +29544,7 @@ Refer: 232 776 N 1 0 0 1 300 0 2
 Refer: 924 1072 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni04D4
+StartChar: Aie-cy
 Encoding: 1236 1236 1834
 Width: 800
 Flags: HW
@@ -29553,7 +29553,7 @@ Fore
 Refer: 125 198 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni04D5
+StartChar: aie-cy
 Encoding: 1237 1237 1835
 Width: 800
 Flags: HW
@@ -29562,7 +29562,7 @@ Fore
 Refer: 157 230 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni04D6
+StartChar: Iebreve-cy
 Encoding: 1238 1238 1836
 Width: 600
 Flags: H
@@ -29572,7 +29572,7 @@ Refer: 276 774 N 1 0 0 1 300 200 2
 Refer: 897 1045 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni04D7
+StartChar: iebreve-cy
 Encoding: 1239 1239 1837
 Width: 600
 Flags: H
@@ -29582,7 +29582,7 @@ Refer: 276 774 N 1 0 0 1 300 0 2
 Refer: 929 1077 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni04DC
+StartChar: Zhedieresis-cy
 Encoding: 1244 1244 1838
 Width: 600
 Flags: H
@@ -29592,7 +29592,7 @@ Refer: 232 776 N 1 0 0 1 300 200 2
 Refer: 898 1046 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni04DD
+StartChar: zhedieresis-cy
 Encoding: 1245 1245 1839
 Width: 600
 Flags: H
@@ -29602,7 +29602,7 @@ Refer: 232 776 N 1 0 0 1 300 0 2
 Refer: 930 1078 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni04DE
+StartChar: Zedieresis-cy
 Encoding: 1246 1246 1840
 Width: 600
 Flags: H
@@ -29612,7 +29612,7 @@ Refer: 232 776 N 1 0 0 1 300 200 2
 Refer: 899 1047 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni04DF
+StartChar: zedieresis-cy
 Encoding: 1247 1247 1841
 Width: 600
 Flags: H
@@ -29622,7 +29622,7 @@ Refer: 232 776 N 1 0 0 1 300 0 2
 Refer: 931 1079 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni04E0
+StartChar: Dzeabkhasian-cy
 Encoding: 1248 1248 1842
 Width: 600
 VWidth: 0
@@ -29633,7 +29633,7 @@ Fore
 Refer: 1299 -1 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni04E1
+StartChar: dzeabkhasian-cy
 Encoding: 1249 1249 1843
 Width: 600
 VWidth: -200
@@ -29644,7 +29644,7 @@ Fore
 Refer: 1299 -1 N 1 0 0 1 0 -200 3
 EndChar
 
-StartChar: uni04E4
+StartChar: Idieresis-cy
 Encoding: 1252 1252 1844
 Width: 600
 Flags: H
@@ -29654,7 +29654,7 @@ Refer: 232 776 N 1 0 0 1 300 200 2
 Refer: 900 1048 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni04E5
+StartChar: idieresis-cy
 Encoding: 1253 1253 1845
 Width: 600
 Flags: H
@@ -29664,7 +29664,7 @@ Refer: 232 776 N 1 0 0 1 300 0 2
 Refer: 932 1080 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni04E6
+StartChar: Odieresis-cy
 Encoding: 1254 1254 1846
 Width: 600
 Flags: H
@@ -29674,7 +29674,7 @@ Refer: 232 776 N 1 0 0 1 300 200 2
 Refer: 906 1054 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni04E7
+StartChar: odieresis-cy
 Encoding: 1255 1255 1847
 Width: 600
 Flags: H
@@ -29684,7 +29684,7 @@ Refer: 232 776 N 1 0 0 1 300 0 2
 Refer: 938 1086 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni04F0
+StartChar: Udieresis-cy
 Encoding: 1264 1264 1848
 Width: 600
 Flags: H
@@ -29694,7 +29694,7 @@ Refer: 232 776 N 1 0 0 1 300 200 2
 Refer: 911 1059 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni04F1
+StartChar: udieresis-cy
 Encoding: 1265 1265 1849
 Width: 600
 Flags: H
@@ -29704,7 +29704,7 @@ Refer: 232 776 N 1 0 0 1 300 0 2
 Refer: 943 1091 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni04F2
+StartChar: Uhungarumlaut-cy
 Encoding: 1266 1266 1850
 Width: 600
 Flags: H
@@ -29714,7 +29714,7 @@ Refer: 330 779 N 1 0 0 1 300 200 2
 Refer: 911 1059 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni04F3
+StartChar: uhungarumlaut-cy
 Encoding: 1267 1267 1851
 Width: 600
 Flags: H
@@ -29724,7 +29724,7 @@ Refer: 330 779 N 1 0 0 1 300 0 2
 Refer: 943 1091 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni04F4
+StartChar: Chedieresis-cy
 Encoding: 1268 1268 1852
 Width: 600
 Flags: H
@@ -29734,7 +29734,7 @@ Refer: 232 776 N 1 0 0 1 300 200 2
 Refer: 915 1063 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni04F5
+StartChar: chedieresis-cy
 Encoding: 1269 1269 1853
 Width: 600
 Flags: H
@@ -29800,7 +29800,7 @@ Fore
 Refer: 88 119 N 1 0 0 1 0 0 2
 EndChar
 
-StartChar: uni04DA
+StartChar: Schwadieresis-cy
 Encoding: 1242 1242 1860
 Width: 600
 Flags: H
@@ -29810,7 +29810,7 @@ Refer: 232 776 N 1 0 0 1 300 200 2
 Refer: 998 1240 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni04DB
+StartChar: schwadieresis-cy
 Encoding: 1243 1243 1861
 Width: 600
 Flags: H
@@ -29820,7 +29820,7 @@ Refer: 232 776 N 1 0 0 1 300 0 2
 Refer: 999 1241 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni04EA
+StartChar: Obarreddieresis-cy
 Encoding: 1258 1258 1862
 Width: 600
 Flags: H
@@ -29830,7 +29830,7 @@ Refer: 232 776 N 1 0 0 1 300 200 2
 Refer: 1002 1256 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni04EB
+StartChar: obarreddieresis-cy
 Encoding: 1259 1259 1863
 Width: 600
 Flags: H
@@ -29840,7 +29840,7 @@ Refer: 232 776 N 1 0 0 1 300 0 2
 Refer: 1003 1257 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni04EC
+StartChar: Edieresis-cy
 Encoding: 1260 1260 1864
 Width: 600
 Flags: H
@@ -29850,7 +29850,7 @@ Refer: 232 776 N 1 0 0 1 300 200 2
 Refer: 921 1069 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni04ED
+StartChar: edieresis-cy
 Encoding: 1261 1261 1865
 Width: 600
 Flags: H
@@ -29860,7 +29860,7 @@ Refer: 232 776 N 1 0 0 1 300 0 2
 Refer: 953 1101 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni0510
+StartChar: Reversedze-cy
 Encoding: 1296 1296 1866
 Width: 600
 Flags: HW
@@ -29882,7 +29882,7 @@ Refer: 0 -1 N 1 0 0 1 250 600 2
 Refer: 0 -1 N 1 0 0 1 150 600 2
 EndChar
 
-StartChar: uni0511
+StartChar: reversedze-cy
 Encoding: 1297 1297 1867
 Width: 600
 Flags: HW
@@ -29902,7 +29902,7 @@ Refer: 0 -1 N 1 0 0 1 250 400 2
 Refer: 0 -1 N 1 0 0 1 150 400 2
 EndChar
 
-StartChar: uni04F3.sc
+StartChar: uhungarumlaut-cy.sc
 Encoding: 1114432 -1 1868
 Width: 600
 Flags: H
@@ -29912,7 +29912,7 @@ Refer: 330 779 N 1 0 0 1 300 0 2
 Refer: 1019 -1 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni04F1.sc
+StartChar: udieresis-cy.sc
 Encoding: 1114433 -1 1869
 Width: 600
 Flags: H
@@ -29922,7 +29922,7 @@ Refer: 232 776 N 1 0 0 1 300 0 2
 Refer: 1019 -1 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni048C
+StartChar: Semisoftsign-cy
 Encoding: 1164 1164 1870
 Width: 600
 Flags: HW
@@ -29945,7 +29945,7 @@ Refer: 0 -1 N 1 0 0 1 50 500 2
 Refer: 0 -1 N 1 0 0 1 150 600 2
 EndChar
 
-StartChar: uni048D
+StartChar: semisoftsign-cy
 Encoding: 1165 1165 1871
 Width: 600
 Flags: HW
@@ -29967,7 +29967,7 @@ Refer: 0 -1 N 1 0 0 1 150 500 2
 Refer: 0 -1 N 1 0 0 1 150 600 2
 EndChar
 
-StartChar: uni048D.sc
+StartChar: semisoftsign-cy.sc
 Encoding: 1114434 -1 1872
 Width: 600
 VWidth: 0
