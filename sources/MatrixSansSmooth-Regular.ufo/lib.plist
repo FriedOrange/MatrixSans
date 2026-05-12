@@ -1735,15 +1735,6 @@
 		<string>uni0463.sc</string>
 		<string>ustraightstroke-cy.sc</string>
 		<string>shha-cy.sc</string>
-		<string>a-cy.sc</string>
-		<string>i-cy.sc</string>
-		<string>je-cy.sc</string>
-		<string>er-cy.sc</string>
-		<string>ustraight-cy.sc</string>
-		<string>u-cy.sc</string>
-		<string>ie-cy.sc</string>
-		<string>iegrave-cy.sc</string>
-		<string>io-cy.sc</string>
 		<string>umacron-cy.sc</string>
 		<string>ushort-cy.sc</string>
 		<string>alpha.sc</string>
@@ -2738,8 +2729,6 @@
 		<string>base</string>
 		<key>a-cy</key>
 		<string>base</string>
-		<key>a-cy.sc</key>
-		<string>base</string>
 		<key>a.sc</key>
 		<string>base</string>
 		<key>aacute</key>
@@ -3264,8 +3253,6 @@
 		<string>base</string>
 		<key>er-cy</key>
 		<string>base</string>
-		<key>er-cy.sc</key>
-		<string>base</string>
 		<key>ereversed-cy</key>
 		<string>base</string>
 		<key>ertick-cy</key>
@@ -3522,8 +3509,6 @@
 		<string>base</string>
 		<key>i-cy</key>
 		<string>base</string>
-		<key>i-cy.sc</key>
-		<string>base</string>
 		<key>i.sc</key>
 		<string>base</string>
 		<key>iacute</key>
@@ -3564,13 +3549,9 @@
 		<string>base</string>
 		<key>ie-cy</key>
 		<string>base</string>
-		<key>ie-cy.sc</key>
-		<string>base</string>
 		<key>iebreve-cy</key>
 		<string>base</string>
 		<key>iegrave-cy</key>
-		<string>base</string>
-		<key>iegrave-cy.sc</key>
 		<string>base</string>
 		<key>igrave</key>
 		<string>base</string>
@@ -3607,8 +3588,6 @@
 		<key>integral</key>
 		<string>base</string>
 		<key>io-cy</key>
-		<string>base</string>
-		<key>io-cy.sc</key>
 		<string>base</string>
 		<key>iogonek</key>
 		<string>base</string>
@@ -3657,8 +3636,6 @@
 		<key>jdotless</key>
 		<string>base</string>
 		<key>je-cy</key>
-		<string>base</string>
-		<key>je-cy.sc</key>
 		<string>base</string>
 		<key>jheh-ar</key>
 		<string>base</string>
@@ -4427,8 +4404,6 @@
 		<key>u</key>
 		<string>base</string>
 		<key>u-cy</key>
-		<string>base</string>
-		<key>u-cy.sc</key>
 		<string>base</string>
 		<key>u.sc</key>
 		<string>base</string>
@@ -5381,8 +5356,6 @@
 		<key>ushort-cy.sc</key>
 		<string>base</string>
 		<key>ustraight-cy</key>
-		<string>base</string>
-		<key>ustraight-cy.sc</key>
 		<string>base</string>
 		<key>ustraightstroke-cy</key>
 		<string>base</string>
@@ -6393,24 +6366,6 @@
 		<string>ustraightstroke_cy.sc</string>
 		<key>shha-cy.sc</key>
 		<string>shha_cy.sc</string>
-		<key>a-cy.sc</key>
-		<string>a_cy.sc</string>
-		<key>i-cy.sc</key>
-		<string>i_cy.sc</string>
-		<key>je-cy.sc</key>
-		<string>je_cy.sc</string>
-		<key>er-cy.sc</key>
-		<string>er_cy.sc</string>
-		<key>ustraight-cy.sc</key>
-		<string>ustraight_cy.sc</string>
-		<key>u-cy.sc</key>
-		<string>u_cy.sc</string>
-		<key>ie-cy.sc</key>
-		<string>ie_cy.sc</string>
-		<key>iegrave-cy.sc</key>
-		<string>iegrave_cy.sc</string>
-		<key>io-cy.sc</key>
-		<string>io_cy.sc</string>
 		<key>umacron-cy.sc</key>
 		<string>umacron_cy.sc</string>
 		<key>ushort-cy.sc</key>

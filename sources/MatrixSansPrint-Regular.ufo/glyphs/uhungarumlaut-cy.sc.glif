@@ -2,7 +2,7 @@
 <glyph name="uhungarumlaut-cy.sc" format="2">
   <advance width="600"/>
   <outline>
-    <component base="u-cy.sc"/>
     <component base="hungarumlautcomb" xOffset="300.0"/>
+    <component base="y.titl"/>
   </outline>
 </glyph>

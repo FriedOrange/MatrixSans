@@ -2,7 +2,7 @@
 <glyph name="umacron-cy.sc" format="2">
   <advance width="600"/>
   <outline>
-    <component base="u-cy.sc"/>
     <component base="macroncomb" xOffset="300.0"/>
+    <component base="y.titl"/>
   </outline>
 </glyph>

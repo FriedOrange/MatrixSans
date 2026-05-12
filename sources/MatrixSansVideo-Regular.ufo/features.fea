@@ -46,9 +46,9 @@ feature aalt {
 @smcp = [a.sc b.sc d.sc e.sc f.sc g.sc h.sc i.sc j.sc kgreenlandic l.sc m.sc n.sc p.sc q.sc r.sc t.sc u.sc y.sc aacute.sc abreve.sc Abreveacute abrevedotbelow.sc Abrevegrave Abrevehookabove Abrevetilde acaron.sc acircumflex.sc Acircumflexacute acircumflexdotbelow.sc Acircumflexgrave Acircumflexhookabove Acircumflextilde adieresis.sc adotbelow.sc ae.sc aeacute.sc agrave.sc ahookabove.sc amacron.sc aogonek.sc aring.sc Aringacute aslash.sc atilde.sc bhook.sc dcaron.sc ddotbelow.sc dhook.sc dmacronbelow.sc eacute.sc ebreve.sc ecaron.sc ecircumflex.sc Ecircumflexacute ecircumflexdotbelow.sc Ecircumflexgrave Ecircumflexhookabove Ecircumflextilde edieresis.sc edotaccent.sc edotbelow.sc egrave.sc ehookabove.sc emacron.sc Emacronacute Emacrongrave eng.sc eogonek.sc eth.sc eth.sc etilde.sc ezh.sc ezhcaron.sc florin.sc gammalatin.sc gbar.sc gbreve.sc gcaron.sc gcircumflex.sc gcommaaccent.sc gdotaccent.sc germandbls.sc gmacron.sc hbar.sc hbrevebelow.sc hcaron.sc hcircumflex.sc hdotbelow.sc hmacronbelow.sc i.sc iacute.sc ibar.sc ibreve.sc icaron.sc icircumflex.sc idieresis.sc idotaccent.sc idotbelow.sc igrave.sc ihookabove.sc ij.sc imacron.sc iogonek.sc itilde.sc jcaron.sc j.sc jcircumflex.sc kacute.sc kcaron.sc kcommaaccent.sc kdotbelow.sc khook.sc kmacronbelow.sc lacute.sc lambdalatinbar.sc lbar.sc lbelt.sc lcaron.sc lcommaaccent.sc ldot.sc ldotbelow.sc ldotbelowmacron.sc lmacronbelow.sc lmiddletilde.sc lslash.sc macute.sc mdotbelow.sc nacute.sc napostrophe.sc ncaron.sc ncommaaccent.sc ndotaccent.sc ndotbelow.sc ngrave.sc nhookleft.sc nmacronbelow.sc ntilde.sc oe.sc racute.sc rcaron.sc rcommaaccent.sc rdotbelow.sc rdotbelowmacron.sc rmacronbelow.sc s saltillo.sc tbar.sc tcaron.sc tcedilla.sc tcommaaccent.sc tdieresis.sc tdotbelow.sc thorn.sc tmacronbelow.sc tslash.sc uacute.sc ubreve.sc ucaron.sc ucircumflex.sc udieresis.sc Udieresisacute Udieresiscaron Udieresisgrave udieresismacron.sc udotbelow.sc ugrave.sc uhookabove.sc uhorn.sc uhornacute.sc uhorndotbelow.sc uhorngrave.sc uhornhookabove.sc uhorntilde.sc uhungarumlaut.sc umacron.sc uogonek.sc uring.sc utilde.sc yacute.sc ycircumflex.sc ydieresis.sc ydotaccent.sc ydotbelow.sc ygrave.sc yhook.sc yhookabove.sc ymacron.sc ytilde.sc];
 
 @uc_cy = [Iegrave-cy Io-cy Dje-cy Gje-cy E-cy Dze-cy I-cy Yi-cy Je-cy Lje-cy Nje-cy Tshe-cy Kje-cy uni040D Ushort-cy Dzhe-cy A-cy Be-cy Ve-cy Ge-cy De-cy Ie-cy Zhe-cy Ze-cy Ii-cy Iishort-cy Ka-cy El-cy Em-cy En-cy O-cy Pe-cy Er-cy Es-cy Te-cy U-cy Ef-cy Ha-cy Tse-cy Che-cy Sha-cy Shcha-cy Hardsign-cy Yeru-cy Softsign-cy Ereversed-cy Yu-cy Ya-cy uni0462 uni0472 uni0474 Geupturn-cy Gestroke-cy Zhedescender-cy Kadescender-cy Endescender-cy Ustraight-cy Ustraightstroke-cy Hadescender-cy Chedescender-cy Shha-cy Schwa-cy Imacron-cy Obarred-cy Umacron-cy uni046A Iishorttail-cy Semisoftsign-cy Ertick-cy Gemiddlehook-cy Zedescender-cy Kaverticalstroke-cy Kastroke-cy Kabashkir-cy EnGe-cy uni04A6 Haabkhasian-cy Esdescender-cy Tedescender-cy Tetse-cy Cheverticalstroke-cy Cheabkhasian-cy Chedescenderabkhasian-cy Palochka-cy uni04C1 Kahook-cy Eltail-cy Enhook-cy Entail-cy uni04CB Emtail-cy Abreve-cy uni04D2 Aie-cy Iebreve-cy Schwadieresis-cy Zhedieresis-cy Zedieresis-cy Dzeabkhasian-cy Idieresis-cy Odieresis-cy Obarreddieresis-cy Edieresis-cy Udieresis-cy Uhungarumlaut-cy Chedieresis-cy uni04F6 uni04F8 Gestrokehook-cy Hahook-cy Hastroke-cy Reversedze-cy Elhook-cy uni051A uni051C Pedescender-cy Shhadescender-cy EnLeftHook-cy Eldescender-cy];
-@c2sc_cy = [iegrave-cy.sc io-cy.sc dje-cy.sc gje-cy e-cy dze-cy i-cy.sc idieresis.sc je-cy.sc lje-cy nje-cy tshe-cy.sc kje-cy uni045D ushort-cy.sc dzhe-cy a-cy.sc be-cy.sc ve-cy ge-cy de-cy ie-cy.sc zhe-cy ze-cy ii-cy iishort-cy ka-cy el-cy em-cy en-cy o-cy pe-cy er-cy.sc es-cy te-cy u-cy.sc ef-cy.sc ha-cy tse-cy che-cy sha-cy shcha-cy hardsign-cy yeru-cy softsign-cy ereversed-cy yu-cy ya-cy uni0463.sc uni0473 uni0475 geupturn-cy gestroke-cy zhedescender-cy kadescender-cy endescender-cy ustraight-cy.sc ustraightstroke-cy.sc hadescender-cy chedescender-cy shha-cy.sc schwa-cy imacron-cy obarred-cy umacron-cy.sc uni046B iishorttail-cy semisoftsign-cy.sc ertick-cy.sc gemiddlehook-cy zedescender-cy kaverticalstroke-cy kastroke-cy.sc kabashkir-cy enge-cy uni04A7 haabkhasian-cy esdescender-cy tedescender-cy tetse-cy cheverticalstroke-cy cheabkhasian-cy chedescenderabkhasian-cy i.sc uni04C2 kahook-cy eltail-cy enhook-cy entail-cy uni04CC emtail-cy abreve.sc adieresis.sc ae.sc ebreve.sc schwadieresis-cy zhedieresis-cy zedieresis-cy ezh.sc idieresis-cy odieresis-cy obarreddieresis-cy edieresis-cy udieresis-cy.sc uhungarumlaut-cy.sc chedieresis-cy uni04F7 uni04F9 gestrokehook-cy hahook-cy hastroke-cy reversedze-cy elhook-cy q.sc uni051D pedescender-cy shhadescender-cy enlefthook-cy eldescender-cy];
+@c2sc_cy = [egrave.sc edieresis.sc dje-cy.sc gje-cy e-cy dze-cy i.sc idieresis.sc j.sc lje-cy nje-cy tshe-cy.sc kje-cy uni045D ushort-cy.sc dzhe-cy a.sc be-cy.sc ve-cy ge-cy de-cy e.sc zhe-cy ze-cy ii-cy iishort-cy ka-cy el-cy em-cy en-cy o-cy pe-cy p.sc es-cy te-cy y.titl ef-cy.sc ha-cy tse-cy che-cy sha-cy shcha-cy hardsign-cy yeru-cy softsign-cy ereversed-cy yu-cy ya-cy uni0463.sc uni0473 uni0475 geupturn-cy gestroke-cy zhedescender-cy kadescender-cy endescender-cy y.sc ustraightstroke-cy.sc hadescender-cy chedescender-cy shha-cy.sc schwa-cy imacron-cy obarred-cy umacron-cy.sc uni046B iishorttail-cy semisoftsign-cy.sc ertick-cy.sc gemiddlehook-cy zedescender-cy kaverticalstroke-cy kastroke-cy.sc kabashkir-cy enge-cy uni04A7 haabkhasian-cy esdescender-cy tedescender-cy tetse-cy cheverticalstroke-cy cheabkhasian-cy chedescenderabkhasian-cy i.sc uni04C2 kahook-cy eltail-cy enhook-cy entail-cy uni04CC emtail-cy abreve.sc adieresis.sc ae.sc ebreve.sc schwadieresis-cy zhedieresis-cy zedieresis-cy ezh.sc idieresis-cy odieresis-cy obarreddieresis-cy edieresis-cy udieresis-cy.sc uhungarumlaut-cy.sc chedieresis-cy uni04F7 uni04F9 gestrokehook-cy hahook-cy hastroke-cy reversedze-cy elhook-cy q.sc uni051D pedescender-cy shhadescender-cy enlefthook-cy eldescender-cy];
 @lc_cy = [a-cy be-cy ie-cy er-cy u-cy ef-cy iegrave-cy io-cy dje-cy i-cy yi-cy je-cy tshe-cy ushort-cy uni0463 ustraight-cy ustraightstroke-cy shha-cy umacron-cy be-cy.loclSRB ve-cy.loclBGR ge-cy.loclBGR g zhe-cy.loclBGR ze-cy.loclBGR u ubreve k el-cy.loclBGR n m tse-cy.loclBGR ayb-ar shcha-cy.loclBGR yu-cy.loclBGR semisoftsign-cy ertick-cy kastroke-cy palochka-cy abreve-cy uni04D3 aie-cy iebreve-cy dzeabkhasian-cy udieresis-cy uhungarumlaut-cy uni051B];
-@smcp_cy = [a-cy.sc be-cy.sc ie-cy.sc er-cy.sc u-cy.sc ef-cy.sc iegrave-cy.sc io-cy.sc dje-cy.sc i-cy.sc idieresis.sc je-cy.sc tshe-cy.sc ushort-cy.sc uni0463.sc ustraight-cy.sc ustraightstroke-cy.sc shha-cy.sc umacron-cy.sc be-cy.sc b.sc ge-cy de-cy zhe-cy ze-cy ii-cy iishort-cy ka-cy el-cy pe-cy te-cy tse-cy sha-cy shcha-cy yu-cy semisoftsign-cy.sc ertick-cy.sc kastroke-cy.sc i.sc abreve.sc adieresis.sc ae.sc ebreve.sc ezh.sc udieresis-cy.sc uhungarumlaut-cy.sc q.sc];
+@smcp_cy = [a.sc be-cy.sc e.sc p.sc y.titl ef-cy.sc egrave.sc edieresis.sc dje-cy.sc i.sc idieresis.sc j.sc tshe-cy.sc ushort-cy.sc uni0463.sc y.sc ustraightstroke-cy.sc shha-cy.sc umacron-cy.sc be-cy.sc b.sc ge-cy de-cy zhe-cy ze-cy ii-cy iishort-cy ka-cy el-cy pe-cy te-cy tse-cy sha-cy shcha-cy yu-cy semisoftsign-cy.sc ertick-cy.sc kastroke-cy.sc i.sc abreve.sc adieresis.sc ae.sc ebreve.sc ezh.sc udieresis-cy.sc uhungarumlaut-cy.sc q.sc];
 
 @uc_gr = [Alphatonos Epsilontonos Etatonos Iotatonos Omicrontonos Upsilontonos Omegatonos Alpha Beta Gamma Delta Epsilon Zeta Eta Theta Iota Kappa Lambda Mu Nu Xi Omicron Pi Rho Sigma Tau Upsilon Phi Chi Psi Omega Iotadieresis Upsilondieresis KaiSymbol];
 @c2sc_gr = [alphatonos.sc epsilontonos.sc etatonos.sc iotatonos.sc omicrontonos upsilontonos.sc omegatonos.sc alpha.sc beta.sc gamma.sc delta.sc epsilon.sc zeta.sc eta.sc theta.sc iota.sc kappa lambda.sc mu.sc nu.sc xi.sc omicron pi.sc rho.sc sigma.sc tau.sc upsilon.sc phi.sc chi.sc psi.sc omega.sc iotadieresis.sc upsilondieresis.sc kaiSymbol];
@@ -337,7 +337,7 @@ feature locl {
 @talloverhangR_cy = [Gje-cy Je-cy Ge-cy Te-cy uni0474 Geupturn-cy Gestroke-cy EnGe-cy Tedescender-cy uni04F6 Gestrokehook-cy];
 @talloverhang2_cy = [Ustraight-cy Ustraightstroke-cy];
 @talloverhang3_cy = [Er-cy];
-@talloverhang4_cy = [Ertick-cy]
+@talloverhang4_cy = [Ertick-cy];
 @tallcurveBR_cy = [Dze-cy Ushort-cy Ve-cy Ze-cy O-cy U-cy uni0472 Cheabkhasian-cy Chedescenderabkhasian-cy Schwa-cy Schwadieresis-cy Zedieresis-cy Odieresis-cy Obarred-cy Obarreddieresis-cy Edieresis-cy Umacron-cy Udieresis-cy Uhungarumlaut-cy uni051C];
 @tallcurve2R_cy = [Ef-cy Haabkhasian-cy];
 @tallcurve2TR = [A-cy Abreve-cy uni04D2];
@@ -442,15 +442,37 @@ feature locl {
 @underhangN1L = [comma semicolon quotesinglbase quotedblbase uni02CC];
 @j = [j jcircumflex jdotless jcaron];
 
-@tall_overhangL_cy = [Dje-cy Tshe-cy Hardsign-cy Te-cy];
-@short_overhangL_cy = [hardsign-cy uni0463 dje-cy.sc tshe-cy.sc uni0463.sc ustraightstroke-cy.sc te-cy];
-@tall_overhang2L_cy = [dje-cy tshe-cy uni0462];
-@descenderL_cy = [Lje-cy De-cy El-cy de-cy el-cy lje-cy];
-@shortL_cy = [ve-cy ge-cy zhe-cy ze-cy ii-cy ka-cy em-cy en-cy pe-cy er-cy u-cy ha-cy tse-cy sha-cy shcha-cy yeru-cy softsign-cy ereversed-cy yu-cy gje-cy i-cy nje-cy kje-cy uni045D dzhe-cy uni0475 geupturn-cy gestroke-cy zhedescender-cy kadescender-cy endescender-cy imacron-cy umacron-cy be-cy.sc shha-cy.sc i-cy.sc er-cy.sc ustraight-cy.sc ie-cy.sc iegrave-cy.sc io-cy.sc];
-@shortcurveTL_cy = [ie-cy o-cy es-cy ef-cy ya-cy iegrave-cy io-cy e-cy dze-cy uni0473 schwa-cy obarred-cy ef-cy.sc];
+# @tall_overhangL_cy = [Dje-cy Tshe-cy Hardsign-cy Te-cy];
+# @short_overhangL_cy = [hardsign-cy uni0463 dje-cy.sc tshe-cy.sc uni0463.sc ustraightstroke-cy.sc te-cy];
+# @tall_overhang2L_cy = [dje-cy tshe-cy uni0462];
+# @descenderL_cy = [Lje-cy De-cy El-cy de-cy el-cy lje-cy];
+# @shortL_cy = [ve-cy ge-cy zhe-cy ze-cy ii-cy ka-cy em-cy en-cy pe-cy er-cy u-cy ha-cy tse-cy sha-cy shcha-cy yeru-cy softsign-cy ereversed-cy yu-cy gje-cy i-cy nje-cy kje-cy uni045D dzhe-cy uni0475 geupturn-cy gestroke-cy zhedescender-cy kadescender-cy endescender-cy imacron-cy umacron-cy be-cy.sc shha-cy.sc i-cy.sc er-cy.sc ustraight-cy.sc ie-cy.sc iegrave-cy.sc io-cy.sc];
+# @shortcurveTL_cy = [ie-cy o-cy es-cy ef-cy ya-cy iegrave-cy io-cy e-cy dze-cy uni0473 schwa-cy obarred-cy ef-cy.sc];
 #che-cy chedescender-cy
 #a-cy
 #u-cy.sc umacron-cy.sc ushort-cy.sc
+
+@talloverhangL_cy = [Dje-cy Tshe-cy Te-cy Hardsign-cy Kabashkir-cy Tetse-cy];
+@talloverhang2_cy = [dje-cy tshe-cy uni0462 Semisoftsign-cy semisoftsign-cy Kastroke-cy kastroke-cy Ustraight-cy Ustraightstroke-cy];
+@talloverhang3L_cy = [Che-cy Chedescender-cy Cheverticalstroke-cy Chedieresis-cy];
+@tallcurve2TL_cy = [A-cy be-cy Abreve-cy uni04D2 Aie-cy];
+@tallcurve2L_cy = [Ef-cy];
+@tallcurve2BL_cy = [uni0474];
+@shortoverhangL_cy = [te-cy hardsign-cy uni0463 kabashkir-cy tedescender-cy tetse-cy];
+@shortoverhang2L_cy = [che-cy chedescender-cy cheverticalstroke-cy Cheabkhasian-cy Chedescenderabkhasian-cy uni04CC chedieresis-cy];
+@shortoverhang3L_cy = [uni0475 ustraight-cy ustraightstroke-cy];
+@shortL_cy = [ve-cy ge-cy zhe-cy ze-cy ii-cy iishort-cy ka-cy em-cy en-cy pe-cy er-cy u-cy ha-cy tse-cy sha-cy shcha-cy yeru-cy softsign-cy ereversed-cy yu-cy gje-cy i-cy nje-cy kje-cy uni045D dzhe-cy uni046B ertick-cy geupturn-cy gemiddlehook-cy zhedescender-cy zedescender-cy kadescender-cy kaverticalstroke-cy endescender-cy enge-cy uni04A7 hadescender-cy kahook-cy enhook-cy entail-cy emtail-cy zhedieresis-cy zedieresis-cy dzeabkhasian-cy imacron-cy idieresis-cy umacron-cy udieresis-cy uni04F7 uni04F9 hahook-cy hastroke-cy uni051D pedescender-cy shhadescender-cy];
+@shortcurveTL_cy = [ie-cy o-cy es-cy ef-cy ya-cy iegrave-cy io-cy e-cy dze-cy uni0473 haabkhasian-cy esdescender-cy odieresis-cy obarred-cy obarreddieresis-cy edieresis-cy reversedze-cy uni051B];
+@shortcurve2TL_cy = [schwa-cy schwadieresis-cy];
+@shortcurve3TL_cy = [a-cy abreve-cy uni04D3 aie-cy];
+@shortcurveTL2BL_cy = [ cheabkhasian-cy chedescenderabkhasian-cy];
+@strokemidL_cy = [Gestroke-cy Gestrokehook-cy];
+@stroke3L_cy = [gestroke-cy gestrokehook-cy];
+# @openmidL_cy = [I-cy Yi-cy Ze-cy Ha-cy Ereversed-cy];
+@underhangL_cy = [Lje-cy De-cy El-cy de-cy el-cy lje-cy Eltail-cy eltail-cy Elhook-cy elhook-cy Eldescender-cy eldescender-cy];
+@underhang2L_cy = [Je-cy];
+@underhangN1L_cy = [je-cy];
+@hookleft_cy = [EnLeftHook-cy enlefthook-cy];
 
 @talloverhang2L_gr = [Alphatonos Epsilontonos Etatonos Iotatonos Upsilontonos Omegatonos Upsilon Upsilondieresis];
 @shortoverhangL_gr = [etatonos iotatonos eta iota pi tau tau.sc upsilon.sc upsilontonos.sc upsilondieresis.sc];

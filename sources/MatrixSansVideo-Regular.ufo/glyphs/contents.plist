@@ -884,8 +884,6 @@
     <string>a.glif</string>
     <key>a-cy</key>
     <string>a-cy.glif</string>
-    <key>a-cy.sc</key>
-    <string>a-cy.sc.glif</string>
     <key>a.sc</key>
     <string>a.sc.glif</string>
     <key>aacute</key>
@@ -1410,8 +1408,6 @@
     <string>equal.glif</string>
     <key>er-cy</key>
     <string>er-cy.glif</string>
-    <key>er-cy.sc</key>
-    <string>er-cy.sc.glif</string>
     <key>ereversed-cy</key>
     <string>ereversed-cy.glif</string>
     <key>ertick-cy</key>
@@ -1668,8 +1664,6 @@
     <string>i.glif</string>
     <key>i-cy</key>
     <string>i-cy.glif</string>
-    <key>i-cy.sc</key>
-    <string>i-cy.sc.glif</string>
     <key>i.sc</key>
     <string>i.sc.glif</string>
     <key>iacute</key>
@@ -1710,14 +1704,10 @@
     <string>idotbelow.sc.glif</string>
     <key>ie-cy</key>
     <string>ie-cy.glif</string>
-    <key>ie-cy.sc</key>
-    <string>ie-cy.sc.glif</string>
     <key>iebreve-cy</key>
     <string>iebreve-cy.glif</string>
     <key>iegrave-cy</key>
     <string>iegrave-cy.glif</string>
-    <key>iegrave-cy.sc</key>
-    <string>iegrave-cy.sc.glif</string>
     <key>igrave</key>
     <string>igrave.glif</string>
     <key>igrave.sc</key>
@@ -1754,8 +1744,6 @@
     <string>integral.glif</string>
     <key>io-cy</key>
     <string>io-cy.glif</string>
-    <key>io-cy.sc</key>
-    <string>io-cy.sc.glif</string>
     <key>iogonek</key>
     <string>iogonek.glif</string>
     <key>iogonek.sc</key>
@@ -1804,8 +1792,6 @@
     <string>jdotless.glif</string>
     <key>je-cy</key>
     <string>je-cy.glif</string>
-    <key>je-cy.sc</key>
-    <string>je-cy.sc.glif</string>
     <key>jheh-ar</key>
     <string>jheh-ar.glif</string>
     <key>jheh-ar.sc</key>
@@ -2574,8 +2560,6 @@
     <string>u.glif</string>
     <key>u-cy</key>
     <string>u-cy.glif</string>
-    <key>u-cy.sc</key>
-    <string>u-cy.sc.glif</string>
     <key>u.sc</key>
     <string>u.sc.glif</string>
     <key>u11FB0</key>
@@ -3528,8 +3512,6 @@
     <string>ushort-cy.sc.glif</string>
     <key>ustraight-cy</key>
     <string>ustraight-cy.glif</string>
-    <key>ustraight-cy.sc</key>
-    <string>ustraight-cy.sc.glif</string>
     <key>ustraightstroke-cy</key>
     <string>ustraightstroke-cy.glif</string>
     <key>ustraightstroke-cy.sc</key>
