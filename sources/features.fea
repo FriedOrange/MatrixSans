@@ -48,7 +48,7 @@ feature aalt {
 @uc_cy = [Iegrave-cy Io-cy Dje-cy Gje-cy E-cy Dze-cy I-cy Yi-cy Je-cy Lje-cy Nje-cy Tshe-cy Kje-cy uni040D Ushort-cy Dzhe-cy A-cy Be-cy Ve-cy Ge-cy De-cy Ie-cy Zhe-cy Ze-cy Ii-cy Iishort-cy Ka-cy El-cy Em-cy En-cy O-cy Pe-cy Er-cy Es-cy Te-cy U-cy Ef-cy Ha-cy Tse-cy Che-cy Sha-cy Shcha-cy Hardsign-cy Yeru-cy Softsign-cy Ereversed-cy Yu-cy Ya-cy uni0462 uni0472 uni0474 Geupturn-cy Gestroke-cy Zhedescender-cy Kadescender-cy Endescender-cy Ustraight-cy Ustraightstroke-cy Hadescender-cy Chedescender-cy Shha-cy Schwa-cy Imacron-cy Obarred-cy Umacron-cy uni046A Iishorttail-cy Semisoftsign-cy Ertick-cy Gemiddlehook-cy Zedescender-cy Kaverticalstroke-cy Kastroke-cy Kabashkir-cy EnGe-cy uni04A6 Haabkhasian-cy Esdescender-cy Tedescender-cy Tetse-cy Cheverticalstroke-cy Cheabkhasian-cy Chedescenderabkhasian-cy Palochka-cy uni04C1 Kahook-cy Eltail-cy Enhook-cy Entail-cy uni04CB Emtail-cy Abreve-cy uni04D2 Aie-cy Iebreve-cy Schwadieresis-cy Zhedieresis-cy Zedieresis-cy Dzeabkhasian-cy Idieresis-cy Odieresis-cy Obarreddieresis-cy Edieresis-cy Udieresis-cy Uhungarumlaut-cy Chedieresis-cy uni04F6 uni04F8 Gestrokehook-cy Hahook-cy Hastroke-cy Reversedze-cy Elhook-cy uni051A uni051C Pedescender-cy Shhadescender-cy EnLeftHook-cy Eldescender-cy];
 @c2sc_cy = [egrave.sc edieresis.sc dje-cy.sc gje-cy e-cy dze-cy i.sc idieresis.sc j.sc lje-cy nje-cy tshe-cy.sc kje-cy uni045D ushort-cy.sc dzhe-cy a.sc be-cy.sc ve-cy ge-cy de-cy e.sc zhe-cy ze-cy ii-cy iishort-cy ka-cy el-cy em-cy en-cy o-cy pe-cy p.sc es-cy te-cy y.titl ef-cy.sc ha-cy tse-cy che-cy sha-cy shcha-cy hardsign-cy yeru-cy softsign-cy ereversed-cy yu-cy ya-cy uni0463.sc uni0473 uni0475 geupturn-cy gestroke-cy zhedescender-cy kadescender-cy endescender-cy y.sc ustraightstroke-cy.sc hadescender-cy chedescender-cy shha-cy.sc schwa-cy imacron-cy obarred-cy umacron-cy.sc uni046B iishorttail-cy semisoftsign-cy.sc ertick-cy.sc gemiddlehook-cy zedescender-cy kaverticalstroke-cy kastroke-cy.sc kabashkir-cy enge-cy uni04A7 haabkhasian-cy esdescender-cy tedescender-cy tetse-cy cheverticalstroke-cy cheabkhasian-cy chedescenderabkhasian-cy i.sc uni04C2 kahook-cy eltail-cy enhook-cy entail-cy uni04CC emtail-cy abreve.sc adieresis.sc ae.sc ebreve.sc schwadieresis-cy zhedieresis-cy zedieresis-cy ezh.sc idieresis-cy odieresis-cy obarreddieresis-cy edieresis-cy udieresis-cy.sc uhungarumlaut-cy.sc chedieresis-cy uni04F7 uni04F9 gestrokehook-cy hahook-cy hastroke-cy reversedze-cy elhook-cy q.sc uni051D pedescender-cy shhadescender-cy enlefthook-cy eldescender-cy];
 @lc_cy = [a-cy be-cy ie-cy er-cy u-cy ef-cy iegrave-cy io-cy dje-cy i-cy yi-cy je-cy tshe-cy ushort-cy uni0463 ustraight-cy ustraightstroke-cy shha-cy umacron-cy be-cy.loclSRB ve-cy.loclBGR ge-cy.loclBGR g zhe-cy.loclBGR ze-cy.loclBGR u ubreve k el-cy.loclBGR n m tse-cy.loclBGR ayb-ar shcha-cy.loclBGR yu-cy.loclBGR semisoftsign-cy ertick-cy kastroke-cy palochka-cy abreve-cy uni04D3 aie-cy iebreve-cy dzeabkhasian-cy udieresis-cy uhungarumlaut-cy uni051B];
-@smcp_cy = [a.sc be-cy.sc e.sc p.sc y.titl ef-cy.sc egrave.sc edieresis.sc dje-cy.sc i.sc idieresis.sc j.sc tshe-cy.sc ushort-cy.sc uni0463.sc y.sc ustraightstroke-cy.sc shha-cy.sc umacron-cy.sc be-cy.sc b.sc ge-cy de-cy zhe-cy ze-cy ii-cy iishort-cy ka-cy el-cy pe-cy te-cy tse-cy sha-cy shcha-cy yu-cy semisoftsign-cy.sc ertick-cy.sc kastroke-cy.sc i.sc abreve.sc adieresis.sc ae.sc ebreve.sc ezh.sc udieresis-cy.sc uhungarumlaut-cy.sc q.sc];
+@smcp_cy = [a.sc be-cy.sc e.sc p.sc y.titl ef-cy.sc egrave.sc edieresis.sc dje-cy.sc i.sc idieresis.sc j.sc tshe-cy.sc ushort-cy.sc uni0463.sc y.sc ustraightstroke-cy.sc shha-cy.sc umacron-cy.sc be-cy.sc ve-cy ge-cy de-cy zhe-cy ze-cy ii-cy iishort-cy ka-cy el-cy pe-cy te-cy tse-cy sha-cy shcha-cy yu-cy semisoftsign-cy.sc ertick-cy.sc kastroke-cy.sc i.sc abreve.sc adieresis.sc ae.sc ebreve.sc ezh.sc udieresis-cy.sc uhungarumlaut-cy.sc q.sc];
 
 @uc_gr = [Alphatonos Epsilontonos Etatonos Iotatonos Omicrontonos Upsilontonos Omegatonos Alpha Beta Gamma Delta Epsilon Zeta Eta Theta Iota Kappa Lambda Mu Nu Xi Omicron Pi Rho Sigma Tau Upsilon Phi Chi Psi Omega Iotadieresis Upsilondieresis KaiSymbol];
 @c2sc_gr = [alphatonos.sc epsilontonos.sc etatonos.sc iotatonos.sc omicrontonos upsilontonos.sc omegatonos.sc alpha.sc beta.sc gamma.sc delta.sc epsilon.sc zeta.sc eta.sc theta.sc iota.sc kappa lambda.sc mu.sc nu.sc xi.sc omicron pi.sc rho.sc sigma.sc tau.sc upsilon.sc phi.sc chi.sc psi.sc omega.sc iotadieresis.sc upsilondieresis.sc kaiSymbol];
@@ -338,26 +338,28 @@ feature locl {
 @talloverhang2_cy = [Ustraight-cy Ustraightstroke-cy];
 @talloverhang3_cy = [Er-cy];
 @talloverhang4_cy = [Ertick-cy];
-@tallcurveBR_cy = [Dze-cy Ushort-cy Ve-cy Ze-cy O-cy U-cy uni0472 Cheabkhasian-cy Chedescenderabkhasian-cy Schwa-cy Schwadieresis-cy Zedieresis-cy Odieresis-cy Obarred-cy Obarreddieresis-cy Edieresis-cy Umacron-cy Udieresis-cy Uhungarumlaut-cy uni051C be-cy.loclSRB ve-cy.loclBGR];
+@tallcurveBR_cy = [Dze-cy Ushort-cy Ve-cy Ze-cy O-cy U-cy uni0472 Cheabkhasian-cy Chedescenderabkhasian-cy Schwa-cy Schwadieresis-cy Zedieresis-cy Odieresis-cy Obarred-cy Obarreddieresis-cy Edieresis-cy Umacron-cy Udieresis-cy Uhungarumlaut-cy uni051C be-cy.loclSRB ve-cy.loclBGR uhungarumlaut-cy.sc];
 @tallcurve2R_cy = [Ef-cy Haabkhasian-cy];
 @tallcurve2TR = [A-cy Abreve-cy uni04D2];
 @underhangR_cy = [De-cy Tse-cy Shcha-cy de-cy tse-cy i-cy Iishorttail-cy iishorttail-cy zhedescender-cy kadescender-cy Endescender-cy endescender-cy Hadescender-cy hadescender-cy Tetse-cy tetse-cy Chedescender-cy chedescender-cy Eltail-cy eltail-cy Entail-cy entail-cy Emtail-cy emtail-cy palochka-cy hahook-cy Elhook-cy elhook-cy Pedescender-cy pedescender-cy Shhadescender-cy shhadescender-cy Eldescender-cy eldescender-cy tse-cy.loclBGR shcha-cy.loclBGR];
 @openmidR_cy = [Iegrave-cy Io-cy I-cy Yi-cy Kje-cy Ie-cy Ka-cy Ha-cy yi-cy Kastroke-cy Kabashkir-cy Palochka-cy Kahook-cy Aie-cy Iebreve-cy];
-@open5R_cy = [Gemiddlehook-cy abreve-cy];
+@open5R_cy = [Gemiddlehook-cy abreve.sc];
+@open6R_cy = [abreve-cy];
 @open5curveBR_cy = [Be-cy be-cy Dzeabkhasian-cy];
 @openmidcurveBR_cy = [E-cy Es-cy Esdescender-cy Reversedze-cy];
-@shortoverhangR_cy = [ge-cy te-cy uni0475 geupturn-cy gestroke-cy enge-cy tedescender-cy uni04F7 gestrokehook-cy];
-@shortcurveR_cy = [ve-cy ze-cy o-cy er-cy es-cy ef-cy ereversed-cy yu-cy uni0473 zedescender-cy esdescender-cy schwa-cy schwadieresis-cy zedieresis-cy odieresis-cy obarred-cy obarreddieresis-cy edieresis-cy yu-cy.loclBGR];
-@shortcurveTR_cy = [a-cy ertick-cy haabkhasian-cy shha-cy uni04D3 ge-cy.loclBGR ze-cy.loclBGR n m];
-@shortcurveBR_cy = [dze-cy ustraight-cy uni051D];
-@shortcurve2TR_cy = [el-cy.loclBGR];
-@shortcurveTRcurve2BR_cy = [ie-cy iegrave-cy io-cy cheabkhasian-cy chedescenderabkhasian-cy aie-cy iebreve-cy];
-@shortR_cy = [zhe-cy ii-cy iishort-cy el-cy em-cy en-cy pe-cy u-cy che-cy sha-cy shcha-cy yeru-cy ya-cy gje-cy uni045D dzhe-cy uni046B gemiddlehook-cy kaverticalstroke-cy cheverticalstroke-cy enhook-cy uni04CC zhedieresis-cy imacron-cy idieresis-cy umacron-cy udieresis-cy uhungarumlaut-cy chedieresis-cy uni04F9 hastroke-cy uni051B enlefthook-cy zhe-cy.loclBGR g u ayb-ar];
-@shortopen3R_cy = [ka-cy ha-cy e-cy kje-cy kastroke-cy kabashkir-cy kahook-cy dzeabkhasian-cy reversedze-cy k];
+@shortoverhangR_cy = [ge-cy te-cy uni0475 geupturn-cy gestroke-cy enge-cy tedescender-cy uni04F7 gestrokehook-cy j.sc y.sc ustraightstroke-cy.sc];
+@shortcurveR_cy = [ve-cy ze-cy o-cy er-cy es-cy ef-cy ereversed-cy yu-cy uni0473 zedescender-cy esdescender-cy schwa-cy schwadieresis-cy zedieresis-cy odieresis-cy obarred-cy obarreddieresis-cy edieresis-cy yu-cy.loclBGR ertick-cy.sc];
+@shortcurveTR_cy = [a-cy ertick-cy haabkhasian-cy shha-cy uni04D3 ge-cy.loclBGR ze-cy.loclBGR n m q.sc];
+@shortcurveBR_cy = [dze-cy ustraight-cy uni051D y.titl ushort-cy.sc umacron-cy.sc ebreve.sc ezh.sc udieresis-cy.sc];
+@shortcurve2R_cy = [ef.sc ]
+@shortcurve2TR_cy = [el-cy.loclBGR a.sc adieresis.sc];
+@shortcurve3TR_cy = [uni04A7 tshe-cy.sc shha-cy.sc];
+@shortcurveTRcurve2BR_cy = [ie-cy iegrave-cy io-cy cheabkhasian-cy chedescenderabkhasian-cy aie-cy iebreve-cy p.sc];
+@shortR_cy = [zhe-cy ii-cy iishort-cy el-cy em-cy en-cy pe-cy u-cy che-cy sha-cy shcha-cy yeru-cy ya-cy gje-cy uni045D dzhe-cy uni046B gemiddlehook-cy kaverticalstroke-cy cheverticalstroke-cy enhook-cy uni04CC zhedieresis-cy imacron-cy idieresis-cy umacron-cy udieresis-cy uhungarumlaut-cy chedieresis-cy uni04F9 hastroke-cy uni051B enlefthook-cy zhe-cy.loclBGR g u ayb-ar be-cy.sc i.sc idieresis.sc];
+@shortopen3R_cy = [ka-cy ha-cy e-cy kje-cy kastroke-cy kabashkir-cy kahook-cy dzeabkhasian-cy reversedze-cy k e.sc egrave.sc edieresis.sc kastroke-cy.sc ae.sc];
 @short4curveTR_cy = [Tshe-cy dje-cy tshe-cy uni04A6 Shha-cy];
 @short4curveR_cy = [Dje-cy Lje-cy Nje-cy Hardsign-cy Softsign-cy uni0462 Semisoftsign-cy];
-@short3curveR_cy = [hardsign-cy softsign-cy lje-cy nje-cy uni0463 semisoftsign-cy];
-@shortcurve3TR_cy = [uni04A7];
+@short3curveR_cy = [hardsign-cy softsign-cy lje-cy nje-cy uni0463 semisoftsign-cy dje-cy.sc uni0463.sc semisoftsign-cy.sc];
 
 @talloverhangR_gr = [Gamma Tau];
 @talloverhang2R_gr = [Upsilontonos Upsilon Upsilondieresis];
@@ -452,6 +454,8 @@ feature locl {
 #che-cy chedescender-cy
 #a-cy
 #u-cy.sc umacron-cy.sc ushort-cy.sc
+
+# a.sc be-cy.sc e.sc p.sc y.titl ef-cy.sc egrave.sc edieresis.sc dje-cy.sc i.sc idieresis.sc j.sc tshe-cy.sc ushort-cy.sc uni0463.sc y.sc ustraightstroke-cy.sc shha-cy.sc umacron-cy.sc be-cy.sc b.sc ge-cy de-cy zhe-cy ze-cy ii-cy iishort-cy ka-cy el-cy pe-cy te-cy tse-cy sha-cy shcha-cy yu-cy semisoftsign-cy.sc ertick-cy.sc kastroke-cy.sc i.sc abreve.sc adieresis.sc ae.sc ebreve.sc ezh.sc udieresis-cy.sc uhungarumlaut-cy.sc q.sc
 
 @talloverhangL_cy = [Dje-cy Tshe-cy Te-cy Hardsign-cy Kabashkir-cy Tetse-cy];
 @talloverhang2_cy = [dje-cy tshe-cy uni0462 Semisoftsign-cy semisoftsign-cy Kastroke-cy kastroke-cy Ustraight-cy Ustraightstroke-cy];
