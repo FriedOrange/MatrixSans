@@ -769,7 +769,6 @@ feature kern {
 	pos @shortcurve2R_cy @talloverhang3L_cy -100;
 	pos @shortcurve2R_cy @shortoverhangL_cy -100;
 	pos @shortcurve2R_cy @underhangL_cy -100;
-	pos @shortcurve2R_cy @hookleft_cy -100;
 	pos @shortcurve2R_cy @underhangN1L_cy -100;
 	pos @shortcurve2R_cy je-cy -200;
 	pos @shortcurve2TR_cy @talloverhangL_cy -100;
