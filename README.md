@@ -70,6 +70,14 @@ https://scripts.sil.org/OFL
 
 ## Changelog
 
+#### 16 May 2026 - Version 1.720
+
+- Now supports Google Fonts Cyrillic Plus, Google Fonts Cyrillic Pro and Adobe Cyrillic 3 character sets
+- Added localised Serbian form of б and Bulgarian forms of в г д ж з и й к л п т ц ш щ ю, accessible via OpenType Localised Forms and Stylistic Set features
+- Overhauled kerning rules for Cyrillic; many more glyph pairs are now kerned
+- Slightly tweaked shape of Cyrillic letter ѣ, to differentiate from newly-added ҍ
+- Removed kerning pairs (increased spacing) for curved Latin letters (e.g. b, e, o) + comma
+
 #### 10 May 2026 - Version 1.710
 
 - Now supports Google Fonts Latin Beyond character set
