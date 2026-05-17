@@ -962,8 +962,6 @@
     <string>aie-cy.glif</string>
     <key>alpha</key>
     <string>alpha.glif</string>
-    <key>alpha.sc</key>
-    <string>alpha.sc.glif</string>
     <key>alphalatin</key>
     <string>alphalatin.glif</string>
     <key>alphatonos</key>
@@ -1052,8 +1050,6 @@
     <string>ben-ar.sc.glif</string>
     <key>beta</key>
     <string>beta.glif</string>
-    <key>beta.sc</key>
-    <string>beta.sc.glif</string>
     <key>bhook</key>
     <string>bhook.glif</string>
     <key>bhook.sc</key>
@@ -1134,8 +1130,6 @@
     <string>cheverticalstroke-cy.glif</string>
     <key>chi</key>
     <string>chi.glif</string>
-    <key>chi.sc</key>
-    <string>chi.sc.glif</string>
     <key>chilatin</key>
     <string>chilatin.glif</string>
     <key>circle</key>
@@ -1398,8 +1392,6 @@
     <string>eopen.glif</string>
     <key>epsilon</key>
     <string>epsilon.glif</string>
-    <key>epsilon.sc</key>
-    <string>epsilon.sc.glif</string>
     <key>epsilontonos</key>
     <string>epsilontonos.glif</string>
     <key>epsilontonos.sc</key>
@@ -1426,8 +1418,6 @@
     <string>et-ar.sc.glif</string>
     <key>eta</key>
     <string>eta.glif</string>
-    <key>eta.sc</key>
-    <string>eta.sc.glif</string>
     <key>etatonos</key>
     <string>etatonos.glif</string>
     <key>etatonos.sc</key>
@@ -1520,8 +1510,6 @@
     <string>g.sc.glif</string>
     <key>gamma</key>
     <string>gamma.glif</string>
-    <key>gamma.sc</key>
-    <string>gamma.sc.glif</string>
     <key>gammalatin</key>
     <string>gammalatin.glif</string>
     <key>gammalatin.sc</key>
@@ -1750,12 +1738,8 @@
     <string>iogonek.sc.glif</string>
     <key>iota</key>
     <string>iota.glif</string>
-    <key>iota.sc</key>
-    <string>iota.sc.glif</string>
     <key>iotadieresis</key>
     <string>iotadieresis.glif</string>
-    <key>iotadieresis.sc</key>
-    <string>iotadieresis.sc.glif</string>
     <key>iotadieresistonos</key>
     <string>iotadieresistonos.glif</string>
     <key>iotadieresistonos.sc</key>
@@ -1984,8 +1968,6 @@
     <string>minute.glif</string>
     <key>mu</key>
     <string>mu.glif</string>
-    <key>mu.sc</key>
-    <string>mu.sc.glif</string>
     <key>multiply</key>
     <string>multiply.glif</string>
     <key>n</key>
@@ -2060,8 +2042,6 @@
     <string>ntilde.sc.glif</string>
     <key>nu</key>
     <string>nu.glif</string>
-    <key>nu.sc</key>
-    <string>nu.sc.glif</string>
     <key>numbersign</key>
     <string>numbersign.glif</string>
     <key>numeral-greek</key>
@@ -2220,14 +2200,10 @@
     <string>peso.glif</string>
     <key>phi</key>
     <string>phi.glif</string>
-    <key>phi.sc</key>
-    <string>phi.sc.glif</string>
     <key>phi1</key>
     <string>phi1.glif</string>
     <key>pi</key>
     <string>pi.glif</string>
-    <key>pi.sc</key>
-    <string>pi.sc.glif</string>
     <key>piwr-ar</key>
     <string>piwr-ar.glif</string>
     <key>plus</key>
@@ -2314,8 +2290,6 @@
     <string>reversedze-cy.glif</string>
     <key>rho</key>
     <string>rho.glif</string>
-    <key>rho.sc</key>
-    <string>rho.sc.glif</string>
     <key>rightBlackSmallTriangle</key>
     <string>rightB_lackS_mallT_riangle.glif</string>
     <key>rightBlackTriangle</key>
@@ -2450,8 +2424,6 @@
     <string>t.sc.glif</string>
     <key>tau</key>
     <string>tau.glif</string>
-    <key>tau.sc</key>
-    <string>tau.sc.glif</string>
     <key>tbar</key>
     <string>tbar.glif</string>
     <key>tbar.sc</key>
@@ -2486,8 +2458,6 @@
     <string>tetse-cy.glif</string>
     <key>theta</key>
     <string>theta.glif</string>
-    <key>theta.sc</key>
-    <string>theta.sc.glif</string>
     <key>thetamod</key>
     <string>thetamod.glif</string>
     <key>thorn</key>
@@ -3486,12 +3456,8 @@
     <string>upW_hiteT_riangle.glif</string>
     <key>upsilon</key>
     <string>upsilon.glif</string>
-    <key>upsilon.sc</key>
-    <string>upsilon.sc.glif</string>
     <key>upsilondieresis</key>
     <string>upsilondieresis.glif</string>
-    <key>upsilondieresis.sc</key>
-    <string>upsilondieresis.sc.glif</string>
     <key>upsilondieresistonos</key>
     <string>upsilondieresistonos.glif</string>
     <key>upsilondieresistonos.sc</key>
@@ -3668,8 +3634,6 @@
     <string>zero.sc.glif</string>
     <key>zeta</key>
     <string>zeta.glif</string>
-    <key>zeta.sc</key>
-    <string>zeta.sc.glif</string>
     <key>zhe-ar</key>
     <string>zhe-ar.glif</string>
     <key>zhe-ar.sc</key>

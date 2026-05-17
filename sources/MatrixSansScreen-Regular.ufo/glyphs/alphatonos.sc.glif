@@ -2,7 +2,7 @@
 <glyph name="alphatonos.sc" format="2">
   <advance width="600"/>
   <outline>
-    <component base="alpha.sc"/>
     <component base="tonos" xOffset="200.0" yOffset="100.0"/>
+    <component base="a.sc"/>
   </outline>
 </glyph>

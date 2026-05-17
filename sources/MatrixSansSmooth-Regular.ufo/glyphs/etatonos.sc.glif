@@ -2,7 +2,7 @@
 <glyph name="etatonos.sc" format="2">
   <advance width="600"/>
   <outline>
-    <component base="eta.sc"/>
     <component base="tonos" xOffset="200.0" yOffset="100.0"/>
+    <component base="h.sc"/>
   </outline>
 </glyph>

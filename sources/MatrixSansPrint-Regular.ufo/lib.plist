@@ -1737,34 +1737,17 @@
 		<string>shha-cy.sc</string>
 		<string>umacron-cy.sc</string>
 		<string>ushort-cy.sc</string>
-		<string>alpha.sc</string>
-		<string>beta.sc</string>
-		<string>gamma.sc</string>
 		<string>delta.sc</string>
-		<string>epsilon.sc</string>
-		<string>zeta.sc</string>
-		<string>eta.sc</string>
-		<string>theta.sc</string>
-		<string>iota.sc</string>
 		<string>lambda.sc</string>
-		<string>mu.sc</string>
-		<string>nu.sc</string>
 		<string>xi.sc</string>
-		<string>pi.sc</string>
-		<string>rho.sc</string>
 		<string>sigma.sc</string>
-		<string>tau.sc</string>
-		<string>upsilon.sc</string>
-		<string>chi.sc</string>
 		<string>psi.sc</string>
 		<string>omega.sc</string>
 		<string>alphatonos.sc</string>
 		<string>epsilontonos.sc</string>
 		<string>etatonos.sc</string>
 		<string>iotatonos.sc</string>
-		<string>iotadieresis.sc</string>
 		<string>upsilontonos.sc</string>
-		<string>upsilondieresis.sc</string>
 		<string>upsilondieresistonos.sc</string>
 		<string>omegatonos.sc</string>
 		<string>iotadieresistonos.sc</string>
@@ -1812,7 +1795,6 @@
 		<string>Dmacronbelow.alt</string>
 		<string>Dcroat.alt</string>
 		<string>three.alt</string>
-		<string>phi.sc</string>
 		<string>four.alt</string>
 		<string>gammalatin.sc</string>
 		<string>ibar.sc</string>
@@ -2807,8 +2789,6 @@
 		<string>base</string>
 		<key>alpha</key>
 		<string>base</string>
-		<key>alpha.sc</key>
-		<string>base</string>
 		<key>alphalatin</key>
 		<string>base</string>
 		<key>alphatonos</key>
@@ -2897,8 +2877,6 @@
 		<string>base</string>
 		<key>beta</key>
 		<string>base</string>
-		<key>beta.sc</key>
-		<string>base</string>
 		<key>bhook</key>
 		<string>base</string>
 		<key>bhook.sc</key>
@@ -2978,8 +2956,6 @@
 		<key>cheverticalstroke-cy</key>
 		<string>base</string>
 		<key>chi</key>
-		<string>base</string>
-		<key>chi.sc</key>
 		<string>base</string>
 		<key>chilatin</key>
 		<string>base</string>
@@ -3243,8 +3219,6 @@
 		<string>base</string>
 		<key>epsilon</key>
 		<string>base</string>
-		<key>epsilon.sc</key>
-		<string>base</string>
 		<key>epsilontonos</key>
 		<string>base</string>
 		<key>epsilontonos.sc</key>
@@ -3270,8 +3244,6 @@
 		<key>et-ar.sc</key>
 		<string>base</string>
 		<key>eta</key>
-		<string>base</string>
-		<key>eta.sc</key>
 		<string>base</string>
 		<key>etatonos</key>
 		<string>base</string>
@@ -3364,8 +3336,6 @@
 		<key>g.sc</key>
 		<string>base</string>
 		<key>gamma</key>
-		<string>base</string>
-		<key>gamma.sc</key>
 		<string>base</string>
 		<key>gammalatin</key>
 		<string>base</string>
@@ -3595,11 +3565,7 @@
 		<string>base</string>
 		<key>iota</key>
 		<string>base</string>
-		<key>iota.sc</key>
-		<string>base</string>
 		<key>iotadieresis</key>
-		<string>base</string>
-		<key>iotadieresis.sc</key>
 		<string>base</string>
 		<key>iotadieresistonos</key>
 		<string>base</string>
@@ -3829,8 +3795,6 @@
 		<string>base</string>
 		<key>mu</key>
 		<string>base</string>
-		<key>mu.sc</key>
-		<string>base</string>
 		<key>multiply</key>
 		<string>base</string>
 		<key>n</key>
@@ -3904,8 +3868,6 @@
 		<key>ntilde.sc</key>
 		<string>base</string>
 		<key>nu</key>
-		<string>base</string>
-		<key>nu.sc</key>
 		<string>base</string>
 		<key>numbersign</key>
 		<string>base</string>
@@ -4065,13 +4027,9 @@
 		<string>base</string>
 		<key>phi</key>
 		<string>base</string>
-		<key>phi.sc</key>
-		<string>base</string>
 		<key>phi1</key>
 		<string>base</string>
 		<key>pi</key>
-		<string>base</string>
-		<key>pi.sc</key>
 		<string>base</string>
 		<key>piwr-ar</key>
 		<string>base</string>
@@ -4158,8 +4116,6 @@
 		<key>reversedze-cy</key>
 		<string>base</string>
 		<key>rho</key>
-		<string>base</string>
-		<key>rho.sc</key>
 		<string>base</string>
 		<key>rightBlackSmallTriangle</key>
 		<string>base</string>
@@ -4295,8 +4251,6 @@
 		<string>base</string>
 		<key>tau</key>
 		<string>base</string>
-		<key>tau.sc</key>
-		<string>base</string>
 		<key>tbar</key>
 		<string>base</string>
 		<key>tbar.sc</key>
@@ -4330,8 +4284,6 @@
 		<key>tetse-cy</key>
 		<string>base</string>
 		<key>theta</key>
-		<string>base</string>
-		<key>theta.sc</key>
 		<string>base</string>
 		<key>thetamod</key>
 		<string>base</string>
@@ -5331,11 +5283,7 @@
 		<string>base</string>
 		<key>upsilon</key>
 		<string>base</string>
-		<key>upsilon.sc</key>
-		<string>base</string>
 		<key>upsilondieresis</key>
-		<string>base</string>
-		<key>upsilondieresis.sc</key>
 		<string>base</string>
 		<key>upsilondieresistonos</key>
 		<string>base</string>
@@ -5512,8 +5460,6 @@
 		<key>zero.sc</key>
 		<string>base</string>
 		<key>zeta</key>
-		<string>base</string>
-		<key>zeta.sc</key>
 		<string>base</string>
 		<key>zhe-ar</key>
 		<string>base</string>

@@ -2,7 +2,7 @@
 <glyph name="epsilontonos.sc" format="2">
   <advance width="600"/>
   <outline>
-    <component base="epsilon.sc"/>
     <component base="tonos" xOffset="200.0" yOffset="100.0"/>
+    <component base="e.sc"/>
   </outline>
 </glyph>
