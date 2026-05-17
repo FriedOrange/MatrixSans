@@ -328,12 +328,6 @@ feature locl {
 @openmidR = [AE AEacute E Eacute Ebreve Ecaron Ecircumflex Ecircumflexdotbelow Edieresis Edotaccent Edotbelow Egrave Ehookabove Emacron Eogonek Etilde K Kcommaaccent Khook Kmacronbelow X Z Zacute Zcaron Zdotaccent Zdotbelow iacute icaron icircumflex idieresis imacron Gammalatin Kacute Kcaron Kdotbelow uniA7AE Zcircumflex Zmacronbelow];
 @openmidcurveBR = [C Cacute Ccaron Ccedilla Ccircumflex Cdotaccent Eopen Cslash];
 
-# @tall_overhangR_cy = [Gje-cy Je-cy Ge-cy uni0474 Geupturn-cy Gestroke-cy Te-cy];
-# @short_overhangR_cy = [Er-cy ge-cy gje-cy uni0475 geupturn-cy gestroke-cy te-cy];
-# @descenderR_cy = [De-cy Tse-cy Shcha-cy de-cy tse-cy shcha-cy i-cy Zhedescender-cy zhedescender-cy Kadescender-cy kadescender-cy Endescender-cy endescender-cy Hadescender-cy hadescender-cy Chedescender-cy chedescender-cy];
-# @shortR_cy = [Dje-cy Lje-cy Nje-cy Tshe-cy Hardsign-cy Softsign-cy uni0462 Shha-cy];
-# @veryshortR_cy = [hardsign-cy softsign-cy lje-cy nje-cy uni0463 shha-cy.sc];
-
 @talloverhangR_cy = [Gje-cy Je-cy Ge-cy Te-cy uni0474 Geupturn-cy Gestroke-cy EnGe-cy Tedescender-cy uni04F6 Gestrokehook-cy quoteleft quotedblleft minute second];
 @talloverhang2R_cy = [Ustraight-cy Ustraightstroke-cy quoteright quotedblright];
 @talloverhang3R_cy = [Er-cy geupturn-cy quotedbl quotesingle question];
@@ -443,16 +437,6 @@ feature locl {
 @l = [l lacute lcaron lcommaaccent ldot ldotbelow ldotbelowmacron lmacronbelow];
 @underhangN1L = [comma semicolon quotesinglbase quotedblbase uni02CC];
 @j = [j jcircumflex jdotless jcaron];
-
-# @tall_overhangL_cy = [Dje-cy Tshe-cy Hardsign-cy Te-cy];
-# @short_overhangL_cy = [hardsign-cy uni0463 dje-cy.sc tshe-cy.sc uni0463.sc ustraightstroke-cy.sc te-cy];
-# @tall_overhang2L_cy = [dje-cy tshe-cy uni0462];
-# @descenderL_cy = [Lje-cy De-cy El-cy de-cy el-cy lje-cy];
-# @shortL_cy = [ve-cy ge-cy zhe-cy ze-cy ii-cy ka-cy em-cy en-cy pe-cy er-cy u-cy ha-cy tse-cy sha-cy shcha-cy yeru-cy softsign-cy ereversed-cy yu-cy gje-cy i-cy nje-cy kje-cy uni045D dzhe-cy uni0475 geupturn-cy gestroke-cy zhedescender-cy kadescender-cy endescender-cy imacron-cy umacron-cy be-cy.sc shha-cy.sc i-cy.sc er-cy.sc ustraight-cy.sc ie-cy.sc iegrave-cy.sc io-cy.sc];
-# @shortcurveTL_cy = [ie-cy o-cy es-cy ef-cy ya-cy iegrave-cy io-cy e-cy dze-cy uni0473 schwa-cy obarred-cy ef-cy.sc];
-#che-cy chedescender-cy
-#a-cy
-#u-cy.sc umacron-cy.sc ushort-cy.sc
 
 @talloverhangL_cy = [Dje-cy Tshe-cy Te-cy Hardsign-cy Kabashkir-cy Tetse-cy];
 @talloverhang2L_cy = [dje-cy tshe-cy uni0462 Semisoftsign-cy semisoftsign-cy Kastroke-cy kastroke-cy Ustraight-cy Ustraightstroke-cy quotereversed question uni203D];
@@ -632,52 +616,6 @@ feature kern {
 	pos @openmidcurveBR @j -100;
 
 	script cyrl;
-	# pos quotesingle a-cy -100;
-	# pos quotesingle a-cy.sc -100;
-	# pos quotesingle je-cy -100;
-	# pos quotesingle je-cy.sc -100;
-	# pos be-cy quoteright -100;
-	# pos @tall_overhangR_cy @descenderL_cy -100;
-	# pos @tall_overhangR_cy je-cy -200;
-	# pos @tall_overhangR_cy @shortL_cy -100;
-	# pos @tall_overhangR_cy @shortcurveTL_cy -100;
-	# pos @tall_overhangR_cy a-cy.sc -100;
-	# pos @tall_overhangR_cy a-cy -100;
-	# pos @tall_overhangR_cy A-cy -100;
-	# pos @tall_overhangR_cy [u-cy.sc umacron-cy.sc] -100;
-	# pos @short_overhangR_cy @descenderL_cy -100;
-	# pos @short_overhangR_cy je-cy -200;
-	# pos @short_overhangR_cy a-cy -100;
-	# pos @short_overhangR_cy a-cy.sc -100;
-	# pos @descenderR_cy @tall_overhangL_cy -100;
-	# pos @descenderR_cy @tall_overhang2L_cy -100;
-	# pos @descenderR_cy @short_overhangL_cy -100;
-	# pos @descenderR_cy [Che-cy che-cy chedescender-cy] -100;
-	# pos @descenderR_cy [ustraight-cy ustraightstroke-cy Ustraight-cy Ustraightstroke-cy] -100;
-	# pos @descenderR_cy [u-cy.sc umacron-cy.sc] -100;
-	# pos @descenderR_cy ushort-cy.sc -100;
-	# pos @descenderR_cy [quotesingle quoteright apostrophemod] -100;
-	# pos [ustraight-cy ustraightstroke-cy Ustraight-cy Ustraightstroke-cy] @descenderL_cy -100;
-	# pos [ustraight-cy ustraightstroke-cy Ustraight-cy Ustraightstroke-cy] je-cy -100;
-	# pos @veryshortR_cy @tall_overhangL_cy -100;
-	# pos @veryshortR_cy @tall_overhang2L_cy -100;
-	# pos @veryshortR_cy @short_overhangL_cy -100;
-	# pos @veryshortR_cy [quotesingle quoteright apostrophemod] -100;
-	# pos @shortR_cy @tall_overhangL_cy -100;
-	# pos A-cy @tall_overhangL_cy -100;
-	# pos a-cy.sc @short_overhangL_cy -100;
-	# pos a-cy.sc @tall_overhang2L_cy -100;
-	# pos [ie-cy iegrave-cy io-cy] @descenderL_cy -100;
-	# pos [ie-cy iegrave-cy io-cy] je-cy -100;
-	# pos be-cy @short_overhangL_cy -100;
-	# pos [quoteright apostrophemod] @descenderL_cy -100;
-	# pos quotesingle @descenderL_cy -100;
-	# pos [quoteright apostrophemod] @shortcurveTL_cy -100;
-	# pos [quoteright apostrophemod] a-cy -100;
-	# pos [quoteright apostrophemod] a-cy.sc -100;
-	# pos [quoteright apostrophemod] je-cy -100;
-	# pos [quoteright apostrophemod] je-cy.sc -100;
-
 	enum pos [Tedescender-cy tedescender-cy Je-cy j.sc] @underhang2L_cy -100;
 	enum pos [Tedescender-cy tedescender-cy] je-cy -100;
 	enum pos [Iishorttail-cy iishorttail-cy Eltail-cy eltail-cy Entail-cy entail-cy Emtail-cy emtail-cy palochka-cy] @hookleft_cy 0;
