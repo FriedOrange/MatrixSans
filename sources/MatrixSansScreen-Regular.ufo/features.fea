@@ -337,7 +337,7 @@ feature locl {
 @talloverhangR_cy = [Gje-cy Je-cy Ge-cy Te-cy uni0474 Geupturn-cy Gestroke-cy EnGe-cy Tedescender-cy uni04F6 Gestrokehook-cy quoteleft quotedblleft minute second];
 @talloverhang2R_cy = [Ustraight-cy Ustraightstroke-cy quoteright quotedblright];
 @talloverhang3R_cy = [Er-cy geupturn-cy quotedbl quotesingle question];
-@talloverhang4R_cy = [Ertick-cy];
+@talloverhang5R_cy = [Ertick-cy];
 @tallcurveBR_cy = [Dze-cy Ushort-cy Ve-cy Ze-cy O-cy U-cy uni0472 Cheabkhasian-cy Chedescenderabkhasian-cy Schwa-cy Schwadieresis-cy Zedieresis-cy Odieresis-cy Obarred-cy Obarreddieresis-cy Edieresis-cy Umacron-cy Udieresis-cy Uhungarumlaut-cy uni051C be-cy.loclSRB ve-cy.loclBGR uhungarumlaut-cy.sc iebreve-cy];
 @tallcurve2R_cy = [Ef-cy];
 @tallcurve2TR = [A-cy Abreve-cy uni04D2 Haabkhasian-cy];
@@ -716,11 +716,9 @@ feature kern {
 	pos @talloverhang3R_cy @underhang2L_cy -200;
 	pos @talloverhang3R_cy je-cy -200;
 	pos @talloverhang3R_cy @underhangN1L_cy -100;
-	pos @talloverhang4R_cy @shortcurve3TL_cy -100;
-	pos @talloverhang4R_cy @underhangL_cy -100;
-	pos @talloverhang4R_cy @underhang2L_cy -200;
-	pos @talloverhang4R_cy je-cy -200;
-	pos @talloverhang4R_cy @underhangN1L_cy -100;
+	pos @talloverhang5R_cy @underhangL_cy -100;
+	pos @talloverhang5R_cy je-cy -200;
+	pos @talloverhang5R_cy @underhangN1L_cy -100;
 	pos @tallcurveBR_cy je-cy -100;
 	pos @tallcurve2R_cy @talloverhangL_cy -100;
 	pos @tallcurve2R_cy @underhangL_cy -100;
