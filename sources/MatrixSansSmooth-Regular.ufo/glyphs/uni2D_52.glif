@@ -18,15 +18,12 @@
       <point x="180.0" y="0.0" type="line"/>
       <point x="50.0" y="130.0" type="line"/>
       <point x="50.0" y="270.0" type="line"/>
-      <point x="350.0" y="570.0" type="line"/>
-      <point x="350.0" y="600.0" type="line"/>
+      <point x="380.0" y="600.0" type="line"/>
       <point x="50.0" y="600.0" type="line"/>
       <point x="50.0" y="700.0" type="line"/>
       <point x="550.0" y="700.0" type="line"/>
-      <point x="550.0" y="600.0" type="line"/>
-      <point x="520.0" y="600.0" type="line"/>
-      <point x="350.0" y="430.0" type="line"/>
-      <point x="350.0" y="400.0" type="line"/>
+      <point x="550.0" y="630.0" type="line"/>
+      <point x="320.0" y="400.0" type="line"/>
       <point x="420.0" y="400.0" type="line"/>
       <point x="550.0" y="270.0" type="line"/>
       <point x="550.0" y="130.0" type="line"/>
