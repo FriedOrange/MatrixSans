@@ -473,6 +473,8 @@
 		<string>uni0332</string>
 		<string>uni0335</string>
 		<string>dotaboverightcomb</string>
+		<string>uni0372</string>
+		<string>uni0373</string>
 		<string>numeral-greek</string>
 		<string>lowernumeral-greek</string>
 		<string>questiongreek</string>
@@ -549,8 +551,30 @@
 		<string>upsilontonos</string>
 		<string>omegatonos</string>
 		<string>KaiSymbol</string>
+		<string>uni03D0</string>
+		<string>uni03D1</string>
+		<string>uni03D2</string>
+		<string>uni03D3</string>
+		<string>uni03D4</string>
 		<string>phi1</string>
+		<string>uni03D6</string>
 		<string>kaiSymbol</string>
+		<string>uni03D8</string>
+		<string>uni03D9</string>
+		<string>uni03DA</string>
+		<string>uni03DB</string>
+		<string>uni03DC</string>
+		<string>uni03DD</string>
+		<string>uni03DE</string>
+		<string>uni03DF</string>
+		<string>uni03E0</string>
+		<string>uni03E1</string>
+		<string>uni03F0</string>
+		<string>uni03F1</string>
+		<string>uni03F4</string>
+		<string>uni03F5</string>
+		<string>uni03F6</string>
+		<string>uni03FC</string>
 		<string>Iegrave-cy</string>
 		<string>Io-cy</string>
 		<string>Dje-cy</string>
@@ -1828,6 +1852,12 @@
 		<string>uhungarumlaut-cy.sc</string>
 		<string>udieresis-cy.sc</string>
 		<string>semisoftsign-cy.sc</string>
+		<string>uni03D2.sc</string>
+		<string>uni03DB.sc</string>
+		<string>uni03DF.sc</string>
+		<string>uni03D3.sc</string>
+		<string>uni03D4.sc</string>
+		<string>uni03E1.sc</string>
 	</array>
 	<key>public.openTypeCategories</key>
 	<dict>
@@ -4495,6 +4525,66 @@
 		<string>mark</string>
 		<key>uni0335</key>
 		<string>mark</string>
+		<key>uni0372</key>
+		<string>base</string>
+		<key>uni0373</key>
+		<string>base</string>
+		<key>uni03D0</key>
+		<string>base</string>
+		<key>uni03D1</key>
+		<string>base</string>
+		<key>uni03D2</key>
+		<string>base</string>
+		<key>uni03D2.sc</key>
+		<string>base</string>
+		<key>uni03D3</key>
+		<string>base</string>
+		<key>uni03D3.sc</key>
+		<string>base</string>
+		<key>uni03D4</key>
+		<string>base</string>
+		<key>uni03D4.sc</key>
+		<string>base</string>
+		<key>uni03D6</key>
+		<string>base</string>
+		<key>uni03D8</key>
+		<string>base</string>
+		<key>uni03D9</key>
+		<string>base</string>
+		<key>uni03DA</key>
+		<string>base</string>
+		<key>uni03DB</key>
+		<string>base</string>
+		<key>uni03DB.sc</key>
+		<string>base</string>
+		<key>uni03DC</key>
+		<string>base</string>
+		<key>uni03DD</key>
+		<string>base</string>
+		<key>uni03DE</key>
+		<string>base</string>
+		<key>uni03DF</key>
+		<string>base</string>
+		<key>uni03DF.sc</key>
+		<string>base</string>
+		<key>uni03E0</key>
+		<string>base</string>
+		<key>uni03E1</key>
+		<string>base</string>
+		<key>uni03E1.sc</key>
+		<string>base</string>
+		<key>uni03F0</key>
+		<string>base</string>
+		<key>uni03F1</key>
+		<string>base</string>
+		<key>uni03F4</key>
+		<string>base</string>
+		<key>uni03F5</key>
+		<string>base</string>
+		<key>uni03F6</key>
+		<string>base</string>
+		<key>uni03FC</key>
+		<string>base</string>
 		<key>uni040D</key>
 		<string>base</string>
 		<key>uni045D</key>
@@ -6936,6 +7026,12 @@
 		<string>uni048D</string>
 		<key>semisoftsign-cy.sc</key>
 		<string>semisoftsign_cy.sc</string>
+		<key>uni03D1</key>
+		<string>theta1</string>
+		<key>uni03D2</key>
+		<string>Upsilon1</string>
+		<key>uni03D6</key>
+		<string>omega1</string>
 	</dict>
 	<key>public.openTypeMeta</key>
 	<dict>
