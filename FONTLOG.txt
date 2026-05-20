@@ -29,6 +29,13 @@ This Font Software is licensed under the SIL Open Font License, Version 1.1. Thi
 Changelog
 ---------
 
+20 May 2026 - Version 1.721
+
+- Rewrote kerning rules for Greek; many more pairs are now kerned
+- Added some alternate/numeric/archaic Greek letters: Ͳ ͳ ϐ ϑ ϒ ϓ ϔ ϖ Ϙ ϙ Ϛ ϛ Ϝ ϝ Ϟ ϟ Ϡ ϡ ϰ ϱ ϴ ϵ ϶ ϼ
+- Tweaked shapes of small Greek letters kappa κ, sigma σ and Cyrillic er with tick Ҏ ҏ
+- Improved appearance of various glyphs in Smooth style
+
 16 May 2026 - Version 1.720
 
 - Now supports Google Fonts Cyrillic Plus, Google Fonts Cyrillic Pro and Adobe Cyrillic 3 character sets
