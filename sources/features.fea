@@ -363,13 +363,13 @@ feature locl {
 @talloverhangR_gr = [iotadieresistonos Gamma Tau quoteleft quotedblleft minute second uni03DA uni03DC];
 @talloverhang2R_gr = [numeral-greek Upsilontonos Upsilon Upsilondieresis quoteright quotedblright];
 @talloverhang3R_gr = [Rho Psi quotedbl quotesingle upsilondieresistonos.sc uni0372 uni03D2 uni03D3 uni03D4];
-@tallcurve2TR_gr = [Alphatonos Alpha Phi];
+@tallcurve2TR_gr = [Alphatonos Alpha Phi uni03E0];
 @shortoverhangR_gr = [tau chi quotereversed ge-cy t.sc y.sc ydieresis.sc upsilontonos.sc uni03DB f.sc];
 @shortoverhang2R_gr = [psi.sc];
 @shortoverhang3R_gr = [uni0373 uni03DF uni03DF.sc];
 @shortR_gr = [questiongreek alphatonos epsilontonos alpha gamma epsilon kappa pi sigma upsilon psi upsilondieresis upsilontonos kaiSymbol colon semicolon guillemotleft guilsinglleft e.sc z h.sc i.sc m.sc n.sc xi.sc pe-cy sigma.sc x epsilontonos.sc etatonos.sc iotatonos.sc uni03D6 uni03F0 uni03F5 kgreenlandic];
 @shortcurveTR_gr = [etatonos eta omicron rho sigmafinal phi omega omicrontonos omegatonos phi1 b.sc zero.sc p.sc omega.sc omegatonos.sc uni03D9 uni03E1 uni03F1 uni03F6 uni03FC uni03D2.sc uni03D3.sc uni03D4.sc uni03E1.sc];
-@shortcurve2TR_gr = [lambda a.sc ef-cy.sc alphatonos.sc];
+@shortcurve2TR_gr = [lambda a.sc ef-cy.sc alphatonos.sc uni03E0];
 @openR_gr = [zeta xi];
 @openmidR_gr = [Epsilontonos Iotatonos Epsilon Iota Kappa Xi Sigma Iotadieresis iotadieresis KaiSymbol]; # Zeta Chi
 @open5R_gr = [delta];
