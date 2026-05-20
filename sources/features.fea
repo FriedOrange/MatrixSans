@@ -51,9 +51,9 @@ feature aalt {
 @smcp_cy = [a.sc be-cy.sc e.sc p.sc y.titl ef-cy.sc egrave.sc edieresis.sc dje-cy.sc i.sc idieresis.sc j.sc tshe-cy.sc ushort-cy.sc uni0463.sc y.sc ustraightstroke-cy.sc shha-cy.sc umacron-cy.sc be-cy.sc ve-cy ge-cy de-cy zhe-cy ze-cy ii-cy iishort-cy ka-cy el-cy pe-cy te-cy tse-cy sha-cy shcha-cy yu-cy semisoftsign-cy.sc ertick-cy.sc kastroke-cy.sc i.sc abreve.sc adieresis.sc ae.sc ebreve.sc ezh.sc udieresis-cy.sc uhungarumlaut-cy.sc q.sc];
 
 @uc_gr = [Alphatonos Epsilontonos Etatonos Iotatonos Omicrontonos Upsilontonos Omegatonos Alpha Beta Gamma Delta Epsilon Zeta Eta Theta Iota Kappa Lambda Mu Nu Xi Omicron Pi Rho Sigma Tau Upsilon Phi Chi Psi Omega Iotadieresis Upsilondieresis KaiSymbol uni0372 uni03D2 uni03D3 uni03D4 uni03D8 uni03DA uni03DC uni03DE uni03E0 uni03F4];
-@c2sc_gr = [alphatonos.sc epsilontonos.sc etatonos.sc iotatonos.sc omicrontonos upsilontonos.sc omegatonos.sc a.sc b.sc ge-cy delta.sc e.sc z h.sc zero.sc i.sc kappa lambda.sc m.sc n.sc xi.sc omicron pe-cy p.sc sigma.sc t.sc y.sc ef-cy.sc x psi.sc omega.sc idieresis.sc ydieresis.sc kaiSymbol uni0373 uni03D2.sc uni03D3.sc uni03D4.sc uni03D9 uni03DB.sc f.sc uni03DF.sc uni03E1.sc zero.sc];
-@lc_gr = [alphatonos epsilontonos etatonos iotatonos upsilontonos omegatonos iotadieresistonos upsilondieresistonos alpha beta gamma delta epsilon zeta eta theta iota lambda mu nu xi pi rho sigma sigmafinal tau upsilon phi chi psi omega iotadieresis upsilondieresis phi1 uni03D0 uni03D1 uni03D6 uni03DB uni03DD uni03DF uni03E1 uni03F0 uni03F1 uni03F5];
-@smcp_gr = [alphatonos.sc epsilontonos.sc etatonos.sc iotatonos.sc upsilontonos.sc omegatonos.sc iotadieresistonos.sc upsilondieresistonos.sc a.sc b.sc ge-cy delta.sc e.sc z h.sc zero.sc i.sc lambda.sc m.sc n.sc xi.sc pe-cy p.sc sigma.sc sigma.sc t.sc y.sc ef-cy.sc x psi.sc omega.sc idieresis.sc ydieresis.sc ef-cy.sc b.sc zero.sc pe-cy uni03DB.sc f.sc uni03DF.sc uni03E1.sc kgreenlandic p.sc e.sc];
+@c2sc_gr = [alphatonos.sc epsilontonos.sc etatonos.sc iotatonos.sc omicrontonos upsilontonos.sc omegatonos.sc a.sc b.sc ge-cy delta.sc e.sc z h.sc zero.sc i.sc kgreenlandic lambda.sc m.sc n.sc xi.sc omicron pe-cy p.sc sigma.sc t.sc y.sc ef-cy.sc x psi.sc omega.sc idieresis.sc ydieresis.sc kaiSymbol uni0373 uni03D2.sc uni03D3.sc uni03D4.sc uni03D9 uni03DB.sc f.sc uni03DF.sc uni03E1.sc zero.sc];
+@lc_gr = [alphatonos epsilontonos etatonos iotatonos upsilontonos omegatonos iotadieresistonos upsilondieresistonos alpha beta gamma delta epsilon zeta eta theta iota kappa lambda mu nu xi pi rho sigma sigmafinal tau upsilon phi chi psi omega iotadieresis upsilondieresis phi1 uni03D0 uni03D1 uni03D6 uni03DB uni03DD uni03DF uni03E1 uni03F0 uni03F1 uni03F5];
+@smcp_gr = [alphatonos.sc epsilontonos.sc etatonos.sc iotatonos.sc upsilontonos.sc omegatonos.sc iotadieresistonos.sc upsilondieresistonos.sc a.sc b.sc ge-cy delta.sc e.sc z h.sc zero.sc i.sc kgreenlandic lambda.sc m.sc n.sc xi.sc pe-cy p.sc sigma.sc sigma.sc t.sc y.sc ef-cy.sc x psi.sc omega.sc idieresis.sc ydieresis.sc ef-cy.sc b.sc zero.sc pe-cy uni03DB.sc f.sc uni03DF.sc uni03E1.sc kgreenlandic p.sc e.sc];
 
 @uc_ar = [Ayb-ar Ben-ar Gim-ar Da-ar Ech-ar Za-ar Eh-ar Et-ar To-ar Zhe-ar Ini-ar Liwn-ar Xeh-ar Ca-ar Ken-ar Ho-ar Ja-ar Ghad-ar Cheh-ar Men-ar Yi-ar Now-ar Sha-ar Vo-ar Cha-ar Peh-ar Jheh-ar Ra-ar Seh-ar Vew-ar Tiwn-ar Reh-ar Co-ar Yiwn-ar Piwr-ar Keh-ar Oh-ar Feh-ar];
 @c2sc_ar = [ayb-ar.sc ben-ar.sc gim-ar.sc da-ar.sc ech-ar.sc za-ar.sc eh-ar.sc et-ar.sc to-ar.sc zhe-ar.sc ini-ar.sc l.sc xeh-ar.sc ca-ar.sc ken-ar.sc ho-ar.sc ja-ar.sc ghad-ar.sc cheh-ar.sc men-ar.sc yi-ar.sc now-ar.sc sha-ar.sc vo-ar.sc cha-ar.sc peh-ar.sc jheh-ar.sc ra-ar.sc u.sc vew-ar.sc s reh-ar.sc co-ar.sc yiwn-ar.sc ef-cy.sc keh-ar.sc o feh-ar.sc];
@@ -367,7 +367,7 @@ feature locl {
 @shortoverhangR_gr = [tau chi quotereversed ge-cy t.sc y.sc ydieresis.sc upsilontonos.sc uni03DB f.sc];
 @shortoverhang2R_gr = [psi.sc];
 @shortoverhang3R_gr = [uni0373 uni03DF uni03DF.sc];
-@shortR_gr = [questiongreek alphatonos epsilontonos alpha gamma epsilon kappa pi sigma upsilon psi upsilondieresis upsilontonos kaiSymbol colon semicolon guillemotleft guilsinglleft e.sc z h.sc i.sc m.sc n.sc xi.sc pe-cy sigma.sc x epsilontonos.sc etatonos.sc iotatonos.sc uni03D6 uni03F0 uni03F5];
+@shortR_gr = [questiongreek alphatonos epsilontonos alpha gamma epsilon kappa pi sigma upsilon psi upsilondieresis upsilontonos kaiSymbol colon semicolon guillemotleft guilsinglleft e.sc z h.sc i.sc m.sc n.sc xi.sc pe-cy sigma.sc x epsilontonos.sc etatonos.sc iotatonos.sc uni03D6 uni03F0 uni03F5 kgreenlandic];
 @shortcurveTR_gr = [etatonos eta omicron rho sigmafinal phi omega omicrontonos omegatonos phi1 b.sc zero.sc p.sc omega.sc omegatonos.sc uni03D9 uni03E1 uni03F1 uni03F6 uni03FC uni03D2.sc uni03D3.sc uni03D4.sc uni03E1.sc];
 @shortcurve2TR_gr = [lambda a.sc ef-cy.sc alphatonos.sc];
 @openR_gr = [zeta xi];
@@ -495,7 +495,7 @@ feature locl {
 @shortcurveL_gr = [alphatonos epsilontonos alpha epsilon omicron sigmafinal sigma omegatonos omega phi1 zero.sc uni03D9 uni03DB uni03F5];
 @shortcurveTL_gr = [rho omega.sc omegatonos.sc uni03F1];
 @shortcurve2TL_gr = [alphatonos.sc a.sc ef-cy.sc];
-@shortL_gr = [kappa mu upsilon phi psi upsilondieresis upsilontonos kaiSymbol guillemotright guilsinglright epsilontonos.sc etatonos.sc iotatonos.sc b.sc ge-cy e.sc z h.sc i.sc m.sc n.sc xi.sc pe-cy p.sc sigma.sc x uni03D6 uni03DD uni03F0 uni03F6];
+@shortL_gr = [kappa mu upsilon phi psi upsilondieresis upsilontonos kaiSymbol guillemotright guilsinglright epsilontonos.sc etatonos.sc iotatonos.sc b.sc ge-cy e.sc z h.sc i.sc m.sc n.sc xi.sc pe-cy p.sc sigma.sc x uni03D6 uni03DD uni03F0 uni03F6 kgreenlandic];
 @underhangL_gr = [lowernumeral-greek questiongreek semicolon quotesinglbase quotedblbase uni03FC];
 @underhang2L_gr = [delta.sc lambda.sc];
 @underhang3L_gr = [Delta Lambda delta uni03D1];

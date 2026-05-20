@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1675081307
-ModificationTime: 1779193748
+ModificationTime: 1779271790
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -45,7 +45,7 @@ DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
 WinInfo: 1113968 16 12
-BeginChars: 1114154 169
+BeginChars: 1114155 170
 
 StartChar: quarterdot
 Encoding: 1114112 -1 0
@@ -8150,9 +8150,9 @@ LayerCount: 2
 Fore
 SplineSet
 450 470 m 1
- 150 170 l 1
- 150 100 l 1
- 220 100 l 1
+ 250 270 l 1
+ 250 200 l 1
+ 320 200 l 1
  450 330 l 1
  450 170 l 1
  350 70 l 1
@@ -8259,6 +8259,42 @@ SplineSet
  420 0 l 1
  350 0 l 1
  350 70 l 1
+EndSplineSet
+EndChar
+
+StartChar: ertick-cy.sc
+Encoding: 1114154 -1 169
+Width: 600
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+150 200 m 1
+ 280 200 l 1
+ 330 250 l 1
+ 250 330 l 1
+ 250 400 l 1
+ 150 400 l 1
+ 150 200 l 1
+150 0 m 1
+ 50 0 l 1
+ 50 500 l 1
+ 420 500 l 1
+ 550 370 l 1
+ 550 330 l 1
+ 470 250 l 1
+ 550 170 l 1
+ 550 100 l 1
+ 480 100 l 1
+ 400 180 l 1
+ 320 100 l 1
+ 150 100 l 1
+ 150 0 l 1
+400 320 m 1
+ 430 350 l 1
+ 380 400 l 1
+ 320 400 l 1
+ 400 320 l 1
 EndSplineSet
 EndChar
 EndChars
