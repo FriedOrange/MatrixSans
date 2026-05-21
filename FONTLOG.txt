@@ -9,13 +9,13 @@ Basic font information
 
 Matrix Sans is a typeface family inspired by classic 5x7 dot matrix fonts.
 
-It comes in five variants:
-- Regular, with connected square dots
-- Print, with separate circular dots
-- Raster, with rounded horizontal lines
-- Screen, with separate square dots 
-- Video, with interpolation on diagonal sections
-- Smooth, with straight lines on diagonal sections
+It comes in six variants:
+- Regular: connected square dots, like a typical bitmap ("pixel") font
+- Print: separate circular dots, like a dot-matrix printer
+- Raster: rounded horizontal lines, like a cathode-ray tube
+- Screen: separate square dots, like an LCD screen
+- Video: interpolation on diagonal sections, like a VCR/camcorder on-screen display
+- Smooth: straight lines on diagonal sections
 
 Further information can be found at: https://friedorange.github.io/MatrixSans/
 
