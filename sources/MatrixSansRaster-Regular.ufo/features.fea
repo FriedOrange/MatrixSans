@@ -111,6 +111,7 @@ feature ccmp {
 	sub Omicron acutecomb by Omicrontonos;
 	sub Upsilon acutecomb by Upsilontonos;
 	sub Omega acutecomb by Omegatonos;
+	sub uni03D2 acutecomb by uni03D3;
 	sub upsilon dieresiscomb acutecomb by upsilondieresistonos;
 	sub iota dieresiscomb acutecomb by iotadieresistonos;
 	sub [alpha epsilon eta iota omicron upsilon omega] acutecomb' by verticallineabovecomb;
@@ -153,25 +154,25 @@ feature ccmp {
 } ccmp;
 
 # classes for mark positioning
-@tall = [B C D F G H K M-Z b d f h k Oslash Thorn germandbls eth dcroat Hbar IJ Ldot Lslash Eng Tbar Oopen Schwa Eopen Florin florin Gammalatin Khook khook lambdalatinbar Nhookleft Obar Upsilonlatin Ezh Gbar Aslash Cslash Tslash uni0241 bhook dhook uni0294 uni0295 Germandbls Ohm tslash Alphalatin uniA7AE Lambdalatinbar Lbar];
+@tall = [B C D F G H K M-Z b d f h k Oslash Thorn germandbls eth dcroat Hbar IJ Ldot Lslash Eng Tbar Oopen Schwa Eopen Florin florin Gammalatin Khook khook lambdalatinbar Nhookleft Obar Upsilonlatin Ezh Gbar Aslash Cslash Tslash uni0241 bhook dhook uni0294 uni0295 Germandbls Ohm tslash Alphalatin uniA7AE Lambdalatinbar Lbar Upsilon uni03D2 Ie-cy Ge-cy Ka-cy Ii-cy U-cy Zhe-cy A-cy Schwa-cy Ze-cy O-cy Obarred-cy Ereversed-cy Che-cy Tse-cy Ya-cy Ustraight-cy E-cy];
 @tall_ogonek = [A E];
-@tall_narrow = [I i l ldot lslash Iotalatin Ibar lbar uni01C2 ibar lmiddletilde lbelt idotaccent];
+@tall_narrow = [I i l ldot lslash Iotalatin Ibar lbar uni01C2 ibar lmiddletilde lbelt idotaccent Iota I-cy];
 @tall_4wide = [longs space];
-@tall_6wide = [Eth Dcroat hbar Bhook Dhook]; # right bias
-@tall_6wide2 = [Yhook Lmiddletilde Lbelt]; # left bias
+@tall_6wide = [Eth Dcroat hbar Bhook Dhook Hardsign-cy Yu-cy]; # right bias
+@tall_6wide2 = [Yhook Lmiddletilde Lbelt Yeru-cy]; # left bias
 @tall_7wide = [AE OE];
 @long = [thorn ij Gsingle Chilatin Eng.loclNSM];
 @J = [J];
 @Jsc = [j.sc];
 @L = [L];
 @Lsc = [l.sc];
-@short = [c m n o r s v-x z oslash kgreenlandic cslash uni0242 alphalatin oopen schwa eopen obar upsilonlatin aslash b.sc d.sc f.sc g.sc h.sc m.sc n.sc p.sc r.sc t.sc u.sc y.sc thorn.sc germandbls.sc lslash.sc florin.sc ij.sc q.sc y.titl khook.sc nhookleft.sc eng.sc tbar.sc gammalatin.sc lbar.sc gbar.sc aslash.sc tslash.sc lmiddletilde.sc lbelt.sc lambdalatinbar.sc ezh.sc];
-@short_narrow = [dotlessi iotalatin uni026A i.sc ibar.sc ibardotless];
+@short = [c m n o r s v-x z oslash kgreenlandic cslash uni0242 alphalatin oopen schwa eopen obar upsilonlatin aslash b.sc d.sc f.sc g.sc h.sc m.sc n.sc p.sc r.sc t.sc u.sc y.sc thorn.sc germandbls.sc lslash.sc florin.sc ij.sc q.sc y.titl khook.sc nhookleft.sc eng.sc tbar.sc gammalatin.sc lbar.sc gbar.sc aslash.sc tslash.sc lmiddletilde.sc lbelt.sc lambdalatinbar.sc ezh.sc alpha epsilon eta upsilon omicron omega ie-cy ge-cy ka-cy ii-cy zhe-cy a-cy schwa-cy ze-cy o-cy obarred-cy ereversed-cy che-cy tse-cy ya-cy e-cy];
+@short_narrow = [dotlessi iotalatin uni026A i.sc ibar.sc ibardotless iota i-cy];
 @short_ogonek = [a e u uni25CC a.sc e.sc hbar.sc];
-@short_6wide = [eth.sc bhook.sc dhook.sc]; # right bias
-@short_6wide2 = [yhook.sc]; # left bias
+@short_6wide = [eth.sc bhook.sc dhook.sc hardsign-cy yu-cy]; # right bias
+@short_6wide2 = [yhook.sc yeru-cy]; # left bias
 @short_7wide = [ae oe ae.sc oe.sc];
-@deep = [g y p q eng yhook gbar gsingle gammalatin nhookleft ezh chilatin eng.sc.loclNSM];
+@deep = [g y p q eng yhook gbar gsingle gammalatin nhookleft ezh chilatin eng.sc.loclNSM u-cy ustraight-cy];
 @j_mark = [j];
 @j_mark2 = [jdotless];
 @t_mark = [t tbar];
