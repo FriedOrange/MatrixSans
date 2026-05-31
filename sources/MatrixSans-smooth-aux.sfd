@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1675081307
-ModificationTime: 1779274521
+ModificationTime: 1780235512
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -8143,33 +8143,33 @@ EndChar
 StartChar: uni03E0
 Encoding: 992 992 165
 Width: 600
-Flags: HW
+Flags: HWO
 LayerCount: 2
 Fore
 SplineSet
 450 170 m 1
- 350 70 l 1
- 350 0 l 1
- 420 0 l 1
- 550 130 l 1
- 550 470 l 1
- 320 700 l 1
- 180 700 l 1
- 50 570 l 1
- 50 500 l 1
- 120 500 l 1
- 220 600 l 1
- 280 600 l 1
- 330 550 l 1
- 150 370 l 1
- 150 300 l 1
- 220 300 l 1
- 400 480 l 1
- 430 450 l 1
- 250 270 l 1
- 250 200 l 1
- 320 200 l 1
  450 330 l 1
+ 320 200 l 1
+ 250 200 l 1
+ 250 270 l 1
+ 430 450 l 1
+ 400 480 l 1
+ 220 300 l 1
+ 150 300 l 1
+ 150 370 l 1
+ 330 550 l 1
+ 280 600 l 1
+ 220 600 l 1
+ 120 500 l 1
+ 50 500 l 1
+ 50 570 l 1
+ 180 700 l 1
+ 320 700 l 1
+ 550 470 l 1
+ 550 130 l 1
+ 420 0 l 1
+ 350 0 l 1
+ 350 70 l 1
  450 170 l 1
 EndSplineSet
 EndChar

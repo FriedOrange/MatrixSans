@@ -44,7 +44,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 928 16 12
+WinInfo: 896 16 12
 BeginChars: 65563 162
 
 StartChar: quarterdot
@@ -7463,7 +7463,7 @@ EndChar
 StartChar: uni03D7
 Encoding: 983 983 161
 Width: 600
-Flags: HWO
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
