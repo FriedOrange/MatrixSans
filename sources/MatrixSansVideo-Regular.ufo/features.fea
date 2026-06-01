@@ -154,26 +154,36 @@ feature ccmp {
 sub D by D.alt;sub Eth by Eth.alt;sub Dcroat by Dcroat.alt;sub Dhook by Dhook.alt;sub Dcaron by Dcaron.alt;sub Ddotbelow by Ddotbelow.alt;sub Dmacronbelow by Dmacronbelow.alt;} ccmp;
 
 # classes for mark positioning
-@tall = [B C D F G H K M-Z b d f h k Oslash Thorn germandbls eth dcroat Hbar IJ Ldot Lslash Eng Tbar Oopen Schwa Eopen Florin florin Gammalatin Khook khook lambdalatinbar Nhookleft Obar Upsilonlatin Ezh Gbar Aslash Cslash Tslash uni0241 bhook dhook uni0294 uni0295 Germandbls Ohm tslash Alphalatin uniA7AE Lambdalatinbar Lbar Upsilon uni03D2 Ie-cy Ge-cy Ka-cy Ii-cy U-cy Zhe-cy A-cy Schwa-cy Ze-cy O-cy Obarred-cy Ereversed-cy Che-cy Tse-cy Ya-cy Ustraight-cy E-cy];
+@tall = [B C D F G H K M-Z b d f h k Oslash Thorn germandbls eth dcroat Hbar IJ Ldot Lslash Eng Tbar Oopen Schwa Eopen Florin florin Gammalatin Khook khook lambdalatinbar Nhookleft Obar Upsilonlatin Ezh Gbar Aslash Cslash Tslash uni0241 bhook dhook uni0294 uni0295 Germandbls Ohm tslash Alphalatin uniA7AE Lambdalatinbar Lbar Upsilon uni03D2 Ie-cy Ge-cy Ka-cy Ii-cy U-cy Zhe-cy A-cy Schwa-cy Ze-cy O-cy Obarred-cy Ereversed-cy Che-cy Tse-cy Ya-cy Ustraight-cy E-cy uni2D31 uni2D32 uni2D33 uni2D34 uni2D35 uni2D36 uni2D37 uni2D38 uni2D39 uni2D3A uni2D3B uni2D3C uni2D3D uni2D3F uni2D40 uni2D41 uni2D43 uni2D44 uni2D45 uni2D46 uni2D47 uni2D49 uni2D4A uni2D4B uni2D4C uni2D4D uni2D4E uni2D50 uni2D52 uni2D54 uni2D55 uni2D56 uni2D58 uni2D59 uni2D5A uni2D5B uni2D5D uni2D5E uni2D5F uni2D60 uni2D61 uni2D62 uni2D63 uni2D65 uni2D66 Lcaron Ldot agrave abreve acaron acircumflex adieresis agrave ahookabove amacron aring atilde aeacute cacute ccaron ccircumflex cdotaccent eacute ebreve ecaron ecircumflex edieresis edotaccent egrave ehookabove emacron etilde ibreve itilde macute nacute ncaron ndotaccent ngrave ntilde oacute obreve ocaron ocircumflex odieresis ohungarumlaut ograve ohookabove omacron oslashacute otilde racute rcaron sacute scaron scircumflex sdotaccent tcaron uacute ubreve ucaron ucircumflex udieresis uhungarumlaut ugrave uhookabove umacron uring utilde wacute wcircumflex wdieresis wgrave zacute zcaron zcircumflex zdotaccent];
 @tall_ogonek = [A E];
-@tall_narrow = [I i l ldot lslash Iotalatin Ibar lbar uni01C2 ibar lmiddletilde lbelt idotaccent Iota I-cy];
-@tall_4wide = [longs space];
+@tall_narrow = [I i l ldot lslash Iotalatin Ibar lbar uni01C2 ibar lmiddletilde lbelt idotaccent Iota I-cy uni2D3E uni2D53 uni2D5C uni2D64 iacute icaron icircumflex idieresis igrave ihookabove imacron];
+@tall_1wide = [uni2D42 uni2D4F uni2D15 uni2D57];
+@tall_4wide = [longs space lcaron];
 @tall_6wide = [Eth Dcroat hbar Bhook Dhook Hardsign-cy Yu-cy]; # right bias
 @tall_6wide2 = [Yhook Lmiddletilde Lbelt Yeru-cy]; # left bias
-@tall_7wide = [AE OE];
-@long = [thorn ij Gsingle Chilatin Eng.loclNSM];
+@tall_7wide = [AE OE Ohorn Uhorn dcaron ohornacute ohorngrave ohornhookabove ohorntilde uhornacute uhorngrave uhornhookabove uhorntilde];
+@verytall = [Aacute Abreve Abreveacute Abreve Abrevegrave Abrevehookabove Abrevetilde Acaron Acircumflex Acircumflexacute Acircumflexgrave Acircumflexhookabove Acircumflextilde Adieresis Agrave Ahookabove Amacron Aring Aringacute Atilde Cacute Ccaron Ccircumflex Cdotaccent Dcaron Eacute Ebreve Ecaron Ecircumflex Ecircumflexacute Ecircumflexgrave Ecircumflexhookabove Ecircumflextilde Edieresis Edotaccent Egrave Ehookabove Emacron Emacronacute Emacrongrave Etilde Ezhcaron Gbreve Gcaron Gcircumflex Gdotaccent Gmacron Hcaron Hcircumflex Ibreve Itilde Jcircumflex Kacute Kcaron Lacute Macute Nacute Ncaron Ndotaccent Ngrave Ntilde Oacute Obreve Ocaron Ocircumflex Ocircumflexacute Ocircumflexgrave Ocircumflexhookabove Ocircumflextilde Odieresis Ohungarumlaut Ograve Ohookabove Omacron Omacronacute Omacrongrave Oslashacute Otilde Racute Rcaron Sacute Scaron Scircumflex Sdotaccent Tcaron Uacute Ubreve Ucaron Ucircumflex Udieresis Udieresismacron Udieresiscaron Udieresisacute Udieresisgrave Uhungarumlaut Ugrave Uhookabove Umacron Uring Utilde Wacute Wcircumflex Wdieresis Wgrave Yacute Ycircumflex Ydieresis Ydotaccent Ygrave Yhookabove Ymacron Ytilde Zacute Zcaron Zcircumflex Zdotaccent abreveacute abrevegrave abrevehookabove abrevetilde acircumflexacute acircumflexgrave acircumflexhookabove acircumflextilde aringacute ecircumflexacute ecircumflexgrave ecircumflexhookabove ecircumflextilde emacronacute emacrongrave kacute kcaron ocircumflexacute ocircumflexgrave ocircumflexhookabove ocircumflextilde omacronacute omacrongrave tdieresis udieresisacute udieresiscaron udieresisgrave udieresismacron];
+@verytall_narrow = [Iacute Icaron Icircumflex Idieresis Idotaccent Igrave Ihookabove Imacron lacute];
+@verytall_7wide = [AEacute Ohornacute Ohorngrave Ohornhookabove Ohorntilde Uhornacute Uhorngrave Uhornhookabove Uhorntilde];
+@verylong = [Abrevedotbelow Acircumflexdotbelow Ecircumflexdotbelow Ldotbelowmacron Ocircumflexdotbelow Oogonekmacron Rdotbelowmacron];
+@verylong_narrow = [ldotbelowmacron lmacronbelow];
+@long = [thorn ij Gsingle Chilatin Eng.loclNSM Adotbelow Aogonek Ccedilla Ddotbelow Dmacronbelow Edotbelow Eogonek Gcommaaccent Hbrevebelow Hdotbelow Kcommaaccent Kdotbelow Kmacronbelow Lcommaaccent Ldotbelow Lmacronbelow Mdotbelow Ncommaaccent Nmacronbelow Oogonek Odotbelow Rcommaaccent Rdotbelow Rmacronbelow Scedilla Scommaaccent Sdotbelow Tcommaaccent Tcedilla Tdotbelow Tmacronbelow Udotbelow Uogonek Ydotbelow Zdotbelow Zmacronbelow ddotbelow dmacronbelow edotbelow hbrevebelow abrevedotbelow acircumflexdotbelow ecircumflexdotbelow ezhcaron gbreve gcaron gcommaaccent gcircumflex gdotaccent gmacron kcommaaccent kdotbelow kmacronbelow ocircumflexdotbelow oogonekmacron rdotbelowmacron tcommaaccent tcedilla tdotbelow tmacronbelow yacute ycircumflex ydieresis ydotaccent ygrave yhookabove ymacron ytilde];
+@long_narrow = [Idotbelow Iogonek idotbelow iogonek lcommaaccent ldotbelow];
+@long_7wide = [Ohorndotbelow Uhorndotbelow];
 @J = [J];
 @Jsc = [j.sc];
 @L = [L];
 @Lsc = [l.sc];
-@short = [c m n o r s v-x z oslash kgreenlandic cslash uni0242 alphalatin oopen schwa eopen obar upsilonlatin aslash b.sc d.sc f.sc g.sc h.sc m.sc n.sc p.sc r.sc t.sc u.sc y.sc thorn.sc germandbls.sc lslash.sc florin.sc ij.sc q.sc y.titl khook.sc nhookleft.sc eng.sc tbar.sc gammalatin.sc lbar.sc gbar.sc aslash.sc tslash.sc lmiddletilde.sc lbelt.sc lambdalatinbar.sc ezh.sc alpha epsilon eta upsilon omicron omega ie-cy ge-cy ka-cy ii-cy zhe-cy a-cy schwa-cy ze-cy o-cy obarred-cy ereversed-cy che-cy tse-cy ya-cy e-cy];
+@short = [c m n o r s v-x z oslash kgreenlandic cslash uni0242 alphalatin oopen schwa eopen obar upsilonlatin aslash b.sc d.sc f.sc g.sc h.sc m.sc n.sc p.sc r.sc t.sc u.sc y.sc thorn.sc germandbls.sc lslash.sc florin.sc ij.sc q.sc y.titl khook.sc nhookleft.sc eng.sc tbar.sc gammalatin.sc lbar.sc gbar.sc aslash.sc tslash.sc lmiddletilde.sc lbelt.sc lambdalatinbar.sc ezh.sc alpha epsilon eta upsilon omicron omega ie-cy ge-cy ka-cy ii-cy zhe-cy a-cy schwa-cy ze-cy o-cy obarred-cy ereversed-cy che-cy tse-cy ya-cy e-cy omega.sc uni03D2.sc uni2D48 uni2D67];
 @short_narrow = [dotlessi iotalatin uni026A i.sc ibar.sc ibardotless iota i-cy];
 @short_ogonek = [a e u uni25CC a.sc e.sc hbar.sc];
+@short_4wide = [uni2D30];
 @short_6wide = [eth.sc bhook.sc dhook.sc hardsign-cy yu-cy]; # right bias
 @short_6wide2 = [yhook.sc yeru-cy]; # left bias
-@short_7wide = [ae oe ae.sc oe.sc];
-@deep = [g y p q eng yhook gbar gsingle gammalatin nhookleft ezh chilatin eng.sc.loclNSM u-cy ustraight-cy];
-@j_mark = [j];
+@short_7wide = [ae oe ae.sc oe.sc ohorn uhorn];
+@deep = [g y p q eng yhook gbar gsingle gammalatin nhookleft ezh chilatin eng.sc.loclNSM u-cy ustraight-cy adotbelow aogonek ccedilla eogonek mdotbelow ncommaaccent ndotbelow nmacronbelow odotbelow oogonek rdotbelow rmacronbelow scommaaccent scedilla sdotbelow udotbelow uogonek ydotbelow zdotbelow zmacronbelow];
+@deep_7wide = [ohorndotbelow uhorndotbelow];
+@j_mark = [j jcaron jcircumflex];
 @j_mark2 = [jdotless];
 @t_mark = [t tbar];
 
@@ -193,6 +203,11 @@ feature mark {
 		<anchor 250 500> mark @marks_aboveright
 		<anchor 200 0> mark @marks_below
 		<anchor 200 0> mark @marks_belowright;
+	pos base @tall_1wide
+		<anchor 100 800> mark @marks_above
+		<anchor 150 500> mark @marks_aboveright
+		<anchor 100 0> mark @marks_below
+		<anchor 100 0> mark @marks_belowright;
 	pos base @tall_4wide
 		<anchor 200 800> mark @marks_above
 		<anchor 450 500> mark @marks_aboveright
@@ -213,11 +228,46 @@ feature mark {
 		<anchor 750 500> mark @marks_aboveright
 		<anchor 400 0> mark @marks_below
 		<anchor 500 0> mark @marks_belowright;
+	pos base @verytall
+		<anchor 300 1000> mark @marks_above
+		<anchor 550 500> mark @marks_aboveright
+		<anchor 300 0> mark @marks_below
+		<anchor 300 0> mark @marks_belowright;
+	pos base @verytall_narrow
+		<anchor 200 1000> mark @marks_above
+		<anchor 250 500> mark @marks_aboveright
+		<anchor 200 0> mark @marks_below
+		<anchor 200 0> mark @marks_belowright;
+	pos base @verytall_7wide
+		<anchor 400 1000> mark @marks_above
+		<anchor 750 500> mark @marks_aboveright
+		<anchor 400 0> mark @marks_below
+		<anchor 500 0> mark @marks_belowright;
 	pos base @long
 		<anchor 300 800> mark @marks_above
 		<anchor 550 500> mark @marks_aboveright
 		<anchor 300 -200> mark @marks_below
 		<anchor 400 -200> mark @marks_belowright;
+	pos base @long_narrow
+		<anchor 200 800> mark @marks_above
+		<anchor 250 500> mark @marks_aboveright
+		<anchor 200 -200> mark @marks_below
+		<anchor 200 -200> mark @marks_belowright;
+	pos base @long_7wide
+		<anchor 400 800> mark @marks_above
+		<anchor 750 500> mark @marks_aboveright
+		<anchor 400 -200> mark @marks_below
+		<anchor 500 -200> mark @marks_belowright;
+	pos base @verylong
+		<anchor 300 1000> mark @marks_above
+		<anchor 550 500> mark @marks_aboveright
+		<anchor 300 -200> mark @marks_below
+		<anchor 400 -200> mark @marks_belowright;
+	pos base @verylong_narrow
+		<anchor 200 1000> mark @marks_above
+		<anchor 250 500> mark @marks_aboveright
+		<anchor 200 -200> mark @marks_below
+		<anchor 200 -200> mark @marks_belowright;
 	pos base @J
 		<anchor 400 800> mark @marks_above
 		<anchor 550 500> mark @marks_aboveright
@@ -253,6 +303,11 @@ feature mark {
 		<anchor 550 300> mark @marks_aboveright
 		<anchor 300 0> mark @marks_below
 		<anchor 400 0> mark @marks_belowright;
+	pos base @short_4wide
+		<anchor 200 600 mark @marks_above
+		<anchor 450 300> mark @marks_aboveright
+		<anchor 200 0> mark @marks_below
+		<anchor 300 0> mark @marks_belowright;
 	pos base @short_6wide
 		<anchor 400 600> mark @marks_above
 		<anchor 650 300> mark @marks_aboveright
@@ -273,6 +328,11 @@ feature mark {
 		<anchor 550 300> mark @marks_aboveright
 		<anchor 300 -200> mark @marks_below
 		<anchor 300 -200> mark @marks_belowright;
+	pos base @deep_7wide
+		<anchor 400 600> mark @marks_above
+		<anchor 750 300> mark @marks_aboveright
+		<anchor 400 -200> mark @marks_below
+		<anchor 400 -200> mark @marks_belowright;
 	pos base @j_mark
 		<anchor 400 800> mark @marks_above
 		<anchor 450 500> mark @marks_aboveright
