@@ -148,9 +148,9 @@ feature ccmp {
 	sub circumflexcomb tildecomb by circumflexcomb_tildecomb;
 	sub idotbelow' @marks_above by dotlessi dotbelowcomb;
 	sub iogonek' @marks_above by dotlessi ogonekcomb;
-	sub Idotaccent' @marks_above by idotaccent.sc;
-	sub Edotaccent' @marks_above by edotaccent.sc;
-	sub Umacron' @marks_above by umacron.sc;
+	# sub Idotaccent' @marks_above by idotaccent.sc;
+	# sub Edotaccent' @marks_above by edotaccent.sc;
+	# sub Umacron' @marks_above by umacron.sc;
 sub D by D.alt;sub Eth by Eth.alt;sub Dcroat by Dcroat.alt;sub Dhook by Dhook.alt;sub Dcaron by Dcaron.alt;sub Ddotbelow by Ddotbelow.alt;sub Dmacronbelow by Dmacronbelow.alt;} ccmp;
 
 # classes for mark positioning
@@ -162,13 +162,13 @@ sub D by D.alt;sub Eth by Eth.alt;sub Dcroat by Dcroat.alt;sub Dhook by Dhook.al
 @tall_6wide = [Eth Dcroat hbar Bhook Dhook Hardsign-cy Yu-cy]; # right bias
 @tall_6wide2 = [Yhook Lmiddletilde Lbelt Yeru-cy]; # left bias
 @tall_7wide = [AE OE Ohorn Uhorn dcaron ohornacute ohorngrave ohornhookabove ohorntilde uhornacute uhorngrave uhornhookabove uhorntilde];
-@verytall = [Aacute Abreve Abreveacute Abrevegrave Abrevehookabove Abrevetilde Acaron Acircumflex Acircumflexacute Acircumflexgrave Acircumflexhookabove Acircumflextilde Adieresis Agrave Ahookabove Amacron Aring Aringacute Atilde Cacute Ccaron Ccircumflex Cdotaccent Dcaron Eacute Ebreve Ecaron Ecircumflex Ecircumflexacute Ecircumflexgrave Ecircumflexhookabove Ecircumflextilde Edieresis Edotaccent Egrave Ehookabove Emacron Emacronacute Emacrongrave Etilde Ezhcaron Gbreve Gcaron Gcircumflex Gdotaccent Gmacron Hcaron Hcircumflex Ibreve Itilde Jcircumflex Kacute Kcaron Lacute Macute Nacute Ncaron Ndotaccent Ngrave Ntilde Oacute Obreve Ocaron Ocircumflex Ocircumflexacute Ocircumflexgrave Ocircumflexhookabove Ocircumflextilde Odieresis Ohungarumlaut Ograve Ohookabove Omacron Omacronacute Omacrongrave Oslashacute Otilde Racute Rcaron Sacute Scaron Scircumflex Sdotaccent Tcaron Uacute Ubreve Ucaron Ucircumflex Udieresis Udieresismacron Udieresiscaron Udieresisacute Udieresisgrave Uhungarumlaut Ugrave Uhookabove Umacron Uring Utilde Wacute Wcircumflex Wdieresis Wgrave Yacute Ycircumflex Ydieresis Ydotaccent Ygrave Yhookabove Ymacron Ytilde Zacute Zcaron Zcircumflex Zdotaccent abreveacute abrevegrave abrevehookabove abrevetilde acircumflexacute acircumflexgrave acircumflexhookabove acircumflextilde aringacute ecircumflexacute ecircumflexgrave ecircumflexhookabove ecircumflextilde emacronacute emacrongrave kacute kcaron ocircumflexacute ocircumflexgrave ocircumflexhookabove ocircumflextilde omacronacute omacrongrave tdieresis udieresisacute udieresiscaron udieresisgrave udieresismacron];
+@verytall = [Aacute Abreve Abreveacute Abrevegrave Abrevehookabove Abrevetilde Acaron Acircumflex Acircumflexacute Acircumflexgrave Acircumflexhookabove Acircumflextilde Adieresis Agrave Ahookabove Amacron Aring Aringacute Atilde Cacute Ccaron Ccircumflex Cdotaccent Dcaron Eacute Ebreve Ecaron Ecircumflex Ecircumflexacute Ecircumflexgrave Ecircumflexhookabove Ecircumflextilde Edieresis Edotaccent Egrave Ehookabove Emacron Emacronacute Emacrongrave Etilde Ezhcaron Gbreve Gcaron Gcircumflex Gdotaccent Gmacron Hcaron Hcircumflex Ibreve Itilde Jcircumflex Kacute Kcaron Lacute Macute Nacute Ncaron Ndotaccent Ngrave Ntilde Oacute Obreve Ocaron Ocircumflex Ocircumflexacute Ocircumflexgrave Ocircumflexhookabove Ocircumflextilde Odieresis Ohungarumlaut Ograve Ohookabove Omacron Omacronacute Omacrongrave Oslashacute Otilde Racute Rcaron Sacute Scaron Scircumflex Sdotaccent Tcaron Uacute Ubreve Ucaron Ucircumflex Udieresis Udieresismacron Udieresiscaron Udieresisacute Udieresisgrave Uhungarumlaut Ugrave Uhookabove Umacron Uring Utilde Wacute Wcircumflex Wdieresis Wgrave Yacute Ycircumflex Ydieresis Ydotaccent Ygrave Yhookabove Ymacron Ytilde Zacute Zcaron Zcircumflex Zdotaccent abreveacute abrevegrave abrevehookabove abrevetilde acircumflexacute acircumflexgrave acircumflexhookabove acircumflextilde aringacute ecircumflexacute ecircumflexgrave ecircumflexhookabove ecircumflextilde emacronacute emacrongrave kacute kcaron ocircumflexacute ocircumflexgrave ocircumflexhookabove ocircumflextilde omacronacute omacrongrave tdieresis udieresisacute udieresiscaron udieresisgrave udieresismacron hcaron hcircumflex];
 @verytall_narrow = [Iacute Icaron Icircumflex Idieresis Idotaccent Igrave Ihookabove Imacron lacute];
 @verytall_7wide = [AEacute Ohornacute Ohorngrave Ohornhookabove Ohorntilde Uhornacute Uhorngrave Uhornhookabove Uhorntilde];
 @verylong = [Abrevedotbelow Acircumflexdotbelow Ecircumflexdotbelow Ldotbelowmacron Ocircumflexdotbelow Oogonekmacron Rdotbelowmacron];
-@verylong_narrow = [ldotbelowmacron lmacronbelow];
-@long = [thorn ij Gsingle Chilatin Eng.loclNSM Adotbelow Aogonek Ccedilla Ddotbelow Dmacronbelow Edotbelow Eogonek Gcommaaccent Hbrevebelow Hdotbelow Kcommaaccent Kdotbelow Kmacronbelow Lcommaaccent Ldotbelow Lmacronbelow Mdotbelow Ncommaaccent Nmacronbelow Oogonek Odotbelow Rcommaaccent Rdotbelow Rmacronbelow Scedilla Scommaaccent Sdotbelow Tcommaaccent Tcedilla Tdotbelow Tmacronbelow Udotbelow Uogonek Ydotbelow Zdotbelow Zmacronbelow ddotbelow dmacronbelow hbrevebelow abrevedotbelow acircumflexdotbelow ecircumflexdotbelow ezhcaron gbreve gcaron gcommaaccent gcircumflex gdotaccent gmacron kcommaaccent kdotbelow kmacronbelow ocircumflexdotbelow oogonekmacron rdotbelowmacron tcommaaccent tcedilla tdotbelow tmacronbelow yacute ycircumflex ydieresis ydotaccent ygrave yhookabove ymacron ytilde];
-@long_narrow = [Idotbelow Iogonek idotbelow iogonek lcommaaccent ldotbelow];
+@verylong_narrow = [ldotbelowmacron];
+@long = [thorn ij Gsingle Chilatin Eng.loclNSM Adotbelow Aogonek Ccedilla Ddotbelow Dmacronbelow Edotbelow Eogonek Gcommaaccent Hbrevebelow Hdotbelow Kcommaaccent Kdotbelow Kmacronbelow Lcommaaccent Ldotbelow Lmacronbelow Mdotbelow Ncommaaccent Nmacronbelow Oogonek Odotbelow Rcommaaccent Rdotbelow Rmacronbelow Scedilla Scommaaccent Sdotbelow Tcommaaccent Tcedilla Tdotbelow Tmacronbelow Udotbelow Uogonek Ydotbelow Zdotbelow Zmacronbelow ddotbelow dmacronbelow hbrevebelow abrevedotbelow acircumflexdotbelow ecircumflexdotbelow ezhcaron gbreve gcaron gcommaaccent gcircumflex gdotaccent gmacron kcommaaccent kdotbelow kmacronbelow ocircumflexdotbelow oogonekmacron rdotbelowmacron tcommaaccent tcedilla tdotbelow tmacronbelow yacute ycircumflex ydieresis ydotaccent ygrave yhookabove ymacron ytilde Ndotbelow hdotbelow hmacronbelow];
+@long_narrow = [Idotbelow Iogonek idotbelow iogonek lcommaaccent ldotbelow lmacronbelow];
 @long_7wide = [Ohorndotbelow Uhorndotbelow];
 @J = [J];
 @Jsc = [j.sc];
@@ -181,7 +181,7 @@ sub D by D.alt;sub Eth by Eth.alt;sub Dcroat by Dcroat.alt;sub Dhook by Dhook.al
 @short_6wide = [eth.sc bhook.sc dhook.sc hardsign-cy yu-cy]; # right bias
 @short_6wide2 = [yhook.sc yeru-cy]; # left bias
 @short_7wide = [ae oe ae.sc oe.sc ohorn uhorn];
-@deep = [g y p q eng yhook gbar gsingle gammalatin nhookleft ezh chilatin eng.sc.loclNSM u-cy ustraight-cy adotbelow aogonek ccedilla eogonek mdotbelow ncommaaccent ndotbelow nmacronbelow odotbelow oogonek rdotbelow rmacronbelow scommaaccent scedilla sdotbelow udotbelow uogonek ydotbelow zdotbelow zmacronbelow edotbelow];
+@deep = [g y p q eng yhook gbar gsingle gammalatin nhookleft ezh chilatin eng.sc.loclNSM u-cy ustraight-cy adotbelow aogonek ccedilla eogonek mdotbelow ncommaaccent ndotbelow nmacronbelow odotbelow oogonek rdotbelow rmacronbelow scommaaccent scedilla sdotbelow udotbelow uogonek ydotbelow zdotbelow zmacronbelow edotbelow rcommaaccent];
 @deep_7wide = [ohorndotbelow uhorndotbelow];
 @j_mark = [j jcaron jcircumflex];
 @j_mark2 = [jdotless];
