@@ -304,7 +304,7 @@ feature mark {
 		<anchor 300 0> mark @marks_below
 		<anchor 400 0> mark @marks_belowright;
 	pos base @short_4wide
-		<anchor 200 600 mark @marks_above
+		<anchor 200 600> mark @marks_above
 		<anchor 450 300> mark @marks_aboveright
 		<anchor 200 0> mark @marks_below
 		<anchor 300 0> mark @marks_belowright;
