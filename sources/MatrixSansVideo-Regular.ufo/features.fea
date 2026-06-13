@@ -563,7 +563,7 @@ feature locl {
 @tallcurve2TL_cy = [A-cy be-cy Abreve-cy uni04D2 Aie-cy];
 @tallcurve2L_cy = [Ef-cy];
 @tallcurve2BL_cy = [uni0474 ushort-cy.sc uhungarumlaut-cy.sc];
-@shortoverhangL_cy = [te-cy hardsign-cy uni0463 kabashkir-cy tedescender-cy tetse-cy dje-cy.sc tshe-cy.sc y.sc ustraightstroke-cy.sc quoteright quotedblright minute second];
+@shortoverhangL_cy = [te-cy hardsign-cy uni0463 kabashkir-cy tedescender-cy tetse-cy dje-cy.sc tshe-cy.sc y.sc ustraightstroke-cy.sc quoteright quotedblright minute second apostrophemod];
 @shortoverhang2L_cy = [che-cy chedescender-cy cheverticalstroke-cy Cheabkhasian-cy Chedescenderabkhasian-cy uni04CC chedieresis-cy y.titl umacron-cy.sc udieresis-cy.sc];
 @shortoverhang3L_cy = [uni0475 ustraight-cy ustraightstroke-cy guillemotright guilsinglright];
 @shortL_cy = [ve-cy ge-cy zhe-cy ze-cy ii-cy ka-cy em-cy en-cy pe-cy er-cy u-cy ha-cy tse-cy sha-cy shcha-cy yeru-cy softsign-cy ereversed-cy yu-cy gje-cy i-cy nje-cy kje-cy uni045D dzhe-cy uni046B ertick-cy geupturn-cy gemiddlehook-cy zhedescender-cy zedescender-cy kadescender-cy kaverticalstroke-cy endescender-cy enge-cy uni04A7 hadescender-cy kahook-cy enhook-cy entail-cy emtail-cy zhedieresis-cy zedieresis-cy dzeabkhasian-cy imacron-cy idieresis-cy umacron-cy udieresis-cy uni04F7 uni04F9 hahook-cy hastroke-cy uni051D pedescender-cy shhadescender-cy ge-cy.loclBGR zhe-cy.loclBGR tse-cy.loclBGR shcha-cy.loclBGR u n m ayb-ar be-cy.sc e.sc p.sc egrave.sc edieresis.sc i.sc shha-cy.sc ertick-cy.sc ezh.sc colon];
@@ -853,9 +853,10 @@ feature kern {
 	pos @shortcurveTRcurve2BR_cy je-cy -100;
 	pos @shortcurveTRcurve2BR_cy @underhangN1L_cy -100;
 	pos @shortR_cy @talloverhangL_cy -100;
+	pos ustraightstroke-cy @talloverhangL_cy -100;
+	pos ustraightstroke-cy @underhangL_cy -100;
 	pos @shortopen3R_cy @talloverhangL_cy -100;
 	pos @shortopen3R_cy @stroke3L_cy -100;
-	pos @shortopen3R_cy @shortcurve2TL_cy -100;
 	pos @short4curveTR_cy @talloverhangL_cy -100;
 	pos @short4curveTR_cy @talloverhang2L_cy -100;
 	pos @short4curveTR_cy @talloverhang3L_cy -100;
