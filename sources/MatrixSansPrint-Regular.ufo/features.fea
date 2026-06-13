@@ -401,6 +401,7 @@ feature locl {
 		sub I acutecomb J' by J acutecomb;
 		sub i acutecomb j' by jacute;
 		sub i.sc j.sc by ij.sc;
+		sub j acutecomb by jacute;
 	script cyrl;
 		sub three by three.alt;
 	language SRB;
@@ -462,7 +463,7 @@ feature locl {
 @short3curveR_cy = [hardsign-cy softsign-cy lje-cy nje-cy uni0463 semisoftsign-cy dje-cy.sc uni0463.sc semisoftsign-cy.sc];
 
 @talloverhangR_gr = [iotadieresistonos Gamma Tau quoteleft quotedblleft minute second uni03DA uni03DC];
-@talloverhang2R_gr = [numeral-greek Upsilontonos Upsilon Upsilondieresis quoteright quotedblright];
+@talloverhang2R_gr = [numeral-greek Upsilontonos Upsilon Upsilondieresis quoteright quotedblright tonos];
 @talloverhang3R_gr = [Rho Psi quotedbl quotesingle upsilondieresistonos.sc uni0372 uni03D2 uni03D3 uni03D4];
 @tallcurve2TR_gr = [Alphatonos Alpha Phi uni03E0];
 @shortoverhangR_gr = [tau chi quotereversed ge-cy t.sc y.sc ydieresis.sc upsilontonos.sc uni03DB f.sc];
@@ -580,7 +581,7 @@ feature locl {
 @hookleft_cy = [EnLeftHook-cy enlefthook-cy];
 
 @talloverhangL_gr = [iotadieresistonos Tau];
-@talloverhang2L_gr = [Alphatonos Epsilontonos Etatonos Iotatonos Omicrontonos Upsilontonos Omegatonos Upsilon Upsilondieresis quotereversed question uni203D uni03D3 uni03E0];
+@talloverhang2L_gr = [Alphatonos Epsilontonos Etatonos Iotatonos Omicrontonos Upsilontonos Omegatonos Upsilon Upsilondieresis quotereversed question uni203D uni03D3 uni03E0 tonos];
 @talloverhang3L_gr = [iotadieresis quotedbl quotesingle quoteleft quotedblleft upsilondieresistonos.sc uni03D2 uni03D4];
 @tallcurve2TL_gr = [Alpha Phi];
 @shortoverhangL_gr = [numeral-greek etatonos iotatonos eta iota pi tau chi quoteright quotedblright minute second t.sc y.sc ydieresis.sc upsilontonos.sc];
@@ -661,6 +662,7 @@ feature kern {
 	pos P j.sc -200;
 	pos P jcircumflex.sc -200;
 	pos iacute jacute -200;
+	pos acutecomb jacute -200;
 	enum pos [g q y yacute eng eng.sc.loclNSM] @hookleft 100;
 	enum pos [dcroat f] @aother -100;
 	pos Chilatin s 0;
