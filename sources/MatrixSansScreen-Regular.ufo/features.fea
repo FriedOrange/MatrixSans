@@ -401,10 +401,10 @@ feature locl {
 		sub i acutecomb j by iacute_jacute;
 		sub i j acutecomb by iacute_jacute;
 		sub ij acutecomb by iacute_jacute;
-		sub Iacute J by IJ hungarumlautcomb;
-		sub I acutecomb J by IJ hungarumlautcomb;
-		sub I J acutecomb by IJ hungarumlautcomb;
-		sub IJ acutecomb by IJ hungarumlautcomb;
+		sub Iacute J by Iacute_Jacute;
+		sub I acutecomb J by Iacute_Jacute;
+		sub I J acutecomb by Iacute_Jacute;
+		sub IJ acutecomb by Iacute_Jacute;
 	script cyrl;
 		sub three by three.alt;
 	language SRB;

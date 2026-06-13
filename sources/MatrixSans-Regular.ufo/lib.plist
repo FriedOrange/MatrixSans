@@ -1858,6 +1858,7 @@
 		<string>uni03D3.sc</string>
 		<string>uni03D4.sc</string>
 		<string>uni03E1.sc</string>
+		<string>Iacute_Jacute</string>
 	</array>
 	<key>public.openTypeCategories</key>
 	<dict>
@@ -2204,6 +2205,8 @@
 		<key>IJ</key>
 		<string>ligature</string>
 		<key>Iacute</key>
+		<string>base</string>
+		<key>Iacute_Jacute</key>
 		<string>base</string>
 		<key>Ibar</key>
 		<string>base</string>
