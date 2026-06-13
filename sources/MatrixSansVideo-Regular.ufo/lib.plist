@@ -1581,7 +1581,7 @@
 		<string>u11FB0</string>
 		<string>idotaccent</string>
 		<string>Eng.loclNSM</string>
-		<string>jacute</string>
+		<string>iacute_jacute</string>
 		<string>a.sc</string>
 		<string>b.sc</string>
 		<string>d.sc</string>
@@ -3515,6 +3515,8 @@
 		<string>base</string>
 		<key>iacute.sc</key>
 		<string>base</string>
+		<key>iacute_jacute</key>
+		<string>base</string>
 		<key>ibar</key>
 		<string>base</string>
 		<key>ibar.sc</key>
@@ -3618,8 +3620,6 @@
 		<key>ja-ar</key>
 		<string>base</string>
 		<key>ja-ar.sc</key>
-		<string>base</string>
-		<key>jacute</key>
 		<string>base</string>
 		<key>jcaron</key>
 		<string>base</string>

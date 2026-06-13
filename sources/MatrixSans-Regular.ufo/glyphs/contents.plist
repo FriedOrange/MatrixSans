@@ -1658,6 +1658,8 @@
     <string>iacute.glif</string>
     <key>iacute.sc</key>
     <string>iacute.sc.glif</string>
+    <key>iacute_jacute</key>
+    <string>iacute_jacute.glif</string>
     <key>ibar</key>
     <string>ibar.glif</string>
     <key>ibar.sc</key>
@@ -1762,8 +1764,6 @@
     <string>ja-ar.glif</string>
     <key>ja-ar.sc</key>
     <string>ja-ar.sc.glif</string>
-    <key>jacute</key>
-    <string>jacute.glif</string>
     <key>jcaron</key>
     <string>jcaron.glif</string>
     <key>jcaron.sc</key>
