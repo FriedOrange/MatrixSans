@@ -29,6 +29,13 @@ This Font Software is licensed under the SIL Open Font License, Version 1.1. Thi
 Changelog
 ---------
 
+13 June 2026 - Version 1.722
+
+- Rewrote OpenType Mark Positioning feature; diacritical marks can now be attached to many more base characters and multiple marks now stack properly
+- Fixed placement of combining comma above right (as in ď Ľ ľ ť) and combining dot above right (as in O͘)
+- Fixed a bug with the outline of Greek Ϡ in Smooth and Video styles
+- Improved kerning for Latin and Cyrillic scripts
+
 20 May 2026 - Version 1.721
 
 - Rewrote kerning rules for Greek; many more pairs are now kerned
