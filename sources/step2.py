@@ -16,7 +16,9 @@ DESCENT_DOTS = 2
 LEFT_SIDE_BEARING = 50
 SCREEN_DOT_FACTOR = 0.86
 PRINT_DOT_RADIUS = 48.0
+MONO_ADVANCE_WIDTH = 600
 MAIN_SOURCE = "MatrixSans-MASTER.sfd"
+MONO_SOURCE = "MatrixMono-MASTER.sfd"
 VIDEO_AUX_SOURCE = "MatrixSans-video-aux.sfd"
 SMOOTH_AUX_SOURCE = "MatrixSans-smooth-aux.sfd"
 UNLINK_LIST = ["Aring", "Ccedilla", "aring", "ccedilla", "aogonek",
@@ -106,7 +108,7 @@ def make_regular(source):
 	font.simplify()
 	font.round(0.1) # hack: the "dot" glyph is deliberately 1 unit too large so that simplify() produces nicer outlines; this reverses that
 	font.fontname = font.fontname + f"-{font.weight}"
-	font.save(f"temp\\MatrixSans-{font.weight}.sfd")
+	font.save(f"temp\\{font.fontname}.sfd")
 
 
 def make_screen(source):
@@ -121,7 +123,7 @@ def make_screen(source):
 	font.os2_strikeysize = int(SCREEN_DOT_FACTOR * DOT_SIZE)
 	font.os2_strikeypos += int((DOT_SIZE - font.os2_strikeysize) / 2)
 	font.os2_panose = segmented_panose(font.os2_panose)
-	font.save(f"temp\\MatrixSansScreen-{font.weight}.sfd")
+	font.save(f"temp\\{font.fontname}.sfd")
 
 
 def make_print(source, name_suffix=""):
@@ -136,7 +138,7 @@ def make_print(source, name_suffix=""):
 	font.os2_strikeysize = int(PRINT_DOT_RADIUS * 10/6)
 	font.os2_strikeypos += int((DOT_SIZE - font.os2_strikeysize) / 2)
 	font.os2_panose = segmented_panose(font.os2_panose)
-	font.save("temp\\MatrixSansPrint" + name_suffix + f"-{font.weight}.sfd")
+	font.save(f"temp\\{font.fontname}.sfd")
 
 
 def make_video(source):
@@ -191,7 +193,7 @@ def make_video(source):
 	font.round(0.1)
 
 	add_names(font, "Video")
-	font.save(f"temp\\MatrixSansVideo-{font.weight}.sfd")
+	font.save(f"temp\\{font.fontname}.sfd")
 
 
 def make_raster(source):
@@ -238,7 +240,7 @@ def make_raster(source):
 	font.os2_strikeysize = 80
 	font.os2_strikeypos += int((DOT_SIZE - font.os2_strikeysize) / 2)
 	font.os2_panose = segmented_panose(font.os2_panose)
-	font.save(f"temp\\MatrixSansRaster-{font.weight}.sfd")
+	font.save(f"temp\\{font.fontname}.sfd")
 
 	
 def make_smooth(source):
@@ -364,7 +366,37 @@ def make_smooth(source):
 	font.simplify()
 
 	add_names(font, "Smooth")
-	font.save(f"temp\\MatrixSansSmooth-{font.weight}.sfd")
+	font.save(f"temp\\{font.fontname}.sfd")
+
+
+def make_mono(mono_source, main_source):
+	mono_font = fontforge.open(mono_source)
+
+	# fill out font with glyphs that did not need special monospaced versions
+
+	# TODO make this recursively add component glyphs, adjusting x position of references if the component's width < 600
+	proportional_font = fontforge.open(main_source)
+	for glyph in proportional_font:
+		if glyph not in mono_font:
+			uni = proportional_font[glyph].unicode
+			proportional_font.selection.select(glyph)
+			proportional_font.copy()
+			if uni == -1: # add encoding slot for unencoded glyphs
+				mono_font.createChar(-1, glyph)
+			mono_font.selection.select(glyph if uni == -1 else uni)
+			mono_font.paste()
+			if uni != -1:
+				mono_font[uni].glyphname = glyph
+
+	# make narrower glyphs a uniform width
+	for glyph in mono_font:
+		if not any([ref[0] != "dot" for ref in mono_font[glyph].references]):
+			while mono_font[glyph].width < MONO_ADVANCE_WIDTH:
+				mono_font[glyph].right_side_bearing = int(mono_font[glyph].right_side_bearing + DOT_SIZE)
+				if mono_font[glyph].width < MONO_ADVANCE_WIDTH:
+					mono_font[glyph].left_side_bearing = int(mono_font[glyph].left_side_bearing + DOT_SIZE)
+
+	mono_font.save(f"temp\\{mono_font.fontname}.sfd")
 
 
 def main():
@@ -374,7 +406,7 @@ def main():
 	make_screen(MAIN_SOURCE)
 	make_video(MAIN_SOURCE)
 	make_smooth(MAIN_SOURCE)
-
+	make_mono(MONO_SOURCE, MAIN_SOURCE)
 
 if __name__ == "__main__":
 	main()
