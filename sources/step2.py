@@ -371,30 +371,39 @@ def make_smooth(source):
 
 def make_mono(mono_source, main_source):
 	mono_font = fontforge.open(mono_source)
+	proportional_font = fontforge.open(main_source)
+
+	def merge_glyph(glyph):
+		# recursively add components so we don't add references to nonexistent glyphs
+		for component, transformation, _ in proportional_font[glyph].references:
+			if component not in mono_font:
+				merge_glyph(component)
+
+		uni = proportional_font[glyph].unicode
+		proportional_font.selection.select(glyph)
+		proportional_font.copy()
+		mono_font.createChar(uni, glyph)
+		mono_font.selection.select(glyph)
+		mono_font.paste()
+
+		# adjust x position of references if the component's width < 600
+		new_references = []
+		for component, transformation, _ in mono_font[glyph].references:
+			x = transformation[4]
+			y = transformation[5]
+			offset = DOT_SIZE * (MONO_ADVANCE_WIDTH - mono_font[component].width) // (2 * DOT_SIZE)
+			new_references.append((component, (1, 0, 0, 1, x - offset, y)))
+		mono_font[glyph].references = tuple(new_references)
 
 	# fill out font with glyphs that did not need special monospaced versions
-
-	# TODO make this recursively add component glyphs, adjusting x position of references if the component's width < 600
-	proportional_font = fontforge.open(main_source)
 	for glyph in proportional_font:
 		if glyph not in mono_font:
-			uni = proportional_font[glyph].unicode
-			proportional_font.selection.select(glyph)
-			proportional_font.copy()
-			if uni == -1: # add encoding slot for unencoded glyphs
-				mono_font.createChar(-1, glyph)
-			mono_font.selection.select(glyph if uni == -1 else uni)
-			mono_font.paste()
-			if uni != -1:
-				mono_font[uni].glyphname = glyph
+			merge_glyph(glyph)
 
 	# make narrower glyphs a uniform width
 	for glyph in mono_font:
-		if not any([ref[0] != "dot" for ref in mono_font[glyph].references]):
-			while mono_font[glyph].width < MONO_ADVANCE_WIDTH:
-				mono_font[glyph].right_side_bearing = int(mono_font[glyph].right_side_bearing + DOT_SIZE)
-				if mono_font[glyph].width < MONO_ADVANCE_WIDTH:
-					mono_font[glyph].left_side_bearing = int(mono_font[glyph].left_side_bearing + DOT_SIZE)
+		mono_font[glyph].left_side_bearing = int(mono_font[glyph].left_side_bearing + DOT_SIZE * (MONO_ADVANCE_WIDTH - mono_font[glyph].width) // (2 * DOT_SIZE))
+		mono_font[glyph].right_side_bearing = int(mono_font[glyph].right_side_bearing + MONO_ADVANCE_WIDTH - mono_font[glyph].width)
 
 	mono_font.save(f"temp\\{mono_font.fontname}.sfd")
 
