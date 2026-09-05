@@ -6,6 +6,7 @@ sources:
   - MatrixSansRaster-Regular.ufo
   - MatrixSansSmooth-Regular.ufo
   - MatrixMono-Regular.ufo
+familyName: Matrix Sans
 buildVariable: false
 removeOutlineOverlaps: false
 autohintTTF: false
