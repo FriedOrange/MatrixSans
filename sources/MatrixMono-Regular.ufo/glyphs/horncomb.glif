@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="horncomb" format="2">
+  <advance width="600"/>
+  <unicode hex="031B"/>
+  <outline>
+    <component base="comma" xOffset="150.0" yOffset="500.0"/>
+  </outline>
+</glyph>

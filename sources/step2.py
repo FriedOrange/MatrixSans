@@ -19,6 +19,7 @@ PRINT_DOT_RADIUS = 48.0
 MONO_ADVANCE_WIDTH = 600
 MAIN_SOURCE = "MatrixSans-MASTER.sfd"
 MONO_SOURCE = "MatrixMono-MASTER.sfd"
+MONO_TEMP = "temp\\MatrixMono.sfd"
 VIDEO_AUX_SOURCE = "MatrixSans-video-aux.sfd"
 SMOOTH_AUX_SOURCE = "MatrixSans-smooth-aux.sfd"
 UNLINK_LIST = ["Aring", "Ccedilla", "aring", "ccedilla", "aogonek",
@@ -372,12 +373,18 @@ def make_smooth(source):
 def make_mono(mono_source, main_source):
 	mono_font = fontforge.open(mono_source)
 	proportional_font = fontforge.open(main_source)
+	glyph_x_offsets = {}
+
+	def glyph_x_offset(glyph):
+		return max(int(DOT_SIZE * ((MONO_ADVANCE_WIDTH - mono_font[glyph].width) // (2 * DOT_SIZE))), 0)
 
 	def merge_glyph(glyph):
 		# recursively add components so we don't add references to nonexistent glyphs
 		for component, transformation, _ in proportional_font[glyph].references:
 			if component not in mono_font:
 				merge_glyph(component)
+			elif component not in glyph_x_offsets:
+				glyph_x_offsets[component] = glyph_x_offset(component)
 
 		uni = proportional_font[glyph].unicode
 		proportional_font.selection.select(glyph)
@@ -385,15 +392,18 @@ def make_mono(mono_source, main_source):
 		mono_font.createChar(uni, glyph)
 		mono_font.selection.select(glyph)
 		mono_font.paste()
+		glyph_x_offsets[glyph] = glyph_x_offset(glyph) # amount that references to this glyph will need to be shifted left after increasing its advance width
+		# if len(mono_font[glyph].references) == 1: # some glyphs such as combining marks have multiple levels of references needing shifting
+		# 	cumulative_x_offsets[glyph] += cumulative_x_offsets.get(mono_font[glyph].references[0][0], 0)
 
 		# adjust x position of references if the component's width < 600
 		new_references = []
-		for component, transformation, _ in mono_font[glyph].references:
-			x = transformation[4]
-			y = transformation[5]
-			offset = DOT_SIZE * (MONO_ADVANCE_WIDTH - mono_font[component].width) // (2 * DOT_SIZE)
-			new_references.append((component, (1, 0, 0, 1, x - offset, y)))
+		for component, (_, _, _, _, x, y), _ in mono_font[glyph].references:
+			x_offset = glyph_x_offsets[component] if mono_font[glyph].width != mono_font[component].width else 0
+			new_references.append((component, (1, 0, 0, 1, x - x_offset, y)))
 		mono_font[glyph].references = tuple(new_references)
+
+		# print(f"Merged: {glyph} with offset: {glyph_x_offsets[glyph]}")
 
 	# fill out font with glyphs that did not need special monospaced versions
 	for glyph in proportional_font:
@@ -402,10 +412,14 @@ def make_mono(mono_source, main_source):
 
 	# make narrower glyphs a uniform width
 	for glyph in mono_font:
-		mono_font[glyph].left_side_bearing = int(mono_font[glyph].left_side_bearing + DOT_SIZE * (MONO_ADVANCE_WIDTH - mono_font[glyph].width) // (2 * DOT_SIZE))
-		mono_font[glyph].right_side_bearing = int(mono_font[glyph].right_side_bearing + MONO_ADVANCE_WIDTH - mono_font[glyph].width)
+		if mono_font[glyph].width < MONO_ADVANCE_WIDTH:
+			# if len(mono_font[glyph].references) and mono_font[glyph].references[0][0] == "dot":
+			mono_font[glyph].transform((1, 0, 0, 1, glyph_x_offset(glyph), 0))
+			mono_font[glyph].width = MONO_ADVANCE_WIDTH
+		# mono_font[glyph].left_side_bearing = int(mono_font[glyph].left_side_bearing + DOT_SIZE * (MONO_ADVANCE_WIDTH - mono_font[glyph].width) // (2 * DOT_SIZE))
+		# mono_font[glyph].right_side_bearing = int(mono_font[glyph].right_side_bearing + MONO_ADVANCE_WIDTH - mono_font[glyph].width)
 
-	mono_font.save(f"temp\\{mono_font.fontname}.sfd")
+	mono_font.save(MONO_TEMP)
 
 
 def main():
@@ -416,6 +430,7 @@ def main():
 	make_video(MAIN_SOURCE)
 	make_smooth(MAIN_SOURCE)
 	make_mono(MONO_SOURCE, MAIN_SOURCE)
+	make_regular(MONO_TEMP)
 
 if __name__ == "__main__":
 	main()

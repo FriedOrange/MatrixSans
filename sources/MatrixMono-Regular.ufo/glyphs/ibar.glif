@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ibar" format="2">
+  <advance width="600"/>
+  <unicode hex="0268"/>
+  <outline>
+    <component base="dotaccent" xOffset="200.0"/>
+    <component base="ibardotless" xOffset="100.0"/>
+  </outline>
+</glyph>
