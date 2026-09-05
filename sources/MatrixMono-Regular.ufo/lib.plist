@@ -512,7 +512,7 @@
       <string>Phi</string>
       <string>Chi</string>
       <string>Psi</string>
-      <string>uni03A9</string>
+      <string>Omega</string>
       <string>Iotadieresis</string>
       <string>Upsilondieresis</string>
       <string>alphatonos</string>
@@ -2556,6 +2556,8 @@
       <key>Omacronacute</key>
       <string>base</string>
       <key>Omacrongrave</key>
+      <string>base</string>
+      <key>Omega</key>
       <string>base</string>
       <key>Omegatonos</key>
       <string>base</string>
@@ -4902,8 +4904,6 @@
       <key>uni0372</key>
       <string>base</string>
       <key>uni0373</key>
-      <string>base</string>
-      <key>uni03A9</key>
       <string>base</string>
       <key>uni03D0</key>
       <string>base</string>

@@ -582,6 +582,8 @@
     <string>O_macronacute.glif</string>
     <key>Omacrongrave</key>
     <string>O_macrongrave.glif</string>
+    <key>Omega</key>
+    <string>O_mega.glif</string>
     <key>Omegatonos</key>
     <string>O_megatonos.glif</string>
     <key>Omicron</key>
@@ -2928,8 +2930,6 @@
     <string>uni0372.glif</string>
     <key>uni0373</key>
     <string>uni0373.glif</string>
-    <key>uni03A9</key>
-    <string>uni03A_9.glif</string>
     <key>uni03D0</key>
     <string>uni03D_0.glif</string>
     <key>uni03D1</key>

@@ -3,7 +3,7 @@
   <advance width="600"/>
   <unicode hex="1EED"/>
   <outline>
-    <component base="hookabovecomb"/>
     <component base="uhorn"/>
+    <component base="hookabovecomb" xOffset="300.0"/>
   </outline>
 </glyph>
