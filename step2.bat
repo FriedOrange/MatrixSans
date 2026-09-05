@@ -6,6 +6,8 @@ fontforge -script step2.py
 rem Generate intermediate UFO sources
 for %%f in (temp\Matrix*-Regular.sfd) do (
 	sfd2ufo %%f %%~nf.ufo
+)
+for %%f in (temp\MatrixSans*-Regular.sfd) do (
 	copy features.fea %%~nf.ufo\features.fea
 )
 
