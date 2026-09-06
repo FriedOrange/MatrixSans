@@ -1726,6 +1726,10 @@
       <string>uhorntilde.sc</string>
       <string>uhorndotbelow.sc</string>
       <string>aeacute.sc</string>
+      <string>circumflexcomb_acutecomb</string>
+      <string>circumflexcomb_gravecomb</string>
+      <string>circumflexcomb_hookabovecomb</string>
+      <string>circumflexcomb_tildecomb</string>
       <string>idotaccent</string>
       <string>Eng.loclNSM</string>
       <string>a.sc</string>
@@ -1822,10 +1826,6 @@
       <string>question.sc</string>
       <string>exclamdown.sc</string>
       <string>questiondown.sc</string>
-      <string>circumflexcomb_acutecomb</string>
-      <string>circumflexcomb_gravecomb</string>
-      <string>circumflexcomb_hookabovecomb</string>
-      <string>circumflexcomb_tildecomb</string>
       <string>y.titl</string>
       <string>ebreve.sc</string>
       <string>gcircumflex.sc</string>

@@ -2,6 +2,6 @@
 <glyph name="circumflexcomb_hookabovecomb" format="2">
   <outline>
     <component base="hookabovecomb" xOffset="200.0" yOffset="200.0"/>
-    <component base="circumflexcomb"/>
+    <component base="circumflex" xOffset="-200.0"/>
   </outline>
 </glyph>

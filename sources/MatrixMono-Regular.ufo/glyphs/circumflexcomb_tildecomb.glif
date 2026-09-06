@@ -2,7 +2,7 @@
 <glyph name="circumflexcomb_tildecomb" format="2">
   <advance width="600"/>
   <outline>
-    <component base="tildecomb" xOffset="300.0" yOffset="200.0"/>
-    <component base="circumflexcomb" xOffset="300.0"/>
+    <component base="circumflex"/>
+    <component base="tilde" yOffset="200.0"/>
   </outline>
 </glyph>
