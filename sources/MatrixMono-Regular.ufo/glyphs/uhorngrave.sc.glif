@@ -3,6 +3,6 @@
   <advance width="600"/>
   <outline>
     <component base="uhorn.sc"/>
-    <component base="gravecomb" xOffset="300.0"/>
+    <component base="gravecomb"/>
   </outline>
 </glyph>

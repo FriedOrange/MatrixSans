@@ -3,6 +3,6 @@
   <advance width="600"/>
   <outline>
     <component base="uhorn.sc"/>
-    <component base="hookabovecomb" xOffset="300.0"/>
+    <component base="hookabovecomb"/>
   </outline>
 </glyph>

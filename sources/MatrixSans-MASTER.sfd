@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1657964544
-ModificationTime: 1788674744
+ModificationTime: 1788680413
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -64,7 +64,7 @@ NameList: MatrixSans
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 1114096 16 12
+WinInfo: 592 16 12
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 629146 314573 209715 524288 1048576 0 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
@@ -22116,143 +22116,143 @@ EndChar
 StartChar: uni1CA0
 Encoding: 7328 7328 1372
 Width: 600
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Fore
-Refer: 1319 4320 N 1 0 0 1 0 0 2
+Refer: 1319 4320 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: uni1CA1
 Encoding: 7329 7329 1373
 Width: 600
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Fore
-Refer: 1320 4321 N 1 0 0 1 0 0 2
+Refer: 1320 4321 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: uni1CA3
 Encoding: 7331 7331 1374
 Width: 600
 VWidth: 1200
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Fore
-Refer: 1322 4323 N 1 0 0 1 0 200 2
+Refer: 1322 4323 N 1 0 0 1 0 200 3
 EndChar
 
 StartChar: uni1CA4
 Encoding: 7332 7332 1375
 Width: 700
 VWidth: 1200
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Fore
-Refer: 1323 4324 N 1 0 0 1 0 200 2
+Refer: 1323 4324 N 1 0 0 1 0 200 3
 EndChar
 
 StartChar: uni1CA6
 Encoding: 7334 7334 1376
 Width: 600
 VWidth: 1200
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Fore
-Refer: 1325 4326 N 1 0 0 1 0 200 2
+Refer: 1325 4326 N 1 0 0 1 0 200 3
 EndChar
 
 StartChar: uni1CA8
 Encoding: 7336 7336 1377
 Width: 600
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Fore
-Refer: 1326 4328 N 1 0 0 1 0 0 2
+Refer: 1326 4328 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: uni1CA9
 Encoding: 7337 7337 1378
 Width: 600
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Fore
-Refer: 1327 4329 N 1 0 0 1 0 0 2
+Refer: 1327 4329 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: uni1CAA
 Encoding: 7338 7338 1379
 Width: 600
 VWidth: 1200
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Fore
-Refer: 1328 4330 N 1 0 0 1 0 200 2
+Refer: 1328 4330 N 1 0 0 1 0 200 3
 EndChar
 
 StartChar: uni1CAB
 Encoding: 7339 7339 1380
 Width: 600
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Fore
-Refer: 1329 4331 N 1 0 0 1 0 0 2
+Refer: 1329 4331 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: uni1CAE
 Encoding: 7342 7342 1381
 Width: 600
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Fore
-Refer: 1332 4334 N 1 0 0 1 0 0 2
+Refer: 1332 4334 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: uni1CB0
 Encoding: 7344 7344 1382
 Width: 600
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Fore
-Refer: 1334 4336 N 1 0 0 1 0 0 2
+Refer: 1334 4336 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: uni1CB1
 Encoding: 7345 7345 1383
 Width: 600
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Fore
-Refer: 1335 4337 N 1 0 0 1 0 0 2
+Refer: 1335 4337 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: uni1CB8
 Encoding: 7352 7352 1384
 Width: 600
 VWidth: 1200
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Fore
-Refer: 1340 4344 N 1 0 0 1 0 200 2
+Refer: 1340 4344 N 1 0 0 1 0 200 3
 EndChar
 
 StartChar: uni1CB9
 Encoding: 7353 7353 1385
 Width: 600
 VWidth: 1200
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Fore
-Refer: 1341 4345 N 1 0 0 1 0 200 2
+Refer: 1341 4345 N 1 0 0 1 0 200 3
 EndChar
 
 StartChar: uni1CBA
 Encoding: 7354 7354 1386
 Width: 600
 VWidth: 1200
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Fore
-Refer: 1342 4346 N 1 0 0 1 0 200 2
+Refer: 1342 4346 N 1 0 0 1 0 200 3
 EndChar
 
 StartChar: uni10B5
@@ -27085,10 +27085,10 @@ EndChar
 StartChar: ibar
 Encoding: 616 616 1692
 Width: 400
-Flags: MW
+Flags: HMWO
 LayerCount: 2
 Fore
-Refer: 242 729 N 1 0 0 1 100 0 2
+Refer: 284 775 N 1 0 0 1 200 0 2
 Refer: 1707 -1 N 1 0 0 1 0 0 3
 EndChar
 

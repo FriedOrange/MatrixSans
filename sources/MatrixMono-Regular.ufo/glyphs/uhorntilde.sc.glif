@@ -3,6 +3,6 @@
   <advance width="600"/>
   <outline>
     <component base="uhorn.sc"/>
-    <component base="tildecomb" xOffset="300.0"/>
+    <component base="tildecomb"/>
   </outline>
 </glyph>
