@@ -7654,6 +7654,8 @@
 			<string>Geor</string>
 			<string>Lisu</string>
 			<string>Tfng</string>
+			<string>Dsrt</string>
+			<string>Shaw</string>
 		</array>
 		<key>slng</key>
 		<array>
@@ -7664,6 +7666,8 @@
 			<string>Geor</string>
 			<string>Lisu</string>
 			<string>Tfng</string>
+			<string>Dsrt</string>
+			<string>Shaw</string>
 			<string>Hebr</string>
 		</array>
 	</dict>
