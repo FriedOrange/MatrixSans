@@ -2,6 +2,6 @@
 <glyph name="saltillo.sc" format="2">
   <advance width="600"/>
   <outline>
-    <component base="quotesingle" xOffset="200.0" yOffset="-200.0"/>
+    <component base="quotesingle" yOffset="-200.0"/>
   </outline>
 </glyph>

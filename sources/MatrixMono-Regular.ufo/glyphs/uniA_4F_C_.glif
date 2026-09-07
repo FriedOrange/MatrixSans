@@ -3,6 +3,6 @@
   <advance width="600"/>
   <unicode hex="A4FC"/>
   <outline>
-    <component base="semicolon" xOffset="100.0"/>
+    <component base="semicolon"/>
   </outline>
 </glyph>

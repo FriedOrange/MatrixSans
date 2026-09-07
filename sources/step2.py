@@ -416,6 +416,9 @@ def make_mono(mono_source, main_source):
 			# if len(mono_font[glyph].references) and mono_font[glyph].references[0][0] == "dot":
 			mono_font[glyph].transform((1, 0, 0, 1, glyph_x_offset(glyph), 0))
 			mono_font[glyph].width = MONO_ADVANCE_WIDTH
+			while mono_font[glyph].left_side_bearing > (mono_font[glyph].right_side_bearing + 1):
+				mono_font.selection.select(glyph)
+				mono_font.transform((1, 0, 0, 1, -DOT_SIZE, 0), ("noWidth",))
 		# mono_font[glyph].left_side_bearing = int(mono_font[glyph].left_side_bearing + DOT_SIZE * (MONO_ADVANCE_WIDTH - mono_font[glyph].width) // (2 * DOT_SIZE))
 		# mono_font[glyph].right_side_bearing = int(mono_font[glyph].right_side_bearing + MONO_ADVANCE_WIDTH - mono_font[glyph].width)
 

@@ -2,7 +2,7 @@
 <glyph name="circumflexcomb_hookabovecomb" format="2">
   <advance width="600"/>
   <outline>
-    <component base="hookabovecomb" xOffset="200.0" yOffset="200.0"/>
-    <component base="circumflex"/>
+    <component base="hookabovecomb" xOffset="100.0" yOffset="200.0"/>
+    <component base="circumflex" xOffset="-100.0"/>
   </outline>
 </glyph>
