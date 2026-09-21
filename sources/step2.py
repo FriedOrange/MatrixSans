@@ -391,6 +391,8 @@ def make_mono(mono_source, main_source):
 			mono_font.createChar(unicode, glyph_name)
 			mono_font.selection.select(glyph_name)
 			mono_font.paste()
+			if mono_font[glyph_name].width > MONO_ADVANCE_WIDTH:
+				mono_font[glyph_name].width = MONO_ADVANCE_WIDTH
 
 		if glyph_name not in processed:
 			# adjust x position of references if the component's width < 600

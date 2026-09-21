@@ -3,7 +3,7 @@
   <advance width="600"/>
   <unicode hex="300A"/>
   <outline>
-    <component base="leftanglebracket_math" xOffset="-50.0"/>
     <component base="leftanglebracket_math" xOffset="150.0"/>
+    <component base="leftanglebracket_math" xOffset="-50.0"/>
   </outline>
 </glyph>

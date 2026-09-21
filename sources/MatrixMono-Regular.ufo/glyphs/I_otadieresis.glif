@@ -4,6 +4,6 @@
   <unicode hex="03AA"/>
   <outline>
     <component base="dieresiscomb" yOffset="200.0"/>
-    <component base="Iota" xOffset="100.0"/>
+    <component base="Iota"/>
   </outline>
 </glyph>
