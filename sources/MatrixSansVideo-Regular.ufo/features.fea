@@ -1,2 +1,2 @@
-include(../common-video.fea); 
-include(../proportional.fea); 
+include(common-video.fea); 
+include(proportional.fea); 

@@ -1,2 +1,2 @@
-include(../common.fea); 
-include(../proportional.fea); 
+include(common.fea); 
+include(proportional.fea); 
