@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1675081307
-ModificationTime: 1786194653
+ModificationTime: 1789980761
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -44,7 +44,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 66560 16 12
+WinInfo: 9680 16 12
 BeginChars: 1114139 163
 
 StartChar: quarterdot
@@ -494,8 +494,8 @@ EndChar
 
 StartChar: bullet
 Encoding: 8226 8226 6
-Width: 500
-Flags: MW
+Width: 400
+Flags: HMW
 LayerCount: 2
 Fore
 Refer: 0 -1 S 1 0 0 1 250 450 2
@@ -1189,8 +1189,8 @@ EndChar
 
 StartChar: openbullet
 Encoding: 9702 9702 29
-Width: 500
-Flags: MW
+Width: 400
+Flags: HMW
 LayerCount: 2
 Fore
 Refer: 0 -1 N 1 0 0 1 250 450 2
