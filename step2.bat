@@ -14,7 +14,7 @@ for %%f in (temp\MatrixSans*-Regular.sfd) do (
 
 rem Add fixed lib.plist to UFO sources
 fontforge -script fixufo.py
-for %%f in (temp\MatrixSans*.sfd) do copy temp\lib.plist %%~nf.ufo\lib.plist
+for %%f in (temp\Matrix*-Regular.sfd) do copy temp\lib.plist %%~nf.ufo\lib.plist
 
 rem Patch Video style feature file
 python patchccmp.py
