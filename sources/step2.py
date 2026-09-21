@@ -374,11 +374,12 @@ def make_mono(mono_source, main_source):
 	mono_font = fontforge.open(mono_source)
 	proportional_font = fontforge.open(main_source)
 	glyph_x_offsets = {}
+	processed = set()
 	
 	def merge_glyph(glyph_name):
 		# recursively add components so we don't add references to nonexistent glyphs
 		for component, _, _ in proportional_font[glyph_name].references:
-			if component not in mono_font:
+			if component not in processed:
 				merge_glyph(component)
 		# print(f"Merging {glyph_name}")
 
@@ -390,7 +391,8 @@ def make_mono(mono_source, main_source):
 			mono_font.createChar(unicode, glyph_name)
 			mono_font.selection.select(glyph_name)
 			mono_font.paste()
-	
+
+		if glyph_name not in processed:
 			# adjust x position of references if the component's width < 600
 			mono_font[glyph_name].references = tuple(
 				(component, (1, 0, 0, 1, x - glyph_x_offsets.get(component, 0), y))
@@ -412,6 +414,8 @@ def make_mono(mono_source, main_source):
 				mono_font.selection.select(glyph_name)
 				mono_font.transform((1, 0, 0, 1, offset, 0), ("noWidth",))
 				glyph_x_offsets[glyph_name] = offset
+
+			processed.add(glyph_name)
 
 	for glyph in proportional_font:
 		proportional_font[glyph].width = proportional_font[glyph].width
