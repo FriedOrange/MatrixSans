@@ -2320,7 +2320,7 @@
       <key>I-cy</key>
       <string>base</string>
       <key>IJ</key>
-      <string>base</string>
+      <string>ligature</string>
       <key>Iacute</key>
       <string>base</string>
       <key>Iacute_Jacute</key>
@@ -2910,7 +2910,7 @@
       <key>acute</key>
       <string>base</string>
       <key>acutecomb</key>
-      <string>base</string>
+      <string>mark</string>
       <key>adieresis</key>
       <string>base</string>
       <key>adieresis.sc</key>
@@ -3050,9 +3050,9 @@
       <key>breve</key>
       <string>base</string>
       <key>brevebelowcomb</key>
-      <string>base</string>
+      <string>mark</string>
       <key>brevecomb</key>
-      <string>base</string>
+      <string>mark</string>
       <key>brokenbar</key>
       <string>base</string>
       <key>bullet</key>
@@ -3068,7 +3068,7 @@
       <key>caron</key>
       <string>base</string>
       <key>caroncomb</key>
-      <string>base</string>
+      <string>mark</string>
       <key>ccaron</key>
       <string>base</string>
       <key>ccedilla</key>
@@ -3082,7 +3082,7 @@
       <key>cedilla</key>
       <string>base</string>
       <key>cedillacomb</key>
-      <string>base</string>
+      <string>mark</string>
       <key>cent</key>
       <string>base</string>
       <key>cha-ar</key>
@@ -3114,15 +3114,15 @@
       <key>circumflex</key>
       <string>base</string>
       <key>circumflexcomb</key>
-      <string>base</string>
+      <string>mark</string>
       <key>circumflexcomb_acutecomb</key>
-      <string>base</string>
+      <string>mark</string>
       <key>circumflexcomb_gravecomb</key>
-      <string>base</string>
+      <string>mark</string>
       <key>circumflexcomb_hookabovecomb</key>
-      <string>base</string>
+      <string>mark</string>
       <key>circumflexcomb_tildecomb</key>
-      <string>base</string>
+      <string>mark</string>
       <key>club</key>
       <string>base</string>
       <key>co-ar</key>
@@ -3138,13 +3138,13 @@
       <key>comma-ar</key>
       <string>base</string>
       <key>commaabovecomb</key>
-      <string>base</string>
+      <string>mark</string>
       <key>commaaccentcomb</key>
-      <string>base</string>
+      <string>mark</string>
       <key>commareversedmod</key>
       <string>base</string>
       <key>commaturnedabovecomb</key>
-      <string>base</string>
+      <string>mark</string>
       <key>copyright</key>
       <string>base</string>
       <key>cslash</key>
@@ -3192,7 +3192,7 @@
       <key>dieresis</key>
       <string>base</string>
       <key>dieresiscomb</key>
-      <string>base</string>
+      <string>mark</string>
       <key>dieresistonos</key>
       <string>base</string>
       <key>divide</key>
@@ -3210,13 +3210,13 @@
       <key>dong</key>
       <string>base</string>
       <key>dotaboverightcomb</key>
-      <string>base</string>
+      <string>mark</string>
       <key>dotaccent</key>
       <string>base</string>
       <key>dotaccentcomb</key>
-      <string>base</string>
+      <string>mark</string>
       <key>dotbelowcomb</key>
-      <string>base</string>
+      <string>mark</string>
       <key>dotlessi</key>
       <string>base</string>
       <key>downBlackSmallTriangle</key>
@@ -3548,7 +3548,7 @@
       <key>grave</key>
       <string>base</string>
       <key>gravecomb</key>
-      <string>base</string>
+      <string>mark</string>
       <key>greater</key>
       <string>base</string>
       <key>greaterequal</key>
@@ -3612,15 +3612,15 @@
       <key>ho-ar.sc</key>
       <string>base</string>
       <key>hookabovecomb</key>
-      <string>base</string>
+      <string>mark</string>
       <key>horncomb</key>
-      <string>base</string>
+      <string>mark</string>
       <key>hryvnia</key>
       <string>base</string>
       <key>hungarumlaut</key>
       <string>base</string>
       <key>hungarumlautcomb</key>
-      <string>base</string>
+      <string>mark</string>
       <key>hyphen</key>
       <string>base</string>
       <key>hyphen-ar</key>
@@ -3690,9 +3690,9 @@
       <key>iishorttail-cy</key>
       <string>base</string>
       <key>ij</key>
-      <string>base</string>
+      <string>ligature</string>
       <key>ij.sc</key>
-      <string>base</string>
+      <string>ligature</string>
       <key>imacron</key>
       <string>base</string>
       <key>imacron-cy</key>
@@ -3912,9 +3912,9 @@
       <key>macron</key>
       <string>base</string>
       <key>macronbelowcomb</key>
-      <string>base</string>
+      <string>mark</string>
       <key>macroncomb</key>
-      <string>base</string>
+      <string>mark</string>
       <key>macute</key>
       <string>base</string>
       <key>macute.sc</key>
@@ -4066,7 +4066,7 @@
       <key>ogonek</key>
       <string>base</string>
       <key>ogonekcomb</key>
-      <string>base</string>
+      <string>mark</string>
       <key>ograve</key>
       <string>base</string>
       <key>oh-ar</key>
@@ -4280,7 +4280,7 @@
       <key>ring</key>
       <string>base</string>
       <key>ringcomb</key>
-      <string>base</string>
+      <string>mark</string>
       <key>ringhalfleft</key>
       <string>base</string>
       <key>ringhalfleft-ar</key>
@@ -4458,7 +4458,7 @@
       <key>tilde</key>
       <string>base</string>
       <key>tildecomb</key>
-      <string>base</string>
+      <string>mark</string>
       <key>tiwn-ar</key>
       <string>base</string>
       <key>tmacronbelow</key>
@@ -4892,15 +4892,15 @@
       <key>uni02D7</key>
       <string>base</string>
       <key>uni0315</key>
-      <string>base</string>
+      <string>mark</string>
       <key>uni0324</key>
-      <string>base</string>
+      <string>mark</string>
       <key>uni0329</key>
-      <string>base</string>
+      <string>mark</string>
       <key>uni0332</key>
-      <string>base</string>
+      <string>mark</string>
       <key>uni0335</key>
-      <string>base</string>
+      <string>mark</string>
       <key>uni0372</key>
       <string>base</string>
       <key>uni0373</key>
@@ -5764,7 +5764,7 @@
       <key>ve-cy.loclBGR</key>
       <string>base</string>
       <key>verticallineabovecomb</key>
-      <string>base</string>
+      <string>mark</string>
       <key>vew-ar</key>
       <string>base</string>
       <key>vew-ar.sc</key>

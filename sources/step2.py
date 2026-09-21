@@ -391,6 +391,7 @@ def make_mono(mono_source, main_source):
 			mono_font.createChar(unicode, glyph_name)
 			mono_font.selection.select(glyph_name)
 			mono_font.paste()
+			mono_font[glyph_name].glyphclass = proportional_font[glyph_name].glyphclass
 			if mono_font[glyph_name].width > MONO_ADVANCE_WIDTH:
 				mono_font[glyph_name].width = MONO_ADVANCE_WIDTH
 
