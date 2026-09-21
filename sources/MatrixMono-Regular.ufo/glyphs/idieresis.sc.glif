@@ -2,7 +2,7 @@
 <glyph name="idieresis.sc" format="2">
   <advance width="600"/>
   <outline>
-    <component base="dieresiscomb" xOffset="-100.0"/>
+    <component base="dieresiscomb"/>
     <component base="i.sc"/>
   </outline>
 </glyph>

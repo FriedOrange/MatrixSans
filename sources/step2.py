@@ -374,56 +374,50 @@ def make_mono(mono_source, main_source):
 	mono_font = fontforge.open(mono_source)
 	proportional_font = fontforge.open(main_source)
 	glyph_x_offsets = {}
-
-	def glyph_x_offset(glyph):
-		return max(int(DOT_SIZE * ((MONO_ADVANCE_WIDTH - mono_font[glyph].width) // (2 * DOT_SIZE))), 0)
-
-	def merge_glyph(glyph):
+	
+	def merge_glyph(glyph_name):
 		# recursively add components so we don't add references to nonexistent glyphs
-		for component, transformation, _ in proportional_font[glyph].references:
+		for component, _, _ in proportional_font[glyph_name].references:
 			if component not in mono_font:
 				merge_glyph(component)
-			elif component not in glyph_x_offsets:
-				glyph_x_offsets[component] = glyph_x_offset(component)
+		# print(f"Merging {glyph_name}")
 
-		uni = proportional_font[glyph].unicode
-		proportional_font.selection.select(glyph)
-		proportional_font.copy()
-		mono_font.createChar(uni, glyph)
-		mono_font.selection.select(glyph)
-		mono_font.paste()
-		glyph_x_offsets[glyph] = glyph_x_offset(glyph) # amount that references to this glyph will need to be shifted left after increasing its advance width
-		# if len(mono_font[glyph].references) == 1: # some glyphs such as combining marks have multiple levels of references needing shifting
-		# 	cumulative_x_offsets[glyph] += cumulative_x_offsets.get(mono_font[glyph].references[0][0], 0)
+		# add this glyph to the monospaced font
+		if glyph_name not in mono_font:
+			unicode = proportional_font[glyph_name].unicode
+			proportional_font.selection.select(glyph_name)
+			proportional_font.copy()
+			mono_font.createChar(unicode, glyph_name)
+			mono_font.selection.select(glyph_name)
+			mono_font.paste()
+	
+			# adjust x position of references if the component's width < 600
+			mono_font[glyph_name].references = tuple(
+				(component, (1, 0, 0, 1, x - glyph_x_offsets.get(component, 0), y))
+				for component, (_, _, _, _, x, y), _ in mono_font[glyph_name].references
+			)
+			# new_refs = []
+			# for component, (_, _, _, _, x, y), _ in mono_font[glyph_name].references:
+			# 	new_refs.append((component, (1, 0, 0, 1, x - glyph_x_offsets.get(component, 0), y)))
+			# 	# if component != "dot": print(f"Adjusting component '{component}' by -{glyph_x_offsets.get(component, 0)}")
+			# mono_font[glyph_name].references = tuple(new_refs)
 
-		# adjust x position of references if the component's width < 600
-		new_references = []
-		for component, (_, _, _, _, x, y), _ in mono_font[glyph].references:
-			x_offset = glyph_x_offsets[component] if mono_font[glyph].width != mono_font[component].width else 0
-			new_references.append((component, (1, 0, 0, 1, x - x_offset, y)))
-		mono_font[glyph].references = tuple(new_references)
+			# make narrower glyphs a uniform width
+			if proportional_font[glyph_name].width < MONO_ADVANCE_WIDTH:
+				offset = (MONO_ADVANCE_WIDTH - proportional_font[glyph_name].width) // (2 * DOT_SIZE) * DOT_SIZE
+				# print(f"Widening {glyph_name} with offset {offset}")
+				# width_increase = MONO_ADVANCE_WIDTH - mono_font[glyph_name].width
+				# mono_font[glyph_name].right_side_bearing = int(mono_font[glyph_name].right_side_bearing + width_increase)
+				mono_font[glyph_name].width = MONO_ADVANCE_WIDTH
+				mono_font.selection.select(glyph_name)
+				mono_font.transform((1, 0, 0, 1, offset, 0), ("noWidth",))
+				glyph_x_offsets[glyph_name] = offset
 
-		# print(f"Merged: {glyph} with offset: {glyph_x_offsets[glyph]}")
-
-	# fill out font with glyphs that did not need special monospaced versions
 	for glyph in proportional_font:
-		if glyph not in mono_font:
-			merge_glyph(glyph)
-
-	# make narrower glyphs a uniform width
-	for glyph in mono_font:
-		if mono_font[glyph].width < MONO_ADVANCE_WIDTH:
-			# if len(mono_font[glyph].references) and mono_font[glyph].references[0][0] == "dot":
-			mono_font[glyph].transform((1, 0, 0, 1, glyph_x_offset(glyph), 0))
-			mono_font[glyph].width = MONO_ADVANCE_WIDTH
-			while mono_font[glyph].left_side_bearing > (mono_font[glyph].right_side_bearing + 1):
-				mono_font.selection.select(glyph)
-				mono_font.transform((1, 0, 0, 1, -DOT_SIZE, 0), ("noWidth",))
-		# mono_font[glyph].left_side_bearing = int(mono_font[glyph].left_side_bearing + DOT_SIZE * (MONO_ADVANCE_WIDTH - mono_font[glyph].width) // (2 * DOT_SIZE))
-		# mono_font[glyph].right_side_bearing = int(mono_font[glyph].right_side_bearing + MONO_ADVANCE_WIDTH - mono_font[glyph].width)
+		proportional_font[glyph].width = proportional_font[glyph].width
+		merge_glyph(glyph)
 
 	mono_font.save(MONO_TEMP)
-
 
 def main():
 	make_regular(MAIN_SOURCE)

@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni04F8" format="2">
-  <advance width="600"/>
+  <advance width="700"/>
   <unicode hex="04F8"/>
   <outline>
-    <component base="Yeru-cy"/>
     <component base="dieresiscomb" yOffset="200.0"/>
+    <component base="Yeru-cy"/>
   </outline>
 </glyph>

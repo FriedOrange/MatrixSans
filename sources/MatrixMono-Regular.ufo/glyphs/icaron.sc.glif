@@ -2,7 +2,7 @@
 <glyph name="icaron.sc" format="2">
   <advance width="600"/>
   <outline>
-    <component base="caroncomb" xOffset="-100.0"/>
+    <component base="caroncomb"/>
     <component base="i.sc"/>
   </outline>
 </glyph>

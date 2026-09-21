@@ -3,6 +3,6 @@
   <advance width="600"/>
   <outline>
     <component base="i.sc"/>
-    <component base="tonos" xOffset="-100.0" yOffset="100.0"/>
+    <component base="tonos" yOffset="100.0"/>
   </outline>
 </glyph>

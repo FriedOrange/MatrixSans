@@ -2,7 +2,7 @@
 <glyph name="igrave.sc" format="2">
   <advance width="600"/>
   <outline>
-    <component base="gravecomb" xOffset="-100.0"/>
+    <component base="gravecomb"/>
     <component base="i.sc"/>
   </outline>
 </glyph>

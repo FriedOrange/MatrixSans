@@ -1720,16 +1720,6 @@
       <string>iacute_jacute</string>
       <string>Iacute_Jacute</string>
       <string>napostrophe.sc</string>
-      <string>uhornacute.sc</string>
-      <string>uhorngrave.sc</string>
-      <string>uhornhookabove.sc</string>
-      <string>uhorntilde.sc</string>
-      <string>uhorndotbelow.sc</string>
-      <string>aeacute.sc</string>
-      <string>circumflexcomb_acutecomb</string>
-      <string>circumflexcomb_gravecomb</string>
-      <string>circumflexcomb_hookabovecomb</string>
-      <string>circumflexcomb_tildecomb</string>
       <string>idotaccent</string>
       <string>Eng.loclNSM</string>
       <string>a.sc</string>
@@ -1826,6 +1816,10 @@
       <string>question.sc</string>
       <string>exclamdown.sc</string>
       <string>questiondown.sc</string>
+      <string>circumflexcomb_acutecomb</string>
+      <string>circumflexcomb_gravecomb</string>
+      <string>circumflexcomb_hookabovecomb</string>
+      <string>circumflexcomb_tildecomb</string>
       <string>y.titl</string>
       <string>ebreve.sc</string>
       <string>gcircumflex.sc</string>
@@ -1868,6 +1862,11 @@
       <string>idotbelow.sc</string>
       <string>udotbelow.sc</string>
       <string>uhookabove.sc</string>
+      <string>uhornacute.sc</string>
+      <string>uhorngrave.sc</string>
+      <string>uhornhookabove.sc</string>
+      <string>uhorntilde.sc</string>
+      <string>uhorndotbelow.sc</string>
       <string>ydotbelow.sc</string>
       <string>yhookabove.sc</string>
       <string>ytilde.sc</string>
@@ -1904,6 +1903,7 @@
       <string>omegatonos.sc</string>
       <string>iotadieresistonos.sc</string>
       <string>tbar.sc</string>
+      <string>aeacute.sc</string>
       <string>ayb-ar.sc</string>
       <string>ben-ar.sc</string>
       <string>gim-ar.sc</string>

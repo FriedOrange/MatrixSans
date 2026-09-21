@@ -2,7 +2,7 @@
 <glyph name="imacron.sc" format="2">
   <advance width="600"/>
   <outline>
-    <component base="macroncomb" xOffset="-100.0"/>
+    <component base="macroncomb"/>
     <component base="i.sc"/>
   </outline>
 </glyph>
