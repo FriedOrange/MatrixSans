@@ -3,7 +3,7 @@
   <advance width="600"/>
   <unicode hex="300B"/>
   <outline>
-    <component base="rightanglebracket_math" xOffset="150.0"/>
-    <component base="rightanglebracket_math" xOffset="-50.0"/>
+    <component base="rightanglebracket_math" xOffset="200.0"/>
+    <component base="rightanglebracket_math"/>
   </outline>
 </glyph>
