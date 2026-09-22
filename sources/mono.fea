@@ -222,8 +222,8 @@ feature frac {
 	sub three [slash fraction] four by threequarters;
 	sub one [slash fraction] three by onethird;
 	sub two [slash fraction] three by twothirds;
-	sub one [slash fraction] eight by oneeigth;
-	sub three [slash fraction] eight by threeeigths;
-	sub five [slash fraction] eight by fiveeigths;
-	sub seven [slash fraction] eight by seveneigths;
+	sub one [slash fraction] eight by oneeighth;
+	sub three [slash fraction] eight by threeeighths;
+	sub five [slash fraction] eight by fiveeighths;
+	sub seven [slash fraction] eight by seveneighths;
 } frac;
