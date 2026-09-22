@@ -6,6 +6,9 @@ sources:
   - MatrixSansRaster-Regular.ufo
   - MatrixSansSmooth-Regular.ufo
   - MatrixMono-Regular.ufo
+  - MatrixMonoScreen-Regular.ufo
+  - MatrixMonoPrint-Regular.ufo
+  - MatrixMonoRaster-Regular.ufo
 familyName: Matrix Sans
 buildVariable: false
 removeOutlineOverlaps: false
