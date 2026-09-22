@@ -141,6 +141,11 @@ feature ccmp {
 	sub circumflexcomb tildecomb by circumflexcomb_tildecomb;
 	sub idotbelow' @_marks_above by dotlessi dotbelowcomb;
 	sub iogonek' @_marks_above by dotlessi ogonekcomb;
+	sub O horncomb by Ohorn;
+	sub o horncomb by ohorn;
+	sub U horncomb by Uhorn;
+	sub u horncomb by uhorn;
+	sub u.sc horncomb by uhorn.sc;
 	# sub Idotaccent' @_marks_above by idotaccent.sc;
 	# sub Edotaccent' @_marks_above by edotaccent.sc;
 	# sub Umacron' @_marks_above by umacron.sc;

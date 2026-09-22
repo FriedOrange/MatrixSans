@@ -204,7 +204,8 @@ def make_raster(source):
 	original_widths = {}
 	for glyph in LSB_FIX_LIST:
 		original_widths[glyph] = font[glyph].width
-		font[glyph].left_side_bearing = LEFT_SIDE_BEARING
+		if font[glyph].left_side_bearing < 0:
+			font[glyph].left_side_bearing = LEFT_SIDE_BEARING
 
 	# make glyphs with touching components directly reference "dot"
 	refs_to_dots(font, ["Ohorn", "ohorn", "Uhorn", "uhorn", "uhorn.sc"])
