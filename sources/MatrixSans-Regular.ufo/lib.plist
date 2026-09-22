@@ -1875,7 +1875,6 @@
 		<string>tshe-cy.sc</string>
 		<string>uni0463.sc</string>
 		<string>ustraightstroke-cy.sc</string>
-		<string>shha-cy.sc</string>
 		<string>umacron-cy.sc</string>
 		<string>ushort-cy.sc</string>
 		<string>delta.sc</string>
@@ -4359,8 +4358,6 @@
 		<string>base</string>
 		<key>shha-cy</key>
 		<string>base</string>
-		<key>shha-cy.sc</key>
-		<string>base</string>
 		<key>shhadescender-cy</key>
 		<string>base</string>
 		<key>sigma</key>
@@ -6754,8 +6751,6 @@
 		<string>tshe_cy.sc</string>
 		<key>ustraightstroke-cy.sc</key>
 		<string>ustraightstroke_cy.sc</string>
-		<key>shha-cy.sc</key>
-		<string>shha_cy.sc</string>
 		<key>umacron-cy.sc</key>
 		<string>umacron_cy.sc</string>
 		<key>ushort-cy.sc</key>
