@@ -225,10 +225,7 @@ def make_raster(source):
 		for j in range(GLYPH_HEIGHT):
 			for i in range(GLYPH_WIDTH - 1):
 				if matrix[i][j] and matrix[i + 1][j]:
-					if glyph == "underscore" or glyph == "emdash":
-						font[glyph].addReference("rasterdot2", (1, 0, 0, 1, i * DOT_SIZE, (j - DESCENT_DOTS) * DOT_SIZE))
-					else:
-						font[glyph].addReference("rasterdot2", (1, 0, 0, 1, i * DOT_SIZE + LEFT_SIDE_BEARING, (j - DESCENT_DOTS) * DOT_SIZE))
+					font[glyph].addReference("rasterdot2", (1, 0, 0, 1, i * DOT_SIZE + LEFT_SIDE_BEARING, (j - DESCENT_DOTS) * DOT_SIZE))
 
 	for glyph in LSB_FIX_LIST:
 		restore_width(font, glyph, original_widths[glyph])
