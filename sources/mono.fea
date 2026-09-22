@@ -166,10 +166,10 @@ feature mark {
 		<anchor 300 0> mark @marks_below
 		<anchor 300 0> mark @marks_belowright;
 	pos base @short_6wide
-		<anchor 400 600> mark @marks_above
+		<anchor 300 600> mark @marks_above
 		<anchor 550 300> mark @marks_aboveright
 		<anchor 300 0> mark @marks_below
-		<anchor 400 0> mark @marks_belowright;
+		<anchor 300 0> mark @marks_belowright;
 	pos base @short_6wide2
 		<anchor 300 600> mark @marks_above
 		<anchor 550 300> mark @marks_aboveright
