@@ -1,9 +1,9 @@
 
 # mark classes
-markClass [gravecomb acutecomb circumflexcomb tildecomb macroncomb brevecomb dotaccentcomb dieresiscomb hookabovecomb ringcomb hungarumlautcomb caroncomb verticallineabovecomb commaturnedabovecomb commaabovecomb circumflexcomb_acutecomb circumflexcomb_gravecomb circumflexcomb_hookabovecomb circumflexcomb_tildecomb] <anchor 0 600> @marks_above;
+markClass [gravecomb acutecomb circumflexcomb tildecomb macroncomb brevecomb dotaccentcomb dieresiscomb hookabovecomb ringcomb hungarumlautcomb caroncomb verticallineabovecomb commaturnedabovecomb commaabovecomb circumflexcomb_acutecomb circumflexcomb_gravecomb circumflexcomb_hookabovecomb circumflexcomb_tildecomb] <anchor 300 600> @marks_above;
 markClass [dotbelowcomb uni0324 commaaccentcomb cedillacomb uni0329 brevebelowcomb macronbelowcomb    uni0332 uni0335] <anchor 0 0> @marks_below; # includes comb short stroke overlay (uni0335)
-markClass [ogonekcomb] <anchor 0 0> @marks_belowright;
-markClass [uni0315 horncomb dotaboverightcomb] <anchor 0 500> @marks_aboveright;
+markClass [ogonekcomb] <anchor 300 0> @marks_belowright;
+markClass [uni0315 horncomb dotaboverightcomb] <anchor 300 500> @marks_aboveright;
 # markClass [gravecomb acutecomb circumflexcomb tildecomb brevecomb ringcomb hungarumlautcomb caroncomb commaturnedabovecomb] <anchor 0 600> @tall_marks_above;
 # markClass [macroncomb dotaccentcomb dieresiscomb] <anchor 0 600> @short_marks_above;
 # markClass [gravecomb acutecomb dotaccentcomb ringcomb caroncomb commaturnedabovecomb] <anchor 0 600> @narrow_marks_above;
@@ -56,63 +56,63 @@ feature mark {
 		<anchor 300 0> mark @marks_below
 		<anchor 400 0> mark @marks_belowright;
 	pos base @tall_narrow
-		<anchor 200 800> mark @marks_above
-		<anchor 250 500> mark @marks_aboveright
-		<anchor 200 0> mark @marks_below
-		<anchor 200 0> mark @marks_belowright;
-	pos base @tall_1wide
-		<anchor 100 800> mark @marks_above
-		<anchor 150 500> mark @marks_aboveright
-		<anchor 100 0> mark @marks_below
-		<anchor 100 0> mark @marks_belowright;
-	pos base @tall_4wide
-		<anchor 200 800> mark @marks_above
+		<anchor 300 800> mark @marks_above
 		<anchor 450 500> mark @marks_aboveright
-		<anchor 200 0> mark @marks_below
+		<anchor 300 0> mark @marks_below
+		<anchor 300 0> mark @marks_belowright;
+	pos base @tall_1wide
+		<anchor 300 800> mark @marks_above
+		<anchor 350 500> mark @marks_aboveright
+		<anchor 300 0> mark @marks_below
+		<anchor 300 0> mark @marks_belowright;
+	pos base @tall_4wide
+		<anchor 300 800> mark @marks_above
+		<anchor 450 500> mark @marks_aboveright
+		<anchor 300 0> mark @marks_below
 		<anchor 300 0> mark @marks_belowright;
 	pos base @tall_6wide
-		<anchor 400 800> mark @marks_above
-		<anchor 650 500> mark @marks_aboveright
-		<anchor 400 0> mark @marks_below
-		<anchor 500 0> mark @marks_belowright;
+		<anchor 300 800> mark @marks_above
+		<anchor 550 500> mark @marks_aboveright
+		<anchor 300 0> mark @marks_below
+		<anchor 400 0> mark @marks_belowright;
 	pos base @tall_6wide2
 		<anchor 300 800> mark @marks_above
-		<anchor 650 500> mark @marks_aboveright
+		<anchor 550 500> mark @marks_aboveright
 		<anchor 300 0> mark @marks_below
 		<anchor 400 0> mark @marks_belowright;
 	pos base @tall_7wide
-		<anchor 400 800> mark @marks_above
-		<anchor 750 500> mark @marks_aboveright
-		<anchor 400 0> mark @marks_below
-		<anchor 500 0> mark @marks_belowright;
+		<anchor 300 800> mark @marks_above
+		<anchor 550 500> mark @marks_aboveright
+		<anchor 300 0> mark @marks_below
+		<anchor 400 0> mark @marks_belowright;
 	pos base @verytall
 		<anchor 300 1000> mark @marks_above
 		<anchor 550 500> mark @marks_aboveright
 		<anchor 300 0> mark @marks_below
 		<anchor 300 0> mark @marks_belowright;
 	pos base @verytall_narrow
-		<anchor 200 1000> mark @marks_above
-		<anchor 250 500> mark @marks_aboveright
-		<anchor 200 0> mark @marks_below
-		<anchor 200 0> mark @marks_belowright;
+		<anchor 300 1000> mark @marks_above
+		<anchor 450 500> mark @marks_aboveright
+		<anchor 300 0> mark @marks_below
+		<anchor 300 0> mark @marks_belowright;
 	pos base @verytall_7wide
 		<anchor 400 1000> mark @marks_above
-		<anchor 750 500> mark @marks_aboveright
-		<anchor 400 0> mark @marks_below
-		<anchor 500 0> mark @marks_belowright;
+		<anchor 550 500> mark @marks_aboveright
+		<anchor 300 0> mark @marks_below
+		<anchor 400 0> mark @marks_belowright;
 	pos base @long
 		<anchor 300 800> mark @marks_above
 		<anchor 550 500> mark @marks_aboveright
 		<anchor 300 -200> mark @marks_below
 		<anchor 400 -200> mark @marks_belowright;
 	pos base @long_narrow
-		<anchor 200 800> mark @marks_above
-		<anchor 250 500> mark @marks_aboveright
-		<anchor 200 -200> mark @marks_below
-		<anchor 200 -200> mark @marks_belowright;
+		<anchor 300 800> mark @marks_above
+		<anchor 450 500> mark @marks_aboveright
+		<anchor 300 -200> mark @marks_below
+		<anchor 300 -200> mark @marks_belowright;
 	pos base @long_7wide
-		<anchor 400 800> mark @marks_above
-		<anchor 750 500> mark @marks_aboveright
+		<anchor 300 800> mark @marks_above
+		<anchor 550 500> mark @marks_aboveright
 		<anchor 400 -200> mark @marks_below
 		<anchor 500 -200> mark @marks_belowright;
 	pos base @verylong
@@ -121,10 +121,10 @@ feature mark {
 		<anchor 300 -200> mark @marks_below
 		<anchor 400 -200> mark @marks_belowright;
 	pos base @verylong_narrow
-		<anchor 200 1000> mark @marks_above
-		<anchor 250 500> mark @marks_aboveright
-		<anchor 200 -200> mark @marks_below
-		<anchor 200 -200> mark @marks_belowright;
+		<anchor 300 1000> mark @marks_above
+		<anchor 450 500> mark @marks_aboveright
+		<anchor 300 -200> mark @marks_below
+		<anchor 300 -200> mark @marks_belowright;
 	pos base @J
 		<anchor 400 800> mark @marks_above
 		<anchor 550 500> mark @marks_aboveright
@@ -151,34 +151,34 @@ feature mark {
 		<anchor 300 0> mark @marks_below
 		<anchor 300 0> mark @marks_belowright;
 	pos base @short_narrow
-		<anchor 200 600> mark @marks_above
-		<anchor 350 300> mark @marks_aboveright
-		<anchor 200 0> mark @marks_below
-		<anchor 200 0> mark @marks_belowright;
+		<anchor 300 600> mark @marks_above
+		<anchor 450 300> mark @marks_aboveright
+		<anchor 300 0> mark @marks_below
+		<anchor 300 0> mark @marks_belowright;
 	pos base @short_ogonek
 		<anchor 300 600> mark @marks_above
 		<anchor 550 300> mark @marks_aboveright
 		<anchor 300 0> mark @marks_below
 		<anchor 400 0> mark @marks_belowright;
 	pos base @short_4wide
-		<anchor 200 600> mark @marks_above
+		<anchor 300 600> mark @marks_above
 		<anchor 450 300> mark @marks_aboveright
-		<anchor 200 0> mark @marks_below
+		<anchor 300 0> mark @marks_below
 		<anchor 300 0> mark @marks_belowright;
 	pos base @short_6wide
 		<anchor 400 600> mark @marks_above
-		<anchor 650 300> mark @marks_aboveright
-		<anchor 400 0> mark @marks_below
+		<anchor 550 300> mark @marks_aboveright
+		<anchor 300 0> mark @marks_below
 		<anchor 400 0> mark @marks_belowright;
 	pos base @short_6wide2
 		<anchor 300 600> mark @marks_above
-		<anchor 650 300> mark @marks_aboveright
+		<anchor 550 300> mark @marks_aboveright
 		<anchor 300 0> mark @marks_below
 		<anchor 300 0> mark @marks_belowright;
 	pos base @short_7wide
 		<anchor 400 600> mark @marks_above
-		<anchor 750 300> mark @marks_aboveright
-		<anchor 400 0> mark @marks_below
+		<anchor 550 300> mark @marks_aboveright
+		<anchor 300 0> mark @marks_below
 		<anchor 400 0> mark @marks_belowright;
 	pos base @deep
 		<anchor 300 600> mark @marks_above
@@ -186,13 +186,13 @@ feature mark {
 		<anchor 300 -200> mark @marks_below
 		<anchor 300 -200> mark @marks_belowright;
 	pos base @deep_narrow
-		<anchor 200 600> mark @marks_above
-		<anchor 350 300> mark @marks_aboveright
-		<anchor 200 -200> mark @marks_below
-		<anchor 200 -200> mark @marks_belowright;
+		<anchor 300 600> mark @marks_above
+		<anchor 450 300> mark @marks_aboveright
+		<anchor 300 -200> mark @marks_below
+		<anchor 300 -200> mark @marks_belowright;
 	pos base @deep_7wide
 		<anchor 400 600> mark @marks_above
-		<anchor 750 300> mark @marks_aboveright
+		<anchor 550 300> mark @marks_aboveright
 		<anchor 400 -200> mark @marks_below
 		<anchor 400 -200> mark @marks_belowright;
 	pos base @j_mark
@@ -211,13 +211,19 @@ feature mark {
 		<anchor 300 0> mark @marks_below
 		<anchor 300 0> mark @marks_belowright;
 	pos mark @marks_above
-		<anchor 0 800> mark @marks_above;
+		<anchor 300 800> mark @marks_above;
 	pos mark @marks_below
-		<anchor 0 -200> mark @marks_below;
+		<anchor 300 -200> mark @marks_below;
 } mark;
 
 feature frac {
-	lookup NUMR;
-	sub [slash fraction @dnom] @numr' by @dnom;
-	sub [slash fraction] by NULL;
+	sub one [slash fraction] four by onequarter;
+	sub one [slash fraction] two by onehalf;
+	sub three [slash fraction] four by threequarters;
+	sub one [slash fraction] three by onethird;
+	sub two [slash fraction] three by twothirds;
+	sub one [slash fraction] eight by oneeigth;
+	sub three [slash fraction] eight by threeeigths;
+	sub five [slash fraction] eight by fiveeigths;
+	sub seven [slash fraction] eight by seveneigths;
 } frac;

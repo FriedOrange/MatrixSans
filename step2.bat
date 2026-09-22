@@ -11,6 +11,10 @@ for %%f in (temp\MatrixSans*-Regular.sfd) do (
 	echo include(common.fea^); > %%~nf.ufo\features.fea
 	echo include(proportional.fea^); >> %%~nf.ufo\features.fea
 )
+for %%f in (temp\MatrixMono*-Regular.sfd) do (
+	echo include(common.fea^); > %%~nf.ufo\features.fea
+	echo include(mono.fea^); >> %%~nf.ufo\features.fea
+)
 
 rem Add fixed lib.plist to UFO sources
 fontforge -script fixufo.py
