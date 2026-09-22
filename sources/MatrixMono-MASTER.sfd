@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 1
 OS2_UseTypoMetrics: 1
 CreationTime: 1657964544
-ModificationTime: 1790057399
+ModificationTime: 1790059253
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -64,7 +64,7 @@ NameList: MatrixSans
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 144 16 12
+WinInfo: 16 16 12
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 629146 314573 209715 524288 1048576 0 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
@@ -110,7 +110,7 @@ EndChar
 
 StartChar: printdot
 Encoding: 1114114 -1 2
-Width: 100
+Width: 600
 VWidth: 50
 Flags: HW
 LayerCount: 2
@@ -126,23 +126,23 @@ EndChar
 
 StartChar: screendot
 Encoding: 1114115 -1 3
-Width: 7
+Width: 600
 VWidth: 7
 Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-7 7 m 29
- 7 93 l 29
- 93 93 l 29
- 93 7 l 29
- 7 7 l 29
+7 7 m 25
+ 7 93 l 25
+ 93 93 l 25
+ 93 7 l 25
+ 7 7 l 25
 EndSplineSet
 EndChar
 
 StartChar: rasterdot
 Encoding: 1114116 -1 4
-Width: 100
+Width: 600
 VWidth: 0
 Flags: HW
 LayerCount: 2
@@ -160,7 +160,7 @@ EndChar
 
 StartChar: rasterdot2
 Encoding: 1114117 -1 5
-Width: 100
+Width: 600
 VWidth: 0
 Flags: HW
 LayerCount: 2
@@ -176,7 +176,7 @@ EndChar
 
 StartChar: quarterdot
 Encoding: 1114118 -1 6
-Width: 0
+Width: 600
 VWidth: 0
 Flags: HW
 LayerCount: 2
@@ -192,7 +192,7 @@ EndChar
 
 StartChar: chamferTR
 Encoding: 1114119 -1 7
-Width: 0
+Width: 600
 VWidth: 0
 Flags: HW
 LayerCount: 2
@@ -209,7 +209,7 @@ EndChar
 
 StartChar: concaveTR
 Encoding: 1114120 -1 8
-Width: 0
+Width: 600
 VWidth: 0
 Flags: HW
 LayerCount: 2
@@ -226,7 +226,7 @@ EndChar
 
 StartChar: convexTR
 Encoding: 1114121 -1 9
-Width: 0
+Width: 600
 VWidth: 0
 Flags: HW
 LayerCount: 2
@@ -242,7 +242,7 @@ EndChar
 
 StartChar: midTR
 Encoding: 1114122 -1 10
-Width: 0
+Width: 600
 VWidth: 0
 Flags: HW
 LayerCount: 2
@@ -258,7 +258,7 @@ EndChar
 
 StartChar: chamferBR
 Encoding: 1114123 -1 11
-Width: 0
+Width: 600
 VWidth: 0
 Flags: HW
 LayerCount: 2
@@ -275,7 +275,7 @@ EndChar
 
 StartChar: concaveBR
 Encoding: 1114124 -1 12
-Width: 0
+Width: 600
 VWidth: 0
 Flags: HW
 LayerCount: 2
@@ -292,7 +292,7 @@ EndChar
 
 StartChar: convexBR
 Encoding: 1114125 -1 13
-Width: 0
+Width: 600
 VWidth: 0
 Flags: HW
 LayerCount: 2
@@ -308,7 +308,7 @@ EndChar
 
 StartChar: midBR
 Encoding: 1114126 -1 14
-Width: 0
+Width: 600
 VWidth: 0
 Flags: HW
 LayerCount: 2
@@ -324,7 +324,7 @@ EndChar
 
 StartChar: chamferBL
 Encoding: 1114127 -1 15
-Width: 0
+Width: 600
 VWidth: 0
 Flags: HW
 LayerCount: 2
@@ -341,7 +341,7 @@ EndChar
 
 StartChar: concaveBL
 Encoding: 1114128 -1 16
-Width: 0
+Width: 600
 VWidth: 0
 Flags: HW
 LayerCount: 2
@@ -358,7 +358,7 @@ EndChar
 
 StartChar: convexBL
 Encoding: 1114129 -1 17
-Width: 0
+Width: 600
 VWidth: 0
 Flags: HW
 LayerCount: 2
@@ -374,7 +374,7 @@ EndChar
 
 StartChar: midBL
 Encoding: 1114130 -1 18
-Width: 0
+Width: 600
 VWidth: 0
 Flags: HW
 LayerCount: 2
@@ -390,7 +390,7 @@ EndChar
 
 StartChar: chamferTL
 Encoding: 1114131 -1 19
-Width: 0
+Width: 600
 VWidth: 0
 Flags: HW
 LayerCount: 2
@@ -407,7 +407,7 @@ EndChar
 
 StartChar: concaveTL
 Encoding: 1114132 -1 20
-Width: 0
+Width: 600
 VWidth: 0
 Flags: HW
 LayerCount: 2
@@ -424,7 +424,7 @@ EndChar
 
 StartChar: convexTL
 Encoding: 1114133 -1 21
-Width: 0
+Width: 600
 VWidth: 0
 Flags: HW
 LayerCount: 2
@@ -440,7 +440,7 @@ EndChar
 
 StartChar: midTL
 Encoding: 1114134 -1 22
-Width: 0
+Width: 600
 VWidth: 0
 Flags: HW
 LayerCount: 2
@@ -5717,7 +5717,7 @@ EndChar
 StartChar: ldot
 Encoding: 320 320 258
 Width: 600
-Flags: HWO
+Flags: HW
 LayerCount: 2
 Fore
 Refer: 259 183 N 1 0 0 1 400 0 2

@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 1
 OS2_UseTypoMetrics: 1
 CreationTime: 1657964544
-ModificationTime: 1790056599
+ModificationTime: 1790059288
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -23220,7 +23220,7 @@ EndChar
 
 StartChar: printdot
 Encoding: 1114354 -1 1444
-Width: 100
+Width: 600
 VWidth: 50
 Flags: HMW
 LayerCount: 2
@@ -23236,7 +23236,7 @@ EndChar
 
 StartChar: screendot
 Encoding: 1114355 -1 1445
-Width: 7
+Width: 600
 VWidth: 7
 Flags: HMW
 LayerCount: 2
@@ -23252,7 +23252,7 @@ EndChar
 
 StartChar: rasterdot
 Encoding: 1114356 -1 1446
-Width: 100
+Width: 600
 VWidth: 0
 Flags: HMW
 LayerCount: 2
@@ -23270,7 +23270,7 @@ EndChar
 
 StartChar: rasterdot2
 Encoding: 1114357 -1 1447
-Width: 100
+Width: 600
 VWidth: 0
 Flags: HMW
 LayerCount: 2
@@ -23286,7 +23286,7 @@ EndChar
 
 StartChar: quarterdot
 Encoding: 1114358 -1 1448
-Width: 0
+Width: 600
 VWidth: 0
 Flags: HMW
 LayerCount: 2
@@ -23302,7 +23302,7 @@ EndChar
 
 StartChar: chamferTR
 Encoding: 1114359 -1 1449
-Width: 0
+Width: 600
 VWidth: 0
 Flags: HMW
 LayerCount: 2
@@ -23319,7 +23319,7 @@ EndChar
 
 StartChar: concaveTR
 Encoding: 1114360 -1 1450
-Width: 0
+Width: 600
 VWidth: 0
 Flags: HMW
 LayerCount: 2
@@ -23336,7 +23336,7 @@ EndChar
 
 StartChar: convexTR
 Encoding: 1114361 -1 1451
-Width: 0
+Width: 600
 VWidth: 0
 Flags: HMW
 LayerCount: 2
@@ -23352,7 +23352,7 @@ EndChar
 
 StartChar: midTR
 Encoding: 1114362 -1 1452
-Width: 0
+Width: 600
 VWidth: 0
 Flags: HMW
 LayerCount: 2
@@ -23368,7 +23368,7 @@ EndChar
 
 StartChar: chamferBR
 Encoding: 1114363 -1 1453
-Width: 0
+Width: 600
 VWidth: 0
 Flags: HMW
 LayerCount: 2
@@ -23385,7 +23385,7 @@ EndChar
 
 StartChar: concaveBR
 Encoding: 1114364 -1 1454
-Width: 0
+Width: 600
 VWidth: 0
 Flags: HMW
 LayerCount: 2
@@ -23402,7 +23402,7 @@ EndChar
 
 StartChar: convexBR
 Encoding: 1114365 -1 1455
-Width: 0
+Width: 600
 VWidth: 0
 Flags: HMW
 LayerCount: 2
@@ -23418,7 +23418,7 @@ EndChar
 
 StartChar: midBR
 Encoding: 1114366 -1 1456
-Width: 0
+Width: 600
 VWidth: 0
 Flags: HMW
 LayerCount: 2
@@ -23434,7 +23434,7 @@ EndChar
 
 StartChar: chamferBL
 Encoding: 1114367 -1 1457
-Width: 0
+Width: 600
 VWidth: 0
 Flags: HMW
 LayerCount: 2
@@ -23451,7 +23451,7 @@ EndChar
 
 StartChar: concaveBL
 Encoding: 1114368 -1 1458
-Width: 0
+Width: 600
 VWidth: 0
 Flags: HMW
 LayerCount: 2
@@ -23468,7 +23468,7 @@ EndChar
 
 StartChar: convexBL
 Encoding: 1114369 -1 1459
-Width: 0
+Width: 600
 VWidth: 0
 Flags: HMW
 LayerCount: 2
@@ -23484,7 +23484,7 @@ EndChar
 
 StartChar: midBL
 Encoding: 1114370 -1 1460
-Width: 0
+Width: 600
 VWidth: 0
 Flags: HMW
 LayerCount: 2
@@ -23500,7 +23500,7 @@ EndChar
 
 StartChar: chamferTL
 Encoding: 1114371 -1 1461
-Width: 0
+Width: 600
 VWidth: 0
 Flags: HMW
 LayerCount: 2
@@ -23517,7 +23517,7 @@ EndChar
 
 StartChar: concaveTL
 Encoding: 1114372 -1 1462
-Width: 0
+Width: 600
 VWidth: 0
 Flags: HMW
 LayerCount: 2
@@ -23534,7 +23534,7 @@ EndChar
 
 StartChar: convexTL
 Encoding: 1114373 -1 1463
-Width: 0
+Width: 600
 VWidth: 0
 Flags: HMW
 LayerCount: 2
@@ -23550,7 +23550,7 @@ EndChar
 
 StartChar: midTL
 Encoding: 1114374 -1 1464
-Width: 0
+Width: 600
 VWidth: 0
 Flags: HMW
 LayerCount: 2

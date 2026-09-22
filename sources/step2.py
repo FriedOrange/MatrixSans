@@ -435,6 +435,9 @@ def main():
 	make_smooth(MAIN_SOURCE)
 	make_mono(MONO_SOURCE, MAIN_SOURCE)
 	make_regular(MONO_TEMP)
+	make_print(MONO_TEMP)
+	make_raster(MONO_TEMP)
+	make_screen(MONO_TEMP)
 
 if __name__ == "__main__":
 	main()

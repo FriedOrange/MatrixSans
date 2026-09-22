@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Abrevetilde" format="2">
+  <advance width="600"/>
+  <unicode hex="1EB4"/>
+  <outline>
+    <component base="tildecomb" yOffset="200.0"/>
+    <component base="brevecomb"/>
+    <component base="a.sc"/>
+  </outline>
+</glyph>
