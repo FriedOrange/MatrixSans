@@ -11,7 +11,7 @@
 	<key>descender</key>
 	<integer>-200</integer>
 	<key>familyName</key>
-	<string>Matrix Mono</string>
+	<string>Matrix Mono Raster</string>
 	<key>italicAngle</key>
 	<real>0.0</real>
 	<key>openTypeHeadCreated</key>
@@ -47,7 +47,7 @@
 		<integer>11</integer>
 		<integer>2</integer>
 		<integer>2</integer>
-		<integer>3</integer>
+		<integer>4</integer>
 		<integer>2</integer>
 	</array>
 	<key>openTypeOS2Selection</key>
@@ -56,9 +56,9 @@
 		<integer>7</integer>
 	</array>
 	<key>openTypeOS2StrikeoutPosition</key>
-	<integer>300</integer>
+	<integer>310</integer>
 	<key>openTypeOS2StrikeoutSize</key>
-	<integer>100</integer>
+	<integer>80</integer>
 	<key>openTypeOS2SubscriptXOffset</key>
 	<integer>0</integer>
 	<key>openTypeOS2SubscriptXSize</key>
@@ -96,15 +96,15 @@
 	<key>openTypeVheaVertTypoLineGap</key>
 	<integer>90</integer>
 	<key>postscriptFontName</key>
-	<string>MatrixMono-Regular</string>
+	<string>MatrixMonoRaster-Regular</string>
 	<key>postscriptFullName</key>
-	<string>Matrix Mono</string>
+	<string>Matrix Mono Raster</string>
 	<key>postscriptSlantAngle</key>
 	<real>0.0</real>
 	<key>postscriptUnderlinePosition</key>
-	<real>-100.0</real>
+	<real>-110.0</real>
 	<key>postscriptUnderlineThickness</key>
-	<real>100.0</real>
+	<real>80.0</real>
 	<key>postscriptWeightName</key>
 	<string>Regular</string>
 	<key>styleName</key>
