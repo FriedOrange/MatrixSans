@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 1
 OS2_UseTypoMetrics: 1
 CreationTime: 1657964544
-ModificationTime: 1790055396
+ModificationTime: 1790057399
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -64,12 +64,12 @@ NameList: MatrixSans
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 11616 16 12
+WinInfo: 144 16 12
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 629146 314573 209715 524288 1048576 0 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "marks_above"""  "marks_below"""  "ogonek"""  "marks_aboveright""" 
-BeginChars: 1114159 257
+BeginChars: 1114159 260
 
 StartChar: dot
 Encoding: 1114112 -1 0
@@ -844,7 +844,7 @@ Refer: 0 -1 N 1 0 0 1 50 100 2
 Refer: 0 -1 N 1 0 0 1 350 200 2
 Refer: 0 -1 N 1 0 0 1 250 200 2
 Refer: 0 -1 N 1 0 0 1 50 200 2
-Refer: 0 -1 N 1 0 0 1 350 300 2
+Refer: 0 -1 S 1 0 0 1 350 300 2
 Refer: 0 -1 N 1 0 0 1 150 300 2
 Refer: 0 -1 N 1 0 0 1 350 400 2
 Refer: 0 -1 N 1 0 0 1 450 500 2
@@ -4220,10 +4220,10 @@ SplineSet
 560 340 m 1
  136 340 l 1
  136 120 l 1
- 175 50 239 10 303 10 c 0
+ 175 50 239 10 303 10 c 4
  367 10 431 60 470 130 c 1
  509 130 l 1
- 464 40 386 -20 303 -20 c 0
+ 464 40 386 -20 303 -20 c 4
  162 -20 40 150 40 350 c 0
  40 550 162 720 303 720 c 0
  451 720 560 550 560 340 c 1
@@ -5677,7 +5677,7 @@ EndChar
 StartChar: uni2D70
 Encoding: 11632 11632 256
 Width: 600
-Flags: HWO
+Flags: HW
 LayerCount: 2
 Fore
 Refer: 0 -1 N 1 0 0 1 50 -200 2
@@ -5690,6 +5690,47 @@ Refer: 0 -1 N 1 0 0 1 250 300 2
 Refer: 0 -1 N 1 0 0 1 250 400 2
 Refer: 0 -1 N 1 0 0 1 250 500 2
 Refer: 0 -1 N 1 0 0 1 250 600 2
+EndChar
+
+StartChar: l
+Encoding: 108 108 257
+Width: 400
+Flags: HW
+AnchorPoint: "marks_aboveright" 350 500 basechar 0
+AnchorPoint: "marks_below" 200 0 basechar 0
+AnchorPoint: "ogonek" 200 0 basechar 0
+AnchorPoint: "marks_above" 200 800 basechar 0
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 250 0 2
+Refer: 0 -1 N 1 0 0 1 150 0 2
+Refer: 0 -1 N 1 0 0 1 50 0 2
+Refer: 0 -1 N 1 0 0 1 150 100 2
+Refer: 0 -1 N 1 0 0 1 150 200 2
+Refer: 0 -1 N 1 0 0 1 150 300 2
+Refer: 0 -1 N 1 0 0 1 150 400 2
+Refer: 0 -1 N 1 0 0 1 150 500 2
+Refer: 0 -1 N 1 0 0 1 150 600 2
+Refer: 0 -1 N 1 0 0 1 50 600 2
+EndChar
+
+StartChar: ldot
+Encoding: 320 320 258
+Width: 600
+Flags: HWO
+LayerCount: 2
+Fore
+Refer: 259 183 N 1 0 0 1 400 0 2
+Refer: 257 108 N 1 0 0 1 100 0 2
+EndChar
+
+StartChar: periodcentered
+Encoding: 183 183 259
+Width: 200
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 50 300 2
 EndChar
 EndChars
 EndSplineFont
