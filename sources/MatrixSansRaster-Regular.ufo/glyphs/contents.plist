@@ -3638,6 +3638,14 @@
     <string>uni300A_.glif</string>
     <key>uni300B</key>
     <string>uni300B_.glif</string>
+    <key>uni5186</key>
+    <string>uni5186.glif</string>
+    <key>uni5E74</key>
+    <string>uni5E_74.glif</string>
+    <key>uni65E5</key>
+    <string>uni65E_5.glif</string>
+    <key>uni6708</key>
+    <string>uni6708.glif</string>
     <key>uniA4D0</key>
     <string>uniA_4D_0.glif</string>
     <key>uniA4D1</key>
@@ -3738,6 +3746,132 @@
     <string>uniA_7A_E_.glif</string>
     <key>uniFB29</key>
     <string>uniF_B_29.glif</string>
+    <key>uniFF61</key>
+    <string>uniF_F_61.glif</string>
+    <key>uniFF62</key>
+    <string>uniF_F_62.glif</string>
+    <key>uniFF63</key>
+    <string>uniF_F_63.glif</string>
+    <key>uniFF64</key>
+    <string>uniF_F_64.glif</string>
+    <key>uniFF65</key>
+    <string>uniF_F_65.glif</string>
+    <key>uniFF66</key>
+    <string>uniF_F_66.glif</string>
+    <key>uniFF67</key>
+    <string>uniF_F_67.glif</string>
+    <key>uniFF68</key>
+    <string>uniF_F_68.glif</string>
+    <key>uniFF69</key>
+    <string>uniF_F_69.glif</string>
+    <key>uniFF6A</key>
+    <string>uniF_F_6A_.glif</string>
+    <key>uniFF6B</key>
+    <string>uniF_F_6B_.glif</string>
+    <key>uniFF6C</key>
+    <string>uniF_F_6C_.glif</string>
+    <key>uniFF6D</key>
+    <string>uniF_F_6D_.glif</string>
+    <key>uniFF6E</key>
+    <string>uniF_F_6E_.glif</string>
+    <key>uniFF6F</key>
+    <string>uniF_F_6F_.glif</string>
+    <key>uniFF70</key>
+    <string>uniF_F_70.glif</string>
+    <key>uniFF71</key>
+    <string>uniF_F_71.glif</string>
+    <key>uniFF72</key>
+    <string>uniF_F_72.glif</string>
+    <key>uniFF73</key>
+    <string>uniF_F_73.glif</string>
+    <key>uniFF74</key>
+    <string>uniF_F_74.glif</string>
+    <key>uniFF75</key>
+    <string>uniF_F_75.glif</string>
+    <key>uniFF76</key>
+    <string>uniF_F_76.glif</string>
+    <key>uniFF77</key>
+    <string>uniF_F_77.glif</string>
+    <key>uniFF78</key>
+    <string>uniF_F_78.glif</string>
+    <key>uniFF79</key>
+    <string>uniF_F_79.glif</string>
+    <key>uniFF7A</key>
+    <string>uniF_F_7A_.glif</string>
+    <key>uniFF7B</key>
+    <string>uniF_F_7B_.glif</string>
+    <key>uniFF7C</key>
+    <string>uniF_F_7C_.glif</string>
+    <key>uniFF7D</key>
+    <string>uniF_F_7D_.glif</string>
+    <key>uniFF7E</key>
+    <string>uniF_F_7E_.glif</string>
+    <key>uniFF7F</key>
+    <string>uniF_F_7F_.glif</string>
+    <key>uniFF80</key>
+    <string>uniF_F_80.glif</string>
+    <key>uniFF81</key>
+    <string>uniF_F_81.glif</string>
+    <key>uniFF82</key>
+    <string>uniF_F_82.glif</string>
+    <key>uniFF83</key>
+    <string>uniF_F_83.glif</string>
+    <key>uniFF84</key>
+    <string>uniF_F_84.glif</string>
+    <key>uniFF85</key>
+    <string>uniF_F_85.glif</string>
+    <key>uniFF86</key>
+    <string>uniF_F_86.glif</string>
+    <key>uniFF87</key>
+    <string>uniF_F_87.glif</string>
+    <key>uniFF88</key>
+    <string>uniF_F_88.glif</string>
+    <key>uniFF89</key>
+    <string>uniF_F_89.glif</string>
+    <key>uniFF8A</key>
+    <string>uniF_F_8A_.glif</string>
+    <key>uniFF8B</key>
+    <string>uniF_F_8B_.glif</string>
+    <key>uniFF8C</key>
+    <string>uniF_F_8C_.glif</string>
+    <key>uniFF8D</key>
+    <string>uniF_F_8D_.glif</string>
+    <key>uniFF8E</key>
+    <string>uniF_F_8E_.glif</string>
+    <key>uniFF8F</key>
+    <string>uniF_F_8F_.glif</string>
+    <key>uniFF90</key>
+    <string>uniF_F_90.glif</string>
+    <key>uniFF91</key>
+    <string>uniF_F_91.glif</string>
+    <key>uniFF92</key>
+    <string>uniF_F_92.glif</string>
+    <key>uniFF93</key>
+    <string>uniF_F_93.glif</string>
+    <key>uniFF94</key>
+    <string>uniF_F_94.glif</string>
+    <key>uniFF95</key>
+    <string>uniF_F_95.glif</string>
+    <key>uniFF96</key>
+    <string>uniF_F_96.glif</string>
+    <key>uniFF97</key>
+    <string>uniF_F_97.glif</string>
+    <key>uniFF98</key>
+    <string>uniF_F_98.glif</string>
+    <key>uniFF99</key>
+    <string>uniF_F_99.glif</string>
+    <key>uniFF9A</key>
+    <string>uniF_F_9A_.glif</string>
+    <key>uniFF9B</key>
+    <string>uniF_F_9B_.glif</string>
+    <key>uniFF9C</key>
+    <string>uniF_F_9C_.glif</string>
+    <key>uniFF9D</key>
+    <string>uniF_F_9D_.glif</string>
+    <key>uniFF9E</key>
+    <string>uniF_F_9E_.glif</string>
+    <key>uniFF9F</key>
+    <string>uniF_F_9F_.glif</string>
     <key>uogonek</key>
     <string>uogonek.glif</string>
     <key>uogonek.sc</key>

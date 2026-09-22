@@ -1500,6 +1500,10 @@
 		<string>uni2E31</string>
 		<string>uni300A</string>
 		<string>uni300B</string>
+		<string>uni5186</string>
+		<string>uni5E74</string>
+		<string>uni65E5</string>
+		<string>uni6708</string>
 		<string>uniA4D0</string>
 		<string>uniA4D1</string>
 		<string>uniA4D2</string>
@@ -1567,6 +1571,69 @@
 		<string>vew_now-ar</string>
 		<string>men_xeh-ar</string>
 		<string>uniFB29</string>
+		<string>uniFF61</string>
+		<string>uniFF62</string>
+		<string>uniFF63</string>
+		<string>uniFF64</string>
+		<string>uniFF65</string>
+		<string>uniFF66</string>
+		<string>uniFF67</string>
+		<string>uniFF68</string>
+		<string>uniFF69</string>
+		<string>uniFF6A</string>
+		<string>uniFF6B</string>
+		<string>uniFF6C</string>
+		<string>uniFF6D</string>
+		<string>uniFF6E</string>
+		<string>uniFF6F</string>
+		<string>uniFF70</string>
+		<string>uniFF71</string>
+		<string>uniFF72</string>
+		<string>uniFF73</string>
+		<string>uniFF74</string>
+		<string>uniFF75</string>
+		<string>uniFF76</string>
+		<string>uniFF77</string>
+		<string>uniFF78</string>
+		<string>uniFF79</string>
+		<string>uniFF7A</string>
+		<string>uniFF7B</string>
+		<string>uniFF7C</string>
+		<string>uniFF7D</string>
+		<string>uniFF7E</string>
+		<string>uniFF7F</string>
+		<string>uniFF80</string>
+		<string>uniFF81</string>
+		<string>uniFF82</string>
+		<string>uniFF83</string>
+		<string>uniFF84</string>
+		<string>uniFF85</string>
+		<string>uniFF86</string>
+		<string>uniFF87</string>
+		<string>uniFF88</string>
+		<string>uniFF89</string>
+		<string>uniFF8A</string>
+		<string>uniFF8B</string>
+		<string>uniFF8C</string>
+		<string>uniFF8D</string>
+		<string>uniFF8E</string>
+		<string>uniFF8F</string>
+		<string>uniFF90</string>
+		<string>uniFF91</string>
+		<string>uniFF92</string>
+		<string>uniFF93</string>
+		<string>uniFF94</string>
+		<string>uniFF95</string>
+		<string>uniFF96</string>
+		<string>uniFF97</string>
+		<string>uniFF98</string>
+		<string>uniFF99</string>
+		<string>uniFF9A</string>
+		<string>uniFF9B</string>
+		<string>uniFF9C</string>
+		<string>uniFF9D</string>
+		<string>uniFF9E</string>
+		<string>uniFF9F</string>
 		<string>u10400</string>
 		<string>u10401</string>
 		<string>u10402</string>
@@ -5612,6 +5679,14 @@
 		<string>base</string>
 		<key>uni300B</key>
 		<string>base</string>
+		<key>uni5186</key>
+		<string>base</string>
+		<key>uni5E74</key>
+		<string>base</string>
+		<key>uni65E5</key>
+		<string>base</string>
+		<key>uni6708</key>
+		<string>base</string>
 		<key>uniA4D0</key>
 		<string>base</string>
 		<key>uniA4D1</key>
@@ -5711,6 +5786,132 @@
 		<key>uniA7AE</key>
 		<string>base</string>
 		<key>uniFB29</key>
+		<string>base</string>
+		<key>uniFF61</key>
+		<string>base</string>
+		<key>uniFF62</key>
+		<string>base</string>
+		<key>uniFF63</key>
+		<string>base</string>
+		<key>uniFF64</key>
+		<string>base</string>
+		<key>uniFF65</key>
+		<string>base</string>
+		<key>uniFF66</key>
+		<string>base</string>
+		<key>uniFF67</key>
+		<string>base</string>
+		<key>uniFF68</key>
+		<string>base</string>
+		<key>uniFF69</key>
+		<string>base</string>
+		<key>uniFF6A</key>
+		<string>base</string>
+		<key>uniFF6B</key>
+		<string>base</string>
+		<key>uniFF6C</key>
+		<string>base</string>
+		<key>uniFF6D</key>
+		<string>base</string>
+		<key>uniFF6E</key>
+		<string>base</string>
+		<key>uniFF6F</key>
+		<string>base</string>
+		<key>uniFF70</key>
+		<string>base</string>
+		<key>uniFF71</key>
+		<string>base</string>
+		<key>uniFF72</key>
+		<string>base</string>
+		<key>uniFF73</key>
+		<string>base</string>
+		<key>uniFF74</key>
+		<string>base</string>
+		<key>uniFF75</key>
+		<string>base</string>
+		<key>uniFF76</key>
+		<string>base</string>
+		<key>uniFF77</key>
+		<string>base</string>
+		<key>uniFF78</key>
+		<string>base</string>
+		<key>uniFF79</key>
+		<string>base</string>
+		<key>uniFF7A</key>
+		<string>base</string>
+		<key>uniFF7B</key>
+		<string>base</string>
+		<key>uniFF7C</key>
+		<string>base</string>
+		<key>uniFF7D</key>
+		<string>base</string>
+		<key>uniFF7E</key>
+		<string>base</string>
+		<key>uniFF7F</key>
+		<string>base</string>
+		<key>uniFF80</key>
+		<string>base</string>
+		<key>uniFF81</key>
+		<string>base</string>
+		<key>uniFF82</key>
+		<string>base</string>
+		<key>uniFF83</key>
+		<string>base</string>
+		<key>uniFF84</key>
+		<string>base</string>
+		<key>uniFF85</key>
+		<string>base</string>
+		<key>uniFF86</key>
+		<string>base</string>
+		<key>uniFF87</key>
+		<string>base</string>
+		<key>uniFF88</key>
+		<string>base</string>
+		<key>uniFF89</key>
+		<string>base</string>
+		<key>uniFF8A</key>
+		<string>base</string>
+		<key>uniFF8B</key>
+		<string>base</string>
+		<key>uniFF8C</key>
+		<string>base</string>
+		<key>uniFF8D</key>
+		<string>base</string>
+		<key>uniFF8E</key>
+		<string>base</string>
+		<key>uniFF8F</key>
+		<string>base</string>
+		<key>uniFF90</key>
+		<string>base</string>
+		<key>uniFF91</key>
+		<string>base</string>
+		<key>uniFF92</key>
+		<string>base</string>
+		<key>uniFF93</key>
+		<string>base</string>
+		<key>uniFF94</key>
+		<string>base</string>
+		<key>uniFF95</key>
+		<string>base</string>
+		<key>uniFF96</key>
+		<string>base</string>
+		<key>uniFF97</key>
+		<string>base</string>
+		<key>uniFF98</key>
+		<string>base</string>
+		<key>uniFF99</key>
+		<string>base</string>
+		<key>uniFF9A</key>
+		<string>base</string>
+		<key>uniFF9B</key>
+		<string>base</string>
+		<key>uniFF9C</key>
+		<string>base</string>
+		<key>uniFF9D</key>
+		<string>base</string>
+		<key>uniFF9E</key>
+		<string>base</string>
+		<key>uniFF9F</key>
 		<string>base</string>
 		<key>uogonek</key>
 		<string>base</string>
@@ -7651,6 +7852,7 @@
 			<string>Tfng</string>
 			<string>Dsrt</string>
 			<string>Shaw</string>
+			<string>Kana</string>
 		</array>
 		<key>slng</key>
 		<array>
@@ -7663,6 +7865,7 @@
 			<string>Tfng</string>
 			<string>Dsrt</string>
 			<string>Shaw</string>
+			<string>Kana</string>
 			<string>Hebr</string>
 		</array>
 	</dict>
