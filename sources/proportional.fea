@@ -240,7 +240,7 @@ feature mark {
 @openmidcurveBR = [C Cacute Ccaron Ccedilla Ccircumflex Cdotaccent Eopen Cslash];
 
 @talloverhangR_cy = [Gje-cy Je-cy Ge-cy Te-cy uni0474 Geupturn-cy Gestroke-cy EnGe-cy Tedescender-cy uni04F6 Gestrokehook-cy quoteleft quotedblleft minute second];
-@talloverhang2R_cy = [Ustraight-cy Ustraightstroke-cy quoteright quotedblright];
+@talloverhang2R_cy = [Ustraight-cy Ustraightstroke-cy quoteright quotedblright uni02EE];
 @talloverhang3R_cy = [Er-cy geupturn-cy quotedbl quotesingle question];
 @talloverhang5R_cy = [Ertick-cy];
 @tallcurveBR_cy = [Dze-cy Ushort-cy Ve-cy Ze-cy O-cy U-cy uni0472 Cheabkhasian-cy Chedescenderabkhasian-cy Schwa-cy Schwadieresis-cy Zedieresis-cy Odieresis-cy Obarred-cy Obarreddieresis-cy Edieresis-cy Umacron-cy Udieresis-cy Uhungarumlaut-cy uni051C be-cy.loclSRB ve-cy.loclBGR uhungarumlaut-cy.sc iebreve-cy];
@@ -262,8 +262,8 @@ feature mark {
 @shortR_cy = [zhe-cy ii-cy el-cy em-cy en-cy pe-cy u-cy che-cy sha-cy shcha-cy yeru-cy ya-cy gje-cy uni045D dzhe-cy uni046B gemiddlehook-cy kaverticalstroke-cy cheverticalstroke-cy enhook-cy uni04CC zhedieresis-cy imacron-cy idieresis-cy umacron-cy udieresis-cy chedieresis-cy uni04F9 hastroke-cy uni051B enlefthook-cy zhe-cy.loclBGR g u ayb-ar be-cy.sc i.sc idieresis.sc colon semicolon];
 @shortopen3R_cy = [ka-cy ha-cy e-cy kje-cy kastroke-cy kabashkir-cy kahook-cy dzeabkhasian-cy reversedze-cy k e.sc egrave.sc edieresis.sc kastroke-cy.sc ae.sc];
 @short4curveTR_cy = [Tshe-cy dje-cy tshe-cy uni04A6 Shha-cy];
-@short4curveR_cy = [Dje-cy Lje-cy Nje-cy Hardsign-cy Softsign-cy uni0462 Semisoftsign-cy];
-@short3curveR_cy = [hardsign-cy softsign-cy lje-cy nje-cy uni0463 semisoftsign-cy dje-cy.sc uni0463.sc semisoftsign-cy.sc];
+@short4curveR_cy = [Dje-cy Lje-cy Nje-cy Hardsign-cy Softsign-cy uni0462 Semisoftsign-cy uni1C89];
+@short3curveR_cy = [hardsign-cy softsign-cy lje-cy nje-cy uni0463 semisoftsign-cy dje-cy.sc uni0463.sc semisoftsign-cy.sc uni1C8A];
 
 @talloverhangR_gr = [iotadieresistonos Gamma Tau quoteleft quotedblleft minute second uni03DA uni03DC];
 @talloverhang2R_gr = [numeral-greek Upsilontonos Upsilon Upsilondieresis quoteright quotedblright tonos];
@@ -361,13 +361,13 @@ feature mark {
 @underhangN1L = [comma semicolon quotesinglbase quotedblbase uni02CC];
 @j = [j jcircumflex jdotless jcaron];
 
-@talloverhangL_cy = [Dje-cy Tshe-cy Te-cy Hardsign-cy Kabashkir-cy Tetse-cy];
+@talloverhangL_cy = [Dje-cy Tshe-cy Te-cy Hardsign-cy Kabashkir-cy Tetse-cy uni1C89];
 @talloverhang2L_cy = [dje-cy tshe-cy uni0462 Semisoftsign-cy semisoftsign-cy Kastroke-cy kastroke-cy Ustraight-cy Ustraightstroke-cy quotereversed question uni203D];
-@talloverhang3L_cy = [Che-cy Chedescender-cy Cheverticalstroke-cy Chedieresis-cy uni0463.sc semisoftsign-cy.sc quoteleft quotedblleft quotesingle quotedbl];
+@talloverhang3L_cy = [Che-cy Chedescender-cy Cheverticalstroke-cy Chedieresis-cy uni0463.sc semisoftsign-cy.sc quoteleft quotedblleft quotesingle quotedbl uni02EE];
 @tallcurve2TL_cy = [A-cy be-cy Abreve-cy uni04D2 Aie-cy];
 @tallcurve2L_cy = [Ef-cy];
 @tallcurve2BL_cy = [uni0474 ushort-cy.sc uhungarumlaut-cy.sc];
-@shortoverhangL_cy = [te-cy hardsign-cy uni0463 kabashkir-cy tedescender-cy tetse-cy dje-cy.sc tshe-cy.sc y.sc ustraightstroke-cy.sc quoteright quotedblright minute second apostrophemod];
+@shortoverhangL_cy = [te-cy hardsign-cy uni0463 kabashkir-cy tedescender-cy tetse-cy dje-cy.sc tshe-cy.sc y.sc ustraightstroke-cy.sc quoteright quotedblright minute second apostrophemod uni1C8A];
 @shortoverhang2L_cy = [che-cy chedescender-cy cheverticalstroke-cy Cheabkhasian-cy Chedescenderabkhasian-cy uni04CC chedieresis-cy y.titl umacron-cy.sc udieresis-cy.sc];
 @shortoverhang3L_cy = [uni0475 ustraight-cy ustraightstroke-cy guillemotright guilsinglright];
 @shortL_cy = [ve-cy ge-cy zhe-cy ze-cy ii-cy ka-cy em-cy en-cy pe-cy er-cy u-cy ha-cy tse-cy sha-cy shcha-cy yeru-cy softsign-cy ereversed-cy yu-cy gje-cy i-cy nje-cy kje-cy uni045D dzhe-cy uni046B ertick-cy geupturn-cy gemiddlehook-cy zhedescender-cy zedescender-cy kadescender-cy kaverticalstroke-cy endescender-cy enge-cy uni04A7 hadescender-cy kahook-cy enhook-cy entail-cy emtail-cy zhedieresis-cy zedieresis-cy dzeabkhasian-cy imacron-cy idieresis-cy umacron-cy udieresis-cy uni04F7 uni04F9 hahook-cy hastroke-cy uni051D pedescender-cy shhadescender-cy ge-cy.loclBGR zhe-cy.loclBGR tse-cy.loclBGR shcha-cy.loclBGR u n m ayb-ar be-cy.sc e.sc p.sc egrave.sc edieresis.sc i.sc shha-cy ertick-cy.sc ezh.sc colon];

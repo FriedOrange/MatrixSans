@@ -445,6 +445,7 @@
 		<string>ogonek</string>
 		<string>tilde</string>
 		<string>hungarumlaut</string>
+		<string>uni02EE</string>
 		<string>gravecomb</string>
 		<string>acutecomb</string>
 		<string>circumflexcomb</string>
@@ -1024,6 +1025,8 @@
 		<string>uni10FD</string>
 		<string>uni10FE</string>
 		<string>uni10FF</string>
+		<string>uni1C89</string>
+		<string>uni1C8A</string>
 		<string>uni1C90</string>
 		<string>uni1C91</string>
 		<string>uni1C92</string>
@@ -4955,6 +4958,8 @@
 		<string>base</string>
 		<key>uni02D7</key>
 		<string>base</string>
+		<key>uni02EE</key>
+		<string>base</string>
 		<key>uni0315</key>
 		<string>mark</string>
 		<key>uni0324</key>
@@ -5316,6 +5321,10 @@
 		<key>uni10FE</key>
 		<string>base</string>
 		<key>uni10FF</key>
+		<string>base</string>
+		<key>uni1C89</key>
+		<string>base</string>
+		<key>uni1C8A</key>
 		<string>base</string>
 		<key>uni1C90</key>
 		<string>base</string>
