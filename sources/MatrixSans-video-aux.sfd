@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1675081307
-ModificationTime: 1790148773
+ModificationTime: 1790245112
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -44,8 +44,8 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 66544 16 12
-BeginChars: 1114139 191
+WinInfo: 26384 16 12
+BeginChars: 1114139 192
 
 StartChar: quarterdot
 Encoding: 1114112 -1 0
@@ -8287,7 +8287,7 @@ EndChar
 StartChar: u1047E
 Encoding: 66686 66686 190
 Width: 600
-Flags: HWO
+Flags: HW
 LayerCount: 2
 Fore
 Refer: 0 -1 N 1 0 0 1 150 150 2
@@ -8304,6 +8304,57 @@ Refer: 7 -1 N 1 0 0 1 50 300 2
 Refer: 7 -1 N 1 0 0 1 450 400 2
 Refer: 7 -1 N 1 0 0 1 350 400 2
 Refer: 7 -1 N 1 0 0 1 50 400 2
+EndChar
+
+StartChar: uni6728
+Encoding: 26408 26408 191
+Width: 600
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+50 200 m 1
+ 50 300 l 1
+ 100 300 l 1
+ 100 350 l 1
+ 150 350 l 1
+ 150 400 l 1
+ 200 400 l 1
+ 200 450 l 1
+ 250 450 l 1
+ 250 500 l 1
+ 50 500 l 1
+ 50 600 l 1
+ 250 600 l 1
+ 250 700 l 1
+ 350 700 l 1
+ 350 600 l 1
+ 550 600 l 1
+ 550 500 l 1
+ 350 500 l 1
+ 350 450 l 1
+ 400 450 l 1
+ 400 400 l 1
+ 450 400 l 1
+ 450 350 l 1
+ 500 350 l 1
+ 500 300 l 1
+ 550 300 l 1
+ 550 200 l 1
+ 450 200 l 1
+ 450 250 l 1
+ 400 250 l 1
+ 400 300 l 1
+ 350 300 l 1
+ 350 0 l 1
+ 250 0 l 1
+ 250 300 l 1
+ 200 300 l 1
+ 200 250 l 1
+ 150 250 l 1
+ 150 200 l 1
+ 50 200 l 1
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont
