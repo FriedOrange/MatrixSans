@@ -3,6 +3,6 @@
   <advance width="600"/>
   <unicode hex="FF61"/>
   <outline>
-    <component base="degree" yOffset="-300.0"/>
+    <component base="uniFF9F" yOffset="-400.0"/>
   </outline>
 </glyph>
