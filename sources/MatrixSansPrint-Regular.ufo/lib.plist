@@ -1504,9 +1504,14 @@
 		<string>uni300A</string>
 		<string>uni300B</string>
 		<string>uni5186</string>
+		<string>uni571F</string>
 		<string>uni5E74</string>
 		<string>uni65E5</string>
 		<string>uni6708</string>
+		<string>uni6728</string>
+		<string>uni6C34</string>
+		<string>uni706B</string>
+		<string>uni91D1</string>
 		<string>uniA4D0</string>
 		<string>uniA4D1</string>
 		<string>uniA4D2</string>
@@ -5690,11 +5695,21 @@
 		<string>base</string>
 		<key>uni5186</key>
 		<string>base</string>
+		<key>uni571F</key>
+		<string>base</string>
 		<key>uni5E74</key>
 		<string>base</string>
 		<key>uni65E5</key>
 		<string>base</string>
 		<key>uni6708</key>
+		<string>base</string>
+		<key>uni6728</key>
+		<string>base</string>
+		<key>uni6C34</key>
+		<string>base</string>
+		<key>uni706B</key>
+		<string>base</string>
+		<key>uni91D1</key>
 		<string>base</string>
 		<key>uniA4D0</key>
 		<string>base</string>
