@@ -15,4 +15,4 @@ autohintTTF: false
 extraFontmakeArgs: --keep-direction
 postCompile: 
 - operation: featureFreeze
-  args: --features 'smcp' --suffix --use-suffix 'SC'
+  args: --features 'smcp' --suffix --usesuffix 'SC'
