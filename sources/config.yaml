@@ -1,3 +1,4 @@
+---
 sources:
   - MatrixSans-Regular.ufo
   - MatrixSansScreen-Regular.ufo
@@ -13,6 +14,285 @@ buildVariable: false
 removeOutlineOverlaps: false
 autohintTTF: false
 extraFontmakeArgs: --keep-direction
-postCompile: 
-- operation: featureFreeze
-  args: --features 'smcp' --suffix --usesuffix 'SC'
+recipeProvider: googlefonts
+recipe:
+  ../fonts/otf/MatrixMonoPrintSC-Regular.otf:
+    - source: MatrixMonoPrint-Regular.ufo
+    - args: --filter ...  --filter FlattenComponentsFilter --filter
+        DecomposeTransformedComponentsFilter --keep-overlaps --keep-direction
+      operation: buildOTF
+    - args: --features smcp --suffix --usesuffix SC
+      operation: featureFreeze
+    - args: ""
+      operation: fix
+  ../fonts/otf/MatrixMonoRasterSC-Regular.otf:
+    - source: MatrixMonoRaster-Regular.ufo
+    - args: --filter ...  --filter FlattenComponentsFilter --filter
+        DecomposeTransformedComponentsFilter --keep-overlaps --keep-direction
+      operation: buildOTF
+    - args: --features smcp --suffix --usesuffix SC
+      operation: featureFreeze
+    - args: ""
+      operation: fix
+  ../fonts/otf/MatrixMonoSC-Regular.otf:
+    - source: MatrixMono-Regular.ufo
+    - args: --filter ...  --filter FlattenComponentsFilter --filter
+        DecomposeTransformedComponentsFilter --keep-overlaps --keep-direction
+      operation: buildOTF
+    - args: --features smcp --suffix --usesuffix SC
+      operation: featureFreeze
+    - args: ""
+      operation: fix
+  ../fonts/otf/MatrixMonoScreenSC-Regular.otf:
+    - source: MatrixMonoScreen-Regular.ufo
+    - args: --filter ...  --filter FlattenComponentsFilter --filter
+        DecomposeTransformedComponentsFilter --keep-overlaps --keep-direction
+      operation: buildOTF
+    - args: --features smcp --suffix --usesuffix SC
+      operation: featureFreeze
+    - args: ""
+      operation: fix
+  ../fonts/otf/MatrixSansPrintSC-Regular.otf:
+    - source: MatrixSansPrint-Regular.ufo
+    - args: --filter ...  --filter FlattenComponentsFilter --filter
+        DecomposeTransformedComponentsFilter --keep-overlaps --keep-direction
+      operation: buildOTF
+    - args: --features smcp --suffix --usesuffix SC
+      operation: featureFreeze
+    - args: ""
+      operation: fix
+  ../fonts/otf/MatrixSansRasterSC-Regular.otf:
+    - source: MatrixSansRaster-Regular.ufo
+    - args: --filter ...  --filter FlattenComponentsFilter --filter
+        DecomposeTransformedComponentsFilter --keep-overlaps --keep-direction
+      operation: buildOTF
+    - args: --features smcp --suffix --usesuffix SC
+      operation: featureFreeze
+    - args: ""
+      operation: fix
+  ../fonts/otf/MatrixSansSC-Regular.otf:
+    - source: MatrixSans-Regular.ufo
+    - args: --filter ...  --filter FlattenComponentsFilter --filter
+        DecomposeTransformedComponentsFilter --keep-overlaps --keep-direction
+      operation: buildOTF
+    - args: --features smcp --suffix --usesuffix SC
+      operation: featureFreeze
+    - args: ""
+      operation: fix
+  ../fonts/otf/MatrixSansScreenSC-Regular.otf:
+    - source: MatrixSansScreen-Regular.ufo
+    - args: --filter ...  --filter FlattenComponentsFilter --filter
+        DecomposeTransformedComponentsFilter --keep-overlaps --keep-direction
+      operation: buildOTF
+    - args: --features smcp --suffix --usesuffix SC
+      operation: featureFreeze
+    - args: ""
+      operation: fix
+  ../fonts/otf/MatrixSansSmoothSC-Regular.otf:
+    - source: MatrixSansSmooth-Regular.ufo
+    - args: --filter ...  --filter FlattenComponentsFilter --filter
+        DecomposeTransformedComponentsFilter --keep-overlaps --keep-direction
+      operation: buildOTF
+    - args: --features smcp --suffix --usesuffix SC
+      operation: featureFreeze
+    - args: ""
+      operation: fix
+  ../fonts/otf/MatrixSansVideoSC-Regular.otf:
+    - source: MatrixSansVideo-Regular.ufo
+    - args: --filter ...  --filter FlattenComponentsFilter --filter
+        DecomposeTransformedComponentsFilter --keep-overlaps --keep-direction
+      operation: buildOTF
+    - args: --features smcp --suffix --usesuffix SC
+      operation: featureFreeze
+    - args: ""
+      operation: fix
+  ../fonts/ttf/MatrixMonoPrintSC-Regular.ttf:
+    - source: MatrixMonoPrint-Regular.ufo
+    - args: --filter ...  --filter FlattenComponentsFilter --filter
+        DecomposeTransformedComponentsFilter --keep-overlaps --keep-direction
+      operation: buildTTF
+    - args: --features smcp --suffix --usesuffix SC
+      operation: featureFreeze
+    - args: ""
+      operation: fix
+  ../fonts/ttf/MatrixMonoRasterSC-Regular.ttf:
+    - source: MatrixMonoRaster-Regular.ufo
+    - args: --filter ...  --filter FlattenComponentsFilter --filter
+        DecomposeTransformedComponentsFilter --keep-overlaps --keep-direction
+      operation: buildTTF
+    - args: --features smcp --suffix --usesuffix SC
+      operation: featureFreeze
+    - args: ""
+      operation: fix
+  ../fonts/ttf/MatrixMonoSC-Regular.ttf:
+    - source: MatrixMono-Regular.ufo
+    - args: --filter ...  --filter FlattenComponentsFilter --filter
+        DecomposeTransformedComponentsFilter --keep-overlaps --keep-direction
+      operation: buildTTF
+    - args: --features smcp --suffix --usesuffix SC
+      operation: featureFreeze
+    - args: ""
+      operation: fix
+  ../fonts/ttf/MatrixMonoScreenSC-Regular.ttf:
+    - source: MatrixMonoScreen-Regular.ufo
+    - args: --filter ...  --filter FlattenComponentsFilter --filter
+        DecomposeTransformedComponentsFilter --keep-overlaps --keep-direction
+      operation: buildTTF
+    - args: --features smcp --suffix --usesuffix SC
+      operation: featureFreeze
+    - args: ""
+      operation: fix
+  ../fonts/ttf/MatrixSansPrintSC-Regular.ttf:
+    - source: MatrixSansPrint-Regular.ufo
+    - args: --filter ...  --filter FlattenComponentsFilter --filter
+        DecomposeTransformedComponentsFilter --keep-overlaps --keep-direction
+      operation: buildTTF
+    - args: --features smcp --suffix --usesuffix SC
+      operation: featureFreeze
+    - args: ""
+      operation: fix
+  ../fonts/ttf/MatrixSansRasterSC-Regular.ttf:
+    - source: MatrixSansRaster-Regular.ufo
+    - args: --filter ...  --filter FlattenComponentsFilter --filter
+        DecomposeTransformedComponentsFilter --keep-overlaps --keep-direction
+      operation: buildTTF
+    - args: --features smcp --suffix --usesuffix SC
+      operation: featureFreeze
+    - args: ""
+      operation: fix
+  ../fonts/ttf/MatrixSansSC-Regular.ttf:
+    - source: MatrixSans-Regular.ufo
+    - args: --filter ...  --filter FlattenComponentsFilter --filter
+        DecomposeTransformedComponentsFilter --keep-overlaps --keep-direction
+      operation: buildTTF
+    - args: --features smcp --suffix --usesuffix SC
+      operation: featureFreeze
+    - args: ""
+      operation: fix
+  ../fonts/ttf/MatrixSansScreenSC-Regular.ttf:
+    - source: MatrixSansScreen-Regular.ufo
+    - args: --filter ...  --filter FlattenComponentsFilter --filter
+        DecomposeTransformedComponentsFilter --keep-overlaps --keep-direction
+      operation: buildTTF
+    - args: --features smcp --suffix --usesuffix SC
+      operation: featureFreeze
+    - args: ""
+      operation: fix
+  ../fonts/ttf/MatrixSansSmoothSC-Regular.ttf:
+    - source: MatrixSansSmooth-Regular.ufo
+    - args: --filter ...  --filter FlattenComponentsFilter --filter
+        DecomposeTransformedComponentsFilter --keep-overlaps --keep-direction
+      operation: buildTTF
+    - args: --features smcp --suffix --usesuffix SC
+      operation: featureFreeze
+    - args: ""
+      operation: fix
+  ../fonts/ttf/MatrixSansVideoSC-Regular.ttf:
+    - source: MatrixSansVideo-Regular.ufo
+    - args: --filter ...  --filter FlattenComponentsFilter --filter
+        DecomposeTransformedComponentsFilter --keep-overlaps --keep-direction
+      operation: buildTTF
+    - args: --features smcp --suffix --usesuffix SC
+      operation: featureFreeze
+    - args: ""
+      operation: fix
+  ../fonts/webfonts/MatrixMonoSC-Regular.woff2:
+    - source: MatrixMono-Regular.ufo
+    - args: --filter ...  --filter FlattenComponentsFilter --filter
+        DecomposeTransformedComponentsFilter --keep-overlaps --keep-direction
+      operation: buildTTF
+    - args: --features smcp --suffix --usesuffix SC
+      operation: featureFreeze
+    - args: ""
+      operation: fix
+    - operation: compress
+  ../fonts/webfonts/MatrixMonoPrintSC-Regular.woff2:
+    - source: MatrixMonoPrint-Regular.ufo
+    - args: --filter ...  --filter FlattenComponentsFilter --filter
+        DecomposeTransformedComponentsFilter --keep-overlaps --keep-direction
+      operation: buildTTF
+    - args: --features smcp --suffix --usesuffix SC
+      operation: featureFreeze
+    - args: ""
+      operation: fix
+    - operation: compress
+  ../fonts/webfonts/MatrixMonoRasterSC-Regular.woff2:
+    - source: MatrixMonoRaster-Regular.ufo
+    - args: --filter ...  --filter FlattenComponentsFilter --filter
+        DecomposeTransformedComponentsFilter --keep-overlaps --keep-direction
+      operation: buildTTF
+    - args: --features smcp --suffix --usesuffix SC
+      operation: featureFreeze
+    - args: ""
+      operation: fix
+    - operation: compress
+  ../fonts/webfonts/MatrixMonoScreenSC-Regular.woff2:
+    - source: MatrixMonoScreen-Regular.ufo
+    - args: --filter ...  --filter FlattenComponentsFilter --filter
+        DecomposeTransformedComponentsFilter --keep-overlaps --keep-direction
+      operation: buildTTF
+    - args: --features smcp --suffix --usesuffix SC
+      operation: featureFreeze
+    - args: ""
+      operation: fix
+    - operation: compress
+  ../fonts/webfonts/MatrixSansSC-Regular.woff2:
+    - source: MatrixSans-Regular.ufo
+    - args: --filter ...  --filter FlattenComponentsFilter --filter
+        DecomposeTransformedComponentsFilter --keep-overlaps --keep-direction
+      operation: buildTTF
+    - args: --features smcp --suffix --usesuffix SC
+      operation: featureFreeze
+    - args: ""
+      operation: fix
+    - operation: compress
+  ../fonts/webfonts/MatrixSansPrintSC-Regular.woff2:
+    - source: MatrixSansPrint-Regular.ufo
+    - args: --filter ...  --filter FlattenComponentsFilter --filter
+        DecomposeTransformedComponentsFilter --keep-overlaps --keep-direction
+      operation: buildTTF
+    - args: --features smcp --suffix --usesuffix SC
+      operation: featureFreeze
+    - args: ""
+      operation: fix
+    - operation: compress
+  ../fonts/webfonts/MatrixSansRasterSC-Regular.woff2:
+    - source: MatrixSansRaster-Regular.ufo
+    - args: --filter ...  --filter FlattenComponentsFilter --filter
+        DecomposeTransformedComponentsFilter --keep-overlaps --keep-direction
+      operation: buildTTF
+    - args: --features smcp --suffix --usesuffix SC
+      operation: featureFreeze
+    - args: ""
+      operation: fix
+    - operation: compress
+  ../fonts/webfonts/MatrixSansScreenSC-Regular.woff2:
+    - source: MatrixSansScreen-Regular.ufo
+    - args: --filter ...  --filter FlattenComponentsFilter --filter
+        DecomposeTransformedComponentsFilter --keep-overlaps --keep-direction
+      operation: buildTTF
+    - args: --features smcp --suffix --usesuffix SC
+      operation: featureFreeze
+    - args: ""
+      operation: fix
+    - operation: compress
+  ../fonts/webfonts/MatrixSansSmoothSC-Regular.woff2:
+    - source: MatrixSansSmooth-Regular.ufo
+    - args: --filter ...  --filter FlattenComponentsFilter --filter
+        DecomposeTransformedComponentsFilter --keep-overlaps --keep-direction
+      operation: buildTTF
+    - args: --features smcp --suffix --usesuffix SC
+      operation: featureFreeze
+    - args: ""
+      operation: fix
+    - operation: compress
+  ../fonts/webfonts/MatrixSansVideoSC-Regular.woff2:
+    - source: MatrixSansVideo-Regular.ufo
+    - args: --filter ...  --filter FlattenComponentsFilter --filter
+        DecomposeTransformedComponentsFilter --keep-overlaps --keep-direction
+      operation: buildTTF
+    - args: --features smcp --suffix --usesuffix SC
+      operation: featureFreeze
+    - args: ""
+      operation: fix
+    - operation: compress

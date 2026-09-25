@@ -1,0 +1,186 @@
+sources:
+  - MatrixSans-Regular.ufo
+  - MatrixSansScreen-Regular.ufo
+  - MatrixSansPrint-Regular.ufo
+  - MatrixSansVideo-Regular.ufo
+  - MatrixSansRaster-Regular.ufo
+  - MatrixSansSmooth-Regular.ufo
+  - MatrixMono-Regular.ufo
+  - MatrixMonoScreen-Regular.ufo
+  - MatrixMonoPrint-Regular.ufo
+  - MatrixMonoRaster-Regular.ufo
+buildVariable: false
+removeOutlineOverlaps: false
+autohintTTF: false
+extraFontmakeArgs: --keep-direction
+recipeProvider: googlefonts
+recipe:
+  ../fonts/otf/MatrixMonoPrintSC-Regular.otf:
+  - source: MatrixMonoPrint-Regular.ufo
+  - &buildOTF
+    args: --filter ...  --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter --keep-overlaps --keep-direction
+    operation: buildOTF
+  - &smcp
+    args: --features smcp --suffix --usesuffix SC
+    operation: featureFreeze
+  - &fix
+    args: ''
+    operation: fix
+  ../fonts/otf/MatrixMonoRasterSC-Regular.otf:
+  - source: MatrixMonoRaster-Regular.ufo
+  - *buildOTF
+  - *smcp
+  - *fix
+  ../fonts/otf/MatrixMonoSC-Regular.otf:
+  - source: MatrixMono-Regular.ufo
+  - *buildOTF
+  - *smcp
+  - *fix
+  ../fonts/otf/MatrixMonoScreenSC-Regular.otf:
+  - source: MatrixMonoScreen-Regular.ufo
+  - *buildOTF
+  - *smcp
+  - *fix
+  ../fonts/otf/MatrixSansPrintSC-Regular.otf:
+  - source: MatrixSansPrint-Regular.ufo
+  - *buildOTF
+  - *smcp
+  - *fix
+  ../fonts/otf/MatrixSansRasterSC-Regular.otf:
+  - source: MatrixSansRaster-Regular.ufo
+  - *buildOTF
+  - *smcp
+  - *fix
+  ../fonts/otf/MatrixSansSC-Regular.otf:
+  - source: MatrixSans-Regular.ufo
+  - *buildOTF
+  - *smcp
+  - *fix
+  ../fonts/otf/MatrixSansScreenSC-Regular.otf:
+  - source: MatrixSansScreen-Regular.ufo
+  - *buildOTF
+  - *smcp
+  - *fix
+  ../fonts/otf/MatrixSansSmoothSC-Regular.otf:
+  - source: MatrixSansSmooth-Regular.ufo
+  - *buildOTF
+  - *smcp
+  - *fix
+  ../fonts/otf/MatrixSansVideoSC-Regular.otf:
+  - source: MatrixSansVideo-Regular.ufo
+  - *buildOTF
+  - *smcp
+  - *fix
+  ../fonts/ttf/MatrixMonoPrintSC-Regular.ttf:
+  - source: MatrixMonoPrint-Regular.ufo
+  - &buildTTF
+    args: --filter ...  --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter --keep-overlaps --keep-direction
+    operation: buildTTF
+  - *smcp
+  - *fix
+  ../fonts/ttf/MatrixMonoRasterSC-Regular.ttf:
+  - source: MatrixMonoRaster-Regular.ufo
+  - *buildTTF
+  - *smcp
+  - *fix
+  ../fonts/ttf/MatrixMonoSC-Regular.ttf:
+  - source: MatrixMono-Regular.ufo
+  - *buildTTF
+  - *smcp
+  - *fix
+  ../fonts/ttf/MatrixMonoScreenSC-Regular.ttf:
+  - source: MatrixMonoScreen-Regular.ufo
+  - *buildTTF
+  - *smcp
+  - *fix
+  ../fonts/ttf/MatrixSansPrintSC-Regular.ttf:
+  - source: MatrixSansPrint-Regular.ufo
+  - *buildTTF
+  - *smcp
+  - *fix
+  ../fonts/ttf/MatrixSansRasterSC-Regular.ttf:
+  - source: MatrixSansRaster-Regular.ufo
+  - *buildTTF
+  - *smcp
+  - *fix
+  ../fonts/ttf/MatrixSansSC-Regular.ttf:
+  - source: MatrixSans-Regular.ufo
+  - *buildTTF
+  - *smcp
+  - *fix
+  ../fonts/ttf/MatrixSansScreenSC-Regular.ttf:
+  - source: MatrixSansScreen-Regular.ufo
+  - *buildTTF
+  - *smcp
+  - *fix
+  ../fonts/ttf/MatrixSansSmoothSC-Regular.ttf:
+  - source: MatrixSansSmooth-Regular.ufo
+  - *buildTTF
+  - *smcp
+  - *fix
+  ../fonts/ttf/MatrixSansVideoSC-Regular.ttf:
+  - source: MatrixSansVideo-Regular.ufo
+  - *buildTTF
+  - *smcp
+  - *fix
+  ../fonts/webfonts/MatrixMonoSC-Regular.woff2:
+  - source: MatrixMono-Regular.ufo
+  - *buildTTF
+  - *smcp
+  - *fix
+  - &woff2
+    operation: compress
+  ../fonts/webfonts/MatrixMonoPrintSC-Regular.woff2:
+  - source: MatrixMonoPrint-Regular.ufo
+  - *buildTTF
+  - *smcp
+  - *fix
+  - *woff2
+  ../fonts/webfonts/MatrixMonoRasterSC-Regular.woff2:
+  - source: MatrixMonoRaster-Regular.ufo
+  - *buildTTF
+  - *smcp
+  - *fix
+  - *woff2
+  ../fonts/webfonts/MatrixMonoScreenSC-Regular.woff2:
+  - source: MatrixMonoScreen-Regular.ufo
+  - *buildTTF
+  - *smcp
+  - *fix
+  - *woff2
+  ../fonts/webfonts/MatrixSansSC-Regular.woff2:
+  - source: MatrixSans-Regular.ufo
+  - *buildTTF
+  - *smcp
+  - *fix
+  - *woff2
+  ../fonts/webfonts/MatrixSansPrintSC-Regular.woff2:
+  - source: MatrixSansPrint-Regular.ufo
+  - *buildTTF
+  - *smcp
+  - *fix
+  - *woff2
+  ../fonts/webfonts/MatrixSansRasterSC-Regular.woff2:
+  - source: MatrixSansRaster-Regular.ufo
+  - *buildTTF
+  - *smcp
+  - *fix
+  - *woff2
+  ../fonts/webfonts/MatrixSansScreenSC-Regular.woff2:
+  - source: MatrixSansScreen-Regular.ufo
+  - *buildTTF
+  - *smcp
+  - *fix
+  - *woff2
+  ../fonts/webfonts/MatrixSansSmoothSC-Regular.woff2:
+  - source: MatrixSansSmooth-Regular.ufo
+  - *buildTTF
+  - *smcp
+  - *fix
+  - *woff2
+  ../fonts/webfonts/MatrixSansVideoSC-Regular.woff2:
+  - source: MatrixSansVideo-Regular.ufo
+  - *buildTTF
+  - *smcp
+  - *fix
+  - *woff2
