@@ -208,7 +208,7 @@ feature locl {
 		} locl_SRB;
 	language BGR;
 		lookup locl_BGR {
-			sub [ve-cy ge-cy de-cy zhe-cy ze-cy ii-cy iishort-cy ka-cy el-cy pe-cy te-cy tse-cy sha-cy shcha-cy yu-cy] by [ve-cy.loclBGR ge-cy.loclBGR g zhe-cy.loclBGR ze-cy.loclBGR u ubreve k el-cy.loclBGR n m tse-cy.loclBGR ayb-ar shcha-cy.loclBGR yu-cy.loclBGR];
+			sub [ve-cy ge-cy de-cy zhe-cy ze-cy ii-cy iishort-cy ka-cy el-cy pe-cy te-cy tse-cy sha-cy shcha-cy yu-cy] by [ve-cy.loclBGR ge-cy.loclBGR g zhe-cy.loclBGR ze-cy.loclBGR u ubreve k el-cy.loclBGR n m tse-cy.loclBGR sha-cy.loclBGR shcha-cy.loclBGR yu-cy.loclBGR];
 		} locl_BGR;
 } locl;
 

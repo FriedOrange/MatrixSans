@@ -2050,6 +2050,7 @@
 		<string>uni03D4.sc</string>
 		<string>uni03E1.sc</string>
 		<string>Iacute_Jacute</string>
+		<string>sha-cy.loclBGR</string>
 	</array>
 	<key>public.openTypeCategories</key>
 	<dict>
@@ -4424,6 +4425,8 @@
 		<key>sha-ar.sc</key>
 		<string>base</string>
 		<key>sha-cy</key>
+		<string>base</string>
+		<key>sha-cy.loclBGR</key>
 		<string>base</string>
 		<key>shcha-cy</key>
 		<string>base</string>
@@ -7862,6 +7865,8 @@
 		<string>uni1047E</string>
 		<key>u1047F</key>
 		<string>uni1047F</string>
+		<key>sha-cy.loclBGR</key>
+		<string>sha_cy.loclBGR</string>
 	</dict>
 	<key>public.openTypeMeta</key>
 	<dict>

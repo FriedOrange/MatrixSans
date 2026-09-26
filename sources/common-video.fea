@@ -88,12 +88,6 @@ feature smcp {
 	sub @lc_gr by @smcp_gr;
 	script armn;
 	sub @lc_ar by @sc_ar;
-	sub ech_yiwn-ar by ech-ar.sc vew-ar.sc;
-	sub men_now-ar by men-ar.sc now-ar.sc;
-	sub men_ech-ar by men-ar.sc ech-ar.sc;
-	sub men_ini-ar by men-ar.sc ini-ar.sc;
-	sub vew_now-ar by vew-ar.sc now-ar.sc;
-	sub men_xeh-ar by men-ar.sc xeh-ar.sc;
 } smcp;
 
 @_marks_above = [gravecomb acutecomb circumflexcomb tildecomb macroncomb brevecomb dotaccentcomb dieresiscomb hookabovecomb ringcomb hungarumlautcomb caroncomb verticallineabovecomb commaturnedabovecomb commaabovecomb circumflexcomb_acutecomb circumflexcomb_gravecomb circumflexcomb_hookabovecomb circumflexcomb_tildecomb];
@@ -214,7 +208,7 @@ feature locl {
 		} locl_SRB;
 	language BGR;
 		lookup locl_BGR {
-			sub [ve-cy ge-cy de-cy zhe-cy ze-cy ii-cy iishort-cy ka-cy el-cy pe-cy te-cy tse-cy sha-cy shcha-cy yu-cy] by [ve-cy.loclBGR ge-cy.loclBGR g zhe-cy.loclBGR ze-cy.loclBGR u ubreve k el-cy.loclBGR n m tse-cy.loclBGR ayb-ar shcha-cy.loclBGR yu-cy.loclBGR];
+			sub [ve-cy ge-cy de-cy zhe-cy ze-cy ii-cy iishort-cy ka-cy el-cy pe-cy te-cy tse-cy sha-cy shcha-cy yu-cy] by [ve-cy.loclBGR ge-cy.loclBGR g zhe-cy.loclBGR ze-cy.loclBGR u ubreve k el-cy.loclBGR n m tse-cy.loclBGR sha-cy.loclBGR shcha-cy.loclBGR yu-cy.loclBGR];
 		} locl_BGR;
 } locl;
 

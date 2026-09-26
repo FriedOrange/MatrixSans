@@ -2376,6 +2376,8 @@
     <string>sha-ar.sc.glif</string>
     <key>sha-cy</key>
     <string>sha-cy.glif</string>
+    <key>sha-cy.loclBGR</key>
+    <string>sha-cy.loclB_G_R_.glif</string>
     <key>shcha-cy</key>
     <string>shcha-cy.glif</string>
     <key>shcha-cy.loclBGR</key>
