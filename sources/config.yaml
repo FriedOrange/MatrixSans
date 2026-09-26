@@ -10,6 +10,7 @@ sources:
   - MatrixMonoScreen-Regular.ufo
   - MatrixMonoPrint-Regular.ufo
   - MatrixMonoRaster-Regular.ufo
+  - MatrixMonoVideo-Regular.ufo
 buildVariable: false
 removeOutlineOverlaps: false
 autohintTTF: false
@@ -45,6 +46,15 @@ recipe:
       operation: fix
   ../fonts/otf/MatrixMonoScreenSC-Regular.otf:
     - source: MatrixMonoScreen-Regular.ufo
+    - args: --filter ...  --filter FlattenComponentsFilter --filter
+        DecomposeTransformedComponentsFilter --keep-overlaps --keep-direction
+      operation: buildOTF
+    - args: --features smcp --suffix --usesuffix SC
+      operation: featureFreeze
+    - args: ""
+      operation: fix
+  ../fonts/otf/MatrixMonoVideoSC-Regular.otf:
+    - source: MatrixMonoVideo-Regular.ufo
     - args: --filter ...  --filter FlattenComponentsFilter --filter
         DecomposeTransformedComponentsFilter --keep-overlaps --keep-direction
       operation: buildOTF
@@ -142,6 +152,15 @@ recipe:
       operation: featureFreeze
     - args: ""
       operation: fix
+  ../fonts/ttf/MatrixMonoVideoSC-Regular.ttf:
+    - source: MatrixMonoVideo-Regular.ufo
+    - args: --filter ...  --filter FlattenComponentsFilter --filter
+        DecomposeTransformedComponentsFilter --keep-overlaps --keep-direction
+      operation: buildTTF
+    - args: --features smcp --suffix --usesuffix SC
+      operation: featureFreeze
+    - args: ""
+      operation: fix
   ../fonts/ttf/MatrixSansPrintSC-Regular.ttf:
     - source: MatrixSansPrint-Regular.ufo
     - args: --filter ...  --filter FlattenComponentsFilter --filter
@@ -228,6 +247,16 @@ recipe:
     - operation: compress
   ../fonts/webfonts/MatrixMonoScreenSC-Regular.woff2:
     - source: MatrixMonoScreen-Regular.ufo
+    - args: --filter ...  --filter FlattenComponentsFilter --filter
+        DecomposeTransformedComponentsFilter --keep-overlaps --keep-direction
+      operation: buildTTF
+    - args: --features smcp --suffix --usesuffix SC
+      operation: featureFreeze
+    - args: ""
+      operation: fix
+    - operation: compress
+  ../fonts/webfonts/MatrixMonoVideoSC-Regular.woff2:
+    - source: MatrixMonoVideo-Regular.ufo
     - args: --filter ...  --filter FlattenComponentsFilter --filter
         DecomposeTransformedComponentsFilter --keep-overlaps --keep-direction
       operation: buildTTF

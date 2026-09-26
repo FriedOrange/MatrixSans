@@ -21,6 +21,7 @@ MAIN_SOURCE = "MatrixSans-MASTER.sfd"
 MONO_SOURCE = "MatrixMono-MASTER.sfd"
 MONO_TEMP = "temp\\MatrixMono.sfd"
 VIDEO_AUX_SOURCE = "MatrixSans-video-aux.sfd"
+MONO_VIDEO_AUX_SOURCE = "MatrixMono-video-aux.sfd"
 SMOOTH_AUX_SOURCE = "MatrixSans-smooth-aux.sfd"
 UNLINK_LIST = ["Aring", "Ccedilla", "aring", "ccedilla", "aogonek",
 	"Eogonek", "eogonek", "Gcommaaccent", "Iogonek", "iogonek", "Lcommaaccent", "lcommaaccent",
@@ -96,6 +97,8 @@ def refs_to_dots(font, glyphs):
 def restore_width(font, glyph, width):
 	while font[glyph].width > width:
 		font[glyph].left_side_bearing = int(font[glyph].left_side_bearing - 1)
+	while font[glyph].width < width:
+		font[glyph].left_side_bearing = int(font[glyph].left_side_bearing + DOT_SIZE)
 
 
 def make_regular(source):
@@ -142,7 +145,7 @@ def make_print(source, name_suffix=""):
 	font.save(f"temp\\{font.fontname}.sfd")
 
 
-def make_video(source):
+def make_video(source, aux_source):
 	font = fontforge.open(source)
 
 	# make glyphs with diagonally-touching components directly reference "dot"
@@ -154,7 +157,7 @@ def make_video(source):
 		original_widths[glyph] = font[glyph].width
 		font[glyph].left_side_bearing = LEFT_SIDE_BEARING
 
-	video_aux_font = fontforge.open(VIDEO_AUX_SOURCE)
+	video_aux_font = fontforge.open(aux_source)
 
 	for glyph in font:
 
@@ -429,13 +432,14 @@ def main():
 	make_print(MAIN_SOURCE)
 	make_raster(MAIN_SOURCE)
 	make_screen(MAIN_SOURCE)
-	make_video(MAIN_SOURCE)
+	make_video(MAIN_SOURCE, VIDEO_AUX_SOURCE)
 	make_smooth(MAIN_SOURCE)
 	make_mono(MONO_SOURCE, MAIN_SOURCE)
 	make_regular(MONO_TEMP)
 	make_print(MONO_TEMP)
 	make_raster(MONO_TEMP)
 	make_screen(MONO_TEMP)
+	make_video(MONO_TEMP, MONO_VIDEO_AUX_SOURCE)
 
 if __name__ == "__main__":
 	main()

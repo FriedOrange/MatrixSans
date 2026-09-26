@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni1CBA" format="2">
+  <advance height="1200" width="600"/>
+  <unicode hex="1CBA"/>
+  <outline>
+    <component base="uni10FA" yOffset="200.0"/>
+  </outline>
+</glyph>
