@@ -24,6 +24,8 @@ recipe:
       operation: buildOTF
     - args: --features smcp --suffix --usesuffix SC
       operation: featureFreeze
+    - args: --layout-features-='smcp'
+      operation: hbsubset
     - args: ""
       operation: fix
   ../fonts/otf/MatrixMonoRasterSC-Regular.otf:
@@ -33,6 +35,8 @@ recipe:
       operation: buildOTF
     - args: --features smcp --suffix --usesuffix SC
       operation: featureFreeze
+    - args: --layout-features-='smcp'
+      operation: hbsubset
     - args: ""
       operation: fix
   ../fonts/otf/MatrixMonoSC-Regular.otf:
@@ -42,6 +46,8 @@ recipe:
       operation: buildOTF
     - args: --features smcp --suffix --usesuffix SC
       operation: featureFreeze
+    - args: --layout-features-='smcp'
+      operation: hbsubset
     - args: ""
       operation: fix
   ../fonts/otf/MatrixMonoScreenSC-Regular.otf:
@@ -51,6 +57,8 @@ recipe:
       operation: buildOTF
     - args: --features smcp --suffix --usesuffix SC
       operation: featureFreeze
+    - args: --layout-features-='smcp'
+      operation: hbsubset
     - args: ""
       operation: fix
   ../fonts/otf/MatrixMonoVideoSC-Regular.otf:
@@ -60,6 +68,8 @@ recipe:
       operation: buildOTF
     - args: --features smcp --suffix --usesuffix SC
       operation: featureFreeze
+    - args: --layout-features-='smcp'
+      operation: hbsubset
     - args: ""
       operation: fix
   ../fonts/otf/MatrixSansPrintSC-Regular.otf:
@@ -69,6 +79,8 @@ recipe:
       operation: buildOTF
     - args: --features smcp --suffix --usesuffix SC
       operation: featureFreeze
+    - args: --layout-features-='smcp'
+      operation: hbsubset
     - args: ""
       operation: fix
   ../fonts/otf/MatrixSansRasterSC-Regular.otf:
@@ -78,6 +90,8 @@ recipe:
       operation: buildOTF
     - args: --features smcp --suffix --usesuffix SC
       operation: featureFreeze
+    - args: --layout-features-='smcp'
+      operation: hbsubset
     - args: ""
       operation: fix
   ../fonts/otf/MatrixSansSC-Regular.otf:
@@ -87,6 +101,8 @@ recipe:
       operation: buildOTF
     - args: --features smcp --suffix --usesuffix SC
       operation: featureFreeze
+    - args: --layout-features-='smcp'
+      operation: hbsubset
     - args: ""
       operation: fix
   ../fonts/otf/MatrixSansScreenSC-Regular.otf:
@@ -96,6 +112,8 @@ recipe:
       operation: buildOTF
     - args: --features smcp --suffix --usesuffix SC
       operation: featureFreeze
+    - args: --layout-features-='smcp'
+      operation: hbsubset
     - args: ""
       operation: fix
   ../fonts/otf/MatrixSansSmoothSC-Regular.otf:
@@ -105,6 +123,8 @@ recipe:
       operation: buildOTF
     - args: --features smcp --suffix --usesuffix SC
       operation: featureFreeze
+    - args: --layout-features-='smcp'
+      operation: hbsubset
     - args: ""
       operation: fix
   ../fonts/otf/MatrixSansVideoSC-Regular.otf:
@@ -114,6 +134,8 @@ recipe:
       operation: buildOTF
     - args: --features smcp --suffix --usesuffix SC
       operation: featureFreeze
+    - args: --layout-features-='smcp'
+      operation: hbsubset
     - args: ""
       operation: fix
   ../fonts/ttf/MatrixMonoPrintSC-Regular.ttf:
@@ -123,6 +145,8 @@ recipe:
       operation: buildTTF
     - args: --features smcp --suffix --usesuffix SC
       operation: featureFreeze
+    - args: --layout-features-='smcp'
+      operation: hbsubset
     - args: ""
       operation: fix
   ../fonts/ttf/MatrixMonoRasterSC-Regular.ttf:
@@ -132,6 +156,8 @@ recipe:
       operation: buildTTF
     - args: --features smcp --suffix --usesuffix SC
       operation: featureFreeze
+    - args: --layout-features-='smcp'
+      operation: hbsubset
     - args: ""
       operation: fix
   ../fonts/ttf/MatrixMonoSC-Regular.ttf:
@@ -141,6 +167,8 @@ recipe:
       operation: buildTTF
     - args: --features smcp --suffix --usesuffix SC
       operation: featureFreeze
+    - args: --layout-features-='smcp'
+      operation: hbsubset
     - args: ""
       operation: fix
   ../fonts/ttf/MatrixMonoScreenSC-Regular.ttf:
@@ -150,6 +178,8 @@ recipe:
       operation: buildTTF
     - args: --features smcp --suffix --usesuffix SC
       operation: featureFreeze
+    - args: --layout-features-='smcp'
+      operation: hbsubset
     - args: ""
       operation: fix
   ../fonts/ttf/MatrixMonoVideoSC-Regular.ttf:
@@ -159,6 +189,8 @@ recipe:
       operation: buildTTF
     - args: --features smcp --suffix --usesuffix SC
       operation: featureFreeze
+    - args: --layout-features-='smcp'
+      operation: hbsubset
     - args: ""
       operation: fix
   ../fonts/ttf/MatrixSansPrintSC-Regular.ttf:
@@ -168,6 +200,8 @@ recipe:
       operation: buildTTF
     - args: --features smcp --suffix --usesuffix SC
       operation: featureFreeze
+    - args: --layout-features-='smcp'
+      operation: hbsubset
     - args: ""
       operation: fix
   ../fonts/ttf/MatrixSansRasterSC-Regular.ttf:
@@ -177,6 +211,8 @@ recipe:
       operation: buildTTF
     - args: --features smcp --suffix --usesuffix SC
       operation: featureFreeze
+    - args: --layout-features-='smcp'
+      operation: hbsubset
     - args: ""
       operation: fix
   ../fonts/ttf/MatrixSansSC-Regular.ttf:
@@ -186,6 +222,8 @@ recipe:
       operation: buildTTF
     - args: --features smcp --suffix --usesuffix SC
       operation: featureFreeze
+    - args: --layout-features-='smcp'
+      operation: hbsubset
     - args: ""
       operation: fix
   ../fonts/ttf/MatrixSansScreenSC-Regular.ttf:
@@ -195,6 +233,8 @@ recipe:
       operation: buildTTF
     - args: --features smcp --suffix --usesuffix SC
       operation: featureFreeze
+    - args: --layout-features-='smcp'
+      operation: hbsubset
     - args: ""
       operation: fix
   ../fonts/ttf/MatrixSansSmoothSC-Regular.ttf:
@@ -204,6 +244,8 @@ recipe:
       operation: buildTTF
     - args: --features smcp --suffix --usesuffix SC
       operation: featureFreeze
+    - args: --layout-features-='smcp'
+      operation: hbsubset
     - args: ""
       operation: fix
   ../fonts/ttf/MatrixSansVideoSC-Regular.ttf:
@@ -213,6 +255,8 @@ recipe:
       operation: buildTTF
     - args: --features smcp --suffix --usesuffix SC
       operation: featureFreeze
+    - args: --layout-features-='smcp'
+      operation: hbsubset
     - args: ""
       operation: fix
   ../fonts/webfonts/MatrixMonoSC-Regular.woff2:
@@ -222,6 +266,8 @@ recipe:
       operation: buildTTF
     - args: --features smcp --suffix --usesuffix SC
       operation: featureFreeze
+    - args: --layout-features-='smcp'
+      operation: hbsubset
     - args: ""
       operation: fix
     - operation: compress
@@ -232,6 +278,8 @@ recipe:
       operation: buildTTF
     - args: --features smcp --suffix --usesuffix SC
       operation: featureFreeze
+    - args: --layout-features-='smcp'
+      operation: hbsubset
     - args: ""
       operation: fix
     - operation: compress
@@ -242,6 +290,8 @@ recipe:
       operation: buildTTF
     - args: --features smcp --suffix --usesuffix SC
       operation: featureFreeze
+    - args: --layout-features-='smcp'
+      operation: hbsubset
     - args: ""
       operation: fix
     - operation: compress
@@ -252,6 +302,8 @@ recipe:
       operation: buildTTF
     - args: --features smcp --suffix --usesuffix SC
       operation: featureFreeze
+    - args: --layout-features-='smcp'
+      operation: hbsubset
     - args: ""
       operation: fix
     - operation: compress
@@ -262,6 +314,8 @@ recipe:
       operation: buildTTF
     - args: --features smcp --suffix --usesuffix SC
       operation: featureFreeze
+    - args: --layout-features-='smcp'
+      operation: hbsubset
     - args: ""
       operation: fix
     - operation: compress
@@ -272,6 +326,8 @@ recipe:
       operation: buildTTF
     - args: --features smcp --suffix --usesuffix SC
       operation: featureFreeze
+    - args: --layout-features-='smcp'
+      operation: hbsubset
     - args: ""
       operation: fix
     - operation: compress
@@ -282,6 +338,8 @@ recipe:
       operation: buildTTF
     - args: --features smcp --suffix --usesuffix SC
       operation: featureFreeze
+    - args: --layout-features-='smcp'
+      operation: hbsubset
     - args: ""
       operation: fix
     - operation: compress
@@ -292,6 +350,8 @@ recipe:
       operation: buildTTF
     - args: --features smcp --suffix --usesuffix SC
       operation: featureFreeze
+    - args: --layout-features-='smcp'
+      operation: hbsubset
     - args: ""
       operation: fix
     - operation: compress
@@ -302,6 +362,8 @@ recipe:
       operation: buildTTF
     - args: --features smcp --suffix --usesuffix SC
       operation: featureFreeze
+    - args: --layout-features-='smcp'
+      operation: hbsubset
     - args: ""
       operation: fix
     - operation: compress
@@ -312,6 +374,8 @@ recipe:
       operation: buildTTF
     - args: --features smcp --suffix --usesuffix SC
       operation: featureFreeze
+    - args: --layout-features-='smcp'
+      operation: hbsubset
     - args: ""
       operation: fix
     - operation: compress
@@ -322,6 +386,8 @@ recipe:
       operation: buildTTF
     - args: --features smcp --suffix --usesuffix SC
       operation: featureFreeze
+    - args: --layout-features-='smcp'
+      operation: hbsubset
     - args: ""
       operation: fix
     - operation: compress
