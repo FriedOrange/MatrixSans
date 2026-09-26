@@ -63,6 +63,9 @@ feature aalt {
 @lc_ar = [ayb-ar ben-ar gim-ar da-ar ech-ar za-ar eh-ar et-ar to-ar zhe-ar ini-ar liwn-ar xeh-ar ca-ar ken-ar ho-ar ja-ar ghad-ar cheh-ar men-ar yi-ar now-ar sha-ar vo-ar cha-ar peh-ar jheh-ar ra-ar seh-ar vew-ar tiwn-ar reh-ar co-ar yiwn-ar piwr-ar keh-ar feh-ar];
 @sc_ar = [ayb-ar.sc ben-ar.sc gim-ar.sc da-ar.sc ech-ar.sc za-ar.sc eh-ar.sc et-ar.sc to-ar.sc zhe-ar.sc ini-ar.sc l.sc xeh-ar.sc ca-ar.sc ken-ar.sc ho-ar.sc ja-ar.sc ghad-ar.sc cheh-ar.sc men-ar.sc yi-ar.sc now-ar.sc sha-ar.sc vo-ar.sc cha-ar.sc peh-ar.sc jheh-ar.sc ra-ar.sc u.sc vew-ar.sc s reh-ar.sc co-ar.sc yiwn-ar.sc ef-cy.sc keh-ar.sc feh-ar.sc];
 
+@uc_dsrt = [u10400 u10401 u10402 u10403 u10404 u10405 u10406 u10407 u10408 u10409 u1040A u1040B u1040C u1040D u1040E u1040F u10410 u10411 u10412 u10413 u10414 u10415 u10416 u10417 u10418 u10419 u1041A u1041B u1041C u1041D u1041E u1041F u10420 u10421 u10422 u10423 u10424 u10425 u10426 u10427];
+@c2sc_dsrt = [u10428 u10429 u1042A u1042B u1042C u1042D u1042E u1042F u10430 u10431 u10432 u10433 u10434 u10435 u10436 u10437 u10438 u10439 u1043A u1043B u1043C u1043D u1043E u1043F u10440 u10441 u10442 u10443 u10444 u10445 u10446 u10447 u10448 u10449 u1044A u1044B u1044C u1044D u1044E u1044F];
+
 feature c2sc {
 	script latn;
 	sub @uc by @c2sc;
@@ -72,6 +75,8 @@ feature c2sc {
 	sub @uc_gr by @c2sc_gr;
 	script armn;
 	sub @uc_ar by @c2sc_ar;
+	script dsrt;
+	sub @uc_dsrt by @c2sc_dsrt;
 } c2sc;
 
 feature smcp {
