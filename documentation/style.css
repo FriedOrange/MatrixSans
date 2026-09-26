@@ -22,6 +22,30 @@
 	font-family: "Matrix Sans Smooth";
 	src: url("webfonts/MatrixSansSmooth-Regular.woff2");
 }
+@font-face {
+	font-family: "Matrix Mono";
+	src: url("webfonts/MatrixMono-Regular.woff2");
+}
+@font-face {
+	font-family: "Matrix Mono Print";
+	src: url("webfonts/MatrixMonoPrint-Regular.woff2");
+}
+@font-face {
+	font-family: "Matrix Mono Screen";
+	src: url("webfonts/MatrixMonoScreen-Regular.woff2");
+}
+@font-face {
+	font-family: "Matrix Mono Raster";
+	src: url("webfonts/MatrixMonoRaster-Regular.woff2");
+}
+@font-face {
+	font-family: "Matrix Mono Video";
+	src: url("webfonts/MatrixMonoVideo-Regular.woff2");
+}
+@font-face {
+	font-family: "Matrix Mono Smooth";
+	src: url("webfonts/MatrixMonoSmooth-Regular.woff2");
+}
 body {
 	max-width: 54em;
 	margin: auto;
@@ -61,6 +85,12 @@ a:hover, a:visited:hover {text-decoration: underline;}
 .raster {font-family: "Matrix Sans Raster", sans-serif;}
 .video {font-family: "Matrix Sans Video", sans-serif;}
 .smooth {font-family: "Matrix Sans Smooth", sans-serif;}
+.monoregular {font-family: "Matrix Mono", sans-serif;}
+.monoprint {font-family: "Matrix Mono Print", sans-serif;}
+.monoscreen {font-family: "Matrix Mono Screen", sans-serif;}
+.monoraster {font-family: "Matrix Mono Raster", sans-serif;}
+.monovideo {font-family: "Matrix Mono Video", sans-serif;}
+.monosmooth {font-family: "Matrix Mono Smooth", sans-serif;}
 .big {
 	font-size: 3em;
 	color: #ddd;
