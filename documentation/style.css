@@ -47,7 +47,7 @@
 	src: url("webfonts/MatrixMonoSmooth-Regular.woff2");
 }
 body {
-	max-width: 54em;
+	max-width: 60em;
 	margin: auto;
 	background-color: #000;
 	color: #ccc;
