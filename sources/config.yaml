@@ -73,6 +73,17 @@ recipe:
       operation: hbsubset
     - args: ""
       operation: fix
+  ../fonts/otf/MatrixMonoSmoothSC-Regular.otf:
+    - source: MatrixMonoSmooth-Regular.ufo
+    - args: --filter ...  --filter FlattenComponentsFilter --filter
+        DecomposeTransformedComponentsFilter --keep-overlaps --keep-direction
+      operation: buildOTF
+    - args: --features smcp --suffix --usesuffix SC
+      operation: featureFreeze
+    - args: --layout-features-='smcp'
+      operation: hbsubset
+    - args: ""
+      operation: fix
   ../fonts/otf/MatrixSansPrintSC-Regular.otf:
     - source: MatrixSansPrint-Regular.ufo
     - args: --filter ...  --filter FlattenComponentsFilter --filter
@@ -185,6 +196,17 @@ recipe:
       operation: fix
   ../fonts/ttf/MatrixMonoVideoSC-Regular.ttf:
     - source: MatrixMonoVideo-Regular.ufo
+    - args: --filter ...  --filter FlattenComponentsFilter --filter
+        DecomposeTransformedComponentsFilter --keep-overlaps --keep-direction
+      operation: buildTTF
+    - args: --features smcp --suffix --usesuffix SC
+      operation: featureFreeze
+    - args: --layout-features-='smcp'
+      operation: hbsubset
+    - args: ""
+      operation: fix
+  ../fonts/ttf/MatrixMonoSmoothSC-Regular.ttf:
+    - source: MatrixMonoSmooth-Regular.ufo
     - args: --filter ...  --filter FlattenComponentsFilter --filter
         DecomposeTransformedComponentsFilter --keep-overlaps --keep-direction
       operation: buildTTF
@@ -310,6 +332,18 @@ recipe:
     - operation: compress
   ../fonts/webfonts/MatrixMonoVideoSC-Regular.woff2:
     - source: MatrixMonoVideo-Regular.ufo
+    - args: --filter ...  --filter FlattenComponentsFilter --filter
+        DecomposeTransformedComponentsFilter --keep-overlaps --keep-direction
+      operation: buildTTF
+    - args: --features smcp --suffix --usesuffix SC
+      operation: featureFreeze
+    - args: --layout-features-='smcp'
+      operation: hbsubset
+    - args: ""
+      operation: fix
+    - operation: compress
+  ../fonts/webfonts/MatrixMonoSmoothSC-Regular.woff2:
+    - source: MatrixMonoSmoothSC-Regular.ufo
     - args: --filter ...  --filter FlattenComponentsFilter --filter
         DecomposeTransformedComponentsFilter --keep-overlaps --keep-direction
       operation: buildTTF
