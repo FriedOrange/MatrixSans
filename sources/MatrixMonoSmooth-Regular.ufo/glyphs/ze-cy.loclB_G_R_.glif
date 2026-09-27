@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ze-cy.loclBGR" format="2">
+  <advance height="800" width="600"/>
+  <outline>
+    <component base="three" yOffset="-200.0"/>
+  </outline>
+</glyph>

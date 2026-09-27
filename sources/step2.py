@@ -23,6 +23,7 @@ MONO_TEMP = "temp\\MatrixMono.sfd"
 VIDEO_AUX_SOURCE = "MatrixSans-video-aux.sfd"
 MONO_VIDEO_AUX_SOURCE = "MatrixMono-video-aux.sfd"
 SMOOTH_AUX_SOURCE = "MatrixSans-smooth-aux.sfd"
+MONO_SMOOTH_AUX_SOURCE = "MatrixMono-smooth-aux.sfd"
 UNLINK_LIST = ["Aring", "Ccedilla", "aring", "ccedilla", "aogonek",
 	"Eogonek", "eogonek", "Gcommaaccent", "Iogonek", "iogonek", "Lcommaaccent", "lcommaaccent",
 	"Scedilla", "scedilla", "Tcedilla", "tcedilla", "Uogonek", "Scommaaccent",
@@ -245,7 +246,7 @@ def make_raster(source):
 	font.save(f"temp\\{font.fontname}.sfd")
 
 	
-def make_smooth(source):
+def make_smooth(source, aux_source):
 
 	font = fontforge.open(source)
 
@@ -348,7 +349,7 @@ def make_smooth(source):
 					font[glyph].addReference("quarterdot", (1, 0, 0, 1, LEFT_SIDE_BEARING + (i + 0.5) * DOT_SIZE, (j - DESCENT_DOTS) * DOT_SIZE))
 
 	# replace certain glyphs with manually-designed forms
-	smooth_aux_font = fontforge.open(SMOOTH_AUX_SOURCE)
+	smooth_aux_font = fontforge.open(aux_source)
 	for glyph in smooth_aux_font:
 		smooth_aux_font.selection.select(glyph)
 		smooth_aux_font.copy()
@@ -433,13 +434,14 @@ def main():
 	make_raster(MAIN_SOURCE)
 	make_screen(MAIN_SOURCE)
 	make_video(MAIN_SOURCE, VIDEO_AUX_SOURCE)
-	make_smooth(MAIN_SOURCE)
+	make_smooth(MAIN_SOURCE, SMOOTH_AUX_SOURCE)
 	make_mono(MONO_SOURCE, MAIN_SOURCE)
 	make_regular(MONO_TEMP)
 	make_print(MONO_TEMP)
 	make_raster(MONO_TEMP)
 	make_screen(MONO_TEMP)
 	make_video(MONO_TEMP, MONO_VIDEO_AUX_SOURCE)
+	make_smooth(MONO_TEMP, MONO_SMOOTH_AUX_SOURCE)
 
 if __name__ == "__main__":
 	main()

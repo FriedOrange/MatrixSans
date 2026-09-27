@@ -11,6 +11,7 @@ sources:
   - MatrixMonoPrint-Regular.ufo
   - MatrixMonoRaster-Regular.ufo
   - MatrixMonoVideo-Regular.ufo
+  - MatrixMonoSmooth-Regular.ufo
 buildVariable: false
 removeOutlineOverlaps: false
 autohintTTF: false
