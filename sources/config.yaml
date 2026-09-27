@@ -25,7 +25,7 @@ recipe:
       operation: buildOTF
     - args: --features smcp --suffix --usesuffix SC
       operation: featureFreeze
-    - args: --layout-features-='smcp'
+    - args: --layout-features-='smcp' --drop-tables=
       operation: hbsubset
     - args: ""
       operation: fix
@@ -36,7 +36,7 @@ recipe:
       operation: buildOTF
     - args: --features smcp --suffix --usesuffix SC
       operation: featureFreeze
-    - args: --layout-features-='smcp'
+    - args: --layout-features-='smcp' --drop-tables=
       operation: hbsubset
     - args: ""
       operation: fix
@@ -47,7 +47,7 @@ recipe:
       operation: buildOTF
     - args: --features smcp --suffix --usesuffix SC
       operation: featureFreeze
-    - args: --layout-features-='smcp'
+    - args: --layout-features-='smcp' --drop-tables=
       operation: hbsubset
     - args: ""
       operation: fix
@@ -58,7 +58,7 @@ recipe:
       operation: buildOTF
     - args: --features smcp --suffix --usesuffix SC
       operation: featureFreeze
-    - args: --layout-features-='smcp'
+    - args: --layout-features-='smcp' --drop-tables=
       operation: hbsubset
     - args: ""
       operation: fix
@@ -69,7 +69,7 @@ recipe:
       operation: buildOTF
     - args: --features smcp --suffix --usesuffix SC
       operation: featureFreeze
-    - args: --layout-features-='smcp'
+    - args: --layout-features-='smcp' --drop-tables=
       operation: hbsubset
     - args: ""
       operation: fix
@@ -80,7 +80,7 @@ recipe:
       operation: buildOTF
     - args: --features smcp --suffix --usesuffix SC
       operation: featureFreeze
-    - args: --layout-features-='smcp'
+    - args: --layout-features-='smcp' --drop-tables=
       operation: hbsubset
     - args: ""
       operation: fix
@@ -91,7 +91,7 @@ recipe:
       operation: buildOTF
     - args: --features smcp --suffix --usesuffix SC
       operation: featureFreeze
-    - args: --layout-features-='smcp'
+    - args: --layout-features-='smcp' --drop-tables=
       operation: hbsubset
     - args: ""
       operation: fix
@@ -102,7 +102,7 @@ recipe:
       operation: buildOTF
     - args: --features smcp --suffix --usesuffix SC
       operation: featureFreeze
-    - args: --layout-features-='smcp'
+    - args: --layout-features-='smcp' --drop-tables=
       operation: hbsubset
     - args: ""
       operation: fix
@@ -113,7 +113,7 @@ recipe:
       operation: buildOTF
     - args: --features smcp --suffix --usesuffix SC
       operation: featureFreeze
-    - args: --layout-features-='smcp'
+    - args: --layout-features-='smcp' --drop-tables=
       operation: hbsubset
     - args: ""
       operation: fix
@@ -124,7 +124,7 @@ recipe:
       operation: buildOTF
     - args: --features smcp --suffix --usesuffix SC
       operation: featureFreeze
-    - args: --layout-features-='smcp'
+    - args: --layout-features-='smcp' --drop-tables=
       operation: hbsubset
     - args: ""
       operation: fix
@@ -135,7 +135,7 @@ recipe:
       operation: buildOTF
     - args: --features smcp --suffix --usesuffix SC
       operation: featureFreeze
-    - args: --layout-features-='smcp'
+    - args: --layout-features-='smcp' --drop-tables=
       operation: hbsubset
     - args: ""
       operation: fix
@@ -146,7 +146,7 @@ recipe:
       operation: buildOTF
     - args: --features smcp --suffix --usesuffix SC
       operation: featureFreeze
-    - args: --layout-features-='smcp'
+    - args: --layout-features-='smcp' --drop-tables=
       operation: hbsubset
     - args: ""
       operation: fix
@@ -157,7 +157,7 @@ recipe:
       operation: buildTTF
     - args: --features smcp --suffix --usesuffix SC
       operation: featureFreeze
-    - args: --layout-features-='smcp'
+    - args: --layout-features-='smcp' --drop-tables=
       operation: hbsubset
     - args: ""
       operation: fix
@@ -168,7 +168,7 @@ recipe:
       operation: buildTTF
     - args: --features smcp --suffix --usesuffix SC
       operation: featureFreeze
-    - args: --layout-features-='smcp'
+    - args: --layout-features-='smcp' --drop-tables=
       operation: hbsubset
     - args: ""
       operation: fix
@@ -179,7 +179,7 @@ recipe:
       operation: buildTTF
     - args: --features smcp --suffix --usesuffix SC
       operation: featureFreeze
-    - args: --layout-features-='smcp'
+    - args: --layout-features-='smcp' --drop-tables=
       operation: hbsubset
     - args: ""
       operation: fix
@@ -190,7 +190,7 @@ recipe:
       operation: buildTTF
     - args: --features smcp --suffix --usesuffix SC
       operation: featureFreeze
-    - args: --layout-features-='smcp'
+    - args: --layout-features-='smcp' --drop-tables=
       operation: hbsubset
     - args: ""
       operation: fix
@@ -201,7 +201,7 @@ recipe:
       operation: buildTTF
     - args: --features smcp --suffix --usesuffix SC
       operation: featureFreeze
-    - args: --layout-features-='smcp'
+    - args: --layout-features-='smcp' --drop-tables=
       operation: hbsubset
     - args: ""
       operation: fix
@@ -212,7 +212,7 @@ recipe:
       operation: buildTTF
     - args: --features smcp --suffix --usesuffix SC
       operation: featureFreeze
-    - args: --layout-features-='smcp'
+    - args: --layout-features-='smcp' --drop-tables=
       operation: hbsubset
     - args: ""
       operation: fix
@@ -223,7 +223,7 @@ recipe:
       operation: buildTTF
     - args: --features smcp --suffix --usesuffix SC
       operation: featureFreeze
-    - args: --layout-features-='smcp'
+    - args: --layout-features-='smcp' --drop-tables=
       operation: hbsubset
     - args: ""
       operation: fix
@@ -234,7 +234,7 @@ recipe:
       operation: buildTTF
     - args: --features smcp --suffix --usesuffix SC
       operation: featureFreeze
-    - args: --layout-features-='smcp'
+    - args: --layout-features-='smcp' --drop-tables=
       operation: hbsubset
     - args: ""
       operation: fix
@@ -245,7 +245,7 @@ recipe:
       operation: buildTTF
     - args: --features smcp --suffix --usesuffix SC
       operation: featureFreeze
-    - args: --layout-features-='smcp'
+    - args: --layout-features-='smcp' --drop-tables=
       operation: hbsubset
     - args: ""
       operation: fix
@@ -256,7 +256,7 @@ recipe:
       operation: buildTTF
     - args: --features smcp --suffix --usesuffix SC
       operation: featureFreeze
-    - args: --layout-features-='smcp'
+    - args: --layout-features-='smcp' --drop-tables=
       operation: hbsubset
     - args: ""
       operation: fix
@@ -267,7 +267,7 @@ recipe:
       operation: buildTTF
     - args: --features smcp --suffix --usesuffix SC
       operation: featureFreeze
-    - args: --layout-features-='smcp'
+    - args: --layout-features-='smcp' --drop-tables=
       operation: hbsubset
     - args: ""
       operation: fix
@@ -278,7 +278,7 @@ recipe:
       operation: buildTTF
     - args: --features smcp --suffix --usesuffix SC
       operation: featureFreeze
-    - args: --layout-features-='smcp'
+    - args: --layout-features-='smcp' --drop-tables=
       operation: hbsubset
     - args: ""
       operation: fix
@@ -289,7 +289,7 @@ recipe:
       operation: buildTTF
     - args: --features smcp --suffix --usesuffix SC
       operation: featureFreeze
-    - args: --layout-features-='smcp'
+    - args: --layout-features-='smcp' --drop-tables=
       operation: hbsubset
     - args: ""
       operation: fix
@@ -301,7 +301,7 @@ recipe:
       operation: buildTTF
     - args: --features smcp --suffix --usesuffix SC
       operation: featureFreeze
-    - args: --layout-features-='smcp'
+    - args: --layout-features-='smcp' --drop-tables=
       operation: hbsubset
     - args: ""
       operation: fix
@@ -313,7 +313,7 @@ recipe:
       operation: buildTTF
     - args: --features smcp --suffix --usesuffix SC
       operation: featureFreeze
-    - args: --layout-features-='smcp'
+    - args: --layout-features-='smcp' --drop-tables=
       operation: hbsubset
     - args: ""
       operation: fix
@@ -325,7 +325,7 @@ recipe:
       operation: buildTTF
     - args: --features smcp --suffix --usesuffix SC
       operation: featureFreeze
-    - args: --layout-features-='smcp'
+    - args: --layout-features-='smcp' --drop-tables=
       operation: hbsubset
     - args: ""
       operation: fix
@@ -337,7 +337,7 @@ recipe:
       operation: buildTTF
     - args: --features smcp --suffix --usesuffix SC
       operation: featureFreeze
-    - args: --layout-features-='smcp'
+    - args: --layout-features-='smcp' --drop-tables=
       operation: hbsubset
     - args: ""
       operation: fix
@@ -349,7 +349,7 @@ recipe:
       operation: buildTTF
     - args: --features smcp --suffix --usesuffix SC
       operation: featureFreeze
-    - args: --layout-features-='smcp'
+    - args: --layout-features-='smcp' --drop-tables=
       operation: hbsubset
     - args: ""
       operation: fix
@@ -361,7 +361,7 @@ recipe:
       operation: buildTTF
     - args: --features smcp --suffix --usesuffix SC
       operation: featureFreeze
-    - args: --layout-features-='smcp'
+    - args: --layout-features-='smcp' --drop-tables=
       operation: hbsubset
     - args: ""
       operation: fix
@@ -373,7 +373,7 @@ recipe:
       operation: buildTTF
     - args: --features smcp --suffix --usesuffix SC
       operation: featureFreeze
-    - args: --layout-features-='smcp'
+    - args: --layout-features-='smcp' --drop-tables=
       operation: hbsubset
     - args: ""
       operation: fix
@@ -385,7 +385,7 @@ recipe:
       operation: buildTTF
     - args: --features smcp --suffix --usesuffix SC
       operation: featureFreeze
-    - args: --layout-features-='smcp'
+    - args: --layout-features-='smcp' --drop-tables=
       operation: hbsubset
     - args: ""
       operation: fix
@@ -397,7 +397,7 @@ recipe:
       operation: buildTTF
     - args: --features smcp --suffix --usesuffix SC
       operation: featureFreeze
-    - args: --layout-features-='smcp'
+    - args: --layout-features-='smcp' --drop-tables=
       operation: hbsubset
     - args: ""
       operation: fix
@@ -409,7 +409,7 @@ recipe:
       operation: buildTTF
     - args: --features smcp --suffix --usesuffix SC
       operation: featureFreeze
-    - args: --layout-features-='smcp'
+    - args: --layout-features-='smcp' --drop-tables=
       operation: hbsubset
     - args: ""
       operation: fix
@@ -421,7 +421,7 @@ recipe:
       operation: buildTTF
     - args: --features smcp --suffix --usesuffix SC
       operation: featureFreeze
-    - args: --layout-features-='smcp'
+    - args: --layout-features-='smcp' --drop-tables=
       operation: hbsubset
     - args: ""
       operation: fix
