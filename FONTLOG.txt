@@ -7,15 +7,17 @@ This information should be distributed along with the fonts and any derivative w
 Basic font information
 ----------------------
 
-Matrix Sans is a typeface family inspired by classic 5x7 dot matrix fonts.
+Matrix Sans is a typeface family inspired by classic 5x7 dot matrix fonts. The Matrix Mono family is mostly the same, but strictly monospaced.
 
-It comes in six variants:
+They comes in six variants:
 - Regular: connected square dots, like a typical bitmap ("pixel") font
 - Print: separate circular dots, like a dot-matrix printer
 - Raster: rounded horizontal lines, like a cathode-ray tube
 - Screen: separate square dots, like an LCD screen
 - Video: interpolation on diagonal sections, like a VCR/camcorder on-screen display
 - Smooth: straight lines on diagonal sections
+
+Each variant has a matching "SC" version in which the lower-case letters are replaced with small capitals. 
 
 Further information can be found at: https://friedorange.github.io/MatrixSans/
 
