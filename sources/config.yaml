@@ -343,7 +343,7 @@ recipe:
       operation: fix
     - operation: compress
   ../fonts/webfonts/MatrixMonoSmoothSC-Regular.woff2:
-    - source: MatrixMonoSmoothSC-Regular.ufo
+    - source: MatrixMonoSmooth-Regular.ufo
     - args: --filter ...  --filter FlattenComponentsFilter --filter
         DecomposeTransformedComponentsFilter --keep-overlaps --keep-direction
       operation: buildTTF
