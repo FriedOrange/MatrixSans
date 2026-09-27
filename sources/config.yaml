@@ -25,9 +25,9 @@ recipe:
       operation: buildOTF
     - args: --features smcp --suffix --usesuffix SC
       operation: featureFreeze
-    - args: --layout-features-='smcp'
+    - args: --layout-features-='smcp' --drop-tables= --passthrough-tables
       operation: hbsubset
-    - args: "--drop-tables= --passthrough-tables"
+    - args: ""
       operation: fix
   ../fonts/otf/MatrixMonoRasterSC-Regular.otf:
     - source: MatrixMonoRaster-Regular.ufo
@@ -36,9 +36,9 @@ recipe:
       operation: buildOTF
     - args: --features smcp --suffix --usesuffix SC
       operation: featureFreeze
-    - args: --layout-features-='smcp'
+    - args: --layout-features-='smcp' --drop-tables= --passthrough-tables
       operation: hbsubset
-    - args: "--drop-tables= --passthrough-tables"
+    - args: ""
       operation: fix
   ../fonts/otf/MatrixMonoSC-Regular.otf:
     - source: MatrixMono-Regular.ufo
@@ -47,9 +47,9 @@ recipe:
       operation: buildOTF
     - args: --features smcp --suffix --usesuffix SC
       operation: featureFreeze
-    - args: --layout-features-='smcp'
+    - args: --layout-features-='smcp' --drop-tables= --passthrough-tables
       operation: hbsubset
-    - args: "--drop-tables= --passthrough-tables"
+    - args: ""
       operation: fix
   ../fonts/otf/MatrixMonoScreenSC-Regular.otf:
     - source: MatrixMonoScreen-Regular.ufo
@@ -58,9 +58,9 @@ recipe:
       operation: buildOTF
     - args: --features smcp --suffix --usesuffix SC
       operation: featureFreeze
-    - args: --layout-features-='smcp'
+    - args: --layout-features-='smcp' --drop-tables= --passthrough-tables
       operation: hbsubset
-    - args: "--drop-tables= --passthrough-tables"
+    - args: ""
       operation: fix
   ../fonts/otf/MatrixMonoVideoSC-Regular.otf:
     - source: MatrixMonoVideo-Regular.ufo
@@ -69,9 +69,9 @@ recipe:
       operation: buildOTF
     - args: --features smcp --suffix --usesuffix SC
       operation: featureFreeze
-    - args: --layout-features-='smcp'
+    - args: --layout-features-='smcp' --drop-tables= --passthrough-tables
       operation: hbsubset
-    - args: "--drop-tables= --passthrough-tables"
+    - args: ""
       operation: fix
   ../fonts/otf/MatrixMonoSmoothSC-Regular.otf:
     - source: MatrixMonoSmooth-Regular.ufo
@@ -80,9 +80,9 @@ recipe:
       operation: buildOTF
     - args: --features smcp --suffix --usesuffix SC
       operation: featureFreeze
-    - args: --layout-features-='smcp'
+    - args: --layout-features-='smcp' --drop-tables= --passthrough-tables
       operation: hbsubset
-    - args: "--drop-tables= --passthrough-tables"
+    - args: ""
       operation: fix
   ../fonts/otf/MatrixSansPrintSC-Regular.otf:
     - source: MatrixSansPrint-Regular.ufo
@@ -91,9 +91,9 @@ recipe:
       operation: buildOTF
     - args: --features smcp --suffix --usesuffix SC
       operation: featureFreeze
-    - args: --layout-features-='smcp'
+    - args: --layout-features-='smcp' --drop-tables= --passthrough-tables
       operation: hbsubset
-    - args: "--drop-tables= --passthrough-tables"
+    - args: ""
       operation: fix
   ../fonts/otf/MatrixSansRasterSC-Regular.otf:
     - source: MatrixSansRaster-Regular.ufo
@@ -102,9 +102,9 @@ recipe:
       operation: buildOTF
     - args: --features smcp --suffix --usesuffix SC
       operation: featureFreeze
-    - args: --layout-features-='smcp'
+    - args: --layout-features-='smcp' --drop-tables= --passthrough-tables
       operation: hbsubset
-    - args: "--drop-tables= --passthrough-tables"
+    - args: ""
       operation: fix
   ../fonts/otf/MatrixSansSC-Regular.otf:
     - source: MatrixSans-Regular.ufo
@@ -113,9 +113,9 @@ recipe:
       operation: buildOTF
     - args: --features smcp --suffix --usesuffix SC
       operation: featureFreeze
-    - args: --layout-features-='smcp'
+    - args: --layout-features-='smcp' --drop-tables= --passthrough-tables
       operation: hbsubset
-    - args: "--drop-tables= --passthrough-tables"
+    - args: ""
       operation: fix
   ../fonts/otf/MatrixSansScreenSC-Regular.otf:
     - source: MatrixSansScreen-Regular.ufo
@@ -124,9 +124,9 @@ recipe:
       operation: buildOTF
     - args: --features smcp --suffix --usesuffix SC
       operation: featureFreeze
-    - args: --layout-features-='smcp'
+    - args: --layout-features-='smcp' --drop-tables= --passthrough-tables
       operation: hbsubset
-    - args: "--drop-tables= --passthrough-tables"
+    - args: ""
       operation: fix
   ../fonts/otf/MatrixSansSmoothSC-Regular.otf:
     - source: MatrixSansSmooth-Regular.ufo
@@ -135,9 +135,9 @@ recipe:
       operation: buildOTF
     - args: --features smcp --suffix --usesuffix SC
       operation: featureFreeze
-    - args: --layout-features-='smcp'
+    - args: --layout-features-='smcp' --drop-tables= --passthrough-tables
       operation: hbsubset
-    - args: "--drop-tables= --passthrough-tables"
+    - args: ""
       operation: fix
   ../fonts/otf/MatrixSansVideoSC-Regular.otf:
     - source: MatrixSansVideo-Regular.ufo
@@ -146,9 +146,9 @@ recipe:
       operation: buildOTF
     - args: --features smcp --suffix --usesuffix SC
       operation: featureFreeze
-    - args: --layout-features-='smcp'
+    - args: --layout-features-='smcp' --drop-tables= --passthrough-tables
       operation: hbsubset
-    - args: "--drop-tables= --passthrough-tables"
+    - args: ""
       operation: fix
   ../fonts/ttf/MatrixMonoPrintSC-Regular.ttf:
     - source: MatrixMonoPrint-Regular.ufo
@@ -157,9 +157,9 @@ recipe:
       operation: buildTTF
     - args: --features smcp --suffix --usesuffix SC
       operation: featureFreeze
-    - args: --layout-features-='smcp'
+    - args: --layout-features-='smcp' --drop-tables= --passthrough-tables
       operation: hbsubset
-    - args: "--drop-tables= --passthrough-tables"
+    - args: ""
       operation: fix
   ../fonts/ttf/MatrixMonoRasterSC-Regular.ttf:
     - source: MatrixMonoRaster-Regular.ufo
@@ -168,9 +168,9 @@ recipe:
       operation: buildTTF
     - args: --features smcp --suffix --usesuffix SC
       operation: featureFreeze
-    - args: --layout-features-='smcp'
+    - args: --layout-features-='smcp' --drop-tables= --passthrough-tables
       operation: hbsubset
-    - args: "--drop-tables= --passthrough-tables"
+    - args: ""
       operation: fix
   ../fonts/ttf/MatrixMonoSC-Regular.ttf:
     - source: MatrixMono-Regular.ufo
@@ -179,9 +179,9 @@ recipe:
       operation: buildTTF
     - args: --features smcp --suffix --usesuffix SC
       operation: featureFreeze
-    - args: --layout-features-='smcp'
+    - args: --layout-features-='smcp' --drop-tables= --passthrough-tables
       operation: hbsubset
-    - args: "--drop-tables= --passthrough-tables"
+    - args: ""
       operation: fix
   ../fonts/ttf/MatrixMonoScreenSC-Regular.ttf:
     - source: MatrixMonoScreen-Regular.ufo
@@ -190,9 +190,9 @@ recipe:
       operation: buildTTF
     - args: --features smcp --suffix --usesuffix SC
       operation: featureFreeze
-    - args: --layout-features-='smcp'
+    - args: --layout-features-='smcp' --drop-tables= --passthrough-tables
       operation: hbsubset
-    - args: "--drop-tables= --passthrough-tables"
+    - args: ""
       operation: fix
   ../fonts/ttf/MatrixMonoVideoSC-Regular.ttf:
     - source: MatrixMonoVideo-Regular.ufo
@@ -201,9 +201,9 @@ recipe:
       operation: buildTTF
     - args: --features smcp --suffix --usesuffix SC
       operation: featureFreeze
-    - args: --layout-features-='smcp'
+    - args: --layout-features-='smcp' --drop-tables= --passthrough-tables
       operation: hbsubset
-    - args: "--drop-tables= --passthrough-tables"
+    - args: ""
       operation: fix
   ../fonts/ttf/MatrixMonoSmoothSC-Regular.ttf:
     - source: MatrixMonoSmooth-Regular.ufo
@@ -212,9 +212,9 @@ recipe:
       operation: buildTTF
     - args: --features smcp --suffix --usesuffix SC
       operation: featureFreeze
-    - args: --layout-features-='smcp'
+    - args: --layout-features-='smcp' --drop-tables= --passthrough-tables
       operation: hbsubset
-    - args: "--drop-tables= --passthrough-tables"
+    - args: ""
       operation: fix
   ../fonts/ttf/MatrixSansPrintSC-Regular.ttf:
     - source: MatrixSansPrint-Regular.ufo
@@ -223,9 +223,9 @@ recipe:
       operation: buildTTF
     - args: --features smcp --suffix --usesuffix SC
       operation: featureFreeze
-    - args: --layout-features-='smcp'
+    - args: --layout-features-='smcp' --drop-tables= --passthrough-tables
       operation: hbsubset
-    - args: "--drop-tables= --passthrough-tables"
+    - args: ""
       operation: fix
   ../fonts/ttf/MatrixSansRasterSC-Regular.ttf:
     - source: MatrixSansRaster-Regular.ufo
@@ -234,9 +234,9 @@ recipe:
       operation: buildTTF
     - args: --features smcp --suffix --usesuffix SC
       operation: featureFreeze
-    - args: --layout-features-='smcp'
+    - args: --layout-features-='smcp' --drop-tables= --passthrough-tables
       operation: hbsubset
-    - args: "--drop-tables= --passthrough-tables"
+    - args: ""
       operation: fix
   ../fonts/ttf/MatrixSansSC-Regular.ttf:
     - source: MatrixSans-Regular.ufo
@@ -245,9 +245,9 @@ recipe:
       operation: buildTTF
     - args: --features smcp --suffix --usesuffix SC
       operation: featureFreeze
-    - args: --layout-features-='smcp'
+    - args: --layout-features-='smcp' --drop-tables= --passthrough-tables
       operation: hbsubset
-    - args: "--drop-tables= --passthrough-tables"
+    - args: ""
       operation: fix
   ../fonts/ttf/MatrixSansScreenSC-Regular.ttf:
     - source: MatrixSansScreen-Regular.ufo
@@ -256,9 +256,9 @@ recipe:
       operation: buildTTF
     - args: --features smcp --suffix --usesuffix SC
       operation: featureFreeze
-    - args: --layout-features-='smcp'
+    - args: --layout-features-='smcp' --drop-tables= --passthrough-tables
       operation: hbsubset
-    - args: "--drop-tables= --passthrough-tables"
+    - args: ""
       operation: fix
   ../fonts/ttf/MatrixSansSmoothSC-Regular.ttf:
     - source: MatrixSansSmooth-Regular.ufo
@@ -267,9 +267,9 @@ recipe:
       operation: buildTTF
     - args: --features smcp --suffix --usesuffix SC
       operation: featureFreeze
-    - args: --layout-features-='smcp'
+    - args: --layout-features-='smcp' --drop-tables= --passthrough-tables
       operation: hbsubset
-    - args: "--drop-tables= --passthrough-tables"
+    - args: ""
       operation: fix
   ../fonts/ttf/MatrixSansVideoSC-Regular.ttf:
     - source: MatrixSansVideo-Regular.ufo
@@ -278,9 +278,9 @@ recipe:
       operation: buildTTF
     - args: --features smcp --suffix --usesuffix SC
       operation: featureFreeze
-    - args: --layout-features-='smcp'
+    - args: --layout-features-='smcp' --drop-tables= --passthrough-tables
       operation: hbsubset
-    - args: "--drop-tables= --passthrough-tables"
+    - args: ""
       operation: fix
   ../fonts/webfonts/MatrixMonoSC-Regular.woff2:
     - source: MatrixMono-Regular.ufo
@@ -289,9 +289,9 @@ recipe:
       operation: buildTTF
     - args: --features smcp --suffix --usesuffix SC
       operation: featureFreeze
-    - args: --layout-features-='smcp'
+    - args: --layout-features-='smcp' --drop-tables= --passthrough-tables
       operation: hbsubset
-    - args: "--drop-tables= --passthrough-tables"
+    - args: ""
       operation: fix
     - operation: compress
   ../fonts/webfonts/MatrixMonoPrintSC-Regular.woff2:
@@ -301,9 +301,9 @@ recipe:
       operation: buildTTF
     - args: --features smcp --suffix --usesuffix SC
       operation: featureFreeze
-    - args: --layout-features-='smcp'
+    - args: --layout-features-='smcp' --drop-tables= --passthrough-tables
       operation: hbsubset
-    - args: "--drop-tables= --passthrough-tables"
+    - args: ""
       operation: fix
     - operation: compress
   ../fonts/webfonts/MatrixMonoRasterSC-Regular.woff2:
@@ -313,9 +313,9 @@ recipe:
       operation: buildTTF
     - args: --features smcp --suffix --usesuffix SC
       operation: featureFreeze
-    - args: --layout-features-='smcp'
+    - args: --layout-features-='smcp' --drop-tables= --passthrough-tables
       operation: hbsubset
-    - args: "--drop-tables= --passthrough-tables"
+    - args: ""
       operation: fix
     - operation: compress
   ../fonts/webfonts/MatrixMonoScreenSC-Regular.woff2:
@@ -325,9 +325,9 @@ recipe:
       operation: buildTTF
     - args: --features smcp --suffix --usesuffix SC
       operation: featureFreeze
-    - args: --layout-features-='smcp'
+    - args: --layout-features-='smcp' --drop-tables= --passthrough-tables
       operation: hbsubset
-    - args: "--drop-tables= --passthrough-tables"
+    - args: ""
       operation: fix
     - operation: compress
   ../fonts/webfonts/MatrixMonoVideoSC-Regular.woff2:
@@ -337,9 +337,9 @@ recipe:
       operation: buildTTF
     - args: --features smcp --suffix --usesuffix SC
       operation: featureFreeze
-    - args: --layout-features-='smcp'
+    - args: --layout-features-='smcp' --drop-tables= --passthrough-tables
       operation: hbsubset
-    - args: "--drop-tables= --passthrough-tables"
+    - args: ""
       operation: fix
     - operation: compress
   ../fonts/webfonts/MatrixMonoSmoothSC-Regular.woff2:
@@ -349,9 +349,9 @@ recipe:
       operation: buildTTF
     - args: --features smcp --suffix --usesuffix SC
       operation: featureFreeze
-    - args: --layout-features-='smcp'
+    - args: --layout-features-='smcp' --drop-tables= --passthrough-tables
       operation: hbsubset
-    - args: "--drop-tables= --passthrough-tables"
+    - args: ""
       operation: fix
     - operation: compress
   ../fonts/webfonts/MatrixSansSC-Regular.woff2:
@@ -361,9 +361,9 @@ recipe:
       operation: buildTTF
     - args: --features smcp --suffix --usesuffix SC
       operation: featureFreeze
-    - args: --layout-features-='smcp'
+    - args: --layout-features-='smcp' --drop-tables= --passthrough-tables
       operation: hbsubset
-    - args: "--drop-tables= --passthrough-tables"
+    - args: ""
       operation: fix
     - operation: compress
   ../fonts/webfonts/MatrixSansPrintSC-Regular.woff2:
@@ -373,9 +373,9 @@ recipe:
       operation: buildTTF
     - args: --features smcp --suffix --usesuffix SC
       operation: featureFreeze
-    - args: --layout-features-='smcp'
+    - args: --layout-features-='smcp' --drop-tables= --passthrough-tables
       operation: hbsubset
-    - args: "--drop-tables= --passthrough-tables"
+    - args: ""
       operation: fix
     - operation: compress
   ../fonts/webfonts/MatrixSansRasterSC-Regular.woff2:
@@ -385,9 +385,9 @@ recipe:
       operation: buildTTF
     - args: --features smcp --suffix --usesuffix SC
       operation: featureFreeze
-    - args: --layout-features-='smcp'
+    - args: --layout-features-='smcp' --drop-tables= --passthrough-tables
       operation: hbsubset
-    - args: "--drop-tables= --passthrough-tables"
+    - args: ""
       operation: fix
     - operation: compress
   ../fonts/webfonts/MatrixSansScreenSC-Regular.woff2:
@@ -397,9 +397,9 @@ recipe:
       operation: buildTTF
     - args: --features smcp --suffix --usesuffix SC
       operation: featureFreeze
-    - args: --layout-features-='smcp'
+    - args: --layout-features-='smcp' --drop-tables= --passthrough-tables
       operation: hbsubset
-    - args: "--drop-tables= --passthrough-tables"
+    - args: ""
       operation: fix
     - operation: compress
   ../fonts/webfonts/MatrixSansSmoothSC-Regular.woff2:
@@ -409,9 +409,9 @@ recipe:
       operation: buildTTF
     - args: --features smcp --suffix --usesuffix SC
       operation: featureFreeze
-    - args: --layout-features-='smcp'
+    - args: --layout-features-='smcp' --drop-tables= --passthrough-tables
       operation: hbsubset
-    - args: "--drop-tables= --passthrough-tables"
+    - args: ""
       operation: fix
     - operation: compress
   ../fonts/webfonts/MatrixSansVideoSC-Regular.woff2:
@@ -421,8 +421,8 @@ recipe:
       operation: buildTTF
     - args: --features smcp --suffix --usesuffix SC
       operation: featureFreeze
-    - args: --layout-features-='smcp'
+    - args: --layout-features-='smcp' --drop-tables= --passthrough-tables
       operation: hbsubset
-    - args: "--drop-tables= --passthrough-tables"
+    - args: ""
       operation: fix
     - operation: compress
