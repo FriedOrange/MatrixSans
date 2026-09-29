@@ -59,7 +59,7 @@ for i in range(128):
 		ur_bits.append(i)
 ur_bits.remove(59) # unset "CJK Unified Ideographs" bit
 
-for fontinfo_file in SANS_FONTINFO_FILES + MONO_FONTINFO_FILES:
+for fontinfo_file in SANS_FONTINFO_FILES:
 	with open(fontinfo_file, "rb") as input_file:
 		fontinfo = plistlib.load(input_file)
 
@@ -75,6 +75,7 @@ for fontinfo_file in MONO_FONTINFO_FILES:
 	with open(fontinfo_file, "rb") as input_file:
 		fontinfo = plistlib.load(input_file)
 
+	fontinfo["openTypeOS2UnicodeRanges"] = ur_bits
 	fontinfo["postscriptIsFixedPitch"] = True
 
 	with open(fontinfo_file, "wb") as output_file:
