@@ -210,11 +210,14 @@ feature mark {
 		<anchor 350 600> mark @marks_aboveright
 		<anchor 300 0> mark @marks_below
 		<anchor 300 0> mark @marks_belowright;
+} mark;
+
+feature mkmk {
 	pos mark @marks_above
 		<anchor 0 800> mark @marks_above;
 	pos mark @marks_below
 		<anchor 0 -200> mark @marks_below;
-} mark;
+} mkmk;
 
 
 # Classes for kerning
@@ -466,6 +469,7 @@ feature kern {
 	pos P jcircumflex.sc -200;
 	enum pos [g q y yacute eng eng.sc.loclNSM] @hookleft 100;
 	enum pos [dcroat f] @aother -100;
+	pos ldot l -200;
 	pos Chilatin s 0;
 
 	# class kerning rules
