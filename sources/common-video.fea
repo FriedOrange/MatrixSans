@@ -69,12 +69,28 @@ feature aalt {
 feature c2sc {
 	script latn;
 	sub @uc by @c2sc;
+	language CAT;
+	language TAT;
+	language TRK;
+	language KAZ;
+	language AZE;
+	language CRT;
+	language MOL;
+	language ROM;
+	language NSM;
+	language NLD;
+
 	script cyrl;
 	sub @uc_cy by @c2sc_cy;
+	language SRB;
+	language BGR;
+
 	script grek;
 	sub @uc_gr by @c2sc_gr;
+
 	script armn;
 	sub @uc_ar by @c2sc_ar;
+	
 	script dsrt;
 	sub @uc_dsrt by @c2sc_dsrt;
 } c2sc;
@@ -82,10 +98,25 @@ feature c2sc {
 feature smcp {
 	script latn;
 	sub @lc by @smcp;
+	language CAT;
+	language TAT;
+	language TRK;
+	language KAZ;
+	language AZE;
+	language CRT;
+	language MOL;
+	language ROM;
+	language NSM;
+	language NLD;
+
 	script cyrl;
 	sub @lc_cy by @smcp_cy;
+	language SRB;
+	language BGR;
+
 	script grek;
 	sub @lc_gr by @smcp_gr;
+
 	script armn;
 	sub @lc_ar by @sc_ar;
 } smcp;
@@ -98,6 +129,9 @@ feature ccmp {
 	sub i-cy' @_marks_above by dotlessi;
 	sub Yi-cy' @_marks_above by idieresis.sc;
 	sub je-cy' @_marks_above by jdotless;
+	language SRB;
+	language BGR;
+
 	script grek;
 	sub Alpha acutecomb by Alphatonos;
 	sub Epsilon acutecomb by Epsilontonos;
@@ -110,13 +144,20 @@ feature ccmp {
 	sub upsilon dieresiscomb acutecomb by upsilondieresistonos;
 	sub iota dieresiscomb acutecomb by iotadieresistonos;
 	sub [alpha epsilon eta iota omicron upsilon omega] acutecomb' by verticallineabovecomb;
+
 	script latn;
+	sub y' @_marks_below by y.titl;
+	# soft dotted characters
 	sub [i j ibar]' @_marks_above by [dotlessi jdotless ibardotless];
+	sub idotbelow' @_marks_above by dotlessi dotbelowcomb;
+	sub iogonek' @_marks_above by dotlessi ogonekcomb;
+	# czech/slovak hacek
 	sub L caroncomb' by uni0315;
 	sub d caroncomb by dcaron;
 	sub l caroncomb by lcaron;
 	sub t caroncomb' by uni0315;
 	sub l.sc caroncomb' by uni0315;
+	# fix combining comma below
 	sub G cedillacomb' by commaaccentcomb;
 	sub g cedillacomb' by commaturnedabovecomb;
 	sub K cedillacomb' by commaaccentcomb;
@@ -132,25 +173,23 @@ feature ccmp {
 	sub l.sc cedillacomb' by commaaccentcomb;
 	sub n.sc cedillacomb' by commaaccentcomb;
 	sub r.sc cedillacomb' by commaaccentcomb;
-	sub A ogonekcomb by Aogonek; # for Video style
-	sub u ogonekcomb by uogonek; # for Video style
-	sub a.sc ogonekcomb by aogonek.sc; # for Video style
-	sub y' @_marks_below by y.titl;
-	# sub @uc' @_marks_above @_marks_above by @c2sc;
+	# improve look of video, smooth styles
+	sub A ogonekcomb by Aogonek;
+	sub u ogonekcomb by uogonek;
+	sub a.sc ogonekcomb by aogonek.sc;
+	# vietnamese diacritics
 	sub circumflexcomb acutecomb by circumflexcomb_acutecomb;
 	sub circumflexcomb gravecomb by circumflexcomb_gravecomb;
 	sub circumflexcomb hookabovecomb by circumflexcomb_hookabovecomb;
 	sub circumflexcomb tildecomb by circumflexcomb_tildecomb;
-	sub idotbelow' @_marks_above by dotlessi dotbelowcomb;
-	sub iogonek' @_marks_above by dotlessi ogonekcomb;
 	sub O horncomb by Ohorn;
 	sub o horncomb by ohorn;
 	sub U horncomb by Uhorn;
 	sub u horncomb by uhorn;
 	sub u.sc horncomb by uhorn.sc;
-	# sub Idotaccent' @_marks_above by idotaccent.sc;
-	# sub Edotaccent' @_marks_above by edotaccent.sc;
-	# sub Umacron' @_marks_above by umacron.sc;
+	language CAT;
+	language NSM;
+	language NLD;
 sub D by D.alt;sub Eth by Eth.alt;sub Dcroat by Dcroat.alt;sub Dhook by Dhook.alt;sub Dcaron by Dcaron.alt;sub Ddotbelow by Ddotbelow.alt;sub Dmacronbelow by Dmacronbelow.alt;} ccmp;
 
 feature locl {
