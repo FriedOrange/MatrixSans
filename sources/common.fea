@@ -146,6 +146,8 @@ feature ccmp {
 	sub [alpha epsilon eta iota omicron upsilon omega] acutecomb' by verticallineabovecomb;
 
 	script latn;
+	# subs for D, Eth etc to be inserted here for Video and Smooth styles
+	### <-- RULES INSERTED AUTOMATICALLY
 	sub y' @_marks_below by y.titl;
 	# soft dotted characters
 	sub [i j ibar]' @_marks_above by [dotlessi jdotless ibardotless];

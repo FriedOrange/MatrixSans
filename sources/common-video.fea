@@ -146,6 +146,8 @@ feature ccmp {
 	sub [alpha epsilon eta iota omicron upsilon omega] acutecomb' by verticallineabovecomb;
 
 	script latn;
+	# subs for D, Eth etc to be inserted here for Video and Smooth styles
+	sub D by D.alt;sub Eth by Eth.alt;sub Dcroat by Dcroat.alt;sub Dhook by Dhook.alt;sub Dcaron by Dcaron.alt;sub Ddotbelow by Ddotbelow.alt;sub Dmacronbelow by Dmacronbelow.alt;### <-- RULES INSERTED AUTOMATICALLY
 	sub y' @_marks_below by y.titl;
 	# soft dotted characters
 	sub [i j ibar]' @_marks_above by [dotlessi jdotless ibardotless];
@@ -190,7 +192,7 @@ feature ccmp {
 	language CAT;
 	language NSM;
 	language NLD;
-sub D by D.alt;sub Eth by Eth.alt;sub Dcroat by Dcroat.alt;sub Dhook by Dhook.alt;sub Dcaron by Dcaron.alt;sub Ddotbelow by Ddotbelow.alt;sub Dmacronbelow by Dmacronbelow.alt;} ccmp;
+} ccmp;
 
 feature locl {
 	script latn;
