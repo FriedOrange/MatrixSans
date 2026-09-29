@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1675081307
-ModificationTime: 1790510626
+ModificationTime: 1790687829
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -36,7 +36,6 @@ HheadAscent: 0
 HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
-OS2Vendor: 'PfEd'
 DEI: 91125
 Encoding: UnicodeFull
 UnicodeInterp: none
@@ -44,7 +43,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 16 12
+WinInfo: 9744 16 12
 BeginChars: 1114155 191
 
 StartChar: quarterdot
@@ -2123,158 +2122,21 @@ EndChar
 
 StartChar: H18533
 Encoding: 9679 9679 45
-Width: 800
+Width: 600
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 105 -1 N 1 0 0 1 250 600 2
-Refer: 0 -1 N 1 0 0 1 300 650 2
-Refer: 102 -1 N 1 0 0 1 250 600 2
-Refer: 0 -1 N 1 0 0 1 300 600 2
-Refer: 0 -1 N 1 0 0 1 350 650 2
-Refer: 0 -1 N 1 0 0 1 400 650 2
-Refer: 0 -1 N 1 0 0 1 350 600 2
-Refer: 0 -1 N 1 0 0 1 400 600 2
-Refer: 0 -1 N 1 0 0 1 450 650 2
-Refer: 93 -1 N 1 0 0 1 450 600 2
-Refer: 0 -1 N 1 0 0 1 450 600 2
-Refer: 98 -1 N 1 0 0 1 450 600 2
-Refer: 105 -1 N 1 0 0 1 150 500 2
-Refer: 102 -1 N 1 0 0 1 150 500 2
-Refer: 93 -1 N 1 0 0 1 550 500 2
-Refer: 98 -1 N 1 0 0 1 550 500 2
-Refer: 103 -1 N 1 0 0 1 50 400 2
-Refer: 91 -1 N 1 0 0 1 650 400 2
-Refer: 99 -1 N 1 0 0 1 50 200 2
-Refer: 95 -1 N 1 0 0 1 650 200 2
-Refer: 106 -1 N 1 0 0 1 150 100 2
-Refer: 101 -1 N 1 0 0 1 150 100 2
-Refer: 94 -1 N 1 0 0 1 550 100 2
-Refer: 97 -1 N 1 0 0 1 550 100 2
-Refer: 106 -1 N 1 0 0 1 250 0 2
-Refer: 0 -1 N 1 0 0 1 300 50 2
-Refer: 101 -1 N 1 0 0 1 250 0 2
-Refer: 0 -1 N 1 0 0 1 300 0 2
-Refer: 0 -1 N 1 0 0 1 350 50 2
-Refer: 0 -1 N 1 0 0 1 400 50 2
-Refer: 0 -1 N 1 0 0 1 350 0 2
-Refer: 0 -1 N 1 0 0 1 400 0 2
-Refer: 0 -1 N 1 0 0 1 450 50 2
-Refer: 94 -1 N 1 0 0 1 450 0 2
-Refer: 0 -1 N 1 0 0 1 450 0 2
-Refer: 97 -1 N 1 0 0 1 450 0 2
-Refer: 0 -1 N 1 0 0 1 550 100 2
-Refer: 0 -1 N 1 0 0 1 550 150 2
-Refer: 0 -1 N 1 0 0 1 500 100 2
-Refer: 0 -1 N 1 0 0 1 450 100 2
-Refer: 0 -1 N 1 0 0 1 500 150 2
-Refer: 0 -1 N 1 0 0 1 450 150 2
-Refer: 0 -1 N 1 0 0 1 400 100 2
-Refer: 0 -1 N 1 0 0 1 350 100 2
-Refer: 0 -1 N 1 0 0 1 400 150 2
-Refer: 0 -1 N 1 0 0 1 350 150 2
-Refer: 0 -1 N 1 0 0 1 300 100 2
-Refer: 0 -1 N 1 0 0 1 250 100 2
-Refer: 0 -1 N 1 0 0 1 300 150 2
-Refer: 0 -1 N 1 0 0 1 250 150 2
-Refer: 0 -1 N 1 0 0 1 200 100 2
-Refer: 0 -1 N 1 0 0 1 200 150 2
-Refer: 0 -1 N 1 0 0 1 650 200 2
-Refer: 0 -1 N 1 0 0 1 700 250 2
-Refer: 0 -1 N 1 0 0 1 650 250 2
-Refer: 0 -1 N 1 0 0 1 600 200 2
-Refer: 0 -1 N 1 0 0 1 550 200 2
-Refer: 0 -1 N 1 0 0 1 600 250 2
-Refer: 0 -1 N 1 0 0 1 550 250 2
-Refer: 0 -1 N 1 0 0 1 500 200 2
-Refer: 0 -1 N 1 0 0 1 450 200 2
-Refer: 0 -1 N 1 0 0 1 500 250 2
-Refer: 0 -1 N 1 0 0 1 450 250 2
-Refer: 0 -1 N 1 0 0 1 400 200 2
-Refer: 0 -1 N 1 0 0 1 350 200 2
-Refer: 0 -1 N 1 0 0 1 400 250 2
-Refer: 0 -1 N 1 0 0 1 350 250 2
-Refer: 0 -1 N 1 0 0 1 300 200 2
-Refer: 0 -1 N 1 0 0 1 250 200 2
-Refer: 0 -1 N 1 0 0 1 300 250 2
-Refer: 0 -1 N 1 0 0 1 250 250 2
-Refer: 0 -1 N 1 0 0 1 200 200 2
-Refer: 0 -1 N 1 0 0 1 150 200 2
-Refer: 0 -1 N 1 0 0 1 200 250 2
-Refer: 0 -1 N 1 0 0 1 150 250 2
-Refer: 0 -1 N 1 0 0 1 100 200 2
-Refer: 0 -1 N 1 0 0 1 100 250 2
-Refer: 0 -1 N 1 0 0 1 50 250 2
-Refer: 0 -1 N 1 0 0 1 700 300 2
-Refer: 0 -1 N 1 0 0 1 650 300 2
-Refer: 0 -1 N 1 0 0 1 700 350 2
-Refer: 0 -1 N 1 0 0 1 650 350 2
-Refer: 0 -1 N 1 0 0 1 600 300 2
-Refer: 0 -1 N 1 0 0 1 550 300 2
-Refer: 0 -1 N 1 0 0 1 600 350 2
-Refer: 0 -1 N 1 0 0 1 550 350 2
-Refer: 0 -1 N 1 0 0 1 500 300 2
-Refer: 0 -1 N 1 0 0 1 450 300 2
-Refer: 0 -1 N 1 0 0 1 500 350 2
-Refer: 0 -1 N 1 0 0 1 450 350 2
-Refer: 0 -1 N 1 0 0 1 400 300 2
-Refer: 0 -1 N 1 0 0 1 350 300 2
-Refer: 0 -1 N 1 0 0 1 400 350 2
-Refer: 0 -1 N 1 0 0 1 350 350 2
-Refer: 0 -1 N 1 0 0 1 300 300 2
-Refer: 0 -1 N 1 0 0 1 250 300 2
-Refer: 0 -1 N 1 0 0 1 300 350 2
-Refer: 0 -1 N 1 0 0 1 250 350 2
-Refer: 0 -1 N 1 0 0 1 200 300 2
-Refer: 0 -1 N 1 0 0 1 150 300 2
-Refer: 0 -1 N 1 0 0 1 200 350 2
-Refer: 0 -1 N 1 0 0 1 150 350 2
-Refer: 0 -1 N 1 0 0 1 100 300 2
-Refer: 0 -1 N 1 0 0 1 50 300 2
-Refer: 0 -1 N 1 0 0 1 100 350 2
-Refer: 0 -1 N 1 0 0 1 50 350 2
-Refer: 0 -1 N 1 0 0 1 700 400 2
-Refer: 0 -1 N 1 0 0 1 650 400 2
-Refer: 0 -1 N 1 0 0 1 650 450 2
-Refer: 0 -1 N 1 0 0 1 600 400 2
-Refer: 0 -1 N 1 0 0 1 550 400 2
-Refer: 0 -1 N 1 0 0 1 600 450 2
-Refer: 0 -1 N 1 0 0 1 550 450 2
-Refer: 0 -1 N 1 0 0 1 500 400 2
-Refer: 0 -1 N 1 0 0 1 450 400 2
-Refer: 0 -1 N 1 0 0 1 500 450 2
-Refer: 0 -1 N 1 0 0 1 450 450 2
-Refer: 0 -1 N 1 0 0 1 400 400 2
-Refer: 0 -1 N 1 0 0 1 350 400 2
-Refer: 0 -1 N 1 0 0 1 400 450 2
-Refer: 0 -1 N 1 0 0 1 350 450 2
-Refer: 0 -1 N 1 0 0 1 300 400 2
-Refer: 0 -1 N 1 0 0 1 250 400 2
-Refer: 0 -1 N 1 0 0 1 300 450 2
-Refer: 0 -1 N 1 0 0 1 250 450 2
-Refer: 0 -1 N 1 0 0 1 200 400 2
-Refer: 0 -1 N 1 0 0 1 150 400 2
-Refer: 0 -1 N 1 0 0 1 200 450 2
-Refer: 0 -1 N 1 0 0 1 150 450 2
-Refer: 0 -1 N 1 0 0 1 100 400 2
-Refer: 0 -1 N 1 0 0 1 50 400 2
-Refer: 0 -1 N 1 0 0 1 100 450 2
-Refer: 0 -1 N 1 0 0 1 550 500 2
-Refer: 0 -1 N 1 0 0 1 550 550 2
-Refer: 0 -1 N 1 0 0 1 500 500 2
-Refer: 0 -1 N 1 0 0 1 450 500 2
-Refer: 0 -1 N 1 0 0 1 500 550 2
-Refer: 0 -1 N 1 0 0 1 450 550 2
-Refer: 0 -1 N 1 0 0 1 400 500 2
-Refer: 0 -1 N 1 0 0 1 350 500 2
-Refer: 0 -1 N 1 0 0 1 400 550 2
-Refer: 0 -1 N 1 0 0 1 350 550 2
-Refer: 0 -1 N 1 0 0 1 300 500 2
-Refer: 0 -1 N 1 0 0 1 250 500 2
-Refer: 0 -1 N 1 0 0 1 300 550 2
-Refer: 0 -1 N 1 0 0 1 250 550 2
-Refer: 0 -1 N 1 0 0 1 200 500 2
-Refer: 0 -1 N 1 0 0 1 200 550 2
+SplineSet
+420 100 m 1
+ 180 100 l 1
+ 50 230 l 1
+ 50 470 l 1
+ 180 600 l 1
+ 420 600 l 1
+ 550 470 l 1
+ 550 230 l 1
+ 420 100 l 1
+EndSplineSet
 EndChar
 
 StartChar: uni25BE
@@ -3990,204 +3852,62 @@ EndChar
 
 StartChar: spade
 Encoding: 9824 9824 80
-Width: 800
+Width: 600
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 0 -1 N 1 0 0 1 550 250 2
-Refer: 0 -1 N 1 0 0 1 550 200 2
-Refer: 0 -1 N 1 0 0 1 200 250 2
-Refer: 0 -1 N 1 0 0 1 200 200 2
-Refer: 0 -1 N 1 0 0 1 150 250 2
-Refer: 0 -1 N 1 0 0 1 350 250 2
-Refer: 0 -1 N 1 0 0 1 400 250 2
-Refer: 0 -1 N 1 0 0 1 350 200 2
-Refer: 0 -1 N 1 0 0 1 400 200 2
-Refer: 0 -1 N 1 0 0 1 600 250 2
-Refer: 0 -1 N 1 0 0 1 600 200 2
-Refer: 0 -1 N 1 0 0 1 650 250 2
-Refer: 97 -1 N 1 0 0 1 600 200 2
-Refer: 95 -1 N 1 0 0 1 650 250 2
-Refer: 101 -1 N 1 0 0 1 100 200 2
-Refer: 99 -1 N 1 0 0 1 50 250 2
-Refer: 0 -1 N 1 0 0 1 100 250 2
-Refer: 97 -1 N 1 0 0 1 200 200 2
-Refer: 95 -1 N 1 0 0 1 250 250 2
-Refer: 0 -1 N 1 0 0 1 250 250 2
-Refer: 0 -1 N 1 0 0 1 150 200 2
-Refer: 101 -1 N 1 0 0 1 500 200 2
-Refer: 99 -1 N 1 0 0 1 450 250 2
-Refer: 0 -1 N 1 0 0 1 500 250 2
-Refer: 93 -1 S 1 0 0 1 550 400 2
-Refer: 98 -1 S 1 0 0 1 550 400 2
-Refer: 105 -1 S 1 0 0 1 150 400 2
-Refer: 102 -1 S 1 0 0 1 150 400 2
-Refer: 105 -1 S 1 0 0 1 350 600 2
-Refer: 93 -1 S 1 0 0 1 350 600 2
-Refer: 102 -1 S 1 0 0 1 350 600 2
-Refer: 98 -1 S 1 0 0 1 350 600 2
-Refer: 105 -1 S 1 0 0 1 250 500 2
-Refer: 102 -1 S 1 0 0 1 250 500 2
-Refer: 93 -1 S 1 0 0 1 450 500 2
-Refer: 98 -1 S 1 0 0 1 450 500 2
-Refer: 103 -1 S 1 0 0 1 50 300 2
-Refer: 91 -1 S 1 0 0 1 650 300 2
-Refer: 0 -1 N 1 0 0 1 500 0 2
-Refer: 0 -1 N 1 0 0 1 450 0 2
-Refer: 0 -1 N 1 0 0 1 500 50 2
-Refer: 0 -1 N 1 0 0 1 450 50 2
-Refer: 0 -1 N 1 0 0 1 400 0 2
-Refer: 0 -1 N 1 0 0 1 350 0 2
-Refer: 0 -1 N 1 0 0 1 400 50 2
-Refer: 0 -1 N 1 0 0 1 350 50 2
-Refer: 0 -1 N 1 0 0 1 300 0 2
-Refer: 0 -1 N 1 0 0 1 250 0 2
-Refer: 0 -1 N 1 0 0 1 300 50 2
-Refer: 0 -1 N 1 0 0 1 250 50 2
-Refer: 0 -1 N 1 0 0 1 400 100 2
-Refer: 0 -1 N 1 0 0 1 350 100 2
-Refer: 0 -1 N 1 0 0 1 400 150 2
-Refer: 0 -1 N 1 0 0 1 350 150 2
-Refer: 0 -1 N 1 0 0 1 700 300 2
-Refer: 0 -1 N 1 0 0 1 650 300 2
-Refer: 0 -1 S 1 0 0 1 650 350 2
-Refer: 0 -1 N 1 0 0 1 600 300 2
-Refer: 0 -1 N 1 0 0 1 550 300 2
-Refer: 0 -1 S 1 0 0 1 600 350 2
-Refer: 0 -1 S 1 0 0 1 550 350 2
-Refer: 0 -1 N 1 0 0 1 500 300 2
-Refer: 0 -1 N 1 0 0 1 450 300 2
-Refer: 0 -1 S 1 0 0 1 500 350 2
-Refer: 0 -1 S 1 0 0 1 450 350 2
-Refer: 0 -1 N 1 0 0 1 400 300 2
-Refer: 0 -1 N 1 0 0 1 350 300 2
-Refer: 0 -1 S 1 0 0 1 400 350 2
-Refer: 0 -1 S 1 0 0 1 350 350 2
-Refer: 0 -1 N 1 0 0 1 300 300 2
-Refer: 0 -1 N 1 0 0 1 250 300 2
-Refer: 0 -1 S 1 0 0 1 300 350 2
-Refer: 0 -1 S 1 0 0 1 250 350 2
-Refer: 0 -1 N 1 0 0 1 200 300 2
-Refer: 0 -1 N 1 0 0 1 150 300 2
-Refer: 0 -1 S 1 0 0 1 200 350 2
-Refer: 0 -1 S 1 0 0 1 150 350 2
-Refer: 0 -1 N 1 0 0 1 100 300 2
-Refer: 0 -1 N 1 0 0 1 50 300 2
-Refer: 0 -1 S 1 0 0 1 100 350 2
-Refer: 0 -1 S 1 0 0 1 550 400 2
-Refer: 0 -1 S 1 0 0 1 550 450 2
-Refer: 0 -1 S 1 0 0 1 500 400 2
-Refer: 0 -1 S 1 0 0 1 450 400 2
-Refer: 0 -1 S 1 0 0 1 500 450 2
-Refer: 0 -1 S 1 0 0 1 450 450 2
-Refer: 0 -1 S 1 0 0 1 400 400 2
-Refer: 0 -1 S 1 0 0 1 350 400 2
-Refer: 0 -1 S 1 0 0 1 400 450 2
-Refer: 0 -1 S 1 0 0 1 350 450 2
-Refer: 0 -1 S 1 0 0 1 300 400 2
-Refer: 0 -1 S 1 0 0 1 250 400 2
-Refer: 0 -1 S 1 0 0 1 300 450 2
-Refer: 0 -1 S 1 0 0 1 250 450 2
-Refer: 0 -1 S 1 0 0 1 200 400 2
-Refer: 0 -1 S 1 0 0 1 200 450 2
-Refer: 0 -1 S 1 0 0 1 450 500 2
-Refer: 0 -1 S 1 0 0 1 450 550 2
-Refer: 0 -1 S 1 0 0 1 400 500 2
-Refer: 0 -1 S 1 0 0 1 350 500 2
-Refer: 0 -1 S 1 0 0 1 400 550 2
-Refer: 0 -1 S 1 0 0 1 350 550 2
-Refer: 0 -1 S 1 0 0 1 300 500 2
-Refer: 0 -1 S 1 0 0 1 300 550 2
-EndChar
-
-StartChar: club
-Encoding: 9827 9827 81
-Width: 800
-Flags: HMW
-LayerCount: 2
-Fore
-Refer: 0 -1 N 1 0 0 1 450 400 2
+Refer: 91 -1 N 1 0 0 1 350 0 2
+Refer: 103 -1 N 1 0 0 1 150 0 2
 Refer: 0 -1 N 1 0 0 1 450 450 2
-Refer: 0 -1 N 1 0 0 1 500 500 2
-Refer: 0 -1 N 1 0 0 1 500 450 2
-Refer: 0 -1 N 1 0 0 1 300 400 2
-Refer: 0 -1 N 1 0 0 1 300 450 2
-Refer: 0 -1 N 1 0 0 1 250 450 2
-Refer: 0 -1 N 1 0 0 1 250 500 2
-Refer: 0 -1 N 1 0 0 1 550 400 2
-Refer: 0 -1 N 1 0 0 1 550 450 2
-Refer: 0 -1 N 1 0 0 1 150 450 2
-Refer: 0 -1 N 1 0 0 1 150 400 2
-Refer: 0 -1 N 1 0 0 1 550 250 2
-Refer: 0 -1 N 1 0 0 1 550 200 2
-Refer: 0 -1 N 1 0 0 1 200 250 2
-Refer: 0 -1 N 1 0 0 1 200 200 2
-Refer: 0 -1 N 1 0 0 1 150 250 2
-Refer: 0 -1 N 1 0 0 1 350 250 2
-Refer: 0 -1 N 1 0 0 1 400 250 2
-Refer: 0 -1 N 1 0 0 1 350 200 2
-Refer: 0 -1 N 1 0 0 1 400 200 2
-Refer: 0 -1 N 1 0 0 1 600 250 2
-Refer: 0 -1 N 1 0 0 1 600 200 2
-Refer: 0 -1 N 1 0 0 1 650 250 2
-Refer: 97 -1 N 1 0 0 1 600 200 2
-Refer: 95 -1 N 1 0 0 1 650 250 2
+Refer: 0 -1 N 1 0 0 1 450 400 2
+Refer: 0 -1 N 1 0 0 1 500 400 2
+Refer: 0 -1 N 1 0 0 1 500 350 2
+Refer: 91 -1 N 1 0 0 1 450 400 2
+Refer: 103 -1 N 1 0 0 1 50 400 2
+Refer: 0 -1 N 1 0 0 1 100 400 2
+Refer: 0 -1 N 1 0 0 1 50 400 2
+Refer: 0 -1 N 1 0 0 1 100 450 2
+Refer: 0 -1 N 1 0 0 1 50 350 2
+Refer: 0 -1 N 1 0 0 1 250 250 2
+Refer: 0 -1 N 1 0 0 1 300 250 2
+Refer: 0 -1 N 1 0 0 1 250 200 2
+Refer: 0 -1 N 1 0 0 1 300 200 2
+Refer: 0 -1 N 1 0 0 1 450 250 2
+Refer: 97 -1 N 1 0 0 1 400 200 2
+Refer: 95 -1 N 1 0 0 1 450 250 2
 Refer: 101 -1 N 1 0 0 1 100 200 2
 Refer: 99 -1 N 1 0 0 1 50 250 2
 Refer: 0 -1 N 1 0 0 1 100 250 2
-Refer: 97 -1 N 1 0 0 1 200 200 2
-Refer: 95 -1 N 1 0 0 1 250 250 2
-Refer: 0 -1 N 1 0 0 1 250 250 2
-Refer: 0 -1 N 1 0 0 1 150 200 2
-Refer: 101 -1 N 1 0 0 1 500 200 2
-Refer: 99 -1 N 1 0 0 1 450 250 2
-Refer: 0 -1 N 1 0 0 1 500 250 2
-Refer: 0 -1 N 1 0 0 1 500 50 2
-Refer: 0 -1 N 1 0 0 1 250 50 2
-Refer: 0 -1 N 1 0 0 1 300 50 2
-Refer: 0 -1 N 1 0 0 1 250 0 2
-Refer: 0 -1 N 1 0 0 1 450 500 2
-Refer: 0 -1 N 1 0 0 1 500 550 2
-Refer: 0 -1 N 1 0 0 1 450 550 2
-Refer: 0 -1 N 1 0 0 1 300 500 2
-Refer: 0 -1 N 1 0 0 1 300 550 2
-Refer: 0 -1 N 1 0 0 1 250 550 2
-Refer: 0 -1 N 1 0 0 1 500 400 2
-Refer: 0 -1 N 1 0 0 1 250 400 2
-Refer: 0 -1 N 1 0 0 1 200 450 2
-Refer: 93 -1 N 1 0 0 1 600 400 2
-Refer: 91 -1 N 1 0 0 1 650 350 2
-Refer: 0 -1 N 1 0 0 1 650 400 2
-Refer: 105 -1 N 1 0 0 1 300 600 2
-Refer: 0 -1 N 1 0 0 1 100 400 2
-Refer: 103 -1 N 1 0 0 1 50 350 2
-Refer: 105 -1 N 1 0 0 1 100 400 2
-Refer: 93 -1 N 1 0 0 1 400 600 2
-Refer: 103 -1 N 1 0 0 1 250 550 2
-Refer: 91 -1 N 1 0 0 1 450 550 2
-Refer: 0 -1 N 1 0 0 1 500 0 2
-Refer: 0 -1 N 1 0 0 1 450 0 2
-Refer: 0 -1 N 1 0 0 1 450 50 2
+Refer: 97 -1 N 1 0 0 1 100 200 2
+Refer: 95 -1 N 1 0 0 1 150 250 2
+Refer: 0 -1 N 1 0 0 1 150 250 2
+Refer: 101 -1 N 1 0 0 1 400 200 2
+Refer: 99 -1 N 1 0 0 1 350 250 2
+Refer: 0 -1 N 1 0 0 1 400 250 2
+Refer: 105 -1 N 1 0 0 1 250 600 2
+Refer: 93 -1 N 1 0 0 1 250 600 2
+Refer: 102 -1 N 1 0 0 1 250 600 2
+Refer: 98 -1 N 1 0 0 1 250 600 2
+Refer: 105 -1 N 1 0 0 1 150 500 2
+Refer: 102 -1 N 1 0 0 1 150 500 2
+Refer: 93 -1 N 1 0 0 1 350 500 2
+Refer: 98 -1 N 1 0 0 1 350 500 2
 Refer: 0 -1 N 1 0 0 1 400 0 2
 Refer: 0 -1 N 1 0 0 1 350 0 2
-Refer: 0 -1 N 1 0 0 1 400 50 2
 Refer: 0 -1 N 1 0 0 1 350 50 2
 Refer: 0 -1 N 1 0 0 1 300 0 2
-Refer: 0 -1 N 1 0 0 1 400 100 2
-Refer: 0 -1 N 1 0 0 1 350 100 2
-Refer: 0 -1 N 1 0 0 1 400 150 2
-Refer: 0 -1 N 1 0 0 1 350 150 2
-Refer: 0 -1 N 1 0 0 1 700 300 2
-Refer: 0 -1 N 1 0 0 1 650 300 2
-Refer: 0 -1 N 1 0 0 1 700 350 2
-Refer: 0 -1 N 1 0 0 1 650 350 2
-Refer: 0 -1 N 1 0 0 1 600 300 2
-Refer: 0 -1 N 1 0 0 1 550 300 2
-Refer: 0 -1 N 1 0 0 1 600 350 2
-Refer: 0 -1 N 1 0 0 1 550 350 2
+Refer: 0 -1 N 1 0 0 1 250 0 2
+Refer: 0 -1 N 1 0 0 1 300 50 2
+Refer: 0 -1 N 1 0 0 1 250 50 2
+Refer: 0 -1 N 1 0 0 1 200 0 2
+Refer: 0 -1 N 1 0 0 1 150 0 2
+Refer: 0 -1 N 1 0 0 1 200 50 2
+Refer: 0 -1 N 1 0 0 1 300 100 2
+Refer: 0 -1 N 1 0 0 1 250 100 2
+Refer: 0 -1 N 1 0 0 1 300 150 2
+Refer: 0 -1 N 1 0 0 1 250 150 2
 Refer: 0 -1 N 1 0 0 1 500 300 2
 Refer: 0 -1 N 1 0 0 1 450 300 2
-Refer: 0 -1 N 1 0 0 1 500 350 2
 Refer: 0 -1 N 1 0 0 1 450 350 2
 Refer: 0 -1 N 1 0 0 1 400 300 2
 Refer: 0 -1 N 1 0 0 1 350 300 2
@@ -4204,117 +3924,204 @@ Refer: 0 -1 N 1 0 0 1 150 350 2
 Refer: 0 -1 N 1 0 0 1 100 300 2
 Refer: 0 -1 N 1 0 0 1 50 300 2
 Refer: 0 -1 N 1 0 0 1 100 350 2
-Refer: 0 -1 N 1 0 0 1 50 350 2
-Refer: 0 -1 N 1 0 0 1 650 400 2
-Refer: 0 -1 N 1 0 0 1 600 400 2
-Refer: 0 -1 N 1 0 0 1 600 450 2
 Refer: 0 -1 N 1 0 0 1 400 400 2
 Refer: 0 -1 N 1 0 0 1 350 400 2
 Refer: 0 -1 N 1 0 0 1 400 450 2
 Refer: 0 -1 N 1 0 0 1 350 450 2
+Refer: 0 -1 N 1 0 0 1 300 400 2
+Refer: 0 -1 N 1 0 0 1 250 400 2
+Refer: 0 -1 N 1 0 0 1 300 450 2
+Refer: 0 -1 N 1 0 0 1 250 450 2
 Refer: 0 -1 N 1 0 0 1 200 400 2
-Refer: 0 -1 N 1 0 0 1 400 500 2
+Refer: 0 -1 N 1 0 0 1 150 400 2
+Refer: 0 -1 N 1 0 0 1 200 450 2
+Refer: 0 -1 N 1 0 0 1 150 450 2
 Refer: 0 -1 N 1 0 0 1 350 500 2
+Refer: 0 -1 N 1 0 0 1 350 550 2
+Refer: 0 -1 N 1 0 0 1 300 500 2
+Refer: 0 -1 N 1 0 0 1 250 500 2
+Refer: 0 -1 N 1 0 0 1 300 550 2
+Refer: 0 -1 N 1 0 0 1 250 550 2
+Refer: 0 -1 N 1 0 0 1 200 500 2
+Refer: 0 -1 N 1 0 0 1 200 550 2
+EndChar
+
+StartChar: club
+Encoding: 9827 9827 81
+Width: 600
+Flags: HMW
+LayerCount: 2
+Fore
+Refer: 99 -1 N 1 0 0 1 150 500 2
+Refer: 97 -1 N 1 0 0 1 300 450 2
+Refer: 95 -1 N 1 0 0 1 350 500 2
+Refer: 101 -1 N 1 0 0 1 200 450 2
+Refer: 93 -1 N 1 0 0 1 400 350 2
+Refer: 91 -1 N 1 0 0 1 450 300 2
+Refer: 0 -1 N 1 0 0 1 350 400 2
+Refer: 105 -1 N 1 0 0 1 100 350 2
+Refer: 103 -1 N 1 0 0 1 50 300 2
+Refer: 0 -1 N 1 0 0 1 350 500 2
+Refer: 0 -1 N 1 0 0 1 200 500 2
+Refer: 0 -1 N 1 0 0 1 300 500 2
+Refer: 0 -1 N 1 0 0 1 250 500 2
+Refer: 91 -1 N 1 0 0 1 350 0 2
+Refer: 103 -1 N 1 0 0 1 150 0 2
+Refer: 0 -1 N 1 0 0 1 400 0 2
+Refer: 0 -1 N 1 0 0 1 350 0 2
+Refer: 0 -1 N 1 0 0 1 350 50 2
+Refer: 0 -1 N 1 0 0 1 300 0 2
+Refer: 0 -1 N 1 0 0 1 250 0 2
+Refer: 0 -1 N 1 0 0 1 300 50 2
+Refer: 0 -1 N 1 0 0 1 250 50 2
+Refer: 0 -1 N 1 0 0 1 200 0 2
+Refer: 0 -1 N 1 0 0 1 150 0 2
+Refer: 0 -1 N 1 0 0 1 200 50 2
+Refer: 0 -1 N 1 0 0 1 200 400 2
+Refer: 0 -1 N 1 0 0 1 250 250 2
+Refer: 0 -1 N 1 0 0 1 300 250 2
+Refer: 0 -1 N 1 0 0 1 250 200 2
+Refer: 0 -1 N 1 0 0 1 300 200 2
+Refer: 0 -1 N 1 0 0 1 450 250 2
+Refer: 97 -1 N 1 0 0 1 400 200 2
+Refer: 95 -1 N 1 0 0 1 450 250 2
+Refer: 101 -1 N 1 0 0 1 100 200 2
+Refer: 99 -1 N 1 0 0 1 50 250 2
+Refer: 0 -1 N 1 0 0 1 100 250 2
+Refer: 97 -1 N 1 0 0 1 100 200 2
+Refer: 95 -1 N 1 0 0 1 150 250 2
+Refer: 0 -1 N 1 0 0 1 150 250 2
+Refer: 101 -1 N 1 0 0 1 400 200 2
+Refer: 99 -1 N 1 0 0 1 350 250 2
+Refer: 0 -1 N 1 0 0 1 400 250 2
 Refer: 0 -1 N 1 0 0 1 400 550 2
 Refer: 0 -1 N 1 0 0 1 350 550 2
-Refer: 0 -1 N 1 0 0 1 450 600 2
-Refer: 0 -1 N 1 0 0 1 400 600 2
-Refer: 0 -1 N 1 0 0 1 350 600 2
-Refer: 0 -1 N 1 0 0 1 400 650 2
-Refer: 0 -1 N 1 0 0 1 350 650 2
-Refer: 0 -1 N 1 0 0 1 300 600 2
+Refer: 0 -1 N 1 0 0 1 200 550 2
+Refer: 0 -1 N 1 0 0 1 150 550 2
+Refer: 0 -1 N 1 0 0 1 400 400 2
+Refer: 0 -1 N 1 0 0 1 150 400 2
+Refer: 105 -1 S 1 0 0 1 200 600 2
+Refer: 93 -1 S 1 0 0 1 300 600 2
+Refer: 103 -1 S 1 0 0 1 150 550 2
+Refer: 91 -1 S 1 0 0 1 350 550 2
+Refer: 0 -1 N 1 0 0 1 300 100 2
+Refer: 0 -1 N 1 0 0 1 250 100 2
+Refer: 0 -1 N 1 0 0 1 300 150 2
+Refer: 0 -1 N 1 0 0 1 250 150 2
+Refer: 0 -1 N 1 0 0 1 500 300 2
+Refer: 0 -1 N 1 0 0 1 450 300 2
+Refer: 0 -1 N 1 0 0 1 450 350 2
+Refer: 0 -1 N 1 0 0 1 400 300 2
+Refer: 0 -1 N 1 0 0 1 350 300 2
+Refer: 0 -1 N 1 0 0 1 400 350 2
+Refer: 0 -1 N 1 0 0 1 350 350 2
+Refer: 0 -1 N 1 0 0 1 300 300 2
+Refer: 0 -1 N 1 0 0 1 250 300 2
+Refer: 0 -1 N 1 0 0 1 300 350 2
+Refer: 0 -1 N 1 0 0 1 250 350 2
+Refer: 0 -1 N 1 0 0 1 200 300 2
+Refer: 0 -1 N 1 0 0 1 150 300 2
+Refer: 0 -1 N 1 0 0 1 200 350 2
+Refer: 0 -1 N 1 0 0 1 150 350 2
+Refer: 0 -1 N 1 0 0 1 100 300 2
+Refer: 0 -1 N 1 0 0 1 50 300 2
+Refer: 0 -1 N 1 0 0 1 100 350 2
+Refer: 0 -1 N 1 0 0 1 300 400 2
+Refer: 0 -1 N 1 0 0 1 250 400 2
+Refer: 0 -1 N 1 0 0 1 300 450 2
+Refer: 0 -1 N 1 0 0 1 250 450 2
+Refer: 0 -1 N 1 0 0 1 300 550 2
+Refer: 0 -1 N 1 0 0 1 250 550 2
+Refer: 0 -1 S 1 0 0 1 350 600 2
+Refer: 0 -1 S 1 0 0 1 300 600 2
+Refer: 0 -1 S 1 0 0 1 250 600 2
+Refer: 0 -1 S 1 0 0 1 300 650 2
+Refer: 0 -1 S 1 0 0 1 250 650 2
+Refer: 0 -1 S 1 0 0 1 200 600 2
 EndChar
 
 StartChar: heart
 Encoding: 9829 9829 82
-Width: 800
+Width: 600
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 91 -1 N 1 0 0 1 300 500 2
-Refer: 103 -1 N 1 0 0 1 400 500 2
-Refer: 105 -1 N 1 0 0 1 450 550 2
-Refer: 93 -1 N 1 0 0 1 250 550 2
-Refer: 105 -1 N 1 0 0 1 500 600 2
-Refer: 93 -1 N 1 0 0 1 200 600 2
-Refer: 105 -1 N 1 0 0 1 150 600 2
-Refer: 102 -1 N 1 0 0 1 150 600 2
-Refer: 93 -1 N 1 0 0 1 550 600 2
-Refer: 98 -1 N 1 0 0 1 550 600 2
-Refer: 103 -1 N 1 0 0 1 50 500 2
-Refer: 91 -1 N 1 0 0 1 650 500 2
-Refer: 0 -1 S 1 0 0 1 450 100 2
-Refer: 0 -1 S 1 0 0 1 450 150 2
-Refer: 0 -1 S 1 0 0 1 300 100 2
-Refer: 0 -1 S 1 0 0 1 300 150 2
-Refer: 106 -1 S 1 0 0 1 250 100 2
-Refer: 101 -1 S 1 0 0 1 250 100 2
-Refer: 94 -1 S 1 0 0 1 450 100 2
-Refer: 97 -1 S 1 0 0 1 450 100 2
-Refer: 99 -1 S 1 0 0 1 50 300 2
-Refer: 95 -1 S 1 0 0 1 650 300 2
-Refer: 106 -1 S 1 0 0 1 150 200 2
-Refer: 101 -1 S 1 0 0 1 150 200 2
-Refer: 94 -1 S 1 0 0 1 550 200 2
-Refer: 97 -1 S 1 0 0 1 550 200 2
-Refer: 106 -1 S 1 0 0 1 350 0 2
-Refer: 94 -1 S 1 0 0 1 350 0 2
-Refer: 101 -1 S 1 0 0 1 350 0 2
-Refer: 97 -1 S 1 0 0 1 350 0 2
-Refer: 0 -1 S 1 0 0 1 400 100 2
-Refer: 0 -1 S 1 0 0 1 350 100 2
-Refer: 0 -1 S 1 0 0 1 400 150 2
-Refer: 0 -1 S 1 0 0 1 350 150 2
-Refer: 0 -1 S 1 0 0 1 550 200 2
-Refer: 0 -1 S 1 0 0 1 550 250 2
-Refer: 0 -1 S 1 0 0 1 500 200 2
-Refer: 0 -1 S 1 0 0 1 450 200 2
-Refer: 0 -1 S 1 0 0 1 500 250 2
-Refer: 0 -1 S 1 0 0 1 450 250 2
-Refer: 0 -1 S 1 0 0 1 400 200 2
-Refer: 0 -1 S 1 0 0 1 350 200 2
-Refer: 0 -1 S 1 0 0 1 400 250 2
-Refer: 0 -1 S 1 0 0 1 350 250 2
-Refer: 0 -1 S 1 0 0 1 300 200 2
-Refer: 0 -1 S 1 0 0 1 250 200 2
-Refer: 0 -1 S 1 0 0 1 300 250 2
-Refer: 0 -1 S 1 0 0 1 250 250 2
-Refer: 0 -1 S 1 0 0 1 200 200 2
-Refer: 0 -1 S 1 0 0 1 200 250 2
-Refer: 0 -1 S 1 0 0 1 650 300 2
-Refer: 0 -1 N 1 0 0 1 700 350 2
-Refer: 0 -1 N 1 0 0 1 650 350 2
-Refer: 0 -1 S 1 0 0 1 600 300 2
-Refer: 0 -1 S 1 0 0 1 550 300 2
-Refer: 0 -1 N 1 0 0 1 600 350 2
-Refer: 0 -1 N 1 0 0 1 550 350 2
-Refer: 0 -1 S 1 0 0 1 500 300 2
-Refer: 0 -1 S 1 0 0 1 450 300 2
+Refer: 0 -1 N 1 0 0 1 300 550 2
+Refer: 0 -1 N 1 0 0 1 250 550 2
+Refer: 0 -1 N 1 0 0 1 400 600 2
+Refer: 0 -1 N 1 0 0 1 400 650 2
+Refer: 0 -1 N 1 0 0 1 150 600 2
+Refer: 0 -1 N 1 0 0 1 150 650 2
+Refer: 105 -1 N 1 0 0 1 100 600 2
+Refer: 93 -1 N 1 0 0 1 400 600 2
+Refer: 103 -1 N 1 0 0 1 50 550 2
+Refer: 91 -1 N 1 0 0 1 450 550 2
+Refer: 0 -1 N 1 0 0 1 450 600 2
+Refer: 0 -1 N 1 0 0 1 500 550 2
+Refer: 0 -1 N 1 0 0 1 450 550 2
+Refer: 0 -1 N 1 0 0 1 100 550 2
+Refer: 0 -1 N 1 0 0 1 50 550 2
+Refer: 0 -1 N 1 0 0 1 100 600 2
+Refer: 0 -1 N 1 0 0 1 100 250 2
+Refer: 0 -1 N 1 0 0 1 50 250 2
+Refer: 0 -1 N 1 0 0 1 100 300 2
+Refer: 0 -1 N 1 0 0 1 50 300 2
+Refer: 0 -1 N 1 0 0 1 500 250 2
+Refer: 0 -1 N 1 0 0 1 450 250 2
+Refer: 0 -1 N 1 0 0 1 500 300 2
+Refer: 0 -1 N 1 0 0 1 450 300 2
+Refer: 105 -1 N 1 0 0 1 300 550 2
+Refer: 93 -1 N 1 0 0 1 200 550 2
+Refer: 105 -1 N 1 0 0 1 350 600 2
+Refer: 93 -1 N 1 0 0 1 150 600 2
+Refer: 0 -1 N 1 0 0 1 350 100 2
+Refer: 0 -1 N 1 0 0 1 350 150 2
+Refer: 0 -1 N 1 0 0 1 200 100 2
+Refer: 0 -1 N 1 0 0 1 200 150 2
+Refer: 106 -1 N 1 0 0 1 150 100 2
+Refer: 101 -1 N 1 0 0 1 150 100 2
+Refer: 94 -1 N 1 0 0 1 350 100 2
+Refer: 97 -1 N 1 0 0 1 350 100 2
+Refer: 99 -1 N 1 0 0 1 50 200 2
+Refer: 95 -1 N 1 0 0 1 450 200 2
+Refer: 106 -1 N 1 0 0 1 250 0 2
+Refer: 94 -1 N 1 0 0 1 250 0 2
+Refer: 101 -1 N 1 0 0 1 250 0 2
+Refer: 97 -1 N 1 0 0 1 250 0 2
+Refer: 0 -1 N 1 0 0 1 300 100 2
+Refer: 0 -1 N 1 0 0 1 250 100 2
+Refer: 0 -1 N 1 0 0 1 300 150 2
+Refer: 0 -1 N 1 0 0 1 250 150 2
+Refer: 0 -1 N 1 0 0 1 400 200 2
+Refer: 0 -1 N 1 0 0 1 350 200 2
+Refer: 0 -1 N 1 0 0 1 400 250 2
+Refer: 0 -1 N 1 0 0 1 350 250 2
+Refer: 0 -1 N 1 0 0 1 300 200 2
+Refer: 0 -1 N 1 0 0 1 250 200 2
+Refer: 0 -1 N 1 0 0 1 300 250 2
+Refer: 0 -1 N 1 0 0 1 250 250 2
+Refer: 0 -1 N 1 0 0 1 200 200 2
+Refer: 0 -1 N 1 0 0 1 150 200 2
+Refer: 0 -1 N 1 0 0 1 200 250 2
+Refer: 0 -1 N 1 0 0 1 150 250 2
+Refer: 0 -1 N 1 0 0 1 450 200 2
 Refer: 0 -1 N 1 0 0 1 500 350 2
 Refer: 0 -1 N 1 0 0 1 450 350 2
-Refer: 0 -1 S 1 0 0 1 400 300 2
-Refer: 0 -1 S 1 0 0 1 350 300 2
+Refer: 0 -1 N 1 0 0 1 400 300 2
+Refer: 0 -1 N 1 0 0 1 350 300 2
 Refer: 0 -1 N 1 0 0 1 400 350 2
 Refer: 0 -1 N 1 0 0 1 350 350 2
-Refer: 0 -1 S 1 0 0 1 300 300 2
-Refer: 0 -1 S 1 0 0 1 250 300 2
+Refer: 0 -1 N 1 0 0 1 300 300 2
+Refer: 0 -1 N 1 0 0 1 250 300 2
 Refer: 0 -1 N 1 0 0 1 300 350 2
 Refer: 0 -1 N 1 0 0 1 250 350 2
-Refer: 0 -1 S 1 0 0 1 200 300 2
-Refer: 0 -1 S 1 0 0 1 150 300 2
+Refer: 0 -1 N 1 0 0 1 200 300 2
+Refer: 0 -1 N 1 0 0 1 150 300 2
 Refer: 0 -1 N 1 0 0 1 200 350 2
 Refer: 0 -1 N 1 0 0 1 150 350 2
-Refer: 0 -1 S 1 0 0 1 100 300 2
+Refer: 0 -1 N 1 0 0 1 100 200 2
 Refer: 0 -1 N 1 0 0 1 100 350 2
 Refer: 0 -1 N 1 0 0 1 50 350 2
-Refer: 0 -1 N 1 0 0 1 700 400 2
-Refer: 0 -1 N 1 0 0 1 650 400 2
-Refer: 0 -1 N 1 0 0 1 700 450 2
-Refer: 0 -1 N 1 0 0 1 650 450 2
-Refer: 0 -1 N 1 0 0 1 600 400 2
-Refer: 0 -1 N 1 0 0 1 550 400 2
-Refer: 0 -1 N 1 0 0 1 600 450 2
-Refer: 0 -1 N 1 0 0 1 550 450 2
 Refer: 0 -1 N 1 0 0 1 500 400 2
 Refer: 0 -1 N 1 0 0 1 450 400 2
 Refer: 0 -1 N 1 0 0 1 500 450 2
@@ -4335,36 +4142,22 @@ Refer: 0 -1 N 1 0 0 1 100 400 2
 Refer: 0 -1 N 1 0 0 1 50 400 2
 Refer: 0 -1 N 1 0 0 1 100 450 2
 Refer: 0 -1 N 1 0 0 1 50 450 2
-Refer: 0 -1 N 1 0 0 1 700 500 2
-Refer: 0 -1 N 1 0 0 1 650 500 2
-Refer: 0 -1 N 1 0 0 1 650 550 2
-Refer: 0 -1 N 1 0 0 1 600 500 2
-Refer: 0 -1 N 1 0 0 1 550 500 2
-Refer: 0 -1 N 1 0 0 1 600 550 2
-Refer: 0 -1 N 1 0 0 1 550 550 2
 Refer: 0 -1 N 1 0 0 1 500 500 2
 Refer: 0 -1 N 1 0 0 1 450 500 2
-Refer: 0 -1 N 1 0 0 1 500 550 2
-Refer: 0 -1 N 1 0 0 1 450 550 2
 Refer: 0 -1 N 1 0 0 1 400 500 2
 Refer: 0 -1 N 1 0 0 1 350 500 2
+Refer: 0 -1 N 1 0 0 1 400 550 2
+Refer: 0 -1 N 1 0 0 1 350 550 2
 Refer: 0 -1 N 1 0 0 1 300 500 2
 Refer: 0 -1 N 1 0 0 1 250 500 2
-Refer: 0 -1 N 1 0 0 1 300 550 2
-Refer: 0 -1 N 1 0 0 1 250 550 2
 Refer: 0 -1 N 1 0 0 1 200 500 2
 Refer: 0 -1 N 1 0 0 1 150 500 2
 Refer: 0 -1 N 1 0 0 1 200 550 2
 Refer: 0 -1 N 1 0 0 1 150 550 2
 Refer: 0 -1 N 1 0 0 1 100 500 2
 Refer: 0 -1 N 1 0 0 1 50 500 2
-Refer: 0 -1 N 1 0 0 1 100 550 2
-Refer: 0 -1 N 1 0 0 1 550 600 2
-Refer: 0 -1 N 1 0 0 1 550 650 2
-Refer: 0 -1 N 1 0 0 1 500 600 2
-Refer: 0 -1 N 1 0 0 1 250 600 2
+Refer: 0 -1 N 1 0 0 1 350 600 2
 Refer: 0 -1 N 1 0 0 1 200 600 2
-Refer: 0 -1 N 1 0 0 1 200 650 2
 EndChar
 
 StartChar: uni10A0
@@ -6197,7 +5990,7 @@ EndChar
 StartChar: uni2C6D
 Encoding: 11373 11373 134
 Width: 600
-Flags: HW
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet
@@ -6231,7 +6024,7 @@ EndChar
 StartChar: uniA7AC
 Encoding: 42924 42924 135
 Width: 600
-Flags: HW
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet
@@ -6270,7 +6063,7 @@ StartChar: ezh.sc
 Encoding: 1114147 -1 136
 Width: 600
 VWidth: 0
-Flags: HW
+Flags: MW
 LayerCount: 2
 Fore
 Refer: 0 -1 N 1 0 0 1 150 50 2
@@ -6330,7 +6123,7 @@ EndChar
 StartChar: tslash.sc
 Encoding: 1114148 -1 137
 Width: 600
-Flags: HW
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet
@@ -6360,7 +6153,7 @@ EndChar
 StartChar: one.sc
 Encoding: 1114149 -1 138
 Width: 600
-Flags: HW
+Flags: MW
 LayerCount: 2
 Fore
 Refer: 0 -1 S 1 0 0 1 150 300 2
@@ -6400,7 +6193,7 @@ EndChar
 StartChar: aslash.sc
 Encoding: 1114150 -1 139
 Width: 600
-Flags: HW
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet
@@ -6435,7 +6228,7 @@ EndChar
 StartChar: gammalatin.sc
 Encoding: 1114151 -1 140
 Width: 600
-Flags: HW
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet
@@ -6463,7 +6256,7 @@ EndChar
 StartChar: uni048A
 Encoding: 1162 1162 141
 Width: 600
-Flags: HW
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet
@@ -6500,7 +6293,7 @@ EndChar
 StartChar: uni048B
 Encoding: 1163 1163 142
 Width: 600
-Flags: HW
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet
@@ -6535,7 +6328,7 @@ EndChar
 StartChar: uni049C
 Encoding: 1180 1180 143
 Width: 600
-Flags: HW
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet
@@ -6569,7 +6362,7 @@ EndChar
 StartChar: uni049E
 Encoding: 1182 1182 144
 Width: 600
-Flags: HW
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet
@@ -6605,7 +6398,7 @@ EndChar
 StartChar: uni04A9
 Encoding: 1193 1193 145
 Width: 600
-Flags: HW
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet
@@ -6646,7 +6439,7 @@ EndChar
 StartChar: uni04C3
 Encoding: 1219 1219 146
 Width: 600
-Flags: HW
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet
@@ -6677,7 +6470,7 @@ EndChar
 StartChar: uni04FF
 Encoding: 1279 1279 147
 Width: 600
-Flags: HW
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet
@@ -6710,7 +6503,7 @@ EndChar
 StartChar: sigma
 Encoding: 963 963 148
 Width: 600
-Flags: HW
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet
@@ -6740,7 +6533,7 @@ EndChar
 StartChar: uni03DF
 Encoding: 991 991 149
 Width: 600
-Flags: HW
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet
@@ -6769,7 +6562,7 @@ EndChar
 StartChar: uni03E0
 Encoding: 992 992 150
 Width: 600
-Flags: HW
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet
@@ -6803,7 +6596,7 @@ EndChar
 StartChar: uni03F0
 Encoding: 1008 1008 151
 Width: 600
-Flags: HW
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet
@@ -6834,7 +6627,7 @@ EndChar
 StartChar: uni03DF.sc
 Encoding: 1114152 -1 152
 Width: 600
-Flags: HW
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet
@@ -6857,7 +6650,7 @@ EndChar
 StartChar: uni03E1.sc
 Encoding: 1114153 -1 153
 Width: 600
-Flags: HW
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet
@@ -6890,7 +6683,7 @@ EndChar
 StartChar: ertick-cy.sc
 Encoding: 1114154 -1 154
 Width: 600
-Flags: HW
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet
@@ -6926,7 +6719,7 @@ EndChar
 StartChar: kappa
 Encoding: 954 954 155
 Width: 600
-Flags: HW
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet
@@ -6950,7 +6743,7 @@ EndChar
 StartChar: uni03D7
 Encoding: 983 983 156
 Width: 600
-Flags: HW
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet
@@ -6977,7 +6770,7 @@ EndChar
 StartChar: u1041E
 Encoding: 66590 66590 157
 Width: 600
-Flags: HW
+Flags: MW
 LayerCount: 2
 Fore
 Refer: 1 54 N 1 0 0 1 0 0 3
@@ -6986,7 +6779,7 @@ EndChar
 StartChar: uniFF68
 Encoding: 65384 65384 158
 Width: 600
-Flags: HW
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet
@@ -7008,7 +6801,7 @@ EndChar
 StartChar: uniFF72
 Encoding: 65394 65394 159
 Width: 600
-Flags: HW
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet
@@ -7030,7 +6823,7 @@ EndChar
 StartChar: uniFF75
 Encoding: 65397 65397 160
 Width: 600
-Flags: HW
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet
@@ -7059,7 +6852,7 @@ EndChar
 StartChar: uniFF88
 Encoding: 65416 65416 161
 Width: 600
-Flags: HW
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet
@@ -7095,7 +6888,7 @@ EndChar
 StartChar: u10406
 Encoding: 66566 66566 162
 Width: 600
-Flags: HW
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet
@@ -7120,7 +6913,7 @@ EndChar
 StartChar: u10412
 Encoding: 66578 66578 163
 Width: 600
-Flags: HW
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet
@@ -7163,7 +6956,7 @@ EndChar
 StartChar: u10414
 Encoding: 66580 66580 164
 Width: 600
-Flags: HW
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet
@@ -7203,7 +6996,7 @@ EndChar
 StartChar: u1041F
 Encoding: 66591 66591 165
 Width: 600
-Flags: HW
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet
@@ -7237,7 +7030,7 @@ EndChar
 StartChar: u10426
 Encoding: 66598 66598 166
 Width: 600
-Flags: HW
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet
@@ -7271,7 +7064,7 @@ EndChar
 StartChar: u1042E
 Encoding: 66606 66606 167
 Width: 600
-Flags: HW
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet
@@ -7296,7 +7089,7 @@ EndChar
 StartChar: u10435
 Encoding: 66613 66613 168
 Width: 600
-Flags: HW
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet
@@ -7361,7 +7154,7 @@ EndChar
 StartChar: u1043A
 Encoding: 66618 66618 169
 Width: 600
-Flags: HW
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet
@@ -7399,7 +7192,7 @@ EndChar
 StartChar: u10440
 Encoding: 66624 66624 170
 Width: 600
-Flags: HW
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet
@@ -7441,7 +7234,7 @@ EndChar
 StartChar: u10447
 Encoding: 66631 66631 171
 Width: 600
-Flags: HW
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet
@@ -7474,7 +7267,7 @@ EndChar
 StartChar: u1044E
 Encoding: 66638 66638 172
 Width: 600
-Flags: HW
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet
@@ -7508,7 +7301,7 @@ EndChar
 StartChar: u10451
 Encoding: 66641 66641 173
 Width: 600
-Flags: HW
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet
@@ -7529,7 +7322,7 @@ EndChar
 StartChar: u1045B
 Encoding: 66651 66651 174
 Width: 600
-Flags: HW
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet
@@ -7550,7 +7343,7 @@ EndChar
 StartChar: u1046C
 Encoding: 66668 66668 175
 Width: 600
-Flags: HW
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet
@@ -7573,7 +7366,7 @@ EndChar
 StartChar: u10473
 Encoding: 66675 66675 176
 Width: 600
-Flags: HW
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet
@@ -7595,7 +7388,7 @@ EndChar
 StartChar: u10476
 Encoding: 66678 66678 177
 Width: 600
-Flags: HW
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet
@@ -7618,7 +7411,7 @@ EndChar
 StartChar: u1047D
 Encoding: 66685 66685 178
 Width: 600
-Flags: HW
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet
@@ -7648,7 +7441,7 @@ EndChar
 StartChar: u1047E
 Encoding: 66686 66686 179
 Width: 600
-Flags: HW
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet
@@ -7670,7 +7463,7 @@ EndChar
 StartChar: uni5E74
 Encoding: 24180 24180 180
 Width: 600
-Flags: HW
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet
@@ -7713,7 +7506,7 @@ EndChar
 StartChar: uni6728
 Encoding: 26408 26408 181
 Width: 600
-Flags: HW
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet
@@ -7746,7 +7539,7 @@ EndChar
 StartChar: copyright
 Encoding: 169 169 182
 Width: 600
-Flags: HW
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet
@@ -7782,7 +7575,7 @@ EndChar
 StartChar: onequarter
 Encoding: 188 188 183
 Width: 600
-Flags: HW
+Flags: MW
 LayerCount: 2
 Fore
 Refer: 0 -1 S 1 0 0 1 100 600 2
@@ -7811,7 +7604,7 @@ EndChar
 StartChar: threequarters
 Encoding: 190 190 184
 Width: 600
-Flags: HW
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet
@@ -7842,7 +7635,7 @@ EndChar
 StartChar: AE
 Encoding: 198 198 185
 Width: 600
-Flags: HW
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet
@@ -7875,7 +7668,7 @@ EndChar
 StartChar: ae
 Encoding: 230 230 186
 Width: 600
-Flags: HW
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet
@@ -7919,7 +7712,7 @@ EndChar
 StartChar: oe
 Encoding: 339 339 187
 Width: 600
-Flags: HW
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet
@@ -7960,7 +7753,7 @@ EndChar
 StartChar: napostrophe
 Encoding: 329 329 188
 Width: 600
-Flags: HW
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet
@@ -7989,7 +7782,7 @@ EndChar
 StartChar: Uhorn
 Encoding: 431 431 189
 Width: 600
-Flags: HW
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet
@@ -8016,7 +7809,7 @@ EndChar
 StartChar: uhorn
 Encoding: 432 432 190
 Width: 600
-Flags: HW
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet
