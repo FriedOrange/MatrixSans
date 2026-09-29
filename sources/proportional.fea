@@ -552,6 +552,17 @@ feature kern {
 	pos @openmidcurveBR @strokemidL -100;
 	pos @openmidcurveBR @j -100;
 
+	language latn CAT;
+	language latn TAT;
+	language latn TRK;
+	language latn KAZ;
+	language latn AZE;
+	language latn CRT;
+	language latn MOL;
+	language latn ROM;
+	language latn NSM;
+	language latn NLD;
+
 	script cyrl;
 	enum pos [Tedescender-cy tedescender-cy Je-cy j.sc] @underhang2L_cy -100;
 	enum pos [Tedescender-cy tedescender-cy] je-cy -100;
@@ -684,6 +695,8 @@ feature kern {
 	pos [guillemotleft guilsinglleft] @talloverhangL_cy -100;
 	pos [guillemotleft guilsinglleft] @underhangL_cy -100;
 	pos [guillemotleft guilsinglleft] je-cy -200;
+	language cyrl SRB;
+	language cyrl BGR;
 
 	script grek;
 	pos zeta chi 0;

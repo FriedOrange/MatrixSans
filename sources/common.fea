@@ -69,12 +69,28 @@ feature aalt {
 feature c2sc {
 	script latn;
 	sub @uc by @c2sc;
+	language latn CAT;
+	language latn TAT;
+	language latn TRK;
+	language latn KAZ;
+	language latn AZE;
+	language latn CRT;
+	language latn MOL;
+	language latn ROM;
+	language latn NSM;
+	language latn NLD;
+
 	script cyrl;
 	sub @uc_cy by @c2sc_cy;
+	language cyrl SRB;
+	language cyrl BGR;
+
 	script grek;
 	sub @uc_gr by @c2sc_gr;
+
 	script armn;
 	sub @uc_ar by @c2sc_ar;
+	
 	script dsrt;
 	sub @uc_dsrt by @c2sc_dsrt;
 } c2sc;
@@ -82,10 +98,25 @@ feature c2sc {
 feature smcp {
 	script latn;
 	sub @lc by @smcp;
+	language latn CAT;
+	language latn TAT;
+	language latn TRK;
+	language latn KAZ;
+	language latn AZE;
+	language latn CRT;
+	language latn MOL;
+	language latn ROM;
+	language latn NSM;
+	language latn NLD;
+
 	script cyrl;
 	sub @lc_cy by @smcp_cy;
+	language cyrl SRB;
+	language cyrl BGR;
+
 	script grek;
 	sub @lc_gr by @smcp_gr;
+
 	script armn;
 	sub @lc_ar by @sc_ar;
 } smcp;
@@ -98,6 +129,9 @@ feature ccmp {
 	sub i-cy' @_marks_above by dotlessi;
 	sub Yi-cy' @_marks_above by idieresis.sc;
 	sub je-cy' @_marks_above by jdotless;
+	language cyrl SRB;
+	language cyrl BGR;
+
 	script grek;
 	sub Alpha acutecomb by Alphatonos;
 	sub Epsilon acutecomb by Epsilontonos;
@@ -110,6 +144,7 @@ feature ccmp {
 	sub upsilon dieresiscomb acutecomb by upsilondieresistonos;
 	sub iota dieresiscomb acutecomb by iotadieresistonos;
 	sub [alpha epsilon eta iota omicron upsilon omega] acutecomb' by verticallineabovecomb;
+	
 	script latn;
 	sub [i j ibar]' @_marks_above by [dotlessi jdotless ibardotless];
 	sub L caroncomb' by uni0315;
@@ -151,6 +186,16 @@ feature ccmp {
 	# sub Idotaccent' @_marks_above by idotaccent.sc;
 	# sub Edotaccent' @_marks_above by edotaccent.sc;
 	# sub Umacron' @_marks_above by umacron.sc;
+	language latn CAT;
+	language latn TAT;
+	language latn TRK;
+	language latn KAZ;
+	language latn AZE;
+	language latn CRT;
+	language latn MOL;
+	language latn ROM;
+	language latn NSM;
+	language latn NLD;
 } ccmp;
 
 feature locl {
