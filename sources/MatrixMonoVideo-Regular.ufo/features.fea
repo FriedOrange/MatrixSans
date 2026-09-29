@@ -1,2 +1,2 @@
-include(common.fea); 
+include(common-video.fea); 
 include(mono.fea); 

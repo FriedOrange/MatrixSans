@@ -26,5 +26,9 @@ echo include(common-video.fea); > MatrixSansVideo-Regular.ufo\features.fea
 echo include(proportional.fea); >> MatrixSansVideo-Regular.ufo\features.fea
 echo include(common-video.fea); > MatrixSansSmooth-Regular.ufo\features.fea
 echo include(proportional.fea); >> MatrixSansSmooth-Regular.ufo\features.fea
+echo include(common-video.fea); > MatrixMonoVideo-Regular.ufo\features.fea
+echo include(mono.fea); >> MatrixMonoVideo-Regular.ufo\features.fea
+echo include(common-video.fea); > MatrixMonoSmooth-Regular.ufo\features.fea
+echo include(mono.fea); >> MatrixMonoSmooth-Regular.ufo\features.fea
 
 cd ..
