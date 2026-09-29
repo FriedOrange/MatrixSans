@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1675081307
-ModificationTime: 1790396535
+ModificationTime: 1790689454
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -44,12 +44,12 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 65360 16 12
+WinInfo: 7552 16 12
 Grid
 -1000 831 m 0
  2000 831 l 1024
 EndSplineSet
-BeginChars: 1114155 197
+BeginChars: 1114155 198
 
 StartChar: quarterdot
 Encoding: 1114112 -1 0
@@ -9118,6 +9118,29 @@ SplineSet
  480 200 l 1
  350 330 l 1
  350 0 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni1DBB
+Encoding: 7611 7611 197
+Width: 500
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+450 300 m 1
+ 50 300 l 1
+ 50 370 l 1
+ 250 570 l 1
+ 250 600 l 1
+ 50 600 l 1
+ 50 700 l 1
+ 450 700 l 1
+ 450 630 l 1
+ 250 430 l 1
+ 250 400 l 1
+ 450 400 l 1
+ 450 300 l 1
 EndSplineSet
 EndChar
 EndChars
