@@ -1317,6 +1317,7 @@
 		<string>ruble</string>
 		<string>lari</string>
 		<string>bitcoin</string>
+		<string>uni20C0</string>
 		<string>uni2105</string>
 		<string>literSign</string>
 		<string>numero</string>
@@ -5463,6 +5464,8 @@
 		<key>uni208D</key>
 		<string>base</string>
 		<key>uni208E</key>
+		<string>base</string>
+		<key>uni20C0</key>
 		<string>base</string>
 		<key>uni2105</key>
 		<string>base</string>
