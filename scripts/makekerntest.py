@@ -1,4 +1,4 @@
-import re, fontforge
+import re, fontforge, sys
 
 font = fontforge.open("MatrixSans-MASTER.sfd")
 
@@ -81,40 +81,40 @@ with open("proportional.fea", "r", encoding="utf-8") as feature_file:
 				print(glyph1)
 				print(glyph2)
 
-html_pre = """
+html_pre = f"""
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="utf-8" />
 <title>Matrix Sans kerning test</title>
 <style>
-	@font-face {
+	@font-face {{
 			font-family: "Matrix Sans";
 			src: url("../sources/MatrixSans-RegularB.ttf"),
 				 url("webfonts/MatrixSans-Regular.woff2");
-		}
-	body {
+		}}
+	body {{
 		color: white;
 		background-color: black;
 		margin: 1em;
-	}
-	body, pre {
+	}}
+	body, pre {{
 		font-family: "Matrix Sans";
 		font-size: 24px;
-	}
-	.sc {
+	}}
+	.sc {{
 		font-feature-settings: "smcp";
-	}
-	h4 {
+	}}
+	h4 {{
 		font-weight: normal;
 		color: silver;
-	}
+	}}
 </style>
 </head>
 <body>
 
 <pre contenteditable spellcheck="false">
-Matrix Sans kern test
+Matrix Sans kern test (commit: {sys.argv[1]})
 Not shown: small cap + lower case kern pairs
 </pre>
 

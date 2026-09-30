@@ -6,7 +6,7 @@ rem Build OpenType fonts
 gftools builder config.yaml
 
 rem Generate kerning demonstration page
-rem fontforge -script ..\scripts\makekerntest.py
+rem for /f %%h in ('git rev-parse --short HEAD') do fontforge -script ..\scripts\makekerntest.py %%h
 
 cd ..
 
