@@ -109,9 +109,25 @@ html_pre = f"""
 		font-weight: normal;
 		color: silver;
 	}}
+	#feature-toggles {{
+		border: 0.1em solid silver;
+		background: black;
+		position: fixed;
+		right: 1em;
+		padding: 0.1em;
+	}}
 </style>
 </head>
 <body>
+
+<div id="feature-toggles">
+	<input 
+		type="checkbox" 
+		id="kern-toggle" 
+		checked="" 
+		onchange="document.body.style.setProperty('font-feature-settings', `'kern' ${{this.checked ? 1 : 0}}`)">
+	<label for="kern-toggle">Enable kerning</label>
+</div>
 
 <pre contenteditable spellcheck="false">
 Matrix Sans kern test (commit: {sys.argv[1]})
