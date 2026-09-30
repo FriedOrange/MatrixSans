@@ -2,7 +2,7 @@ import re, fontforge
 
 font = fontforge.open("MatrixSans-MASTER.sfd")
 
-with open("features.fea", "r", encoding="utf-8") as feature_file:
+with open("proportional.fea", "r", encoding="utf-8") as feature_file:
 	fea = feature_file.read()
 	start_pos = fea.find("# Classes for kerning")
 	end_pos = fea.find("kern;", start_pos)
@@ -11,27 +11,29 @@ with open("features.fea", "r", encoding="utf-8") as feature_file:
 	output_lines = []
 	smcp_lines = []
 	n_of_pairs = 1
-	first_of_pairs = set()
-	second_of_pairs = set()
+	first_of_pairs = {}
+	second_of_pairs = {}
 	for line in fea_lines:
 		if line.startswith("@"):
 			classname = re.search(r"\w+", line).group(0)
 			classes[classname] = re.search(r"\[(.+)\]", line).group(1).split(" ")
+			classname_suffix = classname.rsplit("_", 1)
+			classname_suffix = classname_suffix[1] if len(classname_suffix) > 1 else ""
 			if n_of_pairs == 1:
 				for glyph in classes[classname]:
-					if glyph in first_of_pairs:
+					if glyph in first_of_pairs and first_of_pairs[glyph] == classname_suffix:
 						print(f"Warning: {glyph} in > 1 1st-of-pair class")
-					first_of_pairs.add(glyph)
+					first_of_pairs[glyph] = classname_suffix
 			else:
 				for glyph in classes[classname]:
-					if glyph in second_of_pairs:
+					if glyph in second_of_pairs and second_of_pairs[glyph] == classname_suffix:
 						print(f"Warning: {glyph} in > 1 2nd-of-pair class")
-					second_of_pairs.add(glyph)
+					second_of_pairs[glyph] = classname_suffix
 		elif line == "# Second-of-pair classes":
 			n_of_pairs = 2
 		elif line.startswith("\tpos") or line.startswith("\tenum pos"):
 			try:
-				left, right = re.search(r"pos ([^ ]+|\[.+\]) ([^ ]+|\[.+\]) -?\d", line).group(1, 2)
+				left, right = re.search(r"pos ([^ ]+|\[.+\]) ([^ ]+|\[.+\]) <?-?\d", line).group(1, 2)
 				def enum_class(classname):
 					if classname.startswith("@"):
 						result = classes[classname[1:]]
@@ -88,7 +90,7 @@ html_pre = """
 <style>
 	@font-face {
 			font-family: "Matrix Sans";
-			src: url("../sources/MatrixSansSmooth-RegularB.ttf"),
+			src: url("../sources/MatrixSans-RegularB.ttf"),
 				 url("webfonts/MatrixSans-Regular.woff2");
 		}
 	body {

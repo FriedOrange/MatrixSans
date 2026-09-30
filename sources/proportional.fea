@@ -1,7 +1,7 @@
 
 # mark classes
 markClass [gravecomb acutecomb circumflexcomb tildecomb macroncomb brevecomb dotaccentcomb dieresiscomb hookabovecomb ringcomb hungarumlautcomb caroncomb verticallineabovecomb commaturnedabovecomb commaabovecomb circumflexcomb_acutecomb circumflexcomb_gravecomb circumflexcomb_hookabovecomb circumflexcomb_tildecomb] <anchor 0 600> @marks_above;
-markClass [dotbelowcomb uni0324 commaaccentcomb cedillacomb uni0329 brevebelowcomb macronbelowcomb    uni0332 uni0335] <anchor 0 0> @marks_below; # includes comb short stroke overlay (uni0335)
+markClass [dotbelowcomb uni0324 commaaccentcomb cedillacomb uni0329 brevebelowcomb macronbelowcomb uni0332 uni0335] <anchor 0 0> @marks_below; # includes comb short stroke overlay (uni0335)
 markClass [ogonekcomb] <anchor 0 0> @marks_belowright;
 markClass [uni0315 horncomb dotaboverightcomb] <anchor 0 500> @marks_aboveright;
 # markClass [gravecomb acutecomb circumflexcomb tildecomb brevecomb ringcomb hungarumlautcomb caroncomb commaturnedabovecomb] <anchor 0 600> @tall_marks_above;
@@ -266,7 +266,7 @@ feature mkmk {
 @curveBR2TR_ar = [Ech-ar];
 @curveBRunderhang3R_ar = [Feh-ar feh-ar yistroke-ar];
 @curve2BRunderhang3R_ar = [to-ar gim-ar.sc da-ar.sc to-ar.sc zhe-ar.sc ini-ar.sc ra-ar.sc ef-cy.sc];
-@shortcurveTR_ar = [aybturned-ar ben-ar et-ar ini-ar ho-ar ja-ar sha-ar vo-ar jheh-ar ra-ar tiwn-ar reh-ar piwr-ar keh-ar oh-ar men_ini-ar ghad-ar ech-ar.sc za-ar.sc  et-ar.sc xeh-ar.sc ca-ar.sc ken-ar.sc ho-ar.sc ja-ar.sc yi-ar.sc vo-ar.sc cha-ar.sc peh-ar.sc jheh-ar.sc co-ar.sc keh-ar.sc];
+@shortcurveTR_ar = [aybturned-ar ben-ar et-ar ini-ar ho-ar ja-ar sha-ar vo-ar jheh-ar ra-ar tiwn-ar reh-ar piwr-ar keh-ar oh-ar men_ini-ar ghad-ar ech-ar.sc za-ar.sc et-ar.sc xeh-ar.sc ca-ar.sc ken-ar.sc ho-ar.sc ja-ar.sc yi-ar.sc vo-ar.sc cha-ar.sc peh-ar.sc jheh-ar.sc co-ar.sc keh-ar.sc];
 @shortR_ar = [ayb-ar ech-ar zhe-ar xeh-ar ca-ar ken-ar yi-ar now-ar peh-ar seh-ar co-ar men_now-ar men_ech-ar vew_now-ar men_xeh-ar liwn-ar ayb-ar.sc ben-ar.sc u.sc s]; #zhe-ar also curveBR
 @underhangN2R_ar = [za-ar liwn-ar ghad-ar cha-ar vew-ar]; # NB: USE IN SINGLE PAIR RULES ONLY; ghad-ar also shortcurveTR
 
@@ -307,6 +307,23 @@ feature mkmk {
 
 @overhangL_he = [uni05D3 uni05D5 uni05D6 uni05D9 uni05DA uni05DC uni05DF uni05E3 uni05E5 uni05E8 uni05BE uni05F3 uni05F4 quotesingle quotedbl quoteright quotedblright];
 @underhangL_he = [uni05D2 uni05E2];
+
+@talloverhangR_de = [u1040A];
+@talloverhang2R_de = [u10416];
+@talloverhang3R_de = [u10410 u10419];
+@tallcurve2R_de = [u10421];
+@tallcurve2BR_de = [u1041D];
+@open5R_de = [u1041C];
+@openmidR_de = [u10415];
+@strokemidR_de = [u10426 u10438 u10441];
+@underhangR_de = [u1041B u1042E u10443];
+@underhang2R_de = [u10406 u10434 u10446];
+@shortR_de = [u10424 u10429 u1042F u10430 u10431 u10436 u10437 u10439 u1043A u1043C u10444 u10448 u1044D];
+@shortoverhangR_de = [u10432 u1043E];
+@shortcurveTR_de = [u10422 u10428 u1042A u1042B u1042C u1042D u10433 u10435 u1043B u1043D u1043F u10440 u10442 u10445 u10447 u1044B u1044C u1044F];
+@shortcurveTR2BR_de = [u10449];
+@shortcurve2R_de = [u1044E];
+@shortcurve2TR_de = [u1040C u1044A];
 
 # Second-of-pair classes
 
@@ -382,7 +399,7 @@ feature mkmk {
 @curve3L_ar = [Vew-ar];
 @shortL_ar = [aybturned-ar ayb-ar ben-ar da-ar et-ar to-ar liwn-ar ghad-ar men-ar vo-ar peh-ar ra-ar seh-ar vew-ar tiwn-ar reh-ar yiwn-ar piwr-ar ayb-ar.sc ech-ar.sc eh-ar.sc ini-ar.sc xeh-ar.sc ca-ar.sc ken-ar.sc men-ar.sc sha-ar.sc yiwn-ar.sc l.sc u.sc fullstop-ar];
 @shortcurveTL_ar = [gim-ar za-ar zhe-ar cheh-ar sha-ar cha-ar jheh-ar co-ar oh-ar ben-ar.sc za-ar.sc et-ar.sc to-ar.sc vo-ar.sc cha-ar.sc ra-ar.sc vew-ar.sc reh-ar.sc feh-ar.sc ho-ar.sc s keh-ar]; # sha-ar also shortoverhang2L; jheh-ar also curve2BL
-@descendL_ar = [ben-ar et-ar to-ar ini-ar liwn-ar xeh-ar yi-ar cha-ar reh-ar keh-ar yistroke-ar];  # NB: USE IN SINGLE PAIR RULES ONLY
+@descendL_ar = [ben-ar et-ar to-ar ini-ar liwn-ar xeh-ar yi-ar cha-ar reh-ar keh-ar yistroke-ar]; # NB: USE IN SINGLE PAIR RULES ONLY
 
 @overhangL_ge = [uni10A6 uni10A8 uni10AE uni10AF uni2D06];
 @overhang3L_ge = [uni10A1 uni10A2 uni10A4 uni10A5 uni10AA uni10B7 uni10C0 uni10C4 uni10D6 uni1C96 uni1CB9];
@@ -421,6 +438,23 @@ feature mkmk {
 
 @overhangR_he = [uni05D3 uni05D6 uni05D9 uni05DC uni05E2 uni05E5 uni05E7 uni05BE uni05F3 uni05F4 quotesingle quotedbl quoteright quotedblright];
 @underhangR_he = [uni05D1];
+
+@talloverhangL_de = [u10411];
+@talloverhang2L_de = [u10406];
+@talloverhang3L_de = [u1040B u1040F u10410 u10413 u10416];
+@tallcurve2TL_de = [u1041D];
+@tallcurve2BL_de = [u10424];
+@strokemidL_de = [u10421 u10433 u10437 u1043E];
+@stroke3L_de = [u10408 u10430 u10449];
+@open5L_de = [u1041C];
+@openmidL_de = [u10423];
+@shortL_de = [u10432 u10436 u10443 u10444 u10447 u1044A u1044C u1044D];
+@shortcurveTL_de = [u10429 u1042A u1042B u1042C u1042D u10435 u1043A u1043C u1043D u1043F u10440 u10441 u10442 u10445 u10446 u10448 u1044B u1044F];
+@shortcurveTL2BL_de = [u1043B];
+@shortoverhangL_de = [u1042E u10439];
+@underhangL_de = [u10407 u1042F];
+@underhang2L_de = [u10409 u10426 u10428 u10431 u10434 u1044E];
+@underhang3L_de = [u1040C];
 
 feature kern {
 	script latn;
@@ -926,6 +960,79 @@ feature kern {
 	script hebr;
 	pos @overhangL_he @underhangR_he <-100 0 -100 0>;
 	pos @underhangL_he @overhangR_he <-100 0 -100 0>;
+
+	script dsrt;
+	pos @talloverhangR_de @tallcurve2TL_de -100;
+	pos @talloverhangR_de @strokemidL_de -100;
+	pos @talloverhangR_de @stroke3L_de -100;
+	pos @talloverhangR_de @shortL_de -100;
+	pos @talloverhangR_de @shortcurveTL_de -100;
+	pos @talloverhangR_de @shortcurveTL2BL_de -100;
+	pos @talloverhangR_de @shortoverhangL_de -100;
+	pos @talloverhangR_de @underhangL_de -100;
+	pos @talloverhangR_de @underhang2L_de -100;
+	pos @talloverhangR_de @underhang3L_de -100;
+	pos @talloverhang2R_de @strokemidL_de -100;
+	pos @talloverhang2R_de @stroke3L_de -100;
+	pos @talloverhang2R_de @shortL_de -100;
+	pos @talloverhang2R_de @shortcurveTL_de -100;
+	pos @talloverhang2R_de @shortcurveTL2BL_de -100;
+	pos @talloverhang2R_de @shortoverhangL_de -100;
+	pos @talloverhang2R_de @underhangL_de -100;
+	pos @talloverhang2R_de @underhang2L_de -100;
+	pos @talloverhang2R_de @underhang3L_de -100;
+	pos @talloverhang3R_de @stroke3L_de -100;
+	pos @talloverhang3R_de @shortL_de -100;
+	pos @talloverhang3R_de @shortcurveTL_de -100;
+	pos @talloverhang3R_de @shortcurveTL2BL_de -100;
+	pos @talloverhang3R_de @shortoverhangL_de -100;
+	pos @talloverhang3R_de @underhangL_de -100;
+	pos @talloverhang3R_de @underhang2L_de -100;
+	pos @talloverhang3R_de @underhang3L_de -100;
+	pos @tallcurve2R_de @talloverhangL_de -100;
+	pos @tallcurve2R_de @underhangL_de -100;
+	pos @tallcurve2BR_de @underhangL_de -100;
+	pos @open5R_de @shortoverhangL_de -100;
+	pos @openmidR_de @strokemidL_de -100;
+	pos @strokemidR_de @talloverhangL_de -100;
+	pos @strokemidR_de @talloverhang2L_de -100;
+	pos @strokemidR_de @openmidL_de -100;
+	pos @strokemidR_de @underhangL_de -100;
+	pos @strokemidR_de @underhang2L_de -100;
+	pos @underhangR_de @talloverhangL_de -100;
+	pos @underhangR_de @talloverhang2L_de -100;
+	pos @underhangR_de @talloverhang3L_de -100;
+	pos @underhangR_de @tallcurve2BL_de -100;
+	pos @underhangR_de @strokemidL_de -100;
+	pos @underhangR_de @stroke3L_de -100;
+	pos @underhangR_de @shortcurveTL2BL_de -100;
+	pos @underhangR_de @shortoverhangL_de -100;
+	pos @underhang2R_de @talloverhangL_de -100;
+	pos @underhang2R_de @talloverhang2L_de -100;
+	pos @underhang2R_de @talloverhang3L_de -100;
+	pos @underhang2R_de @strokemidL_de -100;
+	pos @underhang2R_de @shortoverhangL_de -100;
+	pos @shortR_de @talloverhangL_de -100;
+	pos @shortoverhangR_de @talloverhangL_de -100;
+	pos @shortoverhangR_de @open5L_de -100;
+	pos @shortoverhangR_de @underhangL_de -100;
+	pos @shortoverhangR_de @underhang2L_de -100;
+	pos @shortoverhangR_de @underhang3L_de -100;
+	pos @shortcurveTR_de @talloverhangL_de -100;
+	pos @shortcurveTR_de @talloverhang2L_de -100;
+	pos @shortcurveTR2BR_de @talloverhangL_de -100;
+	pos @shortcurveTR2BR_de @talloverhang2L_de -100;
+	pos @shortcurveTR2BR_de @underhangL_de -100;
+	pos @shortcurve2R_de @talloverhangL_de -100;
+	pos @shortcurve2R_de @talloverhang2L_de -100;
+	pos @shortcurve2R_de @talloverhang3L_de -100;
+	pos @shortcurve2R_de @shortoverhangL_de -100;
+	pos @shortcurve2R_de @underhangL_de -100;
+	pos @shortcurve2TR_de @talloverhangL_de -100;
+	pos @shortcurve2TR_de @talloverhang2L_de -100;
+	pos @shortcurve2TR_de @talloverhang3L_de -100;
+	pos @shortcurve2TR_de @shortoverhangL_de -100;
+
 } kern;
 
 feature tnum {
