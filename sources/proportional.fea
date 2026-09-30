@@ -1004,6 +1004,7 @@ feature kern {
 	pos @underhang2R_de @shortoverhangL_de -100;
 	pos @shortR_de @talloverhangL_de -100;
 	pos @shortoverhangR_de @talloverhangL_de -100;
+	pos @shortoverhangR_de @stroke3L_de -100;
 	pos @shortoverhangR_de @open5L_de -100;
 	pos @shortoverhangR_de @underhangL_de -100;
 	pos @shortoverhangR_de @underhang2L_de -100;
