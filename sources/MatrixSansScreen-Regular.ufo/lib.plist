@@ -7877,6 +7877,7 @@
 			<string>Grek</string>
 			<string>Armn</string>
 			<string>Geor</string>
+			<string>Geok</string>
 			<string>Lisu</string>
 			<string>Tfng</string>
 			<string>Dsrt</string>
@@ -7892,11 +7893,14 @@
 			<string>Grek</string>
 			<string>Armn</string>
 			<string>Geor</string>
+			<string>Geok</string>
 			<string>Lisu</string>
 			<string>Tfng</string>
 			<string>Dsrt</string>
 			<string>Shaw</string>
 			<string>Kana</string>
+			<string>bg-Cyrl</string>
+			<string>sr-Cyrl</string>
 			<string>Hebr</string>
 		</array>
 	</dict>
