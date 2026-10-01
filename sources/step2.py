@@ -114,6 +114,7 @@ def make_regular(source):
 	font.round(0.1) # hack: the "dot" glyph is deliberately 1 unit too large so that simplify() produces nicer outlines; this reverses that
 	font.fontname = font.fontname + f"-{font.weight}"
 	font.save(f"temp\\{font.fontname}.sfd")
+	font.close()
 
 
 def make_screen(source):
@@ -129,6 +130,7 @@ def make_screen(source):
 	font.os2_strikeypos += int((DOT_SIZE - font.os2_strikeysize) / 2)
 	font.os2_panose = segmented_panose(font.os2_panose)
 	font.save(f"temp\\{font.fontname}.sfd")
+	font.close()
 
 
 def make_print(source, name_suffix=""):
@@ -144,6 +146,7 @@ def make_print(source, name_suffix=""):
 	font.os2_strikeypos += int((DOT_SIZE - font.os2_strikeysize) / 2)
 	font.os2_panose = segmented_panose(font.os2_panose)
 	font.save(f"temp\\{font.fontname}.sfd")
+	font.close()
 
 
 def make_video(source, aux_source):
@@ -199,6 +202,7 @@ def make_video(source, aux_source):
 
 	add_names(font, "Video")
 	font.save(f"temp\\{font.fontname}.sfd")
+	font.close()
 
 
 def make_raster(source):
@@ -244,6 +248,7 @@ def make_raster(source):
 	font.os2_strikeypos += int((DOT_SIZE - font.os2_strikeysize) / 2)
 	font.os2_panose = segmented_panose(font.os2_panose)
 	font.save(f"temp\\{font.fontname}.sfd")
+	font.close()
 
 	
 def make_smooth(source, aux_source):
@@ -370,6 +375,7 @@ def make_smooth(source, aux_source):
 
 	add_names(font, "Smooth")
 	font.save(f"temp\\{font.fontname}.sfd")
+	font.close()
 
 
 def make_mono(mono_source, main_source):
@@ -427,6 +433,9 @@ def make_mono(mono_source, main_source):
 		merge_glyph(glyph)
 
 	mono_font.save(MONO_TEMP)
+	mono_font.close()
+	proportional_font.close()
+
 
 def main():
 	make_regular(MAIN_SOURCE)
