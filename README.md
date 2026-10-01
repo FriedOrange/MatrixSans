@@ -9,6 +9,12 @@ This is set of pixelated, retro-style fonts based on the classic 5&times;7 dot m
 - **Video** is an interpolated version of Regular. It resembles the on-screen displays of VCRs, Teletext, camcorders and the like; harking back to the early days of computerisation in television and home video.
 - **Smooth** is also interpolated, but with perfectly smooth diagonals instead of the jagged steps seen in the other styles.
 
+Each style also comes with a matching &ldquo;SC&rdquo; version, with the lower-case letters replaced by small capitals (except for Georgian scripts).
+
+### Matrix Mono
+
+The Matrix Mono family is mostly the same as Matrix Sans, but strictly monospaced. Narrow characters have more space around them and some characters, which are wider in Matrix Sans, have special versions.
+
 ### Links
 
 - [**Downloads**](https://github.com/FriedOrange/MatrixSans/releases)
