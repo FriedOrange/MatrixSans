@@ -246,7 +246,7 @@ feature mkmk {
 @openR_gr = [zeta xi];
 @openmidR_gr = [Epsilontonos Iotatonos Epsilon Iota Kappa Xi Sigma Iotadieresis iotadieresis KaiSymbol]; # Zeta Chi
 @open5R_gr = [delta];
-@strokemidR_gr = [anoteleia periodcentered hyphen uni2010 uni2011 endash emdash uni2015 guillemotright guilsinglright uni03D1 uni03DE];
+@strokemidR_gr = [anoteleia periodcentered hyphen uni2010 uni2011 endash uni2015 guillemotright guilsinglright uni03D1 uni03DE];
 @underhangR_gr = [lowernumeral-greek iotatonos iota mu];
 @underhang2R_gr = [quotesinglbase quotedblbase delta.sc lambda.sc];
 @underhang3R_gr = [Delta Lambda];
@@ -323,6 +323,22 @@ feature mkmk {
 @shortcurveTR2BR_de = [u10449];
 @shortcurve2R_de = [u1044E];
 @shortcurve2TR_de = [u1040C u1044A];
+
+@talloverhangR_sh = [quoteleft quotedblleft];
+@talloverhang3R_sh = [quotedbl quotesingle];
+@tallcurveBR_sh = [u10454 u10455];
+@stroke3R_sh = [u10476];
+@open3R_sh = [u10456 u10457];
+@shortcurveR_sh = [u1045C u10460 u1046E u10474 u10478 u10479 u1047A u1047B u1047C u1047D];
+@shortcurveTR_sh = [u1045E u1045F u1046A u10470];
+@shortR_sh = [u10463 u10464 u10466 u10468 u1046C u10471 u10472];
+@shortoverhangR_sh = [u1045D u10465 u10469 u10473 u1047E];
+@shortoverhang2R_sh = [u10462 u1046B];
+@underhang2R_sh = [u10458 u10475 u1047F];
+@underhangR_sh = [u10461 u10477];
+@underhangR2_sh = [u1045B u10467 u1046F u10477];
+@underhangN2R_sh = [u1045A];
+@midpunctR_sh = [guillemotleft guilsinglleft periodcentered uni2E30 hyphen endash uni2010 uni2011];
 
 # Second-of-pair classes
 
@@ -453,6 +469,24 @@ feature mkmk {
 @underhangL_de = [u10407 u1042F];
 @underhang2L_de = [u10409 u10426 u10428 u10431 u10434 u1044E];
 @underhang3L_de = [u1040C];
+
+@talloverhangL_sh = [u10450];
+@talloverhang2L_sh = [u10458 u1047F question uni203D];
+@talloverhang3L_sh = [quotedbl quotesingle];
+@stroke3L_sh = [u1046C];
+@open3L_sh = [u10455 u1045F u1046E u10472 u10476];
+@open13L_sh = [u10460 u10461];
+@shortcurve2TL_sh = [u1045D u10469 u1047C];
+@shortcurve2BL_sh = [u10467 u10471];
+@shortoverhangL_sh = [u10457 u10473 u10477 u10479 quoteright quotedblright];
+@shortoverhangL2_sh = [u10451 u1046A u1046F];
+@shortoverhang2L_sh = [u1046B u1047B];
+@underhangL_sh = [u1046D u10478];
+@underhangL2_sh = [u10453 u10465 u10468];
+@underhang2L_sh = [u10475 u1047A];
+@underhangN1L_sh = [u10462];
+@nondescendingL_sh = [u10452 u10454 u10456 u10459 u10464 u10466 u10470 u10474 u1047D u1047E];
+@midpunctL_sh = [guillemotright guilsinglright];
 
 feature kern {
 	script latn;
@@ -1024,6 +1058,108 @@ feature kern {
 	pos @shortcurve2TR_de @talloverhang3L_de -100;
 	pos @shortcurve2TR_de @shortoverhangL_de -100;
 
+	script shaw;
+	pos u10464 u1046C -100; # loll out
+	pos u10471 u1046C -100; # age out
+	pos u1045A u1045F 0; # bib zoo
+	pos u1045A u1045D 0; # bib vow
+	enum pos @talloverhangR_sh [u10455] 0; # quoteleft so
+	pos @talloverhangR_sh @underhangN1L_sh -100;
+	pos @talloverhangR_sh @open3L_sh -100;
+	pos @talloverhangR_sh @open13L_sh -100;
+	pos @talloverhangR_sh @shortoverhangL_sh -100;
+	pos @talloverhangR_sh @shortoverhangL2_sh -100;
+	pos @talloverhangR_sh @underhangL_sh -100;
+	pos @talloverhangR_sh @underhangL2_sh -100;
+	pos @talloverhangR_sh @underhangN1L_sh -100;
+	pos @talloverhangR_sh @shortcurve2TL_sh -100;
+	pos @talloverhangR_sh @shortcurve2BL_sh -100;
+	pos @talloverhangR_sh @shortoverhang2L_sh -100;
+	pos @talloverhangR_sh @underhang2L_sh -100;
+	pos @talloverhang3R_sh @underhangN1L_sh -100;
+	pos @talloverhang3R_sh @underhangL_sh -100;
+	pos @talloverhang3R_sh @underhangL2_sh -100;
+	pos @talloverhang3R_sh @underhangN1L_sh -100;
+	pos @talloverhang3R_sh @shortcurve2TL_sh -100;
+	pos @talloverhang3R_sh @underhang2L_sh -100;
+	pos @midpunctR_sh @underhangN1L_sh -100;
+	pos @midpunctR_sh @underhangL_sh -100;
+	pos @midpunctR_sh @underhangL2_sh -100;
+	pos @midpunctR_sh @underhangN1L_sh -100;
+	pos @midpunctR_sh @talloverhangL_sh -100;
+	pos @tallcurveBR_sh @underhangN1L_sh -100;
+	pos @stroke3R_sh @talloverhangL_sh -200;
+	pos @stroke3R_sh @talloverhang2L_sh -100;
+	pos @stroke3R_sh @open3L_sh -100;
+	pos @stroke3R_sh @open13L_sh -100;
+	pos @stroke3R_sh @shortoverhangL_sh -100;
+	pos @stroke3R_sh @shortoverhangL2_sh -100;
+	pos @stroke3R_sh @underhangL_sh -100;
+	pos @stroke3R_sh @underhangL2_sh -100;
+	pos @stroke3R_sh @underhangN1L_sh -100;
+	pos @stroke3R_sh @talloverhang3L_sh -100;
+	pos @open3R_sh @stroke3L_sh -100;
+	pos @shortcurveR_sh @talloverhangL_sh -100;
+	pos @shortcurveR_sh @talloverhang2L_sh -100;
+	pos @shortcurveR_sh @underhangN1L_sh -100;
+	pos @shortcurveTR_sh @talloverhangL_sh -100;
+	pos @shortcurveTR_sh @talloverhang2L_sh -100;
+	pos @shortR_sh @talloverhangL_sh -100;
+	pos @shortoverhangR_sh @talloverhangL_sh -100;
+	pos @shortoverhangR_sh @stroke3L_sh -100;
+	pos @shortoverhangR_sh @shortcurve2TL_sh -100;
+	pos @shortoverhangR_sh @underhangL_sh -100;
+	pos @shortoverhangR_sh @underhangL2_sh -200;
+	pos @shortoverhangR_sh @underhang2L_sh -100;
+	pos @shortoverhangR_sh @underhangN1L_sh -100;
+	pos [u1046D] @underhangL_sh -100;
+	pos [u1046D] @underhangL2_sh -100;
+	pos @shortoverhang2R_sh @talloverhangL_sh -100;
+	pos @shortoverhang2R_sh @underhangL_sh -100;
+	pos @shortoverhang2R_sh @underhangL2_sh -100;
+	pos @shortoverhang2R_sh @underhang2L_sh -100;
+	pos @shortoverhang2R_sh @underhangN1L_sh -100;
+	pos @underhang2R_sh @talloverhangL_sh -200;
+	pos @underhang2R_sh @talloverhang2L_sh -100;
+	pos @underhang2R_sh @open13L_sh -100;
+	pos @underhang2R_sh @shortoverhangL_sh -100;
+	pos @underhang2R_sh @shortoverhangL2_sh -100;
+	pos @underhang2R_sh @shortoverhang2L_sh -100;
+	pos @underhang2R_sh @talloverhang3L_sh -100;
+	pos @underhangR_sh @talloverhangL_sh -200;
+	pos @underhangR_sh @talloverhang2L_sh -200;
+	pos @underhangR_sh @stroke3L_sh -100;
+	pos @underhangR_sh @open13L_sh -100;
+	pos @underhangR_sh @shortcurve2BL_sh -100;
+	pos @underhangR_sh @shortoverhangL_sh -100;
+	pos @underhangR_sh @shortoverhangL2_sh -100;
+	pos @underhangR_sh @shortoverhang2L_sh -100;
+	pos @underhangR_sh @talloverhang3L_sh -100;
+	pos @underhangR_sh @midpunctL_sh -100;
+	pos @underhangR2_sh @talloverhangL_sh -200;
+	pos @underhangR2_sh @talloverhang2L_sh -200;
+	pos @underhangR2_sh @stroke3L_sh -100;
+	pos @underhangR2_sh @open13L_sh -100;
+	pos @underhangR2_sh @shortcurve2BL_sh -100;
+	pos @underhangR2_sh @shortoverhangL_sh -100;
+	pos @underhangR2_sh @shortoverhangL2_sh -200;
+	pos @underhangR2_sh @shortoverhang2L_sh -100;
+	pos @underhangR2_sh @talloverhang3L_sh -100;
+	pos @underhangR2_sh @midpunctL_sh -100;
+	pos @underhangN2R_sh @talloverhangL_sh -200;
+	pos @underhangN2R_sh @talloverhang2L_sh -200;
+	pos @underhangN2R_sh @stroke3L_sh -200;
+	pos @underhangN2R_sh @open3L_sh -100;
+	pos @underhangN2R_sh @shortcurve2TL_sh -100;
+	pos @underhangN2R_sh @shortcurve2BL_sh -200;
+	pos @underhangN2R_sh @shortoverhangL_sh -200;
+	pos @underhangN2R_sh @shortoverhangL2_sh -200;
+	pos @underhangN2R_sh @shortoverhang2L_sh -200;
+	pos @underhangN2R_sh @underhangL_sh -100;
+	pos @underhangN2R_sh @underhangL2_sh -100;
+	pos @underhangN2R_sh @underhang2L_sh -100;
+	pos @underhangN2R_sh @talloverhang3L_sh -100;
+	pos @underhangN2R_sh @midpunctL_sh -100;
 } kern;
 
 feature tnum {

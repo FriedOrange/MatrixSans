@@ -1501,6 +1501,7 @@
 		<string>uni2D6F</string>
 		<string>uni2D70</string>
 		<string>uni2E18</string>
+		<string>uni2E30</string>
 		<string>uni2E31</string>
 		<string>uni300A</string>
 		<string>uni300B</string>
@@ -5692,6 +5693,8 @@
 		<key>uni2D70</key>
 		<string>base</string>
 		<key>uni2E18</key>
+		<string>base</string>
+		<key>uni2E30</key>
 		<string>base</string>
 		<key>uni2E31</key>
 		<string>base</string>

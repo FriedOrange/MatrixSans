@@ -78,8 +78,7 @@ with open("proportional.fea", "r", encoding="utf-8") as feature_file:
 				output_lines.append("</pre>")
 			except Exception as e:
 				print(e)
-				print(glyph1)
-				print(glyph2)
+				print(line)
 
 html_pre = f"""
 <!DOCTYPE html>
