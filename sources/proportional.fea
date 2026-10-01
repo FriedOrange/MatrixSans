@@ -330,7 +330,7 @@ feature mkmk {
 @stroke3R_sh = [u10476];
 @open3R_sh = [u10456 u10457];
 @shortcurveR_sh = [u1045C u10460 u1046E u10474 u10478 u10479 u1047A u1047B u1047C u1047D];
-@shortcurveTR_sh = [u1045E u1045F u1046A u10470];
+@shortcurveTR_sh = [u1045E u1045F u10470];
 @shortR_sh = [u10463 u10464 u10466 u10468 u1046C u10471 u10472];
 @shortoverhangR_sh = [u1045D u10465 u10469 u10473 u1047E];
 @shortoverhang2R_sh = [u10462 u1046B];
@@ -486,7 +486,7 @@ feature mkmk {
 @underhang2L_sh = [u10475 u1047A];
 @underhangN1L_sh = [u10462];
 @nondescendingL_sh = [u10452 u10454 u10456 u10459 u10464 u10466 u10470 u10474 u1047D u1047E];
-@midpunctL_sh = [guillemotright guilsinglright];
+@midpunctL_sh = [hyphen uni2010 uni2011 endash emdash guillemotright guilsinglright];
 
 feature kern {
 	script latn;
@@ -1106,6 +1106,10 @@ feature kern {
 	pos @shortcurveR_sh @underhangN1L_sh -100;
 	pos @shortcurveTR_sh @talloverhangL_sh -100;
 	pos @shortcurveTR_sh @talloverhang2L_sh -100;
+	pos [u1046A] @talloverhangL_sh -100;
+	pos [u1046A] @talloverhang2L_sh -100;
+	pos [u1046A] @shortoverhangL_sh -100;
+	pos [u1046A] @shortoverhangL2_sh -100;
 	pos @shortR_sh @talloverhangL_sh -100;
 	pos @shortoverhangR_sh @talloverhangL_sh -100;
 	pos @shortoverhangR_sh @stroke3L_sh -100;
@@ -1162,6 +1166,7 @@ feature kern {
 	pos @underhangN2R_sh @underhang2L_sh -100;
 	pos @underhangN2R_sh @talloverhang3L_sh -100;
 	pos @underhangN2R_sh @midpunctL_sh -100;
+	pos @underhangN2R_sh @nondescendingL_sh -100;
 } kern;
 
 feature tnum {
