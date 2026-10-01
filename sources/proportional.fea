@@ -1064,6 +1064,8 @@ feature kern {
 	pos u1045A u1045F 0; # bib zoo
 	pos u1045A u1045D 0; # bib vow
 	enum pos @talloverhangR_sh [u10455] 0; # quoteleft so
+	enum pos [u10455 u10456 u10457] @shortoverhangL_sh -100;
+	enum pos [u10455 u10456 u10457] @shortoverhangL2_sh -100;
 	pos @talloverhangR_sh @underhangN1L_sh -100;
 	pos @talloverhangR_sh @open3L_sh -100;
 	pos @talloverhangR_sh @open13L_sh -100;
