@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1675081307
-ModificationTime: 1790690599
+ModificationTime: 1790840901
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -44,8 +44,8 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 9712 16 12
-BeginChars: 1114155 205
+WinInfo: 4272 16 12
+BeginChars: 1114155 203
 
 StartChar: quarterdot
 Encoding: 1114112 -1 0
@@ -7933,89 +7933,12 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0569
-Encoding: 1385 1385 197
-Width: 1000
-Flags: H
-LayerCount: 2
-Back
-SplineSet
-450 200 m 1
- 350 200 l 1
- 350 100 l 1
- 450 100 l 1
- 450 200 l 1
-150 -200 m 1
- 50 -200 l 1
- 50 500 l 1
- 150 500 l 1
- 150 400 l 1
- 180 400 l 1
- 280 500 l 1
- 420 500 l 1
- 550 370 l 1
- 550 130 l 1
- 420 0 l 1
- 380 0 l 1
- 250 130 l 1
- 250 170 l 1
- 380 300 l 1
- 450 300 l 1
- 450 330 l 1
- 380 400 l 1
- 320 400 l 1
- 220 300 l 1
- 150 300 l 1
- 150 -200 l 1
-EndSplineSet
-EndChar
-
 StartChar: uni10C5
-Encoding: 4293 4293 198
+Encoding: 4293 4293 197
 Width: 600
 Flags: HW
 LayerCount: 2
 Fore
-SplineSet
-150 100 m 1
- 250 100 l 1
- 250 200 l 1
- 150 200 l 1
- 150 100 l 1
-550 100 m 1
- 450 100 l 1
- 450 200 l 1
- 350 200 l 1
- 350 130 l 1
- 220 0 l 1
- 180 0 l 1
- 50 130 l 1
- 50 170 l 1
- 180 300 l 1
- 250 300 l 1
- 250 700 l 1
- 420 700 l 1
- 550 570 l 1
- 550 530 l 1
- 420 400 l 1
- 350 400 l 1
- 350 300 l 1
- 550 300 l 1
- 550 100 l 1
-350 500 m 1
- 450 500 l 1
- 450 600 l 1
- 350 600 l 1
- 350 500 l 1
-EndSplineSet
-EndChar
-
-StartChar: uni10C5
-Encoding: 4293 4293 199
-Width: 1000
-Flags: H
-LayerCount: 2
-Back
 SplineSet
 150 100 m 1
  250 100 l 1
@@ -8051,7 +7974,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni1C8A
-Encoding: 7306 7306 200
+Encoding: 7306 7306 198
 Width: 600
 Flags: HW
 LayerCount: 2
@@ -8079,7 +8002,7 @@ EndSplineSet
 EndChar
 
 StartChar: perthousand
-Encoding: 8240 8240 201
+Encoding: 8240 8240 199
 Width: 600
 Flags: HW
 LayerCount: 2
@@ -8111,7 +8034,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni20A8
-Encoding: 8360 8360 202
+Encoding: 8360 8360 200
 Width: 600
 Flags: HW
 LayerCount: 2
@@ -8156,7 +8079,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni2105
-Encoding: 8453 8453 203
+Encoding: 8453 8453 201
 Width: 600
 Flags: HW
 LayerCount: 2
@@ -8192,7 +8115,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1047F
-Encoding: 66687 66687 204
+Encoding: 66687 66687 202
 Width: 600
 Flags: HW
 LayerCount: 2
