@@ -31,6 +31,18 @@ This Font Software is licensed under the SIL Open Font License, Version 1.1. Thi
 Changelog
 ---------
 
+1 October 2026 - Version 1.800
+
+- Added Matrix Mono family, a monospaced counterpart to Matrix Sans
+- Added Deseret and Shavian alphabets
+- Added halfwidth Katakana characters and the Kanji/Hànzì for writing dates: 年 月 火 水 木 金 土 日 (plus 円 as a bonus); these are always monospaced, even in Matrix Sans
+- Added Cyrillic letter tje Ᲊ and Kyrgyz som sign ⃀
+- Small caps in SC styles are now "baked-in" (instead of the `smcp` feature being applied by default), making them compatible with non-OpenType-aware programs/systems
+- Made spacing of underscore _ and em dash — more consistent with other glyphs
+- Fixed some kerning bugs, including kerning not working in certain languages
+- Actually fixed the placement of stacking diacritical marks
+- Diacritical marks now attach to more Cyrillic letters
+
 13 June 2026 - Version 1.722
 
 - Rewrote OpenType Mark Positioning feature; diacritical marks can now be attached to many more base characters and multiple marks now stack properly
