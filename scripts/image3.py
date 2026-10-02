@@ -18,7 +18,7 @@ import argparse
 DRAW_AUX_TEXT = False
 
 WIDTH, HEIGHT, MARGIN, FRAMES = 1024, 512, 32, 1
-FONT_PATH = "fonts/otf/MatrixSans-Regular.otf"
+FONT_PATH = "fonts/ttf/MatrixSans-Regular.ttf"
 FONT_LICENSE = "Open Font License v1.1"
 AUXILIARY_FONT = "Bahnschrift"
 AUXILIARY_FONT_SIZE = 22
@@ -156,17 +156,17 @@ def make_image(text_list, text_colour, bg_colour, stripes=False):
 
 # Build and save the image
 if __name__ == "__main__":
-	FONT_PATH = "fonts/otf/MatrixSans-Regular.otf"
+	FONT_PATH = "fonts/ttf/MatrixSans-Regular.ttf"
 	make_image(["MATRIX SANS REGULAR","The quick brown fox","jumps over a lazy dog.","§27 ¶14; { 35°29′10″ }"], [0.1, 0.1, 0.1], [0.9, 0.9, 0.9])
-	FONT_PATH = "fonts/otf/MatrixSansPrint-Regular.otf"
+	FONT_PATH = "fonts/ttf/MatrixSansPrint-Regular.ttf"
 	make_image(["MATRIX SANS PRINT","Quick wafting zephyrs","#vex “bold” @Jim :-)","$18.99 €38,76 £1.50 75%"], [0, 0, 0], [0.99, 0.97, 0.95], True)
-	FONT_PATH = "fonts/otf/MatrixSansRaster-Regular.otf"
+	FONT_PATH = "fonts/ttf/MatrixSansRaster-Regular.ttf"
 	make_image(["MATRIX SANS RASTER","Pack my box with five","dozen liquor jugs*","150 IF X>32 THEN N=0"], [1, 0.6, 0], [0, 0, 0])
-	FONT_PATH = "fonts/otf/MatrixSansScreen-Regular.otf"
+	FONT_PATH = "fonts/ttf/MatrixSansScreen-Regular.ttf"
 	make_image(["MATRIX SANS SCREEN","Jackdaws love my big","sphinx of quartz?","3×(5+1)²−6÷2=105"], [0, 0, 0], [202/255, 228/255, 175/255])
-	FONT_PATH = "fonts/otf/MatrixSansVideo-Regular.otf"
+	FONT_PATH = "fonts/ttf/MatrixSansVideo-Regular.ttf"
 	make_image(["MATRIX SANS VIDEO","▶ How quickly daft","jumping zebras vex!","23/04/1987 12:56 PM"], [216/255, 216/255, 216/255], [0, 0, 160/255])
-	FONT_PATH = "fonts/otf/MatrixSansSmooth-Regular.otf"
+	FONT_PATH = "fonts/ttf/MatrixSansSmooth-Regular.ttf"
 	make_image(["MATRIX SANS SMOOTH", "Bright vixens jump", "& dozy fowl quack.", "«№3½» ±0.5µm ↑ 68Ω"], [0.9, 0.9, 0.9], [0.1, 0.1, 0.1])
 	# Save output, using the "--output" flag location
 	saveImage(args.output)
