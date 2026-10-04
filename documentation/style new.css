@@ -1,0 +1,150 @@
+@font-face {
+	font-family: "Matrix Sans";
+	src: url("webfonts/MatrixSans-Regular.woff2");
+}
+@font-face {
+	font-family: "Matrix Sans Print";
+	src: url("webfonts/MatrixSansPrint-Regular.woff2");
+}
+@font-face {
+	font-family: "Matrix Sans Screen";
+	src: url("webfonts/MatrixSansScreen-Regular.woff2");
+}
+@font-face {
+	font-family: "Matrix Sans Raster";
+	src: url("webfonts/MatrixSansRaster-Regular.woff2");
+}
+@font-face {
+	font-family: "Matrix Sans Video";
+	src: url("webfonts/MatrixSansVideo-Regular.woff2");
+}
+@font-face {
+	font-family: "Matrix Sans Smooth";
+	src: url("webfonts/MatrixSansSmooth-Regular.woff2");
+}
+@font-face {
+	font-family: "Matrix Mono";
+	src: url("webfonts/MatrixMono-Regular.woff2");
+}
+@font-face {
+	font-family: "Matrix Mono Print";
+	src: url("webfonts/MatrixMonoPrint-Regular.woff2");
+}
+@font-face {
+	font-family: "Matrix Mono Screen";
+	src: url("webfonts/MatrixMonoScreen-Regular.woff2");
+}
+@font-face {
+	font-family: "Matrix Mono Raster";
+	src: url("webfonts/MatrixMonoRaster-Regular.woff2");
+}
+@font-face {
+	font-family: "Matrix Mono Video";
+	src: url("webfonts/MatrixMonoVideo-Regular.woff2");
+}
+@font-face {
+	font-family: "Matrix Mono Smooth";
+	src: url("webfonts/MatrixMonoSmooth-Regular.woff2");
+}
+:root {
+	interpolate-size: allow-keywords;
+}
+body {
+	max-width: 60em;
+	margin: auto;
+	background-color: #111;
+	color: #eee;
+	font-family: "Matrix Sans", sans-serif;
+	line-height: 1.3;
+	text-underline-offset: 0.1em;
+	text-decoration-thickness: 0.1em;
+}
+header, section {
+	margin: 0.5em;
+	padding: 1em 2em 1em 2em;
+	border-radius: 0.25em;
+}
+footer {text-align: center;}
+h1, h2, h3, h4 {
+	font-weight: normal;
+	color: #eee;
+}
+ul {list-style-type: "• ";}
+ul ul {list-style-type: "◦ ";}
+details summary {list-style-type: "▶ ";}
+details[open] summary {list-style-type: "▼ ";}
+main u, del {text-decoration-color: #888;}
+th {
+	font-weight: normal;
+	/* padding: 0.1em; */
+}
+td {
+	vertical-align: top;
+	/* padding: 0.1em; */
+}
+td + td, th + th {border-left: 0.1em #888 solid;}
+tr + tr > td {border-top: 0.1em #888 solid;}
+table {border-collapse: collapse;}
+.padded td, .padded th {padding: 0.2em;}
+details p, details dd {
+	font-size: 30px;
+}
+details p {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+details::details-content {
+	height: 0;
+	overflow: clip;
+	transition: height 0.25s ease-in-out, content-visibility 0.25s allow-discrete ease-in-out;
+}
+details[open]::details-content {
+	height: auto;
+}
+a {
+	color: #6d6;
+	text-decoration: none;
+}
+a:visited {color: #4a8;}
+a:active {color: #c4c}
+a:hover, a:visited:hover {text-decoration: underline;}
+.print {font-family: "Matrix Sans Print", sans-serif;}
+.screen {font-family: "Matrix Sans Screen", sans-serif;}
+.raster {font-family: "Matrix Sans Raster", sans-serif;}
+.video {font-family: "Matrix Sans Video", sans-serif;}
+.smooth {font-family: "Matrix Sans Smooth", sans-serif;}
+.monoregular {font-family: "Matrix Mono", sans-serif;}
+.monoprint {font-family: "Matrix Mono Print", sans-serif;}
+.monoscreen {font-family: "Matrix Mono Screen", sans-serif;}
+.monoraster {font-family: "Matrix Mono Raster", sans-serif;}
+.monovideo {font-family: "Matrix Mono Video", sans-serif;}
+.monosmooth {font-family: "Matrix Mono Smooth", sans-serif;}
+.big {
+	font-size: 3em;
+	color: #eee;
+}
+.sc {font-feature-settings: 'smcp';}
+.rtl {text-align: right;}
+img {
+	margin: 0.25em;
+	max-width: 100%;
+}
+figcaption {text-align: center;}
+@media screen and (max-width: 490px) {
+	figure {
+		max-width: 420px;
+		margin: auto;
+	}
+}
+@media screen and (min-width: 700px) {
+	figure {
+		max-width: 640px;
+		margin: auto;
+	}
+}
+@media screen and (max-width: 570px) {
+	figure {
+		max-width: 210px;
+		margin: auto;
+	}
+}
