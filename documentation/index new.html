@@ -5,7 +5,7 @@
 <meta name="author" content="Brad Neil">
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Matrix Sans Fonts</title>
-<link rel="stylesheet" href="style - Copy.css" />
+<link rel="stylesheet" href="style new.css" />
 <link rel="icon" href="favicon.png" />
 </head>
 
@@ -26,141 +26,492 @@
 <section>
 <h2>Meet the family.</h2>
 <p>6 styles + mono</p>
+
+<figure>
+	<svg viewBox="0 0 1024 512" id="regular-demo" role="img">
+	<style>
+		@font-face {
+			font-family: "Matrix Sans";
+			src: url("webfonts/MatrixSans-Regular.woff2");
+		}
+		#regular-demo rect {
+			fill: #111;
+		}
+		#regular-demo text {
+			font-family: "Matrix Sans";
+			fill: #4bf;
+		}
+	</style>
+	<rect width="1024" height="512" x="0" y="0" />
+	<text x="512" y="130" text-anchor="middle">Matrix Sans Regular</text>
+	<text x="512" y="234" text-anchor="middle">READY PLAYER ONE</text>
+	<text x="512" y="338" text-anchor="middle">&hearts;1UP</text>
+	<text x="512" y="442" text-anchor="middle">§27 ¶14; { 35°29′10″ }</text>
+	</svg>
+</figure>
+<p class="centre">Matrix Sans Regular has a plain pixel look, like the bitmap fonts used in retro games.</p>
+
+<figure>
+	<svg viewBox="0 0 1024 512" id="video-demo" role="img">
+	<style>
+		@font-face {
+			font-family: "Matrix Sans Video";
+			src: url("webfonts/MatrixSansVideo-Regular.woff2");
+		}
+		#video-demo rect {
+			fill: #00a;
+		}
+		#video-demo text {
+			font-family: "Matrix Sans Video";
+			fill: #ddd;
+			filter: url("#blur");
+		}
+	</style>
+	<defs>
+		<filter id="blur">
+			<feGaussianBlur stdDeviation="2, 0" />
+		</filter>
+	</defs>
+	<rect width="1024" height="512" x="0" y="0" />
+	<text x="512" y="130" text-anchor="middle">Matrix Sans Video</text>
+	<text x="512" y="234" text-anchor="middle">▶ PLAY HI-FI L+R</text>
+	<text x="512" y="442" text-anchor="middle">23/04/1987 12:56 PM</text>
+	</svg>
+
+</figure>
+<p class="centre">Matrix Sans Video is interpolated to double the resolution, mimicking the on-screen displays of VCRs and camcorders and giving the feel of analogue video. The characters 2, 6, 9 and D have special patterns for extra authenticity.</p>
+
+<figure>
+	<svg viewBox="0 0 1024 512" id="screen-demo" role="img">
+	<style>
+		@font-face {
+			font-family: "Matrix Sans Screen";
+			src: url("webfonts/MatrixSansScreen-Regular.woff2");
+		}
+		#screen-demo rect {
+			fill: #cdb;
+		}
+		#screen-demo text {
+			font-family: "Matrix Sans Screen";
+			fill: #111;
+			text-shadow: 3px 3px 3px #aaa;
+			transition: text-shadow 0.25s ease-in-out;
+		}
+	</style>
+	<rect width="1024" height="512" x="0" y="0" />
+	<text x="512" y="130" text-anchor="middle">Matrix Sans Screen</text>
+	<text x="512" y="234" text-anchor="middle">ﾓｵﾙｽﾖﾐﾄﾘ ﾕｹﾎｼﾉﾊﾃﾍ ﾌﾈ</text>
+	<text x="512" y="338" text-anchor="middle">ﾅﾔﾏﾝ ｺﾛﾆｲﾑｶｴﾂ ｸﾗｿｳ</text>
+	<text x="512" y="442" text-anchor="middle">3×(5+1)²−6÷2=105</text>
+	</svg>
+</figure>
+<p class="centre">Matrix Sans Screen has discrete square dots that make it resemble a character LCD or electronic sign..</p>
+
+<figure>
+	<svg viewBox="0 0 1024 512" id="print-demo" role="img">
+	<style>
+		@font-face {
+			font-family: "Matrix Sans Print";
+			src: url("webfonts/MatrixSansPrint-Regular.woff2");
+		}
+		#print-demo rect {
+			fill: #ffe;
+		}
+		#print-demo text {
+			font-family: "Matrix Sans Print";
+			fill: #444;
+			filter: url("#displacement");
+		}
+	</style>
+	<defs>
+		<filter id="displacement">
+			<feTurbulence
+				type="turbulence"
+				baseFrequency="0.25	"
+				numOctaves="2"
+				result="turbulence" />
+			<feDisplacementMap
+				in2="turbulence"
+				in="SourceGraphic"
+				scale="4"
+				xChannelSelector="R"
+				yChannelSelector="G" />
+		</filter>
+	</defs>
+	<rect width="1024" height="512" x="0" y="0" />
+	<text x="512" y="130" text-anchor="middle">Matrix Sans Print</text>
+	<text x="512" y="234" text-anchor="middle"></text>
+	<text x="512" y="442" text-anchor="middle">$18.99 €38,76 £1.50</text>
+	</svg>
+</figure>
+<p class="centre">Matrix Sans Print has discrete round dots giving it the look of a dot-matrix printer or flip-dot display.</p>
+
+<figure>
+	<svg viewBox="0 0 1024 512" id="raster-demo" role="img">
+	<style>
+		@font-face {
+			font-family: "Matrix Sans Raster";
+			src: url("webfonts/MatrixSansRaster-Regular.woff2");
+		}
+		#raster-demo rect {
+			fill: #222;
+		}
+		#raster-demo text {
+			font-family: "Matrix Sans Raster";
+			fill: #3e9;
+			text-shadow: 0 0 40px #2a7;
+			transition: text-shadow 0.25s ease-in-out;
+		}
+	</style>
+	<rect width="1024" height="512" x="0" y="0" />
+	<text x="512" y="130" text-anchor="middle">Matrix Sans Raster</text>
+	<text x="512" y="234" text-anchor="middle">10 REM БУДЬ ЗДОРОВИЙ</text>
+	<text x="512" y="338" text-anchor="middle">20 PRINT CHR$(10);</text>
+	<text x="512" y="442" text-anchor="middle">30 LET X=(2^16-1)*3</text>
+	</svg>
+</figure>
+<p class="centre">Matrix Sans Raster has soft lines, emulating a monochrome CRT monitor from the days of 8-bit computers.</p>
+
+<figure>
+	<svg viewBox="0 0 1024 512" id="smooth-demo" role="img">
+	<style>
+		@font-face {
+			font-family: "Matrix Sans Smooth";
+			src: url("webfonts/MatrixSansSmooth-Regular.woff2");
+		}
+		#smooth-demo rect {
+			fill: #222;
+		}
+		#smooth-demo text {
+			font-family: "Matrix Sans Smooth";
+			fill: #3e9;
+		}
+	</style>
+	<rect width="1024" height="512" x="0" y="0" />
+	<text x="512" y="130" text-anchor="middle">Matrix Sans Smooth</text>
+	<text x="512" y="234" text-anchor="middle">Quick wafting zephyrs</text>
+	<text x="512" y="442" text-anchor="middle">#vex “bold” @Jim :-)</text>
+	</svg>
+</figure>
+<p class="centre">Matrix Sans Smooth is interpolated like the Video style, but taken to the extreme. It has perfectly straight diagonals in place of jagged steps, putting a modern twist on the genre.</p>
+
+<figure>
+	<svg viewBox="0 0 1024 512" id="mono-demo" role="img">
+	<style>
+		@font-face {
+			font-family: "Matrix Mono";
+			src: url("webfonts/MatrixMono-Regular.woff2");
+		}
+		#mono-demo rect {
+			fill: #222;
+		}
+		#mono-demo text {
+			font-family: "Matrix Mono";
+			fill: #3e9;
+		}
+	</style>
+	<rect width="1024" height="512" x="0" y="0" />
+	<text x="512" y="130" text-anchor="middle">Matrix Mono Regular</text>
+	<text x="512" y="234" text-anchor="middle">Bright vixens jump</text>
+	<text x="512" y="338" text-anchor="middle">& dozy fowl quack.</text>
+	<text x="512" y="442" text-anchor="middle"></text>
+	</svg>
+</figure>
+<p class="centre">Every style above is also available in the Matrix Mono family, a monospaced companion to Matrix Sans with a little more historical accuracy. You could even use it for programming!</p>
+
+<figure>
+	<svg viewBox="0 0 1024 512" id="sc-demo" role="img">
+	<style>
+		@font-face {
+			font-family: "Matrix Sans";
+			src: url("webfonts/MatrixSans-Regular.woff2");
+		}
+		#sc-demo rect {
+			fill: #222;
+		}
+		#sc-demo text {
+			font-family: "Matrix Sans";
+			font-feature-settings: "smcp";
+			fill: #3e9;
+		}
+	</style>
+	<rect width="1024" height="512" x="0" y="0" />
+	<text x="512" y="130" text-anchor="middle">Matrix Sans SC</text>
+	<text x="512" y="234" text-anchor="middle">Jackdaws love my big</text>
+	<text x="512" y="338" text-anchor="middle">sphinx of quartz?</text>
+	<text x="512" y="442" text-anchor="middle"></text>
+	</svg>
+</figure>
+<p class="centre">Finally, every abovementioned font comes with an &ldquo;SC&rdquo; version where the small letters are replaced by small capitals. Use these wherever you want small caps but can&rsquo;t use the OpenType smcp feature.</p>
+
 </section>
 
 <section>
 <h2>Features.</h2>
-<p>Character support, OpenType features</p>
 
-<h3>Supported glyphs</h3>
+<p>Matrix Sans contains over 2000 glyphs, supporting over 700 languages:</p>
+
+<h3>Supported languages.</h3>
+
+<details>
+	<summary>Languages with at least 10,000,000 speakers</summary>
+	<p>Belarusian, Cebuano, Czech, Dutch, English, Fanti, Filipino, French, German, Hakka Chinese (Latin), Hausa, Hungarian, Igbo, Iloko, Indonesian, Italian, Javanese, Kazakh, Kinyarwanda, Kituba, Low German, Madurese, Malagasy, Malay (Latin), Nigerian Fulfulde, Nigerian Pidgin, Nyanja, Oromo, Polish, Portuguese, Quechua, Romanian, Russian, Shona, Somali, Spanish, Sudanese Arabic, Sundanese, Swahili, Swahili (Congo), Swedish, Turkish, Turkmen (Latin), Ukrainian, Uzbek, Vietnamese, Wolof, Xhosa, Yoruba, Zulu</p>
+</details>
+<details>
+	<summary>Languages with at least 1,000,000 speakers</summary>
+	<p>Abron, Achinese, Afar, Afrikaans, Albanian, Anaang, Arabic (Chadian Spoken), Armenian, Aymara, Azerbaijani, Azerbaijani (Cyrillic), Baatonum, Balinese, Bambara, Banjar, Baoulé, Bashkir, Basque, Batak Toba, Bedawiyet, Bemba, Berom, Bikol, Bini, Bosnian, Bosnian (Cyrillic), Buginese, Bulgarian, Bulu, Catalan, Cebaara Senoufo, Central Atlas Tamazight, Central-Eastern Niger Fulfulde, Chiga, Chokwe, Chuvash, Croatian, Dagbani, Danish, Dinka, Dyula, Ebira, Efik, Finnish, Fulah, Fulfulde (Adamawa), Fulfulde (Western Niger), Galician, Gamo, Ganda, Georgian, Gheg Albanian, Guarani, Gun, Gusii, Hadiyya, Haitian Creole, Hiligaynon, Hmong, Iraqw, Jamaican Creole English, Kabardian, Kabyle, Kalenjin, Kamba, Khasi, Kikuyu, Kimbundu, Kongo, Konjo, Kpelle, Krio, Kyrgyz, Kʼicheʼ, Lango (Uganda), Latvian, Lingala, Lithuanian, Lomwe, Lozi, Luba-Katanga, Luba-Lulua, Lunda, Luyia, Maasina Fulfulde, Macedonian, Makhuwa, Makhuwa-Meetto, Makonde, Mandinka, Maninkakan (Eastern), Masaaba, Mende, Meru, Minangkabau, Mongolian, Morisyen, Ndau, North Ndebele, Northern Sotho, Norwegian, Norwegian Bokmål, Norwegian Nynorsk, Nuer, Nupe-Nupe-Tako, Nyamwezi, Nyankole, Nyemba, Occitan, Pampanga, Pulaar, Ronga, Rundi, Sango, Sardinian, Scots, Sena, Serbian, Serbian (Latin), Sicilian, Sidamo, Slovak, Slovenian, Soga, Soninke, Southern Sotho, Standard Moroccan Tamazight, Sukuma, Susu, Swati, Swiss German, Tachelhit (Latin), Tajik, Tatar, Tiv, Tok Pisin, Tonga, Tsonga, Tswana, Tumbuka, Umbundu, Uzbek (Cyrillic), Waray, West Albay Bikol, Wolaytta (Latin), Xaasongaxango, Zande, Zarma, Zaza</p>
+</details>
+<details>
+	<summary>Languages with at least 100,000 speakers</summary>
+	<p>Adangme, Adara, Adioukrou, Adyghe, Agatu, Akoose, Akuapem Twi, Alago, Anufo, Ao Naga, Aromanian, Asturian, Asu, Attié, Avaric, Avokaya, Ayizo Gbe, Bacama, Bafut, Bandi, Bari, Basa, Bedjond, Bekwarra, Bena, Bench, Biali, Bimoba, Birifor (Southern), Bislama, Bomu, Breton, Bura-Pabir, Buriat, Bété, Guiberoua, Chechen, Chiduruma, Chimborazo Highland Quichua, Cishingini, Colognian, Comorian (Ngazidja), Corsican, Crimean Turkish, Cyrillic, Crioulo (Upper Guinea), Dagaare (Southern), Dargwa, Dawro, Dazaga, Dendi, Didinga, Dinka (Northeastern), Dogon (Toro So), Duala, Dungan, Ede Ica, Ede Idaca, Ede Ije, Ekpeye, Emai-Iuleha-Ora, Embu, Erzya, Esan, Estonian, Ewondo, Ezaa, Fijian, Fulfulde (Borgu), Fuliiru, Ga, Gagauz, Gawwada, Gbari, Goemai, Gofa, Gonja, Gor, Gourmanchéma, Gude, Gulay, Gumuz, Hyam, Icelandic, Idoma, Igede, Ikwere, Ikwo, Ingush, Izere, Izii, Jenaama Bozo, Jju, Jola-Fonyi, Jur Modo, Kabuverdianu, Kako, Kalanga, Kalmyk, Kamwe, Kaonde, Kara-Kalpak, Karachay-Balkar, Karelian, Kirmanjki, Kissi (Northern), Kita Maninkakan, Kom, Komi, Konkomba, Koyra Chiini, Koyraboro Senni, Kuanyama, Kukele, Kumyk, Kunama, Kuria, Kwere, Ladino, Lak, Lamba, Lamnso’, Latgalian, Lezghian, Ligurian, Limba (West-Central), Lobala, Logo, Lokaa, Loko, Lombard, Luguru, Luvale, Luwo, Luxembourgish, Machame, Mada, Maltese, Mamara Senoufo, Mambila (Nigeria), Mampruli, Mandingo, Mandjak, Maninka (Sankaran), Manyika, Maore Comorian, Latin, Maori, Mapuche, Mari, Ma’di, Mbembe (Cross River), Metaʼ, Me’en, Moba, Moksha, Mongo, Montenegrin, Montenegrin (Latin), Moru, Murle, Mwaghavul, Mwani, Navajo, Ndonga, Neapolitan, Ngas, Ngbandi (Northern), Ngindo, Ngulu, Ntcham, Nyasa Tonga, Nyoro, Nzima, Obolo, Ogbah, Ossetic, Otuho, Papiamento, Picard, Pogolo, Pökoot, Rinconada Bikol, Rombo, Ron, Rwa, Réunion Creole French, Saafi-Saafi, Saho, Sakha, Samburu, Samoan, Sangu, Sapiny, Sassarese Sardinian, Shambala, Shilluk, Silesian, South Ndebele, Southern Bobo Madaré, Southern Giziga, Sranan Tongo, Suba, Syenara Senoufo, Sénoufo, Supyire, Tabassaran, Taita, Takwane, Talysh (Cyrillic), Talysh (Latin), Tarok, Tera, Tetum, Tikar, Tiéyaxo Bozo, Tomo Kan Dogon, Tongan, Tooro, Toposa, Tsikimba, Tsishingini, Tsuvadi, Tunen, Tuvinian, Tyap, Uab Meto, Udmurt, Uyghur (Cyrillic), Vai (Latin), Venetian, Vunjo, Waama, Walloon, Wayuu, Welsh, Western Frisian, Yala, Yalunka, Yao, Yom, Yoruba (Benin), Yucateco, Zaghawa, Zigula</p>
+</details>
+<details>
+	<summary>Languages with at least 10,000 speakers</summary>
+	<p>Abaza, Abkhazian, Aguaruna, Agwagwune, Alekano, Aragonese, Ashe, Awing, Baga Sitemu, Baka (Cameroon/Gabon), Balanta-Ganja, Bana, Banda (West Central), Bapuku, Bassari, Beng, Bhele, Bilen, Bisã, Bokobaru, Bongo, Bozo (Hainyaxo), Bube, Cahungwarya, Cerma, Chamorro, Chumburung, Chuukese, C’Lela, Daba, Deg, Delo, Denya, Dghwede, Dikaka, Doyayo, Duya, Dyan, Ekajuk, Elip, Engenni, Etkywan, Etulo, Evenki, Faroese, Foodo, Friulian, Gbaya (Sudan), Gikyode, Gilbertese, Hawaiian, Hdi, Ika, Innu, Iten, Ivbie North-Okpela-Arhe, Jibu, Kabba, Kaingang, Kaitag, Kalaallisut, Kamuku, Karaboro (Eastern), Kashubian, Keliko, Khanty, Kimré, Komi-Permyak, Koro Wachi, Kuo, Kutep, Kutu, Lehar, Lele, Ligbi, Longuda, Mambila (Cameroon), Mankanya, Marshallese, Mbe, Mbo, Mbugwe, Mbuko, Mendankwe-Nkwen, Merey, Mirandese, Mokole, Morokodo, Muslim Tat, Muslim Tat, Latin, Mwan, Mündü, Nafaanra, Nara, Ndamba, Ndogo, Ndut, Ngangam, Ninzo, Nogai, Nomaande, Noon, Noone, Northern Sami, Nugunu, Okiek, Palauan, Pangu, Parkwa, Pero, Pohnpeian, Rendille, Reshe, Rigwe, Romansh, Sandawe, Selee, Seselwa Creole French, Sheko, Southern Altai, Southern Samo, Suri (Tirmaga-Chai), Sãotomense, Sénoufo, Djimini, Tahitian, Tal, Talinga-Bwisi, Tampulma, Tedaga, Tigon Mbembe, Toussian (Southern), Tsakhur, Tsakhur (Latin), Tsamai, Tula, Tuwuli, Upper Sorbian, Vagla, Vengo, Vidunda, Võro, Waja, Walser, Wan, Wandala, Warji, Western Krahn, Western Mari, Zayse, Zulgo-Gemzek, ut-Hun, ut-Ma’in</p>
+</details>
+
+<h3>Supported characters.</h3>
 <details>
 	<summary>Latin</summary>
 	<dl>
 		<dt>Capital</dt>
-		<dd>A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Á Ă Ắ Ặ Ằ Ẳ Ẵ Ǎ Â Ấ Ậ Ầ Ẩ Ẫ Ä Ạ À Ả Ā Ą Å Ǻ Ⱥ Ã Æ Ǽ Ɑ Ɓ Ć Č Ç Ĉ Ċ Ȼ Ꭓ Ď Ḍ Ɗ Ḏ Đ Ð É Ĕ Ě Ê Ế Ệ Ề Ể Ễ Ë Ė Ẹ È Ẻ Ē Ḗ Ḕ Ę Ẽ Ɛ Ə Ƒ Ğ Ǧ Ģ Ĝ Ġ Ḡ Ǥ Ɡ Ɣ Ɂ Ḫ Ȟ Ĥ Ḥ Ħ Í Ĭ Ǐ Î Ï İ Ị Ì Ỉ Ī Į Ɨ Ĩ Ɪ Ĳ Ɩ Ĵ Ḱ Ǩ Ķ Ḳ Ƙ Ḵ Ĺ Ƚ Ɬ Ľ Ļ Ḷ Ḹ Ḻ Ŀ Ɫ Ł Ƛ Ḿ Ṃ Ń Ň Ņ Ṅ Ṇ Ǹ Ɲ Ṉ Ñ ᴺ Ŋ Ó Ŏ Ǒ Ô Ố Ộ Ồ Ổ Ỗ Ö Ọ Ő Ò Ỏ Ơ Ớ Ợ Ờ Ở Ỡ Ō Ṓ Ṑ Ɵ Ǫ Ǭ Ø Ǿ Õ Ɔ Œ Ŕ Ř Ŗ Ṛ Ṝ Ṟ Ś Š Ş Ŝ Ș Ṡ Ṣ ẞ Ť Ţ Ț Ⱦ Ṭ Ṯ Ŧ Þ Ú Ŭ Ǔ Û Ü Ǘ Ǚ Ǜ Ǖ Ụ Ű Ù Ủ Ư Ứ Ự Ừ Ử Ữ Ū Ų Ů Ũ Ʊ Ẃ Ŵ Ẅ Ẁ Ý Ŷ Ÿ Ẏ Ỵ Ỳ Ƴ Ỷ Ȳ Ỹ Ź Ž Ẑ Ż Ẓ Ẕ Ʒ Ǯ Ꞌ</dd>
+		<dd class="big">A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Á Ă Ắ Ặ Ằ Ẳ Ẵ Ǎ Â Ấ Ậ Ầ Ẩ Ẫ Ä Ạ À Ả Ā Ą Å Ǻ Ⱥ Ã Æ Ǽ Ɑ Ɓ Ć Č Ç Ĉ Ċ Ȼ Ꭓ Ď Ḍ Ɗ Ḏ Đ Ð É Ĕ Ě Ê Ế Ệ Ề Ể Ễ Ë Ė Ẹ È Ẻ Ē Ḗ Ḕ Ę Ẽ Ɛ Ə Ƒ Ğ Ǧ Ģ Ĝ Ġ Ḡ Ǥ Ɡ Ɣ Ɂ Ḫ Ȟ Ĥ Ḥ Ħ Í Ĭ Ǐ Î Ï İ Ị Ì Ỉ Ī Į Ɨ Ĩ Ɪ Ĳ Ɩ Ĵ Ḱ Ǩ Ķ Ḳ Ƙ Ḵ Ĺ Ƚ Ɬ Ľ Ļ Ḷ Ḹ Ḻ Ŀ Ɫ Ł Ƛ Ḿ Ṃ Ń Ň Ņ Ṅ Ṇ Ǹ Ɲ Ṉ Ñ ᴺ Ŋ Ó Ŏ Ǒ Ô Ố Ộ Ồ Ổ Ỗ Ö Ọ Ő Ò Ỏ Ơ Ớ Ợ Ờ Ở Ỡ Ō Ṓ Ṑ Ɵ Ǫ Ǭ Ø Ǿ Õ Ɔ Œ Ŕ Ř Ŗ Ṛ Ṝ Ṟ Ś Š Ş Ŝ Ș Ṡ Ṣ ẞ Ť Ţ Ț Ⱦ Ṭ Ṯ Ŧ Þ Ú Ŭ Ǔ Û Ü Ǘ Ǚ Ǜ Ǖ Ụ Ű Ù Ủ Ư Ứ Ự Ừ Ử Ữ Ū Ų Ů Ũ Ʊ Ẃ Ŵ Ẅ Ẁ Ý Ŷ Ÿ Ẏ Ỵ Ỳ Ƴ Ỷ Ȳ Ỹ Ź Ž Ẑ Ż Ẓ Ẕ Ʒ Ǯ Ꞌ</dd>
 		<dt>Small</dt>
-		<dd>a b c d e f g h i j k l m n o p q r s t u v w x y z á ă ắ ặ ằ ẳ ẵ ǎ â ấ ậ ầ ẩ ẫ ä ạ à ả ā ą å ǻ ⱥ ã ª æ ǽ ɑ ɓ ć č ç ĉ ċ ȼ ꭓ ď ḍ ɗ ḏ đ ð é ĕ ě ê ế ệ ề ể ễ ë ė ẹ è ẻ ē ḗ ḕ ę ẽ ɛ ə ƒ ﬀ ﬃ ﬄ ﬁ ﬂ ğ ǧ ģ ĝ ġ ḡ ǥ ɡ ɣ ɂ ḫ ȟ ĥ ḥ ẖ ħ í ĭ ǐ î ï ị ì ỉ ī į ɨ ĩ ı ɪ ĳ ɩ ǰ ĵ ȷ ḱ ǩ ķ ḳ ƙ ḵ ĸ ĺ ƚ ɬ ľ ļ ḷ ḹ ḻ ŀ ɫ ł ƛ ḿ ṃ ŉ ń ň ņ ṅ ṇ ǹ ɲ ṉ ñ ⁿ ŋ ó ŏ ǒ ô ố ộ ồ ổ ỗ ö ọ ő ò ỏ ơ ớ ợ ờ ở ỡ ō ṓ ṑ ɵ ǫ ǭ ø ǿ õ º œ ɔ ŕ ř ŗ ṛ ṝ ṟ ś š ş ŝ ș ṡ ṣ ſ ß ť ţ ț ẗ ⱦ ṭ ṯ ŧ þ ú ŭ ǔ û ü ǘ ǚ ǜ ǖ ụ ű ù ủ ư ứ ự ừ ử ữ ū ų ů ũ ʊ ẃ ŵ ẅ ẁ ʷ ý ŷ ÿ ẏ ỵ ỳ ƴ ỷ ȳ ỹ ʸ ź ž ẑ ż ẓ ẕ ᶻ ʒ ǯ ꞌ ǂ ʔ ʕ</dd>
+		<dd class="big">a b c d e f g h i j k l m n o p q r s t u v w x y z á ă ắ ặ ằ ẳ ẵ ǎ â ấ ậ ầ ẩ ẫ ä ạ à ả ā ą å ǻ ⱥ ã ª æ ǽ ɑ ɓ ć č ç ĉ ċ ȼ ꭓ ď ḍ ɗ ḏ đ ð é ĕ ě ê ế ệ ề ể ễ ë ė ẹ è ẻ ē ḗ ḕ ę ẽ ɛ ə ƒ ﬀ ﬃ ﬄ ﬁ ﬂ ğ ǧ ģ ĝ ġ ḡ ǥ ɡ ɣ ɂ ḫ ȟ ĥ ḥ ẖ ħ í ĭ ǐ î ï ị ì ỉ ī į ɨ ĩ ı ɪ ĳ ɩ ǰ ĵ ȷ ḱ ǩ ķ ḳ ƙ ḵ ĸ ĺ ƚ ɬ ľ ļ ḷ ḹ ḻ ŀ ɫ ł ƛ ḿ ṃ ŉ ń ň ņ ṅ ṇ ǹ ɲ ṉ ñ ⁿ ŋ ó ŏ ǒ ô ố ộ ồ ổ ỗ ö ọ ő ò ỏ ơ ớ ợ ờ ở ỡ ō ṓ ṑ ɵ ǫ ǭ ø ǿ õ º œ ɔ ŕ ř ŗ ṛ ṝ ṟ ś š ş ŝ ș ṡ ṣ ſ ß ť ţ ț ẗ ⱦ ṭ ṯ ŧ þ ú ŭ ǔ û ü ǘ ǚ ǜ ǖ ụ ű ù ủ ư ứ ự ừ ử ữ ū ų ů ũ ʊ ẃ ŵ ẅ ẁ ʷ ý ŷ ÿ ẏ ỵ ỳ ƴ ỷ ȳ ỹ ʸ ź ž ẑ ż ẓ ẕ ᶻ ʒ ǯ ꞌ ǂ ʔ ʕ</dd>
 		<dt>Small capital</dt>
-		<dd class="sc">a b c d e f g h i j k l m n o p q r s t u v w x y z á ă ắ ặ ằ ẳ ẵ ǎ â ấ ậ ầ ẩ ẫ ä ạ à ả ā ą å ǻ ⱥ ã ª æ ǽ ɑ ɓ ć č ç ĉ ċ ȼ ꭓ ď ḍ ɗ ḏ đ ð é ĕ ě ê ế ệ ề ể ễ ë ė ẹ è ẻ ē ḗ ḕ ę ẽ ɛ ə ƒ ğ ǧ ģ ĝ ġ ḡ ǥ ɡ ɣ ɂ ḫ ȟ ĥ ḥ ẖ ħ í ĭ ǐ î ï ị ì ỉ ī į ɨ ĩ ı ɪ ĳ ɩ ǰ ĵ ȷ ḱ ǩ ķ ḳ ƙ ḵ ĸ ĺ ƚ ɬ ľ ļ ḷ ḹ ḻ ŀ ɫ ł ƛ ḿ ṃ ŉ ń ň ņ ṅ ṇ ǹ ɲ ṉ ñ ⁿ ŋ ó ŏ ǒ ô ố ộ ồ ổ ỗ ö ọ ő ò ỏ ơ ớ ợ ờ ở ỡ ō ṓ ṑ ɵ ǫ ǭ ø ǿ õ º œ ɔ ŕ ř ŗ ṛ ṝ ṟ ś š ş ŝ ș ṡ ṣ ſ ß ť ţ ț ẗ ⱦ ṭ ṯ ŧ þ ú ŭ ǔ û ü ǘ ǚ ǜ ǖ ụ ű ù ủ ư ứ ự ừ ử ữ ū ų ů ũ ʊ ẃ ŵ ẅ ẁ ʷ ý ŷ ÿ ẏ ỵ ỳ ƴ ỷ ȳ ỹ ʸ ź ž ẑ ż ẓ ẕ ᶻ ʒ ǯ ꞌ</dd>
+		<dd class="sc big">a b c d e f g h i j k l m n o p q r s t u v w x y z á ă ắ ặ ằ ẳ ẵ ǎ â ấ ậ ầ ẩ ẫ ä ạ à ả ā ą å ǻ ⱥ ã ª æ ǽ ɑ ɓ ć č ç ĉ ċ ȼ ꭓ ď ḍ ɗ ḏ đ ð é ĕ ě ê ế ệ ề ể ễ ë ė ẹ è ẻ ē ḗ ḕ ę ẽ ɛ ə ƒ ğ ǧ ģ ĝ ġ ḡ ǥ ɡ ɣ ɂ ḫ ȟ ĥ ḥ ẖ ħ í ĭ ǐ î ï ị ì ỉ ī į ɨ ĩ ı ɪ ĳ ɩ ǰ ĵ ȷ ḱ ǩ ķ ḳ ƙ ḵ ĸ ĺ ƚ ɬ ľ ļ ḷ ḹ ḻ ŀ ɫ ł ƛ ḿ ṃ ŉ ń ň ņ ṅ ṇ ǹ ɲ ṉ ñ ⁿ ŋ ó ŏ ǒ ô ố ộ ồ ổ ỗ ö ọ ő ò ỏ ơ ớ ợ ờ ở ỡ ō ṓ ṑ ɵ ǫ ǭ ø ǿ õ º œ ɔ ŕ ř ŗ ṛ ṝ ṟ ś š ş ŝ ș ṡ ṣ ſ ß ť ţ ț ẗ ⱦ ṭ ṯ ŧ þ ú ŭ ǔ û ü ǘ ǚ ǜ ǖ ụ ű ù ủ ư ứ ự ừ ử ữ ū ų ů ũ ʊ ẃ ŵ ẅ ẁ ʷ ý ŷ ÿ ẏ ỵ ỳ ƴ ỷ ȳ ỹ ʸ ź ž ẑ ż ẓ ẕ ᶻ ʒ ǯ ꞌ</dd>
 	</dl>
 </details>
 <details>
 	<summary>Armenian</summary>
 	<dl>
 		<dt>Capital</dt>
-		<dd>Ա Բ Գ Դ Ե Զ Է Ը Թ Ժ Ի Լ Խ Ծ Կ Հ Ձ Ղ Ճ Մ Յ Ն Շ Ո Չ Պ Ջ Ռ Ս Վ Տ Ր Ց Ւ Փ Ք Օ Ֆ</dd>
+		<dd class="big">Ա Բ Գ Դ Ե Զ Է Ը Թ Ժ Ի Լ Խ Ծ Կ Հ Ձ Ղ Ճ Մ Յ Ն Շ Ո Չ Պ Ջ Ռ Ս Վ Տ Ր Ց Ւ Փ Ք Օ Ֆ</dd>
 		<dt>Small</dt>
-		<dd>ՠ ա բ գ դ ե զ է ը թ ժ ի լ խ ծ կ հ ձ ղ ճ մ յ ն շ ո չ պ ջ ռ ս վ տ ր ց ւ փ ք օ ֆ և ֈ ﬓ ﬔ ﬕ ﬖ ﬗ</dd>
+		<dd class="big">ՠ ա բ գ դ ե զ է ը թ ժ ի լ խ ծ կ հ ձ ղ ճ մ յ ն շ ո չ պ ջ ռ ս վ տ ր ց ւ փ ք օ ֆ և ֈ ﬓ ﬔ ﬕ ﬖ ﬗ</dd>
 		<dt>Small capital</dt>
-		<dd class="sc">ՠ ա բ գ դ ե զ է ը թ ժ ի լ խ ծ կ հ ձ ղ ճ մ յ ն շ ո չ պ ջ ռ ս վ տ ր ց ւ փ ք օ ֆ և ֈ</dd>
+		<dd class="sc big">ՠ ա բ գ դ ե զ է ը թ ժ ի լ խ ծ կ հ ձ ղ ճ մ յ ն շ ո չ պ ջ ռ ս վ տ ր ց ւ փ ք օ ֆ և ֈ</dd>
 		<dt>Punctuation & symbols</dt>
-		<dd>ՙ ՚ ՛ ՜ ՝ ՞ ՟ ։ ֊ ֍ ֎</dd>
+		<dd class="big">ՙ ՚ ՛ ՜ ՝ ՞ ՟ ։ ֊ ֍ ֎</dd>
 	</dl>
 </details>
 <details>
 	<summary>Cyrillic</summary>
 	<dl>
 		<dt>Capital</dt>
-		<dd>А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ӓ Ӑ Ѓ Ғ Ӻ Ґ Ҕ Ӷ Ѐ Ё Ӗ Ә Ӛ Ӝ Ӂ Җ Ӟ Ҙ Ԑ Ѕ Ӡ Џ Ѝ Ӥ Ӣ Ҋ І Ї Ј Ҟ Ӄ Ҝ Ҡ Ќ Қ Ԯ Ԓ Љ Ӆ Ӎ Ԩ Ң Ҥ Һ Ԧ Ӈ Њ Ӊ Ӧ Ө Ӫ Ӏ Ԥ Ҧ Ҏ Ҫ Ђ Ᲊ Ҭ Ћ Ӱ Ў Ӯ Ӳ Ү Ұ Ӽ Ҩ Ӿ Ҳ Ҵ Ҷ Ҹ Ӵ Ӌ Ҽ Ҿ Ӹ Ҍ Є Ӭ Ѣ Ѫ Ѳ Ѵ Ӕ Ԛ Ԝ</dd>
+		<dd class="big">А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ӓ Ӑ Ѓ Ғ Ӻ Ґ Ҕ Ӷ Ѐ Ё Ӗ Ә Ӛ Ӝ Ӂ Җ Ӟ Ҙ Ԑ Ѕ Ӡ Џ Ѝ Ӥ Ӣ Ҋ І Ї Ј Ҟ Ӄ Ҝ Ҡ Ќ Қ Ԯ Ԓ Љ Ӆ Ӎ Ԩ Ң Ҥ Һ Ԧ Ӈ Њ Ӊ Ӧ Ө Ӫ Ӏ Ԥ Ҧ Ҏ Ҫ Ђ Ᲊ Ҭ Ћ Ӱ Ў Ӯ Ӳ Ү Ұ Ӽ Ҩ Ӿ Ҳ Ҵ Ҷ Ҹ Ӵ Ӌ Ҽ Ҿ Ӹ Ҍ Є Ӭ Ѣ Ѫ Ѳ Ѵ Ӕ Ԛ Ԝ</dd>
 		<dt>Small</dt>
-		<dd>а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ӓ ӑ ѓ ғ ӻ ґ ҕ ӷ ѐ ё ӗ ә ӛ ӝ ӂ җ ӟ ҙ ԑ ѕ ӡ џ ѝ ӥ ӣ ҋ і ї ј ҟ ӄ ҝ ҡ ќ қ ԯ ԓ љ ӆ ӎ ԩ ң ҥ һ ԧ ӈ њ ӊ ӧ ө ӫ ӏ ԥ ҧ ҏ ҫ ђ ᲊ ҭ ћ ӱ ў ӯ ӳ ү ұ ҩ ӽ ӿ ҳ ҵ ҷ ҹ ӵ ӌ ҽ ҿ ӹ ҍ є ӭ ѣ ѫ ѳ ѵ ӕ ԛ ԝ</dd>
+		<dd class="big">а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ӓ ӑ ѓ ғ ӻ ґ ҕ ӷ ѐ ё ӗ ә ӛ ӝ ӂ җ ӟ ҙ ԑ ѕ ӡ џ ѝ ӥ ӣ ҋ і ї ј ҟ ӄ ҝ ҡ ќ қ ԯ ԓ љ ӆ ӎ ԩ ң ҥ һ ԧ ӈ њ ӊ ӧ ө ӫ ӏ ԥ ҧ ҏ ҫ ђ ᲊ ҭ ћ ӱ ў ӯ ӳ ү ұ ҩ ӽ ӿ ҳ ҵ ҷ ҹ ӵ ӌ ҽ ҿ ӹ ҍ є ӭ ѣ ѫ ѳ ѵ ӕ ԛ ԝ</dd>
 		<dt>Small capital</dt>
-		<dd class="sc">а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ӓ ӑ ѓ ғ ӻ ґ ҕ ӷ ѐ ё ӗ ә ӛ ӝ ӂ җ ӟ ҙ ԑ ѕ ӡ џ ѝ ӥ ӣ ҋ і ї ј ҟ ӄ ҝ ҡ ќ қ ԯ ԓ љ ӆ ӎ ԩ ң ҥ һ ԧ ӈ њ ӊ ӧ ө ӫ ӏ ԥ ҧ ҏ ҫ ђ ᲊ ҭ ћ ӱ ў ӯ ӳ ү ұ ҩ ӽ ӿ ҳ ҵ ҷ ҹ ӵ ӌ ҽ ҿ ӹ ҍ є ӭ ѣ ѫ ѳ ѵ ӕ ԛ ԝ</dd>
+		<dd class="sc big">а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ӓ ӑ ѓ ғ ӻ ґ ҕ ӷ ѐ ё ӗ ә ӛ ӝ ӂ җ ӟ ҙ ԑ ѕ ӡ џ ѝ ӥ ӣ ҋ і ї ј ҟ ӄ ҝ ҡ ќ қ ԯ ԓ љ ӆ ӎ ԩ ң ҥ һ ԧ ӈ њ ӊ ӧ ө ӫ ӏ ԥ ҧ ҏ ҫ ђ ᲊ ҭ ћ ӱ ў ӯ ӳ ү ұ ҩ ӽ ӿ ҳ ҵ ҷ ҹ ӵ ӌ ҽ ҿ ӹ ҍ є ӭ ѣ ѫ ѳ ѵ ӕ ԛ ԝ</dd>
 	</dl>
 </details>
 <details>
 	<summary>Deseret</summary>
 	<dl>
 		<dt>Capital</dt>
-		<dd>𐐀 𐐁 𐐂 𐐃 𐐄 𐐅 𐐆 𐐇 𐐈 𐐉 𐐊 𐐋 𐐌 𐐍 𐐎 𐐏 𐐐 𐐑 𐐒 𐐓 𐐔 𐐕 𐐖 𐐗 𐐘 𐐙 𐐚 𐐛 𐐜 𐐝 𐐞 𐐟 𐐠 𐐡 𐐢 𐐣 𐐤 𐐥 𐐦 𐐧</dd>
+		<dd class="big">𐐀 𐐁 𐐂 𐐃 𐐄 𐐅 𐐆 𐐇 𐐈 𐐉 𐐊 𐐋 𐐌 𐐍 𐐎 𐐏 𐐐 𐐑 𐐒 𐐓 𐐔 𐐕 𐐖 𐐗 𐐘 𐐙 𐐚 𐐛 𐐜 𐐝 𐐞 𐐟 𐐠 𐐡 𐐢 𐐣 𐐤 𐐥 𐐦 𐐧</dd>
 		<dt>Small</dt>
-		<dd>𐐨 𐐩 𐐪 𐐫 𐐬 𐐭 𐐮 𐐯 𐐰 𐐱 𐐲 𐐳 𐐴 𐐵 𐐶 𐐷 𐐸 𐐹 𐐺 𐐻 𐐼 𐐽 𐐾 𐐿 𐑀 𐑁 𐑂 𐑃 𐑄 𐑅 𐑆 𐑇 𐑈 𐑉 𐑊 𐑋 𐑌 𐑍 𐑎 𐑏</dd>
+		<dd class="big">𐐨 𐐩 𐐪 𐐫 𐐬 𐐭 𐐮 𐐯 𐐰 𐐱 𐐲 𐐳 𐐴 𐐵 𐐶 𐐷 𐐸 𐐹 𐐺 𐐻 𐐼 𐐽 𐐾 𐐿 𐑀 𐑁 𐑂 𐑃 𐑄 𐑅 𐑆 𐑇 𐑈 𐑉 𐑊 𐑋 𐑌 𐑍 𐑎 𐑏</dd>
 	</dl>
 </details>
 <details>
 	<summary>Georgian</summary>
 	<dl>
 		<dt>Mkhedruli</dt>
-		<dd>ა ბ გ დ ე ვ ზ თ ი კ ლ მ ნ ო პ ჟ რ ს ტ უ ფ ქ ღ ყ შ ჩ ც ძ წ ჭ ხ ჯ ჰ ჱ ჲ ჳ ჴ ჵ ჶ ჷ ჸ ჹ ჺ ჼ ჽ ჾ ჿ</dd>
+		<dd class="big">ა ბ გ დ ე ვ ზ თ ი კ ლ მ ნ ო პ ჟ რ ს ტ უ ფ ქ ღ ყ შ ჩ ც ძ წ ჭ ხ ჯ ჰ ჱ ჲ ჳ ჴ ჵ ჶ ჷ ჸ ჹ ჺ ჼ ჽ ჾ ჿ</dd>
 		<dt>Mkhedruli mtavruli</dt>
-		<dd>Ა Ბ Გ Დ Ე Ვ Ზ Თ Ი Კ Ლ Მ Ნ Ო Პ Ჟ Რ Ს Ტ Უ Ფ Ქ Ღ Ყ Შ Ჩ Ც Ძ Წ Ჭ Ხ Ჯ Ჰ Ჱ Ჲ Ჳ Ჴ Ჵ Ჶ Ჷ Ჸ Ჹ Ჺ Ჽ Ჾ Ჿ</dd>
+		<dd class="big">Ა Ბ Გ Დ Ე Ვ Ზ Თ Ი Კ Ლ Მ Ნ Ო Პ Ჟ Რ Ს Ტ Უ Ფ Ქ Ღ Ყ Შ Ჩ Ც Ძ Წ Ჭ Ხ Ჯ Ჰ Ჱ Ჲ Ჳ Ჴ Ჵ Ჶ Ჷ Ჸ Ჹ Ჺ Ჽ Ჾ Ჿ</dd>
 		<dt>Asomtavruli</dt>
-		<dd>Ⴀ Ⴁ Ⴂ Ⴃ Ⴄ Ⴅ Ⴆ Ⴇ Ⴈ Ⴉ Ⴊ Ⴋ Ⴌ Ⴍ Ⴎ Ⴏ Ⴐ Ⴑ Ⴒ Ⴓ Ⴔ Ⴕ Ⴖ Ⴗ Ⴘ Ⴙ Ⴚ Ⴛ Ⴜ Ⴝ Ⴞ Ⴟ Ⴠ Ⴡ Ⴢ Ⴣ Ⴤ Ⴥ Ⴧ Ⴭ</dd>
+		<dd class="big">Ⴀ Ⴁ Ⴂ Ⴃ Ⴄ Ⴅ Ⴆ Ⴇ Ⴈ Ⴉ Ⴊ Ⴋ Ⴌ Ⴍ Ⴎ Ⴏ Ⴐ Ⴑ Ⴒ Ⴓ Ⴔ Ⴕ Ⴖ Ⴗ Ⴘ Ⴙ Ⴚ Ⴛ Ⴜ Ⴝ Ⴞ Ⴟ Ⴠ Ⴡ Ⴢ Ⴣ Ⴤ Ⴥ Ⴧ Ⴭ</dd>
 		<dt>Nuskhuri</dt>
-		<dd>ⴀ ⴁ ⴂ ⴃ ⴄ ⴅ ⴆ ⴇ ⴈ ⴉ ⴊ ⴋ ⴌ ⴍ ⴎ ⴏ ⴐ ⴑ ⴒ ⴓ ⴔ ⴕ ⴖ ⴗ ⴘ ⴙ ⴚ ⴛ ⴜ ⴝ ⴞ ⴟ ⴠ ⴡ ⴢ ⴣ ⴤ ⴥ ⴧ ⴭ</dd>
+		<dd class="big">ⴀ ⴁ ⴂ ⴃ ⴄ ⴅ ⴆ ⴇ ⴈ ⴉ ⴊ ⴋ ⴌ ⴍ ⴎ ⴏ ⴐ ⴑ ⴒ ⴓ ⴔ ⴕ ⴖ ⴗ ⴘ ⴙ ⴚ ⴛ ⴜ ⴝ ⴞ ⴟ ⴠ ⴡ ⴢ ⴣ ⴤ ⴥ ⴧ ⴭ</dd>
 	</dl>
 </details>
 <details>
 	<summary>Greek</summary>
 	<dl>
 		<dt>Capital</dt>
-		<dd>Α Β Γ Δ Ε Ζ Η Θ Ι Κ Λ Μ Ν Ξ Ο Π Ρ Σ Τ Υ Φ Χ Ψ Ω Ά Έ Ή ϴ Ί Ϊ Ό Ύ Ϋ ϓ ϔ ϒ Ώ Ϝ Ϟ Ϙ Ϡ Ͳ Ϛ Ϗ</dd>
+		<dd class="big">Α Β Γ Δ Ε Ζ Η Θ Ι Κ Λ Μ Ν Ξ Ο Π Ρ Σ Τ Υ Φ Χ Ψ Ω Ά Έ Ή ϴ Ί Ϊ Ό Ύ Ϋ ϓ ϔ ϒ Ώ Ϝ Ϟ Ϙ Ϡ Ͳ Ϛ Ϗ</dd>
 		<dt>Small</dt>
-		<dd>α β γ δ ε ζ η θ ι κ λ μ ν ξ ο π ρ ς σ τ υ φ χ ψ ω ά ϐ έ ϵ ϶ ή ϑ ί ϊ ΐ ό ϖ ϱ ϼ ύ ϋ ΰ ϕ ώ ϗ ϰ ϝ ϟ ϙ ϡ ͳ ϛ</dd>
+		<dd class="big">α β γ δ ε ζ η θ ι κ λ μ ν ξ ο π ρ ς σ τ υ φ χ ψ ω ά ϐ έ ϵ ϶ ή ϑ ί ϊ ΐ ό ϖ ϱ ϼ ύ ϋ ΰ ϕ ώ ϗ ϰ ϝ ϟ ϙ ϡ ͳ ϛ</dd>
 		<dt>Small capital</dt>
-		<dd class="sc">α β γ δ ε ζ η θ ι κ λ μ ν ξ ο π ρ ς σ τ υ φ χ ψ ω ά ϐ έ ϵ ϶ ή ϑ ί ϊ ΐ ό ϖ ϱ ϼ ύ ϋ ΰ ϕ ώ ϗ ϰ ϝ ϟ ϙ ϡ ͳ ϛ</dd>
+		<dd class="sc big">α β γ δ ε ζ η θ ι κ λ μ ν ξ ο π ρ ς σ τ υ φ χ ψ ω ά ϐ έ ϵ ϶ ή ϑ ί ϊ ΐ ό ϖ ϱ ϼ ύ ϋ ΰ ϕ ώ ϗ ϰ ϝ ϟ ϙ ϡ ͳ ϛ</dd>
 		<dt>Symbols</dt>
-		<dd>͵ ΄ ᶿ</dd>
+		<dd class="big">͵ ΄ ᶿ</dd>
 	</dl>
 </details>
 <details>
 	<summary>Hebrew</summary>
-<p class="rtl">־ ׃ א ב ג ד ה ו ז ח ט י ך כ ל ם מ ן נ ס ע ף פ ץ צ ק ר ש ת ׳ ״ ﬩&#x200f;</p>
+<p class="rtl big">־ ׃ א ב ג ד ה ו ז ח ט י ך כ ל ם מ ן נ ס ע ף פ ץ צ ק ר ש ת ׳ ״ ﬩&#x200f;</p>
 </details>
 <details>
-	<summary>Kanji/Hanzi</summary>
-	<p>円 土 年 日 月 木 水 火 金</p>
+	<summary>Kanji/Hànzì</summary>
+	<p class="big">円 土 年 日 月 木 水 火 金</p>
 </details>
 <details>
 	<summary>Katakana (Halfwidth)</summary>
-	<p>｡ ｢ ｣ ､ ･ ｰ ｦ ｧ ｨ ｩ ｪ ｫ ｬ ｭ ｮ ｯ ｱ ｲ ｳ ｴ ｵ ｶ ｷ ｸ ｹ ｺ ｻ ｼ ｽ ｾ ｿ ﾀ ﾁ ﾂ ﾃ ﾄ ﾅ ﾆ ﾇ ﾈ ﾉ ﾊ ﾋ ﾌ ﾍ ﾎ ﾏ ﾐ ﾑ ﾒ ﾓ ﾔ ﾕ ﾖ ﾗ ﾘ ﾙ ﾚ ﾛ ﾜ ﾝ  ﾞ  ﾟ</p>
+	<p class="big">｡ ｢ ｣ ､ ･ ｰ ｦ ｧ ｨ ｩ ｪ ｫ ｬ ｭ ｮ ｯ ｱ ｲ ｳ ｴ ｵ ｶ ｷ ｸ ｹ ｺ ｻ ｼ ｽ ｾ ｿ ﾀ ﾁ ﾂ ﾃ ﾄ ﾅ ﾆ ﾇ ﾈ ﾉ ﾊ ﾋ ﾌ ﾍ ﾎ ﾏ ﾐ ﾑ ﾒ ﾓ ﾔ ﾕ ﾖ ﾗ ﾘ ﾙ ﾚ ﾛ ﾜ ﾝ  ﾞ  ﾟ</p>
 </details>
 <details>
 	<summary>Lisu/Fraser</summary>
-	<p>ꓐ ꓑ ꓒ ꓓ ꓔ ꓕ ꓖ ꓗ ꓘ ꓙ ꓚ ꓛ ꓜ ꓝ ꓞ ꓟ ꓠ ꓡ ꓢ ꓣ ꓤ ꓥ ꓦ ꓧ ꓨ ꓩ ꓪ ꓫ ꓬ ꓭ ꓮ ꓯ ꓰ ꓱ ꓲ ꓳ ꓴ ꓵ ꓶ ꓷ 𑾰 ꓸ ꓹ ꓺ ꓻ ꓼ ꓽ ꓾ ꓿</p>
+	<p class="big">ꓐ ꓑ ꓒ ꓓ ꓔ ꓕ ꓖ ꓗ ꓘ ꓙ ꓚ ꓛ ꓜ ꓝ ꓞ ꓟ ꓠ ꓡ ꓢ ꓣ ꓤ ꓥ ꓦ ꓧ ꓨ ꓩ ꓪ ꓫ ꓬ ꓭ ꓮ ꓯ ꓰ ꓱ ꓲ ꓳ ꓴ ꓵ ꓶ ꓷ 𑾰 ꓸ ꓹ ꓺ ꓻ ꓼ ꓽ ꓾ ꓿</p>
 </details>
 <details>
 	<summary>Shavian</summary>
-	<p>𐑐 𐑚 𐑑 𐑛 𐑒 𐑜 𐑓 𐑝 𐑔 𐑞 𐑕 𐑟 𐑖 𐑠 𐑗 𐑡 𐑘 𐑢 𐑙 𐑣 𐑤 𐑮 𐑥 𐑯 𐑦 𐑰 𐑧 𐑱 𐑨 𐑲 𐑩 𐑳 𐑪 𐑴 𐑫 𐑵 𐑬 𐑶 𐑭 𐑷 𐑸 𐑹 𐑺 𐑻 𐑼 𐑽 𐑾 𐑿</p>
+	<p class="big">𐑐 𐑚 𐑑 𐑛 𐑒 𐑜 𐑓 𐑝 𐑔 𐑞 𐑕 𐑟 𐑖 𐑠 𐑗 𐑡 𐑘 𐑢 𐑙 𐑣 𐑤 𐑮 𐑥 𐑯 𐑦 𐑰 𐑧 𐑱 𐑨 𐑲 𐑩 𐑳 𐑪 𐑴 𐑫 𐑵 𐑬 𐑶 𐑭 𐑷 𐑸 𐑹 𐑺 𐑻 𐑼 𐑽 𐑾 𐑿</p>
 </details>
 <details>
 	<summary>Tifinagh</summary>
-	<p>ⴰ ⴱ ⴲ ⴳ ⴴ ⴵ ⴶ ⴷ ⴸ ⴹ ⴺ ⴻ ⴼ ⴽ ⴾ ⴿ ⵀ ⵁ ⵂ ⵃ ⵄ ⵅ ⵆ ⵇ ⵈ ⵉ ⵊ ⵋ ⵌ ⵍ ⵎ ⵏ ⵐ ⵑ ⵒ ⵓ ⵔ ⵕ ⵖ ⵗ ⵘ ⵙ ⵚ ⵛ ⵜ ⵝ ⵞ ⵟ ⵠ ⵡ ⵢ ⵣ ⵤ ⵥ ⵦ ⵧ ⵯ ⵰</p>
+	<p class="big">ⴰ ⴱ ⴲ ⴳ ⴴ ⴵ ⴶ ⴷ ⴸ ⴹ ⴺ ⴻ ⴼ ⴽ ⴾ ⴿ ⵀ ⵁ ⵂ ⵃ ⵄ ⵅ ⵆ ⵇ ⵈ ⵉ ⵊ ⵋ ⵌ ⵍ ⵎ ⵏ ⵐ ⵑ ⵒ ⵓ ⵔ ⵕ ⵖ ⵗ ⵘ ⵙ ⵚ ⵛ ⵜ ⵝ ⵞ ⵟ ⵠ ⵡ ⵢ ⵣ ⵤ ⵥ ⵦ ⵧ ⵯ ⵰</p>
 </details>
 <details>
 	<summary>Numbers</summary>
 	<dl>
 		<dt>Western Arabic numerals</dt>
-		<dd>0 1 2 3 4 5 6 7 8 9</dd>
+		<dd class="big">0 1 2 3 4 5 6 7 8 9</dd>
 		<dt>Subscript/inferior</dt>
-		<dd>₀ ₁ ₂ ₃ ₄ ₅ ₆ ₇ ₈ ₉</dd>
+		<dd class="big">₀ ₁ ₂ ₃ ₄ ₅ ₆ ₇ ₈ ₉</dd>
 		<dt>Superscript/superior</dt>
-		<dd>⁰ ¹ ² ³ ⁴ ⁵ ⁶ ⁷ ⁸ ⁹</dd>
+		<dd class="big">⁰ ¹ ² ³ ⁴ ⁵ ⁶ ⁷ ⁸ ⁹</dd>
 		<dt>Fractions</dt>
-		<dd>½ ⅓ ⅔ ¼ ¾ ⅛ ⅜ ⅝ ⅞</dd>
+		<dd class="big">½ ⅓ ⅔ ¼ ¾ ⅛ ⅜ ⅝ ⅞</dd>
 	</dl>
 </details>
 <details>
 	<summary>Punctuation</summary>
-	<p>! " ' ( ) , - . / : ; ? [ \ ] { } ¡ « · ¿ » ; ‐ ‑ ‒ – — ― ‖ ‘ ’ ‚ ‛ “ ” „ • ․ … ‹ › ‽ ⟨ ⟩ ⸘ ⸰ ⸱ 《 》</p>
+	<p class="big">! " ' ( ) , - . / : ; ? [ \ ] { } ¡ « · ¿ » ; ‐ ‑ ‒ – — ― ‖ ‘ ’ ‚ ‛ “ ” „ • ․ … ‹ › ‽ ⟨ ⟩ ⸘ ⸰ ⸱ 《 》</p>
 </details>
 <details>
 	<summary>Symbols</summary>
 	<dl>
 		<dt>Currency</dt>
-		<dd>$ ¢ £ ¥ ֏ ฿ ₡ ₣ ₤ ₦ ₧ ₨ ₩ ₪ ₫ € ₭ ₮ ₱ ₲ ₴ ₵ ₸ ₹ ₺ ₼ ₽ ₾ ₿ ⃀</dd>
+		<dd class="big">$ ¢ £ ¥ ֏ ฿ ₡ ₣ ₤ ₦ ₧ ₨ ₩ ₪ ₫ € ₭ ₮ ₱ ₲ ₴ ₵ ₸ ₹ ₺ ₼ ₽ ₾ ₿ ⃀</dd>
 		<dt>Mathematics</dt>
-		<dd>% + &lt; = &gt; ¬ ° ± µ × ÷ ‰ ′ ″ ⁄ ⁺ ⁻ ⁼ ⁽ ⁾  ₊ ₋ ₌ ₍ ₎ Ω ∂ ∅ ∆ ∏ ∑ − ∕ ∙ √ ∞ ∫ ≈ ≠ ≤ ≥ </dd>
+		<dd class="big">% + &lt; = &gt; ¬ ° ± µ × ÷ ‰ ′ ″ ⁄ ⁺ ⁻ ⁼ ⁽ ⁾  ₊ ₋ ₌ ₍ ₎ Ω ∂ ∅ ∆ ∏ ∑ − ∕ ∙ √ ∞ ∫ ≈ ≠ ≤ ≥ </dd>
 		<dt>Arrows</dt>
-		<dd>← ↑ → ↓ ↔ ↕ ↖ ↗ ↘ ↙ </dd>
+		<dd class="big">← ↑ → ↓ ↔ ↕ ↖ ↗ ↘ ↙ </dd>
 		<dt>Shapes</dt>
-		<dd>⏏ ⏩ ⏪ ⏸ ⏹ ⏺ ■ □ ▪ ▫ ▲ △ ▴ ▵ ▶ ▷ ▸ ▹ ▼ ▽ ▾ ▿ ◀ ◁ ◂ ◃ ◆ ◇ ◊ ○ ● ◦ </dd>
+		<dd class="big">⏏ ⏩ ⏪ ⏸ ⏹ ⏺ ■ □ ▪ ▫ ▲ △ ▴ ▵ ▶ ▷ ▸ ▹ ▼ ▽ ▾ ▿ ◀ ◁ ◂ ◃ ◆ ◇ ◊ ○ ● ◦ </dd>
 		<dt>Diacritics</dt>
-		<dd>^ ` ~ ¨ ¯ ´ ¸ ʹ ʻ ʼ ʽ ʾ ʿ ˀ ˆ ˇ ˈ ˉ ˊ ˋ ˌ ˍ ː ˗ ˘ ˙ ˚ ˛ ˜ ˝ ˮ ◌́ ◌̂ ◌̃ ◌̄ ◌̆ ◌̇ ◌̈ ◌̉ ◌̊ ◌̋ ◌̌ ◌̍ ◌̒ ◌̓ ◌̕ ◌̛ ◌̣ ◌̤ ◌̦ ◌̧ ◌̨ ◌̩ ◌̮ ◌̱ ◌̲ ◌̵ ◌͘  ΅ </dd>
+		<dd class="big">^ ` ~ ¨ ¯ ´ ¸ ʹ ʻ ʼ ʽ ʾ ʿ ˀ ˆ ˇ ˈ ˉ ˊ ˋ ˌ ˍ ː ˗ ˘ ˙ ˚ ˛ ˜ ˝ ˮ ◌́ ◌̂ ◌̃ ◌̄ ◌̆ ◌̇ ◌̈ ◌̉ ◌̊ ◌̋ ◌̌ ◌̍ ◌̒ ◌̓ ◌̕ ◌̛ ◌̣ ◌̤ ◌̦ ◌̧ ◌̨ ◌̩ ◌̮ ◌̱ ◌̲ ◌̵ ◌͘  ΅ </dd>
 		<dt>Miscellaneous</dt>
-		<dd># &amp; * @ _ | ¤ ¦ § © ® ¶ ʹ · ჻ † ‡ ⁚ ℅ ℓ № ℗ ℠ ™ ℮ ⅄ Ⓓ ♠ ♣ ♥ ♦ ◌</dd>
+		<dd class="big"># &amp; * @ _ | ¤ ¦ § © ® ¶ ʹ · ჻ † ‡ ⁚ ℅ ℓ № ℗ ℠ ™ ℮ ⅄ Ⓓ ♠ ♣ ♥ ♦ ◌</dd>
 	</dl>
 </details>
+
+<h3>OpenType features.</h3>
+<table class="padded">
+	<tr>
+		<th>Tag</th>
+		<th>Feature name</th>
+		<th>Examples</th>
+	</tr>
+	<tr>
+		<td>kern &dagger;</td>
+		<td>Kerning</td>
+		<td><span style="font-feature-settings: 'kern' 0;">GESTALT foray Fjord it’s</span> &rarr; GESTALT foray Fjord it’s</td>
+	</tr>
+	<tr>
+		<td>smcp</td>
+		<td>Small Capitals</td>
+		<td>abcdefg &rarr; <span style="font-feature-settings: 'smcp';">abcdefg</span><br />
+			αβγδεζη &rarr; <span style="font-feature-settings: 'smcp';">αβγδεζη</span><br />
+			абвгдеж &rarr; <span style="font-feature-settings: 'smcp';">абвгдеж</span><br />
+			աբգդեզէ &rarr; <span style="font-feature-settings: 'smcp';">աբգդեզէ</span>
+		</td>
+	</tr>
+	<tr>
+		<td>c2sc</td>
+		<td>Small Capitals from Capitals</td>
+		<td>ABCDEFG &rarr; <span style="font-feature-settings: 'c2sc';">ABCDEFG</span><br />
+			ΑΒΓΔΕΖΗ &rarr; <span style="font-feature-settings: 'c2sc';">ΑΒΓΔΕΖΗ</span><br />
+			АБВГДЕЖ &rarr; <span style="font-feature-settings: 'c2sc';">АБВГДЕЖ</span><br />
+			ԱԲԳԴԵԶԷ &rarr; <span style="font-feature-settings: 'c2sc';">ԱԲԳԴԵԶԷ</span><br />
+			𐐀𐐁𐐂𐐃𐐄𐐅𐐆 &rarr; <span style="font-feature-settings: 'c2sc';">𐐀𐐁𐐂𐐃𐐄𐐅𐐆</span>
+		</td>
+	</tr>
+	<tr>
+		<td>locl &dagger;</td>
+		<td>Localised Forms</td>
+		<td>Catalan: L·L l·l &rarr; <span lang="ca">L·L l·l</span><br />
+			Romanian: ŞşŢţ &rarr; <span lang="ro">ŞşŢţ</span><br />
+			Northern Sami: Ŋ &rarr; <span lang="se">Ŋ</span><br />
+			Dutch: Ij ij íj &rarr; <span lang="nl">Ij ij íj</span><br />
+			Serbian: б &rarr; <span lang="sr">б</span><br />
+			Bulgarian: вгджзийклптцшщю &rarr; <span lang="bg">вгджзийклптцшщю</span>
+		</td>
+	</tr>
+	<tr>
+		<td>case</td>
+		<td>Case-sensitive forms</td>
+		<td>¡HOLA! ¿QUÉ? ⸘POR FAVOR‽ &rarr; <span style="font-feature-settings: 'case';">¡HOLA! ¿QUÉ? ⸘POR FAVOR‽</span></td>
+	</tr>
+	<tr>
+		<td>frac</td>
+		<td>Fractions</td>
+		<td>123/456 &rarr; <span style="font-feature-settings: 'frac';">123/456</span></td>
+	</tr>
+	<tr>
+		<td>tnum</td>
+		<td>Tabular Figures</td>
+		<td>123123 &rarr; <span style="font-feature-settings: 'tnum';">123123</span></td>
+	</tr>
+	<tr>
+		<td>zero</td>
+		<td>Slashed Zero</td>
+		<td>0 &rarr; <span style="font-feature-settings: 'zero';">0</span></td>
+	</tr>
+	<tr>
+		<td>ss01 &ddagger;</td>
+		<td>Stylistic Set 1</td>
+		<td>DÐĎƊḌḎ &rarr; <span style="font-feature-settings: 'ss01';">DÐĎƊḌḎ</span></td>
+	</tr>
+	<tr>
+		<td>ss02 &ddagger;</td>
+		<td>Stylistic Set 2</td>
+		<td>269 &rarr; <span style="font-feature-settings: 'ss02';">269</span></td>
+	</tr>
+	<tr>
+		<td>ss03</td>
+		<td>Stylistic Set 3</td>
+		<td>3 &rarr; <span style="font-feature-settings: 'ss03';">3</span></td>
+	</tr>
+	<tr>
+		<td>ss04</td>
+		<td>Stylistic Set 4</td>
+		<td>4 &rarr; <span style="font-feature-settings: 'ss04';">4</span></td>
+	</tr>
+	<tr>
+		<td>ss05</td>
+		<td>Stylistic Set 5</td>
+		<td>φ &rarr; <span style="font-feature-settings: 'ss05';">φ</span></td>
+	</tr>
+	<tr>
+		<td>ss06</td>
+		<td>Stylistic Set 6</td>
+		<td>Ŋ <span style="font-feature-settings: 'c2sc';">Ŋ</span> &rarr; <span style="font-feature-settings: 'ss06';">Ŋ</span> <span style="font-feature-settings: 'c2sc', 'ss06';">Ŋ</span></td>
+	</tr>
+	<tr>
+		<td>ss07</td>
+		<td>Stylistic Set 7</td>
+		<td>б &rarr; <span style="font-feature-settings: 'ss07';">б</span></td>
+	</tr>
+	<tr>
+		<td>ss08</td>
+		<td>Stylistic Set 8</td>
+		<td>вгджзийклптцшщю &rarr; <span style="font-feature-settings: 'ss08';">вгджзийклптцшщю</span></td>
+	</tr>
+	<tr>
+		<td>dlig</td>
+		<td>Discretionary Ligatures</td>
+		<td>ff fi fl ffi ffl &rarr; <span style="font-feature-settings: 'dlig';">ff fi fl ffi ffl</span></td>
+	</tr>
+</table>
+
+<p>&dagger; enabled by default in most applications<br />
+&ddagger; default and alternate forms are swapped in Video and Smooth styles</p>
+
 
 </section>
 
@@ -170,7 +521,7 @@
 </section>
 
 <section>
-<h2>Retro nostalgia.</h2>
+<h2>What&rsquo;s old is new again.</h2>
 <p>Motivation behind creation</p>
 </section>
 
@@ -184,7 +535,7 @@
 </main>
 
 <footer>
-	<p>&copy; Copyright 2026 <a href="https://github.com/FriedOrange/MatrixSans">The Matrix Sans Project Authors</a></p>
+	<p>&copy; Copyright 2022-2026 <a href="https://github.com/FriedOrange/MatrixSans">The Matrix Sans Project Authors</a></p>
 </footer>
 </body>
 </html>

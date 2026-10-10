@@ -50,7 +50,7 @@
 	interpolate-size: allow-keywords;
 }
 body {
-	max-width: 60em;
+	max-width: 64em;
 	margin: auto;
 	background-color: #111;
 	color: #eee;
@@ -62,7 +62,6 @@ body {
 header, section {
 	margin: 0.5em;
 	padding: 1em 2em 1em 2em;
-	border-radius: 0.25em;
 }
 footer {text-align: center;}
 h1, h2, h3, h4 {
@@ -82,13 +81,11 @@ td {
 	vertical-align: top;
 	/* padding: 0.1em; */
 }
-td + td, th + th {border-left: 0.1em #888 solid;}
-tr + tr > td {border-top: 0.1em #888 solid;}
+/* td + td, th + th {border-left: 0.1em #888 solid;}
+tr + tr > td {border-top: 0.1em #888 solid;} */
+td, th {border: 0.1em #888 solid;}
 table {border-collapse: collapse;}
-.padded td, .padded th {padding: 0.2em;}
-details p, details dd {
-	font-size: 30px;
-}
+.padded td, .padded th {padding: 0.4em;}
 details p {
 	margin-top: 1rem;
 	margin-bottom: 1rem;
@@ -119,24 +116,37 @@ a:hover, a:visited:hover {text-decoration: underline;}
 .monoraster {font-family: "Matrix Mono Raster", sans-serif;}
 .monovideo {font-family: "Matrix Mono Video", sans-serif;}
 .monosmooth {font-family: "Matrix Mono Smooth", sans-serif;}
-.big {
-	font-size: 3em;
-	color: #eee;
-}
+.big {font-size: 30px;}
 .sc {font-feature-settings: 'smcp';}
 .rtl {text-align: right;}
+.centre {
+	text-align: center;
+	margin: auto;
+}
 img {
 	margin: 0.25em;
 	max-width: 100%;
 }
+svg rect {
+	stroke: #ddd;
+	stroke-width: 0.33rem;
+}
+svg text {
+	font-size: 80px;
+}
+#video-demo:hover text, #screen-demo:hover text, #print-demo:hover text, #raster-demo:hover text {
+	filter: none;
+	text-shadow: none;
+}
 figcaption {text-align: center;}
+figure + p + figure {margin-top: 3em;}
 @media screen and (max-width: 490px) {
 	figure {
 		max-width: 420px;
 		margin: auto;
 	}
 }
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 768px) {
 	figure {
 		max-width: 640px;
 		margin: auto;
