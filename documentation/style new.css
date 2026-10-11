@@ -50,7 +50,7 @@
 	interpolate-size: allow-keywords;
 }
 body {
-	max-width: 64em;
+	max-width: 56em;
 	margin: auto;
 	background-color: #111;
 	color: #eee;
@@ -59,19 +59,16 @@ body {
 	text-underline-offset: 0.1em;
 	text-decoration-thickness: 0.1em;
 }
-header, section {
-	margin: 0.5em;
-	padding: 1em 2em 1em 2em;
-}
 footer {text-align: center;}
 h1, h2, h3, h4 {
 	font-weight: normal;
-	color: #eee;
+	color: #d8c;
 }
 ul {list-style-type: "• ";}
 ul ul {list-style-type: "◦ ";}
 details summary {list-style-type: "▶ ";}
 details[open] summary {list-style-type: "▼ ";}
+li::marker, summary::marker {color: #4ae}
 main u, del {text-decoration-color: #888;}
 th {
 	font-weight: normal;
@@ -150,6 +147,10 @@ figure + p + figure {margin-top: 3em;}
 	figure {
 		max-width: 640px;
 		margin: auto;
+	}
+	header, section{
+		margin: 1em;
+		padding-top: 1em;
 	}
 }
 @media screen and (max-width: 570px) {

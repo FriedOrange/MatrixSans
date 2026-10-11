@@ -7,6 +7,9 @@
 <title>Matrix Sans Fonts</title>
 <link rel="stylesheet" href="style new.css" />
 <link rel="icon" href="favicon.png" />
+<style>
+	li + li {margin-top: 0.5em;}
+</style>
 </head>
 
 <body>
@@ -14,18 +17,30 @@
 <header>
 <h1>Matrix Sans.</h1>
 <nav>
+	<p>ℹ️<u href="./">Main page</u> ▪ 💾<a href="https://github.com/FriedOrange/MatrixSans/releases">Downloads</a> ▪ ✔️<a href="tests.html">Tests & demos</a> ▪ 🔍<a href="research.html">Background research</a> </p>
 </nav>
 </header>
 
 <main>
 <section>
-<h2>Introduction.</h2>
-<p>Succinct intro, free/open source, download link</p>
+<h2 id="intro">Introduction.</h2>
+<p>Matrix Sans is family of free and open-source fonts based on the ubiquitous 5&times;7 dot matrix.</p>
+<p>What distinguishes Matrix Sans from other &ldquo;pixel&rdquo; fonts:</p>
+<ul>
+	<li>Careful design: the glyph patterns incorporate the best features from historical examples while ensuring consistency and legibility</li>
+	<li>Character repertoire: each font contains over 2000 glyphs, supporting over 700 languages</li>
+	<li>OpenType features: kerning, mark positioning, small capitals, localised features and more</li>
+	<li>Versatility: as well as classic pixel fonts, it includes styles inspired by retro technologies like CRTs, dot-matrix printers and character LCDs</li>
+	<li>Quality control: the <a href="https://github.com/fonttools/fontspector">Fontspector</a> test suite is used throughout development to ensure adherence to official standards and best practices</li>
+</ul>
+
+<p>Matrix Sans is licenced under the <a href="https://openfontlicense.org/">SIL Open Font License, version 1.1</a>; follow the link for the full licence text and FAQ.
+</ul>
 </section>
 
 <section>
-<h2>Meet the family.</h2>
-<p>6 styles + mono</p>
+<h2 id="family">Meet the family.</h2>
+<p>Matrix Sans comes in six main variants, each with matching monospaced and small-caps versions:</p>
 
 <figure>
 	<svg viewBox="0 0 1024 512" id="regular-demo" role="img">
@@ -39,7 +54,7 @@
 		}
 		#regular-demo text {
 			font-family: "Matrix Sans";
-			fill: #4bf;
+			fill: #ddd;
 		}
 	</style>
 	<rect width="1024" height="512" x="0" y="0" />
@@ -49,7 +64,7 @@
 	<text x="512" y="442" text-anchor="middle">§27 ¶14; { 35°29′10″ }</text>
 	</svg>
 </figure>
-<p class="centre">Matrix Sans Regular has a plain pixel look, like the bitmap fonts used in retro games.</p>
+<p class="centre">Matrix Sans Regular has a plain pixelated look, like the bitmap fonts used in retro games.</p>
 
 <figure>
 	<svg viewBox="0 0 1024 512" id="video-demo" role="img">
@@ -180,11 +195,11 @@
 			src: url("webfonts/MatrixSansSmooth-Regular.woff2");
 		}
 		#smooth-demo rect {
-			fill: #222;
+			fill: #111;
 		}
 		#smooth-demo text {
 			font-family: "Matrix Sans Smooth";
-			fill: #3e9;
+			fill: #ddd;
 		}
 	</style>
 	<rect width="1024" height="512" x="0" y="0" />
@@ -193,7 +208,7 @@
 	<text x="512" y="442" text-anchor="middle">#vex “bold” @Jim :-)</text>
 	</svg>
 </figure>
-<p class="centre">Matrix Sans Smooth is interpolated like the Video style, but taken to the extreme. It has perfectly straight diagonals in place of jagged steps, putting a modern twist on the genre.</p>
+<p class="centre">Matrix Sans Smooth is interpolated like the Video style, but taken to the extreme. It has perfectly straight diagonals instead of jagged steps, putting a modern twist on the genre.</p>
 
 <figure>
 	<svg viewBox="0 0 1024 512" id="mono-demo" role="img">
@@ -203,11 +218,11 @@
 			src: url("webfonts/MatrixMono-Regular.woff2");
 		}
 		#mono-demo rect {
-			fill: #222;
+			fill: #111;
 		}
 		#mono-demo text {
 			font-family: "Matrix Mono";
-			fill: #3e9;
+			fill: #ddd;
 		}
 	</style>
 	<rect width="1024" height="512" x="0" y="0" />
@@ -217,7 +232,8 @@
 	<text x="512" y="442" text-anchor="middle"></text>
 	</svg>
 </figure>
-<p class="centre">Every style above is also available in the Matrix Mono family, a monospaced companion to Matrix Sans with a little more historical accuracy. You could even use it for programming!</p>
+<p class="centre">Every style above is also available in the Matrix Mono family, a monospaced companion to Matrix Sans. Most glyphs are identical in both families, but in Matrix Mono, narrower glyphs like &ldquo;I&rdquo; have additional spacing and wider glyphs like &ldquo;&AElig;&rdquo; have narrower forms to maintain a fixed width.</p>
+<p> </p>
 
 <figure>
 	<svg viewBox="0 0 1024 512" id="sc-demo" role="img">
@@ -227,12 +243,12 @@
 			src: url("webfonts/MatrixSans-Regular.woff2");
 		}
 		#sc-demo rect {
-			fill: #222;
+			fill: #ddd;
 		}
 		#sc-demo text {
 			font-family: "Matrix Sans";
 			font-feature-settings: "smcp";
-			fill: #3e9;
+			fill: #111;
 		}
 	</style>
 	<rect width="1024" height="512" x="0" y="0" />
@@ -242,14 +258,12 @@
 	<text x="512" y="442" text-anchor="middle"></text>
 	</svg>
 </figure>
-<p class="centre">Finally, every abovementioned font comes with an &ldquo;SC&rdquo; version where the small letters are replaced by small capitals. Use these wherever you want small caps but can&rsquo;t use the OpenType smcp feature.</p>
+<p class="centre">Finally, every abovementioned font comes in an &ldquo;SC&rdquo; version where the lowercase letters are replaced by <span class="sc">small capitals</span>. Use these wherever you want small caps but can&rsquo;t use the OpenType smcp feature.</p>
 
 </section>
 
 <section>
-<h2>Features.</h2>
-
-<p>Matrix Sans contains over 2000 glyphs, supporting over 700 languages:</p>
+<h2 id="features">Features.</h2>
 
 <h3>Supported languages.</h3>
 
@@ -386,7 +400,7 @@
 	<summary>Symbols</summary>
 	<dl>
 		<dt>Currency</dt>
-		<dd class="big">$ ¢ £ ¥ ֏ ฿ ₡ ₣ ₤ ₦ ₧ ₨ ₩ ₪ ₫ € ₭ ₮ ₱ ₲ ₴ ₵ ₸ ₹ ₺ ₼ ₽ ₾ ₿ ⃀</dd>
+		<dd class="big">$ ¢ £ ¤ ¥ ֏ ฿ ₡ ₣ ₤ ₦ ₧ ₨ ₩ ₪ ₫ € ₭ ₮ ₱ ₲ ₴ ₵ ₸ ₹ ₺ ₼ ₽ ₾ ₿ ⃀</dd>
 		<dt>Mathematics</dt>
 		<dd class="big">% + &lt; = &gt; ¬ ° ± µ × ÷ ‰ ′ ″ ⁄ ⁺ ⁻ ⁼ ⁽ ⁾  ₊ ₋ ₌ ₍ ₎ Ω ∂ ∅ ∆ ∏ ∑ − ∕ ∙ √ ∞ ∫ ≈ ≠ ≤ ≥ </dd>
 		<dt>Arrows</dt>
@@ -396,7 +410,7 @@
 		<dt>Diacritics</dt>
 		<dd class="big">^ ` ~ ¨ ¯ ´ ¸ ʹ ʻ ʼ ʽ ʾ ʿ ˀ ˆ ˇ ˈ ˉ ˊ ˋ ˌ ˍ ː ˗ ˘ ˙ ˚ ˛ ˜ ˝ ˮ ◌́ ◌̂ ◌̃ ◌̄ ◌̆ ◌̇ ◌̈ ◌̉ ◌̊ ◌̋ ◌̌ ◌̍ ◌̒ ◌̓ ◌̕ ◌̛ ◌̣ ◌̤ ◌̦ ◌̧ ◌̨ ◌̩ ◌̮ ◌̱ ◌̲ ◌̵ ◌͘  ΅ </dd>
 		<dt>Miscellaneous</dt>
-		<dd class="big"># &amp; * @ _ | ¤ ¦ § © ® ¶ ʹ · ჻ † ‡ ⁚ ℅ ℓ № ℗ ℠ ™ ℮ ⅄ Ⓓ ♠ ♣ ♥ ♦ ◌</dd>
+		<dd class="big"># &amp; * @ _ | ¦ § © ® ¶ ʹ · ჻ † ‡ ⁚ ℅ ℓ № ℗ ℠ ™ ℮ ⅄ Ⓓ ♠ ♣ ♥ ♦ ◌</dd>
 	</dl>
 </details>
 
@@ -512,25 +526,34 @@
 <p>&dagger; enabled by default in most applications<br />
 &ddagger; default and alternate forms are swapped in Video and Smooth styles</p>
 
-
+<h3>Dimensions.</h3>
+<p>The Regular, Smooth and Video styles look best at multiples of 7.5pt size (10px) on screen, when the font outlines exactly align with screen pixels. The fonts are deliberately unhinted, to prevent their &ldquo;dots&rdquo; from appearing uneven at other sizes.</p>
+<p>In standards-compliant applications, the <u style="text-decoration-color: #d55;">underline</u> and <del style="text-decoration-color: #d55;">strikeout</del> lines have the correct thickness and positioning to match the dot-matrix grid of the fonts.</p>
+<p>Each grid unit in the fonts is <span style="font-feature-settings: 'frac';">1/10</span> of the em size (0.1em or 0.2ex in CSS units).</p>
 </section>
 
 <section>
-<h2>Art imitates life.</h2>
-<p>Historical basis (descriptor below)</p>
+<h2 id="design">Design philosophy.</h2>
+<p>Dozens of existing designs were studied in preparation; the goal for this project was to balance consistency and sound design with quirkiness and authenticity to its historic sources.</p>
+<p>While its forebears are strictly utilitarian and technologically restricted, Matrix Sans is intended to be a useful, modern, display font; inspired by other retro-revival typefaces like the popular American Typewriter, it eschews its monospaced heritage in favour of proportional spacing and kerning.</p>
+</section>
+
+
+<section>
+<h2 id="motivation">What&rsquo;s old is new again.</h2>
+<p>(Motivation behind creation)</p>
+<p>Nowadays, "pixel" style fonts like this are very popular, particularly as they evoke nostalgia for retro computers and video games. Most currently available free (and even commercial) fonts in this style are lacking in refinement and glyph coverage, though. Matrix Sans was conceived in 2019 to satisfy the need for a free, versatile and high-quality dot-matrix style font.</p>
 </section>
 
 <section>
-<h2>What&rsquo;s old is new again.</h2>
-<p>Motivation behind creation</p>
+<h2 id="background">Art imitates life.</h2>
+<p>	Matrix Sans is based on 5&times;7 dot matrix fonts that originated in the mid-20th century. They were first seen with punched card machines and light-up &ldquo;eggcrate&rdquo; signs at stadiums and on game shows. Over time, the fonts became ubiquitous with dot-matrix printers, early computers and video equipment.</p>
+<p>Such fonts still surround us in the 21st century—for example: in LED displays of car radios and microwave ovens; VFDs in hi-fi and audiovisual equipment; electronic road signs and train stations displays; flip-dot displays in buses and airports; LCDs in calculators and the "character LCD" modules found in all kinds of electronic equipment; and dot-matrix printers, which are still used to some extent, particularly for the expiry dates printed on food packaging.</p>
 </section>
 
 <section>
-<h2>Design philosophy.</h2>
-</section>
-
-<section>
-<h2>How it&rsquo;s made.</h2>
+<h2 id="production">How it&rsquo;s made.</h2>
+<p>Matrix Sans was created by drawing the glyphs as bitmaps, then turning them into outlines in FontForge with the help of a custom Python script. This method made it trivial to provide multiple variants with different styles of dots, allowing for faithful renditions of the various real-world examples of dot-matrix fonts.</p>
 </section>
 </main>
 
