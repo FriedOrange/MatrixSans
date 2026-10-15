@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8" />
-<meta name="author" content="Brad Neil">
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Matrix Sans Fonts</title>
-<link rel="stylesheet" href="style new.css" />
-<link rel="icon" href="favicon.png" />
-<style>
-	li + li {margin-top: 0.5em;}
-</style>
+	<meta charset="utf-8" />
+	<meta name="author" content="Brad Neil">
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Matrix Sans fonts</title>
+	<link rel="stylesheet" href="style new.css" />
+	<link rel="icon" href="favicon.png" />
+	<style>
+		li + li {margin-top: 0.5em;}
+	</style>
 </head>
 
 <body>
@@ -17,66 +17,66 @@
 <header>
 <h1>Matrix Sans.</h1>
 <nav>
-	<p>ℹ️<u href="./">Main page</u> ▪ 💾<a href="https://github.com/FriedOrange/MatrixSans/releases">Downloads</a> ▪ ✔️<a href="tests.html">Tests & demos</a> ▪ 🔍<a href="research.html">Background research</a> </p>
+	<p>ℹ️<u href="./">About</u> ▪ 💾<a href="https://github.com/FriedOrange/MatrixSans/releases">Downloads</a> ▪ ✔️<a href="tests.html">Tests</a> ▪ 🔍<a href="research.html">Research</a> </p>
 </nav>
 </header>
 
 <main>
 <section>
 <h2 id="intro">Introduction.</h2>
-<p>Matrix Sans is family of free and open-source fonts based on the ubiquitous 5&times;7 dot matrix.</p>
+<p>Matrix Sans is family of free and open-source fonts based on the classic 5&times;7 dot matrix. It was created to meet the need for better fonts in this perennial style, which is so evocative of &ldquo;tech&rdquo;.</p>
+
 <p>What distinguishes Matrix Sans from other &ldquo;pixel&rdquo; fonts:</p>
 <ul>
-	<li>Careful design: the glyph patterns incorporate the best features from historical examples while ensuring consistency and legibility</li>
-	<li>Character repertoire: each font contains over 2000 glyphs, supporting over 700 languages</li>
-	<li>OpenType features: kerning, mark positioning, small capitals, localised features and more</li>
-	<li>Versatility: as well as classic pixel fonts, it includes styles inspired by retro technologies like CRTs, dot-matrix printers and character LCDs</li>
-	<li>Quality control: the <a href="https://github.com/fonttools/fontspector">Fontspector</a> test suite is used throughout development to ensure adherence to official standards and best practices</li>
+	<li><strong>Careful design:</strong> borrowing the best features from historical examples while ensuring consistency and legibility</li>
+	<li><strong>Character repertoire:</strong> each font contains over 2000 glyphs, supporting over 700 languages</li>
+	<li><strong>OpenType features:</strong> kerning, mark positioning, small capitals, localised features and more</li>
+	<li><strong>Versatility:</strong> in addition to classic pixel fonts, it includes various styles inspired by retro technologies</li>
+	<li><strong>Quality control:</strong> the <a href="https://github.com/fonttools/fontspector">Fontspector</a> test suite is used to ensure adherence to official standards and best practices</li>
+	<li><strong>Copyleft:</strong> Matrix Sans is available under the <a href="https://openfontlicense.org/">SIL Open Font License</a>; follow the link for the full licence text and FAQ</li>
 </ul>
 
-<p>Matrix Sans is licenced under the <a href="https://openfontlicense.org/">SIL Open Font License, version 1.1</a>; follow the link for the full licence text and FAQ.
-</ul>
+<!-- <nav>
+	<h4>On this page:</h4>
+	<p><a href="#family">Meet the family</a> ▪ <a href="#features">Features</a> ▪ <a href="#design">Design philosophy</a> ▪ <a href="#motivation">What&rsquo;s old is new again</a> ▪ <a href="#background">Art imitates life</a> ▪ <a href="#production">How it&rsquo;s made</a></p>
+</nav> -->
 </section>
 
 <section>
 <h2 id="family">Meet the family.</h2>
 <p>Matrix Sans comes in six main variants, each with matching monospaced and small-caps versions:</p>
 
+<h3>Regular.</h3>
 <figure>
-	<svg viewBox="0 0 1024 512" id="regular-demo" role="img">
+	<svg viewBox="0 0 1024 256" id="regular-specimen" role="img">
 	<style>
 		@font-face {
 			font-family: "Matrix Sans";
 			src: url("webfonts/MatrixSans-Regular.woff2");
 		}
-		#regular-demo rect {
-			fill: #111;
-		}
-		#regular-demo text {
+		#regular-specimen rect {fill: #111;}
+		#regular-specimen text {
 			font-family: "Matrix Sans";
 			fill: #ddd;
 		}
 	</style>
 	<rect width="1024" height="512" x="0" y="0" />
-	<text x="512" y="130" text-anchor="middle">Matrix Sans Regular</text>
-	<text x="512" y="234" text-anchor="middle">READY PLAYER ONE</text>
-	<text x="512" y="338" text-anchor="middle">&hearts;1UP</text>
-	<text x="512" y="442" text-anchor="middle">§27 ¶14; { 35°29′10″ }</text>
+	<text x="512" y="104" text-anchor="middle">READY PLAYER ONE</text>
+	<text x="512" y="208" text-anchor="middle">§27 ¶14; { 35°29′10″ }</text>
 	</svg>
 </figure>
-<p class="centre">Matrix Sans Regular has a plain pixelated look, like the bitmap fonts used in retro games.</p>
+<p class="centre"><strong>Matrix Sans Regular</strong> has a plain pixelated look, like the bitmap fonts used in retro games.</p>
 
+<h3>Video.</h3>
 <figure>
-	<svg viewBox="0 0 1024 512" id="video-demo" role="img">
+	<svg viewBox="0 0 1024 256" id="video-specimen" role="img">
 	<style>
 		@font-face {
 			font-family: "Matrix Sans Video";
 			src: url("webfonts/MatrixSansVideo-Regular.woff2");
 		}
-		#video-demo rect {
-			fill: #00a;
-		}
-		#video-demo text {
+		#video-specimen rect {fill: #00a;}
+		#video-specimen text {
 			font-family: "Matrix Sans Video";
 			fill: #ddd;
 			filter: url("#blur");
@@ -88,25 +88,23 @@
 		</filter>
 	</defs>
 	<rect width="1024" height="512" x="0" y="0" />
-	<text x="512" y="130" text-anchor="middle">Matrix Sans Video</text>
-	<text x="512" y="234" text-anchor="middle">▶ PLAY HI-FI L+R</text>
-	<text x="512" y="442" text-anchor="middle">23/04/1987 12:56 PM</text>
+	<text x="512" y="104" text-anchor="middle">▶ PLAY HI-FI L+R</text>
+	<text x="512" y="208" text-anchor="middle">23/04/1987 12:56 PM</text>
 	</svg>
 
 </figure>
-<p class="centre">Matrix Sans Video is interpolated to double the resolution, mimicking the on-screen displays of VCRs and camcorders and giving the feel of analogue video. The characters 2, 6, 9 and D have special patterns for extra authenticity.</p>
+<p class="centre"><strong>Matrix Sans Video</strong> is interpolated to double the resolution, mimicking VCRs and camcorders from the days of analogue video.</p>
 
+<h3>Screen.</h3>
 <figure>
-	<svg viewBox="0 0 1024 512" id="screen-demo" role="img">
+	<svg viewBox="0 0 1024 256" id="screen-specimen" role="img">
 	<style>
 		@font-face {
 			font-family: "Matrix Sans Screen";
 			src: url("webfonts/MatrixSansScreen-Regular.woff2");
 		}
-		#screen-demo rect {
-			fill: #cdb;
-		}
-		#screen-demo text {
+		#screen-specimen rect {fill: #cdb;}
+		#screen-specimen text {
 			font-family: "Matrix Sans Screen";
 			fill: #111;
 			text-shadow: 3px 3px 3px #aaa;
@@ -114,25 +112,22 @@
 		}
 	</style>
 	<rect width="1024" height="512" x="0" y="0" />
-	<text x="512" y="130" text-anchor="middle">Matrix Sans Screen</text>
-	<text x="512" y="234" text-anchor="middle">ﾓｵﾙｽﾖﾐﾄﾘ ﾕｹﾎｼﾉﾊﾃﾍ ﾌﾈ</text>
-	<text x="512" y="338" text-anchor="middle">ﾅﾔﾏﾝ ｺﾛﾆｲﾑｶｴﾂ ｸﾗｿｳ</text>
-	<text x="512" y="442" text-anchor="middle">3×(5+1)²−6÷2=105</text>
+	<text x="512" y="104" text-anchor="middle">ﾅﾔﾏﾝ ｺﾛﾆｲﾑｶｴﾂ ｸﾗｿｳ</text>
+	<text x="512" y="208" text-anchor="middle">3×(5+1)²−6÷2=105</text>
 	</svg>
 </figure>
-<p class="centre">Matrix Sans Screen has discrete square dots that make it resemble a character LCD or electronic sign..</p>
+<p class="centre"><strong>Matrix Sans Screen</strong> has discrete square dots that make it resemble a character LCD or electronic sign.</p>
 
+<h3>Print.</h3>
 <figure>
-	<svg viewBox="0 0 1024 512" id="print-demo" role="img">
+	<svg viewBox="0 0 1024 256" id="print-specimen" role="img">
 	<style>
 		@font-face {
 			font-family: "Matrix Sans Print";
 			src: url("webfonts/MatrixSansPrint-Regular.woff2");
 		}
-		#print-demo rect {
-			fill: #ffe;
-		}
-		#print-demo text {
+		#print-specimen rect {fill: #ffe;}
+		#print-specimen text {
 			font-family: "Matrix Sans Print";
 			fill: #444;
 			filter: url("#displacement");
@@ -154,24 +149,22 @@
 		</filter>
 	</defs>
 	<rect width="1024" height="512" x="0" y="0" />
-	<text x="512" y="130" text-anchor="middle">Matrix Sans Print</text>
-	<text x="512" y="234" text-anchor="middle"></text>
-	<text x="512" y="442" text-anchor="middle">$18.99 €38,76 £1.50</text>
+	<text x="512" y="104" text-anchor="middle"></text>
+	<text x="512" y="208" text-anchor="middle">$18.99 €38,76 £1.50</text>
 	</svg>
 </figure>
-<p class="centre">Matrix Sans Print has discrete round dots giving it the look of a dot-matrix printer or flip-dot display.</p>
+<p class="centre"><strong>Matrix Sans Print</strong> has discrete round dots giving it the look of a dot-matrix printer or flip-dot display.</p>
 
+<h3>Raster.</h3>
 <figure>
-	<svg viewBox="0 0 1024 512" id="raster-demo" role="img">
+	<svg viewBox="0 0 1024 256" id="raster-specimen" role="img">
 	<style>
 		@font-face {
 			font-family: "Matrix Sans Raster";
 			src: url("webfonts/MatrixSansRaster-Regular.woff2");
 		}
-		#raster-demo rect {
-			fill: #222;
-		}
-		#raster-demo text {
+		#raster-specimen rect {fill: #222;}
+		#raster-specimen text {
 			font-family: "Matrix Sans Raster";
 			fill: #3e9;
 			text-shadow: 0 0 40px #2a7;
@@ -179,110 +172,81 @@
 		}
 	</style>
 	<rect width="1024" height="512" x="0" y="0" />
-	<text x="512" y="130" text-anchor="middle">Matrix Sans Raster</text>
-	<text x="512" y="234" text-anchor="middle">10 REM БУДЬ ЗДОРОВИЙ</text>
-	<text x="512" y="338" text-anchor="middle">20 PRINT CHR$(10);</text>
-	<text x="512" y="442" text-anchor="middle">30 LET X=(2^16-1)*3</text>
+	<text x="512" y="104" text-anchor="middle">240 PRINT CHR$(10);</text>
+	<text x="512" y="208" text-anchor="middle">250 LET X=(2^16-1)*3</text>
 	</svg>
 </figure>
-<p class="centre">Matrix Sans Raster has soft lines, emulating a monochrome CRT monitor from the days of 8-bit computers.</p>
+<p class="centre"><strong>Matrix Sans Raster</strong> has soft lines, emulating a monochrome CRT monitor from the days of 8-bit computers.</p>
 
+<h3>Smooth.</h3>
 <figure>
-	<svg viewBox="0 0 1024 512" id="smooth-demo" role="img">
+	<svg viewBox="0 0 1024 256" id="smooth-specimen" role="img">
 	<style>
 		@font-face {
 			font-family: "Matrix Sans Smooth";
 			src: url("webfonts/MatrixSansSmooth-Regular.woff2");
 		}
-		#smooth-demo rect {
-			fill: #111;
-		}
-		#smooth-demo text {
+		#smooth-specimen rect {fill: #111;}
+		#smooth-specimen text {
 			font-family: "Matrix Sans Smooth";
 			fill: #ddd;
 		}
 	</style>
 	<rect width="1024" height="512" x="0" y="0" />
-	<text x="512" y="130" text-anchor="middle">Matrix Sans Smooth</text>
-	<text x="512" y="234" text-anchor="middle">Quick wafting zephyrs</text>
-	<text x="512" y="442" text-anchor="middle">#vex “bold” @Jim :-)</text>
+	<text x="512" y="104" text-anchor="middle">Quick wafting zephyrs</text>
+	<text x="512" y="208" text-anchor="middle">#vex “bold” @Jim :-)</text>
 	</svg>
 </figure>
-<p class="centre">Matrix Sans Smooth is interpolated like the Video style, but taken to the extreme. It has perfectly straight diagonals instead of jagged steps, putting a modern twist on the genre.</p>
+<p class="centre"><strong>Matrix Sans Smooth</strong> has perfectly straight diagonals instead of jagged steps, putting a modern twist on the genre.</p>
 
+<h3>Matrix Mono.</h3>
 <figure>
-	<svg viewBox="0 0 1024 512" id="mono-demo" role="img">
+	<svg viewBox="0 0 1024 256" id="mono-specimen" role="img">
 	<style>
 		@font-face {
 			font-family: "Matrix Mono";
 			src: url("webfonts/MatrixMono-Regular.woff2");
 		}
-		#mono-demo rect {
-			fill: #111;
-		}
-		#mono-demo text {
+		#mono-specimen rect {fill: #111;}
+		#mono-specimen text {
 			font-family: "Matrix Mono";
 			fill: #ddd;
 		}
 	</style>
 	<rect width="1024" height="512" x="0" y="0" />
-	<text x="512" y="130" text-anchor="middle">Matrix Mono Regular</text>
-	<text x="512" y="234" text-anchor="middle">Bright vixens jump</text>
-	<text x="512" y="338" text-anchor="middle">& dozy fowl quack.</text>
-	<text x="512" y="442" text-anchor="middle"></text>
+	<text x="512" y="104" text-anchor="middle">Algæ & lilypads?!</text>
+	<text x="512" y="208" text-anchor="middle">150ml 2.0M H₂O₂(aq)</text>
 	</svg>
 </figure>
-<p class="centre">Every style above is also available in the Matrix Mono family, a monospaced companion to Matrix Sans. Most glyphs are identical in both families, but in Matrix Mono, narrower glyphs like &ldquo;I&rdquo; have additional spacing and wider glyphs like &ldquo;&AElig;&rdquo; have narrower forms to maintain a fixed width.</p>
+<p class="centre">Every style above is also available in the <strong>Matrix Mono</strong> family, a monospaced companion to Matrix Sans.</p>
 <p> </p>
 
+<h3>SC.</h3>
 <figure>
-	<svg viewBox="0 0 1024 512" id="sc-demo" role="img">
+	<svg viewBox="0 0 1024 256" id="sc-specimen" role="img">
 	<style>
 		@font-face {
 			font-family: "Matrix Sans";
 			src: url("webfonts/MatrixSans-Regular.woff2");
 		}
-		#sc-demo rect {
-			fill: #ddd;
-		}
-		#sc-demo text {
+		#sc-specimen rect {fill: #111;}
+		#sc-specimen text {
 			font-family: "Matrix Sans";
 			font-feature-settings: "smcp";
-			fill: #111;
+			fill: #ddd;
 		}
 	</style>
 	<rect width="1024" height="512" x="0" y="0" />
-	<text x="512" y="130" text-anchor="middle">Matrix Sans SC</text>
-	<text x="512" y="234" text-anchor="middle">Jackdaws love my big</text>
-	<text x="512" y="338" text-anchor="middle">sphinx of quartz?</text>
-	<text x="512" y="442" text-anchor="middle"></text>
+	<text x="512" y="104" text-anchor="middle">Jackdaws love my big</text>
+	<text x="512" y="208" text-anchor="middle">sphinx of quartz.</text>
 	</svg>
 </figure>
-<p class="centre">Finally, every abovementioned font comes in an &ldquo;SC&rdquo; version where the lowercase letters are replaced by <span class="sc">small capitals</span>. Use these wherever you want small caps but can&rsquo;t use the OpenType smcp feature.</p>
+<p class="centre">Every abovementioned font comes in an &ldquo;<strong>SC</strong>&rdquo; version where the lowercase letters are replaced by <strong class="sc">small capitals</strong>. Use these wherever you want small caps but can&rsquo;t use the OpenType smcp feature.</p>
 
 </section>
 
 <section>
 <h2 id="features">Features.</h2>
-
-<h3>Supported languages.</h3>
-
-<details>
-	<summary>Languages with at least 10,000,000 speakers</summary>
-	<p>Belarusian, Cebuano, Czech, Dutch, English, Fanti, Filipino, French, German, Hakka Chinese (Latin), Hausa, Hungarian, Igbo, Iloko, Indonesian, Italian, Javanese, Kazakh, Kinyarwanda, Kituba, Low German, Madurese, Malagasy, Malay (Latin), Nigerian Fulfulde, Nigerian Pidgin, Nyanja, Oromo, Polish, Portuguese, Quechua, Romanian, Russian, Shona, Somali, Spanish, Sudanese Arabic, Sundanese, Swahili, Swahili (Congo), Swedish, Turkish, Turkmen (Latin), Ukrainian, Uzbek, Vietnamese, Wolof, Xhosa, Yoruba, Zulu</p>
-</details>
-<details>
-	<summary>Languages with at least 1,000,000 speakers</summary>
-	<p>Abron, Achinese, Afar, Afrikaans, Albanian, Anaang, Arabic (Chadian Spoken), Armenian, Aymara, Azerbaijani, Azerbaijani (Cyrillic), Baatonum, Balinese, Bambara, Banjar, Baoulé, Bashkir, Basque, Batak Toba, Bedawiyet, Bemba, Berom, Bikol, Bini, Bosnian, Bosnian (Cyrillic), Buginese, Bulgarian, Bulu, Catalan, Cebaara Senoufo, Central Atlas Tamazight, Central-Eastern Niger Fulfulde, Chiga, Chokwe, Chuvash, Croatian, Dagbani, Danish, Dinka, Dyula, Ebira, Efik, Finnish, Fulah, Fulfulde (Adamawa), Fulfulde (Western Niger), Galician, Gamo, Ganda, Georgian, Gheg Albanian, Guarani, Gun, Gusii, Hadiyya, Haitian Creole, Hiligaynon, Hmong, Iraqw, Jamaican Creole English, Kabardian, Kabyle, Kalenjin, Kamba, Khasi, Kikuyu, Kimbundu, Kongo, Konjo, Kpelle, Krio, Kyrgyz, Kʼicheʼ, Lango (Uganda), Latvian, Lingala, Lithuanian, Lomwe, Lozi, Luba-Katanga, Luba-Lulua, Lunda, Luyia, Maasina Fulfulde, Macedonian, Makhuwa, Makhuwa-Meetto, Makonde, Mandinka, Maninkakan (Eastern), Masaaba, Mende, Meru, Minangkabau, Mongolian, Morisyen, Ndau, North Ndebele, Northern Sotho, Norwegian, Norwegian Bokmål, Norwegian Nynorsk, Nuer, Nupe-Nupe-Tako, Nyamwezi, Nyankole, Nyemba, Occitan, Pampanga, Pulaar, Ronga, Rundi, Sango, Sardinian, Scots, Sena, Serbian, Serbian (Latin), Sicilian, Sidamo, Slovak, Slovenian, Soga, Soninke, Southern Sotho, Standard Moroccan Tamazight, Sukuma, Susu, Swati, Swiss German, Tachelhit (Latin), Tajik, Tatar, Tiv, Tok Pisin, Tonga, Tsonga, Tswana, Tumbuka, Umbundu, Uzbek (Cyrillic), Waray, West Albay Bikol, Wolaytta (Latin), Xaasongaxango, Zande, Zarma, Zaza</p>
-</details>
-<details>
-	<summary>Languages with at least 100,000 speakers</summary>
-	<p>Adangme, Adara, Adioukrou, Adyghe, Agatu, Akoose, Akuapem Twi, Alago, Anufo, Ao Naga, Aromanian, Asturian, Asu, Attié, Avaric, Avokaya, Ayizo Gbe, Bacama, Bafut, Bandi, Bari, Basa, Bedjond, Bekwarra, Bena, Bench, Biali, Bimoba, Birifor (Southern), Bislama, Bomu, Breton, Bura-Pabir, Buriat, Bété, Guiberoua, Chechen, Chiduruma, Chimborazo Highland Quichua, Cishingini, Colognian, Comorian (Ngazidja), Corsican, Crimean Turkish, Cyrillic, Crioulo (Upper Guinea), Dagaare (Southern), Dargwa, Dawro, Dazaga, Dendi, Didinga, Dinka (Northeastern), Dogon (Toro So), Duala, Dungan, Ede Ica, Ede Idaca, Ede Ije, Ekpeye, Emai-Iuleha-Ora, Embu, Erzya, Esan, Estonian, Ewondo, Ezaa, Fijian, Fulfulde (Borgu), Fuliiru, Ga, Gagauz, Gawwada, Gbari, Goemai, Gofa, Gonja, Gor, Gourmanchéma, Gude, Gulay, Gumuz, Hyam, Icelandic, Idoma, Igede, Ikwere, Ikwo, Ingush, Izere, Izii, Jenaama Bozo, Jju, Jola-Fonyi, Jur Modo, Kabuverdianu, Kako, Kalanga, Kalmyk, Kamwe, Kaonde, Kara-Kalpak, Karachay-Balkar, Karelian, Kirmanjki, Kissi (Northern), Kita Maninkakan, Kom, Komi, Konkomba, Koyra Chiini, Koyraboro Senni, Kuanyama, Kukele, Kumyk, Kunama, Kuria, Kwere, Ladino, Lak, Lamba, Lamnso’, Latgalian, Lezghian, Ligurian, Limba (West-Central), Lobala, Logo, Lokaa, Loko, Lombard, Luguru, Luvale, Luwo, Luxembourgish, Machame, Mada, Maltese, Mamara Senoufo, Mambila (Nigeria), Mampruli, Mandingo, Mandjak, Maninka (Sankaran), Manyika, Maore Comorian, Latin, Maori, Mapuche, Mari, Ma’di, Mbembe (Cross River), Metaʼ, Me’en, Moba, Moksha, Mongo, Montenegrin, Montenegrin (Latin), Moru, Murle, Mwaghavul, Mwani, Navajo, Ndonga, Neapolitan, Ngas, Ngbandi (Northern), Ngindo, Ngulu, Ntcham, Nyasa Tonga, Nyoro, Nzima, Obolo, Ogbah, Ossetic, Otuho, Papiamento, Picard, Pogolo, Pökoot, Rinconada Bikol, Rombo, Ron, Rwa, Réunion Creole French, Saafi-Saafi, Saho, Sakha, Samburu, Samoan, Sangu, Sapiny, Sassarese Sardinian, Shambala, Shilluk, Silesian, South Ndebele, Southern Bobo Madaré, Southern Giziga, Sranan Tongo, Suba, Syenara Senoufo, Sénoufo, Supyire, Tabassaran, Taita, Takwane, Talysh (Cyrillic), Talysh (Latin), Tarok, Tera, Tetum, Tikar, Tiéyaxo Bozo, Tomo Kan Dogon, Tongan, Tooro, Toposa, Tsikimba, Tsishingini, Tsuvadi, Tunen, Tuvinian, Tyap, Uab Meto, Udmurt, Uyghur (Cyrillic), Vai (Latin), Venetian, Vunjo, Waama, Walloon, Wayuu, Welsh, Western Frisian, Yala, Yalunka, Yao, Yom, Yoruba (Benin), Yucateco, Zaghawa, Zigula</p>
-</details>
-<details>
-	<summary>Languages with at least 10,000 speakers</summary>
-	<p>Abaza, Abkhazian, Aguaruna, Agwagwune, Alekano, Aragonese, Ashe, Awing, Baga Sitemu, Baka (Cameroon/Gabon), Balanta-Ganja, Bana, Banda (West Central), Bapuku, Bassari, Beng, Bhele, Bilen, Bisã, Bokobaru, Bongo, Bozo (Hainyaxo), Bube, Cahungwarya, Cerma, Chamorro, Chumburung, Chuukese, C’Lela, Daba, Deg, Delo, Denya, Dghwede, Dikaka, Doyayo, Duya, Dyan, Ekajuk, Elip, Engenni, Etkywan, Etulo, Evenki, Faroese, Foodo, Friulian, Gbaya (Sudan), Gikyode, Gilbertese, Hawaiian, Hdi, Ika, Innu, Iten, Ivbie North-Okpela-Arhe, Jibu, Kabba, Kaingang, Kaitag, Kalaallisut, Kamuku, Karaboro (Eastern), Kashubian, Keliko, Khanty, Kimré, Komi-Permyak, Koro Wachi, Kuo, Kutep, Kutu, Lehar, Lele, Ligbi, Longuda, Mambila (Cameroon), Mankanya, Marshallese, Mbe, Mbo, Mbugwe, Mbuko, Mendankwe-Nkwen, Merey, Mirandese, Mokole, Morokodo, Muslim Tat, Muslim Tat, Latin, Mwan, Mündü, Nafaanra, Nara, Ndamba, Ndogo, Ndut, Ngangam, Ninzo, Nogai, Nomaande, Noon, Noone, Northern Sami, Nugunu, Okiek, Palauan, Pangu, Parkwa, Pero, Pohnpeian, Rendille, Reshe, Rigwe, Romansh, Sandawe, Selee, Seselwa Creole French, Sheko, Southern Altai, Southern Samo, Suri (Tirmaga-Chai), Sãotomense, Sénoufo, Djimini, Tahitian, Tal, Talinga-Bwisi, Tampulma, Tedaga, Tigon Mbembe, Toussian (Southern), Tsakhur, Tsakhur (Latin), Tsamai, Tula, Tuwuli, Upper Sorbian, Vagla, Vengo, Vidunda, Võro, Waja, Walser, Wan, Wandala, Warji, Western Krahn, Western Mari, Zayse, Zulgo-Gemzek, ut-Hun, ut-Ma’in</p>
-</details>
 
 <h3>Supported characters.</h3>
 <details>
@@ -414,7 +378,25 @@
 	</dl>
 </details>
 
-<h3>OpenType features.</h3>
+<h3>Supported languages.</h3>
+<details>
+	<summary>Languages with at least 10,000,000 speakers</summary>
+	<p>Belarusian, Cebuano, Czech, Dutch, English, Fanti, Filipino, French, German, Hakka Chinese (Latin), Hausa, Hungarian, Igbo, Iloko, Indonesian, Italian, Javanese, Kazakh, Kinyarwanda, Kituba, Low German, Madurese, Malagasy, Malay (Latin), Nigerian Fulfulde, Nigerian Pidgin, Nyanja, Oromo, Polish, Portuguese, Quechua, Romanian, Russian, Shona, Somali, Spanish, Sudanese Arabic, Sundanese, Swahili, Swahili (Congo), Swedish, Turkish, Turkmen (Latin), Ukrainian, Uzbek, Vietnamese, Wolof, Xhosa, Yoruba, Zulu</p>
+</details>
+<details>
+	<summary>Languages with at least 1,000,000 speakers</summary>
+	<p>Abron, Achinese, Afar, Afrikaans, Albanian, Anaang, Arabic (Chadian Spoken), Armenian, Aymara, Azerbaijani, Azerbaijani (Cyrillic), Baatonum, Balinese, Bambara, Banjar, Baoulé, Bashkir, Basque, Batak Toba, Bedawiyet, Bemba, Berom, Bikol, Bini, Bosnian, Bosnian (Cyrillic), Buginese, Bulgarian, Bulu, Catalan, Cebaara Senoufo, Central Atlas Tamazight, Central-Eastern Niger Fulfulde, Chiga, Chokwe, Chuvash, Croatian, Dagbani, Danish, Dinka, Dyula, Ebira, Efik, Finnish, Fulah, Fulfulde (Adamawa), Fulfulde (Western Niger), Galician, Gamo, Ganda, Georgian, Gheg Albanian, Guarani, Gun, Gusii, Hadiyya, Haitian Creole, Hiligaynon, Hmong, Iraqw, Jamaican Creole English, Kabardian, Kabyle, Kalenjin, Kamba, Khasi, Kikuyu, Kimbundu, Kongo, Konjo, Kpelle, Krio, Kyrgyz, Kʼicheʼ, Lango (Uganda), Latvian, Lingala, Lithuanian, Lomwe, Lozi, Luba-Katanga, Luba-Lulua, Lunda, Luyia, Maasina Fulfulde, Macedonian, Makhuwa, Makhuwa-Meetto, Makonde, Mandinka, Maninkakan (Eastern), Masaaba, Mende, Meru, Minangkabau, Mongolian, Morisyen, Ndau, North Ndebele, Northern Sotho, Norwegian, Norwegian Bokmål, Norwegian Nynorsk, Nuer, Nupe-Nupe-Tako, Nyamwezi, Nyankole, Nyemba, Occitan, Pampanga, Pulaar, Ronga, Rundi, Sango, Sardinian, Scots, Sena, Serbian, Serbian (Latin), Sicilian, Sidamo, Slovak, Slovenian, Soga, Soninke, Southern Sotho, Standard Moroccan Tamazight, Sukuma, Susu, Swati, Swiss German, Tachelhit (Latin), Tajik, Tatar, Tiv, Tok Pisin, Tonga, Tsonga, Tswana, Tumbuka, Umbundu, Uzbek (Cyrillic), Waray, West Albay Bikol, Wolaytta (Latin), Xaasongaxango, Zande, Zarma, Zaza</p>
+</details>
+<details>
+	<summary>Languages with at least 100,000 speakers</summary>
+	<p>Adangme, Adara, Adioukrou, Adyghe, Agatu, Akoose, Akuapem Twi, Alago, Anufo, Ao Naga, Aromanian, Asturian, Asu, Attié, Avaric, Avokaya, Ayizo Gbe, Bacama, Bafut, Bandi, Bari, Basa, Bedjond, Bekwarra, Bena, Bench, Biali, Bimoba, Birifor (Southern), Bislama, Bomu, Breton, Bura-Pabir, Buriat, Bété, Guiberoua, Chechen, Chiduruma, Chimborazo Highland Quichua, Cishingini, Colognian, Comorian (Ngazidja), Corsican, Crimean Turkish, Cyrillic, Crioulo (Upper Guinea), Dagaare (Southern), Dargwa, Dawro, Dazaga, Dendi, Didinga, Dinka (Northeastern), Dogon (Toro So), Duala, Dungan, Ede Ica, Ede Idaca, Ede Ije, Ekpeye, Emai-Iuleha-Ora, Embu, Erzya, Esan, Estonian, Ewondo, Ezaa, Fijian, Fulfulde (Borgu), Fuliiru, Ga, Gagauz, Gawwada, Gbari, Goemai, Gofa, Gonja, Gor, Gourmanchéma, Gude, Gulay, Gumuz, Hyam, Icelandic, Idoma, Igede, Ikwere, Ikwo, Ingush, Izere, Izii, Jenaama Bozo, Jju, Jola-Fonyi, Jur Modo, Kabuverdianu, Kako, Kalanga, Kalmyk, Kamwe, Kaonde, Kara-Kalpak, Karachay-Balkar, Karelian, Kirmanjki, Kissi (Northern), Kita Maninkakan, Kom, Komi, Konkomba, Koyra Chiini, Koyraboro Senni, Kuanyama, Kukele, Kumyk, Kunama, Kuria, Kwere, Ladino, Lak, Lamba, Lamnso’, Latgalian, Lezghian, Ligurian, Limba (West-Central), Lobala, Logo, Lokaa, Loko, Lombard, Luguru, Luvale, Luwo, Luxembourgish, Machame, Mada, Maltese, Mamara Senoufo, Mambila (Nigeria), Mampruli, Mandingo, Mandjak, Maninka (Sankaran), Manyika, Maore Comorian, Latin, Maori, Mapuche, Mari, Ma’di, Mbembe (Cross River), Metaʼ, Me’en, Moba, Moksha, Mongo, Montenegrin, Montenegrin (Latin), Moru, Murle, Mwaghavul, Mwani, Navajo, Ndonga, Neapolitan, Ngas, Ngbandi (Northern), Ngindo, Ngulu, Ntcham, Nyasa Tonga, Nyoro, Nzima, Obolo, Ogbah, Ossetic, Otuho, Papiamento, Picard, Pogolo, Pökoot, Rinconada Bikol, Rombo, Ron, Rwa, Réunion Creole French, Saafi-Saafi, Saho, Sakha, Samburu, Samoan, Sangu, Sapiny, Sassarese Sardinian, Shambala, Shilluk, Silesian, South Ndebele, Southern Bobo Madaré, Southern Giziga, Sranan Tongo, Suba, Syenara Senoufo, Sénoufo, Supyire, Tabassaran, Taita, Takwane, Talysh (Cyrillic), Talysh (Latin), Tarok, Tera, Tetum, Tikar, Tiéyaxo Bozo, Tomo Kan Dogon, Tongan, Tooro, Toposa, Tsikimba, Tsishingini, Tsuvadi, Tunen, Tuvinian, Tyap, Uab Meto, Udmurt, Uyghur (Cyrillic), Vai (Latin), Venetian, Vunjo, Waama, Walloon, Wayuu, Welsh, Western Frisian, Yala, Yalunka, Yao, Yom, Yoruba (Benin), Yucateco, Zaghawa, Zigula</p>
+</details>
+<details>
+	<summary>Languages with at least 10,000 speakers</summary>
+	<p>Abaza, Abkhazian, Aguaruna, Agwagwune, Alekano, Aragonese, Ashe, Awing, Baga Sitemu, Baka (Cameroon/Gabon), Balanta-Ganja, Bana, Banda (West Central), Bapuku, Bassari, Beng, Bhele, Bilen, Bisã, Bokobaru, Bongo, Bozo (Hainyaxo), Bube, Cahungwarya, Cerma, Chamorro, Chumburung, Chuukese, C’Lela, Daba, Deg, Delo, Denya, Dghwede, Dikaka, Doyayo, Duya, Dyan, Ekajuk, Elip, Engenni, Etkywan, Etulo, Evenki, Faroese, Foodo, Friulian, Gbaya (Sudan), Gikyode, Gilbertese, Hawaiian, Hdi, Ika, Innu, Iten, Ivbie North-Okpela-Arhe, Jibu, Kabba, Kaingang, Kaitag, Kalaallisut, Kamuku, Karaboro (Eastern), Kashubian, Keliko, Khanty, Kimré, Komi-Permyak, Koro Wachi, Kuo, Kutep, Kutu, Lehar, Lele, Ligbi, Longuda, Mambila (Cameroon), Mankanya, Marshallese, Mbe, Mbo, Mbugwe, Mbuko, Mendankwe-Nkwen, Merey, Mirandese, Mokole, Morokodo, Muslim Tat, Muslim Tat, Latin, Mwan, Mündü, Nafaanra, Nara, Ndamba, Ndogo, Ndut, Ngangam, Ninzo, Nogai, Nomaande, Noon, Noone, Northern Sami, Nugunu, Okiek, Palauan, Pangu, Parkwa, Pero, Pohnpeian, Rendille, Reshe, Rigwe, Romansh, Sandawe, Selee, Seselwa Creole French, Sheko, Southern Altai, Southern Samo, Suri (Tirmaga-Chai), Sãotomense, Sénoufo, Djimini, Tahitian, Tal, Talinga-Bwisi, Tampulma, Tedaga, Tigon Mbembe, Toussian (Southern), Tsakhur, Tsakhur (Latin), Tsamai, Tula, Tuwuli, Upper Sorbian, Vagla, Vengo, Vidunda, Võro, Waja, Walser, Wan, Wandala, Warji, Western Krahn, Western Mari, Zayse, Zulgo-Gemzek, ut-Hun, ut-Ma’in</p>
+</details>
+
+<h3>OpenType.</h3>
 <table class="padded">
 	<tr>
 		<th>Tag</th>
@@ -422,7 +404,7 @@
 		<th>Examples</th>
 	</tr>
 	<tr>
-		<td>kern &dagger;</td>
+		<td>kern&nbsp;&dagger;</td>
 		<td>Kerning</td>
 		<td><span style="font-feature-settings: 'kern' 0;">GESTALT foray Fjord it’s</span> &rarr; GESTALT foray Fjord it’s</td>
 	</tr>
@@ -446,7 +428,7 @@
 		</td>
 	</tr>
 	<tr>
-		<td>locl &dagger;</td>
+		<td>locl&nbsp;&dagger;</td>
 		<td>Localised Forms</td>
 		<td>Catalan: L·L l·l &rarr; <span lang="ca">L·L l·l</span><br />
 			Romanian: ŞşŢţ &rarr; <span lang="ro">ŞşŢţ</span><br />
@@ -477,12 +459,12 @@
 		<td>0 &rarr; <span style="font-feature-settings: 'zero';">0</span></td>
 	</tr>
 	<tr>
-		<td>ss01 &ddagger;</td>
+		<td>ss01&nbsp;&ddagger;</td>
 		<td>Stylistic Set 1</td>
 		<td>DÐĎƊḌḎ &rarr; <span style="font-feature-settings: 'ss01';">DÐĎƊḌḎ</span></td>
 	</tr>
 	<tr>
-		<td>ss02 &ddagger;</td>
+		<td>ss02&nbsp;&ddagger;</td>
 		<td>Stylistic Set 2</td>
 		<td>269 &rarr; <span style="font-feature-settings: 'ss02';">269</span></td>
 	</tr>
@@ -527,28 +509,28 @@
 &ddagger; default and alternate forms are swapped in Video and Smooth styles</p>
 
 <h3>Dimensions.</h3>
-<p>The Regular, Smooth and Video styles look best at multiples of 7.5pt size (10px) on screen, when the font outlines exactly align with screen pixels. The fonts are deliberately unhinted, to prevent their &ldquo;dots&rdquo; from appearing uneven at other sizes.</p>
-<p>In standards-compliant applications, the <u style="text-decoration-color: #d55;">underline</u> and <del style="text-decoration-color: #d55;">strikeout</del> lines have the correct thickness and positioning to match the dot-matrix grid of the fonts.</p>
-<p>Each grid unit in the fonts is <span style="font-feature-settings: 'frac';">1/10</span> of the em size (0.1em or 0.2ex in CSS units).</p>
+<p>The Regular, Smooth and Video styles look best at multiples of 7.5pt size (10px) on screen, where their outlines align with screen pixels.</p>
+<p>Each dot-matrix grid unit is 10% of the font size (0.1em or 0.2ex in CSS units).</p>
+<p>The <u style="text-decoration-color: var(--strong-colour);">underline</u> and <del style="text-decoration-color: var(--strong-colour);">strikeout</del> lines have the correct thickness and positioning to match the dot-matrix grid of the fonts (in standards-compliant applications).</p>
 </section>
 
 <section>
 <h2 id="design">Design philosophy.</h2>
-<p>Dozens of existing designs were studied in preparation; the goal for this project was to balance consistency and sound design with quirkiness and authenticity to its historic sources.</p>
-<p>While its forebears are strictly utilitarian and technologically restricted, Matrix Sans is intended to be a useful, modern, display font; inspired by other retro-revival typefaces like the popular American Typewriter, it eschews its monospaced heritage in favour of proportional spacing and kerning.</p>
-</section>
-
-
-<section>
-<h2 id="motivation">What&rsquo;s old is new again.</h2>
-<p>(Motivation behind creation)</p>
-<p>Nowadays, "pixel" style fonts like this are very popular, particularly as they evoke nostalgia for retro computers and video games. Most currently available free (and even commercial) fonts in this style are lacking in refinement and glyph coverage, though. Matrix Sans was conceived in 2019 to satisfy the need for a free, versatile and high-quality dot-matrix style font.</p>
+<p>The goal for this project was to balance consistency and attractiveness with quirkiness and authenticity to its historic sources; dozens of existing designs were studied in preparation (see the <a href="research.html">Research page</a> for details).</p>
+<p>Inspired by other retro-revival typefaces like the popular American Typewriter, Matrix Sans uses proportional spacing and kerning to provide a more even appearance.</p>
+<p>In the Video style, the characters 2, 6, 9 and D have special patterns for improved appearance and historical authenticity.</p>
 </section>
 
 <section>
 <h2 id="background">Art imitates life.</h2>
 <p>	Matrix Sans is based on 5&times;7 dot matrix fonts that originated in the mid-20th century. They were first seen with punched card machines and light-up &ldquo;eggcrate&rdquo; signs at stadiums and on game shows. Over time, the fonts became ubiquitous with dot-matrix printers, early computers and video equipment.</p>
 <p>Such fonts still surround us in the 21st century—for example: in LED displays of car radios and microwave ovens; VFDs in hi-fi and audiovisual equipment; electronic road signs and train stations displays; flip-dot displays in buses and airports; LCDs in calculators and the "character LCD" modules found in all kinds of electronic equipment; and dot-matrix printers, which are still used to some extent, particularly for the expiry dates printed on food packaging.</p>
+</section>
+
+<section>
+<h2 id="motivation">What&rsquo;s old is new again.</h2>
+<p>(Motivation behind creation)</p>
+<p>Nowadays, "pixel" style fonts like this are very popular, particularly as they evoke nostalgia for retro computers and video games. Most currently available free (and even commercial) fonts in this style are lacking in refinement and glyph coverage, though. Matrix Sans was conceived in 2019 to satisfy the need for a free, versatile and high-quality dot-matrix style font.</p>
 </section>
 
 <section>
