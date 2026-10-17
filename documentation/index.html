@@ -1,227 +1,569 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8" />
-		<meta name="author" content="Brad Neil">
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<title>Matrix Sans Fonts</title>
-		<link rel="stylesheet" href="style.css" />
-		<link rel="icon" href="favicon.png" />
-		<style>
-			th {
-				text-align: left;
-				color: #ddd;
-			}
-		</style>
-	</head>
-	<body>
-		<header>
-		<h1>Matrix Sans Fonts</h1>
-		<nav>
-			<p>ℹ️<u href="./">About</u> ▪ 💡<a href="inspiration.html">Inspiration</a> ▪ 🔍<a href="research.html">Research</a> ▪ ☑️<a href="tests.html">Tests & Demos</a> ▪ 🖼️<a href="images.html">Images</a>  ▪ 💾<a href="https://github.com/FriedOrange/MatrixSans/releases">Downloads</a></p>
-		</nav>
-		</header>
+<head>
+	<meta charset="utf-8" />
+	<meta name="author" content="Brad Neil">
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Matrix Sans fonts</title>
+	<link rel="stylesheet" href="style.css" />
+	<link rel="icon" href="favicon.png" />
+	<style>
+		:root {
+			interpolate-size: allow-keywords;
+		}
+		svg {border: solid 0.1em var(--line-colour);}
+		svg text {
+			font-size: 80px;
+		}
+		#regular-specimen:hover text, #video-specimen:hover text, #screen-specimen:hover text, #print-specimen:hover text, #raster-specimen:hover text, #sc-specimen:hover text {
+			filter: none;
+			text-shadow: none;
+		}
+		#smooth-specimen:hover text {
+			fill: #ddd;
+		}
+		li + li {margin-top: 0.5em;}
+	</style>
+</head>
 
-		<main>
-		
-		<section>
+<body>
 
-		<h4>On this page</h4> 
-		<p><a href="#">Introduction</a> ▪ <a href="#features">Features</a> ▪ <a href="#design">Design philosophy</a> ▪ <a href="#legal">Copyright/Legal</a></p>
+<header>
+<h1>Matrix Sans.</h1>
+<nav>
+	<p>ℹ️<u href="./">About</u> ▪ 💾<a href="https://github.com/FriedOrange/MatrixSans/releases">Downloads</a> ▪ ✔️<a href="tests.html">Tests</a> ▪ 🔍<a href="research.html">Research</a> </p>
+</nav>
+</header>
 
-		<h2>Introduction</h2>
+<main>
+<section>
+<h2 id="intro">Introduction.</h2>
+<p>Matrix Sans is family of free and open-source fonts based on the classic 5&times;7 dot matrix. It was created to meet the need for better fonts in this perennial style, which is so evocative of &ldquo;tech&rdquo;.</p>
 
-		<p>Matrix Sans is set of open-source fonts based on the classic 5&times;7 dot matrix capitals. The pixelated, retro-style design captures the look of that ubiquitous format, incorporating the best features from historical examples. While its forebears are strictly utilitarian and technologically restricted, Matrix Sans is intended to be a useful, modern, display font family. There are six variants available:</p>
+<p>What distinguishes Matrix Sans from other &ldquo;pixel&rdquo; fonts:</p>
+<ul>
+	<li><strong>Careful design:</strong> borrowing the best features from historical examples while ensuring consistency and legibility</li>
+	<li><strong>Character repertoire:</strong> each font contains over 2000 glyphs, supporting over 700 languages</li>
+	<li><strong>OpenType features:</strong> kerning, mark positioning, small capitals, localised features and more</li>
+	<li><strong>Versatility:</strong> in addition to classic pixel fonts, it includes various styles inspired by retro technologies</li>
+	<li><strong>Quality control:</strong> the <a href="https://github.com/fonttools/fontspector">Fontspector</a> test suite is used to ensure adherence to official standards and best practices</li>
+	<li><strong>Copyleft:</strong> Matrix Sans is available under the <a href="https://openfontlicense.org/">SIL Open Font License</a>; follow the link for the full licence text and FAQ</li>
+</ul>
 
-		<p><span class="big">Regular</span><br /> is like most &ldquo;pixel&rdquo; fonts that use connected, square dots, like the displays of 8-bit home computers and video game consoles from the 1980s.</p>
-		<p><span class="print big">Print</span><br /> is made up of separate circular dots, resembling the output of a dot-matrix printer or the expiry dates on food products. It also mimics the electronic signs found on motorways, at airports and train stations, etc.</p>
-		<p><span class="raster big">Raster</span><br /> consists of horizontal lines with rounded edges, emulating a raster (the set of lines traced out by the electron beam in a CRT, as seen in old computer monitors).</p>
-		<p><span class="screen big">Screen</span><br /> is similar to Print, but uses square dots instead of round ones. It matches the look of the &ldquo;character LCDs&rdquo; seen in many devices, as well as some light-up LED displays.</p>
-		<p><span class="video big">Video</span><br /> is an interpolated version of Regular. It resembles the on-screen displays of VCRs, Teletext, camcorders and the like; harking back to the early days of computerisation in television and home video.</p>
-		<p><span class="smooth big">Smooth</span><br /> is also interpolated, but with perfectly smooth diagonals instead of the jagged steps seen in the other styles.</p>
+<!-- <nav>
+	<h4>On this page:</h4>
+	<p><a href="#family">Meet the family</a> ▪ <a href="#features">Features</a> ▪ <a href="#design">Design philosophy</a> ▪ <a href="#motivation">What&rsquo;s old is new again</a> ▪ <a href="#background">Art imitates life</a> ▪ <a href="#production">How it&rsquo;s made</a></p>
+</nav> -->
+</section>
 
-		<p>Every style also has an accompanying &ldquo;SC&rdquo; variant with <span style="font-feature-settings: 'smcp';">small capitals</span> in place of the regular lowercase (except for Georgian scripts).</p>
+<section>
+<h2 id="family">Meet the family.</h2>
+<p>Matrix Sans comes in six main variants, each with matching monospaced and small-caps versions:</p>
 
-		<p>The Matrix Mono family is mostly the same, but strictly monospaced.</p>
+<h3>Regular.</h3>
+<figure>
+	<svg viewBox="0 0 1024 256" id="regular-specimen" role="img">
+	<style>
+		@font-face {
+			font-family: "Matrix Sans";
+			src: url("webfonts/MatrixSans-Regular.woff2");
+		}
+		#regular-specimen rect {fill: #111;}
+		#regular-specimen text {
+			font-family: "Matrix Sans";
+			fill: #ddd;
+			text-shadow: #536 5px 5px;
+			transition: text-shadow 0.25s ease-in-out;
+		}
+	</style>
+	<rect width="1024" height="512" x="0" y="0" />
+	<text x="512" y="104" text-anchor="middle">GUNPOWDERY BLACKSMITH</text>
+	<text x="512" y="208" text-anchor="middle">§27 ¶14; { 35°29′10″ }</text>
+	</svg>
+</figure>
+<p class="centre"><strong>Matrix Sans Regular</strong> has a plain pixelated look, like the bitmap fonts used in retro games.</p>
 
-		<p>The fonts were created by drawing the Regular glyphs as bitmaps, then turning them into outlines in FontForge with the help of a custom Python script. This method made it convenient to provide multiple variants with different styles of dots, allowing for faithful renditions of the various real-world examples of dot-matrix fonts.</p>
+<h3>Video.</h3>
+<figure>
+	<svg viewBox="0 0 1024 256" id="video-specimen" role="img">
+	<style>
+		@font-face {
+			font-family: "Matrix Sans Video";
+			src: url("webfonts/MatrixSansVideo-Regular.woff2");
+		}
+		#video-specimen rect {fill: #00a;}
+		#video-specimen text {
+			font-family: "Matrix Sans Video";
+			fill: #ddd;
+			filter: url("#blur");
+		}
+	</style>
+	<defs>
+		<filter id="blur">
+			<feGaussianBlur stdDeviation="2, 0" />
+		</filter>
+	</defs>
+	<rect width="1024" height="512" x="0" y="0" />
+	<text x="512" y="104" text-anchor="middle">▶PLAY ОФТАЛЬМОЛОГИЯ</text>
+	<text x="512" y="208" text-anchor="middle">23/04/1987 12:56 PM</text>
+	</svg>
 
-		</section>
+</figure>
+<p class="centre"><strong>Matrix Sans Video</strong> is interpolated to double the resolution, mimicking VCRs and camcorders from the days of analogue video.</p>
 
-		<section>
-		<h2 id="features">Features</h2>
+<h3>Screen.</h3>
+<figure>
+	<svg viewBox="0 0 1024 256" id="screen-specimen" role="img">
+	<style>
+		@font-face {
+			font-family: "Matrix Sans Screen";
+			src: url("webfonts/MatrixSansScreen-Regular.woff2");
+		}
+		#screen-specimen rect {fill: #cdb;}
+		#screen-specimen text {
+			font-family: "Matrix Sans Screen";
+			fill: #111;
+			text-shadow: 3px 3px 3px #aaa;
+			transition: text-shadow 0.25s ease-in-out;
+		}
+	</style>
+	<rect width="1024" height="512" x="0" y="0" />
+	<text x="512" y="104" text-anchor="middle">ΑΠΕΛΕΥΘΈΡΩΣΗ ｾﾝｹﾞｻﾚﾀ</text>
+	<text x="512" y="208" text-anchor="middle">√(3×(5+1)²−6÷2)=10.24695</text>
+	</svg>
+</figure>
+<p class="centre"><strong>Matrix Sans Screen</strong> has discrete square dots that make it resemble a character LCD or electronic sign.</p>
 
-		<h3>Character set</h3>
+<h3>Print.</h3>
+<figure>
+	<svg viewBox="0 0 1024 256" id="print-specimen" role="img">
+	<style>
+		@font-face {
+			font-family: "Matrix Sans Print";
+			src: url("webfonts/MatrixSansPrint-Regular.woff2");
+		}
+		#print-specimen rect {fill: #ffe;}
+		#print-specimen text {
+			font-family: "Matrix Sans Print";
+			fill: #444;
+			filter: url("#displacement");
+		}
+	</style>
+	<defs>
+		<filter id="displacement">
+			<feTurbulence
+				type="turbulence"
+				baseFrequency="0.25	"
+				numOctaves="2"
+				result="turbulence" />
+			<feDisplacementMap
+				in2="turbulence"
+				in="SourceGraphic"
+				scale="4"
+				xChannelSelector="R"
+				yChannelSelector="G" />
+		</filter>
+	</defs>
+	<rect width="1024" height="512" x="0" y="0" />
+	<text x="512" y="104" text-anchor="middle">QTY: 1 SUBTOTAL TAX 5%</text>
+	<text x="512" y="208" text-anchor="middle">$8.95 €3,76 £4.50 ¥200</text>
+	</svg>
+</figure>
+<p class="centre"><strong>Matrix Sans Print</strong> has discrete round dots giving it the look of a dot-matrix printer or flip-dot display.</p>
 
-		<p>The Matrix Sans fonts support dozens of languages written with the Latin, Greek, Cyrillic, Georgian, Armenian, Tifinagh, Hebrew and Lisu scripts. The character sets supported are:</p>
-		
-		<ul>
-			<li><a href="https://github.com/googlefonts/glyphsets/blob/main/GLYPHSETS.md#gf-latin-core">Google Fonts Latin Core</a>, <a href="https://github.com/googlefonts/glyphsets/blob/main/GLYPHSETS.md#gf-latin-vietnamese">Vietnamese</a>, <a href="https://github.com/googlefonts/glyphsets/blob/main/GLYPHSETS.md#gf-latin-plus">Plus</a>, <a href="https://github.com/googlefonts/glyphsets/blob/main/GLYPHSETS.md#gf-latin-beyond">Beyond</a>, <a href="https://github.com/googlefonts/glyphsets/blob/main/GLYPHSETS.md#gf-latin-priafrican">PriAfrican</a>, <a href="https://github.com/googlefonts/glyphsets/blob/main/GLYPHSETS.md#gf-translatin-arabic">TransLatin Arabic</a> and <a href="https://github.com/googlefonts/glyphsets/blob/main/GLYPHSETS.md#gf-translatin-pinyin">TransLatin Pinyin</a>; and <a href="https://adobe-type-tools.github.io/adobe-latin-charsets/adobe-latin-4.html">Adobe Latin 4</a></li>
-			<li><a href="https://github.com/googlefonts/glyphsets/blob/main/GLYPHSETS.md#gf-cyrillic-core">Google Fonts Cyrillic Core</a>, <a href="https://github.com/googlefonts/glyphsets/blob/main/GLYPHSETS.md#gf-cyrillic-plus">Plus</a> and <a href="https://github.com/googlefonts/glyphsets/blob/main/GLYPHSETS.md#gf-cyrillic-pro">Pro</a>; and <a href="http://adobe-type-tools.github.io/adobe-cyrillic-charsets/adobe-cyrillic-3.html">Adobe Cyrillic 3</a></li>
-			<li><a href="https://github.com/googlefonts/glyphsets/blob/main/GLYPHSETS.md#gf-greek-core">Google Fonts Greek Core</a> and <a href="http://adobe-type-tools.github.io/adobe-greek-charsets/adobe-greek-1.html">Adobe Greek 1</a></li>
-			<li><a href="https://en.wikipedia.org/wiki/World_glyph_set">World Glyph Set</a></li>
-			<li><a href="https://learn.microsoft.com/en-us/typography/develop/wgl4">Windows Glyph List 4</a> (except box-drawing characters, etc.)</li>
-		</ul>
+<h3>Raster.</h3>
+<figure>
+	<svg viewBox="0 0 1024 256" id="raster-specimen" role="img">
+	<style>
+		@font-face {
+			font-family: "Matrix Sans Raster";
+			src: url("webfonts/MatrixSansRaster-Regular.woff2");
+		}
+		#raster-specimen rect {fill: #222;}
+		#raster-specimen text {
+			font-family: "Matrix Sans Raster";
+			fill: #3e9;
+			text-shadow: 0 0 40px #2a7;
+			transition: text-shadow 0.25s ease-in-out;
+		}
+	</style>
+	<rect width="1024" height="512" x="0" y="0" />
+	<text x="512" y="104" text-anchor="middle">5 GET A$:IF A$=""THEN 5</text>
+	<text x="512" y="208" text-anchor="middle">470 X=(2^16-1)*3+COS(π)</text>
+	</svg>
+</figure>
+<p class="centre"><strong>Matrix Sans Raster</strong> has soft lines, emulating a monochrome CRT monitor from the days of 8-bit computers.</p>
 
-		<p>For a full showcase of the supported characters, see the <a href="tests.html">Tests & Demos</a> page.</p>
+<h3>Smooth.</h3>
+<figure>
+	<svg viewBox="0 0 1024 256" id="smooth-specimen" role="img">
+	<style>
+		@font-face {
+			font-family: "Matrix Sans Smooth";
+			src: url("webfonts/MatrixSansSmooth-Regular.woff2");
+		}
+		#smooth-specimen rect {fill: #111;}
+		#smooth-specimen text {
+			font-family: "Matrix Sans Smooth";
+			fill: url("#gradient1");
+		}
+	</style>
+	<defs>
+		<linearGradient id="gradient1" gradientTransform="rotate(90)">
+			<stop offset="5%" stop-color="#0dd" />
+			<stop offset="95%" stop-color="#d0d" />
+		</linearGradient>
+	</defs>
+	<rect width="1024" height="512" x="0" y="0" />
+	<text x="512" y="104" text-anchor="middle">ĝůṉpøẅḍèřỷ bľąçkșmĭtħ</text>
+	<text x="512" y="208" text-anchor="middle">#xv “Daze” @Jim 45~70</text>
+	</svg>
+</figure>
+<p class="centre"><strong>Matrix Sans Smooth</strong> has perfectly straight diagonals instead of jagged steps, putting a modern twist on the genre.</p>
 
-		<h3>OpenType features</h3>
+<h3>Matrix Mono.</h3>
+<figure>
+	<svg viewBox="0 0 1024 256" id="mono-specimen" role="img">
+	<style>
+		@font-face {
+			font-family: "Matrix Mono";
+			src: url("webfonts/MatrixMono-Regular.woff2");
+		}
+		#mono-specimen rect {fill: #111;}
+		#mono-specimen text {
+			font-family: "Matrix Mono";
+			fill: #ddd;
+		}
+	</style>
+	<rect width="1024" height="512" x="0" y="0" />
+	<text x="512" y="104" text-anchor="middle">Algæ, Œuf & lilypad?</text>
+	<text x="512" y="208" text-anchor="middle">150ml 2.0M H₂O₂(aq)</text>
+	</svg>
+</figure>
+<p class="centre">Every style above is also available in the <strong>Matrix Mono</strong> family, a monospaced companion to Matrix Sans.</p>
+<p> </p>
 
-		<table class="padded">
-			<tr>
-				<th>Tag</th>
-				<th>Feature name</th>
-				<th>Examples</th>
-			</tr>
-			<tr>
-				<td>kern&dagger;</td>
-				<td>Kerning</td>
-				<td><span style="font-feature-settings: 'kern' 0;">GESTALT foray Fjord it’s</span> &rarr; GESTALT foray Fjord it’s</td>
-			</tr>
-			<tr>
-				<td>smcp</td>
-				<td>Small Capitals</td>
-				<td>abcdefg &rarr; <span style="font-feature-settings: 'smcp';">abcdefg</span><br />
-					αβγδεζη &rarr; <span style="font-feature-settings: 'smcp';">αβγδεζη</span><br />
-					абвгдеж &rarr; <span style="font-feature-settings: 'smcp';">абвгдеж</span><br />
-					աբգդեզէ &rarr; <span style="font-feature-settings: 'smcp';">աբգդեզէ</span>
-				</td>
-			</tr>
-			<tr>
-				<td>c2sc</td>
-				<td>Small Capitals from Capitals</td>
-				<td>ABCDEFG &rarr; <span style="font-feature-settings: 'c2sc';">ABCDEFG</span><br />
-					ΑΒΓΔΕΖΗ &rarr; <span style="font-feature-settings: 'c2sc';">ΑΒΓΔΕΖΗ</span><br />
-					АБВГДЕЖ &rarr; <span style="font-feature-settings: 'c2sc';">АБВГДЕЖ</span><br />
-					ԱԲԳԴԵԶԷ &rarr; <span style="font-feature-settings: 'c2sc';">ԱԲԳԴԵԶԷ</span>
-				</td>
-			</tr>
-			<tr>
-				<td>locl&dagger;</td>
-				<td>Localised Forms</td>
-				<td>Catalan: L·L l·l &rarr; <span lang="ca">L·L l·l</span><br />
-					Romanian: ŞşŢţ &rarr; <span lang="ro">ŞşŢţ</span><br />
-					Northern Sami: Ŋ &rarr; <span lang="se">Ŋ</span><br />
-					Dutch: Ij ij íj &rarr; <span lang="nl">Ij ij íj</span><br />
-					Serbian: б &rarr; <span lang="sr">б</span><br />
-					Bulgarian: вгджзийклптцшщю &rarr; <span lang="bg">вгджзийклптцшщю</span>
-				</td>
-			</tr>
-			<tr>
-				<td>case</td>
-				<td>Case-sensitive forms</td>
-				<td>¡HOLA! ¿QUÉ? ⸘POR FAVOR‽ &rarr; <span style="font-feature-settings: 'case';">¡HOLA! ¿QUÉ? ⸘POR FAVOR‽</span></td>
-			</tr>
-			<tr>
-				<td>frac</td>
-				<td>Fractions</td>
-				<td>123/456 &rarr; <span style="font-feature-settings: 'frac';">123/456</span></td>
-			</tr>
-			<tr>
-				<td>tnum</td>
-				<td>Tabular Figures</td>
-				<td>123123 &rarr; <span style="font-feature-settings: 'tnum';">123123</span></td>
-			</tr>
-			<tr>
-				<td>zero</td>
-				<td>Slashed Zero</td>
-				<td>0 &rarr; <span style="font-feature-settings: 'zero';">0</span></td>
-			</tr>
-			<tr>
-				<td>ss01&ddagger;</td>
-				<td>Stylistic Set 1</td>
-				<td>DÐĎƊḌḎ &rarr; <span style="font-feature-settings: 'ss01';">DÐĎƊḌḎ</span></td>
-			</tr>
-			<tr>
-				<td>ss02&ddagger;</td>
-				<td>Stylistic Set 2</td>
-				<td>269 &rarr; <span style="font-feature-settings: 'ss02';">269</span></td>
-			</tr>
-			<tr>
-				<td>ss03</td>
-				<td>Stylistic Set 3</td>
-				<td>3 &rarr; <span style="font-feature-settings: 'ss03';">3</span></td>
-			</tr>
-			<tr>
-				<td>ss04</td>
-				<td>Stylistic Set 4</td>
-				<td>4 &rarr; <span style="font-feature-settings: 'ss04';">4</span></td>
-			</tr>
-			<tr>
-				<td>ss05</td>
-				<td>Stylistic Set 5</td>
-				<td>φ &rarr; <span style="font-feature-settings: 'ss05';">φ</span></td>
-			</tr>
-			<tr>
-				<td>ss06</td>
-				<td>Stylistic Set 6</td>
-				<td>Ŋ <span style="font-feature-settings: 'c2sc';">Ŋ</span> &rarr; <span style="font-feature-settings: 'ss06';">Ŋ</span> <span style="font-feature-settings: 'c2sc', 'ss06';">Ŋ</span></td>
-			</tr>
-			<tr>
-				<td>ss07</td>
-				<td>Stylistic Set 7</td>
-				<td>б &rarr; <span style="font-feature-settings: 'ss07';">б</span></td>
-			</tr>
-			<tr>
-				<td>ss08</td>
-				<td>Stylistic Set 8</td>
-				<td>вгджзийклптцшщю &rarr; <span style="font-feature-settings: 'ss08';">вгджзийклптцшщю</span></td>
-			</tr>
-			<tr>
-				<td>dlig</td>
-				<td>Discretionary Ligatures</td>
-				<td>ff fi fl ffi ffl &rarr; <span style="font-feature-settings: 'dlig';">ff fi fl ffi ffl</span></td>
-			</tr>
-		</table>
+<h3>SC.</h3>
+<figure>
+	<svg viewBox="0 0 1024 256" id="sc-specimen" role="img">
+	<style>
+		@font-face {
+			font-family: "Matrix Sans";
+			src: url("webfonts/MatrixSans-Regular.woff2");
+		}
+		#sc-specimen rect {fill: #111;}
+		#sc-specimen text {
+			font-family: "Matrix Sans";
+			font-feature-settings: "smcp";
+			fill: #ddd;
+			text-shadow: #246 -5px 0, #246 5px 0, #246 0 5px, #246 0 -5px;
+			transition: text-shadow 0.25s ease-in-out;
+		}
+	</style>
+	<rect width="1024" height="512" x="0" y="0" />
+	<text x="512" y="104" text-anchor="middle">Jackdaws love quartz.</text>
+	<text x="512" y="208" text-anchor="middle">«Từ nhỏ đã nổi tiếng»</text>
+	</svg>
+</figure>
+<p class="centre">Every abovementioned font comes in an &ldquo;<strong>SC</strong>&rdquo; version where the lowercase letters are replaced by <strong class="sc">small capitals</strong>. Use these wherever you want small caps but can&rsquo;t use the OpenType smcp feature.</p>
 
-		<p>&dagger;enabled by default in most applications<br />
-		&ddagger;default and alternate forms are swapped in Video and Smooth styles</p>
+</section>
 
-		<h3>Dimensions</h3>
+<section>
+<h2 id="features">Features.</h2>
 
-		<p>On screen, the Regular, Smooth and Video styles look best at multiples of 15pt (20px) size, where their outlines exactly align with screen pixels. The fonts are deliberately unhinted, to prevent them from appearing uneven at other sizes.</p>
-		
-		<p>In standards-compliant applications, the <u>underline</u> and <del>strikeout</del> lines have the correct thickness and positioning to match the dot-matrix &ldquo;grid&rdquo; of the fonts.</p>
-		
-		<p>Each grid unit in the fonts is <span style="font-feature-settings: 'frac';">1/10</span> of the em size&#x2014;0.1em or 0.2ex in CSS units.</p>
-		</section>
+<h3>Supported characters.</h3>
+<details>
+	<summary>Latin</summary>
+	<dl>
+		<dt>Capital</dt>
+		<dd class="big">A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Á Ă Ắ Ặ Ằ Ẳ Ẵ Ǎ Â Ấ Ậ Ầ Ẩ Ẫ Ä Ạ À Ả Ā Ą Å Ǻ Ⱥ Ã Æ Ǽ Ɑ Ɓ Ć Č Ç Ĉ Ċ Ȼ Ꭓ Ď Ḍ Ɗ Ḏ Đ Ð É Ĕ Ě Ê Ế Ệ Ề Ể Ễ Ë Ė Ẹ È Ẻ Ē Ḗ Ḕ Ę Ẽ Ɛ Ə Ƒ Ğ Ǧ Ģ Ĝ Ġ Ḡ Ǥ Ɡ Ɣ Ɂ Ḫ Ȟ Ĥ Ḥ Ħ Í Ĭ Ǐ Î Ï İ Ị Ì Ỉ Ī Į Ɨ Ĩ Ɪ Ĳ Ɩ Ĵ Ḱ Ǩ Ķ Ḳ Ƙ Ḵ Ĺ Ƚ Ɬ Ľ Ļ Ḷ Ḹ Ḻ Ŀ Ɫ Ł Ƛ Ḿ Ṃ Ń Ň Ņ Ṅ Ṇ Ǹ Ɲ Ṉ Ñ ᴺ Ŋ Ó Ŏ Ǒ Ô Ố Ộ Ồ Ổ Ỗ Ö Ọ Ő Ò Ỏ Ơ Ớ Ợ Ờ Ở Ỡ Ō Ṓ Ṑ Ɵ Ǫ Ǭ Ø Ǿ Õ Ɔ Œ Ŕ Ř Ŗ Ṛ Ṝ Ṟ Ś Š Ş Ŝ Ș Ṡ Ṣ ẞ Ť Ţ Ț Ⱦ Ṭ Ṯ Ŧ Þ Ú Ŭ Ǔ Û Ü Ǘ Ǚ Ǜ Ǖ Ụ Ű Ù Ủ Ư Ứ Ự Ừ Ử Ữ Ū Ų Ů Ũ Ʊ Ẃ Ŵ Ẅ Ẁ Ý Ŷ Ÿ Ẏ Ỵ Ỳ Ƴ Ỷ Ȳ Ỹ Ź Ž Ẑ Ż Ẓ Ẕ Ʒ Ǯ Ꞌ</dd>
+		<dt>Small</dt>
+		<dd class="big">a b c d e f g h i j k l m n o p q r s t u v w x y z á ă ắ ặ ằ ẳ ẵ ǎ â ấ ậ ầ ẩ ẫ ä ạ à ả ā ą å ǻ ⱥ ã ª æ ǽ ɑ ɓ ć č ç ĉ ċ ȼ ꭓ ď ḍ ɗ ḏ đ ð é ĕ ě ê ế ệ ề ể ễ ë ė ẹ è ẻ ē ḗ ḕ ę ẽ ɛ ə ƒ ﬀ ﬃ ﬄ ﬁ ﬂ ğ ǧ ģ ĝ ġ ḡ ǥ ɡ ɣ ɂ ḫ ȟ ĥ ḥ ẖ ħ í ĭ ǐ î ï ị ì ỉ ī į ɨ ĩ ı ɪ ĳ ɩ ǰ ĵ ȷ ḱ ǩ ķ ḳ ƙ ḵ ĸ ĺ ƚ ɬ ľ ļ ḷ ḹ ḻ ŀ ɫ ł ƛ ḿ ṃ ŉ ń ň ņ ṅ ṇ ǹ ɲ ṉ ñ ⁿ ŋ ó ŏ ǒ ô ố ộ ồ ổ ỗ ö ọ ő ò ỏ ơ ớ ợ ờ ở ỡ ō ṓ ṑ ɵ ǫ ǭ ø ǿ õ º œ ɔ ŕ ř ŗ ṛ ṝ ṟ ś š ş ŝ ș ṡ ṣ ſ ß ť ţ ț ẗ ⱦ ṭ ṯ ŧ þ ú ŭ ǔ û ü ǘ ǚ ǜ ǖ ụ ű ù ủ ư ứ ự ừ ử ữ ū ų ů ũ ʊ ẃ ŵ ẅ ẁ ʷ ý ŷ ÿ ẏ ỵ ỳ ƴ ỷ ȳ ỹ ʸ ź ž ẑ ż ẓ ẕ ᶻ ʒ ǯ ꞌ ǂ ʔ ʕ</dd>
+		<dt>Small capital</dt>
+		<dd class="sc big">a b c d e f g h i j k l m n o p q r s t u v w x y z á ă ắ ặ ằ ẳ ẵ ǎ â ấ ậ ầ ẩ ẫ ä ạ à ả ā ą å ǻ ⱥ ã ª æ ǽ ɑ ɓ ć č ç ĉ ċ ȼ ꭓ ď ḍ ɗ ḏ đ ð é ĕ ě ê ế ệ ề ể ễ ë ė ẹ è ẻ ē ḗ ḕ ę ẽ ɛ ə ƒ ğ ǧ ģ ĝ ġ ḡ ǥ ɡ ɣ ɂ ḫ ȟ ĥ ḥ ẖ ħ í ĭ ǐ î ï ị ì ỉ ī į ɨ ĩ ı ɪ ĳ ɩ ǰ ĵ ȷ ḱ ǩ ķ ḳ ƙ ḵ ĸ ĺ ƚ ɬ ľ ļ ḷ ḹ ḻ ŀ ɫ ł ƛ ḿ ṃ ŉ ń ň ņ ṅ ṇ ǹ ɲ ṉ ñ ⁿ ŋ ó ŏ ǒ ô ố ộ ồ ổ ỗ ö ọ ő ò ỏ ơ ớ ợ ờ ở ỡ ō ṓ ṑ ɵ ǫ ǭ ø ǿ õ º œ ɔ ŕ ř ŗ ṛ ṝ ṟ ś š ş ŝ ș ṡ ṣ ſ ß ť ţ ț ẗ ⱦ ṭ ṯ ŧ þ ú ŭ ǔ û ü ǘ ǚ ǜ ǖ ụ ű ù ủ ư ứ ự ừ ử ữ ū ų ů ũ ʊ ẃ ŵ ẅ ẁ ʷ ý ŷ ÿ ẏ ỵ ỳ ƴ ỷ ȳ ỹ ʸ ź ž ẑ ż ẓ ẕ ᶻ ʒ ǯ ꞌ</dd>
+	</dl>
+</details>
+<details>
+	<summary>Armenian</summary>
+	<dl>
+		<dt>Capital</dt>
+		<dd class="big">Ա Բ Գ Դ Ե Զ Է Ը Թ Ժ Ի Լ Խ Ծ Կ Հ Ձ Ղ Ճ Մ Յ Ն Շ Ո Չ Պ Ջ Ռ Ս Վ Տ Ր Ց Ւ Փ Ք Օ Ֆ</dd>
+		<dt>Small</dt>
+		<dd class="big">ՠ ա բ գ դ ե զ է ը թ ժ ի լ խ ծ կ հ ձ ղ ճ մ յ ն շ ո չ պ ջ ռ ս վ տ ր ց ւ փ ք օ ֆ և ֈ ﬓ ﬔ ﬕ ﬖ ﬗ</dd>
+		<dt>Small capital</dt>
+		<dd class="sc big">ՠ ա բ գ դ ե զ է ը թ ժ ի լ խ ծ կ հ ձ ղ ճ մ յ ն շ ո չ պ ջ ռ ս վ տ ր ց ւ փ ք օ ֆ և ֈ</dd>
+		<dt>Punctuation & symbols</dt>
+		<dd class="big">ՙ ՚ ՛ ՜ ՝ ՞ ՟ ։ ֊ ֍ ֎</dd>
+	</dl>
+</details>
+<details>
+	<summary>Cyrillic</summary>
+	<dl>
+		<dt>Capital</dt>
+		<dd class="big">А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ӓ Ӑ Ѓ Ғ Ӻ Ґ Ҕ Ӷ Ѐ Ё Ӗ Ә Ӛ Ӝ Ӂ Җ Ӟ Ҙ Ԑ Ѕ Ӡ Џ Ѝ Ӥ Ӣ Ҋ І Ї Ј Ҟ Ӄ Ҝ Ҡ Ќ Қ Ԯ Ԓ Љ Ӆ Ӎ Ԩ Ң Ҥ Һ Ԧ Ӈ Њ Ӊ Ӧ Ө Ӫ Ӏ Ԥ Ҧ Ҏ Ҫ Ђ Ᲊ Ҭ Ћ Ӱ Ў Ӯ Ӳ Ү Ұ Ӽ Ҩ Ӿ Ҳ Ҵ Ҷ Ҹ Ӵ Ӌ Ҽ Ҿ Ӹ Ҍ Є Ӭ Ѣ Ѫ Ѳ Ѵ Ӕ Ԛ Ԝ</dd>
+		<dt>Small</dt>
+		<dd class="big">а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ӓ ӑ ѓ ғ ӻ ґ ҕ ӷ ѐ ё ӗ ә ӛ ӝ ӂ җ ӟ ҙ ԑ ѕ ӡ џ ѝ ӥ ӣ ҋ і ї ј ҟ ӄ ҝ ҡ ќ қ ԯ ԓ љ ӆ ӎ ԩ ң ҥ һ ԧ ӈ њ ӊ ӧ ө ӫ ӏ ԥ ҧ ҏ ҫ ђ ᲊ ҭ ћ ӱ ў ӯ ӳ ү ұ ҩ ӽ ӿ ҳ ҵ ҷ ҹ ӵ ӌ ҽ ҿ ӹ ҍ є ӭ ѣ ѫ ѳ ѵ ӕ ԛ ԝ</dd>
+		<dt>Small capital</dt>
+		<dd class="sc big">а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ӓ ӑ ѓ ғ ӻ ґ ҕ ӷ ѐ ё ӗ ә ӛ ӝ ӂ җ ӟ ҙ ԑ ѕ ӡ џ ѝ ӥ ӣ ҋ і ї ј ҟ ӄ ҝ ҡ ќ қ ԯ ԓ љ ӆ ӎ ԩ ң ҥ һ ԧ ӈ њ ӊ ӧ ө ӫ ӏ ԥ ҧ ҏ ҫ ђ ᲊ ҭ ћ ӱ ў ӯ ӳ ү ұ ҩ ӽ ӿ ҳ ҵ ҷ ҹ ӵ ӌ ҽ ҿ ӹ ҍ є ӭ ѣ ѫ ѳ ѵ ӕ ԛ ԝ</dd>
+	</dl>
+</details>
+<details>
+	<summary>Deseret</summary>
+	<dl>
+		<dt>Capital</dt>
+		<dd class="big">𐐀 𐐁 𐐂 𐐃 𐐄 𐐅 𐐆 𐐇 𐐈 𐐉 𐐊 𐐋 𐐌 𐐍 𐐎 𐐏 𐐐 𐐑 𐐒 𐐓 𐐔 𐐕 𐐖 𐐗 𐐘 𐐙 𐐚 𐐛 𐐜 𐐝 𐐞 𐐟 𐐠 𐐡 𐐢 𐐣 𐐤 𐐥 𐐦 𐐧</dd>
+		<dt>Small</dt>
+		<dd class="big">𐐨 𐐩 𐐪 𐐫 𐐬 𐐭 𐐮 𐐯 𐐰 𐐱 𐐲 𐐳 𐐴 𐐵 𐐶 𐐷 𐐸 𐐹 𐐺 𐐻 𐐼 𐐽 𐐾 𐐿 𐑀 𐑁 𐑂 𐑃 𐑄 𐑅 𐑆 𐑇 𐑈 𐑉 𐑊 𐑋 𐑌 𐑍 𐑎 𐑏</dd>
+	</dl>
+</details>
+<details>
+	<summary>Georgian</summary>
+	<dl>
+		<dt>Mkhedruli</dt>
+		<dd class="big">ა ბ გ დ ე ვ ზ თ ი კ ლ მ ნ ო პ ჟ რ ს ტ უ ფ ქ ღ ყ შ ჩ ც ძ წ ჭ ხ ჯ ჰ ჱ ჲ ჳ ჴ ჵ ჶ ჷ ჸ ჹ ჺ ჼ ჽ ჾ ჿ</dd>
+		<dt>Mkhedruli mtavruli</dt>
+		<dd class="big">Ა Ბ Გ Დ Ე Ვ Ზ Თ Ი Კ Ლ Მ Ნ Ო Პ Ჟ Რ Ს Ტ Უ Ფ Ქ Ღ Ყ Შ Ჩ Ც Ძ Წ Ჭ Ხ Ჯ Ჰ Ჱ Ჲ Ჳ Ჴ Ჵ Ჶ Ჷ Ჸ Ჹ Ჺ Ჽ Ჾ Ჿ</dd>
+		<dt>Asomtavruli</dt>
+		<dd class="big">Ⴀ Ⴁ Ⴂ Ⴃ Ⴄ Ⴅ Ⴆ Ⴇ Ⴈ Ⴉ Ⴊ Ⴋ Ⴌ Ⴍ Ⴎ Ⴏ Ⴐ Ⴑ Ⴒ Ⴓ Ⴔ Ⴕ Ⴖ Ⴗ Ⴘ Ⴙ Ⴚ Ⴛ Ⴜ Ⴝ Ⴞ Ⴟ Ⴠ Ⴡ Ⴢ Ⴣ Ⴤ Ⴥ Ⴧ Ⴭ</dd>
+		<dt>Nuskhuri</dt>
+		<dd class="big">ⴀ ⴁ ⴂ ⴃ ⴄ ⴅ ⴆ ⴇ ⴈ ⴉ ⴊ ⴋ ⴌ ⴍ ⴎ ⴏ ⴐ ⴑ ⴒ ⴓ ⴔ ⴕ ⴖ ⴗ ⴘ ⴙ ⴚ ⴛ ⴜ ⴝ ⴞ ⴟ ⴠ ⴡ ⴢ ⴣ ⴤ ⴥ ⴧ ⴭ</dd>
+	</dl>
+</details>
+<details>
+	<summary>Greek</summary>
+	<dl>
+		<dt>Capital</dt>
+		<dd class="big">Α Β Γ Δ Ε Ζ Η Θ Ι Κ Λ Μ Ν Ξ Ο Π Ρ Σ Τ Υ Φ Χ Ψ Ω Ά Έ Ή ϴ Ί Ϊ Ό Ύ Ϋ ϓ ϔ ϒ Ώ Ϝ Ϟ Ϙ Ϡ Ͳ Ϛ Ϗ</dd>
+		<dt>Small</dt>
+		<dd class="big">α β γ δ ε ζ η θ ι κ λ μ ν ξ ο π ρ ς σ τ υ φ χ ψ ω ά ϐ έ ϵ ϶ ή ϑ ί ϊ ΐ ό ϖ ϱ ϼ ύ ϋ ΰ ϕ ώ ϗ ϰ ϝ ϟ ϙ ϡ ͳ ϛ</dd>
+		<dt>Small capital</dt>
+		<dd class="sc big">α β γ δ ε ζ η θ ι κ λ μ ν ξ ο π ρ ς σ τ υ φ χ ψ ω ά ϐ έ ϵ ϶ ή ϑ ί ϊ ΐ ό ϖ ϱ ϼ ύ ϋ ΰ ϕ ώ ϗ ϰ ϝ ϟ ϙ ϡ ͳ ϛ</dd>
+		<dt>Symbols</dt>
+		<dd class="big">͵ ΄ ᶿ</dd>
+	</dl>
+</details>
+<details>
+	<summary>Hebrew</summary>
+<p class="rtl big">־ ׃ א ב ג ד ה ו ז ח ט י ך כ ל ם מ ן נ ס ע ף פ ץ צ ק ר ש ת ׳ ״ ﬩&#x200f;</p>
+</details>
+<details>
+	<summary>Kanji/Hànzì</summary>
+	<p class="big">円 土 年 日 月 木 水 火 金</p>
+</details>
+<details>
+	<summary>Katakana (Halfwidth)</summary>
+	<p class="big">｡ ｢ ｣ ､ ･ ｰ ｦ ｧ ｨ ｩ ｪ ｫ ｬ ｭ ｮ ｯ ｱ ｲ ｳ ｴ ｵ ｶ ｷ ｸ ｹ ｺ ｻ ｼ ｽ ｾ ｿ ﾀ ﾁ ﾂ ﾃ ﾄ ﾅ ﾆ ﾇ ﾈ ﾉ ﾊ ﾋ ﾌ ﾍ ﾎ ﾏ ﾐ ﾑ ﾒ ﾓ ﾔ ﾕ ﾖ ﾗ ﾘ ﾙ ﾚ ﾛ ﾜ ﾝ  ﾞ  ﾟ</p>
+</details>
+<details>
+	<summary>Lisu/Fraser</summary>
+	<p class="big">ꓐ ꓑ ꓒ ꓓ ꓔ ꓕ ꓖ ꓗ ꓘ ꓙ ꓚ ꓛ ꓜ ꓝ ꓞ ꓟ ꓠ ꓡ ꓢ ꓣ ꓤ ꓥ ꓦ ꓧ ꓨ ꓩ ꓪ ꓫ ꓬ ꓭ ꓮ ꓯ ꓰ ꓱ ꓲ ꓳ ꓴ ꓵ ꓶ ꓷ 𑾰 ꓸ ꓹ ꓺ ꓻ ꓼ ꓽ ꓾ ꓿</p>
+</details>
+<details>
+	<summary>Shavian</summary>
+	<p class="big">𐑐 𐑚 𐑑 𐑛 𐑒 𐑜 𐑓 𐑝 𐑔 𐑞 𐑕 𐑟 𐑖 𐑠 𐑗 𐑡 𐑘 𐑢 𐑙 𐑣 𐑤 𐑮 𐑥 𐑯 𐑦 𐑰 𐑧 𐑱 𐑨 𐑲 𐑩 𐑳 𐑪 𐑴 𐑫 𐑵 𐑬 𐑶 𐑭 𐑷 𐑸 𐑹 𐑺 𐑻 𐑼 𐑽 𐑾 𐑿</p>
+</details>
+<details>
+	<summary>Tifinagh</summary>
+	<p class="big">ⴰ ⴱ ⴲ ⴳ ⴴ ⴵ ⴶ ⴷ ⴸ ⴹ ⴺ ⴻ ⴼ ⴽ ⴾ ⴿ ⵀ ⵁ ⵂ ⵃ ⵄ ⵅ ⵆ ⵇ ⵈ ⵉ ⵊ ⵋ ⵌ ⵍ ⵎ ⵏ ⵐ ⵑ ⵒ ⵓ ⵔ ⵕ ⵖ ⵗ ⵘ ⵙ ⵚ ⵛ ⵜ ⵝ ⵞ ⵟ ⵠ ⵡ ⵢ ⵣ ⵤ ⵥ ⵦ ⵧ ⵯ ⵰</p>
+</details>
+<details>
+	<summary>Numbers</summary>
+	<dl>
+		<dt>Western Arabic numerals</dt>
+		<dd class="big">0 1 2 3 4 5 6 7 8 9</dd>
+		<dt>Subscript/inferior</dt>
+		<dd class="big">₀ ₁ ₂ ₃ ₄ ₅ ₆ ₇ ₈ ₉</dd>
+		<dt>Superscript/superior</dt>
+		<dd class="big">⁰ ¹ ² ³ ⁴ ⁵ ⁶ ⁷ ⁸ ⁹</dd>
+		<dt>Fractions</dt>
+		<dd class="big">½ ⅓ ⅔ ¼ ¾ ⅛ ⅜ ⅝ ⅞</dd>
+	</dl>
+</details>
+<details>
+	<summary>Punctuation</summary>
+	<p class="big">! " ' ( ) , - . / : ; ? [ \ ] { } ¡ « · ¿ » ; ‐ ‑ ‒ – — ― ‖ ‘ ’ ‚ ‛ “ ” „ • ․ … ‹ › ‽ ⟨ ⟩ ⸘ ⸰ ⸱ 《 》</p>
+</details>
+<details>
+	<summary>Symbols</summary>
+	<dl>
+		<dt>Currency</dt>
+		<dd class="big">$ ¢ £ ¤ ¥ ֏ ฿ ₡ ₣ ₤ ₦ ₧ ₨ ₩ ₪ ₫ € ₭ ₮ ₱ ₲ ₴ ₵ ₸ ₹ ₺ ₼ ₽ ₾ ₿ ⃀</dd>
+		<dt>Mathematics</dt>
+		<dd class="big">% + &lt; = &gt; ¬ ° ± µ × ÷ ‰ ′ ″ ⁄ ⁺ ⁻ ⁼ ⁽ ⁾  ₊ ₋ ₌ ₍ ₎ Ω ∂ ∅ ∆ ∏ ∑ − ∕ ∙ √ ∞ ∫ ≈ ≠ ≤ ≥ </dd>
+		<dt>Arrows</dt>
+		<dd class="big">← ↑ → ↓ ↔ ↕ ↖ ↗ ↘ ↙ </dd>
+		<dt>Shapes</dt>
+		<dd class="big">⏏ ⏩ ⏪ ⏸ ⏹ ⏺ ■ □ ▪ ▫ ▲ △ ▴ ▵ ▶ ▷ ▸ ▹ ▼ ▽ ▾ ▿ ◀ ◁ ◂ ◃ ◆ ◇ ◊ ○ ● ◦ </dd>
+		<dt>Diacritics</dt>
+		<dd class="big">^ ` ~ ¨ ¯ ´ ¸ ʹ ʻ ʼ ʽ ʾ ʿ ˀ ˆ ˇ ˈ ˉ ˊ ˋ ˌ ˍ ː ˗ ˘ ˙ ˚ ˛ ˜ ˝ ˮ ◌́ ◌̂ ◌̃ ◌̄ ◌̆ ◌̇ ◌̈ ◌̉ ◌̊ ◌̋ ◌̌ ◌̍ ◌̒ ◌̓ ◌̕ ◌̛ ◌̣ ◌̤ ◌̦ ◌̧ ◌̨ ◌̩ ◌̮ ◌̱ ◌̲ ◌̵ ◌͘  ΅ </dd>
+		<dt>Miscellaneous</dt>
+		<dd class="big"># &amp; * @ _ | ¦ § © ® ¶ ʹ · ჻ † ‡ ⁚ ℅ ℓ № ℗ ℠ ™ ℮ ⅄ Ⓓ ♠ ♣ ♥ ♦ ◌</dd>
+	</dl>
+</details>
 
-		<section>
-		<h2 id="design">Design philosophy</h2>
+<h3>Supported languages.</h3>
+<details>
+	<summary>Languages with at least 10,000,000 speakers</summary>
+	<p>Belarusian, Cebuano, Czech, Dutch, English, Fanti, Filipino, French, German, Hakka Chinese (Latin), Hausa, Hungarian, Igbo, Iloko, Indonesian, Italian, Javanese, Kazakh, Kinyarwanda, Kituba, Low German, Madurese, Malagasy, Malay (Latin), Nigerian Fulfulde, Nigerian Pidgin, Nyanja, Oromo, Polish, Portuguese, Quechua, Romanian, Russian, Shona, Somali, Spanish, Sudanese Arabic, Sundanese, Swahili, Swahili (Congo), Swedish, Turkish, Turkmen (Latin), Ukrainian, Uzbek, Vietnamese, Wolof, Xhosa, Yoruba, Zulu</p>
+</details>
+<details>
+	<summary>Languages with at least 1,000,000 speakers</summary>
+	<p>Abron, Achinese, Afar, Afrikaans, Albanian, Anaang, Arabic (Chadian Spoken), Armenian, Aymara, Azerbaijani, Azerbaijani (Cyrillic), Baatonum, Balinese, Bambara, Banjar, Baoulé, Bashkir, Basque, Batak Toba, Bedawiyet, Bemba, Berom, Bikol, Bini, Bosnian, Bosnian (Cyrillic), Buginese, Bulgarian, Bulu, Catalan, Cebaara Senoufo, Central Atlas Tamazight, Central-Eastern Niger Fulfulde, Chiga, Chokwe, Chuvash, Croatian, Dagbani, Danish, Dinka, Dyula, Ebira, Efik, Finnish, Fulah, Fulfulde (Adamawa), Fulfulde (Western Niger), Galician, Gamo, Ganda, Georgian, Gheg Albanian, Guarani, Gun, Gusii, Hadiyya, Haitian Creole, Hiligaynon, Hmong, Iraqw, Jamaican Creole English, Kabardian, Kabyle, Kalenjin, Kamba, Khasi, Kikuyu, Kimbundu, Kongo, Konjo, Kpelle, Krio, Kyrgyz, Kʼicheʼ, Lango (Uganda), Latvian, Lingala, Lithuanian, Lomwe, Lozi, Luba-Katanga, Luba-Lulua, Lunda, Luyia, Maasina Fulfulde, Macedonian, Makhuwa, Makhuwa-Meetto, Makonde, Mandinka, Maninkakan (Eastern), Masaaba, Mende, Meru, Minangkabau, Mongolian, Morisyen, Ndau, North Ndebele, Northern Sotho, Norwegian, Norwegian Bokmål, Norwegian Nynorsk, Nuer, Nupe-Nupe-Tako, Nyamwezi, Nyankole, Nyemba, Occitan, Pampanga, Pulaar, Ronga, Rundi, Sango, Sardinian, Scots, Sena, Serbian, Serbian (Latin), Sicilian, Sidamo, Slovak, Slovenian, Soga, Soninke, Southern Sotho, Standard Moroccan Tamazight, Sukuma, Susu, Swati, Swiss German, Tachelhit (Latin), Tajik, Tatar, Tiv, Tok Pisin, Tonga, Tsonga, Tswana, Tumbuka, Umbundu, Uzbek (Cyrillic), Waray, West Albay Bikol, Wolaytta (Latin), Xaasongaxango, Zande, Zarma, Zaza</p>
+</details>
+<details>
+	<summary>Languages with at least 100,000 speakers</summary>
+	<p>Adangme, Adara, Adioukrou, Adyghe, Agatu, Akoose, Akuapem Twi, Alago, Anufo, Ao Naga, Aromanian, Asturian, Asu, Attié, Avaric, Avokaya, Ayizo Gbe, Bacama, Bafut, Bandi, Bari, Basa, Bedjond, Bekwarra, Bena, Bench, Biali, Bimoba, Birifor (Southern), Bislama, Bomu, Breton, Bura-Pabir, Buriat, Bété, Guiberoua, Chechen, Chiduruma, Chimborazo Highland Quichua, Cishingini, Colognian, Comorian (Ngazidja), Corsican, Crimean Turkish, Cyrillic, Crioulo (Upper Guinea), Dagaare (Southern), Dargwa, Dawro, Dazaga, Dendi, Didinga, Dinka (Northeastern), Dogon (Toro So), Duala, Dungan, Ede Ica, Ede Idaca, Ede Ije, Ekpeye, Emai-Iuleha-Ora, Embu, Erzya, Esan, Estonian, Ewondo, Ezaa, Fijian, Fulfulde (Borgu), Fuliiru, Ga, Gagauz, Gawwada, Gbari, Goemai, Gofa, Gonja, Gor, Gourmanchéma, Gude, Gulay, Gumuz, Hyam, Icelandic, Idoma, Igede, Ikwere, Ikwo, Ingush, Izere, Izii, Jenaama Bozo, Jju, Jola-Fonyi, Jur Modo, Kabuverdianu, Kako, Kalanga, Kalmyk, Kamwe, Kaonde, Kara-Kalpak, Karachay-Balkar, Karelian, Kirmanjki, Kissi (Northern), Kita Maninkakan, Kom, Komi, Konkomba, Koyra Chiini, Koyraboro Senni, Kuanyama, Kukele, Kumyk, Kunama, Kuria, Kwere, Ladino, Lak, Lamba, Lamnso’, Latgalian, Lezghian, Ligurian, Limba (West-Central), Lobala, Logo, Lokaa, Loko, Lombard, Luguru, Luvale, Luwo, Luxembourgish, Machame, Mada, Maltese, Mamara Senoufo, Mambila (Nigeria), Mampruli, Mandingo, Mandjak, Maninka (Sankaran), Manyika, Maore Comorian, Latin, Maori, Mapuche, Mari, Ma’di, Mbembe (Cross River), Metaʼ, Me’en, Moba, Moksha, Mongo, Montenegrin, Montenegrin (Latin), Moru, Murle, Mwaghavul, Mwani, Navajo, Ndonga, Neapolitan, Ngas, Ngbandi (Northern), Ngindo, Ngulu, Ntcham, Nyasa Tonga, Nyoro, Nzima, Obolo, Ogbah, Ossetic, Otuho, Papiamento, Picard, Pogolo, Pökoot, Rinconada Bikol, Rombo, Ron, Rwa, Réunion Creole French, Saafi-Saafi, Saho, Sakha, Samburu, Samoan, Sangu, Sapiny, Sassarese Sardinian, Shambala, Shilluk, Silesian, South Ndebele, Southern Bobo Madaré, Southern Giziga, Sranan Tongo, Suba, Syenara Senoufo, Sénoufo, Supyire, Tabassaran, Taita, Takwane, Talysh (Cyrillic), Talysh (Latin), Tarok, Tera, Tetum, Tikar, Tiéyaxo Bozo, Tomo Kan Dogon, Tongan, Tooro, Toposa, Tsikimba, Tsishingini, Tsuvadi, Tunen, Tuvinian, Tyap, Uab Meto, Udmurt, Uyghur (Cyrillic), Vai (Latin), Venetian, Vunjo, Waama, Walloon, Wayuu, Welsh, Western Frisian, Yala, Yalunka, Yao, Yom, Yoruba (Benin), Yucateco, Zaghawa, Zigula</p>
+</details>
+<details>
+	<summary>Languages with at least 10,000 speakers</summary>
+	<p>Abaza, Abkhazian, Aguaruna, Agwagwune, Alekano, Aragonese, Ashe, Awing, Baga Sitemu, Baka (Cameroon/Gabon), Balanta-Ganja, Bana, Banda (West Central), Bapuku, Bassari, Beng, Bhele, Bilen, Bisã, Bokobaru, Bongo, Bozo (Hainyaxo), Bube, Cahungwarya, Cerma, Chamorro, Chumburung, Chuukese, C’Lela, Daba, Deg, Delo, Denya, Dghwede, Dikaka, Doyayo, Duya, Dyan, Ekajuk, Elip, Engenni, Etkywan, Etulo, Evenki, Faroese, Foodo, Friulian, Gbaya (Sudan), Gikyode, Gilbertese, Hawaiian, Hdi, Ika, Innu, Iten, Ivbie North-Okpela-Arhe, Jibu, Kabba, Kaingang, Kaitag, Kalaallisut, Kamuku, Karaboro (Eastern), Kashubian, Keliko, Khanty, Kimré, Komi-Permyak, Koro Wachi, Kuo, Kutep, Kutu, Lehar, Lele, Ligbi, Longuda, Mambila (Cameroon), Mankanya, Marshallese, Mbe, Mbo, Mbugwe, Mbuko, Mendankwe-Nkwen, Merey, Mirandese, Mokole, Morokodo, Muslim Tat, Muslim Tat, Latin, Mwan, Mündü, Nafaanra, Nara, Ndamba, Ndogo, Ndut, Ngangam, Ninzo, Nogai, Nomaande, Noon, Noone, Northern Sami, Nugunu, Okiek, Palauan, Pangu, Parkwa, Pero, Pohnpeian, Rendille, Reshe, Rigwe, Romansh, Sandawe, Selee, Seselwa Creole French, Sheko, Southern Altai, Southern Samo, Suri (Tirmaga-Chai), Sãotomense, Sénoufo, Djimini, Tahitian, Tal, Talinga-Bwisi, Tampulma, Tedaga, Tigon Mbembe, Toussian (Southern), Tsakhur, Tsakhur (Latin), Tsamai, Tula, Tuwuli, Upper Sorbian, Vagla, Vengo, Vidunda, Võro, Waja, Walser, Wan, Wandala, Warji, Western Krahn, Western Mari, Zayse, Zulgo-Gemzek, ut-Hun, ut-Ma’in</p>
+</details>
 
-		<p>When designing the dot-matrix patterns for these fonts, I attempted to strike a balance between the following principles:</p>
+<h3>OpenType.</h3>
+<table class="padded">
+	<tr>
+		<th>Tag</th>
+		<th>Feature name</th>
+		<th>Examples</th>
+	</tr>
+	<tr>
+		<td>kern&nbsp;&dagger;</td>
+		<td>Kerning</td>
+		<td><span style="font-feature-settings: 'kern' 0;">GESTALT foray Fjord it’s</span> &rarr; GESTALT foray Fjord it’s</td>
+	</tr>
+	<tr>
+		<td>smcp</td>
+		<td>Small Capitals</td>
+		<td>abcdefg &rarr; <span style="font-feature-settings: 'smcp';">abcdefg</span><br />
+			αβγδεζη &rarr; <span style="font-feature-settings: 'smcp';">αβγδεζη</span><br />
+			абвгдеж &rarr; <span style="font-feature-settings: 'smcp';">абвгдеж</span><br />
+			աբգդեզէ &rarr; <span style="font-feature-settings: 'smcp';">աբգդեզէ</span>
+		</td>
+	</tr>
+	<tr>
+		<td>c2sc</td>
+		<td>Small Capitals from Capitals</td>
+		<td>ABCDEFG &rarr; <span style="font-feature-settings: 'c2sc';">ABCDEFG</span><br />
+			ΑΒΓΔΕΖΗ &rarr; <span style="font-feature-settings: 'c2sc';">ΑΒΓΔΕΖΗ</span><br />
+			АБВГДЕЖ &rarr; <span style="font-feature-settings: 'c2sc';">АБВГДЕЖ</span><br />
+			ԱԲԳԴԵԶԷ &rarr; <span style="font-feature-settings: 'c2sc';">ԱԲԳԴԵԶԷ</span><br />
+			𐐀𐐁𐐂𐐃𐐄𐐅𐐆 &rarr; <span style="font-feature-settings: 'c2sc';">𐐀𐐁𐐂𐐃𐐄𐐅𐐆</span>
+		</td>
+	</tr>
+	<tr>
+		<td>locl&nbsp;&dagger;</td>
+		<td>Localised Forms</td>
+		<td>Catalan: L·L l·l &rarr; <span lang="ca">L·L l·l</span><br />
+			Romanian: ŞşŢţ &rarr; <span lang="ro">ŞşŢţ</span><br />
+			Northern Sami: Ŋ &rarr; <span lang="se">Ŋ</span><br />
+			Dutch: Ij ij íj &rarr; <span lang="nl">Ij ij íj</span><br />
+			Serbian: б &rarr; <span lang="sr">б</span><br />
+			Bulgarian: вгджзийклптцшщю &rarr; <span lang="bg">вгджзийклптцшщю</span>
+		</td>
+	</tr>
+	<tr>
+		<td>case</td>
+		<td>Case-sensitive forms</td>
+		<td>¡HOLA! ¿QUÉ? ⸘POR FAVOR‽ &rarr; <span style="font-feature-settings: 'case';">¡HOLA! ¿QUÉ? ⸘POR FAVOR‽</span></td>
+	</tr>
+	<tr>
+		<td>frac</td>
+		<td>Fractions</td>
+		<td>123/456 &rarr; <span style="font-feature-settings: 'frac';">123/456</span></td>
+	</tr>
+	<tr>
+		<td>tnum</td>
+		<td>Tabular Figures</td>
+		<td>123123 &rarr; <span style="font-feature-settings: 'tnum';">123123</span></td>
+	</tr>
+	<tr>
+		<td>zero</td>
+		<td>Slashed Zero</td>
+		<td>0 &rarr; <span style="font-feature-settings: 'zero';">0</span></td>
+	</tr>
+	<tr>
+		<td>ss01&nbsp;&ddagger;</td>
+		<td>Stylistic Set 1</td>
+		<td>DÐĎƊḌḎ &rarr; <span style="font-feature-settings: 'ss01';">DÐĎƊḌḎ</span></td>
+	</tr>
+	<tr>
+		<td>ss02&nbsp;&ddagger;</td>
+		<td>Stylistic Set 2</td>
+		<td>269 &rarr; <span style="font-feature-settings: 'ss02';">269</span></td>
+	</tr>
+	<tr>
+		<td>ss03</td>
+		<td>Stylistic Set 3</td>
+		<td>3 &rarr; <span style="font-feature-settings: 'ss03';">3</span></td>
+	</tr>
+	<tr>
+		<td>ss04</td>
+		<td>Stylistic Set 4</td>
+		<td>4 &rarr; <span style="font-feature-settings: 'ss04';">4</span></td>
+	</tr>
+	<tr>
+		<td>ss05</td>
+		<td>Stylistic Set 5</td>
+		<td>φ &rarr; <span style="font-feature-settings: 'ss05';">φ</span></td>
+	</tr>
+	<tr>
+		<td>ss06</td>
+		<td>Stylistic Set 6</td>
+		<td>Ŋ <span style="font-feature-settings: 'c2sc';">Ŋ</span> &rarr; <span style="font-feature-settings: 'ss06';">Ŋ</span> <span style="font-feature-settings: 'c2sc', 'ss06';">Ŋ</span></td>
+	</tr>
+	<tr>
+		<td>ss07</td>
+		<td>Stylistic Set 7</td>
+		<td>б &rarr; <span style="font-feature-settings: 'ss07';">б</span></td>
+	</tr>
+	<tr>
+		<td>ss08</td>
+		<td>Stylistic Set 8</td>
+		<td>вгджзийклптцшщю &rarr; <span style="font-feature-settings: 'ss08';">вгджзийклптцшщю</span></td>
+	</tr>
+	<tr>
+		<td>dlig</td>
+		<td>Discretionary Ligatures</td>
+		<td>ff fi fl ffi ffl &rarr; <span style="font-feature-settings: 'dlig';">ff fi fl ffi ffl</span></td>
+	</tr>
+</table>
 
-		<ul>
-			<li>authenticity</li>
-			<li>quirkiness</li>
-			<li>consistency</li>
-			<li>sound design</li>
-		</ul>
+<p>&dagger; enabled by default in most applications<br />
+&ddagger; default and alternate forms are swapped in Video and Smooth styles</p>
 
-		<p><u>Authenticity</u> and <u>quirkiness</u> are often in conflict with <u>consistency</u> and <u>sound design</u>; the countless historical 5&times;7 fonts contain many unusual-looking (<u>quirky</u>) features, which by their nature are often inconsistent.</p>
+<h3>Dimensions.</h3>
+<p>The Regular, Smooth and Video styles look best at multiples of 7.5pt size (10px) on screen, where their outlines align with screen pixels.</p>
+<p>Each dot-matrix grid unit is 10% of the font size (0.1em or 0.2ex in CSS units).</p>
+<p>The <u style="text-decoration-color: var(--strong-colour);">underline</u> and <del style="text-decoration-color: var(--strong-colour);">strikeout</del> lines have the correct thickness and positioning to match the dot-matrix grid of the fonts (in standards-compliant applications).</p>
+</section>
 
-		<p>In order to retain the essence and charm of existing 5&times;7 fonts, yet rein in their oddities and avoid ugliness, none of these principles can be <u>fully</u> embraced. Instead, they serve as a guide while trying to choose the most coherent, well thought-out designs possible for this project.</p>
+<section>
+<h2 id="design">Design philosophy.</h2>
+<p>The goal for this project was to balance consistency and attractiveness with quirkiness and authenticity to its historic sources. Dozens of existing designs were studied in preparation; see the <a href="research.html">Research page</a> for details.</p>
+<p>Inspired by other retro-revival typefaces like the popular American Typewriter, Matrix Sans uses proportional spacing and kerning to provide a more even appearance.</p>
+<p>In the Video style, the characters 2, 6, 9 and D have special patterns for improved appearance and historical authenticity.</p>
+</section>
 
-		<h3>Proportional spacing</h3>
+<section>
+<h2 id="background">Art imitates life.</h2>
+<p>	Matrix Sans is based on 5&times;7 dot matrix fonts that originated in the mid-20th century. They were first seen with punched card machines and light-up &ldquo;eggcrate&rdquo; signs at stadiums and on game shows. Over time, the fonts became ubiquitous with dot-matrix printers, early computers and video equipment.</p>
+<p>Such fonts still surround us in the 21st century—for example: in LED displays of car radios and microwave ovens; VFDs in hi-fi and audiovisual equipment; electronic road signs and train stations displays; flip-dot displays in buses and airports; LCDs in calculators and the "character LCD" modules found in all kinds of electronic equipment; and dot-matrix printers, which are still used to some extent, particularly for the expiry dates printed on food packaging.</p>
+</section>
 
-		<p>Readers today expect visually consistent spacing around all characters, including narrow ones like <u>1 I i l</u> and punctuation marks. Trading some <u>authenticity</u> for <u>sound design</u>, this font family is proportionally spaced, unlike most prior 5&times;7 fonts. The proportionally-spaced typefaces <a href="https://www.fonts.com/font/itc/itc-american-typewriter">American Typewriter</a> and <a href="https://www.fonts.com/font/linotype/ocr-a-tribute">OCR A Tribute</a> are similarly inspired by classic monospaced designs, but take the further step of tweaking the proportions of the glyphs themselves, in the pursuit of a more conventional reading experience. This design doesn't go that far: all glyphs (and spaces between them) are still based strictly on a square grid. Where possible, glyphs have been kept to no more than 5 dots wide, which would allow for a monospaced version to be created with mostly the same glyphs.</p>
-		</section>
+<section>
+<h2 id="motivation">What&rsquo;s old is new again.</h2>
+<p>Nowadays, "pixel" style fonts like this are very popular, particularly as they evoke nostalgia for retro computers and video games. Most currently available free (and even commercial) fonts in this style are lacking in refinement and glyph coverage, though. Matrix Sans was conceived in 2019 to satisfy the need for a free, versatile and high-quality dot-matrix style font.</p>
+</section>
 
+<section>
+<h2 id="production">How it&rsquo;s made.</h2>
+<p>Matrix Sans was created by drawing the glyphs as bitmaps, then turning them into outlines in FontForge with the help of a custom Python script. This method made it trivial to provide multiple variants with different styles of dots, allowing for faithful renditions of the various real-world examples of dot-matrix fonts.</p>
+</section>
+</main>
 
-		<section>
-		<h2 id="legal">Copyright/Legal</h2>
-
-		<p>The Matrix Sans fonts are open source, licenced under the <a href="https://scripts.sil.org/OFL">SIL Open Font License, Version 1.1</a> (see link for full licence text and FAQ). In short, this means that:</p>
-		<ul>
-			<li>You can use them in books, posters, artwork, logos, and on websites, even make 3D objects with the outlines—<u>no acknowledgement is required</u></li>
-			<li>You can bundle them in apps or software subject to certain conditions</li>
-			<li>You can freely modify and redistribute them under the same licence</li>
-		</ul>
-		</section>
-		</main>
-
-		<footer>
-			<p>&copy; Copyright 2026 <a href="https://github.com/FriedOrange/MatrixSans">The Matrix Sans Project Authors</a></p>
-		</footer>
-	</body>
+<footer>
+	<p>&copy; Copyright 2022-2026 <a href="https://github.com/FriedOrange/MatrixSans">The Matrix Sans Project Authors</a></p>
+</footer>
+</body>
 </html>
