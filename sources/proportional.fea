@@ -500,7 +500,7 @@ feature kern {
 	pos P jcircumflex.sc -200;
 	enum pos [g q y yacute eng eng.sc.loclNSM] @hookleft 100;
 	enum pos [dcroat f] @aother -100;
-	pos ldot l -200;
+	pos ldot l -100;
 	pos Chilatin s 0;
 
 	# class kerning rules
