@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1675081307
-ModificationTime: 1790426113
+ModificationTime: 1792412076
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -44,8 +44,8 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 448 16 12
-BeginChars: 1114139 192
+WinInfo: 1113952 16 12
+BeginChars: 1114140 193
 
 StartChar: quarterdot
 Encoding: 1114112 -1 0
@@ -8352,6 +8352,48 @@ SplineSet
  150 250 l 1
  150 200 l 1
  50 200 l 1
+EndSplineSet
+EndChar
+
+StartChar: ho-ar.sc
+Encoding: 1114139 -1 192
+Width: 600
+VWidth: 0
+Flags: HWO
+LayerCount: 2
+Fore
+SplineSet
+50 0 m 1
+ 50 100 l 1
+ 100 100 l 1
+ 100 150 l 1
+ 150 150 l 1
+ 150 200 l 1
+ 200 200 l 1
+ 200 250 l 1
+ 250 250 l 1
+ 250 300 l 1
+ 300 300 l 1
+ 300 400 l 1
+ 250 400 l 1
+ 250 500 l 1
+ 350 500 l 1
+ 350 450 l 1
+ 400 450 l 1
+ 400 400 l 1
+ 450 400 l 1
+ 450 300 l 1
+ 400 300 l 1
+ 400 250 l 1
+ 350 250 l 1
+ 350 200 l 1
+ 300 200 l 1
+ 300 150 l 1
+ 250 150 l 1
+ 250 100 l 1
+ 550 100 l 1
+ 550 0 l 1
+ 50 0 l 1
 EndSplineSet
 EndChar
 EndChars

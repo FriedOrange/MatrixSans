@@ -258,7 +258,7 @@ feature mkmk {
 @overhang3R_ar = [ringhalfleft-ar comma-ar men-ar.sc];
 @overhang3Rcurve3TR_ar = [Yiwn-ar Eh-ar To-ar eh-ar];
 @openmidR_ar = [Et-ar];
-@underhangR_ar = [Liwn-ar Ghad-ar Vew-ar gim-ar da-ar yiwn-ar ech_yiwn-ar ghad-ar.sc vew-ar.sc l.sc];
+@underhangR_ar = [Liwn-ar Ghad-ar Vew-ar gim-ar da-ar yiwn-ar ech_yiwn-ar ghad-ar.sc vew-ar.sc l.sc ho-ar.sc];
 @underhang2R_ar = [Now-ar Sha-ar cha-ar now-ar.sc sha-ar.sc feh-ar.sc];
 @curve2TR_ar = [Ken-ar];
 @curve2R_ar = [Piwr-ar Xeh-ar];
@@ -266,7 +266,7 @@ feature mkmk {
 @curveBR2TR_ar = [Ech-ar];
 @curveBRunderhang3R_ar = [Feh-ar feh-ar yistroke-ar];
 @curve2BRunderhang3R_ar = [to-ar gim-ar.sc da-ar.sc to-ar.sc zhe-ar.sc ini-ar.sc ra-ar.sc ef-cy.sc];
-@shortcurveTR_ar = [aybturned-ar ben-ar et-ar ini-ar ho-ar ja-ar sha-ar vo-ar jheh-ar ra-ar tiwn-ar reh-ar piwr-ar keh-ar oh-ar men_ini-ar ghad-ar ech-ar.sc za-ar.sc et-ar.sc xeh-ar.sc ca-ar.sc ken-ar.sc ho-ar.sc ja-ar.sc yi-ar.sc vo-ar.sc cha-ar.sc peh-ar.sc jheh-ar.sc co-ar.sc keh-ar.sc];
+@shortcurveTR_ar = [aybturned-ar ben-ar et-ar ini-ar ho-ar ja-ar sha-ar vo-ar jheh-ar ra-ar tiwn-ar reh-ar piwr-ar keh-ar oh-ar men_ini-ar ghad-ar ech-ar.sc za-ar.sc et-ar.sc xeh-ar.sc ca-ar.sc ken-ar.sc ja-ar.sc yi-ar.sc vo-ar.sc cha-ar.sc peh-ar.sc jheh-ar.sc co-ar.sc keh-ar.sc];
 @shortR_ar = [ayb-ar ech-ar zhe-ar xeh-ar ca-ar ken-ar yi-ar now-ar peh-ar seh-ar co-ar men_now-ar men_ech-ar vew_now-ar men_xeh-ar liwn-ar ayb-ar.sc ben-ar.sc u.sc s]; #zhe-ar also curveBR
 @underhangN2R_ar = [za-ar liwn-ar ghad-ar cha-ar vew-ar]; # NB: USE IN SINGLE PAIR RULES ONLY; ghad-ar also shortcurveTR
 
@@ -406,14 +406,14 @@ feature mkmk {
 @overhang3L_ar = [Gim-ar apostrophe-ar emphas-ar exclam-ar question-ar];
 @openmidL_ar = [Za-ar Ja-ar];
 @strokemidL_ar = [hyphen-ar gim-ar.sc da-ar.sc ghad-ar.sc peh-ar.sc co-ar.sc];
-@underhang2L_ar = [Ho-ar Keh-ar zhe-ar.sc ja-ar.sc jheh-ar.sc]; # Keh-ar also curveBL
+@underhang2L_ar = [Ho-ar Keh-ar zhe-ar.sc ja-ar.sc jheh-ar.sc ho-ar.sc]; # Keh-ar also curveBL
 @underhang3L_ar = [Zhe-ar ca-ar ja-ar];
 @underhangN1L_ar = [yi-ar yistroke-ar];
 @curve2BL_ar = [Ken-ar];
 @curve2L_ar = [Piwr-ar];
 @curve3L_ar = [Vew-ar];
 @shortL_ar = [aybturned-ar ayb-ar ben-ar da-ar et-ar to-ar liwn-ar ghad-ar men-ar vo-ar peh-ar ra-ar seh-ar vew-ar tiwn-ar reh-ar yiwn-ar piwr-ar ayb-ar.sc ech-ar.sc eh-ar.sc ini-ar.sc xeh-ar.sc ca-ar.sc ken-ar.sc men-ar.sc sha-ar.sc yiwn-ar.sc l.sc u.sc fullstop-ar];
-@shortcurveTL_ar = [gim-ar za-ar zhe-ar cheh-ar sha-ar cha-ar jheh-ar co-ar oh-ar ben-ar.sc za-ar.sc et-ar.sc to-ar.sc vo-ar.sc cha-ar.sc ra-ar.sc vew-ar.sc reh-ar.sc feh-ar.sc ho-ar.sc s keh-ar]; # sha-ar also shortoverhang2L; jheh-ar also curve2BL
+@shortcurveTL_ar = [gim-ar za-ar zhe-ar cheh-ar sha-ar cha-ar jheh-ar co-ar oh-ar ben-ar.sc za-ar.sc et-ar.sc to-ar.sc vo-ar.sc cha-ar.sc ra-ar.sc vew-ar.sc reh-ar.sc feh-ar.sc s keh-ar]; # sha-ar also shortoverhang2L; jheh-ar also curve2BL
 @descendL_ar = [ben-ar et-ar to-ar ini-ar liwn-ar xeh-ar yi-ar cha-ar reh-ar keh-ar yistroke-ar]; # NB: USE IN SINGLE PAIR RULES ONLY
 
 @overhangL_ge = [uni10A6 uni10A8 uni10AE uni10AF uni2D06];
@@ -809,7 +809,7 @@ feature kern {
 	# pos to-ar keh-ar -100;
 	enum pos @underhangN2R_ar @descendL_ar 100;
 	enum pos xeh-ar.sc keh-ar.sc -100;
-	enum pos [et-ar.sc ghad-ar.sc men-ar.sc vew-ar.sc] [ho-ar.sc yi-ar.sc ef-cy.sc] -100;
+	enum pos [et-ar.sc ghad-ar.sc men-ar.sc vew-ar.sc] [yi-ar.sc ef-cy.sc] -100;
 	pos @overhangmidR_ar @underhang2L_ar -100;
 	pos @overhangmidR_ar @underhangN1L_ar -100;
 	pos @overhangmidR_ar keh-ar.sc -100;
