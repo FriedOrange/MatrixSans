@@ -147,7 +147,7 @@ feature ccmp {
 
 	script latn;
 	# subs for D, Eth etc to be inserted here for Video and Smooth styles
-	sub D by D.alt;sub Eth by Eth.alt;sub Dcroat by Dcroat.alt;sub Dhook by Dhook.alt;sub Dcaron by Dcaron.alt;sub Ddotbelow by Ddotbelow.alt;sub Dmacronbelow by Dmacronbelow.alt;### <-- RULES INSERTED AUTOMATICALLY
+	### <-- RULES INSERTED AUTOMATICALLY
 	sub y' @_marks_below by y.titl;
 	# soft dotted characters
 	sub [i j ibar]' @_marks_above by [dotlessi jdotless ibardotless];
@@ -289,18 +289,23 @@ feature subs {
 	lookup DNOM;
 } subs;
 
+lookup D_ALT {
+	# these get added to the end of ccmp automatically for Video style
+	sub D by D.alt;
+	sub Eth by Eth.alt;
+	sub Dcroat by Dcroat.alt;
+	sub Dhook by Dhook.alt;
+	sub Dcaron by Dcaron.alt;
+	sub Ddotbelow by Ddotbelow.alt;
+	sub Dmacronbelow by Dmacronbelow.alt;
+	sub uni20C3 by uni20C3.alt;
+} D_ALT;
+
 feature ss01 {
 	featureNames {
 		name "Alternate capital letter D, etc.";
 	};
-	# these get added to the end of ccmp automatically for Video style
-	sub D.alt by D;
-	sub Eth.alt by Eth;
-	sub Dcroat.alt by Dcroat;
-	sub Dhook.alt by Dhook;
-	sub Dcaron.alt by Dcaron;
-	sub Ddotbelow.alt by Ddotbelow;
-	sub Dmacronbelow.alt by Dmacronbelow;
+	lookup D_ALT;
 } ss01;
 
 feature ss02 {
@@ -361,19 +366,13 @@ feature salt {
 	sub four by four.alt;
 	sub six by six.alt;
 	sub nine by nine.alt;
-	sub D by D.alt;
-	sub Eth by Eth.alt;
-	sub Dcaron by Dcaron.alt;
-	sub Dcroat by Dcroat.alt;
-	sub Dhook by Dhook.alt;
-	sub Ddotbelow by Ddotbelow.alt;
-	sub Dmacronbelow by Dmacronbelow.alt;
 	sub Eng by Eng.loclNSM;
 	sub eng.sc by eng.sc.loclNSM;
 	sub phi by phi1;
 	sub phi1 by phi;
 	sub zero by O;
 	sub zero.sc by o;
+	lookup D_ALT;
 	lookup locl_SRB;
 	lookup locl_BGR;
 } salt;

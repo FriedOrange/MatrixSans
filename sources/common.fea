@@ -289,10 +289,7 @@ feature subs {
 	lookup DNOM;
 } subs;
 
-feature ss01 {
-	featureNames {
-		name "Alternate capital letter D, etc.";
-	};
+lookup D_ALT {
 	# these get added to the end of ccmp automatically for Video style
 	sub D by D.alt;
 	sub Eth by Eth.alt;
@@ -301,6 +298,14 @@ feature ss01 {
 	sub Dcaron by Dcaron.alt;
 	sub Ddotbelow by Ddotbelow.alt;
 	sub Dmacronbelow by Dmacronbelow.alt;
+	sub uni20C3 by uni20C3.alt;
+} D_ALT;
+
+feature ss01 {
+	featureNames {
+		name "Alternate capital letter D, etc.";
+	};
+	lookup D_ALT;
 } ss01;
 
 feature ss02 {
@@ -361,19 +366,13 @@ feature salt {
 	sub four by four.alt;
 	sub six by six.alt;
 	sub nine by nine.alt;
-	sub D by D.alt;
-	sub Eth by Eth.alt;
-	sub Dcaron by Dcaron.alt;
-	sub Dcroat by Dcroat.alt;
-	sub Dhook by Dhook.alt;
-	sub Ddotbelow by Ddotbelow.alt;
-	sub Dmacronbelow by Dmacronbelow.alt;
 	sub Eng by Eng.loclNSM;
 	sub eng.sc by eng.sc.loclNSM;
 	sub phi by phi1;
 	sub phi1 by phi;
 	sub zero by O;
 	sub zero.sc by o;
+	lookup D_ALT;
 	lookup locl_SRB;
 	lookup locl_BGR;
 } salt;

@@ -1318,6 +1318,9 @@
 		<string>lari</string>
 		<string>bitcoin</string>
 		<string>uni20C0</string>
+		<string>uni20C1</string>
+		<string>uni20C3</string>
+		<string>uni20C4</string>
 		<string>uni2105</string>
 		<string>literSign</string>
 		<string>numero</string>
@@ -2053,6 +2056,7 @@
 		<string>uni03E1.sc</string>
 		<string>Iacute_Jacute</string>
 		<string>sha-cy.loclBGR</string>
+		<string>uni20C3.alt</string>
 	</array>
 	<key>public.openTypeCategories</key>
 	<dict>
@@ -5467,6 +5471,14 @@
 		<key>uni208E</key>
 		<string>base</string>
 		<key>uni20C0</key>
+		<string>base</string>
+		<key>uni20C1</key>
+		<string>base</string>
+		<key>uni20C3</key>
+		<string>base</string>
+		<key>uni20C3.alt</key>
+		<string>base</string>
+		<key>uni20C4</key>
 		<string>base</string>
 		<key>uni2105</key>
 		<string>base</string>
