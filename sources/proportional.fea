@@ -738,7 +738,7 @@ feature kern {
 	pos @talloverhangR_gr @shortcurveTL_gr -100;
 	pos @talloverhangR_gr @shortcurveL_gr -100;
 	pos @talloverhangR_gr @shortL_gr -100;
-	pos @talloverhangR_gr @shortcurveBLL_gr -100;
+	pos @talloverhangR_gr @shortcurveBL_gr -100;
 	pos @talloverhangR_gr @underhangL_gr -100;
 	pos @talloverhangR_gr @underhang3L_gr -100;
 	pos @talloverhangR_gr @strokemidL_gr -100;
