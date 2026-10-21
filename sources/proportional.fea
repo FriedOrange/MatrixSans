@@ -393,7 +393,8 @@ feature mkmk {
 @shortcurveL_gr = [alphatonos epsilontonos alpha epsilon omicron sigmafinal sigma omegatonos omega phi1 zero.sc uni03D9 uni03DB uni03F5];
 @shortcurveTL_gr = [rho omega.sc omegatonos.sc uni03F1];
 @shortcurve2TL_gr = [alphatonos.sc a.sc ef-cy.sc];
-@shortL_gr = [kappa mu upsilon phi psi upsilondieresis upsilontonos kaiSymbol guillemotright guilsinglright epsilontonos.sc etatonos.sc iotatonos.sc b.sc ge-cy e.sc z h.sc i.sc m.sc n.sc xi.sc pe-cy p.sc sigma.sc x uni03D6 uni03DD uni03F0 uni03F6 kgreenlandic];
+@shortL_gr = [kappa mu kaiSymbol guillemotright guilsinglright epsilontonos.sc etatonos.sc iotatonos.sc b.sc ge-cy e.sc z h.sc i.sc m.sc n.sc xi.sc pe-cy p.sc sigma.sc x uni03DD uni03F0 uni03F6 kgreenlandic];
+@shortcurveBL_gr = [upsilon phi psi upsilon upsilondieresis upsilontonos uni03D6];
 @underhangL_gr = [lowernumeral-greek questiongreek semicolon quotesinglbase quotedblbase uni03FC];
 @underhang2L_gr = [delta.sc lambda.sc];
 @underhang3L_gr = [Delta Lambda delta uni03D1];
@@ -737,6 +738,7 @@ feature kern {
 	pos @talloverhangR_gr @shortcurveTL_gr -100;
 	pos @talloverhangR_gr @shortcurveL_gr -100;
 	pos @talloverhangR_gr @shortL_gr -100;
+	pos @talloverhangR_gr @shortcurveBLL_gr -100;
 	pos @talloverhangR_gr @underhangL_gr -100;
 	pos @talloverhangR_gr @underhang3L_gr -100;
 	pos @talloverhangR_gr @strokemidL_gr -100;
@@ -775,6 +777,7 @@ feature kern {
 	pos @openR_gr @shortcurveL_gr -100;
 	pos @openR_gr @strokemidL_gr -100;
 	pos @openR_gr @shortoverhang2L_gr -100;
+	pos @openR_gr @shortcurveBL_gr -100;
 	pos @openmidR_gr @shortoverhangL_gr -100;
 	pos @openmidR_gr @shortoverhang2L_gr -100;
 	pos @openmidR_gr @strokemidL_gr -100;
