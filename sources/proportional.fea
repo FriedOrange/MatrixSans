@@ -394,7 +394,7 @@ feature mkmk {
 @shortcurveTL_gr = [rho omega.sc omegatonos.sc uni03F1];
 @shortcurve2TL_gr = [alphatonos.sc a.sc ef-cy.sc];
 @shortL_gr = [kappa mu kaiSymbol guillemotright guilsinglright epsilontonos.sc etatonos.sc iotatonos.sc b.sc ge-cy e.sc z h.sc i.sc m.sc n.sc xi.sc pe-cy p.sc sigma.sc x uni03DD uni03F0 uni03F6 kgreenlandic];
-@shortcurveBL_gr = [upsilon phi psi upsilon upsilondieresis upsilontonos uni03D6];
+@shortcurveBL_gr = [upsilon phi psi upsilondieresis upsilontonos uni03D6];
 @underhangL_gr = [lowernumeral-greek questiongreek semicolon quotesinglbase quotedblbase uni03FC];
 @underhang2L_gr = [delta.sc lambda.sc];
 @underhang3L_gr = [Delta Lambda delta uni03D1];
