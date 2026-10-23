@@ -133,4 +133,8 @@ img {
 		max-width: 100%;
 		margin: 1em auto;
 	}
+	table {
+		display: block;
+		overflow-x: auto;
+	}
 }
