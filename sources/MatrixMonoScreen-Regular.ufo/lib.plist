@@ -2154,6 +2154,17 @@
 		<string>Iacute_Jacute</string>
 		<string>sha-cy.loclBGR</string>
 		<string>uni20C3.alt</string>
+		<string>uni0266.sc</string>
+		<string>uni0271.sc</string>
+		<string>uni027D.sc</string>
+		<string>uni0280.sc</string>
+		<string>uni0288.sc</string>
+		<string>uni0289.sc</string>
+		<string>uni029D.sc</string>
+		<string>uniA7B5.sc</string>
+		<string>uni0205.sc</string>
+		<string>uni0250.sc</string>
+		<string>uni0265.sc</string>
 	</array>
 	<key>public.openTypeCategories</key>
 	<dict>
@@ -5061,6 +5072,8 @@
 		<string>base</string>
 		<key>uni0205</key>
 		<string>base</string>
+		<key>uni0205.sc</key>
+		<string>base</string>
 		<key>uni0241</key>
 		<string>base</string>
 		<key>uni0242</key>
@@ -5070,6 +5083,8 @@
 		<key>uni0245</key>
 		<string>base</string>
 		<key>uni0250</key>
+		<string>base</string>
+		<key>uni0250.sc</key>
 		<string>base</string>
 		<key>uni0252</key>
 		<string>base</string>
@@ -5097,7 +5112,11 @@
 		<string>base</string>
 		<key>uni0265</key>
 		<string>base</string>
+		<key>uni0265.sc</key>
+		<string>base</string>
 		<key>uni0266</key>
+		<string>base</string>
+		<key>uni0266.sc</key>
 		<string>base</string>
 		<key>uni0267</key>
 		<string>base</string>
@@ -5112,6 +5131,8 @@
 		<key>uni0270</key>
 		<string>base</string>
 		<key>uni0271</key>
+		<string>base</string>
+		<key>uni0271.sc</key>
 		<string>base</string>
 		<key>uni0273</key>
 		<string>base</string>
@@ -5129,9 +5150,13 @@
 		<string>base</string>
 		<key>uni027D</key>
 		<string>base</string>
+		<key>uni027D.sc</key>
+		<string>base</string>
 		<key>uni027E</key>
 		<string>base</string>
 		<key>uni0280</key>
+		<string>base</string>
+		<key>uni0280.sc</key>
 		<string>base</string>
 		<key>uni0281</key>
 		<string>base</string>
@@ -5143,7 +5168,11 @@
 		<string>base</string>
 		<key>uni0288</key>
 		<string>base</string>
+		<key>uni0288.sc</key>
+		<string>base</string>
 		<key>uni0289</key>
+		<string>base</string>
+		<key>uni0289.sc</key>
 		<string>base</string>
 		<key>uni028B</key>
 		<string>base</string>
@@ -5172,6 +5201,8 @@
 		<key>uni029C</key>
 		<string>base</string>
 		<key>uni029D</key>
+		<string>base</string>
+		<key>uni029D.sc</key>
 		<string>base</string>
 		<key>uni029F</key>
 		<string>base</string>
@@ -6118,6 +6149,8 @@
 		<key>uniA7B4</key>
 		<string>base</string>
 		<key>uniA7B5</key>
+		<string>base</string>
+		<key>uniA7B5.sc</key>
 		<string>base</string>
 		<key>uniA7C5</key>
 		<string>base</string>
