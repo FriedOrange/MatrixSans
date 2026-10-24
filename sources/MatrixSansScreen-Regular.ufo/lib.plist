@@ -1668,6 +1668,7 @@
 		<string>uniA7B4</string>
 		<string>uniA7B5</string>
 		<string>uniA7C5</string>
+		<string>uniA7CB</string>
 		<string>Lambdalatinbar</string>
 		<string>chilatin</string>
 		<string>f_f</string>
@@ -5247,7 +5248,7 @@
 		<key>uni02EE</key>
 		<string>base</string>
 		<key>uni030F</key>
-		<string>base</string>
+		<string>mark</string>
 		<key>uni0315</key>
 		<string>mark</string>
 		<key>uni0324</key>
@@ -6153,6 +6154,8 @@
 		<key>uniA7B5.sc</key>
 		<string>base</string>
 		<key>uniA7C5</key>
+		<string>base</string>
+		<key>uniA7CB</key>
 		<string>base</string>
 		<key>uniFB29</key>
 		<string>base</string>
