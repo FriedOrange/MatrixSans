@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1675081307
-ModificationTime: 1790840901
+ModificationTime: 1792916108
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -44,8 +44,8 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 4272 16 12
-BeginChars: 1114155 203
+WinInfo: 7504 16 12
+BeginChars: 1114155 206
 
 StartChar: quarterdot
 Encoding: 1114112 -1 0
@@ -8144,6 +8144,144 @@ SplineSet
  450 370 l 1
  550 270 l 1
  550 0 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni1D6C
+Encoding: 7532 7532 203
+Width: 600
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+420 0 m 1
+ 380 0 l 1
+ 280 100 l 1
+ 250 100 l 1
+ 250 0 l 1
+ 150 0 l 1
+ 150 530 l 1
+ 120 500 l 1
+ 50 500 l 1
+ 50 570 l 1
+ 180 700 l 1
+ 320 700 l 1
+ 400 620 l 1
+ 480 700 l 1
+ 550 700 l 1
+ 550 630 l 1
+ 420 500 l 1
+ 380 500 l 1
+ 280 600 l 1
+ 250 600 l 1
+ 250 300 l 1
+ 280 300 l 1
+ 380 400 l 1
+ 420 400 l 1
+ 550 270 l 1
+ 550 130 l 1
+ 420 0 l 1
+400 280 m 1
+ 350 230 l 1
+ 350 170 l 1
+ 400 120 l 1
+ 450 170 l 1
+ 450 230 l 1
+ 400 280 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni1D6D
+Encoding: 7533 7533 204
+Width: 600
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+450 0 m 1
+ 350 0 l 1
+ 350 100 l 1
+ 320 100 l 1
+ 220 0 l 1
+ 180 0 l 1
+ 50 130 l 1
+ 50 270 l 1
+ 180 400 l 1
+ 220 400 l 1
+ 320 300 l 1
+ 350 300 l 1
+ 350 500 l 1
+ 280 500 l 1
+ 200 580 l 1
+ 120 500 l 1
+ 50 500 l 1
+ 50 570 l 1
+ 180 700 l 1
+ 220 700 l 1
+ 320 600 l 1
+ 350 600 l 1
+ 350 700 l 1
+ 450 700 l 1
+ 450 670 l 1
+ 480 700 l 1
+ 550 700 l 1
+ 550 630 l 1
+ 450 530 l 1
+ 450 0 l 1
+200 280 m 1
+ 150 230 l 1
+ 150 170 l 1
+ 200 120 l 1
+ 250 170 l 1
+ 250 230 l 1
+ 200 280 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni1D71
+Encoding: 7537 7537 205
+Width: 600
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+250 -200 m 1
+ 150 -200 l 1
+ 150 -170 l 1
+ 120 -200 l 1
+ 50 -200 l 1
+ 50 -130 l 1
+ 150 -30 l 1
+ 150 500 l 1
+ 250 500 l 1
+ 250 400 l 1
+ 280 400 l 1
+ 380 500 l 1
+ 420 500 l 1
+ 550 370 l 1
+ 550 230 l 1
+ 420 100 l 1
+ 380 100 l 1
+ 280 200 l 1
+ 250 200 l 1
+ 250 0 l 1
+ 320 0 l 1
+ 400 -80 l 1
+ 480 0 l 1
+ 550 0 l 1
+ 550 -70 l 1
+ 420 -200 l 1
+ 380 -200 l 1
+ 280 -100 l 1
+ 250 -100 l 1
+ 250 -200 l 1
+400 380 m 1
+ 350 330 l 1
+ 350 270 l 1
+ 400 220 l 1
+ 450 270 l 1
+ 450 330 l 1
+ 400 380 l 1
 EndSplineSet
 EndChar
 EndChars
