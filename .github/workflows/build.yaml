@@ -74,6 +74,7 @@ jobs:
         cp documentation/images.html out/images.html
         cp documentation/favicon.png out/favicon.png
         cp documentation/inspiration.html out/inspiration.html
+        cp documentation/404.html out/404.html
         cp -r documentation/inspiration out/inspiration
         cp -r documentation/research out/research
         cp -r fonts/webfonts out/webfonts
