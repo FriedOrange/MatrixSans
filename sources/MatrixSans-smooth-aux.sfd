@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1675081307
-ModificationTime: 1793449892
+ModificationTime: 1793682797
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -9522,8 +9522,7 @@ SplineSet
  480 500 l 1
  550 500 l 1
  550 430 l 1
- 450 330 l 1
- 450 270 l 1
+ 420 300 l 1
  550 170 l 1
  550 130 l 1
  420 0 l 1
@@ -9956,8 +9955,7 @@ SplineSet
  550 470 l 1
  550 330 l 1
  420 200 l 1
- 350 200 l 1
- 350 170 l 1
+ 320 200 l 1
  550 -30 l 1
  550 -100 l 1
  480 -100 l 1
@@ -9987,8 +9985,7 @@ SplineSet
  550 570 l 1
  550 430 l 1
  420 300 l 1
- 350 300 l 1
- 350 270 l 1
+ 320 300 l 1
  550 70 l 1
  550 0 l 1
  480 0 l 1
