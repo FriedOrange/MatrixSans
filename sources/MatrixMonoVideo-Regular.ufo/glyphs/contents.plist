@@ -2884,6 +2884,8 @@
     <string>uni00A_0.glif</string>
     <key>uni0189</key>
     <string>uni0189.glif</string>
+    <key>uni0189.alt</key>
+    <string>uni0189.alt.glif</string>
     <key>uni0193</key>
     <string>uni0193.glif</string>
     <key>uni019C</key>
@@ -3992,8 +3994,6 @@
     <string>uniA_7C_5.glif</string>
     <key>uniA7CB</key>
     <string>uniA_7C_B_.glif</string>
-    <key>uniA7DA</key>
-    <string>uniA_7D_A_.glif</string>
     <key>uniFB29</key>
     <string>uniF_B_29.glif</string>
     <key>uniFF61</key>

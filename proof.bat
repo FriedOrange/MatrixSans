@@ -4,9 +4,21 @@ diffenator2 proof -o ..\..\out\proof\screen MatrixSansScreen-Regular.ttf
 diffenator2 proof -o ..\..\out\proof\video MatrixSansVideo-Regular.ttf
 diffenator2 proof -o ..\..\out\proof\raster MatrixSansRaster-Regular.ttf
 diffenator2 proof -o ..\..\out\proof\smooth MatrixSansSmooth-Regular.ttf
-@REM diffenator2 proof -o ..\..\out\proof\regular-sc MatrixSansSC-Regular.ttf
-@REM diffenator2 proof -o ..\..\out\proof\print-sc MatrixSansPrintSC-Regular.ttf
-@REM diffenator2 proof -o ..\..\out\proof\screen-sc MatrixSansScreenSC-Regular.ttf
-@REM diffenator2 proof -o ..\..\out\proof\video-sc MatrixSansVideoSC-Regular.ttf
-@REM diffenator2 proof -o ..\..\out\proof\raster-sc MatrixSansRasterSC-Regular.ttf
-@REM diffenator2 proof -o ..\..\out\proof\smooth-sc MatrixSansSmoothSC-Regular.ttf
+diffenator2 proof -o ..\..\out\proof\regular-sc MatrixSansSC-Regular.ttf
+diffenator2 proof -o ..\..\out\proof\print-sc MatrixSansPrintSC-Regular.ttf
+diffenator2 proof -o ..\..\out\proof\screen-sc MatrixSansScreenSC-Regular.ttf
+diffenator2 proof -o ..\..\out\proof\video-sc MatrixSansVideoSC-Regular.ttf
+diffenator2 proof -o ..\..\out\proof\raster-sc MatrixSansRasterSC-Regular.ttf
+diffenator2 proof -o ..\..\out\proof\smooth-sc MatrixSansSmoothSC-Regular.ttf
+diffenator2 proof -o ..\..\out\proof\mono MatrixMono-Regular.ttf
+diffenator2 proof -o ..\..\out\proof\monoprint MatrixMonoPrint-Regular.ttf
+diffenator2 proof -o ..\..\out\proof\monoscreen MatrixMonoScreen-Regular.ttf
+diffenator2 proof -o ..\..\out\proof\monovideo MatrixMonoVideo-Regular.ttf
+diffenator2 proof -o ..\..\out\proof\monoraster MatrixMonoRaster-Regular.ttf
+diffenator2 proof -o ..\..\out\proof\monosmooth MatrixMonoSmooth-Regular.ttf
+diffenator2 proof -o ..\..\out\proof\monoregular-sc MatrixMonoSC-Regular.ttf
+diffenator2 proof -o ..\..\out\proof\monoprint-sc MatrixMonoPrintSC-Regular.ttf
+diffenator2 proof -o ..\..\out\proof\monoscreen-sc MatrixMonoScreenSC-Regular.ttf
+diffenator2 proof -o ..\..\out\proof\monovideo-sc MatrixMonoVideoSC-Regular.ttf
+diffenator2 proof -o ..\..\out\proof\monoraster-sc MatrixMonoRasterSC-Regular.ttf
+diffenator2 proof -o ..\..\out\proof\monosmooth-sc MatrixMonoSmoothSC-Regular.ttf

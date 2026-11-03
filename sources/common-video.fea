@@ -147,7 +147,7 @@ feature ccmp {
 
 	script latn;
 	# subs for D, Eth etc to be inserted here for Video and Smooth styles
-	sub D by D.alt;sub Eth by Eth.alt;sub Dcroat by Dcroat.alt;sub Dhook by Dhook.alt;sub Dcaron by Dcaron.alt;sub Ddotbelow by Ddotbelow.alt;sub Dmacronbelow by Dmacronbelow.alt;sub uni20C3 by uni20C3.alt;### <-- RULES INSERTED AUTOMATICALLY
+	sub D by D.alt;sub Eth by Eth.alt;sub Dcroat by Dcroat.alt;sub Dhook by Dhook.alt;sub Dcaron by Dcaron.alt;sub Ddotbelow by Ddotbelow.alt;sub Dmacronbelow by Dmacronbelow.alt;sub uni20C3 by uni20C3.alt;sub uni0189 by uni0189.alt;### <-- RULES INSERTED AUTOMATICALLY
 	sub y' @_marks_below by y.titl;
 	# soft dotted characters
 	sub [i j ibar]' @_marks_above by [dotlessi jdotless ibardotless];
@@ -299,6 +299,7 @@ lookup D_ALT {
 	sub Ddotbelow.alt by Ddotbelow;
 	sub Dmacronbelow.alt by Dmacronbelow;
 	sub uni20C3.alt by uni20C3;
+	sub uni0189.alt by uni0189;
 } D_ALT;
 
 feature ss01 {

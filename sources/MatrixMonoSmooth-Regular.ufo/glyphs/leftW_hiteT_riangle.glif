@@ -13,7 +13,7 @@
     </contour>
     <contour>
       <point x="450.0" y="160.0" type="line"/>
-      <point x="450.0" y="540.0" type="line"/>
+      <point x="450.0" y="550.0" type="line"/>
       <point x="190.0" y="350.0" type="line"/>
     </contour>
   </outline>

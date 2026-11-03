@@ -2166,6 +2166,7 @@
 		<string>uni0205.sc</string>
 		<string>uni0250.sc</string>
 		<string>uni0265.sc</string>
+		<string>uni0189.alt</string>
 	</array>
 	<key>public.openTypeCategories</key>
 	<dict>
@@ -5048,6 +5049,8 @@
 		<key>uni00A0</key>
 		<string>base</string>
 		<key>uni0189</key>
+		<string>base</string>
+		<key>uni0189.alt</key>
 		<string>base</string>
 		<key>uni0193</key>
 		<string>base</string>
