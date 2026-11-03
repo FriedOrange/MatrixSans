@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1675081307
-ModificationTime: 1793454648
+ModificationTime: 1793683912
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -44,8 +44,8 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 42880 16 12
-BeginChars: 1114145 234
+WinInfo: 42928 16 12
+BeginChars: 1114145 235
 
 StartChar: quarterdot
 Encoding: 1114112 -1 0
@@ -8559,6 +8559,10 @@ SplineSet
  400 350 l 1
  350 350 l 1
  350 300 l 1
+ 300 300 l 1
+ 300 250 l 1
+ 350 250 l 1
+ 350 300 l 1
  450 300 l 1
  450 250 l 1
  500 250 l 1
@@ -8586,6 +8590,10 @@ SplineSet
  50 400 l 1
 150 100 m 1
  250 100 l 1
+ 250 200 l 1
+ 300 200 l 1
+ 300 250 l 1
+ 250 250 l 1
  250 200 l 1
  200 200 l 1
  200 150 l 1
@@ -8689,25 +8697,25 @@ EndChar
 
 StartChar: uni02D1
 Encoding: 721 721 215
-Width: 400
+Width: 600
 VWidth: 0
 Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-50 300 m 1
- 50 400 l 1
- 350 400 l 1
- 350 300 l 1
- 301 300 l 1
- 301 250 l 1
- 250 250 l 1
+150 300 m 1
+ 150 400 l 1
+ 450 400 l 1
+ 450 300 l 1
+ 401 300 l 1
+ 401 250 l 1
+ 350 250 l 1
+ 350 200 l 1
  250 200 l 1
- 150 200 l 1
- 150 250 l 1
- 100 250 l 1
- 100 300 l 1
- 50 300 l 1
+ 250 250 l 1
+ 200 250 l 1
+ 200 300 l 1
+ 150 300 l 1
 EndSplineSet
 EndChar
 
@@ -8914,7 +8922,7 @@ EndChar
 
 StartChar: uni1DBB
 Encoding: 7611 7611 221
-Width: 500
+Width: 600
 Flags: HW
 LayerCount: 2
 Fore
@@ -8981,29 +8989,25 @@ EndChar
 
 StartChar: uni20C3.alt
 Encoding: 1114140 -1 223
-Width: 700
+Width: 600
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 0 -1 N 1 0 0 1 450 150 2
 Refer: 0 -1 N 1 0 0 1 300 100 2
 Refer: 0 -1 N 1 0 0 1 350 50 2
-Refer: 0 -1 N 1 0 0 1 450 500 2
 Refer: 0 -1 N 1 0 0 1 350 600 2
 Refer: 0 -1 N 1 0 0 1 300 550 2
 Refer: 7 -1 N 1 0 0 1 250 0 2
 Refer: 7 -1 N 1 0 0 1 150 0 2
 Refer: 7 -1 N 1 0 0 1 350 100 2
 Refer: 7 -1 N 1 0 0 1 150 100 2
-Refer: 7 -1 N 1 0 0 1 550 200 2
 Refer: 7 -1 N 1 0 0 1 450 200 2
 Refer: 7 -1 N 1 0 0 1 350 200 2
 Refer: 7 -1 N 1 0 0 1 250 200 2
 Refer: 7 -1 N 1 0 0 1 150 200 2
 Refer: 7 -1 N 1 0 0 1 50 200 2
-Refer: 7 -1 N 1 0 0 1 450 300 2
+Refer: 7 -1 N 1 0 0 1 350 300 2
 Refer: 7 -1 N 1 0 0 1 150 300 2
-Refer: 7 -1 N 1 0 0 1 550 400 2
 Refer: 7 -1 N 1 0 0 1 450 400 2
 Refer: 7 -1 N 1 0 0 1 350 400 2
 Refer: 7 -1 N 1 0 0 1 250 400 2
@@ -9248,19 +9252,19 @@ EndChar
 
 StartChar: uniA71B
 Encoding: 42779 42779 227
-Width: 400
+Width: 600
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 0 -1 S 1 0 0 1 250 700 2
+Refer: 0 -1 S 1 0 0 1 350 700 2
+Refer: 7 -1 N 1 0 0 1 350 600 2
+Refer: 0 -1 N 1 0 0 1 200 700 2
+Refer: 7 -1 N 1 0 0 1 250 300 2
+Refer: 7 -1 N 1 0 0 1 250 400 2
+Refer: 7 -1 N 1 0 0 1 250 500 2
 Refer: 7 -1 N 1 0 0 1 250 600 2
-Refer: 0 -1 N 1 0 0 1 100 700 2
-Refer: 7 -1 N 1 0 0 1 150 300 2
-Refer: 7 -1 N 1 0 0 1 150 400 2
-Refer: 7 -1 N 1 0 0 1 150 500 2
 Refer: 7 -1 N 1 0 0 1 150 600 2
-Refer: 7 -1 N 1 0 0 1 50 600 2
-Refer: 7 -1 N 1 0 0 1 150 700 2
+Refer: 7 -1 N 1 0 0 1 250 700 2
 EndChar
 
 StartChar: uniA71C
@@ -9280,50 +9284,8 @@ Refer: 7 -1 N 1 0 0 1 150 600 2
 Refer: 7 -1 N 1 0 0 1 150 700 2
 EndChar
 
-StartChar: ho-ar.sc
-Encoding: 1114141 -1 229
-Width: 600
-VWidth: 0
-Flags: HW
-LayerCount: 2
-Fore
-SplineSet
-50 0 m 1
- 50 100 l 1
- 100 100 l 1
- 100 150 l 1
- 150 150 l 1
- 150 200 l 1
- 200 200 l 1
- 200 250 l 1
- 250 250 l 1
- 250 300 l 1
- 300 300 l 1
- 300 400 l 1
- 250 400 l 1
- 250 500 l 1
- 350 500 l 1
- 350 450 l 1
- 400 450 l 1
- 400 400 l 1
- 450 400 l 1
- 450 300 l 1
- 400 300 l 1
- 400 250 l 1
- 350 250 l 1
- 350 200 l 1
- 300 200 l 1
- 300 150 l 1
- 250 150 l 1
- 250 100 l 1
- 550 100 l 1
- 550 0 l 1
- 50 0 l 1
-EndSplineSet
-EndChar
-
 StartChar: uni0271.sc
-Encoding: 1114142 -1 230
+Encoding: 1114142 -1 229
 Width: 600
 VWidth: 0
 Flags: HW
@@ -9371,7 +9333,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni027D.sc
-Encoding: 1114143 -1 231
+Encoding: 1114143 -1 230
 Width: 600
 VWidth: 0
 Flags: HW
@@ -9422,7 +9384,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0280.sc
-Encoding: 1114144 -1 232
+Encoding: 1114144 -1 231
 Width: 600
 VWidth: 0
 Flags: HW
@@ -9467,7 +9429,81 @@ EndSplineSet
 EndChar
 
 StartChar: uniA7CB
-Encoding: 42955 42955 233
+Encoding: 42955 42955 232
+Width: 600
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 300 300 2
+Refer: 0 -1 N 1 0 0 1 250 300 2
+Refer: 7 -1 N 1 0 0 1 350 300 2
+Refer: 7 -1 N 1 0 0 1 150 300 2
+Refer: 7 -1 N 1 0 0 1 350 400 2
+Refer: 7 -1 N 1 0 0 1 150 400 2
+Refer: 0 -1 N 1 0 0 1 350 50 2
+Refer: 0 -1 N 1 0 0 1 350 200 2
+Refer: 7 -1 N 1 0 0 1 350 100 2
+Refer: 0 -1 N 1 0 0 1 200 50 2
+Refer: 7 -1 N 1 0 0 1 250 0 2
+Refer: 0 -1 N 1 0 0 1 200 200 2
+Refer: 7 -1 N 1 0 0 1 150 100 2
+Refer: 0 -1 N 1 0 0 1 350 250 2
+Refer: 0 -1 N 1 0 0 1 200 250 2
+Refer: 7 -1 N 1 0 0 1 250 200 2
+Refer: 0 -1 N 1 0 0 1 450 550 2
+Refer: 0 -1 N 1 0 0 1 400 600 2
+Refer: 0 -1 N 1 0 0 1 100 550 2
+Refer: 0 -1 N 1 0 0 1 150 600 2
+Refer: 7 -1 N 1 0 0 1 350 500 2
+Refer: 7 -1 N 1 0 0 1 150 500 2
+Refer: 7 -1 N 1 0 0 1 450 600 2
+Refer: 7 -1 N 1 0 0 1 50 600 2
+EndChar
+
+StartChar: ho-ar.sc
+Encoding: 1114141 -1 233
+Width: 600
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+50 0 m 1
+ 50 100 l 1
+ 100 100 l 1
+ 100 150 l 1
+ 150 150 l 1
+ 150 200 l 1
+ 200 200 l 1
+ 200 250 l 1
+ 250 250 l 1
+ 250 300 l 1
+ 300 300 l 1
+ 300 400 l 1
+ 250 400 l 1
+ 250 500 l 1
+ 350 500 l 1
+ 350 450 l 1
+ 400 450 l 1
+ 400 400 l 1
+ 450 400 l 1
+ 450 300 l 1
+ 400 300 l 1
+ 400 250 l 1
+ 350 250 l 1
+ 350 200 l 1
+ 300 200 l 1
+ 300 150 l 1
+ 250 150 l 1
+ 250 100 l 1
+ 550 100 l 1
+ 550 0 l 1
+ 50 0 l 1
+EndSplineSet
+EndChar
+
+StartChar: uniA7CB
+Encoding: 42955 42955 234
 Width: 600
 Flags: HW
 LayerCount: 2

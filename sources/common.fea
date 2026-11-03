@@ -299,6 +299,7 @@ lookup D_ALT {
 	sub Ddotbelow by Ddotbelow.alt;
 	sub Dmacronbelow by Dmacronbelow.alt;
 	sub uni20C3 by uni20C3.alt;
+	sub uni0189 by uni0189.alt;
 } D_ALT;
 
 feature ss01 {
