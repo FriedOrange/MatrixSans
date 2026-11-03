@@ -20,7 +20,6 @@ The Matrix Mono family is mostly the same as Matrix Sans, but strictly monospace
 - [**Downloads**](https://github.com/FriedOrange/MatrixSans/releases)
 - [**Features & Design philosopy**](https://friedorange.github.io/MatrixSans/)
 - [**Tests & Demos**](https://friedorange.github.io/MatrixSans/tests.html)
-- [**Background/Inspiration**](https://friedorange.github.io/MatrixSans/inspiration.html)
 - [**Research** (with comments on 40+ existing designs)](https://friedorange.github.io/MatrixSans/research.html)
 
 ### Sample images
