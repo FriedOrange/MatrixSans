@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1675081307
-ModificationTime: 1793683912
+ModificationTime: 1793686600
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -44,7 +44,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 42928 16 12
+WinInfo: 42752 16 12
 BeginChars: 1114145 235
 
 StartChar: quarterdot
@@ -9269,19 +9269,19 @@ EndChar
 
 StartChar: uniA71C
 Encoding: 42780 42780 228
-Width: 400
+Width: 600
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 0 -1 S 1 0 0 1 250 350 2
-Refer: 0 -1 N 1 0 0 1 100 350 2
-Refer: 7 -1 N 1 0 0 1 250 400 2
-Refer: 7 -1 N 1 0 0 1 50 400 2
-Refer: 7 -1 N 1 0 0 1 150 300 2
+Refer: 0 -1 S 1 0 0 1 350 350 2
+Refer: 0 -1 N 1 0 0 1 200 350 2
+Refer: 7 -1 N 1 0 0 1 350 400 2
 Refer: 7 -1 N 1 0 0 1 150 400 2
-Refer: 7 -1 N 1 0 0 1 150 500 2
-Refer: 7 -1 N 1 0 0 1 150 600 2
-Refer: 7 -1 N 1 0 0 1 150 700 2
+Refer: 7 -1 N 1 0 0 1 250 300 2
+Refer: 7 -1 N 1 0 0 1 250 400 2
+Refer: 7 -1 N 1 0 0 1 250 500 2
+Refer: 7 -1 N 1 0 0 1 250 600 2
+Refer: 7 -1 N 1 0 0 1 250 700 2
 EndChar
 
 StartChar: uni0271.sc
