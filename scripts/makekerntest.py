@@ -82,9 +82,10 @@ with open("proportional.fea", "r", encoding="utf-8") as feature_file:
 
 html_pre = f"""
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Matrix Sans kerning test</title>
 <style>
 	@font-face {{
@@ -95,11 +96,12 @@ html_pre = f"""
 	body {{
 		color: white;
 		background-color: black;
-		margin: 1em;
+		margin: 0.5em;
 	}}
 	body, pre {{
 		font-family: "Matrix Sans";
 		font-size: 24px;
+		text-wrap: auto;
 	}}
 	.sc {{
 		font-feature-settings: "smcp";
