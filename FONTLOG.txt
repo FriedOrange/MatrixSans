@@ -31,6 +31,17 @@ This Font Software is licensed under the SIL Open Font License, Version 1.1. Thi
 Changelog
 ---------
 
+8 November 2026 - Version 1.810
+
+- Now supports the base glyphs (not the combining marks) of GF Phonetics IPAStandard (i.e. letters of the International Phonetic Alphabet), plus capital forms where applicable
+- Added Saudi Riyal ⃁, Emirati Dirham ⃃, and Omani Rial ⃄ currency signs
+- Improved kerning of Greek ζ/ξ + υ, etc; guillemets «» with Latin letters; modifier letter apostrophe ʼ with Cyrillic letters
+- Tweaked designs of ǂ 円
+- Fixed the position of fractions in Mono Video style
+- Fixed the spacing and kerning of small l with dot ŀ
+- Design of Armenian Հ small cap now matches capital form
+- Diacritical marks now attach to accented Cyrillic letters
+
 1 October 2026 - Version 1.800
 
 - Added Matrix Mono family, a monospaced counterpart to Matrix Sans
