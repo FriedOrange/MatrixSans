@@ -1,6 +1,6 @@
 import json
 
-with open("matrix sans 1.800 chars.txt", encoding="utf-8") as input_file:
+with open("matrix sans 1.810 chars.txt", encoding="utf-8") as input_file:
 	supported_chars = set(input_file.read())
 
 with open("languages.json", encoding="utf-8") as input_file:
