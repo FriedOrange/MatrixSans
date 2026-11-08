@@ -125,6 +125,9 @@ feature smcp {
 @_marks_below = [dotbelowcomb uni0324 commaaccentcomb cedillacomb uni0329 brevebelowcomb macronbelowcomb    uni0332 uni0335]; # includes comb short stroke overlay (uni0335)
 
 feature ccmp {
+	# subs for D, Eth etc to be inserted here for Video and Smooth styles
+	### <-- RULES INSERTED AUTOMATICALLY
+	
 	script cyrl;
 	sub i-cy' @_marks_above by dotlessi;
 	sub Yi-cy' @_marks_above by idieresis.sc;
@@ -146,8 +149,6 @@ feature ccmp {
 	sub [alpha epsilon eta iota omicron upsilon omega] acutecomb' by verticallineabovecomb;
 
 	script latn;
-	# subs for D, Eth etc to be inserted here for Video and Smooth styles
-	### <-- RULES INSERTED AUTOMATICALLY
 	sub y' @_marks_below by y.titl;
 	# soft dotted characters
 	sub [i j ibar]' @_marks_above by [dotlessi jdotless ibardotless];
