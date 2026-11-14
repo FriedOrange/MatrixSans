@@ -46,7 +46,7 @@ body {
 	text-underline-offset: 0.1em;
 	text-decoration-thickness: 0.1em;
 }
-nav, footer {text-align: center;}
+nav {text-align: center;}
 h1, h2, h3, h4 {
 	font-weight: normal;
 	color: var(--heading-colour);
