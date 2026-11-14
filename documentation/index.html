@@ -8,21 +8,22 @@
 	<link rel="stylesheet" href="style.css" />
 	<link rel="icon" href="favicon.png" />
 	<style>
-		:root {
-			interpolate-size: allow-keywords;
-		}
+		:root {interpolate-size: allow-keywords;}
 		svg {border: solid 0.1em var(--line-colour);}
-		svg text {
-			font-size: 80px;
-		}
+		svg text {font-size: 80px;}
 		#regular-specimen:hover text, #video-specimen:hover text, #screen-specimen:hover text, #print-specimen:hover text, #raster-specimen:hover text, #sc-specimen:hover text {
 			filter: none;
 			text-shadow: none;
 		}
-		#smooth-specimen:hover text {
-			fill: #ddd;
-		}
+		#smooth-specimen:hover text {fill: #ddd;}
 		li + li {margin-top: 0.5em;}
+		table.borderless td, table.borderless th {border: none;}
+		table.borderless th {
+			text-align: right;
+			color: var(--text-colour);
+			padding-right: 1em;
+		}
+		table.borderless strong.big {font-size: 40px;}
 	</style>
 </head>
 
@@ -540,9 +541,83 @@
 
 <section>
 <h2 id="design">Design philosophy.</h2>
-<p>The goal for this project was to balance consistency and attractiveness with quirkiness and authenticity to its historic sources. Dozens of existing designs were studied in preparation; see the <a href="research.html">Research page</a> for details.</p>
-<p>Inspired by other retro-revival typefaces like the popular American Typewriter, Matrix Sans uses proportional spacing and kerning to provide a more even appearance.</p>
-<p>In the Video style, the characters 2, 6, 9 and D have special patterns for improved appearance and historical authenticity.</p>
+<p>The goal for this project was to balance consistency and attractiveness with quirkiness and authenticity to its historic sources (dozens of existing designs were studied in preparation; see the <a href="research.html">Research page</a> for details). Here are a few examples of the dilemmas involved:</p>
+
+<h3>Attractiveness.</h3>
+<p>Most historical 5&times;7 fonts contain a few odd or ugly designs; for Matrix Sans, I picked my favourite of the more common variants or created a new, more attractive design:</p>
+<table class="borderless">
+	<tr>
+		<th>Various historical fonts</th>
+		<td><img src="research/philosophy/&24~£þ-other.png"></td>
+	</tr>
+	<tr>
+		<th>Matrix Sans</th>
+		<td><img src="research/philosophy/&24~£þ-MS.png"></td>
+	</tr>
+</table>
+
+<h3>Consistency.</h3>
+<p>Some fonts have serifs on the B and D, likely to differentiate them from 8 and O, respectively. Matrix Sans has a more standard B for consistency and another common variant of D that is also well-differentiated from O:</p>
+<table class="borderless">
+	<tr>
+		<th>Various historical fonts</th>
+		<td><img src="research/philosophy/BD-other.png"></td>
+	</tr>
+	<tr>
+		<th>Matrix Sans</th>
+		<td><img src="research/philosophy/BD-MS.png"></td>
+	</tr>
+</table>
+
+<h3>Quirkiness.</h3>
+<p>Many fonts have rounded forms for A and G that harmonise with the other capital letters. For a touch of personality, I chose other shapes that are equally common but quirkier:</p>
+<table class="borderless">
+	<tr>
+		<th>Various historical fonts</th>
+		<td><img src="research/philosophy/AG-other.png"></td>
+	</tr>
+	<tr>
+		<th>Matrix Sans</th>
+		<td><img src="research/philosophy/AG-MS.png"></td>
+	</tr>
+</table>
+
+<h3>Authenticity?</h3>
+<p>While I strive for historical authenticity wherever possible, it occasionally happens that I don&rsquo;t like any of the common designs of a glyph. I chose a rare variant of the question mark that I like much better, and a design of the small m that is, as far as I can tell, unique:</p>
+<table class="borderless">
+	<tr>
+		<th>Various historical fonts</th>
+		<td><img src="research/philosophy/questionm-other.png"></td>
+	</tr>
+	<tr>
+		<th>Matrix Sans</th>
+		<td><img src="research/philosophy/questionm-MS.png"></td>
+	</tr>
+</table>
+
+<p>In the Video and Smooth styles, the characters 2, 6, 9 and D have special patterns for improved appearance and consistency with most real VHS VCR/camcorder on-screen text that I have seen, at the cost of some inconsistency within the Matrix Sans family:</p>
+<table class="borderless">
+	<tr>
+		<th>Standard forms</th>
+		<td><img src="research/philosophy/269D-standard.png"></td>
+	</tr>
+	<tr>
+		<th>Video/Smooth forms</th>
+		<td><img src="research/philosophy/269D-alternate.png"></td>
+	</tr>
+</table>
+
+<p>Inspired by other retro-revival typefaces such as American Typewriter, Matrix Sans uses proportional spacing and kerning to provide a more even appearance, befitting of a modern display face. The Matrix Mono family provides monospaced (fixed-pitch) fonts for the situations that call for them: </p>
+<table class="borderless">
+	<tr>
+		<th>Matrix Mono</th>
+		<td><strong class="big" style="font-family: 'Matrix Mono';">&ldquo;Hello, Ælfric.&rdquo;</strong></td>
+	</tr>
+	<tr>
+		<th>Matrix Sans</th>
+		<td><strong class="big">&ldquo;Hello, Ælfric.&rdquo;</strong></td>
+	</tr>
+</table>
 </section>
 
 <section>
