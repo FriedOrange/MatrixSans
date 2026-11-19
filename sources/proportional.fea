@@ -223,7 +223,7 @@ feature mkmk {
 @shortoverhangR_cy = [ge-cy te-cy uni0475 gestroke-cy enge-cy tedescender-cy uni04F7 gestrokehook-cy j.sc y.sc ustraightstroke-cy.sc quotereversed];
 @shortcurveR_cy = [ve-cy ze-cy o-cy er-cy es-cy ef-cy ereversed-cy yu-cy uni0473 zedescender-cy esdescender-cy schwa-cy schwadieresis-cy zedieresis-cy odieresis-cy obarred-cy obarreddieresis-cy edieresis-cy yu-cy.loclBGR ertick-cy.sc];
 @shortcurveTR_cy = [a-cy ertick-cy haabkhasian-cy uni04D3 ge-cy.loclBGR ze-cy.loclBGR n m q.sc];
-@shortcurveBR_cy = [dze-cy ustraight-cy uni051D y.titl ushort-cy.sc umacron-cy.sc ebreve.sc ezh.sc udieresis-cy.sc];
+@shortcurveBR_cy = [dze-cy uni051D y.titl ushort-cy.sc umacron-cy.sc ebreve.sc ezh.sc udieresis-cy.sc];
 @shortcurve2R_cy = [ef-cy.sc];
 @shortcurve2TR_cy = [el-cy.loclBGR a.sc adieresis.sc];
 @shortcurve3TR_cy = [uni04A7 tshe-cy.sc shha-cy quotesinglbase quotedblbase];
@@ -585,6 +585,7 @@ feature kern {
 	pos @t @talloverhang4L -100;
 	pos @shortR @talloverhangL -100;
 	pos @openmidR @strokemidL -100;
+	pos @openmidR @shortoverhangL -100;
 	pos @openmidcurveBR @strokemidL -100;
 	pos @openmidcurveBR @j -100;
 	pos [guillemotleft guilsinglleft] @talloverhangL -100;
@@ -686,6 +687,10 @@ feature kern {
 	pos @shortcurveTR_cy @talloverhang2L_cy -100;
 	pos @shortcurveBR_cy @talloverhangL_cy -100;
 	pos @shortcurveBR_cy je-cy -100;
+	pos [ustraight-cy ustraightstroke-cy] @talloverhangL_cy -100;
+	pos [ustraight-cy ustraightstroke-cy] @underhangL_cy -100;
+	pos [ustraight-cy ustraightstroke-cy] @underhangN1L_cy -100;
+	pos [ustraight-cy ustraightstroke-cy] je-cy -100;
 	pos @shortcurve2R_cy @talloverhangL_cy -100;
 	pos @shortcurve2R_cy @talloverhang2L_cy -100;
 	pos @shortcurve2R_cy @talloverhang3L_cy -100;
@@ -709,8 +714,6 @@ feature kern {
 	pos @shortcurveTRcurve2BR_cy je-cy -100;
 	pos @shortcurveTRcurve2BR_cy @underhangN1L_cy -100;
 	pos @shortR_cy @talloverhangL_cy -100;
-	pos ustraightstroke-cy @talloverhangL_cy -100;
-	pos ustraightstroke-cy @underhangL_cy -100;
 	pos @shortopen3R_cy @talloverhangL_cy -100;
 	pos @shortopen3R_cy @stroke3L_cy -100;
 	pos @short4curveTR_cy @talloverhangL_cy -100;
