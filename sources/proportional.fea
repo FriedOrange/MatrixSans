@@ -337,7 +337,7 @@ feature mkmk {
 @shortoverhang2R_sh = [u10462 u1046B];
 @underhang2R_sh = [u10458 u10475 u1047F];
 @underhangR_sh = [u10461 u10477];
-@underhangR2_sh = [u1045B u10467 u1046F u10477];
+@underhangR2_sh = [u1045B u10467 u1046F];
 @underhangN2R_sh = [u1045A];
 @midpunctR_sh = [guillemotleft guilsinglleft periodcentered uni2E30 hyphen endash uni2010 uni2011];
 
@@ -1086,7 +1086,6 @@ feature kern {
 	pos @talloverhangR_sh @shortoverhangL2_sh -100;
 	pos @talloverhangR_sh @underhangL_sh -100;
 	pos @talloverhangR_sh @underhangL2_sh -100;
-	pos @talloverhangR_sh @underhangN1L_sh -100;
 	pos @talloverhangR_sh @shortcurve2TL_sh -100;
 	pos @talloverhangR_sh @shortcurve2BL_sh -100;
 	pos @talloverhangR_sh @shortoverhang2L_sh -100;
@@ -1094,13 +1093,11 @@ feature kern {
 	pos @talloverhang3R_sh @underhangN1L_sh -100;
 	pos @talloverhang3R_sh @underhangL_sh -100;
 	pos @talloverhang3R_sh @underhangL2_sh -100;
-	pos @talloverhang3R_sh @underhangN1L_sh -100;
 	pos @talloverhang3R_sh @shortcurve2TL_sh -100;
 	pos @talloverhang3R_sh @underhang2L_sh -100;
 	pos @midpunctR_sh @underhangN1L_sh -100;
 	pos @midpunctR_sh @underhangL_sh -100;
 	pos @midpunctR_sh @underhangL2_sh -100;
-	pos @midpunctR_sh @underhangN1L_sh -100;
 	pos @midpunctR_sh @talloverhangL_sh -100;
 	pos @tallcurveBR_sh @underhangN1L_sh -100;
 	pos @stroke3R_sh @talloverhangL_sh -200;
