@@ -4,12 +4,14 @@ FONTLOG for Matrix Sans
 This file provides detailed information on the Matrix Sans font software.
 This information should be distributed along with the fonts and any derivative works.
 
+
 Basic font information
 ----------------------
 
 Matrix Sans is a typeface family inspired by classic 5x7 dot matrix fonts. The Matrix Mono family is mostly the same, but strictly monospaced.
 
-They comes in six variants:
+Both families come in six styles:
+
 - Regular: connected square dots, like a typical bitmap ("pixel") font
 - Print: separate circular dots, like a dot-matrix printer
 - Raster: rounded horizontal lines, like a cathode-ray tube
@@ -17,19 +19,29 @@ They comes in six variants:
 - Video: interpolation on diagonal sections, like a VCR/camcorder on-screen display
 - Smooth: straight lines on diagonal sections
 
-Each variant has a matching "SC" version in which the lower-case letters are replaced with small capitals. 
+Finally, each style has a matching "SC" variant in which the lower-case letters are replaced with small capitals. 
 
 Further information can be found at: https://friedorange.github.io/MatrixSans/
-
 The official git repository, containing sources and build scripts, can be found at: https://github.com/FriedOrange/MatrixSans
+
 
 License
 -------
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at https://scripts.sil.org/OFL
 
+
 Changelog
 ---------
+
+21 November 2026 - Version 1.811
+
+- Kerned letter combinations: K + t, E + t etc. and Cyrilllic ү + л etc.
+- Tweaked design of some letters with middle tilde: ᵬ ᵭ ᵱ ᵲ
+- Improved the appearance of Ʂ in Mono Video and Mono Smooth styles
+- Improved consistency of superscript "modifier letters" (made ˀ ˁ taller and ⁿ wider)
+- Fixed Shavian kerning, which may not have worked as intended in previous releases
+
 
 8 November 2026 - Version 1.810
 
@@ -41,6 +53,7 @@ Changelog
 - Fixed the spacing and kerning of small l with dot ŀ
 - Design of Armenian Հ small cap now matches capital form
 - Diacritical marks now attach to accented Cyrillic letters
+
 
 1 October 2026 - Version 1.800
 
@@ -54,12 +67,14 @@ Changelog
 - Actually fixed the placement of stacking diacritical marks
 - Diacritical marks now attach to more Cyrillic letters
 
+
 13 June 2026 - Version 1.722
 
 - Rewrote OpenType Mark Positioning feature; diacritical marks can now be attached to many more base characters and multiple marks now stack properly
 - Fixed placement of combining comma above right (as in ď Ľ ľ ť) and combining dot above right (as in O͘)
 - Fixed a bug with the outline of Greek Ϡ in Smooth and Video styles
 - Improved kerning for Latin and Cyrillic scripts
+
 
 20 May 2026 - Version 1.721
 
@@ -68,6 +83,7 @@ Changelog
 - Tweaked shapes of small Greek letters kappa κ, sigma σ and Cyrillic er with tick Ҏ ҏ
 - Improved appearance of various glyphs in Smooth style
 
+
 16 May 2026 - Version 1.720
 
 - Now supports Google Fonts Cyrillic Plus, Google Fonts Cyrillic Pro and Adobe Cyrillic 3 character sets
@@ -75,6 +91,7 @@ Changelog
 - Overhauled kerning rules for Cyrillic; many more glyph pairs are now kerned
 - Slightly tweaked shape of Cyrillic letter ѣ, to differentiate from newly-added ҍ
 - Removed kerning pairs (increased spacing) for curved Latin letters (e.g. b, e, o) + comma
+
 
 10 May 2026 - Version 1.710
 
@@ -85,11 +102,13 @@ Changelog
 - Improved kerning of punctuation marks and "modifier letters"
 - Fixed OpenType `meta` table: now mentions Lisu, Tifinagh and Hebrew as supported scripts
 
+
 26 April 2026 - Version 1.700
 
 - Added Lisu (Fraser) script
 - Added Tifinagh script
 - Added Hebrew script (basic alphabet only; no points, etc.)
+
 
 18 October 2025 - Version 1.600
 
@@ -104,14 +123,17 @@ Changelog
 - Improved kerning for Latin script
 - Fixed visual bugs in Raster and Video styles
 
+
 30 December 2024 - Version 1.512
 
 - Restored previous *tj* kerning pairs
 - Increased side bearings (spacing) of horizontal bar/quote dash: ―
 
+
 28 December 2024 - Version 1.511
 
 - Improved appearance of service mark and trademark signs in Video style
+
 
 28 December 2024 - Version 1.510
 
@@ -124,6 +146,7 @@ Changelog
 - Improved appearance of some glyphs in Video style
 - Added Stylistic Alternates (salt) OpenType feature, providing another way to access existing alternate glyphs
 
+
 17 December 2024 - Version 1.500
 
 - Now supports Google Fonts Greek Core and Adobe Greek 1 character sets
@@ -131,21 +154,25 @@ Changelog
 - Fixed missing Cyrillic small cap "е"
 - Improved kerning for Cyrillic
 
+
 15 December 2024 - Version 1.401
 
 - Improved kerning for Cyrillic
 - Made Ғ and ғ narrower
+
 
 14 December 2024 - Version 1.400
 
 - Now supports Google Fonts Cyrillic Core and Adobe Cyrillic 1 character sets
 - Improved kerning
 
+
 11 December 2024 - Version 1.300
 
 - Now supports Google Fonts Latin PriAfrican, TransLatin Arabic and TransLatin Pinyin character sets
 - Changed designs of: Ŋ ŋ ƒ Ħ
 - Made alternate form of Ŋ accessible by `ss02` OpenType feature
+
 
 10 December 2024 - Version 1.210
 
@@ -154,6 +181,7 @@ Changelog
 - Added alternate glyphs for 6 and 9, accessed by `ss01` OpenType feature (swapped with normal glyphs in Video style)
 - Fixed a visual glitch with the combining hook above glyph ◌̉
 
+
 9 December 2024 - Version 1.200
 
 - Now supports Adobe Latin 4 and Google Fonts Latin Core/Vietnamese/Plus character sets
@@ -161,34 +189,46 @@ Changelog
 - Changed design of ¶, ƒ, ™, and • ◦
 - Added `aalt`, `numr`, `dnom`, `frac`, `sups` and `subs` OpenType features
 
+
 26 December 2022 - Version 1.100
+
 - Added small capitals, accessible through the `smcp` and `c2sc` Opentype features
 - Changed the design of Æ, æ, Œ, œ, Ð, đ, ħ, ƒ, and ₽ 
 - Improved appearance of "M" in Video style
 - Improved kerning
 
+
 19 December 2022 - Version 1.000
+
 - Updated kerning
 - Reduced space width
 - Removed unnecessary space characters
 - Updated strikeout width and position in Print, Raster and Screen styles
 - Reduced dot size in Screen style
 
+
 14 December 2022 - Version 0.301
+
 - Improved appearance of em dash, underscore, cedilla and ogonek in Raster style
 - Added `meta` table to exported fonts, specifying designed/supported script
 - Reduced number of contours in Regular style, by disabling Fontmake's overlap removal
 - Removed ttfautohint from the build process
 - Changed font names to meet Google Fonts requirements
 
+
 9 December 2022 - Version 0.300
+
 - Added Raster style
 
+
 7 December 2022 - Version 0.216
+
 - Improved kerning
 - Changed appearance of alternative caron diacritic
 
+
 25 November 2022 - Version 0.215
+
 - Improved Video style appearance
 - Added additional whitespace and hyphen characters
 - Fixed alignment of double acute accents
@@ -198,14 +238,20 @@ Changelog
 - Added Greek Delta and mu as references to existing glyphs
 - Changed @ sign
 
+
 15 August 2022 - Version 0.214
+
 - Added kerning
 
+
 5 August 2022 - Version 0.213
+
 - Changed the working title from "Libre Dot Matrix" to "Matrix Sans"
 - Improved the appearance of some characters in the Video style
 
+
 3 August 2022 - Version 0.212
+
 - Fixed accent placement on Ű and ű
 - Increased line height
 - Fixed underline position
@@ -213,36 +259,49 @@ Changelog
 - Fixed dot positioning in Screen style
 - Increased height of dagger and double dagger
 
+
 31 July 2022 - Version 0.211
+
 - Changed build process to work around several bugs in FontForge
 - The Localised Forms ('locl') OpenType feature now works correctly
 
+
 28 July 2022 - Version 0.210
+
 - Modified Dutch ij ligature
 - Modified capital letter Ŋ; added localised form for Northern Sami
 - Added unencoded glyphs from Google Fonts Latin Core to avoid Font Bakery error (temporary)
 - Added OpenType features: ccmp, mark, locl, tnum, zero
 
+
 25 July 2022 - Version 0.200
+
 - Now supports Google Fonts Latin Core and Adobe Latin 3
 - Added dotted circle (U+25CC)
 - Fixed soft hyphen
 - Fixed WinAscent metric
 
+
 23 July 2022 - Version 0.100
+
 - Now supports the Adobe Latin 2 character set
 - Fixed character widths
 
+
 21 July 2022 - Version 0.002
+
 - Improved Video style appearance
 - Lengthened hyphen by one dot
 - Fixed character widths
 - Fixed line height
 - Updated metadata: font names, PANOSE classification, etc.
 
+
 20 July 2022 - Version 0.001
+
 - Initial test release
 - Supports Basic Latin (ASCII)
+
 
 Acknowledgements
 ----------------

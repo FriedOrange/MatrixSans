@@ -75,6 +75,14 @@ https://scripts.sil.org/OFL
 
 ## Changelog
 
+#### 21 November 2026 - Version 1.811
+
+- Kerned letter combinations: K + t, E + t etc. and Cyrilllic ү + л etc.
+- Tweaked design of some letters with middle tilde: ᵬ ᵭ ᵱ ᵲ
+- Improved the appearance of Ʂ in Mono Video and Mono Smooth styles
+- Improved consistency of superscript "modifier letters" (made ˀ ˁ taller and ⁿ wider)
+- Fixed Shavian kerning, which may not have worked as intended in previous releases
+
 #### 8 November 2026 - Version 1.810
 
 - Now supports the base glyphs (not the combining marks) of [GF Phonetics IPAStandard](https://github.com/googlefonts/glyphsets/blob/main/GLYPHSETS.md#gf-phonetics-ipastandard) (i.e. letters of the International Phonetic Alphabet), plus capital forms where applicable
