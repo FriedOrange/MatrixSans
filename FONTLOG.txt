@@ -36,7 +36,7 @@ Changelog
 
 21 November 2026 - Version 1.811
 
-- Kerned letter combinations: K + t, E + t etc. and Cyrilllic ү + л etc.
+- Kerned letter combinations: K + t, E + t etc. and Cyrillic ү + л etc.
 - Tweaked design of some letters with middle tilde: ᵬ ᵭ ᵱ ᵲ
 - Improved the appearance of Ʂ in Mono Video and Mono Smooth styles
 - Improved consistency of superscript "modifier letters" (made ˀ ˁ taller and ⁿ wider)
