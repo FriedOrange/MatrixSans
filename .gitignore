@@ -13,6 +13,10 @@ sources/temp
 .ninja_log
 build.ninja
 ccmp'
+documentation/webfonts
+scripts/matrix sans 1.810 chars.txt
+sources/*.ttf
+sources/gen.bat
 
 # OS generated files #
 ######################
