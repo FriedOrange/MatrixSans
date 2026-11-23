@@ -2134,6 +2134,8 @@
     <string>one.glif</string>
     <key>one.sc</key>
     <string>one.sc.glif</string>
+    <key>one.tnum</key>
+    <string>one.tnum.glif</string>
     <key>onedotenleader</key>
     <string>onedotenleader.glif</string>
     <key>oneeighth</key>
@@ -3298,12 +3300,20 @@
     <string>uni0E_0C_.glif</string>
     <key>uni0E0D</key>
     <string>uni0E_0D_.glif</string>
+    <key>uni0E0D.less</key>
+    <string>uni0E_0D_.less.glif</string>
     <key>uni0E0E</key>
     <string>uni0E_0E_.glif</string>
+    <key>uni0E0E.short</key>
+    <string>uni0E_0E_.short.glif</string>
     <key>uni0E0F</key>
     <string>uni0E_0F_.glif</string>
+    <key>uni0E0F.short</key>
+    <string>uni0E_0F_.short.glif</string>
     <key>uni0E10</key>
     <string>uni0E_10.glif</string>
+    <key>uni0E10.less</key>
+    <string>uni0E_10.less.glif</string>
     <key>uni0E11</key>
     <string>uni0E_11.glif</string>
     <key>uni0E12</key>
@@ -3344,10 +3354,14 @@
     <string>uni0E_23.glif</string>
     <key>uni0E24</key>
     <string>uni0E_24.glif</string>
+    <key>uni0E24.short</key>
+    <string>uni0E_24.short.glif</string>
     <key>uni0E25</key>
     <string>uni0E_25.glif</string>
     <key>uni0E26</key>
     <string>uni0E_26.glif</string>
+    <key>uni0E26.short</key>
+    <string>uni0E_26.short.glif</string>
     <key>uni0E27</key>
     <string>uni0E_27.glif</string>
     <key>uni0E28</key>
@@ -3376,12 +3390,20 @@
     <string>uni0E_33.glif</string>
     <key>uni0E34</key>
     <string>uni0E_34.glif</string>
+    <key>uni0E34.narrow</key>
+    <string>uni0E_34.narrow.glif</string>
     <key>uni0E35</key>
     <string>uni0E_35.glif</string>
+    <key>uni0E35.narrow</key>
+    <string>uni0E_35.narrow.glif</string>
     <key>uni0E36</key>
     <string>uni0E_36.glif</string>
+    <key>uni0E36.narrow</key>
+    <string>uni0E_36.narrow.glif</string>
     <key>uni0E37</key>
     <string>uni0E_37.glif</string>
+    <key>uni0E37.narrow</key>
+    <string>uni0E_37.narrow.glif</string>
     <key>uni0E38</key>
     <string>uni0E_38.glif</string>
     <key>uni0E39</key>
@@ -3406,12 +3428,18 @@
     <string>uni0E_47.glif</string>
     <key>uni0E48</key>
     <string>uni0E_48.glif</string>
+    <key>uni0E48.narrow</key>
+    <string>uni0E_48.narrow.glif</string>
     <key>uni0E49</key>
     <string>uni0E_49.glif</string>
     <key>uni0E4A</key>
     <string>uni0E_4A_.glif</string>
+    <key>uni0E4A.narrow</key>
+    <string>uni0E_4A_.narrow.glif</string>
     <key>uni0E4B</key>
     <string>uni0E_4B_.glif</string>
+    <key>uni0E4B.narrow</key>
+    <string>uni0E_4B_.narrow.glif</string>
     <key>uni0E4C</key>
     <string>uni0E_4C_.glif</string>
     <key>uni0E4D</key>
@@ -3436,6 +3464,8 @@
     <string>uni0E_56.glif</string>
     <key>uni0E57</key>
     <string>uni0E_57.glif</string>
+    <key>uni0E57.tnum</key>
+    <string>uni0E_57.tnum.glif</string>
     <key>uni0E58</key>
     <string>uni0E_58.glif</string>
     <key>uni0E59</key>

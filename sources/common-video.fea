@@ -22,6 +22,7 @@ languagesystem hebr dflt;
 languagesystem dsrt dflt;
 languagesystem shaw dflt;
 languagesystem kana dflt;
+languagesystem thai dflt;
 
 feature aalt {
 	feature c2sc;
@@ -428,3 +429,9 @@ feature case {
 @j_mark = [j jcaron jcircumflex uni029D];
 @j_mark2 = [jdotless];
 @t_mark = [t tbar];
+@thai_normal = [uni0E01 uni0E02 uni0E03 uni0E04 uni0E05 uni0E06 uni0E07 uni0E08 uni0E09 uni0E0A uni0E0B uni0E11 uni0E14 uni0E15 uni0E16 uni0E17 uni0E18 uni0E19 uni0E1A uni0E1C uni0E1E uni0E20 uni0E21 uni0E22 uni0E23 uni0E25 uni0E27 uni0E28 uni0E29 uni0E2A uni0E2B uni0E2C uni0E2D uni0E2E uni0E2F uni0E10.less];
+@thai_descender = [uni0E0E uni0E0F uni0E10 uni0E24 uni0E26];
+@thai_descender2 = [uni0E0E.short uni0E0F.short uni0E24.short uni0E26.short];
+@thai_ascender = [uni0E1B uni0E1D uni0E1F];
+@thai_8wide = [uni0E0C uni0E0D.less uni0E12 uni0E13];
+@thai_8wide_descender = [uni0E0D];

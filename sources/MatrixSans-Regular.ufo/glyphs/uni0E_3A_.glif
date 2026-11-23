@@ -2,6 +2,6 @@
 <glyph name="uni0E3A" format="2">
   <unicode hex="0E3A"/>
   <outline>
-    <component base="dotaccent" xOffset="-100.0" yOffset="-800.0"/>
+    <component base="dotaccent" yOffset="-700.0"/>
   </outline>
 </glyph>

@@ -3,6 +3,6 @@
   <advance height="-800" width="600"/>
   <unicode hex="0E38"/>
   <outline>
-    <component base="hookabovecomb" yOffset="-800.0"/>
+    <component base="hookabovecomb" xOffset="100.0" yOffset="-800.0"/>
   </outline>
 </glyph>

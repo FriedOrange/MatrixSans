@@ -2253,6 +2253,21 @@
 		<string>uni0250.sc</string>
 		<string>uni0265.sc</string>
 		<string>uni0189.alt</string>
+		<string>uni0E34.narrow</string>
+		<string>uni0E35.narrow</string>
+		<string>uni0E36.narrow</string>
+		<string>uni0E37.narrow</string>
+		<string>uni0E48.narrow</string>
+		<string>uni0E4A.narrow</string>
+		<string>uni0E4B.narrow</string>
+		<string>uni0E57.tnum</string>
+		<string>one.tnum</string>
+		<string>uni0E0D.less</string>
+		<string>uni0E0E.short</string>
+		<string>uni0E0F.short</string>
+		<string>uni0E10.less</string>
+		<string>uni0E24.short</string>
+		<string>uni0E26.short</string>
 	</array>
 	<key>public.openTypeCategories</key>
 	<dict>
@@ -4386,6 +4401,8 @@
 		<string>base</string>
 		<key>one.sc</key>
 		<string>base</string>
+		<key>one.tnum</key>
+		<string>base</string>
 		<key>onedotenleader</key>
 		<string>base</string>
 		<key>oneeighth</key>
@@ -5550,11 +5567,19 @@
 		<string>base</string>
 		<key>uni0E0D</key>
 		<string>base</string>
+		<key>uni0E0D.less</key>
+		<string>base</string>
 		<key>uni0E0E</key>
+		<string>base</string>
+		<key>uni0E0E.short</key>
 		<string>base</string>
 		<key>uni0E0F</key>
 		<string>base</string>
+		<key>uni0E0F.short</key>
+		<string>base</string>
 		<key>uni0E10</key>
+		<string>base</string>
+		<key>uni0E10.less</key>
 		<string>base</string>
 		<key>uni0E11</key>
 		<string>base</string>
@@ -5596,9 +5621,13 @@
 		<string>base</string>
 		<key>uni0E24</key>
 		<string>base</string>
+		<key>uni0E24.short</key>
+		<string>base</string>
 		<key>uni0E25</key>
 		<string>base</string>
 		<key>uni0E26</key>
+		<string>base</string>
+		<key>uni0E26.short</key>
 		<string>base</string>
 		<key>uni0E27</key>
 		<string>base</string>
@@ -5628,11 +5657,19 @@
 		<string>base</string>
 		<key>uni0E34</key>
 		<string>base</string>
+		<key>uni0E34.narrow</key>
+		<string>base</string>
 		<key>uni0E35</key>
+		<string>base</string>
+		<key>uni0E35.narrow</key>
 		<string>base</string>
 		<key>uni0E36</key>
 		<string>base</string>
+		<key>uni0E36.narrow</key>
+		<string>base</string>
 		<key>uni0E37</key>
+		<string>base</string>
+		<key>uni0E37.narrow</key>
 		<string>base</string>
 		<key>uni0E38</key>
 		<string>base</string>
@@ -5658,11 +5695,17 @@
 		<string>base</string>
 		<key>uni0E48</key>
 		<string>base</string>
+		<key>uni0E48.narrow</key>
+		<string>base</string>
 		<key>uni0E49</key>
 		<string>base</string>
 		<key>uni0E4A</key>
 		<string>base</string>
+		<key>uni0E4A.narrow</key>
+		<string>base</string>
 		<key>uni0E4B</key>
+		<string>base</string>
+		<key>uni0E4B.narrow</key>
 		<string>base</string>
 		<key>uni0E4C</key>
 		<string>base</string>
@@ -5687,6 +5730,8 @@
 		<key>uni0E56</key>
 		<string>base</string>
 		<key>uni0E57</key>
+		<string>base</string>
+		<key>uni0E57.tnum</key>
 		<string>base</string>
 		<key>uni0E58</key>
 		<string>base</string>
