@@ -200,6 +200,11 @@ feature mark {
 		<anchor 850 400> mark @marks_aboveright
 		<anchor 500 0> mark @marks_below
 		<anchor 700 -100> mark @marks_belowright;
+	pos base @thai_8wide_descender
+		<anchor 500 700> mark @marks_above
+		<anchor 850 400> mark @marks_aboveright
+		<anchor 500 -300> mark @marks_below
+		<anchor 700 -300> mark @marks_belowright;
 } mark;
 
 feature mkmk {
