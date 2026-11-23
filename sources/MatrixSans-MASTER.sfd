@@ -36592,6 +36592,7 @@ EndChar
 StartChar: uni0E31
 Encoding: 3633 3633 2201
 Width: 0
+GlyphClass: 4
 Flags: HMW
 LayerCount: 2
 Fore
@@ -36631,6 +36632,7 @@ EndChar
 StartChar: uni0E35
 Encoding: 3637 3637 2204
 Width: 0
+GlyphClass: 4
 Flags: HMW
 LayerCount: 2
 Fore
@@ -36645,6 +36647,7 @@ EndChar
 StartChar: uni0E36
 Encoding: 3638 3638 2205
 Width: 0
+GlyphClass: 4
 Flags: HMW
 LayerCount: 2
 Fore
@@ -36660,6 +36663,7 @@ EndChar
 StartChar: uni0E37
 Encoding: 3639 3639 2206
 Width: 0
+GlyphClass: 4
 Flags: HMW
 LayerCount: 2
 Fore
@@ -36675,6 +36679,7 @@ EndChar
 StartChar: uni0E39
 Encoding: 3641 3641 2207
 Width: 0
+GlyphClass: 4
 Flags: HMW
 LayerCount: 2
 Fore
@@ -36808,6 +36813,7 @@ EndChar
 StartChar: uni0E47
 Encoding: 3655 3655 2215
 Width: 0
+GlyphClass: 4
 Flags: HMW
 LayerCount: 2
 Fore
@@ -36825,6 +36831,7 @@ EndChar
 StartChar: uni0E49
 Encoding: 3657 3657 2216
 Width: 0
+GlyphClass: 4
 Flags: HMW
 LayerCount: 2
 Fore
@@ -36838,6 +36845,7 @@ EndChar
 StartChar: uni0E4A
 Encoding: 3658 3658 2217
 Width: 0
+GlyphClass: 4
 Flags: HMW
 LayerCount: 2
 Fore
@@ -36855,6 +36863,7 @@ StartChar: uni0E4B
 Encoding: 3659 3659 2218
 Width: 0
 VWidth: 1100
+GlyphClass: 4
 Flags: HMW
 LayerCount: 2
 Fore
@@ -36864,6 +36873,7 @@ EndChar
 StartChar: uni0E4C
 Encoding: 3660 3660 2219
 Width: 0
+GlyphClass: 4
 Flags: HMW
 LayerCount: 2
 Fore
@@ -36876,6 +36886,7 @@ EndChar
 StartChar: uni0E4E
 Encoding: 3662 3662 2220
 Width: 0
+GlyphClass: 4
 Flags: HMW
 LayerCount: 2
 Fore
@@ -37866,6 +37877,7 @@ StartChar: uni0E34
 Encoding: 3636 3636 2264
 Width: 0
 VWidth: 1400
+GlyphClass: 4
 Flags: HMW
 LayerCount: 2
 Fore
@@ -37876,6 +37888,7 @@ StartChar: uni0E38
 Encoding: 3640 3640 2265
 Width: 0
 VWidth: -800
+GlyphClass: 4
 Flags: HMW
 LayerCount: 2
 Fore
@@ -37886,6 +37899,7 @@ StartChar: uni0E48
 Encoding: 3656 3656 2266
 Width: 0
 VWidth: 1100
+GlyphClass: 4
 Flags: HMW
 AnchorPoint: "marks_above" 200 600 mark 0
 LayerCount: 2
@@ -37897,6 +37911,7 @@ StartChar: uni0E4D
 Encoding: 3661 3661 2267
 Width: 0
 VWidth: 1200
+GlyphClass: 4
 Flags: HMW
 LayerCount: 2
 Fore
@@ -37925,6 +37940,7 @@ EndChar
 StartChar: uni0E3A
 Encoding: 3642 3642 2270
 Width: 0
+GlyphClass: 4
 Flags: HMW
 AnchorPoint: "marks_below" 0 0 mark 0
 LayerCount: 2
