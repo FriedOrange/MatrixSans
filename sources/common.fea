@@ -123,7 +123,8 @@ feature smcp {
 } smcp;
 
 @_marks_above = [gravecomb acutecomb circumflexcomb tildecomb macroncomb brevecomb dotaccentcomb dieresiscomb hookabovecomb ringcomb hungarumlautcomb caroncomb verticallineabovecomb commaturnedabovecomb commaabovecomb circumflexcomb_acutecomb circumflexcomb_gravecomb circumflexcomb_hookabovecomb circumflexcomb_tildecomb uni030F];
-@_marks_below = [dotbelowcomb uni0324 commaaccentcomb cedillacomb uni0329 brevebelowcomb macronbelowcomb    uni0332 uni0335]; # includes comb short stroke overlay (uni0335)
+@_marks_below = [dotbelowcomb uni0324 commaaccentcomb cedillacomb uni0329 brevebelowcomb macronbelowcomb uni0332 uni0335]; # includes comb short stroke overlay (uni0335)
+@_thai_marks_below = [uni0E38 uni0E39 uni0E3A];
 
 feature ccmp {
 	# subs for D, Eth etc to be inserted here for Video and Smooth styles
@@ -194,6 +195,9 @@ feature ccmp {
 	language CAT;
 	language NSM;
 	language NLD;
+
+	script thai;
+	sub [uni0E0D uni0E0E uni0E0F uni0E10 uni0E24 uni0E26]' @_thai_marks_below by [uni0E0D.less uni0E0E.short uni0E0F.short uni0E10.less uni0E24.short uni0E26.short];
 } ccmp;
 
 feature locl {
