@@ -1,6 +1,7 @@
 
 # mark classes
-markClass [gravecomb acutecomb circumflexcomb tildecomb macroncomb brevecomb dotaccentcomb dieresiscomb hookabovecomb ringcomb hungarumlautcomb caroncomb verticallineabovecomb commaturnedabovecomb commaabovecomb circumflexcomb_acutecomb circumflexcomb_gravecomb circumflexcomb_hookabovecomb circumflexcomb_tildecomb uni030F uni0E31 uni0E34 uni0E35 uni0E36 uni0E37 uni0E47 uni0E48 uni0E49 uni0E4A uni0E4B uni0E4C uni0E4D uni0E4E] <anchor 0 600> @marks_above;
+markClass [gravecomb acutecomb circumflexcomb tildecomb macroncomb brevecomb dotaccentcomb dieresiscomb hookabovecomb ringcomb hungarumlautcomb caroncomb verticallineabovecomb commaturnedabovecomb commaabovecomb circumflexcomb_acutecomb circumflexcomb_gravecomb circumflexcomb_hookabovecomb circumflexcomb_tildecomb uni030F uni0E31 uni0E34 uni0E35 uni0E36 uni0E37 uni0E48 uni0E49 uni0E4C] <anchor 0 600> @marks_above;
+markClass [uni0E47 uni0E4A uni0E4B uni0E4D uni0E4E] <anchor 0 600> @marks_above_tall;
 markClass [dotbelowcomb uni0324 commaaccentcomb cedillacomb uni0329 brevebelowcomb macronbelowcomb uni0332 uni0335] <anchor 0 0> @marks_below; # includes comb short stroke overlay (uni0335)
 markClass [ogonekcomb uni0E38 uni0E39 uni0E3A] <anchor 0 0> @marks_belowright;
 markClass [uni0315 horncomb dotaboverightcomb] <anchor 0 500> @marks_aboveright;
@@ -177,37 +178,47 @@ feature mark {
 		<anchor 300 0> mark @marks_belowright;
 	pos base @thai_normal
 		<anchor 300 700> mark @marks_above
+		<anchor 300 700> mark @marks_above_tall
 		<anchor 550 400> mark @marks_aboveright
 		<anchor 300 0> mark @marks_below
 		<anchor 400 -100> mark @marks_belowright;
 	pos base @thai_descender
 		<anchor 300 700> mark @marks_above
+		<anchor 300 700> mark @marks_above_tall
 		<anchor 550 400> mark @marks_aboveright
 		<anchor 300 -300> mark @marks_below
 		<anchor 400 -300> mark @marks_belowright;
 	pos base @thai_descender2
 		<anchor 300 700> mark @marks_above
+		<anchor 300 700> mark @marks_above_tall
 		<anchor 550 400> mark @marks_aboveright
 		<anchor 300 -200> mark @marks_below
 		<anchor 400 -200> mark @marks_belowright;
 	pos base @thai_ascender
 		<anchor 300 700> mark @marks_above
+		<anchor 300 700> mark @marks_above_tall
 		<anchor 550 400> mark @marks_aboveright
 		<anchor 300 0> mark @marks_below
 		<anchor 400 -100> mark @marks_belowright;
 	pos base @thai_8wide
 		<anchor 500 700> mark @marks_above
+		<anchor 500 700> mark @marks_above_tall
 		<anchor 850 400> mark @marks_aboveright
 		<anchor 500 0> mark @marks_below
 		<anchor 700 -100> mark @marks_belowright;
 	pos base @thai_8wide_descender
 		<anchor 500 700> mark @marks_above
+		<anchor 500 700> mark @marks_above_tall
 		<anchor 850 400> mark @marks_aboveright
 		<anchor 500 -300> mark @marks_below
 		<anchor 700 -300> mark @marks_belowright;
 } mark;
 
 feature mkmk {
+	pos mark @marks_above_tall
+		<anchor 0 900> mark @marks_above;
+	pos mark @marks_above_tall
+		<anchor 0 900> mark @marks_above_tall;
 	pos mark @marks_above
 		<anchor 0 800> mark @marks_above;
 	pos mark @marks_below
