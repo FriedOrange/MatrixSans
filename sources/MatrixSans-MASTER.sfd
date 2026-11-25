@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 1
 OS2_UseTypoMetrics: 1
 CreationTime: 1657964544
-ModificationTime: 1795565491
+ModificationTime: 1795605645
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -64,7 +64,7 @@ NameList: MatrixSans
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 3552 16 12
+WinInfo: 1114256 16 12
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 629146 314573 209715 524288 1048576 0 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
@@ -37951,97 +37951,96 @@ EndChar
 StartChar: uni0E34.narrow
 Encoding: 1114428 -1 2271
 Width: 0
-VWidth: 1100
 Flags: HM
-AnchorPoint: "marks_above" 0 700 mark 0
+AnchorPoint: "marks_above" -100 600 mark 0
 LayerCount: 2
 Fore
-Refer: 109 175 N 1 0 0 1 -200 100 2
+Refer: 109 175 N 1 0 0 1 -300 0 2
 EndChar
 
 StartChar: uni0E35.narrow
 Encoding: 1114429 -1 2272
 Width: 0
-VWidth: 0
+VWidth: -100
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 0 -1 S 1 0 0 1 50 700 2
+Refer: 0 -1 S 1 0 0 1 -50 600 2
+Refer: 0 -1 S 1 0 0 1 -150 600 2
+Refer: 0 -1 S 1 0 0 1 -250 600 2
 Refer: 0 -1 S 1 0 0 1 -50 700 2
-Refer: 0 -1 S 1 0 0 1 -150 700 2
-Refer: 0 -1 S 1 0 0 1 50 800 2
 EndChar
 
 StartChar: uni0E36.narrow
 Encoding: 1114430 -1 2273
 Width: 0
-VWidth: 0
+VWidth: -100
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 0 -1 S 1 0 0 1 50 700 2
+Refer: 0 -1 S 1 0 0 1 -50 600 2
+Refer: 0 -1 S 1 0 0 1 -150 600 2
+Refer: 0 -1 S 1 0 0 1 -250 600 2
 Refer: 0 -1 S 1 0 0 1 -50 700 2
 Refer: 0 -1 S 1 0 0 1 -150 700 2
-Refer: 0 -1 S 1 0 0 1 50 800 2
-Refer: 0 -1 S 1 0 0 1 -50 800 2
 EndChar
 
 StartChar: uni0E37.narrow
 Encoding: 1114431 -1 2274
 Width: 0
-VWidth: 0
+VWidth: -100
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 0 -1 S 1 0 0 1 100 700 2
-Refer: 0 -1 S 1 0 0 1 0 700 2
-Refer: 0 -1 S 1 0 0 1 -100 700 2
-Refer: 0 -1 S 1 0 0 1 -200 700 2
-Refer: 0 -1 S 1 0 0 1 100 800 2
-Refer: 0 -1 S 1 0 0 1 -100 800 2
+Refer: 0 -1 N 1 0 0 1 50 600 2
+Refer: 0 -1 N 1 0 0 1 -50 600 2
+Refer: 0 -1 N 1 0 0 1 -150 600 2
+Refer: 0 -1 N 1 0 0 1 -250 600 2
+Refer: 0 -1 N 1 0 0 1 50 700 2
+Refer: 0 -1 N 1 0 0 1 -150 700 2
 EndChar
 
-StartChar: uni0E48.narrow
+StartChar: uni0E47.narrow
 Encoding: 1114432 -1 2275
 Width: 0
-VWidth: 0
+VWidth: -100
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 0 -1 S 1 0 0 1 50 700 2
-Refer: 0 -1 S 1 0 0 1 -50 700 2
-Refer: 0 -1 S 1 0 0 1 -150 800 2
-Refer: 0 -1 S 1 0 0 1 50 900 2
-Refer: 0 -1 S 1 0 0 1 -50 900 2
-EndChar
-
-StartChar: uni0E4A.narrow
-Encoding: 1114433 -1 2276
-Width: 0
-VWidth: 0
-Flags: HMW
-LayerCount: 2
-Fore
-Refer: 0 -1 S 1 0 0 1 50 700 2
-Refer: 0 -1 S 1 0 0 1 -50 700 2
+Refer: 0 -1 S 1 0 0 1 -50 600 2
+Refer: 0 -1 S 1 0 0 1 -150 600 2
+Refer: 0 -1 S 1 0 0 1 -250 700 2
 Refer: 0 -1 S 1 0 0 1 -50 800 2
 Refer: 0 -1 S 1 0 0 1 -150 800 2
 EndChar
 
-StartChar: uni0E4B.narrow
-Encoding: 1114434 -1 2277
+StartChar: uni0E49.narrow
+Encoding: 1114433 -1 2276
 Width: 0
-VWidth: 0
+VWidth: -100
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 0 -1 S 1 0 0 1 100 700 2
-Refer: 0 -1 S 1 0 0 1 0 700 2
-Refer: 0 -1 S 1 0 0 1 -100 700 2
-Refer: 0 -1 S 1 0 0 1 0 800 2
-Refer: 0 -1 S 1 0 0 1 -200 800 2
-Refer: 0 -1 S 1 0 0 1 0 900 2
-Refer: 0 -1 S 1 0 0 1 -100 900 2
+Refer: 0 -1 S 1 0 0 1 -50 600 2
+Refer: 0 -1 S 1 0 0 1 -150 600 2
+Refer: 0 -1 S 1 0 0 1 -150 700 2
+Refer: 0 -1 S 1 0 0 1 -250 700 2
+EndChar
+
+StartChar: uni0E4A.narrow
+Encoding: 1114434 -1 2277
+Width: 0
+VWidth: -100
+Flags: HMWO
+LayerCount: 2
+Fore
+Refer: 0 -1 N 1 0 0 1 50 600 2
+Refer: 0 -1 N 1 0 0 1 -50 600 2
+Refer: 0 -1 N 1 0 0 1 -150 600 2
+Refer: 0 -1 N 1 0 0 1 -50 700 2
+Refer: 0 -1 N 1 0 0 1 -250 700 2
+Refer: 0 -1 N 1 0 0 1 -50 800 2
+Refer: 0 -1 N 1 0 0 1 -150 800 2
 EndChar
 
 StartChar: uni0E57.tnum
