@@ -2268,6 +2268,7 @@
 		<string>uni0E10.less</string>
 		<string>uni0E24.short</string>
 		<string>uni0E26.short</string>
+		<string>uni0E48.short</string>
 	</array>
 	<key>public.openTypeCategories</key>
 	<dict>
@@ -5696,6 +5697,8 @@
 		<key>uni0E48</key>
 		<string>mark</string>
 		<key>uni0E48.narrow</key>
+		<string>base</string>
+		<key>uni0E48.short</key>
 		<string>base</string>
 		<key>uni0E49</key>
 		<string>mark</string>
