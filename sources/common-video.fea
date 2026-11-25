@@ -122,7 +122,7 @@ feature smcp {
 	sub @lc_ar by @sc_ar;
 } smcp;
 
-@_marks_above = [gravecomb acutecomb circumflexcomb tildecomb macroncomb brevecomb dotaccentcomb dieresiscomb hookabovecomb ringcomb hungarumlautcomb caroncomb verticallineabovecomb commaturnedabovecomb commaabovecomb circumflexcomb_acutecomb circumflexcomb_gravecomb circumflexcomb_hookabovecomb circumflexcomb_tildecomb uni030F uni0E48.short];
+@_marks_above = [gravecomb acutecomb circumflexcomb tildecomb macroncomb brevecomb dotaccentcomb dieresiscomb hookabovecomb ringcomb hungarumlautcomb caroncomb verticallineabovecomb commaturnedabovecomb commaabovecomb circumflexcomb_acutecomb circumflexcomb_gravecomb circumflexcomb_hookabovecomb circumflexcomb_tildecomb uni030F];
 @_marks_below = [dotbelowcomb uni0324 commaaccentcomb cedillacomb uni0329 brevebelowcomb macronbelowcomb uni0332 uni0335]; # includes comb short stroke overlay (uni0335)
 @_thai_marks_below = [uni0E38 uni0E39 uni0E3A];
 
@@ -198,8 +198,9 @@ feature ccmp {
 
 	script thai;
 	sub [uni0E0D uni0E0E uni0E0F uni0E10 uni0E24 uni0E26]' @_thai_marks_below by [uni0E0D.less uni0E0E.short uni0E0F.short uni0E10.less uni0E24.short uni0E26.short];
+	sub [uni0E1B uni0E1D uni0E1F] @_thai_marks_below [uni0E34 uni0E35 uni0E36 uni0E36 uni0E37 uni0E47 uni0E49 uni0E4A]' by [uni0E34.narrow uni0E35.narrow uni0E36.narrow uni0E36.narrow uni0E37.narrow uni0E47.narrow uni0E49.narrow uni0E4A.narrow];
 	sub [uni0E1B uni0E1D uni0E1F] [uni0E34 uni0E35 uni0E36 uni0E36 uni0E37 uni0E47 uni0E49 uni0E4A]' by [uni0E34.narrow uni0E35.narrow uni0E36.narrow uni0E36.narrow uni0E37.narrow uni0E47.narrow uni0E49.narrow uni0E4A.narrow];
-	sub  [uni0E34.narrow uni0E35.narrow uni0E36.narrow uni0E36.narrow uni0E37.narrow uni0E47.narrow uni0E49.narrow uni0E4A.narrow] [uni0E34 uni0E35 uni0E36 uni0E36 uni0E37 uni0E47 uni0E49 uni0E4A]' by [uni0E34.narrow uni0E35.narrow uni0E36.narrow uni0E36.narrow uni0E37.narrow uni0E47.narrow uni0E49.narrow uni0E4A.narrow];
+	# sub  [uni0E34.narrow uni0E35.narrow uni0E36.narrow uni0E36.narrow uni0E37.narrow uni0E47.narrow uni0E49.narrow uni0E4A.narrow] [uni0E34 uni0E35 uni0E36 uni0E36 uni0E37 uni0E47 uni0E49 uni0E4A]' by [uni0E34.narrow uni0E35.narrow uni0E36.narrow uni0E36.narrow uni0E37.narrow uni0E47.narrow uni0E49.narrow uni0E4A.narrow];
 	sub [uni0E35 uni0E36 uni0E37] uni0E48' by uni0E48.short;
 	sub uni0E33 by uni0E4D uni0E32;
 } ccmp;
