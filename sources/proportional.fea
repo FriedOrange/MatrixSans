@@ -201,14 +201,14 @@ feature mark {
 		<anchor 300 0> mark @marks_below
 		<anchor 400 -100> mark @marks_belowright;
 	pos base @thai_8wide
-		<anchor 500 700> mark @marks_above
-		<anchor 500 700> mark @marks_above_tall
+		<anchor 600 700> mark @marks_above
+		<anchor 600 700> mark @marks_above_tall
 		<anchor 850 400> mark @marks_aboveright
 		<anchor 500 0> mark @marks_below
 		<anchor 700 -100> mark @marks_belowright;
 	pos base @thai_8wide_descender
-		<anchor 500 700> mark @marks_above
-		<anchor 500 700> mark @marks_above_tall
+		<anchor 600 700> mark @marks_above
+		<anchor 600 700> mark @marks_above_tall
 		<anchor 850 400> mark @marks_aboveright
 		<anchor 500 -300> mark @marks_below
 		<anchor 700 -300> mark @marks_belowright;
