@@ -30,7 +30,7 @@ UNLINK_LIST = ["Aring", "Ccedilla", "aring", "ccedilla", "aogonek",
 	"scommaaccent", "Tcommaaccent", "tcommaaccent", "aring.sc", "eogonek.sc", "gcommaaccent.sc",
 	"iogonek.sc", "lcommaaccent.sc", "tcedilla.sc", "tcommaaccent.sc", "uogonek.sc", "Ohorn", "ohorn", "Uhorn", "uhorn", "uhorn.sc", "Aringacute", "aringacute", "Abrevetilde", "abrevetilde"]
 DOT_GLYPHS = ["dot", "printdot", "screendot", "rasterdot", "rasterdot2", "quarterdot", "concaveTR", "concaveTL", "convexTR", "convexTL", "midTR", "midTL", "chamferTR", "chamferTL", "concaveBR", "concaveBL", "convexBR", "convexBL", "midBR", "midBL", "chamferBR", "chamferBL"]
-LSB_FIX_LIST = ["hookabovecomb", "nhookleft", "florin.sc", "uni0E39", "uni0E47", "uni0E4A"]
+LSB_FIX_LIST = ["hookabovecomb", "nhookleft", "florin.sc", "uni0E39", "uni0E47", "uni0E4A", "uni0E47.narrow", "uni0E4A.narrow"]
 
 
 def add_names(font, style, suffix=""):
