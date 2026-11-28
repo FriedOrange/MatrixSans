@@ -38,7 +38,7 @@ lib["public.postscriptNames"] = ps_names
 # add 'meta' OpenType table
 lib["public.openTypeMeta"] = {
 		"dlng": ["Latn", "Cyrl", "Grek", "Armn", "Geor", "Geok", "Lisu", "Tfng", "Dsrt", "Shaw", "Kana", "bg-Cyrl", "sr-Cyrl"],
-		"slng": ["Latn", "Cyrl", "Grek", "Armn", "Geor", "Geok", "Lisu", "Tfng", "Dsrt", "Shaw", "Kana", "bg-Cyrl", "sr-Cyrl", "Hebr"]
+		"slng": ["Latn", "Cyrl", "Grek", "Armn", "Geor", "Geok", "Lisu", "Tfng", "Dsrt", "Shaw", "Kana", "bg-Cyrl", "sr-Cyrl", "Hebr", "Thai"]
 	}
 
 with open(NEW_LIB_FILE, "wb") as output_file:
