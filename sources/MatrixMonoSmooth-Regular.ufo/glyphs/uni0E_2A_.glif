@@ -6,8 +6,7 @@
     <contour>
       <point x="550.0" y="0.0" type="line"/>
       <point x="450.0" y="0.0" type="line"/>
-      <point x="450.0" y="100.0" type="line"/>
-      <point x="380.0" y="100.0" type="line"/>
+      <point x="450.0" y="30.0" type="line"/>
       <point x="280.0" y="200.0" type="line"/>
       <point x="220.0" y="200.0" type="line"/>
       <point x="170.0" y="150.0" type="line"/>
@@ -18,8 +17,7 @@
       <point x="50.0" y="170.0" type="line"/>
       <point x="180.0" y="300.0" type="line"/>
       <point x="320.0" y="300.0" type="line"/>
-      <point x="420.0" y="200.0" type="line"/>
-      <point x="450.0" y="200.0" type="line"/>
+      <point x="450.0" y="170.0" type="line"/>
       <point x="450.0" y="330.0" type="line"/>
       <point x="280.0" y="500.0" type="line"/>
       <point x="220.0" y="500.0" type="line"/>
