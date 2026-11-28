@@ -216,12 +216,10 @@ feature mark {
 
 feature mkmk {
 	pos mark @marks_above_tall
-		<anchor 0 900> mark @marks_above;
-	pos mark @marks_above_tall
+		<anchor 0 900> mark @marks_above
 		<anchor 0 900> mark @marks_above_tall;
 	pos mark @marks_above
-		<anchor 0 800> mark @marks_above;
-	pos mark @marks_above
+		<anchor 0 800> mark @marks_above
 		<anchor 0 800> mark @marks_above_tall;
 	pos mark @marks_below
 		<anchor 0 -200> mark @marks_below;
